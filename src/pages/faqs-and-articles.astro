@@ -1,0 +1,378 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { trekFAQs } from '../data/faqsData.js';
+---
+<Layout>
+
+
+<section class="faqs-hero">
+  <div class="container">
+    <h1>Filter Your Search</h1>
+    <div class="search-bar">
+      <input type="text" 
+        placeholder="Type the related keyword here..."
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="faqSearch" 
+      />
+      <button id="searchBtn" aria-label="Search"><i class="fas fa-search"></i></button>
+    </div>
+  </div>
+</section>
+
+<section class="faqs-body">
+  {trekFAQs.map((topicBlock, topicIndex) => (
+  <div class="faq-topic">
+    <div class="faq-topic-header" data-index={topicIndex}>
+      <span class="topic-toggle">▶</span>
+      <h2>{topicBlock.topic}</h2>
+    </div>
+    <div class="faq-topic-body">
+      {topicBlock.faqs.map(faq => (
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="faq-toggle">&gt;</span>
+            <span set:html={faq.question}></span>
+          </div>
+          <div class="faq-answer" set:html={faq.answer}></div>
+        </div>
+      ))}
+    </div>
+  </div>
+))}
+
+</section>
+
+
+<style>
+/* Hero Section */
+
+.faqs-hero {
+  position: relative;
+  height: 140px; /* max height */
+  background-color: white; /* optional, change as needed */
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), #ff7300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0; /* space for 2nd navbar on desktop */
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.faqs-hero .container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .faqs-hero {
+    margin-top: -55px; /* only 1 navbar visible on mobile */
+    height: auto; /* let it adjust if needed */
+    flex-direction: column;
+  }
+
+  .faqs-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .faqs-hero .search-bar {
+    max-width: 90%;
+  }
+}
+
+.faqs-hero h1 {
+  
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+
+.faqs-hero .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.faqs-hero .search-bar input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  outline: none;
+}
+ .search-bar input:focus {
+    box-shadow: 0 0 8px 2px #ff7300;
+ }
+
+.faqs-hero .search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff7300; /* your brand color */
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar button:hover {
+  background: #e06400;
+}
+
+/* Body Section */
+
+/* Search Input */
+.faq-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.faq-search:focus {
+  border-color: #ff7300;
+  box-shadow: 0 0 5px rgba(255, 115, 0, 0.5);
+}
+
+.highlight {
+  background-color: #ffebcc;
+  font-weight: bold;
+}
+
+/* Faqs */
+
+/* FAQ Section Container */
+.faqs-body {
+  margin: 3rem 0;
+  max-width: 800px;
+  padding-left: 5rem; /* gap from screen edges */
+  text-align: left;
+}
+
+/* Topic Header */
+.faq-topic-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.faq-topic-header h2 {
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.topic-toggle {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Root Topic Body */
+.faq-topic-body {
+  max-height: 0;              /* collapsed by default */
+  overflow-y: auto;           /* scroll if content too long */
+  transition: max-height 0.5s ease;
+  padding-left: 2rem;         /* indent content */
+}
+
+/* Active Topic Body */
+.faq-topic.active > .faq-topic-body {
+  max-height: 500px;          /* adjust based on screen */
+}
+
+/* FAQ Items */
+.faq-item {
+  margin-bottom: 0.5rem;
+}
+
+.faq-question {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover,
+.faq-item.active .faq-question {
+  color: #ff7300;
+}
+
+.faq-toggle {
+  transition: transform 0.3s ease;
+}
+
+/* FAQ Answer */
+.faq-answer {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.95rem;
+  color: #000;
+  margin-top: 0.25rem;
+  padding-left: 1.5rem;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease, padding 0.4s ease;
+}
+
+.faq-item.active .faq-answer {
+  padding: 0.25rem 0 0.25rem 1.5rem;
+}
+
+.faq-item.active .faq-toggle {
+  transform: rotate(90deg);
+}
+
+.faq-topic.active .topic-toggle {
+  transform: rotate(90deg);
+}
+
+/* Hover effect on topic header */
+.faq-topic-header:hover h2 {
+  color: #ff7300;
+}
+
+.faq-topic.active h2 {
+  color: #000;
+}
+
+/* Optional: scrollbar styling */
+.faq-topic-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.faq-topic-body::-webkit-scrollbar-thumb {
+  background-color: #ff7300;
+  border-radius: 3px;
+}
+
+
+
+</style>
+
+<script>
+const heroSearchInput = document.querySelector('.faqs-hero input');
+
+heroSearchInput.addEventListener('input', e => {
+  const query = e.target.value.trim().toLowerCase();
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const questionEl = item.querySelector('.faq-question span');
+    const answerEl = item.querySelector('.faq-answer');
+    const topic = item.closest('.faq-topic');
+
+    const questionText = questionEl.textContent.toLowerCase();
+    const answerText = answerEl.textContent.toLowerCase();
+
+    if (!query) {
+      // Reset everything
+      item.style.display = 'block';
+      questionEl.textContent = questionEl.dataset.originalText;
+      if(topic){
+        topic.classList.remove('active');
+        const body = topic.querySelector('.faq-topic-body');
+        if(body) body.style.maxHeight = null;
+      }
+      return;
+    }
+
+    if (questionText.includes(query) || answerText.includes(query)) {
+      // Show matching FAQ
+      item.style.display = 'block';
+
+      // Auto-expand parent topic
+      if(topic){
+        topic.classList.add('active');
+        const body = topic.querySelector('.faq-topic-body');
+        if(body) body.style.maxHeight = body.scrollHeight + "px";
+      }
+
+    } else {
+      // Hide non-matching FAQ
+      item.style.display = 'none';
+    }
+  });
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Toggle root topic
+  const topicHeaders = document.querySelectorAll('.faq-topic-header');
+
+  topicHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+      const topic = header.parentElement;
+      const body = topic.querySelector(':scope > .faq-topic-body'); // direct child only
+
+      if (!body) return;
+
+      topic.classList.toggle('active');
+
+      if (topic.classList.contains('active')) {
+        body.style.maxHeight = body.scrollHeight + "px";
+      } else {
+        body.style.maxHeight = null;
+      }
+    });
+  });
+
+  // FAQ item toggle inside topics
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+
+    question.addEventListener('click', () => {
+      const parentTopic = item.closest('.faq-topic');
+      const itemsInTopic = parentTopic.querySelectorAll('.faq-item');
+
+      itemsInTopic.forEach(i => {
+        if (i !== item) {
+          i.classList.remove('active');
+          const ans = i.querySelector('.faq-answer');
+          if (ans) ans.style.maxHeight = null;
+        }
+      });
+
+      item.classList.toggle('active');
+
+      if (item.classList.contains('active')) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      } else {
+        answer.style.maxHeight = null;
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+</Layout>

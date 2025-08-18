@@ -1,0 +1,172 @@
+/* Import Fonts (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* 1. RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* MOBILE: hide second navbar completely to free space */
+@media (max-width: 767px) {
+  .main-navbar {
+    display: none; /* removes it from layout entirely */
+  }
+}
+
+
+/* Smooth layout adjustment for content */
+
+
+/* ====== Trek Hero Section ====== */
+/* Desktop */
+.trek-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full viewport height minus nav handled by desktop layout */
+  overflow: hidden;
+  background-color: white;
+  
+}
+
+.trek-hero-image {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  object-position: center;
+  display: block;
+ 
+  
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.25); /* optional overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* vertical & horizontal centering */
+  z-index: 2;
+  text-align: center;
+  width: 90%;
+  color: white;
+}
+
+.hero-title {
+  font-size: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+  text-shadow: 2px 4px 8px rgba(0,0,0,1);
+}
+
+.hero-subtitle {
+  font-size: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  color: white;
+  text-shadow: 2px 4px 6px rgba(0,0,0,0.8);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .trek-hero {
+    margin-top: -55px;          /* use hidden navbar space */
+    height: calc(100vh - 55px);  /* full hero height */
+  }
+
+  .trek-hero-image {
+    height: calc(100% + 1rem); /* slightly taller on mobile too */
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;                    /* keep content vertically centered */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    color:white;
+  }
+
+  .hero-title {
+    font-size: 3.25rem;          /* same big size */
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;           /* same as desktop */
+  }
+}
+
+
+
+
+/* ======= MOBILE RESPONSIVE ADJUSTMENTS ======= */
+
+
+
+body {
+  font-family: 'Roboto', sans-serif; /* Body font */
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+}
+
+
+
+/* 2. PAGE WIDTH & CONTAINER */
+:root {
+  --brand-color: #ff7300;
+  --max-page-width: 1200px; /* Max content width */
+}
+
+.container {
+  max-width: var(--max-page-width, 1200px);
+  margin: 0 auto;       /* Center horizontally */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing:border-box;    /* Side padding */
+}
+
+/* 3. TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif; /* Heading font */
+  font-weight: bold;
+  color: #111;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+/* 5. SECTION SPACING */
+section {
+  padding: 1rem 0;
+}
+
+
+
+
+
+
+

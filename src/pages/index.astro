@@ -1,0 +1,884 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { treks } from '../data/treksData.js';
+
+---
+
+
+<Layout title="Planethimalayas">
+
+  <style>
+
+    .hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* standard hero height */
+  background-image: url('/images/hero.jpg');
+  background-size: cover;       /* fills full width & height, keeps aspect ratio */
+  background-position: calc(50% ) calc(0% - 8rem); /* image starts from top */
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 2rem;           /* space for text from top */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: -55px;
+}
+
+    .hero h1 {
+      font-family: Helvetica, sans-serif;
+      font-size: 6rem;
+      line-height: 1.2;
+      font-weight: bold;
+      color: white;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+      padding-left: 8rem;
+      
+    }
+
+    .hero p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 1.25rem;
+      max-width: 100%;
+      margin-top: 0;
+      color: white;
+      text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+      padding-left: 8rem;
+      padding-right: 36rem;
+    }
+
+    .cta-button {
+      background-color: #ff7300;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      padding: 0.5rem 0.5rem;
+      padding-left: 8rem;
+      padding-right: 8rem;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      margin-left: 8rem;
+      text-decoration: none;
+      border-radius: 10px;
+      width: fit-content;
+      box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.8);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ffffff; /* or #ff7300 for brand orange */
+  transition: width 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+.how-different {
+  padding: 4rem 2rem;
+}
+
+    /* Container for about section */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .about-section {
+      width: 100%;
+      margin: 0 auto;
+      padding: 4rem 0;
+      background: #fff;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .about-heading {
+      text-align: left;
+      font-family: 'Helvetica', sans-serif;
+      font-size: 2rem;
+      
+    }
+
+    .about-underline {
+      height: 2px;
+      background-color: var(--brand-color, #ff7300);
+      width: 100%;
+      margin: 0 auto 2rem;
+      border-radius: 2px;
+    }
+
+    .about-card {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+      margin: 0 auto;
+      
+    }
+
+    .about-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-subheading {
+      font-family: 'Helvetica', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      text-align: left;
+    }
+
+    .about-text {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5;
+      display: block;
+      text-align: left;
+    }
+
+    .about-separator {
+      width: 1px;
+      background-color: #ddd;
+    }
+
+  
+    /* ====== Responsive Mobile Styles ====== */
+    @media (max-width: 767px) {
+      .hero {
+        height: 100vh;                 /* slightly smaller hero */
+    background-size: 150%;      /* show full image */
+    background-position: top center; /* image starts from top */
+    background-repeat: no-repeat;
+    padding-top: 2rem; 
+      }
+
+      .hero h1 {
+        padding-left: 0;   /* less horizontal padding */
+        padding-right: 0;
+        font-size: 4rem !important;       /* smaller font for h1 */
+        text-align: center;                 /* center align text */
+        max-width: 90vw;                   /* limit width to viewport */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+      }
+
+      .hero p {
+        padding-left: 0;   /* less horizontal padding */
+        padding-right: 0;
+        font-size: 1rem ;       /* smaller font for h1 */
+        text-align: center;                 /* center align text */
+        max-width: 90vw;                   /* limit width to viewport */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      }
+
+      .cta-button {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        margin-top: 1rem;   /* moves it downward from the paragraph */
+        margin-bottom: -5rem;
+        
+      }
+
+      .underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ffffff; /* or #ff7300 for brand orange */
+  transition: width 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+.how-different {
+  padding: 4rem 2rem;
+}
+
+      .about-section {
+        padding: 2rem 1rem;
+      }
+
+      .about-heading {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .about-card {
+        flex-direction: column;
+        padding: 1.5rem;
+        max-width: 100%;
+      }
+
+      .about-separator {
+        display: none; /* remove vertical separators on mobile */
+      }
+
+      .about-subheading {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      .about-text {
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: center;
+      }
+    }
+
+    /* Testimonials Section - matching About Section style */
+.testimonials {
+  
+  background-color: white;
+  position: relative;
+}
+
+.testimonials-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  text-align: left;
+}
+
+.testimonials-underline {
+  width: 100%;
+  height: 2px;
+  background-color: #ff7300;
+  margin: 0 auto 2rem;
+  border-radius: 2px;;
+}
+
+/* Card wrapper */
+.testimonials-card-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+/* Individual cards */
+.testimonial-card {
+  flex: 0 0 50%; /* 2 cards per screen on desktop */
+  max-width: 50%;
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.testimonial-profession,
+.testimonial-social {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 2px 0;
+}
+
+.testimonial-stars {
+  color: #ff7300;
+  font-size: 1rem;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  max-height: 60px;
+  transition: max-height 0.3s ease;
+}
+
+.testimonial-card.expanded .testimonial-text {
+  max-height: 500px;
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #ff7300;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+/* Scrollbar styling */
+.testimonials-card-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* 2. Arrow buttons */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  font-size: 2rem;
+  color: #ff7300;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.scroll-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.scroll-btn.left {
+  left: -40px;
+}
+
+.scroll-btn.right {
+  right: -40px;
+}
+
+.scroll-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* 3. Social icons */
+.testimonial-social a {
+  margin-right: 0.5rem;
+  color: #666;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.3s ease;
+}
+
+.testimonial-social a:hover {
+  color: #ff7300;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 100%;   /* 1 per view on mobile */
+    max-width: 100%;
+  }
+}
+
+</style>
+
+
+  
+
+<!-- Hero Section -->
+
+  <section class="hero">
+    <div>
+      <h1>More Than<br />Just A Trek</h1>
+    </div>
+
+    <div>
+      <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
+    </div>
+
+    <div>
+      <p>"Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas"</p>
+    </div>
+  </section>
+
+  
+
+  <div class="container">
+    <section class="about-section">
+      <h2 class="about-heading">How our treks are more than just a trek</h2>
+      <div class="about-underline"></div>
+      <div class="about-card">
+        <div class="about-column">
+          <h3 class="about-subheading">Not Just a Trek — A Journey That Stays With You</h3>
+          <p class="about-text">
+            Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul. Our treks are designed not as bucket list checkmarks, but as life-affirming journeys, where the silence of alpine forests, the crackle of campfire stories, and the first glimpse of dawn over snow peaks transform the ordinary into something unforgettable. At Planethimalayas, we believe a mountain journey is deeply personal — and that belief runs through everything we do.
+          </p>
+        </div>
+        <div class="about-separator"></div>
+        <div class="about-column">
+          <h3 class="about-subheading">Individual Care, Every Step of the Way</h3>
+          <p class="about-text">
+            We keep our groups small and intimate so we can focus on you — your pace, your concerns, your joy. From pre-trek guidance to trail-side support, our experienced trek leaders walk with intention, offering safety without compromise and attention without intrusion. Whether you're a first-time trekker or a seasoned explorer, our team ensures you feel held, heard, and never hurried. It’s this deep care that turns strangers into friends and walks into memories.
+          </p>
+        </div>
+        <div class="about-separator"></div>
+        <div class="about-column">
+          <h3 class="about-subheading">Built on Genuine Love for the Himalayas</h3>
+          <p class="about-text">
+            We don’t just operate in the Himalayas — we live and breathe them. From respecting mountain communities to following Leave No Trace ethics, our treks are shaped by a love that’s humble, local, and real. Our itineraries blend raw beauty with responsible travel, ensuring you not only see these mountains — but truly connect with them. With Planethimalayas, your trek becomes more than a trip — it becomes part of your story.
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <h2 class="testimonials-heading">What our trekkers say</h2>
+  <div class="testimonials-underline"></div>
+
+  <!-- Wrapper to hold arrows + cards -->
+  <div class="testimonials-wrapper" style="position: relative;">
+    <!-- Left Arrow -->
+    <button class="scroll-btn left" onclick="scrollTestimonials(-1)">&#10094;</button>
+    <!-- Right Arrow -->
+    <button class="scroll-btn right" onclick="scrollTestimonials(1)">&#10095;</button>
+
+    <!-- Card Container -->
+    <div class="testimonials-card-wrapper" id="testimonialRow">
+      
+      <!-- Testimonial Card 1 -->
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="/images/samar.jpeg" alt="Samar" class="testimonial-pic" />
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Samar</h3>
+            <p class="testimonial-profession">Automotive UX Designer</p>
+            <div class="testimonial-social">
+              <a href="https://instagram.com/wheelspin_199" target="_blank">
+                <i class="fab fa-instagram"></i> @wheelspin_199
+              </a>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          I made friendship with the mountains through Kamal sirs experience. The moment i met him at my last trek at Kedarkantha, I was impressed by his mountaineering knowledge and friendly nature that this year too (to Tungnath) and every year hereafter I am going to partner him to a new peak and new experiences in those journeys. Kudos to Planethimalayas for the exceptional work in making the love of mountains more accessible and enjoyable.
+        </p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="/images/akshata.jpg" alt="Akshata" class="testimonial-pic" />
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Akshata Poojari</h3>
+            <p class="testimonial-profession">Travel Blogger</p>
+            <div class="testimonial-social">
+              <a href="https://instagram.com/akshata_r_poojari" target="_blank">
+                <i class="fab fa-instagram"></i> @akshata_r_poojari
+              </a>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          The trekking experience was absolutely unforgettable..Our guide was friendly and knowledgeable, making the whole journey fun and safe.
+        </p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+
+      <!-- Testimonial Card 3 -->
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="/images/akshata.jpg" alt="Akshata" class="testimonial-pic" />
+          <div class="testimonial-info">
+            <h3 class="testimonial-name">Akshata Poojari</h3>
+            <p class="testimonial-profession">Travel Blogger</p>
+            <div class="testimonial-social">
+              <a href="https://instagram.com/akshata_r_poojari" target="_blank">
+                <i class="fab fa-instagram"></i> @akshata_r_poojari
+              </a>
+            </div>
+            <div class="testimonial-stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          The trekking experience was absolutely unforgettable..Our guide was friendly and knowledgeable, making the whole journey fun and safe.
+        </p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+
+    </div> <!-- /#testimonialRow -->
+  </div> <!-- /.testimonials-wrapper -->
+</section> <!-- /.testimonials -->
+
+
+
+<!-- CURRENT TREKS: Monsoon Treks -->
+<section class="trek-section">
+  <h2>Current Treks</h2>
+  <div class="about-underline"></div>
+  <div class="trek-cards-wrapper">
+    <button class="scroll-btn left" onclick="scrollCards('monsoon', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="monsoon">
+      {
+        treks
+          .filter(trek => {
+            if (!trek.season) return false;
+            const seasons = Array.isArray(trek.season) ? trek.season : [trek.season];
+            return seasons.map(s => String(s).toLowerCase()).includes('monsoon');
+          })
+          .map(trek => {
+            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+            return (
+              <div class="trek-card" key={trek.id}>
+                <a href={`/trek/${trek.id}#trek-hero`}>
+                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+                </a>
+                <h3 class="trek-name">{trek.name}</h3>
+                <div class="trek-info">{duration} | {trek.region}</div>
+                <div class="trek-difficulty">{difficultyStr}</div>
+                <div class="trek-buttons">
+                  <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#pricing-details`} class="btn btn-dates">View Dates</a>
+                </div>
+              </div>
+            );
+          })
+      }
+    </div>
+    <button class="scroll-btn right" onclick="scrollCards('monsoon', 1)">&gt;</button>
+  </div>
+</section>
+
+<!-- UPCOMING TREKS: Autumn Treks -->
+<section class="trek-section">
+  <h2>Upcoming Treks</h2>
+  <div class="about-underline"></div>
+  <div class="trek-cards-wrapper">
+    <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="autumn">
+      {
+        treks
+          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('autumn'))
+          .map(trek => {
+            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+            return (
+              <div class="trek-card" key={trek.id}>
+                <a href={`/trek/${trek.id}#trek-hero`}>
+                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+                </a>
+                <h3 class="trek-name">{trek.name}</h3>
+                <div class="trek-info">{duration} | {trek.region}</div>
+                <div class="trek-difficulty">{difficultyStr}</div>
+                <div class="trek-buttons">
+                  <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#pricing-details`} class="btn btn-dates">View Dates</a>
+                </div>
+              </div>
+            );
+          })
+      }
+    </div>
+    <button class="scroll-btn right" onclick="scrollCards('autumn', 1)">&gt;</button>
+  </div>
+</section>
+
+
+
+
+<style>
+.trek-section {
+  margin-bottom: 2rem;
+}
+.trek-section h2 {
+  font-size: 2rem;
+  color: black;
+  
+}
+
+/* Wrapper for scroll + buttons */
+.trek-cards-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Horizontal scroll container */
+.trek-cards-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Individual card */
+.trek-card {
+  flex: 0 0 33.333%;  /* 3 per row desktop */
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.1),        /* subtle base shadow */
+    0 8px 20px rgba(0, 0, 0, 0.15);       /* deeper shadow for depth */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+  transition: 
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, box-shadow;
+}
+
+  .trek-card:hover {
+    transform: translateY(-14px) rotateX(4deg) rotateY(2deg);
+    box-shadow: 
+    0 12px 24px rgba(0, 0, 0, 0.25), 
+    0 20px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+
+/* Mobile: 2 per row */
+@media (max-width: 768px) {
+  .trek-card {
+    flex: 0 0 100%;
+  }
+}
+
+/* Card image */
+.trek-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+.trek-card:hover img {
+    transform: scale(1.25) rotate(-1deg);
+}
+
+/* Card text */
+.trek-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ff7300;
+  text-align: center;
+  margin: 0.5rem 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.trek-info, .trek-difficulty {
+  text-align: center;
+  margin: 0 0.5rem 0.5rem;
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* Buttons container */
+.trek-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.trek-card a.btn {
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-details {
+  background: black;
+  color: white;
+  box-shadow: 0px 2px 8px #ff7300;
+}
+
+.btn-details:hover {
+  background: #ff7300;
+  color: black;
+  box-shadow: 0px 2px 8px black;
+}
+
+.btn-dates {
+  background: #ff7300;
+  color: black;
+  box-shadow: 0px 2px 8px black;
+}
+
+.btn-dates:hover {
+  background: black;
+  color: white;
+  box-shadow: 0px 2px 8px #ff7300;
+}
+
+/* Scroll buttons */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff7300;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 5;
+}
+
+.scroll-btn.left { left: 0; }
+.scroll-btn.right { right: 0; }
+</style>
+
+
+</div>
+</Layout>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const row = document.getElementById("testimonialRow");
+  const leftBtn = document.querySelector(".scroll-btn.left");
+  const rightBtn = document.querySelector(".scroll-btn.right");
+
+  // Scroll Function
+  function scrollTestimonials(direction) {
+    const card = row.querySelector(".testimonial-card");
+    if (!card) return;
+
+    const gap = parseInt(getComputedStyle(row).gap) || 0;
+    const cardWidth = card.offsetWidth + gap;
+
+    row.scrollBy({
+      left: direction * cardWidth,
+      behavior: "smooth"
+    });
+
+    setTimeout(updateArrowState, 400); // update after scroll animation
+  }
+
+  // Enable/Disable Arrows at edges
+  function updateArrowState() {
+    leftBtn.disabled = row.scrollLeft <= 0;
+    rightBtn.disabled = row.scrollLeft + row.clientWidth >= row.scrollWidth;
+  }
+
+  // Attach Events to arrows
+  leftBtn.addEventListener("click", () => scrollTestimonials(-1));
+  rightBtn.addEventListener("click", () => scrollTestimonials(1));
+
+  // Initial state
+  updateArrowState();
+
+  // Read More Toggle
+  document.querySelectorAll('.read-more-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const card = btn.closest('.testimonial-card');
+      card.classList.toggle('expanded');
+      btn.textContent = card.classList.contains('expanded') ? 'Show Less' : 'Read More';
+    });
+  });
+});
+</script>
+
+
+<script type="module">
+function scrollCards(sectionId, direction) {
+  const container = document.getElementById(sectionId);
+  if (!container) return;
+
+  // Calculate scroll by card width + gap
+  const card = container.querySelector('.trek-card');
+  if (!card) return;
+  
+  const style = window.getComputedStyle(container);
+  const gap = parseInt(style.gap) || 16; // default 1rem if not set
+  const scrollAmount = (card.offsetWidth + gap) * direction;
+
+  container.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+  });
+}
+
+// Expose globally so onclick works
+window.scrollCards = scrollCards;
+</script>
+
+
+
+
+
+

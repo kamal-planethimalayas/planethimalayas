@@ -1,0 +1,30 @@
+---
+---
+
+<html>
+  <head><title>Thank You - Planethimalayas</title></head>
+  <body style="max-width:600px; margin:auto; padding:2rem; font-family: Roboto, sans-serif;">
+    <h1 style="font-family: Helvetica, sans-serif; color:#ff7300;">Thank You!</h1>
+    <p>Your booking is confirmed. We look forward to trekking with you.</p>
+
+    <button 
+      style="background:#ff7300; color:white; font-weight:bold; padding:1rem 2rem; border:none; border-radius:5px; cursor:pointer;"
+      id="logoutBtn"
+    >
+      Logout
+    </button>
+
+    <script type="module" is:inline>
+      import { createClient } from 'https://cdn.skypack.dev/@supabase/supabase-js';
+
+      const supabaseUrl = 'https://YOUR_SUPABASE_PROJECT_ID.supabase.co';
+      const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+      const supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+      document.getElementById('logoutBtn').onclick = async () => {
+        await supabase.auth.signOut();
+        window.location.href = '/auth';
+      };
+    </script>
+  </body>
+</html>

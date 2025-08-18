@@ -1,0 +1,151 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { supabase } from "../lib/supabaseClient"; // Supabase client
+
+// Server-side: get logged-in user
+const {
+  data: { user },
+} = await supabase.auth.getUser();
+
+let bookings = [];
+
+// Fetch initial bookings if logged in
+if (user) {
+  const { data, error } = await supabase
+    .from("bookings")
+    .select("*")
+    .eq("user_id", user.id)
+    .order("created_at", { ascending: false });
+
+  if (!error) bookings = data;
+}
+---
+
+<Layout title="My Bookings">
+  <section class="container mx-auto py-12">
+    {user ? (
+      <>
+        <div class="flex justify-between items-center mb-6">
+          <h1 class="text-3xl font-bold">My Bookings</h1>
+          <button
+            id="toggle-updates"
+            class="px-4 py-2 rounded bg-[#ff7300] text-white shadow"
+          >
+            🔴 Live Updates: OFF
+          </button>
+        </div>
+
+        <div id="bookings-list">
+          {bookings.length > 0 ? (
+            <div class="grid gap-6">
+              {bookings.map((booking) => (
+                <div class="p-6 border rounded-lg shadow bg-white">
+                  <h2 class="text-xl font-semibold">{booking.trek_name}</h2>
+                  <p class="text-gray-600">Date: {booking.trek_date}</p>
+                  <p class="text-gray-600">Amount: ₹{booking.amount}</p>
+                  <p
+                    class={`font-semibold ${
+                      booking.booking_status === "paid"
+                        ? "text-green-600"
+                        : booking.booking_status === "pending"
+                        ? "text-yellow-600"
+                        : "text-red-600"
+                    }`}
+                  >
+                    Status: {booking.booking_status}
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p>No bookings found.</p>
+          )}
+        </div>
+      </>
+    ) : (
+      <div class="text-center">
+        <h1 class="text-2xl font-bold mb-4">Please Log In</h1>
+        <a
+          href="/auth"
+          class="px-6 py-3 bg-[#ff7300] text-white rounded-lg shadow"
+        >
+          Go to Login
+        </a>
+      </div>
+    )}
+  </section>
+
+  {user && (
+    <script>
+      import { supabase } from "../lib/supabaseClient";
+
+      const bookingsList = document.getElementById("bookings-list");
+      const toggleBtn = document.getElementById("toggle-updates");
+
+      let subscription = null;
+      let liveEnabled = false;
+
+      function enableLiveUpdates() {
+        if (subscription) return; // already subscribed
+        subscription = supabase
+          .channel("bookings-channel")
+          .on(
+            "postgres_changes",
+            {
+              event: "INSERT",
+              schema: "public",
+              table: "bookings",
+              filter: `user_id=eq.${user.id}`,
+            },
+            (payload) => {
+              const booking = payload.new;
+
+              const card = document.createElement("div");
+              card.className = "p-6 border rounded-lg shadow bg-white";
+              card.innerHTML = `
+                <h2 class="text-xl font-semibold">${booking.trek_name}</h2>
+                <p class="text-gray-600">Date: ${booking.trek_date}</p>
+                <p class="text-gray-600">Amount: ₹${booking.amount}</p>
+                <p class="font-semibold ${
+                  booking.booking_status === "paid"
+                    ? "text-green-600"
+                    : booking.booking_status === "pending"
+                    ? "text-yellow-600"
+                    : "text-red-600"
+                }">Status: ${booking.booking_status}</p>
+              `;
+
+              if (bookingsList.querySelector("p")) {
+                bookingsList.innerHTML = "";
+                const wrapper = document.createElement("div");
+                wrapper.className = "grid gap-6";
+                wrapper.appendChild(card);
+                bookingsList.appendChild(wrapper);
+              } else {
+                bookingsList.querySelector(".grid").prepend(card);
+              }
+            }
+          )
+          .subscribe();
+      }
+
+      function disableLiveUpdates() {
+        if (subscription) {
+          supabase.removeChannel(subscription);
+          subscription = null;
+        }
+      }
+
+      toggleBtn.addEventListener("click", () => {
+        liveEnabled = !liveEnabled;
+        if (liveEnabled) {
+          enableLiveUpdates();
+          toggleBtn.textContent = "🟢 Live Updates: ON";
+        } else {
+          disableLiveUpdates();
+          toggleBtn.textContent = "🔴 Live Updates: OFF";
+        }
+      });
+    </script>
+  )}
+</Layout>
