@@ -1,0 +1,71 @@
+.auth-btn.login {
+  background-color: #ff7300;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-profile-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ff7300;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 60px; /* slightly below the profile circle */
+  right: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 9999;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-dropdown .dropdown-link {
+  padding: 0.75rem 1rem;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 500;
+}
+
+.profile-dropdown .dropdown-link:last-child {
+  border-bottom: none;
+}
+
+.profile-dropdown .dropdown-link:hover {
+  background-color: #ff7300;
+  color: white;
+}
+
+.profile-dropdown .logout {
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 600px) {
+  .profile-dropdown {
+    right: 5%;
+    width: 90%;
+  }
+}

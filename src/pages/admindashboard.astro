@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AdminDashboard from "../components/AdminDashboard.jsx";
+
+---
+
+<Layout>
+  <section>
+    <AdminDashboard client:only="react" />
+  </section>
+</Layout>

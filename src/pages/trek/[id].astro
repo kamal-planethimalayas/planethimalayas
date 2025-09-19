@@ -1,0 +1,1181 @@
+
+---
+import Layout from '../../layouts/Layout.astro';
+import { treks } from '../../data/treksData.js';
+import { trekFAQs } from '../../data/faqsData.js';
+import TrekMap from "../../components/TrekMap.jsx";
+import TrekDateSlots from "../../components/TrekDateSlots.jsx";
+
+export async function getStaticPaths() {
+  return treks.map((trek) => ({
+    params: { id: trek.id }
+  }));
+}
+
+const { id } = Astro.params;
+const trek = treks.find(t => t.id === id);
+
+const trekNotFound = !trek;
+
+// Serialize only the needed parts for JS
+const trekForScript = {
+  id: trek.id,
+  name: trek.name,
+  price: trek.price,
+  dates: trek.dates,
+};
+
+const groupedDates = trek.dates.reduce((acc, d) => {
+  const dateObj = new Date(d.start);
+  const monthYear = dateObj.toLocaleString("default", {
+    month: "long",
+    year: "numeric",
+  });
+
+  if (!acc[monthYear]) acc[monthYear] = [];
+  acc[monthYear].push(d);
+
+  return acc;
+}, {});
+
+---
+
+
+<Layout 
+  title={trek.seo?.title || trek.name} 
+  description={trek.seo?.description || trek.subtitle}
+>
+
+  <!-- Hero Section -->
+<section class="trek-hero">
+    <div class="hero-overlay"></div>
+    <img src={trek.heroImage} alt={trek.name} class="trek-hero-image" />
+
+    <div class="hero-content">
+      <h1 class="trek-hero-title">{trek.name}</h1>
+      <p class="trek-hero-subtitle">{trek.subtitle}</p>
+    </div>    
+</section>
+
+  
+  
+<div class="container">
+
+  <!-- Overview -->
+
+  <!-- Trek Overview Section -->
+<section class="trek-overview-section">
+  <h2 class="trek-overview-title">Trek Overview</h2>
+  <div class="trek-overview-underline"></div>
+
+  <!-- Facts cards -->
+  <div class="trek-overview-card">
+    <ul>
+      {trek.overview.facts.map(fact => {
+        return (
+          <li key={fact.label}>
+            {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+
+
+  <!-- Trek snippet -->
+  <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
+</section>
+
+
+ <!-- Pricing -->
+<section id="pricing-details">
+<div class="price-box">
+      <h2>INR {trek.price.toLocaleString()}</h2>
+      <p class="subheading"> {trek.priceNote ? <em>{trek.priceNote}</em> : null}</p>
+
+      <h3>Addons (Optional)</h3>
+        <ul>
+        {trek.addons.transport ? (
+      <li>
+        <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()} 
+        {trek.addons.transportNote ? <em>({trek.addons.transportNote})</em> : null}
+      </li>
+      ) : null}
+    
+        {trek.addons.offloadingbag ? (
+      <li>
+        <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
+      </li>
+        ) : null}
+        </ul>
+
+        <!-- Trigger links -->
+      <p>
+        <a href="#" id="open-terms">Terms & Conditions</a> |
+        <a href="#" id="open-inclusions">Inclusions & Exclusions</a>
+      </p>
+      <!-- Terms & Conditions Modal -->
+      <div id="termsModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close" id="close-terms">&times;</span>
+        <h4 class="modal-title">Terms & Conditions</h4>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">1. Acknowledgment of Risks</button>
+      <div class="dropdown-content">
+        <p>Trekking is an adventurous activity that inherently involves a variety of risks and uncertainties. By choosing to trek with Planethimalayas, I acknowledge and accept the following potential hazards:</p>
+
+        <h4>Natural Threats:</h4>
+      <ul>
+        <li><strong>Unpredictable Weather:</strong> I understand there is always a possibility of facing sudden rain, cloudbursts, flash floods, or Glacial Lake Outburst Floods (GLOFs), either during the trek or at the campsite. Harsh weather conditions such as hailstorms, thunderstorms, lightning, high-altitude winds, and abrupt temperature drops can not only affect comfort but may also lead to the cancellation of the trek without prior notice.</li>
+        <li><strong>Wildlife Encounters:</strong> Trekking trails may intersect with habitats of wild animals including bears, snakes, and a range of insects or arthropods. These encounters pose serious risks.</li>
+        <li><strong>Flora Exposure:</strong> Some plant species in the trekking regions may be toxic or harmful upon contact or ingestion. I understand that interacting with such vegetation could result in serious consequences.</li>
+        <li><strong>Natural Calamities:</strong> Mountainous terrains are prone to landslides, avalanches, earthquakes, and whiteouts — all of which could significantly endanger life and disrupt the trek.</li>
+      </ul>
+
+      <h4>Altitude and Injury Risks:</h4>
+      <ul>
+        <li>High-altitude conditions can lead to Acute Mountain Sickness (AMS), High Altitude Pulmonary Edema (HAPE), or High Altitude Cerebral Edema (HACE).</li>
+        <li>I understand that trekking surfaces are uneven and potentially slippery. This increases the chance of falls, slips, or injuries — including accidental drowning.</li>
+        <li>Misuse or malfunctioning of trekking gear (e.g., trekking poles, safety equipment) may also result in accidents.</li>
+        <li>Accidents during the trek could cause emotional or physical trauma, temporary or permanent disabilities, or even paralysis.</li>
+        <li>Injuries caused by fellow trekkers or locals are also possible.</li>
+        <li>I acknowledge that sun exposure, extreme cold, or environmental factors may cause health issues such as sunburn, frostbite, hypothermia, dehydration, heatstroke, chilblains, or hypoxia.</li>
+      </ul>
+
+      <h4>Medical Emergencies:</h4>
+      <ul>
+        <li>Trekking routes often lack access to nearby hospitals or clinics. I understand that medical attention may be delayed or unavailable.</li>
+        <li>I am aware that evacuation due to an emergency may be logistically difficult and time-consuming.</li>
+      </ul>
+
+      <h4>Additional Concerns:</h4>
+      <ul>
+        <li><strong>Civil or Political Disturbance:</strong> Unrest due to protests, strikes, conflicts, or terrorism may impact trek safety.</li>
+        <li><strong>Equipment Failures:</strong> I accept that gear failure could lead to difficulties or injuries.</li>
+        <li><strong>Transportation Disruptions:</strong> Travel to or from the basecamp may be delayed or disrupted due to vehicle failure, cancellations, or roadblocks.</li>
+        <li><strong>Disease Exposure:</strong> Trekking in unfamiliar regions may expose me to infectious diseases or health risks.</li>
+      </ul>
+
+      <h4>By agreeing to this document, I confirm:</h4>
+      <ul>
+        <li>I am fully aware of the above-mentioned risks.</li>
+        <li>I am voluntarily participating in the trek.</li>
+        <li>I agree to follow all safety protocols and guidance provided by Planethimalayas staff.</li>
+        <li>I will take full responsibility for any gear or equipment used during the trek.</li>
+        <li>I acknowledge that while Planethimalayas’ staff are trained and experienced, they are human and cannot foresee or prevent every risk.</li>
+        <li>My safety and well-being ultimately remain my responsibility.</li>
+      </ul> 
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">2. Personal Declaration</button>
+      <div class="dropdown-content">
+        <p>I take full ownership of my physical readiness for the trek, based on the eligibility and fitness standards set by Planethimalayas.</p>
+
+        <h3>Health Statement:</h3>
+        <ul>
+            <li>I certify that I am physically and mentally fit.</li>
+            <li>I have no known medical conditions that could restrict me from undertaking the trek.</li>
+            <li>No medical professional has advised me against participating in this activity.</li>
+        </ul>
+
+        <h3>Legal Liability:</h3>
+        <ul>
+            <li>I confirm that I am solely accountable for my safety throughout the trek.</li>
+            <li>I voluntarily assume all known and unknown risks involved.</li>
+            <li>Planethimalayas is not liable for any injuries, illnesses, or losses sustained during or after the trek.</li>
+            <li>I understand that Planethimalayas will not cover any medical costs I may incur.</li>
+            </ul>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">3. Indemnity Clause</button>
+      <div class="dropdown-content">
+        <p>
+        Should my actions cause harm or inconvenience to another person or damage to property — whether intentionally or by accident — I agree to compensate Planethimalayas for any resulting expenses. This includes costs related to repairs, medical treatments, or legal actions.
+        </p>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">4. Safety Procedures</button>
+      <div class="dropdown-content">
+        <ul>
+            <li>I am aware that high-altitude trekking may cause symptoms related to oxygen deprivation and altitude sickness. If the trek leader believes it is unsafe for me to continue, I accept their decision to descend me to a safer altitude.</li>
+            <li>I understand that health checks (oxygen level, pulse, blood pressure) will be conducted regularly at various camps. Based on these assessments, Planethimalayas reserves the right to disallow me from proceeding further if my health metrics fall below acceptable standards. These standards are available with trek leaders.</li>
+            <li>I am aware that the terrain will involve challenging and unpredictable conditions including steep slopes, snow-covered paths, and rocky trails.</li>
+            <li>If the trek leader concludes that I am physically unable to complete the trek without constant support, I understand that I may be turned around.</li>
+            <li>Alcohol, tobacco, and any recreational drugs are strictly banned throughout the trek. Consumption of such substances may result in immediate removal from the trek and basecamp.</li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">5. Voluntary Agreement</button>
+      <div class="dropdown-content">
+        <ul>
+            <li>I have read and fully understood all the terms stated in this agreement. I consent to the conditions knowing the legal impact it may have. Even if any clause here is declared unenforceable, the remainder shall remain valid.</li>
+            <li>I acknowledge that the trek cost was calculated assuming my full consent to these terms. Without this agreement, Planethimalayas would not be able to offer the trek services.</li>
+            <li>I agree that my electronic or digital acceptance of this agreement shall hold the same validity as a signed physical document.</li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">6. Documentation Responsibility</button>
+      <div class="dropdown-content">
+        <ul>
+            <li>It is solely my duty to carry all necessary documents related to this trek (passport, ID, permits, visa, etc.). Planethimalayas will not be held responsible if I fail to present these documents when required.</li>
+            <li>Planethimalayas also disclaims liability in case of loss, theft, or damage to any personal identification or travel documents.</li>
+            <li>I voluntarily consent to provide my Aadhaar number for use by Planethimalayas in matters related strictly to identity verification, trek permit processing, and administrative formalities. This data will be used solely for these purposes in accordance with Indian law. I understand I may withdraw this consent prior to its usage by submitting written notice.</li>
+            </ul>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">7. Cancellation Policy Acknowledgment</button>
+      <div class="dropdown-content">
+       <p>I agree to abide by the cancellation policy of Planethimalayas as outlined in the official document.</p>
+        <p><a href="/documents/cancellation-policy.pdf" target="_blank" class="text-brand underline hover:opacity-80">View Cancellation Policy (PDF)</a></p>
+      </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-btn">8. Termination of Participation</button>
+      <div class="dropdown-content">
+        <p>I understand that Planethimalayas reserves full rights to terminate my participation under the following circumstances:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+            <li>If I am found consuming alcohol, smoking, or using recreational drugs during any part of the trek or even at the basecamp.</li>
+            <li>If I suffer from any illness or injury during the trek that makes me unfit to continue.</li>
+            <li>If my poor fitness level slows down the trek and disrupts the group’s pace.</li>
+            <li>If my health statistics (e.g., blood pressure, oxygen level) are found to be outside acceptable limits.</li>
+            <li>If I demonstrate unacceptable behavior, including but not limited to:
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+            <li>Sexual misconduct toward any participant or staff</li>
+            <li>Refusal to follow trek guidelines or leader instructions</li>
+            <li>Physical or verbal aggression, including:
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+            <li>Use of abusive language or profanity</li>
+            <li>Making threats</li>
+            <li>Shouting or screaming to express dissatisfaction</li>
+            <li>Physical contact such as pushing or shoving</li>
+            <li>Religious, political, or sexist remarks</li>
+        </ul>
+            </li>
+            <li>Misuse or mistreatment of Planethimalayas gear or property</li>
+        </ul>
+            </li>
+        </ul>
+        <p class="mt-4">In the event of such termination, I acknowledge:</p>
+        <ul class="list-disc pl-5 mt-2 space-y-1">
+            <li>I will not be awarded a trek completion certificate</li>
+            <li>I will not be eligible for any refund</li>
+            <li>I will bear the costs of my return from the trek (mule, vehicle, guide, etc.)</li>
+        </ul>
+      </div>
+      </div>
+
+      </div>
+      </div>
+
+      <!-- Inclusions & Exclusions Modal -->
+      <div id="inclusionsModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close" id="close-inclusions">&times;</span>
+      <h2 class="modal-title">Inclusions & Exclusions</h2>
+      <div class="modal-card">
+      <div class="inclusions">
+        <h3>✅ Inclusions</h3>
+        <p>{trek.inclusionsNote}</p>
+        <p>🏕️ Trekking & Camping Equipment – Includes tents, sleeping bags, cooking gear, and other essentials</p>
+        <p>🧗 Safety Gear – Technical equipment like ropes, ice axe, microspikes, etc., wherever needed</p>
+        <p>🩺 Basic Medical Support – On-trek first aid and support for minor medical issues</p>
+        <p>👥 Support Staff – Team includes experienced trek leaders, local guides, cooks, and helpers</p>
+        <p>🎯 Qualified Leadership – Professional trek leader overseeing safety and coordination</p>
+      </div>
+      <div class="exclusions">
+        <h3>❌ Exclusions</h3>
+        <p>🚑 Insurance – Travel or medical insurance is not included</p>
+        <p>🚨 Emergency Costs – Expenses for evacuation, rescue, or medical treatment are not covered</p>
+        <p>🎒 Backpack Offloading – Available as an optional add-on at an extra charge</p>
+        <p>🚗 Travel to/from Base Camp – Transport to the trek base or return is not part of the package unless opted separately</p>
+        <p>🛍️ Personal Purchases – Items bought on the way (snacks, gifts, souvenirs, etc.) are not included</p>
+        <p>👕 Personal Trek Gear – Jackets, shoes, walking sticks, or toiletries are not part of the package (can be rented separately)</p>
+        <p>❗ Anything Not Listed Above – If it’s not mentioned under inclusions, it is not covered by Planethimalayas</p>
+      </div>
+      </div>
+      </div>
+      </div>
+    <script>
+    window.onload = function () {
+    document.getElementById("open-terms").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("termsModal").style.display = "block";
+    };
+    document.getElementById("close-terms").onclick = function () {
+      document.getElementById("termsModal").style.display = "none";
+    };
+
+    document.getElementById("open-inclusions").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("inclusionsModal").style.display = "block";
+    };
+    document.getElementById("close-inclusions").onclick = function () {
+      document.getElementById("inclusionsModal").style.display = "none";
+    };
+
+    document.querySelectorAll('.dropdown-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const dropdown = btn.parentElement;
+        dropdown.classList.toggle('open');
+      });
+    });
+  };
+  </script>
+
+{Object.entries(groupedDates).map(([monthYear, dates]) => (
+  <div class="collapsible-section" key={monthYear}>
+    <h3 class="collapsible-header">Registration Dates {monthYear}</h3>
+    <div class="collapsible-content">
+      <div class="datesContainer">
+        {dates.map(({ label, start }) => (
+          <div class="date-slot-wrapper" key={label}>
+            <a
+              href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
+              class="date-link"
+              aria-label={`Register for ${trek.name} trek from ${label}`}
+            >
+              <span class="date-box">{label}</span>
+            </a>
+            <TrekDateSlots client:load trekId={trek.id} startDate={start} maxSlots={8} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+))}
+
+
+<style>
+  .collapsible-header {
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;              /* small, not bulky */
+  margin: 6px 0;
+  background-color: #ff7300;      /* brand color */
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15); /* soft shadow */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.collapsible-header::after {
+  content: "▼";
+  font-size: 0.9rem;
+  transition: transform 0.3s;
+}
+
+.collapsible-header.active {
+  background-color: #e0e0e0; /* light ash */
+  color: black;
+}
+
+.collapsible-header.active::after {
+  transform: rotate(180deg);
+}
+
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.collapsible-content.open {
+  max-height: 500px;
+}
+
+.datesContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px; /* small but visible gap */
+  max-width: 100%;
+  padding: 8px 0;
+}
+
+.date-slot-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between date box and slot status */
+}
+
+.date-link {
+  text-decoration: none;
+}
+
+.date-box {
+  background-color: white;
+  color: black;
+  width: 120px;   /* fixed width */
+  height: 20px;   /* fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid #ff7300;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.date-box:hover {
+  background-color: #ff7300;
+  color: white;
+}
+
+</style>
+
+</section>
+</div>
+
+
+<section class="trek-details">
+
+  <!-- Trek Navigation -->
+  <nav id="trek-nav">
+    <ul>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#itinerary">Itinerary</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#how-to-reach">How to Reach</a></li>      
+      <li><a href="#did-you-know">Did You Know?</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#packing-list">Packing List</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+    </ul>
+  </nav>
+
+  <!-- Highlights -->
+  <section id="highlights">
+    <h2 class="section-heading">Highlights</h2>
+    
+    <div>
+      {trek.highlights.map((point, idx) => (
+        <p key={idx}>✅ {point}</p>
+      ))}
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section id="itinerary">
+    <h2 class="section-heading">Itinerary</h2>
+    
+    <div class="space-y-6">
+      {trek.itinerary.map(day => (
+        <article key={day.day}>
+          <p><strong>📅 Day {day.day}: {day.title}</strong></p>
+          <div set:html={day.details}></div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- Trek Map Section -->
+  <section id="map"> 
+    <h2 class="section-heading">Map</h2>
+    
+    <TrekMap client:only="react" coordinates={trek.coordinates} />
+  </section>
+
+
+  <!-- How to reach -->
+  <section id="how-to-reach">
+    <h2 class="section-heading">How to reach</h2>
+    
+    <div class="space-y-4">
+      <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
+      <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
+      <p><strong>🛣️ Road:</strong> <span set:html={trek.howToReach.road}></span></p>
+      <p><strong>🗺️ Travel Tip:</strong> <span set:html={trek.howToReach.travelTip}></span></p>
+    </div>
+  </section>
+
+  <!-- Did you know -->
+  <section id="did-you-know">
+    <h2 class="section-heading">Did you know?</h2>
+    
+    <div>
+      {trek.didYouKnow.map((fact, idx) => (
+        <div key={idx} class="did-you-know-fact">
+          <span>✅</span>
+          <span set:html={fact}></span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2 class="section-heading">Gallery</h2>
+    
+    <div class="gallery-grid">
+      {trek.gallery.map((img, i) => (
+        <img key={i} src={img} alt={`${trek.name} image ${i + 1}`} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Packing List -->
+    <section id="packing-list">
+      <h2 class="section-heading">Packing list</h2>
+      <p>
+        For a comprehensive packing list, download the PDF below:
+        <a href={trek.downloadLink} target="_blank" rel="noopener noreferrer">
+          Download Packing List
+        </a>
+      </p>
+    </section>
+
+  <!-- Trek Specific FAQs -->
+    <section id="faqs">
+      <h2 class="section-heading">FAQs</h2>
+      <ul class="faq-list">
+        {trek.faqs.questions.map((q) => (
+          <li class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              {q.question}
+            </button>
+            <div class="faq-answer">{q.answer}</div>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+</section>
+ 
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+    const faqButtons = document.querySelectorAll(".faq-question");
+    faqButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains("open");
+        item.classList.toggle("open");
+        btn.setAttribute("aria-expanded", !isOpen);
+      });
+    });
+  });
+</script>
+  
+
+<script>
+  
+    document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll("#trek-nav a");
+    const sections = Array.from(navLinks).map(link =>
+      document.querySelector(link.getAttribute("href"))
+    );
+
+    const activateLink = (index) => {
+      navLinks.forEach((link, i) => {
+        if (i === index) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = sections.indexOf(entry.target);
+          if (index !== -1) activateLink(index);
+        }
+      });
+    }, {
+      rootMargin: "-30% 0px -60% 0px",
+      threshold: 0
+    });
+
+    sections.forEach((section) => {
+      if (section) observer.observe(section);
+    });
+
+    // Scroll on click
+    navLinks.forEach((link, index) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        sections[index].scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  });
+ 
+</script>
+
+  
+<style>
+
+
+.faqs {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.faqs h2 {
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff7300;
+  display: block;
+  padding-bottom: 0.25rem;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.75rem 0;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+  padding: 0.5rem 0;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  line-height: 1.5;
+  color: #444;
+  border-left: 3px solid #ff7300;
+  margin-top: 0.5rem;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+
+/* =========================
+   TREK NAVIGATION STYLES
+   ========================= */
+
+/* Container for nav */
+#trek-nav {
+  position: sticky;
+  top: 70px; /* adjust for main navbar height */
+  background: white;
+  padding: 10px 20px;
+  margin: 20px 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-radius: 8px;
+  overflow-x: auto; /* horizontal scroll if needed */
+}
+
+@media (min-width: 1024px) {
+  #trek-nav {
+    width: 100%;            /* fit parent container instead of viewport */
+    max-width: 1200px;      /* optional: cap width so it doesn’t stretch too far */
+    margin: 0 auto;         /* center inside parent */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 999;
+    padding: 10px 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* UL inside nav */
+#trek-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start; /* horizontal on desktop */
+}
+
+/* Links inside nav */
+#trek-nav li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #555;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+  white-space: nowrap; /* prevent wrapping */
+}
+
+#trek-nav li a.active {
+  color: #ff7300; /* brand color */
+  font-weight: 700;
+  border-bottom: 2px solid #ff7300;
+}
+
+/* =========================
+   TREK DETAILS CONTENT
+   ========================= */
+.trek-details {
+  display: flex;
+  flex-direction: column; /* stack sections vertically */
+  max-width: 1200px;
+  margin: 0 auto; /* center container */
+  box-sizing: border-box;
+}
+
+/* Section headings */
+.trek-details section h2.section-heading {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: #000;
+  position: relative;
+}
+
+/* Section underline */
+.trek-details section h2.section-heading::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #ff7300;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 2px;
+}
+
+/* Did You Know Fact */
+.did-you-know-fact {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+#itinerary article {
+  margin-bottom: 1rem;   /* space after each day block */
+  padding-bottom: 1rem;  /* optional, adds breathing room */
+  border-bottom: 1px solid #ddd; /* light divider */
+}
+
+#itinerary article:last-child {
+  margin-bottom: 0;
+  border-bottom: none;   /* remove divider after last day */
+}
+
+
+/* Itinerary, Highlights, How-to-reach content spacing */
+.trek-details section div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Gallery styling */
+.trek-details #gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trek-details #gallery .gallery-grid img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+@media (max-width: 767px) {
+  #trek-nav {
+    top: 55px; /* adjust for mobile navbar */
+    border-radius: 6px;
+  }
+
+  #trek-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #trek-nav li a {
+    font-size: 1rem;
+    border-bottom: none;
+  }
+
+  .trek-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .trek-details section h2.section-heading {
+    font-size: 2rem; /* same as desktop */
+    text-align: left;
+    white-space: nowrap; /* single line */
+    overflow-x: auto; /* allow scroll if too long */
+  }
+
+  .trek-details section .section-heading-underline {
+    width: 100%; /* full width on mobile too */
+    margin-bottom: 1rem;
+  }
+
+  .did-you-know-fact {
+    font-size: 1rem;
+  }
+}
+
+.snippet-card {
+  max-width: 1200px;
+  margin: 40px auto; /* equal space above & below */
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .snippet-card {
+    text-align: center; /* center on desktop only */
+  }
+}
+
+@media (max-width: 767px) {
+  .snippet-card {
+    text-align: left; /* keep good readability on mobile */
+  }
+}
+
+.price-box {
+  border: 2px solid #222;
+  border-left: 8px solid #ff7300;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+
+  width: 100%;          /* default full width for mobile */
+  max-width: 50%;       /* limit to 50% on larger screens */
+  margin: 0;       /* left-align */
+}
+
+/* Optional tweak: force full width on small screens */
+@media (max-width: 768px) {
+  .price-box {
+    max-width: 100%;
+  }
+}
+
+.price-box h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: #000;
+}
+
+.price-box .subheading {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.price-box h4 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+}
+
+.price-box ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.price-box .links {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.price-box .links a {
+  color: #ff7300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.calendar-placeholder {
+  margin-top: 10px;
+  background: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+  color: #888;
+  border-radius: 6px;
+}
+
+#open-terms,
+#open-inclusions {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+#open-terms:hover,
+#open-inclusions:hover {
+  color: #ff7300; /* Planethimalayas brand color */
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: Roboto, sans-serif;
+}
+
+.modal-title {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ff7300;
+  text-underline-offset: 6px;
+  margin-bottom: 20px;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown-header:hover {
+  border-bottom: 1px solid #ff7300; /* your brand color */
+  
+  color: #ff7300;
+}
+
+.dropdown {
+  margin-bottom: 15px;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.dropdown-content {
+  margin-top: 8px;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 6px;
+  font-family: Roboto, sans-serif;
+  display: none;
+}
+
+.dropdown-btn:hover {
+  border-bottom: 2px solid #ff7300; /* your brand color */
+  color: #ff7300;
+}
+
+.dropdown-btn svg {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+.modal-card {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inclusions,
+.exclusions {
+  flex: 1;
+  font-family: Roboto, sans-serif;
+}
+
+.inclusions h3,
+.exclusions h3 {
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ff7300;
+  text-underline-offset: 6px;
+  margin-bottom: 10px;
+}
+
+
+.text-2xl.font-bold.font-sans.mb-4-underline {
+  height: 4px;
+  background-color: #ff7300;
+  width: inline;
+  margin: 0 auto 2rem auto;
+}
+
+.trek-overview-card {
+  background: none;     /* no background */
+  border: none;         /* no border */
+  border-radius: 0;     /* no rounding */
+  padding: 0;           /* no extra padding */
+  margin: 0 0 0.5rem 0; /* small vertical spacing between blocks */
+  box-shadow: none;     /* no shadow */
+}
+
+.trek-overview-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trek-overview-card li {
+  margin: 0.2rem 0;     /* very tight spacing */
+  font-size: 0.95rem;   /* slightly compact text */
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;          /* small gap between icon/bullet and text */
+  line-height: 1.3;     /* compact line height */
+}
+
+
+.trek-overview-snippet {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+  .price-box {
+    width: 100% !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .modal-card {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding: 10px !important;
+  }
+
+.trek-overview-title {
+  font-size: 2rem;
+}
+
+.trek-overview-underline {
+  width: 100%;
+  height: 2px;
+  background-color: #ff7300; /* brand color */
+  margin-bottom: 2rem;
+}
+
+/* Facts cards */
+.trek-overview-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr; /* stacked on mobile */
+}
+
+.trek-overview-card li {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+/* Desktop: 3 items per row */
+@media screen and (min-width: 1024px) {
+  .trek-overview-card ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Snippet paragraph full-width */
+.trek-overview-snippet {
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  width: 100%;
+}
+
+
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".collapsible-header").forEach(header => {
+      header.addEventListener("click", () => {
+        header.classList.toggle("active");
+        const content = header.nextElementSibling;
+        content.classList.toggle("open");
+      });
+    });
+  });
+</script>
+
+</Layout>

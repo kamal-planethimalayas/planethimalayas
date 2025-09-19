@@ -1,0 +1,248 @@
+---
+import "../styles/global.css";
+---
+<div class="container">
+<style>
+  .footer-heading {
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .footer-underline {
+      height: 2px;
+      background-color: #ff7300;
+      width: 100%;
+      margin: 0 auto 2rem auto;
+    }
+
+  footer {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.3); /* <- This creates the full card shadow */
+    margin-bottom: 1rem;
+  }
+
+  .footer-card h4 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #ff7300;
+  }
+
+  .footer-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+  }
+
+  .footer-card li {
+    font-weight: normal;
+    margin-bottom: 0.4rem;
+    font-size: 0.85rem;
+    
+  }
+
+  .brand-separator {
+    height: 2px;
+    width: 100%;
+    background-color: #ff7300;
+    margin: 2rem 0;
+  }
+
+  .footer-bottom-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+ .social-links {
+  display: flex;
+  gap: 16px; /* spacing between icons */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;   /* circle size */
+  height: 48px;
+  border-radius: 50%;
+  background: #f5f5f5; /* light background */
+  transition: all 0.3s ease;
+}
+
+.social-links i {
+  font-size: 22px; /* icon size */
+}
+
+.social-links a:hover {
+  background: var(--brand-color, #ff7300);
+  transform: scale(1.1);
+}
+
+.social-links a:hover i {
+  color: white !important;
+}
+
+.social-links a,
+.social-links a:visited,
+.social-links a:hover,
+.social-links a:focus {
+  text-decoration: none;
+}
+
+
+  .copyright {
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+</style>
+
+<footer>
+  <h3 class="footer-heading">Treks by categories</h3>
+  <div class="footer-underline"></div>
+
+  <!-- Top Section with 5 boxes -->
+  <div class="footer-top">
+
+    <div class="footer-card">
+      <h4>Treks by difficulty</h4>
+      <ul>
+        <li><a href="/upcoming-treks?difficulty=easy" target="_blank" rel="noopener noreferrer">Easy</a></li>
+        <li><a href="/upcoming-treks?difficulty=moderate" target="_blank" rel="noopener noreferrer">Moderate</a></li>
+        <li><a href="/upcoming-treks?difficulty=difficult" target="_blank" rel="noopener noreferrer">Difficult</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-card">
+      <h4>Treks by season</h4>
+      <ul>
+        <li><a href="/upcoming-treks?season=summer" target="_blank" rel="noopener noreferrer">Summer</a></li>
+        <li><a href="/upcoming-treks?season=autumn" target="_blank" rel="noopener noreferrer">Autumn</a></li>
+        <li><a href="/upcoming-treks?season=winter" target="_blank" rel="noopener noreferrer">Winter</a></li>
+        <li><a href="/upcoming-treks?season=spring" target="_blank" rel="noopener noreferrer">Spring</a></li>
+        <li><a href="/upcoming-treks?season=monsoon" target="_blank" rel="noopener noreferrer">Monsoon</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-card">
+      <h4>Treks by month</h4>
+      <ul>
+        <li><a href="/upcoming-treks?month=january" target="_blank" rel="noopener noreferrer">January</a></li>
+        <li><a href="/upcoming-treks?month=february" target="_blank" rel="noopener noreferrer">February</a></li>
+        <li><a href="/upcoming-treks?month=march" target="_blank" rel="noopener noreferrer">March</a></li>
+        <li><a href="/upcoming-treks?month=april" target="_blank" rel="noopener noreferrer">April</a></li>
+        <li><a href="/upcoming-treks?month=may" target="_blank" rel="noopener noreferrer">May</a></li>
+        <li><a href="/upcoming-treks?month=june" target="_blank" rel="noopener noreferrer">June</a></li>
+        <li><a href="/upcoming-treks?month=july" target="_blank" rel="noopener noreferrer">July</a></li>
+        <li><a href="/upcoming-treks?month=august" target="_blank" rel="noopener noreferrer">August</a></li>
+        <li><a href="/upcoming-treks?month=september" target="_blank" rel="noopener noreferrer">September</a></li>
+        <li><a href="/upcoming-treks?month=october" target="_blank" rel="noopener noreferrer">October</a></li>
+        <li><a href="/upcoming-treks?month=november" target="_blank" rel="noopener noreferrer">November</a></li>
+        <li><a href="/upcoming-treks?month=december" target="_blank" rel="noopener noreferrer">December</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-card">
+      <h4>Treks by region</h4>
+      <ul>
+        <li><a href="/upcoming-treks?region=uttarakhand" target="_blank" rel="noopener noreferrer">Uttarakhand</a></li>
+        <li><a href="/upcoming-treks?region=himachal" target="_blank" rel="noopener noreferrer">Himachal</a></li>
+        <li><a href="/upcoming-treks?region=ladakh" target="_blank" rel="noopener noreferrer">Ladakh</a></li>
+        <li><a href="/upcoming-treks?region=kashmir" target="_blank" rel="noopener noreferrer">Kashmir</a></li>
+        <li><a href="/upcoming-treks?region=sikkim" target="_blank" rel="noopener noreferrer">Sikkim</a></li>
+        <li><a href="/upcoming-treks?region=west%20bengal" target="_blank" rel="noopener noreferrer">West Bengal</a></li>
+        <li><a href="/upcoming-treks?region=nepal" target="_blank" rel="noopener noreferrer">Nepal</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-card">
+      <h4>Treks by days</h4>
+      <ul>
+        <li><a href="/upcoming-treks?days=4" target="_blank" rel="noopener noreferrer">4 Days</a></li>
+        <li><a href="/upcoming-treks?days=5" target="_blank" rel="noopener noreferrer">5 Days</a></li>
+        <li><a href="/upcoming-treks?days=6" target="_blank" rel="noopener noreferrer">6 Days</a></li>
+        <li><a href="/upcoming-treks?days=7" target="_blank" rel="noopener noreferrer">7 Days</a></li>
+        <li><a href="/upcoming-treks?days=8" target="_blank" rel="noopener noreferrer">8 Days</a></li>
+        <li><a href="/upcoming-treks?days=9" target="_blank" rel="noopener noreferrer">9 Days</a></li>
+        <li><a href="/upcoming-treks?days=10" target="_blank" rel="noopener noreferrer">10 Days</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Separator -->
+  <div class="brand-separator"></div>
+
+<!-- Bottom Section -->
+
+  <div class="footer-bottom-section">
+
+    <!-- Quick Links Card -->
+    <div class="footer-card">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/upcoming-treks" target="_blank" rel="noopener noreferrer">Upcoming Treks</a></li>
+        <li><a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></li>
+        <li><a href="/cancellation-and-refund-policy" target="_blank" rel="noopener noreferrer">Cancellation Policy</a></li>
+        <li><a href="/faqs-and-articles" target="_blank" rel="noopener noreferrer">FAQs</a></li>
+        <li><a href="/about" target="_blank" rel="noopener noreferrer">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Follow Us Card -->
+    <div class="footer-card">
+      <h4>Follow Us</h4>
+      <ul class="social-links">
+        <li><a href="https://instagram.com/planethimalayas.kamal" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" style="color: #E1306C"></i></a></li>
+        <li><a href="https://facebook.com/planethimalayas" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" style="color: #1877F2;"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/planethimalayas" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" style="color: #0A66C2;"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Us Card -->
+    <div class="footer-card">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>📞 +91 9027481187</li>
+        <li>📞 +91 9007210399</li>
+        <li>📧 planethimalayas@gmail.com</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+<!-- Separator -->
+  <div class="brand-separator"></div>
+
+  <div class="copyright">
+    <p>
+      <a href="/docs/privacy-policy.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a> |
+      <a href="/docs/terms-and-conditions.pdf" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
+    </p>
+    <p>© 2025 Planethimalayas | All Rights Reserved</p>
+  </div>
+</div>
+</footer>
+
+</div>

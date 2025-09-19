@@ -1,0 +1,427 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { trekFAQs } from '../data/faqsData.js';
+import { blogs } from '../data/blogsData.js';
+---
+<Layout>
+
+<section class="faqs-hero">
+  <div class="container">
+    <h1>FAQs & Articles</h1>
+    <div class="search-bar">
+      <input 
+        id="kb-search"
+        type="text" 
+        placeholder="Search FAQs & Articles..." 
+        autocomplete="off"
+        spellcheck="false"
+        aria-label="faqSearch" 
+      />
+    </div>
+  </div>
+</section>
+
+<section class="knowledge-base">
+  <div class="kb-wrapper">
+    <!-- FAQ Section -->
+    <div class="kb-section" data-type="faq">
+      <div class="kb-header" role="button" aria-expanded="false">
+        <h2>❓ FAQs</h2>
+        <span class="toggle-btn" aria-hidden="true">▶</span>
+      </div>
+      <div class="kb-body" data-open="false" aria-hidden="true">
+        {trekFAQs.map((topicBlock, topicIndex) => (
+          <div class="faq-topic" data-topic-index={topicIndex}>
+            <div class="faq-topic-header" role="button" aria-expanded="false">
+              <span class="topic-toggle">▶</span>
+              <h3>{topicBlock.topic}</h3>
+            </div>
+            <div class="faq-topic-body" data-open="false" aria-hidden="true">
+              {topicBlock.faqs.map((faq, faqIndex) => (
+                <div class="faq-item" data-search={`${faq.question} ${faq.answer}`} data-faq-index={faqIndex}>
+                  <div class="faq-question" role="button" aria-expanded="false">
+                    <span class="faq-toggle">&gt;</span>
+                    <span set:html={faq.question}></span>
+                  </div>
+                  <div class="faq-answer" set:html={faq.answer}></div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Articles Section -->
+    <!-- Articles Section -->
+    <div class="kb-section" data-type="article">
+      <div class="kb-header" role="button" aria-expanded="false">
+        <h2>📝 Articles</h2>
+        <span class="toggle-btn" aria-hidden="true">▶</span>
+      </div>
+      <div class="kb-body" data-open="false" aria-hidden="true">
+        <div class="blogs-list">
+          {blogs.map((blog, index) => (
+            <a 
+              class="blog-card" 
+              href={`/blogs/${blog.slug}`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              data-index={index} 
+              data-search={`${blog.title} ${blog.description ?? ""} ${blog.tags?.join(" ") ?? ""}`}
+            >
+              <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+              <h3>{blog.title}</h3>
+              <p class="blog-meta">{blog.author} · {blog.date}</p>
+            </a>
+          ))}
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- embed blogs JSON safely for client -->
+<script id="blogs-data" type="application/json">
+{JSON.stringify(blogs).replace(/</g, '\\u003c')}
+</script>
+
+<style>
+/* basics & hero */
+.faqs-hero {
+  position: relative;
+  height: 140px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), #ff7300;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+.faqs-hero .container { width:100%; max-width:1200px; display:flex; flex-direction:column; align-items:center; }
+.faqs-hero h1 { color:#fff; margin-bottom:1rem; font-size:2rem; }
+.faqs-hero .search-bar { width:100%; max-width:500px; display:flex; }
+.faqs-hero input { flex:1; padding:0.5rem; font-size:1rem; border:2px solid #ff7300; border-right:none; border-radius:5px 0 0 5px; outline:none; }
+.faqs-hero input:focus { box-shadow:0 0 8px 2px #ff7300; }
+
+@media (max-width:768px){
+  .faqs-hero { height:auto; padding:1rem; margin-top:-55px; }
+  .faqs-hero h1 { font-size:1.6rem; text-align:center; }
+}
+
+/* wrapper */
+.kb-wrapper { max-width:1200px; margin:0 auto; padding:0 1rem; }
+
+/* kb-section header */
+.kb-section { margin:2rem 0; border:1px solid #ddd; border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.05); }
+.kb-header { display:flex; justify-content:space-between; align-items:center; background:#ff7300; color:#fff; padding:0.75rem 1rem; cursor:pointer; font-family:Helvetica, Arial, sans-serif; }
+.kb-header h2{ margin:0; font-size:1.1rem; font-weight:600; }
+.toggle-btn { font-size:1.2rem; transition: transform 0.25s ease; }
+
+/* kb-body uses max-height transitions (no display:none) */
+.kb-body { max-height:0; overflow:hidden; transition: max-height 0.35s ease; background:#fff; padding:0 1rem; }
+
+/* FAQ topic */
+.faq-topic { border-bottom:1px solid #eee; }
+.faq-topic-header { display:flex; align-items:center; cursor:pointer; padding:0.75rem 0; }
+.faq-topic-header h3 { margin:0 0 0 0.5rem; font-size:1.05rem; }
+.topic-toggle { font-size:1.1rem; transition: transform 0.25s ease; }
+
+/* topic body: collapsed by max-height (JS controls) */
+.faq-topic-body { max-height:0; overflow:hidden; transition: max-height 0.35s ease; padding:0 0 0.5rem 0; }
+
+/* faq item */
+.faq-item { margin:0.5rem 0; padding-bottom:0.25rem; }
+.faq-question { font-family:Helvetica, Arial, sans-serif; font-weight:bold; cursor:pointer; display:flex; align-items:center; gap:8px; padding:0.25rem 0; }
+.faq-question:hover { color:#ff7300; }
+
+/* answers collapsed by default; JS will set exact heights for smooth animations */
+.faq-answer { font-family:Roboto, Arial, sans-serif; font-size:0.95rem; color:#000; padding-left:1.5rem; max-height:0; overflow:hidden; transition: max-height 0.35s ease, padding 0.25s ease; }
+
+/* blogs grid */
+.blogs-list { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1.25rem; margin:1rem 0; }
+.blog-card { background:#fff; border-radius:10px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.08); cursor:pointer; transition: transform 0.15s ease; padding-bottom:0.6rem; }
+.blog-card:hover { transform:translateY(-4px); }
+.blog-thumb { width:100%; height:160px; object-fit:cover; }
+.blog-card h3 { margin:0; padding:0.6rem; font-size:1.05rem; }
+.blog-meta { padding:0 0.6rem 0.8rem; color:gray; font-size:0.85rem; }
+
+/* toggle rotations when open (set via JS with class 'open') */
+.kb-section.open .toggle-btn { transform:rotate(90deg); }
+.faq-topic.open .topic-toggle { transform:rotate(90deg); }
+</style>
+
+<script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Elements
+  const sections = Array.from(document.querySelectorAll(".kb-section"));
+  const searchInput = document.getElementById("kb-search");
+  const cards = Array.from(document.querySelectorAll(".blog-card"));
+  const viewer = document.getElementById("blog-viewer");
+  const titleEl = document.getElementById("blog-title");
+  const metaEl = document.getElementById("blog-meta");
+  const contentEl = document.getElementById("blog-content");
+  const blogClose = document.getElementById("blog-close");
+
+  // Parse embedded blogs JSON
+  let clientBlogs = [];
+  try {
+    const raw = document.getElementById("blogs-data")?.textContent || "[]";
+    clientBlogs = JSON.parse(raw);
+  } catch (err) {
+    console.error("blogs JSON parse error:", err);
+    clientBlogs = [];
+  }
+
+  // UTIL: smooth expand/collapse with scrollHeight and cleanup
+  function expandElement(el) {
+    if (!el) return;
+    // ensure hidden -> explicit height
+    el.style.overflow = "hidden";
+    const from = el.scrollHeight; // reading scrollHeight
+    el.style.maxHeight = from + "px";
+    // after transition end, remove explicit maxHeight so layout can grow naturally
+    const once = () => {
+      el.style.maxHeight = "none";
+      el.removeEventListener("transitionend", once);
+    };
+    el.addEventListener("transitionend", once);
+    el.dataset.open = "true";
+  }
+
+  function collapseElement(el) {
+    if (!el) return;
+    // If currently 'none' (no max), set to its current scrollHeight before collapsing
+    if (!el.style.maxHeight || el.style.maxHeight === "none") {
+      el.style.maxHeight = el.scrollHeight + "px";
+    }
+    // trigger reflow then set to 0 to animate
+    requestAnimationFrame(() => {
+      el.style.overflow = "hidden";
+      el.style.maxHeight = "0px";
+    });
+    el.dataset.open = "false";
+  }
+
+  function toggleElement(el) {
+    if (!el) return;
+    if (el.dataset.open === "true") collapseElement(el);
+    else expandElement(el);
+  }
+
+  // ---- Sections (FAQ / Articles) ----
+  sections.forEach(section => {
+    const header = section.querySelector(".kb-header");
+    const body = section.querySelector(".kb-body");
+    if (!header || !body) return;
+
+    header.addEventListener("click", (e) => {
+      e.stopPropagation();
+      section.classList.toggle("open");
+      header.setAttribute("aria-expanded", section.classList.contains("open"));
+      if (section.classList.contains("open")) expandElement(body);
+      else collapseElement(body);
+    });
+  });
+
+  // ---- FAQ Topics & Items ----
+  const faqTopics = Array.from(document.querySelectorAll(".faq-topic"));
+  const faqItems = Array.from(document.querySelectorAll(".faq-item"));
+
+  faqTopics.forEach(topic => {
+    const header = topic.querySelector(".faq-topic-header");
+    const body = topic.querySelector(".faq-topic-body");
+    header?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      topic.classList.toggle("open");
+      header.setAttribute("aria-expanded", topic.classList.contains("open"));
+      if (topic.classList.contains("open")) expandElement(body);
+      else {
+        // close any open answers inside first
+        const openItems = Array.from(topic.querySelectorAll(".faq-item[data-open='true']"));
+        openItems.forEach(it => {
+          const ans = it.querySelector(".faq-answer");
+          collapseElement(ans);
+          it.dataset.open = "false";
+          const q = it.querySelector(".faq-question");
+          if (q) q.setAttribute("aria-expanded", "false");
+        });
+        collapseElement(body);
+      }
+    });
+  });
+
+  // FAQ question click -> expand answer (and ensure ancestor bodies expand to fit)
+  faqItems.forEach(item => {
+    const question = item.querySelector(".faq-question");
+    const answer = item.querySelector(".faq-answer");
+    question?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const opening = item.dataset.open !== "true";
+      // toggle answer
+      if (opening) {
+        expandElement(answer);
+        item.dataset.open = "true";
+        question.setAttribute("aria-expanded", "true");
+      } else {
+        collapseElement(answer);
+        item.dataset.open = "false";
+        question.setAttribute("aria-expanded", "false");
+      }
+      // ensure topic & section bodies expand to accommodate answer
+      const topicBody = item.closest(".faq-topic-body");
+      if (topicBody && topicBody.dataset.open !== "true") {
+        // if parent topic is closed, open it too
+        const topic = item.closest(".faq-topic");
+        if (topic) {
+          topic.classList.add("open");
+          const hdr = topic.querySelector(".faq-topic-header");
+          hdr?.setAttribute("aria-expanded", "true");
+          expandElement(topicBody);
+        }
+      } else if (topicBody && topicBody.dataset.open === "true") {
+        // temporarily set to explicit height so it fits, then release after small delay
+        topicBody.style.maxHeight = topicBody.scrollHeight + "px";
+        setTimeout(() => {
+          if (topicBody.dataset.open === "true") topicBody.style.maxHeight = "none";
+        }, 350);
+      }
+      // also adjust enclosing kb-body if needed
+      const kbBody = item.closest(".kb-body");
+      if (kbBody && kbBody.dataset.open === "true") {
+        kbBody.style.maxHeight = kbBody.scrollHeight + "px";
+        setTimeout(() => {
+          if (kbBody.dataset.open === "true") kbBody.style.maxHeight = "none";
+        }, 350);
+      }
+    });
+
+    // If images inside answers load later, adjust heights when they load
+    answer?.querySelectorAll("img").forEach(img => {
+      img.addEventListener("load", () => {
+        if (item.dataset.open === "true") {
+          answer.style.maxHeight = answer.scrollHeight + "px";
+          const topicBody = item.closest(".faq-topic-body");
+          if (topicBody && topicBody.dataset.open === "true") topicBody.style.maxHeight = topicBody.scrollHeight + "px";
+        }
+      });
+    });
+  });
+
+  // On resize, refresh any open elements' heights
+  window.addEventListener("resize", () => {
+    document.querySelectorAll(".kb-body[data-open='true'], .faq-topic-body[data-open='true'], .faq-answer[data-open='true']").forEach(el => {
+      // If explicit maxHeight was removed (set to none), set it momentarily to scrollHeight to keep animation coherent
+      if (el.style.maxHeight === "none" || !el.style.maxHeight) {
+        el.style.maxHeight = el.scrollHeight + "px";
+        setTimeout(() => { if (el.dataset.open === "true") el.style.maxHeight = "none"; }, 300);
+      } else {
+        el.style.maxHeight = el.scrollHeight + "px";
+      }
+    });
+  });
+
+  // click outside viewer closes it (but ignore clicks on kb-header / blog-card)
+  document.addEventListener("click", (e) => {
+    if (viewer.classList.contains("hidden")) return;
+    const clickedCard = e.target.closest(".blog-card");
+    const clickedHeader = e.target.closest(".kb-header");
+    const insideViewer = viewer.contains(e.target);
+    if (!insideViewer && !clickedCard && !clickedHeader) closeViewer();
+  });
+
+  // ---- Search (fuzzy) ----
+  function fuzzyMatch(text = "", q = "") {
+    if (!q) return false;
+    const t = (text || "").toLowerCase();
+    if (t.includes(q)) return true;
+    return t.split(/\s+/).some(w => w.startsWith(q));
+  }
+
+  searchInput.addEventListener("input", (e) => {
+    const raw = e.target.value || "";
+    const q = raw.trim().toLowerCase();
+
+    if (!q) {
+      // reset all
+      faqItems.forEach(item => {
+        item.style.display = "block";
+        // close answers
+        const ans = item.querySelector(".faq-answer");
+        if (ans) collapseElement(ans);
+        item.dataset.open = "false";
+        const qbtn = item.querySelector(".faq-question");
+        if (qbtn) qbtn.setAttribute("aria-expanded", "false");
+      });
+      // show all blog cards
+      cards.forEach(c => c.style.display = "block");
+      // collapse topics & sections
+      faqTopics.forEach(t => {
+        const body = t.querySelector(".faq-topic-body");
+        if (body) collapseElement(body);
+        t.classList.remove("open");
+      });
+      document.querySelectorAll(".kb-body").forEach(b => collapseElement(b));
+      closeViewer();
+      return;
+    }
+
+    // Filter FAQs
+    faqItems.forEach(item => {
+      const hay = (item.dataset.search || "").toLowerCase();
+      if (fuzzyMatch(hay, q)) {
+        item.style.display = "block";
+        // ensure parent topic & section open to reveal it
+        const topic = item.closest(".faq-topic");
+        if (topic) {
+          const tBody = topic.querySelector(".faq-topic-body");
+          if (tBody && topic.dataset.open !== "true") expandElement(tBody);
+          topic.classList.add("open");
+        }
+        const kb = item.closest(".kb-section");
+        if (kb) {
+          const kbBody = kb.querySelector(".kb-body");
+          if (kbBody && kb.dataset.open !== "true") expandElement(kbBody);
+          kb.classList.add("open");
+        }
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+    // Filter blog cards
+    cards.forEach(card => {
+      const hay = (card.dataset.search || "").toLowerCase();
+      card.style.display = fuzzyMatch(hay, q) ? "block" : "none";
+    });
+
+    // if only one blog visible, do NOT auto-open (we won't auto-open to avoid surprises)
+  });
+
+  // done
+});
+</script>
+<script>
+  import { blogs } from '../data/blogsData.js';
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".blog-card");
+    const viewer = document.getElementById("blog-viewer");
+    const titleEl = document.getElementById("blog-title");
+    const metaEl = document.getElementById("blog-meta");
+    const contentEl = document.getElementById("blog-content");
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => {
+        const index = card.dataset.index;
+        const blog = blogs[index];
+
+        // fill viewer
+        titleEl.textContent = blog.title;
+        metaEl.textContent = `${blog.author} · ${blog.date}`;
+        contentEl.innerHTML = blog.content;
+
+        viewer.classList.remove("hidden");
+        window.scrollTo({ top: viewer.offsetTop - 100, behavior: "smooth" });
+      });
+    });
+  });
+</script>
+
+</Layout>

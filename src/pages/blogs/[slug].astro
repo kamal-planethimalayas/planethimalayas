@@ -1,0 +1,66 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { blogs } from "../../data/blogsData.js";
+import { supabase } from "../../lib/supabaseClient.js";
+import BlogInteractions from "../../components/BlogInteractions.jsx";
+
+// -------------------
+// DYNAMIC ROUTING
+// -------------------
+export async function getStaticPaths() {
+  return blogs.map(blog => ({
+    params: { slug: blog.slug }
+  }));
+}
+
+// -------------------
+// GET SLUG & BLOG
+// -------------------
+const { slug } = Astro.params;
+const blog = blogs.find(b => b.slug === slug);
+if (!blog) throw new Error("Blog not found");
+
+// -------------------
+// FETCH INITIAL INTERACTIONS
+// -------------------
+let likes = 0;
+let dislikes = 0;
+let comments = [];
+
+const { data } = await supabase
+  .from("blog_interactions")
+  .select("*")
+  .eq("blog_slug", slug)
+  .single(); // fetch one row
+
+if (data) {
+  likes = data.likes;
+  dislikes = data.dislikes;
+  comments = data.comments || [];
+}
+---
+
+<Layout>
+  {blog.thumbnail && (
+    <div class="blog-hero">
+      <img src={blog.thumbnail} alt={blog.title} />
+      <h1 class="hero-title">{blog.title}</h1>
+    </div>
+  )}
+
+  <article class="blog-content">
+    <p class="meta">{blog.author} · {blog.date}</p>
+    <div set:html={blog.content}></div>
+  </article>
+
+  
+
+  <!-- Interaction Component -->
+  <BlogInteractions
+    client:load
+    slug={slug}
+    initialLikes={likes}
+    initialDislikes={dislikes}
+    initialComments={comments}
+  />
+</Layout>
