@@ -4,42 +4,40 @@ import { blogs } from "../data/blogsData.js";
 ---
 
 <Layout>
-  <div class="blog-page">
-    <!-- Blog Hero -->
-    <section class="blog-hero">
-      <div class="container">
-        <h1 class="blog-hero-title">Articles</h1>
-        <div class="blog-search-wrapper">
-          <input
-            id="blog-search"
-            type="text"
-            placeholder="Search Articles..."
-          />
-        </div>
+  <!-- BLOG HERO (same as FAQ hero) -->
+  <section class="faq-hero">
+    <div class="container">
+      <h1 class="faq-hero-title">Articles</h1>
+      <div class="faq-search-wrapper">
+        <input
+          id="blog-search"
+          type="text"
+          placeholder="Search Articles..."
+        />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Blog Cards Section -->
-    <section class="blogs-section">
-      <div class="container blogs-list">
-        {blogs.map((blog, index) => (
-          <a 
-            href={`/blogs/${blog.slug}`} 
-            class="blog-card" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            key={index}
-          >
-            <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
-            <div class="blog-content">
-              <h2>{blog.title}</h2>
-              <p class="blog-meta">{blog.author} · {blog.date}</p>
-            </div>
-          </a>
-        ))}
-      </div>
-    </section>
-  </div>
+  <!-- Blog Cards Section -->
+  <section class="blogs-section">
+    <div class="container blogs-list">
+      {blogs.map((blog, index) => (
+        <a 
+          href={`/blogs/${blog.slug}`} 
+          class="blog-card" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          key={index}
+        >
+          <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+          <div class="blog-content">
+            <h2>{blog.title}</h2>
+            <p class="blog-meta">{blog.author} · {blog.date}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
 
   <script>
     const searchInput = document.getElementById("blog-search");
@@ -52,22 +50,18 @@ import { blogs } from "../data/blogsData.js";
         card.style.display = text.includes(value) ? "flex" : "none";
       });
     });
-  </script>
 
-  <script>
-    // Simple parallax effect for hero title
-    const heroTitle = document.querySelector(".blog-hero-title");
+    // Parallax effect
+    const heroTitle = document.querySelector(".faq-hero-title");
     window.addEventListener("scroll", () => {
       const scrollY = window.scrollY;
-      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`; 
+      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
     });
   </script>
 
   <style>
-    /* =========================
-       BLOG HERO
-       ========================= */
-    .blog-page .blog-hero {
+    /* Reuse FAQ hero styles exactly */
+    .faq-hero {
       background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), #ff7300;
       color: #fff;
       padding: 4rem 1rem 2rem 1rem;
@@ -77,12 +71,12 @@ import { blogs } from "../data/blogsData.js";
     }
 
     @media (max-width: 768px) {
-      .blog-page .blog-hero {
+      .faq-hero {
         margin-top: -55px;
       }
     }
 
-    .blog-page .blog-hero-title {
+    .faq-hero-title {
       font-size: 2.5rem;
       font-weight: 900;
       margin-bottom: 1.5rem;
@@ -95,12 +89,12 @@ import { blogs } from "../data/blogsData.js";
       transition: transform 0.2s ease-out;
     }
 
-    .blog-page .blog-search-wrapper {
+    .faq-search-wrapper {
       max-width: 500px;
       margin: 0 auto;
     }
 
-    .blog-page .blog-search-wrapper input {
+    .faq-search-wrapper input {
       width: 100%;
       padding: 0.8rem 1rem;
       border-radius: 50px;
@@ -110,28 +104,26 @@ import { blogs } from "../data/blogsData.js";
       transition: box-shadow 0.3s ease, transform 0.2s ease;
     }
 
-    .blog-page .blog-search-wrapper input:focus {
+    .faq-search-wrapper input:focus {
       outline: none;
       box-shadow: 0 0 8px 2px #ff7300;
       transform: scale(1.02);
     }
 
-    /* =========================
-       BLOG CARDS
-       ========================= */
-    .blog-page .blogs-section {
+    /* Blog Cards Section */
+    .blogs-section {
       padding: 2rem 0;
       background: #fff;
     }
 
-    .blog-page .blogs-list {
+    .blogs-list {
       display: grid;
       gap: 1rem;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       padding: 0 1rem;
     }
 
-    .blog-page .blog-card {
+    .blog-card {
       display: flex;
       flex-direction: column;
       border-radius: 8px;
@@ -143,33 +135,33 @@ import { blogs } from "../data/blogsData.js";
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .blog-page .blog-card:hover {
+    .blog-card:hover {
       transform: translateY(-5px) scale(1.02);
       box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     }
 
-    .blog-page .blog-thumb {
+    .blog-thumb {
       width: 100%;
       height: 160px;
       object-fit: cover;
       transition: transform 0.3s ease;
     }
 
-    .blog-page .blog-card:hover .blog-thumb {
+    .blog-card:hover .blog-thumb {
       transform: scale(1.05);
     }
 
-    .blog-page .blog-content {
+    .blog-content {
       padding: 1rem;
     }
 
-    .blog-page .blog-content h2 {
+    .blog-content h2 {
       font-size: 1.2rem;
       margin-bottom: 0.5rem;
       font-weight: bold;
     }
 
-    .blog-page .blog-meta {
+    .blog-meta {
       font-size: 1rem;
       color: #666;
     }
