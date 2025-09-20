@@ -46,7 +46,7 @@ function NewsItem({ item }) {
             className="news-read-more-inline"
             onClick={() => setExpanded((v) => !v)}
           >
-            {expanded ? "Hide" : "Read More"}
+            {expanded ? "Read Less" : "Read More"}
           </button>
         )}
       </div>

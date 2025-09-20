@@ -41,21 +41,15 @@ details: '<h2>Hurry! Trekking Season Discount – Flat 15% Off Till Oct 31</h2>\
     details: 'Whether you\'re trekking in the Himalayas or anywhere in nature, it\'s our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in. Read <strong><a href="/blogs/mountain-manners/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
   },
   {
-    title: "Get prepared for a trek in the Himalayas",
-    type: "articles",
-    thumbnail: "/images/main/experience-hero2.jpg",
-    details: 'Trekking in the Himalayas is a dream adventure — but it demands smart preparation. Whether you\'re planning a snowy winter trek like Kedarkantha, a scenic route like HarKiDun, or a thrilling climb like Rupin Pass, here’s everything you need to know to get prepared and trek safely and confidently. Read <strong><a href="/blogs/get-prepared-for-a-trek/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
-  {
     title: "Acute Mountain Sickness (AMS)",
     type: "articles",
-    thumbnail: "/images/extras/experience-hero3.jpg",
+    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302941/ams_trigsv.jpg",
     details: 'If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS). Read <strong><a href="/blogs/mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
   },
   {
     title: "Preventing AMS-Mountain Sickness",
     type: "articles",
-    thumbnail: "/images/extras/experience-hero5.jpg",
+    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302958/prevent-ams_lgtjeb.jpg",
     details: 'Trekking in the Himalayas is an unforgettable experience—but it comes with a silent danger: Mountain Sickness, also known as Acute Mountain Sickness (AMS). The good news? With the right precautions, mountain sickness is completely preventable. Read <strong><a href="/blogs/preventing-ams-mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
   },
-];
+]; 

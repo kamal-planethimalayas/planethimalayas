@@ -19,45 +19,132 @@ import { blogs } from "../data/blogsData.js";
   </section>
 
   <!-- Blog Cards Section -->
-  <section class="blogs-section">
-    <div class="container blogs-list">
-      {blogs.map((blog, index) => (
-        <a 
-          href={`/blogs/${blog.slug}`} 
-          class="blog-card" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          key={index}
-        >
-          <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
-          <div class="blog-content">
-            <h2>{blog.title}</h2>
-            <p class="blog-meta">{blog.author} · {blog.date}</p>
+<section class="blogs-section">
+  <div class="container blogs-list">
+    {blogs.map((blog, index) => (
+      <a 
+        href={`/blogs/${blog.slug}`} 
+        class="blog-card" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        key={index}
+        data-search={`${blog.slug} ${blog.tags.join(" ")} ${blog.content}`}
+      >
+        <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+        <div class="blog-content">
+          <h2>{blog.title}</h2>
+
+          <!-- Description wrapper: desc-inner holds the HTML so measurement is accurate -->
+          <div class="blog-description" data-index={index}>
+            <div class="desc-inner" set:html={blog.description}></div>
           </div>
-        </a>
-      ))}
-    </div>
-  </section>
+
+          <span class="read-more" aria-expanded="false" style="display:none;">Read More</span>
+          <p class="blog-meta">{blog.author} · {blog.date}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
 
   <script>
-    const searchInput = document.getElementById("blog-search");
-    const blogCards = document.querySelectorAll(".blog-card");
+  const searchInput = document.getElementById("blog-search");
+  const blogCards = document.querySelectorAll(".blog-card");
 
-    searchInput.addEventListener("input", () => {
-      const value = searchInput.value.toLowerCase();
-      blogCards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(value) ? "flex" : "none";
-      });
-    });
+  searchInput.addEventListener("input", () => {
+    const value = searchInput.value.toLowerCase();
 
-    // Parallax effect
-    const heroTitle = document.querySelector(".faq-hero-title");
-    window.addEventListener("scroll", () => {
-      const scrollY = window.scrollY;
-      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
+    blogCards.forEach(card => {
+      // Read visible text
+      const text = card.textContent.toLowerCase();
+
+      // Read extra search data (slug, tags, content)
+      const extra = card.getAttribute("data-search")?.toLowerCase() || "";
+
+      // Match against both visible text + hidden data
+      const haystack = text + " " + extra;
+
+      card.style.display = haystack.includes(value) ? "flex" : "none";
     });
-  </script>
+  });
+
+  // Parallax effect (kept same)
+  const heroTitle = document.querySelector(".faq-hero-title");
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
+  });
+</script>
+
+  <script>
+  // Utility: debounce
+  const debounce = (fn, wait = 120) => {
+    let t;
+    return (...args) => {
+      clearTimeout(t);
+      t = setTimeout(() => fn(...args), wait);
+    };
+  };
+
+  function setupReadMoreControls() {
+    document.querySelectorAll(".blog-card").forEach(card => {
+      const desc = card.querySelector(".blog-description");
+      const inner = desc.querySelector(".desc-inner") || desc;
+      const toggle = card.querySelector(".read-more");
+
+      // Ensure clamp class is present first to allow consistent measurement
+      desc.classList.add("clamp");
+
+      // Measure overflow after layout settled
+      const isOverflowing = inner.scrollHeight > desc.clientHeight + 2; // small tolerance
+
+      if (isOverflowing) {
+        desc.classList.add("has-overflow");
+        toggle.style.display = "inline-block";
+        toggle.setAttribute("aria-expanded", "false");
+      } else {
+        // no overflow → don't show fade or toggle (keep text fully visible)
+        desc.classList.remove("has-overflow");
+        // optional: remove clamp so layout isn't artificially limited (keeps it natural)
+        desc.classList.remove("clamp");
+        toggle.style.display = "none";
+      }
+
+      // Toggle behavior — prevent card navigation
+      toggle.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation(); // prevent anchor click bubbling
+        const expanded = desc.classList.toggle("expanded");
+        // When expanded, remove clamp (so it displays fully); when collapsed, reapply clamp
+        if (expanded) {
+          desc.classList.remove("clamp");
+          desc.classList.add("expanded");
+          toggle.textContent = "Read Less";
+          toggle.setAttribute("aria-expanded", "true");
+        } else {
+          desc.classList.remove("expanded");
+          // if it originally had overflow, reapply clamp
+          if (desc.classList.contains("has-overflow")) desc.classList.add("clamp");
+          toggle.textContent = "Read More";
+          toggle.setAttribute("aria-expanded", "false");
+        }
+      };
+    });
+  }
+
+  // Run after everything loads (fonts/images) so measurements are accurate
+  window.addEventListener("load", () => {
+    // run once immediately after load
+    setupReadMoreControls();
+    // ensure re-check shortly after to catch any late layout shifts
+    setTimeout(setupReadMoreControls, 200);
+  });
+
+  // Recalculate on resize (debounced)
+  window.addEventListener("resize", debounce(() => {
+    setupReadMoreControls();
+  }, 160));
+</script>
 
   <style>
     /* Reuse FAQ hero styles exactly */
@@ -165,5 +252,61 @@ import { blogs } from "../data/blogsData.js";
       font-size: 1rem;
       color: #666;
     }
+
+    /* BASE */
+  .blog-description {
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    position: relative;
+    /* no clamp by default — we will add clamp class when needed */
+    max-height: none;
+    overflow: visible;
+    transition: max-height 0.3s ease;
+  }
+
+  /* When clamping is applied (only for items that might overflow) */
+  .blog-description.clamp {
+    max-height: calc(1.5em * 5); /* approx 5 lines */
+    overflow: hidden;
+  }
+
+  /* Fade overlay only when both clamp AND has-overflow are present */
+  .blog-description.clamp.has-overflow::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.2em; /* fade height */
+    /* fade to the card background — adjust color if your card bg isn't white */
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #ffffff);
+    pointer-events: none;
+  }
+
+  /* Expanded state removes the clamp so full text shows */
+  .blog-description.expanded {
+    max-height: none;
+    overflow: visible;
+  }
+  .blog-description.expanded::after {
+    display: none;
+  }
+
+  .desc-inner {
+    /* ensure inner uses same line-height for accurate measurements */
+    line-height: 1.5em;
+  }
+
+  .read-more {
+    display: inline-block;
+    color: #ff7300;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    user-select: none;
+  }
+
   </style>
 </Layout>

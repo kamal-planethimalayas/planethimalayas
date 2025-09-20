@@ -63,7 +63,14 @@ import { trekFAQs } from "../data/faqsData.js";
 
       items.forEach(item => {
         const question = item.querySelector(".faq-question").textContent.toLowerCase();
-        const match = question.includes(value);
+        const answer = item.querySelector(".faq-answer").textContent.toLowerCase();
+        const topicTitle = topic.querySelector(".faq-topic-header").textContent.toLowerCase();
+
+        const match =
+          question.includes(value) ||
+          answer.includes(value) ||
+          topicTitle.includes(value);
+
         item.style.display = match ? "block" : "none";
         if (match) hasVisible = true;
       });

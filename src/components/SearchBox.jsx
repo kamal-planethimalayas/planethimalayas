@@ -30,7 +30,7 @@ export default function SearchBox() {
     }
 
     const filtered = treks.filter((trek) =>
-      ["name", "region", "season", "difficulty", "month"].some((key) => {
+      ["name", "region", "season", "difficulty", "month", "duration"].some((key) => {
         const field = trek[key];
         if (Array.isArray(field)) {
           return field.some((item) => item.toLowerCase().includes(value));
@@ -80,7 +80,7 @@ export default function SearchBox() {
       <input
         ref={inputRef}
         type="text"
-        placeholder="search trek by name/region/season/difficulty/month..."
+        placeholder="search trek by name/region/season/difficulty/month/days..."
         value={query}
         onChange={handleChange}
         
