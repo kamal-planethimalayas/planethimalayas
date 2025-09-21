@@ -5,10 +5,20 @@ import "./NewsBanner.css";
 export default function NewsBanner() {
   const trackRef = useRef(null);
 
-  // Duplicate news for seamless loop
-  const duplicatedNews = [...news, ...news];
+  // Group items by head (display label) instead of just type
+  const groupedNews = news.reduce((acc, item) => {
+    if (!acc[item.head]) acc[item.head] = [];
+    acc[item.head].push(item.title);
+    return acc;
+  }, {});
 
-  // Calculate animation duration dynamically based on content width
+  // Duplicate groups for seamless loop
+  const duplicatedGroups = [
+    ...Object.entries(groupedNews),
+    ...Object.entries(groupedNews),
+  ];
+
+  // Calculate animation duration dynamically
   const [animationDuration, setAnimationDuration] = useState(20);
 
   useEffect(() => {
@@ -26,14 +36,14 @@ export default function NewsBanner() {
         ref={trackRef}
         style={{ animationDuration: `${animationDuration}s` }}
       >
-        {duplicatedNews.map((item, index) => (
+        {duplicatedGroups.map(([head, titles], index) => (
           <span key={index} className="news-banner-item">
-            {item.title}
+            <strong>{decodeURIComponent(head)}: </strong> {titles.join(" | ")}
           </span>
         ))}
       </div>
       <a href="#news-section" className="news-btn">
-        Go to News
+        News & Articles
       </a>
     </div>
   );

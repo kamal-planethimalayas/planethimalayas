@@ -3,7 +3,7 @@
 export const treks = [
   {
     id: "pin-bhaba-pass-trek",
-    name: "Pin Bhaba Pass",
+    name: "Pin Bhaba Pass Trek",
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -169,7 +169,7 @@ export const treks = [
   
   {
     id: "hampta-pass-trek",
-    name: "Hampta Pass",
+    name: "Hampta Pass Trek",
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -341,7 +341,7 @@ export const treks = [
 
   {
     id: "rupin-pass-trek",
-    name: "Rupin Pass",
+    name: "Rupin Pass Trek",
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -545,7 +545,7 @@ export const treks = [
 
 {
     id: "buran-ghati-trek",
-    name: "Buran Ghati",
+    name: "Buran Ghati Trek",
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -750,7 +750,7 @@ export const treks = [
 
   {
     id: "ali-bedni-bugyal-trek",
-    name: "Ali Bedni Bugyal",
+    name: "Ali Bedni Bugyal Trek",
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -944,7 +944,7 @@ seo: {
 
   {
     id: "deoriatal-chandrashila-trek",
-    name: "Deoriatal Chandrashila",
+    name: "Deoriatal Chandrashila Trek",
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -981,7 +981,7 @@ seo: {
   "The Deoriatal–Tungnath–Chandrashila trek is a soul-stirring Himalayan experience where mythology, meadows, and mountains converge. Starting with the mystical lake of Deoriatal, where Chaukhamba reflects in still waters, the trail winds through rhododendron and oak forests alive with bird calls, including the resplendent Himalayan Monal. Higher up, the stone-carved temple of Tungnath — the highest Shiva shrine in the world at 11,400 ft — greets trekkers with timeless devotion. The final push to Chandrashila summit at 12,083 ft rewards you with one of the grandest Himalayan panoramas: Nanda Devi, Trishul, Chaukhamba, Kedarnath Dome, and Bandarpunch glowing under sunrise. Accessible year-round, this trek is equally enchanting in spring’s blossoms, monsoon’s mist, autumn’s clarity, and winter’s snow — a rare 4-season gem where nature and legend walk hand in hand."
     },
 
-    price: 8500,
+    price: 10500,
     priceNote: "* Sari to Sari",
     addons: {
       transport: 2800, 
@@ -1132,7 +1132,7 @@ seo: {
 
   {
     id: "gaumukh-tapovan-trek",
-    name: "Gaumukh Tapovan",
+    name: "Gaumukh Tapovan Trek",
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1325,7 +1325,7 @@ seo: {
 
   {
     id: "goechala-trek",
-    name: "Goechala",
+    name: "Goechala Trek",
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november"],
@@ -1545,7 +1545,7 @@ seo: {
 
   {
     id: "phulara-ridge-trek",
-    name: "Phulara Ridge",
+    name: "Phulara Ridge Trek",
     difficulty: ["moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -1724,7 +1724,7 @@ seo: {
 
   {
     id: "harkidun-ruinsaratal-trek",
-    name: "Harkidun Ruinsaratal",
+    name: "Harkidun Ruinsaratal Trek",
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1913,7 +1913,7 @@ seo: {
 
   {
     id: "harkidun-trek",
-    name: "Harkidun",
+    name: "Harkidun Trek",
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
@@ -2088,7 +2088,7 @@ seo: {
 
     {
     id: "markha-valley-trek",
-    name: "Markha Valley",
+    name: "Markha Valley Trek",
     difficulty: ["difficult"],
     season: ["monson"],
     month: ["august", "september"],
@@ -2265,7 +2265,7 @@ seo: {
 
   {
   id: "kuari-pass-trek",
-  name: "Kuari Pass",
+  name: "Kuari Pass Trek",
   difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -2463,7 +2463,7 @@ seo: {
 
 {
   id: "kedarkantha-trek",
-  name: "Kedarkantha",
+  name: "Kedarkantha Trek",
   difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -2655,7 +2655,7 @@ itinerary: [
 
 {
   id: "dayara-bugyal-trek",
-  name: "Dayara Bugyal",
+  name: "Dayara Bugyal Trek",
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],

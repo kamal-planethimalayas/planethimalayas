@@ -82,10 +82,10 @@ function NewsCard({ category, label }) {
 }
 
 export default function NewsSection() {
-  const categories = ["slopes", "articles"]; // 👈 removed weather
+  const categories = ["news", "articles"]; 
   const labels = {
-    slopes: "News from the Slopes",
-    articles: "Important Articles",
+    news: "News",
+    articles: "Articles",
   };
 
   return (
