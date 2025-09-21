@@ -41,11 +41,11 @@ export const trekFAQs = [
     },
     {
       question:  "Selecting the ideal backpack for Your trek", 
-      answer:   `<p>Your backpack is your lifeline on the trail — it carries your essentials, supports your back, and travels with you every step of the way. Choosing the right backpack for a Himalayan trek is all about fit, comfort, size, and smart features — not just brand or looks. Confused about which backpack to buy for your Himalayan trek? Learn how to choose the right capacity, fit, features & top brands like Forclaz, Osprey & Deuter.<br><strong><a href='https://www.planethimalayas.com/ideal-trekking-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
+      answer:   `<p>Your backpack is your lifeline on the trail — it carries your essentials, supports your back, and travels with you every step of the way. Choosing the right backpack for a Himalayan trek is all about fit, comfort, size, and smart features — not just brand or looks. Confused about which backpack to buy for your Himalayan trek? Learn how to choose the right capacity, fit, features & top brands like Forclaz, Osprey & Deuter.<br><strong><a href='https://www.planethimalayas.com/blogs/ideal-trekking-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
     },
     {
       question: "How to pack Your backpack for a trek in the Himalayas",
-      answer: `Packing your backpack correctly can make a huge difference on a Himalayan trek — from comfort and balance to quick access and weather protection. A poorly packed bag leads to back pain, frustration, and unnecessary energy drain. Learn how to pack your trekking backpack the smart way. Discover backpack zones, weight distribution, waterproofing & common mistakes to avoid on Himalayan treks.<br><strong><a href='https://www.planethimalayas.com/packing-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
+      answer: `Packing your backpack correctly can make a huge difference on a Himalayan trek — from comfort and balance to quick access and weather protection. A poorly packed bag leads to back pain, frustration, and unnecessary energy drain. Learn how to pack your trekking backpack the smart way. Discover backpack zones, weight distribution, waterproofing & common mistakes to avoid on Himalayan treks.<br><strong><a href='https://www.planethimalayas.com/blogs/packing-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
     {
   question: "Why is staying hydrated important on a trek?",
