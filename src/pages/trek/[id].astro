@@ -1076,30 +1076,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   margin: 0 auto 2rem auto;
 }
 
-.trek-overview-card {
-  background: none;     /* no background */
-  border: none;         /* no border */
-  border-radius: 0;     /* no rounding */
-  padding: 0;           /* no extra padding */
-  margin: 0 0 0.5rem 0; /* small vertical spacing between blocks */
-  box-shadow: none;     /* no shadow */
-}
-
-.trek-overview-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.trek-overview-card li {
-  margin: 0.2rem 0;     /* very tight spacing */
-  font-size: 0.95rem;   /* slightly compact text */
-  display: flex;
-  align-items: flex-start;
-  gap: 0.4rem;          /* small gap between icon/bullet and text */
-  line-height: 1.3;     /* compact line height */
-}
-
 
 .trek-overview-snippet {
   margin-top: 1.5rem;
@@ -1131,20 +1107,32 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 }
 
 /* Facts cards */
+.trek-overview-card {
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0 0 0.5rem 0; /* small vertical spacing between blocks */
+  box-shadow: none;
+}
+
 .trek-overview-card ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr; /* stacked on mobile */
+  gap: 0.5rem; /* spacing between li cards */
 }
 
 .trek-overview-card li {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   border-radius: 8px;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* fixes the text wrap alignment */
   gap: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
   text-align: left;
 }
 
