@@ -1,41 +1,5 @@
 export const blogs = [
 {
-  title: "My Story: From City Boy to Trek Leader",
-  slug: "my-story",
-  date: "2025-09-12",
-  author: "Kamal Das",
-  tags: ["trekking", "planethimalayas", "life story", "goechala trek"],
-  description: "From a city job to the Himalayan trails — my journey of becoming a trek leader and starting Planethimalayas.",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg",
-    content: `
-<p><em>Trekkers often ask me – what was my first trek, which is my favorite of all time, or simply, what is my story? After years of answering in bits and pieces, I finally decided to jot it all down. This is my journey, and I hope it inspires you to chase your own mountains.</em></p>
-
-<h2>City Boy Dreams</h2>
-<p>I’ve always been an athlete and loved the outdoors. Cricket was my favorite sport growing up, but mountains were far away, even from my dreams. I was a city boy, average in studies, and my family expected me to go for a secure government job.</p>
-<p>Instead, I took up computer engineering. I didn’t continue long and dropped out when I got placed in a call center as a desktop support engineer in 2008. Within a year I was promoted to a network support engineer, and I continued in that field for over 4 years. It wasn’t boring, though sometimes monotonous. I would escape on motorbike rides whenever I had holidays.</p>
-
-<h2>First Glimpse of the Himalayas</h2>
-<p>In 2012, my friends and I rode our bikes to the Himalayas for the first time — Darjeeling and Sikkim. I was mesmerized, overwhelmed, hypnotized by the immense size and beauty of the mountains. The sunrise over Kanchenjunga stole my heart. A local told me that if I ever trekked to Goechala, I’d experience something even greater. I locked it in as my next holiday plan.</p>
-
-<h2>My First Trek: Goechala</h2>
-<p>I signed up with Indiahikes for my first trek. They prepared me well, and soon I was trekking over 100 km with a 12 kg backpack. Thanks to my trek leader Altaf (from Kashmir), who is still my guru, I completed it smoothly. When I stood on Dzongri Top watching the sunrise over the Kanchenjunga range, I cried. It was a majestic view I will never forget.</p>
-<p>The trail itself was magical — Yuksom to Tshoka, Dzongri, Thansing, and the high-altitude Samiti Lake. Evergreen forests gave way to grasslands, moraines, glaciers, and lakes that fed rivers flowing into civilizations below. Few treks give such a complete Himalayan experience. To this day, Goechala remains second on my favorite trek list (after Pin Parvati Pass, but that’s another blog).</p>
-
-<h2>The Turning Point</h2>
-<p>The hangover of Goechala was so strong that I immediately wanted to book my next trek — Rupin Pass. But then, I gave myself a chance to apply for an internship as an Assistant Trek Leader with Indiahikes. They accepted me, but my office wouldn’t approve a month’s leave. So, I resigned. I wanted to experience more of the Himalayas.</p>
-<p>Fate worked its way again — my internship posting was at Goechala. After a month, I got the opportunity to lead a batch of 17 trekkers when the trek leader fell ill. I led them well enough to impress both the trekkers and Indiahikes. They offered me a full-time trek leader role, and I accepted without a second thought.</p>
-
-<h2>Life as a Trek Leader</h2>
-<p>Since then, I’ve never looked back. I changed companies along the way, but never the outdoors. The Himalayas became my home, my workplace, and my inspiration.</p>
-
-<h2>Today with Planethimalayas</h2>
-<p>Today, with the love and blessings of trekkers I’ve led over the years, I run my own venture — <a href="/" class="brand-link"><strong>Planethimalayas</strong></a>. This journey is a gift from the mountains and the people I’ve walked with. </p>
-
-<p><em>This is my story. Ask me anything — I’ll always answer with honesty. Maybe your questions will become the next blog here.</em></p>
-  `,
-},
-
-{
   title: "Getting Prepared for a Trek in the Himalayas",
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
@@ -147,76 +111,87 @@ export const blogs = [
   date: "2025-09-16",
   author: "Kamal Das",
   tags: [
-  "Leave No Trace",
-  "Trekking Tips",
-  "Responsible Trekking",
-  "Eco-friendly Trekking",
-  "Himalayan Treks",
-  "Sustainable Travel",
-  "Mountain Etiquette",
-  "Camping Guidelines",
-  "Nature Conservation",
-  "Adventure Travel Ethics"
-],
-  description: "Whether you're trekking in the Himalayas or anywhere in nature, it's our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in.",
+    "Leave No Trace",
+    "Trekking Tips",
+    "Responsible Trekking",
+    "Eco-friendly Trekking",
+    "Himalayan Treks",
+    "Sustainable Travel",
+    "Mountain Etiquette",
+    "Camping Guidelines",
+    "Nature Conservation",
+    "Adventure Travel Ethics"
+  ],
+  description: "Learn the essential Leave No Trace (LNT) principles for responsible trekking in the Himalayas. Discover how to respect nature, minimize impact, and preserve mountain beauty for future generations.",
   thumbnail: "/images/extras/experience-hero7.jpg",
   content: `
-<p>Whether you're trekking in the Himalayas or anywhere in nature, it's our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in.</p>
+<p>The Himalayas aren’t just trails and summits — they’re living ecosystems, cultural landscapes, and homes to thousands. Every trekker leaves an imprint, and it's our responsibility to ensure that impact is positive. That’s where <strong>Leave No Trace (LNT) principles</strong> come in — a universal code of respect and gratitude for the outdoors.</p>
 
-<p>Here’s how you can be a more mindful and responsible trekker:</p>
+<p>Here are seven simple yet powerful ways you can practice responsible trekking on your next Himalayan adventure:</p>
 
 <h3>♻️ 1. Pack It In, Pack It Out</h3>
 <ul>
-<li>Carry all waste back with you, including wrappers, sanitary products, and non-biodegradables.</li>
-<li>Use reusable bottles and tiffin boxes to reduce plastic use.</li>
-<li>🗑️ Never leave food waste or tissue paper in the wild — they harm local wildlife and ecosystems.</li>
+<li>Carry all waste back with you — wrappers, bottles, sanitary products, and anything non-biodegradable.</li>
+<li>Switch to reusable bottles, tiffins, and cloth bags to cut down on single-use plastics.</li>
+<li>🗑️ Never bury or leave food waste or tissue paper in the wild — they disrupt ecosystems and harm wildlife.</li>
 </ul>
+
+<p><a href="/docs/Himalayan_Trek_Packing_List.pdf" target="_blank"><strong>👉 Download our free Himalayan Trek Packing List</strong></a> to help you prepare responsibly.</p>
 <br>
+
 <h3>🥾 2. Stay on the Trail</h3>
 <ul>
-<li>Stick to marked trails to prevent soil erosion and damage to fragile alpine vegetation.</li>
-<li>Don’t shortcut switchbacks — they may seem quicker but damage the ecosystem long-term.</li>
-<li>🌱 Every footstep off-trail disturbs decades-old flora.</li>
+<li>Stick to marked trails to protect fragile alpine vegetation and prevent soil erosion.</li>
+<li>Avoid shortcutting switchbacks — they may look tempting but cause long-term trail damage.</li>
+<li>🌱 Remember, every step off-trail disturbs decades-old flora.</li>
 </ul>
 <br>
+
 <h3>🔥 3. Minimize Campfire Impact</h3>
 <ul>
-<li>Avoid open fires — use camping stoves instead.</li>
-<li>Never burn plastic or leftover food in the wild.</li>
-<li>🔥 Deadwood is home to insects and micro-habitats — leave it be.</li>
+<li>Use portable camping stoves instead of open fires.</li>
+<li>Never burn plastic or food waste — toxic fumes harm the environment.</li>
+<li>🔥 Deadwood belongs to the forest — it’s home to insects, fungi, and micro-habitats.</li>
 </ul>
 <br>
+
 <h3>📢 4. Respect Nature’s Silence</h3>
 <ul>
-<li>Enjoy the peace of the mountains — avoid playing loud music or shouting.</li>
-<li>Let wildlife remain wild — observe from a distance, don’t feed or approach animals.</li>
-<li>🦅 Sound travels far in the mountains — keep it serene for everyone.</li>
+<li>Let the mountains speak — avoid loud music, shouting, or noise pollution.</li>
+<li>Observe wildlife from a safe distance. Never feed or approach animals.</li>
+<li>🦅 In the mountains, sound travels far. Keep it serene for everyone.</li>
 </ul>
 <br>
+
 <h3>🚽 5. Proper Bathroom Etiquette</h3>
 <ul>
-<li>Use designated toilet tents or dig a cat-hole 6–8 inches deep, at least 50 meters away from any water source.</li>
-<li>Carry toilet paper out in a ziplock if it's non-biodegradable.</li>
-<li>🚰 Human waste near water sources can contaminate entire valleys.</li>
+<li>Use designated toilet tents. If unavailable, dig a small cat-hole (6–8 inches) at least 50m away from water sources.</li>
+<li>Carry used toilet paper in a ziplock if it’s non-biodegradable.</li>
+<li>🚰 Human waste near streams can contaminate entire valleys — stay mindful.</li>
 </ul>
 <br>
+
 <h3>🧘 6. Respect Local Culture</h3>
 <ul>
-<li>Dress modestly in villages and ask before taking photos.</li>
-<li>Buy from locals — support their economy without bargaining excessively.</li>
-<li>🙏 You're walking through someone’s homeland — treat it with honor.</li>
+<li>Dress modestly in villages and always ask before taking photos.</li>
+<li>Buy local products without bargaining excessively — your rupee sustains mountain communities.</li>
+<li>🙏 Remember, you are walking through someone’s homeland. Honor their traditions and way of life.</li>
 </ul>
 <br>
+
 <h3>🛑 7. Leave What You Find</h3>
 <ul>
-<li>Don’t pick flowers, break branches, or collect stones or fossils.</li>
-<li>Let others enjoy the same untouched magic you experienced.</li>
+<li>Resist the urge to pick flowers, break branches, or pocket stones as souvenirs.</li>
+<li>Let the next trekker experience the same untouched beauty you enjoyed.</li>
 <li>🌸 Take only memories, leave only footprints.</li>
 </ul>
 <br>
+
 <h3>🌄 Final Thought: The Mountains Give Us Everything — Let’s Give Back Respect</h3>
-<p><em><q>Practicing Leave No Trace isn’t just a guideline — it's a code of gratitude. Anywhere you're trekking to, following these principles ensures that the trails stay beautiful for future generations.</q></em></p>
-`,
+<p><em><q>Practicing Leave No Trace isn’t just about rules — it’s about gratitude. By trekking responsibly, you ensure these trails, rivers, and valleys remain pristine for future generations of explorers.</q></em></p>
+
+<p><strong>Want to experience responsible trekking firsthand?</strong> Explore our <a href="/upcoming-treks">Upcoming Himalayan Treks</a> — thoughtfully crafted with care, safety, and a deep love for the mountains.</p>
+`
 },
 
 {

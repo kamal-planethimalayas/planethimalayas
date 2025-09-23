@@ -1,5 +1,4 @@
 // src/data/treksData.js
-
 export const treks = [
   {
     id: "pin-bhaba-pass-trek",
