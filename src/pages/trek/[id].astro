@@ -730,6 +730,33 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   border-bottom: 2px solid #ff7300;
 }
 
+/* Desktop */
+#highlights,
+#itinerary,
+#map,
+#how-to-reach,
+#did-you-know,
+#gallery,
+#packing-list,
+#faqs {
+  scroll-margin-top: 60px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  #highlights,
+  #itinerary,
+  #map,
+  #how-to-reach,
+  #did-you-know,
+  #gallery,
+  #packing-list,
+  #faqs {
+    scroll-margin-top: 320px; /* bigger offset for vertical nav */
+  }
+}
+
+
 /* =========================
    TREK DETAILS CONTENT
    ========================= */
@@ -811,7 +838,7 @@ const groupedDates = trek.dates.reduce((acc, d) => {
    ========================= */
 @media (max-width: 767px) {
   #trek-nav {
-    top: 55px; /* adjust for mobile navbar */
+    top: 55px;
     border-radius: 6px;
   }
 
