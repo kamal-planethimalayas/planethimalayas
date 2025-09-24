@@ -63,7 +63,8 @@ import Layout from "../layouts/Layout.astro";
 </div>
 
 
-  <style>
+<style>
+
     /* Hero */
 .contact-hero {
   width: 100%;
@@ -74,16 +75,17 @@ import Layout from "../layouts/Layout.astro";
   flex-direction: column;
   justify-content: flex-start;   /* content starts from left */
   align-items: center;           /* vertical center */
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   color: #fff;
-  position: relative;
-  
+  position: relative; 
 }
 
 .contact-hero .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  will-change: transform;
+  transition: transform 0.1s linear;
 }
 
 .contact-hero h1 {
@@ -102,22 +104,17 @@ import Layout from "../layouts/Layout.astro";
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7),
     4px 4px 10px rgba(0, 0, 0, 0.5),
     0 0 8px rgba(0, 0, 0, 0.3);
-  max-width: 1000px;
+  max-width: 1200px;
 }
-
-
-
 
     /* Contact Info Cards */
 /* Container for contact cards */
 .contact-cards .container {
   display: flex;
   flex-wrap: wrap; /* Allows wrapping on very small screens */
-  gap: 20px; /* Space between cards */
+  gap: 16px; /* Space between cards */
   width: 100%;
-  max-width: 1200px; /* Optional: to limit the container on large screens */
-  margin: 0 auto; /* Center container */
-  padding: 40px;
+  padding: 1.5rem;
   box-sizing: border-box;
 }
 
@@ -127,7 +124,7 @@ import Layout from "../layouts/Layout.astro";
   min-width: 250px; /* Ensures cards don’t get too small on tiny screens */
   background-color: #fff;
   border-radius: 10px;
-  padding: 30px;
+  padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
@@ -163,14 +160,10 @@ import Layout from "../layouts/Layout.astro";
   color: #ff7300;
 }
 
-
-  
-
-
     /* Form Section */
 /* Contact Form Section */
 .contact-form-section {
-  
+  padding: 16px;
   background-color: #f9f9f9;
   width: 100%;
   box-sizing: border-box;
@@ -178,10 +171,9 @@ import Layout from "../layouts/Layout.astro";
 
 /* Container to hold form */
 .contact-form-section .container {
-  max-width: 800px; /* Adjust width as needed */
-  margin: 100px; /* Left-aligned on desktop */
-  margin-top:-20px;
-  margin-bottom: -20px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 /* Form Heading */
@@ -200,7 +192,7 @@ import Layout from "../layouts/Layout.astro";
 }
 
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .contact-form label {
@@ -244,8 +236,6 @@ import Layout from "../layouts/Layout.astro";
 .contact-form .btn-submit:hover {
   background-color: #e66000;
 }
-
-
 
 /* Modal */
 /* Modal - hidden by default */
@@ -308,39 +298,38 @@ import Layout from "../layouts/Layout.astro";
   /* Hero Section */
   .contact-hero {
     height: 60vh;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     margin-top: -55px;
   }
 
   .contact-hero h1 {
-    font-size: 2.5rem; 
+    font-size: 2rem; 
   }
 
 
    .contact-hero p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   /* Contact Info Cards */
   .contact-cards .container {
     flex-direction: column;
-    gap: 20px;
-    max-width: 90%;
-    padding: 10px;
-    margin: 0 auto;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 1.5rem;
   }
 
   .contact-cards .card {
     flex: 1 1 100%; /* full width on mobile */
     min-width: auto;
-    padding: 20px;
+    padding: 1rem;
   }
 
   /* Contact Form Section */
   .contact-form-section .container {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0 10px;
+    max-width: 100%;
+    padding: 0.5rem 0.5rem;
+    
   }
 
   .contact-form-section h2 {
@@ -417,4 +406,22 @@ closeBtn.addEventListener('click', () => { modal.style.display = 'none'; });
 window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
 
 </script>
+
+<script>
+const heroContainer = document.querySelector(".contact-hero .container");
+const hero = document.querySelector(".contact-hero");
+
+window.addEventListener("scroll", () => {
+  const heroRect = hero.getBoundingClientRect();
+  const scrollY = window.scrollY;
+
+  if (heroRect.bottom > 0) {
+    let move = scrollY * 0.5;                
+    const maxMove = hero.offsetHeight / 2;
+
+    heroContainer.style.transform = `translateY(${move}px)`;
+  }
+});
+</script>
+
 </Layout>

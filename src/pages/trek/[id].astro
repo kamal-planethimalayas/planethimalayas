@@ -40,7 +40,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 
 ---
 
-
 <Layout 
   title={trek.seo?.title || trek.name} 
   description={trek.seo?.description || trek.subtitle}
@@ -50,15 +49,14 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 <section class="trek-hero">
     <div class="hero-overlay"></div>
     <img src={trek.heroImage} alt={trek.name} class="trek-hero-image" />
-
     <div class="hero-content">
+    <div class="hero-text">
       <h1 class="trek-hero-title">{trek.name}</h1>
       <p class="trek-hero-subtitle">{trek.subtitle}</p>
-    </div>    
+    </div> 
+    </div>  
 </section>
 
-  
-  
 <div class="container">
 
   <!-- Overview -->
@@ -80,15 +78,11 @@ const groupedDates = trek.dates.reduce((acc, d) => {
       })}
     </ul>
   </div>
-
-
-  <!-- Trek snippet -->
-  <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
 </section>
 
 
- <!-- Pricing -->
-<section id="pricing-details">
+<!-- Pricing -->
+<section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper">
 <div class="price-box">
       <h2>INR {trek.price.toLocaleString()}</h2>
       <p class="subheading"> {trek.priceNote ? <em>{trek.priceNote}</em> : null}</p>
@@ -441,9 +435,11 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 }
 
 </style>
+</div>
+<!-- Trek snippet -->
+  <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
 
 </section>
-</div>
 
 
 <section class="trek-details">
@@ -465,7 +461,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- Highlights -->
   <section id="highlights">
     <h2 class="section-heading">Highlights</h2>
-    
     <div>
       {trek.highlights.map((point, idx) => (
         <p key={idx}>✅ {point}</p>
@@ -476,7 +471,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- Itinerary -->
   <section id="itinerary">
     <h2 class="section-heading">Itinerary</h2>
-    
     <div class="space-y-6">
       {trek.itinerary.map(day => (
         <article key={day.day}>
@@ -490,7 +484,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- Trek Map Section -->
   <section id="map"> 
     <h2 class="section-heading">Map</h2>
-    
     <TrekMap client:only="react" coordinates={trek.coordinates} />
   </section>
 
@@ -498,7 +491,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- How to reach -->
   <section id="how-to-reach">
     <h2 class="section-heading">How to reach</h2>
-    
     <div class="space-y-4">
       <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
       <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
@@ -510,7 +502,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- Did you know -->
   <section id="did-you-know">
     <h2 class="section-heading">Did you know?</h2>
-    
     <div>
       {trek.didYouKnow.map((fact, idx) => (
         <div key={idx} class="did-you-know-fact">
@@ -524,7 +515,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   <!-- Gallery -->
   <section id="gallery">
     <h2 class="section-heading">Gallery</h2>
-    
     <div class="gallery-grid">
       {trek.gallery.map((img, i) => (
         <img key={i} src={img} alt={`${trek.name} image ${i + 1}`} />
@@ -624,7 +614,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   
 <style>
 
-
 .faqs {
   background: #fff;
   padding: 2rem;
@@ -700,7 +689,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 @media (min-width: 1024px) {
   #trek-nav {
     width: 100%;            /* fit parent container instead of viewport */
-    max-width: 1200px;      /* optional: cap width so it doesn’t stretch too far */
     margin: 0 auto;         /* center inside parent */
     position: sticky;
     top: 0;
@@ -748,7 +736,7 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 .trek-details {
   display: flex;
   flex-direction: column; /* stack sections vertically */
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto; /* center container */
   box-sizing: border-box;
 }
@@ -770,7 +758,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   height: 2px;
   background-color: #ff7300;
   width: 100%;
-  max-width: 1200px;
   border-radius: 2px;
 }
 
@@ -808,7 +795,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 16px;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -861,21 +847,16 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   }
 }
 
-.snippet-card {
-  max-width: 1200px;
-  margin: 40px auto; /* equal space above & below */
-  padding: 0 20px;
+.pricing-snippet-wrapper {
+  display: flex;
+  gap: 2rem; /* space between boxes */
+  align-items: flex-start;
 }
 
-@media (min-width: 768px) {
-  .snippet-card {
-    text-align: center; /* center on desktop only */
-  }
-}
-
-@media (max-width: 767px) {
-  .snippet-card {
-    text-align: left; /* keep good readability on mobile */
+@media (max-width: 768px) {
+  .pricing-snippet-wrapper {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 
@@ -885,10 +866,9 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   padding: 24px;
   border-radius: 8px;
   box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
-
   width: 100%;          /* default full width for mobile */
-  max-width: 50%;       /* limit to 50% on larger screens */
-  margin: 0;       /* left-align */
+  max-width: 40%;       /* limit to 50% on larger screens */
+  margin: 2rem 0;       /* left-align */
 }
 
 /* Optional tweak: force full width on small screens */
@@ -1076,25 +1056,6 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   margin: 0 auto 2rem auto;
 }
 
-
-.trek-overview-snippet {
-  margin-top: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-  .price-box {
-    width: 100% !important;
-    padding: 20px !important;
-    margin-bottom: 20px !important;
-  }
-
-  .modal-card {
-    flex-direction: column !important;
-    gap: 20px !important;
-    padding: 10px !important;
-  }
-
 .trek-overview-title {
   font-size: 2rem;
 }
@@ -1146,11 +1107,11 @@ const groupedDates = trek.dates.reduce((acc, d) => {
 /* Snippet paragraph full-width */
 .trek-overview-snippet {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 1rem;
   line-height: 1.6;
   width: 100%;
 }
-
 
 </style>
 
@@ -1165,5 +1126,23 @@ const groupedDates = trek.dates.reduce((acc, d) => {
     });
   });
 </script>
+
+<script>
+const heroText = document.querySelector(".trek-hero .hero-text");
+const hero = document.querySelector(".trek-hero");
+
+window.addEventListener("scroll", () => {
+  const heroRect = hero.getBoundingClientRect();
+  const scrollY = window.scrollY;
+
+  if (heroRect.bottom > 0) {
+    let move = scrollY * 0.5; // speed factor
+    const maxMove = hero.offsetHeight / 2;
+
+    heroText.style.transform = `translateY(${Math.min(move, maxMove)}px)`;
+  }
+});
+</script>
+
 
 </Layout>

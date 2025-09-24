@@ -52,6 +52,11 @@ html {
   object-position: center;
 }
 
+.hero-text {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
 .hero-content {
   position: absolute;
   top: 50%;
@@ -121,7 +126,7 @@ body {
 }
 
 .container {
-  max-width: var(--max-page-width, 1200px);
+  max-width: 100%;
   margin: 0 auto;       /* Center horizontally */
   padding-left: 1.5rem;
   padding-right: 1.5rem;

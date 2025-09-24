@@ -16,18 +16,13 @@ import "../styles/global.css";
 </div>
 
 <!-- Hero Section -->
-  <section class="hero">
-    <div>
-      <h1>More Than<br />Just A Trek</h1>
-    </div>
-
-    <div>
-      <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
-    </div>
-
-    <div>
-      <p>"Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas"</p>
-    </div>
+  <section class="hero"> 
+    <div> 
+      <h1>More Than<br />Just A Trek</h1> 
+    </div> 
+    <div> 
+      <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a> </div> <div> <p>"Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas"</p> 
+    </div> 
   </section>
 
 <div class="container">
@@ -135,7 +130,7 @@ import "../styles/global.css";
 
 <!-- UPCOMING TREKS: Autumn Treks -->
 <section class="trek-section">
-  <h2>Upcoming treks</h2>
+  <h2>Upcoming Treks</h2>
   <div class="section-underline"></div>
   <div class="trek-cards-wrapper">
     <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
@@ -169,7 +164,7 @@ import "../styles/global.css";
 
 <!-- News Section -->
 <section class="news-section">
-  <h2 class="news-section-heading">News & updates</h2>
+  <h2 class="news-section-heading">News & Articles</h2>
   <div class="section-underline"></div>
   <NewsSection client:load />
 </section>
@@ -278,7 +273,7 @@ import "../styles/global.css";
   line-height: 1.2;
   font-weight: bold;
   color: white;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1rem 0;
   text-shadow:
     3px 3px 6px rgba(0, 0, 0, 0.7),
     6px 6px 12px rgba(0, 0, 0, 0.5),
@@ -985,3 +980,22 @@ window.scrollCards = scrollCards;
     });
   });
 </script>
+
+<script>
+const heroContainer = document.querySelector(".hero .container");
+const hero = document.querySelector(".contact-hero");
+
+window.addEventListener("scroll", () => {
+  const heroRect = hero.getBoundingClientRect();
+  const scrollY = window.scrollY;
+
+  if (heroRect.bottom > 0) {
+    let move = scrollY * 0.5;                
+    const maxMove = hero.offsetHeight / 2;
+
+    heroContainer.style.transform = `translateY(${move}px)`;
+  }
+});
+</script>
+
+

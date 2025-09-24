@@ -18,7 +18,8 @@ const filterCategories = {
 /* ====== GENERAL PAGE STYLES ====== */
 
 .page-wrapper { 
-  display:flex; 
+  display:flex;
+  padding-bottom: 2rem; 
   }
 
 /* ====== FILTER SIDEBAR (Desktop) ====== */
@@ -215,7 +216,7 @@ const filterCategories = {
           </div>
           <div class="trek-buttons">
             <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
-            <a href={`/trek/${trek.id}#pricing-details`} class="btn btn-dates">View Dates</a>
+            <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
           </div>
         </div>
       );

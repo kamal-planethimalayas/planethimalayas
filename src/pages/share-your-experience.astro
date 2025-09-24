@@ -11,8 +11,7 @@ const brandColor = "#ff7300";
 
   <!-- HERO SECTION -->
   <section class="share-hero">
-    <div class="overlay"></div>
-    <div class="hero-text">
+    <div class="container">
       <h1>
         Share Your Himalayan Journey
       </h1>
@@ -65,9 +64,18 @@ const brandColor = "#ff7300";
           </label>
 
           <label>
-            Upload Your Photo
-            <input type="file" name="photo" accept="image/*" placeholder=Upload your image here...">
+            Upload Your Photo 
+            <input 
+              type="file" 
+              name="photo" 
+              accept=".jpg,.jpeg,.png,.gif" 
+              placeholder="Upload your image here..."
+            >
+            <small style="display:block; font-size:0.9rem; color:#666; margin-top:0.25rem;">
+              Accepted formats: JPG, JPEG, PNG, GIF. Max size: 5 MB
+            </small>
           </label>
+
         </div>
 
         <button type="submit" class="submit-btn">Submit</button>
@@ -112,51 +120,68 @@ const brandColor = "#ff7300";
       }
     });
   </script>
+
+  <script>
+    const heroContainer = document.querySelector(".share-hero .container");
+    const hero = document.querySelector(".share-hero");
+
+    window.addEventListener("scroll", () => {
+      const heroRect = hero.getBoundingClientRect();
+      const scrollY = window.scrollY;
+
+      if (heroRect.bottom > 0) {
+        let move = scrollY * 0.5;                
+        const maxMove = hero.offsetHeight / 2;
+
+        heroContainer.style.transform = `translateY(${move}px)`;
+      }
+    });
+  </script>
 </Layout>
 
 <style>
 /* HERO SECTION height-55px + image push higher*/
 
 .share-hero {
-    width: 100%;
+  width: 100%;
   height: calc(100vh - 55px);
   background: url('/images/main/experience-hero9.jpg') center 60% no-repeat;
   background-size: cover; /* stretches to full width, crops if needed */
- display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;   /* content starts from left */
   align-items: center;           /* vertical center */
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   color: #fff;
   position: relative;
 }
 .share-hero .container{
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
+  will-change: transform;
+  transition: transform 0.1s linear;
+  overflow: hidden;
 }
 
-.share-hero .hero-text {
+.share-hero p {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7),
     4px 4px 10px rgba(0, 0, 0, 0.5),
     0 0 8px rgba(0, 0, 0, 0.3);
-  max-width: 1000px;
-  
+  max-width: 1200px;
 }
 
-.share-hero .hero-text h1 {
+.share-hero h1 {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 3rem;
   color: white;
+  font-size: 3rem;
   margin-bottom: 1rem;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7),
+  text-shadow:  3px 3px 6px rgba(0, 0, 0, 0.7),
     6px 6px 12px rgba(0, 0, 0, 0.5),
     0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-
 
 .brand-color {
   color: #ff7300;
@@ -164,15 +189,14 @@ const brandColor = "#ff7300";
 
 /* Form Section */
 .form-section {
-  margin: 2rem 0;
   background-color: #f9f9f9;
   width: 100%;
   box-sizing: border-box;
 }
 
 .form-container {
-  max-width: 800px; /* Adjust width as needed */
-  margin: 2rem 100px; /* Left-aligned on desktop */
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 100px; /* Left-aligned on desktop */
   padding: 1rem 0;
 }
 
@@ -242,29 +266,25 @@ const brandColor = "#ff7300";
 
   /* Hero Section */
   .share-hero {
-     height: 60vh;
-    padding: 0 1rem;
+    height: 60vh;
+    padding: 1rem 1rem;
     margin-top: -55px;
+    overflow: hidden;
   }
 
-  .share-hero .hero-text {
-    font-size: 1.5rem;    
+  .share-hero p {
+    font-size: 1rem;    
   }
 
-  .share-hero .hero-text h1 {
-    font-size: 2.5rem;
+  .share-hero h1 {
+    font-size: 2rem;
   }
-
-
-
 
   /* Form Section */
   .form-container {
-    margin: 100px; 
     max-width: 100%;
-    
-
-    
+    margin: 0 1.5rem;     /* small side padding instead of large margins */
+    padding: 0;
   }
 
   .form-container form {
@@ -275,7 +295,6 @@ const brandColor = "#ff7300";
   .submit-btn,
   .upcoming-btn {
     width: 100%; /* full-width buttons on mobile */
-    padding: 0.75rem;
   }
 }
 
