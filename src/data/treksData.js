@@ -1370,7 +1370,7 @@ seo: {
     id: "goechala-trek",
     name: "Goechala Trek",
     difficulty: ["difficult"],
-    season: ["spring", "summer", "autumn"],
+    season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november"],
     duration: ["9 Nights / 10 Days"],
     region: "sikkim",

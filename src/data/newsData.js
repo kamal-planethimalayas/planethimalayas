@@ -1,13 +1,14 @@
 export const news = [
 
   {
-  title: "Treks are underway on all slopes now. Weather seems to be clearing out.",
+  title: "Hooray! - Recent rainfall caused season's first snowfall across the Himalayas above 13000ft.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details: `
-    <p>Treks are underway on all slopes. Weather seems to be clearing out. Roads though mostly open are still not in the best of conditions. A brief shower anytine can cause roadblocks at places. Everyone is requested to travel with caution and buffer days in hand. Please cooperate with the mountain authorities in case of delays due to climatic issues.</p>
-    <p><strong>Uttarakhand:</strong> Recent flashflood on 15th September in Dehradun have caused several roadblocks between Haridwar, Dehradun, Rishikesh, and Mussorie. Authorities are working on clearing the debris and repairing damaged parts. Please be cooperative and travel with caution.</p>`
+    <p>Treks are underway on all slopes.</p>
+    <p>Conditions are favorable for withdrawl of monsoon soon. Most of the slopes are dry with isolated rainfall.</p>
+    <p>Roads though mostly open are still not in the best of conditions and repair works are underway. Everyone is requested to travel with caution and buffer days in hand. Please cooperate with the mountain authorities in case of delays due to climatic issues.</p>`
 },
 
   {
@@ -26,11 +27,12 @@ export const news = [
 },
   
 {
-  title: "Our First Autumn Batch Commencing 28th Sept",
+  title: "Our Autumn season started with a bang",
   type: "news",
   head: "Slopes",
   thumbnail: "/images/main/brand-logo-news.png",
-  details: '<p>Our first batch of the season is all set to depart on <strong>28th September</strong> for the <strong>Deoriatal-Chandrashila trek</strong>. This trail offers one of the finest Himalayan panoramas with views of Uttarakhand’s highest peaks including <strong>Nanda Devi, Trishul, Kamet, Mana, Abi Gamin</strong>, and many more.</p> <p>Experience grandeur with spirituality as you visit <strong>Lord Shiva\'s highest temple, Tungnath</strong>, and discover the exotic flora and fauna of the <strong>Chopta region</strong>.</p>'
+  details: `<p>Our first batch of the season completed the trek successfully with holding great spirit despite of overcast caonditions and hidden summit view.</p>
+  <p>Our last batch to Rupin Pass returned back from upper waterfall campsite due to heavy snowfall</p>`
 },
 
   {
