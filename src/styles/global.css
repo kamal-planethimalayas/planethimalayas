@@ -1,0 +1,453 @@
+/* Import Fonts (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import "leaflet/dist/leaflet.css";
+@import "react-phone-input-2/lib/style.css";
+
+
+/* 1. RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* MOBILE: hide second navbar completely to free space */
+@media (max-width: 767px) {
+  .main-navbar {
+    display: none; /* removes it from layout entirely */
+  }
+}
+
+
+/* Smooth layout adjustment for content */
+
+
+/* ====== Trek Hero Section ====== */
+/* Desktop */
+.trek-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* reduced from 100vh */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.trek-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  object-position: center;
+}
+
+.hero-text {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  width: 90%;
+  color: white;
+}
+
+.trek-hero-title {
+  font-size: clamp(2rem, 6vw, 4.5rem); /* responsive scaling */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95); /* strong shadow */
+}
+
+.trek-hero-subtitle {
+  font-size: clamp(1rem, 4vw, 2rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  color: white;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .trek-hero {
+    margin-top: -55px;
+    height: 60vh; /* not full screen */
+  }
+
+  .trek-hero-title {
+    font-size: 2rem; /* fixed safe size */
+  }
+
+  .trek-hero-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+/* ======= MOBILE RESPONSIVE ADJUSTMENTS ======= */
+
+
+
+body {
+  font-family: 'Roboto', sans-serif; /* Body font */
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+}
+
+
+
+/* 2. PAGE WIDTH & CONTAINER */
+:root {
+  --brand-color: #ff7300;
+  --max-page-width: 1200px; /* Max content width */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;       /* Center horizontally */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing:border-box;    /* Side padding */
+}
+
+/* 3. TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif; /* Heading font */
+  font-weight: bold;
+  color: #111;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* 5. SECTION SPACING */
+section {
+  padding: 1rem 0;
+}
+
+.voucher-input::placeholder {
+  font-weight: bold;
+  color: Black;
+}
+
+
+
+
+/* Reuse your hero & content CSS... */
+  /* 🔥 Hero Section */
+  .blog-hero {
+    position: relative;
+  width: 100%;
+  height: 70vh; /* reduced from 100vh */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  }
+
+  .blog-hero img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  }
+
+  /* ✅ Title overlay */
+.hero-title {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: bold;
+  text-align: center;
+  width: 100%;         /* ✅ full width inside hero */
+  padding: 0 2rem;     /* ✅ keeps safe margin */
+  line-height: 1.3;    /* ✅ more breathing space */
+  white-space: normal;
+  word-wrap: break-word;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .hero-title {
+    bottom: 15%;
+    font-size: 1.9rem;   /* ✅ slightly bigger */
+    padding: 0 1.5rem;  /* ✅ margin from sides */
+    line-height: 1.4;   /* ✅ relaxed spacing */
+  }
+}
+
+
+  /* 🔥 Blog Content */
+  .blog-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+
+  .meta {
+    color: gray;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 768px) {
+  .blog-hero {
+    height: 45vh; /* taller hero for mobile */
+    min-height: 220px;
+    margin-top: -55px;
+  }
+
+  .hero-title {
+    bottom: 15%;
+    font-size: clamp(1.6rem, 5vw, 2.8rem); /* ✅ no cramp */
+    line-height: 1.3;
+    max-width: 95%; /* ✅ use more space */
+    padding: 0 1rem;
+  }
+
+  .blog-content {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* 🔹 Interaction Wrapper */
+.interaction-wrapper {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* 🔹 Interaction Bar */
+.interaction-bar {
+  display: flex;
+  flex-direction: column; /* stack for mobile first */
+  gap: 1rem;
+  margin: 2rem auto;
+  
+  padding: 1rem 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* 🔹 Button Group */
+.interaction-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* 🔹 Buttons - uniform size */
+.interaction-btn {
+  background: #ff7300;
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 100px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.interaction-btn:hover {
+  background: #e86500;
+  transform: translateY(-1px);
+}
+
+/* 🔹 Share Dropdown */
+.share-dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 120%; /* below button */
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 10;
+  min-width: 150px;
+}
+
+.share-dropdown.show {
+  display: flex;
+}
+
+.share-dropdown a {
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.share-dropdown a:hover {
+  background: #ff7300;
+  color: #fff;
+}
+
+/* 🔹 Comments Section */
+.comments-section {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* 🔹 Comment Box */
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 0.5rem;
+
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-5px);
+  transition: opacity 0.25s ease, transform 0.25s ease, max-height 0.25s ease;
+}
+
+.comment-box.show {
+  opacity: 1;
+  max-height: 400px; /* enough for textarea + button */
+  transform: translateY(0);
+}
+
+.comment-box textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 14px;
+  width: 100%;
+  min-height: 80px;
+}
+
+.comment-box .interaction-btn {
+  align-self: flex-start;
+  min-width: 80px;
+  margin-top: 4px;
+}
+
+/* 🔹 Comments List */
+.comments-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.25s ease, max-height 0.25s ease;
+}
+
+.comments-list.show {
+  opacity: 1;
+  max-height: 1000px; /* adjust depending on comment count */
+}
+
+.comment {
+  padding: 10px 12px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+  word-break: break-word;
+}
+
+.comment strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #ff7300;
+}
+
+/* 🔹 Desktop layout: keep buttons in a row, comment box below */
+@media (min-width: 769px) {
+  .interaction-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .comments-section {
+    flex: 1 1 100%;
+  }
+}
+
+/* 🔹 Mobile tweaks */
+@media (max-width: 768px) {
+  .interaction-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .interaction-group {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .interaction-btn {
+    flex: 1 1 48%;
+  }
+  .share-dropdown {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* 🔹 Desktop: add left margin to align buttons with content */
+@media (min-width: 769px) {
+  .interaction-bar {
+    margin-left: 6rem;
+    margin-right: 6rem; /* optional: keep right side balanced */
+  }
+}
+
+
+
+
+

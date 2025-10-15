@@ -1,0 +1,243 @@
+---
+import Layout from "../layouts/Layout.astro";
+const brandColor = "#ff7300";
+---
+<Layout>
+<head>
+<meta charset="UTF-8">
+</head>
+
+<!-- HERO SECTION -->
+<section class="about-hero">
+  <div class="container">
+      <h1>Who We Are</h1>
+      <p> Planethimalayas is built on a rare promise: 
+      <span style="font-weight: bold">"every trek is a deeply personal mountain journey"</span> — crafted with obsessive attention to detail, care for every individual, and an unshakable love for the Himalayas.
+      </p>
+  </div>
+</section>
+
+<!-- OUR STORY SECTION -->
+<section class="our-story-section">
+  <div class="container">
+    <h2>Our Story</h2>
+    <p>
+      At Planethimalayas, we are a team of seasoned mountain lovers who have spent over a decade serving people in several ways to successfully trek through the majestic Himalayan ranges — from the remote valleys of Kashmir to the high passes of Nepal. With every step taken and every trail explored, we've gained more than just experience; we've gathered stories, lessons, and a deep respect for these mighty mountains.
+    </p>
+    <p>
+      Now, as we grow older and wiser, we've poured all that knowledge and love for the outdoors into this venture — crafting treks that are not just adventurous, but also safe, thoughtful, and deeply enriching. Every trek we offer is designed with utmost care, drawing from our lived experiences in high-altitude terrain and our heartfelt commitment to your safety and well-being.
+    </p>
+    <p>
+      But our mission doesn’t end there. We also believe in giving back — by mentoring and creating space for a new generation of passionate mountain lovers who dream of walking the same paths we did.
+    </p>
+    <p>
+      Rooted in sustainability and local responsibility, Planethimalayas is dedicated to protecting the fragile ecosystems of the mountains we call home. Because to truly enjoy the Himalayas is to respect and preserve them — for today, and for generations to come.
+    </p>
+  </div>
+</section>
+
+<!-- 3 PILLARS SECTION -->
+<section class="pillars-section">
+  <div class="container">
+    <div class="divider"></div>
+
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <h3>Tailored Experiences</h3>
+        <p>
+          No two trekkers are the same — so why should their journeys be? 
+          We keep our batches intimate and flexible, adjusting pace, trail stories, 
+          and even meal preferences to you, not the other way around.
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <h3>Obsessive Safety</h3>
+        <p>
+          From pre-trek health screening to real-time trail monitoring, 
+          our safety protocols go beyond industry checklists. 
+          You’ll feel secure enough to lose yourself in the adventure.
+        </p>
+      </div>
+
+      <div class="pillar-card">
+        <h3>True Mountain Bond</h3>
+        <p>
+          We believe mountains are best experienced in trust and camaraderie. 
+          By the end of your trek, you’ll leave not just with summit memories 
+          but with friendships that outlast the trail.
+        </p>
+      </div>
+    </div>
+
+    <p class="closing-text">
+      This is more than a trekking company. This is an invitation to 
+      <strong>see the Himalayas as they deserve to be seen — slowly, fully, and with heart.</strong>
+    </p>
+    <div class="divider"></div>
+  </div>
+</section>
+
+<script>
+const heroContainer = document.querySelector(".about-hero .container");
+const hero = document.querySelector(".about-hero");
+
+window.addEventListener("scroll", () => {
+  const heroRect = hero.getBoundingClientRect();
+  const scrollY = window.scrollY;
+
+  if (heroRect.bottom > 0) {
+    let move = scrollY * 0.5;                
+    const maxMove = hero.offsetHeight / 2;
+
+    heroContainer.style.transform = `translateY(${move}px)`;
+  }
+});
+</script>
+
+</Layout>
+
+<style>
+/* General container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* HERO SECTION */
+.about-hero {
+  width: 100%;
+  height: calc(100vh - 55px);
+  background: url('/images/main/contact-hero1.jpg') center center no-repeat;
+  background-size: cover; /* stretches to full width, crops if needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;   /* content starts from left */
+  align-items: center;           /* vertical center */
+  padding: 2rem 2rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center inside container */
+}
+
+.about-hero h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow:  3px 3px 6px rgba(0, 0, 0, 0.7),
+    6px 6px 12px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7),
+    4px 4px 10px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+}
+
+/* OUR STORY SECTION */
+.our-story-section {
+  background-color: #fafafa;
+  padding: 1rem 1rem;
+}
+
+.our-story-section h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #ff7300;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #ff7300;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.our-story-section p {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 1200px;
+  margin-top: 0;
+}
+
+/* PILLARS SECTION */
+.pillars-section {
+  background-color: #fafafa;
+  padding: 0 1rem;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: #ff7300;
+  margin-bottom: 3rem;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.pillar-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+.pillar-card h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #ff7300;
+  margin-bottom: 1rem;
+}
+
+.pillar-card p {
+  font-family: Roboto, sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+
+.closing-text {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  margin-top: 3rem;
+  color: #444;
+  max-width: 1200px;
+}
+
+/* MOBILE ADJUSTMENTS */
+@media(max-width: 768px) {
+  .our-story-section {
+    max-width: 100%;
+    padding: 1.5rem 0;
+}
+  .about-hero {
+    height: 60vh;
+    padding: 1rem 1rem;
+    margin-top: -55px;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+}
+</style>

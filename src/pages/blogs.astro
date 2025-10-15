@@ -1,0 +1,312 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { blogs } from "../data/blogsData.js";
+---
+
+<Layout>
+  <!-- BLOG HERO (same as FAQ hero) -->
+  <section class="faq-hero">
+    <div class="container">
+      <h1 class="faq-hero-title">Articles</h1>
+      <div class="faq-search-wrapper">
+        <input
+          id="blog-search"
+          type="text"
+          placeholder="Search Articles..."
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Cards Section -->
+<section class="blogs-section">
+  <div class="container blogs-list">
+    {blogs.map((blog, index) => (
+      <a 
+        href={`/blogs/${blog.slug}`} 
+        class="blog-card" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        key={index}
+        data-search={`${blog.slug} ${blog.tags.join(" ")} ${blog.content}`}
+      >
+        <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+        <div class="blog-content">
+          <h2>{blog.title}</h2>
+
+          <!-- Description wrapper: desc-inner holds the HTML so measurement is accurate -->
+          <div class="blog-description" data-index={index}>
+            <div class="desc-inner" set:html={blog.description}></div>
+          </div>
+
+          <span class="read-more" aria-expanded="false" style="display:none;">Read More</span>
+          <p class="blog-meta">{blog.author} · {blog.date}</p>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+  <script>
+  const searchInput = document.getElementById("blog-search");
+  const blogCards = document.querySelectorAll(".blog-card");
+
+  searchInput.addEventListener("input", () => {
+    const value = searchInput.value.toLowerCase();
+
+    blogCards.forEach(card => {
+      // Read visible text
+      const text = card.textContent.toLowerCase();
+
+      // Read extra search data (slug, tags, content)
+      const extra = card.getAttribute("data-search")?.toLowerCase() || "";
+
+      // Match against both visible text + hidden data
+      const haystack = text + " " + extra;
+
+      card.style.display = haystack.includes(value) ? "flex" : "none";
+    });
+  });
+
+  // Parallax effect (kept same)
+  const heroTitle = document.querySelector(".faq-hero-title");
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
+  });
+</script>
+
+  <script>
+  // Utility: debounce
+  const debounce = (fn, wait = 120) => {
+    let t;
+    return (...args) => {
+      clearTimeout(t);
+      t = setTimeout(() => fn(...args), wait);
+    };
+  };
+
+  function setupReadMoreControls() {
+    document.querySelectorAll(".blog-card").forEach(card => {
+      const desc = card.querySelector(".blog-description");
+      const inner = desc.querySelector(".desc-inner") || desc;
+      const toggle = card.querySelector(".read-more");
+
+      // Ensure clamp class is present first to allow consistent measurement
+      desc.classList.add("clamp");
+
+      // Measure overflow after layout settled
+      const isOverflowing = inner.scrollHeight > desc.clientHeight + 2; // small tolerance
+
+      if (isOverflowing) {
+        desc.classList.add("has-overflow");
+        toggle.style.display = "inline-block";
+        toggle.setAttribute("aria-expanded", "false");
+      } else {
+        // no overflow → don't show fade or toggle (keep text fully visible)
+        desc.classList.remove("has-overflow");
+        // optional: remove clamp so layout isn't artificially limited (keeps it natural)
+        desc.classList.remove("clamp");
+        toggle.style.display = "none";
+      }
+
+      // Toggle behavior — prevent card navigation
+      toggle.onclick = function (e) {
+        e.preventDefault();
+        e.stopPropagation(); // prevent anchor click bubbling
+        const expanded = desc.classList.toggle("expanded");
+        // When expanded, remove clamp (so it displays fully); when collapsed, reapply clamp
+        if (expanded) {
+          desc.classList.remove("clamp");
+          desc.classList.add("expanded");
+          toggle.textContent = "Read Less";
+          toggle.setAttribute("aria-expanded", "true");
+        } else {
+          desc.classList.remove("expanded");
+          // if it originally had overflow, reapply clamp
+          if (desc.classList.contains("has-overflow")) desc.classList.add("clamp");
+          toggle.textContent = "Read More";
+          toggle.setAttribute("aria-expanded", "false");
+        }
+      };
+    });
+  }
+
+  // Run after everything loads (fonts/images) so measurements are accurate
+  window.addEventListener("load", () => {
+    // run once immediately after load
+    setupReadMoreControls();
+    // ensure re-check shortly after to catch any late layout shifts
+    setTimeout(setupReadMoreControls, 200);
+  });
+
+  // Recalculate on resize (debounced)
+  window.addEventListener("resize", debounce(() => {
+    setupReadMoreControls();
+  }, 160));
+</script>
+
+  <style>
+    /* Reuse FAQ hero styles exactly */
+    .faq-hero {
+      background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), #ff7300;
+      color: #fff;
+      padding: 4rem 1rem 2rem 1rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      .faq-hero {
+        margin-top: -55px;
+      }
+    }
+
+    .faq-hero-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff;
+      text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.7),
+        4px 4px 10px rgba(0,0,0,0.5);
+      transform: translateY(0);
+      transition: transform 0.2s ease-out;
+    }
+
+    .faq-search-wrapper {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .faq-search-wrapper input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border-radius: 50px;
+      border: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    .faq-search-wrapper input:focus {
+      outline: none;
+      box-shadow: 0 0 8px 2px #ff7300;
+      transform: scale(1.02);
+    }
+
+    /* Blog Cards Section */
+    .blogs-section {
+      padding: 2rem 0;
+      background: #fff;
+    }
+
+    .blogs-list {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      padding: 0 1rem;
+    }
+
+    .blog-card {
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .blog-thumb {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover .blog-thumb {
+      transform: scale(1.05);
+    }
+
+    .blog-content {
+      padding: 1rem;
+    }
+
+    .blog-content h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .blog-meta {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    /* BASE */
+  .blog-description {
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    position: relative;
+    /* no clamp by default — we will add clamp class when needed */
+    max-height: none;
+    overflow: visible;
+    transition: max-height 0.3s ease;
+  }
+
+  /* When clamping is applied (only for items that might overflow) */
+  .blog-description.clamp {
+    max-height: calc(1.5em * 5); /* approx 5 lines */
+    overflow: hidden;
+  }
+
+  /* Fade overlay only when both clamp AND has-overflow are present */
+  .blog-description.clamp.has-overflow::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.2em; /* fade height */
+    /* fade to the card background — adjust color if your card bg isn't white */
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #ffffff);
+    pointer-events: none;
+  }
+
+  /* Expanded state removes the clamp so full text shows */
+  .blog-description.expanded {
+    max-height: none;
+    overflow: visible;
+  }
+  .blog-description.expanded::after {
+    display: none;
+  }
+
+  .desc-inner {
+    /* ensure inner uses same line-height for accurate measurements */
+    line-height: 1.5em;
+  }
+
+  .read-more {
+    display: inline-block;
+    color: #ff7300;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    user-select: none;
+  }
+
+  </style>
+</Layout>

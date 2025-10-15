@@ -1,0 +1,279 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { trekFAQs } from "../data/faqsData.js";
+---
+
+<Layout>
+  <!-- FAQ Hero Title + Search -->
+  <section class="faq-hero">
+    <div class="container">
+      <h1 class="faq-hero-title">FAQs</h1>
+      <div class="faq-search-wrapper">
+        <input
+          id="faq-search"
+          type="text"
+          placeholder="Search FAQs..."
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Topics -->
+  <section class="faqs-section">
+    <div class="container">
+      <div id="faq-list">
+        {trekFAQs.map((section, sectionIndex) => (
+          <div class="faq-topic" id={`faq-topic-${sectionIndex}`}>
+            <button class="faq-topic-header" aria-expanded="false">
+              {section.topic}
+              <span class="toggle">▶</span>
+            </button>
+            <div class="faq-topic-body" hidden>
+              {section.faqs.map((faq, faqIndex) => (
+                <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
+                  <button class="faq-question" aria-expanded="false">
+                    {faq.question}
+                    <span class="toggle">+</span>
+                  </button>
+                  <div class="faq-answer" hidden>
+                    <div set:html={faq.answer}></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <script>
+  const searchInput = document.getElementById("faq-search");
+  const faqTopics = document.querySelectorAll(".faq-topic");
+
+  // Search filter
+  searchInput.addEventListener("input", () => {
+    const value = searchInput.value.toLowerCase();
+
+    faqTopics.forEach(topic => {
+      let hasVisible = false;
+      const items = topic.querySelectorAll(".faq-item");
+      const topicHeader = topic.querySelector(".faq-topic-header");
+      const topicBody = topic.querySelector(".faq-topic-body");
+
+      items.forEach(item => {
+        const question = item.querySelector(".faq-question").textContent.toLowerCase();
+        const answer = item.querySelector(".faq-answer").textContent.toLowerCase();
+        const topicTitle = topic.querySelector(".faq-topic-header").textContent.toLowerCase();
+
+        const match =
+          question.includes(value) ||
+          answer.includes(value) ||
+          topicTitle.includes(value);
+
+        item.style.display = match ? "block" : "none";
+        if (match) hasVisible = true;
+      });
+
+      topic.style.display = hasVisible ? "block" : "none";
+
+      // Expand topic if any FAQ is visible
+      if (hasVisible) {
+        topicBody.hidden = false;
+        topicHeader.setAttribute("aria-expanded", "true");
+        topicHeader.querySelector(".toggle").textContent = "▼";
+      } else {
+        topicBody.hidden = true;
+        topicHeader.setAttribute("aria-expanded", "false");
+        topicHeader.querySelector(".toggle").textContent = "▶";
+      }
+
+      // Reset topic if search box is cleared
+      if (value === "") {
+        topicBody.hidden = true;
+        topicHeader.setAttribute("aria-expanded", "false");
+        topicHeader.querySelector(".toggle").textContent = "▶";
+      }
+    });
+  });
+
+  // Toggle topic body
+  faqTopics.forEach(topic => {
+    const header = topic.querySelector(".faq-topic-header");
+    const body = topic.querySelector(".faq-topic-body");
+    header.addEventListener("click", () => {
+      const expanded = header.getAttribute("aria-expanded") === "true";
+      header.setAttribute("aria-expanded", !expanded);
+      body.hidden = expanded;
+      header.querySelector(".toggle").textContent = expanded ? "▶" : "▼";
+    });
+  });
+
+  // Toggle individual FAQ
+  const faqItems = document.querySelectorAll(".faq-item");
+  faqItems.forEach(item => {
+    const btn = item.querySelector(".faq-question");
+    const answer = item.querySelector(".faq-answer");
+    btn.addEventListener("click", () => {
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", !expanded);
+      answer.hidden = expanded;
+      btn.querySelector(".toggle").textContent = expanded ? "+" : "–";
+    });
+  });
+</script>
+
+<script>
+    // Simple parallax effect for hero title
+    const heroTitle = document.querySelector(".faq-hero-title");
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`; 
+      // moves slower than scroll for subtle depth
+    });
+  </script>
+
+  <style>
+    /* =========================
+       FAQ HERO
+       ========================= */
+    .faq-hero {
+      background:linear-gradient(135deg, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),#ff7300;
+      color: #fff;
+      padding: 4rem 1rem 2rem 1rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Move FAQ hero up on small screens */
+    @media (max-width: 768px) {
+        .faq-hero {
+            margin-top: -55px; /* shifts hero up */
+        }
+    }
+
+    .faq-hero-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff; /* White title */
+      text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.7),
+        4px 4px 10px rgba(0,0,0,0.5);
+      transform: translateY(0);
+      transition: transform 0.2s ease-out;
+    }
+
+    .faq-search-wrapper {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .faq-search-wrapper input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border-radius: 50px;
+      border: none;
+      font-size: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    /* Glow effect on focus */
+    .faq-search-wrapper input:focus {
+        outline: none;
+        box-shadow: 0 0 8px 2px #ff7300;
+        transform: scale(1.02); /* optional subtle pop */
+    }
+
+    /* =========================
+       Existing FAQ Section (unchanged)
+       ========================= */
+    .faqs-section {
+      background-color: white;
+      position: relative;
+      padding: 2rem 0;
+    }
+
+    .faq-topic {
+      margin-bottom: 0.5rem;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .faq-topic-header {
+      width: 100%;
+      background: #f9f9f9;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+        transition: transform 0.2s ease;
+    }
+
+    .faq-topic-header:hover {
+        transform: translateY(-3px);
+    }
+
+    .faq-topic-body {
+      padding: 0.5rem 1rem;
+      background: #fff;  
+    }
+
+    .faq-item {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+
+    .faq-question {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .faq-question:hover {
+        color: #ff7300; /* brand color on hover */
+    }
+
+    /* Keep brand color when FAQ is open */
+    .faq-question[aria-expanded="true"] {
+        color: #ff7300;
+    }
+
+    .faq-answer {
+      position: relative;
+      margin: 0.5rem 0 0.8rem 1.5rem;
+      padding-left: 1rem;
+    }
+
+    .faq-answer::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      background-color: #ff7300;
+      border-radius: 2px;
+    }
+
+    .toggle {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</Layout>

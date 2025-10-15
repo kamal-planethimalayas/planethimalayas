@@ -1,0 +1,313 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { treks} from '../data/treksData.js';
+
+const filterCategories = {
+  difficulty: ['easy', 'moderate', 'difficult'],
+  season: ['spring', 'summer', 'monsoon', 'autumn', 'winter'],
+  month: [
+    'january','february','march','april','may','june',
+    'july','august','september','october','november','december'
+  ],
+  days: ['4', '5', '6', '7', '8', '9', '10'],
+  region: ['kashmir','ladakh','uttarakhand','himachal','sikkim','west bengal','nepal'],
+};
+---
+<Layout>
+<style>
+/* ====== GENERAL PAGE STYLES ====== */
+
+.page-wrapper { 
+  display:flex;
+  padding-bottom: 2rem; 
+  }
+
+/* ====== FILTER SIDEBAR (Desktop) ====== */
+.filter-navbar {
+  flex: 0 0 25%; /* fixed width ~25% */
+  max-width: 300px;
+  background: #f4f4f4;
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ff7300;
+  padding: 2rem;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  height: 100vh;
+  position: sticky;
+  top: 110px;
+  overflow-y: auto;
+}
+.filter-navbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-navbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+.filter-title { display:inline; font-size:2rem; font-weight:700; color:black; margin-bottom:1rem; border-bottom:2px solid black; }
+.filter-group h3 { margin-top:1rem; margin-bottom:0.5rem; color:#ff7300; font-weight:700; border-bottom:1px solid #ff7300; text-transform:capitalize; }
+.filter-group label { display:block; font-size:0.85rem; margin-bottom:0.25rem; cursor:pointer; }
+.filter-group label:hover { color:#ff7300; }
+
+@media(min-width:768px){
+  .filter-modal {
+    display: none !important;
+  }
+  .sticky-filter-btn {
+    display: none !important;
+  }
+}
+
+
+/* ====== MAIN CONTENT ====== */
+.main-content {
+  flex: 1;
+  padding: 1rem 5rem;
+  height: calc(100vh - 110px); /* adjust based on header */
+  overflow-y: auto; /* independent vertical scroll */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: -55px; /* shorter header on mobile */
+    padding: 1rem; /* optional: tighter spacing on small screens */
+  }
+}
+
+
+/* Trek cards grid */
+.trek-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start; /* cards align to top-left */
+}
+.trek-card {
+  flex: 1 1 calc(50% - 16px); /* two cards per row on desktop */
+  max-width: 280px; /* optional max width */
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transform: translateY(0);
+  margin-top: 16px;
+}
+.trek-card.show { opacity:1; transform:scale(1); pointer-events:auto; display:flex; }
+.trek-card.hide { opacity:0; transform:scale(0.95); pointer-events:none; display:none; } /* important to hide from layout */
+.trek-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+.trek-card:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+.trek-card:hover img { transform:scale(1.25) rotate(-1deg); }
+.trek-name {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 0.75rem 1rem 0.5rem;
+  text-align: center;
+  color: #222;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.trek-info,
+.trek-difficulty {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.trek-buttons {
+  margin-top: auto; /* push buttons to bottom */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;  
+}
+
+.trek-buttons a.btn { font-weight:600; font-size:0.9rem; padding:0.5rem 1.2rem; border-radius:4px; text-decoration:none; text-align:center; transition:all 0.3s ease; }
+.btn-details { background:black; color:white; box-shadow:0px 2px 8px #ff7300; }
+.btn-details:hover { background:#ff7300; color:black; box-shadow:0px 2px 8px black; }
+.btn-dates { background:#ff7300; color:black; box-shadow:0px 2px 8px black; }
+.btn-dates:hover { background:black; color:white; box-shadow:0px 2px 8px #ff7300; }
+
+@media (max-width: 768px) {
+  .trek-cards-container {
+    justify-content: center; /* center the grid */
+  }
+
+  .trek-card {
+    flex: 1 1 calc(50% - 12px); /* two cards per row with gap */
+    max-width: 48%; /* optional to keep spacing consistent */
+    height: auto; /* let height adjust to content */
+  }
+}
+/* ====== MOBILE FILTER MODAL ====== */
+@media(max-width:767px){
+  .filter-navbar { display:none !important; }
+  .sticky-filter-btn {
+    display:block; position:fixed; bottom:0; left:0;
+    width:100%; padding:1rem 0; background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),#ff7300;
+    color:white; border:none; font-weight:700; font-size:1.1rem; z-index:10000; cursor:pointer;
+    text-align:center;
+  }
+  .filter-modal { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:white; z-index:10001; overflow-y:auto; padding:1rem; }
+  .filter-modal.open { display:block; }
+  .filter-modal-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; }
+  .filter-modal-close { background:none; border:none; font-size:1.8rem; cursor:pointer; color:#ff7300; }
+  .filter-content { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+  .filter-content h3 { font-size:1rem; margin-bottom:0.5rem; }
+  .filter-content label { font-size:0.85rem; margin-bottom:0.25rem; display:block; }
+}
+@media(min-width:768px){ .sticky-filter-btn{display:none !important;} }
+
+</style>
+
+<div class="page-wrapper">
+  <aside class="filter-navbar" role="region" aria-label="Filter treks">
+    <h2 class="filter-title">Filter Treks</h2>
+    {Object.entries(filterCategories).map(([category, options]) => (
+      <div class="filter-group" id={`filter-${category}`} key={category}>
+        <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
+        {options.map(option => (
+          <label key={option}>
+            <input type="checkbox" name={category} value={option} />{' '}
+            {option.charAt(0).toUpperCase() + option.slice(1)}
+          </label>
+        ))}
+      </div>
+    ))}
+  </aside>
+
+<main class="main-content" role="main" tabindex="0">
+  <div class="trek-cards-container" id="trekCardsContainer">
+    {treks.map(trek => {
+      const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+      const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+
+      // Capitalize function
+      const capitalize = str =>
+        str
+          ? str
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+          : '';
+
+      return (
+        <div class="trek-card show" data-trek-id={trek.id} key={trek.id}>
+          <a href={`/trek/${trek.id}#trek-hero`}>
+            <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+          </a>
+          <h2 class="trek-name">{trek.name}</h2>
+          <div class="trek-info">
+            <div className="trek-duration">{duration}</div>
+            <div className="trek-region">{capitalize(trek.region)}</div>
+            <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
+          </div>
+          <div class="trek-buttons">
+            <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
+            <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</main>
+
+</div>
+
+<!-- Mobile sticky filter button -->
+<button class="sticky-filter-btn" id="openFilterBtn">
+  Filter Treks
+</button>
+
+<!-- Mobile filter modal -->
+<div class="filter-modal" id="filterModal" role="dialog" aria-modal="true">
+  <div class="filter-modal-header">
+    <h2>Filter Treks</h2>
+    <button class="filter-modal-close" id="closeFilterBtn">&times;</button>
+  </div>
+  <div class="filter-content">
+    {Object.entries(filterCategories).map(([category, options]) => (
+      <div class="filter-group" id={`modal-filter-${category}`} key={category}>
+        <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
+        {options.map(option => (
+          <label key={option}>
+            <input type="checkbox" name={category} value={option} />{' '}
+            {option.charAt(0).toUpperCase() + option.slice(1)}
+          </label>
+        ))}
+      </div>
+    ))}
+  </div>
+</div>
+
+<pre id="treks-data-json" style="display:none;">{JSON.stringify(treks)}</pre>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const trekData = JSON.parse(document.getElementById('treks-data-json').textContent);
+  const desktopCheckboxes = document.querySelectorAll('.filter-navbar input[type="checkbox"]');
+  const modalCheckboxes = document.querySelectorAll('.filter-modal input[type="checkbox"]');
+  const trekCards = document.querySelectorAll('.trek-card');
+
+  function getDays(durationStr){ if(!durationStr) return null; const match=durationStr.match(/(\d+)\s*days?/i); return match? Number(match[1]) : null; }
+  function getSelectedFilters(){ const filters={}; [...desktopCheckboxes].forEach(cb=>{ if(cb.checked){ if(!filters[cb.name]) filters[cb.name]=new Set(); filters[cb.name].add(cb.value.toLowerCase()); } }); return filters; }
+  function trekMatchesFilters(trek,filters){
+    for(const category in filters){
+      const selectedOptions=filters[category];
+      if(category==='days'){ const durationStr=trek.overview?.facts?.find(f=>f.label==='Trek Duration')?.value||trek.duration; const days=getDays(durationStr); if(!days||!selectedOptions.has(days.toString())) return false; }
+      else if(category==='difficulty'){ const trekDifficulties=Array.isArray(trek.difficulty)?trek.difficulty.map(d=>d.toLowerCase()):[String(trek.difficulty).toLowerCase()]; if(![...selectedOptions].some(opt=>trekDifficulties.includes(opt))) return false; }
+      else if(category==='month'){ const trekMonths=Array.isArray(trek.month)?trek.month.map(m=>m.toLowerCase()):[String(trek.month).toLowerCase()]; if(![...selectedOptions].some(opt=>trekMonths.includes(opt))) return false; }
+      else if(category==='season'){ const trekSeasons=Array.isArray(trek.season)?trek.season.map(s=>s.toLowerCase()):[String(trek.season).toLowerCase()]; if(![...selectedOptions].some(opt=>trekSeasons.includes(opt))) return false; }
+      else{ if(!selectedOptions.has(String(trek[category]).toLowerCase())) return false; }
+    } return true;
+  }
+
+  function filterTrekCards(){
+    const filters=getSelectedFilters();
+    trekCards.forEach(card=>{
+      const trekId=card.getAttribute('data-trek-id');
+      const trek=trekData.find(t=>t.id===trekId);
+      if(!trek) return;
+      if(Object.keys(filters).length===0 || trekMatchesFilters(trek,filters)){
+        card.classList.remove('hide'); card.classList.add('show');
+      } else{ card.classList.remove('show'); card.classList.add('hide'); }
+    });
+  }
+
+  function syncCheckboxes(sourceList,targetList){
+    sourceList.forEach((sourceCb,idx)=>{ sourceCb.addEventListener('change',()=>{ targetList[idx].checked=sourceCb.checked; filterTrekCards(); }); });
+  }
+  syncCheckboxes(desktopCheckboxes,modalCheckboxes);
+  syncCheckboxes(modalCheckboxes,desktopCheckboxes);
+  filterTrekCards();
+
+  // Mobile modal
+  const openBtn=document.getElementById('openFilterBtn');
+  const closeBtn=document.getElementById('closeFilterBtn');
+  const filterModal=document.getElementById('filterModal');
+  openBtn.addEventListener('click',()=>{ filterModal.classList.add('open'); document.body.style.overflow='hidden'; });
+  closeBtn.addEventListener('click',()=>{ filterModal.classList.remove('open'); document.body.style.overflow=''; });
+  filterModal.addEventListener('click',e=>{ if(e.target===filterModal){ filterModal.classList.remove('open'); document.body.style.overflow=''; } });
+
+  // Query params
+  const params=Object.fromEntries(new URLSearchParams(window.location.search));
+  Object.keys(params).forEach(key=>{
+    const value=params[key].toLowerCase();
+    [...desktopCheckboxes,...modalCheckboxes].forEach(cb=>{ if(cb.name===key&&cb.value.toLowerCase()===value) cb.checked=true; });
+  });
+  filterTrekCards();
+});
+</script>
+</Layout>

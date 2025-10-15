@@ -1,0 +1,687 @@
+---
+import { treks } from '../data/treksData.js';
+import WhyPlanethimalayas from '../components/WhyPlanethimalayas.astro';
+const { title = "Planethimalayas", description = "Explore treks in the Himalayas with Planethimalayas" } = Astro.props;
+import Footer from '../components/Footer.astro';
+import "../styles/global.css";
+import "react-phone-input-2/lib/style.css";
+const brandColor = '#ff7300';
+import { supabase } from '../lib/supabaseClient';
+import AuthButton from "../components/AuthButton.jsx";
+import SearchBox from "../components/SearchBox.jsx";
+---
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
+  <!-- ✅ Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet" />
+
+  <!-- ✅ Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- ✅ Dynamic Title & Description -->
+  <title>{title}</title>
+  <meta name="description" content={description} />
+
+  <!-- ✅ Open Graph (for social sharing) -->
+  <meta property="og:title" content="Planethimalayas" />
+  <meta
+    property="og:description"
+    content="Explore treks in the Himalayas with Planethimalayas"
+  />
+  <meta
+    property="og:image"
+    content="https://www.planethimalayas.com/images/main/Planethimalayas.png"
+  />
+  <meta property="og:url" content="https://www.planethimalayas.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Planethimalayas" />
+  <meta
+    name="twitter:description"
+    content="Explore treks in the Himalayas with Planethimalayas"
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.planethimalayas.com/images/main/brand-logo.png"
+  />
+
+  <!-- ✅ Alpine.js -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+  ></script>
+
+  <!-- ✅ Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-FXGGXWELHH"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FXGGXWELHH');
+  </script>
+
+  <!-- ✅ Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '740541570125570');
+    fbq('track', 'PageView');
+  </script>
+  <noscript
+    ><img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=740541570125570&ev=PageView&noscript=1"
+  /></noscript>
+</head>
+
+
+  <body>
+
+  <!-- Floating Buttons --> 
+    <div class="floating-buttons">
+    <a href="https://wa.me/919027481187" 
+      class="whatsapp-float" 
+      target="_blank" 
+      aria-label="Chat on WhatsApp">
+      <img src="/images/main/Whatsapp-icon.svg" alt="WhatsApp" class="whatsapp-icon" />
+    </a>
+    <a href="/faqs" class="faq-button underline-hover">
+     FAQs   
+    </a>
+    </div>
+    
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <!-- Top Navbar -->
+    <nav class="top-navbar" role="navigation" aria-label="Top Navigation">
+      <div class="left">
+        <a href="/" aria-label="Planethimalayas homepage" style="display:flex; align-items:center; gap: 4px; text-decoration:none;">
+          <img src="/images/main/brand-logo.png" alt="Logo" class="logo" />
+          <span class="brand-name">
+            Planet<span class="orange">himalayas</span>
+          </span>
+        </a>
+      </div>
+
+        <!-- RIGHT SECTION -->
+      <div class="right" style="display:flex; align-items:center; gap:4px;">
+
+        <!-- Desktop search -->
+        <div class="desktop-search">
+        <SearchBox client:only="react" />
+        </div>
+
+        <!-- Mobile search icon (visible only on mobile) -->
+<button id="mobile-search-toggle" class="mobile-search-toggle" aria-label="Search">
+  <div style="background:#ff7300; padding:6px; border-radius:50%; display:flex; align-items:center; justify-content:center;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"></circle>
+      <line x1="25" y1="25" x2="18.65" y2="18.65"></line>
+    </svg>
+  </div>
+</button>
+             
+        <!-- Login/logout -->
+          <AuthButton client:only="react" />
+
+        <!-- Hamburger for main navbar -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Menu" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button> 
+</div>
+
+<style>
+
+ .scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 110px; /* placed left of WhatsApp/FAQ */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff7300; /* brand color */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none; /* hidden until scroll */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  transition: opacity 0.3s ease;
+  z-index: 999;
+}
+
+.scroll-top:hover {
+  background-color: #e56700;
+}
+      
+.floating-buttons {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  z-index: 999;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebc59;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.faq-button {
+  background-color: #ff7300; /* your brand color */
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding: 0.6rem 1.2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+}
+
+.underline-hover {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ffffff; /* or #ff7300 for brand orange */
+  transition: width 0.3s ease;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}
+
+.how-different {
+  padding: 4rem 2rem;
+}
+
+      body {
+        font-family: Helvetica, sans-serif;
+        padding-top: 110px; /* total height of 2 navbars */
+      }
+
+      /* Hide both together */
+      nav.top-navbar.hide {
+        transform: translateY(-100%);
+      }
+
+      nav.main-navbar.hide {
+        transform: translateY(-200%);
+      }
+
+      /* --- Top Navbar --- */
+      nav.top-navbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 55px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding:0 24px;
+        align-items: center;
+        z-index: 1099;
+        position: fixed;
+        transition: transform 0.3s ease;
+        will-change: transform;
+      }
+
+      nav.top-navbar .left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      nav.top-navbar .left img.logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+      }
+
+      nav.top-navbar .left .brand-name {
+        font-weight: 700;
+        font-size: 1.5rem;
+        user-select: none;
+        color: black;
+      }
+
+      nav.top-navbar .left .brand-name .orange {
+        color: var(--brand-color);
+      }
+
+      nav.top-navbar .right {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+    
+
+
+      /* --- Main Navbar --- */
+      nav.main-navbar {
+        top: 55px;
+        left: 0;
+        right: 0;
+        height: 55px;
+        background-color: var(--brand-color);
+        display: flex;
+        justify-content: flex-end;
+        padding-right:24px;
+        align-items: center;
+        z-index: 1099;
+        position: fixed;
+        transition: transform 0.3s ease;
+        will-change: transform;
+      }
+
+      nav.main-navbar ul.nav-links {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+        justify-content: center;
+      }
+
+      nav.main-navbar ul.nav-links li a {
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        user-select: none;
+      }
+
+      nav.main-navbar ul.nav-links li a:hover,
+      nav.main-navbar ul.nav-links li a:focus {
+        background: white;
+        color: var(--brand-color);
+        outline: none;
+      }
+
+     /* Hamburger styles - unchanged */
+.hamburger {
+  position: relative;
+  z-index: 1300; /* above menu */
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 4px;
+  margin-left: 2px;
+  transition: border 0.3s ease;
+  border: 4px solid transparent;
+  border-radius: 10px;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 3px;
+  background: black;
+  border-radius: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.hamburger:hover,
+.hamburger:focus,
+.hamburger.active {
+  border-color: var(--brand-color);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  nav.main-navbar {
+    height: 0; 
+    position: fixed;   /* so menu slides over content */
+    top: 0;
+    right: 0;
+    width: auto;
+    z-index: 1200;     /* below hamburger */
+  }
+
+  nav.main-navbar ul.nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;  /* fixed so it scrolls with page */
+    top: 55px;        /* below top navbar */
+    right: 0;
+    width: 50vw;
+    max-width: 300px;
+    height: 100vh;    /* full screen height */
+    background-color: var(--brand-color);
+    transform: translateX(100%);  /* hidden by default */
+    transition: transform 0.3s ease;
+    padding-top: 1rem;
+    z-index: 1100;     /* below hamburger */
+    overflow-y: auto;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.25);
+  }
+
+  nav.main-navbar ul.nav-links.show {
+    transform: translateX(0);  /* slide in */
+  }
+
+  .hamburger {
+    display: flex;  /* show hamburger on mobile */
+  }
+
+  nav.top-navbar .profile-button {
+    display: none;
+  }
+}
+
+/* Desktop - hide hamburger */
+@media (min-width: 769px) {
+  nav.top-navbar .hamburger {
+    display: none;
+  }
+}
+
+main {
+  margin-top: 0;
+}
+
+:root {
+  --brand-color: #ff7300;
+}
+
+.mobile-search-dropdown {
+  display: none;
+  position: fixed;
+  top: 55px; /* adjust if navbar height changes */
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 8px 16px;
+  z-index: 9999; /* above navbar */
+  border-bottom: 1px solid #ddd;
+}
+/* Hide mobile icon on desktop */
+.mobile-search-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Show mobile icon only below 768px */
+@media (max-width: 768px) {
+  .desktop-search {
+    display: none;
+  }
+  .mobile-search-toggle {
+    display: inline-block;
+  }
+}
+.mobile-search-toggle svg {
+  transition: transform 0.2s ease;
+}
+.mobile-search-toggle:hover svg {
+  transform: scale(1.1);
+}
+
+</style>      
+
+<style is:global>
+
+  @media (max-width: 768px) {
+    .desktop-search { display: none; }
+    .mobile-search-btn { display: inline-block !important; }
+  }
+  /* Shared Auth button styles */
+  .auth-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;          
+  }
+
+
+  /* Search styles */
+  .desktop-search { display: block; }
+  
+  @media (max-width: 768px) {
+    .desktop-search { display: none; }
+  }
+
+.search-box {
+  position: relative;
+  display: flex;
+  gap: 8px;
+}
+
+.search-box input {
+  padding: 8px 16px;
+  width: 380px;
+  border-radius: 8px;
+  border: 1px solid #ff7300;
+  flex: 1;
+}
+
+.results-box {
+  position: absolute;      /* allows it to float above other elements */
+  top: 300%;               /* right below the search input */
+  left: 0;
+  width: 400px;             /* match the input width or parent container */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 9999;           /* make sure it appears above navbar */
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.result-item, .no-result {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+  color: black;
+}
+
+.result-item:hover {
+  background: #f9f9f9;
+}
+  
+</style>
+
+    </nav>
+
+    <!-- Main Navbar -->
+    <nav class="main-navbar" role="navigation" aria-label="Main Website Navigation">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/upcoming-treks">Upcoming Treks</a></li>
+        <li><a href="/faqs">FAQs</a></li>
+        <li><a href="/blogs">Articles</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/share-your-experience">Share Your Experience</a></li>
+      </ul>
+    </nav>
+
+  <!-- Mobile search dropdown -->
+<div id="mobile-search-dropdown" class="mobile-search-dropdown">
+  <div id="mobile-search-container">
+  <SearchBox client:only="react" />
+  </div>
+</div>
+
+
+  <slot />
+  <WhyPlanethimalayas />  
+  <Footer />
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger-btn');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    // Toggle the mobile menu
+    navLinks.classList.toggle('show');
+
+    // Optional: toggle active class on hamburger for animation
+    hamburger.classList.toggle('active');
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const topNavbar = document.querySelector('nav.top-navbar');
+  const mainNavbar = document.querySelector('nav.main-navbar');
+  let lastScrollY = window.scrollY;
+  let hideStage = 0;
+
+  function setNavbarPositions() {
+    if (topNavbar && mainNavbar) {
+      const topHeight = topNavbar.offsetHeight;
+      document.documentElement.style.setProperty('--top-navbar-height', `${topHeight}px`);
+    }
+  }
+
+  setNavbarPositions();
+  window.addEventListener('resize', setNavbarPositions);
+
+  window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY) {
+      if (hideStage === 0 && currentScrollY > 50) {
+        topNavbar.classList.add('hide');
+        hideStage = 1;
+      } else if (hideStage === 1 && currentScrollY > 150) {
+        mainNavbar.classList.add('hide');
+        hideStage = 2;
+      }
+    } else {
+      if (hideStage === 2) {
+        mainNavbar.classList.remove('hide');
+        hideStage = 1;
+      } else if (hideStage === 1) {
+        topNavbar.classList.remove('hide');
+        hideStage = 0;
+      }
+    }
+    lastScrollY = currentScrollY;
+  });
+});
+</script>
+
+<script>
+  const toggleBtn = document.getElementById("mobile-search-toggle");
+  const dropdown = document.getElementById("mobile-search-dropdown");
+
+  toggleBtn.addEventListener("click", () => {
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener("click", (e) => {
+    if (
+      !dropdown.contains(e.target) &&
+      !toggleBtn.contains(e.target)
+    ) {
+      dropdown.style.display = "none";
+    }
+  });
+</script>
+
+<script>
+// Show/hide button on scroll
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("scrollTopBtn");
+  if (window.scrollY > 300) {
+    btn.style.display = "flex";
+  } else {
+    btn.style.display = "none";
+  }
+});
+
+// Smooth scroll to top
+document.getElementById("scrollTopBtn").addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+</script>
+
+</body>
+</html>

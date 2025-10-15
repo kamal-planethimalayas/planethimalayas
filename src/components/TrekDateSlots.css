@@ -1,0 +1,21 @@
+.slot-status {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.slot-status.available {
+  color: #28a745;
+}
+
+.slot-status.filling-fast,
+.slot-status.few-left {
+  color: orange;
+}
+
+.slot-status.full {
+  color: red;
+}
+
+.slot-status.loading {
+  color: #999;
+}
