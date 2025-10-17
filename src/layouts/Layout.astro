@@ -97,10 +97,113 @@ import SearchBox from "../components/SearchBox.jsx";
       style="display:none"
       src="https://www.facebook.com/tr?id=740541570125570&ev=PageView&noscript=1"
   /></noscript>
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.min.css"
+/>
+<script type="module" src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"></script>
+
 </head>
 
 
   <body>
+
+ <!-- Lead Gen Popup -->
+<div id="leadGenModal" class="modal" style="display:none;">
+  <div class="modal-content">
+  <span class="modal-close">&times;</span>
+
+  <!-- Initial Heading & Info -->
+  <div id="leadGenIntro">
+    <h2>Plan your trek with expert guidance, tailored just for you.</h2>
+    <p style="margin-bottom:15px;">Fill in your details and our experts will reach out to help you plan your Himalayan adventure.</p>
+  </div>
+
+  <!-- Form -->
+  <form id="leadGenForm" action="https://formspree.io/f/xrbldkrb" method="POST">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name here..." required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email here..." required />
+    </div>
+
+    <div class="form-group">
+      <label for="trekName">Trek Name</label>
+      <select id="trekName" name="trekName" required>
+        <option value="">Select a Trek</option>
+        {treks.map((t) => (
+          <option value={t.name}>{t.name}</option>
+        ))}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="joinType">Joining as</label>
+      <select id="joinType" name="joinType" required>
+        <option value="">Select</option>
+        <option value="solo">Solo in a group</option>
+        <option value="group">A group of friends/colleagues</option>
+        <option value="family">A group of family</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="contactMethod">Preferred contact method</label>
+      <select id="contactMethod" name="contactMethod" required>
+        <option value="">Select</option>
+        <option value="phone">Phone</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="email">Email</option>
+      </select>
+    </div>
+
+    <div class="form-group" id="phoneGroup" style="display:none;">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9007210399" />
+    </div>
+
+    <div class="form-group" id="whatsappGroup" style="display:none;">
+      <label for="whatsapp">WhatsApp</label>
+      <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 9027481187" />
+    </div>
+
+    <div class="form-group" id="emailGroup" style="display:none;">
+      <label for="altEmail">Email</label>
+      <input type="email" id="altEmail" name="altEmail" placeholder="Your Email..." />
+    </div>
+
+    <div class="form-group">
+      <label for="contactTime">Best time to contact you</label>
+      <select id="contactTime" name="contactTime" required>
+        <option value="">Select</option>
+        <option value="10am-12pm">10am-12pm</option>
+        <option value="2pm-4pm">2pm-4pm</option>
+        <option value="4pm-6pm">4pm-6pm</option>
+        <option value="6pm-8pm">6pm-8pm</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn-submit">Submit</button>
+  </form>
+
+  <!-- Thank You Message -->
+  <div id="leadGenThankYou" style="display:none; margin-top:25px; text-align:center;">
+    <h2 style="font-family: Helvetica, sans-serif; color: #ff7300; font-size: 26px; margin-bottom: 10px;">
+      Thank You!
+    </h2>
+    <p style="font-family: Roboto, sans-serif; color: #333; font-size: 16px;">
+      One of our experts will get in touch with you within 48 hours.
+    </p>
+  </div>
+</div>
+</div>
+
 
   <!-- Floating Buttons --> 
     <div class="floating-buttons">
@@ -492,6 +595,76 @@ main {
   transform: scale(1.1);
 }
 
+/* Lead Gen Modal */
+#leadGenModal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#leadGenModal h2 {
+  margin-bottom: 20px; /* adds space between heading and first field */
+  font-size: 1.8rem;
+  color: #ff7300;
+  text-align: center;
+}
+
+#leadGenModal .modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  position: relative;
+}
+
+#leadGenModal .modal-close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ff7300;
+}
+
+#leadGenModal .form-group {
+  margin-bottom: 15px;
+}
+
+#leadGenModal label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#leadGenModal input,
+#leadGenModal select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#leadGenModal .btn-submit {
+  background-color: #ff7300;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#leadGenModal .btn-submit:hover {
+  background-color: #e66000;
+}
+
 </style>      
 
 <style is:global>
@@ -681,6 +854,84 @@ window.addEventListener("scroll", () => {
 document.getElementById("scrollTopBtn").addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+</script>
+
+<script is:client>
+  window.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('leadGenModal');
+    const closeBtn = modal.querySelector('.modal-close');
+    const form = document.getElementById('leadGenForm');
+    const thankYou = document.getElementById('leadGenThankYou');
+    const intro = document.getElementById('leadGenIntro');
+
+    // Show modal
+    modal.style.display = 'block';
+
+    // Close modal logic
+    closeBtn.addEventListener('click', () => (modal.style.display = 'none'));
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) modal.style.display = 'none';
+    });
+
+    // === Contact method toggle ===
+    const contactMethod = document.getElementById('contactMethod');
+    const phoneGroup = document.getElementById('phoneGroup');
+    const whatsappGroup = document.getElementById('whatsappGroup');
+    const emailGroup = document.getElementById('emailGroup');
+
+    contactMethod.addEventListener('change', function () {
+      const val = this.value;
+      phoneGroup.style.display = val === 'phone' ? 'block' : 'none';
+      whatsappGroup.style.display = val === 'whatsapp' ? 'block' : 'none';
+      emailGroup.style.display = val === 'email' ? 'none' : 'none'; // user won't re-enter email
+    });
+
+    // === intl-tel-input setup ===
+    const phoneInputField = document.querySelector('#phone');
+    const whatsappInputField = document.querySelector('#whatsapp');
+
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      initialCountry: 'in',
+      separateDialCode: true,
+      utilsScript:
+        'https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js',
+    });
+
+    const whatsappInput = window.intlTelInput(whatsappInputField, {
+      initialCountry: 'in',
+      separateDialCode: true,
+      utilsScript:
+        'https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js',
+    });
+
+    // === Handle form submission ===
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+
+      // Attach full international numbers
+      formData.set('phone', phoneInput.getNumber());
+      formData.set('whatsapp', whatsappInput.getNumber());
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: { Accept: 'application/json' },
+        });
+
+        if (res.ok) {
+          intro.style.display = 'none';
+          form.style.display = 'none';
+          thankYou.style.display = 'block';
+        } else {
+          alert('There was a problem submitting the form.');
+        }
+      } catch (err) {
+        alert('There was a problem submitting the form.');
+      }
+    });
+  });
 </script>
 
 </body>

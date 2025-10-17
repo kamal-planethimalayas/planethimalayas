@@ -733,6 +733,7 @@ export const treks = [
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
+    tags: ["family", "beginner"],
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -776,15 +777,6 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
-      { label: "27 Sep - 02 Oct", start: "2025-09-27", end: "2025-10-02" },
-      { label: "28 Sep - 03 Oct", start: "2025-09-28", end: "2025-10-03" },
-      { label: "29 Sep - 04 Oct", start: "2025-09-29", end: "2025-10-04" },
-      { label: "04 Oct - 09 Oct", start: "2025-10-04", end: "2025-10-09" },
-      { label: "05 Oct - 10 Oct", start: "2025-10-05", end: "2025-10-10" },
-      { label: "06 Oct - 11 Oct", start: "2025-10-06", end: "2025-10-11" },
-      { label: "11 Oct - 16 Oct", start: "2025-10-11", end: "2025-10-16" },
-      { label: "12 Oct - 17 Oct", start: "2025-10-12", end: "2025-10-17" },
-      { label: "13 Oct - 18 Oct", start: "2025-10-13", end: "2025-10-18" },
       { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
       { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
       { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
@@ -1000,6 +992,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
+    tags: ["family", "beginner"],
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -1047,15 +1040,6 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
-      { label: "27 Sep - 02 Oct", start: "2025-09-27", end: "2025-10-02" },
-      { label: "28 Sep - 03 Oct", start: "2025-09-28", end: "2025-10-03" },
-      { label: "29 Sep - 04 Oct", start: "2025-09-29", end: "2025-10-04" },
-      { label: "04 Oct - 09 Oct", start: "2025-10-04", end: "2025-10-09" },
-      { label: "05 Oct - 10 Oct", start: "2025-10-05", end: "2025-10-10" },
-      { label: "06 Oct - 11 Oct", start: "2025-10-06", end: "2025-10-11" },
-      { label: "11 Oct - 16 Oct", start: "2025-10-11", end: "2025-10-16" },
-      { label: "12 Oct - 17 Oct", start: "2025-10-12", end: "2025-10-17" },
-      { label: "13 Oct - 18 Oct", start: "2025-10-13", end: "2025-10-18" },
       { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
       { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
       { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
@@ -2027,6 +2011,7 @@ seo: {
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
+    tags: ["family", "beginner"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
@@ -2888,6 +2873,7 @@ itinerary: [
 {
   id: "dayara-bugyal-trek",
   name: "Dayara Bugyal Trek",
+  tags: ["family", "beginner"],
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],

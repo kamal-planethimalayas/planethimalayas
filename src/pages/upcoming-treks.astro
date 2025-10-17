@@ -11,7 +11,13 @@ const filterCategories = {
   ],
   days: ['4', '5', '6', '7', '8', '9', '10'],
   region: ['kashmir','ladakh','uttarakhand','himachal','sikkim','west bengal','nepal'],
+  tags: ['family', 'beginner'],
 };
+
+// ✅ define this before the HTML section
+const familyTreks = treks.filter(
+  (trek) => trek.tags && trek.tags.includes('family')
+);
 ---
 <Layout>
 <style>
@@ -170,6 +176,103 @@ const filterCategories = {
 }
 @media(min-width:768px){ .sticky-filter-btn{display:none !important;} }
 
+/* ====== SUGGESTED TREKS SECTION ====== */
+.suggested-treks {
+  background: #fff;
+  border: 2px solid #ff7300;
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.suggested-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ff7300;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.suggested-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards Grid */
+.suggested-trek-cards {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 480px) {
+  .suggested-trek-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .suggested-trek-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.suggested-trek-card {
+  background: #fefefe;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.suggested-trek-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.suggested-trek-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.suggested-trek-card h3 {
+  font-size: 1rem;
+  color: #222;
+  margin: 0.6rem 0;
+  padding: 0 0.4rem;
+}
+
+/* Button */
+.btn-suggested {
+  display: inline-block;
+  background: #ff7300;
+  color: #000;
+  font-weight: 600;
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-suggested:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
 </style>
 
 <div class="page-wrapper">
@@ -189,6 +292,29 @@ const filterCategories = {
   </aside>
 
 <main class="main-content" role="main" tabindex="0">
+<!-- Suggested Treks Section -->
+<section class="suggested-treks">
+  <h2 class="suggested-title">Our Best Suggested Treks for a Perfect Family Adventure</h2>
+  <p class="suggested-desc">
+    Enjoy your perfect family adventure trip with us. These treks are easy on foot, scenic,
+    and offer some of the best Himalayan views. Open year-round (except monsoon), they
+    deliver a new experience each season — perfect for families and equally rewarding for
+    seasoned trekkers.
+  </p>
+
+  <div class="suggested-trek-cards">
+    {familyTreks.map((trek) => (
+      <div class="suggested-trek-card" key={trek.id}>
+        <a href={`/trek/${trek.id}#trek-hero`}>
+          <img src={trek.heroImage} alt={trek.name} loading="lazy" />
+        </a>
+        <h3>{trek.name}</h3>
+        <a href={`/trek/${trek.id}#highlights`} class="btn-suggested">View Details</a>
+      </div>
+    ))}
+  </div>
+</section>
+
   <div class="trek-cards-container" id="trekCardsContainer">
     {treks.map(trek => {
       const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
