@@ -309,7 +309,7 @@ const familyTreks = treks.filter(
           <img src={trek.heroImage} alt={trek.name} loading="lazy" />
         </a>
         <h3>{trek.name}</h3>
-        <a href={`/trek/${trek.id}#highlights`} class="btn-suggested">View Details</a>
+        <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn-suggested">View Details</a>
       </div>
     ))}
   </div>
@@ -400,17 +400,30 @@ document.addEventListener('DOMContentLoaded', () => {
     } return true;
   }
 
-  function filterTrekCards(){
-    const filters=getSelectedFilters();
-    trekCards.forEach(card=>{
-      const trekId=card.getAttribute('data-trek-id');
-      const trek=trekData.find(t=>t.id===trekId);
-      if(!trek) return;
-      if(Object.keys(filters).length===0 || trekMatchesFilters(trek,filters)){
-        card.classList.remove('hide'); card.classList.add('show');
-      } else{ card.classList.remove('show'); card.classList.add('hide'); }
-    });
+  function filterTrekCards() {
+  const filters = getSelectedFilters();
+  const suggestedSection = document.querySelector('.suggested-treks');
+  const hasActiveFilters = Object.keys(filters).length > 0;
+
+  trekCards.forEach(card => {
+    const trekId = card.getAttribute('data-trek-id');
+    const trek = trekData.find(t => t.id === trekId);
+    if (!trek) return;
+
+    if (!hasActiveFilters || trekMatchesFilters(trek, filters)) {
+      card.classList.remove('hide');
+      card.classList.add('show');
+    } else {
+      card.classList.remove('show');
+      card.classList.add('hide');
+    }
+  });
+
+  // ✅ Show/hide suggested treks based on filter state
+  if (suggestedSection) {
+    suggestedSection.style.display = hasActiveFilters ? 'none' : 'block';
   }
+}
 
   function syncCheckboxes(sourceList,targetList){
     sourceList.forEach((sourceCb,idx)=>{ sourceCb.addEventListener('change',()=>{ targetList[idx].checked=sourceCb.checked; filterTrekCards(); }); });

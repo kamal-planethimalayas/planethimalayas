@@ -47,8 +47,34 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-      { label: "04 Oct - 10 Oct", start: "2025-10-04", end: "2025-10-10" },
-      { label: "05 Oct - 11 Oct", start: "2025-10-05", end: "2025-10-11" },
+      { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
+      { label: "12 Jul - 18 Jul", start: "2026-07-12", end: "2026-07-18" },
+      { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
+      { label: "19 Jul - 25 Jul", start: "2026-07-19", end: "2026-07-25" },
+      { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
+      { label: "26 Jul - 01 Aug", start: "2026-07-26", end: "2026-08-01" },
+      { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
+      { label: "02 Aug - 08 Aug", start: "2026-08-02", end: "2026-08-08" },
+      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
+      { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
+      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+      { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
+      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
+      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+      { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
+      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+      { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
+      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      
+    
     ],
 
     highlights: [
@@ -212,8 +238,32 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     dates: [
-      { label: "05 Oct - 09 Oct", start: "2025-10-05", end: "2025-10-09" },
-      { label: "06 Oct - 10 Oct", start: "2025-10-06", end: "2025-10-10" },
+      { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
+      { label: "12 Jul - 18 Jul", start: "2026-07-12", end: "2026-07-18" },
+      { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
+      { label: "19 Jul - 25 Jul", start: "2026-07-19", end: "2026-07-25" },
+      { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
+      { label: "26 Jul - 01 Aug", start: "2026-07-26", end: "2026-08-01" },
+      { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
+      { label: "02 Aug - 08 Aug", start: "2026-08-02", end: "2026-08-08" },
+      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
+      { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
+      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+      { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
+      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
+      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+      { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
+      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+      { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
+      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
       
     ],
 
@@ -384,9 +434,16 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
     dates: [
-      { label: "11 Oct - 17 Oct", start: "2025-10-11", end: "2025-10-17" },
-      { label: "12 Oct - 18 Oct", start: "2025-10-12", end: "2025-10-18" },
-      { label: "13 Oct - 19 Oct", start: "2025-10-13", end: "2025-10-19" },
+      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
+      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
+      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
+      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
+      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
+      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
+      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
+      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
+      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
+      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
     ],
 
     highlights: [
@@ -582,9 +639,16 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
     dates: [
-      { label: "11 Oct - 17 Oct", start: "2025-10-11", end: "2025-10-17" },
-      { label: "12 Oct - 18 Oct", start: "2025-10-12", end: "2025-10-18" },
-      { label: "13 Oct - 19 Oct", start: "2025-10-13", end: "2025-10-19" },
+      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
+      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
+      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
+      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
+      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
+      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
+      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
+      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
+      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
+      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
     ],
 
     highlights: [
@@ -992,7 +1056,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["family", "beginner"],
+    tags: ["family"],
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -1292,9 +1356,16 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      { label: "11 Oct - 17 Oct", start: "2025-10-11", end: "2025-10-17" },
-      { label: "12 Oct - 18 Oct", start: "2025-10-12", end: "2025-10-18" },
-      { label: "13 Oct - 19 Oct", start: "2025-10-13", end: "2025-10-19" },
+      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
+      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
+      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
+      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
+      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
+      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
+      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
+      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
+      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
+      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
     ],
 
     highlights: [
@@ -2223,8 +2294,18 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
 
     dates: [
-      { label: "27 Sep - 04 Oct", start: "2025-09-27", end: "2025-10-04" },
-      { label: "28 Sep - 05 Oct", start: "2025-09-28", end: "2025-10-05" },
+      { label: "08 Aug - 15 Aug", start: "2026-08-08", end: "2025-08-15" },
+      { label: "09 Aug - 16 Aug", start: "2026-08-09", end: "2025-08-16" },
+      { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2025-08-22" },
+      { label: "16 Aug - 23 Aug", start: "2026-08-16", end: "2025-08-23" },
+      { label: "22 Aug - 29 Aug", start: "2026-08-22", end: "2025-08-29" },
+      { label: "23 Aug - 30 Aug", start: "2026-08-23", end: "2025-08-30" },
+      { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2025-09-05" },
+      { label: "30 Aug - 06 Sep", start: "2026-08-30", end: "2025-09-06" },
+      { label: "05 Sep - 12 Sep", start: "2026-09-05", end: "2025-09-12" },
+      { label: "06 Sep - 13 Sep", start: "2026-09-06", end: "2025-09-13" },
+      { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2025-09-19" },
+      { label: "13 Sep - 20 Sep", start: "2026-09-13", end: "2025-09-20" },
     ],
 
     highlights: [
@@ -3121,9 +3202,202 @@ itinerary: [
 
 
   faqsLink: "/faqs-and-articles",
-}
+},
 
+{
+  id: "bali-pass-trek",
+  name: "Bali Pass Trek",
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september", "october"],
+  region: "uttarakhand",
+  duration: "7 Nights / 8 Days",
+  coordinates: [
+    [31.0266, 78.4469], // Sankri (start)
+    [31.0853, 78.7069], // Janki Chatti (end)
+  ],
 
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg",
+  subtitle: "The Wildest High-Altitude Crossover in Garhwal",
+
+  seo: {
+    title: "Bali Pass Trek | Detailed Itinerary, Cost & Route | Planethimalayas",
+    description:
+      "Bali Pass Trek (16,207 ft) is a challenging high-altitude route connecting Har Ki Dun valley to Yamunotri in Uttarakhand. A thrilling 8-day Himalayan adventure through alpine meadows, glacial basins, and rugged mountain passes.",
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "16,207 ft (Bali Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "64 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
+      { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar National Park, Uttarkashi, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Sankri (Uttarkashi, Uttarakhand)" },
+      { emoji: "🏁", label: "End Point", value: "Janki Chatti (Yamunotri, Uttarkashi, Uttarakhand)" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+    snippet: `Bali Pass Trek is one of the most adventurous high-altitude crossovers in the Indian Himalayas, connecting the lush Har Ki Dun valley with the sacred Yamunotri region. Rising to 16,207 ft, this trek offers everything — alpine meadows, ancient Himalayan villages, glacial valleys, moraine crossings, and breathtaking views of Swargarohini, Bandarpoonch, and Kala Nag peaks. The trail begins in dense forests of pine and oak, passes through quaint villages like Osla and Seema, ascends to the alpine Ruinsara Tal lake, and then climbs steeply to the Bali Pass, offering a spectacular panorama of the Garhwal Himalayas. Descending into the Yamunotri valley feels like entering another world, making this trek a true Himalayan odyssey.`,
+  },
+
+  price: 20900,
+  priceNote: "* Sankri to Janki Chatti",
+  addons: {
+    transport: 4000,
+    offloadingbag: 5600,
+    transportNote: "* Dehradun to Dehradun",
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
+
+  dates: [
+    { label: "15 May - 22 May", start: "2026-05-15", end: "2026-05-22" },
+    { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
+    { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
+    { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
+    { label: "29 May - 22 May", start: "2026-05-29", end: "2026-06-05" },
+    { label: "30 May - 22 May", start: "2026-05-30", end: "2026-06-06" },
+    { label: "05 Jun - 12 Jun", start: "2026-06-05", end: "2026-06-12" },
+    { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
+    { label: "12 Jun - 19 Jun", start: "2026-06-12", end: "2026-06-19" },
+    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
+  ],
+
+  highlights: [
+    "A rare high-altitude crossover connecting Har Ki Dun to Yamunotri",
+    "Stunning views of Swargarohini, Bandarpoonch, and Kala Nag peaks",
+    "Campsites by the pristine Ruinsara Tal and under towering glaciers",
+    "Traverse through alpine meadows, moraines, and icy slopes at 16,200 ft",
+    "Blend of remote villages, Hindu mythology, and raw Himalayan wilderness",
+  ],
+
+  itinerary: [
+  { 
+    day: 1, 
+    title: "Arrive in Sankri (6,400 ft)", 
+    details: "• Drive distance: ~195 km | Duration: 6–8 hours. <br>• Drive from Dehradun to Sankri through Mussoorie, Purola, and Mori — one of the most scenic drives in the Garhwal Himalayas. <br>• The route winds through pine and deodar forests, with glimpses of the Tons River below. <br>• Sankri, a quaint village in Govind Pashu Vihar National Park, serves as the base for several famous treks. <br>• Overnight stay in a guesthouse or homestay at Sankri." 
+  },
+  { 
+    day: 2, 
+    title: "Sankri to Dhatmeer (7,875 ft) – Trek to Seema (8,400 ft)", 
+    details: "• Drive distance: 18 km | Trek distance: ~8 km | Duration: 1.5 hrs drive + 5–6 hrs trek. <br>• Short morning drive from Sankri to Dhatmeer village, the trek’s starting point. <br>• Trail begins with a gentle walk along the Supin River through chestnut, walnut, and deodar forests. <br>• Cross charming wooden bridges, cascading waterfalls, and small villages like Gangaar. <br>• The route offers first views of snow peaks of the Swargarohini range. <br>• Camp at Seema by the river, surrounded by thick forest and open meadows." 
+  },
+  { 
+    day: 3, 
+    title: "Seema (8,400 ft) to Devsu Thatch (10,200 ft)", 
+    details: "• Trek distance: ~6 km | Duration: 4–5 hours. <br>• Follow the Supin River upstream, crossing mixed forest trails of oak, pine, and silver birch. <br>• The climb gradually opens into lush alpine meadows of Devsu Thatch — one of the most beautiful campsites on this trail. <br>• From here, you get sweeping views of Kala Nag (Black Peak, 20,955 ft) and Bandarpunch ranges. <br>• The trail is mildly steep but scenic throughout, with birds and rhododendrons in bloom (April–June). <br>• Camp overnight in tents at Devsu Thatch, surrounded by vast green meadows and icy peaks." 
+  },
+  { 
+    day: 4, 
+    title: "Devsu Thatch (10,200 ft) to Ruinsara Tal (11,700 ft)", 
+    details: "• Trek distance: ~8.5 km | Duration: 5–6 hours. <br>• A moderate day following the Supin River for the last time before reaching Ruinsara Lake. <br>• Trail passes through silver birch and rhododendron forests, then opens into vast alpine terrain dotted with boulders and streams. <br>• Ruinsara Tal is a glacial lake surrounded by grassy meadows and towering peaks like Swargarohini and Dhumdhar Kandi. <br>• The area is known for Himalayan blue poppies and primulas during summer bloom. <br>• Overnight stay in wooden huts or tents beside the lake." 
+  },
+  { 
+    day: 5, 
+    title: "Ruinsara Tal (11,700 ft) to Odari (13,150 ft)", 
+    details: "• Trek distance: ~4 km | Duration: 3 hours. <br>• Short but scenic day through boulder sections and gentle river crossings. <br>• Odari means 'rock cave' — believed to be the place where Bali (Hanuman’s brother) once stayed, giving the trek its name. <br>• The trail gradually gains altitude and offers stunning views of Swargarohini I & II. <br>• Camp beside the river at Odari, surrounded by rocky ridges and high mountains. <br>• Evening briefing and acclimatization walk to prepare for the higher camp." 
+  },
+  { 
+    day: 6, 
+    title: "Odari (13,150 ft) to Bali Base Camp (15,350 ft)", 
+    details: "• Trek distance: ~3.5 km | Duration: 3–4 hours. <br>• Short but steep ascent over rocky and moraine terrain. <br>• The trail climbs through loose scree slopes with panoramic views of the Ruinsara Valley below. <br>• Campsite at Bali Base Camp offers mesmerizing sunset views and close-up look at glaciated peaks. <br>• Night temperatures drop below freezing; stay hydrated and warm. <br>• Overnight stay in tents at Bali Base Camp." 
+  },
+  { 
+    day: 7, 
+    title: "Bali Base Camp (15,350 ft) to Lower Dhamni (11,200 ft) via Bali Pass (16,207 ft)", 
+    details: "• Trek distance: ~10 km | Duration: 8–10 hours. <br>• The toughest and most spectacular day of the trek. <br>• Early start around 5 AM for the pass crossing — the trail is snow-covered and steep in early season. <br>• After a demanding climb, reach Bali Pass (16,207 ft), offering 360° views of Swargarohini, Banderpunch, and Garhwal ranges, with the Yamunotri valley far below. <br>• The descent from the pass is steep and scree-filled — use microspikes or gaiters if snow remains. <br>• Cross the narrow 'goat trail' section with caution. <br>• Reach Upper Dhamni for rest, then continue to Lower Dhamni campsite through mixed forest. <br>• Overnight stay in tents." 
+  },
+  { 
+    day: 8, 
+    title: "Lower Dhamni (11,200 ft) to Yamunotri (10,800 ft) – Drive to Dehradun", 
+    details: "• Trek distance: ~9.5 km | Duration: 5–6 hours. <br>• Descend through dense oak and rhododendron forest until the trail merges with the cemented pilgrim path to Yamunotri. <br>• Take a dip in the sacred hot springs — perfect for soothing tired muscles. <br>• Visit the Yamunotri temple, one of the Char Dham shrines. <br>• Continue trekking to Janki Chatti (base of Yamunotri), where vehicles to Dehradun will be waiting. <br>• Trek ends with memories of one of Garhwal’s most rewarding high-altitude crossings. <br>• You can plan onward travel the same day or explore Dehradun city." 
+  },
+],
+
+  didYouKnow: [
+    "Bali Pass connects Har Ki Dun valley with Yamunotri — a trail ancient traders and pilgrims once used to move between the Tons and Yamuna valleys.",
+    "The pass stands at 16,207 ft, offering rare simultaneous views of Bandarpoonch and Swargarohini peaks.",
+    "Ruinsara Tal is a sacred lake believed to be linked to the Pandavas’ ascent to heaven through Swargarohini.",
+    "The trek lies entirely within the Govind Pashu Vihar National Park, home to Himalayan black bears, blue sheep, and monals.",
+    "During late spring, alpine meadows near Devsu Thatch are carpeted with blue primulas and pink rhododendrons.",
+    "The local legend says that Odari cave was once used by Bali — the mighty monkey king from the Ramayana — hence the name ‘Bali Pass’.",
+    "Bali Pass is one of the few treks where you can literally see the transition from lush green forests to stark glacial wilderness within a single day’s climb.",
+    "The valley is also home to traditional wooden architecture and ancient stone temples that remain untouched by modernity.",
+  ],
+
+  howToReach: {
+      air: "<br>• Nearest Airport: Jolly Grant Airport, Dehradun (DED)<br>• Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.<br>• From the airport, you can hire a taxi to Dehradun ISBT or directly to Sankri.",
+      train: "<br>• Nearest Railway Station: Dehradun Railway Station<br>• Well connected with major cities like Delhi, Haridwar, Rishikesh, and Lucknow.",
+      road: "Dehradun to Sankri (190 km | 8–9 hours)",
+      travelTip: "<br>• Private Cab: Can be booked in advance. Costlier but comfortable.<br>• Local Bus: From Dehradun ISBT to Sankri via Purola (limited availability, leaves early morning)."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852568/bali-pass-view6_miv39h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852565/bali-pass-view8_itunxl.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852564/bali-pass-view7_yneryq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852548/bali-pass-view4_f5x8rm.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852524/bali-pass-view5_eyqbrx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852504/bali-pass-view1_hashpp.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852503/bali-pass-view2_ovxd66.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852503/bali-pass-hero2_djlwyw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852501/bali-pass-hero_fk6dmd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852450/bali-pass-view3_jufegf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852443/bali-pass-view19_mcsjql.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852395/bali-pass-view18_suxknn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852382/bali-pass-view21_tpo0g7.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852313/bali-pass-view24_ufrj59.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852310/bali-pass-view25_kj7v3u.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852302/bali-pass-view26_l9e8ml.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852294/bali-pass-view23_wmy9gy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852290/bali-pass-view22_pgyydw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852280/bali-pass-view20_ujedea.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852267/bali-pass-view17_nnpi8a.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852253/bali-pass-view10_qgq9kd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852252/bali-pass-view14_sgtbwj.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852236/bali-pass-view16_p0sxbo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852232/bali-pass-view12_zgn7kd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852223/bali-pass-view15_hlkl5o.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852193/bali-pass-view13_ufzkiv.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852187/bali-pass-view9_jjwb7q.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852177/bali-pass-view11_r82fn1.jpg"
+  ],
+
+  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Bali Pass Trek?",
+        answer:
+          "Bali Pass is ideal for experienced trekkers with prior exposure to high-altitude conditions. It involves steep ascents, scree slopes, and snow crossings.",
+      },
+      {
+        question: "What kind of weather should I expect?",
+        answer:
+          "Expect pleasant days (10–15°C) in lower camps and freezing temperatures near the pass (0°C to -5°C). Snow is common in early summer and post-monsoon.",
+      },
+      {
+        question: "Is it safe for solo trekkers?",
+        answer:
+          "Yes, if undertaken with a professional organization. The trail passes through remote areas, so solo attempts without guides are not advised.",
+      },
+      {
+        question: "Will I get mobile network during the trek?",
+        answer:
+          "Mobile networks (BSNL, Jio) work till Sankri and partly till Osla. Beyond that, connectivity is minimal or unavailable.",
+      },
+      {
+        question: "Are there any cultural or religious sites en route?",
+        answer:
+          "Yes, Osla village has a unique wooden temple dedicated to Duryodhana, and Yamunotri temple at the end of the trek is one of the Char Dhams of Uttarakhand.",
+      },
+    ],
+  },
+  faqsLink: "/pages/faqs-and-articles",
+},
 
 
   // Add other trek objects here...
