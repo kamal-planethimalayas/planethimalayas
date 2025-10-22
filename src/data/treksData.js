@@ -3441,7 +3441,7 @@ itinerary: [
         { emoji: "🏁", label: "End Point", value: "Wan Village (Uttarakhand)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
-      snippet: `The Roopkund Trek is one of Uttarakhand’s most iconic high-altitude adventures. It begins at Lohajung, winds through oak and rhododendron forests, expansive alpine meadows like Ali Bugyal and Bedni Bugyal, and ascends to the enigmatic Roopkund Lake at ~15,750 ft — known for the human skeletons visible when the snow melts. The return descent ends via Wan village. Ideal for fit trekkers seeking a mix of raw high-altitude terrain, meadows, and mystery.`
+      snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
     },
 
     price: 19500,     // you can fill in actual price
@@ -3508,11 +3508,20 @@ itinerary: [
 ],
 
     didYouKnow: [
-      "Roopkund Lake is also known as the Skeleton Lake because hundreds of human skeletons appear when the snow melts. :contentReference[oaicite:4]{index=4}",
-      "The alpine meadows of Bedni Bugyal and Ali Bugyal are among Uttarakhand’s most scenic high-altitude grasslands. :contentReference[oaicite:7]{index=7}",
-      "The route via Lohajung became more popular after being preferred over Wan as base camp. :contentReference[oaicite:8]{index=8}",
-      "Best seasons are May–June for snow-trek and September–October for clear skies and skeleton visibility. :contentReference[oaicite:9]{index=9}"
-    ],
+  "Roopkund Lake lies at 15,750 ft and is famously known as the ‘Skeleton Lake’ because over 300 human skeletons dating back to the 9th century were discovered at its bottom — a mystery linked to a rare hailstorm disaster uncovered by scientists only recently.",
+  
+  "The Roopkund trail passes through Bedni Bugyal and Ali Bugyal, two of Asia’s largest alpine meadows, carpeted with wildflowers like Brahma Kamal, blue poppies, and primulas in summer. These grasslands also offer majestic panoramas of Mt. Trishul and Nanda Ghunti.",
+  
+  "Roopkund lies on the ancient route of the sacred Nanda Devi Raj Jat Yatra — a grand pilgrimage that happens once every 12 years. Devotees trek for over 280 km from Nauti village to Homkund, carrying a four-horned ram believed to be a messenger of Goddess Nanda Devi.",
+  
+  "Lohajung, the starting point of the trek, literally means ‘War of Iron’. Local folklore says it’s named after a mythical battle fought between Goddess Parvati and a demon. The charming mountain village also serves as a gateway to several Kumaon and Garhwal treks.",
+  
+  "The small hamlet of Wan, your trek’s ending point, is one of the last inhabited villages in this part of Uttarakhand. Its ancient Latu Devta temple is closely tied to the Nanda Devi legend — locals believe you must cover your head and enter barefoot to pay respect.",
+  
+  "Wildlife enthusiasts often spot Himalayan monals, yellow-billed choughs, and even musk deer along the trail. The changing vegetation — from oak and rhododendron forests to alpine meadows — makes Roopkund one of the most ecologically diverse Himalayan treks.",
+  
+  "September to early October is the best time for clear mountain views and to glimpse the skeletal remains when the lake’s snow cover melts. May–June, on the other hand, transforms the meadows into a paradise of flowers, making both seasons uniquely rewarding."
+],
 
     howToReach: {
       air: "Nearest Airport: Jolly Grant Airport, Dehradun. Then drive to Kathgodam → Lohajung.",
@@ -3560,28 +3569,49 @@ itinerary: [
     downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
 
     faqs: {
-      questions: [
-        {
-          question: "Who can participate in the Roopkund trek?",
-          answer: "This trek is suitable for individuals with good physical fitness and some high-altitude trekking experience. It involves steep ascents, high camps and variable terrain."
-        },
-        {
-          question: "What should I pack for the Roopkund trek?",
-          answer: "Essential items include waterproof trekking shoes, layered clothing, 50 L rucksack with rain cover, thermal wear, sleeping bag rated for cold nights, headlamp, trekking poles."
-        },
-        {
-          question: "Is camping allowed at the alpine meadows like Bedni Bugyal or Ali Bugyal?",
-          answer: "Some high-altitude meadows are ecologically fragile and may be subject to restrictions or bans on overnight camping — please check with your trek operator for latest updates."
-        },
-        {
-          question: "Will there be mobile network coverage during the trek?",
-          answer: "Mobile network is limited. You may get some signal at Lohajung or Didna, but beyond that expect very little or none — inform family accordingly."
-        },
-        {
-          question: "What permits are required for the Roopkund trek?",
-          answer: "You would typically need forest/wildlife permits and entry passes for the area. Permit formalities are usually handled by the trek operator."
-        },
-      ],
+  questions: [
+    {
+      question: "Who can participate in the Roopkund trek?",
+      answer: "This trek is suitable for individuals with good physical fitness and some high-altitude trekking experience. It involves steep ascents, high camps and variable terrain."
+    },
+    {
+      question: "What should I pack for the Roopkund trek?",
+      answer: "Essential items include waterproof trekking shoes, layered clothing, 50 L rucksack with rain cover, thermal wear, sleeping bag rated for cold nights, headlamp, trekking poles."
+    },
+    {
+      question: "Is camping allowed at the alpine meadows like Bedni Bugyal or Ali Bugyal?",
+      answer: "Some high-altitude meadows are ecologically fragile and may be subject to restrictions or bans on overnight camping — please check with your trek operator for latest updates."
+    },
+    {
+      question: "Will there be mobile network coverage during the trek?",
+      answer: "Mobile network is limited. You may get some signal at Lohajung or Didna, but beyond that expect very little or none — inform family accordingly."
+    },
+    {
+      question: "What permits are required for the Roopkund trek?",
+      answer: "You would typically need forest/wildlife permits and entry passes for the area. Permit formalities are usually handled by the trek operator."
+    },
+    {
+      question: "What is the best season to do the Roopkund trek?",
+      answer: "The ideal windows are **May-June** (late spring) when alpine meadows bloom and snow remains at higher altitudes, and **September-October** (early autumn) when skies are clear and the “Skeleton Lake” becomes visible. :contentReference[oaicite:2]{index=2}"
+    },
+    {
+      question: "What wildlife and flora can I spot on this trek?",
+      answer: "On the Roopkund trail you pass through oak and rhododendron forests, alpine meadows and snow-high ridges. You may spot Himalayan monals, yellow-billed choughs, musk deer and a variety of wildflowers like blue poppies and brahma kamal. :contentReference[oaicite:3]{index=3}"
+    },
+    {
+      question: "How difficult is the Roopkund trek and what fitness level is required?",
+      answer: "The trek is rated Moderate-to-Difficult: there are sudden elevation gains (from ~7,700 ft at Lohajung up to ~15,750 ft at Roopkund), snow patches, exposed ridges and steep climbs. Preparation with cardio, altitude awareness and proper gear is essential. :contentReference[oaicite:4]{index=4}"
+    },
+    {
+      question: "Can I still reach Roopkund if overnight camping on meadows is banned?",
+      answer: "Camping in certain meadows may be restricted. While the trail is open, some operators avoid overnight stays in specific zones to comply with regulations — check with your operator for the current status. :contentReference[oaicite:5]{index=5}"
+    },
+    {
+      question: "What are the temperature and weather conditions I should expect?",
+      answer: "During May–June daytime temps may range from 8-15 °C at higher altitudes, while nights can drop to below zero. In September–October, day temps may be 7-12 °C; nights drop to –2 °C to –7 °C. :contentReference[oaicite:6]{index=6}"
+    }
+  ]
+
     },
     faqsLink: "/pages/faqs-and-articles",
   },
