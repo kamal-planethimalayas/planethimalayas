@@ -3403,6 +3403,190 @@ itinerary: [
   faqsLink: "/pages/faqs-and-articles",
 },
 
+  {
+    id: "roopkund-trek",
+    name: "Roopkund Trek",
+    difficulty: ["difficult"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "september", "october"],
+    region: "uttarakhand",
+    duration: "7 Nights / 8 Days",
+    coordinates: [
+      [30.0333, 79.3300], // Lohajung (start) – approx
+      [30.2157,79.6958], // Bedni Bugyal
+      [30.1897, 79.6925], // Patar Nachauni
+      [30.2089, 79.7034], // Bagwabasa
+      [30.2230, 79.7068], // Roopkund lake
+      [30.3393, 79.4726], // Wan (end) – approx
+      
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",  // replace with actual image URL
+    subtitle: "Mystery Lake of the Himalayas",
+
+    seo: {
+      title: "Roopkund Trek | Itinerary, Cost & Dates | YourTrekCompany",
+      description: "Roopkund Trek (15,750 ft) in Uttarakhand through alpine meadows, forests & mystery lake. 8 days of high-altitude adventure from Lohajung to Wan."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "15,750 ft (Roopkund Lake)" },
+        { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
+        { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
+        { emoji: "🗺️", label: "Region", value: "Chamoli District, Uttarakhand" },
+        { emoji: "📍", label: "Start Point", value: "Lohajung (Uttarakhand)" },
+        { emoji: "🏁", label: "End Point", value: "Wan Village (Uttarakhand)" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      ],
+      snippet: `The Roopkund Trek is one of Uttarakhand’s most iconic high-altitude adventures. It begins at Lohajung, winds through oak and rhododendron forests, expansive alpine meadows like Ali Bugyal and Bedni Bugyal, and ascends to the enigmatic Roopkund Lake at ~15,750 ft — known for the human skeletons visible when the snow melts. The return descent ends via Wan village. Ideal for fit trekkers seeking a mix of raw high-altitude terrain, meadows, and mystery.`
+    },
+
+    price: 19500,     // you can fill in actual price
+    priceNote: "* Lohajung to Wan",
+    addons: {
+      transport: 2800,    // fill in as applicable
+      offloadingbag: 4800, // if any
+      transportNote: "* Kathgodam / Rishikesh to Lohajung"
+    },
+
+    inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to lunch on Day 7",
+
+    enquireOnly: true,
+
+    highlights: [
+      "Trek through dense oak & rhododendron forests from Lohajung",
+      "Walk across expansive alpine meadows of Ali Bugyal & Bedni Bugyal",
+      "Reach Roopkund Lake (~15,750 ft) and witness its mysterious human skeletons",
+      "Panoramic views of Mt Trishul, Nanda Ghunti & the Garhwal peaks",
+      "Finish via Wan village — small Himalayan hamlet with traditional charm",
+    ],
+
+    itinerary: [
+  {
+    day: 1,
+    title: "Kathgodam / Rishikesh to Lohajung (7,600 ft)",
+    details: "• Drive Distance: ~210–230 km (9–11 hrs) via Almora / Kausani.<br>• The journey takes you through the winding mountain roads of Kumaon, passing through pine forests, terraced valleys and small hill towns like Gwaldam and Dewal.<br>• By evening, reach Lohajung — a scenic Himalayan base village overlooking the confluence of the Pindar and Kail rivers.<br>• The air is cool and crisp, and the sunset paints Mt Nanda Ghunti in golden hues.<br>• Overnight stay in a cozy guesthouse/homestay. Short evening acclimatisation walk to nearby viewpoints recommended."
+  },
+  {
+    day: 2,
+    title: "Lohajung to Didna Village (8,530 ft)",
+    details: "• Trek Distance: ~7–8 km | Duration: ~4–5 hrs.<br>• The day begins with a descent through mixed forests of oak and rhododendron to the sparkling Neel Ganga river — a serene spot to rest and refill bottles.<br>• After crossing the bridge, climb gradually through dense forest dotted with wildflowers and chirping mountain birds to reach Didna village, located on a gentle slope amidst terraced fields.<br>• The trail offers views of snow-capped ridges beyond the valley.<br>• Overnight stay in a rustic guesthouse or homestay; expect pleasant mountain breeze and starlit skies."
+  },
+  {
+    day: 3,
+    title: "Didna to Ali Bugyal (11,320 ft)",
+    details: "• Trek Distance: ~10–12 km | Duration: ~6–7 hrs.<br>• The morning trail starts steeply through oak, maple, and rhododendron forests alive with Himalayan monals (state bird of Uttarakhand) and langurs leaping between trees.<br>• As you climb higher, the tree line begins to fade, and the lush alpine meadows of Ali Bugyal open up — an ocean of green grass stretching endlessly, often kissed by soft mist.<br>• Snow peaks like Mt Trishul and Nanda Ghunti rise majestically in the backdrop.<br>• Depending on the season, wild horses graze peacefully on the slopes.<br>• Overnight stay in tents or homestay at Ali Bugyal; expect cold winds and a stunning night sky."
+  },
+  {
+    day: 4,
+    title: "Ali Bugyal to Patar Nachauni (12,818 ft)",
+    details: "• Trek Distance: ~6–10 km | Duration: ~4–6 hrs.<br>• Begin your day with a gentle traverse across the meadow linking Ali Bugyal to Bedni Bugyal — one of India’s largest alpine meadows with spellbinding 360° views.<br>• Visit the sacred Bedni Kund (lake) reflecting the Trishul massif; locals believe Goddess Nanda Devi blesses every traveler here.<br>• The trail gradually ascends beyond the meadow as you enter higher, more rugged terrain towards Patar Nachauni.<br>• Weather turns colder and windier; nights can dip close to 0 °C even in summer.<br>• Camp at Patar Nachauni overlooking the vast alpine bowl under a starry sky."
+  },
+  {
+    day: 5,
+    title: "Patar Nachauni to Bhagwabasa (14,100–14,500 ft)",
+    details: "• Trek Distance: ~5–7 km | Duration: ~4–5 hrs.<br>• The trail steepens today, climbing over rocky switchbacks towards Kalu Vinayak temple — a small stone shrine perched dramatically at ~14,200 ft.<br>• From here, the panorama widens — Nanda Ghunti, Chaukhamba, and Trishul appear spectacularly close.<br>• Descend slightly over boulder-strewn moraine to reach Bhagwabasa, the last campsite before the lake.<br>• Vegetation fades; the landscape turns barren and grey with patches of snow even in early summer.<br>• Nights here are frigid with sub-zero temperatures; strong winds are common.<br>• Overnight stay in tents surrounded by the raw grandeur of high Himalayas."
+  },
+  {
+    day: 6,
+    title: "Bhagwabasa to Roopkund Lake (15,750 ft) and back to Patar Nachauni",
+    details: "• Trek Distance: ~10–12 km | Duration: ~8–9 hrs (round trip).<br>• Early pre-dawn start (around 3–4 AM) to catch firm snow and clear weather.<br>• The climb is steep and zigzagging over snow slopes, scree, and rocky patches leading to the fabled Roopkund Lake — a glacial tarn nestled in a crater surrounded by snow walls.<br>• When the snow melts, human skeletons dating back centuries can be seen at the edge of the lake — one of the great mysteries of the Himalayas.<br>• Important seasonal note: In May–June, the trail beyond Bhagwabasa often has a mix of hard ice and soft snow, making it slippery and risky. Always walk strictly under your guide’s supervision — no selfies or rushing at any point.<br>• Descending on snow from Roopkund to Bhagwabasa can be equally tricky; take extreme caution and use trekking poles properly.<br>• Sunglasses are **mandatory** on this stretch to prevent snow blindness — the glare from early morning snow can be intense and disorienting.<br>• The climb to Junargali Top (16,200 ft) is **not possible** during icy conditions in May–June but opens up post-monsoon (September–October) when snow has melted. During that season, trekkers can climb safely to Junargali for a spectacular close view of Mt Trishul — appearing almost at arm’s distance.<br>• Note that Mt Trishul is **not visible from the Roopkund Lake** itself due to the surrounding ridges.<br>• Weather at this altitude can change rapidly — if strong winds, whiteout, or snowfall occur, the **turnaround point will be decided by the trek leader/guide** for safety reasons.<br>• After spending some quiet moments at the lake, descend carefully to Bhagwabasa for breakfast, then continue down to Patar Nachauni by afternoon.<br>• Expect biting cold winds before sunrise and softening snow after 8 AM, which can make footing unstable — start early and maintain a steady, cautious pace.<br>• Overnight stay in tents at Patar Nachauni."
+  },
+  {
+    day: 7,
+    title: "Patar Nachauni to Wan Village (7,900–8,200 ft) + Drive to Lohajung",
+    details: "• Trek Distance: ~12–17 km | Duration: ~6–7 hrs.<br>• Begin descent through rolling meadows and retrace the path via Bedni Bugyal and Ghora Lotani, where you might spot mountain goats and Himalayan eagles circling above.<br>• The trail passes through Doliya Dhar ridges with occasional rocky patches — trekking poles are highly recommended to protect knees during the steep descent.<br>• As you descend below the tree line, the temperature warms and forest fragrances return — pine, oak, and rhododendron canopy the trail.<br>• Cross the Neel Ganga river again before the final short climb to Wan village.<br>• A 45-minute scenic drive brings you back to Lohajung.<br>• Relax with a hot meal, share stories, and enjoy your last night in the mountains."
+  },
+  {
+    day: 8,
+    title: "Lohajung to Kathgodam / Rishikesh",
+    details: "• Drive Distance: ~210–230 km | Duration: ~9–11 hrs.<br>• After breakfast, bid farewell to the trek team and retrace the mountain roads down to the plains.<br>• Expect changing landscapes — dense forests giving way to terraced fields and finally the bustling towns of Kumaon/Garhwal.<br>• Reach Kathgodam or Rishikesh by evening/night — trek concludes with lifelong memories of the mysterious lake and the grand meadows of Roopkund."
+  },
+],
+
+    didYouKnow: [
+      "Roopkund Lake is also known as the Skeleton Lake because hundreds of human skeletons appear when the snow melts. :contentReference[oaicite:4]{index=4}",
+      "The alpine meadows of Bedni Bugyal and Ali Bugyal are among Uttarakhand’s most scenic high-altitude grasslands. :contentReference[oaicite:7]{index=7}",
+      "The route via Lohajung became more popular after being preferred over Wan as base camp. :contentReference[oaicite:8]{index=8}",
+      "Best seasons are May–June for snow-trek and September–October for clear skies and skeleton visibility. :contentReference[oaicite:9]{index=9}"
+    ],
+
+    howToReach: {
+      air: "Nearest Airport: Jolly Grant Airport, Dehradun. Then drive to Kathgodam → Lohajung.",
+      train: "Nearest major Railway Station: Kathgodam. Then drive to Lohajung (approx 9-10 hours).",
+      road: "Regular bus/cab from Rishikesh/Dehradun to Lohajung (~250 km, 9–10 hrs).",
+      travelTip: "Reach Lohajung a day early and acclimatise; carry cash and essentials as facilities get limited beyond Didna/Wan."
+    },
+
+    gallery: [
+      // add actual URLs of images
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152218/roopkund-view5_rrommv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152216/roopkund-view3_sy0g9r.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152216/roopkund-view4_iz8m4r.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152210/roopkund-view1_ysjscz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152209/roopkund-hero_vl6thl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152206/roopkund-view21_e0jal1.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152222/roopkund-view2_qqkkdh.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152204/roopkund-view20_dwm0ya.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152202/roopkund-view19_ozdstu.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152200/roopkund-view18_fobwqf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152199/roopkund-view17_v3xxq5.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152198/roopkund-view16_btpbkg.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152195/roopkund-view14_d0eydz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152195/roopkund-view15_escvrp.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152194/roopkund-view13_sksjy0.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152191/roopkund-view12_gq1ugj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152190/roopkund-view11_kh2y52.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152188/roopkund-view9_kyctab.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152189/roopkund-view10_ix3gpv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152187/roopkund-view6_lkvsxo.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152187/roopkund-view7_z8cxdp.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153775/IMG_20180522_073851_fgrqqb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153766/IMG_20180522_073626_rpdqks.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153747/IMG_20170919_090518_jkbosf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153744/IMG_20180521_125815-EFFECTS_itx8tn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153711/IMG_20170921_070505_ysolij.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153627/IMG_20170921_062819_nybboj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153610/IMG_20170920_092449_dfp5t1.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153581/IMG_20170921_075317_evymnt.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153573/IMG_20170918_135501_ngfrtw.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153566/IMG_20170920_182915_bgutd4.jpg",
+    ],
+
+    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+
+    faqs: {
+      questions: [
+        {
+          question: "Who can participate in the Roopkund trek?",
+          answer: "This trek is suitable for individuals with good physical fitness and some high-altitude trekking experience. It involves steep ascents, high camps and variable terrain."
+        },
+        {
+          question: "What should I pack for the Roopkund trek?",
+          answer: "Essential items include waterproof trekking shoes, layered clothing, 50 L rucksack with rain cover, thermal wear, sleeping bag rated for cold nights, headlamp, trekking poles."
+        },
+        {
+          question: "Is camping allowed at the alpine meadows like Bedni Bugyal or Ali Bugyal?",
+          answer: "Some high-altitude meadows are ecologically fragile and may be subject to restrictions or bans on overnight camping — please check with your trek operator for latest updates."
+        },
+        {
+          question: "Will there be mobile network coverage during the trek?",
+          answer: "Mobile network is limited. You may get some signal at Lohajung or Didna, but beyond that expect very little or none — inform family accordingly."
+        },
+        {
+          question: "What permits are required for the Roopkund trek?",
+          answer: "You would typically need forest/wildlife permits and entry passes for the area. Permit formalities are usually handled by the trek operator."
+        },
+      ],
+    },
+    faqsLink: "/pages/faqs-and-articles",
+  },
+
+
 
   // Add other trek objects here...
 ];

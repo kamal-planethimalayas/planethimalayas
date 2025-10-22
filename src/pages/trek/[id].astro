@@ -25,18 +25,20 @@ const trekForScript = {
   dates: trek.dates,
 };
 
-const groupedDates = trek.dates.reduce((acc, d) => {
-  const dateObj = new Date(d.start);
-  const monthYear = dateObj.toLocaleString("default", {
-    month: "long",
-    year: "numeric",
-  });
+const groupedDates = trek.dates?.length
+  ? trek.dates.reduce((acc, d) => {
+      const dateObj = new Date(d.start);
+      const monthYear = dateObj.toLocaleString("default", {
+        month: "long",
+        year: "numeric",
+      });
 
-  if (!acc[monthYear]) acc[monthYear] = [];
-  acc[monthYear].push(d);
+      if (!acc[monthYear]) acc[monthYear] = [];
+      acc[monthYear].push(d);
 
-  return acc;
-}, {});
+      return acc;
+    }, {})
+  : null;
 
 ---
 
@@ -330,28 +332,33 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   };
   </script>
 
-{Object.entries(groupedDates).map(([monthYear, dates]) => (
-  <div class="collapsible-section" key={monthYear}>
-    <h3 class="collapsible-header">Registration Dates {monthYear}</h3>
-    <div class="collapsible-content">
-      <div class="datesContainer">
-        {dates.map(({ label, start }) => (
-          <div class="date-slot-wrapper" key={label}>
-            <a
-              href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
-              class="date-link"
-              aria-label={`Register for ${trek.name} trek from ${label}`}
-            >
-              <span class="date-box">{label}</span>
-            </a>
-            <TrekDateSlots client:load trekId={trek.id} startDate={start} maxSlots={8} />
-          </div>
-        ))}
+{trek.enquireOnly ? (
+  <div class="enquire-now-wrapper">
+    <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
+  </div>
+) : (
+  groupedDates && Object.entries(groupedDates).map(([monthYear, dates]) => (
+    <div class="collapsible-section" key={monthYear}>
+      <h3 class="collapsible-header">Registration Dates {monthYear}</h3>
+      <div class="collapsible-content">
+        <div class="datesContainer">
+          {dates.map(({ label, start }) => (
+            <div class="date-slot-wrapper" key={label}>
+              <a
+                href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
+                class="date-link"
+                aria-label={`Register for ${trek.name} trek from ${label}`}
+              >
+                <span class="date-box">{label}</span>
+              </a>
+              <TrekDateSlots client:load trekId={trek.id} startDate={start} maxSlots={8} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
-  </div>
-))}
-
+  ))
+)}
 
 <style>
   .collapsible-header {
@@ -434,8 +441,44 @@ const groupedDates = trek.dates.reduce((acc, d) => {
   color: white;
 }
 
+.enquire-now-wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.enquire-now-btn {
+  display: inline-block;
+  background-color: #ff7300;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.enquire-now-btn:hover {
+  opacity: 0.85;
+}
+
+/* Modal Overlay */
+/* Modal overlay */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
 </style>
 </div>
+
 <!-- Trek snippet -->
   <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
 
@@ -1171,5 +1214,217 @@ window.addEventListener("scroll", () => {
 });
 </script>
 
+<!-- Enquiry Modal -->
+<div id="leadGenModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+
+    <!-- Initial Heading & Info -->
+    <div id="leadGenIntro">
+      <h2>Plan your trek with expert guidance, tailored just for you.</h2>
+      <p style="margin-bottom:15px;">
+        Fill in your details and our experts will reach out to help you plan your Himalayan adventure.
+      </p>
+    </div>
+
+    <!-- Form -->
+    <form id="leadGenForm" action="https://formspree.io/f/xrbldkrb" method="POST">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name here..." required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email here..." required />
+      </div>
+
+      <div class="form-group">
+        <label for="trekName">Trek Name</label>
+        <input type="text" id="trekName" name="trekName" readonly required />
+      </div>
+
+      <div class="form-group">
+        <label for="joinType">Joining as</label>
+        <select id="joinType" name="joinType" required>
+          <option value="">Select</option>
+          <option value="solo">Solo in a group</option>
+          <option value="group">A group of friends/colleagues</option>
+          <option value="family">A group of family</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="contactMethod">Preferred contact method</label>
+        <select id="contactMethod" name="contactMethod" required>
+          <option value="">Select</option>
+          <option value="phone">Phone</option>
+          <option value="whatsapp">WhatsApp</option>
+          <option value="email">Email</option>
+        </select>
+      </div>
+
+      <div class="form-group" id="phoneGroup" style="display:none;">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 9007210399" />
+      </div>
+
+      <div class="form-group" id="whatsappGroup" style="display:none;">
+        <label for="whatsapp">WhatsApp</label>
+        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 9027481187" />
+      </div>
+
+      <div class="form-group" id="emailGroup" style="display:none;">
+        <label for="altEmail">Email</label>
+        <input type="email" id="altEmail" name="altEmail" placeholder="Your Email..." />
+      </div>
+
+      <div class="form-group">
+        <label for="contactTime">Best time to contact you</label>
+        <select id="contactTime" name="contactTime" required>
+          <option value="">Select</option>
+          <option value="10am-12pm">10am-12pm</option>
+          <option value="2pm-4pm">2pm-4pm</option>
+          <option value="4pm-6pm">4pm-6pm</option>
+          <option value="6pm-8pm">6pm-8pm</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+
+    <!-- Thank You Message -->
+    <div id="leadGenThankYou" style="display:none; margin-top:25px; text-align:center;">
+      <h2 style="font-family: Helvetica, sans-serif; color: #ff7300; font-size: 26px; margin-bottom: 10px;">
+        Thank You!
+      </h2>
+      <p style="font-family: Roboto, sans-serif; color: #333; font-size: 16px;">
+        One of our experts will get in touch with you within 48 hours.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script is:client>
+  window.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('leadGenModal');
+    const closeBtn = modal.querySelector('.modal-close');
+    const form = document.getElementById('leadGenForm');
+    const thankYou = document.getElementById('leadGenThankYou');
+    const trekInput = document.getElementById('trekName');
+
+    // Floating button
+    const floatBtn = document.createElement('button');
+    floatBtn.textContent = "Plan Your Trek";
+    Object.assign(floatBtn.style, {
+      position: "fixed",
+      top: "50%",
+      right: "12px",
+      transform: "translateY(-50%) rotate(-90deg)",
+      transformOrigin: "right center",
+      background: "#ff7300",
+      color: "#000",
+      fontFamily: "Roboto, sans-serif",
+      fontWeight: "bold",
+      border: "none",
+      borderRadius: "12px 12px 0 0",
+      padding: "12px 20px",
+      cursor: "pointer",
+      boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
+      zIndex: "9999",
+      transition: "all 0.4s ease",
+      opacity: "0",
+      right: "-120px",
+    });
+    document.body.appendChild(floatBtn);
+    setTimeout(() => {
+      floatBtn.style.right = "12px";
+      floatBtn.style.opacity = "1";
+    }, 1000);
+
+    // Open/Close modal
+    const openModal = (trekName = "") => {
+      trekInput.value = trekName; // prefill trek name
+      modal.style.display = 'block';
+      floatBtn.style.display = 'none';
+    };
+    const closeModal = () => {
+      modal.style.display = 'none';
+      floatBtn.style.display = 'block';
+    };
+
+    if (!sessionStorage.getItem('leadGenShown')) {
+      setTimeout(() => {
+        openModal();
+        sessionStorage.setItem('leadGenShown', 'true');
+      }, 8000);
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+    window.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+    floatBtn.addEventListener('click', () => openModal());
+
+    // Listen to all Enquire Now buttons
+document.querySelectorAll('.enquire-now-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const trekName = btn.dataset.trek; // fetch the trek name
+    openModal(trekName); // prefill the modal
+  });
+});
+
+
+    // Contact method
+    const contactMethod = document.getElementById('contactMethod');
+    const phoneGroup = document.getElementById('phoneGroup');
+    const whatsappGroup = document.getElementById('whatsappGroup');
+
+    contactMethod.addEventListener('change', function() {
+      phoneGroup.style.display = this.value === 'phone' ? 'block' : 'none';
+      whatsappGroup.style.display = this.value === 'whatsapp' ? 'block' : 'none';
+    });
+
+    // intl-tel-input
+    const phoneInput = intlTelInput(document.querySelector("#phone"), {
+      initialCountry: "in",
+      separateDialCode: true,
+      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+    });
+
+    const whatsappInput = intlTelInput(document.querySelector("#whatsapp"), {
+      initialCountry: "in",
+      separateDialCode: true,
+      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+    });
+
+    // Form submit
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      formData.set("phone", phoneInput.getNumber());
+      formData.set("whatsapp", whatsappInput.getNumber());
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          thankYou.style.display = 'block';
+        } else {
+          alert('There was a problem submitting the form.');
+        }
+      } catch (err) {
+        alert('There was a problem submitting the form.');
+      }
+    });
+
+    // Example: Pre-fill modal when a "Plan Now" button is clicked
+    document.querySelectorAll('.plan-now-btn').forEach(btn => {
+      btn.addEventListener('click', () => openModal(btn.dataset.trek));
+    });
+  });
+</script>
 
 </Layout>
