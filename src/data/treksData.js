@@ -193,6 +193,7 @@ export const treks = [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
+    tags: ["beginner"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -1056,7 +1057,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["family"],
+    tags: ["family", "beginner"],
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -1717,6 +1718,7 @@ seo: {
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
+    tags: ["beginner"],
     difficulty: ["moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -2439,6 +2441,7 @@ seo: {
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
+  tags: ["beginner"],
   difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -2700,6 +2703,7 @@ seo: {
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
+  tags: ["beginner"],
   difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],

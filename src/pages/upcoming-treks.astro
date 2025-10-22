@@ -18,6 +18,11 @@ const filterCategories = {
 const familyTreks = treks.filter(
   (trek) => trek.tags && trek.tags.includes('family')
 );
+
+// ✅ define this before the HTML section
+const beginnerTreks = treks.filter(
+  (trek) => trek.tags && trek.tags.includes('beginner')
+);
 ---
 <Layout>
 <style>
@@ -315,6 +320,25 @@ const familyTreks = treks.filter(
   </div>
 </section>
 
+<section class="suggested-treks">
+  <h2 class="suggested-title">Our Best Suggested Treks for fit beginners</h2>
+  <p class="suggested-desc">
+  Discover our best treks for fit beginners — gentle yet rewarding journeys through stunning Himalayan landscapes. Each trail offers the perfect balance of challenge and beauty, with every season revealing a new side of the mountains to explore.
+  </p>
+
+  <div class="suggested-trek-cards">
+    {beginnerTreks.map((trek) => (
+      <div class="suggested-trek-card" key={trek.id}>
+        <a href={`/trek/${trek.id}#trek-hero`}>
+          <img src={trek.heroImage} alt={trek.name} loading="lazy" />
+        </a>
+        <h3>{trek.name}</h3>
+        <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn-suggested">View Details</a>
+      </div>
+    ))}
+  </div>
+</section>
+
   <div class="trek-cards-container" id="trekCardsContainer">
     {treks.map(trek => {
       const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
@@ -402,7 +426,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function filterTrekCards() {
   const filters = getSelectedFilters();
-  const suggestedSection = document.querySelector('.suggested-treks');
+  const suggestedSections = document.querySelectorAll('.suggested-treks');
   const hasActiveFilters = Object.keys(filters).length > 0;
 
   trekCards.forEach(card => {
@@ -420,9 +444,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ✅ Show/hide suggested treks based on filter state
-  if (suggestedSection) {
-    suggestedSection.style.display = hasActiveFilters ? 'none' : 'block';
-  }
+  suggestedSections.forEach(section => {
+  section.style.display = hasActiveFilters ? 'none' : 'block';
+});
 }
 
   function syncCheckboxes(sourceList,targetList){
