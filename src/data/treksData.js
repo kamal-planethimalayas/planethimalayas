@@ -3,6 +3,7 @@ export const treks = [
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
+    tags: ["pass"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -200,7 +201,7 @@ export const treks = [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "pass"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -396,6 +397,7 @@ export const treks = [
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
+    tags: ["pass"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -602,6 +604,7 @@ export const treks = [
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
+    tags: ["pass"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1322,6 +1325,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
+    tags: ["beginner"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1516,6 +1520,7 @@ seo: {
   {
     id: "goechala-trek",
     name: "Goechala Trek",
+    tags: ["pass"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november"],
@@ -2271,6 +2276,7 @@ seo: {
     {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
+    tags: ["pass"],
     difficulty: ["difficult"],
     season: ["monson"],
     month: ["august", "september"],
@@ -3235,6 +3241,7 @@ itinerary: [
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
+  tags: ["pass"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -3473,7 +3480,7 @@ itinerary: [
     addons: {
       transport: 2800,    // fill in as applicable
       offloadingbag: 4800, // if any
-      transportNote: "* Kathgodam / Rishikesh to Lohajung",
+      transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 

@@ -11,7 +11,7 @@ const filterCategories = {
   ],
   days: ['4', '5', '6', '7', '8', '9', '10'],
   region: ['kashmir','ladakh','uttarakhand','himachal','sikkim','west bengal','nepal'],
-  tags: ['family', 'beginner'],
+  
 };
 
 // ✅ define this before the HTML section
@@ -22,6 +22,11 @@ const familyTreks = treks.filter(
 // ✅ define this before the HTML section
 const beginnerTreks = treks.filter(
   (trek) => trek.tags && trek.tags.includes('beginner')
+);
+
+// ✅ define this before the HTML section
+const passTreks = treks.filter(
+  (trek) => trek.tags && trek.tags.includes('pass')
 );
 ---
 <Layout>
@@ -328,6 +333,31 @@ const beginnerTreks = treks.filter(
 
   <div class="suggested-trek-cards">
     {beginnerTreks.map((trek) => (
+      <div class="suggested-trek-card" key={trek.id}>
+        <a href={`/trek/${trek.id}#trek-hero`}>
+          <img src={trek.heroImage} alt={trek.name} loading="lazy" />
+        </a>
+        <h3>{trek.name}</h3>
+        <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn-suggested">View Details</a>
+      </div>
+    ))}
+  </div>
+</section>
+
+<!-- Pass Crossing Treks Section -->
+<section class="suggested-treks">
+  <h2 class="suggested-title">Pass Crossing Treks — Where Every Step Tells a Story</h2>
+  <p class="suggested-desc">
+    A mountain pass crossing trek involves traversing a high point that connects two distinct valleys. 
+    These trails often start in lush forests and gradually rise above the tree line into rugged, 
+    rocky, and glacial terrain. The climb to the pass can be steep and demanding, 
+    with unpredictable weather and thin air adding to the challenge. 
+    Such treks test endurance, judgment, and adaptability — ideal for experienced trekkers 
+    ready to push beyond comfort and embrace the true high-altitude spirit of the Himalayas.
+  </p>
+
+  <div class="suggested-trek-cards">
+    {passTreks.map((trek) => (
       <div class="suggested-trek-card" key={trek.id}>
         <a href={`/trek/${trek.id}#trek-hero`}>
           <img src={trek.heroImage} alt={trek.name} loading="lazy" />
