@@ -849,10 +849,21 @@ new window.Razorpay(options).open();
   <p><strong>Total Price:</strong> ₹{totalPrice}</p>
 
   <label style={{ display: "block", marginBottom: "1rem" }}>
-    <input type="checkbox" checked={termsAccepted} onChange={(e) => setTermsAccepted(e.target.checked)} /> I accept <a href="/terms-and-conditions" style={{ color: "#ff7300" }}>
-          Terms and Conditions
-        </a>
-  </label>
+  <input 
+    type="checkbox" 
+    checked={termsAccepted} 
+    onChange={(e) => setTermsAccepted(e.target.checked)} 
+  />{" "}
+  I accept{" "}
+  <a 
+    href="/terms-and-conditions" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{ color: "#ff7300" }}
+  >
+    Terms and Conditions
+  </a>
+</label>
 
 
 <div style={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>

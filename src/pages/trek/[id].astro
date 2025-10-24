@@ -101,6 +101,7 @@ const groupedDates = trek.dates?.length
         {trek.addons.offloadingbag ? (
       <li>
         <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
+        {trek.addons.offloadingNote ? <em>({trek.addons.offloadingNote})</em> : null}
       </li>
         ) : null}
         </ul>
@@ -235,7 +236,14 @@ const groupedDates = trek.dates?.length
         <button class="dropdown-btn">7. Cancellation Policy Acknowledgment</button>
       <div class="dropdown-content">
        <p>I agree to abide by the cancellation policy of Planethimalayas as outlined in the official document.</p>
-        <p><a href="/documents/cancellation-policy.pdf" target="_blank" class="text-brand underline hover:opacity-80">View Cancellation Policy (PDF)</a></p>
+        <p><a 
+        href="https://planethimalayas.com/cancellation-and-refund-policy" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="text-brand underline hover:opacity-80"
+      >
+        View Refund & Cancellation Policy
+      </a></p>
       </div>
       </div>
 

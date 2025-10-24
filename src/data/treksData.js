@@ -40,8 +40,9 @@ export const treks = [
     priceNote: "* Kafnu to Kaza",
     addons: {
       transport: 4000,
-      offloadingbag: 5600,
-      transportNote: "* Shimla to Manali"
+      offloadingbag: 4800,
+      transportNote: "* Shimla to Manali",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
@@ -115,7 +116,13 @@ export const treks = [
     day: 6, 
     title: "Mangrungse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", 
     details: "• Trek distance: ~9 km | Duration: 4–5 hours | Easy descent. <br>• Follow the Pin River downstream through wide valleys and colorful Spiti terrain. <br>• End the trek at Mudh village, the first settlement in the Spiti side of the trail. <br>• Drive from Mudh to Kaza (2–3 hours), the cultural and commercial hub of Spiti. <br>• Overnight stay in a guesthouse or hotel at Kaza. Trek ends with celebrations!" 
+  },
+  { 
+    day: 7, 
+    title: "Drive from Kaza to Manali (12,000 ft → 6,700 ft)", 
+    details: "• Distance: ~200 km | Duration: 9–10 hours by road. <br>• Early morning drive from Kaza via Kunzum La (15,000 ft) and the scenic Chandra Valley. <br>• Pass through iconic Spiti landmarks like Losar, Kunzum Pass and Chatru before descending into the lush valleys of Manali. <br>• Expected arrival in Manali by evening. <br>• This transfer is optional and arranged for trekkers who have opted for transport with the trek package." 
   }
+
 ],
 
 
@@ -233,7 +240,8 @@ export const treks = [
     price: 11500,
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
-      offloadingbag: 3200,
+      offloadingbag: 4000,
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
@@ -429,7 +437,8 @@ export const treks = [
     addons: {
       transport: 4000, 
       offloadingbag: 4800,
-      transportNote: "* Shimla to Shimla"
+      transportNote: "* Shimla to Shimla",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
@@ -634,7 +643,8 @@ export const treks = [
     addons: {
       transport: 4000, 
       offloadingbag: 4800,
-      transportNote: "* Shimla to Shimla"
+      transportNote: "* Shimla to Shimla",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
@@ -836,7 +846,8 @@ seo: {
     addons: {
       transport: 2800, 
       offloadingbag: 2400,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      transportNote: "* Rishikesh to Rishikesh",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
@@ -1098,8 +1109,9 @@ seo: {
     priceNote: "* Sari to Sari",
     addons: {
       transport: 2800, 
-      offloadingbag: 1200,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      offloadingbag: 1800,
+      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
@@ -1346,12 +1358,13 @@ seo: {
   "The Gaumukh–Tapovan trek is where spirituality meets raw Himalayan wilderness. Starting from the sacred town of Gangotri, the trail follows the Bhagirathi river deep into the Gangotri National Park — home to blue pines, silver birches, bharals (blue sheep), and even elusive snow leopards. The journey takes you past Bhojwasa, named after the ancient birch forests that once covered the valley, and leads to Gaumukh, the revered glacier snout and birthplace of the Ganga. Beyond lies Tapovan — a windswept high-altitude meadow at 14,500 ft, framed by the mighty Shivling, Meru, and Bhagirathi peaks. Here, saints, mountaineers, and trekkers alike find themselves humbled by the scale and silence of the mountains. This trek is not just a physical adventure — it’s a pilgrimage through geology, mythology, and one of India’s grandest alpine landscapes."
     },
 
-    price: 17000,
+    price: 17900,
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 3000, 
-      offloadingbag: 4000,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      offloadingbag: 5000,
+      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
@@ -1543,12 +1556,13 @@ seo: {
   "The Goecha La trek is one of India’s most iconic journeys, taking you deep into the heart of the Eastern Himalayas inside the UNESCO World Heritage-listed Khangchendzonga National Park. Beginning in the historic village of Yuksom, the trail winds through moss-laden forests, waterfalls, wooden bridges, and rhododendron valleys that burst into bloom in spring. Higher up, the landscape shifts into windswept meadows and glacial moraines, culminating in a front-row seat to Mt. Kanchenjunga — the third-highest mountain in the world — glowing at sunrise. Along the way, you might spot vibrant Himalayan monals, the elusive red panda, or blue sheep grazing the alpine slopes. This is not just a trek, but a rare immersion into Sikkim’s wild beauty, spirituality, and biodiversity — a true pilgrimage for both nature lovers and mountain dreamers."
     },
 
-    price: 21000,
+    price: 20900,
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 3000, 
-      offloadingbag: 6400,
-      transportNote: "* Siliguri/Bagdogra to Siliguri/Bagdogra"
+      offloadingbag: 6300,
+      transportNote: "* Siliguri/Bagdogra to Siliguri/Bagdogra",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
@@ -1757,8 +1771,9 @@ seo: {
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 3200,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      offloadingbag: 2400,
+      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
@@ -1927,12 +1942,13 @@ seo: {
       snippet: "The Har Ki Dun – Ruinsaratal Lake trek is a captivating Himalayan adventure that immerses trekkers in one of the most pristine and culturally rich valleys of Uttarakhand. Nestled within the cradle-shaped Har Ki Dun valley, this trek follows the gurgling Supin River, passes ancient villages such as Osla and Gangad, and ascends to the breathtaking alpine beauty of Ruinsaratal Lake. Along the route, trekkers traverse dense pine and oak forests, vibrant meadows, glacial streams, and snow-capped peaks like Swargarohini, Bandarpoonch, and Kalanag. This journey is not only a feast for the eyes but also a deep cultural and ecological experience, offering glimpses into traditional Himalayan life, rare Himalayan flora and fauna, and untouched landscapes that leave an indelible mark on the soul."
     },
 
-    price: 17000,
+    price: 16900,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 4800,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      offloadingbag: 3600,
+      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
@@ -2118,12 +2134,13 @@ seo: {
 "The Har Ki Dun Trek is a spectacular Himalayan adventure that ranks among the finest valley treks in Uttarakhand. This journey takes trekkers deep into the cradle-shaped Har Ki Dun valley, following the gurgling Supin River through dense pine, deodar, and oak forests. Along the trail, trekkers pass ancient Himalayan villages like Osla, Gangad, and Seema, where traditional wooden houses, terraced fields, and centuries-old temples offer a rare glimpse into local life. The trek ascends through alpine meadows and glacial basins to Ruinsaratal Lake, a pristine high-altitude gem surrounded by snow-capped peaks including Swargarohini, Bandarpoonch, Kalanag, and Black Peak. This trek is an extraordinary blend of adventure, nature, culture, and wildlife — perfect for trekking enthusiasts, nature photographers, and those seeking a spiritual Himalayan experience. Along the route, trekkers may encounter Himalayan Monal, Koklass Pheasant, musk deer, snow leopards (rarely), and a wide variety of alpine flowers, making this trek a living showcase of Uttarakhand's biodiversity."
     },
 
-    price: 10500,
+    price: 10900,
     priceNote: "* Sanri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 3200,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar"
+      offloadingbag: 2400,
+      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
@@ -2290,7 +2307,8 @@ seo: {
     price: 22500,
     priceNote: "* Leh to Leh",
     addons: {
-      offloadingbag: 4200,
+      offloadingbag: 5000,
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
@@ -2475,11 +2493,13 @@ seo: {
     snippet: `Kuari Pass Trek, famously called the Curzon Trail, is one of the classic Himalayan treks in Uttarakhand, offering postcard-perfect views of Nanda Devi, Kamet, Chaukhamba, and Dronagiri peaks. This moderate trek is ideal for beginners and intermediate trekkers, combining serene oak and rhododendron forests, lush alpine meadows, and snow-clad trails into a truly immersive Himalayan experience. The trail passes through the buffer zone of the Nanda Devi Biosphere Reserve, allowing trekkers to witness rare flora and fauna of this UNESCO-protected region, while remaining outside the restricted core of Nanda Devi National Park. Along the route, trekkers encounter charming Garhwali villages, traditional stone cottages, and the warm hospitality of the local mountain communities. During winter, Kuari Pass transforms into a pristine snow paradise, making it one of the best snow treks in India. With its relatively short duration, manageable altitude gain, and rewarding panoramic summit views, Kuari Pass offers an unforgettable Himalayan adventure blending natural beauty, cultural encounters, and high-altitude trekking thrill.`
   },
 
-  price: 10500,
+  price: 10900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 3000,
-    offloadingbag: 2000,
+    offloadingbag: 1800,
+    transportNote: "* Rishikesh to Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
   },
 
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to breakfast on Day 6",
@@ -2741,7 +2761,9 @@ seo: {
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 3000,
-    offloadingbag: 2000,
+    offloadingbag: 1800,
+    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag",
   },
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
@@ -2997,7 +3019,9 @@ itinerary: [
   priceNote: "* Barsu to Barsu",
   addons: {
     transport: 2500,
-    offloadingbag: 2000,
+    offloadingbag: 1800,
+    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
   },
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
@@ -3248,9 +3272,10 @@ itinerary: [
   price: 20900,
   priceNote: "* Sankri to Janki Chatti",
   addons: {
-    transport: 4000,
+    transport: 3000,
     offloadingbag: 5600,
-    transportNote: "* Dehradun to Dehradun",
+    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
   },
 
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
@@ -3417,7 +3442,6 @@ itinerary: [
       [30.1897, 79.6925], // Patar Nachauni
       [30.2089, 79.7034], // Bagwabasa
       [30.2230, 79.7068], // Roopkund lake
-      [30.3393, 79.4726], // Wan (end) – approx
       
     ],
 
@@ -3449,10 +3473,11 @@ itinerary: [
     addons: {
       transport: 2800,    // fill in as applicable
       offloadingbag: 4800, // if any
-      transportNote: "* Kathgodam / Rishikesh to Lohajung"
+      transportNote: "* Kathgodam / Rishikesh to Lohajung",
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to lunch on Day 7",
+    inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 8",
 
     enquireOnly: true,
 
