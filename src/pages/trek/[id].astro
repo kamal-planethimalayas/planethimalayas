@@ -109,8 +109,10 @@ const groupedDates = trek.dates?.length
         <!-- Trigger links -->
       <p>
         <a href="#" id="open-terms">Terms & Conditions</a> |
-        <a href="#" id="open-inclusions">Inclusions & Exclusions</a>
+        <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
+        <a href="#" id="open-cancellation">Cancellation & Refunds</a>
       </p>
+
       <!-- Terms & Conditions Modal -->
       <div id="termsModal" class="modal hidden">
       <div class="modal-content">
@@ -313,6 +315,64 @@ const groupedDates = trek.dates?.length
       </div>
       </div>
       </div>
+
+      <!-- Cancellation & Refund Policy Modal -->
+    <div id="cancellationModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close" id="close-cancellation">&times;</span>
+        <h2 class="modal-title">Cancellation & Refunds</h2>
+
+        <div class="policy-content">
+          <p style="margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
+            At Planethimalayas, we strive to make your trekking experience smooth and transparent. Please read our cancellation policies carefully:
+          </p>
+
+          <h3 style="color: #ff7300;">1. Trek Cancellation by Participant</h3>
+          <ul style="margin-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+            <li>Within <strong>30 days prior to departure:</strong> Full refund of trek fees.</li>
+            <li>Between <strong>30 to 15 days prior to departure:</strong> 20% of trek fee will be retained; the remaining amount will be refunded.</li>
+            <li>Less than <strong>15 days prior to departure or no-show:</strong> No refund.</li>
+          </ul>
+
+          <h3 style="color: #ff7300;">2. Trek Cancellation by Planethimalayas</h3>
+          <p style="margin-bottom: 1.5rem; line-height: 1.6;">
+            In the unlikely event that Planethimalayas cancels a trek due to weather, natural disasters, political unrest, or any unforeseen circumstance, we will provide you with the option to join another trek of the same value or issue a full refund.
+          </p>
+
+          <h3 style="color: #ff7300;">3. Refund Policy</h3>
+          <p style="margin-bottom: 1.5rem; line-height: 1.6;">
+            <strong>Refund Method:</strong> All approved refunds are issued as vouchers tied to the specific participant's account and can be used for future treks. Direct cash or online refunds are not provided. In exceptional cases requiring an urgent cash refund, please write to us at 
+            <a href="mailto:info@planethimalayas.com" style="color: #ff7300; text-decoration: underline;">info@planethimalayas.com</a>.
+          </p>
+
+          <h3 style="color: #ff7300;">4. Rescheduling & Changing Treks</h3>
+          <ul style="margin-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+            <li>Rescheduling a trek to a different date is <strong>free of charge</strong>.</li>
+            <li>Changing to a different trek must be requested <strong>at least 30 days prior to departure</strong>.</li>
+            <li>If the selected trek is of higher price, the extra amount must be paid.</li>
+            <li>If the selected trek is of lower price, the remaining amount will be refunded within 10 days after trek completion.</li>
+            <li>Requests made within 15 days of departure are handled on a case-by-case basis.</li>
+          </ul>
+
+          <h3 style="color: #ff7300;">5. Transport & Offloading Bag Add-on Cancellation</h3>
+          <ul style="margin-left: 1.2rem; margin-bottom: 1.5rem; line-height: 1.6;">
+            <li>Cancellation <strong>more than 72 hours prior to departure:</strong> Full refund.</li>
+            <li>Cancellation within 72 hours or post that period: <strong>No refund possible</strong>.</li>
+          </ul>
+
+          <p style="margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.6;">
+            <strong>Important Note:</strong> In case of emergencies or rescue operations, any transportation used during such processes will not be considered part of the Transport add-on, and trekkers must bear all costs incurred. It is strongly recommended to purchase proper trek insurance to claim such costs as per your insurance policy.
+          </p>
+
+          <h3 style="color: #ff7300;">6. Cancellation Requests</h3>
+          <p style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;">
+            All cancellations must be processed <strong>through email only</strong>. No other form of communication will be considered official. Our official email address: 
+            <a href="mailto:info@planethimalayas.com" style="color: #ff7300; text-decoration: underline;">info@planethimalayas.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <script>
     window.onload = function () {
     document.getElementById("open-terms").onclick = function (e) {
@@ -329,6 +389,14 @@ const groupedDates = trek.dates?.length
     };
     document.getElementById("close-inclusions").onclick = function () {
       document.getElementById("inclusionsModal").style.display = "none";
+    };
+
+    document.getElementById("open-cancellation").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("cancellationModal").style.display = "block";
+    };
+    document.getElementById("close-cancellation").onclick = function () {
+      document.getElementById("cancellationModal").style.display = "none";
     };
 
     document.querySelectorAll('.dropdown-btn').forEach(btn => {
@@ -1000,21 +1068,7 @@ const groupedDates = trek.dates?.length
   border-radius: 6px;
 }
 
-#open-terms,
-#open-inclusions {
-  color: black;
-  font-weight: bold;
-  font-size: 1rem;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-#open-terms:hover,
-#open-inclusions:hover {
-  color: #ff7300; /* Planethimalayas brand color */
-  cursor: pointer;
-}
-
+/* ===== MODAL BASE STYLING ===== */
 .modal {
   display: none;
   position: fixed;
@@ -1023,45 +1077,78 @@ const groupedDates = trek.dates?.length
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
 }
 
+/* ===== MODAL CONTENT ===== */
 .modal-content {
   background-color: #fff;
   margin: 5% auto;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 12px;
   width: 90%;
-  max-width: 800px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  font-family: Roboto, sans-serif;
+  max-width: 850px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  animation: modalFadeIn 0.3s ease;
 }
 
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== MODAL TITLE ===== */
 .modal-title {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-decoration: underline;
   text-decoration-color: #ff7300;
   text-underline-offset: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #111;
 }
 
+/* ===== CLOSE BUTTON ===== */
 .close {
   float: right;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
+  color: #555;
   cursor: pointer;
+  transition: color 0.2s ease;
 }
 
-.dropdown-header:hover {
-  border-bottom: 1px solid #ff7300; /* your brand color */
-  
+.close:hover {
   color: #ff7300;
 }
 
+/* ===== LINKS ===== */
+#open-terms,
+#open-inclusions,
+#open-cancellation {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+#open-terms:hover,
+#open-inclusions:hover,
+#open-cancellation:hover {
+  color: #ff7300;
+  cursor: pointer;
+}
+
+/* ===== DROPDOWN STYLING ===== */
 .dropdown {
-  margin-bottom: 15px;
+  margin-bottom: 1.2rem;
 }
 
 .dropdown-btn {
@@ -1069,63 +1156,90 @@ const groupedDates = trek.dates?.length
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   padding: 0.75rem 1rem;
-  cursor: pointer;
   border: none;
   background: transparent;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.dropdown-btn:hover {
+  border-bottom: 2px solid #ff7300;
+  color: #ff7300;
 }
 
 .dropdown-content {
   margin-top: 8px;
-  padding: 10px;
+  padding: 12px;
   background: #fafafa;
-  border-radius: 6px;
-  font-family: Roboto, sans-serif;
+  border-radius: 8px;
   display: none;
-}
-
-.dropdown-btn:hover {
-  border-bottom: 2px solid #ff7300; /* your brand color */
-  color: #ff7300;
-}
-
-.dropdown-btn svg {
-  margin-left: 0.5rem;
-  transition: transform 0.3s ease;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dropdown.open .dropdown-content {
   display: block;
 }
 
+/* ===== MODAL CARD (Inclusions/Exclusions) ===== */
 .modal-card {
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: space-between;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .inclusions,
 .exclusions {
   flex: 1;
-  font-family: Roboto, sans-serif;
+  min-width: 250px;
 }
 
 .inclusions h3,
 .exclusions h3 {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Helvetica', sans-serif;
   text-decoration: underline;
   text-decoration-color: #ff7300;
   text-underline-offset: 6px;
   margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
+/* ===== POLICY CONTENT (NEW for CANCELLATION MODAL) ===== */
+.policy-content h3 {
+  font-family: 'Helvetica', sans-serif;
+  color: #ff7300;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.policy-content ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1.5rem;
+  list-style: disc;
+}
+
+.policy-content p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.policy-content a {
+  color: #ff7300;
+  text-decoration: underline;
+}
+
+.policy-content a:hover {
+  opacity: 0.8;
+}
 
 .text-2xl.font-bold.font-sans.mb-4-underline {
   height: 4px;
