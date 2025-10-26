@@ -24,7 +24,7 @@ export const blogs = [
   "trek guide"
 ],
   description: "Trekking in the Himalayas is a dream adventure — but it demands smart preparation. Whether you're planning a snowy winter trek like Kedarkantha, a scenic route like HarKiDun, or a thrilling climb like Rupin Pass, here’s everything you need to know to get prepared and trek safely and confidently.",
-  thumbnail: "/images/main/experience-hero2.jpg",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761461857/experience-hero2_cuylry.jpg",
   content:`
 <p>Trekking in the Himalayas is a dream adventure — but it demands smart preparation. Whether you're planning a snowy winter trek like Kedarkantha, a scenic route like HarKiDun, or a thrilling climb like Rupin Pass, here’s everything you need to know to get prepared and trek safely and confidently.</p>
 
@@ -1136,6 +1136,91 @@ If you feel any of the following, descend without delay:<br>
 <br>
   <h3>✨ Final Word: Choosing the Right Jacket</h3>
   <p>The “best” trekking jacket depends on <strong>season, altitude, and weather</strong>. For Himalayan treks, the safest approach is <strong>layering</strong> — base layer for moisture, fleece/synthetic for insulation, and a waterproof shell for protection. Invest in quality, take care of your jackets, and they’ll last across many adventures.</p>
+`
+},
+
+{
+  title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
+  slug: "real-picture-of-himalayan-trekking",
+  date: "2025-10-26",
+  author: "Kamal Das",
+  tags: [
+    "Himalayan trekking",
+    "responsible trekking",
+    "trekking ethics",
+    "Planethimalayas",
+    "Himalayan treks 2025",
+    "mountain exploration",
+    "sustainable trekking",
+    "trekking culture",
+    "trekking India",
+    "Pin Bhaba Pass",
+    "Hampta Pass",
+    "Deoriatal Chandrashila",
+    "trekking awareness",
+    "eco trekking",
+    "trekking blog"
+  ],
+  description: "Discover how trekking has changed in 2025 — from a raw, humbling adventure to a crowded social media trend — and why responsible trekking with Planethimalayas is the key to preserving the true spirit of the Himalayas.",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761463363/pexels-tirachard-kumtanom-112571-450062_for5dd.jpg",
+  content: `
+<h1>Treks and Trekking – The Real Picture (2025)</h1>
+<p><strong>By Planethimalayas</strong> – <a href="https://www.planethimalayas.com">www.planethimalayas.com</a></p>
+
+<p>There was a time when trekking meant something raw, humbling, and pure — where silence roared louder than any crowd, and a mountain sunrise felt like a blessing earned, not bought. Today, that picture is fading fast.</p>
+
+<p>Welcome to the real world of trekking in 2025 — where the wilderness still calls, but fewer people remember how to listen.</p>
+
+<h3>🌄 <strong>The Realms of Trekking — Then and Now</strong></h3>
+<p>Trekking, whether solo or in a group, has always been one of the most demanding and soul-stirring outdoor adventures known to humankind. It’s about hiking for days through untouched wilderness, leaving behind every comfort of civilization. It’s about carrying what you need to survive, sleeping under cold, star-filled skies, negotiating unpredictable terrains, and confronting the risks that nature hides in her beauty.</p>
+
+<p>Those who’ve truly trekked know — it’s not a holiday. It’s a test of patience, grit, and humility. The trails demand respect. They remind you that the mountain doesn’t care about your status, your fitness app, or your followers. It simply exists — immense and indifferent — and your job is to walk softly in its presence.</p>
+
+<p>In the Himalayas, this essence deepens. Add the altitude, the sharp drop in oxygen, and weather that changes its mood in minutes, and you get an experience that transforms you from within. The reward? Moments that words can never justify — when you stand on a pass or a summit, the world below a blur, and silence feels sacred.</p>
+
+<blockquote>⛰️ <em>“Trekking isn’t just an activity — it’s a meditation in motion. It teaches you that survival and serenity can coexist.”</em></blockquote><br>
+
+<h3>📱 <strong>The Evolution of Trekking — The 2025 Picture</strong></h3>
+<p>Fast-forward to 2025. Technology, social media, and connectivity have changed everything — including the Himalayas.</p>
+
+<p>Since the 2000s, as roads and internet reached the remotest valleys, the very idea of trekking began to shift. Once an act of solitude and exploration, it’s now become a trend — a “bucket list” experience for weekend adventurers chasing likes and reels. The word <em>trekking</em> has gone from sacred to casual, and with that, much of its ethics faded away.</p>
+
+<p>Earlier, only the genuinely curious stepped into the wilderness — those who wanted to understand it. Today, many only wish to document it. The culture of learning from nature has been replaced by loud music at viewpoints and chants that echo for social media, not for the mountains. Instead of imbibing survival with simplicity, people demand luxury even in the remotest camps. Instead of listening to the mountains, they just want to shout over them.</p>
+
+<h3>🏕️ <strong>The Commercial Shift — When the Slopes Got Crowded</strong></h3>
+<p>As modernization reached deeper valleys, local villagers found a new opportunity — selling trek packages online. While this offered much-needed livelihood and growth, it also created a chain reaction that hurt the ethics of trekking itself.</p>
+
+<p>Many untrained local sellers began offering treks at extremely cheap rates. But cheap comes at a cost — no qualified staff, no acclimatization planning, no safety measures, and no respect for the fragile ecosystem or the spirit of trekking. On the other hand, responsible trekking organizations like <strong>Planethimalayas</strong> invest in safety, education, and authentic experience.</p>
+
+<p>Our treks are not about ticking off destinations; they’re about understanding the trail — its people, culture, and ecology. Trekking must remain a dialogue with nature, not a transaction.</p>
+
+<blockquote>🌿 <em>“We believe in responsible trekking — adapting to modern tools, but never forgetting the ancient rhythm of the Himalayas.”</em></blockquote>
+
+<p>👉 Explore our upcoming departures at <a href="https://www.planethimalayas.com/upcoming-treks">www.planethimalayas.com/upcoming-treks</a></p>
+
+<h3>🌍 <strong>The Impact — Nature Bears the Weight</strong></h3>
+<p>The rise in casual trekking has led to over-tourism on delicate slopes. Forest patches once known for silence now echo with chaos. Villages that were once self-sustained are now dotted with new homestays and hotels, often built at the cost of trees and grazing lands.</p>
+
+<p>True — modernization has brought locals economic strength and better lifestyles. But these valleys were never meant for crowds. Their ecosystems are delicate, their balance ancient. And it’s not the <em>number</em> of people that damages them — it’s the <em>behavior</em> of those people when they enter this world.</p>
+
+<p>Trekking must never be treated as a holiday package. It’s an experience that deserves awareness, respect, and humility. Every wrapper thrown, every loudspeaker played, every shortcut taken — erodes not just the trail but the spirit of trekking itself.</p>
+
+<h3>🧭 <strong>The Way Forward — Bringing Back the Real Meaning</strong></h3>
+<p>At <strong>Planethimalayas</strong>, we believe the future of trekking depends on how we educate today’s trekkers. We can’t stop modernization — nor should we. But we can teach people to adapt without destroying what makes the Himalayas special.</p>
+
+<p>The solution isn’t to gatekeep mountains — it’s to <strong>reintroduce trekking as a learning experience</strong>. To make people realize that when they step on a Himalayan trail, they’re walking on something sacred — shaped by centuries of glaciers, winds, and prayers.</p>
+
+<p>Our aim is to bring back that essence — blending modern safety and communication tools with the old-school mountain discipline. We want trekkers to return not just with photos, but with perspective. To feel that inner shift that only the wilderness can give.</p>
+
+<p>If you believe trekking is more than a trip — it’s a journey inward — then join us.</p>
+
+<p>👉 Visit <a href="https://www.planethimalayas.com">www.planethimalayas.com</a><br>
+👉 Plan your next trek at <a href="https://www.planethimalayas.com/upcoming-treks">www.planethimalayas.com/upcoming-treks</a></p>
+
+<h3>💭 <strong>In the End</strong></h3>
+<p>The mountains don’t need us. We need them — to remember who we are, to slow down, to listen again.</p>
+
+<blockquote>🕊️ <em>“Let’s bring back the silence. Let’s bring back the soul of trekking. Let’s walk — responsibly.”</em></blockquote>
 `
 },
     

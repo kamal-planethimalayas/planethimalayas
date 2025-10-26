@@ -36,6 +36,13 @@ export const news = [
 },
 
   {
+    title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
+    type: "articles",
+    head: "Articles",
+    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761463363/pexels-tirachard-kumtanom-112571-450062_for5dd.jpg",
+    details: 'Discover how trekking has changed in 2025 — from a raw, humbling adventure to a crowded social media trend — and why responsible trekking with Planethimalayas is the key to preserving the true spirit of the Himalayas. Read <strong><a href="/blogs/real-picture-of-himalayan-trekking/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
+  },
+  {
     title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
     type: "articles",
     head: "Articles",
@@ -48,12 +55,5 @@ export const news = [
     head: "Articles",
     thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302941/ams_trigsv.jpg",
     details: 'If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS). Read <strong><a href="/blogs/mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
-  {
-    title: "Preventing Mountain Sickness - AMS",
-    type: "articles",
-    head: "Articles",
-    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302958/prevent-ams_lgtjeb.jpg",
-    details: 'Trekking in the Himalayas is an unforgettable experience—but it comes with a silent danger: Mountain Sickness, also known as Acute Mountain Sickness (AMS). The good news? With the right precautions, mountain sickness is completely preventable. Read <strong><a href="/blogs/preventing-ams-mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
   },
 ]; 
