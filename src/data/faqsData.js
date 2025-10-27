@@ -277,7 +277,7 @@ faqs: [
     },
     {
       question: "What if I make a mistake in booking details?",
-      answer: "Saved bookings can be edited before payment. Paid bookings require Planethimalayas support <a href='mailto:planethimalayas@gmail.com'>planethimalayas@gmail.com</a> for modifications."
+      answer: "Saved bookings can be edited before payment. Paid bookings require Planethimalayas support <a href='info@planethimalayas.com'>info@planethimalayas.com</a> for modifications."
     }
   ]
 },
@@ -287,7 +287,7 @@ faqs: [
     faqs: [
       {
         question: "How can I cancel a trek?",
-        answer: "<p>All cancellations must be processed through email only. No other form of communication will be considered official. Our official email address: <a href=mailto:'planethimalayas@gmail.com'>planethimalayas@gmail.com</a>.</p><p>Please read our <a href='https://www.planethimalayas.com/cancellation-and-refund-policy' target='_blank' rel='noopener noreferrer'>Cancellation & Refund Policy</a></p>"
+        answer: "<p>All cancellations must be processed through email only. No other form of communication will be considered official. Our official email address: <a href=mailto:'info@planethimalayas.com'>info@planethimalayas.com</a>.</p><p>Please read our <a href='https://www.planethimalayas.com/cancellation-and-refund-policy' target='_blank' rel='noopener noreferrer'>Cancellation & Refund Policy</a></p>"
 
       },
     ]
