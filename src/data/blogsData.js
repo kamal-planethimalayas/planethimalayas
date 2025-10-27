@@ -1164,9 +1164,6 @@ If you feel any of the following, descend without delay:<br>
   description: "Discover how trekking has changed in 2025 — from a raw, humbling adventure to a crowded social media trend — and why responsible trekking with Planethimalayas is the key to preserving the true spirit of the Himalayas.",
   thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761463363/pexels-tirachard-kumtanom-112571-450062_for5dd.jpg",
   content: `
-<h1>Treks and Trekking – The Real Picture (2025)</h1>
-<p><strong>By Planethimalayas</strong> – <a href="https://www.planethimalayas.com">www.planethimalayas.com</a></p>
-
 <p>There was a time when trekking meant something raw, humbling, and pure — where silence roared louder than any crowd, and a mountain sunrise felt like a blessing earned, not bought. Today, that picture is fading fast.</p>
 
 <p>Welcome to the real world of trekking in 2025 — where the wilderness still calls, but fewer people remember how to listen.</p>
