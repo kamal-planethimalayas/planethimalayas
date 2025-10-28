@@ -3648,6 +3648,251 @@ itinerary: [
     faqsLink: "/pages/faqs-and-articles",
   },
 
+  {
+  id: "sandakphu-trek",
+  name: "Sandakphu Trek",
+  tags: ["family", "beginner"],
+  difficulty: ["moderate"],
+  season: ["winter", "spring", "autumn"],
+  month: ["october", "november", "december", "january", "february", "march", "april", "may"],
+  region: ["west bengal", "nepal"],
+  duration: "6 Nights / 7 Days",
+  coordinates: [
+    [26.8826, 88.1584], // Manebhanjan (Start)
+    [26.9504, 88.1067], // Tumling
+    [27.0150, 88.0710], // Kalipokhri
+    [27.0604, 88.0256], // Sandakphu Top
+    [27.0630, 88.0014], // Phalut
+    [26.9601, 88.0670], // Gorkhey
+    [26.9084, 88.1473]  // Srikhola (End)
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
+  subtitle: "Sleeping Buddha Trail – Gateway to the Eastern Himalayas",
+
+  seo: {
+    title: "Sandakphu Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description: "Sandakphu Trek (11,930 ft) – West Bengal’s highest point on the Singalila Ridge offering views of Mt. Everest, Kanchenjunga, Lhotse, and Makalu. A scenic Indo-Nepal border trek through rhododendron forests, villages, and mountain viewpoints."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "11,930 ft (Sandakphu Top)" },
+      { emoji: "📏", label: "Total Trek Distance", value: "≈ 80 km" },
+      { emoji: "🌤️", label: "Best Time", value: "October–May" },
+      { emoji: "🗺️", label: "Region", value: "Singalila Ridge, Darjeeling District" },
+      { emoji: "📍", label: "Start Point", value: "Manebhanjan (Darjeeling, West Bengal)" },
+      { emoji: "🏁", label: "End Point", value: "Srikhola (West Bengal)" },
+      { emoji: "🏠", label: "Accommodation", value: "Tea Houses & Homestays" }
+    ],
+    snippet: `The Sandakphu Trek (11,930 ft), also known as the Sleeping Buddha Trek, is one of the most spectacular ridge walks in the Eastern Himalayas, straddling the Indo–Nepal border. This legendary trail runs through the Singalila Ridge, offering a rare 180° panorama of some of the world’s highest peaks — including Mt. Everest (8,848 m), Kanchenjunga (8,586 m), Lhotse (8,516 m), and Makalu (8,463 m), all visible in a single frame from Sandakphu and Phalut.
+
+The trek gets its name from the Sleeping Buddha formation, where Kanchenjunga and its neighboring peaks align to resemble a reclining deity — a sight that glows golden at sunrise and crimson at dusk. The route passes through Singalila National Park, a biodiversity hotspot rich in rhododendrons, magnolias, oak forests, and rare wildlife like the red panda, Himalayan black bear, and countless bird species.
+
+Starting from Manebhanjan or Dhotrey, trekkers walk through quaint Nepali–Indian border villages such as Tumling, Kalipokhri, and Gairibas, staying in warm local homestays that blend Himalayan hospitality with rustic charm. As the trail winds between India and Nepal, trekkers experience a unique blend of cultures, cuisines, and languages, unlike any other Himalayan route.
+
+For its breathtaking mountain views, rich flora and fauna, and deep cultural immersion, the Sandakphu–Phalut Trek remains one of the best Himalayan treks for experienced beginners and seasoned trekkers alike — a rare journey where every sunrise feels divine and every step echoes with mountain grace.`
+  },
+
+  price: 12900,
+  priceNote: "* Manebhanjan to Srikhola",
+  addons: {
+    transport: 2500,
+    offloadingbag: 3500,
+    transportNote: "* NJP / Bagdogra to Manebhanjan and return",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
+
+  dates: [
+      { label: "03 Jan - 09 Jan", start: "2026-01-03", end: "2026-01-09" },
+      { label: "04 Jan - 10 Jan", start: "2026-01-04", end: "2026-01-10" },
+      { label: "10 Jan - 16 Jan", start: "2026-01-10", end: "2026-01-16" },
+      { label: "11 Jan - 17 Jan", start: "2026-01-11", end: "2026-01-17" },
+      { label: "17 Jan - 23 Jan", start: "2026-01-17", end: "2026-01-23" },
+      { label: "18 Jan - 24 Jan", start: "2026-01-18", end: "2026-01-24" },  
+      { label: "24 Jan - 30 Jan", start: "2026-01-24", end: "2026-01-30" },
+      { label: "25 Jan - 31 Jan", start: "2026-01-25", end: "2026-01-31" },
+      { label: "31 Jan - 06 Feb", start: "2026-01-31", end: "2026-02-06" },
+      { label: "01 Feb - 07 Feb", start: "2026-02-01", end: "2026-02-07" },
+      { label: "07 Feb - 13 Feb", start: "2026-02-07", end: "2026-02-13" },
+      { label: "08 Feb - 14 Feb", start: "2026-02-08", end: "2026-02-14" },
+      { label: "14 Feb - 20 Feb", start: "2026-02-14", end: "2026-02-20" },
+      { label: "15 Feb - 21 Feb", start: "2026-02-15", end: "2026-02-21" },    
+      { label: "21 Feb - 27 Feb", start: "2026-02-21", end: "2026-02-27" },
+      { label: "22 Feb - 28 Feb", start: "2026-02-22", end: "2026-02-28" },
+      { label: "28 Feb - 06 Mar", start: "2026-02-28", end: "2026-03-06" },
+      { label: "01 Mar - 07 Mar", start: "2026-03-01", end: "2026-03-07" },    
+      { label: "07 Mar - 13 Mar", start: "2026-03-07", end: "2026-03-13" },
+      { label: "08 Mar - 14 Mar", start: "2026-03-08", end: "2026-03-14" },   
+      { label: "14 Mar - 20 Mar", start: "2026-03-14", end: "2026-03-20" },
+      { label: "15 Mar - 21 Mar", start: "2026-03-15", end: "2026-03-21" },    
+      { label: "21 Mar - 27 Mar", start: "2026-03-21", end: "2026-03-27" },
+      { label: "22 Mar - 28 Mar", start: "2026-03-22", end: "2026-03-28" },
+      { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" },
+      { label: "29 Mar - 04 Apr", start: "2026-03-29", end: "2026-04-04" },    
+      { label: "04 Apr - 10 Apr", start: "2026-04-04", end: "2026-04-10" },
+      { label: "05 Apr - 11 Apr", start: "2026-04-05", end: "2026-04-11" },    
+      { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
+      { label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },    
+      { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
+      { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },   
+      { label: "25 Apr - 01 May", start: "2026-04-25", end: "2026-05-01" },
+      { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
+    
+    ],
+
+  highlights: [
+    "View the legendary Sleeping Buddha formation including Kanchenjunga, Pandim & Kumbhakarna",
+    "See four of the world’s five highest peaks from one viewpoint — Everest, Lhotse, Makalu, and Kanchenjunga",
+    "Walk along the Indo–Nepal border through forests of rhododendron and bamboo",
+    "Experience the Singalila National Park – home to the elusive Red Panda",
+    "Stay in charming Nepali and Sikkimese tea houses offering warm hospitality and hot local food",
+    "Panoramic sunrise and sunset from Tumling, Sandakphu, and Phalut",
+    "Blend of Indian, Nepali, and Tibetan cultures across villages"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "NJP / Bagdogra to Manebhanjan (7,054 ft)",
+      details: "• Drive Distance: ~85 km | Duration: 4–5 hrs.<br>• Arrive at New Jalpaiguri (NJP) or Bagdogra Airport and drive through scenic Darjeeling hills via Sukhiapokhri to reach Manebhanjan, the gateway to Singalila National Park.<br>• The road winds through tea gardens and pine forests. Obtain your park entry permits here.<br>• Evening acclimatization walk around the bazaar and monastery.<br>• Overnight stay in a homestay or lodge at Manebhanjan."
+    },
+    {
+      day: 2,
+      title: "Manebhanjan to Tumling (9,700 ft)",
+      details: "• Trek Distance: ~11 km | Duration: ~6–7 hrs.<br>• The trek begins with a steep ascent on a jeep track passing through dense oak and rhododendron forests.<br>• You’ll cross Chitre village (8,400 ft) with its Buddhist monastery, fluttering prayer flags, and views of the snowline.<br>• The trail meanders in and out of India and Nepal — you can literally have one foot in each country.<br>• Reach Tumling by afternoon, a quaint Nepali village offering the first panoramic view of the Sleeping Buddha.<br>• Stay in a warm tea house and enjoy a spectacular sunset over Kanchenjunga."
+    },
+    {
+      day: 3,
+      title: "Tumling to Kalipokhri (10,400 ft)",
+      details: "• Trek Distance: ~13 km | Duration: ~6 hrs.<br>• The trail moves through Singalila National Park, alive with chirping birds and Himalayan flora.<br>• Cross Gairibas (8,600 ft) – a small settlement where you can rest and have tea.<br>• From here, the trail ascends gradually through bamboo and magnolia forest to Kaiyakatta and then Kalipokhri.<br>• The black sacred lake 'Kalipokhri' (meaning black water) is fringed by prayer flags.<br>• The air is crisp and cool, often with mist swirling over the lake in the evening.<br>• Overnight in tea house."
+    },
+    {
+      day: 4,
+      title: "Kalipokhri to Sandakphu (11,930 ft)",
+      details: "• Trek Distance: ~6 km | Duration: ~3–4 hrs.<br>• A short but steep climb today as you gain nearly 1,500 ft.<br>• The trail passes Bikheybhanjang ('Valley of Poison'), named after a local poisonous herb.<br>• Final ascent to Sandakphu is steep but rewarding – the entire panorama of the world’s highest peaks opens up.<br>• On a clear day, see Kanchenjunga (8,586 m), Everest, Lhotse, Makalu, and many more.<br>• Sunset from Sandakphu top is one of the most unforgettable sights in the Himalayas.<br>• Stay in a tea house; expect cold winds and sub-zero nights in winter."
+    },
+    {
+      day: 5,
+      title: "Sandakphu to Phalut (11,811 ft)",
+      details: "• Trek Distance: ~21 km | Duration: ~7–8 hrs.<br>• A long ridge walk through rolling alpine meadows, rhododendron bushes, and dwarf bamboo.<br>• The route is mostly level with gentle ups and downs offering unending views of the snow range.<br>• Phalut is the highest point of the trek route and the best spot for a 360° view of the entire Everest–Kanchenjunga range.<br>• Overnight stay in a forest hut or trekkers’ hut at Phalut."
+    },
+    {
+      day: 6,
+      title: "Phalut to Gorkhey (7,546 ft)",
+      details: "• Trek Distance: ~15 km | Duration: ~6–7 hrs.<br>• After sunrise at Phalut viewpoint, begin descent through forests of rhododendron, chestnut, and pine.<br>• Gorkhey is a stunning riverside hamlet surrounded by forests – one of the most beautiful Himalayan villages.<br>• Refresh your feet in the icy Gorkhey Khola stream.<br>• Stay in a wooden homestay and enjoy local food cooked over a wood stove."
+    },
+    {
+      day: 7,
+      title: "Gorkhey to Srikhola (6,800 ft) and drive to NJP / Bagdogra",
+      details: "• Trek Distance: ~12 km | Duration: ~4 hrs + Drive ~6–7 hrs.<br>• The final leg is an easy descent through dense forest alive with birdsong.<br>• Cross Samanden and Rammam villages before reaching Srikhola.<br>• From Srikhola, drive back to NJP / Bagdogra.<br>• Trek concludes with lifetime memories of the Sleeping Buddha and warm village hospitality."
+    }
+  ],
+
+  didYouKnow: [
+    "The “Sleeping Buddha” formation isn’t just poetic — it’s a precise alignment of Himalayan peaks. When viewed from Sandakphu or Phalut, Kanchenjunga forms the torso, Kumbhakarna the face, and Pandim the feet, resembling a sleeping figure of Lord Buddha. This alignment is visible only from this part of the Eastern Himalayas.",
+    "Sandakphu literally means “Height of the Poison Plant” — named after the Aconite flower, a rare Himalayan plant that grows abundantly here and is highly toxic if consumed.",
+    "Singalila National Park, through which the trek passes, is one of the few regions in India where you can spot the endangered Red Panda in the wild. Bird enthusiasts can also find over 150 Himalayan species, including blood pheasants and satyr tragopans.",
+    "The trail lies along the Indo–Nepal border, and at many points trekkers unknowingly walk in and out of both countries. Tea houses on one side of the ridge belong to India, while those on the other belong to Nepal — no checkpoints, just open friendship across borders.",
+    "The region is home to the old British Land Rovers, dating back to the 1950s, which still operate between Manebhanjan and Sandakphu — one of the steepest motorable routes in the Himalayas.",
+    "Spring (March–May) turns the trail into a riot of rhododendrons and magnolias, while winter (Nov–Jan) transforms it into a snowy wonderland with crystal-clear mountain views.",
+    "Phalut, the highest point of the trek, holds immense spiritual significance for locals. The name derives from the Lepcha word “Falut”, meaning “peak at the end”, and locals believe it to be the abode of mountain deities.",
+    "Spring (March–April) transforms the Singalila forests into a rhododendron paradise, while autumn (October–November) offers the clearest views of the Himalayan range. During winter, the upper trails turn into a snow wonderland, making it an all-season Himalayan gem.",
+    "Despite being moderate in difficulty, the Sandakphu–Phalut trek is at high altitude (above 11,000 ft) and can experience sudden weather shifts — trekkers often witness clear blue skies one moment and swirling mist the next, making every day an unpredictable mountain drama.",
+  ],
+
+  howToReach: {
+    air: "Nearest Airport: Bagdogra (IXB), ~85 km from Manebhanjan. Regular flights from Delhi, Kolkata, and Guwahati.",
+    train: "Nearest Railway Station: New Jalpaiguri (NJP). Overnight trains from major Indian cities. From NJP, drive to Manebhanjan (4–5 hrs).",
+    road: "Shared jeeps and taxis available from Siliguri, Darjeeling, or NJP to Manebhanjan. Permit for Singalila National Park obtained at entry gate.",
+    travelTip: "Avoid arriving late in Manebhanjan — park permits close by evening. Carry some Nepali currency if needed for tea houses inside Nepal."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628751/sandakphu-srikhola_a2s03s.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628750/sadakphu-view13_klc4xn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628750/sadakphu-view11_hnw0jx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628742/sadakphu-view9_pjse1w.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628742/sadakphu-view12_pygien.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628740/sadakphu-view8_eyihky.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628735/sadakphu-view10_wfuw3p.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628729/sadakphu-view4_ih8lem.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628729/sadakphu-view24_olab2e.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628728/sadakphu-view3_m3zlka.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628726/sadakphu-view2_n288nw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628719/sandakphu-hero1_xw1zfc.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628720/sadakphu-view1_fdubez.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628713/sandakphu-gorkhey_zxmvsz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628711/sadakphu-view22_vcj9je.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628701/sandakhphu-teahouse_x4udky.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628700/sadakphu-view23_ky6vma.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628695/sadakphu-view19_tqqrn9.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628690/sadakphu-view20_eidqak.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628681/sadakphu-view21_tsgjpu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628679/sadakphu-view14_mbpgks.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628678/sadakphu-view18_hgcwhf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628670/sadakphu-view7_rfddep.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628669/sadakphu-view6_eamnjf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628666/sadakphu-view5_e4tfwn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628657/sadakphu-view17_og2kn8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628658/sadakphu-view16_vsefge.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628657/sadakphu-view15_yjeaxx.jpg",
+  ],
+
+  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can participate in the Sandakphu trek?",
+        answer: "Anyone with basic fitness and no major health issues can do this trek. Daily walks of 8–10 km are manageable due to gradual altitude gain and availability of tea houses. However, participants must be comfortable walking uphill for 5–6 hours a day."
+      },
+      {
+        question: "Is this trek suitable for beginners?",
+        answer: "Yes. The Sandakphu trek is among the best beginner-friendly Himalayan treks since accommodation and food are available en route, and altitude gain is gradual."
+      },
+      {
+        question: "What’s the best season for the Sandakphu trek?",
+        answer: "Spring (March–May) for rhododendrons, Autumn (October–December) for clear mountain views, and Winter (January–February) for snow-covered trails."
+      },
+      {
+        question: "What kind of accommodation is available?",
+        answer: "Unlike most treks, Sandakphu offers homestays and tea houses throughout the route with beds, blankets, and simple but warm local meals."
+      },
+      {
+        question: "Is a permit required for this trek?",
+        answer: "Yes. Singalila National Park permit is mandatory and issued at Manebhanjan. If you’re trekking via Nepalese sections, separate ID proof (passport, voter ID, or Aadhaar) is required but no visa."
+      },
+      {
+        question: "What peaks are visible from Sandakphu?",
+        answer: "The panoramic view includes Kanchenjunga, Pandim, Kumbhakarna, Kabru range, Everest, Lhotse, and Makalu — often called the ‘Sleeping Buddha’ formation."
+      },
+      {
+        question: "What is the weather like during different seasons?",
+        answer: "In Oct–Dec, expect clear skies with daytime 8–12°C and subzero nights. In March–April, temperatures are milder (5–15°C) and forests bloom. Winters (Dec–Feb) bring snow above Tumling."
+      },
+      {
+        question: "What about mobile connectivity and power?",
+        answer: "Network available at most villages (BSNL and Jio better). Tea houses offer charging (sometimes paid). No coverage between Phalut and Gorkhey."
+      },
+      {
+        question: "Can vehicles reach Sandakphu?",
+        answer: "Yes. A unique feature — Land Rovers (from British era) can reach Sandakphu via a motorable trail, though the ride is extremely rough. Most trekkers prefer walking."
+      },
+      {
+        question: "Are there water sources en route?",
+        answer: "Yes, every village and tea house provides filtered or boiled water. Carry two bottles and refill at stops. Streams also available between sections in summer."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
+}
 
 
   // Add other trek objects here...

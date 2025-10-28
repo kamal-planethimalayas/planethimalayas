@@ -375,13 +375,26 @@ const passTreks = treks.filter(
       const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
 
       // Capitalize function
-      const capitalize = str =>
-        str
-          ? str
+      const capitalize = (str) => {
+        if (!str) return '';
+        if (Array.isArray(str)) {
+          return str
+            .map(item =>
+              item
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ')
+            )
+            .join(', ');
+        }
+        if (typeof str === 'string') {
+          return str
             .split(' ')
             .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ')
-          : '';
+            .join(' ');
+        }
+        return String(str);
+      };
 
       return (
         <div class="trek-card show" data-trek-id={trek.id} key={trek.id}>
@@ -450,7 +463,16 @@ document.addEventListener('DOMContentLoaded', () => {
       else if(category==='difficulty'){ const trekDifficulties=Array.isArray(trek.difficulty)?trek.difficulty.map(d=>d.toLowerCase()):[String(trek.difficulty).toLowerCase()]; if(![...selectedOptions].some(opt=>trekDifficulties.includes(opt))) return false; }
       else if(category==='month'){ const trekMonths=Array.isArray(trek.month)?trek.month.map(m=>m.toLowerCase()):[String(trek.month).toLowerCase()]; if(![...selectedOptions].some(opt=>trekMonths.includes(opt))) return false; }
       else if(category==='season'){ const trekSeasons=Array.isArray(trek.season)?trek.season.map(s=>s.toLowerCase()):[String(trek.season).toLowerCase()]; if(![...selectedOptions].some(opt=>trekSeasons.includes(opt))) return false; }
-      else{ if(!selectedOptions.has(String(trek[category]).toLowerCase())) return false; }
+      else if (category === 'region') {
+        const trekRegions = Array.isArray(trek.region)
+          ? trek.region.map(r => r.toLowerCase())
+          : [String(trek.region).toLowerCase()];
+          if (![...selectedOptions].some(opt => trekRegions.includes(opt))) return false;
+        }
+      else {
+          if (!selectedOptions.has(String(trek[category]).toLowerCase())) return false;
+        }
+
     } return true;
   }
 
