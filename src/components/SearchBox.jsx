@@ -109,7 +109,7 @@ export default function SearchBox() {
                   <img src={trek.heroImage || "/images/default-trek.jpg"} alt={trek.name} className="card-thumb" />
                   <div className="card-content">
                     <h4>{trek.name}</h4>
-                    <p>Region: {capitalize(trek.region)}</p>
+                    <p>Region: {Array.isArray(trek.region) ? trek.region.map(capitalize).join(" / ") : capitalize(trek.region)}</p>
                     <p>Season: {Array.isArray(trek.season) ? trek.season.map(capitalize).join(" / ") : capitalize(trek.season)}</p>
                     <p>Duration: {trek.duration}</p>
                     <p>Difficulty: {Array.isArray(trek.difficulty) ? trek.difficulty.map(capitalize).join(" / ") : capitalize(trek.difficulty)}</p>
