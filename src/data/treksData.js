@@ -3685,7 +3685,7 @@ itinerary: [
       { emoji: "🗺️", label: "Region", value: "Singalila Ridge, Darjeeling District" },
       { emoji: "📍", label: "Start Point", value: "Manebhanjan (Darjeeling, West Bengal)" },
       { emoji: "🏁", label: "End Point", value: "Srikhola (West Bengal)" },
-      { emoji: "🏠", label: "Accommodation", value: "Tea Houses & Homestays" }
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
     ],
     snippet: `The Sandakphu Trek (11,930 ft), also known as the Sleeping Buddha Trek, is one of the most spectacular ridge walks in the Eastern Himalayas, straddling the Indo–Nepal border. This legendary trail runs through the Singalila Ridge, offering a rare 180° panorama of some of the world’s highest peaks — including Mt. Everest (8,848 m), Kanchenjunga (8,586 m), Lhotse (8,516 m), and Makalu (8,463 m), all visible in a single frame from Sandakphu and Phalut.
 
@@ -3774,7 +3774,7 @@ For its breathtaking mountain views, rich flora and fauna, and deep cultural imm
     {
       day: 4,
       title: "Kalipokhri to Sandakphu (11,930 ft)",
-      details: "• Trek Distance: ~6 km | Duration: ~3–4 hrs.<br>• A short but steep climb today as you gain nearly 1,500 ft.<br>• The trail passes Bikheybhanjang ('Valley of Poison'), named after a local poisonous herb.<br>• Final ascent to Sandakphu is steep but rewarding – the entire panorama of the world’s highest peaks opens up.<br>• On a clear day, see Kanchenjunga (8,586 m), Everest, Lhotse, Makalu, and many more.<br>• Sunset from Sandakphu top is one of the most unforgettable sights in the Himalayas.<br>• Stay in a tea house; expect cold winds and sub-zero nights in winter."
+      details: "• Trek Distance: ~6 km | Duration: ~3–4 hrs.<br>• A short but steep climb today as you gain nearly 1,500 ft.<br>• The trail passes Bikheybhanjang ('Valley of Poison'), named after a local poisonous herb.<br>• Final ascent to Sandakphu is steep but rewarding – the entire panorama of the world’s highest peaks opens up.<br>• On a clear day, see Kanchenjunga (8,586 m), Everest, Lhotse, Makalu, and many more.<br>• Sunrise and sunset from Sandakphu top is one of the most unforgettable sights in the Himalayas.<br>• Stay in a tea house; expect cold winds and sub-zero nights in winter."
     },
     {
       day: 5,
