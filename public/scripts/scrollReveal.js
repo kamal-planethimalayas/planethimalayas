@@ -1,29 +1,33 @@
-// src/scripts/scrollReveal.js
+// public/scripts/scrollReveal.js
+
 export function initScrollReveal() {
-  const reveals = document.querySelectorAll(".reveal");
+  const revealElements = () => {
+    const reveals = document.querySelectorAll(".reveal:not(.visible)");
 
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
 
-  reveals.forEach((el) => observer.observe(el));
+    reveals.forEach((el) => observer.observe(el));
+  };
 
-  // Re-observe for dynamically loaded content
-  const observerConfig = { childList: true, subtree: true };
-  const mutationObserver = new MutationObserver(() => {
-    const newReveals = document.querySelectorAll(".reveal:not(.visible)");
-    newReveals.forEach((el) => observer.observe(el));
-  });
+  // Initial reveal on page load
+  revealElements();
 
-  mutationObserver.observe(document.body, observerConfig);
+  // Re-observe for dynamically added content
+  const mutationObserver = new MutationObserver(revealElements);
+  mutationObserver.observe(document.body, { childList: true, subtree: true });
 }
 
-// Auto-init if running on client
+// Auto-init only in the browser
 if (typeof window !== "undefined") {
-  document.addEventListener("DOMContentLoaded", initScrollReveal);
+  initScrollReveal();
 }
