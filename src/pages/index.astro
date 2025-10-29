@@ -201,35 +201,6 @@ import "../styles/global.css";
     </div>
 </section>
 
-<section class="about-section">
-  <h2 class="about-heading">How our treks are more than just a trek</h2>
-  <div class="section-underline"></div>
-
-  <!-- First card -->
-  <div class="about-card trek-icon">
-    <h3 class="about-subheading">Not Just a Trek — A Journey That Stays With You</h3>
-    <p class="about-text">
-      Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul. Our treks are designed not as bucket list checkmarks, but as life-affirming journeys, where the silence of alpine forests, the crackle of campfire stories, and the first glimpse of dawn over snow peaks transform the ordinary into something unforgettable. At Planethimalayas, we believe a mountain journey is deeply personal — and that belief runs through everything we do.
-    </p>
-  </div>
-
-  <!-- Second card -->
-  <div class="about-card care-icon">
-    <h3 class="about-subheading">Individual Care, Every Step of the Way</h3>
-    <p class="about-text">
-      We keep our groups small and intimate so we can focus on you — your pace, your concerns, your joy. From pre-trek guidance to trail-side support, our experienced trek leaders walk with intention, offering safety without compromise and attention without intrusion. Whether you're a first-time trekker or a seasoned explorer, our team ensures you feel held, heard, and never hurried. It’s this deep care that turns strangers into friends and walks into memories.
-    </p>
-  </div>
-
-  <!-- Third card -->
-  <div class="about-card love-icon">
-    <h3 class="about-subheading">Built on Genuine Love for the Himalayas</h3>
-    <p class="about-text">
-      We don’t just operate in the Himalayas — we live and breathe them. From respecting mountain communities to following Leave No Trace ethics, our treks are shaped by a love that’s humble, local, and real. Our itineraries blend raw beauty with responsible travel, ensuring you not only see these mountains — but truly connect with them. With Planethimalayas, your trek becomes more than a trip — it becomes part of your story.
-    </p>
-  </div>
-</section>
-
 
 <style>
 
@@ -730,96 +701,6 @@ import "../styles/global.css";
   text-align: left;
 }
 
-/* About Section */
-.about-section {
-  background-color: white;
-  position: relative;
-}
-
-.about-heading {
-  font-size: 2rem;
-  font-family: 'Helvetica', sans-serif;
-  text-align: left;
-}
-
-.section-underline {
-  height: 2px;
-  background-color: var(--brand-color, #ff7300);
-  width: 100%;
-  margin-bottom: 2rem;
-  border-radius: 2px;
-}
-
-/* About cards */
-.about-card {
-  background-color: #fff;
-  border-radius: 1rem;
-  padding: 1.5rem 1.25rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.3); /* smoother shadow */
-  position: relative; /* for background icon */
-  overflow: hidden;
-}
-
-/* Background icons for about cards */
-.about-card::before {
-  position: absolute;
-  left: 50%; /* center horizontally on mobile */
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: clamp(6rem, 5vw, 8rem); /* responsive size */
-  background: linear-gradient(
-    rgba(255, 115, 0, 0.2),   /* top: stronger */
-    rgba(255, 115, 0, 0.12)   /* bottom: lighter */
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* soft glow for better visibility */
-  text-shadow: 2px 2px 6px rgba(255, 115, 0, 0.15);
-  z-index: 0;
-  pointer-events: none;
-  display: block;
-}
-
-/* Specific icons per card */
-.trek-icon::before { content: "🏔️"; }
-.care-icon::before { content: "🧗"; }
-.love-icon::before { content: "💚"; }
-
-/* Ensure text appears above icons */
-.about-card h3,
-.about-card p {
-  position: relative;
-  z-index: 1;
-}
-
-.about-subheading {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-  text-align: left;
-}
-
-.about-text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .about-card::before {
-    left: 50%; /* center horizontally on mobile */
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 16rem; /* larger on mobile */
-  }
-}
-
   .faqs-section {
     background-color: white;
     position: relative;
@@ -1016,5 +897,32 @@ window.addEventListener("scroll", () => {
   }
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".icon-card");
+  const reveal = () => {
+    const trigger = window.innerHeight * 0.85;
+    cards.forEach(card => {
+      const top = card.getBoundingClientRect().top;
+      if (top < trigger) card.classList.add("visible");
+    });
+  };
+  window.addEventListener("scroll", reveal);
+  reveal();
+});
+</script>
+
+<style>
+.icon-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+.icon-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
 
 

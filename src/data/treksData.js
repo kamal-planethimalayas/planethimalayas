@@ -3742,7 +3742,6 @@ For its breathtaking mountain views, rich flora and fauna, and deep cultural imm
       { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },   
       { label: "25 Apr - 01 May", start: "2026-04-25", end: "2026-05-01" },
       { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
-    
     ],
 
   highlights: [
