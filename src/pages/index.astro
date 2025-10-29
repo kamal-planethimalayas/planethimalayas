@@ -16,7 +16,7 @@ import "../styles/global.css";
 </div>
 
 <!-- Hero Section -->
-  <section class="hero"> 
+  <section class="hero reveal"> 
     <div> 
       <h1>More Than Just A Trek</h1> 
     </div> 
@@ -27,7 +27,7 @@ import "../styles/global.css";
 
 <div class="container">
 <!-- Testimonials Section -->
-<section class="testimonials">
+<section class="testimonials reveal">
   <h2 class="testimonials-heading">What our trekkers say</h2>
   <div class="section-underline"></div>
 
@@ -129,7 +129,7 @@ import "../styles/global.css";
 </section> <!-- /.testimonials -->
 
 <!-- UPCOMING TREKS: Winter Treks -->
-<section class="trek-section">
+<section class="trek-section reveal">
   <h2>Upcoming Treks</h2>
   <div class="section-underline"></div>
   <div class="trek-cards-wrapper">
@@ -163,14 +163,14 @@ import "../styles/global.css";
 </section>
 
 <!-- News Section -->
-<section class="news-section">
+<section class="news-section reveal">
   <h2 class="news-section-heading">News & Articles</h2>
   <div class="section-underline"></div>
   <NewsSection client:load />
 </section>
 
 <!-- Faqs Section -->
-<section class="faqs-section">
+<section class="faqs-section reveal">
     <h2 class="faqs-section-heading">FAQs</h2>
     <div class="section-underline"></div>
 
@@ -897,32 +897,5 @@ window.addEventListener("scroll", () => {
   }
 });
 </script>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".icon-card");
-  const reveal = () => {
-    const trigger = window.innerHeight * 0.85;
-    cards.forEach(card => {
-      const top = card.getBoundingClientRect().top;
-      if (top < trigger) card.classList.add("visible");
-    });
-  };
-  window.addEventListener("scroll", reveal);
-  reveal();
-});
-</script>
-
-<style>
-.icon-card {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.6s ease;
-}
-.icon-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-</style>
 
 

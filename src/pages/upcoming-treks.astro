@@ -303,7 +303,7 @@ const passTreks = treks.filter(
 
 <main class="main-content" role="main" tabindex="0">
 <!-- Suggested Treks Section -->
-<section class="suggested-treks">
+<section class="suggested-treks reveal">
   <h2 class="suggested-title">Our Best Suggested Treks for a Perfect Family Adventure</h2>
   <p class="suggested-desc">
     Enjoy your perfect family adventure trip with us. These treks are easy on foot, scenic,
@@ -325,7 +325,7 @@ const passTreks = treks.filter(
   </div>
 </section>
 
-<section class="suggested-treks">
+<section class="suggested-treks reveal">
   <h2 class="suggested-title">Our Best Suggested Treks for fit beginners</h2>
   <p class="suggested-desc">
   Discover our best treks for fit beginners — gentle yet rewarding journeys through stunning Himalayan landscapes. Each trail offers the perfect balance of challenge and beauty, with every season revealing a new side of the mountains to explore.
@@ -345,7 +345,7 @@ const passTreks = treks.filter(
 </section>
 
 <!-- Pass Crossing Treks Section -->
-<section class="suggested-treks">
+<section class="suggested-treks reveal">
   <h2 class="suggested-title">Pass Crossing Treks — Where Every Step Tells a Story</h2>
   <p class="suggested-desc">
     A mountain pass crossing trek involves traversing a high point that connects two distinct valleys. 
@@ -369,6 +369,7 @@ const passTreks = treks.filter(
   </div>
 </section>
 
+<section class="trek-cards-container reveal">
   <div class="trek-cards-container" id="trekCardsContainer">
     {treks.map(trek => {
       const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
@@ -415,6 +416,7 @@ const passTreks = treks.filter(
       );
     })}
   </div>
+</section>
 </main>
 
 </div>

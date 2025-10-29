@@ -42,13 +42,13 @@ if (data) {
 
 <Layout>
   {blog.thumbnail && (
-    <div class="blog-hero">
+    <div class="blog-hero reveal">
       <img src={blog.thumbnail} alt={blog.title} />
       <h1 class="hero-title">{blog.title}</h1>
     </div>
   )}
 
-  <article class="blog-content">
+  <article class="blog-content reveal">
     <p class="meta">{blog.author} · {blog.date}</p>
     <div set:html={blog.content}></div>
   </article>
