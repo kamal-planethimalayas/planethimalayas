@@ -15,15 +15,62 @@ import "../styles/global.css";
   <NewsBanner client:load />
 </div>
 
-<!-- Hero Section -->
-  <section class="hero reveal"> 
-    <div> 
-      <h1>More Than Just A Trek</h1> 
-    </div> 
-    <div> 
-      <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a> </div> <div> <p>"Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas"</p> 
-    </div> 
-  </section>
+<!-- Hero Carousel Section -->
+<section class="hero-carousel reveal">
+  <div class="carousel">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <div class="slide active" style="background-image: url('/images/main/experience-hero4.jpg')">
+        <div class="content">
+          <h1>More Than Just A Trek</h1>
+          <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
+          <p>"Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas"</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg')">
+        <div class="content">
+          <h1>Not Just a Trek — A Journey That Stays With You</h1>
+          <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
+          <p>Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg')">
+        <div class="content">
+          <h1>Individual Care, Every Step of the Way</h1>
+          <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
+          <p>We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.</p>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg')">
+        <div class="content">
+          <h1>Built on Genuine Love for the Himalayas</h1>
+          <a href="/upcoming-treks" class="cta-button underline-hover">Upcoming Treks</a>
+          <p>We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const totalSlides = slides.length;
+
+  function showNextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slides[currentSlide].classList.add('active');
+  }
+
+  setInterval(showNextSlide, 5000); // 5 seconds
+</script>
 
 <div class="container">
 <!-- Testimonials Section -->
@@ -220,83 +267,105 @@ import "../styles/global.css";
   }
 }
 
-.hero {
+/* ========================= */
+/* 🌄 HERO CAROUSEL SECTION  */
+/* ========================= */
+.hero-carousel {
   position: relative;
   width: 100%;
-  height: 100vh; /* full viewport height */
-  background-image: url('/images/main/experience-hero4.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 10%;
+  height: 90vh;
+  overflow: hidden;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertical centering */
-  align-items: center;     /* horizontal centering */
-  text-align: center;      /* center text inside */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   box-sizing: border-box;
-  padding: 2rem; /* uniform padding */
-  overflow: hidden; /* ensures overlay stays inside */
 }
 
-/* ✅ Add subtle overlay for better readability */
-.hero::before {
+/* ----- Overlay for readability ----- */
+.hero-carousel::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.35); /* adjust transparency (0.3–0.5 recommended) */
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
   z-index: 1;
 }
 
-/* ✅ Make sure all hero text appears above overlay */
-.hero * {
-  position: relative;
+/* ----- Each Slide ----- */
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide.active {
+  opacity: 1;
   z-index: 2;
 }
 
-.hero h1 {
+/* ----- Hero Content ----- */
+.slide .content {
+  position: relative;
+  z-index: 3;
+  padding: 2rem;
+  max-width: 1200px;
+  transform: translateY(8%);
+}
+
+.slide h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.2;
   font-weight: bold;
   color: white;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0; /* more breathing space */
   text-shadow:
     3px 3px 6px rgba(0, 0, 0, 0.7),
     6px 6px 12px rgba(0, 0, 0, 0.5),
     0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.hero p {
+.slide p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  max-width: 800px;
-  margin-top: 1rem;
+  max-width: 1200px;
+  margin: 2rem auto 0;
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7),
+  text-align: center;
+  text-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.7),
     4px 4px 10px rgba(0, 0, 0, 0.5),
     0 0 8px rgba(0, 0, 0, 0.3);
 }
 
+/* ----- CTA Button ----- */
 .cta-button {
   background-color: #ff7300;
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding: 0.5rem 3rem;
+  padding: 0.6rem 3rem;
   font-size: 1rem;
   border-radius: 10px;
   width: fit-content;
   text-decoration: none;
   box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.8),
-    0 0 10px rgba(0,0,0,0.5);
+    0 0 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 0.5rem;
 }
 
+/* ----- Underline Hover Animation ----- */
 .underline-hover {
   position: relative;
   display: inline-block;
@@ -310,7 +379,7 @@ import "../styles/global.css";
   left: 0;
   height: 2px;
   width: 0%;
-  background-color: #ffffff; /* or #ff7300 for brand orange */
+  background-color: #ffffff;
   transition: width 0.3s ease;
 }
 
@@ -318,63 +387,38 @@ import "../styles/global.css";
   width: 100%;
 }
 
-.how-different {
-  padding: 4rem 2rem;
+/* ----- Add spacing below hero ----- */
+.hero-carousel + * {
+  margin-top: 2rem;
 }
 
-.hero + * {
-  margin-top: 2rem; /* reasonable gap between hero and next section */
-}
-
-  /* ====== Responsive Mobile Styles ====== */
-  
-  @media (max-width: 768px) {
-  .hero {
-    height: 60vh; /* shorter hero on mobile */
-    background-position: 15% top; /* adjust image placement here */
+/* =============================== */
+/* 📱 MOBILE RESPONSIVE SETTINGS   */
+/* =============================== */
+@media (max-width: 768px) {
+  .hero-carousel {
+    height: 70vh;
+    background-position: 15% top;
     margin-top: -55px;
   }
 
-  .hero h1 {
+  .slide h1 {
     font-size: 3rem;
+    margin-bottom: 1rem;
   }
 
-  .hero p {
+  .slide p {
     font-size: 1rem;
     max-width: 100%;
     margin-top: 1rem;
+    text-align: center;
   }
 
   .cta-button {
     padding: 0.5rem 2rem;
     font-size: 1rem;
   }
-
-.underline-hover {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
 }
-
-.underline-hover::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  height: 2px;
-  width: 0%;
-  background-color: #ffffff; /* or #ff7300 for brand orange */
-  transition: width 0.3s ease;
-}
-
-.underline-hover:hover::after {
-  width: 100%;
-}
-
-.how-different {
-  padding: 4rem 2rem;
-}
-  }    
   
 
     /* Testimonials Section - matching About Section style */
