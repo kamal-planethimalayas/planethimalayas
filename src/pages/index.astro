@@ -67,7 +67,12 @@ import "../styles/global.css";
   <button class="carousel-arrow right">&#10095;</button>
 
   <!-- Dots (for mobile + desktop visual feedback) -->
-  <div class="carousel-dots"></div>
+  <div class="carousel-dots">
+    <button class="active"></button>
+    <button></button>
+    <button></button>
+    <button></button>
+  </div>
 </section>
 
 <div class="container">
@@ -380,18 +385,26 @@ import "../styles/global.css";
   gap: 10px;
   z-index: 3;
 }
+
 .carousel-dots button {
-  display: inline-block;
+  appearance: none;
+  -webkit-appearance: none;
   width: 12px;
   height: 12px;
-  background: rgba(255,255,255,0.6);
-  border: none;
   border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6); /* visible dot */
   cursor: pointer;
-  transition: background 0.3s ease;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  display: inline-block;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
+
 .carousel-dots button.active {
-  background: #ff7300;
+  background-color: #ff7300;
+  transform: scale(1.2);
 }
 
 /* Responsive */
@@ -417,6 +430,13 @@ import "../styles/global.css";
   }
 }
 
+/* Hide dots on desktop */
+@media (min-width: 769px) {
+  .carousel-dots {
+    display: none;
+  }
+}
+
 /* Testimonials Section - matching About Section style */
 .testimonials {
   background-color: white;
@@ -428,8 +448,6 @@ import "../styles/global.css";
   font-family: 'Helvetica', sans-serif;
   text-align: left;
 }
-
-
 
 /* Card wrapper */
 .testimonials-card-wrapper {
@@ -526,9 +544,6 @@ import "../styles/global.css";
 }
 
 /* Scrollbar styling */
-
-/* 2. Arrow buttons */
-/* Scroll buttons (lightweight arrows) */
 .scroll-btn {
   position: absolute;
   top: 50%;
@@ -942,25 +957,13 @@ window.addEventListener("scroll", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".carousel-slide");
   const track = document.querySelector(".carousel-track");
-  const dotsContainer = document.querySelector(".carousel-dots");
   const leftArrow = document.querySelector(".carousel-arrow.left");
   const rightArrow = document.querySelector(".carousel-arrow.right");
+  const dots = document.querySelectorAll(".carousel-dots button");
   const hero = document.querySelector(".hero-carousel");
 
   let currentIndex = 0;
   let autoSlide;
-
-  // Clear old dots (avoid duplicates)
-  dotsContainer.innerHTML = "";
-
-  // Create dots dynamically
-  slides.forEach((_, index) => {
-    const dot = document.createElement("button");
-    dot.addEventListener("click", () => goToSlide(index));
-    dotsContainer.appendChild(dot);
-  });
-
-  const dots = dotsContainer.querySelectorAll("button");
 
   function updateUI() {
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
@@ -989,7 +992,12 @@ document.addEventListener("DOMContentLoaded", () => {
     autoSlide = setInterval(showNext, 5000);
   }
 
-  // Arrow navigation
+  // Dots click
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => goToSlide(index));
+  });
+
+  // Arrows
   leftArrow.addEventListener("click", () => { showPrev(); resetAutoSlide(); });
   rightArrow.addEventListener("click", () => { showNext(); resetAutoSlide(); });
 
