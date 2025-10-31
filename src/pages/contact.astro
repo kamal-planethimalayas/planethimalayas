@@ -6,6 +6,7 @@ import Layout from "../layouts/Layout.astro";
 
   <!-- Hero Section -->
   <section class="contact-hero reveal">
+  <div class="contact-hero-overlay"></div>
     <div class="container">
       <h1>Let's Talk Treks</h1>
       <p>We'd love to hear from you! Whether you're planning your next trek or just have a question, feel free to reach out — we respond within 48 hours.</p>
@@ -68,7 +69,7 @@ import Layout from "../layouts/Layout.astro";
     /* Hero */
 .contact-hero {
   width: 100%;
-  height: calc(100vh - 55px);
+  height: 100vh;
   background: url('/images/main/about-hero1.jpg') center 60% no-repeat;
   background-size: cover; /* stretches to full width, crops if needed */
   display: flex;
@@ -78,6 +79,15 @@ import Layout from "../layouts/Layout.astro";
   padding: 2rem 2rem;
   color: #fff;
   position: relative; 
+}
+
+.contact-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  );
 }
 
 .contact-hero .container {
@@ -297,7 +307,7 @@ import Layout from "../layouts/Layout.astro";
 
   /* Hero Section */
   .contact-hero {
-    height: 60vh;
+    height: 70vh;
     padding: 1rem 1rem;
     margin-top: -55px;
   }

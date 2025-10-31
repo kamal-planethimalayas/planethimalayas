@@ -9,6 +9,7 @@ const brandColor = "#ff7300";
 
 <!-- HERO SECTION -->
 <section class="about-hero reveal">
+<div class="about-hero-overlay"></div>
   <div class="container">
       <h1>Who We Are</h1>
       <p> Planethimalayas is built on a rare promise: 
@@ -110,7 +111,7 @@ window.addEventListener("scroll", () => {
 /* HERO SECTION */
 .about-hero {
   width: 100%;
-  height: calc(100vh - 55px);
+  height: 100vh;
   background: url('/images/main/contact-hero1.jpg') center center no-repeat;
   background-size: cover; /* stretches to full width, crops if needed */
   display: flex;
@@ -121,6 +122,15 @@ window.addEventListener("scroll", () => {
   color: #fff;
   position: relative;
   overflow: hidden;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  );
 }
 
 .about-hero .container {
@@ -227,7 +237,7 @@ window.addEventListener("scroll", () => {
     padding: 1.5rem 0;
 }
   .about-hero {
-    height: 60vh;
+    height: 70vh;
     padding: 1rem 1rem;
     margin-top: -55px;
   }
