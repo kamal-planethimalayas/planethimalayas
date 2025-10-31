@@ -15,48 +15,59 @@ import "../styles/global.css";
 </div>
 
 <!-- Hero Carousel Section -->
-<section class="hero-carousel reveal">
-  <div class="carousel-slide active" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810023/love-himalayas_zz3cyf.jpg');">
-    <div class="hero-content">
-      <h1>More Than Just A Trek</h1>
-      <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-      <p class="hero-subheading">
-        Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas.
-      </p>
+<section class="hero-carousel">
+  <div class="carousel-track">
+    <div class="carousel-slide active" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810023/love-himalayas_zz3cyf.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>More Than Just A Trek</h1>
+        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+        <p class="hero-subheading">
+          Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas.
+        </p>
+      </div>
+    </div>
+
+    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Not Just a Trek — A Journey That Stays With You</h1>
+        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+        <p class="hero-subheading">
+          Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
+        </p>
+      </div>
+    </div>
+
+    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Individual Care, Every Step of the Way</h1>
+        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+        <p class="hero-subheading">
+          We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
+        </p>
+      </div>
+    </div>
+
+    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Built on Genuine Love for the Himalayas</h1>
+        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+        <p class="hero-subheading">
+          We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
+        </p>
+      </div>
     </div>
   </div>
 
-  <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg');">
-    <div class="hero-content">
-      <h1>Not Just a Trek — A Journey That Stays With You</h1>
-      <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-      <p class="hero-subheading">
-        Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
-      </p>
-    </div>
-  </div>
-  <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg');">
-    <div class="hero-content">
-      <h1>Individual Care, Every Step of the Way</h1>
-      <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-      <p class="hero-subheading">
-        We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
-      </p>
-    </div>
-  </div>
-  <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg');">
-    <div class="hero-content">
-      <h1>Built on Genuine Love for the Himalayas</h1>
-      <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-      <p class="hero-subheading">
-        We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
-      </p>
-    </div>
-  </div>
-
+  <!-- Arrows (for desktop) -->
   <button class="carousel-arrow left">&#10094;</button>
   <button class="carousel-arrow right">&#10095;</button>
 
+  <!-- Dots (for mobile + desktop visual feedback) -->
+  <div class="carousel-dots"></div>
 </section>
 
 <div class="container">
@@ -262,25 +273,28 @@ import "../styles/global.css";
   color: white;
 }
 
-.hero-carousel::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-  z-index: 1;
+.carousel-track {
+  display: flex;
+  transition: transform 1s ease-in-out;
+  height: 100%;
 }
 
 .carousel-slide {
-  position: absolute;
-  inset: 0;
+  min-width: 100%;
+  height: 100vh;
   background-size: cover;
-  background-position: center 10%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  background-position: center;
+  position: relative;
 }
 
-.carousel-slide.active {
-  opacity: 1;
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.35)
+  );
+  z-index: 1;
 }
 
 .hero-content {
@@ -289,73 +303,118 @@ import "../styles/global.css";
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  z-index: 3;
-  width: 80%;
-  max-width: 900px;
+  z-index: 2;
+  width: 85%;
+  max-width: 1000px;
 }
 
 .hero-content h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
+  margin-bottom: 3rem;
   color: white;
-  margin-bottom: 1.5rem;
-  text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subheading {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
   margin-top: 1.5rem;
   color: white;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .cta-button {
   display: inline-block;
   background: #ff7300;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   padding: 0.7rem 2.5rem;
   border-radius: 8px;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
 }
 
 /* Arrows */
 .carousel-arrow {
   position: absolute;
-  top: 25%;
+  top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
-  z-index: 4;
-  padding: 0.3rem 0.8rem;
+  z-index: 3;
+  padding: 0.4rem 0.8rem;
   border-radius: 50%;
+  transition: background 0.3s ease;
 }
 
-.carousel-arrow.left { left: 5px; }
-.carousel-arrow.right { right: 5px; }
+.carousel-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
 
+.carousel-arrow.left {
+  left: 20px;
+}
+.carousel-arrow.right {
+  right: 20px;
+}
+
+/* Dots */
+.carousel-dots {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+.carousel-dots button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,0.6);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.carousel-dots button.active {
+  background: #ff7300;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .hero-carousel {
-    height: 70vh;
+    height: 75vh;
     margin-top: -55px;
   }
-
-  .hero-content h1 { font-size: 2rem; }
-  .hero-subheading { font-size: 1rem; }
-  .cta-button { padding: 0.6rem 2rem; }
+  .carousel-slide {
+    height: 75vh;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-subheading {
+    font-size: 1rem;
+  }
+  .cta-button {
+    padding: 0.6rem 2rem;
+  }
+  .carousel-arrow {
+    display: none; /* hide arrows on mobile */
+  }
 }
 
 /* Testimonials Section - matching About Section style */
@@ -880,58 +939,76 @@ window.addEventListener("scroll", () => {
 </script>
 
 <script>
+document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".carousel-slide");
+  const track = document.querySelector(".carousel-track");
+  const dotsContainer = document.querySelector(".carousel-dots");
   const leftArrow = document.querySelector(".carousel-arrow.left");
   const rightArrow = document.querySelector(".carousel-arrow.right");
-  
+  const hero = document.querySelector(".hero-carousel");
+
   let currentIndex = 0;
   let autoSlide;
 
+  // Clear old dots (avoid duplicates)
+  dotsContainer.innerHTML = "";
 
-  // Show slide by index
-  function showSlide(index) {
-    slides.forEach(slide => slide.classList.remove("active"));
-    
-    slides[index].classList.add("active");
-    
-    currentIndex = index;
+  // Create dots dynamically
+  slides.forEach((_, index) => {
+    const dot = document.createElement("button");
+    dot.addEventListener("click", () => goToSlide(index));
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll("button");
+
+  function updateUI() {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    dots.forEach(dot => dot.classList.remove("active"));
+    dots[currentIndex].classList.add("active");
   }
 
-  // Next / Previous
-  function nextSlide() {
-    showSlide((currentIndex + 1) % slides.length);
+  function showNext() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateUI();
   }
 
-  function prevSlide() {
-    showSlide((currentIndex - 1 + slides.length) % slides.length);
+  function showPrev() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    updateUI();
   }
 
   function goToSlide(index) {
-    showSlide(index);
+    currentIndex = index;
+    updateUI();
     resetAutoSlide();
   }
 
-  // Auto-slide
   function resetAutoSlide() {
     clearInterval(autoSlide);
-    autoSlide = setInterval(nextSlide, 5000);
+    autoSlide = setInterval(showNext, 5000);
   }
 
-  // Arrow click events
-  leftArrow.addEventListener("click", () => {
-    prevSlide();
-    resetAutoSlide();
-  });
-  rightArrow.addEventListener("click", () => {
-    nextSlide();
-    resetAutoSlide();
-  });
+  // Arrow navigation
+  leftArrow.addEventListener("click", () => { showPrev(); resetAutoSlide(); });
+  rightArrow.addEventListener("click", () => { showNext(); resetAutoSlide(); });
 
   // Pause on hover
-  const hero = document.querySelector(".hero-carousel");
   hero.addEventListener("mouseenter", () => clearInterval(autoSlide));
   hero.addEventListener("mouseleave", resetAutoSlide);
 
-  // Start carousel
+  // Swipe support
+  let startX = 0;
+  hero.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+  hero.addEventListener("touchend", e => {
+    const endX = e.changedTouches[0].clientX;
+    if (startX - endX > 50) showNext();
+    if (endX - startX > 50) showPrev();
+    resetAutoSlide();
+  });
+
+  // Initialize
+  updateUI();
   resetAutoSlide();
+});
 </script>
