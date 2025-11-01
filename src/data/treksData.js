@@ -15,6 +15,13 @@ export const treks = [
                   ],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535291/pin-bhaba-view1_ixsyit.jpg",
+    
+     heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535291/pin-bhaba-view1_ixsyit.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535262/pin-bhaba-view10_t3jkfh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535268/pin-bhaba-view16_v14bg6.jpg",
+  ],
+
     subtitle: "The Most Beautiful Himalayan Crossover",
 
     seo: {
@@ -37,7 +44,7 @@ export const treks = [
       snippet: `Pin Bhaba Pass Trek is one of the most dramatic crossover treks in the Indian Himalayas, connecting the lush green valleys of Kinnaur with the stark, high-altitude deserts of Spiti. Starting from dense forests and vibrant meadows, the trail gradually opens into vast landscapes, glacial streams, and finally the otherworldly terrain of Spiti. At 16,100 ft, the pass offers breathtaking views of snow-clad peaks and a thrilling transition between two strikingly different worlds. Perfect for trekkers seeking variety, adventure, and raw Himalayan beauty, Pin Bhaba Pass is truly a once-in-a-lifetime journey. Unlike its harsher sibling Pin Parvati, this trail is gentler yet equally rewarding, with river crossings, flower-filled meadows of Kara and Phutsirang, and dramatic contrasts between Kinnaur’s pine valleys and Spiti’s barren slopes. The trek also passes through remote villages where ancient Buddhist culture thrives, giving trekkers a rare chance to experience both natural grandeur and cultural richness in a single journey.`,
     },
 
-    price: 17500,
+    price: 17900,
     priceNote: "* Kafnu to Kaza",
     addons: {
       transport: 4000,
@@ -215,6 +222,14 @@ export const treks = [
     [32.3236, 77.4456], // Hampta Pass (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-hero_tp9o7j.jpg",
+    
+    heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-hero_tp9o7j.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535063/hampta-pass-6_v4mdqp.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535062/hampta-pass-1_lcseig.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535051/hampta-pass-12_xjjdgc.jpg",
+  ],
+
     subtitle: "A Dramatic Himalayan Crossover",
 
     seo: {
@@ -238,7 +253,7 @@ export const treks = [
       In just 5 days, Hampta captures the best of Himachal’s diverse landscapes — from forests and meadows to glaciers and deserts — making it a perfect choice for trekkers seeking variety, adventure, and a truly cinematic Himalayan experience.`
     },
 
-    price: 11500,
+    price: 11900,
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
       offloadingbag: 4000,
@@ -411,6 +426,14 @@ export const treks = [
     [31.6275, 78.5167], // Rupin Pass (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535222/rupin-pass-hero_u3itsr.jpg",
+    
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535222/rupin-pass-hero_u3itsr.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535234/rupin-pass-hero2_kohvua.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535212/rupin-pass-hero1_wjor73.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535204/rupin-pass-view14_qqz3lx.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535186/rupin-pass-view21_bywsqb.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535231/rupin-pass-view3_abbt21.jpg",
+    ],
     subtitle: "A Wild Himalayan Adventure",
 
     seo: {
@@ -446,16 +469,22 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
     dates: [
-      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
-      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
-      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
-      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
-      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
-      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
-      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
-      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
-      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
-      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
+      { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+      { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+      { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
+      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+      { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
     highlights: [
@@ -618,6 +647,12 @@ export const treks = [
     [31.2836, 77.7581], // Buran Ghati Pass (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517786/buran-ghati-hero1_d4topd.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007240/buran-ghati-view35_znayci.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007249/buran-ghati-view26_tpwze7.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view33_sqkwhz.jpg",
+  ],
     subtitle: "A Himalayan Canvas of Thrill & Beauty",
 
     seo: {
@@ -653,16 +688,22 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
     dates: [
-      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
-      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
-      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
-      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
-      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
-      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
-      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
-      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
-      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
-      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
+      { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+      { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+      { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
+      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+      { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
     highlights: [
@@ -818,6 +859,12 @@ export const treks = [
     duration: ["5 Nights / 6 Days"],
     region: "uttarakhand",
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517485/ali-bedni-view6_ofmkxs.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153747/IMG_20170919_090518_jkbosf.jpg",
+    ],
+
     subtitle: "A Timeless Himalayan Meadow Walk",
     coordinates: [
   [30.2106, 79.5861], // Lohajung (start)
@@ -844,7 +891,7 @@ seo: {
   "Ali Bedni Bugyal is a journey into some of the most enchanting alpine meadows of the Indian Himalayas. Perched above 11,000 ft in Uttarakhand’s Chamoli district, these twin bugyals (high-altitude grasslands) are among the largest in Asia. The trail begins from Lohajung, winding through oak and rhododendron forests alive with birdsong, before suddenly opening into miles of rolling green pastures that stretch to the horizon. From Ali Bugyal, trekkers are rewarded with uninterrupted views of Himalayan giants — Mt. Trishul, Nanda Ghunti, and Chaukhamba — glowing golden under sunrise and sunset skies. Bedni Bugyal, equally captivating, is home to the sacred Bedni Kund, a high-altitude lake steeped in mythology and part of the legendary Nanda Devi Raj Jat pilgrimage. Rich in flora like Himalayan blue poppies, brahmakamal, and primulas, and fauna ranging from monals to mountain foxes, Ali & Bedni are not just treks — they are Himalayan dreamscapes where nature, culture, and legend meet. Perfect for beginners and seasoned trekkers alike, this trek is a gentle yet unforgettable introduction to the magic of Uttarakhand’s high meadows."
     },
 
-    price: 10500,
+    price: 9500,
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 2800, 
@@ -856,12 +903,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
-      { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-      { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-      { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
-      { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-      { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
-      { label: "03 Nov - 08 Nov", start: "2025-11-03", end: "2025-11-08" },
+      
       { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
       { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
       { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
@@ -887,56 +929,56 @@ seo: {
       { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
       { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
       { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
-    { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
-    { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
-    { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
-    { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
-    { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
-    { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
-    { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
-    { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
-    { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
-    { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
-    { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
-    { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
-    { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
-    { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
-    { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
-    { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
-    { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
-    { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
-    { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
-    { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
-    { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
-    { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
-    { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
-    { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
-    { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
-    { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
-    { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
-    { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
-    { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
-    { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
-    { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-    { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
-    { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-    { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-    { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
-    { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-    { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-    { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
-    { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-    { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-    { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-    { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-    { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-    { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-    { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-    { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-    { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-    { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-    { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-    { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
+      { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
+      { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
+      { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
+      { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
+      { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
+      { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
+      { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
+      { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
+      { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
+      { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
+      { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
+      { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
+      { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
+      { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
+      { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
+      { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
+      { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
+      { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
+      { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
+      { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
+      { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
+      { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
+      { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
+      { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
+      { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
+      { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
+      { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
+      { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
+      { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
+      { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
+      { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
+      { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
+      { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
+      { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
+      { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
+      { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
+      { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
+      { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
+      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
+      { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
+      { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
+      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
+      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
+      { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
+      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
+      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
+      { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
+      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
+      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+      { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
     ],
 
     highlights: [
@@ -1085,6 +1127,13 @@ seo: {
     [30.5411, 79.2253], // Chandrashila Summit (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517859/chandrashila-hero1_vvwwz0.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755517859/chandrashila-hero1_vvwwz0.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517852/chandrashila-hero_r8w4xm.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517841/chandrashila-view5_e0xdz7.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
+                
+    ],
     subtitle: "A Perfect Himalayan Panorama",
 
     seo: {
@@ -1120,12 +1169,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
-      { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-      { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-      { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
-      { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-      { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
-      { label: "03 Nov - 08 Nov", start: "2025-11-03", end: "2025-11-08" },
+      
       { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
       { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
       { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
@@ -1277,7 +1321,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517852/chandrashila-hero_r8w4xm.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517841/chandrashila-view5_e0xdz7.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517840/chandrashila-view6_le2ugy.jpg"
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517840/chandrashila-view6_le2ugy.jpg",
 
     ],
 
@@ -1339,6 +1383,13 @@ seo: {
     [30.9489, 79.1147], // Tapovan (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
+
+    heroImages: [ "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517994/gaumukh-tapovan-hero_wmdfa9.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016476/IMG_20190927_133832_hgnmjz.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517986/gaumukh-tapovan-hero1_cwlzeb.jpg",
+    ],
     subtitle: "The Holy Land Of The Himalayan Giants",
 
     seo: {
@@ -1362,7 +1413,7 @@ seo: {
   "The Gaumukh–Tapovan trek is where spirituality meets raw Himalayan wilderness. Starting from the sacred town of Gangotri, the trail follows the Bhagirathi river deep into the Gangotri National Park — home to blue pines, silver birches, bharals (blue sheep), and even elusive snow leopards. The journey takes you past Bhojwasa, named after the ancient birch forests that once covered the valley, and leads to Gaumukh, the revered glacier snout and birthplace of the Ganga. Beyond lies Tapovan — a windswept high-altitude meadow at 14,500 ft, framed by the mighty Shivling, Meru, and Bhagirathi peaks. Here, saints, mountaineers, and trekkers alike find themselves humbled by the scale and silence of the mountains. This trek is not just a physical adventure — it’s a pilgrimage through geology, mythology, and one of India’s grandest alpine landscapes."
     },
 
-    price: 17900,
+    price: 16900,
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 3000, 
@@ -1374,16 +1425,22 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      { label: "14 May - 20 May", start: "2026-05-14", end: "2026-05-20" },
-      { label: "15 May - 21 May", start: "2026-05-15", end: "2026-05-21" },
-      { label: "21 May - 27 May", start: "2026-05-21", end: "2026-05-27" },
-      { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
-      { label: "28 May - 03 Jun", start: "2026-05-28", end: "2026-06-03" },
-      { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
-      { label: "04 Jun - 10 Jun", start: "2026-06-04", end: "2026-06-10" },
-      { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
-      { label: "11 Jun - 17 Jun", start: "2026-06-11", end: "2026-06-17" },
-      { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
+      { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+      { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+      { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
+      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+      { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
     highlights: [
@@ -1472,7 +1529,10 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517977/gaumukh-tapovan-view1_xxgsnt.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517976/gaumukh-tapovan-view9_fi24z4.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517971/gaumukh-tapovan-view2_lpmnew.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517959/gaumukh-tapovan-view8_lebb2f.jpg"
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517959/gaumukh-tapovan-view8_lebb2f.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016476/IMG_20190927_133832_hgnmjz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016469/IMG_20190919_111827_rpjy8z.jpg",
     
     ],
 
@@ -1537,6 +1597,14 @@ seo: {
 ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg"
+  ],
+
   subtitle: "A Himalayan Symphony Of Nature & Majesty",
 
   seo: {
@@ -1557,8 +1625,7 @@ seo: {
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
 
-    snippet: 
-  "The Goecha La trek is one of India’s most iconic journeys, taking you deep into the heart of the Eastern Himalayas inside the UNESCO World Heritage-listed Khangchendzonga National Park. Beginning in the historic village of Yuksom, the trail winds through moss-laden forests, waterfalls, wooden bridges, and rhododendron valleys that burst into bloom in spring. Higher up, the landscape shifts into windswept meadows and glacial moraines, culminating in a front-row seat to Mt. Kanchenjunga — the third-highest mountain in the world — glowing at sunrise. Along the way, you might spot vibrant Himalayan monals, the elusive red panda, or blue sheep grazing the alpine slopes. This is not just a trek, but a rare immersion into Sikkim’s wild beauty, spirituality, and biodiversity — a true pilgrimage for both nature lovers and mountain dreamers."
+    snippet: "The Goecha La Trek is a journey unlike any other — a trail that takes you deep into the Eastern Himalayas, right inside the UNESCO World Heritage–listed Khangchendzonga National Park. Starting from the quiet, historic village of Yuksom, the route climbs through ancient oak and rhododendron forests, wooden bridges over gushing streams, and moss-covered trails where mist curls between the trees. As you gain altitude, the scenery transforms into wind-swept meadows, glacial valleys, and mirror-like lakes reflecting towering peaks. From Dzongri Top to the Goecha La viewpoint, every turn opens to a horizon of giants — Kanchenjunga, Pandim, Kabru, Rathong, and a dozen more snow-laden summits. In fact, trekkers are rewarded with views of up to 14 Himalayan peaks from the pass, making this route the closest one can get to Kanchenjunga without entering Nepal. What makes the Goecha La trail so magnetic is not just the grandeur of the mountains, but the journey itself — the prayer-flag villages, the alpine stillness of Samiti Lake, and the sheer contrast between vibrant lower valleys and barren high-altitude deserts. At an altitude of 4,940 m, this is a challenging trek best suited for experienced trekkers comfortable with long days and steep ascents. Autumn (September–November) offers crystal-clear skies and golden light on the peaks, while spring (April–May) turns the forest into a spectacle of blooming rhododendrons and rare Himalayan flora. More than just a trek, Goecha La is an emotional passage — a true Himalayan pilgrimage that blends raw wilderness, Sikkimese spirituality, and awe-inspiring mountain drama in one unforgettable trail."
     },
 
     price: 20900,
@@ -1573,12 +1640,21 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
 
     dates: [
-      { label: "25 Oct - 03 Nov", start: "2025-10-25", end: "2025-11-03" },
-      { label: "01 Nov - 10 Nov", start: "2025-11-01", end: "2025-11-10" },
-      { label: "08 Nov - 17 Nov", start: "2025-11-08", end: "2025-11-17" },
+      
       { label: "15 Nov - 24 Nov", start: "2025-11-15", end: "2025-11-24" },
       { label: "22 Nov - 01 Dec", start: "2025-11-22", end: "2025-12-01" },
       { label: "29 Nov - 08 Dec", start: "2025-11-29", end: "2025-12-08" },
+      { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
+      { label: "13 Dec - 22 Dec", start: "2025-12-13", end: "2025-12-22" },
+      { label: "14 Mar - 23 Mar", start: "2026-03-14", end: "2026-03-23" },
+      { label: "21 Mar - 30 Mar", start: "2026-03-21", end: "2026-03-30" },
+      { label: "28 Mar - 06 Apr", start: "2026-03-28", end: "2026-04-06" },
+      { label: "04 Apr - 13 Apr", start: "2026-04-04", end: "2026-04-13" },
+      { label: "11 Apr - 20 Apr", start: "2026-04-04", end: "2026-04-20" },
+      { label: "18 Apr - 27 Apr", start: "2026-04-18", end: "2026-04-27" },
+      { label: "25 Apr - 04 May", start: "2026-04-25", end: "2026-05-04" },
+      { label: "02 May - 11 May", start: "2026-05-02", end: "2026-05-11" },
+      { label: "09 May - 18 May", start: "2026-05-09", end: "2026-05-18" },
     ],
 
     highlights: [
@@ -1589,56 +1665,56 @@ seo: {
       "Rich bird and wildlife diversity, including the snow leopard and red panda"
     ],
 
-    itinerary: [
+   itinerary: [
   {
     day: 1,
     title: "Arrive at Yuksom (1,780 m / 5,840 ft)",
-    details: "• 6–7 hr drive from NJP/Bagdogra through tea gardens and winding Sikkimese roads.<br>• Yuksom is the first capital of Sikkim (1642) and a deeply spiritual village.<br>• Stay in homestay/guesthouse; soak in the peaceful vibe before the trek begins."
+    details: "• 6–7 hr drive from NJP/Bagdogra through tea gardens, river valleys and Sikkimese foothills.<br>• Yuksom is the first capital of Sikkim (est. 1642) — expect prayer flags, small gompas and a gentle village rhythm.<br>• Use the afternoon to sort permits, check gear and rest — light walks to Norbugang Coronation Throne or Kathok Lake help stretch legs and acclimatise slightly.<br>• Evening: meet the crew, discuss the route, and have a hot dinner in a family-run guesthouse. Hydrate and sleep early — the real trekking begins tomorrow."
   },
   {
     day: 2,
     title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
-    details: "• Trek: 8 km | 5–6 hrs.<br>• Walk alongside the Rathong river, crossing hanging wooden bridges.<br>• Forests full of ferns, orchids, and moss-draped oaks and magnolias.<br>• Camp in a forest clearing under towering pines."
+    details: "• Trek: ~8 km | 5–6 hrs.<br>• Trail profile: gradual climb through dense temperate forest following the Rathong River; several stream crossings and three suspension bridges.<br>• Vegetation & sights: subtropical to temperate transition — bamboo understory, thick ferns, moss-draped oaks, chestnuts and tall magnolias. In spring the rhododendrons here begin to show color; orchids and epiphytic ferns are common on older trunks.<br>• Experience: listen for the river’s roar below the canopy; the air is humid and rich with forest smells. Campsite is a quiet forest clearing; tents set among tall pines. Keep belongings dry — mist and dew are common."
   },
   {
     day: 3,
     title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
-    details: "• Trek: 7 km | 4–5 hrs.<br>• Trail passes Bakhim (first views of snow peaks).<br>• Steep switchbacks into dense rhododendron forests.<br>• Reach Tshoka, a small Tibetan settlement with wooden huts and monasteries."
+    details: "• Trek: ~7 km | 4–5 hrs.<br>• Trail profile: steady ascent with switchbacks; the climb intensifies after Bakhim.<br>• Vegetation & sights: oak and rhododendron-dominated slopes. You’ll pass stands of magnolia and abundant mosses; carved wooden bridges and small waterfalls punctuate the route. Bakhim offers a first framed view of distant snowy ridgelines on clear days.<br>• Cultural note: Tshoka is a small Tibetan-style settlement with prayer-flagged huts and a pond; you’ll see mani walls and a simple monastery. Camps here are rustic and sheltered from wind — expect simple hut or camp facilities."
   },
   {
     day: 4,
     title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
-    details: "• Trek: 10 km | 6–7 hrs.<br>• Continuous climb through rhododendrons and silver fir forests.<br>• Sudden landscape change: alpine meadows with first panoramic views of Kanchenjunga and Pandim.<br>• Camp in open meadows at Dzongri."
+    details: "• Trek: ~10 km | 6–7 hrs.<br>• Trail profile: sustained climb gaining significant elevation — forest opens into alpine meadows and ridgelines near Dzongri.<br>• Vegetation & sights: the rhododendron corridors become denser lower down, giving way to stunted rhododendrons, juniper scrub and silver firs as you climb. Look for carpets of moss, small alpine herbs and patches of dwarf rhododendron. On a clear day the first broad views of Kanchenjunga, Pandim and Kabru appear here.<br>• Experience: this is a visually dramatic day — bring layers for changing temperatures. Dzongri campground sits on an open meadow with panoramic sunset and sunrise views; nights can be cold and winds pick up after dusk."
   },
   {
     day: 5,
     title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & trek to Thansing (3,930 m / 12,900 ft)",
-    details: "• Early morning climb to Dzongri top for one of the best Himalayan sunrise views — Kanchenjunga, Kabru, Rathong, and Pandim all glowing golden.<br>• Descend to Kokchurang through forests, then gentle climb to Thansing meadow beside a glacier-fed stream.<br>• Camp amid yak pastures and high peaks."
+    details: "• Early morning climb to Dzongri Top: ~1–1.5 hrs ascent from camp for sunrise. Expect freezing temperatures before sunrise and a steep but short scramble near the top.<br>• Panorama: Dzongri Top delivers one of the finest sunrise panoramas — Kanchenjunga massif, Kabru, Rathong, and Pandim catching the first light. Spend time absorbing the vista, photographing layered ridgelines and shadow-play across the valleys.<br>• After sunrise: descend to Kokchurang and proceed to Thansing meadow (total trekking for the day ~6–7 hrs including the climb).<br>• Vegetation & sights: alpine meadows dotted with dwarf rhododendrons, junipers and hardy herbs. Yak pastures are common near Thansing, and you'll notice glacial streams cutting the valley.<br>• Camp: Thansing is a broad, high meadow — camps are exposed but the setting is dramatic. Rest well; this is a key acclimatisation point before the summit push."
   },
   {
     day: 6,
     title: "Thansing to Lamuney (4,180 m / 13,700 ft)",
-    details: "• Trek: 4 km | 2–3 hrs.<br>• Short, easy walk through alpine meadows with up-close views of Mt. Pandim.<br>• Coldest campsite of the trek — rest early for summit push."
+    details: "• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).<br>• Trail profile: a short, steady walk across open glacial valleys with panoramic views of Mt. Pandim throughout.<br>• Vegetation & sights: above tree line the vegetation is sparse — low juniper scrub, cushion plants, lichens and alpine grasses. Look closely for small clusters of edelweiss and other high-altitude flowers in season.<br>• Experience: Lamuney is cold and windswept; this campsite is usually the coldest of the trek. Use the afternoon to rest, hydrate and prepare gear for the early start the next morning. Early sleep suggested."
   },
   {
     day: 7,
-    title: "Lamuney to Goecha La Viewpoint 1 (4,940 m / 16,200 ft) and back to Thansing/Kokchurang",
-    details: "• Trek: 12–13 km round trip | 7–8 hrs.<br>• Start before dawn with headlamps.<br>• Pass the sacred Samiti Lake (no camping allowed).<br>• Reach Viewpoint 1 for an unforgettable sunrise on Kanchenjunga.<br>• Return to lower camps for overnight stay."
+    title: "Lamuney to Goecha La Viewpoint 1 (4,940 m / 16,200 ft) and return to Thansing/Kokchurang",
+    details: "• Trek: ~12–13 km round trip | 7–8 hrs (start pre-dawn with headlamps).<br>• Summit push: the day begins in darkness. Start early to be at the viewpoint for sunrise. The trail is rocky, often icy in patches depending on season, and requires steady pace and careful footing.<br>• Samiti Lake: you skirt Samiti Lake (a sacred turquoise gem) — note that camping and washing here is prohibited due to local sanctity and conservation rules. The lake reflects Pandim and Kanchenjunga on calm mornings, producing unforgettable photos.<br>• The Viewpoint: Viewpoint 1 offers an up-close, jaw-dropping panorama of Kanchenjunga’s faces and surrounding glaciers. Expect cold winds; peak visibility is often in the early hours before cloud build-up.<br>• Return: descend back to Thansing or Kokchurang for overnight. Take ample fluids and a warm meal after the long exertion."
   },
   {
     day: 8,
     title: "Thansing/Kokchurang to Tshoka",
-    details: "• Trek: 15–16 km | 6–7 hrs.<br>• Long but scenic descent through rhododendron and fir forests.<br>• Overnight in huts or campsite at Tshoka."
+    details: "• Trek: ~15–16 km | 6–7 hrs (long descent day).<br>• Trail profile: long downhill through a mixture of high meadows, firs and rhododendron belts — the pace is steady but the distance demands energy management.<br>• Vegetation & sights: as you descend vegetation thickens again — silver firs, rhododendron and mossy trunks reappear. Birdlife increases; keep an eye out for blood pheasants, Tibetan snowcocks at higher altitudes and choughs.<br>• Experience: this is a day to reflect on the trek; the forest feels lush and fragrant again. Reach Tshoka in late afternoon for a warm meal, simple hut-camp comfort and early rest."
   },
   {
     day: 9,
     title: "Tshoka to Yuksom",
-    details: "• Trek: 14 km | 5–6 hrs.<br>• Retrace forest trails back to Yuksom.<br>• End trek with local food and warm showers in guesthouse."
+    details: "• Trek: ~14 km | 5–6 hrs (final trekking day).<br>• Trail profile: descending through familiar forest trails — Bakhim and Sachen mark the final sections.<br>• Vegetation & sights: expect full return to dense broadleaf forest — large oaks, magnolias, bamboo groves and lush riverine vegetation. Seasonal rhododendrons and orchids may still be visible depending on the month.<br>• Experience: this is your last day on the trail — soak in the sounds of the river, collect final photos and share stories with the crew. Reach Yuksom by afternoon/evening, enjoy a hot shower where possible and a celebratory meal in the village."
   },
   {
     day: 10,
-    title: "Departure",
-    details: "• Drive back to NJP/Bagdogra (6–7 hrs)."
+    title: "Departure from Yuksom",
+    details: "• Drive back to NJP/Bagdogra (6–7 hrs).<br>• Timing: depart after a relaxed breakfast; allow for road traffic and mountain weather delays.<br>• Final notes: as forests and foothills unfold into tea gardens, reflect on the range of ecosystems you traversed — from subtropical valleys to glacial meadows and the sacred views of Kanchenjunga. Carry out all non-biodegradable waste and respect local customs and conservation rules."
   }
 ],
 
@@ -1750,6 +1826,12 @@ seo: {
     
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535324/phulara-ridge-hero_i6vu6r.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535324/phulara-ridge-hero_i6vu6r.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535330/phulara-ridge-view3_fra80o.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535330/phulara-ridge-view1_ouomnh.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535325/phulara-ridge-view2_qjvnjx.jpg",
+    ],
     subtitle: "A Panoramic Himalayan Ridgewalk",
 
     seo: {
@@ -1784,10 +1866,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-      { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-      { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-      { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
+      
       { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
       { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
       { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
@@ -1861,7 +1940,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535330/phulara-ridge-view3_fra80o.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535330/phulara-ridge-view1_ouomnh.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535325/phulara-ridge-view2_qjvnjx.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535324/phulara-ridge-hero_i6vu6r.jpg"
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535324/phulara-ridge-hero_i6vu6r.jpg",
     
     ],
 
@@ -1925,7 +2004,13 @@ seo: {
     [31.1767, 78.4142], // Ruinsara Tal (end)
   ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535146/harkidun-ruinsara-hero_xgyzwp.jpg",
-    subtitle: "A Timeless Himalayan Masterpiece",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535146/harkidun-ruinsara-hero_xgyzwp.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535149/harkidun-ruinsara-view5_zrff3m.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535148/harkidun-ruinsara-view6_rxaezg.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535145/harkidun-ruinsara-view3_a2a9so.jpg",
+                ],
+      subtitle: "A Timeless Himalayan Masterpiece",
 
     seo: {
       title: "Har Ki Dun Ruinsara Tal Trek | Itinerary, Cost & Dates | Planethimalayas",
@@ -1947,7 +2032,7 @@ seo: {
       snippet: "The Har Ki Dun – Ruinsaratal Lake trek is a captivating Himalayan adventure that immerses trekkers in one of the most pristine and culturally rich valleys of Uttarakhand. Nestled within the cradle-shaped Har Ki Dun valley, this trek follows the gurgling Supin River, passes ancient villages such as Osla and Gangad, and ascends to the breathtaking alpine beauty of Ruinsaratal Lake. Along the route, trekkers traverse dense pine and oak forests, vibrant meadows, glacial streams, and snow-capped peaks like Swargarohini, Bandarpoonch, and Kalanag. This journey is not only a feast for the eyes but also a deep cultural and ecological experience, offering glimpses into traditional Himalayan life, rare Himalayan flora and fauna, and untouched landscapes that leave an indelible mark on the soul."
     },
 
-    price: 16900,
+    price: 17500,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 3000, 
@@ -1959,12 +2044,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-      { label: "24 Oct - 31 Oct", start: "2025-10-24", end: "2025-10-31" },
-      { label: "25 Oct - 01 Nov", start: "2025-10-25", end: "2025-11-01" },
-      { label: "26 Oct - 02 Nov", start: "2025-10-26", end: "2025-11-02" },
-      { label: "31 Oct - 07 Nov", start: "2025-10-31", end: "2025-11-07" },
-      { label: "01 Nov - 08 Nov", start: "2025-11-01", end: "2025-11-08" },
-      { label: "02 Nov - 09 Nov", start: "2025-11-02", end: "2025-11-09" },
+      
       { label: "07 Nov - 14 Nov", start: "2025-11-07", end: "2025-11-14" },
       { label: "08 Nov - 15 Nov", start: "2025-11-08", end: "2025-11-15" },
       { label: "09 Nov - 16 Nov", start: "2025-11-09", end: "2025-11-16" },
@@ -2116,6 +2196,14 @@ seo: {
   [31.0567, 78.4281], // Har Ki Dun Valley (end)
 ],
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg",
+    
+    heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535102/harkidun-view2_bmvyqy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535098/harkidun-view4_o8psfe.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535145/harkidun-ruinsara-view3_a2a9so.jpg",
+  ],
+    
     subtitle: "A Timeless Himalayan Masterpiece",
 
     seo: {
@@ -2151,10 +2239,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-      { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-      { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-      { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
+      
       { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
       { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
       { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
@@ -2288,6 +2373,12 @@ seo: {
     ],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+    ],
+
     subtitle: "The Classic Trek of Ladakh’s High-Altitude Desert",
 
     seo: {
@@ -2476,8 +2567,17 @@ seo: {
     [30.4755, 79.6151], // Kuari Pass summit
   ],
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535454/kuari-pass-view4_te0tbe.jpg",
-  subtitle: "The Lord Curzon Trail with Iconic Himalayan Views",
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+
+  heroImages: [
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535445/kuari-pass-view16_rmowmz.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535468/kuari-pass-view18_omgk4v.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535454/kuari-pass-view4_te0tbe.jpg",
+  ],
+
+    subtitle: "The Lord Curzon Trail with Iconic Himalayan Views",
 
   seo: {
   title: "Kuari Pass Trek | Itinerary, Cost & Dates | Planethimalayas",
@@ -2512,21 +2612,6 @@ seo: {
 
   dates: [
     
-    { label: "27 Sep - 02 Oct", start: "2025-09-27", end: "2025-10-02" },
-    { label: "28 Sep - 03 Oct", start: "2025-09-28", end: "2025-10-03" },
-    { label: "29 Sep - 04 Oct", start: "2025-09-29", end: "2025-10-04" },
-    { label: "04 Oct - 09 Oct", start: "2025-10-04", end: "2025-10-09" },
-    { label: "05 Oct - 10 Oct", start: "2025-10-05", end: "2025-10-10" },
-    { label: "06 Oct - 11 Oct", start: "2025-10-06", end: "2025-10-11" },
-    { label: "11 Oct - 16 Oct", start: "2025-10-11", end: "2025-10-16" },
-    { label: "12 Oct - 17 Oct", start: "2025-10-12", end: "2025-10-17" },
-    { label: "13 Oct - 18 Oct", start: "2025-10-13", end: "2025-10-18" },
-    { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-    { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-    { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
-    { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-    { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
-    { label: "03 Nov - 08 Nov", start: "2025-11-03", end: "2025-11-08" },
     { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
     { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
     { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
@@ -2741,7 +2826,13 @@ seo: {
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535492/kedarkantha-hero_afsxo1.jpg",
-  subtitle: "The Quintessential Himalayan Winter Trek",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535492/kedarkantha-hero_afsxo1.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535489/kedarkantha-view4_uf3aor.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535483/kedarkantha-view5_us9lve.jpg",
+  ],
+  
+    subtitle: "The Quintessential Himalayan Winter Trek",
 
   seo: {
   title: "Kedarkantha Trek | Itinerary, Cost & Dates | Planethimalayas",
@@ -2776,21 +2867,6 @@ seo: {
 
   dates: [
     
-    { label: "27 Sep - 02 Oct", start: "2025-09-27", end: "2025-10-02" },
-    { label: "28 Sep - 03 Oct", start: "2025-09-28", end: "2025-10-03" },
-    { label: "29 Sep - 04 Oct", start: "2025-09-29", end: "2025-10-04" },
-    { label: "04 Oct - 09 Oct", start: "2025-10-04", end: "2025-10-09" },
-    { label: "05 Oct - 10 Oct", start: "2025-10-05", end: "2025-10-10" },
-    { label: "06 Oct - 11 Oct", start: "2025-10-06", end: "2025-10-11" },
-    { label: "11 Oct - 16 Oct", start: "2025-10-11", end: "2025-10-16" },
-    { label: "12 Oct - 17 Oct", start: "2025-10-12", end: "2025-10-17" },
-    { label: "13 Oct - 18 Oct", start: "2025-10-13", end: "2025-10-18" },
-    { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-    { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-    { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
-    { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-    { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
-    { label: "03 Nov - 08 Nov", start: "2025-11-03", end: "2025-11-08" },
     { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
     { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
     { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
@@ -2999,6 +3075,12 @@ itinerary: [
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1756831840/dayara-hero_xad9ui.jpg",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1756831840/dayara-hero_xad9ui.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1756831852/dayara-view8_s1yzmy.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1756831832/dayara-view5_b7qlh1.jpg",
+  ],
+
   subtitle: "The Himalayan Meadow Dreamscape",
 
   seo: {
@@ -3033,12 +3115,7 @@ itinerary: [
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
 
   dates: [
-    { label: "25 Oct - 30 Oct", start: "2025-10-25", end: "2025-10-30" },
-    { label: "26 Oct - 31 Oct", start: "2025-10-26", end: "2025-10-31" },
-    { label: "27 Oct - 01 Nov", start: "2025-10-27", end: "2025-11-01" },
-    { label: "01 Nov - 06 Nov", start: "2025-11-01", end: "2025-11-06" },
-    { label: "02 Nov - 07 Nov", start: "2025-11-02", end: "2025-11-07" },
-    { label: "03 Nov - 08 Nov", start: "2025-11-03", end: "2025-11-08" },
+    
     { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
     { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
     { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
@@ -3253,6 +3330,13 @@ itinerary: [
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852252/bali-pass-view14_sgtbwj.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852564/bali-pass-view7_yneryq.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852565/bali-pass-view8_itunxl.jpg",
+  ],
+
   subtitle: "The Wildest High-Altitude Crossover in Garhwal",
 
   seo: {
@@ -3276,7 +3360,7 @@ itinerary: [
     snippet: `Bali Pass Trek is one of the most adventurous high-altitude crossovers in the Indian Himalayas, connecting the lush Har Ki Dun valley with the sacred Yamunotri region. Rising to 16,207 ft, this trek offers everything — alpine meadows, ancient Himalayan villages, glacial valleys, moraine crossings, and breathtaking views of Swargarohini, Bandarpoonch, and Kala Nag peaks. The trail begins in dense forests of pine and oak, passes through quaint villages like Osla and Seema, ascends to the alpine Ruinsara Tal lake, and then climbs steeply to the Bali Pass, offering a spectacular panorama of the Garhwal Himalayas. Descending into the Yamunotri valley feels like entering another world, making this trek a true Himalayan odyssey.`,
   },
 
-  price: 20900,
+  price: 21900,
   priceNote: "* Sankri to Janki Chatti",
   addons: {
     transport: 3000,
@@ -3453,6 +3537,14 @@ itinerary: [
     ],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",  // replace with actual image URL
+    
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152188/roopkund-view9_kyctab.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152189/roopkund-view10_ix3gpv.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152209/roopkund-hero_vl6thl.jpg",
+                  "https://res.cloudinary.com/dr44hob9b/image/upload/v1761152218/roopkund-view5_rrommv.jpg",
+    ],
+    
     subtitle: "Mystery Lake of the Himalayas",
 
     seo: {
@@ -3668,6 +3760,13 @@ itinerary: [
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628658/sadakphu-view16_vsefge.jpg",            
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628742/sadakphu-view12_pygien.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628729/sadakphu-view4_ih8lem.jpg",  
+  ],
+
   subtitle: "Sleeping Buddha Trail – Gateway to the Eastern Himalayas",
 
   seo: {

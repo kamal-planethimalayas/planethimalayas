@@ -27,90 +27,141 @@ html {
 
 
 /* ====== Trek Hero Section ====== */
-/* Desktop */
+/* container */
 .trek-hero {
   position: relative;
   width: 100%;
-  height: 100vh; /* reduced from 100vh */
+  height: 100vh;
   overflow: hidden;
+  color: white;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
 }
 
-.hero-overlay {
+/* overlay under the content */
+.trek-hero .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.45)
-  );
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25));
   z-index: 1;
 }
 
-.trek-hero-image {
+/* image slides stacked absolutely */
+.trek-hero .carousel-slide {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-  display: block;
-  object-position: center;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 1s ease, transform 1s ease;
+  z-index: 0;
+  pointer-events: none;
 }
 
-.hero-text {
-  will-change: transform;
-  transition: transform 0.1s linear;
+/* active slide visible */
+.trek-hero .carousel-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 0;
+  pointer-events: auto;
 }
 
-.hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* content (title/subtitle) sits above overlay and images */
+.trek-hero .hero-content {
+  position: relative;
   z-index: 2;
   text-align: center;
   width: 90%;
-  color: white;
+  max-width: 1200px;
+  padding: 0 1rem;
 }
 
+/* title/subtitle styles - same mapping as before */
 .trek-hero-title {
-  font-size: clamp(2rem, 6vw, 4.5rem); /* responsive scaling */
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  color: #fff;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
+  margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: white;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.95); /* strong shadow */
 }
 
 .trek-hero-subtitle {
   font-size: clamp(1rem, 4vw, 2rem);
+  color: #fff;
+  margin-top: 0.5rem;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-top: 0.5rem;
-  color: white;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
 }
 
-/* Mobile */
+/* arrows (desktop) */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  border: none;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel-arrow.prev { left: 50px; }
+.carousel-arrow.next { right: 50px; }
+.carousel-arrow:hover { background: rgba(0,0,0,0.8); }
+
+/* dots container (mobile) */
+.carousel-dots {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+/* individual dot */
+.carousel-dots button {
+  all: unset;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.6);
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.25s, background 0.25s;
+}
+.carousel-dots button.active {
+  background: #ff7300;
+  transform: scale(1.3);
+}
+
+/* hide dots on desktop, show on mobile */
+@media (min-width: 769px) {
+  .carousel-dots { display: none; }
+}
+@media (max-width: 768px) {
+  .carousel-arrow { display: none; } /* hide arrows on mobile */
+  .carousel-dots { display: flex; }
+  .carousel-dots button { width: 12px; height: 12px; }
+  .trek-hero-title, .trek-hero-subtitle { white-space: normal; } /* allow wrap on small screens */
+}
+
+/* responsive heights */
 @media (max-width: 767px) {
-  .trek-hero {
-    margin-top: -55px;
-    height: 70vh; /* not full screen */
-  }
-
-  .trek-hero-title {
-    font-size: 2rem; /* fixed safe size */
-  }
-
-  .trek-hero-subtitle {
-    font-size: 1.1rem;
-  }
+  .trek-hero { height: 70vh; margin-top: -55px; }
 }
 
 
