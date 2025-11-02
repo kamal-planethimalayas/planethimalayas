@@ -1617,7 +1617,7 @@ seo: {
         { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate-Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
-        { emoji: "⚡", label: "Trek Distance", value: "75 Km" },
+        { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
         { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
         { emoji: "📍", label: "Start Point", value: "Yuksom (West Sikkim)" },
