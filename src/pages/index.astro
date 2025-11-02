@@ -278,18 +278,35 @@ import "../styles/global.css";
   color: white;
 }
 
+/* Smooth fade + slide blend transition */
 .carousel-track {
   display: flex;
-  transition: transform 1s ease-in-out;
+  position: relative;
   height: 100%;
 }
 
 .carousel-slide {
-  min-width: 100%;
-  height: 100vh;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
   background-size: cover;
   background-position: center;
-  position: relative;
+  background-repeat: no-repeat;
+  transform: scale(1.05);
+}
+
+/* Active slide (visible) */
+.carousel-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+/* Keep other slides behind */
+.carousel-slide:not(.active) {
+  z-index: 1;
 }
 
 .overlay {
@@ -956,7 +973,6 @@ window.addEventListener("scroll", () => {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".carousel-slide");
-  const track = document.querySelector(".carousel-track");
   const leftArrow = document.querySelector(".carousel-arrow.left");
   const rightArrow = document.querySelector(".carousel-arrow.right");
   const dots = document.querySelectorAll(".carousel-dots button");
@@ -966,9 +982,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let autoSlide;
 
   function updateUI() {
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    dots.forEach(dot => dot.classList.remove("active"));
-    dots[currentIndex].classList.add("active");
+    slides.forEach((slide, index) => {
+      slide.classList.toggle("active", index === currentIndex);
+    });
+    dots.forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
   }
 
   function showNext() {
@@ -1005,7 +1024,7 @@ document.addEventListener("DOMContentLoaded", () => {
   hero.addEventListener("mouseenter", () => clearInterval(autoSlide));
   hero.addEventListener("mouseleave", resetAutoSlide);
 
-  // Swipe support
+  // Swipe support (for mobile)
   let startX = 0;
   hero.addEventListener("touchstart", e => startX = e.touches[0].clientX);
   hero.addEventListener("touchend", e => {
