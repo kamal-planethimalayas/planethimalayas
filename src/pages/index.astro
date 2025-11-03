@@ -78,7 +78,7 @@ import "../styles/global.css";
 <div class="container">
 <!-- Testimonials Section -->
 <section class="testimonials reveal">
-  <h2 class="testimonials-heading">What our trekkers say</h2>
+  <h2 class="testimonials-heading">What our <span>trekkers say</span></h2>
   <div class="section-underline"></div>
 
   <!-- Wrapper to hold arrows + cards -->
@@ -180,7 +180,7 @@ import "../styles/global.css";
 
 <!-- UPCOMING TREKS: Winter Treks -->
 <section class="trek-section reveal">
-  <h2>Upcoming Treks</h2>
+  <h2>Upcoming <span>Treks</span></h2>
   <div class="section-underline"></div>
   <div class="trek-cards-wrapper">
     <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
@@ -214,36 +214,61 @@ import "../styles/global.css";
 
 <!-- News Section -->
 <section class="news-section reveal">
-  <h2 class="news-section-heading">News & Articles</h2>
+  <h2 class="news-section-heading">News & <span>Articles</span></h2>
   <div class="section-underline"></div>
   <NewsSection client:load />
 </section>
 
 <!-- Faqs Section -->
 <section class="faqs-section reveal">
-    <h2 class="faqs-section-heading">FAQs</h2>
+    <h2 class="faqs-section-heading">FAQ<span>s</span></h2>
     <div class="section-underline"></div>
 
     <!-- FAQ topics -->
-    {trekFAQs.map((topicBlock, topicIndex) => (
-      <div class="faq-topic" data-topic-index={topicIndex}>
-        <div class="faq-topic-header" role="button" aria-expanded="false">
-          <span class="topic-toggle">▶</span>
-          <h3>{topicBlock.topic}</h3>
-        </div>
-        <div class="faq-topic-body" data-open="false" aria-hidden="true" style="display:none;">
-          {topicBlock.faqs.map((faq, faqIndex) => (
-            <div class="faq-item" data-faq-index={faqIndex}>
-              <div class="faq-question" role="button" aria-expanded="false">
-                <span class="faq-toggle">&gt;</span>
-                <span set:html={faq.question}></span>
-              </div>
-              <div class="faq-answer" set:html={faq.answer} hidden></div>
-            </div>
-          ))}
-        </div>
-      </div>
-    ))}
+<!-- FAQ topics -->
+{trekFAQs.map((section, sectionIndex) => (
+          <div class="faq-topic" id={`faq-topic-${sectionIndex}`}>
+            <button class="faq-topic-header" aria-expanded="false">
+              {section.topic}
+              <span class="toggle">▶</span>
+            </button>
+            <div class="faq-topic-body" hidden>
+              {section.sections
+                ? section.sections.map((sub, subIndex) => (
+                    <div class="faq-subtopic" id={`faq-${sectionIndex}-${subIndex}`}>
+                      <button class="faq-subtopic-header" aria-expanded="false">
+                        {sub.subtopic}
+                        <span class="toggle">▶</span>
+                      </button>
+                      <div class="faq-subtopic-body" hidden>
+                        {sub.faqs.map((faq, faqIndex) => (
+                          <div class="faq-item" id={`faq-${sectionIndex}-${subIndex}-${faqIndex}`}>
+                            <button class="faq-question" aria-expanded="false">
+                              {faq.question}
+                              <span class="toggle">+</span>
+                            </button>
+                            <div class="faq-answer" hidden>
+                              <div set:html={faq.answer}></div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))
+                : section.faqs.map((faq, faqIndex) => (
+                    <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
+                      <button class="faq-question" aria-expanded="false">
+                        {faq.question}
+                        <span class="toggle">+</span>
+                      </button>
+                      <div class="faq-answer" hidden>
+                        <div set:html={faq.answer}></div>
+                      </div>
+                    </div>
+                  ))}
+    </div>
+  </div>
+))}
 
     <!-- Link to full FAQs page -->
     <div class="faq-footer">
@@ -773,83 +798,177 @@ import "../styles/global.css";
   text-align: left;
 }
 
-  .faqs-section {
-    background-color: white;
-    position: relative;
-  }
+/* ========================= */
+/* 🌄 FAQ SECTION STYLES     */
+/* ========================= */
 
-  .faqs-section-heading {
-    font-size: 2rem;
-    font-family: 'Helvetica', sans-serif;
-    text-align: left;
-  }
-  .faq-topic {
-    margin-bottom: 0.5rem;
-    border: 1px solid #eee;
-    border-radius: 6px;
-    overflow: hidden;
-  }
-  .faq-topic-header {
-    background: #f9f9f9;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .faq-topic-body {
-    padding: 0.5rem 1rem;
-  }
-  .faq-item {
-    margin-bottom: 0.5rem;
-  }
-  .faq-question {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  .faq-question:hover {
-        color: #ff7300; /* brand color on hover */
-    }
-    /* Keep brand color when FAQ is open */
-    .faq-question[aria-expanded="true"] {
-        color: #ff7300;
-    }
-  .faq-answer {
-    position: relative;
-    margin: 0.3rem 0 0.8rem 1.5rem;
-    padding-left: 1rem;
-    font-size: 1rem;
-  }
-  .faq-answer::before {
-    content: "";
-    position: absolute;
-    left: 0;               /* start at left edge of faq-answer */
-    top: 0;
-    width: 4px;            /* thickness of the brand bar */
-    height: 100%;
-    background-color: #ff7300; /* your brand color */
-    border-radius: 2px;    /* optional: rounded edges */
-  }
-  .faq-footer {
-    text-align: left;
-    margin-top: 1rem;
-  }
-  .faq-footer a {
-    color: #ff7300;
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-  }
-  .faq-footer a:hover {
-    text-decoration: underline;
-  }
+.faqs-section {
+  background-color: white;
+  position: relative;
+  padding: 2rem 0;
+}
 
+.faqs-section-heading {
+  font-size: 2rem;
+  font-family: 'Helvetica', sans-serif;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Topic Level --- */
+.faq-topic {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+}
+
+.faq-topic-header {
+  background: #f9f9f9;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.faq-topic-header:hover {
+  background: #f3f3f3;
+  color: #ff7300;
+}
+
+.faq-topic-body {
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  background: white;
+}
+
+/* --- Subtopic Level --- */
+.faq-subtopic {
+  margin: 0.8rem 0;
+  border-left: 3px solid #ff7300;
+  padding-left: 0.8rem;
+}
+
+.faq-subtopic-header {
+  background: #fff6ef;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  transition: color 0.3s ease;
+}
+
+.faq-subtopic-header:hover {
+  color: #ff7300;
+}
+
+.faq-subtopic-body {
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 2px dotted #ff7300;
+}
+
+/* --- Individual FAQ Items --- */
+.faq-item {
+  margin-bottom: 0.5rem;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+  transition: color 0.3s ease;
+}
+
+.faq-question:hover {
+  color: #ff7300;
+}
+
+.faq-question[aria-expanded="true"] {
+  color: #ff7300;
+}
+
+.faq-answer {
+  position: relative;
+  margin: 0.3rem 0 0.8rem 1.5rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.faq-answer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ff7300;
+  border-radius: 2px;
+}
+
+.toggle {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* --- Footer Link --- */
+.faq-footer {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.faq-footer a {
+  color: #ff7300;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.faq-footer a:hover {
+  text-decoration: underline;
+}
+
+.testimonials.reveal h2 span {
+  color: #ff7300;
+}
+
+.trek-section.reveal h2 span {
+  color: #ff7300;
+}
+
+.news-section.reveal h2 span {
+  color: #ff7300;
+}
+
+.faqs-section.reveal h2 span {
+  color: #ff7300;
+}
 </style>
 
 </div>
@@ -926,29 +1045,50 @@ window.scrollCards = scrollCards;
 </script>
 
 <script>
-  // Topic toggles
-  document.querySelectorAll(".faq-topic-header").forEach(header => {
-    header.addEventListener("click", () => {
-      const expanded = header.getAttribute("aria-expanded") === "true";
-      header.setAttribute("aria-expanded", !expanded);
+  document.addEventListener("DOMContentLoaded", () => {
+    const faqTopics = document.querySelectorAll(".faq-topic");
 
-      const body = header.nextElementSibling;
-      body.setAttribute("data-open", !expanded);
-      body.setAttribute("aria-hidden", expanded);
-      body.style.display = expanded ? "none" : "block";
-      header.querySelector(".topic-toggle").textContent = expanded ? "▶" : "▼";
+    // --- Topic Toggle ---
+    faqTopics.forEach(topic => {
+      const header = topic.querySelector(".faq-topic-header");
+      const body = topic.querySelector(".faq-topic-body");
+
+      header.addEventListener("click", () => {
+        const expanded = header.getAttribute("aria-expanded") === "true";
+        header.setAttribute("aria-expanded", !expanded);
+        body.hidden = expanded;
+        body.style.display = expanded ? "none" : "block";
+        header.querySelector(".topic-toggle").textContent = expanded ? "▶" : "▼";
+      });
     });
-  });
 
-  // Individual FAQ toggles
-  document.querySelectorAll(".faq-question").forEach(question => {
-    question.addEventListener("click", () => {
-      const expanded = question.getAttribute("aria-expanded") === "true";
-      question.setAttribute("aria-expanded", !expanded);
+    // --- Subtopic Toggle ---
+    document.querySelectorAll(".faq-subtopic").forEach(sub => {
+      const subHeader = sub.querySelector(".faq-subtopic-header");
+      const subBody = sub.querySelector(".faq-subtopic-body");
+      if (!subHeader || !subBody) return;
 
-      const answer = question.nextElementSibling;
-      answer.hidden = expanded;
-      question.querySelector(".faq-toggle").textContent = expanded ? ">" : "v";
+      subHeader.addEventListener("click", () => {
+        const expanded = subHeader.getAttribute("aria-expanded") === "true";
+        subHeader.setAttribute("aria-expanded", !expanded);
+        subBody.hidden = expanded;
+        subBody.style.display = expanded ? "none" : "block";
+        subHeader.querySelector(".subtopic-toggle").textContent = expanded ? "▸" : "▾";
+      });
+    });
+
+    // --- FAQ Question Toggle ---
+    document.querySelectorAll(".faq-item").forEach(item => {
+      const btn = item.querySelector(".faq-question");
+      const answer = item.querySelector(".faq-answer");
+      if (!btn || !answer) return;
+
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", !expanded);
+        answer.hidden = expanded;
+        btn.querySelector(".faq-toggle").textContent = expanded ? ">" : "v";
+      });
     });
   });
 </script>

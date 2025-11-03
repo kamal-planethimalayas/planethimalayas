@@ -29,17 +29,39 @@ import { trekFAQs } from "../data/faqsData.js";
               <span class="toggle">▶</span>
             </button>
             <div class="faq-topic-body" hidden>
-              {section.faqs.map((faq, faqIndex) => (
-                <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
-                  <button class="faq-question" aria-expanded="false">
-                    {faq.question}
-                    <span class="toggle">+</span>
-                  </button>
-                  <div class="faq-answer" hidden>
-                    <div set:html={faq.answer}></div>
-                  </div>
-                </div>
-              ))}
+              {section.sections
+                ? section.sections.map((sub, subIndex) => (
+                    <div class="faq-subtopic" id={`faq-${sectionIndex}-${subIndex}`}>
+                      <button class="faq-subtopic-header" aria-expanded="false">
+                        {sub.subtopic}
+                        <span class="toggle">▶</span>
+                      </button>
+                      <div class="faq-subtopic-body" hidden>
+                        {sub.faqs.map((faq, faqIndex) => (
+                          <div class="faq-item" id={`faq-${sectionIndex}-${subIndex}-${faqIndex}`}>
+                            <button class="faq-question" aria-expanded="false">
+                              {faq.question}
+                              <span class="toggle">+</span>
+                            </button>
+                            <div class="faq-answer" hidden>
+                              <div set:html={faq.answer}></div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))
+                : section.faqs.map((faq, faqIndex) => (
+                    <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
+                      <button class="faq-question" aria-expanded="false">
+                        {faq.question}
+                        <span class="toggle">+</span>
+                      </button>
+                      <div class="faq-answer" hidden>
+                        <div set:html={faq.answer}></div>
+                      </div>
+                    </div>
+                  ))}
             </div>
           </div>
         ))}
@@ -47,89 +69,110 @@ import { trekFAQs } from "../data/faqsData.js";
     </div>
   </section>
 
-  <script>
-  const searchInput = document.getElementById("faq-search");
-  const faqTopics = document.querySelectorAll(".faq-topic");
-
-  // Search filter
-  searchInput.addEventListener("input", () => {
-    const value = searchInput.value.toLowerCase();
-
-    faqTopics.forEach(topic => {
-      let hasVisible = false;
-      const items = topic.querySelectorAll(".faq-item");
-      const topicHeader = topic.querySelector(".faq-topic-header");
-      const topicBody = topic.querySelector(".faq-topic-body");
-
-      items.forEach(item => {
-        const question = item.querySelector(".faq-question").textContent.toLowerCase();
-        const answer = item.querySelector(".faq-answer").textContent.toLowerCase();
-        const topicTitle = topic.querySelector(".faq-topic-header").textContent.toLowerCase();
-
-        const match =
-          question.includes(value) ||
-          answer.includes(value) ||
-          topicTitle.includes(value);
-
-        item.style.display = match ? "block" : "none";
-        if (match) hasVisible = true;
-      });
-
-      topic.style.display = hasVisible ? "block" : "none";
-
-      // Expand topic if any FAQ is visible
-      if (hasVisible) {
-        topicBody.hidden = false;
-        topicHeader.setAttribute("aria-expanded", "true");
-        topicHeader.querySelector(".toggle").textContent = "▼";
-      } else {
-        topicBody.hidden = true;
-        topicHeader.setAttribute("aria-expanded", "false");
-        topicHeader.querySelector(".toggle").textContent = "▶";
-      }
-
-      // Reset topic if search box is cleared
-      if (value === "") {
-        topicBody.hidden = true;
-        topicHeader.setAttribute("aria-expanded", "false");
-        topicHeader.querySelector(".toggle").textContent = "▶";
-      }
-    });
-  });
-
-  // Toggle topic body
-  faqTopics.forEach(topic => {
-    const header = topic.querySelector(".faq-topic-header");
-    const body = topic.querySelector(".faq-topic-body");
-    header.addEventListener("click", () => {
-      const expanded = header.getAttribute("aria-expanded") === "true";
-      header.setAttribute("aria-expanded", !expanded);
-      body.hidden = expanded;
-      header.querySelector(".toggle").textContent = expanded ? "▶" : "▼";
-    });
-  });
-
-  // Toggle individual FAQ
-  const faqItems = document.querySelectorAll(".faq-item");
-  faqItems.forEach(item => {
-    const btn = item.querySelector(".faq-question");
-    const answer = item.querySelector(".faq-answer");
-    btn.addEventListener("click", () => {
-      const expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", !expanded);
-      answer.hidden = expanded;
-      btn.querySelector(".toggle").textContent = expanded ? "+" : "–";
-    });
-  });
-</script>
-
 <script>
+    const searchInput = document.getElementById("faq-search");
+    const faqTopics = document.querySelectorAll(".faq-topic");
+
+    searchInput.addEventListener("input", () => {
+      const value = searchInput.value.toLowerCase();
+
+      faqTopics.forEach(topic => {
+        let hasVisibleTopic = false;
+        const topicHeader = topic.querySelector(".faq-topic-header");
+        const topicBody = topic.querySelector(".faq-topic-body");
+
+        const subtopics = topic.querySelectorAll(".faq-subtopic");
+        const items = topic.querySelectorAll(".faq-item");
+
+        // Hide/show subtopics and items
+        subtopics.forEach(sub => {
+          let hasVisibleSub = false;
+          const subHeader = sub.querySelector(".faq-subtopic-header");
+          const subBody = sub.querySelector(".faq-subtopic-body");
+          const subItems = sub.querySelectorAll(".faq-item");
+
+          subItems.forEach(item => {
+            const question = item.querySelector(".faq-question").textContent.toLowerCase();
+            const answer = item.querySelector(".faq-answer").textContent.toLowerCase();
+            const match = question.includes(value) || answer.includes(value) || subHeader.textContent.toLowerCase().includes(value);
+            item.style.display = match ? "block" : "none";
+            if (match) hasVisibleSub = true;
+          });
+
+          sub.style.display = hasVisibleSub ? "block" : "none";
+          subBody.hidden = !hasVisibleSub;
+          subHeader.setAttribute("aria-expanded", hasVisibleSub ? "true" : "false");
+          subHeader.querySelector(".toggle").textContent = hasVisibleSub ? "▼" : "▶";
+          if (hasVisibleSub) hasVisibleTopic = true;
+        });
+
+        // Handle items without subtopics
+        items.forEach(item => {
+          const question = item.querySelector(".faq-question").textContent.toLowerCase();
+          const answer = item.querySelector(".faq-answer").textContent.toLowerCase();
+          const match = question.includes(value) || answer.includes(value) || topicHeader.textContent.toLowerCase().includes(value);
+          item.style.display = match ? "block" : "none";
+          if (match) hasVisibleTopic = true;
+        });
+
+        topic.style.display = hasVisibleTopic ? "block" : "none";
+
+        // Expand/Collapse topic
+        topicBody.hidden = !hasVisibleTopic;
+        topicHeader.setAttribute("aria-expanded", hasVisibleTopic ? "true" : "false");
+        topicHeader.querySelector(".toggle").textContent = hasVisibleTopic ? "▼" : "▶";
+
+        if (value === "") {
+          topicBody.hidden = true;
+          topicHeader.setAttribute("aria-expanded", "false");
+          topicHeader.querySelector(".toggle").textContent = "▶";
+        }
+      });
+    });
+
+    // Toggle topic body
+    faqTopics.forEach(topic => {
+      const header = topic.querySelector(".faq-topic-header");
+      const body = topic.querySelector(".faq-topic-body");
+      header.addEventListener("click", () => {
+        const expanded = header.getAttribute("aria-expanded") === "true";
+        header.setAttribute("aria-expanded", !expanded);
+        body.hidden = expanded;
+        header.querySelector(".toggle").textContent = expanded ? "▶" : "▼";
+      });
+    });
+
+    // Toggle subtopic body
+    const subtopics = document.querySelectorAll(".faq-subtopic");
+    subtopics.forEach(sub => {
+      const subHeader = sub.querySelector(".faq-subtopic-header");
+      const subBody = sub.querySelector(".faq-subtopic-body");
+      subHeader.addEventListener("click", () => {
+        const expanded = subHeader.getAttribute("aria-expanded") === "true";
+        subHeader.setAttribute("aria-expanded", !expanded);
+        subBody.hidden = expanded;
+        subHeader.querySelector(".toggle").textContent = expanded ? "▶" : "▼";
+      });
+    });
+
+    // Toggle individual FAQ
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach(item => {
+      const btn = item.querySelector(".faq-question");
+      const answer = item.querySelector(".faq-answer");
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", !expanded);
+        answer.hidden = expanded;
+        btn.querySelector(".toggle").textContent = expanded ? "+" : "–";
+      });
+    });
+
     // Simple parallax effect for hero title
     const heroTitle = document.querySelector(".faq-hero-title");
     window.addEventListener("scroll", () => {
       const scrollY = window.scrollY;
-      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`; 
-      // moves slower than scroll for subtle depth
+      heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
     });
   </script>
 
@@ -275,5 +318,61 @@ import { trekFAQs } from "../data/faqsData.js";
       font-size: 1rem;
       font-weight: bold;
     }
+
+    /* =========================
+   FAQ Subtopics (Nested)
+   ========================= */
+.faq-subtopic {
+  margin: 0.5rem 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.faq-subtopic-header {
+  width: 100%;
+  background: #f1f1f1;
+  border: none;
+  padding: 0.45rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.faq-subtopic-header:hover {
+  transform: translateY(-2px);
+  background: #ffe6d1; /* subtle brand accent on hover */
+}
+
+.faq-subtopic-header[aria-expanded="true"] {
+  color: #ff7300;
+}
+
+.faq-subtopic-body {
+  padding: 0.5rem 1rem 0.5rem 1.5rem; /* indent slightly more than main topic */
+  background: #fff;
+  border-left: 3px solid #ff7300;
+}
+
+.faq-subtopic-body .faq-item {
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.faq-subtopic-body .faq-question {
+  font-size: 0.95rem;
+}
+
+.faq-subtopic-body .faq-answer {
+  margin-left: 1.5rem;
+  padding-left: 0.8rem;
+}
+
   </style>
 </Layout>

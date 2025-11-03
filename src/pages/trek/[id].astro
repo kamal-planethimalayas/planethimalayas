@@ -107,24 +107,28 @@ const groupedDates = trek.dates?.length
 <section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper">
 <div class="price-box">
       <h2>INR {trek.price.toLocaleString()}</h2>
-      <p class="subheading"> {trek.priceNote ? <em>{trek.priceNote}</em> : null}</p>
+      <p class="subheading">{trek?.priceNote}</p>
 
       <h3>Addons (Optional)</h3>
         <ul>
-        {trek.addons.transport ? (
-      <li>
-        <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()} 
-        {trek.addons.transportNote ? <em>({trek.addons.transportNote})</em> : null}
-      </li>
-      ) : null}
-    
-        {trek.addons.offloadingbag ? (
-      <li>
-        <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
-        {trek.addons.offloadingNote ? <em>({trek.addons.offloadingNote})</em> : null}
-      </li>
-        ) : null}
-        </ul>
+          {trek.addons.transport !== null ? (
+          <li>
+            <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()}
+            {trek.addons.transportNote ? <em>({trek.addons.transportNote})</em> : null}
+          </li>
+          ) : trek.addons.transportNote ? (
+          <li>
+            <strong>Transportation</strong> – <em>{trek.addons.transportNote}</em>
+          </li>
+          ) : null}
+
+          {trek.addons.offloadingbag ? (
+          <li>
+            <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
+            {trek.addons.offloadingNote ? <em>({trek.addons.offloadingNote})</em> : null}
+          </li>
+          ) : null}
+      </ul>
 
         <!-- Trigger links -->
       <p>

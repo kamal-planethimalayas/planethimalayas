@@ -802,6 +802,10 @@ export const treks = [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517746/buran-ghati-view4_xxsmbn.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517738/buran-ghati-view9_o29ib9.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517737/buran-ghati-view8_oioktb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007240/buran-ghati-view35_znayci.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007249/buran-ghati-view26_tpwze7.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view33_sqkwhz.jpg",
 
     ],
 
@@ -3991,8 +3995,282 @@ For its breathtaking mountain views, rich flora and fauna, and deep cultural imm
   },
 
   faqsLink: "/pages/faqs-and-articles",
-}
+},
 
+{
+  id: "pin-parvati-pass-trek",
+  name: "Pin Parvati Pass Trek",
+  tags: ["pass"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["july", "august", "september"],
+  duration: ["10 Nights / 11 Days"],
+  region: "himachal pradesh",
+  coordinates: [
+    [31.9985, 77.3588], // Barshaini (start)
+    [32.0127, 77.4311], // Kheerganga
+    [32.0442, 77.5189], // Tunda Bhuj
+    [32.0761, 77.6123], // Thakur Kuan
+    [32.0911, 77.7135], // Odi Thach
+    [32.0985, 77.8262], // Mantalai Lake
+    [32.0978, 77.8917], // Base Camp (Parvati side)
+    [32.1022, 77.9445], // Pin Parvati Pass (17,450 ft)
+    [32.1318, 77.9814], // Pin Valley
+    [32.1862, 78.0544], // Mudh Village (end)
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
+  ],
+
+  subtitle: "Traverse the Untamed Himalayas",
+
+  seo: {
+    title: "Pin Parvati Pass Trek | Route, Itinerary & Cost | Planethimalayas",
+    description: "Pin Parvati Pass Trek (17,450 ft) is one of the most thrilling high-altitude crossovers in Himachal. A 11-day expedition that bridges lush Parvati Valley and stark Pin Valley of Spiti — glaciers, meadows, and raw Himalayan drama in one trek."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days (+1 buffer day)" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,450 ft (Pin Parvati Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "July to September" },
+      { emoji: "🗺️", label: "Region", value: "Kullu & Spiti, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Barshaini (near Kasol)" },
+      { emoji: "🏁", label: "End Point", value: "Kaza, Spiti Valley" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not vailable" },
+    ],
+
+    snippet:
+      "The Pin Parvati Pass Trek is far more than just a Himalayan trail — it’s a bold journey across two completely distinct worlds. On one side, the Parvati Valley greets you with its lush, emerald forests, cascading waterfalls, hot springs, and vibrant meadows alive with flowers and birdsong. On the other, the Pin Valley unfolds as a high-altitude cold desert, a land of ochre cliffs, sapphire skies, and barren stretches that seem untouched by time. At an astonishing 5,289 meters, the pass itself stands as the ultimate bridge between these extremes — a place where greenery gives way to arid lands, moisture yields to thin, crisp air, and gentle streams transform into ice-laden rivers. <br>The trek begins at Barshaini, near the quaint village of Kasol, where the trail winds through the dreamy meadows of Kheerganga and Odi Thach, each step immersing you deeper into the wild heart of Himachal. You traverse rivers, cross wooden bridges, navigate dense forests, and ascend flower-strewn meadows before reaching the serene glacial lake of Mantalai, a campsite cradled by the towering peaks. The final push to the pass is a test of endurance and mountain sense, negotiating glaciers, steep ascents, and unpredictable high-altitude conditions. The moment you stand on the pass, gazing at the dramatic transition from Parvati’s green abundance to the stark, almost surreal Spiti Valley, you feel the Himalayas in their raw, unfiltered glory. <br>This is not a trek for the faint-hearted. The Pin Parvati Pass demands stamina, acclimatization, and respect for the high-altitude wilderness, where help is far away, and every stream crossing, rock scramble, or icy patch carries its own risks. Yet, it is precisely this challenge that makes it so unforgettable. Along the way, you also witness the fascinating coexistence of Himalayan cultures — from the forest-dwelling communities of Parvati Valley to the resilient villages of Spiti, shaped entirely by their environment. Every day brings new perspectives, new terrain, and new moments of awe that imprint themselves on your memory."
+  },
+
+  price: 46900,
+  priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
+  addons: {
+    transport: null,
+    offloadingbag: 7500,
+    transportNote: "* Trekkers can request transport arrangements from Manali to Barshaini and from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+    offloadingNote: "* Max weight 9 kg per bag."
+  },
+
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to packed lunch on Day 10",
+
+  enquireOnly: true,
+
+  highlights: [
+    "A rare crossover connecting lush Parvati Valley to arid Spiti Valley",
+    "Cross one of the highest Himalayan passes at 17,450 ft",
+    "Witness dramatic terrain shifts — meadows, moraines, glaciers, and deserts",
+    "Camp beside the sacred Mantalai Lake, the origin of the Parvati River",
+    "Experience both Buddhist and Hindu cultures in a single trek route",
+    "A challenging, raw, and rewarding trek for seasoned trekkers only"
+  ],
+
+ itinerary: [
+  {
+    day: 1,
+    title: "Bhuntar (2,000M) to Barsheni (2,580M)",
+    details: `• Distance: 50 kms | Duration: 2.5 hours<br>
+
+• The trek begins with a relaxed start — assembling at Bhuntar and driving up to Barsheni, the trailhead for the Pin Parvati Pass trek. Bhuntar, just 11 km from Kullu, is well connected via its airport to major cities. The scenic drive of 50 km takes around 2.5 hours. From Barsheni, we trek a short stretch of less than 20 minutes to Kalga. The remainder of the day is spent going through the trek itinerary, meeting fellow trekkers, checking gear, and settling into your guesthouse or campsite. This day allows you to absorb the first glimpse of the Himalayan landscape and prepare for the adventure ahead.`
+  },
+  {
+    day: 2,
+    title: "Kalga (2,280M) to Kheerganga (2,960M)",
+    details: `• Distance: 8 kms | Duration: 6 hours<br>
+
+• Kalga is a quaint village in Parvati Valley, surrounded by apple orchards and colorful flora. The trail begins with a steep descent to the riverbed, followed by a moderate climb to Nakthan village — a tiny settlement of 20–30 households. Nakthan offers a brief respite and some refreshments, with views of the roaring Parvati River. From here, we continue through meadows and past Rudranag Temple, named after the nearby serpent-like waterfall. After crossing a wooden bridge over the Parvati River, the trail gradually ascends to Kheerganga. This campsite lies in the heart of a vast meadow, with natural hot springs perfect for a warm dip — likely the last for several days. The trail has multiple stream crossings, but plenty of rest points make it manageable.`
+  },
+  {
+    day: 3,
+    title: "Kheerganga (2,960M) to Tunda Bhuj (3,200M)",
+    details: `• Distance: 11.37 kms | Duration: 4-5 hours<br>
+
+• We begin early from Kheerganga, trekking through flower-strewn meadows. The trail alternates between muddy paths and flat terrain through dense forests. While the distance is moderate, the real challenge is resisting frequent halts to admire the landscape and capture photographs. The final stretch involves a steep climb through mucky terrain, followed by a short walk across meadows. As you spot the foamy waterfalls across the river, you'll know you've reached the Tunda Bhuj campsite, surrounded by cliffs and the gentle roar of the Parvati River.`
+  },
+  {
+    day: 4,
+    title: "Tunda Bhuj (3,200M) to Thakur Kuan (3,620M)",
+    details: `• Distance: 5.24 kms | Duration: 3-4 hours<br>
+
+• After breakfast, we leave Tunda Bhuj, following a trail dotted with meadows and cascading waterfalls. The day involves a 400M climb, making it a relatively easy trek. There is a tricky section about an hour into the trail, where landslides are possible, so caution is advised. As the tree line ends, the terrain becomes rocky. Thakur Kuan’s campsite is a vast pasture beside the Parvati River, with a nearby trolley bridge to explore if you arrive early.`
+  },
+  {
+    day: 5,
+    title: "Thakur Kuan (3,620M) to Odi Thatch (3,815M)",
+    details: `• Distance: 9.66 kms | Duration: 4-5 hours<br>
+
+• Today is thrilling, with two natural boulder bridges to cross — Pandu Pul 1 and Pandu Pul 2 — in the middle of the ferocious Parvati River. After the river-crossing adventure, the trail eases into a straight shepherd trail with multiple paths leading to Odi Thatch. This campsite, true to its name meaning 'meadows', is set in an expansive alpine pasture, offering a galactic-like panorama. Careful navigation is needed to follow the guide through the labyrinthine trail.`
+  },
+  {
+    day: 6,
+    title: "Odi Thatch (3,815M) to Mantalai Lake (4,096M)",
+    details: `• Distance: 10.31 kms | Duration: 5-6 hours<br>
+
+• The trail today is straightforward with gentle ascents until the final 300M climb to Mantalai Lake. Along the way, we reach Mini Mantalai, a junction where numerous streams converge. The lake is glacial, serene, and considered sacred, surrounded by the mighty Himalayas. The campsite is on the lake’s banks, offering a peaceful environment to relax and prepare for the higher altitude sections ahead.`
+  },
+  {
+    day: 7,
+    title: "Mantalai (4,096M) to Base Camp I (4,800M)",
+    details: `• Distance: 4.45 kms | Duration: 5-6 hours<br>
+
+• A demanding day with an 800M ascent. We start early before dawn while temperatures are lowest. The trail begins muddy with sections of loose scree. After crossing these, the ascent continues to a spur, then a moraine section which, though short, is challenging. Base Camp I sits on the edge of the Parvati glacier, offering spectacular views under moonlight or sunrise.`
+  },
+  {
+    day: 8,
+    title: "Base Camp I (4,800M) to Base Camp II via Pin Parvati Pass (5,289M)",
+    details: `• Distance: 6.37 kms | Duration: 7-8 hours<br>
+
+• Today is the summit push. An early start ensures firm ice for safer trekking. We traverse glaciers, negotiating open and hidden crevasses. The final 300–400M steep climb leads to the Pin Parvati Pass at 5,289M, with breathtaking views of Parvati Valley on one side and Pin Valley on the other. A long descent of about 1.5 km brings us to Base Camp II on the Pin Valley side, where we set up camp for the night.`
+  },
+  {
+    day: 9,
+    title: "Base Camp II (4,800M) to Wichkurung Thatch (3,500M)",
+    details: `• Distance: 11.83 kms | Duration: 6 hours<br>
+
+• The trail today is mostly descent. The first 3 km is steep, followed by river crossings and gentle flat stretches. After crossing streams and walking along the riverbank, we reach Wichkurung Thatch — a scenic, peaceful campsite in the Spiti region. The pace is easier, giving trekkers time to enjoy the high-altitude desert landscape.`
+  },
+  {
+    day: 10,
+    title: "Wichkurung Thatch (3,500M) to Mudh Village (3,970M) & Drive to Kaza (3,800M)",
+    details: `• Distance: 15.26 kms | Duration: 5 hours trekking + 2-hour drive<br>
+
+• The trail meanders through the wide-open Pin Valley, with multiple streams and unique high-altitude flora. We stop for lunch by a stream, absorbing the barren yet mesmerizing landscape. The trek ends at Mudh Village, the last settlement in Pin Valley, where you can explore local culture and cuisine. Afterwards, we drive for about 2 hours to Kaza, the administrative hub of Spiti Valley, for overnight stay in a guesthouse.`
+  },
+  {
+    day: 11,
+    title: "Kaza (3,800M) to Manali (2,050M) / Buffer Day",
+    details: `• Distance: ~200 km | Duration: 9–10 hours drive<br>
+
+• Kaza is the largest township of Spiti, with monasteries and small hamlets nearby to explore. We drive down to Manali via Kunzum La and Rohtang Pass. In case of delays due to weather or unforeseen circumstances, Day 12 acts as a buffer day. If used, an additional INR 5,000 per person is collected by the trek leader in Kaza. End of trek — a hot shower, hearty meal, and memories for a lifetime.`
+  },
+  {
+    day: 12,
+    title: "Buffer Day",
+    details: 
+`Day 12 is reserved as a buffer to account for unexpected weather changes, trail conditions, or other unforeseeable circumstances. While most trekkers may not need it, it ensures the group has flexibility without compromising safety. If this day is utilized, an additional INR 5,000 per person will be collected by the trek leader in Kaza. It’s advisable to keep this day in mind while planning your travel back, so that your journey ends safely and comfortably.`
+  },
+],
+
+  howToReach: {
+    air: "<br>• Bhuntar Airport (near Kullu) is the closest, about 50 km from Kasol / Barshaini.<br>• Chandigarh Airport offers better connectivity; drive to Kasol takes about 8–9 hrs.<br><em>Shared or private cabs available from Bhuntar to Barshaini (₹1,500–₹3,000)</em>",
+    train: "Joginder Nagar Railway Station (~125 km from Kasol) is the nearest narrow-gauge line; Chandigarh and Pathankot are better connected options for major trains.",
+    road: "<br>• Regular overnight Volvo buses run from Delhi to Bhuntar or Manali.<br>• From Bhuntar, local taxis connect to Kasol and Barshaini.",
+    travelTip: "Start early for the drive to Barshaini to avoid mountain traffic near Kasol."
+  },
+
+  didYouKnow: [
+    "<b>Pin Parvati Pass was discovered by accident in 1884!</b> <br>British surveyors crossed it while mapping routes between Kullu and Spiti — they had no idea a natural route even existed until then.",
+    "<b>The trek connects two completely different worlds.</b> <br>Parvati Valley’s lush meadows and hot springs suddenly give way to Spiti’s dry, high-altitude desert — a surreal transition in just two days.",
+    "<b>Mantalai Lake is considered sacred.</b> <br>Locals believe it’s where Lord Shiva meditated. You’ll often see small stone shrines and prayer flags near its shores.",
+    "<b>Wildlife on the trail is rare but fascinating.</b> <br>You may spot Himalayan blue sheep, marmots, or even footprints of snow leopards near the higher camps.",
+    "<b>It’s a non-technical trek, but not without serious challenges.</b> <br>While you don’t need advanced climbing skills, the trail includes steep sections, river crossings, glacier stretches, and rocky terrain where extreme caution is necessary. The wilderness is remote, with help often far away, so trekkers must be well-prepared, vigilant, and self-reliant throughout this high-altitude journey.",
+    "<b>Pin Valley is part of the Cold Desert Biosphere Reserve.</b> <br>The region’s unique geology and rare high-altitude flora make it one of India’s most striking landscapes."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191227/pin-parvati-pass-view6_h4eopd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191226/pin-parvati-pass-view4_uoz9kw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191213/pin-parvati-pass-view5_dxm14k.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191208/pin-parvati-pass-view3_upywlf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191198/pin-parvati-pass-view2_xgyrkx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191185/pin-parvati-pass-view1_xinpz5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191138/pin-parvati-pass-view32_jpfpjy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191133/pin-parvati-pass-view33_ifw6hn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191124/pin-parvati-pass-view30_evtqhz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191100/pin-parvati-pass-view24_ylkggh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191098/pin-parvati-pass-view28_ecsbsq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191097/pin-parvati-pass-view31_qa6qlz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191084/pin-parvati-pass-view27_rakjcr.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191080/pin-parvati-pass-view21_mw163u.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view26_qg4zpy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view29_fbn5w4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191065/pin-parvati-pass-view20_kqa8xy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191058/pin-parvati-pass-view17_soyif8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191053/pin-parvati-pass-view23_lao9fx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191041/pin-parvati-pass-view25_qleo8d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191031/pin-parvati-pass-view16_rg6hmk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191020/pin-parvati-pass-view22_xo2eue.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191016/pin-parvati-pass-view18_hqgcwr.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191010/pin-parvati-pass-view13_kxs6lz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191003/pin-parvati-pass-view15_jz5ttl.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191002/pin-parvati-pass-view19_c1dxs4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190992/pin-parvati-pass-view9_kaakgq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190988/pin-parvati-pass-view14_tlh415.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190979/pin-parvati-pass-view8_dvy2w9.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view12_i1ie0h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view7_yczld4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190948/pin-parvati-pass-view10_arrpcz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190911/pin-parvati-pass-view11_vt5w1s.jpg"
+  ],
+
+  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Is Pin Parvati Pass trek suitable for beginners?",
+        answer:
+          "No. This is a difficult, high-altitude trek recommended only for experienced trekkers with prior exposure to 14,000+ ft treks. You must be physically fit and mentally prepared for long days, snowfields, and river crossings."
+      },
+      {
+        question: "What is the best time for Pin Parvati Pass?",
+        answer:
+          "Mid-July to late September is ideal, when snow has melted enough to make the pass accessible and Spiti roads are open."
+      },
+      {
+        question: "How should I prepare for the Pin Parvati Pass Trek?",
+        answer:
+          "Preparing for the Pin Parvati Pass trek requires both physical and mental readiness. Physically, focus on endurance training, long hikes with backpacks, and altitude acclimatization if possible. Mentally, be ready for challenging terrain, river crossings, and unpredictable weather — staying positive, patient, and alert will make the experience safer and more rewarding."
+      },
+      {
+        question: "How challenging is the pass crossing day?",
+        answer:
+          "It’s the toughest day of the trek — 8–9 hrs of continuous walking over moraine and snowfields, with a steep climb to the pass and long descent. Early start and proper acclimatization are key."
+      },
+      {
+        question: "Is camping allowed near Mantalai Lake?",
+        answer:
+          "Yes, but campsites are limited. It’s a sacred site — trekkers must maintain silence and avoid littering. No washing or cooking directly at the lake’s edge."
+      },
+      {
+        question: "Will I get mobile network during the trek?",
+        answer:
+          "Network is available only till Barshaini/Kheerganga. After that, it’s a complete digital detox till you reach Mudh in Spiti."
+      },
+      {
+        question: "What kind of gear do I need?",
+        answer:
+          "Good trekking shoes, multiple warm layers, waterproof jacket, poles, headlamp, and snow gloves. Crampons/microspikes may be needed depending on snow."
+      },
+      {
+        question: "Can the trek be done in reverse (from Spiti to Parvati)?",
+        answer:
+          "Technically yes, but it’s tougher due to steeper ascent from the Spiti side and difficult acclimatization. Most organized groups do it from Parvati to Spiti for safety and better altitude gain."
+      },
+      {
+        question: "What makes this trek special?",
+        answer:
+          "The Pin Parvati Pass offers one of the most dramatic landscape shifts in the Indian Himalayas — from lush greenery to stark desert — making it both physically demanding and visually unforgettable."
+      },
+      
+    ]
+  }
+},
 
   // Add other trek objects here...
 ];
