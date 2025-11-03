@@ -646,7 +646,7 @@ export const treks = [
     [31.2628, 77.7369], // Dhunda
     [31.2836, 77.7581], // Buran Ghati Pass (end)
   ],
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517786/buran-ghati-hero1_d4topd.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007240/buran-ghati-view35_znayci.jpg",
@@ -3522,6 +3522,7 @@ itinerary: [
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
+    tags: ["pass"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
