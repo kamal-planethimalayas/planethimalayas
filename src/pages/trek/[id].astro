@@ -5,6 +5,7 @@ import { treks } from '../../data/treksData.js';
 import { trekFAQs } from '../../data/faqsData.js';
 import TrekMap from "../../components/TrekMap.jsx";
 import TrekDateSlots from "../../components/TrekDateSlots.jsx";
+import GalleryLightbox from '../../components/GalleryLightbox.jsx';
 
 export async function getStaticPaths() {
   return treks.map((trek) => ({
@@ -40,6 +41,7 @@ const groupedDates = Array.isArray(trek.dates) && trek.dates.length
     }, {})
   : null;
 
+const { gallery, name } = trek;
 ---
 
 <Layout 
@@ -668,11 +670,7 @@ const groupedDates = Array.isArray(trek.dates) && trek.dates.length
   <!-- Gallery -->
   <section id="gallery">
     <h2 class="section-heading">Gallery</h2>
-    <div class="gallery-grid">
-      {trek.gallery.map((img, i) => (
-        <img key={i} src={img} alt={`${trek.name} image ${i + 1}`} />
-      ))}
-    </div>
+    <GalleryLightbox client:load images={gallery} trekName={name} />
   </section>
 
   <!-- Packing List -->
