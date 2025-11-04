@@ -36,7 +36,7 @@ export default function AuthPage() {
     }
   }, []);
 
-  // --- Handle Email/Password Login or Signup ---
+  // Handle Email/Password Login or Signup
   async function handleAuth(e) {
     e.preventDefault();
     setLoading(true);
@@ -81,66 +81,56 @@ export default function AuthPage() {
     setLoading(false);
   }
 
-  // --- Handle Google Login ---
-  async function handleGoogleLogin() {
-    setLoading(true);
-    try {
-      const { data, error } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: {
-          redirectTo: window.location.origin + window.location.pathname,
-        },
-      });
-      if (error) throw error;
-      // Supabase handles redirect automatically
-    } catch (err) {
-      setError(err.message);
-      setLoading(false);
-    }
-  }
-
   return (
-    <div style={{ maxWidth: 400, margin: "auto", padding: 16, fontFamily: "Roboto, sans-serif" }}>
+    <div style={{
+      maxWidth: 400,
+      margin: "auto",
+      padding: 16,
+      fontFamily: "Roboto, sans-serif",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center"
+    }}>
       {/* Logo */}
-      <a href="/" style={{ textDecoration: "none" }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem" }}>
-          <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "50px", marginRight: "10px" }} />
-          <h2 style={{ fontFamily: "Helvetica, sans-serif", fontSize: "1.8rem", margin: 0 }}>
-            <span style={{ color: "black" }}>Planet</span>
-            <span style={{ color: "#ff7300" }}>himalayas</span>
-          </h2>
-        </div>
+      <a href="/" style={{ textDecoration: "none", marginBottom: "1.5rem", display: "flex", alignItems: "center" }}>
+        <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "50px", marginRight: "10px" }} />
+        <h2 style={{ fontFamily: "Helvetica, sans-serif", fontSize: "1.8rem", margin: 0 }}>
+          <span style={{ color: "black" }}>Planet</span>
+          <span style={{ color: "#ff7300" }}>himalayas</span>
+        </h2>
       </a>
 
       {/* Title */}
-      <h1 style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: 16, textAlign: "center" }}>
-        <span style={{ marginTop: "0.5rem", color: "#ff7300", fontWeight: "bold" }}>
+      <h1 style={{ textAlign: "center", marginBottom: 24 }}>
+        <span style={{ color: "#ff7300", fontWeight: "bold", fontSize: "1.5rem" }}>
           {loading ? <>Loading{dots}</> : isLogin ? "Login" : "Sign Up"}
         </span>
       </h1>
 
       {/* Form */}
-      <form onSubmit={handleAuth}>
-        <label htmlFor="email" style={{ display: "block", marginBottom: 4 }}>Email</label>
-        <input
-          id="email"
-          type="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={{ width: "100%", padding: 8, marginBottom: 16, fontSize: 16 }}
-          required
-        />
+      <form onSubmit={handleAuth} style={{ width: "100%" }}>
+        <div style={{ marginBottom: 16 }}>
+          <label htmlFor="email" style={{ display: "block", marginBottom: 4 }}>Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            style={{ width: "100%", padding: "10px 12px", fontSize: 16, borderRadius: 6, border: "1px solid #ccc", boxSizing: "border-box" }}
+            required
+          />
+        </div>
 
-        <label htmlFor="password" style={{ display: "block", marginBottom: 4 }}>Password</label>
-        <div style={{ position: "relative", marginBottom: 16 }}>
+        <div style={{ marginBottom: 16, position: "relative" }}>
+          <label htmlFor="password" style={{ display: "block", marginBottom: 4 }}>Password</label>
           <input
             id="password"
             type={showPassword ? "text" : "password"}
             placeholder="Enter your password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            style={{ padding: 8, fontSize: 16, width: "100%" }}
+            style={{ width: "100%", padding: "10px 12px", fontSize: 16, borderRadius: 6, border: "1px solid #ccc", boxSizing: "border-box" }}
             required
           />
           <button
@@ -148,12 +138,13 @@ export default function AuthPage() {
             onClick={() => setShowPassword(!showPassword)}
             style={{
               position: "absolute",
-              right: 8,
+              right: 10,
               top: "50%",
               transform: "translateY(-50%)",
               background: "none",
               border: "none",
               cursor: "pointer",
+              fontSize: 16,
             }}
           >
             {showPassword ? "👁️" : "🙈"}
@@ -167,48 +158,23 @@ export default function AuthPage() {
           type="submit"
           disabled={loading}
           style={{
+            width: "100%",
+            padding: "10px 12px",
             backgroundColor: "#ff7300",
             color: "white",
-            padding: "12px 0",
-            width: "100%",
+            fontSize: 16,
+            fontWeight: "bold",
             border: "none",
             borderRadius: 6,
             cursor: loading ? "not-allowed" : "pointer",
-            fontWeight: "bold",
-            fontSize: 16,
+            boxSizing: "border-box"
           }}
         >
           {loading ? "Please wait..." : isLogin ? "Login" : "Sign Up"}
         </button>
       </form>
 
-      {/* Google Login */}
-      <div style={{ marginTop: 16, textAlign: "center" }}>
-        <p>or</p>
-        <button
-          onClick={handleGoogleLogin}
-          disabled={loading}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "8px",
-            backgroundColor: "white",
-            color: "#555",
-            padding: "10px 0",
-            width: "100%",
-            border: "1px solid #ccc",
-            borderRadius: 6,
-            cursor: "pointer",
-            fontWeight: "bold",
-          }}
-        >
-          <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" style={{ width: "20px", height: "20px" }} />
-          Continue with Google
-        </button>
-      </div>
-
-      <p style={{ marginTop: 16, textAlign: "center" }}>
+      <p style={{ marginTop: 20, textAlign: "center" }}>
         {isLogin ? "Don't have an account?" : "Already have an account?"}{" "}
         <button
           type="button"
