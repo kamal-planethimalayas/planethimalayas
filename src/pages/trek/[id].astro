@@ -85,7 +85,7 @@ const groupedDates = Array.isArray(trek.dates) && trek.dates.length
 
   <!-- Trek Overview Section -->
 <section class="trek-overview-section reveal">
-  <h2 class="trek-overview-title">Trek Overview</h2>
+  <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
   <div class="trek-overview-underline"></div>
 
   <!-- Facts cards -->
@@ -1301,6 +1301,10 @@ const groupedDates = Array.isArray(trek.dates) && trek.dates.length
   padding: 0;
   margin: 0 0 0.5rem 0; /* small vertical spacing between blocks */
   box-shadow: none;
+}
+
+.trek-overview-section.reveal h2 span {
+  color: #ff7300;
 }
 
 .trek-overview-card ul {
