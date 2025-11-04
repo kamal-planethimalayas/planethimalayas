@@ -3748,7 +3748,7 @@ itinerary: [
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["family", "beginner"],
+  tags: ["beginner"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],

@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import { blogs } from "../../data/blogsData.js";
 import { supabase } from "../../lib/supabaseClient.js";
 import BlogInteractions from "../../components/BlogInteractions.jsx";
+import ShareButtons from "../../components/ShareButtons.jsx";
 
 // -------------------
 // DYNAMIC ROUTING
@@ -31,7 +32,7 @@ const { data } = await supabase
   .from("blog_interactions")
   .select("*")
   .eq("blog_slug", slug)
-  .single(); // fetch one row
+  .single();
 
 if (data) {
   likes = data.likes;
@@ -48,14 +49,15 @@ if (data) {
     </div>
   )}
 
-  <article class="blog-content reveal">
+  <!-- Share buttons at the top -->
+  <ShareButtons pageUrl={Astro.request.url} pageTitle={blog.title} />
+
+  <article class="blog-content">
     <p class="meta">{blog.author} · {blog.date}</p>
     <div set:html={blog.content}></div>
   </article>
 
-  
-
-  <!-- Interaction Component -->
+  <!-- Blog interactions -->
   <BlogInteractions
     client:load
     slug={slug}
@@ -63,4 +65,7 @@ if (data) {
     initialDislikes={dislikes}
     initialComments={comments}
   />
+
+  <!-- Share buttons at the bottom -->
+  <ShareButtons pageUrl={Astro.request.url} pageTitle={blog.title} />
 </Layout>

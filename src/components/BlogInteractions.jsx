@@ -5,63 +5,26 @@ import { blogs } from "../data/blogsData.js";
 export default function BlogInteractions({ slug, initialLikes, initialDislikes }) {
   const [likes, setLikes] = useState(initialLikes);
   const [dislikes, setDislikes] = useState(initialDislikes);
-  const [shares, setShares] = useState(0);
   const [comments, setComments] = useState([]);
   const [commentText, setCommentText] = useState("");
   const [showComments, setShowComments] = useState(false);
-  const [showShare, setShowShare] = useState(false);
   const [thankYou, setThankYou] = useState("");
-  const [pageUrl, setPageUrl] = useState(null);
-  const [pageTitle, setPageTitle] = useState(null);
-
-  // Set page URL & title
-  useEffect(() => {
-    if (typeof window !== "undefined") setPageUrl(window.location.href);
-    if (typeof document !== "undefined") setPageTitle(document.title);
-  }, []);
-
-  // Close dropdowns on outside click / Esc
-  useEffect(() => {
-    function handleClickOutside(e) {
-      if (!e.target.closest(".share-dropdown") && !e.target.closest(".interaction-btn")) {
-        setShowShare(false);
-      }
-    }
-    function handleEsc(e) {
-      if (e.key === "Escape") {
-        setShowShare(false);
-        setShowComments(false);
-      }
-    }
-    document.addEventListener("click", handleClickOutside);
-    document.addEventListener("keydown", handleEsc);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-      document.removeEventListener("keydown", handleEsc);
-    };
-  }, []);
 
   // 🔹 Auto-upsert all blog slugs once
   useEffect(() => {
     const ensureAllBlogsExist = async () => {
       try {
-        // Create an array of objects with just slugs
         const allSlugs = blogs.map(b => ({ blog_slug: b.slug }));
-
-        // Upsert in bulk
         const { error } = await supabase
           .from("blog_interactions")
           .upsert(allSlugs, { onConflict: "blog_slug", ignoreDuplicates: true });
-
         if (error) console.error("Error upserting all blogs:", error);
-
       } catch (err) {
         console.error(err);
       }
     };
-
     ensureAllBlogsExist();
-  }, []); // run once
+  }, []);
 
   // 🔹 Fetch interaction data for current slug
   useEffect(() => {
@@ -69,7 +32,7 @@ export default function BlogInteractions({ slug, initialLikes, initialDislikes }
       try {
         const { data, error } = await supabase
           .from("blog_interactions")
-          .select("likes, dislikes, shares, comments")
+          .select("likes, dislikes, comments")
           .eq("blog_slug", slug)
           .single();
 
@@ -78,14 +41,12 @@ export default function BlogInteractions({ slug, initialLikes, initialDislikes }
         if (data) {
           setLikes(data.likes ?? 0);
           setDislikes(data.dislikes ?? 0);
-          setShares(data.shares ?? 0);
           setComments(data.comments ?? []);
         }
       } catch (err) {
         console.error("Error fetching blog interaction:", err);
       }
     };
-
     fetchData();
   }, [slug]);
 
@@ -137,22 +98,6 @@ export default function BlogInteractions({ slug, initialLikes, initialDislikes }
     }
   };
 
-  // Share handler
-  const handleShare = async () => {
-    const newShares = shares + 1;
-    setShares(newShares);
-
-    const { error } = await supabase
-      .from("blog_interactions")
-      .update({ shares: newShares })
-      .eq("blog_slug", slug);
-
-    if (error) {
-      console.error("Failed to update shares:", error);
-      setShares(prev => prev - 1);
-    }
-  };
-
   return (
     <div className="interaction-bar">
       <div className="interaction-group">
@@ -168,50 +113,6 @@ export default function BlogInteractions({ slug, initialLikes, initialDislikes }
         >
           💬 Comments ({comments.length})
         </button>
-        <button
-          onClick={() => setShowShare(!showShare)}
-          className="interaction-btn"
-        >
-          🔗 Share ({shares})
-        </button>
-
-        {/* Share dropdown */}
-        {showShare && pageUrl && pageTitle && (
-          <div className="share-dropdown show">
-            <a
-              onClick={handleShare}
-              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
-            <a
-              onClick={handleShare}
-              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(pageTitle)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-            <a
-              onClick={handleShare}
-              href={`https://www.linkedin.com/shareArticle?url=${encodeURIComponent(pageUrl)}&title=${encodeURIComponent(pageTitle)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              onClick={handleShare}
-              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(pageTitle + " " + pageUrl)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WhatsApp
-            </a>
-          </div>
-        )}
       </div>
 
       {/* Comments Section */}
