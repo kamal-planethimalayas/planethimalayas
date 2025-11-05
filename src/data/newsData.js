@@ -1,28 +1,26 @@
 export const news = [
 
   {
-  title: "Hooray! - Recent rainfall caused season's first snowfall across the Himalayas above 13000ft.",
+  title: "Weather is pleasant and ideal for trekking across all slopes.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details: `
-    <p>Treks are underway on all slopes.</p>
-    <p>Conditions are favorable for withdrawl of monsoon soon. Most of the slopes are dry with isolated rainfall.</p>
-    <p>Roads though mostly open are still not in the best of conditions and repair works are underway. Everyone is requested to travel with caution and buffer days in hand. Please cooperate with the mountain authorities in case of delays due to climatic issues.</p>`
+    <p>• Treks are underway on all slopes.</p>
+  `
 },
 
   {
-    title: "Hurry! – Flat 15% Off on all Upcoming Treks - Valid till 31st Oct!",
+    title: "No active discount offer/s",
     type: "news",
     head: "Offers",
     thumbnail: "/images/main/offer-logo.png",
-    details: `<p>
-  Enjoy a flat <strong>15% discount</strong> on trek fees for all upcoming treks when you book on or before <strong>31st October 2025</strong>. Secure your spot now!</p>
+    details: `<p>• No active discount offer/s</p>
   <h3>Conditions:</h3>
 <ul>
-  <li>Discount applies <strong>only on trek fees</strong>. Add-ons (travel, offloading, rentals) are billed at original prices.</li>
-  <li>Offer is <strong>not valid</strong> on advance booking system.</li>
-  <li>Full payment must be made through our official booking form with proper authentication.</li>
+  <li>• Discount applies <strong>only on trek fees</strong>. Add-ons (travel, offloading, rentals) are billed at original prices.</li>
+  <li>• Offer is <strong>not valid</strong> on advance booking system.</li>
+  <li>• Full payment must be made through our official website booking form with proper authentication.</li>
 </ul>`  
 },
   
@@ -31,8 +29,8 @@ export const news = [
   type: "news",
   head: "Slopes",
   thumbnail: "/images/main/brand-logo-news.png",
-  details: `<p>Our first batch of the season completed the trek successfully with holding great spirit despite of overcast caonditions and hidden summit view.</p>
-  <p>Our last batch to Rupin Pass returned back from upper waterfall campsite due to heavy snowfall</p>`
+  details: `<p>• Our first batch of the season completed the trek successfully with holding great spirit despite of overcast conditions and hidden summit view.</p>
+  <p>• Our last batch to Rupin Pass returned back from upper waterfall campsite due to heavy snowfall</p>`
 },
 
   {
