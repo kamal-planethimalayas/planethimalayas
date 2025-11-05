@@ -50,7 +50,7 @@ export const treks = [
       transport: 4000,
       offloadingbag: 4800,
       transportNote: "* Shimla to Manali",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
@@ -257,7 +257,7 @@ export const treks = [
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
       offloadingbag: 4000,
-      offloadingNote: "* Maximum weight 9kg/bag"
+      offloadingNote: "* Maximum weight 9kg  /bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
@@ -463,7 +463,7 @@ export const treks = [
       transport: 4000, 
       offloadingbag: 4800,
       transportNote: "* Shimla to Shimla",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
@@ -682,7 +682,7 @@ export const treks = [
       transport: 4000, 
       offloadingbag: 4800,
       transportNote: "* Shimla to Shimla",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
@@ -901,7 +901,7 @@ seo: {
       transport: 2800, 
       offloadingbag: 2400,
       transportNote: "* Rishikesh to Rishikesh",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
@@ -998,32 +998,32 @@ seo: {
   {
     day: 1,
     title: "Drive from Rishikesh to Lohajung (7,600 ft)",
-    details: "• Distance: ~250 km | Duration: 9–10 hrs<br>• Scenic drive through Devprayag, Rudraprayag, and Karnaprayag — confluences where sacred rivers merge.<br>• Rolling Himalayan foothills, terraced fields, and apple orchards along the way.<br>• Stay at Lohajung — a quaint base village steeped in local legends of Goddess Parvati’s battle with the demon Lohasur."
+    details: "• Distance: ~250 km | Duration: 9–10 hrs<br>• A scenic drive through Devprayag, Rudraprayag, and Karnaprayag — confluences where sacred rivers merge. Experience the rolling himalayan foothills, terraced fields, and apple orchards along the way. Expect to reach Lohajung late in the evening - a quaint base village steeped in local legends of Goddess Parvati’s battle with the demon Lohasur. Overnight stay in a guesthouse."
   },
   {
     day: 2,
     title: "Lohajung to Didna Village (8,200 ft)",
-    details: "• Trek Distance: ~6 km | Duration: 4–5 hrs.<br>• Initial descent to the Neel Ganga river — a refreshing rest spot with crystal-clear waters.<br>• Gradual ascent through oak and rhododendron forests, especially spectacular in spring when blossoms paint the trail red and pink.<br>• Reach Didna — a rustic Himalayan hamlet offering insights into traditional mountain life.<br>• Stay in tents or local homestays."
+    details: "• Trek Distance: ~6 km | Duration: 4–5 hrs.<br>• Initial descent to the Neel Ganga river — a refreshing rest spot with crystal-clear waters. Gradual ascent through oak and rhododendron forests, especially spectacular in spring when blossoms paint the trail red and pink. Reach Didna — a rustic Himalayan hamlet offering insights into traditional mountain life. We trek past the village for an overnight camping in the woods."
   },
   {
     day: 3,
     title: "Didna to Ali Bugyal (11,000 ft)",
-    details: "• Trek Distance: ~6 km | Duration: 5–6 hrs.<br>• Forest climb transforms into open meadows as you enter Ali Bugyal.<br>• Experience the magical moment when the tree line vanishes and sprawling grasslands suddenly stretch as far as the eye can see.<br>• Himalayan flora: dwarf rhododendrons, primulas, and tiny wild strawberries in season.<br>• Camp amidst panoramic views of Trishul and Nanda Ghunti."
+    details: "• Trek Distance: ~6 km | Duration: 5–6 hrs.<br>• A quiet forest climb initailly today suddenly transforms into open meadows as you enter Ali Bugyal. Experience the magical moment when the tree line vanishes and sprawling grasslands suddenly stretch as far as the eye can see. Experience himalayan flora like dwarf rhododendrons, primulas, and tiny wild strawberries in spring and autumn season. Camp overnight amidst the panoramic views of Trishul and Nanda Ghunti. Sunrise and sunset from this point are the rare magical and unforgettable moments to experience."
   },
   {
     day: 4,
     title: "Ali Bugyal to Bedni Bugyal (11,500 ft) and return",
-    details: "• Trek Distance: ~5 km round trip | Duration: 4–5 hrs.<br>• Gentle ridge walk connecting Ali & Bedni — considered one of the most beautiful meadow walks in India.<br>• Visit Bedni Kund — a sacred pond where pilgrims perform rituals during the Nanda Devi Raj Jat Yatra.<br>• Panoramic views of Chaukhamba, Neelkanth, and Hathi–Ghodi Parvat ranges.<br>• Return to camp at Ali Bugyal for an evening under star-studded skies."
+    details: "• Trek Distance: ~5 km round trip | Duration: 4–5 hrs.<br>• Trek along the gentle ridge connecting Ali & Bedni — considered one of the most beautiful meadow walks in India. Visit Bedni Kund — a sacred pond where pilgrims perform rituals during the Nanda Devi Raj Jat Yatra.Experience the panoramic views of Trishul, Nanda-Ghunti, Chaukhamba, Neelkanth, and Hathi–Ghodi Parvat ranges. Return to camp at Ali Bugyal for yet another evening under star-studded sky."
   },
   {
     day: 5,
-    title: "Ali Bugyal to Wan Village (7,800 ft)",
-    details: "• Trek Distance: ~10 km | Duration: 5–6 hrs.<br>• Long descent through ancient oak groves and shepherd huts, still used by nomadic herders.<br>• Stop at the centuries-old Latu Devta shrine — locals believe even priests enter blindfolded due to the deity’s immense power.<br>• Reach Wan — one of the highest motorable villages in the region, with wooden homes and terraced fields.<br>• Stay in guesthouse/homestay."
+    title: "Ali Bugyal to Wan Village (7,800 ft) | Drive to Lohajung",
+    details: "• Trek Distance: ~10 km | Duration: 5–6 hrs.<br>• Prepare for a long descent zig-zagging your way through forest with ancient oak groves and shepherd huts, still used by nomadic herders. Once you reach Wan village, stop at the centuries-old Latu Devta shrine — locals believe even priests enter blindfolded due to the deity’s immense power. Wan is one of the highest motorable villages in the region, with wooden homes and terraced fields. After a cultural exploration of Wan village, drive back to Lohajung for yet another overnight stay in guesthouse."
   },
   {
     day: 6,
-    title: "Drive from Wan/Lohajung to Rishikesh",
-    details: "• Distance: ~250 km | Duration: 10–11 hrs.<br>• Return through Garhwal’s valleys, river confluences, and mountain settlements.<br>• A long but scenic journey back, carrying meadow memories and Himalayan energy."
+    title: "Drive from Lohajung to Rishikesh",
+    details: "• Distance: ~250 km | Duration: 10–11 hrs.<br>• Return through Garhwal’s valleys, river confluences, and mountain settlements. A long but scenic journey back, carrying meadow memories and Himalayan energy."
   }
 ],
 
@@ -1130,13 +1130,15 @@ seo: {
     [30.5278, 79.2236], // Tungnath
     [30.5411, 79.2253], // Chandrashila Summit (end)
   ],
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517859/chandrashila-hero1_vvwwz0.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
 
-    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755517859/chandrashila-hero1_vvwwz0.jpg",
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517852/chandrashila-hero_r8w4xm.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517841/chandrashila-view5_e0xdz7.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329747/chandrasila-trek-spring-view_hcem1p.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
-                
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517840/chandrashila-view6_le2ugy.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329740/chandrashila-summit-view1_qg5i13.jpg",
     ],
     subtitle: "A Perfect Himalayan Panorama",
 
@@ -1166,8 +1168,8 @@ seo: {
     addons: {
       transport: 2800, 
       offloadingbag: 1800,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      transportNote: "* Haridwar to Haridwar",
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
@@ -1326,7 +1328,12 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517841/chandrashila-view5_e0xdz7.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517840/chandrashila-view6_le2ugy.jpg",
-
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329886/chandrasila-trek-spring-view2_bg7mi8.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329747/chandrashila-summit-view_ur9bev.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329747/chandrasila-trek-spring-view_hcem1p.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329743/chandrasila-trek-spring-view1_w4djrk.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329740/chandrashila-summit-view1_qg5i13.jpg",
     ],
 
     downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
@@ -1422,8 +1429,8 @@ seo: {
     addons: {
       transport: 3000, 
       offloadingbag: 5000,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      transportNote: "* Rishikesh to Rishikesh",
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
@@ -1637,8 +1644,8 @@ seo: {
     addons: {
       transport: 3000, 
       offloadingbag: 6300,
-      transportNote: "* Siliguri/Bagdogra to Siliguri/Bagdogra",
-      offloadingNote: "* Maximum weight 9kg/bag"
+      transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
+      offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
@@ -1672,48 +1679,48 @@ seo: {
    itinerary: [
   {
     day: 1,
-    title: "Arrive at Yuksom (1,780 m / 5,840 ft)",
-    details: "• 6–7 hr drive from NJP/Bagdogra through tea gardens, river valleys and Sikkimese foothills.<br>• Yuksom is the first capital of Sikkim (est. 1642) — expect prayer flags, small gompas and a gentle village rhythm.<br>• Use the afternoon to sort permits, check gear and rest — light walks to Norbugang Coronation Throne or Kathok Lake help stretch legs and acclimatise slightly.<br>• Evening: meet the crew, discuss the route, and have a hot dinner in a family-run guesthouse. Hydrate and sleep early — the real trekking begins tomorrow."
+    title: "NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
+    details: "• ~150 km | 6–7 hr drive<br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, misty river valleys, and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and crisper, and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries, and quiet lanes lined with traditional homes. After checking into a cozy guesthouse, spend the evening sorting out documents for trek permits, checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim’s royal and spiritual history. As dusk settles over the valley, meet your trek crew over a warm dinner, discuss the trail ahead, and get a good night’s rest — tomorrow, your Himalayan adventure truly begins."
   },
   {
     day: 2,
     title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
-    details: "• Trek: ~8 km | 5–6 hrs.<br>• Trail profile: gradual climb through dense temperate forest following the Rathong River; several stream crossings and three suspension bridges.<br>• Vegetation & sights: subtropical to temperate transition — bamboo understory, thick ferns, moss-draped oaks, chestnuts and tall magnolias. In spring the rhododendrons here begin to show color; orchids and epiphytic ferns are common on older trunks.<br>• Experience: listen for the river’s roar below the canopy; the air is humid and rich with forest smells. Campsite is a quiet forest clearing; tents set among tall pines. Keep belongings dry — mist and dew are common."
+    details: "• Trek: ~8 km | 5–6 hrs.<br>• Your Goechala adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
   },
   {
     day: 3,
     title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
-    details: "• Trek: ~7 km | 4–5 hrs.<br>• Trail profile: steady ascent with switchbacks; the climb intensifies after Bakhim.<br>• Vegetation & sights: oak and rhododendron-dominated slopes. You’ll pass stands of magnolia and abundant mosses; carved wooden bridges and small waterfalls punctuate the route. Bakhim offers a first framed view of distant snowy ridgelines on clear days.<br>• Cultural note: Tshoka is a small Tibetan-style settlement with prayer-flagged huts and a pond; you’ll see mani walls and a simple monastery. Camps here are rustic and sheltered from wind — expect simple hut or camp facilities."
+    details: "• Trek: ~7 km | 4–5 hrs.<br>• The second day of your Goechala Trek takes you from the deep forested camp of Sachen to the vibrant Tibetan settlement of Tshoka, with a refreshing halt at Bakhim along the way. As dawn breaks, the forest awakens to a soft chorus of Himalayan birds — thrushes, flycatchers, and the occasional laughing thrush echoing through the valley. The air feels cool and clean, and the early sunlight streams through oak leaves, painting golden streaks across the trail.<br>After breakfast, you begin a beautiful forest walk that winds gently up and down, following the sound of the Prek Chu River below. The first landmark is the Prek Chu Bridge, a sturdy wooden crossing that sways lightly above a rushing mountain stream — a wonderful photo stop. From here, the trail starts to climb steadily through lush oak, maple, and rhododendron forests, where the melody of birds and rustling leaves set the perfect trekking rhythm. Keep your eyes peeled for the Yellow-billed Blue Magpie, a striking bird that often flits among the canopy.<br>Soon, a steep zigzag ascent brings you to Bakhim (8,600 ft) — a small rest point with mesmerizing views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks while refilling water bottles before the next stretch. From Bakhim, the path turns steeper but far more rewarding as you climb through groves of magnolia trees. In spring, these trees burst into pink and white blooms, transforming the forest into a dreamlike scene straight out of a painting.<br>A little later, you’ll reach Tshoka, a picturesque hamlet perched on an open shelf with prayer-flagged huts and a small monastery overlooking snow-covered giants like Mt. Pandim and Tenzing Khang. The campsite here is stunning — with wooden huts, a serene lake nearby, and a sweeping view of the Eastern Himalayas. Evening is the best time to explore the Tshoka Monastery or simply sit by the lakeside, watching the clouds drift past the peaks.<br>As night falls, the air turns crisp and silent except for the flutter of prayer flags in the wind. Rest well — tomorrow, the trail takes you even deeper into rhododendron country, towards Dzongri."
   },
   {
     day: 4,
     title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
-    details: "• Trek: ~10 km | 6–7 hrs.<br>• Trail profile: sustained climb gaining significant elevation — forest opens into alpine meadows and ridgelines near Dzongri.<br>• Vegetation & sights: the rhododendron corridors become denser lower down, giving way to stunted rhododendrons, juniper scrub and silver firs as you climb. Look for carpets of moss, small alpine herbs and patches of dwarf rhododendron. On a clear day the first broad views of Kanchenjunga, Pandim and Kabru appear here.<br>• Experience: this is a visually dramatic day — bring layers for changing temperatures. Dzongri campground sits on an open meadow with panoramic sunset and sunrise views; nights can be cold and winds pick up after dusk."
+    details: "• Trek: ~8 km | 6–8 hrs.<br>• The fourth day of the Goechala Trek marks one of the most breathtaking — and demanding — sections of the journey, as you climb from the peaceful settlement of Tshoka to the high alpine meadows of Dzongri. The morning at Tshoka feels magical: mist rolling over the wooden huts, prayer flags fluttering softly, and a faint glow on distant snow peaks. After a warm breakfast, you begin your steady ascent toward higher altitudes.<br>The trail starts gently, winding through a dense rhododendron and oak forest, where the cool mountain air carries the earthy scent of moss and rain-soaked wood. Soon, a beautiful wooden walkway appears — a series of planks that guide you through one of the most enchanting sections of the entire trek. In spring, this path transforms into a tunnel of colors, with blooming red, pink, and white rhododendrons draping the forest in a surreal floral canopy. Each step along this stretch feels like walking through a dream — soft creaks beneath your boots, petals scattered across the trail, and an almost sacred stillness in the air.<br>Gradually, the forest thickens again, and the path grows steeper as you climb toward Phedang (12,000 ft) — a scenic clearing lined with prayer flags fluttering against the backdrop of deep green valleys. This is the perfect spot to rest, enjoy a snack, and hydrate before the final push to Dzongri. Beyond Phedang, the trees begin to thin, and the climb becomes more relentless. The gain in altitude is noticeable, so move slowly, breathe deeply, and pace yourself to avoid altitude-related fatigue.<br>After a challenging ascent, you’ll reach Deorali Top, a panoramic ridge that rewards every step of the climb. From here, the view opens dramatically — Kanchenjunga, Pandim, and other towering peaks rise majestically across the skyline, often shimmering through drifting clouds. It’s one of those rare Himalayan moments where silence, effort, and beauty merge perfectly.<br>From Deorali, the terrain levels out into a more gradual path leading to Dzongri, one of the most iconic high-altitude camps in Sikkim. The landscape shifts to open meadows, dwarf rhododendrons, and patches of frost-crusted grass. As the wind turns colder and stronger, you’ll know you’ve truly entered the alpine zone.<br>By evening, you arrive at the Dzongri campsite — a windswept meadow surrounded by snow peaks and crisp mountain air. After settling in, enjoy a hot meal, stay warm inside your tent, and rest deeply. The next morning brings a special reward — the legendary sunrise from Dzongri Top, one of the most magnificent sights in the Eastern Himalayas."
   },
   {
     day: 5,
     title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & trek to Thansing (3,930 m / 12,900 ft)",
-    details: "• Early morning climb to Dzongri Top: ~1–1.5 hrs ascent from camp for sunrise. Expect freezing temperatures before sunrise and a steep but short scramble near the top.<br>• Panorama: Dzongri Top delivers one of the finest sunrise panoramas — Kanchenjunga massif, Kabru, Rathong, and Pandim catching the first light. Spend time absorbing the vista, photographing layered ridgelines and shadow-play across the valleys.<br>• After sunrise: descend to Kokchurang and proceed to Thansing meadow (total trekking for the day ~6–7 hrs including the climb).<br>• Vegetation & sights: alpine meadows dotted with dwarf rhododendrons, junipers and hardy herbs. Yak pastures are common near Thansing, and you'll notice glacial streams cutting the valley.<br>• Camp: Thansing is a broad, high meadow — camps are exposed but the setting is dramatic. Rest well; this is a key acclimatisation point before the summit push."
+    details: "• Trek: ~10 km | 6–8 hrs.<br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After refueling, continue your trek toward Thansing, passing through the open meadows and alpine thickets that make this trail so scenic. The path takes you through wide, rolling Dzongri meadows, where clouds often drift across the mountains, creating a constantly shifting and dreamlike landscape. Moving ahead, the trail enters high-altitude rhododendron and oak forests, where the chirping of birds and rustling leaves provide a peaceful soundtrack to your trek.<br>At the end of the Dzongri meadows, a steep and extended zigzag descent leads to Kokchurang, a small hut and rest point for trekkers at the Prek Chhu riverbed, a place staight out of a storybook. Take a short break here, hydrate, and enjoy a quick snack. From Kokchurang, the trail gradually descends through lush forests, crossing a small river bridge across the Prek Chhu river. On the other side of the river, gentle climbs and open clearings continue to greet you as the landscape transitions from dense woodland to expansive meadows.<br>Finally, the trail opens into the Thansing campsite, nestled at the base of Mt. Tenzing Khang. The close-up views of the surrounding snow-capped peaks are spectacular — on clear days, you can admire the shoulder of Kanchenjunga and the towering Pandim Peak. Once at camp, enjoy a hot lunch and spend the rest of the day relaxing. Layer up as temperatures can drop sharply, especially in the evening. Take short walks around the campsite, capture the stunning scenery, and savor the serene alpine atmosphere.<br>By nightfall, retreat to your tent for a warm meal and a good rest, preparing your body and mind for the adventures that lie ahead. This day combines the thrill of a high-altitude sunrise, panoramic Himalayan views, and a rewarding trek to a stunning campsite — all in one memorable stretch."
   },
   {
     day: 6,
     title: "Thansing to Lamuney (4,180 m / 13,700 ft)",
-    details: "• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).<br>• Trail profile: a short, steady walk across open glacial valleys with panoramic views of Mt. Pandim throughout.<br>• Vegetation & sights: above tree line the vegetation is sparse — low juniper scrub, cushion plants, lichens and alpine grasses. Look closely for small clusters of edelweiss and other high-altitude flowers in season.<br>• Experience: Lamuney is cold and windswept; this campsite is usually the coldest of the trek. Use the afternoon to rest, hydrate and prepare gear for the early start the next morning. Early sleep suggested."
+    details: "• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).<br>• Today offers a break from the tougher sections of the Goechala trek, as you move from Thansing to Lamuney. The trail is short and mostly level, giving your legs a chance to recover while letting you fully enjoy the stunning landscapes around you. After a relaxed breakfast, you’ll start walking through wide, open meadows dotted with wildflowers and gentle streams. The path meanders through the valley, with the snow-capped peaks of Kanchenjunga and its neighboring giants keeping you company along the way.<br>The walk to Lamuney takes around three hours, giving you plenty of time to soak in the serenity and snap photos of the expansive pastures. Once at the campsite, settle into the calm environment, enjoy a hot lunch, and take short walks along the riverside or across the meadows. The quiet of the mountains and the flowing Prek Chu River creates the perfect setting to unwind and reflect on the trek so far.<br>In the evening, your guides will gather everyone for a briefing about the next day — the Goechala Summit. They’ll outline the route, share practical tips, and answer questions to ensure you’re prepared for the most challenging and rewarding day of the trek.<br>As night descends, watch the stars fill the sky above Lamuney, a breathtaking backdrop that reminds you how remote and magical these mountains are. With an early start tomorrow, it’s the perfect opportunity to rest well and recharge for the adventure ahead."
   },
   {
     day: 7,
     title: "Lamuney to Goecha La Viewpoint 1 (4,940 m / 16,200 ft) and return to Thansing/Kokchurang",
-    details: "• Trek: ~12–13 km round trip | 7–8 hrs (start pre-dawn with headlamps).<br>• Summit push: the day begins in darkness. Start early to be at the viewpoint for sunrise. The trail is rocky, often icy in patches depending on season, and requires steady pace and careful footing.<br>• Samiti Lake: you skirt Samiti Lake (a sacred turquoise gem) — note that camping and washing here is prohibited due to local sanctity and conservation rules. The lake reflects Pandim and Kanchenjunga on calm mornings, producing unforgettable photos.<br>• The Viewpoint: Viewpoint 1 offers an up-close, jaw-dropping panorama of Kanchenjunga’s faces and surrounding glaciers. Expect cold winds; peak visibility is often in the early hours before cloud build-up.<br>• Return: descend back to Thansing or Kokchurang for overnight. Take ample fluids and a warm meal after the long exertion."
+    details: "• Trek: ~12–13 km round trip | 8–10 hrs (start pre-dawn with headlamps).<br>• Today is the highlight of your Goechala trek, a day of challenge, awe, and unforgettable mountain vistas. You’ll start before dawn, so an early wake-up is essential. As you step onto the trail in the soft pre-dawn light, the Himalayas slowly come alive around you. Packing your bags the night before will make it easy to move quickly once you return, allowing for lunch and a descent to Thangsing or Kokchurang without any rush.<br>The trek begins with a steady climb over rocky moraines, gradually winding toward Samiti Lake. Since it will still be dark when you start, the lake’s beauty will remain hidden for a while, but the anticipation builds as you trek upward. From here, the trail ascends further, narrowing as it hugs the ridge, leading to the Goechala Viewpoint. Headlamps will guide you along this part of the trail, ensuring safe steps on the rocky path.<br>Reaching the Goechala Viewpoint at sunrise is nothing short of magical. Before you, the towering peaks of Kanchenjunga, Pandim, and Tenzing Khang glow golden as the first light of morning spreads across the Himalayas. The sheer scale and proximity of these giants leave trekkers speechless, and the panorama stretching from snow-covered ridges to distant valleys makes every step of the early climb worthwhile. This moment, standing above the world with the crisp mountain air around you, is one of the most memorable experiences of the trek.<br>After lingering to take in the sweeping vistas, you’ll begin your descent. A short walk brings you to Samiti Lake, where the still waters mirror the surrounding mountains in perfect clarity. Take time to explore the lakeshore, capture photos, and enjoy the serene ambiance before heading back to Lamuney for a hot, satisfying lunch.<br>Depending on the weather and energy levels, you’ll continue your descent to either Thangsing or Kokchurang, retracing some of the trail you covered earlier in the trek. Once you arrive at your campsite, relax in your tent, enjoy a warm meal, and soak in the sense of accomplishment after conquering one of the most stunning viewpoints of the Indian Himalayas."
   },
   {
     day: 8,
     title: "Thansing/Kokchurang to Tshoka",
-    details: "• Trek: ~15–16 km | 6–7 hrs (long descent day).<br>• Trail profile: long downhill through a mixture of high meadows, firs and rhododendron belts — the pace is steady but the distance demands energy management.<br>• Vegetation & sights: as you descend vegetation thickens again — silver firs, rhododendron and mossy trunks reappear. Birdlife increases; keep an eye out for blood pheasants, Tibetan snowcocks at higher altitudes and choughs.<br>• Experience: this is a day to reflect on the trek; the forest feels lush and fragrant again. Reach Tshoka in late afternoon for a warm meal, simple hut-camp comfort and early rest."
+    details: "• Trek: ~15–16 km | 6–7 hrs (long descent day).<br>• Today marks your descent toward Tshoka, giving your legs a mix of gentle climbs and easy downhill stretches through some of the trek’s most enchanting forests. Start your morning at the campsite with a wholesome breakfast, soaking in the fresh mountain air and panoramic surroundings before setting off.<br>Instead of retracing your earlier route, today you’ll follow a different trail from Kokchurang. The path winds through dense, verdant forests where only a single hiker can walk at a time. Tall rhododendrons, pines, and other Himalayan trees flank the trail, creating a serene canopy overhead. If trekking during spring, bursts of red and pink rhododendron flowers add vibrant color to your walk, making the forest feel almost magical.<br>The trail is mostly straightforward but requires attention, especially on steeper sections where the ground can be slippery. Move steadily, breathe in the crisp mountain air, and take time to enjoy the tranquility and natural beauty around you.<br>After about 4–5 hours of trekking, you’ll reach Phedang, your first rest stop of the day. Here, you can pause for a packed lunch while the cool breeze and gentle sounds of the forest refresh you. Re-energized, you’ll continue descending through thick rhododendron groves, following the familiar trail toward Tshoka. The latter part of the trek is gentler, offering a pleasant walk as the forest gradually opens to reveal distant Himalayan peaks.<br>Upon reaching Tshoka, settle into your campsite for the evening. Enjoy a warm meal, reflect on the day’s journey, and rest well — tomorrow will take you further down the trail as the trek winds toward its conclusion."
   },
   {
     day: 9,
     title: "Tshoka to Yuksom",
-    details: "• Trek: ~14 km | 5–6 hrs (final trekking day).<br>• Trail profile: descending through familiar forest trails — Bakhim and Sachen mark the final sections.<br>• Vegetation & sights: expect full return to dense broadleaf forest — large oaks, magnolias, bamboo groves and lush riverine vegetation. Seasonal rhododendrons and orchids may still be visible depending on the month.<br>• Experience: this is your last day on the trail — soak in the sounds of the river, collect final photos and share stories with the crew. Reach Yuksom by afternoon/evening, enjoy a hot shower where possible and a celebratory meal in the village."
+    details: "• Trek: ~14 km | 5–6 hrs (final trekking day).<br>• Your final day of the Goechala Trek takes you back to Yuksom, retracing the scenic trails along the Prek Chu River, through Bakhim and Sachen. Wake up early and enjoy a hearty breakfast at the campsite, preparing for a mostly downhill journey that still promises stunning forested landscapes and river views.<br>The trail is gentle and serene, letting you soak in the last moments of the Himalayas’ tranquility. Along the way, you’ll cross the three iconic iron bridges once more, pass through the quiet hamlets of Bakhim and Sachen, and witness the peaceful rhythm of mountain life. While the descent is easier than climbing, take care on steeper sections to avoid putting too much strain on your knees. Maintain a steady pace and pause whenever you want to capture the surrounding beauty.<br>As you approach Yuksom, a short uphill stretch signals the final push back to civilization. Soon, the familiar sights of the town greet you, along with the return of mobile connectivity. Take some time to explore Yuksom’s rich history and culture. Wander through its quaint streets, visit local monasteries, browse handicraft shops, or simply soak in the welcoming atmosphere.<br>Once you arrive at your guesthouse, enjoy a wholesome meal and reflect on the incredible journey you’ve just completed. This is a day to relax, celebrate your achievement, and take in the memories of a trek that will stay with you forever."
   },
   {
     day: 10,
@@ -1863,7 +1870,7 @@ seo: {
     addons: {
       transport: 3000, 
       offloadingbag: 2400,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -2041,7 +2048,7 @@ seo: {
     addons: {
       transport: 3000, 
       offloadingbag: 3600,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -2236,7 +2243,7 @@ seo: {
     addons: {
       transport: 3000, 
       offloadingbag: 2400,
-      transportNote: "* Dehradun/Rishikesh/Haridwar to Dehradun/Rishikesh/Haridwar",
+      transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -2408,6 +2415,8 @@ seo: {
     price: 22500,
     priceNote: "* Leh to Leh",
     addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
       offloadingbag: 5000,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -2567,7 +2576,8 @@ seo: {
   region: "uttarakhand",
   duration: "5 Nights / 6 Days",
   coordinates: [
-    [30.4141, 79.5603], // Joshimath (base)
+    [30.5561, 79.5617], // Joshimath (base)
+    [30.48226, 79.5981], 
     [30.4755, 79.6151], // Kuari Pass summit
   ],
 
@@ -2576,7 +2586,6 @@ seo: {
   heroImages: [
               "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
               "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
-              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535445/kuari-pass-view16_rmowmz.jpg",
               "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535468/kuari-pass-view18_omgk4v.jpg",
               "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535454/kuari-pass-view4_te0tbe.jpg",
   ],
@@ -2600,7 +2609,7 @@ seo: {
       { emoji: "🏁", label: "End Point", value: "Joshimath" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
-    snippet: `Kuari Pass Trek, famously called the Curzon Trail, is one of the classic Himalayan treks in Uttarakhand, offering postcard-perfect views of Nanda Devi, Kamet, Chaukhamba, and Dronagiri peaks. This moderate trek is ideal for beginners and intermediate trekkers, combining serene oak and rhododendron forests, lush alpine meadows, and snow-clad trails into a truly immersive Himalayan experience. The trail passes through the buffer zone of the Nanda Devi Biosphere Reserve, allowing trekkers to witness rare flora and fauna of this UNESCO-protected region, while remaining outside the restricted core of Nanda Devi National Park. Along the route, trekkers encounter charming Garhwali villages, traditional stone cottages, and the warm hospitality of the local mountain communities. During winter, Kuari Pass transforms into a pristine snow paradise, making it one of the best snow treks in India. With its relatively short duration, manageable altitude gain, and rewarding panoramic summit views, Kuari Pass offers an unforgettable Himalayan adventure blending natural beauty, cultural encounters, and high-altitude trekking thrill.`
+    snippet: `Kuari Pass Trek, famously called the Lord Curzon Trail, is one of the classic Himalayan treks in Uttarakhand, offering postcard-perfect views of the iconic peaks of Uttarakhand like Nanda Devi, Kamet, Chaukhamba, Dronagiri and Hathi-Ghodi. This moderate trek is ideal for beginners and intermediate trekkers, combining serene oak and rhododendron forests, lush alpine meadows of Chitrakantha and Gorson Bugyal, and snow-clad trails into a truly immersive Himalayan experience. The trail passes through the buffer zone of the Nanda Devi Biosphere Reserve, allowing trekkers to witness rare flora and fauna of this UNESCO-protected region, while remaining outside the restricted core of Nanda Devi National Park. Along the route, trekkers encounter charming Garhwali villages, traditional stone cottages, and the warm hospitality of the local mountain communities. During winter, Kuari Pass transforms into a pristine snow paradise, making it one of the best snow treks in India. With its relatively short duration, manageable altitude gain, and rewarding panoramic summit views, Kuari Pass offers an unforgettable Himalayan adventure blending natural beauty, cultural encounters, and high-altitude trekking thrill.`
   },
 
   price: 10900,
@@ -2694,7 +2703,7 @@ seo: {
   ],
 
   highlights: [
-    "Panoramic views of India’s highest peak Nanda Devi and surrounding Himalayan giants",
+    "Panoramic views of India’s highest peak Nanda Devi and surrounding Himalayan giants like Donagiri, Hathi-Ghodi, Kamet, Nandakhat, etc.",
     "Walk through enchanting oak, deodar, and rhododendron forests",
     "Snow-covered meadows in winter that look like a white carpet stretching to the horizon",
     "Stunning sunrise and sunset views over Mt. Dronagiri",
@@ -2704,33 +2713,33 @@ seo: {
   itinerary: [
   { 
     day: 1, 
-    title: "Arrival at Joshimath (6,700 ft)", 
-    details: "• Drive from Rishikesh/Haridwar (approx. 9–10 hrs) along the Alaknanda River, passing picturesque Himalayan valleys and traditional Garhwali villages.<br>• Observe terraced fields, stone houses, and local temples en route, providing a glimpse into the culture and lifestyle of the region.<br>• Scenic views of snow-capped peaks like Nanda Devi and Kamet along the way.<br>• Overnight stay in a guesthouse at Joshimath with local cuisine experience and preparation briefing for the trek." 
+    title: "Rishikesh to Joshimath (6,700 ft)", 
+    details: "• Drive distance: 250 km / 10-11 hrs.<br>• Your road journey today follows the beautiful Badrinath highway, one of the most scenic routes in Uttarakhand. Though it’s a long 9–10 hour drive to Joshimath, every stretch of the road offers something mesmerizing — from quiet mountain villages to sweeping views of deep valleys and fast-flowing rivers. For most of the drive, the Alaknanda River will be your constant companion. At first, it flows gently beside the road, but as you gain altitude, it grows wilder and more dramatic, carving its way fiercely through steep gorges. The changing moods of the river make this journey feel alive and full of energy. Along the way, you’ll cross the four sacred Prayags, each a holy confluence of rivers that eventually form the Ganga. Devprayag marks the meeting of the Alaknanda and Bhagirathi, where the Ganga officially begins her journey. Rudraprayag follows, where the Mandakini joins in; then Karnaprayag, where the Pindar River merges; and finally Nandaprayag, where the Nandakini meets the Alaknanda. Each of these spots is breathtaking in its own way — places where spirituality and nature blend seamlessly. Though the drive is long, it never feels dull. The scenery keeps shifting — emerald forests, distant snow peaks, hanging bridges, and small hillside temples — all adding to the charm of the Himalayas. Keep your camera handy." 
   },
   { 
     day: 2, 
-    title: "Joshimath to Dhak (drive) → Trek to Guling (9,600 ft)", 
-    details: "• Drive 12 km from Joshimath to Dhak, the starting point of the trek.<br>• Begin trekking 6 km / 4–5 hrs through charming mountain villages, where locals may be seen tending to herds of cows and goats.<br>• Trail winds through pine, oak, and rhododendron forests, with the first glimpses of snow-clad peaks in the distance.<br>• Encounter traditional Garhwali stone cottages and prayer flags fluttering along the trail.<br>• Moderate ascent to Guling, with panoramic views of the Mandakini Valley and surrounding peaks.<br>• Camp at Guling amidst serene meadows, perfect for stargazing and experiencing the Himalayan wilderness." 
+    title: "Drive from Joshimath to Tugashi (8000 ft) → Trek to Guling Top (9,400 ft)", 
+    details: "• Drive 15 km | Trek 3 km / 2–3 hrs.<br>• Drive from Joshimath to Tugashi, Your trek begins here, a quiet little mountain village surrounded by terraced fields and traditional Garhwali homes. The trail from here is a mix of gentle and steep climbs, gradually leading you away from village life and into the raw beauty of the mountains. The first stretch winds through farmlands — neat terraces where locals grow potatoes, rajma, and barley. While the lower slopes may seem modest in greenery, the views open up quickly. Far below, the Dhauli Ganga River glimmers like a silver ribbon, and in the distance, you can spot the Vishnugad–Tapovan Hydroelectric Project, reminding you how civilization still lingers in these wild spaces. As you climb higher, the trail grows steeper, but so does the reward. The first glimpse of Dronagiri Peak appears dramatically across the valley — its sharp ridges glowing in the mountain light. It’s one of those moments that stays with you — when the Himalayas suddenly feel close and alive. The final stretch to Gulling Top takes you through patches of forest that slowly open into wide meadows. By the time you reach the campsite, you’re surrounded by grand Himalayan peaks — Dronagiri, Hathi Parvat, Gauri Parvat, and Brahmal Peak — all standing tall against the sky. As the sun dips behind the ridges, the meadows turn golden, and a deep calm settles over the oak forests around. It’s the perfect way to end your first day — with tired legs, a full heart, and the quiet company of the mountains." 
   },
   { 
     day: 3, 
-    title: "Guling to Tali (11,070 ft)", 
-    details: "• Trek 6 km / 5 hrs ascending gradually through dense oak, rhododendron, and birch forests, with seasonal wildflowers along the trail.<br>• Pass through small streams and ridges, offering sweeping views of snow peaks like Nanda Ghunti and Chaukhamba.<br>• Observe Himalayan flora including medicinal herbs and a variety of birds such as Himalayan monal and woodpeckers.<br>• Cultural glimpses of shepherds and their temporary huts along the way.<br>• Reach Tali meadow, a beautiful alpine pasture with panoramic views of the surrounding peaks.<br>• Camp at Tali with optional short nature walks in the evening to explore the flora and fauna." 
+    title: "Guling to Khullara (11,070 ft)", 
+    details: "• Trek 6 km / 5 hrs<br>• The trail today ascends gradually through a dense forest of oak, rhododendron, and birch, where sunlight filters through the trees and paints the ground in shifting shades of green. In spring and summer, the path comes alive with wildflowers blooming along the way, adding color to the quiet wilderness. Small streams and ridges appear at intervals, offering short breaks and sweeping glimpses of distant snow-covered peaks. The forest feels alive — filled with the natural rhythm of the mountains. You’ll hear rivulets murmuring, birds calling, and the rustle of leaves stirred by curious monkeys. Look closely, and you might spot sunbirds, woodpeckers, or even rare Himalayan herbs growing quietly by the trail. After several hours of walking under the thick canopy, the trees suddenly thin out, giving way to dwarf rhododendrons — a sure sign that you’re nearing the alpine zone. Soon, the landscape opens into the stunning Tali Meadows — a vast, undulating expanse surrounded by towering peaks. By the time you reach the Tali campsite, the views are nothing short of magical. In every direction rise the great Himalayan giants — Dronagiri, Kamet, Hathi–Ghodi, Nanda Ghunti, Nanda Devi — glowing golden at sunset and silver under the moonlight. Stay up a little late if the sky is clear — this is one of the best places in the region to witness a breathtaking canopy of stars, spread endlessly above the meadows." 
   },
   { 
     day: 4, 
-    title: "Tali to Kuari Pass (12,516 ft) → Return to Tali", 
-    details: "• Trek 11 km / 7–8 hrs, ascending through a mix of alpine meadows, snow patches (depending on season), and rocky ridges.<br>• Cross sparkling streams, rhododendron-dotted slopes, and open meadows with grazing yaks.<br>• Reach Kuari Pass, where you are rewarded with a stunning 360° view of the Himalayan giants: Nanda Devi, Dronagiri, Chaukhamba, and Hathi Parvat.<br>• Experience the thrill of high-altitude trekking with gradual ascents and some moderate climbs; descend carefully back to Tali.<br>• Overnight stay at Tali campsite with evening stories of local folklore and the mountain environment." 
+    title: "Khullara to Kuari Pass (12,516 ft) → Return to Tali (11,060 ft)", 
+    details: "• Trek 11 km / 7–8 hrs.<br>• This day’s journey is where the real adventure begins. The trail from Khullara campsite climbs steadily above the tree line, opening up into the alpine world of endless views and wind-swept ridges. Within just about an hour of hiking, you’ll reach a high ridge — a historic section of the legendary Lord Curzon Trail. From here, the Himalayas unfold in every direction. To your left and right rise the majestic peaks of Chaukhamba, Neelkanth, Dronagiri, Nilgiri, and Hathi–Ghoda Parvat. Straight ahead, Trishul and distant glimpses of Nanda Devi stand proud above the skyline. The feeling is pure mountain magic. Continue walking on the ridge as the trail leads to the upper grasslands of Kuari Pass. When you reach the shrine marking the ridge, you’ll first spot the dramatic outline of Pangarchulla Peak — one of the most exciting and demanding summit climbs during springtime. From here, a moderate climb takes you to Kuari Top. Although the actual pass lies further down at a small depression, most trekkers choose to summit Kuari Top for its unbeatable views. The reward is breathtaking — a 270° panorama of the Himalayan peaks shimmering in the horizon. After soaking in the views, retrace your steps back to the ridge. Instead of turning towards Khullara, continue walking ahead along the ridge towards Jhandi Top — a one-hour climb that feels like walking the spine of the mountains. From Jhandi Top, the trail descends through the enchanting Chitrakantha meadows. As you move ahead, the forest begins to envelope you once again — tall oaks, whispering pines, and dwarf rhododendrons create a world of their own. The sunlight filters gently through the canopy, painting golden patterns on the forest floor. It’s quiet, calming, and deeply immersive — a side of Uttarakhand’s wilderness you rarely experience. The forest trail leads you to Tali campsite, hidden deep among towering trees, Tali is one of the most atmospheric campsites on the trek — a serene forest haven after a long and rewarding day on the trail." 
   },
   { 
     day: 5, 
-    title: "Tali to Auli → Drive to Joshimath", 
-    details: "• Trek 8 km / 5 hrs through Gorson Meadows, a vast expanse of alpine grasslands dotted with wildflowers and offering panoramic views of snow-capped peaks.<br>• Gentle ascent and descent through trails lined with rhododendron shrubs and pine forests.<br>• Witness shepherds tending to their flocks and nomadic life in high-altitude pastures.<br>• Reach Auli, the famous ski destination, with breathtaking vistas of Nanda Devi and surrounding peaks.<br>• Drive 12 km down to Joshimath for an overnight stay, reflecting on the trek and enjoying local Garhwali cuisine." 
+    title: "Tali to Auli (9,186 ft) → 12km Drive to Joshimath", 
+    details: "• Trek 8 km / 6 hrs<br>• Begin your day with a gentle ascent towards Tali Lake, a serene alpine pond cradled amidst tall oaks and pines. As you rise above the tree line, the world opens up to a breathtaking panorama of snow-clad summits once again. Standing here, you’re greeted by the magnificent view of Mt. Nanda Devi, glowing in the morning light — a moment that quietly humbles every trekker. From Tali Lake, a short but steep climb brings you to a narrow but wide enough to walk, cliffside trail that feels both thrilling and surreal. The ledge hugs the mountain, offering dizzying views of the Tugasi villages far below and rhododendron forests carpeting the valley. Keep an eye out for the majestic Himalayan Griffon circling above — a rare sight that adds magic to this part of the journey. After roughly an hour of moderate ascent, the rocky ledge gives way to the lush green expanse of Gorson Bugyal. Stretching endlessly ahead, these meadows are among the most scenic in the Garhwal Himalayas. As you walk across Gorson’s sweeping slopes, every step reveals wider, grander views of the peaks — Chaukhamba, Hathi Ghoda, and Nilkanth standing tall against the blue sky. This section is pure bliss — a gentle, undulating descent that allows you to soak in the silence and the wind across the meadows. But soon, the calm gives way to signs of habitation as you approach the more frequented trail sections. In next few hours, you’ll reach Padiyar, where the trail enters a dense oak forest. A short walk brings you to the Padiyar Temple, an ideal spot to pause and rest. From here, descend gradually through the woods toward Upper Auli, where the ski lift ends. Beyond that, a final descent through open meadows leads you to Auli — the beautiful gateway back to civilization, marking the end of your unforgettable Himalayan journey. We take a ride from here back to Joshimath - from where we started, for an overnight stay in a comfortable homestay." 
   },
   { 
     day: 6, 
     title: "Departure from Joshimath", 
-    details: "• Drive back to Rishikesh/Haridwar, passing through terraced fields, alpine forests, and scenic valleys.<br>• The journey offers a final glimpse of the majestic Himalayan ranges and the lush Mandakini Valley.<br>• Trip concludes with memories of Kuari Pass, its diverse landscapes, local culture, and natural beauty."
+    details: "• Drive back to Rishikesh/Haridwar, passing through terraced fields, alpine forests, and scenic valleys. The journey offers a final glimpse of the majestic Himalayan ranges and the lush Mandakini Valley. Trip concludes with memories of Kuari Pass, its diverse landscapes, local culture, and natural beauty."
   }
 ],
 
@@ -2863,7 +2872,7 @@ seo: {
   addons: {
     transport: 3000,
     offloadingbag: 1800,
-    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag",
   },
 
@@ -3112,7 +3121,7 @@ itinerary: [
   addons: {
     transport: 2500,
     offloadingbag: 1800,
-    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
@@ -3369,7 +3378,7 @@ itinerary: [
   addons: {
     transport: 3000,
     offloadingbag: 5600,
-    transportNote: "* Dehradun/Rishikesh to Dehradun/Rishikesh",
+    transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
@@ -3805,7 +3814,7 @@ For its breathtaking mountain views, rich flora and fauna, and deep cultural imm
   addons: {
     transport: 2500,
     offloadingbag: 3500,
-    transportNote: "* NJP / Bagdogra to Manebhanjan and return",
+    transportNote: "* NJP / Bagdogra to NJP / Bagdogra",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 

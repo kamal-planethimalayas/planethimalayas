@@ -596,19 +596,17 @@ const { gallery, name } = trek;
 
 </section>
 
-
 <section class="trek-details">
-
   <!-- Trek Navigation -->
   <nav id="trek-nav">
     <ul>
       <li><a href="#highlights">Highlights</a></li>
       <li><a href="#itinerary">Itinerary</a></li>
-      <li><a href="#map">Map</a></li>
-      <li><a href="#how-to-reach">How to Reach</a></li>      
-      <li><a href="#did-you-know">Did You Know?</a></li>
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#packing-list">Packing List</a></li>
+      <li><a href="#did-you-know">Did You Know?</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#how-to-reach">How to Reach</a></li>      
       <li><a href="#faqs">FAQs</a></li>
     </ul>
   </nav>
@@ -636,37 +634,6 @@ const { gallery, name } = trek;
     </div>
   </section>
 
-  <!-- Trek Map Section -->
-  <section id="map"> 
-    <h2 class="section-heading">Map</h2>
-    <TrekMap client:only="react" coordinates={trek.coordinates} />
-  </section>
-
-
-  <!-- How to reach -->
-  <section id="how-to-reach">
-    <h2 class="section-heading">How to reach</h2>
-    <div class="space-y-4">
-      <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
-      <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
-      <p><strong>🛣️ Road:</strong> <span set:html={trek.howToReach.road}></span></p>
-      <p><strong>🗺️ Travel Tip:</strong> <span set:html={trek.howToReach.travelTip}></span></p>
-    </div>
-  </section>
-
-  <!-- Did you know -->
-  <section id="did-you-know">
-    <h2 class="section-heading">Did you know?</h2>
-    <div>
-      {trek.didYouKnow.map((fact, idx) => (
-        <div key={idx} class="did-you-know-fact">
-          <span>✅</span>
-          <span set:html={fact}></span>
-        </div>
-      ))}
-    </div>
-  </section>
-
   <!-- Gallery -->
   <section id="gallery">
     <h2 class="section-heading">Gallery</h2>
@@ -684,6 +651,36 @@ const { gallery, name } = trek;
       </p>
     </section>
 
+    <!-- Did you know -->
+  <section id="did-you-know">
+    <h2 class="section-heading">Did you know?</h2>
+    <div>
+      {trek.didYouKnow.map((fact, idx) => (
+        <div key={idx} class="did-you-know-fact">
+          <span>✅</span>
+          <span set:html={fact}></span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Trek Map Section -->
+  <section id="map"> 
+    <h2 class="section-heading">Map</h2>
+    <TrekMap client:only="react" coordinates={trek.coordinates} />
+  </section>
+
+  <!-- How to reach -->
+  <section id="how-to-reach">
+    <h2 class="section-heading">How to reach</h2>
+    <div class="space-y-4">
+      <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
+      <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
+      <p><strong>🛣️ Road:</strong> <span set:html={trek.howToReach.road}></span></p>
+      <p><strong>🗺️ Travel Tip:</strong> <span set:html={trek.howToReach.travelTip}></span></p>
+    </div>
+  </section>
+
   <!-- Trek Specific FAQs -->
     <section id="faqs">
       <h2 class="section-heading">FAQs</h2>
@@ -698,9 +695,7 @@ const { gallery, name } = trek;
         ))}
       </ul>
     </section>
-
 </section>
- 
 
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", () => {
@@ -714,8 +709,7 @@ const { gallery, name } = trek;
       });
     });
   });
-</script>
-  
+</script>  
 
 <script>
   
@@ -759,12 +753,9 @@ const { gallery, name } = trek;
       });
     });
   });
- 
 </script>
-
-  
+ 
 <style>
-
 .faqs {
   background: #fff;
   padding: 2rem;
@@ -906,7 +897,6 @@ const { gallery, name } = trek;
     scroll-margin-top: 320px; /* bigger offset for vertical nav */
   }
 }
-
 
 /* =========================
    TREK DETAILS CONTENT
@@ -1340,7 +1330,6 @@ const { gallery, name } = trek;
   line-height: 1.6;
   width: 100%;
 }
-
 </style>
 
 <script>
@@ -1523,13 +1512,12 @@ window.addEventListener("scroll", () => {
     floatBtn.addEventListener('click', () => openModal());
 
     // Listen to all Enquire Now buttons
-document.querySelectorAll('.enquire-now-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
+    document.querySelectorAll('.enquire-now-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
     const trekName = btn.dataset.trek; // fetch the trek name
     openModal(trekName); // prefill the modal
+    });
   });
-});
-
 
     // Contact method
     const contactMethod = document.getElementById('contactMethod');
@@ -1573,16 +1561,16 @@ document.querySelectorAll('.enquire-now-btn').forEach(btn => {
         } else {
           alert('There was a problem submitting the form.');
         }
-      } catch (err) {
-        alert('There was a problem submitting the form.');
-      }
-    });
+        } catch (err) {
+          alert('There was a problem submitting the form.');
+        }
+      });
 
-    // Example: Pre-fill modal when a "Plan Now" button is clicked
-    document.querySelectorAll('.plan-now-btn').forEach(btn => {
-      btn.addEventListener('click', () => openModal(btn.dataset.trek));
+      // Example: Pre-fill modal when a "Plan Now" button is clicked
+      document.querySelectorAll('.plan-now-btn').forEach(btn => {
+        btn.addEventListener('click', () => openModal(btn.dataset.trek));
+      });
     });
-  });
 </script>
 
 <script>
