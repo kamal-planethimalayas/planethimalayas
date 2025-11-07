@@ -333,7 +333,7 @@ import SearchBox from "../components/SearchBox.jsx";
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 0.6rem 1.2rem;
-  border-radius: 9999px;
+  border-radius: 8px;
   text-decoration: none;
   box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
   transition: all 0.3s ease;
@@ -370,7 +370,7 @@ import SearchBox from "../components/SearchBox.jsx";
         justify-content: space-between;
         padding:0 24px;
         align-items: center;
-        z-index: 1099;
+        z-index: 1100;
         position: fixed;
         transition: transform 0.3s ease;
         will-change: transform;
@@ -405,9 +405,6 @@ import SearchBox from "../components/SearchBox.jsx";
         gap: 12px;
       }
 
-    
-
-
       /* --- Main Navbar --- */
       nav.main-navbar {
         top: 55px;
@@ -419,8 +416,8 @@ import SearchBox from "../components/SearchBox.jsx";
         justify-content: flex-end;
         padding-right:24px;
         align-items: center;
-        z-index: 1099;
-        position: fixed;
+        z-index: 1200;
+        position: absolute;
         transition: transform 0.3s ease;
         will-change: transform;
       }
@@ -747,18 +744,26 @@ main {
   <slot />
   <WhyPlanethimalayas />  
   <Footer />
+  
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const hamburger = document.getElementById('hamburger-btn');
-  const navLinks = document.getElementById('nav-links');
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector("nav.main-navbar ul.nav-links");
 
-  hamburger.addEventListener('click', () => {
-    // Toggle the mobile menu
-    navLinks.classList.toggle('show');
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
 
-    // Optional: toggle active class on hamburger for animation
-    hamburger.classList.toggle('active');
+  // Detect clicks outside the menu
+  document.addEventListener("click", (e) => {
+    if (
+      navLinks.classList.contains("show") &&
+      !navLinks.contains(e.target) &&
+      !hamburger.contains(e.target)
+    ) {
+      navLinks.classList.remove("show");
+    }
   });
 });
 </script>

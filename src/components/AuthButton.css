@@ -28,8 +28,8 @@
 }
 
 .profile-dropdown {
-  position: absolute;
-  top: 60px; /* slightly below the profile circle */
+  position: fixed; /* not absolute anymore */
+  top: 60px;
   right: 10px;
   background-color: white;
   border-radius: 8px;

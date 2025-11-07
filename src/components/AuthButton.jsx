@@ -93,12 +93,8 @@ export default function AuthButton() {
       {dropdownOpen &&
         createPortal(
           <div className="profile-dropdown">
-            <button className="dropdown-link" onClick={handleDashboardClick}>
-              Dashboard
-            </button>
-            <button className="dropdown-link logout" onClick={handleLogout}>
-              Logout
-            </button>
+            <button className="dropdown-link" onClick={handleDashboardClick}>Dashboard</button>
+            <button className="dropdown-link logout" onClick={handleLogout}>Logout</button>
           </div>,
           document.body
         )}
