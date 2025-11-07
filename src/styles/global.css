@@ -41,7 +41,27 @@ html {
   justify-content: center;
 }
 
+.hero-gallery-btn {
+  position: absolute;
+  bottom: 65px; /* Just above dots */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff7300;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  z-index: 3;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
+.hero-gallery-btn:hover {
+  background: #ff8c1a;
+  transform: translateX(-50%) scale(1.05);
+}
 
 /* image slides stacked absolutely */
 .trek-hero .carousel-slide {
@@ -156,6 +176,22 @@ html {
 /* responsive heights */
 @media (max-width: 767px) {
   .trek-hero { height: 70vh; margin-top: -55px; }
+}
+
+/* On desktop, keep visible (above dots hidden anyway) */
+@media (min-width: 769px) {
+  .hero-gallery-btn {
+    bottom: 45px;
+  }
+}
+
+/* On small mobile screens, maintain spacing */
+@media (max-width: 480px) {
+  .hero-gallery-btn {
+    bottom: 70px;
+    font-size: 0.95rem;
+    padding: 8px 20px;
+  }
 }
 
 

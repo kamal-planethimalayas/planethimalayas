@@ -318,6 +318,8 @@ import SearchBox from "../components/SearchBox.jsx";
 
 .whatsapp-float:hover {
   background-color: #1ebc59;
+  transform: translateY(-2px);
+  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.9);
 }
 
 .whatsapp-icon {
@@ -326,7 +328,7 @@ import SearchBox from "../components/SearchBox.jsx";
 }
 
 .faq-button {
-  background-color: #ff7300; /* your brand color */
+  background-color: #ff7300; /* brand color */
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -334,31 +336,13 @@ import SearchBox from "../components/SearchBox.jsx";
   border-radius: 9999px;
   text-decoration: none;
   box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
 }
 
-.underline-hover {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.underline-hover::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  height: 2px;
-  width: 0%;
-  background-color: #ffffff; /* or #ff7300 for brand orange */
-  transition: width 0.3s ease;
-}
-
-.underline-hover:hover::after {
-  width: 100%;
-}
-
-.how-different {
-  padding: 4rem 2rem;
+.faq-button:hover {
+  background-color: #ff8c33; /* slightly lighter orange */
+  transform: translateY(-2px);
+  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.9);
 }
 
       body {
