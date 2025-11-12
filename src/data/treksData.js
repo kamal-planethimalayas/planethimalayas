@@ -908,12 +908,6 @@ seo: {
 
     dates: [
       
-      { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-      { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-      { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
-      { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-      { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
-      { label: "17 Nov - 22 Nov", start: "2025-11-17", end: "2025-11-22" },
       { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
       { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
       { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
@@ -1180,12 +1174,7 @@ seo: {
 
     dates: [
       
-      { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-      { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-      { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
-      { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-      { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
-      { label: "17 Nov - 22 Nov", start: "2025-11-17", end: "2025-11-22" },
+    
       { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
       { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
       { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
@@ -1660,7 +1649,6 @@ seo: {
 
     dates: [
       
-      { label: "15 Nov - 24 Nov", start: "2025-11-15", end: "2025-11-24" },
       { label: "22 Nov - 01 Dec", start: "2025-11-22", end: "2025-12-01" },
       { label: "29 Nov - 08 Dec", start: "2025-11-29", end: "2025-12-08" },
       { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
@@ -1890,13 +1878,25 @@ seo: {
 
     dates: [
       
-      { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-      { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-      { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-      { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
+     
       { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
       { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-      
+      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
+      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
+      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
+      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
+      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
+      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
+      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
+      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
+      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
+      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
+      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
+      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
     ],
 
     highlights: [
@@ -2015,8 +2015,8 @@ seo: {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
     difficulty: ["moderate"],
-    season: ["summer", "autumn"],
-    month: ["may", "june", "september", "october"],
+    season: ["spring", "summer", "autumn"],
+    month: ["april", "may", "june", "september", "october"],
     duration: ["7 Nights / 8 Days"],
     region: "uttarakhand",
     coordinates: [
@@ -2068,15 +2068,14 @@ seo: {
 
     dates: [
       
-      { label: "07 Nov - 14 Nov", start: "2025-11-07", end: "2025-11-14" },
-      { label: "08 Nov - 15 Nov", start: "2025-11-08", end: "2025-11-15" },
-      { label: "09 Nov - 16 Nov", start: "2025-11-09", end: "2025-11-16" },
-      { label: "14 Nov - 21 Nov", start: "2025-11-14", end: "2025-11-21" },
-      { label: "15 Nov - 22 Nov", start: "2025-11-15", end: "2025-11-22" },
-      { label: "16 Nov - 23 Nov", start: "2025-11-16", end: "2025-11-23" },
-      { label: "21 Nov - 28 Nov", start: "2025-11-21", end: "2025-11-28" },
+     
       { label: "22 Nov - 29 Nov", start: "2025-11-22", end: "2025-11-29" },
-      { label: "23 Nov - 30 Nov", start: "2025-11-23", end: "2025-11-30" },
+      { label: "28 Mar - 04 Apr", start: "2026-03-28", end: "2026-04-04" },
+      { label: "11 Apr - 18 Apr", start: "2026-04-11", end: "2026-04-18" },
+      { label: "18 Apr - 25 Apr", start: "2026-04-18", end: "2026-04-25" },
+      { label: "02 May - 09 May", start: "2026-05-02", end: "2026-05-09" },
+      { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
+      { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
       
     ],
 
@@ -2263,13 +2262,30 @@ seo: {
 
     dates: [
       
-      { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-      { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-      { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-      { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
+      
       { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
       { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-      
+      { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
+      { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
+      { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
+      { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
+      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
+      { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
+      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
+      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
+      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
+      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
+      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
+      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
+      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
+      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
+      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
+      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
+      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
+      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+
     ],
 
     highlights: [
@@ -2637,12 +2653,7 @@ seo: {
 
   dates: [
     
-    { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-    { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-    { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
-    { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-    { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
-    { label: "17 Nov - 22 Nov", start: "2025-11-17", end: "2025-11-22" },
+    
     { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
     { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
     { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
@@ -2896,12 +2907,7 @@ seo: {
 
   dates: [
     
-    { label: "08 Nov - 13 Nov", start: "2025-11-08", end: "2025-11-13" },
-    { label: "09 Nov - 14 Nov", start: "2025-11-09", end: "2025-11-14" },
-    { label: "10 Nov - 15 Nov", start: "2025-11-10", end: "2025-11-15" },
-    { label: "15 Nov - 20 Nov", start: "2025-11-15", end: "2025-11-20" },
-    { label: "16 Nov - 21 Nov", start: "2025-11-16", end: "2025-11-21" },
-    { label: "17 Nov - 22 Nov", start: "2025-11-17", end: "2025-11-22" },
+    
     { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
     { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
     { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
@@ -3096,7 +3102,7 @@ itinerary: [
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand",
-  duration: "5 Nights / 6 Days",
+  duration: "4 Nights / 5 Days",
   coordinates: [
     [30.8376, 78.5651], // Barsu (base village)
     [30.8783, 78.5877], // Dayara Bugyal
@@ -3149,12 +3155,7 @@ The route is dotted with ancient shepherd huts and grazing grounds still used by
 
   dates: [
     
-    { label: "08 Nov - 12 Nov", start: "2025-11-08", end: "2025-11-12" },
-    { label: "09 Nov - 13 Nov", start: "2025-11-09", end: "2025-11-13" },
-    { label: "10 Nov - 14 Nov", start: "2025-11-10", end: "2025-11-14" },
-    { label: "15 Nov - 19 Nov", start: "2025-11-15", end: "2025-11-19" },
-    { label: "16 Nov - 20 Nov", start: "2025-11-16", end: "2025-11-20" },
-    { label: "17 Nov - 21 Nov", start: "2025-11-17", end: "2025-11-21" },
+   
     { label: "22 Nov - 26 Nov", start: "2025-11-22", end: "2025-11-26" },
     { label: "23 Nov - 27 Nov", start: "2025-11-23", end: "2025-11-27" },
     { label: "24 Nov - 28 Nov", start: "2025-11-24", end: "2025-11-28" },
