@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { treks } from '../data/treksData.js';
-import { trekFAQs } from "../data/faqsData.js";
+import { generalFAQs } from "../data/faqsData.js";
 import NewsBanner from "../components/NewsBanner.jsx";
 import NewsSection from "../components/NewsSection.jsx";
 import "../styles/global.css";
@@ -269,7 +269,7 @@ import "../styles/global.css";
 
     <!-- FAQ topics -->
 <!-- FAQ topics -->
-{trekFAQs.map((section, sectionIndex) => (
+{generalFAQs.map((section, sectionIndex) => (
           <div class="faq-topic" id={`faq-topic-${sectionIndex}`}>
             <button class="faq-topic-header" aria-expanded="false">
               {section.topic}
@@ -315,7 +315,7 @@ import "../styles/global.css";
 
     <!-- Link to full FAQs page -->
     <div class="faq-footer">
-      <a href="/faqs" target='_blank' rel='noopener noreferrer'>Search FAQs →</a>
+      <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
     </div>
 </section>
 
