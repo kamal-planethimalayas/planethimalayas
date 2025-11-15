@@ -110,6 +110,7 @@ const { gallery, name } = trek;
 
 <!-- Pricing -->
 <section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper">
+<div class="pricing-and-snippet">
 <div class="price-box">
       <h2>
         INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
@@ -595,8 +596,11 @@ const { gallery, name } = trek;
 </div>
 
 <!-- Trek snippet -->
-  <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
-
+  <div class="snippet-wrapper">
+    <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
+    <span class="read-more-link">Read More</span>
+  </div>
+</div>
 </section>
 
 <section class="trek-details">
@@ -1325,14 +1329,82 @@ const { gallery, name } = trek;
   }
 }
 
-/* Snippet paragraph full-width */
-.trek-overview-snippet {
-  margin-top: 2rem;
+/* =========================
+   PRICING + SNIPPET WRAPPER
+========================= */
+.pricing-and-snippet {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* align top of boxes */
+  gap: 2rem; /* spacing between pricing & snippet */
+  margin-top: 2rem;       /* spacing from above section */
   margin-bottom: 2rem;
+}
+
+/* ===== PRICE BOX ===== */
+.price-box {
+  flex: 0 0 40%;          /* 30% width on desktop */
+  border: 2px solid #222;
+  border-left: 8px solid #ff7300;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+}
+
+/* ===== SNIPPET ===== */
+.trek-overview-snippet {
+  flex: 1 1 60%;           /* 70% width on desktop */
+  position: relative;
+  overflow: hidden;
+  max-height: 420px;       /* collapsed height */
+  transition: max-height 0.4s ease;
   font-size: 1rem;
   line-height: 1.6;
-  width: 100%;
+  margin: 0;               /* remove previous margins */
+  padding-top: 30px;       /* match price-box top padding */
+  padding-left: 0;         /* optional, adjust if needed */
+  padding-right: 0;        /* optional, adjust if needed */
 }
+
+/* Expanded snippet state */
+.trek-overview-snippet.expanded {
+  max-height: none;
+}
+.trek-overview-snippet.expanded::after {
+  opacity: 0;
+}
+
+/* Read More text link */
+.read-more-link {
+  display: block;             /* ensures it sits below snippet */
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #ff7300;             /* brand color */
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.read-more-link:hover {
+  opacity: 0.8;
+}
+
+/* =========================
+   MOBILE VIEW
+========================= */
+@media (max-width: 768px) {
+  .pricing-and-snippet {
+    flex-direction: column;
+    gap: 1.5rem;             /* smaller gap on mobile */
+  }
+
+  .price-box,
+  .trek-overview-snippet {
+    flex: 1 1 100%;          /* full width on mobile */
+  }
+}
+
 </style>
 
 <script>
@@ -1658,6 +1730,47 @@ document.addEventListener('DOMContentLoaded', () => {
   // init
   updateUI();
   startAuto();
+});
+</script>
+
+<script>
+function initReadMore() {
+  const snippet = document.querySelector('.trek-overview-snippet');
+  const priceBox = document.querySelector('.price-box');
+  const readMore = document.querySelector('.read-more-link');
+
+  if (!snippet || !readMore || !priceBox) return;
+
+  // Measure after layout is fully applied
+  requestAnimationFrame(() => {
+    const snippetHeight = Math.ceil(snippet.scrollHeight);
+    const priceHeight = Math.ceil(priceBox.clientHeight);
+
+    if (snippetHeight <= priceHeight) {
+      readMore.style.display = 'none';
+      snippet.style.maxHeight = 'none';
+    } else {
+      readMore.style.display = 'inline-block';
+      snippet.style.maxHeight = priceHeight + 'px';
+      snippet.style.overflow = 'hidden';
+    }
+  });
+
+  readMore.addEventListener('click', () => {
+    const isExpanded = snippet.classList.toggle('expanded');
+    if (isExpanded) {
+      snippet.style.maxHeight = 'none';
+      readMore.textContent = 'Read Less';
+    } else {
+      snippet.style.maxHeight = priceBox.clientHeight + 'px';
+      readMore.textContent = 'Read More';
+    }
+  });
+}
+
+// Use DOMContentLoaded and a small timeout to ensure dynamic HTML has rendered
+window.addEventListener('DOMContentLoaded', () => {
+  setTimeout(initReadMore, 50); // 50ms delay ensures HTML is rendered
 });
 </script>
 
