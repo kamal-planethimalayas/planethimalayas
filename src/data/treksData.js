@@ -32,7 +32,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,105 ft (Pin Bhaba Pass)" },
         { emoji: "⚡", label: "Trek Distance", value: "50 Km" },
         { emoji: "🌤️", label: "Best Time", value: "July to mid-September" },
@@ -41,8 +41,20 @@ export const treks = [
         { emoji: "🏁", label: "End Point", value: "Mudh (Spiti Valley, H.P.)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },                
       ],
-      snippet: `Pin Bhaba Pass Trek is one of the most dramatic crossover treks in the Indian Himalayas, connecting the lush green valleys of Kinnaur with the stark, high-altitude deserts of Spiti. Starting from dense forests and vibrant meadows, the trail gradually opens into vast landscapes, glacial streams, and finally the otherworldly terrain of Spiti. At 16,100 ft, the pass offers breathtaking views of snow-clad peaks and a thrilling transition between two strikingly different worlds. Perfect for trekkers seeking variety, adventure, and raw Himalayan beauty, Pin Bhaba Pass is truly a once-in-a-lifetime journey. Unlike its harsher sibling Pin Parvati, this trail is gentler yet equally rewarding, with river crossings, flower-filled meadows of Kara and Phutsirang, and dramatic contrasts between Kinnaur’s pine valleys and Spiti’s barren slopes. The trek also passes through remote villages where ancient Buddhist culture thrives, giving trekkers a rare chance to experience both natural grandeur and cultural richness in a single journey.`,
-    },
+      snippet: `The Pin Bhaba Pass Trek is a rare Himalayan journey where the landscape changes so dramatically, it feels as if the mountains are turning their own pages for you. What begins in the deep green folds of Kinnaur slowly transforms into the cold, wind-shaped desert of Spiti — and this transition is so surreal that trekkers often pause not just to admire the view, but to absorb the shift happening around them.
+
+<br>The trail opens gently, leading you through the cool forests of Kafnu and into the enchanting woods of Mulling. A pale blue river rushes beside you, weaving between moss-covered rocks, while sunlight filters through tall birches and pines. In moments, the forest parts and you step into wide meadows — soft, rolling grasslands with ridgelines rising on either side. This is the first hint of how unpredictable and rewarding this trek is going to be.
+
+<br>Beyond Mulling, the valley expands into the vast green amphitheater of Karah. Here the mountains feel closer, the meadows broader, and the silence deeper. Horses graze freely, wildflowers nod in the breeze, and the evening light paints everything gold. It’s the kind of campsite that stays with you long after the trek ends.
+
+<br>As you move higher, the terrain sharpens. Streams braid themselves across the land, boulders scatter the slopes, and the air becomes colder, cleaner, and thinner. The approach to Phutsirang — a high-altitude river delta surrounded by massive mountain walls — feels like stepping into an untouched corner of the world. The glacial chill in the air, the sound of meltwater flowing through multiple channels, and the sheer sense of isolation create an atmosphere both humbling and exhilarating.
+
+<br>The pass day is the culmination of everything the trek has built up to. At 16,100 ft, the ascent is steep and thrilling, and the moment you reach the top, the panorama hits you with a silence that feels sacred. Behind you lie the green valleys of Kinnaur — forests, grasslands, rivers, life. Ahead of you unfolds the stark beauty of Spiti — pastel mountains, wide open spaces, and a desert carved by ancient winds. Standing on the pass feels like standing between two worlds.
+
+<br>The descent takes you into the mystical openness of Pin Valley, where the trails widen and the colours of the mountains shift with the sun — pinks, purples, browns, and whites blending into each other like a natural painting. Villages appear slowly, their Buddhist roots evident in fluttering prayer flags, whitewashed homes, and tiny gompas perched against the mountains.
+
+<br>Every step on Pin Bhaba Pass feels like a discovery — of terrain, of culture, of yourself. It is a trek for those who crave variety, who love the idea of waking up to new landscapes every day, and who want to feel the Himalayas in their purest, most dramatic form. This isn’t just a crossover trek — it is a Himalayan story unfolding in front of you, one breathtaking chapter at a time.
+    `},
 
     price: 17900,
     priceNote: "* Kafnu to Kaza",
@@ -98,37 +110,37 @@ export const treks = [
   { 
     day: 1, 
     title: "Shimla to Kafnu (7,900 ft)", 
-    details: "• Drive distance: ~200 km (7–8 hours). <br>• The journey follows the historic Hindustan–Tibet highway, crossing apple orchards, pine forests, and riverside villages of Kinnaur. <br>• Kafnu, a quaint Himalayan village by the Bhaba River, is the trek’s starting point. <br>• Overnight stay in a guesthouse or homestay at Kafnu." 
+    details: "<strong>• Drive distance: ~200 km (7–8 hours).</strong> <br>• Reaching Kafnu feels like slipping quietly into a hidden corner of Kinnaur. Even though it lies deep in the valley, the journey is surprisingly smooth — the Bhaba River guides you almost the entire way, flowing confidently through the mountains as if escorting you to the start of your adventure. The hydel power project built along its course has brought steady roads, working routes, and constant movement of locals, trucks, and buses. Because of this, Kafnu — despite its remoteness — remains well connected to Kalpa, Reckong Peo, Karcham, Rampur, and even Shimla.<br>The final stretch into the village is unforgettable. The road climbs rapidly above the river, hugging steep mountain walls, twisting through narrow bends where every turn opens up a fresh perspective of the valley. It’s the kind of drive where the landscape keeps shifting — thick forests, cliff edges, sudden views of the river far below. For first-timers, the ride can feel thrilling; for mountain lovers, it feels like home.<br>Kafnu itself is a quiet settlement surrounded by forests, apple orchards, and the calm of the lower Himalayas. Wooden houses sit clustered on gentle slopes, with prayer flags fluttering on rooftops and the sound of the river echoing softly in the background. This is the last point of comfort before the wilderness begins.<br>You’ll check into a local lodge or homestay for the night — simple, warm, and welcoming. Use this day to rest your legs, settle into the altitude, and let the long journey fade out of your system." 
   },
   { 
     day: 2, 
     title: "Kafnu to Mulling (10,800 ft)", 
-    details: "• Trek distance: ~11 km | Duration: 6–7 hours | Altitude gain: ~2,900 ft. <br>• Trail begins with a gentle ascent through pine and oak forests, with occasional waterfalls and shepherd huts. <br>• Cross wooden bridges over the Bhaba River, with the sound of gushing streams accompanying the climb. <br>• The campsite at Mulling lies in an open meadow with sweeping views of surrounding peaks. <br>• Overnight stay in tents at Mulling." 
+    details: "<strong>• Trek distance: ~11 km | Duration: 6–7 hours | Altitude gain: ~2,900 ft. </strong><br>• The first day on the trail feels like slipping into a world that has been quietly waiting for you. As you leave Kafnu behind, the path rises gently through forests that seem untouched by time. Pines tower above you, silver birch trees sway in the morning light, and the Bhaba River rushes beside you with a steady, comforting presence. This is one of those rare Himalayan routes where the forest itself becomes the highlight — dense, aromatic, and filled with birdsong that follows you for hours.<br>Within the first stretch, the trail leads you past the Bhaba Hydel Project — India’s first underground dam hidden deep within the valley. It’s a reminder of how modern engineering coexists with raw nature here, though photography is strictly restricted. A little ahead, a bridge appears across the river; once you cross it, the forest begins to close in from all sides.<br>The real ascent begins when you spot a faint path rising away from the motor road — a narrow trail, almost secret, that leads you into the heart of the woods. For the next few kilometres, the canopy thickens, the air cools noticeably, and the forest floor turns soft with fallen leaves and needles. Every turn reveals a new frame — tall oaks, birches glowing white against the green, and patches of sunlight dancing between branches. It’s the kind of forest that makes you slow down simply because you don’t want it to end.<br>A short walk ahead opens unexpectedly into a clearing — a quiet patch of earth textured with grass, mud, and scattered stones. It feels like a natural rest point before the climb deepens. Soon after, you reach Champoria, a serene riverside zone wrapped in trees. Here, a sturdy log bridge helps you cross to the other side of the Bhaba River, marking the beginning of the steeper sections.<br>Beyond this point, the trail starts rising with purpose. The valley narrows, the sound of the river echoes louder between the walls, and the air grows colder with every step. A smaller tributary joins the main river here, signalling that you’re on the right track. Pace yourself — this is where the altitude begins to speak.<br>Around the 10 km mark, you emerge onto Jhandi Top, a natural ledge that offers your first wide, sweeping view of the upper valley. From here, the landscape opens dramatically, and far ahead — almost glowing in the afternoon light — you can spot the Mulling campsite tucked beneath vast green slopes. The final stretch to Mulling is short but beautiful, a gentle walk through meadows and soft earth.<br>When you finally arrive, the forest gives way to an expansive grassland framed by tall ridges. The Mulling hut stands quietly at the edge, offering two bare rooms for those trekking independently, though most prefer to pitch tents beside the river. The breeze here is cool, the meadows enormous, and the silence unforgettable.<br>This is where the Pin Bhaba trek truly begins to reveal its magic — a perfect first chapter in a journey that grows more dramatic with every passing day." 
   },
   { 
     day: 3, 
     title: "Mulling to Kara (11,700 ft)", 
-    details: "• Trek distance: ~6 km | Duration: 4–5 hours | Altitude gain: ~900 ft. <br>• The trail flattens out, following the river through wide valleys and open alpine meadows. <br>• Vibrant flowers carpet the landscape in summer, while snowy ridges tower above. <br>• Kara campsite is one of the most picturesque on the trek, set beside the Bhaba River. <br>• Overnight stay in tents at Kara." 
+    details: "<strong>• Trek distance: ~6 km | Duration: 4–5 hours | Altitude gain: ~900 ft.</strong> <br>• The day begins with the mountains easing you gently out of Mulling. As you leave the wide grasslands behind, the trail shifts into a rocky stretch where the Bhaba Valley narrows again. The ascent is steady and calm, giving your legs enough time to warm up while the morning sun lights up the ridges above.<br>Barely 1.5 km into the day, the landscape opens into a long, soft meadow — a sudden burst of green set against dark cliffs. A waterfall tumbles down the slope to your right, its sound echoing across the valley like a constant reminder of the river running somewhere below you. It’s a refreshing, postcard-perfect spot that sets the tone for the beauty that lies ahead.<br>The trail continues to rise gradually from here, weaving through stones, tufts of grass, and tiny patches of wildflowers. After another short stretch, you experience one of the most fascinating features of this trek — a river that you can hear loudly but cannot see, flowing deep under layers of rock and soil, carving its own secret pathways beneath the surface. The sound grows stronger as you approach, vibrating through the earth beneath your boots, yet the water remains hidden. It's rare to encounter such a phenomenon on a Himalayan trek.<br>Beyond this mystical spot, the trail stiffens. A sharp ascent begins, lifting you quickly above the valley floor. As you climb, the world opens up once again, and soon you find yourself entering one of the most enchanting meadows of the entire trek — a sweeping, green expanse sprinkled with delicate alpine flowers. The colours change with the season: soft whites and yellows early on, deeper purples and reds as summer peaks. This meadow feels alive, almost glowing under the afternoon sun.<br>A gentle walk of just over a kilometre brings you to the Karah campsite — a serene setting beside a clear mountain stream, with ridges rising sharply on all sides. The sound of running water fills the air, this is one of those places where time feels slow.<br>Karah is where the trek truly begins to feel Himalayan — vast, quiet, and framed by towering walls of rock. You reach here by early afternoon, giving you enough time to rest, explore the stream, or simply lie back in the grass and gather strength for the long, high-altitude climb that awaits." 
   },
   { 
     day: 4, 
     title: "Kara to Phustirang (13,500 ft)", 
-    details: "• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,800 ft. <br>• Trail climbs steadily over rocky terrain, with panoramic views of towering peaks and hanging glaciers. <br>• The approach to Phustirang takes you closer to the base of the pass, with clear views of the massive Hansbeshan Peak. <br>• Camp at Phustirang surrounded by dramatic high mountains, preparing for the pass crossing. <br>• Overnight stay in tents at Phustirang." 
+    details: "<strong>• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,800 ft.</strong> <br>• Today may be the shortest walking day of the trek, but it is far from the easiest. With only 5 km to cover, the trail wastes no time in climbing sharply into higher terrain. The Bhaba Valley now sheds most of its softness — the meadows thin out, the slopes sharpen, and the air grows noticeably cooler as you gain altitude.<br>The day begins with a crossing of a lively tributary flowing down from the upper reaches of Phutsirang. The stream approaches from the left side of the valley, pouring down over boulders with a volume that depends entirely on the season. Once you cross it, the trail rises immediately, entering a landscape shaped by water and stone.<br>The ascent from here is steep and demands patience. The terrain is a blend of loose mud, scattered rocks, and narrow humps carved by streams over time. Mountain water accompanies you almost throughout the day — trickling, splitting, merging, and cutting through the slopes in multiple channels. These crossings, combined with the incline, make the day feel more taxing than the distance suggests, so pacing becomes essential.<br>Roughly 4 km into the climb, the valley widens just enough to reveal the lower Phutsirang campsite — a rugged but scenic patch surrounded by high ridgelines. It’s a brief but welcome visual breather after the relentless ascent.<br>From here, a final push of about 700 metres takes you higher into the upper basin. The moment you step into Phutsirang, the entire personality of the trek transforms. You stand inside a massive high-altitude amphitheatre — a wild, open cirque surrounded by dark, imposing mountains. The air feels thinner, the silence deeper, and the scale of the landscape almost overwhelming.<br>Phutsirang is not just a campsite; it’s a vantage point. From here, you can see three great passes of the region lined up like distant gateways:<br>Nimish Khango (16,185 ft)<br>Tari Khango (17,318 ft)<br>Pin Bhaba Pass (Wang Khango) (16,105 ft) — your objective for tomorrow<br>Watching the evening light fall across these ridges is an experience in itself. As the sun drops behind the mountains, temperatures dip quickly, and the sky fills with stars sharper and brighter than anything you might have seen before.<br>Rest well — tomorrow is the big day, the climb to the pass." 
   },
   { 
     day: 5, 
-    title: "Phustirang to Mangrungse (13,000 ft) via Pin Bhaba Pass (16,105 ft)", 
-    details: "• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~2,600 ft ascent and ~3,100 ft descent. <br>• The toughest and most rewarding day of the trek. <br>• Begin with a steep climb on scree slopes and glacial patches to reach Pin Bhaba Pass at 16,105 ft. <br>• From the top, breathtaking views unfold—lush green valleys of Kinnaur on one side, and stark, barren mountains of Spiti on the other. <br>• After soaking in the scenery, descend gradually into Spiti’s arid landscape, dotted with purple and pink mountains. <br>• Camp at Mangrungse, a high-altitude meadow at 13,000 ft. <br>• Overnight stay in tents." 
+    title: "Phustirang to Mangrungtse (13,000 ft) via Pin Bhaba Pass (16,105 ft)", 
+    details: "<strong>• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~2,600 ft ascent and ~3,100 ft descent.</strong> <br>• You wake up knowing that today is the day — the day you step from one world into another. Crossing a high mountain pass isn’t just a climb; it’s a pilgrimage of sorts, one the mountains make you earn with every breath, every step, every quiet moment where you gather your strength. The excitement begins right from camp as the first light spills over the ridges above Phutsirang.<br>The ascent is steep from the very beginning. The trail twists through stony slopes and loose mud, rising steadily toward the saddle of the Pin Bhaba Pass. Your pace naturally slows as oxygen thins and the valley floor drops away behind you. Each pause rewards you with the sight of Bhaba Valley opening in full — green, lush, and impossibly gentle compared to where you’re heading.<br>Reaching the saddle is surreal. One moment you are climbing through familiar grassy ridges, and the next you’re standing on a knife-edge gateway between two completely different worlds. This is where the crossover becomes real. Behind you lies the soft, green embrace of Bhaba Valley. Ahead of you spreads the raw, wind-carved expanse of Pin — a canvas of browns, pinks, and pale earth stretching into the cold desert of Spiti. The contrast is so sudden, so dramatic, it almost feels staged by nature.<br>Below, far in the distance, a thin silver ribbon glints — the Pin River.<br>The descent begins sharply from the pass, dropping onto a terrain made of moraine fields, loose scree, and bits of old glacier. Every step demands focus. Move slow, plant each foot carefully, and stay patient — this is the part that tests your control more than your stamina.<br>Two kilometres down, you finally reach the Pin River. It crashes past you in icy torrents, fed by the snowfields above. You’ll need to remove your footwear to cross it — the water is freezing, but the moment your feet touch the stones on the other side, you know you’ve officially entered Spiti.<br>From here, the valley widens. The descent becomes more relaxed, though the ground is still scattered with moraine and scree. The colours around you shift constantly — dusty pinks, pale yellows, oxidized reds — the signature palette of the Pin Valley.<br>About 6 km after the river crossing, the trail reveals the Mangrungtse campsite far below. It rests quietly on the valley floor, surrounded by the vast emptiness that defines this region. It’s a wide, quiet patch of land beside the river, nestled between towering desert slopes. The wind here carries the dry, crisp air of Spiti, and the sky feels closer, clearer, almost overwhelming in its scale.<br>Tonight, as you rest in Mangruntse, you’ll feel the magnitude of what you’ve accomplished. The crossover is complete — you’ve walked from dense forests and glowing meadows into one of the highest cold deserts in the world.<br>And tomorrow, the trail will carry you deeper into Spiti’s awe-inspiring emptiness." 
   },
   { 
     day: 6, 
-    title: "Mangrungse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", 
-    details: "• Trek distance: ~9 km | Duration: 4–5 hours | Easy descent. <br>• Follow the Pin River downstream through wide valleys and colorful Spiti terrain. <br>• End the trek at Mudh village, the first settlement in the Spiti side of the trail. <br>• Drive from Mudh to Kaza (2–3 hours), the cultural and commercial hub of Spiti. <br>• Overnight stay in a guesthouse or hotel at Kaza. Trek ends with celebrations!" 
+    title: "Mangrungtse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", 
+    details: "<strong>• Trek distance: ~16 km | Duration: 6–8 hours | Altitude gain: ~1000 ft descent.</strong> <br>• Your final morning on the Pin Bhaba Pass trek begins in the stark quiet of Mangruntse. The valley wakes slowly — cold winds brushing across the desert slopes, early light glinting off the Pin River, and a vastness so deep it feels like the world has paused around you. This is the day you exit the wilderness and walk back into human settlements. It’s long, around 16 km, so you start early while the valley is still cool.<br>The trail climbs gently out of Mangruntse and soon merges with the main route near Bwalder. Once you’re on the higher trail, Spiti’s famous palette of soft reds and browns begins to dominate the landscape. Ahead lies a long, sweeping valley that guides you toward Mudh — the first village of Spiti and the symbolic end of your journey.<br>A steady 2 km push brings you to Bara Boulder, a well-known rest point surrounded by moraine fields. The descent here is gradual, but the terrain is rough with scattered stones and loose earth. There’s a water source nearby, but it’s not the cleanest — the last good refill is always back at Bwalder or Mangruntse.<br>Just 300 metres beyond Bara Boulder, you cross a lively tributary of the Pin River using a log bridge, the kind of rustic crossing that marks the signature of Spiti’s trekking trails. Once you’re across, the scenery shifts dramatically.<br>The trail turns into a vast, flat stretch coated with red soil and tiny crimson stones — a landscape so unique that it feels as though you’ve stepped onto another planet. Winds blow freely here, carving ripples into the dust and sending sand brushing against your boots.<br>A long, flat walk of about 1.5 km brings you to another small mountain stream. You cross it via another simple log bridge, and just after this point, the reward of the entire day arrives:<br>The first distant view of Mudh Village: Even from 5 km away, Mudh looks like a painting — white houses clustered together, barley fields glowing green and gold, and a line of colourful prayer flags fluttering in the wind. The moment you spot it, something shifts inside you — fatigue eases, your pace steadies, and the heart picks up in excitement. After days in raw wilderness, the sight of this tiny settlement feels unreal.<br>The final stretch, though long, is gentle. The Pin River accompanies you for much of this section, carving a deep channel through the barren valley. Eventually, you reach the last river crossing of the trek — a suspension bridge swaying slightly in the wind, hanging above the wide, roaring Pin.<br>Crossing that bridge is an unforgettable moment. It’s the symbolic gateway into Spiti and the confirmation that your journey — this massive crossover from Kinnaur to Spiti — is nearly complete.<br>Once across, a short climb on a dusty path leads you straight into Mudh Village, the end point of your trek. Prayer flags welcome you, children often wave from rooftops, and the warm, dry wind of Spiti greets you like an old friend.<br>After a brief rest at Mudh, we drive back to Kaza, the cultural and commercial hub of Spiti, for an overnight stay in a guest house.<br>You’ve done it — six days, two contrasting valleys, one dramatic pass, and an experience that stays with you long after you’ve left these mountains." 
   },
   { 
     day: 7, 
     title: "Drive from Kaza to Manali (12,000 ft → 6,700 ft)", 
-    details: "• Distance: ~200 km | Duration: 9–10 hours by road. <br>• Early morning drive from Kaza via Kunzum La (15,000 ft) and the scenic Chandra Valley. <br>• Pass through iconic Spiti landmarks like Losar, Kunzum Pass and Chatru before descending into the lush valleys of Manali. <br>• Expected arrival in Manali by evening. <br>• This transfer is optional and arranged for trekkers who have opted for transport with the trek package." 
+    details: "<strong>• Distance: ~200 km | Duration: 9–10 hours by road.</strong> <br>• The trek may be over, but the journey isn’t finished yet. Early in the morning, you leave Kaza behind and begin the drive back toward Manali, a route that is as spectacular as the trek itself. The road climbs once more to Kunzum La, perched at 15,000 ft, where the barren beauty of Spiti stretches endlessly in every direction. Here, the mountains are stark, the winds strong, and the sense of accomplishment from the trek still fresh in your mind.<br>As you descend from the pass, the road winds past iconic Spiti landmarks — the quiet village of Losar, the rugged expanse near Chatru, and stretches where the terrain seems to change with every turn. The Chandra Valley opens gradually below, lush and serene, a striking contrast to the high desert you leave behind.<br>By evening, the drive brings you into the forests and greener valleys of Manali, the mountains softening into familiar slopes dotted with villages and rivers. For those who opted for transport with the trek package, this journey is a smooth, scenic farewell to the Pin Bhaba adventure — a chance to relive every moment of the trek as the Himalayas pass by your window." 
   }
 
 ],
@@ -240,7 +252,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "14,100 ft (Hampta Pass)" },
         { emoji: "⚡", label: "Trek Distance", value: "26 Km" },
         { emoji: "🌤️", label: "Best Time", value: "July to October" },
@@ -249,8 +261,7 @@ export const treks = [
         { emoji: "🏁", label: "End Point", value: "Chatru" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
-      snippet: `Imagine stepping into a trail where every day feels like a new world. The Hampta Pass trek begins in the lush Kullu Valley, where pine forests, maple groves, and apple orchards line the trail. As you climb higher, the landscape transforms into alpine meadows filled with wildflowers, pristine streams, and snow-fed waterfalls. The approach to the pass unveils sweeping views of the Dhauladhar and Pir Panjal ranges, while the crossing itself feels like a gateway into another planet. On the other side lies the stark, high-altitude desert of Spiti — barren cliffs, rugged ridges, and surreal, moon-like valleys that stand in striking contrast to the greenery left behind. 
-      In just 5 days, Hampta captures the best of Himachal’s diverse landscapes — from forests and meadows to glaciers and deserts — making it a perfect choice for trekkers seeking variety, adventure, and a truly cinematic Himalayan experience.`
+      snippet: 'Imagine stepping onto a trail where every single day introduces you to a brand-new Himalayan world.<br>The Hampta Pass trek in Himachal Pradesh begins deep inside the lush Kullu Valley, where pine forests, maple groves, and apple orchards wrap the trail in shades of green. The early sections feel warm and welcoming — gentle gradients, forest canopies, and the soft roar of the Rani Nala accompanying you through the first stretch.<br>As you climb higher, the landscape unfolds into wide alpine meadows, carpeted with monsoon wildflowers and crisscrossed with snow-fed streams. These meadows — especially around Jwara — are among the prettiest on any Himalayan trek, and they offer crystal-clear views of the surrounding Pir Panjal range.<br>The climb towards the pass brings a dramatic shift. The valley narrows, the terrain becomes glacial, and the mountain walls rise sharply on either side. This is where the Hampta Pass trail begins to feel truly alpine. As you gain height, two iconic Himalayan giants — Mt. Deo Tibba (19,688 ft) and Mt. Indrasan (20,413 ft) — stand proudly over the horizon. Their hanging glaciers and sharp ridgelines dominate the skyline, adding a thrilling high-altitude backdrop to the final approach.<br>At Hampta Pass (14,000 ft), everything changes. Standing on the saddle feels like stepping across a natural border between worlds. Behind you lies the lush greenery of Manali and Kullu; ahead lies the stark, moon-like desert of Lahaul–Spiti. The contrast is so sudden and so intense that it feels almost unreal — barren ridges, rugged cliffs, brown mountains, and vast open valleys stretching endlessly into Spiti.<br>The descent towards Shea Goru and Chhatru takes you through dramatic glacial terrain, moraine fields, and icy river crossings — the kind of variety few short Himalayan treks offer.<br>And then comes the perfect finale: A scenic drive to the legendary Chandratal Lake — the high-altitude, crescent-shaped blue lake tucked deep within Spiti. Visiting Chandratal after the Hampta Pass trek is like walking into a different dimension — turquoise water, snow peaks reflecting in the lake, and the crystal-clear Spiti sky arching overhead. Many trekkers consider this the highlight of the entire Hampta experience.<br>In just 5 days, the Hampta Pass trek packs in forests, meadows, waterfalls, river-crossings, glacial valleys, high-altitude pass, and the crossover into Spiti — making it one of the most cinematic, diverse, and rewarding treks in the Indian Himalayas. Add the views of Deo Tibba & Indrasan, and the optional visit to Chandratal Lake, and this becomes a must-do trek for anyone seeking adventure, variety, and unforgettable Himalayan landscapes.'
     },
 
     price: 11900,
@@ -304,29 +315,29 @@ export const treks = [
 
     itinerary: [
   {
-    day: 1,
-    title: "Drive from Manali (6,700 ft) to Jobra (9,800 ft) → Trek to Chika (10,100 ft)",
-    details: "• Drive: ~2 hrs on winding mountain roads through pine & deodar forests. <br>• Trek: ~3 km / 2–3 hrs along the Rani Nallah stream. <br>• Trail passes through thick pine, maple, and birch forests, opening into vast meadows. <br>• Gentle gradient, perfect acclimatization day. <br>• Overnight camping at Chika meadow with views of snow-clad peaks."
+    "day": 1,
+    "title": "Drive from Manali (6,700 ft) to Jobra (9,800 ft) → Trek to Chika (10,100 ft)",
+    "details": "<strong>• Drive: ~2 hrs through dense pine & deodar forests | Trek: ~3 km / 2–3 hrs along the Rani Nallah stream.</strong><br>• Your journey begins with a short but scenic drive from Manali to Jobra, where the thick pine, deodar, and maple forest immediately give the trek a refreshing start. Once you step onto the trail, the walk feels gentle, calming, and steadily immersive — the sound of the Rani Nallah flowing beside you becomes your constant companion. The forest gradually opens into the broad Chika meadows, surrounded by tall cliffs, waterfalls, and distant snow peaks. This easy first day helps your body settle into the altitude while offering a perfect introduction to the serene beauty of the Hampta Valley. Overnight stay in the quiet, open grasslands of Chika."
   },
   {
-    day: 2,
-    title: "Trek from Chika (10,100 ft) to Balu Ka Ghera (11,900 ft)",
-    details: "• Distance: ~9 km | Duration: 6–7 hrs. <br>• Initial stretch includes river crossings over boulders and wooden bridges. <br>• Trail moves through meadows carpeted with wildflowers in season (July–Sept). <br>• Gentle ascent with occasional rocky patches. <br>• Balu Ka Ghera literally means 'bed of sand'—a flat campsite at the foot of Hampta Pass. <br>• Overnight stay with panoramic views of snow-covered mountains."
+    "day": 2,
+    "title": "Trek from Chika (10,100 ft) to Balu Ka Ghera (11,900 ft)",
+    "details": "<strong>• Trek: ~9 km | Duration: 6–7 hrs across meadows, river crossings & wildflower zones.</strong><br>• The morning begins with a gentle walk across open meadows before the trail narrows and leads to a series of lively river crossings over boulders and wooden bridges. During July–September, carpets of wildflowers line the valley, filling the landscape with colour. As you climb higher, the forests fade and wide alpine basins take over. The final approach to Balu Ka Ghera — the ‘bed of sand’ — is scenic and peaceful, with the mighty Hampta Pass ridge towering above. This flat, sandy campsite sits at the very base of the pass and offers panoramic views of the surrounding snow-covered mountains. A cold, beautiful night awaits."
   },
   {
-    day: 3,
-    title: "Cross Hampta Pass (14,100 ft) → Trek to Shea Goru (12,900 ft)",
-    details: "• Distance: ~10 km | Duration: 8–9 hrs (longest & toughest day). <br>• Early start required; trail includes steep switchbacks and snow patches (depending on season). <br>• Breathtaking 360° view from the pass—lush Kullu Valley on one side, stark Lahaul-Spiti on the other. <br>• Sharp descent into Spiti side, often slippery with scree and snow. <br>• Shea Goru campsite is set in a cold desert landscape beside a glacial stream. <br>• Expect very low night temperatures here."
+    "day": 3,
+    "title": "Cross Hampta Pass (14,100 ft) → Trek to Shea Goru (12,900 ft)",
+    "details": "<strong>• Trek: ~10 km | Duration: 8–9 hrs, steep ascent to the pass followed by a sharp descent.</strong><br>• This is the most demanding yet rewarding day of the trek. The route climbs immediately from Balu Ka Ghera, weaving through steep switchbacks, snow slopes (depending on season), and narrow ridges. The moment you reach the top of Hampta Pass, an entirely new world opens up: lush Kullu Valley behind you, stark Lahaul-Spiti desert ahead. Many trekkers consider this one of the most dramatic crossovers in the Himalayas. From the pass, a long and careful descent leads you into the cold desert basin of Shea Goru — a surreal glacial valley bordered by dark rock walls and flowing glacial streams. Expect some of the coldest temperatures of the trek here."
   },
   {
-    day: 4,
-    title: "Trek from Shea Goru (12,900 ft) to Chatru (10,800 ft) → Optional Drive to Chandratal Lake (14,100 ft)",
-    details: "• Distance: ~7 km | Duration: 4–5 hrs. <br>• Easy descent along the river bed, with moraine and scree terrain. <br>• Valley widens, with rugged mountains typical of Spiti. <br>• Chatru is a remote camping ground at the confluence of Hampta, Spiti, and Rohtang valleys. <br>• If weather and road conditions permit, drive to Chandratal Lake (round trip ~3 hrs). <br>• Overnight camp at Chatru or Chandratal."
+  "day": 4,
+  "title": "Trek from Shea Goru (12,900 ft) to Chatru (10,800 ft) → Optional Drive to Chandratal Lake (14,100 ft)",
+  "details": "<strong>• Trek: ~7 km | Duration: 4–5 hrs | Optional Chandratal drive: ~3 hrs round trip.</strong><br>• The day begins with the classic icy river-crossing adventure — the water only ankle-deep, but sharp and freezing as it flows straight from the glacier just above Shea Goru. Once across, the trail settles into a relaxed walk along the riverbed as the valley widens and the raw Spiti landscape takes over — barren slopes, scattered boulders, and rugged mountains stretching endlessly ahead. The descent is comfortable, eventually bringing you to the remote campsite of Chatru, alonside Chandra river, situated at the confluence of three major valleys: Hampta, Spiti, and Rohtang. If weather and road conditions allow, you can take the iconic detour to Chandratal Lake — the jewel of Spiti at 14,100 ft, known for its crescent shape and crystal-clear turquoise waters. Overnight stay at Chatru."
   },
   {
-    day: 5,
-    title: "Drive from Chatru to Manali (6,700 ft)",
-    details: "• Drive: 5–6 hrs via Atal Tunnel or Rohtang Pass (road conditions may vary). <br>• Scenic drive through barren Spiti terrain gradually merging into green Kullu valley. <br>• Trek concludes at Manali by afternoon/evening."
+    "day": 5,
+    "title": "Drive from Chatru to Manali (6,700 ft)",
+    "details": "<strong>• Drive: 5–6 hrs via Atal Tunnel or Rohtang Pass (depending on road conditions).</strong><br>• The final drive retraces the dramatic landscapes of Lahaul before gradually blending into the greenery of the Kullu Valley. The route passes through stretches of barren Spiti cliffs, glacial streams, and wide valleys before entering the lush, forested slopes near Manali. By afternoon or evening, you reach Manali — marking the end of the Hampta Pass adventure. The drive is a perfect moment to look back on the changing landscapes you walked through: meadows, forests, snowfields, high passes, and the desert beauty of Spiti."
   }
 ],
 
@@ -444,7 +455,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,250 ft (Rupin Pass)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
@@ -883,7 +894,7 @@ seo: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
         { emoji: "🏔️", label: "Max Altitude", value: "11,500 ft (Bedni bugyal)" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
@@ -1148,7 +1159,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Chandrashila peak)" },
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
@@ -1623,7 +1634,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate-Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
@@ -1862,7 +1873,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy-Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,150 ft (3,700 m)" },
         { emoji: "⚡", label: "Trek Distance", value: "30 Km" },
         { emoji: "🌤️", label: "Best Time", value: "April-May & September-November" },
@@ -2060,7 +2071,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate-Difficult" },     
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },     
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Ruinsaratal)" },
         { emoji: "⚡", label: "Trek Distance", value: "65 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-November" },
@@ -2253,7 +2264,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy-Moderate" },     
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },     
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
@@ -2445,7 +2456,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
         { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
         { emoji: "🌤️", label: "Best Time", value: "August to September" },
@@ -2615,7 +2626,7 @@ seo: {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
   tags: ["beginner"],
-  difficulty: ["easy"],
+  difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand",
@@ -2879,7 +2890,7 @@ seo: {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
   tags: ["beginner"],
-  difficulty: ["easy"],
+  difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand",
@@ -3156,7 +3167,7 @@ itinerary: [
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,100 ft (Bakaria Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "22–24 Km" },
       { emoji: "🌤️", label: "Best Time", value: "November to April" },
@@ -3617,7 +3628,7 @@ itinerary: [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,750 ft (Roopkund Lake)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
         { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
