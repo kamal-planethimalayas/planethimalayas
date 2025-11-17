@@ -107,40 +107,40 @@ export const treks = [
     ],
 
     itinerary: [
-  { 
-    day: 1, 
-    title: "Shimla to Kafnu (7,900 ft)", 
-    details: "<strong>• Drive distance: ~200 km (7–8 hours).</strong> <br>• Reaching Kafnu feels like slipping quietly into a hidden corner of Kinnaur. Even though it lies deep in the valley, the journey is surprisingly smooth — the Bhaba River guides you almost the entire way, flowing confidently through the mountains as if escorting you to the start of your adventure. The hydel power project built along its course has brought steady roads, working routes, and constant movement of locals, trucks, and buses. Because of this, Kafnu — despite its remoteness — remains well connected to Kalpa, Reckong Peo, Karcham, Rampur, and even Shimla.<br>The final stretch into the village is unforgettable. The road climbs rapidly above the river, hugging steep mountain walls, twisting through narrow bends where every turn opens up a fresh perspective of the valley. It’s the kind of drive where the landscape keeps shifting — thick forests, cliff edges, sudden views of the river far below. For first-timers, the ride can feel thrilling; for mountain lovers, it feels like home.<br>Kafnu itself is a quiet settlement surrounded by forests, apple orchards, and the calm of the lower Himalayas. Wooden houses sit clustered on gentle slopes, with prayer flags fluttering on rooftops and the sound of the river echoing softly in the background. This is the last point of comfort before the wilderness begins.<br>You’ll check into a local lodge or homestay for the night — simple, warm, and welcoming. Use this day to rest your legs, settle into the altitude, and let the long journey fade out of your system." 
+  {
+    "day": 1,
+    "title": "Shimla to Janglik (9,200 ft)",
+    "details": "<strong>• Drive distance: ~200 km | Duration: 7–8 hours.</strong><br>• The adventure begins with a long drive from Shimla into the heart of Kinnaur. As you leave the city behind, the landscape shifts quickly from crowded roads to rolling hills, dense forests, and terraced villages. The Rohru–Tangnu stretch is especially scenic, lined with pine and deodar trees and dotted with small wooden bridges over gurgling streams. As the road climbs higher, the Pabbar River appears in glimpses below, carving its way through the valley with quiet determination. The final stretch into Janglik winds through narrow lanes flanked by apple orchards and clusters of wooden houses. The village feels untouched by time, perched tranquilly amid the hills, and offers a gentle introduction to the isolation and serenity of the high Himalayas. Overnight stay is in a local homestay or guesthouse, where the evening air is crisp, the sky clear, and the distant peaks silhouetted against the setting sun."
   },
-  { 
-    day: 2, 
-    title: "Kafnu to Mulling (10,800 ft)", 
-    details: "<strong>• Trek distance: ~11 km | Duration: 6–7 hours | Altitude gain: ~2,900 ft. </strong><br>• The first day on the trail feels like slipping into a world that has been quietly waiting for you. As you leave Kafnu behind, the path rises gently through forests that seem untouched by time. Pines tower above you, silver birch trees sway in the morning light, and the Bhaba River rushes beside you with a steady, comforting presence. This is one of those rare Himalayan routes where the forest itself becomes the highlight — dense, aromatic, and filled with birdsong that follows you for hours.<br>Within the first stretch, the trail leads you past the Bhaba Hydel Project — India’s first underground dam hidden deep within the valley. It’s a reminder of how modern engineering coexists with raw nature here, though photography is strictly restricted. A little ahead, a bridge appears across the river; once you cross it, the forest begins to close in from all sides.<br>The real ascent begins when you spot a faint path rising away from the motor road — a narrow trail, almost secret, that leads you into the heart of the woods. For the next few kilometres, the canopy thickens, the air cools noticeably, and the forest floor turns soft with fallen leaves and needles. Every turn reveals a new frame — tall oaks, birches glowing white against the green, and patches of sunlight dancing between branches. It’s the kind of forest that makes you slow down simply because you don’t want it to end.<br>A short walk ahead opens unexpectedly into a clearing — a quiet patch of earth textured with grass, mud, and scattered stones. It feels like a natural rest point before the climb deepens. Soon after, you reach Champoria, a serene riverside zone wrapped in trees. Here, a sturdy log bridge helps you cross to the other side of the Bhaba River, marking the beginning of the steeper sections.<br>Beyond this point, the trail starts rising with purpose. The valley narrows, the sound of the river echoes louder between the walls, and the air grows colder with every step. A smaller tributary joins the main river here, signalling that you’re on the right track. Pace yourself — this is where the altitude begins to speak.<br>Around the 10 km mark, you emerge onto Jhandi Top, a natural ledge that offers your first wide, sweeping view of the upper valley. From here, the landscape opens dramatically, and far ahead — almost glowing in the afternoon light — you can spot the Mulling campsite tucked beneath vast green slopes. The final stretch to Mulling is short but beautiful, a gentle walk through meadows and soft earth.<br>When you finally arrive, the forest gives way to an expansive grassland framed by tall ridges. The Mulling hut stands quietly at the edge, offering two bare rooms for those trekking independently, though most prefer to pitch tents beside the river. The breeze here is cool, the meadows enormous, and the silence unforgettable.<br>This is where the Pin Bhaba trek truly begins to reveal its magic — a perfect first chapter in a journey that grows more dramatic with every passing day." 
+  {
+    "day": 2,
+    "title": "Janglik to Dayara (11,000 ft)",
+    "details": "<strong>• Trek distance: ~10 km | Duration: 6–7 hours | Altitude gain: ~1,800 ft.</strong><br>• Leaving Janglik, the trail climbs gently through lush oak and pine forests, the Bhaba River accompanying you with its melodic rush. You cross small streams and wooden bridges, entering dense forest sections where sunlight filters through the leaves. After a steady climb, the forest opens to expansive alpine meadows. Dayara, a vast, open grassland, comes into view — surrounded by towering ridges and dotted with wildflowers in summer. The campsite offers panoramic views, soft breezes, and a chance to enjoy the stillness of high-altitude meadows. This first trek day reveals the wilderness charm of Buran Ghati."
   },
-  { 
-    day: 3, 
-    title: "Mulling to Kara (11,700 ft)", 
-    details: "<strong>• Trek distance: ~6 km | Duration: 4–5 hours | Altitude gain: ~900 ft.</strong> <br>• The day begins with the mountains easing you gently out of Mulling. As you leave the wide grasslands behind, the trail shifts into a rocky stretch where the Bhaba Valley narrows again. The ascent is steady and calm, giving your legs enough time to warm up while the morning sun lights up the ridges above.<br>Barely 1.5 km into the day, the landscape opens into a long, soft meadow — a sudden burst of green set against dark cliffs. A waterfall tumbles down the slope to your right, its sound echoing across the valley like a constant reminder of the river running somewhere below you. It’s a refreshing, postcard-perfect spot that sets the tone for the beauty that lies ahead.<br>The trail continues to rise gradually from here, weaving through stones, tufts of grass, and tiny patches of wildflowers. After another short stretch, you experience one of the most fascinating features of this trek — a river that you can hear loudly but cannot see, flowing deep under layers of rock and soil, carving its own secret pathways beneath the surface. The sound grows stronger as you approach, vibrating through the earth beneath your boots, yet the water remains hidden. It's rare to encounter such a phenomenon on a Himalayan trek.<br>Beyond this mystical spot, the trail stiffens. A sharp ascent begins, lifting you quickly above the valley floor. As you climb, the world opens up once again, and soon you find yourself entering one of the most enchanting meadows of the entire trek — a sweeping, green expanse sprinkled with delicate alpine flowers. The colours change with the season: soft whites and yellows early on, deeper purples and reds as summer peaks. This meadow feels alive, almost glowing under the afternoon sun.<br>A gentle walk of just over a kilometre brings you to the Karah campsite — a serene setting beside a clear mountain stream, with ridges rising sharply on all sides. The sound of running water fills the air, this is one of those places where time feels slow.<br>Karah is where the trek truly begins to feel Himalayan — vast, quiet, and framed by towering walls of rock. You reach here by early afternoon, giving you enough time to rest, explore the stream, or simply lie back in the grass and gather strength for the long, high-altitude climb that awaits." 
+  {
+    "day": 3,
+    "title": "Dayara to Litham (11,800 ft)",
+    "details": "<strong>• Trek distance: ~8 km | Duration: 5–6 hours | Altitude gain: ~800 ft.</strong><br>• Today's journey starts with gentle slopes across Dayara’s meadows. The path gradually ascends, moving into mixed forest sections with towering birches and occasional silver oak. Small streams cross your trail, offering refreshing breaks. As the forest thins, glimpses of Litham appear ahead, perched on a hillside beside a sparkling brook. The campsite is set in open meadows with distant views of hidden waterfalls and snow-capped peaks. Overnight at Litham prepares you for the higher-altitude excursion tomorrow."
   },
-  { 
-    day: 4, 
-    title: "Kara to Phustirang (13,500 ft)", 
-    details: "<strong>• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,800 ft.</strong> <br>• Today may be the shortest walking day of the trek, but it is far from the easiest. With only 5 km to cover, the trail wastes no time in climbing sharply into higher terrain. The Bhaba Valley now sheds most of its softness — the meadows thin out, the slopes sharpen, and the air grows noticeably cooler as you gain altitude.<br>The day begins with a crossing of a lively tributary flowing down from the upper reaches of Phutsirang. The stream approaches from the left side of the valley, pouring down over boulders with a volume that depends entirely on the season. Once you cross it, the trail rises immediately, entering a landscape shaped by water and stone.<br>The ascent from here is steep and demands patience. The terrain is a blend of loose mud, scattered rocks, and narrow humps carved by streams over time. Mountain water accompanies you almost throughout the day — trickling, splitting, merging, and cutting through the slopes in multiple channels. These crossings, combined with the incline, make the day feel more taxing than the distance suggests, so pacing becomes essential.<br>Roughly 4 km into the climb, the valley widens just enough to reveal the lower Phutsirang campsite — a rugged but scenic patch surrounded by high ridgelines. It’s a brief but welcome visual breather after the relentless ascent.<br>From here, a final push of about 700 metres takes you higher into the upper basin. The moment you step into Phutsirang, the entire personality of the trek transforms. You stand inside a massive high-altitude amphitheatre — a wild, open cirque surrounded by dark, imposing mountains. The air feels thinner, the silence deeper, and the scale of the landscape almost overwhelming.<br>Phutsirang is not just a campsite; it’s a vantage point. From here, you can see three great passes of the region lined up like distant gateways:<br>Nimish Khango (16,185 ft)<br>Tari Khango (17,318 ft)<br>Pin Bhaba Pass (Wang Khango) (16,105 ft) — your objective for tomorrow<br>Watching the evening light fall across these ridges is an experience in itself. As the sun drops behind the mountains, temperatures dip quickly, and the sky fills with stars sharper and brighter than anything you might have seen before.<br>Rest well — tomorrow is the big day, the climb to the pass." 
+  {
+    "day": 4,
+    "title": "Acclimatization Excursion to Chandranahan Lakes (13,800 ft)",
+    "details": "<strong>• Trek distance: ~10 km | Duration: 6–7 hours | Altitude gain: ~2,000 ft.</strong><br>• An early start takes you toward the pristine Chandranahan Lakes. The trail is steeper, climbing over boulders and rocky outcrops, interspersed with alpine meadows. Snow patches may linger depending on season. The serene lakes glisten under the morning sun, surrounded by cascading streams and wild alpine flora. After soaking in the high-altitude scenery, you return to Litham for overnight stay. This acclimatization hike strengthens your body for the upcoming pass crossing."
   },
-  { 
-    day: 5, 
-    title: "Phustirang to Mangrungtse (13,000 ft) via Pin Bhaba Pass (16,105 ft)", 
-    details: "<strong>• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~2,600 ft ascent and ~3,100 ft descent.</strong> <br>• You wake up knowing that today is the day — the day you step from one world into another. Crossing a high mountain pass isn’t just a climb; it’s a pilgrimage of sorts, one the mountains make you earn with every breath, every step, every quiet moment where you gather your strength. The excitement begins right from camp as the first light spills over the ridges above Phutsirang.<br>The ascent is steep from the very beginning. The trail twists through stony slopes and loose mud, rising steadily toward the saddle of the Pin Bhaba Pass. Your pace naturally slows as oxygen thins and the valley floor drops away behind you. Each pause rewards you with the sight of Bhaba Valley opening in full — green, lush, and impossibly gentle compared to where you’re heading.<br>Reaching the saddle is surreal. One moment you are climbing through familiar grassy ridges, and the next you’re standing on a knife-edge gateway between two completely different worlds. This is where the crossover becomes real. Behind you lies the soft, green embrace of Bhaba Valley. Ahead of you spreads the raw, wind-carved expanse of Pin — a canvas of browns, pinks, and pale earth stretching into the cold desert of Spiti. The contrast is so sudden, so dramatic, it almost feels staged by nature.<br>Below, far in the distance, a thin silver ribbon glints — the Pin River.<br>The descent begins sharply from the pass, dropping onto a terrain made of moraine fields, loose scree, and bits of old glacier. Every step demands focus. Move slow, plant each foot carefully, and stay patient — this is the part that tests your control more than your stamina.<br>Two kilometres down, you finally reach the Pin River. It crashes past you in icy torrents, fed by the snowfields above. You’ll need to remove your footwear to cross it — the water is freezing, but the moment your feet touch the stones on the other side, you know you’ve officially entered Spiti.<br>From here, the valley widens. The descent becomes more relaxed, though the ground is still scattered with moraine and scree. The colours around you shift constantly — dusty pinks, pale yellows, oxidized reds — the signature palette of the Pin Valley.<br>About 6 km after the river crossing, the trail reveals the Mangrungtse campsite far below. It rests quietly on the valley floor, surrounded by the vast emptiness that defines this region. It’s a wide, quiet patch of land beside the river, nestled between towering desert slopes. The wind here carries the dry, crisp air of Spiti, and the sky feels closer, clearer, almost overwhelming in its scale.<br>Tonight, as you rest in Mangruntse, you’ll feel the magnitude of what you’ve accomplished. The crossover is complete — you’ve walked from dense forests and glowing meadows into one of the highest cold deserts in the world.<br>And tomorrow, the trail will carry you deeper into Spiti’s awe-inspiring emptiness." 
+  {
+    "day": 5,
+    "title": "Litham to Dunda (13,300 ft)",
+    "details": "<strong>• Trek distance: ~9 km | Duration: 6–7 hours | Altitude gain: ~1,500 ft.</strong><br>• Leaving Litham, the trail transitions from gentle meadows to rocky ridges and scree slopes. Streams crisscross your path, and the valley narrows as you ascend. Wildflowers and grasses accompany your steps, and distant views of Buran Ghati appear. The Dunda campsite sits on a high plateau with sweeping views of the surrounding mountains and the route toward Gunas Pass. This is your last camp before the pass, making it a crucial resting point. Evening offers a chance to observe the interplay of light and shadow on the peaks and valleys."
   },
-  { 
-    day: 6, 
-    title: "Mangrungtse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", 
-    details: "<strong>• Trek distance: ~16 km | Duration: 6–8 hours | Altitude gain: ~1000 ft descent.</strong> <br>• Your final morning on the Pin Bhaba Pass trek begins in the stark quiet of Mangruntse. The valley wakes slowly — cold winds brushing across the desert slopes, early light glinting off the Pin River, and a vastness so deep it feels like the world has paused around you. This is the day you exit the wilderness and walk back into human settlements. It’s long, around 16 km, so you start early while the valley is still cool.<br>The trail climbs gently out of Mangruntse and soon merges with the main route near Bwalder. Once you’re on the higher trail, Spiti’s famous palette of soft reds and browns begins to dominate the landscape. Ahead lies a long, sweeping valley that guides you toward Mudh — the first village of Spiti and the symbolic end of your journey.<br>A steady 2 km push brings you to Bara Boulder, a well-known rest point surrounded by moraine fields. The descent here is gradual, but the terrain is rough with scattered stones and loose earth. There’s a water source nearby, but it’s not the cleanest — the last good refill is always back at Bwalder or Mangruntse.<br>Just 300 metres beyond Bara Boulder, you cross a lively tributary of the Pin River using a log bridge, the kind of rustic crossing that marks the signature of Spiti’s trekking trails. Once you’re across, the scenery shifts dramatically.<br>The trail turns into a vast, flat stretch coated with red soil and tiny crimson stones — a landscape so unique that it feels as though you’ve stepped onto another planet. Winds blow freely here, carving ripples into the dust and sending sand brushing against your boots.<br>A long, flat walk of about 1.5 km brings you to another small mountain stream. You cross it via another simple log bridge, and just after this point, the reward of the entire day arrives:<br>The first distant view of Mudh Village: Even from 5 km away, Mudh looks like a painting — white houses clustered together, barley fields glowing green and gold, and a line of colourful prayer flags fluttering in the wind. The moment you spot it, something shifts inside you — fatigue eases, your pace steadies, and the heart picks up in excitement. After days in raw wilderness, the sight of this tiny settlement feels unreal.<br>The final stretch, though long, is gentle. The Pin River accompanies you for much of this section, carving a deep channel through the barren valley. Eventually, you reach the last river crossing of the trek — a suspension bridge swaying slightly in the wind, hanging above the wide, roaring Pin.<br>Crossing that bridge is an unforgettable moment. It’s the symbolic gateway into Spiti and the confirmation that your journey — this massive crossover from Kinnaur to Spiti — is nearly complete.<br>Once across, a short climb on a dusty path leads you straight into Mudh Village, the end point of your trek. Prayer flags welcome you, children often wave from rooftops, and the warm, dry wind of Spiti greets you like an old friend.<br>After a brief rest at Mudh, we drive back to Kaza, the cultural and commercial hub of Spiti, for an overnight stay in a guest house.<br>You’ve done it — six days, two contrasting valleys, one dramatic pass, and an experience that stays with you long after you’ve left these mountains." 
+  {
+    "day": 6,
+    "title": "Dunda to Munirang via Buran Ghati Pass (15,000+ ft) | Descent ~2,700 ft",
+    "details": "<strong>• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~1,700 ft ascent, ~2,700 ft descent.</strong><br>• Today is the pinnacle of the trek. The climb to Buran Ghati Pass starts before sunrise, with the trail weaving through rocky slopes, scree, and occasional snowfields. At the saddle, the view is breathtaking — behind lies Bhaba Valley, green and lush, while ahead spreads the barren, rugged expanse of Spiti. The descent begins carefully, navigating moraine and glacier remnants. Crossing icy streams, you finally reach Munirang campsite, nestled in alpine meadows beside the river. The dramatic contrast between lush Kinnaur and stark Spiti is fully realized here, marking a memorable high point of the trek."
   },
-  { 
-    day: 7, 
-    title: "Drive from Kaza to Manali (12,000 ft → 6,700 ft)", 
-    details: "<strong>• Distance: ~200 km | Duration: 9–10 hours by road.</strong> <br>• The trek may be over, but the journey isn’t finished yet. Early in the morning, you leave Kaza behind and begin the drive back toward Manali, a route that is as spectacular as the trek itself. The road climbs once more to Kunzum La, perched at 15,000 ft, where the barren beauty of Spiti stretches endlessly in every direction. Here, the mountains are stark, the winds strong, and the sense of accomplishment from the trek still fresh in your mind.<br>As you descend from the pass, the road winds past iconic Spiti landmarks — the quiet village of Losar, the rugged expanse near Chatru, and stretches where the terrain seems to change with every turn. The Chandra Valley opens gradually below, lush and serene, a striking contrast to the high desert you leave behind.<br>By evening, the drive brings you into the forests and greener valleys of Manali, the mountains softening into familiar slopes dotted with villages and rivers. For those who opted for transport with the trek package, this journey is a smooth, scenic farewell to the Pin Bhaba adventure — a chance to relive every moment of the trek as the Himalayas pass by your window." 
+  {
+    "day": 7,
+    "title": "Munirang to Barua Village → Drive to Shimla",
+    "details": "<strong>• Trek distance: ~16 km | Duration: 6–7 hours | Altitude loss: ~2,300 ft.</strong><br>• Descending from Munirang, the trail passes through pastures, boulder fields, and scattered alpine shrubs. The Pin River flows nearby, and the valley gradually widens. Crossing wooden bridges and small streams, you approach Barua Village — a tranquil settlement of whitewashed homes and barley fields. From Barua, vehicles take you back to Shimla. Along the drive, the landscape shifts from barren high-altitude desert to lush valleys and dense forests. Arriving in Shimla marks the end of an unforgettable journey through two contrasting Himalayan worlds."
   }
 
 ],
@@ -465,8 +465,24 @@ export const treks = [
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },        
       ],
       snippet: 
-        "If you’re seeking a trek that blends raw adventure, staggering natural beauty, and a sense of journey through changing worlds, Rupin Pass deserves a place at the very top. Beginning in the quaint villages of Shimla’s remote valleys, the trail winds through apple orchards, hanging wooden bridges, and dense forests of oak, pine, and rhododendron, before opening up into vast alpine meadows where the Rupin River roars alongside you. The heart of the trek lies in its drama — climbing beside the thunderous three-stage Rupin Waterfall, camping at the amphitheater-like Dhanderas Thatch, and finally tackling the steep snow-filled Rupin Gully to stand atop the high-altitude pass at nearly 15,300 ft. From here, the panorama unfolds into Kinnaur’s majestic landscapes, including glimpses of the sacred Kinnaur Kailash range and the lush meadows of Sangla Valley. This trek isn’t just about the views, but about the ever-changing terrain: one day a shady pine forest, the next a vibrant rhododendron grove, followed by stark snowfields and glacial basins. The Rupin Pass trek compresses into a single journey what feels like a cross-section of the entire Indian Himalaya.<br><br>🌸<b>Seasonal Notes:</b><br><br><b>Summer (May–June):</b> Expect lingering snowfields above Dhanderas Thatch, thrilling ice walks, and the chance to slide down long snow slopes after the pass crossing. The meadows below, freshly revealed after winter, sparkle with new grass and early wildflowers.<br><br><b>Autumn (Sept–Oct):</b> The snow retreats, revealing the Rupin Valley in full bloom. Meadows are alive with alpine flowers, while oak and maple forests turn golden and crimson. Crisp skies make for crystal-clear views of distant peaks — the Himalayas at their most colorful and vibrant." 
-      },
+        `Imagine a trail where every few kilometres feel like a different world — where forests turn into meadows, meadows dissolve into snowfields, and snowfields rise into a dramatic high-altitude gully that leads you to one of the most memorable pass crossings in the Himalayas. That is the magic of the Rupin Pass Trek, a route that unfolds like a cinematic journey through nature’s most unexpected transitions.
+
+<br>Your adventure begins deep inside Himachal’s remote valleys, where charming wooden villages sit perched on steep mountainsides and locals greet you with stories older than the forests around them. The initial days take you past hanging wooden bridges, apple orchards, and dense stretches of oak, pine, and ancient fir — the kind of forests where sunlight filters through like liquid gold. Suddenly, the trail bursts open into Saruwas Thatch, a meadow straight out of mythology, with the Rupin River carving its path beside you.
+
+<br>Then comes the moment every trekker remembers forever — the first sight of the legendary Rupin Waterfall. Dropping nearly 1,500 feet in three roaring tiers, the waterfall appears suddenly at the head of a perfectly carved U-shaped glacial valley. No photo or review prepares you for the scale of this wall of water; it feels like the mountains are splitting open in front of you.
+
+<br>From the base of the waterfall, the trail gets progressively more dramatic. You climb through the vast amphitheatre of Dhanderas Thatch, camp surrounded by towering cliffs streaked with snow, and trace the roaring river all the way to Rata Pheri. It is here that the mighty Rupin Gully comes into view — a steep, narrow snow corridor that leads to the pass at nearly 15,300 ft. The climb is intense, powerful, and unforgettable. Every step echoes, every gust of wind feels sharper, and the sense of scale is overwhelming.
+
+<br>Reaching the top of the pass is like stepping into another universe. On the other side lies Kinnaur’s legendary highlands — rolling pastures, sweeping grasslands of Sangla Kanda, and distant glimpses of the sacred Kinnaur Kailash range glowing against the sky. The descent into Sangla feels like entering a softer, greener world after days of rugged altitude and raw terrain.
+
+<br>What makes the Rupin Pass trek extraordinary isn’t just its beauty, but its constantly shifting character. One morning you’re walking through fiery-red rhododendron groves, and the same afternoon you’re crunching over snow bridges. Another day you’re in thick forests; the next you’re walking across vast alpine basins surrounded by cliffs and glaciers. Few Himalayan treks pack such diversity into a single trail.
+
+<br><strong>🌸 Seasonal Notes:</strong>
+
+<br><strong>* Summer (May–June):</strong> Lingering snowfields dominate the upper valley, transforming the entire approach to Dhanderas Thatch into a stunning white amphitheatre. You’ll cross giant snow bridges, navigate icy shelves, and enjoy the thrill of sliding down snow slopes after crossing the pass. Meadows sparkle with fresh grass and early blooms just released from winter.
+
+<br><strong>* Autumn (Sept–Oct):</strong> The trek turns into a painter’s palette — golden oak leaves, fiery-red maples, multiple other high waterfalls on either side the valley, and slopes bursting with alpine flowers. Clear skies reveal razor-sharp views of the waterfall, the gully, and the Kinnaur peaks. The valley feels crisp, colourful, and beautifully alive — arguably the best season for photography and long, thoughtful walks along the Rupin.`
+  },
 
     price: 16500,
     priceNote: "* Jiskoon to Sangla",
@@ -508,41 +524,41 @@ export const treks = [
     ],
 
     itinerary: [
-  {
-    day: 1,
-    title: "Arrive at Jiskoon (7,630 ft)",
-    details: "• Distance from Shimla: ~190 km | Drive: 10–12 hrs via Rohru & Chanshal Pass (12,000 ft). <br>• Trail Info: Road journey through apple orchards, pine forests, and tiny Himachali hamlets. <br>• Highlights: Stunning crossover of Chanshal Pass, first glimpses of remote Kinnauri culture. <br>• Stay: Homestay in Jiskoon — warm hospitality of a high-mountain village."
-  },
-  {
-    day: 2,
-    title: "Jiskoon to Jhaka (8,750 ft)",
-    details: "• Trek Distance: ~4 km | Time: 4–5 hrs. <br>• Trail Info: A short but steep uphill climb, with well-trodden shepherd trails. <br>• Highlights: The 'hanging village' of Jhaka — houses perched dramatically on a cliff edge. <br>• Experience: Interaction with villagers, old wooden Himachali homes, terraced fields of barley & buckwheat. <br>• Stay: Homestay in Jhaka."
-  },
-  {
-    day: 3,
-    title: "Jhaka to Saruwas Thatch (10,500 ft)",
-    details: "• Trek Distance: ~7 km | Time: 5–6 hrs. <br>• Trail Info: Forested trail of oak, pine, and rhododendron opens into boulder sections, then alpine meadows. <br>• Highlights: Enter the wide Rupin Valley with the Rupin River snaking through. <br>• Flora & Fauna: Rhododendron (in bloom May–June), chances of spotting Himalayan monals or langurs. <br>• Stay: Tented campsite in Saruwas Thatch, meadow-side."
-  },
-  {
-    day: 4,
-    title: "Saruwas Thatch to Dhanderas Thatch (11,700 ft)",
-    details: "• Trek Distance: ~3 km | Time: 2–3 hrs. <br>• Trail Info: Easy meadow walk with wildflowers in summer, golden grasslands in autumn. <br>• Highlights: First dramatic views of the three-stage Rupin Waterfall cascading down the cliff ahead. <br>• Experience: Camp at Dhanderas Thatch, a massive amphitheater-like meadow cradled by high cliffs. <br>• Stay: Tents in the meadow."
-  },
-  {
-    day: 5,
-    title: "Dhanderas Thatch to Upper Waterfall Camp (13,250 ft)",
-    details: "• Trek Distance: ~4 km | Time: 3–4 hrs. <br>• Trail Info: Steep ascent, climbing beside the roaring Rupin Waterfall on a narrow trail carved into the mountainside. <br>• Highlights: The surreal climb next to the thundering waterfall, often snow-lined in May–June. <br>• Flora/Seasonal: Snow bridges in early summer, flowering alpine herbs in autumn. <br>• Stay: Campsite above the waterfall, the coldest night of the trek, with snow peaks in every direction."
-  },
-  {
-    day: 6,
-    title: "Upper Waterfall Camp to Rupin Pass (15,250 ft) → Descend to Ronti Gad (13,400 ft)",
-    details: "• Trek Distance: ~11–12 km | Time: 8–9 hrs (longest & hardest day). <br>• Trail Info: <br>&nbsp;&nbsp;• Ascent: Snow-filled gully climb to the Rupin Pass. <br>&nbsp;&nbsp;• Descent: Steep descent on snowfields (summer) or loose scree & glacial moraine (autumn). <br>• Highlights: <br>&nbsp;&nbsp;• Summit View: 360° Himalayan panorama including Kinnaur Kailash, Charang Ghati, and distant peaks of Uttarakhand. <br>&nbsp;&nbsp;• Thrill: Snow glissading after the pass in summer. <br>• Stay: Meadow campsite at Ronti Gad, surrounded by high ridges and streams."
-  },
-  {
-    day: 7,
-    title: "Ronti Gad to Sanglakanda (via Sangla Kanda) → Trek Ends",
-    details: "• Trek Distance: ~8–9 km | Time: 4–5 hrs. <br>• Trail Info: Gradual descent through lush alpine pastures dotted with shepherd huts. <br>• Highlights: Stunning grasslands of Sangla Kanda, with expansive views of lower Kinnaur valleys. <br>• Exit Point: Trek ends at Sanglakanda with road access to Sangla town (short 1-hr drive). <br>• Optional: Explore Sangla’s orchards and traditional Kinnauri temples before departure."
-  }
+{
+"day": 1,
+"title": "Arrive at Jiskoon (7,630 ft)",
+"details": "<strong>• Drive: ~190 km from Shimla | Duration: 10–12 hrs via Rohru & Chanshal Pass (12,000 ft).</strong><br>• The approach is the first act of the Rupin story — a long, scenic drive that climbs out of Shimla’s foothills and moves through apple orchards, tight pine corridors and quiet Himachali hamlets. We skirt the dramatic Chanshal Pass, where open grasslands and distant ridgelines replace the forested slopes below. From Rohru the road forks — one way to Janglik, the other to Jiskoon — and the short detour through the Chainsheel valley feels like a condensed trek in itself, all wild meadows and sudden views. Jiskoon (also written Jiskun) sits high above the confluence of the Rupin and Nargani, a practical, friendly village with small shops to top up food and fuel. Use this evening to check gear, buy last-minute supplies, and sleep early — the trail begins tomorrow."
+},
+{
+"day": 2,
+"title": "Jiskoon to Jakha (8,750 ft)",
+"details": "<strong>• Trek: ~4 km | Duration: 4–5 hrs | Short but steep; last inhabited village on the trail.</strong><br>• The path out of Jiskoon drops and then climbs in a sequence of forested folds, passing under deodar and walnut canopies before threading into a dark rock-cut bend where you’ll spot the remains of an old wooden bridge and a new one below. The final hour is a memorable zig-zag up a ridgeline that from below looks fearsome but rewards you with wide views and a scent of pine. Jakha is a hanging village in the truest sense — houses clinging to a cliff, narrow lanes, and a strong local rhythm shaped by satsang traditions. The campsite sits just above the village (or inside the school courtyard) and has that rare village feel: wood-smoke, porch light, kids playing. This is your last reliable place to resupply or hire porters; beyond Jakha the valley opens into remote territory punctuated by shepherd camps."
+},
+{
+"day": 3,
+"title": "Jakha to Saruwas Thatch (10,500 ft)",
+"details": "<strong>• Trek: ~7 km | Duration: 5–6 hrs | Forest to boulder-strewn riverbed to meadows.</strong><br>• You climb out of Jakha through terraced fields and enter an almost cathedral-like fir forest — towering blue pines hundreds of years old that make the trail feel sacred. The forest ends as abruptly as it begins and the valley opens: for the first time you may see a lower-altitude snow bridge spanning the Rupin, a surreal sheet of white with the river carving holes beneath. If the bridge is gone in a dry summer, the trail still leads across tributaries and a wooden bridge before continuing on a narrow shepherd’s path with the Rupin always on your left. The river here turns an impossible icy-blue; small tributaries tumble in from above and the valley is littered with boulders and braided streams — perfect places to refill water. The latter half of the day brings rhododendron thickets in bloom (May–June) and a sequence of clearings that end at Saruwas Thatch, a wide meadow with the Rupin gushing below and the promise of the waterfall ahead."
+},
+{
+"day": 4,
+"title": "Saruwas Thatch to Dhanderas Thatch (11,700 ft)",
+"details": "<strong>• Trek: ~3 km | Duration: 2–3 hrs | Gentle meadow walk with dramatic waterfall reveal.</strong><br>• From the lip of the U-shaped Rupin valley you watch hundreds of narrow waterfalls stitch down the brown cliffs into the main gorge. The trail drops into a sea of yellow marigolds and alpine grass, a slow, joyful walk punctuated by ankle-deep rivulets and tiny wooden step-bridges. Soon you reach a wide riverbed and climb onto the largest snow bridge on the trail before stepping up to a plateau. And then — the curtain lifts. Dhanderas Thatch is a natural amphitheatre: a sweeping bowl of green with the Rupin Waterfall plunging in three thunderous tiers from the head of the valley. The noise, the spray, the scale of that 1,500-ft drop are hard to forget. Water is abundant; choose a campsite that looks over the snout of the falls and spend the evening watching clouds slide over the Dhauladar ridges."
+},
+{
+"day": 5,
+"title": "Dhanderas Thatch to Upper Waterfall Camp (13,250 ft)",
+"details": "<strong>• Trek: ~4 km | Duration: 3–4 hrs | Steep technical sections beside the waterfall; acclimatisation day.</strong><br>• Today is intentionally slower — an acclimatisation and technical prep day. Begin with a measured climb toward the base of the upper snow patches, hopping streams and winding through carpets of marigolds. Approaching the waterfall’s higher tiers you’ll scramble across boulder-strewn ledges and skirt ice patches; depending on season there can be snow bridges that require careful footwork or step-cutting. Use poles, and if the group carries them, an ice axe and gaiters make life easier. The top of the middle cascade reveals a strange and beautiful sight: the Rupin disappears beneath a thick snow bridge, flowing invisibly underfoot. Continue to the upper waterfall meadow — a wide, flat bowl where minor snowfields feed tiny streams that converge to birth the Rupin. This campsite is exposed, cold, and raw — perfect for preparing your body and nerves for the pass push to come."
+},
+{
+"day": 6,
+"title": "Upper Waterfall Camp to Rupin Pass (15,250 ft) → Descend to Ronti Gad (13,400 ft)",
+"details": "<strong>• Trek: ~11–12 km | Duration: 8–9 hrs | Early pre-dawn start; long snowfields & gully climb.</strong><br>• The day begins long before sunrise. You carry breakfast and set off in headlamp light toward Rati Pheri — a steep, breathy climb that leads onto vast undulating snowfields. The Rupin valley slips from view and the Dhauladar range tightens to your right. Rati Pheri is a last-water stop and a place to adjust layers; beyond it the route crosses wide snow expanses where boots sink and progress is slow. Keep sight of the distant gully — a narrow, tube-like channel carved into the ridge that marks the Rupin Pass. After an arduous approach you reach the foot of the gully: the technical 200-metre scramble up mixed snow, scree and loose boulders. Step carefully, follow your guide, and accept that every foothold matters. Emerging onto the ridge is a payoff few trails match — prayer flags snapping in thin air, stone cairns marking the saddle, and a 360° sweep of Himalayan ranges including views toward Kinnaur Kailash and the far ridges beyond. The descent slides you down snow chutes (summer glissades if conditions allow) or careful scree traverses into the green meadows of Ronti Gad, where a cold but sheltered campsite awaits."
+},
+{
+"day": 7,
+"title": "Ronti Gad to Sanglakanda → Exit at Sangla",
+"details": "<strong>• Trek: ~8–9 km | Duration: 4–5 hrs | Long descent through alpine pastures to civilization.</strong><br>• The final morning is a gradual, scenic surrender to lower altitudes. The descent from Ronti Gad drops you through a patchwork of shepherd trails, meadows and blue-pine slopes. Keep your knees loose — switchbacks are long and the trail can be slippery in wet conditions — but the views are endlessly rewarding: the serrated Kinner Kailash range appears suddenly, huge and jagged, a dramatic curtain over the Baspa valley. Sangla Kanda unfolds as a broad green bowl with lakes and terraced fields; from here a short walk or drive takes you into Sangla town. Enjoy the first cups of town tea, swap stories with villagers, and if time allows stroll through apple orchards or visit a Kinnauri temple before catching onward transport. The Rupin Pass concludes here — seven days of abrupt landscapes, roaring water, hidden snow bridges and one unforgettable gully crossing."
+}
 ],
 
     howToReach: {
@@ -683,9 +699,27 @@ export const treks = [
         { emoji: "🏁", label: "End Point", value: "Baruva (Himachal)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
       ],
-      snippet: 
-  "The Buran Ghati Trek is a hidden Himalayan gem that combines the best elements of every great trek in India — meadows, forests, villages, high passes, alpine lakes, and thrilling adventure. Starting from the ancient village of Janglik in the Pabbar Valley (Shimla side), the trail winds through pine and oak forests, golden birch groves, and sprawling meadows dotted with wildflowers. Along the way, trekkers encounter Chandranahan Lake, a glacial tarn sacred to locals, and camp in breathtaking alpine settings like Dayara and Litham. The climax comes at Buran Pass (15,000+ ft), where an adrenaline-filled snow-wall descent or rope rappel leads into the contrasting landscapes of Kinnaur Valley. Ending at Baruva village, the trek offers not just Himalayan grandeur but also a cultural window into centuries-old Himachali settlements. Rich in biodiversity, from Himalayan monals and griffon vultures to wild roses, primulas, and junipers, Buran Ghati is truly a complete Himalayan experience."
-    },
+      snippet: `Every trek has breathtaking moments, and every trek has sections that test your patience. The Buran Ghati Trek, however, seems to have taken all the best parts of Himalayan trekking and woven them into one unforgettable journey. From the very first step, it captures your imagination and refuses to let go.
+
+<br>The adventure begins in the ancient village of Janglik, perched at 9,000 ft in the Pabbar Valley. This is not just a starting point — it’s your first taste of high-altitude Himalayan life, a village seemingly untouched by time, where stone houses and narrow lanes whisper of centuries past. Acclimatization is key here: sip water slowly, take in the crisp air, and let your body settle into the rhythm of the mountains.
+
+<br>From Janglik, the trail winds through dense pine and oak forests, gradually opening to the vast Dayara meadows. One glance at this wide green tabletop, with the Dhauladhar Range rising like silent sentinels in the distance, and you’ll stop in awe. The meadows are alive with wildflowers in summer, and in autumn, they glow golden under the crisp Himalayan sky. Camping here feels like standing on a natural amphitheater, with the mountains themselves applauding your arrival.
+
+<br>A gentle hike the next day brings you to Litham, passing a majestic waterfall and tracing the banks of the Pabbar River. Hidden in a secluded valley above the falls lie the Chandranahan Lakes, sacred to locals who walk barefoot along their shores. Here, an acclimatization day allows you to explore the lakes, witness their glacial serenity, and absorb the quiet energy of the high Himalayas.
+
+<br>From Litham, the landscape shifts dramatically. Pastures give way to rocky screes, and the trail gradually climbs along the valley floor, crossing rivers — in summer, sometimes over snow bridges — until you reach Lower Dunda. A final steep ascent takes you to Upper Dunda, a spectacular alpine meadow where a sparkling stream winds through wildflowers carpeting the grasslands. Here, beneath towering peaks, your trek leader briefs you for the pass day — the technical challenges ahead demand respect and focus.
+
+<br>The pass crossing day begins before dawn. Trekking from Dunda, the gully opens into a field of screes and boulders. In summer, microspikes and gaiters are essential; in autumn, the snow has melted, leaving a narrow trail hugging the mountainside. At the top, a 70-ft rappel (summer) or careful traverse (autumn) awaits. Summer adventurers then slide down a long glissade, an exhilarating descent into the valley below. Across the river and through lush grasslands, you arrive at Munirang, your final alpine campsite, serenaded by the river rushing far below.
+
+<br>The last day is a gentle descent through apple, apricot, and walnut orchards, a serene contrast to the high-altitude thrills. It culminates in the charming village of Barua, where your vehicles await, and your journey — a perfect blend of adventure, nature, and Himalayan culture — comes to an unforgettable close.
+
+<br><strong>Seasonal Highlights:</strong>
+
+<br><strong>Summer:</strong> Snow on the upper slopes, adrenaline-pumping rappels, long glissades, and blooming alpine flowers.
+
+<br><strong>Autumn:</strong> Crisp skies, golden meadows, high-altitude flowers, and a scenic, serene trek with no rappelling or glissading.
+
+<br>The Buran Ghati Trek is more than a trek; it’s an immersion in the heart of the Himalayas, a journey that leaves you humbled, exhilarated, and longing for more.` },
 
     price: 16500,
     priceNote: "* Janglik to Baruva",
@@ -728,39 +762,39 @@ export const treks = [
 
     itinerary: [
   {
-    day: 1,
-    title: "Arrival at Janglik (9,200 ft)",
-    details: "• Drive from Shimla to Janglik: 7–8 hrs via Rohru and Tangnu.<br>• Journey highlights: Pabbar River valley, apple orchards, terraced fields, and traditional Himachali wooden houses.<br>• Janglik village offers a glimpse of old-world charm, untouched by commercialization.<br>• Stay: Homestay/guesthouse — warm hospitality with local Himachali food."
+    "day": 1,
+    "title": "Arrival at Janglik (9,200 ft)",
+    "details": "• Drive: Shimla → Rohru → Tangnu → Diude → Janglik: ~7–8 hrs.<br>• Highlights: Blue waters of the Pabbar River, terraced wheat fields, Himachali wooden homes, pine and mixed forests.<br>• Road notes: After Tikri, the motorable track becomes a dirt road winding through switchbacks to reach Diude, then a short walk to Janglik.<br>• Stay: Homestay/guesthouse — warm hospitality, local Himachali cuisine, perfect to rest and acclimatize."
   },
   {
-    day: 2,
-    title: "Janglik to Dayara (11,000 ft)",
-    details: "• Distance: ~5 km | Duration: 4–5 hrs.<br>• Trail: Gentle ascent through oak, pine, and rhododendron forests before opening into vast meadows.<br>• Flora: Spot wild strawberries, Himalayan roses, and oak ferns along the trail.<br>• Camp at Dayara — a sweeping meadow offering panoramic views of the snow peaks."
+    "day": 2,
+    "title": "Janglik to Dayara (11,000 ft)",
+    "details": "• Distance: ~5 km | Duration: 4–5 hrs.<br>• Trail: Climb past wheat fields and wooden farmhouses, gradually ascending into oak and pine forests. Streams crisscross the path, and shady forest sections provide refreshing breaks.<br>• Meadows: Sudden opening into expansive alpine meadows with snow patches on distant cliffs.<br>• Flora: Wild strawberries, Himalayan roses, oak ferns.<br>• Camp: Dayara — wide green tabletop meadow with panoramic views of Dhauladhar Range; perfect for your first night under the stars."
   },
   {
-    day: 3,
-    title: "Dayara to Litham (11,800 ft)",
-    details: "• Distance: ~4 km | Duration: 3–4 hrs.<br>• Trail: A mix of grasslands, forested patches, and stream crossings.<br>• Highlights: Towering views of the Dhauladhar range and Gunas Pass in the distance.<br>• Flora & fauna: Fields of blue poppies in summer; chance sightings of Himalayan griffon vultures.<br>• Campsite by the Pabbar River, with views of cascading waterfalls and snowfields."
+    "day": 3,
+    "title": "Dayara to Litham (11,800 ft)",
+    "details": "• Distance: ~4 km | Duration: 3–4 hrs.<br>• Trail: Traverses through forests, gurgling streams, wide meadows, and rolling hills. Gentle ascent of 737 ft.<br>• Highlights: Views of Dhauladhar Range and Gunas Pass; small waterfalls and Pabbar River tributaries along the way.<br>• Flora & Fauna: Summer brings blue poppies; watch for Himalayan griffon vultures.<br>• Camp: Litham — dramatic meadow with cascading streams, backdrop of snow-clad peaks and glimpses of hidden Chandranahan Lakes."
   },
   {
-    day: 4,
-    title: "Excursion to Chandranahan Lake (13,800 ft) — Acclimatization Day",
-    details: "• Distance: ~5 km round trip | Duration: 4–5 hrs.<br>• Steep climb into alpine terrain with boulder sections and snow patches (early season).<br>• Destination: Chandranahan — a cluster of 7 glacial tarns, sacred to locals, often surrounded by snow.<br>• Perfect acclimatization day, with rewarding views and high-altitude exposure."
+    "day": 4,
+    "title": "Excursion to Chandranahan Lakes (13,800 ft) — Acclimatization Day",
+    "details": "• Distance: ~5 km round trip | Duration: 4–5 hrs.<br>• Trail: Steep climb from Litham along shepherds’ trails with boulders and snow patches early season.<br>• Destination: Chandranahan — cluster of glacial tarns, sacred to locals, nestled in a glacial amphitheatre with tiny trickling waterfalls and alpine meadows.<br>• Experience: Spend the day exploring and acclimatizing, soaking in pristine high-altitude Himalayan scenery before returning to Litham for the night."
   },
   {
-    day: 5,
-    title: "Litham to Dunda (13,000 ft)",
-    details: "• Distance: ~5 km | Duration: 4–5 hrs.<br>• Trail: Steady ascent through alpine meadows with views of towering snow peaks.<br>• Flora: Meadows bloom with primulas, anemones, and buttercups during June–July.<br>• Campsite at Dunda: A dramatic high-altitude setting with Buran Pass clearly visible ahead."
+    "day": 5,
+    "title": "Litham to Dunda (13,300 ft)",
+    "details": "• Distance: ~5 km | Duration: 4–5 hrs.<br>• Trail: Ascends steadily through alpine meadows, grazing pastures, and gradually rocky terrain with screes.<br>• Highlights: Dramatic views of Buran Ghati and Gunas Pass; first glimpse of the challenging pass ahead.<br>• Flora: Alpine primulas, buttercups, and anemones in June–July.<br>• Camp: Dunda — high-altitude meadow with snow-capped mountains surrounding the campsite; perfect for preparing mentally and physically for the pass day."
   },
   {
-    day: 6,
-    title: "Cross Buran Ghati (15,000 ft) → Descend to River Camp (11,000 ft)",
-    details: "• Distance: ~9 km | Duration: 7–8 hrs.<br>• Ascent: Challenging climb to the top of the pass.<br>• Summit: Jaw-dropping 360° views of the Greater Himalaya and Kinnaur ranges.<br>• Descent: Snow wall rappel or rope-assisted descent (depending on season) followed by scree and alpine valley trails.<br>• Campsite at River Camp — lush green pastures beside a glacial stream."
+    "day": 6,
+    "title": "Cross Buran Ghati (15,000+ ft) → Descend to Munirang/River Camp (11,000 ft)",
+    "details": "• Distance: ~9 km | Duration: 7–8 hrs.<br>• Ascent: Early morning start from Dunda, climb through scree and boulder gully to the base of the pass.<br>• Summit: Buran Ghati at 15,000+ ft — summer trekkers rappel 70-ft snow wall and slide down glissades; autumn trekkers traverse narrow mountain ledges.<br>• Descent: Series of snowfields, alpine trails, and river crossings leading to lush meadows.<br>• Camp: Munirang — serene grasslands by a flowing stream, surrounded by wild alpine flowers, perfect to relax after high-altitude thrills."
   },
   {
-    day: 7,
-    title: "River Camp to Baruva Village → Drive to Shimla",
-    details: "• Trek: ~4 km | Drive: 8 hrs.<br>• Trail: Gentle descent through deodar and pine forests, interspersed with fruit orchards.<br>• Baruva: A quaint Kinnauri hamlet, marking the end of the trek.<br>• Drive back to Shimla with memories of crossing one of Himachal’s most thrilling high passes."
+    "day": 7,
+    "title": "Munirang to Barua Village → Drive to Shimla",
+    "details": "• Trek: ~4 km | Drive: 8–9 hrs.<br>• Trail: Gentle descent through orchards of apples, apricots, walnuts; diverse flora and forest types along the Barua Khud.<br>• Village: Barua — quaint Kinnauri hamlet with temples, fruit orchards, and friendly locals offering a warm welcome.<br>• End: Vehicles from Barua take you back to Shimla, completing a journey rich with Himalayan landscapes, adventure, and cultural immersion."
   }
 ],
 
