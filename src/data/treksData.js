@@ -3431,8 +3431,25 @@ itinerary: [
       { emoji: "🏁", label: "End Point", value: "Janki Chatti (Yamunotri, Uttarkashi, Uttarakhand)" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
     ],
-    snippet: `Bali Pass Trek is one of the most adventurous high-altitude crossovers in the Indian Himalayas, connecting the lush Har Ki Dun valley with the sacred Yamunotri region. Rising to 16,207 ft, this trek offers everything — alpine meadows, ancient Himalayan villages, glacial valleys, moraine crossings, and breathtaking views of Swargarohini, Bandarpoonch, and Kala Nag peaks. The trail begins in dense forests of pine and oak, passes through quaint villages like Osla and Seema, ascends to the alpine Ruinsara Tal lake, and then climbs steeply to the Bali Pass, offering a spectacular panorama of the Garhwal Himalayas. Descending into the Yamunotri valley feels like entering another world, making this trek a true Himalayan odyssey.`,
-  },
+    snippet: `The Bali Pass Trek is one of those rare Himalayan journeys where the landscape keeps transforming faster than your eyes can register. It begins gently, almost deceptively, in the quiet valley of Sankri — a world of wooden houses, terraced fields, and forests that glow golden in the morning sun. From here, the trail slips into the timeless Har Ki Dun region, weaving through the ancient villages of Osla, Gangad, and Dhatmeer, where traditional wooden homes, carved balconies, and stories of the Pandavas feel as much a part of the valley as the river that runs through it. Life here moves slowly, and for many trekkers, this early cultural immersion sets the emotional tone for the days ahead.
+
+<br>As you move deeper into the valley, the trail widens into the enormous grassland of Devsu Thach — a meadow so perfectly placed between forests and ridgelines that it feels like the mountains created it intentionally for trekkers to pause. Through summer, the grass turns a vivid green, dotted with wildflowers; in autumn, its golden rust tones ripple in the wind like an open sea. Standing here with views of Swargarohini rising through the clouds, you begin to understand why this region has been revered for centuries.
+
+<br>Beyond Devsu, the trail tightens into a narrow valley, always accompanied by the clear glacial stream of the Ruinsara Gad. The climb is steady, and with each turn, the landscape grows starker — forests thinning, riverbeds widening, boulders appearing, and the air beginning to thin. As you approach Ruinsara Tal, the entire valley suddenly opens up. Nestled at the base of steep cliffs, Ruinsara is a serene alpine lake reflecting snow-patched ridges and vast meadows that stretch out like a natural amphitheatre. The silence, the wind, the still water — everything here feels untouched and sacred. Many trekkers say this is where the trek “changes character.”
+
+<br>From Ruinsara, the terrain shifts dramatically. The soft meadows give way to broken moraine fields and steep ascents as you make your way toward Odari, the campsite at the foot of the Swargarohini massif. Here, the mountain stands like an enormous ice-plated wall — sharp, intimidating, impossibly close. At dawn, when the first rays hit the summit and light ripples down its ridges, the entire mountain seems to ignite. This is the kind of moment that stays with you long after the trek ends.
+
+<br>The approach to the pass is where Bali Pass truly becomes an expedition. The trail narrows into the steep, exposed Narma Kandi ridge, often called a “knife-edge” for good reason. One side drops into the Ruinsara valley; the other side falls away toward Yamunotri. You place your steps carefully, every minute aware of the altitude, the cold, and the weight of the mountains around you. The higher you go, the more the peaks rearrange themselves, and suddenly, almost abruptly, the ridge meets a final steep push of snow or loose rock.
+
+<br>Standing on Bali Pass (≈ 4,950 m / 16,200 ft) is an emotional moment — the culmination of days spent crossing villages, forests, meadows, moraines, and ridgelines. From the top, you see a world of summits in every direction: Bandarpoonch, Kala Nag (Black Peak), and the entire Swargarohini range dominate the skyline. The wind is sharp, the terrain raw, and yet the sense of accomplishment is overwhelming. Few high-altitude treks in India offer such an exposed, panoramic, unfiltered vantage point.
+
+<br>But Bali Pass is not done with you yet.
+
+<br>The descent toward Lower Damini and Yamunotri is steep, long, and demanding. You navigate boulder fields, scree slopes, narrow gullies, and sections that require complete concentration. The shift is dramatic — in just a few hours, you move from stark alpine emptiness into forests, waterfalls, and the unmistakable warmth of Yamunotri’s sacred valley. The contrast feels surreal. One moment you are crossing snow under a biting wind; the next, you are hearing temple bells echoing through the gorge.
+
+<br>This contrast — culture and wilderness, serenity and intensity, beauty and challenge — is what makes Bali Pass so unique. It is not just a trek; it is a full Himalayan journey where the terrain keeps pushing you, rewarding you, and revealing deeper layers of Garhwal’s landscape.
+
+<br>Bali Pass is demanding, unforgiving, and profoundly rewarding. For trekkers who come prepared and committed, it offers one of the most immersive, memorable, and culturally rich high-altitude crossovers in all of Uttarakhand — a journey that feels like both a pilgrimage and an adventure.`},
 
   price: 21900,
   priceNote: "* Sankri to Janki Chatti",
@@ -3467,46 +3484,46 @@ itinerary: [
   ],
 
   itinerary: [
-  { 
-    day: 1, 
-    title: "Arrive in Sankri (6,400 ft)", 
-    details: "• Drive distance: ~195 km | Duration: 6–8 hours. <br>• Drive from Dehradun to Sankri through Mussoorie, Purola, and Mori — one of the most scenic drives in the Garhwal Himalayas. <br>• The route winds through pine and deodar forests, with glimpses of the Tons River below. <br>• Sankri, a quaint village in Govind Pashu Vihar National Park, serves as the base for several famous treks. <br>• Overnight stay in a guesthouse or homestay at Sankri." 
+  {
+    "day": 1,
+    "title": "Arrive in Sankri (6,400 ft) | Drive distance: ~195 km | Duration: 6–8 hours.",
+    "details": "Your journey begins with a long yet stunning drive from Dehradun to Sankri, passing through Mussoorie, Purola, and Mori. The road winds through thick pine and deodar forests, opening occasionally into deep valleys where the Tons River glimmers below. As the altitude rises, the air becomes cooler and the landscape noticeably quieter. When you finally arrive in Sankri—an isolated Himalayan village inside Govind Pashu Vihar National Park—you’ll immediately feel the shift into mountain life. The village serves as the base for many legendary Garhwal treks. You settle into a cozy guesthouse or homestay, resting as the sun sets behind the ridges."
   },
-  { 
-    day: 2, 
-    title: "Sankri to Dhatmeer (7,875 ft) – Trek to Seema (8,400 ft)", 
-    details: "• Drive distance: 18 km | Trek distance: ~8 km | Duration: 1.5 hrs drive + 5–6 hrs trek. <br>• Short morning drive from Sankri to Dhatmeer village, the trek’s starting point. <br>• Trail begins with a gentle walk along the Supin River through chestnut, walnut, and deodar forests. <br>• Cross charming wooden bridges, cascading waterfalls, and small villages like Gangaar. <br>• The route offers first views of snow peaks of the Swargarohini range. <br>• Camp at Seema by the river, surrounded by thick forest and open meadows." 
+  {
+    "day": 2,
+    "title": "Sankri to Dhatmeer (7,875 ft) – Trek to Seema (8,400 ft) | Drive distance: 18 km | Trek distance: ~8 km | Duration: 1.5 hrs drive + 5–6 hrs trek.",
+    "details": "The day begins with a short but beautiful drive to Dhatmeer, the starting point of the trek. Soon after stepping onto the trail, you find yourself walking beside the Supin River, its constant flow echoing through forests of walnut, chestnut, and deodar. The path takes you across wooden bridges and through small mountain villages like Gangaar, where life moves slowly and peacefully. With every turn, the valley opens wider, offering clearer glimpses of the snow-covered Swargarohini peaks. By late afternoon, you reach Seema—a serene riverside campsite surrounded by forests and meadows. The sound of the river becomes your lullaby for the night."
   },
-  { 
-    day: 3, 
-    title: "Seema (8,400 ft) to Devsu Thatch (10,200 ft)", 
-    details: "• Trek distance: ~6 km | Duration: 4–5 hours. <br>• Follow the Supin River upstream, crossing mixed forest trails of oak, pine, and silver birch. <br>• The climb gradually opens into lush alpine meadows of Devsu Thatch — one of the most beautiful campsites on this trail. <br>• From here, you get sweeping views of Kala Nag (Black Peak, 20,955 ft) and Bandarpunch ranges. <br>• The trail is mildly steep but scenic throughout, with birds and rhododendrons in bloom (April–June). <br>• Camp overnight in tents at Devsu Thatch, surrounded by vast green meadows and icy peaks." 
+  {
+    "day": 3,
+    "title": "Seema (8,400 ft) to Devsu Thatch (10,200 ft) | Trek distance: ~6 km | Duration: 4–5 hours.",
+    "details": "Leaving Seema behind, the trail follows the Supin River for a while before beginning its gradual climb. You pass through oak, pine, and birch forests where the sunlight filters softly through the canopy. The forest eventually opens up, revealing the vast alpine meadows of Devsu Thatch. Spread out like a green carpet at the heart of the valley, these meadows are considered one of the most beautiful campsites in the Garhwal region. From the ridge, the towering silhouettes of Kala Nag and the Bandarpunch range dominate the skyline. In spring and summer, birds chirp in the distance while rhododendrons bloom in vibrant colours. You spend the evening wandering across the meadow before settling down in your tent."
   },
-  { 
-    day: 4, 
-    title: "Devsu Thatch (10,200 ft) to Ruinsara Tal (11,700 ft)", 
-    details: "• Trek distance: ~8.5 km | Duration: 5–6 hours. <br>• A moderate day following the Supin River for the last time before reaching Ruinsara Lake. <br>• Trail passes through silver birch and rhododendron forests, then opens into vast alpine terrain dotted with boulders and streams. <br>• Ruinsara Tal is a glacial lake surrounded by grassy meadows and towering peaks like Swargarohini and Dhumdhar Kandi. <br>• The area is known for Himalayan blue poppies and primulas during summer bloom. <br>• Overnight stay in wooden huts or tents beside the lake." 
+  {
+    "day": 4,
+    "title": "Devsu Thatch (10,200 ft) to Ruinsara Tal (11,700 ft) | Trek distance: ~8.5 km | Duration: 5–6 hours.",
+    "details": "Today the trail takes you deeper into the mountains as you leave the meadows and re-enter a mix of birch and rhododendron forests. Gradually the tree line thins, giving way to a rugged alpine landscape dotted with boulders and small streams. As you approach Ruinsara, the scenery suddenly opens up—revealing a pristine glacial lake surrounded by wide meadows and encircled by massive peaks like Swargarohini and Dhumdhar Kandi. The region is known for Himalayan blue poppies and primulas during bloom season, adding a burst of colour to the otherwise stark mountain setting. You spend the night in tents by the lake, feeling the calm isolation of the high Himalayas."
   },
-  { 
-    day: 5, 
-    title: "Ruinsara Tal (11,700 ft) to Odari (13,150 ft)", 
-    details: "• Trek distance: ~4 km | Duration: 3 hours. <br>• Short but scenic day through boulder sections and gentle river crossings. <br>• Odari means 'rock cave' — believed to be the place where Bali (Hanuman’s brother) once stayed, giving the trek its name. <br>• The trail gradually gains altitude and offers stunning views of Swargarohini I & II. <br>• Camp beside the river at Odari, surrounded by rocky ridges and high mountains. <br>• Evening briefing and acclimatization walk to prepare for the higher camp." 
+  {
+    "day": 5,
+    "title": "Ruinsara Tal (11,700 ft) to Odari (13,150 ft) | Trek distance: ~4 km | Duration: 3 hours.",
+    "details": "Today’s journey is shorter but equally rewarding. The path winds through boulder fields, gentle streams, and glacial debris as you gain altitude steadily. Odari, meaning 'rock cave,' holds mythological importance—believed to be the place where Bali, the brother of Lord Hanuman, once took shelter. The valley narrows here, surrounded by high ridges and sharp rocky slopes. As you approach the campsite, sweeping views of Swargarohini I and II dominate the skyline. You spend the rest of the day exploring the area and taking an acclimatization walk, preparing your body for the higher altitude ahead."
   },
-  { 
-    day: 6, 
-    title: "Odari (13,150 ft) to Bali Base Camp (15,350 ft)", 
-    details: "• Trek distance: ~3.5 km | Duration: 3–4 hours. <br>• Short but steep ascent over rocky and moraine terrain. <br>• The trail climbs through loose scree slopes with panoramic views of the Ruinsara Valley below. <br>• Campsite at Bali Base Camp offers mesmerizing sunset views and close-up look at glaciated peaks. <br>• Night temperatures drop below freezing; stay hydrated and warm. <br>• Overnight stay in tents at Bali Base Camp." 
+  {
+    "day": 6,
+    "title": "Odari (13,150 ft) to Bali Base Camp (15,350 ft) | Trek distance: ~3.5 km | Duration: 3–4 hours.",
+    "details": "The ascent today is short but steep as the trail moves over loose scree and moraine. The higher you climb, the more dramatic the landscape becomes—Ruinsara Valley slowly falls away behind you while snow-draped peaks rise in every direction. Upon reaching Bali Base Camp, you find yourself standing in a striking amphitheatre of glaciers and jagged summits. The evening light paints the peaks golden, turning the entire valley surreal. Temperatures dip sharply at night, so the team focuses on hydration and warmth in preparation for the demanding pass crossing the next day."
   },
-  { 
-    day: 7, 
-    title: "Bali Base Camp (15,350 ft) to Lower Dhamni (11,200 ft) via Bali Pass (16,207 ft)", 
-    details: "• Trek distance: ~10 km | Duration: 8–10 hours. <br>• The toughest and most spectacular day of the trek. <br>• Early start around 5 AM for the pass crossing — the trail is snow-covered and steep in early season. <br>• After a demanding climb, reach Bali Pass (16,207 ft), offering 360° views of Swargarohini, Banderpunch, and Garhwal ranges, with the Yamunotri valley far below. <br>• The descent from the pass is steep and scree-filled — use microspikes or gaiters if snow remains. <br>• Cross the narrow 'goat trail' section with caution. <br>• Reach Upper Dhamni for rest, then continue to Lower Dhamni campsite through mixed forest. <br>• Overnight stay in tents." 
+  {
+    "day": 7,
+    "title": "Bali Base Camp (15,350 ft) to Lower Dhamni (11,200 ft) via Bali Pass (16,207 ft) | Trek distance: ~10 km | Duration: 8–10 hours.",
+    "details": "This is the most challenging and exhilarating day of the trek. You begin before sunrise, the world still cold and silent as you move across snow slopes toward the pass. The final climb to Bali Pass is steep and breathless, but when you reach the top, the reward is immense—an unobstructed 360-degree panorama of the Swargarohini peaks, Bandarpunch, and the vast Garhwal ranges, with the Yamunotri valley opening below. The descent is equally demanding, with loose scree and narrow ledges requiring careful feet. One particular stretch, often called the ‘goat trail,’ demands patience and balance. After crossing this section, the trail gradually widens, leading you to Upper Dhamni for a short rest and then through forested paths to the Lower Dhamni campsite. You end the day exhausted but deeply fulfilled."
   },
-  { 
-    day: 8, 
-    title: "Lower Dhamni (11,200 ft) to Yamunotri (10,800 ft) – Drive to Dehradun", 
-    details: "• Trek distance: ~9.5 km | Duration: 5–6 hours. <br>• Descend through dense oak and rhododendron forest until the trail merges with the cemented pilgrim path to Yamunotri. <br>• Take a dip in the sacred hot springs — perfect for soothing tired muscles. <br>• Visit the Yamunotri temple, one of the Char Dham shrines. <br>• Continue trekking to Janki Chatti (base of Yamunotri), where vehicles to Dehradun will be waiting. <br>• Trek ends with memories of one of Garhwal’s most rewarding high-altitude crossings. <br>• You can plan onward travel the same day or explore Dehradun city." 
-  },
+  {
+    "day": 8,
+    "title": "Lower Dhamni (11,200 ft) to Yamunotri (10,800 ft) – Drive to Dehradun | Trek distance: ~9.5 km | Duration: 5–6 hours.",
+    "details": "The final stretch of the trek descends through oak and rhododendron forests until the wild mountain path merges with the stone-paved pilgrim route to Yamunotri. As you enter the holy site, the energy of the place immediately shifts. Many trekkers take a dip in the natural hot springs here—a soothing reward for the body after a long expedition. The Yamunotri temple, a revered shrine of the Char Dham yatra, stands surrounded by dramatic cliffs and waterfalls. From here, you continue down to Janki Chatti, where vehicles will be waiting to drive you back to Dehradun. With the journey complete, you carry with you the vivid memories of one of Garhwal’s finest high-altitude crossings, its forests, meadows, glaciers, and the mighty Bali Pass etched into your mind."
+  }
 ],
 
   didYouKnow: [
@@ -3665,45 +3682,45 @@ itinerary: [
 
     itinerary: [
   {
-    day: 1,
-    title: "Kathgodam / Rishikesh to Lohajung (7,600 ft)",
-    details: "• Drive Distance: ~210–230 km (9–11 hrs) via Almora / Kausani.<br>• The journey takes you through the winding mountain roads of Kumaon, passing through pine forests, terraced valleys and small hill towns like Gwaldam and Dewal.<br>• By evening, reach Lohajung — a scenic Himalayan base village overlooking the confluence of the Pindar and Kail rivers.<br>• The air is cool and crisp, and the sunset paints Mt Nanda Ghunti in golden hues.<br>• Overnight stay in a cozy guesthouse/homestay. Short evening acclimatisation walk to nearby viewpoints recommended."
+    "day": 1,
+    "title": "Rishikesh to Lohajung (7,600 ft) | Drive Distance: ~210–230 km (9–11 hrs).",
+    "details": "Your journey begins early from Rishikesh as the road climbs steadily into the mountains of Garhwal and later enters the lush green landscapes of Kumaon. The drive moves through forests of chir pine, terraced valleys, lively markets, and small hill towns like Gwaldam and Dewal. As the altitude rises, the forests grow denser and the roads turn narrower, revealing deep river gorges and hanging cloud layers. By evening, you finally reach the quiet Himalayan base village of Lohajung, perched at the meeting point of the Pindar and Kail rivers. The air is cool and crisp, and as sunset hits, golden light washes over the distant Nanda Ghunti peak. After settling into a warm homestay or guesthouse, many trekkers enjoy a short acclimatisation walk to the nearby ridge to get their first taste of the mountains."
   },
   {
-    day: 2,
-    title: "Lohajung to Didna Village (8,530 ft)",
-    details: "• Trek Distance: ~7–8 km | Duration: ~4–5 hrs.<br>• The day begins with a descent through mixed forests of oak and rhododendron to the sparkling Neel Ganga river — a serene spot to rest and refill bottles.<br>• After crossing the bridge, climb gradually through dense forest dotted with wildflowers and chirping mountain birds to reach Didna village, located on a gentle slope amidst terraced fields.<br>• The trail offers views of snow-capped ridges beyond the valley.<br>• Overnight stay in a rustic guesthouse or homestay; expect pleasant mountain breeze and starlit skies."
+    "day": 2,
+    "title": "Lohajung to Didna Village (8,530 ft) | Trek Distance: ~7–8 km | Duration: ~4–5 hrs.",
+    "details": "The trek begins with a pleasant descent through oak and rhododendron forests that echo with the sound of mountain birds. Soon you reach the sparkling Neel Ganga river, flowing over smooth stones and forming small natural pools. After a break here, the trail crosses a wooden bridge and begins a long, steady climb toward Didna. The forest becomes thicker, alive with wildflowers and the occasional rustling of langurs leaping through the canopy. As you emerge from the woods, terraced fields and slate-roofed houses appear—the quiet village of Didna spread across a gentle slope. With views of distant snow-covered ridges and the slow rhythm of mountain life around you, the evening feels peaceful. You stay in a rustic homestay or guesthouse overlooking the valley, where cool winds and starlit skies set the tone for the journey ahead."
   },
   {
-    day: 3,
-    title: "Didna to Ali Bugyal (11,320 ft)",
-    details: "• Trek Distance: ~10–12 km | Duration: ~6–7 hrs.<br>• The morning trail starts steeply through oak, maple, and rhododendron forests alive with Himalayan monals (state bird of Uttarakhand) and langurs leaping between trees.<br>• As you climb higher, the tree line begins to fade, and the lush alpine meadows of Ali Bugyal open up — an ocean of green grass stretching endlessly, often kissed by soft mist.<br>• Snow peaks like Mt Trishul and Nanda Ghunti rise majestically in the backdrop.<br>• Depending on the season, wild horses graze peacefully on the slopes.<br>• Overnight stay in tents or homestay at Ali Bugyal; expect cold winds and a stunning night sky."
+    "day": 3,
+    "title": "Didna to Ali Bugyal (11,320 ft) | Trek Distance: ~10–12 km | Duration: ~6–7 hrs.",
+    "details": "The day starts with a steady uphill climb through thick forests of rhododendron, oak, maple, and occasional walnut trees. This stretch is known for sightings of the Himalayan monal, the brilliantly coloured state bird of Uttarakhand, and troops of langurs moving through the branches. As you gain altitude, the forest begins to thin and pockets of open grass appear. Soon, the trail pushes above the tree line and unveils one of India’s most spectacular alpine meadows—Ali Bugyal. The meadow rolls endlessly like a green ocean draped over the mountainside, often covered in soft drifting mist. Snow peaks such as Trishul and Nanda Ghunti rise suddenly on the horizon, creating a postcard-like backdrop. Wild horses grazing on the slopes add to the charm of this landscape. You settle in Ali Bugyal for the night—either in tents or a homestay—where the wind feels colder, the air thinner, and the night sky brilliantly clear."
   },
   {
-    day: 4,
-    title: "Ali Bugyal to Patar Nachauni (12,818 ft)",
-    details: "• Trek Distance: ~6–10 km | Duration: ~4–6 hrs.<br>• Begin your day with a gentle traverse across the meadow linking Ali Bugyal to Bedni Bugyal — one of India’s largest alpine meadows with spellbinding 360° views.<br>• Visit the sacred Bedni Kund (lake) reflecting the Trishul massif; locals believe Goddess Nanda Devi blesses every traveler here.<br>• The trail gradually ascends beyond the meadow as you enter higher, more rugged terrain towards Patar Nachauni.<br>• Weather turns colder and windier; nights can dip close to 0 °C even in summer.<br>• Camp at Patar Nachauni overlooking the vast alpine bowl under a starry sky."
+    "day": 4,
+    "title": "Ali Bugyal to Patar Nachauni (12,818 ft) | Trek Distance: ~6–10 km | Duration: ~4–6 hrs.",
+    "details": "The morning begins with a gentle traverse across the vast meadows linking Ali Bugyal to Bedni Bugyal, one of the largest and most breathtaking alpine pastures in the Himalayas. The landscape is open and windswept, offering sweeping 360-degree views of towering peaks. A short detour takes you to the tranquil Bedni Kund, a sacred mountain lake where the Trishul massif often reflects perfectly on calm days. Locals believe this lake is blessed by Goddess Nanda Devi, adding a spiritual atmosphere to the setting. As you move ahead, the lush meadows slowly give way to rougher, more rugged terrain. The trail begins to climb toward Patar Nachauni, where the wind picks up and temperatures drop noticeably. The campsite sits above the rolling meadows, surrounded by open ridgelines and wide alpine bowls. Nights here can be extremely cold even in summer, with clear skies revealing thousands of stars."
   },
   {
-    day: 5,
-    title: "Patar Nachauni to Bhagwabasa (14,100–14,500 ft)",
-    details: "• Trek Distance: ~5–7 km | Duration: ~4–5 hrs.<br>• The trail steepens today, climbing over rocky switchbacks towards Kalu Vinayak temple — a small stone shrine perched dramatically at ~14,200 ft.<br>• From here, the panorama widens — Nanda Ghunti, Chaukhamba, and Trishul appear spectacularly close.<br>• Descend slightly over boulder-strewn moraine to reach Bhagwabasa, the last campsite before the lake.<br>• Vegetation fades; the landscape turns barren and grey with patches of snow even in early summer.<br>• Nights here are frigid with sub-zero temperatures; strong winds are common.<br>• Overnight stay in tents surrounded by the raw grandeur of high Himalayas."
+    "day": 5,
+    "title": "Patar Nachauni to Bhagwabasa (14,100–14,500 ft) | Trek Distance: ~5–7 km | Duration: ~4–5 hrs.",
+    "details": "Today the trail steepens dramatically as you climb toward Kalu Vinayak, a stone shrine to Lord Ganesha perched on a high ridge at around 14,200 ft. The ascent is steady but demanding, weaving through rocky switchbacks that offer increasingly dramatic mountain views with each step. Once you reach the shrine, the panorama opens wide—Trishul seems almost within reach, and the silhouettes of Nanda Ghunti and the Chaukhamba range rise in the distance. From this ridge, you descend slightly over loose moraine to reach Bhagwabasa, the final campsite before Roopkund. The land here is barren and stark, with patches of old snow lingering even in early summer. Vegetation has disappeared entirely, replaced by grey boulders and icy winds that sweep through the valley. Nights at Bhagwabasa are bitterly cold, often dropping well below freezing, making it important to stay warm, hydrated, and well-rested for the summit attempt."
   },
   {
-    day: 6,
-    title: "Bhagwabasa to Roopkund Lake (15,750 ft) and back to Patar Nachauni",
-    details: "• Trek Distance: ~10–12 km | Duration: ~8–9 hrs (round trip).<br>• Early pre-dawn start (around 3–4 AM) to catch firm snow and clear weather.<br>• The climb is steep and zigzagging over snow slopes, scree, and rocky patches leading to the fabled Roopkund Lake — a glacial tarn nestled in a crater surrounded by snow walls.<br>• When the snow melts, human skeletons dating back centuries can be seen at the edge of the lake — one of the great mysteries of the Himalayas.<br>• Important seasonal note: In May–June, the trail beyond Bhagwabasa often has a mix of hard ice and soft snow, making it slippery and risky. Always walk strictly under your guide’s supervision — no selfies or rushing at any point.<br>• Descending on snow from Roopkund to Bhagwabasa can be equally tricky; take extreme caution and use trekking poles properly.<br>• Sunglasses are **mandatory** on this stretch to prevent snow blindness — the glare from early morning snow can be intense and disorienting.<br>• The climb to Junargali Top (16,200 ft) is **tricky** during icy conditions in May–June but opens up post-monsoon (September–October) when snow has melted. During that season, trekkers can climb safely to Junargali for a spectacular close view of Mt Trishul — appearing almost at arm’s distance.<br>• Weather at this altitude can change rapidly — if strong winds, whiteout, or snowfall occur, the **turnaround point will be decided by the trek leader/guide** for safety reasons.<br>• After spending some quiet moments at the lake, descend carefully to Bhagwabasa for breakfast, then continue down to Patar Nachauni by afternoon.<br>• Expect biting cold winds before sunrise and softening snow after 8 AM, which can make footing unstable — start early and maintain a steady, cautious pace.<br>• Overnight stay in tents at Patar Nachauni."
+    "day": 6,
+    "title": "Bhagwabasa to Roopkund Lake (15,750 ft) and back to Patar Nachauni | Trek Distance: ~10–12 km | Duration: ~8–9 hrs (round trip).",
+    "details": "The summit day begins long before dawn, usually between 3 and 4 AM, when the snow is firm and the weather most predictable. The trail climbs sharply through zigzagging slopes of snow, scree, and rock, illuminated only by headlamps and the faint glow of approaching sunrise. As you gain altitude, the valley falls away behind you and the air becomes thin and crisp. The final approach brings you into the high cirque that cradles Roopkund—a glacial lake resting inside a natural crater surrounded by steep snow walls. In early summer, when the snow begins to melt, human skeletons dating back centuries emerge at the edges of the lake, giving Roopkund its legendary and somewhat eerie identity. The environment here demands caution; snow conditions can quickly shift between hard ice and soft slush, especially after sunrise. Sunglasses are essential to protect against intense glare, and trekkers must follow the guide closely at all times. The climb to Junargali Top is only possible post-monsoon when the trail is free of heavy snow; during May–June it remains dangerously icy and is often closed. After spending a short, reflective time at the lake, you begin the careful descent back to Bhagwabasa, then continue further down to the warmer, safer meadows of Patar Nachauni. The long day ends with hot food, relief, and a deep sense of achievement."
   },
   {
-    day: 7,
-    title: "Patar Nachauni to Wan Village (7,900–8,200 ft) + Drive to Lohajung",
-    details: "• Trek Distance: ~12–17 km | Duration: ~6–7 hrs.<br>• Begin descent through rolling meadows and retrace the path via Bedni Bugyal and Ghora Lotani, where you might spot mountain goats and Himalayan eagles circling above.<br>• The trail passes through Doliya Dhar ridges with occasional rocky patches — trekking poles are highly recommended to protect knees during the steep descent.<br>• As you descend below the tree line, the temperature warms and forest fragrances return — pine, oak, and rhododendron canopy the trail.<br>• Cross the Neel Ganga river again before the final short climb to Wan village.<br>• A 45-minute scenic drive brings you back to Lohajung.<br>• Relax with a hot meal, share stories, and enjoy your last night in the mountains."
+    "day": 7,
+    "title": "Patar Nachauni to Wan Village (7,900–8,200 ft) + Drive to Lohajung | Trek Distance: ~15–17 km | Duration: ~7–8 hrs.",
+    "details": "The descent begins through the open meadows, retracing the trail past Bedni Bugyal where the morning sun casts long shadows across the grasslands. The landscape slowly softens as you leave behind the rocky high-altitude ridges of Bhagwabasa. Wild mountain goats are often seen grazing here, and Himalayan eagles glide effortlessly above the valley. As the trail drops below the tree line, you re-enter cool forests of oak, rhododendron, and pine, where the scents of damp earth and forest foliage feel refreshing after days spent in the alpine zone. You cross Neel Ganga once again, this time appreciating the familiar bridge and the comforting sound of flowing water before making the final ascent to Wan village. A short, scenic drive takes you back to Lohajung, where warm food, a soft bed, and the quiet satisfaction of completing a historic trek await you."
   },
   {
-    day: 8,
-    title: "Lohajung to Kathgodam / Rishikesh",
-    details: "• Drive Distance: ~210–230 km | Duration: ~9–11 hrs.<br>• After breakfast, bid farewell to the trek team and retrace the mountain roads down to the plains.<br>• Expect changing landscapes — dense forests giving way to terraced fields and finally the bustling towns of Kumaon/Garhwal.<br>• Reach Kathgodam or Rishikesh by evening/night — trek concludes with lifelong memories of the mysterious lake and the grand meadows of Roopkund."
-  },
+    "day": 8,
+    "title": "Lohajung to Kathgodam / Rishikesh | Drive Distance: ~210–230 km | Duration: ~9–11 hrs.",
+    "details": "After breakfast, you bid farewell to the mountains and begin your long descent back toward the plains. The drive retraces the winding roads through Dewal, Gwaldam, and other small Himalayan settlements, offering one last look at the terraced fields, pine forests, and high ridges that marked the start of your journey. As you lose altitude, the cool mountain air gradually gives way to the warmer, busier atmosphere of the lower valleys. By evening or late night—depending on your final destination—you reach Kathgodam or Rishikesh, concluding the Roopkund adventure with memories of mystical meadows, high ridges, icy slopes, and the mysterious glacial lake that has intrigued trekkers and historians for generations."
+  }
 ],
 
     didYouKnow: [
