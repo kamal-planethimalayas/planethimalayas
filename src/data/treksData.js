@@ -201,7 +201,7 @@ export const treks = [
     heroImages: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-hero_tp9o7j.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535063/hampta-pass-6_v4mdqp.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535062/hampta-pass-1_lcseig.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535059/hampta-pass-2_n6ngdu.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535051/hampta-pass-12_xjjdgc.jpg",
   ],
 
@@ -1426,8 +1426,13 @@ seo: {
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
       snippet: 
-  "The Gaumukh–Tapovan trek is where spirituality meets raw Himalayan wilderness. Starting from the sacred town of Gangotri, the trail follows the Bhagirathi river deep into the Gangotri National Park — home to blue pines, silver birches, bharals (blue sheep), and even elusive snow leopards. The journey takes you past Bhojwasa, named after the ancient birch forests that once covered the valley, and leads to Gaumukh, the revered glacier snout and birthplace of the Ganga. Beyond lies Tapovan — a windswept high-altitude meadow at 14,500 ft, framed by the mighty Shivling, Meru, and Bhagirathi peaks. Here, saints, mountaineers, and trekkers alike find themselves humbled by the scale and silence of the mountains. This trek is not just a physical adventure — it’s a pilgrimage through geology, mythology, and one of India’s grandest alpine landscapes."
-    },
+`The Gaumukh–Tapovan trek is a rare journey where the spiritual heart of the Himalayas merges seamlessly with its raw, untamed wilderness. Beginning in the sacred town of Gangotri, the trail follows the ever-present Bhagirathi River, drawing you deeper into Gangotri National Park through forests of blue pines and ancient Bhojpatra trees. As you walk under the quiet canopy of Chirbasa or along the stark, rugged mountainsides that line the valley, the landscape shifts dramatically — one side lush and green, the other harsh and barren, both held together by the shimmering river that guides your way.
+
+<br>The path opens into Bhojwasa, a tranquil stretch with wide skies and flowing riverbeds, a natural pause before the mountains reveal their true scale. From here, the trail leads you to Gaumukh, the awe-striking snout of the glacier where the Bhagirathi emerges from an ice cave — the very birthplace of the Ganga. Standing before this towering wall of ice and rock, the journey’s spiritual weight becomes undeniable, echoing legends of King Bhagirath and the divine descent of Ganga through the matted locks of Lord Shiva.
+
+<br>Beyond Gaumukh, the terrain turns rocky and dramatic before gently giving way to the sweeping Tapovan meadows, one of the most enchanting high-altitude grasslands in the Himalayas. Here, surrounded by grazing mountain goats, open grasslands, and crisp alpine winds, the skyline explodes with the presence of Mt. Shivling, Bhagirathi I–II–III, and Mt. Meru — a panoramic amphitheatre of giants. Tapovan is not just a campsite; it is a place where silence speaks, where sages once meditated, and where trekkers today find a rare stillness that modern life can’t offer.
+
+<br>More than a trek, Gaumukh–Tapovan is a pilgrimage through geology, mythology, and Himalayan grandeur — a route where every bend tells a story, every wind carries an echo of ancient devotion, and every mountain stands as a reminder of nature’s timeless, towering presence.`    },
 
     price: 16900,
     priceNote: "* Gangotri to Gangotri",
@@ -1471,37 +1476,37 @@ seo: {
   {
     day: 1,
     title: "Arrive in Gangotri (3,048 m / 10,000 ft)",
-    details: "• Scenic 9–10 hr drive from Dehradun/Haridwar via Uttarkashi and the apple orchards of Harsil Valley.<br>• Follow the Bhagirathi river upstream past sacred confluences.<br>• Evening visit to Gangotri Temple — one of the Char Dhams of Uttarakhand.<br>• Overnight stay in guesthouse/hotel."
+    details: "The journey begins with a long but beautiful 9–10 hour drive from Rishikesh, gradually gaining altitude as the road winds past Uttarkashi, the apple orchards of Harsil Valley, and the ever-changing moods of the Bhagirathi River. The final approach to Gangotri feels almost sacred — steep cliffs, deodar forests, and the roar of the river echoing through the valley. By evening, you reach the ancient Gangotri Temple, one of the revered Char Dhams of Uttarakhand. Offering prayers here as the sun sets behind the mountains sets the tone for the days ahead. Nightfall brings crisp mountain air and a peaceful stay at a local guesthouse or hotel."
   },
   {
     day: 2,
     title: "Acclimatization in Gangotri",
-    details: "• Explore nearby trails to Pandava Gufa or Surya Kund waterfalls.<br>• Trek briefing and gear check.<br>• Ideal day for photography and birdwatching — look out for Himalayan griffon vultures and yellow-billed choughs.<br>• Overnight in Gangotri."
+    details: "Since Gangotri is at an altitude of 10,000 ft, a full day in Gangotri helps your body adjust to the altitude. The day feels relaxed yet enriching — you can walk to Pandava Gufa, a quiet cave surrounded by pine forests, or visit Surya Kund, where the Bhagirathi crashes through a dramatic gorge. Trek leaders conduct a detailed briefing and gear inspection while the slow pace allows you to observe the wildlife of this region. Himalayan griffon vultures circle the cliffs above, yellow-billed choughs hop fearlessly around temple steps, and mountain breezes drift through the valley. The night is spent once again in Gangotri, giving your body the ideal acclimatization window."
   },
   {
     day: 3,
     title: "Gangotri to Bhojwasa (3,780 m) | 14 km | 6–7 hrs",
-    details: "• Enter Gangotri National Park — oak, pine, and birch forests gradually give way to alpine terrain.<br>• Trail hugs the Bhagirathi river with views of Sudarshan and Bhagirathi peaks.<br>• Cross Chirbasa (literally ‘pine dwelling’) where dense forests thrive.<br>• Bhojwasa — a windswept plain named after ancient bhojpatra (birch) groves.<br>• Overnight in tents beside the last tree line."
+    details: "The trek truly begins as you step into the protected limits of Gangotri National Park. The initial trail moves through mixed forests of oak, pine, and birch before transitioning into a more alpine landscape. For much of the day, the Bhagirathi River accompanies you — sometimes as a distant roar, sometimes rushing right beside the trail. The route passes through Chirbasa, a place literally named “the home of pines,” where the forest thickens and the air carries the resinous scent of blue pine. Beyond Chirbasa, vegetation thins out and the valley opens wide. Eventually, you reach the windswept plain of Bhojwasa, named after the bhojpatra (birch) forests that once flourished here. With views of the Bhagirathi peaks dominating the horizon and the last line of trees behind you, you settle into camps pitched beside the river — a dramatic setting for the night."
   },
   {
     day: 4,
     title: "Bhojwasa to Gaumukh (3,900 m) – Tapovan (4,450 m) | 10 km | 6 hrs",
-    details: "• Reach Gaumukh, the snout of Gangotri Glacier and the sacred source of the Ganga.<br>• Trek across glacial moraines and steep boulder slopes — rugged but rewarding.<br>• Steep climb to Tapovan, one of the highest alpine meadows in India.<br>• Set camp beneath the awe-inspiring Shivling peak, with Meru and Bhagirathi towers encircling the valley."
+    details: "The morning begins with crossing the river Bhagirathi using a trolley, which may involves some waiting in queue. After the crossing a gradual walk toward Gaumukh, the iconic snout of the Gangotri Glacier, through the expanded river bed of Bhagirathi river. As the massive wall of ice and rock comes into view, the atmosphere shifts — the birthplace of the Ganga stands immense and awe-inspiring, with icy water emerging from the cave-like opening beneath the glacier. From Gaumukh, the route becomes more challenging as you navigate across glacial moraines, scattered boulders, and steep slopes carved by centuries of movement. The ascent to Tapovan is steep but rewarding; each step brings you closer to one of the grandest alpine meadows in India. Upon reaching Tapovan, the world suddenly opens into a high-altitude grassland surrounded by towering Himalayan walls. Camps are set directly under the magnificent Shivling peak, with Meru and the Bhagirathi group rising sharply around you. The sheer scale of the landscape leaves you humbled."
   },
   {
     day: 5,
     title: "Exploration at Tapovan",
-    details: "• Optional hike towards Meru Base Camp or Kirti Bamak glacier.<br>• Experience sunrise and sunset over Shivling — glowing like a golden spire, often called the Indian Matterhorn.<br>• Spot herds of bharal grazing the slopes, and in rare moments, footprints of snow leopards.<br>• Meditation walks or photography in the silence of the high Himalayas."
+    details: "A day in Tapovan feels almost surreal. At dawn, the first rays of sun strike Mt. Shivling, bathing its pyramid-like face in golden light — a moment often compared to watching a divine flame ignite. You may choose to hike further towards Meru Base Camp or the Kirti Bamak glacier, both offering dramatic terrain and closer views of the peaks. All around, herds of bharal (blue sheep) graze calmly on the slopes, blending into the rocks with effortless camouflage. In rare instances, trekkers notice faint tracks of snow leopards imprinted along secluded patches of the meadow. The silence of Tapovan, broken only by the wind, makes it a perfect place for meditation, photography, or simple reflection. The day ends in the quiet embrace of this Himalayan amphitheatre."
   },
   {
     day: 6,
     title: "Tapovan to Gangotri | 20 km | 8–10 hrs",
-    details: "• Descend along the glacier and moraine trails to Gaumukh.<br>• Retrace steps via Bhojwasa and Chirbasa to Gangotri.<br>• Overnight stay in guesthouse/hotel."
+    details: "Leaving Tapovan behind, you descend carefully along the boulder and moraine sections back to Gaumukh. The glacier looks different from every angle — sometimes massive and intimidating, sometimes strangely gentle. From Gaumukh, you retrace the familiar trail through Bhojwasa and Chirbasa, gradually re-entering the green patches of pine and birch. The long descent brings you back to Gangotri by evening, where the comfort of a warm guesthouse and the hum of the temple bells feel especially welcoming after days spent in the high mountains."
   },
   {
     day: 7,
-    title: "Gangotri to Dehradun/Haridwar",
-    details: "• Return drive along the Bhagirathi valley.<br>• Trek concludes with spiritual and natural impressions that last a lifetime."
+    title: "Gangotri to Rishikesh",
+    details: "The journey concludes with the drive back through the Bhagirathi valley. As the mountains recede and the river flows wider and calmer, you carry with you the silence of Tapovan, the spiritual aura of Gaumukh, and the unforgettable landscapes of Gangotri National Park. By the time you reach Dehradun or Haridwar, the trek has already turned into memory — one that stays vivid for a lifetime."
   }
 ],
 
@@ -2462,7 +2467,7 @@ seo: {
         { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
-      snippet: "Markha Valley Trek is the crown jewel of Ladakh, an unparalleled Himalayan adventure weaving through rugged gorges, remote villages, ancient monasteries, and arid high-altitude deserts. Known as the 'Tea House Trek of Ladakh', this trail combines raw natural landscapes with authentic cultural immersion. Beginning from Leh, the trek passes willow-lined streams, fluttering prayer flags, and centuries-old settlements like Skiu, Markha, and Hankar, where mud houses blend seamlessly with the stark mountains. Trekkers will experience dramatic terrain changes — from barren deserts and rocky gorges to high pastures dotted with wildflowers and grazing yaks. At the highest point, Kongmaru La (17,300 ft), the panoramic views of the Karakoram, Stok, and Kang Yatse ranges are soul-stirring. The trek also offers a glimpse into the unique flora and fauna of the region, including Himalayan marmots, snow leopards (rare), ibex, Himalayan blue poppies, and arid desert shrubs, while immersing in the deep Buddhist heritage with monasteries, prayer wheels, and chortens. Markha Valley Trek is a journey that combines adventure, culture, wildlife, and breathtaking Himalayan scenery — a truly unforgettable Ladakhi experience."
+      snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
     },
 
     price: 22500,
@@ -2501,44 +2506,44 @@ seo: {
 
     itinerary: [
   {
-    day: 1,
-    title: "Arrival in Leh (11,500 ft / 3,500 m)",
-    details: "• Pickup from Leh airport or bus stand.<br>• Rest day for acclimatization; explore Leh market, Leh Palace, and Shanti Stupa.<br>• Optional short walks in town to feel the high-altitude environment.<br>• Overnight stay in Leh; important to hydrate and rest for high-altitude trek."
+  day: 1,
+  title: "Arrival in Leh (11,500 ft / 3,500 m)",
+  details: "Arrive in Leh by flight or train and check in to your hotel, allowing your body to settle into the high altitude of 11,500 ft. Since a direct landing at this height can trigger AMS, the first day is entirely meant for rest and gentle acclimatization. Keep your schedule light—explore Leh market, visit nearby monasteries, or stroll around the town, but avoid visiting any very high-altitude pass or viewpoint. A mandatory trek briefing takes place at 5 PM, for which you must carry a copy of your ID proof and two photographs; foreign trekkers should bring a passport and visa copy. Leh has reliable post-paid network coverage, several ATMs, and plenty of shops where you can rent or buy any trekking gear you may have forgotten. The cafés here are lively hangouts for travelers, but avoid alcohol and smoking as they interfere with acclimatization. Stay hydrated, enjoy the local culture and cuisine, and return to your hotel early to rest well. An easy, relaxed Day 1 is crucial to prepare your body for the days ahead."
   },
   {
-    day: 2,
-    title: "Acclimatization and Sightseeing in Leh",
-    details: "• Visit key monasteries: Shey (former royal palace), Thiksey (Tibetan-style architecture), Hemis (largest monastery in Ladakh), and Sangam (confluence of Indus and Zanskar rivers).<br>• Optional cycling tour in Leh town for acclimatization.<br>• Learn about local Ladakhi culture, prayer rituals, and Tibetan Buddhism.<br>• Overnight in Leh."
+  day: 2,
+  title: "Acclimatization and Sightseeing in Leh",
+  details: "This extra acclimatization day is crucial for helping your body adjust to the thinning air of Ladakh, so spend as much time outdoors as possible while keeping the day relaxed and strain-free. You can explore some of Leh’s most significant monasteries such as Shey, Thiksey, Hemis, and the Sangam viewpoint where the Indus and Zanskar rivers meet, each offering a window into Ladakh’s deep Buddhist heritage. Thiksey Gompa, perched on a hill, is the largest in central Ladakh and gives you a beautiful introduction to the region’s culture. Avoid gaining altitude or visiting high passes today, as it may interfere with your acclimatization. Instead, wander around Leh town, explore the lively bazaar, interact with locals, and sample the delicious local cuisine. If you prefer gentle activity, a downhill cycling tour around Leh can be done without putting strain on your body. As the day winds down, make sure to catch the sunset at Shanti Stupa, known for its glowing lights in the evening. Return to your hotel for the night and rest well — your actual trekking journey begins tomorrow."
   },
   {
-    day: 3,
-    title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m)",
-    details: "• Drive through the Indus River valley and stop to admire the breathtaking landscape.<br>• Start trekking from Skiu, crossing willow-lined streams, wooden bridges, and fields with barley cultivation.<br>• Observe the ancient mud-brick houses and prayer flags in Skiu and Chilling villages.<br>• Trek 11 km / 5–6 hrs to Sara village, passing remote settlements and watching Himalayan marmots, Himalayan griffon vultures, and arid desert flora.<br>• Camp at Sara amidst the arid high desert with distant snow-capped peaks as backdrop."
+  day: 3,
+  title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m) | Trek Distance: 11 km | 5-6 hrs.",
+  details: "Today marks the true beginning of your Markha Valley adventure as you drive from Leh to Skiu through some of Ladakh’s most iconic landscapes. The journey takes you past military camps, the famous Gurudwara Pathar Sahib, and the mysterious Magnetic Hill, with constant views of the Stok range until you enter the boundaries of Hemis National Park. A major highlight en route is the spectacular Sangam viewpoint where the emerald Indus and Zanskar rivers meet in a striking confluence. As the road turns towards Chilling, the scenery shifts dramatically—open terrains gradually narrow into deep valleys painted in shades of purple, grey, and black, with juniper trees lining the route. After crossing the Zanskar River over green iron bridges, you arrive at the serene village of Skiu, divided into Upper and Lower sections, adorned with mani stones, white stupas, and an ancient monastery. From here, your trek begins on a well-marked trail that follows the Markha River. Along the way, you may spot magpies, blue sheep, and other wildlife that thrive in this rich Himalayan ecosystem. You’ll pass small cafés, winter settlements, barley and wheat fields, mani walls, and Lhatos as you make your way through the valley. Continue trekking past the quiet village of Nagding, where meditation caves dot the rocky slopes, and the riverbanks widen into sandy stretches. After several hours, you enter the culturally vibrant village of Sara, marked by a dramatic gateway decorated with skulls of wild animals—symbols of pride for the locals. With its ancient monastery, historic castle, and lush wheat fields, Sara offers the perfect blend of culture and natural beauty. Settle into your tent or homestay for a warm meal and end the day under a dazzling sky full of stars."
   },
   {
-    day: 4,
-    title: "Sara → Markha Village (12,200 ft / 3,700 m)",
-    details: "• Trek 10 km / 5–6 hrs along the Markha River, crossing multiple wooden bridges and small tributaries.<br>• Trail passes through Yak pastures and high desert terrain with sparse vegetation like Caragana shrubs and juniper bushes.<br>• Explore Markha village: centuries-old mud houses, prayer walls, and the local gompa (monastery).<br>• Overnight camp at Markha village with Himalayan panorama, witness the sunset over Stok and Kang Yatse ranges."
+  day: 4,
+  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5-6 hours.",
+  details: "Begin your morning in Sara with a warm breakfast and stunning Himalayan views before easing into a day that feels beautifully familiar to the previous one. The trail gradually leads you across small water channels and stretches of cold desert terrain until you reach the charming village of Chalak, which appears after crossing a wooden bridge. Chalak is dotted with cozy tea houses, stone-walled animal shelters, and homes perched on small hillsides, surrounded by patches of green wheat fields contrasting against the barren mountains. After resting and interacting with friendly locals, continue on the gentle ascent towards Markha, passing a long stretch marked by Bharal horns and countless mani stones laid around elegant white stupas. These stones carry sacred Buddhist inscriptions—some even in Sanskrit—so treat them with great respect and avoid touching them, as villagers believe they are spiritually protected. The trail also unfolds ancient ruins with prayer flags fluttering above, adding a sense of timelessness to the valley. As you approach Markha, you must cross a flowing stream of the Markha River, which can rise up to thigh level at times; removing your shoes and wading through the icy water offers a refreshing burst of energy. A short walk afterward brings you to Markha, the largest village in the valley, known for its scattered traditional houses, monastery, and the ruins of the old Markha fort. Settle into your homestay or campsite here and soak in the cultural richness and scenic calm of this historic Himalayan settlement."
   },
   {
-    day: 5,
-    title: "Markha → Hankar (13,400 ft / 4,080 m)",
-    details: "• Trek 13 km / 7–8 hrs through arid desert landscapes with occasional green oases.<br>• Pass remote hamlets and mani walls; encounter grazing yaks and horses.<br>• Gradual ascent to Hankar, where high pastures open views to Stok Kangri, Kang Yatse, and Karakoram ranges.<br>• Overnight camp at Hankar under clear night skies; perfect for stargazing."
+  day: 5,
+  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 7 - 8 hrs.",
+  details: "Today’s journey takes you deeper into the upper Markha Valley, where the scenery begins to widen and the landscapes gain a grander, more dramatic character. As you leave Markha behind, make the most of the simplicity and innocence of the last inhabited villages you’ll encounter on this route. The trail meanders through beautiful stretches where barren mountains meet refreshing streams, with the path crossing the river multiple times—sometimes over small wooden bridges, other times through shallow flowing water. The valley slowly opens up as you approach Umlung, a tiny settlement that hosts the last teahouse of the trek and offers a peaceful monastery that blends effortlessly into the rugged surroundings. Beyond Umlung comes one of the most unforgettable moments of the trek: your very first view of Mt. Kang Yatse, standing tall at 6,400 m, appearing suddenly and magnificently as if inviting you forward. Keep following the river and navigating its crossings as the trail leads you toward Hankar, the final village of the Markha Valley. Along the way, look out for the beautifully perched Tacha monastery, seemingly balancing on a rocky cliff—a magical sight against the stark mountain backdrop. By the time you reach Hankar, surrounded by high pastures and towering peaks, you’ll feel the transition from village life to true Himalayan wilderness. Settle into your tent or homestay for the night and enjoy the quiet, remote beauty of this last inhabited stop on your route."
   },
   {
-    day: 6,
-    title: "Hankar → Nimaling (15,800 ft / 4,815 m)",
-    details: "• Trek 12 km / 7–8 hrs through high-altitude pastures (la fields) with yak herds and sparse shrubs.<br>• Observe endemic alpine flowers: Himalayan blue poppy, edelweiss, and primulas.<br>• Camp at Nimaling surrounded by Kongmaru La and Kang Yatse peaks; breathtaking sunsets over the Karakoram range.<br>• Optional acclimatization hikes in surrounding meadows."
+  day: 6,
+  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 7 - 8 hrs.",
+  details: "Today’s trek feels refreshing and far gentler compared to yesterday’s demanding climb, allowing you to truly sink into the beauty of the upper Markha Valley. As you leave Hankar, the trail begins easily, and within the first kilometre you’ll reach a set of diversions—one leading toward Rupshu and Zanskar. Staying on the left trail, you walk toward a stone bridge that confirms you’re on the correct path. From here, several side trails appear frequently, so it’s important to keep close to your trek leader while enjoying the scenery. Within a couple of hours, the lush pastures of Thochuntse begin to unfold ahead of you, a welcome burst of greenery after days in Ladakh’s stark high-altitude desert. This small settlement has tea houses and seasonal campsites, making it a natural rest point. Just beyond this stretch, the trail steepens for about an hour before easing into a long, gradual ascent. As you walk, the mighty Kang Yatse peak dominates your right side, growing larger and more magnificent with every step, almost as if guiding you onward. A pair of serene twin lakes suddenly appear along the trail, offering a moment of calm reflection against the rugged landscape. From the lakes, a gentle descent leads you to the vast, windswept plateau of Nimaling, the highest campsite on the entire Markha Valley trek. This expansive grassland—dotted with grazing sheep, goats, and occasionally mountain hares—feels like a world entirely its own. With the towering Kang Yatse massif rising beside you and the open sky stretching endlessly above, Nimaling offers some of the most unforgettable views of the trek. Nights here can bring sudden snowfall, adding to the wild charm of this high-altitude sanctuary. Settle into your tent and let the quiet, elevated world of Nimaling lull you into deep rest."
   },
   {
-    day: 7,
-    title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh",
-    details: "• Early morning trek over Kongmaru La, the highest point of the trek, with 360° views of Karakoram, Stok, and Kang Yatse ranges.<br>• Trek 13 km / 7–8 hrs descending into Chokdo village, crossing streams, glacial moraines, and arid desert terrain.<br>• Drive 60 km / 3 hrs back to Leh.<br>• Overnight stay in Leh; celebrate completion of Markha Valley Trek."
+  day: 7,
+  title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
+  details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
   },
   {
-    day: 8,
-    title: "Departure from Leh",
-    details: "• Drop to Leh airport or bus stand.<br>• Take with you memories of stark high-altitude deserts, glacial streams, mud villages, and Himalayan grandeur."
+  day: 8,
+  title: "Departure from Leh",
+  details: "After completing the trek and your overnight stay in Leh, this is the day to check out and begin your onward journey. Homestay or hotel services conclude as per the itinerary, so ensure checkout is done within the standard checkout time. Airport drop can be arranged at the prevailing local rate, payable directly to the driver. If you have limited holidays, you can head straight to the Leh airport or bus stand for your departure. However, if you have extra days and wish to explore more of Ladakh, feel free to discuss with us—we’re happy to suggest places or help arrange further services."
   }
 ],
 
@@ -3184,7 +3189,7 @@ itinerary: [
 <br>With its short duration, gentle gradients, and remarkable diversity of scenery, the Dayara Bugyal Trek is ideal for beginners, families, nature lovers, and photographers — yet remains a deeply rejuvenating experience for seasoned trekkers seeking the quiet magic of the Garhwal Himalayas.`
   },
 
-  price: 10500,
+  price: 8500,
   priceNote: "* Barsu to Barsu",
   addons: {
     transport: 2500,
