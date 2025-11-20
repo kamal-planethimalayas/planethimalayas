@@ -136,7 +136,7 @@ export const blogs = [
 <li>🗑️ Never bury or leave food waste or tissue paper in the wild — they disrupt ecosystems and harm wildlife.</li>
 </ul>
 
-<p><a href="/docs/Himalayan_Trek_Packing_List.pdf" target="_blank"><strong>👉 Download our free Himalayan Trek Packing List</strong></a> to help you prepare responsibly.</p>
+<p><a href="/docs/Packing_List.pdf" target="_blank"><strong>👉 Download our free Himalayan Trek Packing List</strong></a> to help you prepare responsibly.</p>
 <br>
 
 <h3>🥾 2. Stay on the Trail</h3>
@@ -380,7 +380,7 @@ If you feel any of the following, descend without delay:<br>
   description: "Packing smart is the key to a safe and comfortable trek. Here’s a complete checklist of everything you’ll need for a week-long Himalayan adventure. Download the full PDF packing list inside.",
   thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758284786/packing-backpack_ralcow.jpg",
   content: `
-  <p>Packing smart is the key to a safe and comfortable trek. Here’s a complete checklist of everything you’ll need for a week-long Himalayan adventure. For a comprehensive packing list, download the PDF: <a href='/docs/Himalayan_Trek_Packing_List.pdf' target='_blank' rel='noopener noreferrer'>Download Packing List</a></p>
+  <p>Packing smart is the key to a safe and comfortable trek. Here’s a complete checklist of everything you’ll need for a week-long Himalayan adventure. For a comprehensive packing list, download the PDF: <a href='/docs/Packing_List.pdf' target='_blank' rel='noopener noreferrer'>Download Packing List</a></p>
 
 <h3>👕 CLOTHING (Layer Up!)</h3>
 <ul>

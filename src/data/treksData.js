@@ -150,7 +150,7 @@ export const treks = [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535257/pin-bhaba-view9_vhhald.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
       questions: [
@@ -339,7 +339,7 @@ export const treks = [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535044/hampta-pass-3_lx8lce.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -581,7 +581,7 @@ export const treks = [
 
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -817,7 +817,7 @@ export const treks = [
 
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -1073,7 +1073,7 @@ seo: {
 
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -1337,7 +1337,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329740/chandrashila-summit-view1_qg5i13.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -1557,7 +1557,7 @@ seo: {
     
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -1795,7 +1795,7 @@ seo: {
     
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -1997,7 +1997,7 @@ seo: {
     
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -2044,6 +2044,7 @@ seo: {
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
+    tags: ["beginner"],
     difficulty: ["moderate"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
@@ -2190,7 +2191,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535145/harkidun-ruinsara-view3_a2a9so.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -2388,7 +2389,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535084/harkidun-hero_hirxbl.jpg",
     ],
     
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -2585,7 +2586,7 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -2845,7 +2846,7 @@ seo: {
 
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
   questions: [
@@ -3094,7 +3095,7 @@ itinerary: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535483/kedarkantha-view5_us9lve.jpg",
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
   questions: [
@@ -3346,7 +3347,7 @@ itinerary: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1756831829/dayara-view1_ks4agv.jpg",
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
   questions: [
@@ -3576,7 +3577,7 @@ itinerary: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852177/bali-pass-view11_r82fn1.jpg"
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
     questions: [
@@ -3683,7 +3684,7 @@ itinerary: [
     itinerary: [
   {
     "day": 1,
-    "title": "Rishikesh to Lohajung (7,600 ft) | Drive Distance: ~210–230 km (9–11 hrs).",
+    "title": "Rishikesh to Lohajung (7,600 ft) | Drive Distance: ~250 km (9–11 hrs).",
     "details": "Your journey begins early from Rishikesh as the road climbs steadily into the mountains of Garhwal and later enters the lush green landscapes of Kumaon. The drive moves through forests of chir pine, terraced valleys, lively markets, and small hill towns like Gwaldam and Dewal. As the altitude rises, the forests grow denser and the roads turn narrower, revealing deep river gorges and hanging cloud layers. By evening, you finally reach the quiet Himalayan base village of Lohajung, perched at the meeting point of the Pindar and Kail rivers. The air is cool and crisp, and as sunset hits, golden light washes over the distant Nanda Ghunti peak. After settling into a warm homestay or guesthouse, many trekkers enjoy a short acclimatisation walk to the nearby ridge to get their first taste of the mountains."
   },
   {
@@ -3718,7 +3719,7 @@ itinerary: [
   },
   {
     "day": 8,
-    "title": "Lohajung to Kathgodam / Rishikesh | Drive Distance: ~210–230 km | Duration: ~9–11 hrs.",
+    "title": "Lohajung to Rishikesh | Drive Distance: ~250 km | Duration: ~9–11 hrs.",
     "details": "After breakfast, you bid farewell to the mountains and begin your long descent back toward the plains. The drive retraces the winding roads through Dewal, Gwaldam, and other small Himalayan settlements, offering one last look at the terraced fields, pine forests, and high ridges that marked the start of your journey. As you lose altitude, the cool mountain air gradually gives way to the warmer, busier atmosphere of the lower valleys. By evening or late night—depending on your final destination—you reach Kathgodam or Rishikesh, concluding the Roopkund adventure with memories of mystical meadows, high ridges, icy slopes, and the mysterious glacial lake that has intrigued trekkers and historians for generations."
   }
 ],
@@ -3782,7 +3783,7 @@ itinerary: [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153566/IMG_20170920_182915_bgutd4.jpg",
     ],
 
-    downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+    downloadLink: "/docs/Packing_List.pdf",
 
     faqs: {
   questions: [
@@ -4036,7 +4037,7 @@ itinerary: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628657/sadakphu-view15_yjeaxx.jpg",
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
     questions: [
@@ -4307,7 +4308,7 @@ itinerary: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190911/pin-parvati-pass-view11_vt5w1s.jpg"
   ],
 
-  downloadLink: "/docs/Himalayan_Trek_Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
     questions: [
