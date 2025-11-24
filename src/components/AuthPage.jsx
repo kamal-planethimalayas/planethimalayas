@@ -71,7 +71,7 @@ export default function AuthPage() {
         const { data: signupData, error: signupError } = await supabase.auth.signUp({ email, password });
         if (signupError) throw signupError;
 
-        setInfoMessage("Signup successful! Please check your email to confirm your account before logging in.");
+        setInfoMessage("Signup successful! Please check your email to confirm your account. If you do not see the email in your primary inbox, kindly check your spam or promotions folder.");
         setEmail("");
         setPassword("");
       }

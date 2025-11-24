@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../lib/supabaseClient";
 import { createPortal } from "react-dom";
-import "../components/AuthButton.css";
+import "./AuthButton.css";
 
 export default function AuthButton() {
   const [user, setUser] = useState(null);

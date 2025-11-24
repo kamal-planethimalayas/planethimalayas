@@ -1,11 +1,15 @@
-// src/pages/admindashboard.jsx
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { supabase } from "../lib/supabaseClient";
+import "./AdminDashboard.css";
 
 export default function AdminDashboard() {
+  // auth & user
   const [user, setUser] = useState(null);
   const [role, setRole] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  // data
   const [users, setUsers] = useState([]);
   const [bookings, setBookings] = useState([]);
   const [treks, setTreks] = useState([]);
@@ -14,65 +18,82 @@ export default function AdminDashboard() {
   const [vouchers, setVouchers] = useState([]);
   const [discounts, setDiscounts] = useState([]);
   const [payments, setPayments] = useState([]);
-  const [selectedBookingId, setSelectedBookingId] = useState("");
-  const [filterBookingId, setFilterBookingId] = useState("");
-  const [error, setError] = useState(null);
+  const [groupMembers, setGroupMembers] = useState([]);
 
-  
+  // UI state
+  const [query, setQuery] = useState("");
+  const [statusFilter, setStatusFilter] = useState("");
+  const [trekFilter, setTrekFilter] = useState("");
+  const [sortBy, setSortBy] = useState("created_at");
+  const [sortDir, setSortDir] = useState("desc");
+  const [selectedIds, setSelectedIds] = useState(new Set());
+  const [activeBookingId, setActiveBookingId] = useState(null);
+  const [showPaymentModal, setShowPaymentModal] = useState(false);
+  const [paymentForm, setPaymentForm] = useState({ amount: "", method: "UPI", tx_id: "" });
+
+  // scroll to top
+  useEffect(() => { window.scrollTo(0, 0); }, []);
+
+  // auth listener
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === "SIGNED_OUT" || !session) window.location.replace("/");
+    });
+    return () => sub?.subscription?.unsubscribe?.();
   }, []);
 
+  // initial data load
   useEffect(() => {
-  // Redirect to home whenever the user signs out (or there is no session)
-  const { data: { subscription } } = supabase.auth.onAuthStateChange(
-    (event, session) => {
-      if (event === "SIGNED_OUT" || !session) {
-        window.location.replace("/"); // go to homepage
-      }
-    }
-  );
+    let bookingSub = null;
 
-  return () => {
-    subscription.unsubscribe();
-  };
-}, []);
-
-
-  useEffect(() => {
     const init = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      if (!session) {
-        window.location.replace("/");
-        return;
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!session) return window.location.replace("/");
+        setUser(session.user);
+
+        // get role
+        const { data: profileData } = await supabase
+          .from("profiles")
+          .select("role")
+          .eq("id", session.user.id)
+          .maybeSingle();
+        const userRole = profileData?.role ?? "user";
+        setRole(userRole);
+        if (userRole !== "admin") return (window.location.href = "/dashboard");
+
+        await fetchAllData();
+
+        // realtime subscription
+        bookingSub = supabase
+          .channel("public:bookings")
+          .on("postgres_changes", { event: "*", schema: "public", table: "bookings" }, payload => {
+            setBookings(prev => {
+              if (payload.eventType === "DELETE") return prev.filter(b => b.id !== payload.old.id);
+              if (payload.eventType === "INSERT") return [payload.new, ...prev];
+              if (payload.eventType === "UPDATE") return prev.map(b => (b.id === payload.new.id ? payload.new : b));
+              return prev;
+            });
+          })
+          .subscribe();
+
+        setLoading(false);
+      } catch (err) {
+        console.error(err);
+        setError(err.message || "Failed to load admin data");
       }
-
-      setUser(session.user);
-
-      const { data: profileData } = await supabase
-        .from("profiles")
-        .select("role")
-        .eq("id", session.user.id)
-        .maybeSingle();
-
-      const userRole = profileData?.role ?? "user";
-      setRole(userRole);
-      if (userRole !== "admin") return window.location.href = "/dashboard";
-
-      await fetchAllData();
-      setLoading(false);
     };
 
     init();
+    return () => { if (bookingSub) supabase.removeChannel(bookingSub); };
   }, []);
 
   const fetchAllData = async () => {
     try {
-      const [{ data: usersData }, { data: bookingsData }, { data: treksData },
-             { data: addonsData }, { data: addonBookingsData }, { data: vouchersData },
-             { data: discountsData }, { data: paymentsData }] = await Promise.all([
+      const results = await Promise.all([
         supabase.from("profiles").select("*"),
         supabase.from("bookings").select("*"),
+        supabase.from("group_members").select("*"),
         supabase.from("treks").select("*"),
         supabase.from("addons").select("*"),
         supabase.from("addon_bookings").select("*"),
@@ -81,13 +102,24 @@ export default function AdminDashboard() {
         supabase.from("payments").select("*")
       ]);
 
+      const [usersData, bookingsData, groupMembersData, treksData, addonsData, addonBookingsData, vouchersData, discountsData, paymentsData] =
+        results.map(r => r.data || []);
+
       setUsers(usersData);
-      // Merge bookings with user email
-      const mergedBookings = bookingsData.map(b => {
+      setGroupMembers(groupMembersData);
+
+      // merge group members into bookings
+      const mergedBookings = (bookingsData || []).map(b => {
         const profile = usersData.find(u => u.id === b.user_id);
-        return { ...b, user_email: profile?.email || "N/A" };
+        const members = groupMembersData.filter(m => m.booking_id === b.id);
+        return {
+          ...b,
+          user_email: profile?.email || profile?.user_email || "N/A",
+          group_members: members
+        };
       });
-      setBookings(mergedBookings);
+
+      setBookings(mergedBookings.reverse());
       setTreks(treksData);
       setAddons(addonsData);
       setAddonBookings(addonBookingsData);
@@ -95,174 +127,268 @@ export default function AdminDashboard() {
       setDiscounts(discountsData);
       setPayments(paymentsData);
     } catch (err) {
-      setError(err.message);
+      console.error(err);
+      setError(err.message || "Failed to fetch data");
     }
   };
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
+  // LOGOUT
+  const handleLogout = async () => await supabase.auth.signOut();
+
+  // Email
+  const sendEmail = (booking) => {
+    if (!booking.user_email) return alert("No email available.");
+    const subject = `Booking ${booking.id} - Planethimalayas`;
+    const body = `Hello ${booking.customer_name || ""},\nRegarding booking ID: ${booking.id}\nTrek: ${booking.trek_name}\nDate: ${booking.trek_date || "N/A"}\nPrice: ${booking.final_price || "N/A"}\nRegards, Planethimalayas Team`;
+    window.location.href = `mailto:${booking.user_email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
-  const handleSendEmail = (booking) => {
-    const email = booking.user_email;
-    if (!email) return alert("No email available.");
-    window.location.href = `mailto:${email}?subject=Booking ${booking.id}`;
+  // WhatsApp
+  const sendWhatsAppGroup = (members, bookingId) => {
+    if (!members?.length) return alert("No phone numbers");
+    members.forEach(m => {
+      if (m.phone) {
+        const text = encodeURIComponent(`Hello ${m.name}, regarding booking ${bookingId} with Planethimalayas.`);
+        window.open(`https://wa.me/${m.phone.replace(/[^0-9]/g, "")}?text=${text}`, "_blank");
+      }
+    });
   };
 
-  // Master filtered booking
-  const masterBooking = filterBookingId
-    ? bookings.find(b => b.id === filterBookingId)
-    : null;
+  // Booking status update
+  const updateBookingStatus = async (bookingId, status) => {
+    try {
+      const { error } = await supabase.from("bookings").update({ booking_status: status }).eq("id", bookingId);
+      if (error) throw error;
+      setBookings(prev => prev.map(b => (b.id === bookingId ? { ...b, booking_status: status } : b)));
+    } catch (err) {
+      alert("Failed to update status: " + err.message);
+    }
+  };
 
-  // Related data filtered by selected booking
-  const relatedAddonsBooked = masterBooking
-    ? addonBookings.filter(ab => ab.booking_id === masterBooking.id)
-    : [];
+  // Payment modal
+  const openPaymentModal = (bookingId) => {
+    setActiveBookingId(bookingId);
+    setPaymentForm({ amount: "", method: "UPI", tx_id: "" });
+    setShowPaymentModal(true);
+  };
 
-  const relatedPayments = masterBooking
-    ? payments.filter(p => p.booking_id === masterBooking.id)
-    : [];
+  const submitPayment = async () => {
+    const bookingId = activeBookingId;
+    if (!bookingId) return;
+    const amount = parseFloat(paymentForm.amount);
+    if (!amount || amount <= 0) return alert("Enter valid amount");
 
-  const relatedVoucher = masterBooking
-    ? vouchers.find(v => v.redeemed_bookings?.includes(masterBooking.id))
-    : null;
+    try {
+      const { data, error } = await supabase.from("payments").insert([{ booking_id: bookingId, amount, method: paymentForm.method, transaction_id: paymentForm.tx_id }]);
+      if (error) throw error;
+      setPayments(prev => [...prev, ...data]);
+      setShowPaymentModal(false);
+      alert("Payment added");
+    } catch (err) {
+      alert("Failed to add payment: " + err.message);
+    }
+  };
 
-  const relatedDiscount = masterBooking
-    ? discounts.find(d => d.id === masterBooking.discount_id)
-    : null;
+  // selection
+  const toggleSelect = (id) => setSelectedIds(prev => {
+    const copy = new Set(prev);
+    copy.has(id) ? copy.delete(id) : copy.add(id);
+    return copy;
+  });
 
-  const relatedUser = masterBooking
-    ? users.find(u => u.id === masterBooking.user_id)
-    : null;
+  const selectAllVisible = (visibleList) => setSelectedIds(prev => {
+    const copy = new Set(prev);
+    visibleList.forEach(i => copy.add(i.id));
+    return copy;
+  });
 
-  const relatedTrek = masterBooking
-    ? treks.find(t => t.name === masterBooking.trek_name)
-    : null;
+  const clearSelection = () => setSelectedIds(new Set());
 
-  if (loading) return <p style={{ textAlign: "center", marginTop: 50, color: "#ff7300", fontWeight: "bold" }}>Loading Admin Dashboard...</p>;
-  if (error) return <p style={{ textAlign: "center", marginTop: 50, color: "red" }}>{error}</p>;
+  const batchUpdateStatus = async (status) => {
+    if (!selectedIds.size) return alert("No bookings selected.");
+    const ids = Array.from(selectedIds);
+    try {
+      const { error } = await supabase.from("bookings").update({ booking_status: status }).in("id", ids);
+      if (error) throw error;
+      setBookings(prev => prev.map(b => ids.includes(b.id) ? { ...b, booking_status: status } : b));
+      clearSelection();
+      alert("Updated status for selected bookings");
+    } catch (err) {
+      alert("Batch update failed: " + err.message);
+    }
+  };
+
+  const exportCSV = (rows) => {
+    if (!rows?.length) return alert("No rows to export");
+    const keys = Object.keys(rows[0]);
+    const csv = [keys.join(","), ...rows.map(r => keys.map(k => `"${(r[k] ?? "").toString().replace(/"/g,'""')}"`).join(","))].join("\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = `bookings_export_${new Date().toISOString()}.csv`;
+    a.click(); URL.revokeObjectURL(url);
+  };
+
+  const visibleBookings = useMemo(() => {
+    let arr = bookings.slice();
+    if (query) arr = arr.filter(b => (b.user_email + " " + b.trek_name + " " + b.id + " " + b.booking_status).toLowerCase().includes(query.toLowerCase()));
+    if (statusFilter) arr = arr.filter(b => b.booking_status === statusFilter);
+    if (trekFilter) arr = arr.filter(b => b.trek_name === trekFilter);
+    arr.sort((a,b) => {
+      const av = a[sortBy] ?? "";
+      const bv = b[sortBy] ?? "";
+      if (sortDir === "asc") return av > bv ? 1 : av < bv ? -1 : 0;
+      return av < bv ? 1 : av > bv ? -1 : 0;
+    });
+    return arr;
+  }, [bookings, query, statusFilter, trekFilter, sortBy, sortDir]);
+
+  if (loading) return <p className="loading-text">Loading Admin Dashboard...</p>;
+  if (error) return <p className="error-text">{error}</p>;
 
   return (
-    <div style={{ padding: 24, maxWidth: 1400, margin: "auto", fontFamily: "Roboto, sans-serif" }}>
-      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
-        <h1 style={{ fontFamily: "Helvetica, sans-serif" }}>Admin Dashboard</h1>
-        <button
-          style={{ background: "red", color: "#fff", border: "none", padding: "8px 12px", borderRadius: 4, cursor: "pointer" }}
-          onClick={handleLogout}
-        >Logout</button>
+    <div className="admin-root">
+      <header className="admin-header">
+        <div>
+          <h1 className="admin-title">Admin Dashboard</h1>
+          <p className="admin-sub">Signed in as: {user?.email}</p>
+        </div>
+        <div className="header-actions">
+          <button onClick={handleLogout} className="btn btn-danger">Logout</button>
+        </div>
       </header>
 
-      <section style={{ marginBottom: 24 }}>
-        <h2 style={{ fontFamily: "Helvetica", color: "#ff7300", marginBottom: 16 }}>
-          Welcome, {user?.user_metadata?.full_name || user?.email}
-        </h2>
-      </section>
+      <main className="admin-main">
+        {/* Controls */}
+        <section className="controls-row">
+          <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search..." className="input input-flex" />
+          <select value={statusFilter} onChange={e => setStatusFilter(e.target.value)} className="select">
+            <option value="">All Statuses</option>
+            <option value="pending">Pending</option>
+            <option value="approved">Approved</option>
+            <option value="confirmed">Confirmed</option>
+            <option value="payment_pending">Payment Pending</option>
+            <option value="cancelled">Cancelled</option>
+            <option value="completed">Completed</option>
+          </select>
+          <select value={trekFilter} onChange={e => setTrekFilter(e.target.value)} className="select">
+            <option value="">All Treks</option>
+            {treks.map(t => <option key={t.id} value={t.name}>{t.name}</option>)}
+          </select>
+          <button onClick={() => setSortDir(s => s === "asc" ? "desc" : "asc")} className="btn btn-outline">Sort: {sortDir}</button>
+          <button onClick={() => exportCSV(visibleBookings)} className="btn btn-primary">Export CSV</button>
+        </section>
 
-      {/* Booking Filter */}
-      <section style={{ marginBottom: 24 }}>
-        <label>Enter Booking ID to filter: </label>
-        <input
-          type="text"
-          value={filterBookingId}
-          onChange={e => setFilterBookingId(e.target.value)}
-          style={{ marginLeft: 8, padding: 4 }}
-        />
-      </section>
-
-      {/* Master Booking Table */}
-      <section style={{ marginBottom: 32 }}>
-        <h2 style={{ fontFamily: "Helvetica", color: "#ff7300", marginBottom: 16 }}>Bookings</h2>
-        <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: 16 }}>
-          <thead>
-            <tr>
-              <th style={{ border: "1px solid #ccc", padding: 8 }}>Booking ID</th>
-              <th style={{ border: "1px solid #ccc", padding: 8 }}>User Email</th>
-              <th style={{ border: "1px solid #ccc", padding: 8 }}>Trek Name</th>
-              <th style={{ border: "1px solid #ccc", padding: 8 }}>Status</th>
-              <th style={{ border: "1px solid #ccc", padding: 8 }}>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {bookings.map(b => (
-              <tr key={b.id}>
-                <td style={{ border: "1px solid #ccc", padding: 8 }}>{b.id}</td>
-                <td style={{ border: "1px solid #ccc", padding: 8 }}>{b.user_email}</td>
-                <td style={{ border: "1px solid #ccc", padding: 8 }}>{b.trek_name}</td>
-                <td style={{ border: "1px solid #ccc", padding: 8 }}>{b.booking_status}</td>
-                <td style={{ border: "1px solid #ccc", padding: 8 }}>
-                  <button
-                    style={{ marginRight: 8, padding: "4px 8px", cursor: "pointer" }}
-                    onClick={() => setFilterBookingId(b.id)}
-                  >Select</button>
-                  <button
-                    style={{ padding: "4px 8px", cursor: "pointer", background: "#ff7300", color: "#fff", border: "none" }}
-                    onClick={() => handleSendEmail(b)}
-                  >Email User</button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
-
-      {/* Related Tables */}
-      {masterBooking && (
-        <section>
-          <h2 style={{ fontFamily: "Helvetica", color: "#ff7300", marginBottom: 16 }}>Related Data for Booking {masterBooking.id}</h2>
-
-          {/* User */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>User Info</h3>
-            <pre>{JSON.stringify(relatedUser, null, 2)}</pre>
-          </div>
-
-          {/* Trek */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Trek Info</h3>
-            <pre>{JSON.stringify(relatedTrek, null, 2)}</pre>
-          </div>
-
-          {/* Addons Booked */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Addons Booked</h3>
-            <pre>{JSON.stringify(relatedAddonsBooked.map(ab => {
-              const addon = addons.find(a => a.id === ab.addon_id);
-              return { ...ab, addon_name: addon?.name, addon_price: addon?.price };
-            }), null, 2)}</pre>
-          </div>
-
-          {/* Voucher */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Voucher Applied</h3>
-            <pre>{JSON.stringify(relatedVoucher, null, 2)}</pre>
-          </div>
-
-          {/* Discount */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Discount Applied</h3>
-            <pre>{JSON.stringify(relatedDiscount, null, 2)}</pre>
-          </div>
-
-          {/* Payments */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Payments</h3>
-            <pre>{JSON.stringify(relatedPayments, null, 2)}</pre>
-          </div>
-
-          {/* Calculated Totals */}
-          <div style={{ marginBottom: 16 }}>
-            <h3>Totals</h3>
-            <p>
-              Base Price: {masterBooking.base_price} <br />
-              Addons Price: {relatedAddonsBooked.reduce((sum, ab) => {
-                const addon = addons.find(a => a.id === ab.addon_id);
-                return sum + (addon?.price || 0) * (ab.quantity || 1);
-              }, 0)} <br />
-              Final Price: {masterBooking.final_price} <br />
-            </p>
+        {/* Bookings Table */}
+        <section className="table-card">
+          <h2 className="table-title">Bookings</h2>
+          <div className="table-scroll">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th><input type="checkbox" onChange={e => e.target.checked ? selectAllVisible(visibleBookings) : clearSelection()} /></th>
+                  <th>ID</th>
+                  <th>User</th>
+                  <th>Trek</th>
+                  <th>Status</th>
+                  <th>Price</th>
+                  <th>Date</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                {visibleBookings.map(b => (
+                  <tr key={b.id} className={selectedIds.has(b.id) ? "row-selected" : ""}>
+                    <td><input checked={selectedIds.has(b.id)} onChange={() => toggleSelect(b.id)} type="checkbox" /></td>
+                    <td>{b.id}</td>
+                    <td>
+                      <div>{b.user_email}</div>
+                      <div className="muted">{b.customer_name}</div>
+                      {b.group_members?.length > 0 && <div className="muted">{b.group_members.length} more member(s)</div>}
+                    </td>
+                    <td>{b.trek_name}</td>
+                    <td>{b.booking_status}</td>
+                    <td>₹{b.final_price}</td>
+                    <td>{b.trek_date || b.created_at}</td>
+                    <td>
+                      <div className="actions-inline">
+                        <button onClick={() => setActiveBookingId(b.id)} className="btn small">View</button>
+                        <button onClick={() => sendEmail(b)} className="btn btn-amber small">Email</button>
+                        <button onClick={() => sendWhatsAppGroup(b.group_members, b.id)} className="btn btn-whatsapp small">WhatsApp</button>
+                        <select value={b.booking_status} onChange={e => updateBookingStatus(b.id, e.target.value)} className="select small">
+                          <option value="pending">pending</option>
+                          <option value="approved">approved</option>
+                          <option value="confirmed">confirmed</option>
+                          <option value="payment_pending">payment_pending</option>
+                          <option value="cancelled">cancelled</option>
+                          <option value="completed">completed</option>
+                        </select>
+                        <button onClick={() => openPaymentModal(b.id)} className="btn small">Add Payment</button>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+                {visibleBookings.length === 0 && <tr><td colSpan="8" className="center muted">No bookings found</td></tr>}
+              </tbody>
+            </table>
           </div>
         </section>
-      )}
+
+        {/* Active Booking Details */}
+        {activeBookingId && (() => {
+          const b = bookings.find(bk => bk.id === activeBookingId);
+          return (
+            <section className="details-card">
+              <h2>Booking Details — {activeBookingId}</h2>
+              <div>
+                <h3>Main User</h3>
+                <pre className="json-box">{JSON.stringify(users.find(u => u.id === b.user_id) || {}, null, 2)}</pre>
+              </div>
+
+              {b.group_members?.length > 0 && (
+                <div>
+                  <h3>Group Members</h3>
+                  <ul>
+                    {b.group_members.map(m => <li key={m.id}>{m.name} | {m.email} | {m.phone || "No phone"} | DOB: {m.date_of_birth}</li>)}
+                  </ul>
+                </div>
+              )}
+
+              <div>
+                <h3>Addons</h3>
+                <pre className="json-box">
+                  {JSON.stringify(addonBookings.filter(ab => ab.booking_id === b.id).map(ab => ({ ...ab, addon: addons.find(a => a.id === ab.addon_id) })), null, 2)}
+                </pre>
+              </div>
+
+              <div>
+                <h3>Payments</h3>
+                <pre className="json-box">{JSON.stringify(payments.filter(p => p.booking_id === b.id), null, 2)}</pre>
+              </div>
+            </section>
+          );
+        })()}
+
+        {/* Payment Modal */}
+        {showPaymentModal && (
+          <div className="modal-backdrop">
+            <div className="modal">
+              <h3>Add Payment for {activeBookingId}</h3>
+              <input placeholder="Amount" value={paymentForm.amount} onChange={e => setPaymentForm(s => ({ ...s, amount: e.target.value }))} className="input" />
+              <input placeholder="Transaction ID" value={paymentForm.tx_id} onChange={e => setPaymentForm(s => ({ ...s, tx_id: e.target.value }))} className="input" />
+              <select value={paymentForm.method} onChange={e => setPaymentForm(s => ({ ...s, method: e.target.value }))} className="select">
+                <option>UPI</option><option>Card</option><option>Bank Transfer</option><option>Cash</option>
+              </select>
+              <div className="modal-actions">
+                <button onClick={submitPayment} className="btn btn-success">Save</button>
+                <button onClick={() => setShowPaymentModal(false)} className="btn">Cancel</button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <footer className="admin-footer">Planethimalayas Admin • Built for operations</footer>
+      </main>
     </div>
   );
 }
