@@ -272,7 +272,7 @@ import SearchBox from "../components/SearchBox.jsx";
   height: 45px;
   border-radius: 50%;
   border: none;
-  background-color: #ff7300; /* brand color */
+  background-color: #ff7300; /* brand color */ 
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -286,7 +286,8 @@ import SearchBox from "../components/SearchBox.jsx";
 }
 
 .scroll-top:hover {
-  background-color: #e56700;
+  background: #ff7300;
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
       
 .floating-buttons {
@@ -340,9 +341,8 @@ import SearchBox from "../components/SearchBox.jsx";
 }
 
 .faq-button:hover {
-  background-color: #ff8c33; /* slightly lighter orange */
-  transform: translateY(-2px);
-  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.9);
+  background: #ff7300;
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
       body {
@@ -444,7 +444,7 @@ import SearchBox from "../components/SearchBox.jsx";
 
       nav.main-navbar ul.nav-links li a:hover,
       nav.main-navbar ul.nav-links li a:focus {
-        background: white;
+        background: black;
         color: var(--brand-color);
         outline: none;
       }
@@ -594,6 +594,11 @@ main {
   font-size: 1.8rem;
   color: #ff7300;
   text-align: center;
+}
+
+#leadGenModal hover {transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 #leadGenModal .modal-content {

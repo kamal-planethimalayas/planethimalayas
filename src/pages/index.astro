@@ -241,7 +241,14 @@ import "../styles/global.css";
                   <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
                 </a>
                 <h3 class="trek-name">{trek.name}</h3>
-                <div class="trek-info">{duration} | {trek.region}</div>
+                <div class="trek-info">
+                  <span>
+                    <i class="fa fa-clock"></i> {duration}
+                  </span>
+                  <span>
+                    <i class="fa fa-map-marker-alt"></i> {trek.region}
+                  </span>
+                </div>
                 <div class="trek-difficulty">{difficultyStr}</div>
                 <div class="trek-buttons">
                   <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
@@ -425,13 +432,14 @@ import "../styles/global.css";
   padding: 0.7rem 2.5rem;
   border-radius: 8px;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* default shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Arrows */
@@ -451,7 +459,8 @@ import "../styles/global.css";
 }
 
 .carousel-arrow:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: #ff7300;
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .carousel-arrow.left {
@@ -491,6 +500,7 @@ import "../styles/global.css";
 .carousel-dots button.active {
   background-color: #ff7300;
   transform: scale(1.2);
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Responsive */
@@ -523,50 +533,83 @@ import "../styles/global.css";
   }
 }
 
-/* Testimonials Section - matching About Section style */
+/* Testimonials Section - Dark Theme */
 .testimonials {
-  background-color: white;
+  background-color: white; /* black background */
+  color: #fff;            /* white text globally */
   position: relative;
 }
 
 .testimonials-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Helvetica', sans-serif;
   text-align: left;
+  color: #000;
 }
 
-/* Card wrapper */
+/* Hide scrollbar but keep scroll functionality */
 .testimonials-card-wrapper {
   display: flex;
   gap: 1.5rem;
-  overflow-x: auto;
+  overflow-x: auto; /* still scrollable */
   scroll-behavior: smooth;
-  padding-bottom: 10px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  position: relative;
   scroll-snap-type: x mandatory;
+  
+  /* Hide scrollbar for all browsers */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.testimonials-card-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
-.::-webkit-scrollbar {
-  height: 8px;
-}
-.::-scrollbar-thumb {
-  background-color: #ff7300;
-  border-radius: 4px;
-}
-.::-scrollbar-track {
-  background: #f0f0f0;
-}
-
-/* Individual cards */
+/* Individual cards - dark theme + hover animation */
 .testimonial-card {
-  flex: 0 0 50%; /* 2 cards per screen on desktop */
-  max-width: 50%;
+  flex: 0 0 33.3333%; /* 3 per row on desktop */
+  max-width: 33.3333%;
   scroll-snap-align: start;
-  background: #fff;
+  background: #111; /* slightly lighter black for cards */
   border-radius: 12px;
-  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.3);
   padding: 2rem;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  
+  border: 2px solid transparent;
 }
 
+.testimonial-card:hover {
+   transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
+  border: 2px solid #ff7300;
+
+  /* Directional premium glow */
+  box-shadow:
+    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
+    0 12px 24px rgba(0, 0, 0, 0.25),         /* stronger shadow below */
+    0 6px 20px rgba(255, 115, 0, 0.6),       /* main bottom glow */
+    0 12px 40px rgba(255, 115, 0, 0.35),     /* diffused bottom glow */
+    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+
+  z-index: 10;
+}
+
+/* Ensure Read More functionality works */
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  max-height: 60px; /* collapsed height */
+  transition: max-height 0.3s ease;
+}
+
+.testimonial-card.expanded .testimonial-text {
+  max-height: 500px; /* expands on click */
+}
+
+/* Header and info */
 .testimonial-header {
   display: flex;
   align-items: center;
@@ -579,42 +622,22 @@ import "../styles/global.css";
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
+  border: 2px solid #ff7300;
 }
 
-.testimonial-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.testimonial-name {
-  font-weight: bold;
-  margin: 0;
-  font-size: 1rem;
-}
-
+.testimonial-info h3,
 .testimonial-profession,
-.testimonial-social {
-  font-size: 0.85rem;
-  color: #666;
-  margin: 2px 0;
+.testimonial-social a
+ {
+  color: #fff;
 }
 
 .testimonial-stars {
   color: #ff7300;
-  font-size: 1rem;
 }
 
-.testimonial-text {
-  font-size: 1rem;
-  line-height: 1.4;
-  margin-top: 0.5rem;
-  overflow: hidden;
-  max-height: 60px;
-  transition: max-height 0.3s ease;
-}
-
-.testimonial-card.expanded .testimonial-text {
-  max-height: 500px;
+.testimonial-social a:hover {
+  color: #ff7300;
 }
 
 .read-more-btn {
@@ -629,206 +652,282 @@ import "../styles/global.css";
   padding: 0;
 }
 
-/* Scrollbar styling */
+/* Scroll buttons - adapt to dark theme + brand glow */
 .scroll-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 30px;   /* smaller width */
-  height: 30px;  /* smaller height */
+  width: 30px;
+  height: 30px;
   border: none;
-  background: rgba(0,0,0,0.3); /* semi-transparent */
+  background: rgba(255, 255, 255, 0.1);
   color: #ff7300;
-  font-size: 18px; /* arrow size */
+  font-size: 18px;
   font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10;   /* above cards but lightweight */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-  transition: background 0.3s;
+  z-index: 10;
+  box-shadow: 0 2px 6px #ff7300;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .scroll-btn:hover {
-  background: rgba(0,0,0,0.6);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px #ff7300;
 }
 
-.scroll-btn.left {
-  left: -15px;   /* slightly outside container so it doesn’t cover content */
-}
-
-.scroll-btn.right {
-  right: -15px;  /* slightly outside container */
-}
-
-/* Optional: disable outline on focus */
-.scroll-btn:focus {
-  outline: none;
-}
-
-/* 3. Social icons */
-.testimonial-social a {
-  margin-right: 0.5rem;
-  color: #E1306C;
-  text-decoration: none;
-  font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  transition: color 0.3s ease;
-}
-
-.testimonial-social a:hover {
-  color: #ff7300;
-}
+.scroll-btn.left { left: -15px; }
+.scroll-btn.right { right: -15px; }
 
 /* Responsive adjustments */
+@media (max-width: 1024px) {
+  .testimonial-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   .testimonial-card {
-    flex: 0 0 100%;   /* 1 per view on mobile */
+    flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
-.trek-section {
-  margin-bottom: 2rem;
 
+/* ---------------------------------------
+   TREK SECTION
+----------------------------------------- */
+
+.trek-section {
+  background-color: white; /* black background */
+  color: #fff;            /* white text globally */
+  position: relative;
 }
+
 .trek-section h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Helvetica', sans-serif;
   color: black;
-  
 }
 
-/* Wrapper for scroll + buttons */
+/* ---------------------------------------
+   WRAPPER + SCROLL
+----------------------------------------- */
+
 .trek-cards-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto; /* still scrollable */
+  scroll-behavior: smooth;  
   position: relative;
-  width: 100%;
+  scroll-snap-type: x mandatory;
+  overflow: visible !important;
+  /* Hide scrollbar for all browsers */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
 }
 
-/* Horizontal scroll container */
 .trek-cards-scroll {
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 1rem 0;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  padding-bottom: 2rem;;
+  padding-top: 2rem;
 }
 
-/* Individual card */
+/* Hide scrollbar */
+.trek-cards-scroll::-webkit-scrollbar { display: none; }
+.trek-cards-scroll { scrollbar-width: none; }
+
+
+/* ---------------------------------------
+   TREK CARD
+----------------------------------------- */
+
 .trek-card {
-  flex: 0 0 33.333%;  /* 3 per row desktop */
+  flex: 0 0 33.333%;
   scroll-snap-align: start;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 
-    0 4px 8px rgba(0, 0, 0, 0.1),        /* subtle base shadow */
-    0 8px 20px rgba(0, 0, 0, 0.15);       /* deeper shadow for depth */
-  display: flex;
-  flex-direction: column;
+  background: #111;
+  border-radius: 12px;
   overflow: hidden;
-  min-width: 0;
+  position: relative;
+
+  /* Increased height */
+  min-height: 450px;
+
+  /* 3D + smooth transitions */
+  transform-style: preserve-3d;
   transition: 
-    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    will-change: transform, box-shadow;
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border 0.3s ease;
+  box-shadow: 
+    0 4px 8px rgba(0,0,0,0.10),
+    0 8px 18px rgba(0,0,0,0.12);
 }
 
-  .trek-card:hover {
-    transform: translateY(-14px) rotateX(4deg) rotateY(2deg);
-    box-shadow: 
-    0 12px 24px rgba(0, 0, 0, 0.25), 
-    0 20px 40px rgba(0, 0, 0, 0.3);
-    z-index: 10;
-  }
+/* Hover: 3D pop + brand border + directional glow (light from above) */
+.trek-card:hover {
+  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
+  border: 2px solid #ff7300;
 
-/* Mobile: 2 per row */
+  /* Directional premium glow */
+  box-shadow:
+    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
+    0 12px 24px rgba(0, 0, 0, 0.25),         /* stronger shadow below */
+    0 6px 20px rgba(255, 115, 0, 0.6),       /* main bottom glow */
+    0 12px 40px rgba(255, 115, 0, 0.35),     /* diffused bottom glow */
+    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+
+  z-index: 10;
+}
+
+
+/* ---------------------------------------
+   TREK IMAGE
+----------------------------------------- */
+
+.trek-card img {
+  width: 100%;
+  height: 250px;   /* Increased height */
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* NO zoom — stable image */
+.trek-card:hover img {
+  transform: none;
+}
+
+
+/* ---------------------------------------
+   TREK DIFFICULTY BADGE
+----------------------------------------- */
+
+.trek-difficulty {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ff7300;
+  color: black;
+  padding: 4px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 20; 
+  pointer-events: none;
+}
+
+
+/* ---------------------------------------
+   TEXT CONTENT
+----------------------------------------- */
+
+.trek-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 2rem 2rem;
+}
+
+.trek-info {
+  display: flex;           /* align spans in a row */
+  justify-content: center; /* center them horizontally */
+  gap: 2rem;               /* space between spans */
+  align-items: center;     /* vertically center icons and text */
+  margin: 2rem;            /* keep your existing margin */
+  font-size: 1rem;
+  color: white;
+  text-align: initial;     /* optional: reset text-align */
+}
+
+
+/* ---------------------------------------
+   CTA BUTTONS
+----------------------------------------- */
+
+.trek-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Base CTA */
+.trek-card a.btn {
+  padding: 0.45rem 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  border-radius: 6px;
+  border: 2px solid #ff7300;
+  color: #ff7300;
+  background: transparent;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover CTA — brand background and black text */
+.trek-card a.btn:hover {
+  background: #ff7300;
+  color: black;
+  box-shadow: 0 4px 12px #ff7300;
+}
+
+
+/* ---------------------------------------
+   SCROLL BUTTONS
+----------------------------------------- */
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ff7300;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  box-shadow: 0 2px 6px #ff7300;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px #ff7300;
+}
+
+.scroll-btn.left { left: -15px; }
+.scroll-btn.right { right: -15px; }
+
+
+/* ---------------------------------------
+   MOBILE
+----------------------------------------- */
+
 @media (max-width: 768px) {
   .trek-card {
     flex: 0 0 100%;
   }
-}
-
-/* Card image */
-.trek-card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-    will-change: transform;
-}
-
-.trek-card:hover img {
-    transform: scale(1.25) rotate(-1deg);
-}
-
-/* Card text */
-.trek-name {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #ff7300;
-  text-align: center;
-  margin: 0.5rem 0;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
-}
-
-.trek-info, .trek-difficulty {
-  text-align: center;
-  margin: 0 0.5rem 0.5rem;
-  font-size: 1rem;
-  color: black;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
-/* Buttons container */
-.trek-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Buttons */
-.trek-card a.btn {
-  padding: 0.4rem 0.8rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  border: none;
-  cursor: pointer;
-  border: 2px solid transparent;
-}
-
-.btn-details {
-  background: black;
-  color: white;
-  box-shadow: 0px 2px 8px #ff7300;
-}
-
-.btn-details:hover {
-  background: #ff7300;
-  color: black;
-  box-shadow: 0px 2px 8px black;
-}
-
-.btn-dates {
-  background: #ff7300;
-  color: black;
-  box-shadow: 0px 2px 8px black;
-}
-
-.btn-dates:hover {
-  background: black;
-  color: white;
-  box-shadow: 0px 2px 8px #ff7300;
 }
 
 .news-section {
@@ -837,7 +936,7 @@ import "../styles/global.css";
 }
 
 .news-section-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Helvetica', sans-serif;
   text-align: left;
 }
@@ -853,7 +952,7 @@ import "../styles/global.css";
 }
 
 .faqs-section-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Helvetica', sans-serif;
   text-align: left;
   margin-bottom: 0.5rem;
@@ -998,21 +1097,16 @@ import "../styles/global.css";
   text-decoration: underline;
 }
 
-.testimonials.reveal h2 span {
-  color: #ff7300;
-}
-
-.trek-section.reveal h2 span {
-  color: #ff7300;
-}
-
-.news-section.reveal h2 span {
-  color: #ff7300;
-}
-
+.testimonials.reveal h2 span,
+.trek-section.reveal h2 span,
+.news-section.reveal h2 span,
 .faqs-section.reveal h2 span {
   color: #ff7300;
+  border-bottom: 4px solid #ff7300; /* brand underline */
+  padding-bottom: 2px;              /* small space between text and underline */
+  display: inline-block;            /* ensure border fits text width */
 }
+
 </style>
 
 </div>
@@ -1042,16 +1136,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Enable/Disable Arrows at edges
   function updateArrowState() {
-    leftBtn.disabled = row.scrollLeft <= 0;
-    rightBtn.disabled = row.scrollLeft + row.clientWidth >= row.scrollWidth;
+    const scrollLeft = Math.ceil(row.scrollLeft); // avoid fractional pixels
+    const maxScrollLeft = row.scrollWidth - row.clientWidth;
+
+    leftBtn.disabled = scrollLeft <= 0;
+    rightBtn.disabled = scrollLeft >= maxScrollLeft;
   }
 
   // Attach Events to arrows
   leftBtn.addEventListener("click", () => scrollTestimonials(-1));
   rightBtn.addEventListener("click", () => scrollTestimonials(1));
-
-  // Initial state
-  updateArrowState();
 
   // Read More Toggle
   document.querySelectorAll('.read-more-btn').forEach(btn => {
@@ -1061,31 +1155,76 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.textContent = card.classList.contains('expanded') ? 'Read Less' : 'Read More';
     });
   });
+
+  // Touch/drag scrolling for mobile
+  let isDown = false;
+  let startX;
+  let scrollLeftStart;
+
+  row.addEventListener('mousedown', (e) => {
+    isDown = true;
+    row.classList.add('dragging');
+    startX = e.pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+  });
+  row.addEventListener('mouseleave', () => { isDown = false; row.classList.remove('dragging'); });
+  row.addEventListener('mouseup', () => { isDown = false; row.classList.remove('dragging'); updateArrowState(); });
+  row.addEventListener('mousemove', (e) => {
+    if(!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - row.offsetLeft;
+    const walk = (startX - x); // drag distance
+    row.scrollLeft = scrollLeftStart + walk;
+  });
+
+  // Touch events for mobile
+  row.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+  });
+  row.addEventListener('touchmove', (e) => {
+    const x = e.touches[0].pageX - row.offsetLeft;
+    const walk = (startX - x);
+    row.scrollLeft = scrollLeftStart + walk;
+  });
+  row.addEventListener('touchend', updateArrowState);
+
+  // Initial state
+  updateArrowState();
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".trek-cards-wrapper");
 
-<script type="module">
-function scrollCards(sectionId, direction) {
-  const container = document.getElementById(sectionId);
-  if (!container) return;
+  sections.forEach(wrapper => {
+    const row = wrapper.querySelector(".trek-cards-scroll");
+    const leftBtn = wrapper.querySelector(".scroll-btn.left");
+    const rightBtn = wrapper.querySelector(".scroll-btn.right");
 
-  // Calculate scroll by card width + gap
-  const card = container.querySelector('.trek-card');
-  if (!card) return;
-  
-  const style = window.getComputedStyle(container);
-  const gap = parseInt(style.gap) || 16; // default 1rem if not set
-  const scrollAmount = (card.offsetWidth + gap) * direction;
+    function updateButtons() {
+      leftBtn.disabled = row.scrollLeft <= 0;
+      rightBtn.disabled = row.scrollLeft + row.clientWidth >= row.scrollWidth - 1;
+    }
 
-  container.scrollBy({
-    left: scrollAmount,
-    behavior: 'smooth'
+    function scroll(direction) {
+      const card = row.querySelector(".trek-card");
+      if (!card) return;
+      const gap = parseInt(getComputedStyle(row).gap) || 16;
+      const scrollAmount = (card.offsetWidth + gap) * direction;
+      row.scrollBy({ left: scrollAmount, behavior: "smooth" });
+
+      setTimeout(updateButtons, 300);
+    }
+
+    leftBtn.addEventListener("click", () => scroll(-1));
+    rightBtn.addEventListener("click", () => scroll(1));
+
+    row.addEventListener("scroll", updateButtons);
+    updateButtons();
   });
-}
-
-// Expose globally so onclick works
-window.scrollCards = scrollCards;
+});
 </script>
 
 <script>
