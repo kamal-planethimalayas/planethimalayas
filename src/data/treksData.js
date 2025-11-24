@@ -916,17 +916,7 @@ seo: {
 
     dates: [
       
-      { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-      { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-      { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
-      { label: "29 Nov - 04 Dec", start: "2025-11-29", end: "2025-12-04" },
-      { label: "30 Nov - 05 Dec", start: "2025-11-30", end: "2025-12-05" },
-      { label: "01 Dec - 06 Dec", start: "2025-12-01", end: "2025-12-06" },
-      { label: "06 Dec - 11 Dec", start: "2025-12-06", end: "2025-12-11" },
-      { label: "07 Dec - 12 Dec", start: "2025-12-07", end: "2025-12-12" },
-      { label: "08 Dec - 13 Dec", start: "2025-12-08", end: "2025-12-13" },
-      { label: "13 Dec - 18 Dec", start: "2025-12-13", end: "2025-12-18" },
-      { label: "14 Dec - 19 Dec", start: "2025-12-14", end: "2025-12-19" },
+      
       { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
       { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
       { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -1183,17 +1173,7 @@ seo: {
     dates: [
       
     
-      { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-      { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-      { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
-      { label: "29 Nov - 04 Dec", start: "2025-11-29", end: "2025-12-04" },
-      { label: "30 Nov - 05 Dec", start: "2025-11-30", end: "2025-12-05" },
-      { label: "01 Dec - 06 Dec", start: "2025-12-01", end: "2025-12-06" },
-      { label: "06 Dec - 11 Dec", start: "2025-12-06", end: "2025-12-11" },
-      { label: "07 Dec - 12 Dec", start: "2025-12-07", end: "2025-12-12" },
-      { label: "08 Dec - 13 Dec", start: "2025-12-08", end: "2025-12-13" },
-      { label: "13 Dec - 18 Dec", start: "2025-12-13", end: "2025-12-18" },
-      { label: "14 Dec - 19 Dec", start: "2025-12-14", end: "2025-12-19" },
+      
       { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
       { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
       { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -1671,8 +1651,7 @@ seo: {
 
     dates: [
       
-      { label: "22 Nov - 01 Dec", start: "2025-11-22", end: "2025-12-01" },
-      { label: "29 Nov - 08 Dec", start: "2025-11-29", end: "2025-12-08" },
+      
       { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
       { label: "13 Dec - 22 Dec", start: "2025-12-13", end: "2025-12-22" },
       { label: "14 Mar - 23 Mar", start: "2026-03-14", end: "2026-03-23" },
@@ -1909,8 +1888,7 @@ seo: {
     dates: [
       
      
-      { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-      { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
+      
       { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
       { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
       { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
@@ -2100,7 +2078,7 @@ seo: {
     dates: [
       
      
-      { label: "22 Nov - 29 Nov", start: "2025-11-22", end: "2025-11-29" },
+      
       { label: "28 Mar - 04 Apr", start: "2026-03-28", end: "2026-04-04" },
       { label: "11 Apr - 18 Apr", start: "2026-04-11", end: "2026-04-18" },
       { label: "18 Apr - 25 Apr", start: "2026-04-18", end: "2026-04-25" },
@@ -2294,8 +2272,7 @@ seo: {
     dates: [
       
       
-      { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-      { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
+      
       { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
       { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
       { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
@@ -2692,17 +2669,7 @@ seo: {
   dates: [
     
     
-    { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-    { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-    { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
-    { label: "29 Nov - 04 Dec", start: "2025-11-29", end: "2025-12-04" },
-    { label: "30 Nov - 05 Dec", start: "2025-11-30", end: "2025-12-05" },
-    { label: "01 Dec - 06 Dec", start: "2025-12-01", end: "2025-12-06" },
-    { label: "06 Dec - 11 Dec", start: "2025-12-06", end: "2025-12-11" },
-    { label: "07 Dec - 12 Dec", start: "2025-12-07", end: "2025-12-12" },
-    { label: "08 Dec - 13 Dec", start: "2025-12-08", end: "2025-12-13" },
-    { label: "13 Dec - 18 Dec", start: "2025-12-13", end: "2025-12-18" },
-    { label: "14 Dec - 19 Dec", start: "2025-12-14", end: "2025-12-19" },
+    
     { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
     { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
     { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -2952,17 +2919,7 @@ seo: {
   dates: [
     
     
-    { label: "22 Nov - 27 Nov", start: "2025-11-22", end: "2025-11-27" },
-    { label: "23 Nov - 28 Nov", start: "2025-11-23", end: "2025-11-28" },
-    { label: "24 Nov - 29 Nov", start: "2025-11-24", end: "2025-11-29" },
-    { label: "29 Nov - 04 Dec", start: "2025-11-29", end: "2025-12-04" },
-    { label: "30 Nov - 05 Dec", start: "2025-11-30", end: "2025-12-05" },
-    { label: "01 Dec - 06 Dec", start: "2025-12-01", end: "2025-12-06" },
-    { label: "06 Dec - 11 Dec", start: "2025-12-06", end: "2025-12-11" },
-    { label: "07 Dec - 12 Dec", start: "2025-12-07", end: "2025-12-12" },
-    { label: "08 Dec - 13 Dec", start: "2025-12-08", end: "2025-12-13" },
-    { label: "13 Dec - 18 Dec", start: "2025-12-13", end: "2025-12-18" },
-    { label: "14 Dec - 19 Dec", start: "2025-12-14", end: "2025-12-19" },
+    
     { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
     { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
     { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -3204,17 +3161,7 @@ itinerary: [
   dates: [
     
    
-    { label: "22 Nov - 26 Nov", start: "2025-11-22", end: "2025-11-26" },
-    { label: "23 Nov - 27 Nov", start: "2025-11-23", end: "2025-11-27" },
-    { label: "24 Nov - 28 Nov", start: "2025-11-24", end: "2025-11-28" },
-    { label: "29 Nov - 03 Dec", start: "2025-11-29", end: "2025-12-03" },
-    { label: "30 Nov - 04 Dec", start: "2025-11-30", end: "2025-12-04" },
-    { label: "01 Dec - 05 Dec", start: "2025-12-01", end: "2025-12-05" },
-    { label: "06 Dec - 10 Dec", start: "2025-12-06", end: "2025-12-10" },
-    { label: "07 Dec - 11 Dec", start: "2025-12-07", end: "2025-12-11" },
-    { label: "08 Dec - 12 Dec", start: "2025-12-08", end: "2025-12-12" },
-    { label: "13 Dec - 17 Dec", start: "2025-12-13", end: "2025-12-17" },
-    { label: "14 Dec - 18 Dec", start: "2025-12-14", end: "2025-12-18" },
+    
     { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
     { label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
     { label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
