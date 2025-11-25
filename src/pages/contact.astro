@@ -130,22 +130,25 @@ import Layout from "../layouts/Layout.astro";
 
 /* Individual cards */
 .contact-cards .card {
-  flex: 1 1 45%; /* Each card takes about half width, shrinkable */
-  min-width: 250px; /* Ensures cards don’t get too small on tiny screens */
-  background-color: #fff;
+  flex: 1 1 45%;
+  min-width: 250px;
+  background-color: #111; /* as before */
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  box-shadow: 
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 8px rgba(255, 115, 0, 0.3); /* brand glow restored */
   box-sizing: border-box;
-  transition: transform 0.3s ease, 
-  box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Card hover effect */
+/* Hover → lift + stronger brand glow */
 .contact-cards .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 
+    0 8px 25px rgba(255, 115, 0, 0.75),
+    0 0 20px rgba(255, 115, 0, 0.8); /* bright brand glow */
 }
 
 /* Card headings */
@@ -153,19 +156,20 @@ import Layout from "../layouts/Layout.astro";
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #ff7300; /* Brand color */
+  color: #ff7300; /* brand color */
 }
 
 /* Card links */
 .contact-cards .card a {
   text-decoration: none;
-  color: #000;
+  color: #fff; /* original */
   font-weight: bold;
   display: block;
   margin-bottom: 8px;
   transition: color 0.3s ease;
 }
 
+/* Hover – brand color (original behavior) */
 .contact-cards .card a:hover {
   color: #ff7300;
 }

@@ -196,29 +196,48 @@ window.addEventListener("scroll", () => {
   margin-bottom: 3rem;
 }
 
+/* Grid layout stays same */
 .pillars-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
 }
 
+/* Updated Pillar Cards */
 .pillar-card {
-  background: white;
+  background: #000; /* black cards */
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+
+  /* brand shadow */
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover Glow */
+.pillar-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+}
+
+/* Headings stay brand-colored */
 .pillar-card h3 {
   font-family: Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: #ff7300;
+  color: #ff7300; /* brand color */
   margin-bottom: 1rem;
 }
 
+/* Body text → white */
 .pillar-card p {
   font-family: Roboto, sans-serif;
-  color: #555;
+  color: #fff; /* white for readability */
   line-height: 1.6;
 }
 
