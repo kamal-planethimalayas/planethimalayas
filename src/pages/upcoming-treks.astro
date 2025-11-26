@@ -99,7 +99,7 @@ const passTreks = treks.filter(
   flex-wrap: wrap;
   gap: 20px;
   justify-content: flex-start;
-  padding: 1rem 0;
+  padding: 0 0;
   background: #fff;
 }
 
@@ -496,7 +496,7 @@ const passTreks = treks.filter(
   </div>
 </section>
 
-<section class="trek-cards-container reveal">
+<section class="trek-cards-container">
   <div class="trek-cards-container" id="trekCardsContainer">
     {treks.map(trek => {
       const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;

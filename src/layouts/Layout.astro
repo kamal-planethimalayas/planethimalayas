@@ -318,9 +318,12 @@ import SearchBox from "../components/SearchBox.jsx";
 }
 
 .whatsapp-float:hover {
-  background-color: #1ebc59;
-  transform: translateY(-2px);
-  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.9);
+  background-color: #25D366; /* brighter WhatsApp green */
+  transform: translateY(-2px) scale(1.06);
+  box-shadow: 
+    0 0 12px #25D366,
+    0 0 20px #25D366,
+    0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
 .whatsapp-icon {
@@ -596,11 +599,6 @@ main {
   text-align: center;
 }
 
-#leadGenModal hover {transform: scale(1.05);
-  /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
-}
-
 #leadGenModal .modal-content {
   background-color: #fff;
   margin: 10% auto;
@@ -851,117 +849,87 @@ document.getElementById("scrollTopBtn").addEventListener("click", () => {
 </script>
 
 <script is:client>
-  window.addEventListener('DOMContentLoaded', () => {
-    const modal = document.getElementById('leadGenModal');
-    const closeBtn = modal.querySelector('.modal-close');
-    const form = document.getElementById('leadGenForm');
-    const thankYou = document.getElementById('leadGenThankYou');
+window.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('leadGenModal');
+  const closeBtn = modal.querySelector('.modal-close');
+  const form = document.getElementById('leadGenForm');
+  const thankYou = document.getElementById('leadGenThankYou');
+  const trekInput = document.getElementById('trekName');
 
-    // Create floating "Plan Your Trek" button (center-right)
-    const floatBtn = document.createElement('button');
-    floatBtn.textContent = "Plan Your Trek";
-    Object.assign(floatBtn.style, {
-      position: "fixed",
-      top: "50%",
-      right: "12px", // offset to avoid scrollbar overlap
-      transform: "translateY(-50%) rotate(-90deg)",
-      transformOrigin: "right center",
-      background: "#ff7300",
-      color: "#000",
-      fontFamily: "Roboto, sans-serif",
-      fontWeight: "bold",
-      border: "none",
-      borderRadius: "12px 12px 0 0",
-      padding: "12px 20px",
-      cursor: "pointer",
-      boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-      zIndex: "9999",
-      transition: "all 0.4s ease",
-      opacity: "0",
-      right: "-120px", // start hidden for animation
-    });
-    document.body.appendChild(floatBtn);
+  // Open/Close modal
+  const openModal = (trekName = "") => {
+    trekInput.value = trekName; // prefill trek name
+    modal.style.display = 'block';
+  };
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
 
-    // Slide-in animation after short delay
+  // Automatic popup after 8s on first visit
+  if (!sessionStorage.getItem('leadGenShown')) {
     setTimeout(() => {
-      floatBtn.style.right = "12px";
-      floatBtn.style.opacity = "1";
-    }, 1000);
+      openModal();
+      sessionStorage.setItem('leadGenShown', 'true');
+    }, 8000);
+  }
 
-    // Function to open modal
-    const openModal = () => {
-      modal.style.display = 'block';
-      floatBtn.style.display = 'none';
-    };
+  // Close modal on close button or outside click
+  closeBtn.addEventListener('click', closeModal);
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
 
-    // Function to close modal
-    const closeModal = () => {
-      modal.style.display = 'none';
-      floatBtn.style.display = 'block';
-    };
+  // Open modal when any Enquire/Plan Now button is clicked
+  document.querySelectorAll('.enquire-now-btn, .plan-now-btn').forEach(btn => {
+    btn.addEventListener('click', () => openModal(btn.dataset.trek));
+  });
 
-    // Show modal after 8s (only once per session)
-    if (!sessionStorage.getItem('leadGenShown')) {
-      setTimeout(() => {
-        openModal();
-        sessionStorage.setItem('leadGenShown', 'true');
-      }, 8000);
-    }
+  // Contact method toggle
+  const contactMethod = document.getElementById('contactMethod');
+  const phoneGroup = document.getElementById('phoneGroup');
+  const whatsappGroup = document.getElementById('whatsappGroup');
 
-    // Close modal on click
-    closeBtn.addEventListener('click', closeModal);
-    window.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
-    floatBtn.addEventListener('click', openModal);
+  contactMethod.addEventListener('change', function() {
+    phoneGroup.style.display = this.value === 'phone' ? 'block' : 'none';
+    whatsappGroup.style.display = this.value === 'whatsapp' ? 'block' : 'none';
+  });
 
-    // Handle contact method switching
-    const contactMethod = document.getElementById('contactMethod');
-    const phoneGroup = document.getElementById('phoneGroup');
-    const whatsappGroup = document.getElementById('whatsappGroup');
+  // intl-tel-input for phone & whatsapp
+  const phoneInput = intlTelInput(document.querySelector("#phone"), {
+    initialCountry: "in",
+    separateDialCode: true,
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+  });
+  const whatsappInput = intlTelInput(document.querySelector("#whatsapp"), {
+    initialCountry: "in",
+    separateDialCode: true,
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+  });
 
-    contactMethod.addEventListener('change', function() {
-      phoneGroup.style.display = this.value === 'phone' ? 'block' : 'none';
-      whatsappGroup.style.display = this.value === 'whatsapp' ? 'block' : 'none';
-    });
+  // Form submission
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    formData.set("phone", phoneInput.getNumber());
+    formData.set("whatsapp", whatsappInput.getNumber());
 
-    // Initialize intl-tel-input
-    const phoneInput = intlTelInput(document.querySelector("#phone"), {
-      initialCountry: "in",
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
-    });
-
-    const whatsappInput = intlTelInput(document.querySelector("#whatsapp"), {
-      initialCountry: "in",
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
-    });
-
-    // Handle form submission
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const formData = new FormData(form);
-
-      formData.set("phone", phoneInput.getNumber());
-      formData.set("whatsapp", whatsappInput.getNumber());
-
-      try {
-        const res = await fetch(form.action, {
-          method: 'POST',
-          body: formData,
-          headers: { 'Accept': 'application/json' }
-        });
-
-        if (res.ok) {
-          form.style.display = 'none';
-          thankYou.style.display = 'block';
-        } else {
-          alert('There was a problem submitting the form.');
-        }
-      } catch (err) {
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        form.style.display = 'none';
+        thankYou.style.display = 'block';
+      } else {
         alert('There was a problem submitting the form.');
       }
-    });
+    } catch (err) {
+      alert('There was a problem submitting the form.');
+    }
   });
+});
 </script>
 
 <script type="module" src="/scripts/scrollReveal.js" client:load></script>

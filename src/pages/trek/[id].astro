@@ -107,46 +107,35 @@ const { gallery, name } = trek;
   </div>
 </section>
 
-
 <!-- Pricing -->
 <section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper">
-<div class="pricing-and-snippet">
-<div class="price-box">
-      <h2>
-        INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
-      </h2>
+  <div class="pricing-and-snippet">
 
-      <p class="subheading">
-        {trek?.priceNote ? <em>{trek.priceNote}</em> : null}
+    <!-- Price Box -->
+    <div class="price-box">
+      <p class="price-starting-from">
+        Price starting from
+        <span class="price-info-icon" id="price-info">?</span>
       </p>
 
+      <!-- Modal -->
+      <div id="price-modal" class="price-modal">
+        <div class="price-modal-content">
+          <span class="close-price-modal">&times;</span>
+          <p>
+          The listed price, including selected add-ons, applies to our fixed departure groups with a minimum of 4 participants. For smaller groups, any difference in pricing will be communicated via email upon confirmation. Trek prices may vary for customized groups based on preferences and requirements.
+          </p>
+        </div>
+      </div>
 
-      <h3>Addons (Optional)</h3>
-        <ul>
-          {trek.addons && (
-          <ul>
-            {typeof trek.addons.transport === 'number' ? (
-              <li>
-                <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()}
-                {trek.addons.transportNote ? <em>({trek.addons.transportNote})</em> : null}
-              </li>
-            ) : trek.addons.transportNote ? (
-              <li>
-                <strong>Transportation</strong> – <em>{trek.addons.transportNote}</em>
-              </li>
-            ) : null}
+      <div class="price-inline">
+        <span class="price">
+          INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
+        </span>
+        {trek?.priceNote && <span class="price-note">{trek.priceNote}</span>}
+      </div>
 
-            {typeof trek.addons.offloadingbag === 'number' && (
-              <li>
-                <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
-                {trek.addons.offloadingNote ? <em>({trek.addons.offloadingNote})</em> : null}
-              </li>
-            )}
-          </ul>
-          )}
-        </ul>
-
-        <!-- Trigger links -->
+      <!-- Terms & Inclusions Modals -->
       <p>
         <a href="#" id="open-terms">Terms & Conditions</a> |
         <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
@@ -357,7 +346,7 @@ const { gallery, name } = trek;
       </div>
 
       <!-- Cancellation & Refund Policy Modal -->
-    <div id="cancellationModal" class="modal hidden">
+      <div id="cancellationModal" class="modal hidden">
       <div class="modal-content">
         <span class="close" id="close-cancellation">&times;</span>
         <h2 class="modal-title">Cancellation & Refunds</h2>
@@ -412,95 +401,121 @@ const { gallery, name } = trek;
       </div>
     </div>
 
-    <script>
-    window.onload = function () {
-    document.getElementById("open-terms").onclick = function (e) {
-      e.preventDefault();
-      document.getElementById("termsModal").style.display = "block";
-    };
-    document.getElementById("close-terms").onclick = function () {
-      document.getElementById("termsModal").style.display = "none";
-    };
+      <!-- Enquiry & Fixed Departure Sections -->
+    <div class="pricing-options">
 
-    document.getElementById("open-inclusions").onclick = function (e) {
-      e.preventDefault();
-      document.getElementById("inclusionsModal").style.display = "block";
-    };
-    document.getElementById("close-inclusions").onclick = function () {
-      document.getElementById("inclusionsModal").style.display = "none";
-    };
-
-    document.getElementById("open-cancellation").onclick = function (e) {
-      e.preventDefault();
-      document.getElementById("cancellationModal").style.display = "block";
-    };
-    document.getElementById("close-cancellation").onclick = function () {
-      document.getElementById("cancellationModal").style.display = "none";
-    };
-
-    document.querySelectorAll('.dropdown-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const dropdown = btn.parentElement;
-        dropdown.classList.toggle('open');
-      });
-    });
-  };
-  </script>
-
-{trek.enquireOnly ? (
-  <div class="enquire-now-wrapper">
-    <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
-  </div>
-) : (
-  groupedDates && Object.entries(groupedDates).map(([monthYear, dates]) => (
-    <div class="collapsible-section" key={monthYear}>
-      <h3 class="collapsible-header">Registration Dates {monthYear}</h3>
-      <div class="collapsible-content">
-        <div class="datesContainer">
-          {dates.map(({ label, start }) => (
-            <div class="date-slot-wrapper" key={label}>
-              <a
-                href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
-                class="date-link"
-                aria-label={`Register for ${trek.name} trek from ${label}`}
-              >
-                <span class="date-box">{label}</span>
-              </a>
-              <TrekDateSlots client:load trekId={trek.id} startDate={start} maxSlots={8} />
-            </div>
-          ))}
+      {/* Enquiry Section */}
+      <div class="enquiry-section">
+        <h3>Customize your trek to suit your preferences.</h3>
+        <div class="enquire-now-wrapper">
+          <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
         </div>
       </div>
+
+      {/* Fixed Departure Section */}
+      {groupedDates && Object.entries(groupedDates).length > 0 && (
+        <div class="fixed-departure-section">
+          <h3>Sign up for our fixed departure dates below.</h3>
+
+          {/* Addons inside Fixed Departure */}
+          {trek.addons && (
+            <div class="addons-section">
+              <h3>Addons (Optional)</h3>
+              <ul>
+                {typeof trek.addons.transport === 'number' ? (
+                  <li>
+                    <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()}
+                    {trek.addons.transportNote ? <em> ({trek.addons.transportNote})</em> : null}
+                  </li>
+                ) : trek.addons.transportNote ? (
+                  <li>
+                    <strong>Transportation</strong> – <em>{trek.addons.transportNote}</em>
+                  </li>
+                ) : null}
+
+                {typeof trek.addons.offloadingbag === 'number' && (
+                  <li>
+                    <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
+                    {trek.addons.offloadingNote ? <em> ({trek.addons.offloadingNote})</em> : null}
+                  </li>
+                )}
+              </ul>
+            </div>
+          )}
+
+          {/* Registration Dates */}
+          {Object.entries(groupedDates).map(([monthYear, dates]) => (
+            <div class="collapsible-section" key={monthYear}>
+              <h3 class="collapsible-header">Registration Dates {monthYear}</h3>
+              <div class="collapsible-content">
+                <div class="datesContainer">
+                  {dates.map(({ label, start }) => (
+                    <div class="date-slot-wrapper" key={label}>
+                      <a
+                        href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
+                        class="date-link"
+                        aria-label={`Register for ${trek.name} trek from ${label}`}
+                      >
+                        <span class="date-box">{label}</span>
+                      </a>
+                      <TrekDateSlots client:load trekId={trek.id} startDate={start} maxSlots={8} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+
+        </div>
+      )}
+
+    </div> {/* End of pricing-options */}
+  </div>
+
+    {/* Trek snippet */}
+    <div class="snippet-wrapper">
+      <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
+      <span class="read-more-link">Read More</span>
     </div>
-  ))
-)}
+  
+
+  </div> {/* End of pricing-and-snippet */}
+</section>
 
 <style>
-  .collapsible-header {
-  font-size: 1.05rem;
+
+  /* Collapsible headers */
+.collapsible-header {
+  font-size: 0.95rem; /* smaller header */
   font-weight: bold;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 10px;              /* small, not bulky */
+  padding: 6px 10px;
   margin: 6px 0;
-  background-color: #ff7300;      /* brand color */
-  color: white;
+  background-color: #ff7300; /* black background */
+  color: #000; /* brand color text */
   border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15); /* soft shadow */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .collapsible-header::after {
   content: "▼";
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: transform 0.3s;
 }
 
+.collapsible-header:hover {
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
 .collapsible-header.active {
-  background-color: #e0e0e0; /* light ash */
-  color: black;
+  background-color: #000; /* brand color */
+  color: #ff7300;
 }
 
 .collapsible-header.active::after {
@@ -520,8 +535,7 @@ const { gallery, name } = trek;
 .datesContainer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  gap: 8px; /* small but visible gap */
+  gap: 8px;
   max-width: 100%;
   padding: 8px 0;
 }
@@ -529,7 +543,7 @@ const { gallery, name } = trek;
 .date-slot-wrapper {
   display: flex;
   align-items: center;
-  gap: 1rem; /* space between date box and slot status */
+  gap: 1rem;
 }
 
 .date-link {
@@ -537,10 +551,10 @@ const { gallery, name } = trek;
 }
 
 .date-box {
-  background-color: white;
-  color: black;
-  width: 120px;   /* fixed width */
-  height: 20px;   /* fixed height */
+  background-color: #fff;
+  color: #000;
+  width: 120px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -549,11 +563,15 @@ const { gallery, name } = trek;
   font-size: 0.85rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  margin-left: 1rem;
 }
 
 .date-box:hover {
   background-color: #ff7300;
-  color: white;
+  color: #fff;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .enquire-now-wrapper {
@@ -564,7 +582,7 @@ const { gallery, name } = trek;
 .enquire-now-btn {
   display: inline-block;
   background-color: #ff7300;
-  color: #fff;
+  color: #000;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
@@ -574,34 +592,187 @@ const { gallery, name } = trek;
 }
 
 .enquire-now-btn:hover {
-  opacity: 0.85;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Modal Overlay */
 /* Modal overlay */
 .modal {
-  display: none; /* hidden by default */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.6);
   justify-content: center;
   align-items: center;
   z-index: 9999;
 }
 
-</style>
-</div>
+/* Pricing Options Layout */
+.pricing-options {
+  display: flex;
+  flex-direction: column; /* stacked for all screens */
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
-<!-- Trek snippet -->
-  <div class="snippet-wrapper">
-    <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
-    <span class="read-more-link">Read More</span>
-  </div>
-</div>
-</section>
+/* Section styling */
+.enquiry-section h3,
+.fixed-departure-section h3 {
+  font-size: 1rem; /* smaller and manageable */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Boxes styling */
+.enquiry-section,
+.fixed-departure-section {
+  padding: 1rem;
+  border: 1px solid #ff7300; /* black border */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Fixed Departure Addons */
+.fixed-departure-section .addons-section {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fff7f0; /* light brand-adjacent */
+  border-left: 4px solid #ff7300; /* brand highlight */
+  border-radius: 6px;
+}
+
+.fixed-departure-section .addons-section h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #ff7300;
+}
+
+.fixed-departure-section .addons-section ul {
+  margin-top: 0.5rem;
+}
+
+.fixed-departure-section .addons-section li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+/* Price styling */
+.price-box h2 {
+  color: #ff7300; /* brand color */
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.price-box p,
+.price-box em {
+  color: #000; /* black text */
+}
+
+.price-inline {
+  display: flex;
+  align-items: flex-start; /* align note to top of price */
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.price-inline .price {
+  font-weight: bold;
+  color: #ff7300;       /* brand color */
+  font-size: 2rem;
+  line-height: 1.2;     /* tighter line for alignment */
+}
+
+.price-inline .price-note {
+  position: relative;
+  font-style: italic;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+/* Force small font for Terms & Conditions line in price box */
+#pricing-snippet-wrapper .price-box p a {
+  font-size: 0.8rem !important; /* force override */
+  margin: 0.25rem 0 !important;
+  color: #000 !important;
+}
+
+#pricing-snippet-wrapper .price-box p a:hover {
+  color: #ff7300 !important;
+  transform: scale(1.05) !important;
+}
+
+.price-starting-from {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.price-info-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  background-color: #ff7300; /* brand color */
+  color: #000;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.price-info-icon:hover {
+  background-color: #000; /* brand color */
+  color: #ff7300;
+  transform: scale(1.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Modal styling */
+.price-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.price-modal-content {
+  background: #fff;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: left;
+  position: relative;
+  font-size: 0.9rem;
+  color: #000;
+  line-height: 1.4;
+}
+
+.close-price-modal {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #ff7300;
+  font-weight: bold;
+}
+
+</style>
 
 <section class="trek-details">
   <!-- Trek Navigation -->
@@ -1495,216 +1666,88 @@ window.addEventListener("scroll", () => {
 });
 </script>
 
-<!-- Enquiry Modal -->
-<div id="leadGenModal" class="modal" style="display:none;">
-  <div class="modal-content">
-    <span class="modal-close">&times;</span>
-
-    <!-- Initial Heading & Info -->
-    <div id="leadGenIntro">
-      <h2>Plan your trek with expert guidance, tailored just for you.</h2>
-      <p style="margin-bottom:15px;">
-        Fill in your details and our experts will reach out to help you plan your Himalayan adventure.
-      </p>
-    </div>
-
-    <!-- Form -->
-    <form id="leadGenForm" action="https://formspree.io/f/xrbldkrb" method="POST">
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Your Name here..." required />
-      </div>
-
-      <div class="form-group">
-        <label for="email">Your Email</label>
-        <input type="email" id="email" name="email" placeholder="Your Email here..." required />
-      </div>
-
-      <div class="form-group">
-        <label for="trekName">Trek Name</label>
-        <input type="text" id="trekName" name="trekName" readonly required />
-      </div>
-
-      <div class="form-group">
-        <label for="joinType">Joining as</label>
-        <select id="joinType" name="joinType" required>
-          <option value="">Select</option>
-          <option value="solo">Solo in a group</option>
-          <option value="group">A group of friends/colleagues</option>
-          <option value="family">A group of family</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="contactMethod">Preferred contact method</label>
-        <select id="contactMethod" name="contactMethod" required>
-          <option value="">Select</option>
-          <option value="phone">Phone</option>
-          <option value="whatsapp">WhatsApp</option>
-          <option value="email">Email</option>
-        </select>
-      </div>
-
-      <div class="form-group" id="phoneGroup" style="display:none;">
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" placeholder="+91 9007210399" />
-      </div>
-
-      <div class="form-group" id="whatsappGroup" style="display:none;">
-        <label for="whatsapp">WhatsApp</label>
-        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+91 9027481187" />
-      </div>
-
-      <div class="form-group" id="emailGroup" style="display:none;">
-        <label for="altEmail">Email</label>
-        <input type="email" id="altEmail" name="altEmail" placeholder="Your Email..." />
-      </div>
-
-      <div class="form-group">
-        <label for="contactTime">Best time to contact you</label>
-        <select id="contactTime" name="contactTime" required>
-          <option value="">Select</option>
-          <option value="10am-12pm">10am-12pm</option>
-          <option value="2pm-4pm">2pm-4pm</option>
-          <option value="4pm-6pm">4pm-6pm</option>
-          <option value="6pm-8pm">6pm-8pm</option>
-        </select>
-      </div>
-
-      <button type="submit" class="btn-submit">Submit</button>
-    </form>
-
-    <!-- Thank You Message -->
-    <div id="leadGenThankYou" style="display:none; margin-top:25px; text-align:center;">
-      <h2 style="font-family: Helvetica, sans-serif; color: #ff7300; font-size: 26px; margin-bottom: 10px;">
-        Thank You!
-      </h2>
-      <p style="font-family: Roboto, sans-serif; color: #333; font-size: 16px;">
-        One of our experts will get in touch with you within 48 hours.
-      </p>
-    </div>
-  </div>
-</div>
-
 <script is:client>
-  window.addEventListener('DOMContentLoaded', () => {
-    const modal = document.getElementById('leadGenModal');
-    const closeBtn = modal.querySelector('.modal-close');
-    const form = document.getElementById('leadGenForm');
-    const thankYou = document.getElementById('leadGenThankYou');
-    const trekInput = document.getElementById('trekName');
+window.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('leadGenModal');
+  const closeBtn = modal.querySelector('.modal-close');
+  const form = document.getElementById('leadGenForm');
+  const thankYou = document.getElementById('leadGenThankYou');
+  const trekInput = document.getElementById('trekName');
 
-    // Floating button
-    const floatBtn = document.createElement('button');
-    floatBtn.textContent = "Plan Your Trek";
-    Object.assign(floatBtn.style, {
-      position: "fixed",
-      top: "50%",
-      right: "12px",
-      transform: "translateY(-50%) rotate(-90deg)",
-      transformOrigin: "right center",
-      background: "#ff7300",
-      color: "#000",
-      fontFamily: "Roboto, sans-serif",
-      fontWeight: "bold",
-      border: "none",
-      borderRadius: "12px 12px 0 0",
-      padding: "12px 20px",
-      cursor: "pointer",
-      boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
-      zIndex: "9999",
-      transition: "all 0.4s ease",
-      opacity: "0",
-      right: "-120px",
-    });
-    document.body.appendChild(floatBtn);
+  // Open/Close modal
+  const openModal = (trekName = "") => {
+    trekInput.value = trekName; // prefill trek name
+    modal.style.display = 'block';
+  };
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
+
+  // Automatic popup after 8s on first visit
+  if (!sessionStorage.getItem('leadGenShown')) {
     setTimeout(() => {
-      floatBtn.style.right = "12px";
-      floatBtn.style.opacity = "1";
-    }, 1000);
+      openModal();
+      sessionStorage.setItem('leadGenShown', 'true');
+    }, 8000);
+  }
 
-    // Open/Close modal
-    const openModal = (trekName = "") => {
-      trekInput.value = trekName; // prefill trek name
-      modal.style.display = 'block';
-      floatBtn.style.display = 'none';
-    };
-    const closeModal = () => {
-      modal.style.display = 'none';
-      floatBtn.style.display = 'block';
-    };
-
-    if (!sessionStorage.getItem('leadGenShown')) {
-      setTimeout(() => {
-        openModal();
-        sessionStorage.setItem('leadGenShown', 'true');
-      }, 8000);
-    }
-
-    closeBtn.addEventListener('click', closeModal);
-    window.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
-    floatBtn.addEventListener('click', () => openModal());
-
-    // Listen to all Enquire Now buttons
-    document.querySelectorAll('.enquire-now-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-    const trekName = btn.dataset.trek; // fetch the trek name
-    openModal(trekName); // prefill the modal
-    });
+  // Close modal on close button or outside click
+  closeBtn.addEventListener('click', closeModal);
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
   });
 
-    // Contact method
-    const contactMethod = document.getElementById('contactMethod');
-    const phoneGroup = document.getElementById('phoneGroup');
-    const whatsappGroup = document.getElementById('whatsappGroup');
+  // Open modal when any Enquire/Plan Now button is clicked
+  document.querySelectorAll('.enquire-now-btn, .plan-now-btn').forEach(btn => {
+    btn.addEventListener('click', () => openModal(btn.dataset.trek));
+  });
 
-    contactMethod.addEventListener('change', function() {
-      phoneGroup.style.display = this.value === 'phone' ? 'block' : 'none';
-      whatsappGroup.style.display = this.value === 'whatsapp' ? 'block' : 'none';
-    });
+  // Contact method toggle
+  const contactMethod = document.getElementById('contactMethod');
+  const phoneGroup = document.getElementById('phoneGroup');
+  const whatsappGroup = document.getElementById('whatsappGroup');
 
-    // intl-tel-input
-    const phoneInput = intlTelInput(document.querySelector("#phone"), {
-      initialCountry: "in",
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
-    });
+  contactMethod.addEventListener('change', function() {
+    phoneGroup.style.display = this.value === 'phone' ? 'block' : 'none';
+    whatsappGroup.style.display = this.value === 'whatsapp' ? 'block' : 'none';
+  });
 
-    const whatsappInput = intlTelInput(document.querySelector("#whatsapp"), {
-      initialCountry: "in",
-      separateDialCode: true,
-      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
-    });
+  // intl-tel-input for phone & whatsapp
+  const phoneInput = intlTelInput(document.querySelector("#phone"), {
+    initialCountry: "in",
+    separateDialCode: true,
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+  });
+  const whatsappInput = intlTelInput(document.querySelector("#whatsapp"), {
+    initialCountry: "in",
+    separateDialCode: true,
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js"
+  });
 
-    // Form submit
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const formData = new FormData(form);
-      formData.set("phone", phoneInput.getNumber());
-      formData.set("whatsapp", whatsappInput.getNumber());
+  // Form submission
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    formData.set("phone", phoneInput.getNumber());
+    formData.set("whatsapp", whatsappInput.getNumber());
 
-      try {
-        const res = await fetch(form.action, {
-          method: 'POST',
-          body: formData,
-          headers: { 'Accept': 'application/json' }
-        });
-        if (res.ok) {
-          form.style.display = 'none';
-          thankYou.style.display = 'block';
-        } else {
-          alert('There was a problem submitting the form.');
-        }
-        } catch (err) {
-          alert('There was a problem submitting the form.');
-        }
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
       });
-
-      // Example: Pre-fill modal when a "Plan Now" button is clicked
-      document.querySelectorAll('.plan-now-btn').forEach(btn => {
-        btn.addEventListener('click', () => openModal(btn.dataset.trek));
-      });
-    });
+      if (res.ok) {
+        form.style.display = 'none';
+        thankYou.style.display = 'block';
+      } else {
+        alert('There was a problem submitting the form.');
+      }
+    } catch (err) {
+      alert('There was a problem submitting the form.');
+    }
+  });
+});
 </script>
 
 <script>
@@ -1846,6 +1889,61 @@ document.addEventListener("DOMContentLoaded", () => {
       arrow.classList.toggle("rotate");
     });
   });
+});
+</script>
+
+<script>
+    window.onload = function () {
+    document.getElementById("open-terms").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("termsModal").style.display = "block";
+    };
+    document.getElementById("close-terms").onclick = function () {
+      document.getElementById("termsModal").style.display = "none";
+    };
+
+    document.getElementById("open-inclusions").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("inclusionsModal").style.display = "block";
+    };
+    document.getElementById("close-inclusions").onclick = function () {
+      document.getElementById("inclusionsModal").style.display = "none";
+    };
+
+    document.getElementById("open-cancellation").onclick = function (e) {
+      e.preventDefault();
+      document.getElementById("cancellationModal").style.display = "block";
+    };
+    document.getElementById("close-cancellation").onclick = function () {
+      document.getElementById("cancellationModal").style.display = "none";
+    };
+
+    document.querySelectorAll('.dropdown-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const dropdown = btn.parentElement;
+        dropdown.classList.toggle('open');
+      });
+    });
+  };
+</script>
+
+<script>
+const priceIcon = document.getElementById("price-info");
+const priceModal = document.getElementById("price-modal");
+const closeModal = document.querySelector(".close-price-modal");
+
+priceIcon.addEventListener("click", () => {
+  priceModal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", () => {
+  priceModal.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === priceModal) {
+    priceModal.style.display = "none";
+  }
 });
 </script>
 

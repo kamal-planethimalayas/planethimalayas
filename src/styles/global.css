@@ -59,8 +59,8 @@ html {
 }
 
 .hero-gallery-btn:hover {
-  background: #ff8c1a;
   transform: translateX(-50%) scale(1.05);
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* image slides stacked absolutely */
