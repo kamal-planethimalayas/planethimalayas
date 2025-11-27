@@ -235,20 +235,26 @@ const brandColor = "#ff7300";
 
 .submit-btn {
   display: inline-block;
-  background-color: #ff7300;
-  color: white;
-  font-weight: bold;
+  background: #ff7300;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0.7rem 2.5rem;
+  border-radius: 8px;
+  border: 2px solid #000;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 6px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   width: 200px;
 }
 
-.submit-btn {
-  background-color: #e66400; /* Slightly darker on hover */
+.submit-btn:hover {
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Thank You Message */

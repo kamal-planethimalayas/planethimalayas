@@ -4,14 +4,13 @@ import { treks} from '../data/treksData.js';
 
 const filterCategories = {
   difficulty: ['easy', 'moderate', 'difficult'],
+  region: ['kashmir','ladakh','uttarakhand','himachal','sikkim','west bengal','nepal'],
   season: ['spring', 'summer', 'monsoon', 'autumn', 'winter'],
   month: [
     'january','february','march','april','may','june',
     'july','august','september','october','november','december'
   ],
-  days: ['4', '5', '6', '7', '8', '9', '10'],
-  region: ['kashmir','ladakh','uttarakhand','himachal','sikkim','west bengal','nepal'],
-  
+  days: ['4', '5', '6', '7', '8', '9', '10'],   
 };
 
 // ✅ define this before the HTML section
@@ -249,7 +248,8 @@ const passTreks = treks.filter(
 .trek-buttons a.btn:hover {
   background: #ff7300;
   color: black;
-  box-shadow: 0 0 16px rgba(255,115,0,0.85);
+  box-shadow: 0 4px 12px #ff7300;
+  border: 2px solid #000;
 }
 
 /* --------------------------------------------------
@@ -303,12 +303,34 @@ const passTreks = treks.filter(
 
   .filter-modal { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:black; z-index:10001; overflow-y:auto; padding:1rem; }
   .filter-modal.open { display:block; }
-  .filter-modal-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;}
+  .filter-modal-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; }
   .filter-modal-close { background:none; border:none; font-size:1.8rem; cursor:pointer; color:#ff7300; }
   .filter-content { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
   .filter-content h3 { font-size:1rem; margin-bottom:0.5rem; }
   .filter-content label { font-size:0.85rem; margin-bottom:0.25rem; display:block; }
 }
+
+/* Filter modal title */
+.filter-modal-header h2 {
+  color: #fff;                 /* white text */
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;       /* so underline matches text width */
+}
+
+/* underline */
+.filter-modal-header h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;                 /* exactly under the text */
+  background-color: #ff7300;   /* brand color underline */
+  border-radius: 4px;
+}
+
 @media(min-width:768px){ .sticky-filter-btn{display:none !important;} }
 
 /* ====== SUGGESTED TREKS SECTION ====== */
@@ -405,9 +427,9 @@ const passTreks = treks.filter(
 
 .btn-suggested:hover {
   background: #ff7300;
-  color: #000;
-  transform: translateY(-2px);
-  box-shadow: 0 0 16px rgba(255,115,0,0.85);
+  color: black;
+  box-shadow: 0 4px 12px #ff7300;
+  border: 2px solid #000;
 }
 
 </style>

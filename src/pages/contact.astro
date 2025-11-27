@@ -237,18 +237,22 @@ import Layout from "../layouts/Layout.astro";
 /* Submit Button */
 .contact-form .btn-submit {
   padding: 12px 25px;
-  background-color: #ff7300;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: Roboto, sans-serif;
-  cursor: pointer;
-  transition: background 0.3s ease;
+  display: inline-block;
+  background: #ff7300;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0.7rem 2.5rem;
+  border-radius: 8px;
+  border: 2px solid #000;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form .btn-submit:hover {
-  background-color: #e66000;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Modal */

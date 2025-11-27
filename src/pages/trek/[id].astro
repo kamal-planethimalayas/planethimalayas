@@ -91,8 +91,6 @@ const { gallery, name } = trek;
   <!-- Trek Overview Section -->
 <section class="trek-overview-section reveal">
   <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
-  <div class="trek-overview-underline"></div>
-
   <!-- Facts cards -->
   <div class="trek-overview-card">
     <ul>
@@ -497,6 +495,7 @@ const { gallery, name } = trek;
   background-color: #ff7300; /* black background */
   color: #000; /* brand color text */
   border-radius: 6px;
+  border: 1px solid #000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   transition: background-color 0.3s, box-shadow 0.3s;
 }
@@ -508,6 +507,8 @@ const { gallery, name } = trek;
 }
 
 .collapsible-header:hover {
+  border-radius: 6px;
+  border: 1px solid #000;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -516,6 +517,8 @@ const { gallery, name } = trek;
 .collapsible-header.active {
   background-color: #000; /* brand color */
   color: #ff7300;
+  border-radius: 6px;
+  border: 1px solid #ff7300;
 }
 
 .collapsible-header.active::after {
@@ -551,8 +554,8 @@ const { gallery, name } = trek;
 }
 
 .date-box {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   width: 120px;
   height: 20px;
   display: flex;
@@ -568,7 +571,9 @@ const { gallery, name } = trek;
 
 .date-box:hover {
   background-color: #ff7300;
-  color: #fff;
+  color: #000;
+  border-radius: 6px;
+  border: 1px solid #000;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -585,6 +590,7 @@ const { gallery, name } = trek;
   color: #000;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
+  border: 2px solid #000;
   font-weight: bold;
   text-decoration: none;
   transition: opacity 0.2s;
@@ -640,6 +646,7 @@ const { gallery, name } = trek;
 /* Fixed Departure Addons */
 .fixed-departure-section .addons-section {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem;
   background-color: #fff7f0; /* light brand-adjacent */
   border-left: 4px solid #ff7300; /* brand highlight */
@@ -654,6 +661,7 @@ const { gallery, name } = trek;
 
 .fixed-departure-section .addons-section ul {
   margin-top: 0.5rem;
+  padding: 0 1rem;
 }
 
 .fixed-departure-section .addons-section li {
@@ -695,18 +703,6 @@ const { gallery, name } = trek;
   font-size: 0.9rem;
 }
 
-/* Force small font for Terms & Conditions line in price box */
-#pricing-snippet-wrapper .price-box p a {
-  font-size: 0.8rem !important; /* force override */
-  margin: 0.25rem 0 !important;
-  color: #000 !important;
-}
-
-#pricing-snippet-wrapper .price-box p a:hover {
-  color: #ff7300 !important;
-  transform: scale(1.05) !important;
-}
-
 .price-starting-from {
   position: relative;
   display: inline-block;
@@ -745,31 +741,42 @@ const { gallery, name } = trek;
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(3px);
   justify-content: center;
   align-items: center;
   z-index: 10000;
 }
 
 .price-modal-content {
-  background: #fff;
-  padding: 1.2rem 1.5rem;
-  border-radius: 8px;
-  max-width: 400px;
-  text-align: left;
-  position: relative;
-  font-size: 0.9rem;
-  color: #000;
-  line-height: 1.4;
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 850px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  animation: modalFadeIn 0.3s ease;
 }
 
 .close-price-modal {
-  position: absolute;
-  top: 8px;
-  right: 12px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  color: #ff7300;
+  float: right;
+  font-size: 26px;
   font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-price-modal:hover{
+  color: #ff7300
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 </style>
@@ -1038,21 +1045,44 @@ const { gallery, name } = trek;
   justify-content: flex-start; /* horizontal on desktop */
 }
 
-/* Links inside nav */
+/* TREK NAV LINKS WITH ANIMATED UNDERLINE (HOVER ONLY) */
 #trek-nav li a {
+  position: relative;
   text-decoration: none;
   font-weight: 600;
   color: #555;
   padding-bottom: 4px;
-  border-bottom: 2px solid transparent;
-  transition: color 0.3s, border-bottom 0.3s;
-  white-space: nowrap; /* prevent wrapping */
+  white-space: nowrap;
+  transition: color 0.3s ease;
 }
 
+/* Underline (hidden by default) */
+#trek-nav li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ff7300; /* brand */
+  right: 0;     /* starts from the right */
+  left: auto;
+  transition: width 0.35s ease, left 0.35s ease, right 0.35s ease;
+}
+
+/* Hover: animate underline from right → left */
+#trek-nav li a:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+/* Active state: NO underline, ONLY color change */
 #trek-nav li a.active {
-  color: #ff7300; /* brand color */
-  font-weight: 700;
-  border-bottom: 2px solid #ff7300;
+  color: #ff7300 !important;  /* brand color */
+}
+
+#trek-nav li a.active::after {
+  width: 0;  /* make sure underline does NOT show */
 }
 
 /* Desktop */
@@ -1092,24 +1122,30 @@ const { gallery, name } = trek;
   box-sizing: border-box;
 }
 
-/* Section headings */
+/* Trek Details Section Heading – underline only text width */
 .trek-details section h2.section-heading {
   font-family: 'Helvetica', sans-serif;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
-  text-align: left;
-  color: #000;
   position: relative;
+  display: inline-block; /* important: shrink underline to text width */
+  padding-bottom: 6px;
+  margin-bottom: 2rem;
 }
 
-/* Section underline */
 .trek-details section h2.section-heading::after {
   content: "";
-  display: block;
-  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 45%; /* unique, premium design */
   background-color: #ff7300;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.trek-details section h2.section-heading:hover::after {
   width: 100%;
-  border-radius: 2px;
 }
 
 /* Did You Know Fact */
@@ -1235,96 +1271,11 @@ const { gallery, name } = trek;
     gap: 20px;
   }
 
-  .trek-details section h2.section-heading {
-    font-size: 2.5rem; /* same as desktop */
-    text-align: left;
-    white-space: nowrap; /* single line */
-    overflow-x: auto; /* allow scroll if too long */
-  }
-
-  .trek-details section .section-heading-underline {
-    width: 100%; /* full width on mobile too */
-    margin-bottom: 1rem;
-  }
+  
 
   .did-you-know-fact {
     font-size: 1rem;
   }
-}
-
-.pricing-snippet-wrapper {
-  display: flex;
-  gap: 2rem; /* space between boxes */
-  align-items: flex-start;
-}
-
-@media (max-width: 768px) {
-  .pricing-snippet-wrapper {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-}
-
-.price-box {
-  border: 2px solid #222;
-  border-left: 8px solid #ff7300;
-  padding: 24px;
-  border-radius: 8px;
-  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
-  width: 100%;          /* default full width for mobile */
-  max-width: 40%;       /* limit to 50% on larger screens */
-  margin: 2rem 0;       /* left-align */
-}
-
-/* Optional tweak: force full width on small screens */
-@media (max-width: 768px) {
-  .price-box {
-    max-width: 100%;
-  }
-}
-
-.price-box h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  color: #000;
-}
-
-.price-box .subheading {
-  font-size: 1rem;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.price-box h4 {
-  margin: 10px 0 5px;
-  font-size: 1.2rem;
-}
-
-.price-box ul {
-  list-style: disc;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 1rem;
-}
-
-.price-box .links {
-  margin: 10px 0;
-  font-size: 1rem;
-}
-
-.price-box .links a {
-  color: #ff7300;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-.calendar-placeholder {
-  margin-top: 10px;
-  background: #f4f4f4;
-  padding: 40px;
-  text-align: center;
-  color: #888;
-  border-radius: 6px;
 }
 
 /* ===== MODAL BASE STYLING ===== */
@@ -1393,7 +1344,7 @@ const { gallery, name } = trek;
 #open-cancellation {
   color: black;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
@@ -1507,15 +1458,30 @@ const { gallery, name } = trek;
   margin: 0 auto 2rem auto;
 }
 
+/* Trek Overview – underline only the <span> */
 .trek-overview-title {
+  font-family: 'Helvetica', sans-serif;
   font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+  margin-bottom: 2rem;
 }
 
-.trek-overview-underline {
+.trek-overview-title span {
+  position: relative;
+  color: #ff7300; /* brand color */
+}
+
+.trek-overview-title span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
   width: 100%;
-  height: 2px;
-  background-color: #ff7300; /* brand color */
-  margin-bottom: 2rem;
+  height: 4px;
+  background-color: #ff7300;
+  border-radius: 2px;
 }
 
 /* Facts cards */
@@ -1592,7 +1558,6 @@ const { gallery, name } = trek;
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;               /* remove previous margins */
-  padding-top: 30px;       /* match price-box top padding */
   padding-left: 0;         /* optional, adjust if needed */
   padding-right: 0;        /* optional, adjust if needed */
 }

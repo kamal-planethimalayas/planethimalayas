@@ -23,13 +23,13 @@
 
 .news-banner-item {
   margin-right: 60px;
-  font-size: 16px;       /* slightly larger */
-  line-height: 55px;     /* matches banner height -> perfect vertical centering */
+  font-size: 16px;
+  line-height: 55px;
   font-weight: 600;
-  color: #fff;
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+  color: #000;           /* BLACK TEXT */
+  text-shadow: none;     /* remove glow so black becomes crisp */
   transform: translateZ(50px) rotateX(3deg);
-  display: inline-block; /* inline-block works better than flex here */
+  display: inline-block;
 }
 
 .news-btn {
@@ -38,8 +38,9 @@
   top: 50%;
   transform: translateY(-50%);  /* always vertically centered */
   padding: 6px 14px;
-  background: #ff7300;
-  color: #000;
+  background: #000;
+  border: 1px solid #ff7300;
+  color: #ff7300;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -51,7 +52,11 @@
 
 
 .news-btn:hover {
-  background: #ffa64d;
+  background: #ff7300;
+  border: 1px solid #000;
+  color: #000;
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes scroll {

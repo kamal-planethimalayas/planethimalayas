@@ -1,11 +1,28 @@
+/* NORMAL STATE (reversed from hover) */
 .auth-btn.login {
-  background-color: #ff7300;
-  color: white;
+  background-color: #000;        /* black */
+  color: #ff7300;                /* brand text */
   font-weight: bold;
-  border: none;
+  border: 1px solid #ff7300;     /* brand border */
   padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* HOVER STATE (reversed from normal) */
+.auth-btn.login:hover {
+  background-color: #ff7300;     /* brand background */
+  color: #000;                   /* black text */
+  border-color: #000;            /* black border */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.auth-btn.login:active {
+  background-color: #ff7300;     /* brand background */
+  color: #000;                   /* black text */
+  border-color: #000;            /* black border */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .auth-profile-wrapper {
@@ -16,8 +33,9 @@
 .profile-circle {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #ff7300;
-  color: white;
+  background-color: #000;
+  color: #ff7300;
+  border: 1px solid #ff7300;
   font-weight: bold;
   border-radius: 50%;
   display: flex;
@@ -27,42 +45,48 @@
   user-select: none;
 }
 
+.profile-circle:hover {
+  background-color: #ff7300;     /* brand background */
+  color: #000;                   /* black text */
+  border-color: #000;            /* black border */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Dropdown container */
 .profile-dropdown {
-  position: fixed; /* not absolute anymore */
+  position: fixed;
   top: 60px;
   right: 10px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   z-index: 9999;
   min-width: 150px;
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* keep edges clean */
 }
 
+/* Dropdown links */
 .profile-dropdown .dropdown-link {
   padding: 0.75rem 1rem;
-  color: #333;
+  background: #000 !important;               /* Black background (force override) */
+  color: #ff7300 !important;                 /* Brand text (force override) */
   text-decoration: none;
-  border-bottom: 1px solid #eee;
+  border: 1px solid #ff7300 !important;
+  border-radius: 8px;
   cursor: pointer;
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
+  transition: all 0.25s ease;
 }
 
-.profile-dropdown .dropdown-link:last-child {
-  border-bottom: none;
-}
-
+/* Hover effect */
 .profile-dropdown .dropdown-link:hover {
-  background-color: #ff7300;
-  color: white;
+  background-color: #ff7300 !important;      /* Brand background */
+  color: #000 !important;                    /* Black text */
+  border: 1px solid #000 !important;
+  border-radius: 8px;
 }
 
-.profile-dropdown .logout {
-  border-top: 1px solid #eee;
-}
-
+/* Mobile width */
 @media (max-width: 600px) {
   .profile-dropdown {
     right: 5%;
