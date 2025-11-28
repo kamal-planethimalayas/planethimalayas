@@ -1220,5 +1220,381 @@ If you feel any of the following, descend without delay:<br>
 <blockquote>🕊️ <em>“Let’s bring back the silence. Let’s bring back the soul of trekking. Let’s walk — responsibly.”</em></blockquote>
 `
 },
+
+{
+  title: "The Ultimate Winter Trek Preparation Guide for the Himalayas",
+  slug: "ultimate-winter-trek-preparation-guide-himalayas",
+  date: "2025-10-26",
+  author: "Kamal Das",
+  tags: [
+    "winter trekking",
+    "Himalayan trekking",
+    "Himalayas winter guide",
+    "Planethimalayas",
+    "trekking gear",
+    "snow trekking",
+    "trekking",
+    "trekking safety",
+    "sustainable trekking",
+    "winter gear India",
+    "Deoriatal Chandrashila",
+    "Kedarkantha trek",
+    "Hampta Pass",
+    "Pin Bhaba Pass",
+    "trekking preparation",
+    "winter survival Himalayas",
+    "trekking blog"
+  ],
+  description: "A complete, deeply detailed, step-by-step guide for preparing for a winter trek in the Himalayas in 2025 — including gear, safety, fitness, weather, snow conditions, layering, transport, acclimatisation, packing lists, myths, FAQs, and exclusive discounts for trekkers.",
+  thumbnail: "/images/extras/experience-hero5.jpg",
+  content: `
+<!-- SECTION 1 -->
+<h3>🟧 <strong>SECTION 1 — Introduction</strong></h3><br>
+<div style="border-left:4px solid #ff7300; padding:1rem 1.3rem; background:#fff7f0;">
+  Winter trekking in the Himalayas isn’t just about walking on snow — it demands intelligent layering, cold-weather strategy, hydration discipline, and awareness of cold injuries.
+  This guide helps beginners and experienced trekkers stay safe and warm while enjoying one of nature’s finest seasons.
+</div><br>
+
+<!-- SECTION 2 -->
+<h3>🟧 <strong>SECTION 2 — Why Winter Trekking Is Different</strong></h3><br>
+<div style="background:#f8f8f8; padding:1rem 1.5rem; border-radius:8px;">
+  <strong>Winter introduces challenges that summer trekkers never face:</strong>
+  <ul>
+    <li>Temperatures dropping to −10°C to −20°C</li>
+    <li>Wind chill amplifying cold</li>
+    <li>Snow-covered terrain and hidden trails</li>
+    <li>Increased risk of hypothermia & frostbite</li>
+    <li>Greater need for hydration & disciplined layering</li>
+  </ul>
+</div>
+
+<p>Explore our winter treks:<br>
+👉 <a href="/upcoming-treks?season=winter" style="color:#ff7300;">Planethimalayas Winter Trek Batches</a></p><br>
+
+<!-- SECTION 3 -->
+<h3>🟧 <strong>SECTION 3 — Proper Layering (With Detailed Breakdowns)</strong></h3><br>
+<h4>🔥 Why Layering Is the Core of Winter Survival</h4>
+<p>Your clothing doesn’t create heat — <strong>your body</strong> creates heat. Clothing traps and regulates it.</p>
+
+<h4>🟦 BASE LAYER — The Sweat Manager</h4>
+<div style="padding:1rem; border:1px solid #ddd; border-radius:8px;">
+  <strong>Key Role:</strong> Wicks sweat away before it cools and freezes.<br>
+  <strong>Materials:</strong> Polyester, Merino Wool, Nylon<br>
+  <strong>Avoid:</strong> Cotton<br>
+  <strong>Use:</strong> Wear ONE while trekking, switch to a dry base layer at camp.
+</div><br>
+
+<h4>🟩 MID LAYER — The Heat Trap</h4>
+<p>Fleece, microfleece, or light down jackets.</p>
+<div style="padding:1rem; border:1px solid #ddd; border-radius:8px;">
+  Heat gets trapped in air pockets inside the fabric — that’s what keeps you warm.<br>
+  One mid-layer is enough while walking. Two only in extreme cold.
+</div><br>
+
+<h4>🟥 OUTER LAYER — The Wind & Snow Shield</h4>
+<p>Your protection against Himalayan wind chill.</p>
+<div style="padding:1rem; border:1px solid #ddd; border-radius:8px;">
+  Choose a windproof shell, waterproof snow jacket, or hardshell.<br>
+  Keep this layer accessible at all times — wind chill can drop temperatures by 10–15°C instantly.
+</div><br>
+
+<h4>🟧 INFOGRAPHIC — How Layering Works</h4>
+<pre style="background:#222; color:#fff; padding:1rem; border-radius:8px; white-space:pre-wrap;">
+[ WIND / SNOW ]
+||
+┌──────────────────────┐
+│ OUTER LAYER (Shell)  │ ← Blocks wind/snow
+└──────────────────────┘
+||
+┌──────────────────────┐
+│ MID LAYER (Fleece)   │ ← Traps body heat
+└──────────────────────┘
+||
+┌──────────────────────┐
+│ BASE LAYER (DryFit)  │ ← Moves sweat away
+└──────────────────────┘
+||
+YOUR SKIN
+</pre><br>
+
+<!-- SECTION 4 -->
+<h3>🟧 <strong>SECTION 4 — Keeping Hands & Feet Warm</strong></h3><br>
+<p>Hands and feet get cold first because of <strong>vasoconstriction</strong> — the body reduces blood flow to protect vital organs.</p>
+
+<h4>🧤 Gloves: The 3-Layer System</h4>
+<ul>
+  <li>Liner gloves</li>
+  <li>Fleece gloves</li>
+  <li>Waterproof outer gloves</li>
+</ul>
+<p>Never wear one thick glove — it traps sweat which cools rapidly and increases frostnip risk.</p>
+
+<h4>🧦 Socks & Shoes — Your Night Routine Matters</h4>
+<ul>
+  <li>Liner socks + wool socks</li>
+  <li>A separate DRY pair only for sleeping</li>
+  <li>Snow shoes with ankle protection</li>
+  <li>Always pair with snow gaiters</li>
+</ul>
+<p>Gaiters prevent snow from entering shoes and keep your socks warm and dry.</p><br>
+
+<!-- SECTION 5 -->
+<h3>🟧 <strong>SECTION 5 — Hydration in Winter</strong></h3><br>
+<p>Most trekkers stop drinking water in winter — a dangerous mistake. Dehydration thickens the blood, reduces circulation, worsens AMS, and weakens muscles.</p>
+
+<p><strong>Rules for winter hydration:</strong></p>
+<ul>
+  <li>Sip warm water every 30–45 minutes</li>
+  <li>Carry a thermos</li>
+  <li>Use ORS daily</li>
+  <li>Avoid ice-cold water</li>
+</ul>
+<br>
+<!-- SECTION 6 -->
+<h3>🟧 <strong>SECTION 6 — Trekking in Continuous Snowfall</strong></h3><br>
+<div style="padding:1rem; background:#fff3e6; border-left:4px solid #ff7300;">
+  Snowfall increases slip risk, hides trail markers, accelerates cooling, and reduces visibility.<br>
+  Follow trek leader instructions strictly.
+</div><br>
+
+<!-- SECTION 7 -->
+<h3>🟧 <strong>SECTION 7 — Hypothermia (Must-Read)</strong></h3><br>
+
+<h4>⚠️ What Is Hypothermia?</h4>
+<p>
+  Hypothermia occurs when your <strong>core body temperature drops below 35°C</strong>.
+  This is a medical emergency because the body can no longer generate heat fast enough
+  to counter the cold, causing the brain, heart, and muscles to slow down dangerously.
+</p>
+
+<h4>🔍 A Real Himalayan Example</h4>
+<p>
+  Imagine you're trekking to Kedarkantha in January. It’s snowing lightly, visibility drops,
+  and your gloves get wet while taking photos. As you continue walking, cold wind and moisture
+  pull heat from your hands, then from your core. You reach the next rest point, stop moving,
+  and suddenly start <strong>shivering uncontrollably</strong>. Your speech becomes slow and you 
+  feel unusually tired. That is the classic onset of hypothermia: 
+  <strong>cold + wet + wind + low movement.</strong>
+</p><br>
+
+<h4>🧭 Early Symptoms (Mild Hypothermia):</h4>
+<ul>
+  <li>Uncontrollable shivering</li>
+  <li>Slurred or slow speech</li>
+  <li>Pale, cold skin</li>
+  <li>Clumsiness or slow movement</li>
+  <li>Irritability, confusion, or poor decision-making</li>
+</ul><br>
+
+<h4>🚨 Severe Symptoms (Moderate to Severe Hypothermia):</h4>
+<ul>
+  <li><strong>No shivering</strong> (shivering stops when body loses energy)</li>
+  <li>Blue lips or fingertips</li>
+  <li>Weak pulse</li>
+  <li>Drowsiness or inability to stay awake</li>
+  <li>Paradoxical undressing (irrational behavior – very dangerous)</li>
+  <li>Loss of consciousness</li>
+</ul><br>
+
+<h4>🩺 Step-by-Step Treatment (Modern, Trekker-Friendly)</h4>
+<p>
+  Hypothermia treatment depends on the stage. Below is a detailed guide usable on Himalayan treks:
+</p>
+
+<h4>1️⃣ Mild Hypothermia (Shivering but Conscious)</h4>
+<ol>
+  <li><strong>Move to Shelter Immediately</strong><br>
+    A tent, tea house, forest patch, or even behind a boulder to block wind.</li>
+  <li><strong>Remove all wet clothes</strong><br>
+    Wet fabric extracts heat 25× faster. Replace with dry thermals, fleece, or down jacket.</li>
+  <li><strong>Add Layered Insulation</strong><br>
+    Mid-layer fleece + down jacket + windproof shell. Cover the head and neck tightly.</li>
+  <li><strong>Give Warm, Sweet Fluids</strong><br>
+    Warm water, ORS, hot chocolate, or sweet tea. No caffeine or alcohol.</li>
+  <li><strong>Use Body Heat Rewarming</strong><br>
+    Place warm Nalgene bottle (filled with hot water) wrapped in cloth at:<br>
+    – Armpits<br>
+    – Chest<br>
+    – Groin<br>
+    <em>Never place directly on bare skin.</em></li>
+  <li><strong>Keep Them Moving Gently</strong><br>
+    Slow, easy movement to generate heat — but avoid heavy exertion.</li>
+</ol>
+<br>
+
+<h4>2️⃣ Moderate Hypothermia (Weak, Confused, Reduced Shivering)</h4>
+<ol>
+  <li><strong>Lay the person down; keep them horizontal</strong><br>
+    Movement can trigger heart rhythm problems.</li>
+  <li><strong>Insulate Properly</strong><br>
+    Wrap in sleeping bag + down jacket + emergency foil blanket.</li>
+  <li><strong>Give Warm Drinks Only If Fully Conscious</strong><br>
+    If semi-conscious, <strong>do not attempt</strong> to give fluids.</li>
+  <li><strong>Apply External Heat Packs</strong><br>
+    Use:<br>
+    – Chemical heat packs<br>
+    – Hot water bottles<br>
+    – Electric USB hand warmers (modern option)<br><br>
+    Place them on the <strong>trunk only</strong>, never on hands or feet.</li>
+  <li><strong>Monitor Breathing</strong><br>
+    Hypothermia slows respiration; count breaths per minute.</li>
+  <li><strong>Prepare for Assisted Evacuation</strong></li>
+</ol>
+<br>
+
+<h4>3️⃣ Severe Hypothermia (Unconscious / No Shivering)</h4>
+<ol>
+  <li><strong>Handle Extremely Gently</strong><br>
+    Sudden movements can trigger cardiac arrest.</li>
+  <li><strong>Check Breathing</strong><br>
+    If breathing is slow but present → <strong>continue rewarming</strong>.<br>
+    If no breathing → start CPR (if trained).</li>
+  <li><strong>Do NOT rewarm limbs</strong><br>
+    Rewarming hands/feet forces cold blood back to the heart → 
+    <strong>afterdrop</strong> (fatal drop in core temp).</li>
+  <li><strong>Wrap Like a “Human Burrito”</strong><br>
+    – Dry base layer<br>
+    – Sleeping bag<br>
+    – Down jacket<br>
+    – 2 emergency blankets (one inside, one outside)<br>
+    – Foam mat below to avoid ground heat loss</li>
+  <li><strong>Use Advanced Gear if Available</strong><br>
+    – SOL Emergency Bivvy<br>
+    – Therm-a-Rest NeoAir (insulated mat)<br>
+    – Rechargeable heat pads</li>
+  <li><strong>Immediate Medical Evacuation</strong><br>
+    Severe hypothermia requires oxygen, warm IV fluids, ECMO (hospital-level rewarming).</li>
+</ol>
+<br>
+
+<p><strong>If the trekker becomes unresponsive → <span style="color:#ff0000">EVACUATE IMMEDIATELY</span>.</strong></p><br>
+
+<h4>🧊 Modern Gear Every Winter Trekker Should Carry</h4>
+<ul>
+  <li>Emergency foil blanket (₹150–₹300)</li>
+  <li>Hand/foot warmers (chemical or rechargeable)</li>
+  <li>Waterproof insulated gloves</li>
+  <li>Two insulating layers (fleece + down)</li>
+  <li>Thermal flask for warm drinks</li>
+  <li>Waterproof shell jacket & pants</li>
+  <li>SOL emergency bivvy (life-saving in Himalayan winters)</li>
+  <li>Extra dry socks (2–3 pairs)</li>
+</ul>
+<br>
+
+<p>
+  Understanding hypothermia is crucial for any Himalayan trekker. On a winter trek, 
+  <strong>cold + wet + wind + low movement</strong> is the most dangerous combination — and recognizing
+  the symptoms early can literally save a life.
+</p>
+<br>
+
+<!-- SECTION 8 -->
+<h3>🟧 <strong>SECTION 8 — Other Cold Injuries You Must Know</strong></h3><br>
+
+<!-- FROSTBITE -->
+<h4>❄️ 1. Frostbite — Why It Happens</h4>
+<p>Frostbite occurs when the <strong>skin and underlying tissues freeze</strong> due to prolonged exposure to extreme cold, usually below 0°C.</p>
+
+<h4><strong>🔍 What actually causes frostbite?</strong></h4>
+<ul>
+  <li><strong>Reduced blood flow to extremities:</strong> In cold, the body prioritizes vital organs and redirects warm blood away from fingers, toes, nose, and ears — making them freeze faster.</li>
+  <li><strong>Wet socks/gloves speed up heat loss:</strong> Moisture increases heat loss 25× faster than dry air. Wet socks, gloves, or snow-soaked clothing accelerate freezing.</li>
+  <li><strong>Exposure + wind chill:</strong> Wind removes the warm air layer around the skin, causing rapid heat loss and increasing frostbite risk even above 0°C.</li>
+  <li><strong>Tight boots/gloves:</strong> They reduce circulation, letting extremities cool quickly and increasing frostbite risk.</li>
+</ul><br>
+
+<!-- CHILBLAINS -->
+<h4>🌡️ 2. Chilblains — Why It Happens</h4>
+<p>Chilblains (pernio) is <strong>inflammatory damage</strong> caused by rapid temperature changes — not freezing.</p>
+
+<h4><strong>🔍 What actually happens?</strong></h4>
+<p>When cold skin is suddenly exposed to warmth, blood vessels expand too quickly, causing:</p>
+<ul>
+  <li>Leakage of blood into tissues</li>
+  <li>Swelling</li>
+  <li>Itchy red or purple patches</li>
+  <li>Burning sensation</li>
+</ul>
+<br>
+<h4><strong>Common causes:</strong></h4>
+<ul>
+  <li><strong>Rapid warming of cold skin:</strong> e.g., putting cold hands directly in front of a heater.</li>
+  <li><strong>Poor circulation:</strong> Blood vessels fail to adapt to temperature changes.</li>
+  <li><strong>Cold → warm → cold cycles:</strong> Removing gloves for photos, washing hands, entering/exiting tents — all increase risk.</li>
+  <li><strong>Tight footwear:</strong> Restricts blood flow, causing vascular stress.</li>
+</ul><br>
+
+<!-- TRENCH FOOT -->
+<h4>💧 3. Trench Foot — Why It Happens</h4>
+<p>Trench foot occurs due to <strong>prolonged exposure to cold + wet conditions</strong>, even above freezing temperatures. It results from tissue breakdown, circulation loss, and constant moisture.</p>
+
+<h4><strong>Main reasons:</strong></h4>
+<ul>
+  <li><strong>Cold + wet = catastrophic:</strong> Cold water draws heat away 25× faster than air, leading to rapid tissue damage.</li>
+  <li><strong>Blood vessels constrict:</strong> To preserve core warmth, reducing foot circulation and causing numbness, pale skin, and eventual tissue breakdown.</li>
+  <li><strong>Wearing wet socks for hours:</strong> Moisture softens and breaks down skin — increasing infection risk.</li>
+  <li><strong>Tight boots trap moisture:</strong> Prevent drying, worsen circulation, and accelerate trench foot.</li>
+</ul><br>
+
+<!-- SUMMARY TABLE -->
+<h4>🔥 Quick Summary Table</h4>
+<table border="1" cellpadding="10" cellspacing="4">
+  <tr>
+    <th>Condition</th>
+    <th>Cause</th>
+    <th>Temperature Range</th>
+    <th>Key Reason</th>
+  </tr>
+  <tr>
+    <td><strong>Frostbite</strong></td>
+    <td>Skin/tissue freezes</td>
+    <td>Below 0°C</td>
+    <td>Extreme cold + reduced blood flow</td>
+  </tr>
+  <tr>
+    <td><strong>Chilblains</strong></td>
+    <td>Inflammation from rapid warming</td>
+    <td>0–15°C</td>
+    <td>Sudden warming of cold skin</td>
+  </tr>
+  <tr>
+    <td><strong>Trench Foot</strong></td>
+    <td>Tissue damage from cold + wet</td>
+    <td>0–15°C</td>
+    <td>Constant moisture + reduced circulation</td>
+  </tr>
+</table><br>
+
+<!-- SIMPLE SUMMARY -->
+<h4>🧭 Trekker’s Understanding (Simple)</h4>
+<ul>
+  <li><strong>Frostbite:</strong> Tissue freezes.</li>
+  <li><strong>Chilblains:</strong> Tissue inflames due to rapid warm-up.</li>
+  <li><strong>Trench Foot:</strong> Tissue breaks down (“rots”) due to prolonged cold + wet exposure.</li>
+</ul>
+<br>
+
+<!-- SECTION 9 -->
+<h3>🟧 <strong>SECTION 9 — Winter Gear Shopping (Gift From Planethimalayas)</strong></h3><br>
+<div style="background:#e8ffe8; padding:1.2rem; border:1px solid #6ac96a;">
+  <strong>Buy essential trekking apparels from Reccy:</strong><br>
+  <a href="https://www.reccy.in" style="color:#ff7300; font-weight:bold;">www.reccy.in</a><br>
+  Use code <strong>PH15</strong> for <strong>15% OFF</strong> — a gift from <strong>Planethimalayas</strong>.
+</div><br>
+
+<!-- SECTION 10 -->
+<h3>🟧 <strong>SECTION 10 — Final Advice for Winter Trekkers</strong></h3><br>
+<ul>
+  <li>Master layering</li>
+  <li>Avoid sweat accumulation</li>
+  <li>Eat & drink consistently</li>
+  <li>Sleep with a dry base layer</li>
+  <li>Recognize hypothermia early</li>
+  <li>Respect snowfall</li>
+  <li>Follow trek leader’s safety commands</li>
+</ul><br>
+`
+},
     
 ];
