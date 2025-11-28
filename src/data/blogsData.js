@@ -1350,6 +1350,8 @@ YOUR SKIN
   <li>Avoid ice-cold water</li>
 </ul>
 <br>
+<h4>🚫 <strong>Why Alcohol Is Strictly Prohibited in Winter Trekking</strong></h4> <p>Many trekkers think a small drink will “warm them up.” This is one of the <strong>most dangerous misconceptions</strong> in high-altitude trekking.</p> <p><strong>Here’s what actually happens physiologically:</strong></p> <ul> <li><strong>Alcohol dilates your blood vessels</strong> → pushes warm blood from your core to your skin → you <em>feel</em> warm for a few minutes but you’re actually <strong>losing heat rapidly</strong>.</li> <li>This sudden heat loss leads to <strong>rapid core-temperature drop</strong> → drastically increasing risk of <strong>hypothermia</strong>, especially during cold nights or windy sections of the trail.</li> <li>Alcohol blocks <strong>shivering response</strong> (your body’s natural heater) → making it even harder to warm back up.</li> <li>It causes <strong>severe dehydration</strong> because alcohol is a diuretic → you urinate more → blood gets thicker → circulation drops → <strong>AMS risk shoots up</strong>.</li> <li>Dehydration + cold temperatures = <strong>perfect conditions for frostnip, frostbite, AMS and exhaustion.</strong></li> </ul> <p><strong>Bottom line:</strong> Alcohol tricks your brain into feeling warm while your body is actually <span style="color:#ff0000"><strong>losing heat dangerously fast from the core</strong></span>. It also worsens dehydration and increases the likelihood of <span style="color:#ff0000"><strong>AMS persisting longer, hypothermia setting in faster, and frostbite developing more easily</strong><span>.</p> <p><em>On a winter Himalayan trek, alcohol is not just unhealthy — it is life-threatening.</em></p> <br>
+
 <!-- SECTION 6 -->
 <h3>🟧 <strong>SECTION 6 — Trekking in Continuous Snowfall</strong></h3><br>
 <div style="padding:1rem; background:#fff3e6; border-left:4px solid #ff7300;">
@@ -1589,11 +1591,13 @@ YOUR SKIN
   <li>Master layering</li>
   <li>Avoid sweat accumulation</li>
   <li>Eat & drink consistently</li>
+  <li>Avoid alcohol at all costs</li>
   <li>Sleep with a dry base layer</li>
   <li>Recognize hypothermia early</li>
   <li>Respect snowfall</li>
   <li>Follow trek leader’s safety commands</li>
-</ul><br>
+</ul>
+<br>
 `
 },
     
