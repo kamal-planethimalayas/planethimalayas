@@ -25,7 +25,7 @@
   margin-right: 60px;
   font-size: 16px;
   line-height: 55px;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;           /* BLACK TEXT */
   text-shadow: none;     /* remove glow so black becomes crisp */
   transform: translateZ(50px) rotateX(3deg);
@@ -38,7 +38,7 @@
   top: 50%;
   transform: translateY(-50%);  /* always vertically centered */
   padding: 6px 14px;
-  background: #000;
+  background: black;
   border: 1px solid #ff7300;
   color: #ff7300;
   font-size: 14px;
@@ -49,11 +49,8 @@
   line-height: normal;   /* prevent vertical trim */
 }
 
-
-
 .news-btn:hover {
   background: #ff7300;
-  border: 1px solid #000;
   color: #000;
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);

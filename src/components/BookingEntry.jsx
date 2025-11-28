@@ -7,6 +7,8 @@ export default function BookingEntry() {
   const [trek, setTrek] = useState(null);
   const [trekDate, setTrekDate] = useState('');
   const [price, setPrice] = useState('');
+  const [hover, setHover] = useState(false);
+
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -75,19 +77,27 @@ export default function BookingEntry() {
       <p><strong>Base Price:</strong> ₹{price}</p>
       <p>Please review your selection and click below to proceed:</p>
       <button
-        onClick={handleProceed}
-        style={{
-          padding: '1rem 2rem',
-          fontSize: '1rem',
-          backgroundColor: '#ff7300',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer',
-        }}
-      >
-        Proceed to Booking
-      </button>
+  onClick={handleProceed}
+  onMouseEnter={() => setHover(true)}
+  onMouseLeave={() => setHover(false)}
+  style={{
+    width: "100%", // full width of container
+    maxWidth: "300px", // optional, keeps it consistent on larger screens
+    padding: "1rem",
+    fontSize: "1rem",
+    fontWeight: "bold",
+    borderRadius: "5px",
+    border: `2px solid #ff7300`,
+    cursor: "pointer",
+    marginTop: "1rem",
+    backgroundColor: hover ? "#ff7300" : "black",
+    color: hover ? "black" : "#ff7300",
+    boxShadow: hover ? `0 0 15px #ff7300` : "none",
+    transition: "all 0.3s ease",
+  }}
+>
+  Proceed to Booking
+</button>
     </div>
   );
 }

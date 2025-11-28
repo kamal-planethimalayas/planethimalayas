@@ -446,19 +446,21 @@ import "../styles/global.css";
 
 .cta-button {
   display: inline-block;
-  background: #ff7300;
-  color: black;
+  background: transparent;
+  color: #ff7300;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   padding: 0.7rem 2.5rem;
   border-radius: 8px;
-  border: 2px solid #000;
+  border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); /* default shadow */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
+  background: #ff7300;
+  color: #000;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -469,7 +471,7 @@ import "../styles/global.css";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
+  background: transparent;
   color: white;
   border: none;
   font-size: 2rem;
@@ -478,10 +480,12 @@ import "../styles/global.css";
   padding: 0.4rem 0.8rem;
   border-radius: 50%;
   transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .carousel-arrow:hover {
   background: #ff7300;
+  color: black;
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -509,14 +513,15 @@ import "../styles/global.css";
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.6); /* visible dot */
+  border: 2px solid #ff7300;
+  background-color: transparent;
   cursor: pointer;
   padding: 0;
   margin: 0;
   box-sizing: content-box;
   display: inline-block;
   transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .carousel-dots button.active {
@@ -598,7 +603,7 @@ import "../styles/global.css";
   padding: 2rem;
   color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   border: 2px solid transparent;
 }
 
@@ -904,7 +909,6 @@ import "../styles/global.css";
   background: #ff7300;
   color: black;
   box-shadow: 0 4px 12px #ff7300;
-  border: 2px solid #000;
 }
 
 

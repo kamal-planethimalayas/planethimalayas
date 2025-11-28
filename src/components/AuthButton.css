@@ -1,6 +1,6 @@
 /* NORMAL STATE (reversed from hover) */
 .auth-btn.login {
-  background-color: #000;        /* black */
+  background-color: transparent;        /* black */
   color: #ff7300;                /* brand text */
   font-weight: bold;
   border: 1px solid #ff7300;     /* brand border */
@@ -8,13 +8,13 @@
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 /* HOVER STATE (reversed from normal) */
 .auth-btn.login:hover {
   background-color: #ff7300;     /* brand background */
   color: #000;                   /* black text */
-  border-color: #000;            /* black border */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 

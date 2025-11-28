@@ -148,7 +148,7 @@ export default function ThankYouPage() {
         </a>
       </p>
       <p>
-        <a href="/faqs-and-articles" style={{ color: '#ff7300', textDecoration: 'underline' }}>
+        <a href="/faqs" style={{ color: '#ff7300', textDecoration: 'underline' }}>
         Read FAQs
         </a>
       </p>

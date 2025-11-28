@@ -96,8 +96,8 @@ export default function SearchBox() {
               left: dropdownPos.left,
               width: dropdownPos.width,
               maxWidth: window.innerWidth < 768 ? "100%" : "none",
-              background: "#fff",
-              border: "1px solid #000",
+              background: "white",
+              border: "1px solid #ff7300",
               borderRadius: "8px",
               zIndex: 9999, // much higher than navbar
               boxShadow: "0 4px 12px rgba(0,0,0,0.15)",

@@ -242,14 +242,14 @@ import SearchBox from "../components/SearchBox.jsx";
         </div>
 
         <!-- Mobile search icon (visible only on mobile) -->
-      <button id="mobile-search-toggle" class="mobile-search-toggle" aria-label="Search">
-      <div style="background:#ff7300; padding:6px; border-radius:50%; display:flex; align-items:center; justify-content:center;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="25" y1="25" x2="18.65" y2="18.65"></line>
-        </svg>
-      </div>
-      </button>
+<button id="mobile-search-toggle" class="mobile-search-toggle" aria-label="Search">
+  <div class="mobile-search-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#ff7300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"></circle>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+  </div>
+</button>
              
         <!-- Login/logout -->
           <AuthButton client:only="react" />
@@ -272,22 +272,23 @@ import SearchBox from "../components/SearchBox.jsx";
   height: 45px;
   border-radius: 50%;
   border: none;
-  background-color: #ff7300; /* brand color */ 
-  color: white;
+  background-color: transparent; 
+  color: #ff7300;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   display: none; /* hidden until scroll */
   align-items: center;
   justify-content: center;
-  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
-  border: 2px solid #000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 2px solid #ff7300;
   transition: opacity 0.3s ease;
   z-index: 999;
 }
 
 .scroll-top:hover {
   background: #ff7300;
+  color: black;
   transform: translateY(-2px) scale(1.06);
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
@@ -310,20 +311,20 @@ import SearchBox from "../components/SearchBox.jsx";
   z-index: 999;
   width: 50px;
   height: 50px;
-  background-color: #25D366;
+  background-color: transparent;
   border-radius: 50%;
-  border: 2px solid #000;
+  border: 2px solid #ff7300;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: background-color 0.3s ease;
 }
 
 .whatsapp-float:hover {
-  background-color: #25D366; /* brighter WhatsApp green */
+  background-color: #ff7300; /* brighter WhatsApp green */
   transform: translateY(-2px) scale(1.06);
-  box-shadow: 0 8px 20px #25D366, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .whatsapp-icon {
@@ -332,20 +333,21 @@ import SearchBox from "../components/SearchBox.jsx";
 }
 
 .faq-button {
-  background-color: #ff7300; /* brand color */
-  color: black;
+  background-color: transparent; /* brand color */
+  color: #ff7300;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  border: 2px solid #000;
+  border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: all 0.3s ease;
 }
 
 .faq-button:hover {
   background: #ff7300;
+  color: black;
   transform: translateY(-2px) scale(1.06);
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
@@ -475,7 +477,7 @@ import SearchBox from "../components/SearchBox.jsx";
   display: block;
   width: 22px;
   height: 3px;
-  background: black;
+  background: #ff7300;
   border-radius: 2px;
   transition: border-color 0.3s ease;
 }
@@ -484,6 +486,13 @@ import SearchBox from "../components/SearchBox.jsx";
 .hamburger:focus,
 .hamburger.active {
   border-color: var(--brand-color);
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.hamburger:hover span,
+.hamburger:focus span,
+.hamburger.active span {
+  background: #000; /* black bars */
 }
 
 /* Mobile styles */
@@ -552,20 +561,20 @@ main {
   left: 0;
   right: 0;
   background: #fff;
-  padding: 8px 16px;
+  padding: 1rem 1rem;
   z-index: 9999; /* above navbar */
-  border-bottom: 1px solid #ddd;
-}
-/* Hide mobile icon on desktop */
-.mobile-search-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
 }
 
-/* Show mobile icon only below 768px */
+/* MOBILE SEARCH TOGGLE */
+.mobile-search-toggle {
+  display: none; /* hidden on desktop */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* MOBILE ONLY */
 @media (max-width: 768px) {
   .desktop-search {
     display: none;
@@ -574,11 +583,37 @@ main {
     display: inline-block;
   }
 }
-.mobile-search-toggle svg {
-  transition: transform 0.2s ease;
+
+/* CIRCULAR MAGNIFIER ICON */
+.mobile-search-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ff7300;      /* brand circle */
+  background: transparent;         /* inner background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
 }
-.mobile-search-toggle:hover svg {
-  transform: scale(1.1);
+
+.mobile-search-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke: #ff7300;                 /* brand magnifier */
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.mobile-search-toggle:hover .mobile-search-icon {
+  background: #ff7300;             /* brand background */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0,0,0,0.4); /* glow */
+}
+
+.mobile-search-toggle:hover .mobile-search-icon svg {
+  stroke: #000;                     /* magnifier turns black */
+  transform: scale(1.2);            /* magnify icon */
 }
 
 /* Lead Gen Modal */

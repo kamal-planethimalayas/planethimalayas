@@ -492,12 +492,12 @@ const { gallery, name } = trek;
   align-items: center;
   padding: 6px 10px;
   margin: 6px 0;
-  background-color: #ff7300; /* black background */
-  color: #000; /* brand color text */
+  background-color: transparent;
+  color: #ff7300; /* brand color text */
   border-radius: 6px;
-  border: 1px solid #000;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  transition: background-color 0.3s, box-shadow 0.3s;
+  border: 1px solid #ff7300;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .collapsible-header::after {
@@ -507,8 +507,8 @@ const { gallery, name } = trek;
 }
 
 .collapsible-header:hover {
-  border-radius: 6px;
-  border: 1px solid #000;
+  background: #ff7300;
+  color: black;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -517,7 +517,6 @@ const { gallery, name } = trek;
 .collapsible-header.active {
   background-color: #000; /* brand color */
   color: #ff7300;
-  border-radius: 6px;
   border: 1px solid #ff7300;
 }
 
@@ -554,8 +553,8 @@ const { gallery, name } = trek;
 }
 
 .date-box {
-  background-color: #000;
-  color: #fff;
+  background-color: transparent;
+  color: #ff7300;
   width: 120px;
   height: 20px;
   display: flex;
@@ -566,6 +565,7 @@ const { gallery, name } = trek;
   font-size: 0.85rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   margin-left: 1rem;
 }
 
@@ -573,7 +573,6 @@ const { gallery, name } = trek;
   background-color: #ff7300;
   color: #000;
   border-radius: 6px;
-  border: 1px solid #000;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -586,18 +585,21 @@ const { gallery, name } = trek;
 
 .enquire-now-btn {
   display: inline-block;
-  background-color: #ff7300;
-  color: #000;
+  background-color: transparent;
+  color: #ff7300;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
-  border: 2px solid #000;
+  border: 2px solid #ff7300;
   font-weight: bold;
   text-decoration: none;
-  transition: opacity 0.2s;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .enquire-now-btn:hover {
+  background-color: #ff7300;
+  color: black;
   transform: scale(1.05);
   /* Bottom glow effect only */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -715,21 +717,24 @@ const { gallery, name } = trek;
   align-items: center;
   width: 18px;
   height: 18px;
-  background-color: #ff7300; /* brand color */
-  color: #000;
+  background-color: transparent; 
+  color: #ff7300;
   border-radius: 50%;
+  border: 1px solid #ff7300;
   font-size: 0.75rem;
   font-weight: bold;
   margin-left: 6px;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .price-info-icon:hover {
-  background-color: #000; /* brand color */
-  color: #ff7300;
-  transform: scale(1.2);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  background: #ff7300;
+  color: black;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Modal styling */
