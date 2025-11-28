@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { supabase } from "../lib/supabaseClient";
-import "./AuthPage.css";
 
 export default function AuthPage() {
   const [email, setEmail] = useState("");
