@@ -16,6 +16,7 @@
   background-color: #ff7300;     /* brand background */
   color: #000;                   /* black text */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
 }
 
 .auth-btn.login:active {
@@ -50,6 +51,7 @@
   color: #000;                   /* black text */
   border-color: #000;            /* black border */
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
 }
 
 /* Dropdown container */

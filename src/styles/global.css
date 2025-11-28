@@ -60,7 +60,7 @@ html {
 }
 
 .hero-gallery-btn:hover {
-  transform: translateX(-50%) scale(1.05);
+  transform: translateX(-50%) scale(1.2);
   background: #ff7300;
   color: black;
   /* Bottom glow effect only */
@@ -142,6 +142,7 @@ html {
   background-color: #ff7300;
   color: black;
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%) scale(1.05);
  }
 
 /* dots container (mobile) */
@@ -171,7 +172,7 @@ html {
 
 .carousel-dots button.active {
   background-color: #ff7300;
-  transform: scale(1.2);
+  transform: scale(1.05);
   box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -353,8 +354,7 @@ section {
 .interaction-bar {
   display: flex;
   flex-direction: column; /* stack for mobile first */
-  margin: 2rem auto;
-  background: #fff; 
+  background: transparent; 
 }
 
 /* 🔹 Button Group */
@@ -368,9 +368,9 @@ section {
 
 /* 🔹 Buttons - uniform size */
 .interaction-btn {
-  background: #ff7300;
-  border: none;
-  color: #fff;
+  background: transparent;
+  border: 2px solid #ff7300;
+  color: #ff7300;
   padding: 10px 18px;
   border-radius: 8px;
   cursor: pointer;
@@ -379,11 +379,14 @@ section {
   text-align: center;
   min-width: 100px;
   transition: background 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .interaction-btn:hover {
-  background: #e86500;
+  background: #ff7300;
+  color: black;
   transform: translateY(-1px);
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* 🔹 Comments Section */
@@ -489,19 +492,12 @@ section {
   .interaction-btn {
     flex: 1 1 48%;
   }
-  .share-dropdown {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
 }
 
 /* 🔹 Desktop: add left margin to align buttons with content */
 @media (min-width: 769px) {
   .interaction-bar {
-    margin-left: 6rem;
-    margin-right: 6rem; /* optional: keep right side balanced */
+    margin-left: 2rem;
   }
 }
 

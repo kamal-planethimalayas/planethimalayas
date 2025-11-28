@@ -20,20 +20,22 @@
   gap: 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
+  border: 2px solid #ff7300;
   border-radius: 6px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .share-btn i {
   font-size: 1.4rem;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .share-btn:hover {
   cursor: pointer;
+  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
 }
 
 .share-btn:hover i {
