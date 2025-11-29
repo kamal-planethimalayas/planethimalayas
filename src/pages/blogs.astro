@@ -40,7 +40,20 @@ import { blogs } from "../data/blogsData.js";
           </div>
 
           <span class="read-more" aria-expanded="false" style="display:none;">Read More</span>
-          <p class="blog-meta">{blog.author} · {blog.date}</p>
+
+          <!-- AUTHOR INLINE BLOCK -->
+          <div class="blog-author-block">
+            <img 
+              src={blog.author.thumbnail} 
+              alt={blog.author.name} 
+              class="blog-author-thumb" 
+            />
+
+          <div class="blog-author-text">
+            <div class="blog-author-name">{blog.author.name}</div>
+              <div class="blog-author-date">{blog.date}</div>
+          </div>
+          </div>          
         </div>
       </a>
     ))}
@@ -256,9 +269,38 @@ import { blogs } from "../data/blogsData.js";
   color: #ff7300;
 }
 
-.blog-meta {
-  font-size: 1rem;
-  color: #ccc; /* softer white */
+/* AUTHOR BLOCK INSIDE BLOG CARDS */
+.blog-author-block {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.6rem 0 0.4rem 0;
+}
+
+.blog-author-thumb {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff7300;
+  flex-shrink: 0;
+}
+
+.blog-author-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.blog-author-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.blog-author-date {
+  font-size: 0.8rem;
+  color: #bbbbbb;
 }
 
 /* DESCRIPTION BASE */

@@ -1,7 +1,7 @@
 export const news = [
 
   {
-  title: "Weather is pleasant and ideal for trekking across all slopes.",
+  title: "Weather is getting colder and waiting for fresh winter snowfall.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
@@ -35,14 +35,21 @@ export const news = [
 },
   
 {
-  title: "Our Autumn season started with a bang",
+  title: "Upcoming Departures - (Deoriatal Chandrashila - 16th Dec; Kuari Pass - 27th Dec)",
   type: "news",
   head: "Slopes",
   thumbnail: "/images/main/brand-logo-news.png",
-  details: `<p>• Our first batch of the season to Deoriatal-Chandrashila completed the trek successfully showing great spirit despite of overcast conditions and hidden summit view.</p>
-  <p>• Our last batch to Rupin Pass returned back from upper waterfall campsite due to heavy snowfall</p>`
+  details: `<p>• Our first winter batch to Deoriatal-Chandrashila starting on 15th December.</p>
+  <p>• Our first winter group to Kuari Pass starting on 27th December</p>`
 },
 
+  {
+    title: "The Ultimate Winter Trek Preparation Guide for the Himalayas",
+    type: "articles",
+    head: "Articles",
+    thumbnail: "/images/extras/experience-hero5.jpg",
+    details: 'A complete, deeply detailed Himalayan winter trek preparation guide covering layering, gear breakdowns, snow survival, hypothermia treatment, cold-injury prevention, hydration strategy, fitness prep, night routines, weather behaviour, packing lists, myths, FAQs, and expert safety insights based on real Himalayan scenarios — written for both beginners and experienced trekkers. Read <strong><a href="/blogs/ultimate-winter-trek-preparation-guide-himalayas/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
+  },
   {
     title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
     type: "articles",
@@ -56,12 +63,5 @@ export const news = [
     head: "Articles",
     thumbnail: "/images/extras/experience-hero7.jpg",
     details: 'Whether you\'re trekking in the Himalayas or anywhere in nature, it\'s our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in. Read <strong><a href="/blogs/mountain-manners/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
-  {
-    title: "Mountain Sickness - AMS",
-    type: "articles",
-    head: "Articles",
-    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302941/ams_trigsv.jpg",
-    details: 'If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS). Read <strong><a href="/blogs/mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
   },
 ]; 

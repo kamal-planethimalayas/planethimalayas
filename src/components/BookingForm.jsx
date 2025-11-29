@@ -903,7 +903,7 @@ new window.Razorpay(options).open();
 }
 
 const formStyle = {
-  maxWidth: "500px",
+  maxWidth: "800px",
   margin: "2rem auto",
   padding: "2rem",
   fontFamily: "sans-serif",

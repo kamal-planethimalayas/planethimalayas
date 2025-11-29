@@ -86,27 +86,8 @@ const { gallery, name } = trek;
 
 <div class="container">
 
-  <!-- Overview -->
-
-  <!-- Trek Overview Section -->
-<section class="trek-overview-section reveal">
-  <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
-  <!-- Facts cards -->
-  <div class="trek-overview-card">
-    <ul>
-      {trek.overview.facts.map(fact => {
-        return (
-          <li key={fact.label}>
-            {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
-          </li>
-        );
-      })}
-    </ul>
-  </div>
-</section>
-
 <!-- Pricing -->
-<section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper">
+<section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper reveal">
   <div class="pricing-and-snippet">
 
     <!-- Price Box -->
@@ -476,8 +457,24 @@ const { gallery, name } = trek;
       <span class="read-more-link">Read More</span>
     </div>
   
-  
   </div> {/* End of pricing-and-snippet */}
+</section>
+
+  <!-- Trek Overview Section -->
+<section id="trek-overview-section" class="trek-overview-section reveal">
+  <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
+  <!-- Facts cards -->
+  <div class="trek-overview-card">
+    <ul>
+      {trek.overview.facts.map(fact => {
+        return (
+          <li key={fact.label}>
+            {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
+          </li>
+        );
+      })}
+    </ul>
+  </div>
 </section>
 
 <style>
@@ -1537,7 +1534,6 @@ const { gallery, name } = trek;
   align-items: flex-start; /* align top of boxes */
   gap: 2rem; /* spacing between pricing & snippet */
   margin-top: 2rem;       /* spacing from above section */
-  margin-bottom: 2rem;
 }
 
 /* ===== PRICE BOX ===== */

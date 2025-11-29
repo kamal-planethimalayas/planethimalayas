@@ -48,6 +48,10 @@ export const generalFAQs = [
       answer: `Packing your backpack correctly can make a huge difference on a Himalayan trek — from comfort and balance to quick access and weather protection. A poorly packed bag leads to back pain, frustration, and unnecessary energy drain. Learn how to pack your trekking backpack the smart way. Discover backpack zones, weight distribution, waterproofing & common mistakes to avoid on Himalayan treks.<br><strong><a href='https://www.planethimalayas.com/blogs/packing-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
     {
+      question: "How to prepare for a winter trek in the Himalayas",
+      answer: `Winter trekking in the Himalayas isn’t just about walking on snow — it demands intelligent layering, cold-weather strategy, hydration discipline, and awareness of cold injuries. This guide helps beginners and experienced trekkers stay safe and warm while enjoying one of nature’s finest seasons.<br><strong><a href='https://www.planethimalayas.com/blogs/ultimate-winter-trek-preparation-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
+    },
+    {
       question: "Why is staying hydrated important on a trek?",
       answer: `Staying hydrated is crucial on treks to prevent fatigue, altitude sickness, headaches, muscle cramps, and overall reduced endurance. Proper hydration ensures optimal physical performance and helps your body cope with varying altitudes and temperatures.`
     },

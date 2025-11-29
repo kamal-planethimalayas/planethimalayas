@@ -3,7 +3,15 @@ export const blogs = [
   title: "Getting Prepared for a Trek in the Himalayas",
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Himalayan trekking",
   "trek preparation",
@@ -109,7 +117,15 @@ export const blogs = [
   title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
   slug: "mountain-manners",
   date: "2025-09-16",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
     "Leave No Trace",
     "Trekking Tips",
@@ -198,7 +214,15 @@ export const blogs = [
   title: "AMS - Acute Mountain Sickness",
   slug: "mountain-sickness",
   date: "2025-09-16",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Mountain Sickness",
   "Acute Mountain Sickness",
@@ -263,7 +287,15 @@ export const blogs = [
   title: "Preventing AMS-Mountain Sickness",
   slug: "preventing-ams-mountain-sickness",
   date: "2025-09-16",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Mountain Sickness",
   "Acute Mountain Sickness",
@@ -359,7 +391,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Complete Himalayan Trek Packing List | Essential Trekking Gear & Tips",
   slug: "himalayan-trek-packing",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Himalayan Trek Packing List",
   "Trekking Gear Checklist",
@@ -471,7 +511,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Staying Fit & Healthy on a Himalayan Trek",
   slug: "healthy-himalayan-trek",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Himalayan Trek Fitness Guide",
   "Trekking Training Plan",
@@ -566,7 +614,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Choosing the Right Himalayan Trek",
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "How to Choose a Himalayan Trek",
   "Best Treks in the Indian Himalayas",
@@ -649,7 +705,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Ideal Trekking Shoes for Himalayan Treks | Buying Guide, Features & Top Brands",
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Best Trekking Shoes for Himalayas",
   "Trekking Footwear Guide India",
@@ -730,7 +794,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Ideal Trekking Backpack for Himalayan Treks | Capacity, Fit & Top Brands Guide",
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Best Backpack for Himalayan Treks",
   "Trekking Backpack Guide India",
@@ -832,7 +904,15 @@ If you feel any of the following, descend without delay:<br>
   title: "How to Pack Your Backpack for a Himalayan Trek | Smart Packing Guide",
   slug: "packing-backpack",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "How to Pack a Backpack for Himalayan Trek",
   "Backpack Packing Tips for Trekking",
@@ -928,7 +1008,15 @@ If you feel any of the following, descend without delay:<br>
   title: "How to Take Care of Your Trekking Shoes for Durability | Pre-Trek Checklist",
   slug: "trekking-shoes-care",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Trekking Shoes Care",
   "How to Maintain Trekking Shoes",
@@ -1006,7 +1094,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Complete Guide to Trekking Jackets | Types, Layering & Care for Himalayan Treks",
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
   "Best Trekking Jackets for Himalayas",
   "Synthetic vs Down Jacket for Trekking",
@@ -1143,7 +1239,15 @@ If you feel any of the following, descend without delay:<br>
   title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
   slug: "real-picture-of-himalayan-trekking",
   date: "2025-10-26",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
     "Himalayan trekking",
     "responsible trekking",
@@ -1225,7 +1329,15 @@ If you feel any of the following, descend without delay:<br>
   title: "The Ultimate Winter Trek Preparation Guide for the Himalayas",
   slug: "ultimate-winter-trek-preparation-guide-himalayas",
   date: "2025-10-26",
-  author: "Kamal Das",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
   tags: [
     "winter trekking",
     "Himalayan trekking",
@@ -1350,7 +1462,7 @@ YOUR SKIN
   <li>Avoid ice-cold water</li>
 </ul>
 <br>
-<h4>🚫 <strong>Why Alcohol Is Strictly Prohibited in Winter Trekking</strong></h4> <p>Many trekkers think a small drink will “warm them up.” This is one of the <strong>most dangerous misconceptions</strong> in high-altitude trekking.</p> <p><strong>Here’s what actually happens physiologically:</strong></p> <ul> <li><strong>Alcohol dilates your blood vessels</strong> → pushes warm blood from your core to your skin → you <em>feel</em> warm for a few minutes but you’re actually <strong>losing heat rapidly</strong>.</li> <li>This sudden heat loss leads to <strong>rapid core-temperature drop</strong> → drastically increasing risk of <strong>hypothermia</strong>, especially during cold nights or windy sections of the trail.</li> <li>Alcohol blocks <strong>shivering response</strong> (your body’s natural heater) → making it even harder to warm back up.</li> <li>It causes <strong>severe dehydration</strong> because alcohol is a diuretic → you urinate more → blood gets thicker → circulation drops → <strong>AMS risk shoots up</strong>.</li> <li>Dehydration + cold temperatures = <strong>perfect conditions for frostnip, frostbite, AMS and exhaustion.</strong></li> </ul> <p><strong>Bottom line:</strong> Alcohol tricks your brain into feeling warm while your body is actually <span style="color:#ff0000"><strong>losing heat dangerously fast from the core</strong></span>. It also worsens dehydration and increases the likelihood of <span style="color:#ff0000"><strong>AMS persisting longer, hypothermia setting in faster, and frostbite developing more easily</strong><span>.</p> <p><em>On a winter Himalayan trek, alcohol is not just unhealthy — it is life-threatening.</em></p> <br>
+<h4>🚫 <strong>Why Alcohol Is Strictly Prohibited in Winter Trekking</strong></h4> <p>Many trekkers think a small drink will “warm them up.” This is one of the <strong>most dangerous misconceptions</strong> in high-altitude trekking.</p> <p><strong>Here’s what actually happens physiologically:</strong></p> <ul> <li><strong>Alcohol dilates your blood vessels</strong> → pushes warm blood from your core to your skin → you <em>feel</em> warm for a few minutes but you’re actually <strong>losing heat rapidly</strong>.</li> <li>This sudden heat loss leads to <strong>rapid core-temperature drop</strong> → drastically increasing risk of <strong>hypothermia</strong>, especially during cold nights or windy sections of the trail.</li> <li>Alcohol blocks <strong>shivering response</strong> (your body’s natural heater) → making it even harder to warm back up.</li> <li>It causes <strong>severe dehydration</strong> because alcohol is a diuretic → you urinate more → blood gets thicker → circulation drops → <strong>AMS risk shoots up</strong>.</li> <li>Dehydration + cold temperatures = <strong>perfect conditions for frostnip, frostbite, AMS and exhaustion.</strong></li> </ul> <p><strong>Bottom line:</strong> Alcohol tricks your brain into feeling warm while your body is actually <span style="color:#ff0000"><strong>losing heat dangerously fast from the core</strong></span>. It also worsens dehydration and increases the likelihood of <span style="color:#ff0000"><strong>AMS persisting longer, hypothermia setting in faster, and frostbite developing more easily</strong><span>.</p> <span style="color:#ff0000"><p><em>On any Himalayan trek, alcohol is not just unhealthy — it is life-threatening.</em></p></span> <br>
 
 <!-- SECTION 6 -->
 <h3>🟧 <strong>SECTION 6 — Trekking in Continuous Snowfall</strong></h3><br>
@@ -1597,7 +1709,6 @@ YOUR SKIN
   <li>Respect snowfall</li>
   <li>Follow trek leader’s safety commands</li>
 </ul>
-<br>
 `
 },
     

@@ -354,7 +354,7 @@ const passTreks = treks.filter(
   font-size: 0.95rem;
   line-height: 1.6;
   color: #444;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1.5rem;
   max-width: 700px;
   margin-left: auto;
@@ -631,7 +631,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } return true;
   }
 
-  function filterTrekCards() {
+function filterTrekCards() {
   const filters = getSelectedFilters();
   const suggestedSections = document.querySelectorAll('.suggested-treks');
   const hasActiveFilters = Object.keys(filters).length > 0;
@@ -650,10 +650,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // ✅ Show/hide suggested treks based on filter state
+  // Show/hide suggested treks
   suggestedSections.forEach(section => {
-  section.style.display = hasActiveFilters ? 'none' : 'block';
-});
+    section.style.display = hasActiveFilters ? 'none' : 'block';
+  });
+
+  // Smooth scroll to top of main-content **after DOM updates**
+  const mainContent = document.querySelector('.main-content');
+  if(mainContent){
+    setTimeout(() => {
+      mainContent.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 0);
+  }
 }
 
   function syncCheckboxes(sourceList,targetList){

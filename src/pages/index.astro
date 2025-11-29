@@ -272,7 +272,7 @@ import "../styles/global.css";
                 </div>
                 <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
                 <div class="trek-buttons">
-                  <a href={`/trek/${trek.id}#highlights`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
                   <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
                 </div>
               </div>
@@ -832,7 +832,7 @@ import "../styles/global.css";
 
 /* NO zoom — stable image */
 .trek-card:hover img {
-  transform: none;
+  transform: scale(1.1) rotate(-1deg);
 }
 
 
