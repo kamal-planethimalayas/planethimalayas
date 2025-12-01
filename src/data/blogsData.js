@@ -1357,7 +1357,7 @@ If you feel any of the following, descend without delay:<br>
     "winter survival Himalayas",
     "trekking blog"
   ],
-  description: "A complete, deeply detailed, step-by-step guide for preparing for a winter trek in the Himalayas in 2025 — including gear, safety, fitness, weather, snow conditions, layering, transport, acclimatisation, packing lists, myths, FAQs, and exclusive discounts for trekkers.",
+  description: "A complete, deeply detailed Himalayan winter trek preparation guide covering layering, gear breakdowns, snow survival, hypothermia treatment, cold-injury prevention, hydration strategy, fitness prep, night routines, weather behaviour, packing lists, myths, FAQs, and expert safety insights based on real Himalayan scenarios — written for both beginners and experienced trekkers.",
   thumbnail: "/images/extras/experience-hero5.jpg",
   content: `
 <!-- SECTION 1 -->

@@ -382,6 +382,305 @@ export const treks = [
   },
 
 
+ {
+    id: "hampta-circuit-trek",
+    name: "Hampta Circuit Trek",
+    tags: ["beginner", "family"],
+    difficulty: ["easy"],
+    season: ["summer", "monsoon", "autumn", "winter"],
+    month: ["may", "june", "july", "august", "september", "october", "november", "december", "january"],
+    duration: ["4 Nights / 5 Days"],
+    region: "himachal",
+    coordinates: [
+        [32.2330, 77.1830], // Jagatsukh (start)
+        [32.2365, 77.1895], // Bogi
+        [32.2408, 77.2000], // Sarotu
+        [32.2450, 77.2100], // Kharmandari
+        [32.2485, 77.2150], // Sethan Dome
+        [32.2408, 77.2000], // Sarotu (return)
+        [32.2330, 77.1830], // Jobri (end)
+    ],
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596621/hampta-circuit-hero_qupfpl.jpg",
+    
+    heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596621/hampta-circuit-hero_qupfpl.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596603/hampta-circuit-view6_l7wnze.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596679/hampta-circuit-view4_yr9gyd.jpg",
+    ],
+
+    subtitle: "A Scenic Offbeat Himalayan Circuit",
+
+    seo: {
+        title: "Hampta Circuit Trek | Itinerary, Cost & Dates | Planethimalayas",
+        description: "Hampta Circuit Trek (11,090 ft) is a less-traveled Himalayan trail from Jagatsukh to Sethan Dome, winding through forests, meadows, and panoramic peaks. Ideal for beginners and first-time trekkers seeking an offbeat adventure."
+    },
+
+    overview: {
+        facts: [
+            { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+            { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+            { emoji: "🏔️", label: "Max Altitude", value: "4,200 m (Sethan Dome)" },
+            { emoji: "⚡", label: "Trek Distance", value: "Approx. 35 Km" },
+            { emoji: "🌤️", label: "Best Time", value: "May–January" },
+            { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Pir Panjal Range" },
+            { emoji: "📍", label: "Start Point", value: "Jagatsukh Village (Near Manali)" },
+            { emoji: "🏁", label: "End Point", value: "Jobri / Manali" },
+            { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+        ],
+snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that weaves together lush forests, alpine meadows, glacial streams, and panoramic mountain vistas, offering a perfect blend of nature, culture, and adventure.<br> The trek begins from the quaint village of Jagatsukh, near Manali, and gradually ascends through dense oak and pine forests, where the crisp mountain air and the scent of pine invigorate every step. As the trail opens into expansive alpine meadows, trekkers are greeted by a riot of wildflowers, gentle streams, and grazing livestock, creating a picture-perfect Himalayan setting. Day by day, the route takes adventurers across charming hamlets, verdant pastures, and rocky ridges, culminating at the summit of Sethan Dome (4,200 m), where breathtaking 360° views of the Pir Panjal and Dhauladhar ranges unfold. Unlike the popular Hampta Pass trek, this circuit offers solitude, offbeat paths, and intimate encounters with the high-altitude wilderness, making each campsite a serene escape.<br> The trek is ideal for beginners, first-time trekkers, and families, combining moderate trekking, stunning scenery, and immersive experiences in the Himalayas’ natural and cultural landscapes, making Hampta Circuit a hidden gem in Himachal Pradesh."
+    },
+
+    price: 10500,
+    priceNote: "* Manali to Manali",
+    addons: {
+        offloadingbag: 4000,
+        offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 5",
+
+    highlights: [
+        "Begin trek from Jagatsukh village, near Manali",
+        "Pass through lush oak and pine forests with gentle streams",
+        "Camp at scenic locations: Bogi, Sarotu, Kharmandari",
+        "Summit Sethan Dome (4,200 m) with panoramic views of Pir Panjal & Dhauladhar ranges",
+        "Experience an offbeat Himalayan adventure away from crowded trails",
+        "Suitable for first-time trekkers and families",
+        "Enjoy a mix of culture, nature, and high-altitude scenic landscapes",
+    ],
+
+    itinerary: [
+  {
+    day: 1,
+    title: "Manali – Jagatsukh – Bogi (2,015 m) | 3 Hours Trek",
+    details: "<strong>• Drive: ~20 mins | Trek: ~3 km / 3 hrs</strong><br>• Your journey begins with a short scenic drive from Manali to the quiet village of Jagatsukh—an old Himalayan settlement surrounded by apple orchards and traditional stone-and-wood houses. From here, the trail climbs gently into a world of oak, cedar, and pine forests. The sounds of birds, the scent of moist earth, and filtered sunlight accompany you as you walk above the Manalsu valley. Small clearings open up to views of the Pir Panjal range before the forest gradually gives way to Bogi, a peaceful meadow campsite tucked between tall pines. Settle into camp, enjoy hot tea, and soak in your first night in the mountains under a star-filled sky."
+  },
+  {
+    day: 2,
+    title: "Bogi to Sarotu | 5–6 Hours Trek",
+    details: "<strong>• Trek: ~8 km | Duration: 5–6 hrs</strong><br>• The day begins with a long, steady ascent through dense forests alive with the calls of Himalayan magpies and thrushes. As you gain altitude, the trees start thinning out, opening into wide alpine pastures where shepherds graze their flocks in summer. The trail crosses gentle streams and flower-dotted grasslands before emerging onto the vast open plateau of Sarotu. This campsite sits like a balcony above the valley, offering sweeping views of snow-lined ridges and distant glacier basins. Feel the temperature drop as evening settles across the meadows. Overnight stay at Sarotu, surrounded by wide skies and complete Himalayan silence."
+  },
+  {
+    day: 3,
+    title: "Sarotu to Kharmandari | 4–5 Hours Trek",
+    details: "<strong>• Trek: ~7 km | Duration: 4–5 hrs</strong><br>• Today’s trail takes you deeper into the wilderness. Leaving Sarotu, you walk across rolling meadows before the terrain shifts into a mix of boulder sections, forest patches, and high-altitude shrubs. This stretch often feels untouched—wild, raw, and wonderfully quiet. The final approach to Kharmandari moves along a ridge with open views of steep valleys below. The campsite at Kharmandari is remote and serene, offering uninterrupted views of forested slopes and jagged ridgelines. This is your chance to truly disconnect and enjoy the solitude that makes the Hampta Circuit so special."
+  },
+  {
+    day: 4,
+    title: "Kharmandari – Sethan Dome (4,200 m) – Return to Sarotu | 6–7 Hours Trek",
+    details: "<strong>• Trek: ~10 km | Duration: 6–7 hrs</strong><br>• This is the summit day and the most rewarding part of the trek. The trail climbs steadily over rocky slopes and open highland meadows until the landscape becomes stark and alpine. A final push brings you to the summit of Sethan Dome (4,200 m), a spectacular high point with a 360° Himalayan panorama. From here, the Pir Panjal range, Dhauladhar peaks, Hampta Valley, and the snow-carved slopes of the Chandra Valley unfold in every direction. After spending time soaking in the views and clicking photos, begin your descent along the same ridge, retracing your steps to Sarotu. Celebrate your summit evening around the campsite with warm meals and the satisfaction of an unforgettable day."
+  },
+  {
+    day: 5,
+    title: "Sarotu – Jobri – Drive to Manali | 2 Hours Trek + 2 Hours Drive",
+    details: "<strong>• Trek: ~3 km | Duration: 2 hrs | Drive: ~2 hrs</strong><br>• Your last day begins with a gentle descent through meadows and forest patches toward Jobri. The trail becomes wider and more defined as you re-enter lower altitudes. At Jobri, a vehicle awaits to drive you back to Manali through forests, waterfalls, and winding mountain roads. The Hampta Circuit concludes as you reach Manali—carrying home the memories of an offbeat, soulful Himalayan journey away from the crowds."
+  }
+],
+
+    howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+    didYouKnow: [
+        "Hampta Circuit Trek is often mistaken for Hampta Pass but offers a completely different, offbeat route.",
+        "Sethan Dome, the highest point of the trek, offers 360° panoramic views of both the Pir Panjal and Dhauladhar ranges.",
+        "The trek passes through untouched alpine meadows rarely frequented by tourists, offering solitude and natural beauty.",
+        "The route allows first-time trekkers and families to experience high-altitude trekking in a safe, moderate environment.",
+        "The trail combines nature and local culture, making each campsite a unique experience of Himalayan tradition.",
+        "Children aged 9–17 can trek with parental supervision, making it a great family-friendly Himalayan adventure.",
+        "The trek showcases a contrast between lush green forests and rugged high-altitude vistas within a compact 5-day itinerary."
+    ],
+
+    gallery: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596679/hampta-circuit-view4_yr9gyd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596703/hampta-circuit-view2_cytpo2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596678/hampta-circuit-view1_mkdv7y.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596656/hampta-circuit-view5_jyjgup.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596653/hampta-circuit-view3_jafdcl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596621/hampta-circuit-hero_qupfpl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596603/hampta-circuit-view6_l7wnze.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764596598/hampta-circuit-view7_mc8zpg.jpg",
+     
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+        questions: [
+            {
+                question: "Who can participate in the Hampta Circuit trek?",
+                answer: "This trek is suitable for beginners, first-time trekkers, families, and children aged 9–17 with parental supervision. Basic fitness and stamina are recommended."
+            },
+            {
+                question: "What should I pack for the Hampta Circuit trek?",
+                answer: "Layered clothing (thermals, fleece, padded jacket, rain gear), waterproof trekking shoes, trekking poles, and a 50–60L rucksack with rain cover. Nights can get cold at higher camps."
+            },
+            {
+                question: "Is offloading available during the trek?",
+                answer: "Yes, offloading (mule/porter service) is available at an additional cost. Inform the trek organizer in advance."
+            },
+            {
+                question: "Will there be mobile network coverage during the trek?",
+                answer: "Coverage is limited. Mobile signal is weak or non-existent at camps like Kharmandari and Sethan Dome. Inform family and friends about the blackout period."
+            },
+            {
+                question: "Is acclimatization required before starting?",
+                answer: "Yes, arrive in Manali a day before the trek to adjust to the altitude and reduce the risk of AMS (Acute Mountain Sickness)."
+            }
+        ]
+    },
+
+    faqsLink: "/faqs-and-articles",
+},
+
+{
+    id: "rani-sui-lake-trek",
+    name: "Rani Sui Lake Trek",
+    tags: ["beginner", "family"],
+    difficulty: ["easy"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "july", "august", "september", "october"],
+    duration: ["3 Nights / 4 Days"],
+    region: "himachal",
+    coordinates: [
+        [32.2390, 77.1840], // Manali (start)
+        [32.2500, 77.1950], // Lamadugh
+        [32.2600, 77.2000], // Khanpari Tibba
+        [32.2580, 77.2100], // Rani Sui Lake
+        [32.2450, 77.1980], // Saurkundi Pass
+        [32.2380, 77.1850], // Mahili Thach
+        [32.2390, 77.1840], // Shangchar / Manali (end)
+    ],
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
+    
+    heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605803/IMG-20190909-WA0000_afe8gq.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605801/IMG_20190912_100939-EFFECTS_pb1adf.jpg",
+    ],
+
+    subtitle: "A Captivating Short Trek in Manali",
+
+    seo: {
+        title: "Rani Sui Lake Trek | Itinerary, Cost & Dates | Planethimalayas",
+        description: "Rani Sui Lake Trek (11,155 ft) is a short and easy Himalayan trail from Manali to Rani Sui Lake, passing through Lamadugh, Khanpari Tibba, and Saurkundi Pass. Ideal for beginners and families seeking a scenic adventure."
+    },
+
+    overview: {
+        facts: [
+            { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
+            { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+            { emoji: "🏔️", label: "Max Altitude", value: "4,025 m (Khanpari Tibba)" },
+            { emoji: "⚡", label: "Trek Distance", value: "Approx. 25 Km" },
+            { emoji: "🌤️", label: "Best Time", value: "May–October" },
+            { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Manali" },
+            { emoji: "📍", label: "Start Point", value: "Manali (2040 m)" },
+            { emoji: "🏁", label: "End Point", value: "Shangchar / Manali" },
+            { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+        ],
+    snippet: 
+"Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas."    
+    },
+
+    price: 8900,
+    priceNote: "* Manali to Manali",
+    addons: {
+        offloadingbag: 3200,
+        offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
+
+    highlights: [
+        "Trek from Manali through Lamadugh and Manalsu River valley",
+        "Camp at scenic locations: Lamadugh, below Khanpari Tibba, Mahili Thach",
+        "Panoramic views of Indrasan (6220 m), Deo Tibba (6001 m), and surrounding peaks",
+        "Explore Rani Sui Lake, surrounded by flowers and snow",
+        "Visit Saurkundi Pass and Mahili Thach on open alpine meadows",
+        "Suitable for beginners and families seeking a short Himalayan adventure",
+        "Wildlife sightings: Monal, Fox, and occasional Bear",
+    ],
+
+    itinerary: [
+    {
+        "day": 1,
+        "title": "Manali (2,040 m) – Lamadugh (3,050 m) | 5 Hours Trek",
+        "details": "<strong>• Trek: ~8 km | Duration: 5 hrs</strong><br>• The trek begins from Manali, near Hadimba Temple, where you leave the bustling town behind and enter dense cedar and oak forests. Gentle trails wind along the Manalsu River valley, with sparkling streams and occasional sightings of Himalayan Monal, Himalayan Fox, and other wildlife. The path opens into the lush green meadows of Lamadugh, surrounded by rolling hills and distant snow-capped peaks. Trekkers can enjoy the aroma of alpine wildflowers and the peaceful ambiance of the valley. Camp is set up in Lamadugh, offering panoramic views and a tranquil evening amidst nature."
+    },
+    {
+        "day": 2,
+        "title": "Lamadugh – Khanpari Tibba (4,025 m) – Rani Sui Lake (3,780 m) | 6–7 Hours Trek",
+        "details": "<strong>• Trek: ~10 km | Duration: 6–7 hrs</strong><br>• Starting early, trek gently through the lush meadows and shrubs toward the base of Khanpari Tibba. The trail passes through vibrant rhododendron and birch shrubs, and occasional wildflower patches. As you ascend, the views of Indrasan (6,220 m) and Deo Tibba (6,001 m) become increasingly dramatic, framed against the Kullu Valley below. Reach the dome of Khanpari Tibba, a perfect vantage point for a 360° panorama of the Great Himalayan Range, Dhauladhar to the west, Pir Panjal to the north, and the surrounding valleys. After soaking in the vistas, descend along the ridge to the campsite near Rani Sui Lake, a serene alpine lake surrounded by snowfields and colorful meadows. Enjoy the peaceful surroundings and reflect on the day's trek."
+    },
+    {
+        "day": 3,
+        "title": "Rani Sui Lake – Saurkundi Pass (3,840 m) – Mahili Thach (3,350 m) | 6–7 Hours Trek",
+        "details": "<strong>• Trek: ~10 km | Duration: 6–7 hrs</strong><br>• From the campsite, begin trekking across expansive alpine meadows filled with wildflowers. Arrive at Saurkundi Lake, a small but charming high-altitude lake. Ascend gently to Saurkundi Pass, where clear skies reveal sweeping views of the Indrasan and Deo Tibba peaks. Descend along open ridges dotted with alpine flora, enjoying the crisp mountain air and occasional wildlife sightings. The trail gradually leads to Mahili Thach, a picturesque meadow surrounded by rolling hills and distant peaks, where the camp is set for the night. The location offers unmatched views of the sunset over the Pir Panjal ranges."
+    },
+    {
+        "day": 4,
+        "title": "Mahili Thach (3,350 m) – Shangchar (2,350 m) | 5 Hours Trek + Drive to Manali 2 Hrs",
+        "details": "<strong>• Trek: ~8 km | Duration: 5 hrs | Drive: ~2 hrs to Manali</strong><br>• Begin the final descent through dense forests of Deodar, Spruce, and Cedar trees. Enjoy occasional breaks to admire the Beas River valley and the cascading streams along the trail. Reach Shangchar village, a quaint hamlet where local life unfolds amidst the mountains. Here, the trek concludes and a jeep transfer awaits to drive through narrow link roads to Patlikuhl, continuing on the highway to Manali. Return to Manali by afternoon or evening, completing the 4-day Himalayan adventure with memories of serene alpine lakes, meadows, snow-capped peaks, and wildlife encounters."
+    }
+],
+
+    howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+    didYouKnow: [
+        "Rani Sui Lake is named after a queen who gave birth under a rock near the lake; 'Sui' means giving birth in the local dialect.",
+        "The trek passes through high-altitude meadows rarely frequented by tourists, providing solitude and pristine landscapes.",
+        "The area offers 360° views of Indrasan, Deo Tibba, Maker Beh, and Shikar Beh peaks.",
+        "Wildlife sightings include Monal, Fox, and Bear along the route.",
+        "Rani Sui Lake remains surrounded by snow and flowers throughout the trekking season, creating a mystical ambiance.",
+        "Saurkundi Pass offers panoramic vistas of the eastern Himalayan ranges and Manali valley below."
+    ],
+
+    gallery: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605811/IMG_20190910_100118_a05zd3.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605810/IMG-20190912-WA0019_xtwpqk.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605803/IMG-20190909-WA0000_afe8gq.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605801/IMG_20190912_100939-EFFECTS_pb1adf.jpg"
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+        questions: [
+            {
+                question: "Who can participate in the Rani Sui Lake trek?",
+                answer: "This trek is suitable for beginners, first-time trekkers, and families. Basic fitness and stamina are recommended. Children under 15 can join with parental supervision."
+            },
+            {
+                question: "What should I pack for the Rani Sui Lake trek?",
+                answer: "Layered clothing (thermals, fleece, padded jacket, rain gear), waterproof trekking shoes, trekking poles, and a 50–60L rucksack with rain cover. Nights can get cold at higher camps."
+            },
+            {
+                question: "Is offloading available during the trek?",
+                answer: "Yes, offloading (mule/porter service) is available at an additional cost. Inform the trek organizer in advance."
+            },
+            {
+                question: "Will there be mobile network coverage during the trek?",
+                answer: "Coverage is limited. Mobile signal is weak or non-existent at camps like Lamadugh, Rani Sui Lake, and Mahili Thach. Inform family and friends about the blackout period."
+            },
+            {
+                question: "Is acclimatization required before starting?",
+                answer: "Yes, arrive in Manali a day before the trek to adjust to the altitude and reduce the risk of AMS (Acute Mountain Sickness)."
+            }
+        ]
+    },
+
+    faqsLink: "/faqs-and-articles",
+},
+
 
   {
     id: "rupin-pass-trek",

@@ -49,81 +49,27 @@ const { gallery, name } = trek;
   description={trek.seo?.description || trek.subtitle}
 >
 
-  <!-- Hero Section -->
-<section class="trek-hero reveal" data-trek-id="{trek.id}">
-  <div class="hero-overlay"></div>
+<!-- Modal -->
+    <div id="price-modal" class="price-modal">
+      <div class="price-modal-content">
+        <span class="close-price-modal">&times;</span> 
+        <p><strong style="color: #ff7300;">PriceNote – Listed Price &amp; Customisation Rules:</strong><br>
+          The listed trek price, including the add-ons listed, applies to groups of at least 4 participants for the specified itinerary. For smaller groups, any difference in pricing will be communicated transparently before confirmation. Trek fees including add-ons for customized groups may vary based on your preferences, ensuring every adventure is tailored to your needs.
+        </p>
 
-  <!-- Image slides: map over heroImages if present, otherwise use heroImage -->
-  <!-- ⚠️ In Astro/JSX syntax: use (trek.heroImages ?? [trek.heroImage]).map(...) -->
-  <!-- Example (Astro/JSX style): -->
-  { (trek.heroImages ?? [trek.heroImage]).map((src, i) => (
-    <img
-      src={src}
-      alt={trek.name + " slide " + (i+1)}
-      class={`trek-hero-image carousel-slide ${i === 0 ? 'active' : ''}`}
-      data-index={i}
-      loading={i === 0 ? "eager" : "lazy"}
-    />
-  )) }
+        <p><strong style="color: #ff7300;">Group Booking Offer:</strong><br>
+          For groups of 8 or more booking together, the trek fee for 1 participant will be waived as a token to encourage shared adventures.
+        </p>
 
-  <div class="hero-content">
-    <div class="hero-text">
-      <h1 class="trek-hero-title">{trek.name}</h1>
-      <p class="trek-hero-subtitle">{trek.subtitle}</p>
+        <p><strong style="color: #ff7300;">Scholarship for Kids:</strong><br>
+          Children under 15 years receive a 30% discount on the trek price, making it easier for families to explore the Himalayas together.
+        </p>
+      </div>
     </div>
-  </div>
 
-   <!-- ✅ NEW GALLERY BUTTON -->
-  <a href="#gallery" class="hero-gallery-btn">Gallery</a>
-
-  <!-- Arrows -->
-  <button class="carousel-arrow prev" aria-label="Previous slide">&#10094;</button>
-  <button class="carousel-arrow next" aria-label="Next slide">&#10095;</button>
-
-  <!-- Dots (we'll create dots from JS; they'll be visible on mobile only via CSS rules) -->
-  <div class="carousel-dots" aria-hidden="false"></div>
-</section>
-
-<div class="container">
-
-<!-- Pricing -->
-<section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper reveal">
-  <div class="pricing-and-snippet">
-
-    <!-- Price Box -->
-    <div class="price-box">
-      <p class="price-starting-from">
-        Price starting from
-        <span class="price-info-icon" id="price-info">?</span>
-      </p>
-
-      <!-- Modal -->
-      <div id="price-modal" class="price-modal">
-        <div class="price-modal-content">
-          <span class="close-price-modal">&times;</span>
-          <p>
-          The listed price, including selected add-ons, applies to our fixed departure groups with a minimum of 4 participants. For smaller groups, any difference in pricing will be communicated via email upon confirmation. Trek prices may vary for customized groups based on preferences and requirements.
-          </p>
-        </div>
-      </div>
-
-      <div class="price-inline">
-        <span class="price">
-          INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
-        </span>
-        {trek?.priceNote && <span class="price-note">{trek.priceNote}</span>}
-      </div>
-
-      <!-- Terms & Inclusions Modals -->
-      <p>
-        <a href="#" id="open-terms">Terms & Conditions</a> |
-        <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
-        <a href="#" id="open-cancellation">Cancellation & Refunds</a>
-      </p>
-
-      <!-- Terms & Conditions Modal -->
-      <div id="termsModal" class="modal hidden">
-      <div class="modal-content">
+<!-- Terms & Conditions Modal -->
+    <div id="termsModal" class="modal hidden">
+    <div class="modal-content">
         <span class="close" id="close-terms">&times;</span>
         <h4 class="modal-title">Terms & Conditions</h4>
 
@@ -291,17 +237,16 @@ const { gallery, name } = trek;
         </ul>
       </div>
       </div>
+    </div>
+    </div>
 
-      </div>
-      </div>
-
-      <!-- Inclusions & Exclusions Modal -->
-      <div id="inclusionsModal" class="modal hidden">
-      <div class="modal-content">
+<!-- Inclusions & Exclusions Modal -->
+    <div id="inclusionsModal" class="modal hidden">
+    <div class="modal-content">
         <span class="close" id="close-inclusions">&times;</span>
       <h2 class="modal-title">Inclusions & Exclusions</h2>
       <div class="modal-card">
-      <div class="inclusions">
+        <div class="inclusions">
         <h3>✅ Inclusions</h3>
         <p>{trek.inclusionsNote}</p>
         <p>🏕️ Trekking & Camping Equipment – Includes tents, sleeping bags, cooking gear, and other essentials</p>
@@ -309,8 +254,8 @@ const { gallery, name } = trek;
         <p>🩺 Basic Medical Support – On-trek first aid and support for minor medical issues</p>
         <p>👥 Support Staff – Team includes experienced trek leaders, local guides, cooks, and helpers</p>
         <p>🎯 Qualified Leadership – Professional trek leader overseeing safety and coordination</p>
-      </div>
-      <div class="exclusions">
+        </div>
+        <div class="exclusions">
         <h3>❌ Exclusions</h3>
         <p>🚑 Insurance – Travel or medical insurance is not included</p>
         <p>🚨 Emergency Costs – Expenses for evacuation, rescue, or medical treatment are not covered</p>
@@ -319,13 +264,13 @@ const { gallery, name } = trek;
         <p>🛍️ Personal Purchases – Items bought on the way (snacks, gifts, souvenirs, etc.) are not included</p>
         <p>👕 Personal Trek Gear – Jackets, shoes, walking sticks, or toiletries are not part of the package (can be rented separately)</p>
         <p>❗ Anything Not Listed Above – If it’s not mentioned under inclusions, it is not covered by Planethimalayas</p>
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
+    </div>
+    </div>
 
-      <!-- Cancellation & Refund Policy Modal -->
-      <div id="cancellationModal" class="modal hidden">
+<!-- Cancellation & Refund Policy Modal -->
+    <div id="cancellationModal" class="modal hidden">
       <div class="modal-content">
         <span class="close" id="close-cancellation">&times;</span>
         <h2 class="modal-title">Cancellation & Refunds</h2>
@@ -380,12 +325,76 @@ const { gallery, name } = trek;
       </div>
     </div>
 
+<!-- Hero Section -->
+<section class="trek-hero reveal" data-trek-id="{trek.id}">
+  <div class="hero-overlay"></div>
+
+  <!-- Image slides: map over heroImages if present, otherwise use heroImage -->
+  <!-- ⚠️ In Astro/JSX syntax: use (trek.heroImages ?? [trek.heroImage]).map(...) -->
+  <!-- Example (Astro/JSX style): -->
+  { (trek.heroImages ?? [trek.heroImage]).map((src, i) => (
+    <img
+      src={src}
+      alt={trek.name + " slide " + (i+1)}
+      class={`trek-hero-image carousel-slide ${i === 0 ? 'active' : ''}`}
+      data-index={i}
+      loading={i === 0 ? "eager" : "lazy"}
+    />
+  )) }
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 class="trek-hero-title">{trek.name}</h1>
+      <p class="trek-hero-subtitle">{trek.subtitle}</p>
+    </div>
+  </div>
+
+   <!-- ✅ NEW GALLERY BUTTON -->
+  <a href="#gallery" class="hero-gallery-btn">Gallery</a>
+
+  <!-- Arrows -->
+  <button class="carousel-arrow prev" aria-label="Previous slide">&#10094;</button>
+  <button class="carousel-arrow next" aria-label="Next slide">&#10095;</button>
+
+  <!-- Dots (we'll create dots from JS; they'll be visible on mobile only via CSS rules) -->
+  <div class="carousel-dots" aria-hidden="false"></div>
+</section>
+
+<div class="container">
+
+<!-- Pricing -->
+<section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper reveal">
+  <div class="pricing-and-snippet">
+
+    <!-- Price Box -->
+    <div class="price-box">
+      <p class="price-starting-from">
+        Price starting from
+        <span class="price-info-icon" id="price-info">?</span>
+      </p>
+
+      <div class="price-inline">
+        <span class="price">
+          INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
+        </span>
+        {trek?.priceNote && <span class="price-note">{trek.priceNote}</span>}
+      </div>
+
+      <!-- Terms & Inclusions Modals -->
+      <p>
+        <a href="#" id="open-terms">Terms & Conditions</a> |
+        <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
+        <a href="#" id="open-cancellation">Cancellation & Refunds</a>
+      </p>
+
+      
       <!-- Enquiry & Fixed Departure Sections -->
     <div class="pricing-options">
 
       {/* Enquiry Section */}
       <div class="enquiry-section">
         <h3>Customize your trek to suit your preferences.</h3>
+
         <div class="enquire-now-wrapper">
           <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
         </div>
@@ -460,7 +469,7 @@ const { gallery, name } = trek;
   </div> {/* End of pricing-and-snippet */}
 </section>
 
-  <!-- Trek Overview Section -->
+<!-- Trek Overview Section -->
 <section id="trek-overview-section" class="trek-overview-section reveal">
   <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
   <!-- Facts cards -->
@@ -477,9 +486,115 @@ const { gallery, name } = trek;
   </div>
 </section>
 
+<section class="trek-details">
+  <!-- Trek Navigation -->
+  <nav id="trek-nav">
+    <ul>
+      <li><a href="#highlights">Highlights</a></li>
+      <li><a href="#itinerary">Itinerary</a></li>
+      <li><a href="#packing-list">Packing List</a></li>
+      <li><a href="#did-you-know">Did You Know?</a></li>
+      <li><a href="#map">Map</a></li>
+      <li><a href="#how-to-reach">How to Reach</a></li> 
+      <li><a href="#gallery">Gallery</a></li>     
+      <li><a href="#faqs">TrekFAQs</a></li>
+    </ul>
+  </nav>
+
+  <!-- Highlights -->
+  <section id="highlights">
+    <h2 class="section-heading">Highlights</h2>
+    <div>
+      {trek.highlights.map((point, idx) => (
+        <p key={idx}>✅ {point}</p>
+      ))}
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section id="itinerary">
+  <h2 class="section-heading">Itinerary</h2>
+  <div class="itinerary-container">
+    {trek.itinerary.map(day => (
+      <article key={day.day} class="itinerary-day">
+        <button class="itinerary-toggle">
+          <span>📅 Day {day.day}: {day.title}</span>
+          <svg class="arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="itinerary-details" set:html={day.details}></div>
+      </article>
+    ))}
+  </div>
+</section>
+
+  <!-- Packing List -->
+    <section id="packing-list">
+      <h2 class="section-heading">Packing list</h2>
+      <p>
+        For a comprehensive packing list, download the PDF below:
+        <a href={trek.downloadLink} target="_blank" rel="noopener noreferrer">
+          Download Packing List
+        </a>
+      </p>
+    </section>
+
+    <!-- Did you know -->
+  <section id="did-you-know">
+    <h2 class="section-heading">Did you know?</h2>
+    <div>
+      {trek.didYouKnow.map((fact, idx) => (
+        <div key={idx} class="did-you-know-fact">
+          <span>✅</span>
+          <span set:html={fact}></span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Trek Map Section -->
+  <section id="map"> 
+    <h2 class="section-heading">Map</h2>
+    <TrekMap client:only="react" coordinates={trek.coordinates} />
+  </section>
+
+  <!-- How to reach -->
+  <section id="how-to-reach">
+    <h2 class="section-heading">How to reach</h2>
+    <div class="space-y-4">
+      <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
+      <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
+      <p><strong>🛣️ Road:</strong> <span set:html={trek.howToReach.road}></span></p>
+      <p><strong>🗺️ Travel Tip:</strong> <span set:html={trek.howToReach.travelTip}></span></p>
+    </div>
+  </section>
+
+   <!-- Gallery -->
+  <section id="gallery">
+    <h2 class="section-heading">Gallery</h2>
+    <GalleryLightbox client:load images={gallery} trekName={name} />
+  </section>
+
+  <!-- Trek Specific FAQs -->
+    <section id="faqs">
+      <h2 class="section-heading">TrekFAQs</h2>
+      <ul class="faq-list">
+        {trek.faqs.questions.map((q) => (
+          <li class="faq-item">
+            <button type="button" class="faq-question" aria-expanded="false">
+              {q.question}
+            </button>
+            <div class="faq-answer">{q.answer}</div>
+          </li>
+        ))}
+      </ul>
+    </section>
+</section>
+ 
 <style>
 
-  /* Collapsible headers */
+/* Collapsible headers */
 .collapsible-header {
   font-size: 0.95rem; /* smaller header */
   font-weight: bold;
@@ -781,173 +896,6 @@ const { gallery, name } = trek;
   to { opacity: 1; transform: translateY(0); }
 }
 
-</style>
-
-<section class="trek-details">
-  <!-- Trek Navigation -->
-  <nav id="trek-nav">
-    <ul>
-      <li><a href="#highlights">Highlights</a></li>
-      <li><a href="#itinerary">Itinerary</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#packing-list">Packing List</a></li>
-      <li><a href="#did-you-know">Did You Know?</a></li>
-      <li><a href="#map">Map</a></li>
-      <li><a href="#how-to-reach">How to Reach</a></li>      
-      <li><a href="#faqs">TrekFAQs</a></li>
-    </ul>
-  </nav>
-
-  <!-- Highlights -->
-  <section id="highlights">
-    <h2 class="section-heading">Highlights</h2>
-    <div>
-      {trek.highlights.map((point, idx) => (
-        <p key={idx}>✅ {point}</p>
-      ))}
-    </div>
-  </section>
-
-  <!-- Itinerary -->
-  <section id="itinerary">
-  <h2 class="section-heading">Itinerary</h2>
-  <div class="itinerary-container">
-    {trek.itinerary.map(day => (
-      <article key={day.day} class="itinerary-day">
-        <button class="itinerary-toggle">
-          <span>📅 Day {day.day}: {day.title}</span>
-          <svg class="arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-        <div class="itinerary-details" set:html={day.details}></div>
-      </article>
-    ))}
-  </div>
-</section>
-
-  <!-- Gallery -->
-  <section id="gallery">
-    <h2 class="section-heading">Gallery</h2>
-    <GalleryLightbox client:load images={gallery} trekName={name} />
-  </section>
-
-  <!-- Packing List -->
-    <section id="packing-list">
-      <h2 class="section-heading">Packing list</h2>
-      <p>
-        For a comprehensive packing list, download the PDF below:
-        <a href={trek.downloadLink} target="_blank" rel="noopener noreferrer">
-          Download Packing List
-        </a>
-      </p>
-    </section>
-
-    <!-- Did you know -->
-  <section id="did-you-know">
-    <h2 class="section-heading">Did you know?</h2>
-    <div>
-      {trek.didYouKnow.map((fact, idx) => (
-        <div key={idx} class="did-you-know-fact">
-          <span>✅</span>
-          <span set:html={fact}></span>
-        </div>
-      ))}
-    </div>
-  </section>
-
-  <!-- Trek Map Section -->
-  <section id="map"> 
-    <h2 class="section-heading">Map</h2>
-    <TrekMap client:only="react" coordinates={trek.coordinates} />
-  </section>
-
-  <!-- How to reach -->
-  <section id="how-to-reach">
-    <h2 class="section-heading">How to reach</h2>
-    <div class="space-y-4">
-      <p><strong>✈️ Air:</strong> <span set:html={trek.howToReach.air}></span></p>
-      <p><strong>🚆 Train:</strong> <span set:html={trek.howToReach.train}></span></p>
-      <p><strong>🛣️ Road:</strong> <span set:html={trek.howToReach.road}></span></p>
-      <p><strong>🗺️ Travel Tip:</strong> <span set:html={trek.howToReach.travelTip}></span></p>
-    </div>
-  </section>
-
-  <!-- Trek Specific FAQs -->
-    <section id="faqs">
-      <h2 class="section-heading">TrekFAQs</h2>
-      <ul class="faq-list">
-        {trek.faqs.questions.map((q) => (
-          <li class="faq-item">
-            <button type="button" class="faq-question" aria-expanded="false">
-              {q.question}
-            </button>
-            <div class="faq-answer">{q.answer}</div>
-          </li>
-        ))}
-      </ul>
-    </section>
-</section>
-
-<script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", () => {
-    const faqButtons = document.querySelectorAll(".faq-question");
-    faqButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const item = btn.parentElement;
-        const isOpen = item.classList.contains("open");
-        item.classList.toggle("open");
-        btn.setAttribute("aria-expanded", !isOpen);
-      });
-    });
-  });
-</script>  
-
-<script>
-  
-    document.addEventListener("DOMContentLoaded", () => {
-    const navLinks = document.querySelectorAll("#trek-nav a");
-    const sections = Array.from(navLinks).map(link =>
-      document.querySelector(link.getAttribute("href"))
-    );
-
-    const activateLink = (index) => {
-      navLinks.forEach((link, i) => {
-        if (i === index) {
-          link.classList.add("active");
-        } else {
-          link.classList.remove("active");
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = sections.indexOf(entry.target);
-          if (index !== -1) activateLink(index);
-        }
-      });
-    }, {
-      rootMargin: "-30% 0px -60% 0px",
-      threshold: 0
-    });
-
-    sections.forEach((section) => {
-      if (section) observer.observe(section);
-    });
-
-    // Scroll on click
-    navLinks.forEach((link, index) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        sections[index].scrollIntoView({ behavior: "smooth" });
-      });
-    });
-  });
-</script>
- 
-<style>
 .faqs {
   background: #fff;
   padding: 2rem;
@@ -1600,6 +1548,64 @@ const { gallery, name } = trek;
 }
 
 </style>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+    const faqButtons = document.querySelectorAll(".faq-question");
+    faqButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const item = btn.parentElement;
+        const isOpen = item.classList.contains("open");
+        item.classList.toggle("open");
+        btn.setAttribute("aria-expanded", !isOpen);
+      });
+    });
+  });
+</script>  
+
+<script>
+  
+    document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll("#trek-nav a");
+    const sections = Array.from(navLinks).map(link =>
+      document.querySelector(link.getAttribute("href"))
+    );
+
+    const activateLink = (index) => {
+      navLinks.forEach((link, i) => {
+        if (i === index) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = sections.indexOf(entry.target);
+          if (index !== -1) activateLink(index);
+        }
+      });
+    }, {
+      rootMargin: "-30% 0px -60% 0px",
+      threshold: 0
+    });
+
+    sections.forEach((section) => {
+      if (section) observer.observe(section);
+    });
+
+    // Scroll on click
+    navLinks.forEach((link, index) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        sections[index].scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  });
+</script>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
