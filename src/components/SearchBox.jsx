@@ -97,10 +97,10 @@ export default function SearchBox() {
               width: dropdownPos.width,
               maxWidth: window.innerWidth < 768 ? "100%" : "none",
               background: "white",
-              border: "1px solid #ff7300",
+              border: "2px solid #ff7300",
               borderRadius: "8px",
               zIndex: 9999, // much higher than navbar
-              boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+              boxShadow: "0 4px 12px #ff7300",
             }}
           >
             {results.length > 0 ? (

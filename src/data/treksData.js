@@ -388,7 +388,7 @@ export const treks = [
     tags: ["beginner", "family"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn", "winter"],
-    month: ["may", "june", "july", "august", "september", "october", "november", "december", "january"],
+    month: ["may", "june", "july", "august", "september", "october", "november", "december"],
     duration: ["4 Nights / 5 Days"],
     region: "himachal",
     coordinates: [
@@ -541,8 +541,8 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     name: "Rani Sui Lake Trek",
     tags: ["beginner", "family"],
     difficulty: ["easy"],
-    season: ["summer", "autumn"],
-    month: ["may", "june", "july", "august", "september", "october"],
+    season: ["summer", "autumn", "monsoon", "winter","spring"],
+    month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
     duration: ["3 Nights / 4 Days"],
     region: "himachal",
     coordinates: [
@@ -582,7 +582,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
             { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
         ],
     snippet: 
-"Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas."    
+"Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
     },
 
     price: 8900,

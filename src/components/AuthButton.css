@@ -3,19 +3,23 @@
   background-color: transparent;        /* black */
   color: #ff7300;                /* brand text */
   font-weight: bold;
-  border: 1px solid #ff7300;     /* brand border */
+  border: 2px solid #ff7300;     /* brand border */
   padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 /* HOVER STATE (reversed from normal) */
 .auth-btn.login:hover {
   background-color: #ff7300;     /* brand background */
   color: #000;                   /* black text */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
   transform: scale(1.05);
 }
 
@@ -23,7 +27,9 @@
   background-color: #ff7300;     /* brand background */
   color: #000;                   /* black text */
   border-color: #000;            /* black border */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
 }
 
 .auth-profile-wrapper {
@@ -36,7 +42,7 @@
   height: 2.5rem;
   background-color: #000;
   color: #ff7300;
-  border: 1px solid #ff7300;
+  border: 2px solid #ff7300;
   font-weight: bold;
   border-radius: 50%;
   display: flex;
@@ -50,7 +56,9 @@
   background-color: #ff7300;     /* brand background */
   color: #000;                   /* black text */
   border-color: #000;            /* black border */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
   transform: scale(1.05);
 }
 
@@ -72,7 +80,7 @@
   background: #000 !important;               /* Black background (force override) */
   color: #ff7300 !important;                 /* Brand text (force override) */
   text-decoration: none;
-  border: 1px solid #ff7300 !important;
+  border: 2px solid #ff7300 !important;
   border-radius: 8px;
   cursor: pointer;
   text-align: left;
@@ -84,7 +92,7 @@
 .profile-dropdown .dropdown-link:hover {
   background-color: #ff7300 !important;      /* Brand background */
   color: #000 !important;                    /* Black text */
-  border: 1px solid #000 !important;
+  border: 2px solid #000 !important;
   border-radius: 8px;
 }
 

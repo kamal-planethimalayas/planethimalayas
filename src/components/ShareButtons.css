@@ -20,9 +20,10 @@
   gap: 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   padding: 0.5rem 1rem;
-  border: 2px solid #ff7300;
   border-radius: 6px;
   transition: all 0.3s ease;
 }

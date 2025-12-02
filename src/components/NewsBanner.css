@@ -38,13 +38,14 @@
   top: 50%;
   transform: translateY(-50%);  /* always vertically centered */
   padding: 6px 14px;
-  background: black;
+  background: #fff;
   border: 1px solid #ff7300;
   color: #ff7300;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: all 0.3s ease;
   line-height: normal;   /* prevent vertical trim */
 }
@@ -53,7 +54,9 @@
   background: #ff7300;
   color: #000;
   /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
   transform: translateY(-50%) scale(1.05);
 }
 

@@ -56,7 +56,9 @@ html {
   text-decoration: none;
   z-index: 3;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 .hero-gallery-btn:hover {
@@ -64,7 +66,9 @@ html {
   background: #ff7300;
   color: black;
   /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
 }
 
 /* image slides stacked absolutely */
@@ -208,12 +212,7 @@ html {
   }
 }
 
-
-
-
 /* ======= MOBILE RESPONSIVE ADJUSTMENTS ======= */
-
-
 
 body {
   font-family: 'Roboto', sans-serif; /* Body font */
@@ -221,8 +220,6 @@ body {
   color: #222;
   background-color: #fff;
 }
-
-
 
 /* 2. PAGE WIDTH & CONTAINER */
 :root {
@@ -259,10 +256,6 @@ section {
   color: Black;
 }
 
-
-
-
-
 .reveal {
   opacity: 0;
   transform: translateY(50px);
@@ -274,6 +267,108 @@ section {
   transform: translateY(0);
 }
 
+/* Blog Interactions */
+
+.interaction-btn {
+  background: transparent;
+  border: none;
+  color: #ff7300;
+  font-weight: 600;
+  padding: 6px 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+}
+
+/* Hover effect */
+.interaction-btn:hover {
+  color: #000;
+  border: 2px solid #ff7300;
+  background: #ff7300;
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+}
+
+/* Group spacing */
+.interaction-group {
+  display: flex;
+  gap: 10px;
+  padding: 0 2rem;
+}
+
+/* Container */
+.comments-section {
+  width: 100%;
+  padding: 2rem;
+}
+
+/* Comment input box */
+.comment-box textarea {
+  width: 100%;
+  min-height: 90px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  resize: vertical;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.25s ease;
+}
+
+/* Focus glow */
+.comment-box textarea:focus {
+  border-color: #ff7300;
+  box-shadow: 0 0 8px #ff7300;
+}
+
+/* Comments List */
+.comments-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Individual comment */
+.comment {
+  padding: 12px 14px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.comment strong {
+  color: #ff7300;
+  font-size: 14px;
+}
+
+.comment p {
+  margin: 6px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.comment small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Smooth reveal */
+.comment-box.show,
+.comments-list.show {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
 
 

@@ -450,20 +450,26 @@ import "../styles/global.css";
   color: #ff7300;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  padding: 0.7rem 2.5rem;
+  padding: 1rem 2.5rem;
   border-radius: 8px;
   border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
   background: #ff7300;
   color: #000;
-  transform: scale(1.2);
-  /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  border: 2px solid #ff7300;
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
 }
 
 /* Arrows */
@@ -561,7 +567,7 @@ import "../styles/global.css";
   }
 }
 
-/* Testimonials Section - Dark Theme */
+/* Testimonials Section */
 .testimonials {
   background-color: white; /* black background */
   color: #fff;            /* white text globally */
@@ -599,18 +605,22 @@ import "../styles/global.css";
   flex: 0 0 32%; /* 3 per row on desktop */
   max-width: 33.3333%;
   scroll-snap-align: start;
-  background: #111; /* slightly lighter black for cards */
+  background: transparent; /* slightly lighter black for cards */
   border-radius: 12px;
   padding: 2rem;
-  color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  border: 2px solid transparent;
+  color: #000;
+  transform-style: preserve-3d;
+  transition: 
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border 0.3s ease;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 .testimonial-card:hover {
-   transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
-  border: 2px solid #ff7300;
+  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
 
   /* Directional premium glow */
   box-shadow:
@@ -630,11 +640,12 @@ import "../styles/global.css";
   margin-top: 0.5rem;
   overflow: hidden;
   max-height: 60px; /* collapsed height */
-  transition: max-height 0.3s ease;
+  transition: max-height 0.45s ease;
 }
 
 .testimonial-card.expanded .testimonial-text {
-  max-height: 500px; /* expands on click */
+  max-height: 500px;
+  text-shadow: none;
 }
 
 /* Header and info */
@@ -653,11 +664,13 @@ import "../styles/global.css";
   border: 2px solid #ff7300;
 }
 
-.testimonial-info h3,
+.testimonial-info h3 {
+  color: #ff7300;
+}
 .testimonial-profession,
 .testimonial-social a
  {
-  color: #fff;
+  color: #000;
 }
 
 .testimonial-stars {
@@ -782,7 +795,7 @@ import "../styles/global.css";
 .trek-card {
   flex: 0 0 32%;
   scroll-snap-align: start;
-  background: #111;
+  background: transparent;
   border-radius: 12px;
   overflow: hidden;
   position: relative;
@@ -796,15 +809,14 @@ import "../styles/global.css";
     transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     border 0.3s ease;
-  box-shadow: 
-    0 4px 8px rgba(0,0,0,0.10),
-    0 8px 18px rgba(0,0,0,0.12);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 /* Hover: 3D pop + brand border + directional glow (light from above) */
 .trek-card:hover {
   transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
-  border: 2px solid #ff7300;
 
   /* Directional premium glow */
   box-shadow:
@@ -862,7 +874,7 @@ import "../styles/global.css";
 .trek-name {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #fff;
+  color: #ff7300;
   text-align: center;
   margin: 2rem 2rem 2rem;
 }
@@ -874,7 +886,7 @@ import "../styles/global.css";
   align-items: center;     /* vertically center icons and text */
   margin: 2rem;            /* keep your existing margin */
   font-size: 1rem;
-  color: white;
+  color: #000;
   text-align: initial;     /* optional: reset text-align */
 }
 
@@ -896,12 +908,13 @@ import "../styles/global.css";
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
-
   border-radius: 6px;
   border: 2px solid #ff7300;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   color: #ff7300;
   background: transparent;
-
   transition: all 0.25s ease;
 }
 
@@ -909,7 +922,9 @@ import "../styles/global.css";
 .trek-card a.btn:hover {
   background: #ff7300;
   color: black;
-  box-shadow: 0 4px 12px #ff7300;
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
 }
 
 

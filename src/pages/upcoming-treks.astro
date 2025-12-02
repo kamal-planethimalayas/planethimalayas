@@ -60,7 +60,7 @@ const passTreks = treks.filter(
   background-color: rgba(0,0,0,0.2);
   border-radius: 3px;
 }
-.filter-title { display:inline; font-size:2.5rem; font-weight:700; color:white; margin-bottom:1rem; border-bottom:4px solid #ff7300; }
+.filter-title { display:inline; font-size:2.5rem; font-weight:700; color:#ff7300; margin-bottom:1rem; border-bottom:4px solid #ff7300; }
 .filter-group h3 { margin-top:1rem; margin-bottom:0.5rem; color:#ff7300; font-weight:700; border-bottom:1px solid #ff7300; text-transform:capitalize; }
 .filter-group label { display:block; font-size:0.85rem; margin-bottom:0.25rem; cursor:pointer; color:white; }
 .filter-group label:hover { color:#ff7300; }
@@ -110,11 +110,15 @@ const passTreks = treks.filter(
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  background: #111;
+  background: transparent;
   border-radius: 14px;
   overflow: hidden;
   font-family: Helvetica, Arial, sans-serif;
   cursor: pointer;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
 
   /* bigger card */
   min-height: 450px;
@@ -151,7 +155,6 @@ const passTreks = treks.filter(
 -------------------------------------------------- */
 .trek-card:hover {
   transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
-  border: 2px solid #ff7300;
 
   /* Directional premium glow */
   box-shadow:
@@ -206,14 +209,13 @@ const passTreks = treks.filter(
   font-size: 1.5rem;
   margin: 1rem 1rem 0.6rem;
   text-align: center;
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  color: #ff7300;
 }
 
 .trek-info {
   text-align: center;
   font-size: 1rem;
-  color: #eee;
+  color: #000;
   margin-bottom: 1rem;
 }
 
@@ -241,6 +243,9 @@ const passTreks = treks.filter(
   text-align: center;
   transition: all 0.35s ease;
   border: 2px solid #ff7300;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   color: #ff7300;
   background: transparent;
 }
@@ -248,7 +253,9 @@ const passTreks = treks.filter(
 .trek-buttons a.btn:hover {
   background: #ff7300;
   color: black;
-  box-shadow: 0 4px 12px #ff7300;
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
 }
 
 /* --------------------------------------------------
@@ -296,7 +303,9 @@ const passTreks = treks.filter(
 
 /* Hover Glow Effect */
 .sticky-filter-btn:hover {
-    box-shadow: 0 0 12px #ff7300, 0 0 24px #ff7300;
+    box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
     transform: translateY(-2px);
 }
 
@@ -311,7 +320,7 @@ const passTreks = treks.filter(
 
 /* Filter modal title */
 .filter-modal-header h2 {
-  color: #fff;                 /* white text */
+  color: #ff7300;                 /* white text */
   font-size: 2.5rem;
   font-weight: 700;
   position: relative;
@@ -382,17 +391,21 @@ const passTreks = treks.filter(
 }
 
 .suggested-trek-card {
-  background: #111;
+  background: transparent;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .suggested-trek-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
 }
 
 .suggested-trek-card img {
@@ -403,7 +416,7 @@ const passTreks = treks.filter(
 
 .suggested-trek-card h3 {
   font-size: 1rem;
-  color: #fff;
+  color: #ff7300;
   margin: 0.6rem 0;
   padding: 0 0.4rem;
 }
@@ -420,14 +433,18 @@ const passTreks = treks.filter(
   font-size: 0.85rem;
   margin-bottom: 0.8rem;
   border: 2px solid #ff7300;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .btn-suggested:hover {
   background: #ff7300;
   color: black;
-  box-shadow: 0 4px 12px #ff7300;
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
 }
 
 </style>

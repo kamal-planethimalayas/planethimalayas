@@ -132,13 +132,13 @@ import Layout from "../layouts/Layout.astro";
 .contact-cards .card {
   flex: 1 1 45%;
   min-width: 250px;
-  background-color: #111; /* as before */
+  background-color: transparent; /* as before */
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
-  box-shadow: 
+  box-shadow:
     0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 8px rgba(255, 115, 0, 0.3); /* brand glow restored */
+    0 0 10px rgba(255, 115, 0, 0.3);
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -146,6 +146,7 @@ import Layout from "../layouts/Layout.astro";
 /* Hover → lift + stronger brand glow */
 .contact-cards .card:hover {
   transform: translateY(-8px);
+  border: 2px solid #ff7300;
   box-shadow: 
     0 8px 25px rgba(255, 115, 0, 0.75),
     0 0 20px rgba(255, 115, 0, 0.8); /* bright brand glow */
@@ -162,7 +163,7 @@ import Layout from "../layouts/Layout.astro";
 /* Card links */
 .contact-cards .card a {
   text-decoration: none;
-  color: #fff; /* original */
+  color: #000; /* original */
   font-weight: bold;
   display: block;
   margin-bottom: 8px;
@@ -244,9 +245,11 @@ import Layout from "../layouts/Layout.astro";
   font-weight: 700;
   padding: 0.7rem 2.5rem;
   border-radius: 8px;
-  border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 2px solid #ff7300;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -255,7 +258,10 @@ import Layout from "../layouts/Layout.astro";
   color: black;
   transform: scale(1.05);
   /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+
 }
 
 /* Modal */

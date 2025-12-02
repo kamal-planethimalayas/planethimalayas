@@ -3,12 +3,7 @@
           align-items: center;
           gap: 10px;
           padding: 8px;
-          border-bottom: 1px solid #eee;
           text-decoration: none;
-        }
-
-        .result-card:last-child {
-          border-bottom: none;
         }
         .result-card:hover {
           background-color: #f5f5f5;
@@ -17,7 +12,6 @@
           width: 60px;
           height: 40px;
           object-fit: cover;
-          border-radius: 4px;
         }
         .card-content h4 {
           margin: 0;
@@ -35,8 +29,6 @@
           padding: 10px;
           text-align: center;
           font-size: 14px;
-          color: #ff7300;
-          ;
         }
 .no-result {
   display: flex;
@@ -54,35 +46,45 @@
 
 .upcoming-btn {
   padding: 6px 14px;
-  background-color: #ff7300; /* brand color */
-  color: #000;
+  background-color: transparent; /* brand color */
+  color: #ff7300;
   border-radius: 8px;
-  border: 2px solid #000;
   text-decoration: none;
   font-weight: bold;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: background 0.2s ease;
 }
 
 .upcoming-btn:hover {
   background-color: #ff7300;
+  color: black;
   transform: scale(1.05);
   /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
 }
 
 .search-box input {
   padding: 0.5rem 1rem; /* requested padding */
   margin-right: 1rem;
   font-size: 1rem;
-  border: 1px solid #ff7300;
+  border: 2px solid #ff7300;
   border-radius: 8px;
   outline: none;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 .search-box input:focus {
   border-color: #ff7300;
   box-shadow: 0 0 8px #ff7300;
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
 }
 

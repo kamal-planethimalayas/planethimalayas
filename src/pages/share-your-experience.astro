@@ -241,9 +241,11 @@ const brandColor = "#ff7300";
   font-weight: 700;
   padding: 0.7rem 2.5rem;
   border-radius: 8px;
-  border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 2px solid #ff7300;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 0.75rem 1.5rem;
   cursor: pointer;
@@ -257,7 +259,10 @@ const brandColor = "#ff7300";
   color: black;
   transform: scale(1.05);
   /* Bottom glow effect only */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+
 }
 
 /* Thank You Message */
