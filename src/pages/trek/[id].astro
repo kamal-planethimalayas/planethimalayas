@@ -325,22 +325,24 @@ const { gallery, name } = trek;
       </div>
     </div>
 
-<!-- Hero Section -->
-<section class="trek-hero reveal" data-trek-id="{trek.id}">
+<!-- Hero Section (3D Version) -->
+<section class="trek-hero-3d" data-trek-id="{trek.id}">
   <div class="hero-overlay"></div>
 
-  <!-- Image slides: map over heroImages if present, otherwise use heroImage -->
-  <!-- ⚠️ In Astro/JSX syntax: use (trek.heroImages ?? [trek.heroImage]).map(...) -->
-  <!-- Example (Astro/JSX style): -->
-  { (trek.heroImages ?? [trek.heroImage]).map((src, i) => (
-    <img
-      src={src}
-      alt={trek.name + " slide " + (i+1)}
-      class={`trek-hero-image carousel-slide ${i === 0 ? 'active' : ''}`}
-      data-index={i}
-      loading={i === 0 ? "eager" : "lazy"}
-    />
-  )) }
+  <!-- 3D Cube -->
+  <div class="carousel-3d-wrapper">
+    <div class="cube">
+      { (trek.heroImages ?? [trek.heroImage]).map((src, i) => (
+        <img
+          src={src}
+          alt={trek.name + " slide " + (i+1)}
+          class={`carousel-3d-slide face-${i}`}
+          data-index={i}
+          loading={i === 0 ? "eager" : "lazy"}
+        />
+      )) }
+    </div>
+  </div>
 
   <div class="hero-content">
     <div class="hero-text">
@@ -349,15 +351,12 @@ const { gallery, name } = trek;
     </div>
   </div>
 
-   <!-- ✅ NEW GALLERY BUTTON -->
   <a href="#gallery" class="hero-gallery-btn">Gallery</a>
 
-  <!-- Arrows -->
   <button class="carousel-arrow prev" aria-label="Previous slide">&#10094;</button>
   <button class="carousel-arrow next" aria-label="Next slide">&#10095;</button>
 
-  <!-- Dots (we'll create dots from JS; they'll be visible on mobile only via CSS rules) -->
-  <div class="carousel-dots" aria-hidden="false"></div>
+  <div class="carousel-dots"></div>
 </section>
 
 <div class="container">
@@ -585,7 +584,7 @@ const { gallery, name } = trek;
             <button type="button" class="faq-question" aria-expanded="false">
               {q.question}
             </button>
-            <div class="faq-answer">{q.answer}</div>
+            <div class="faq-answer"><div set:html={q.answer}></div></div>
           </li>
         ))}
       </ul>
@@ -1737,86 +1736,64 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <script>
-/* Vanilla JS carousel - works with the static mapping above.
-   Place this script in the page (or init via client:load in Astro) so it runs in the browser.
-*/
-document.addEventListener('DOMContentLoaded', () => {
-  const section = document.querySelector('.trek-hero.reveal');
-  if (!section) return;
+document.addEventListener("DOMContentLoaded", () => {
+  const section = document.querySelector(".trek-hero-3d");
+  const cube = section.querySelector(".cube");
+  const slides = section.querySelectorAll(".carousel-3d-slide");
+  const dotsContainer = section.querySelector(".carousel-dots");
+  const prevBtn = section.querySelector(".carousel-arrow.prev");
+  const nextBtn = section.querySelector(".carousel-arrow.next");
 
-  // Select slides (images) inside this section
-  const slides = Array.from(section.querySelectorAll('.carousel-slide'));
-  if (slides.length === 0) return;
+  const total = slides.length;
+  let index = 0;
+  let autoTimer;
+  const delay = 4000;
 
-  const prevBtn = section.querySelector('.carousel-arrow.prev');
-  const nextBtn = section.querySelector('.carousel-arrow.next');
-  const dotsContainer = section.querySelector('.carousel-dots');
+  /* Create Dots */
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement("button");
+    if (i === 0) dot.classList.add("active");
+    dotsContainer.appendChild(dot);
+  }
+  const dots = dotsContainer.querySelectorAll("button");
 
-  let current = 0;
-  let autoSlide;
-
-  // Create dots only if more than 1 slide
-  if (slides.length > 1) {
-    slides.forEach((_, idx) => {
-      const btn = document.createElement('button');
-      if (idx === 0) btn.classList.add('active');
-      btn.setAttribute('aria-label', 'Go to slide ' + (idx + 1));
-      btn.addEventListener('click', () => goToSlide(idx));
-      dotsContainer.appendChild(btn);
-    });
+  /* Rotate Cube */
+  function rotateCube(i) {
+    index = (i + total) % total;
+    cube.style.transform = `rotateY(${index * -90}deg)`;
+    dots.forEach((dot, d) => dot.classList.toggle("active", d === index));
   }
 
-  const dots = Array.from(dotsContainer.querySelectorAll('button'));
-
-  function updateUI() {
-    slides.forEach((s, i) => s.classList.toggle('active', i === current));
-    dots.forEach((d, i) => d.classList.toggle('active', i === current));
-  }
-
-  function goToSlide(n) {
-    current = (n + slides.length) % slides.length;
-    updateUI();
-    resetAuto();
-  }
-
-  function nextSlide() { goToSlide(current + 1); }
-  function prevSlide() { goToSlide(current - 1); }
-
-  if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); resetAuto(); });
-  if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); resetAuto(); });
-
-  // Auto slide, only if more than 1 image
+  /* Auto Rotate */
   function startAuto() {
-    if (slides.length <= 1) return;
-    stopAuto();
-    autoSlide = setInterval(nextSlide, 5000);
+    clearTimeout(autoTimer);
+    autoTimer = setTimeout(() => {
+      rotateCube(index + 1);
+      startAuto();
+    }, delay);
   }
-  function stopAuto() { if (autoSlide) clearInterval(autoSlide); }
 
-  // Pause on hover (desktop)
-  section.addEventListener('mouseenter', stopAuto);
-  section.addEventListener('mouseleave', startAuto);
-
-  // Touch swipe for mobile
-  let startX = 0;
-  section.addEventListener('touchstart', e => startX = e.touches[0].clientX);
-  section.addEventListener('touchend', e => {
-    const endX = e.changedTouches[0].clientX;
-    const diff = endX - startX;
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) prevSlide();
-      else nextSlide();
-      resetAuto();
-    }
+  /* Buttons */
+  nextBtn.addEventListener("click", () => {
+    rotateCube(index + 1);
+    startAuto();
   });
 
-  function resetAuto() {
-    stopAuto();
+  prevBtn.addEventListener("click", () => {
+    rotateCube(index - 1);
     startAuto();
-  }
+  });
 
-  // init
-  updateUI();
+  /* Dots Click */
+  dots.forEach((dot, i) => {
+    dot.addEventListener("click", () => {
+      rotateCube(i);
+      startAuto();
+    });
+  });
+
+  /* Initialize */
+  rotateCube(0);
   startAuto();
 });
 </script>

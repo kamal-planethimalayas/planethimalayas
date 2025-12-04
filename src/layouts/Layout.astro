@@ -483,6 +483,10 @@ import SearchBox from "../components/SearchBox.jsx";
   transition: border 0.3s ease;
   border: 4px solid transparent;
   border-radius: 10px;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
 }
 
 .hamburger span {
@@ -498,7 +502,9 @@ import SearchBox from "../components/SearchBox.jsx";
 .hamburger:focus,
 .hamburger.active {
   border-color: var(--brand-color);
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
   transform: scale(1.05);
 }
 
@@ -607,7 +613,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
   transition: all 0.3s ease;
 }
 
@@ -621,7 +629,9 @@ main {
 /* HOVER EFFECT */
 .mobile-search-toggle:hover .mobile-search-icon {
   background: #ff7300;             /* brand background */
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0,0,0,0.4); /* glow */
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
   transform: scale(1.05);
 }
 

@@ -22,23 +22,103 @@ html {
   }
 }
 
+/* ================================
+   TREK HERO — 3D CUBE CAROUSEL
+================================ */
 
-/* Smooth layout adjustment for content */
-
-
-/* ====== Trek Hero Section ====== */
-/* container */
-.trek-hero {
+/* Outer hero container */
+.trek-hero-3d {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
   color: white;
-  margin: 0;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* ================================
+   3D WRAPPER + CUBE
+================================ */
+/* ============================
+   MATCHING INDEX PAGE DEPTH
+============================ */
+.carousel-3d-wrapper {
+  perspective: 30000px;        /* SAME AS INDEX */
+  width: 100%;
+  height: 120vh;               /* Your preferred */
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out;   /* SAME AS INDEX */
+}
+
+/* Cube faces — MATCH INDEX BEHAVIOUR EXACTLY */
+.carousel-3d-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Use VIEWPORT DEPTH instead of px — EXACTLY LIKE INDEX */
+.face-0 { transform: rotateY(0deg) translateZ(50vw); }
+.face-1 { transform: rotateY(90deg) translateZ(50vw); }
+.face-2 { transform: rotateY(180deg) translateZ(50vw); }
+.face-3 { transform: rotateY(270deg) translateZ(50vw); }
+
+/* ================================
+   CONTENT (TITLE + SUBTITLE)
+================================ */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Title */
+.trek-hero-title {
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  color: #fff;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Subtitle */
+.trek-hero-subtitle {
+  font-size: clamp(1rem, 4vw, 2rem);
+  color: #fff;
+  margin-top: 0.5rem;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Allow wrap on mobile */
+@media (max-width: 768px) {
+  .trek-hero-title,
+  .trek-hero-subtitle {
+    white-space: normal;
+  }
 }
 
 .hero-gallery-btn {
@@ -69,60 +149,6 @@ html {
   box-shadow:
     0 8px 25px rgba(255, 115, 0, 0.8),
     0 0 22px rgba(255, 115, 0, 1);
-}
-
-/* image slides stacked absolutely */
-.trek-hero .carousel-slide {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  opacity: 0;
-  transform: scale(1.02);
-  transition: opacity 1s ease, transform 1s ease;
-  z-index: 0;
-  pointer-events: none;
-}
-
-/* active slide visible */
-.trek-hero .carousel-slide.active {
-  opacity: 1;
-  transform: scale(1);
-  z-index: 0;
-  pointer-events: auto;
-}
-
-/* content (title/subtitle) sits above overlay and images */
-.trek-hero .hero-content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  width: 90%;
-  max-width: 1200px;
-  padding: 0 1rem;
-}
-
-/* title/subtitle styles - same mapping as before */
-.trek-hero-title {
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  color: #fff;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.trek-hero-subtitle {
-  font-size: clamp(1rem, 4vw, 2rem);
-  color: #fff;
-  margin-top: 0.5rem;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* arrows (desktop) */
@@ -171,13 +197,17 @@ html {
   display: inline-block;
   transition: transform 0.25s, background 0.25s;
   border: 2px solid #ff7300;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
 }
 
 .carousel-dots button.active {
   background-color: #ff7300;
   transform: scale(1.05);
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
 }
 
 /* hide dots on desktop, show on mobile */
@@ -193,7 +223,7 @@ html {
 
 /* responsive heights */
 @media (max-width: 767px) {
-  .trek-hero { height: 70vh; margin-top: -55px; }
+  .trek-hero-3d { height: 70vh; margin-top: -55px; }
 }
 
 /* On desktop, keep visible (above dots hidden anyway) */

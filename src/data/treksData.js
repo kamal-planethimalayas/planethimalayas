@@ -1,4 +1,6 @@
 // src/data/treksData.js
+
+/* Himachal Pradesh */
 export const treks = [
   {
     id: "pin-bhaba-pass-trek",
@@ -178,6 +180,281 @@ export const treks = [
     },
     faqsLink: "/pages/faqs-and-articles",
   },
+
+  {
+  id: "pin-parvati-pass-trek",
+  name: "Pin Parvati Pass Trek",
+  tags: ["pass"],
+  difficulty: ["difficult"],
+  season: ["monsoon", "autumn"],
+  month: ["july", "august", "september"],
+  duration: ["10 Nights / 11 Days"],
+  region: "himachal pradesh",
+  coordinates: [
+    [31.9985, 77.3588], // Barshaini (start)
+    [32.0127, 77.4311], // Kheerganga
+    [32.0442, 77.5189], // Tunda Bhuj
+    [32.0761, 77.6123], // Thakur Kuan
+    [32.0911, 77.7135], // Odi Thach
+    [32.0985, 77.8262], // Mantalai Lake
+    [32.0978, 77.8917], // Base Camp (Parvati side)
+    [32.1022, 77.9445], // Pin Parvati Pass (17,450 ft)
+    [32.1318, 77.9814], // Pin Valley
+    [32.1862, 78.0544], // Mudh Village (end)
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
+  ],
+
+  subtitle: "Traverse the Untamed Himalayas",
+
+  seo: {
+    title: "Pin Parvati Pass Trek | Route, Itinerary & Cost | Planethimalayas",
+    description: "Pin Parvati Pass Trek (17,450 ft) is one of the most thrilling high-altitude crossovers in Himachal. A 11-day expedition that bridges lush Parvati Valley and stark Pin Valley of Spiti — glaciers, meadows, and raw Himalayan drama in one trek."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days (+1 buffer day)" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,450 ft (Pin Parvati Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "July to September" },
+      { emoji: "🗺️", label: "Region", value: "Kullu & Spiti, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Barshaini (near Kasol)" },
+      { emoji: "🏁", label: "End Point", value: "Kaza, Spiti Valley" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not vailable" },
+    ],
+
+    snippet:
+      "The Pin Parvati Pass Trek is far more than just a Himalayan trail — it’s a bold journey across two completely distinct worlds. On one side, the Parvati Valley greets you with its lush, emerald forests, cascading waterfalls, hot springs, and vibrant meadows alive with flowers and birdsong. On the other, the Pin Valley unfolds as a high-altitude cold desert, a land of ochre cliffs, sapphire skies, and barren stretches that seem untouched by time. At an astonishing 5,289 meters, the pass itself stands as the ultimate bridge between these extremes — a place where greenery gives way to arid lands, moisture yields to thin, crisp air, and gentle streams transform into ice-laden rivers. <br>The trek begins at Barshaini, near the quaint village of Kasol, where the trail winds through the dreamy meadows of Kheerganga and Odi Thach, each step immersing you deeper into the wild heart of Himachal. You traverse rivers, cross wooden bridges, navigate dense forests, and ascend flower-strewn meadows before reaching the serene glacial lake of Mantalai, a campsite cradled by the towering peaks. The final push to the pass is a test of endurance and mountain sense, negotiating glaciers, steep ascents, and unpredictable high-altitude conditions. The moment you stand on the pass, gazing at the dramatic transition from Parvati’s green abundance to the stark, almost surreal Spiti Valley, you feel the Himalayas in their raw, unfiltered glory. <br>This is not a trek for the faint-hearted. The Pin Parvati Pass demands stamina, acclimatization, and respect for the high-altitude wilderness, where help is far away, and every stream crossing, rock scramble, or icy patch carries its own risks. Yet, it is precisely this challenge that makes it so unforgettable. Along the way, you also witness the fascinating coexistence of Himalayan cultures — from the forest-dwelling communities of Parvati Valley to the resilient villages of Spiti, shaped entirely by their environment. Every day brings new perspectives, new terrain, and new moments of awe that imprint themselves on your memory."
+  },
+
+  price: 46900,
+  priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
+  addons: {
+    transport: null,
+    offloadingbag: 7500,
+    transportNote: "* Trekkers can request transport arrangements from Manali to Barshaini and from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+    offloadingNote: "* Max weight 9 kg per bag."
+  },
+
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to packed lunch on Day 10",
+
+  enquireOnly: true,
+
+  highlights: [
+    "A rare crossover connecting lush Parvati Valley to arid Spiti Valley",
+    "Cross one of the highest Himalayan passes at 17,450 ft",
+    "Witness dramatic terrain shifts — meadows, moraines, glaciers, and deserts",
+    "Camp beside the sacred Mantalai Lake, the origin of the Parvati River",
+    "Experience both Buddhist and Hindu cultures in a single trek route",
+    "A challenging, raw, and rewarding trek for seasoned trekkers only"
+  ],
+
+ itinerary: [
+  {
+    day: 1,
+    title: "Bhuntar (2,000M) to Barsheni (2,580M)",
+    details: `• Distance: 50 kms | Duration: 2.5 hours<br>
+
+• The trek begins with a relaxed start — assembling at Bhuntar and driving up to Barsheni, the trailhead for the Pin Parvati Pass trek. Bhuntar, just 11 km from Kullu, is well connected via its airport to major cities. The scenic drive of 50 km takes around 2.5 hours. From Barsheni, we trek a short stretch of less than 20 minutes to Kalga. The remainder of the day is spent going through the trek itinerary, meeting fellow trekkers, checking gear, and settling into your guesthouse or campsite. This day allows you to absorb the first glimpse of the Himalayan landscape and prepare for the adventure ahead.`
+  },
+  {
+    day: 2,
+    title: "Kalga (2,280M) to Kheerganga (2,960M)",
+    details: `• Distance: 8 kms | Duration: 6 hours<br>
+
+• Kalga is a quaint village in Parvati Valley, surrounded by apple orchards and colorful flora. The trail begins with a steep descent to the riverbed, followed by a moderate climb to Nakthan village — a tiny settlement of 20–30 households. Nakthan offers a brief respite and some refreshments, with views of the roaring Parvati River. From here, we continue through meadows and past Rudranag Temple, named after the nearby serpent-like waterfall. After crossing a wooden bridge over the Parvati River, the trail gradually ascends to Kheerganga. This campsite lies in the heart of a vast meadow, with natural hot springs perfect for a warm dip — likely the last for several days. The trail has multiple stream crossings, but plenty of rest points make it manageable.`
+  },
+  {
+    day: 3,
+    title: "Kheerganga (2,960M) to Tunda Bhuj (3,200M)",
+    details: `• Distance: 11.37 kms | Duration: 4-5 hours<br>
+
+• We begin early from Kheerganga, trekking through flower-strewn meadows. The trail alternates between muddy paths and flat terrain through dense forests. While the distance is moderate, the real challenge is resisting frequent halts to admire the landscape and capture photographs. The final stretch involves a steep climb through mucky terrain, followed by a short walk across meadows. As you spot the foamy waterfalls across the river, you'll know you've reached the Tunda Bhuj campsite, surrounded by cliffs and the gentle roar of the Parvati River.`
+  },
+  {
+    day: 4,
+    title: "Tunda Bhuj (3,200M) to Thakur Kuan (3,620M)",
+    details: `• Distance: 5.24 kms | Duration: 3-4 hours<br>
+
+• After breakfast, we leave Tunda Bhuj, following a trail dotted with meadows and cascading waterfalls. The day involves a 400M climb, making it a relatively easy trek. There is a tricky section about an hour into the trail, where landslides are possible, so caution is advised. As the tree line ends, the terrain becomes rocky. Thakur Kuan’s campsite is a vast pasture beside the Parvati River, with a nearby trolley bridge to explore if you arrive early.`
+  },
+  {
+    day: 5,
+    title: "Thakur Kuan (3,620M) to Odi Thatch (3,815M)",
+    details: `• Distance: 9.66 kms | Duration: 4-5 hours<br>
+
+• Today is thrilling, with two natural boulder bridges to cross — Pandu Pul 1 and Pandu Pul 2 — in the middle of the ferocious Parvati River. After the river-crossing adventure, the trail eases into a straight shepherd trail with multiple paths leading to Odi Thatch. This campsite, true to its name meaning 'meadows', is set in an expansive alpine pasture, offering a galactic-like panorama. Careful navigation is needed to follow the guide through the labyrinthine trail.`
+  },
+  {
+    day: 6,
+    title: "Odi Thatch (3,815M) to Mantalai Lake (4,096M)",
+    details: `• Distance: 10.31 kms | Duration: 5-6 hours<br>
+
+• The trail today is straightforward with gentle ascents until the final 300M climb to Mantalai Lake. Along the way, we reach Mini Mantalai, a junction where numerous streams converge. The lake is glacial, serene, and considered sacred, surrounded by the mighty Himalayas. The campsite is on the lake’s banks, offering a peaceful environment to relax and prepare for the higher altitude sections ahead.`
+  },
+  {
+    day: 7,
+    title: "Mantalai (4,096M) to Base Camp I (4,800M)",
+    details: `• Distance: 4.45 kms | Duration: 5-6 hours<br>
+
+• A demanding day with an 800M ascent. We start early before dawn while temperatures are lowest. The trail begins muddy with sections of loose scree. After crossing these, the ascent continues to a spur, then a moraine section which, though short, is challenging. Base Camp I sits on the edge of the Parvati glacier, offering spectacular views under moonlight or sunrise.`
+  },
+  {
+    day: 8,
+    title: "Base Camp I (4,800M) to Base Camp II via Pin Parvati Pass (5,289M)",
+    details: `• Distance: 6.37 kms | Duration: 7-8 hours<br>
+
+• Today is the summit push. An early start ensures firm ice for safer trekking. We traverse glaciers, negotiating open and hidden crevasses. The final 300–400M steep climb leads to the Pin Parvati Pass at 5,289M, with breathtaking views of Parvati Valley on one side and Pin Valley on the other. A long descent of about 1.5 km brings us to Base Camp II on the Pin Valley side, where we set up camp for the night.`
+  },
+  {
+    day: 9,
+    title: "Base Camp II (4,800M) to Wichkurung Thatch (3,500M)",
+    details: `• Distance: 11.83 kms | Duration: 6 hours<br>
+
+• The trail today is mostly descent. The first 3 km is steep, followed by river crossings and gentle flat stretches. After crossing streams and walking along the riverbank, we reach Wichkurung Thatch — a scenic, peaceful campsite in the Spiti region. The pace is easier, giving trekkers time to enjoy the high-altitude desert landscape.`
+  },
+  {
+    day: 10,
+    title: "Wichkurung Thatch (3,500M) to Mudh Village (3,970M) & Drive to Kaza (3,800M)",
+    details: `• Distance: 15.26 kms | Duration: 5 hours trekking + 2-hour drive<br>
+
+• The trail meanders through the wide-open Pin Valley, with multiple streams and unique high-altitude flora. We stop for lunch by a stream, absorbing the barren yet mesmerizing landscape. The trek ends at Mudh Village, the last settlement in Pin Valley, where you can explore local culture and cuisine. Afterwards, we drive for about 2 hours to Kaza, the administrative hub of Spiti Valley, for overnight stay in a guesthouse.`
+  },
+  {
+    day: 11,
+    title: "Kaza (3,800M) to Manali (2,050M) / Buffer Day",
+    details: `• Distance: ~200 km | Duration: 9–10 hours drive<br>
+
+• Kaza is the largest township of Spiti, with monasteries and small hamlets nearby to explore. We drive down to Manali via Kunzum La and Rohtang Pass. In case of delays due to weather or unforeseen circumstances, Day 12 acts as a buffer day. If used, an additional INR 5,000 per person is collected by the trek leader in Kaza. End of trek — a hot shower, hearty meal, and memories for a lifetime.`
+  },
+  {
+    day: 12,
+    title: "Buffer Day",
+    details: 
+`Day 12 is reserved as a buffer to account for unexpected weather changes, trail conditions, or other unforeseeable circumstances. While most trekkers may not need it, it ensures the group has flexibility without compromising safety. If this day is utilized, an additional INR 5,000 per person will be collected by the trek leader in Kaza. It’s advisable to keep this day in mind while planning your travel back, so that your journey ends safely and comfortably.`
+  },
+],
+
+  howToReach: {
+    air: "<br>• Bhuntar Airport (near Kullu) is the closest, about 50 km from Kasol / Barshaini.<br>• Chandigarh Airport offers better connectivity; drive to Kasol takes about 8–9 hrs.<br><em>Shared or private cabs available from Bhuntar to Barshaini (₹1,500–₹3,000)</em>",
+    train: "Joginder Nagar Railway Station (~125 km from Kasol) is the nearest narrow-gauge line; Chandigarh and Pathankot are better connected options for major trains.",
+    road: "<br>• Regular overnight Volvo buses run from Delhi to Bhuntar or Manali.<br>• From Bhuntar, local taxis connect to Kasol and Barshaini.",
+    travelTip: "Start early for the drive to Barshaini to avoid mountain traffic near Kasol."
+  },
+
+  didYouKnow: [
+    "<b>Pin Parvati Pass was discovered by accident in 1884!</b> <br>British surveyors crossed it while mapping routes between Kullu and Spiti — they had no idea a natural route even existed until then.",
+    "<b>The trek connects two completely different worlds.</b> <br>Parvati Valley’s lush meadows and hot springs suddenly give way to Spiti’s dry, high-altitude desert — a surreal transition in just two days.",
+    "<b>Mantalai Lake is considered sacred.</b> <br>Locals believe it’s where Lord Shiva meditated. You’ll often see small stone shrines and prayer flags near its shores.",
+    "<b>Wildlife on the trail is rare but fascinating.</b> <br>You may spot Himalayan blue sheep, marmots, or even footprints of snow leopards near the higher camps.",
+    "<b>It’s a non-technical trek, but not without serious challenges.</b> <br>While you don’t need advanced climbing skills, the trail includes steep sections, river crossings, glacier stretches, and rocky terrain where extreme caution is necessary. The wilderness is remote, with help often far away, so trekkers must be well-prepared, vigilant, and self-reliant throughout this high-altitude journey.",
+    "<b>Pin Valley is part of the Cold Desert Biosphere Reserve.</b> <br>The region’s unique geology and rare high-altitude flora make it one of India’s most striking landscapes."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191227/pin-parvati-pass-view6_h4eopd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191226/pin-parvati-pass-view4_uoz9kw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191213/pin-parvati-pass-view5_dxm14k.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191208/pin-parvati-pass-view3_upywlf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191198/pin-parvati-pass-view2_xgyrkx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191185/pin-parvati-pass-view1_xinpz5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191138/pin-parvati-pass-view32_jpfpjy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191133/pin-parvati-pass-view33_ifw6hn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191124/pin-parvati-pass-view30_evtqhz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191100/pin-parvati-pass-view24_ylkggh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191098/pin-parvati-pass-view28_ecsbsq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191097/pin-parvati-pass-view31_qa6qlz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191084/pin-parvati-pass-view27_rakjcr.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191080/pin-parvati-pass-view21_mw163u.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view26_qg4zpy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view29_fbn5w4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191065/pin-parvati-pass-view20_kqa8xy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191058/pin-parvati-pass-view17_soyif8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191053/pin-parvati-pass-view23_lao9fx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191041/pin-parvati-pass-view25_qleo8d.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191031/pin-parvati-pass-view16_rg6hmk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191020/pin-parvati-pass-view22_xo2eue.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191016/pin-parvati-pass-view18_hqgcwr.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191010/pin-parvati-pass-view13_kxs6lz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191003/pin-parvati-pass-view15_jz5ttl.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191002/pin-parvati-pass-view19_c1dxs4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190992/pin-parvati-pass-view9_kaakgq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190988/pin-parvati-pass-view14_tlh415.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190979/pin-parvati-pass-view8_dvy2w9.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view12_i1ie0h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view7_yczld4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190948/pin-parvati-pass-view10_arrpcz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190911/pin-parvati-pass-view11_vt5w1s.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Is Pin Parvati Pass trek suitable for beginners?",
+        answer:
+          "No. This is a difficult, high-altitude trek recommended only for experienced trekkers with prior exposure to 14,000+ ft treks. You must be physically fit and mentally prepared for long days, snowfields, and river crossings."
+      },
+      {
+        question: "What is the best time for Pin Parvati Pass?",
+        answer:
+          "Mid-July to late September is ideal, when snow has melted enough to make the pass accessible and Spiti roads are open."
+      },
+      {
+        question: "How should I prepare for the Pin Parvati Pass Trek?",
+        answer:
+          "Preparing for the Pin Parvati Pass trek requires both physical and mental readiness. Physically, focus on endurance training, long hikes with backpacks, and altitude acclimatization if possible. Mentally, be ready for challenging terrain, river crossings, and unpredictable weather — staying positive, patient, and alert will make the experience safer and more rewarding."
+      },
+      {
+        question: "How challenging is the pass crossing day?",
+        answer:
+          "It’s the toughest day of the trek — 8–9 hrs of continuous walking over moraine and snowfields, with a steep climb to the pass and long descent. Early start and proper acclimatization are key."
+      },
+      {
+        question: "Is camping allowed near Mantalai Lake?",
+        answer:
+          "Yes, but campsites are limited. It’s a sacred site — trekkers must maintain silence and avoid littering. No washing or cooking directly at the lake’s edge."
+      },
+      {
+        question: "Will I get mobile network during the trek?",
+        answer:
+          "Network is available only till Barshaini/Kheerganga. After that, it’s a complete digital detox till you reach Mudh in Spiti."
+      },
+      {
+        question: "What kind of gear do I need?",
+        answer:
+          "Good trekking shoes, multiple warm layers, waterproof jacket, poles, headlamp, and snow gloves. Crampons/microspikes may be needed depending on snow."
+      },
+      {
+        question: "Can the trek be done in reverse (from Spiti to Parvati)?",
+        answer:
+          "Technically yes, but it’s tougher due to steeper ascent from the Spiti side and difficult acclimatization. Most organized groups do it from Parvati to Spiti for safety and better altitude gain."
+      },
+      {
+        question: "What makes this trek special?",
+        answer:
+          "The Pin Parvati Pass offers one of the most dramatic landscape shifts in the Indian Himalayas — from lush greenery to stark desert — making it both physically demanding and visually unforgettable."
+      },
+      
+    ]
+  }
+},
 
   
   {
@@ -1158,7 +1435,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     faqsLink: "/faqs-and-articles",
   },
 
-
+/* Uttarakhand */
 
   {
     id: "ali-bedni-bugyal-trek",
@@ -1876,251 +2153,6 @@ seo: {
   },
 
 
-
-  {
-    id: "goechala-trek",
-    name: "Goechala Trek",
-    tags: ["pass"],
-    difficulty: ["difficult"],
-    season: ["spring", "summer", "autumn","winter"],
-    month: ["march", "april", "may", "september", "october", "november", "december"],
-    duration: ["9 Nights / 10 Days"],
-    region: "sikkim",
-    coordinates: [
-  [27.3745, 88.2350], // Yuksom (start)
-  [27.5679, 88.2817], // Tshoka
-  [27.5997, 88.2942], // Dzongri
-  [27.6353, 88.2875], // Thansing
-  [27.6431, 88.2877], // Lamuney
-  [27.6493, 88.2861], // Samiti Lake
-  [27.6673, 88.2820], // Goecha La Viewpoint (end)
-],
-
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
-
-  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg"
-  ],
-
-  subtitle: "A Himalayan Symphony Of Nature & Majesty",
-
-  seo: {
-    title: "Goechala Trek | Itinerary, Cost & Dates | Planethimalayas",
-    description: "Goechala Trek (15,100 ft) in Sikkim is the closest you can get to Mt. Kanchenjunga, the world’s third-highest peak. A 10-day trek through rhododendron forests, alpine lakes, and dramatic high-altitude landscapes."
-},
-
-    overview: {
-      facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
-        { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
-        { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
-        { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
-        { emoji: "📍", label: "Start Point", value: "Yuksom (West Sikkim)" },
-        { emoji: "🏁", label: "End Point", value: "Yuksom (West Sikkim)" },
-        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
-      ],
-
-    snippet: `The Goecha La Trek is one of the grandest journeys in the Indian Himalayas — a trail that pulls you deeper and deeper into the mystical heart of the Eastern Himalayas, right into the untouched wilderness of the Khangchendzonga National Park, a UNESCO World Heritage site. Beginning in Yuksom, Sikkim’s first capital and a village wrapped in centuries of history, the trek eases you into an ancient world: stone paths draped in moss, whispering rhododendron forests, wooden bridges over roaring glacial streams, and mist drifting silently through towering oak and maple.
-
-<br>As the climb progresses, the forest gives way to sweeping high-altitude meadows and dramatic valleys carved by old glaciers. Dawn light paints Dzongri’s ridgelines in gold, and the panorama from Dzongri Top feels almost unreal — Kanchenjunga glowing in the distance, flanked by the mighty Pandim, Kabru, Rathong, and countless lesser-known but equally striking peaks. Higher up, the trail leads to the jewel of the route: the shimmering Samiti Lake. Its turquoise waters lie perfectly still at sunrise, mirroring the mountains with a purity few places on earth can match.
-
-<br>From here, the terrain turns stark and rugged, guiding trekkers toward the wind-blasted heights of Goecha La. This is where the Himalayas reveal their full majesty — a legendary vantage point that offers an astonishing roster of Himalayan giants, including close, unobstructed views of Kanchenjunga’s massive south face. With nearly 14 prominent peaks visible from the region, this trek brings you closer to the world’s third-highest mountain than any other trail in India.
-
-<br>But Goecha La’s magic is not just in the scale of its mountains. It is in its atmosphere — the silence of its altitude deserts, the flutter of prayer flags beside shepherd huts, the sweet smell of juniper smoke, the spiritual hum of monasteries, and the deep sense of solitude that settles in the mountains after sunset. This is a trek that blends wilderness with culture, adventure with introspection.
-
-<br>Standing at 4,940 m, Goecha La is a challenging and demanding route meant for trekkers prepared for long climbs, cold nights, and dramatic altitude gains. Autumn brings clear skies and crisp views stretching for miles, while spring transforms the entire lower trail into a corridor of blooming rhododendrons — reds, pinks, and purples splashed across the forest like a living painting.
-
-<br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
-
-    price: 20900,
-    priceNote: "* Yuksom to Yuksom",
-    addons: {
-      transport: 3000, 
-      offloadingbag: 6300,
-      transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
-      offloadingNote: "* Maximum weight 9kg / bag"
-    },
-
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
-
-    dates: [
-      
-      
-      { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
-      { label: "13 Dec - 22 Dec", start: "2025-12-13", end: "2025-12-22" },
-      { label: "14 Mar - 23 Mar", start: "2026-03-14", end: "2026-03-23" },
-      { label: "21 Mar - 30 Mar", start: "2026-03-21", end: "2026-03-30" },
-      { label: "28 Mar - 06 Apr", start: "2026-03-28", end: "2026-04-06" },
-      { label: "04 Apr - 13 Apr", start: "2026-04-04", end: "2026-04-13" },
-      { label: "11 Apr - 20 Apr", start: "2026-04-04", end: "2026-04-20" },
-      { label: "18 Apr - 27 Apr", start: "2026-04-18", end: "2026-04-27" },
-      { label: "25 Apr - 04 May", start: "2026-04-25", end: "2026-05-04" },
-      { label: "02 May - 11 May", start: "2026-05-02", end: "2026-05-11" },
-      { label: "09 May - 18 May", start: "2026-05-09", end: "2026-05-18" },
-    ],
-
-    highlights: [
-      "Located in the heart of Khangchendzonga National Park, a UNESCO World Heritage Site",
-      "Grand views of Mount Kanchendzonga (8,586m), the world’s 3rd highest peak",
-      "Experience lush rhododendron forests, hanging bridges, and sparkling waterfalls",
-      "Camp at picturesque alpine meadows like Dzongri and Thansing",
-      "Rich bird and wildlife diversity, including the snow leopard and red panda"
-    ],
-
-   itinerary: [
-  {
-    day: 1,
-    title: "NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
-    details: "<strong>• ~150 km | 6–7 hr drive.</strong><br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, misty river valleys, and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and crisper, and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries, and quiet lanes lined with traditional homes. After checking into a cozy guesthouse, spend the evening sorting out documents for trek permits, checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim’s royal and spiritual history. As dusk settles over the valley, meet your trek crew over a warm dinner, discuss the trail ahead, and get a good night’s rest — tomorrow, your Himalayan adventure truly begins."
-  },
-  {
-    day: 2,
-    title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
-    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your Goechala adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
-  },
-  {
-    day: 3,
-    title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
-    details: "<strong>• Trek: ~7 km | 4–5 hrs.</strong><br>• The second day of your Goechala Trek takes you from the deep forested camp of Sachen to the vibrant Tibetan settlement of Tshoka, with a refreshing halt at Bakhim along the way. As dawn breaks, the forest awakens to a soft chorus of Himalayan birds — thrushes, flycatchers, and the occasional laughing thrush echoing through the valley. The air feels cool and clean, and the early sunlight streams through oak leaves, painting golden streaks across the trail.<br>After breakfast, you begin a beautiful forest walk that winds gently up and down, following the sound of the Prek Chu River below. The first landmark is the Prek Chu Bridge, a sturdy wooden crossing that sways lightly above a rushing mountain stream — a wonderful photo stop. From here, the trail starts to climb steadily through lush oak, maple, and rhododendron forests, where the melody of birds and rustling leaves set the perfect trekking rhythm. Keep your eyes peeled for the Yellow-billed Blue Magpie, a striking bird that often flits among the canopy.<br>Soon, a steep zigzag ascent brings you to Bakhim (8,600 ft) — a small rest point with mesmerizing views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks while refilling water bottles before the next stretch. From Bakhim, the path turns steeper but far more rewarding as you climb through groves of magnolia trees. In spring, these trees burst into pink and white blooms, transforming the forest into a dreamlike scene straight out of a painting.<br>A little later, you’ll reach Tshoka, a picturesque hamlet perched on an open shelf with prayer-flagged huts and a small monastery overlooking snow-covered giants like Mt. Pandim and Tenzing Khang. The campsite here is stunning — with wooden huts, a serene lake nearby, and a sweeping view of the Eastern Himalayas. Evening is the best time to explore the Tshoka Monastery or simply sit by the lakeside, watching the clouds drift past the peaks.<br>As night falls, the air turns crisp and silent except for the flutter of prayer flags in the wind. Rest well — tomorrow, the trail takes you even deeper into rhododendron country, towards Dzongri."
-  },
-  {
-    day: 4,
-    title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
-    details: "<strong>• Trek: ~8 km | 6–8 hrs.</strong><br>• The fourth day of the Goechala Trek marks one of the most breathtaking — and demanding — sections of the journey, as you climb from the peaceful settlement of Tshoka to the high alpine meadows of Dzongri. The morning at Tshoka feels magical: mist rolling over the wooden huts, prayer flags fluttering softly, and a faint glow on distant snow peaks. After a warm breakfast, you begin your steady ascent toward higher altitudes.<br>The trail starts gently, winding through a dense rhododendron and oak forest, where the cool mountain air carries the earthy scent of moss and rain-soaked wood. Soon, a beautiful wooden walkway appears — a series of planks that guide you through one of the most enchanting sections of the entire trek. In spring, this path transforms into a tunnel of colors, with blooming red, pink, and white rhododendrons draping the forest in a surreal floral canopy. Each step along this stretch feels like walking through a dream — soft creaks beneath your boots, petals scattered across the trail, and an almost sacred stillness in the air.<br>Gradually, the forest thickens again, and the path grows steeper as you climb toward Phedang (12,000 ft) — a scenic clearing lined with prayer flags fluttering against the backdrop of deep green valleys. This is the perfect spot to rest, enjoy a snack, and hydrate before the final push to Dzongri. Beyond Phedang, the trees begin to thin, and the climb becomes more relentless. The gain in altitude is noticeable, so move slowly, breathe deeply, and pace yourself to avoid altitude-related fatigue.<br>After a challenging ascent, you’ll reach Deorali Top, a panoramic ridge that rewards every step of the climb. From here, the view opens dramatically — Kanchenjunga, Pandim, and other towering peaks rise majestically across the skyline, often shimmering through drifting clouds. It’s one of those rare Himalayan moments where silence, effort, and beauty merge perfectly.<br>From Deorali, the terrain levels out into a more gradual path leading to Dzongri, one of the most iconic high-altitude camps in Sikkim. The landscape shifts to open meadows, dwarf rhododendrons, and patches of frost-crusted grass. As the wind turns colder and stronger, you’ll know you’ve truly entered the alpine zone.<br>By evening, you arrive at the Dzongri campsite — a windswept meadow surrounded by snow peaks and crisp mountain air. After settling in, enjoy a hot meal, stay warm inside your tent, and rest deeply. The next morning brings a special reward — the legendary sunrise from Dzongri Top, one of the most magnificent sights in the Eastern Himalayas."
-  },
-  {
-    day: 5,
-    title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & trek to Thansing (3,930 m / 12,900 ft)",
-    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After refueling, continue your trek toward Thansing, passing through the open meadows and alpine thickets that make this trail so scenic. The path takes you through wide, rolling Dzongri meadows, where clouds often drift across the mountains, creating a constantly shifting and dreamlike landscape. Moving ahead, the trail enters high-altitude rhododendron and oak forests, where the chirping of birds and rustling leaves provide a peaceful soundtrack to your trek.<br>At the end of the Dzongri meadows, a steep and extended zigzag descent leads to Kokchurang, a small hut and rest point for trekkers at the Prek Chhu riverbed, a place staight out of a storybook. Take a short break here, hydrate, and enjoy a quick snack. From Kokchurang, the trail gradually descends through lush forests, crossing a small river bridge across the Prek Chhu river. On the other side of the river, gentle climbs and open clearings continue to greet you as the landscape transitions from dense woodland to expansive meadows.<br>Finally, the trail opens into the Thansing campsite, nestled at the base of Mt. Tenzing Khang. The close-up views of the surrounding snow-capped peaks are spectacular — on clear days, you can admire the shoulder of Kanchenjunga and the towering Pandim Peak. Once at camp, enjoy a hot lunch and spend the rest of the day relaxing. Layer up as temperatures can drop sharply, especially in the evening. Take short walks around the campsite, capture the stunning scenery, and savor the serene alpine atmosphere.<br>By nightfall, retreat to your tent for a warm meal and a good rest, preparing your body and mind for the adventures that lie ahead. This day combines the thrill of a high-altitude sunrise, panoramic Himalayan views, and a rewarding trek to a stunning campsite — all in one memorable stretch."
-  },
-  {
-    day: 6,
-    title: "Thansing to Lamuney (4,180 m / 13,700 ft)",
-    details: "<strong>• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).</strong><br>• Today offers a break from the tougher sections of the Goechala trek, as you move from Thansing to Lamuney. The trail is short and mostly level, giving your legs a chance to recover while letting you fully enjoy the stunning landscapes around you. After a relaxed breakfast, you’ll start walking through wide, open meadows dotted with wildflowers and gentle streams. The path meanders through the valley, with the snow-capped peaks of Kanchenjunga and its neighboring giants keeping you company along the way.<br>The walk to Lamuney takes around three hours, giving you plenty of time to soak in the serenity and snap photos of the expansive pastures. Once at the campsite, settle into the calm environment, enjoy a hot lunch, and take short walks along the riverside or across the meadows. The quiet of the mountains and the flowing Prek Chu River creates the perfect setting to unwind and reflect on the trek so far.<br>In the evening, your guides will gather everyone for a briefing about the next day — the Goechala Summit. They’ll outline the route, share practical tips, and answer questions to ensure you’re prepared for the most challenging and rewarding day of the trek.<br>As night descends, watch the stars fill the sky above Lamuney, a breathtaking backdrop that reminds you how remote and magical these mountains are. With an early start tomorrow, it’s the perfect opportunity to rest well and recharge for the adventure ahead."
-  },
-  {
-    day: 7,
-    title: "Lamuney to Goecha La Viewpoint 1 (4,940 m / 16,200 ft) and return to Thansing/Kokchurang",
-    details: "<strong>• Trek: ~12–13 km round trip | 8–10 hrs (start pre-dawn with headlamps).</strong><br>• Today is the highlight of your Goechala trek, a day of challenge, awe, and unforgettable mountain vistas. You’ll start before dawn, so an early wake-up is essential. As you step onto the trail in the soft pre-dawn light, the Himalayas slowly come alive around you. Packing your bags the night before will make it easy to move quickly once you return, allowing for lunch and a descent to Thangsing or Kokchurang without any rush.<br>The trek begins with a steady climb over rocky moraines, gradually winding toward Samiti Lake. Since it will still be dark when you start, the lake’s beauty will remain hidden for a while, but the anticipation builds as you trek upward. From here, the trail ascends further, narrowing as it hugs the ridge, leading to the Goechala Viewpoint. Headlamps will guide you along this part of the trail, ensuring safe steps on the rocky path.<br>Reaching the Goechala Viewpoint at sunrise is nothing short of magical. Before you, the towering peaks of Kanchenjunga, Pandim, and Tenzing Khang glow golden as the first light of morning spreads across the Himalayas. The sheer scale and proximity of these giants leave trekkers speechless, and the panorama stretching from snow-covered ridges to distant valleys makes every step of the early climb worthwhile. This moment, standing above the world with the crisp mountain air around you, is one of the most memorable experiences of the trek.<br>After lingering to take in the sweeping vistas, you’ll begin your descent. A short walk brings you to Samiti Lake, where the still waters mirror the surrounding mountains in perfect clarity. Take time to explore the lakeshore, capture photos, and enjoy the serene ambiance before heading back to Lamuney for a hot, satisfying lunch.<br>Depending on the weather and energy levels, you’ll continue your descent to either Thangsing or Kokchurang, retracing some of the trail you covered earlier in the trek. Once you arrive at your campsite, relax in your tent, enjoy a warm meal, and soak in the sense of accomplishment after conquering one of the most stunning viewpoints of the Indian Himalayas."
-  },
-  {
-    day: 8,
-    title: "Thansing/Kokchurang to Tshoka",
-    details: "<strong>• Trek: ~15–16 km | 6–7 hrs (long descent day).</strong><br>• Today marks your descent toward Tshoka, giving your legs a mix of gentle climbs and easy downhill stretches through some of the trek’s most enchanting forests. Start your morning at the campsite with a wholesome breakfast, soaking in the fresh mountain air and panoramic surroundings before setting off.<br>Instead of retracing your earlier route, today you’ll follow a different trail from Kokchurang. The path winds through dense, verdant forests where only a single hiker can walk at a time. Tall rhododendrons, pines, and other Himalayan trees flank the trail, creating a serene canopy overhead. If trekking during spring, bursts of red and pink rhododendron flowers add vibrant color to your walk, making the forest feel almost magical.<br>The trail is mostly straightforward but requires attention, especially on steeper sections where the ground can be slippery. Move steadily, breathe in the crisp mountain air, and take time to enjoy the tranquility and natural beauty around you.<br>After about 4–5 hours of trekking, you’ll reach Phedang, your first rest stop of the day. Here, you can pause for a packed lunch while the cool breeze and gentle sounds of the forest refresh you. Re-energized, you’ll continue descending through thick rhododendron groves, following the familiar trail toward Tshoka. The latter part of the trek is gentler, offering a pleasant walk as the forest gradually opens to reveal distant Himalayan peaks.<br>Upon reaching Tshoka, settle into your campsite for the evening. Enjoy a warm meal, reflect on the day’s journey, and rest well — tomorrow will take you further down the trail as the trek winds toward its conclusion."
-  },
-  {
-    day: 9,
-    title: "Tshoka to Yuksom",
-    details: "<strong>• Trek: ~14 km | 5–6 hrs (final trekking day).</strong><br>• Your final day of the Goechala Trek takes you back to Yuksom, retracing the scenic trails along the Prek Chu River, through Bakhim and Sachen. Wake up early and enjoy a hearty breakfast at the campsite, preparing for a mostly downhill journey that still promises stunning forested landscapes and river views.<br>The trail is gentle and serene, letting you soak in the last moments of the Himalayas’ tranquility. Along the way, you’ll cross the three iconic iron bridges once more, pass through the quiet hamlets of Bakhim and Sachen, and witness the peaceful rhythm of mountain life. While the descent is easier than climbing, take care on steeper sections to avoid putting too much strain on your knees. Maintain a steady pace and pause whenever you want to capture the surrounding beauty.<br>As you approach Yuksom, a short uphill stretch signals the final push back to civilization. Soon, the familiar sights of the town greet you, along with the return of mobile connectivity. Take some time to explore Yuksom’s rich history and culture. Wander through its quaint streets, visit local monasteries, browse handicraft shops, or simply soak in the welcoming atmosphere.<br>Once you arrive at your guesthouse, enjoy a wholesome meal and reflect on the incredible journey you’ve just completed. This is a day to relax, celebrate your achievement, and take in the memories of a trek that will stay with you forever."
-  },
-  {
-    day: 10,
-    title: "Departure from Yuksom",
-    details: "<strong>• Drive back to NJP/Bagdogra (6–7 hrs).</strong><br>• Timing: depart after a relaxed breakfast; allow for road traffic and mountain weather delays.<br>• Final notes: as forests and foothills unfold into tea gardens, reflect on the range of ecosystems you traversed — from subtropical valleys to glacial meadows and the sacred views of Kanchenjunga. Carry out all non-biodegradable waste and respect local customs and conservation rules."
-  }
-],
-
-
-    howToReach: {
-      air: "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway (~150 km from Yuksom; ~6–7 hr by road).<br>• Pakyong Airport (Sikkim) is closer (~130 km away, ~5–6 hr) but has limited flights and is weather-dependent.<br><em>From both airports book a private cab to yuksom which may cost between ₹4000 - ₹8000</em>",
-      train: "New Jalpaiguri (NJP) or Siliguri, the nearest railhead (~145–153 km from Yuksom; 6–7 hr by road)",
-      road: "<br>• Route: Siliguri → Sevoke → Melli → Jorethang → Legship → Yuksom<br>• Shared jeeps from Siliguri's Tenzing Norgay Bus Terminus(near NJP railway station to Jorethang<br>• From Jorethang to Yuksom",
-      travelTip: "Start early from Siliguri if opting for a shared vehicle as last jeep for Yuksom from Jorethang departs by 1PM - 2PM."
-    },
-
-    didYouKnow: [
-  " <b>You can’t trek to the actual Goecha La Pass anymore!</b> <br>For environmental and safety reasons, trekkers stop at View Point 1 (4,940 m). But this spot offers the most dramatic and close-up views of Kanchenjunga and its neighboring peaks.",
-
-  " <b>Mt. Kanchenjunga is revered as a sacred mountain.</b> <br>At 8,586 m, it’s the third-highest mountain in the world. Locals never climb its summit out of respect — the first successful ascent in 1955 deliberately stopped short of the true summit.",
-
-  " <b>Samiti Lake is both sacred and stunning.</b> <br>This turquoise alpine lake mirrors Pandim and Kanchenjunga at sunrise. Locals consider it holy, so camping or washing in it is strictly forbidden.",
-
-  " <b>Khangchendzonga National Park is a UNESCO World Heritage Site.</b> <br>It’s home to red pandas, Himalayan black bears, blue sheep, and over 500 species of birds including the Himalayan monal and blood pheasant.",
-
-  " <b>Flora changes dramatically with altitude.</b> <br>From orchids, magnolias, and lush rhododendrons at lower elevations, to silver firs, junipers, and finally alpine meadows dotted with edelweiss — the trail is a botanist’s paradise.",
-
-  " <b>Rhododendron bloom transforms the trek in spring.</b> <br>In April–May, the forests turn crimson, pink, and purple — Sikkim has over 30 species of rhododendrons, more than anywhere else in India.",
-
-  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Kanchenjunga range is the abode of protective mountain deities."
-],
-
-
-    gallery: [
-      
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534990/goechala-view7_z1hrcv.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534988/goechala-view8_ukhvfv.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534987/goechala-view9_jmt3ln.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view6_zxmfea.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view14_lnsoag.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534983/goechala-view4_aonzed.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view2_jlxprg.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view12_gnasys.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view15_wrfshw.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view10_bujpza.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534958/goechala-view1_mj2zxp.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
-    
-    ],
-
-    downloadLink: "/docs/Packing_List.pdf",
-
-    faqs: {
-  questions: [
-    {
-      question: "Who can attempt the Goecha La trek?",
-      answer: "This trek is best suited for moderately experienced trekkers with a good level of fitness. While the trail is not technically difficult, long days and high altitude require stamina and proper acclimatization.",
-    },
-    {
-      question: "What is the best time to do the Goecha La trek?",
-      answer: "The Goecha La trek offers a unique charm in every season. Spring (April to June) is known for its vibrant bloom of rhododendrons, magnolias, wild strawberries, and countless alpine flowers — the forests come alive with color and birdsong. While skies may turn cloudy during the day, mornings and evenings usually offer clear, golden views of Kanchenjunga. Autumn (September to November) is the most popular season for trekkers seeking uninterrupted Himalayan views — crystal-clear skies, stable weather, and the golden hues of meadows and forests create postcard-perfect landscapes. Winter (December to February) transforms the region into a serene white world; Goecha La is one of the few high-altitude treks (up to ~15,000 ft) that can still be attempted during this time, offering the best mountain visibility and a magical chance to witness snowfall in the Eastern Himalayas.",
-    },
-    {
-      question: "What are the temperature levels during different seasons on the Goecha La trek?",
-      answer: "In spring (April–June), daytime temperatures range between 8°C to 25°C, while nights can drop to around -2°C, especially at higher camps like Lamuney and Thansing. Autumn (September–November) offers the most stable weather — days remain cool around 5°C to 12°C, and nights often dip to -5°C or lower. Winter (December–February) is extremely cold, with daytime highs near 0°C to 5°C and night temperatures plunging to -10°C or below, particularly above Dzongri, often accompanied by snow and crystal-clear mountain views.",
-    },
-    {
-      question: "What essential gear should I carry for Goecha La?",
-      answer: "Layered clothing, waterproof trekking shoes, insulated jackets, thermal wear, a 50L backpack, trekking poles, and a headlamp are essential. For a full checklist, download the PDF above.",
-    },
-    {
-      question: "Are there camping facilities along the trek?",
-      answer: "Yes, the trek involves overnight stays at organized camps at Dzongri, Thansing, and Goecha La base camps. Camp facilities include tents, basic bedding, and meals provided by the organizers.",
-    },
-    {
-      question: "Will I have mobile network coverage during the trek?",
-      answer: "Connectivity is very limited. Some areas may have intermittent BSNL or Airtel coverage, but don’t rely on it. Inform family beforehand about limited communication.",
-    },
-    {
-      question: "Do I need any permits for Goecha La trek?",
-      answer: "Yes, trekkers require an Sikkim State Permit and Kanchenjunga National Park permit, which are generally arranged by the trek operator before the trek starts.",
-    },
-    {
-      question: "Is the Goecha La trek suitable for solo trekkers?",
-      answer: "While possible, solo trekking in Sikkim is not recommended due to remote terrain and the need for park permits. It’s safer to join a guided group trek.",
-    },
-    {
-      question: "What makes Goecha La unique compared to other Himalayan treks?",
-      answer: "It offers one of the most spectacular close-up views of the Kanchenjunga range, including glaciers, alpine meadows, and rhododendron forests. The combination of diverse landscapes and cultural exposure makes it truly exceptional.",
-    }
-  ],
-},
-
-
-    faqsLink: "/faqs-and-articles",
-  },
-
-
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
@@ -2704,203 +2736,6 @@ seo: {
     faqsLink: "/faqs-and-articles",
   },
 
-    {
-    id: "markha-valley-trek",
-    name: "Markha Valley Trek",
-    tags: ["pass"],
-    difficulty: ["difficult"],
-    season: ["monsoon"],
-    month: ["august", "september"],
-    region: "ladakh",
-    duration: "7 Nights / 8 Days",
-    coordinates: [
-      [33.970001, 77.260002], // Skiu (start near Leh)
-      [33.8644, 77.5826], // Hemis (end near Leh)
-    ],
-
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-
-    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
-    ],
-
-    subtitle: "The Classic Trek of Ladakh’s High-Altitude Desert",
-
-    seo: {
-      title: "Markha Valley Trek | Itinerary, Cost & Dates | Planethimalayas",
-      description: "Markha Valley Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
-    },
-
-    overview: {
-      facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
-        { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
-        { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "August to September" },
-        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
-        { emoji: "📍", label: "Start Point", value: "Skiu (near Leh)" },
-        { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
-        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
-      ],
-      snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
-    },
-
-    price: 22500,
-    priceNote: "* Leh to Leh",
-    addons: {
-      transport: null,
-      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 5000,
-      offloadingNote: "* Maximum weight 9kg/bag"
-    },
-
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
-
-    dates: [
-      { label: "08 Aug - 15 Aug", start: "2026-08-08", end: "2025-08-15" },
-      { label: "09 Aug - 16 Aug", start: "2026-08-09", end: "2025-08-16" },
-      { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2025-08-22" },
-      { label: "16 Aug - 23 Aug", start: "2026-08-16", end: "2025-08-23" },
-      { label: "22 Aug - 29 Aug", start: "2026-08-22", end: "2025-08-29" },
-      { label: "23 Aug - 30 Aug", start: "2026-08-23", end: "2025-08-30" },
-      { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2025-09-05" },
-      { label: "30 Aug - 06 Sep", start: "2026-08-30", end: "2025-09-06" },
-      { label: "05 Sep - 12 Sep", start: "2026-09-05", end: "2025-09-12" },
-      { label: "06 Sep - 13 Sep", start: "2026-09-06", end: "2025-09-13" },
-      { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2025-09-19" },
-      { label: "13 Sep - 20 Sep", start: "2026-09-13", end: "2025-09-20" },
-    ],
-
-    highlights: [
-      "Explore the heart of Ladakh’s Hemis National Park, home to rare wildlife like the snow leopard",
-      "Cross the iconic Kongmaru La (17,100 ft) with breathtaking views of the Karakoram range",
-      "Stay in traditional Ladakhi villages with centuries-old mud houses and friendly locals",
-      "Walk past ancient monasteries, prayer wheels, and river crossings on wooden bridges",
-      "Experience stark contrasts — barren high-altitude deserts and oasis-like settlements",
-    ],
-
-    itinerary: [
-  {
-  day: 1,
-  title: "Arrival in Leh (11,500 ft / 3,500 m)",
-  details: "Arrive in Leh by flight or train and check in to your hotel, allowing your body to settle into the high altitude of 11,500 ft. Since a direct landing at this height can trigger AMS, the first day is entirely meant for rest and gentle acclimatization. Keep your schedule light—explore Leh market, visit nearby monasteries, or stroll around the town, but avoid visiting any very high-altitude pass or viewpoint. A mandatory trek briefing takes place at 5 PM, for which you must carry a copy of your ID proof and two photographs; foreign trekkers should bring a passport and visa copy. Leh has reliable post-paid network coverage, several ATMs, and plenty of shops where you can rent or buy any trekking gear you may have forgotten. The cafés here are lively hangouts for travelers, but avoid alcohol and smoking as they interfere with acclimatization. Stay hydrated, enjoy the local culture and cuisine, and return to your hotel early to rest well. An easy, relaxed Day 1 is crucial to prepare your body for the days ahead."
-  },
-  {
-  day: 2,
-  title: "Acclimatization and Sightseeing in Leh",
-  details: "This extra acclimatization day is crucial for helping your body adjust to the thinning air of Ladakh, so spend as much time outdoors as possible while keeping the day relaxed and strain-free. You can explore some of Leh’s most significant monasteries such as Shey, Thiksey, Hemis, and the Sangam viewpoint where the Indus and Zanskar rivers meet, each offering a window into Ladakh’s deep Buddhist heritage. Thiksey Gompa, perched on a hill, is the largest in central Ladakh and gives you a beautiful introduction to the region’s culture. Avoid gaining altitude or visiting high passes today, as it may interfere with your acclimatization. Instead, wander around Leh town, explore the lively bazaar, interact with locals, and sample the delicious local cuisine. If you prefer gentle activity, a downhill cycling tour around Leh can be done without putting strain on your body. As the day winds down, make sure to catch the sunset at Shanti Stupa, known for its glowing lights in the evening. Return to your hotel for the night and rest well — your actual trekking journey begins tomorrow."
-  },
-  {
-  day: 3,
-  title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m) | Trek Distance: 11 km | 5-6 hrs.",
-  details: "Today marks the true beginning of your Markha Valley adventure as you drive from Leh to Skiu through some of Ladakh’s most iconic landscapes. The journey takes you past military camps, the famous Gurudwara Pathar Sahib, and the mysterious Magnetic Hill, with constant views of the Stok range until you enter the boundaries of Hemis National Park. A major highlight en route is the spectacular Sangam viewpoint where the emerald Indus and Zanskar rivers meet in a striking confluence. As the road turns towards Chilling, the scenery shifts dramatically—open terrains gradually narrow into deep valleys painted in shades of purple, grey, and black, with juniper trees lining the route. After crossing the Zanskar River over green iron bridges, you arrive at the serene village of Skiu, divided into Upper and Lower sections, adorned with mani stones, white stupas, and an ancient monastery. From here, your trek begins on a well-marked trail that follows the Markha River. Along the way, you may spot magpies, blue sheep, and other wildlife that thrive in this rich Himalayan ecosystem. You’ll pass small cafés, winter settlements, barley and wheat fields, mani walls, and Lhatos as you make your way through the valley. Continue trekking past the quiet village of Nagding, where meditation caves dot the rocky slopes, and the riverbanks widen into sandy stretches. After several hours, you enter the culturally vibrant village of Sara, marked by a dramatic gateway decorated with skulls of wild animals—symbols of pride for the locals. With its ancient monastery, historic castle, and lush wheat fields, Sara offers the perfect blend of culture and natural beauty. Settle into your tent or homestay for a warm meal and end the day under a dazzling sky full of stars."
-  },
-  {
-  day: 4,
-  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5-6 hours.",
-  details: "Begin your morning in Sara with a warm breakfast and stunning Himalayan views before easing into a day that feels beautifully familiar to the previous one. The trail gradually leads you across small water channels and stretches of cold desert terrain until you reach the charming village of Chalak, which appears after crossing a wooden bridge. Chalak is dotted with cozy tea houses, stone-walled animal shelters, and homes perched on small hillsides, surrounded by patches of green wheat fields contrasting against the barren mountains. After resting and interacting with friendly locals, continue on the gentle ascent towards Markha, passing a long stretch marked by Bharal horns and countless mani stones laid around elegant white stupas. These stones carry sacred Buddhist inscriptions—some even in Sanskrit—so treat them with great respect and avoid touching them, as villagers believe they are spiritually protected. The trail also unfolds ancient ruins with prayer flags fluttering above, adding a sense of timelessness to the valley. As you approach Markha, you must cross a flowing stream of the Markha River, which can rise up to thigh level at times; removing your shoes and wading through the icy water offers a refreshing burst of energy. A short walk afterward brings you to Markha, the largest village in the valley, known for its scattered traditional houses, monastery, and the ruins of the old Markha fort. Settle into your homestay or campsite here and soak in the cultural richness and scenic calm of this historic Himalayan settlement."
-  },
-  {
-  day: 5,
-  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 7 - 8 hrs.",
-  details: "Today’s journey takes you deeper into the upper Markha Valley, where the scenery begins to widen and the landscapes gain a grander, more dramatic character. As you leave Markha behind, make the most of the simplicity and innocence of the last inhabited villages you’ll encounter on this route. The trail meanders through beautiful stretches where barren mountains meet refreshing streams, with the path crossing the river multiple times—sometimes over small wooden bridges, other times through shallow flowing water. The valley slowly opens up as you approach Umlung, a tiny settlement that hosts the last teahouse of the trek and offers a peaceful monastery that blends effortlessly into the rugged surroundings. Beyond Umlung comes one of the most unforgettable moments of the trek: your very first view of Mt. Kang Yatse, standing tall at 6,400 m, appearing suddenly and magnificently as if inviting you forward. Keep following the river and navigating its crossings as the trail leads you toward Hankar, the final village of the Markha Valley. Along the way, look out for the beautifully perched Tacha monastery, seemingly balancing on a rocky cliff—a magical sight against the stark mountain backdrop. By the time you reach Hankar, surrounded by high pastures and towering peaks, you’ll feel the transition from village life to true Himalayan wilderness. Settle into your tent or homestay for the night and enjoy the quiet, remote beauty of this last inhabited stop on your route."
-  },
-  {
-  day: 6,
-  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 7 - 8 hrs.",
-  details: "Today’s trek feels refreshing and far gentler compared to yesterday’s demanding climb, allowing you to truly sink into the beauty of the upper Markha Valley. As you leave Hankar, the trail begins easily, and within the first kilometre you’ll reach a set of diversions—one leading toward Rupshu and Zanskar. Staying on the left trail, you walk toward a stone bridge that confirms you’re on the correct path. From here, several side trails appear frequently, so it’s important to keep close to your trek leader while enjoying the scenery. Within a couple of hours, the lush pastures of Thochuntse begin to unfold ahead of you, a welcome burst of greenery after days in Ladakh’s stark high-altitude desert. This small settlement has tea houses and seasonal campsites, making it a natural rest point. Just beyond this stretch, the trail steepens for about an hour before easing into a long, gradual ascent. As you walk, the mighty Kang Yatse peak dominates your right side, growing larger and more magnificent with every step, almost as if guiding you onward. A pair of serene twin lakes suddenly appear along the trail, offering a moment of calm reflection against the rugged landscape. From the lakes, a gentle descent leads you to the vast, windswept plateau of Nimaling, the highest campsite on the entire Markha Valley trek. This expansive grassland—dotted with grazing sheep, goats, and occasionally mountain hares—feels like a world entirely its own. With the towering Kang Yatse massif rising beside you and the open sky stretching endlessly above, Nimaling offers some of the most unforgettable views of the trek. Nights here can bring sudden snowfall, adding to the wild charm of this high-altitude sanctuary. Settle into your tent and let the quiet, elevated world of Nimaling lull you into deep rest."
-  },
-  {
-  day: 7,
-  title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
-  details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
-  },
-  {
-  day: 8,
-  title: "Departure from Leh",
-  details: "After completing the trek and your overnight stay in Leh, this is the day to check out and begin your onward journey. Homestay or hotel services conclude as per the itinerary, so ensure checkout is done within the standard checkout time. Airport drop can be arranged at the prevailing local rate, payable directly to the driver. If you have limited holidays, you can head straight to the Leh airport or bus stand for your departure. However, if you have extra days and wish to explore more of Ladakh, feel free to discuss with us—we’re happy to suggest places or help arrange further services."
-  }
-],
-
-
-    didYouKnow: [
-  "<b>Markha Valley is inside Hemis National Park!</b> - Home to rare species like snow leopards, ibex, Himalayan marmots, and golden eagles.",
-  "<b>Tea House Trek of Ladakh:</b> Villages like Skiu, Markha, and Hankar offer homestays where trekkers experience traditional Ladakhi hospitality.",
-  "<b>Kongmaru La is 17,300 ft high!</b> - The pass gives sweeping views of the Karakoram, Stok, and Kang Yatse ranges, a rare high-altitude desert panorama.",
-  "<b>Ancient monasteries and chortens:</b> The trail is dotted with centuries-old Buddhist structures, prayer walls, and mani stones, reflecting Ladakh's deep spiritual heritage.",
-  "<b>Endemic flora and fauna:</b> Look out for Himalayan blue poppies, edelweiss, primulas, yaks, ibex, and high-altitude Himalayan marmots.",
-  "<b>Arid cold desert ecosystem:</b> Unique in the Himalayas, the Markha Valley features barren rocky gorges and oasis-like green pastures where life adapts to extreme altitude and dryness.",
-  "<b>Traditional Ladakhi architecture:</b> Mud houses and wooden structures have survived centuries of harsh winters while blending sustainably with the environment.",
-  "<b>High-altitude river crossings:</b> The trek crosses multiple streams and tributaries of the Markha River; bridges and rocky fords offer adventure and scenic photography opportunities."
-],
-
-
-    howToReach: {
-      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (well connected to Delhi and major Indian cities).",
-      train: "No direct trains. Nearest station: Jammu Tawi (approx. 700 km). Continue by road or flight to Leh.",
-      road: "From Manali: 470 km / 2 days via Manali–Leh Highway. From Srinagar: 420 km / 2 days via Srinagar–Leh Highway.",
-      travelTip: "Arrive in Leh at least 2 days before the trek for proper acclimatization to avoid altitude sickness.",
-    },
-
-    gallery: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535621/markha-valley-view3_ghyqx6.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535604/markha-valley-view8_frpdcl.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535600/markha-valley-view2_pkja6f.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535597/markha-valley-view12_c36aaf.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535592/markha-valley-view11_mcf7g4.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-view1_regn76.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
-    ],
-
-    downloadLink: "/docs/Packing_List.pdf",
-
-    faqs: {
-  questions: [
-    {
-      question: "Who can participate in the Markha Valley trek?",
-      answer: "This trek is suitable for intermediate trekkers with basic high-altitude experience. While the trails are moderate, some days involve long distances and high-altitude camping.",
-    },
-    {
-      question: "What is the best season for the Markha Valley trek?",
-      answer: "The ideal months are June to September, avoiding the heavy snowfall of winter and the extreme cold of early spring. During this period, the valley is lush, rivers are flowing, and skies are generally clear.",
-    },
-    {
-      question: "What essential gear should I carry for the Markha Valley trek?",
-      answer: "Essentials include waterproof trekking boots, layered clothing, warm jacket, trekking poles, 40–50L backpack, thermal wear, and a headlamp. Refer to the downloadable PDF for a detailed packing list.",
-    },
-    {
-      question: "Are camping facilities available on the trek?",
-      answer: "Yes, the trek involves camping at scenic locations in Markha Valley, with tents, bedding, and nutritious meals provided by the trek organizers.",
-    },
-    {
-      question: "Is mobile network coverage available during the trek?",
-      answer: "Network coverage is extremely limited. Occasionally, BSNL and Airtel may work in Leh or at certain high points, but trekkers should plan for minimal connectivity.",
-    },
-    {
-      question: "Do I need any permits for the Markha Valley trek?",
-      answer: "Yes, trekkers require an Inner Line Permit (ILP) for restricted areas of Ladakh. Trek operators typically arrange these permits on behalf of the participants.",
-    },
-    {
-      question: "What makes the Markha Valley trek unique?",
-      answer: "Markha Valley offers a combination of pristine Himalayan landscapes, traditional Ladakhi villages, gompas (monasteries), and breathtaking views of the Stok and Kang Yatse peaks. The cultural immersion alongside high-altitude trekking makes it a truly memorable adventure.",
-    }
-  ],
-},
-
-
-    faqsLink: "/faqs-and-articles",
-  },
-
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
@@ -3425,7 +3260,7 @@ itinerary: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,100 ft (Bakaria Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "22–24 Km" },
@@ -4079,6 +3914,253 @@ itinerary: [
     faqsLink: "/pages/faqs-and-articles",
   },
 
+  /* Sikkim */
+
+  {
+    id: "goechala-trek",
+    name: "Goechala Trek",
+    tags: ["pass"],
+    difficulty: ["difficult"],
+    season: ["spring", "summer", "autumn","winter"],
+    month: ["march", "april", "may", "september", "october", "november", "december"],
+    duration: ["9 Nights / 10 Days"],
+    region: "sikkim",
+    coordinates: [
+  [27.3745, 88.2350], // Yuksom (start)
+  [27.5679, 88.2817], // Tshoka
+  [27.5997, 88.2942], // Dzongri
+  [27.6353, 88.2875], // Thansing
+  [27.6431, 88.2877], // Lamuney
+  [27.6493, 88.2861], // Samiti Lake
+  [27.6673, 88.2820], // Goecha La Viewpoint (end)
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg"
+  ],
+
+  subtitle: "A Himalayan Symphony Of Nature & Majesty",
+
+  seo: {
+    title: "Goechala Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description: "Goechala Trek (15,100 ft) in Sikkim is the closest you can get to Mt. Kanchenjunga, the world’s third-highest peak. A 10-day trek through rhododendron forests, alpine lakes, and dramatic high-altitude landscapes."
+},
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
+        { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
+        { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
+        { emoji: "📍", label: "Start Point", value: "Yuksom (West Sikkim)" },
+        { emoji: "🏁", label: "End Point", value: "Yuksom (West Sikkim)" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      ],
+
+    snippet: `The Goecha La Trek is one of the grandest journeys in the Indian Himalayas — a trail that pulls you deeper and deeper into the mystical heart of the Eastern Himalayas, right into the untouched wilderness of the Khangchendzonga National Park, a UNESCO World Heritage site. Beginning in Yuksom, Sikkim’s first capital and a village wrapped in centuries of history, the trek eases you into an ancient world: stone paths draped in moss, whispering rhododendron forests, wooden bridges over roaring glacial streams, and mist drifting silently through towering oak and maple.
+
+<br>As the climb progresses, the forest gives way to sweeping high-altitude meadows and dramatic valleys carved by old glaciers. Dawn light paints Dzongri’s ridgelines in gold, and the panorama from Dzongri Top feels almost unreal — Kanchenjunga glowing in the distance, flanked by the mighty Pandim, Kabru, Rathong, and countless lesser-known but equally striking peaks. Higher up, the trail leads to the jewel of the route: the shimmering Samiti Lake. Its turquoise waters lie perfectly still at sunrise, mirroring the mountains with a purity few places on earth can match.
+
+<br>From here, the terrain turns stark and rugged, guiding trekkers toward the wind-blasted heights of Goecha La. This is where the Himalayas reveal their full majesty — a legendary vantage point that offers an astonishing roster of Himalayan giants, including close, unobstructed views of Kanchenjunga’s massive south face. With nearly 14 prominent peaks visible from the region, this trek brings you closer to the world’s third-highest mountain than any other trail in India.
+
+<br>But Goecha La’s magic is not just in the scale of its mountains. It is in its atmosphere — the silence of its altitude deserts, the flutter of prayer flags beside shepherd huts, the sweet smell of juniper smoke, the spiritual hum of monasteries, and the deep sense of solitude that settles in the mountains after sunset. This is a trek that blends wilderness with culture, adventure with introspection.
+
+<br>Standing at 4,940 m, Goecha La is a challenging and demanding route meant for trekkers prepared for long climbs, cold nights, and dramatic altitude gains. Autumn brings clear skies and crisp views stretching for miles, while spring transforms the entire lower trail into a corridor of blooming rhododendrons — reds, pinks, and purples splashed across the forest like a living painting.
+
+<br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
+
+    price: 20900,
+    priceNote: "* Yuksom to Yuksom",
+    addons: {
+      transport: 3000, 
+      offloadingbag: 6300,
+      transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
+      offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
+
+    dates: [
+      
+      
+      { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
+      { label: "13 Dec - 22 Dec", start: "2025-12-13", end: "2025-12-22" },
+      { label: "14 Mar - 23 Mar", start: "2026-03-14", end: "2026-03-23" },
+      { label: "21 Mar - 30 Mar", start: "2026-03-21", end: "2026-03-30" },
+      { label: "28 Mar - 06 Apr", start: "2026-03-28", end: "2026-04-06" },
+      { label: "04 Apr - 13 Apr", start: "2026-04-04", end: "2026-04-13" },
+      { label: "11 Apr - 20 Apr", start: "2026-04-04", end: "2026-04-20" },
+      { label: "18 Apr - 27 Apr", start: "2026-04-18", end: "2026-04-27" },
+      { label: "25 Apr - 04 May", start: "2026-04-25", end: "2026-05-04" },
+      { label: "02 May - 11 May", start: "2026-05-02", end: "2026-05-11" },
+      { label: "09 May - 18 May", start: "2026-05-09", end: "2026-05-18" },
+    ],
+
+    highlights: [
+      "Located in the heart of Khangchendzonga National Park, a UNESCO World Heritage Site",
+      "Grand views of Mount Kanchendzonga (8,586m), the world’s 3rd highest peak",
+      "Experience lush rhododendron forests, hanging bridges, and sparkling waterfalls",
+      "Camp at picturesque alpine meadows like Dzongri and Thansing",
+      "Rich bird and wildlife diversity, including the snow leopard and red panda"
+    ],
+
+   itinerary: [
+  {
+    day: 1,
+    title: "NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
+    details: "<strong>• ~150 km | 6–7 hr drive.</strong><br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, misty river valleys, and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and crisper, and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries, and quiet lanes lined with traditional homes. After checking into a cozy guesthouse, spend the evening sorting out documents for trek permits, checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim’s royal and spiritual history. As dusk settles over the valley, meet your trek crew over a warm dinner, discuss the trail ahead, and get a good night’s rest — tomorrow, your Himalayan adventure truly begins."
+  },
+  {
+    day: 2,
+    title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
+    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your Goechala adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
+  },
+  {
+    day: 3,
+    title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
+    details: "<strong>• Trek: ~7 km | 4–5 hrs.</strong><br>• The second day of your Goechala Trek takes you from the deep forested camp of Sachen to the vibrant Tibetan settlement of Tshoka, with a refreshing halt at Bakhim along the way. As dawn breaks, the forest awakens to a soft chorus of Himalayan birds — thrushes, flycatchers, and the occasional laughing thrush echoing through the valley. The air feels cool and clean, and the early sunlight streams through oak leaves, painting golden streaks across the trail.<br>After breakfast, you begin a beautiful forest walk that winds gently up and down, following the sound of the Prek Chu River below. The first landmark is the Prek Chu Bridge, a sturdy wooden crossing that sways lightly above a rushing mountain stream — a wonderful photo stop. From here, the trail starts to climb steadily through lush oak, maple, and rhododendron forests, where the melody of birds and rustling leaves set the perfect trekking rhythm. Keep your eyes peeled for the Yellow-billed Blue Magpie, a striking bird that often flits among the canopy.<br>Soon, a steep zigzag ascent brings you to Bakhim (8,600 ft) — a small rest point with mesmerizing views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks while refilling water bottles before the next stretch. From Bakhim, the path turns steeper but far more rewarding as you climb through groves of magnolia trees. In spring, these trees burst into pink and white blooms, transforming the forest into a dreamlike scene straight out of a painting.<br>A little later, you’ll reach Tshoka, a picturesque hamlet perched on an open shelf with prayer-flagged huts and a small monastery overlooking snow-covered giants like Mt. Pandim and Tenzing Khang. The campsite here is stunning — with wooden huts, a serene lake nearby, and a sweeping view of the Eastern Himalayas. Evening is the best time to explore the Tshoka Monastery or simply sit by the lakeside, watching the clouds drift past the peaks.<br>As night falls, the air turns crisp and silent except for the flutter of prayer flags in the wind. Rest well — tomorrow, the trail takes you even deeper into rhododendron country, towards Dzongri."
+  },
+  {
+    day: 4,
+    title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
+    details: "<strong>• Trek: ~8 km | 6–8 hrs.</strong><br>• The fourth day of the Goechala Trek marks one of the most breathtaking — and demanding — sections of the journey, as you climb from the peaceful settlement of Tshoka to the high alpine meadows of Dzongri. The morning at Tshoka feels magical: mist rolling over the wooden huts, prayer flags fluttering softly, and a faint glow on distant snow peaks. After a warm breakfast, you begin your steady ascent toward higher altitudes.<br>The trail starts gently, winding through a dense rhododendron and oak forest, where the cool mountain air carries the earthy scent of moss and rain-soaked wood. Soon, a beautiful wooden walkway appears — a series of planks that guide you through one of the most enchanting sections of the entire trek. In spring, this path transforms into a tunnel of colors, with blooming red, pink, and white rhododendrons draping the forest in a surreal floral canopy. Each step along this stretch feels like walking through a dream — soft creaks beneath your boots, petals scattered across the trail, and an almost sacred stillness in the air.<br>Gradually, the forest thickens again, and the path grows steeper as you climb toward Phedang (12,000 ft) — a scenic clearing lined with prayer flags fluttering against the backdrop of deep green valleys. This is the perfect spot to rest, enjoy a snack, and hydrate before the final push to Dzongri. Beyond Phedang, the trees begin to thin, and the climb becomes more relentless. The gain in altitude is noticeable, so move slowly, breathe deeply, and pace yourself to avoid altitude-related fatigue.<br>After a challenging ascent, you’ll reach Deorali Top, a panoramic ridge that rewards every step of the climb. From here, the view opens dramatically — Kanchenjunga, Pandim, and other towering peaks rise majestically across the skyline, often shimmering through drifting clouds. It’s one of those rare Himalayan moments where silence, effort, and beauty merge perfectly.<br>From Deorali, the terrain levels out into a more gradual path leading to Dzongri, one of the most iconic high-altitude camps in Sikkim. The landscape shifts to open meadows, dwarf rhododendrons, and patches of frost-crusted grass. As the wind turns colder and stronger, you’ll know you’ve truly entered the alpine zone.<br>By evening, you arrive at the Dzongri campsite — a windswept meadow surrounded by snow peaks and crisp mountain air. After settling in, enjoy a hot meal, stay warm inside your tent, and rest deeply. The next morning brings a special reward — the legendary sunrise from Dzongri Top, one of the most magnificent sights in the Eastern Himalayas."
+  },
+  {
+    day: 5,
+    title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & trek to Thansing (3,930 m / 12,900 ft)",
+    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After refueling, continue your trek toward Thansing, passing through the open meadows and alpine thickets that make this trail so scenic. The path takes you through wide, rolling Dzongri meadows, where clouds often drift across the mountains, creating a constantly shifting and dreamlike landscape. Moving ahead, the trail enters high-altitude rhododendron and oak forests, where the chirping of birds and rustling leaves provide a peaceful soundtrack to your trek.<br>At the end of the Dzongri meadows, a steep and extended zigzag descent leads to Kokchurang, a small hut and rest point for trekkers at the Prek Chhu riverbed, a place staight out of a storybook. Take a short break here, hydrate, and enjoy a quick snack. From Kokchurang, the trail gradually descends through lush forests, crossing a small river bridge across the Prek Chhu river. On the other side of the river, gentle climbs and open clearings continue to greet you as the landscape transitions from dense woodland to expansive meadows.<br>Finally, the trail opens into the Thansing campsite, nestled at the base of Mt. Tenzing Khang. The close-up views of the surrounding snow-capped peaks are spectacular — on clear days, you can admire the shoulder of Kanchenjunga and the towering Pandim Peak. Once at camp, enjoy a hot lunch and spend the rest of the day relaxing. Layer up as temperatures can drop sharply, especially in the evening. Take short walks around the campsite, capture the stunning scenery, and savor the serene alpine atmosphere.<br>By nightfall, retreat to your tent for a warm meal and a good rest, preparing your body and mind for the adventures that lie ahead. This day combines the thrill of a high-altitude sunrise, panoramic Himalayan views, and a rewarding trek to a stunning campsite — all in one memorable stretch."
+  },
+  {
+    day: 6,
+    title: "Thansing to Lamuney (4,180 m / 13,700 ft)",
+    details: "<strong>• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).</strong><br>• Today offers a break from the tougher sections of the Goechala trek, as you move from Thansing to Lamuney. The trail is short and mostly level, giving your legs a chance to recover while letting you fully enjoy the stunning landscapes around you. After a relaxed breakfast, you’ll start walking through wide, open meadows dotted with wildflowers and gentle streams. The path meanders through the valley, with the snow-capped peaks of Kanchenjunga and its neighboring giants keeping you company along the way.<br>The walk to Lamuney takes around three hours, giving you plenty of time to soak in the serenity and snap photos of the expansive pastures. Once at the campsite, settle into the calm environment, enjoy a hot lunch, and take short walks along the riverside or across the meadows. The quiet of the mountains and the flowing Prek Chu River creates the perfect setting to unwind and reflect on the trek so far.<br>In the evening, your guides will gather everyone for a briefing about the next day — the Goechala Summit. They’ll outline the route, share practical tips, and answer questions to ensure you’re prepared for the most challenging and rewarding day of the trek.<br>As night descends, watch the stars fill the sky above Lamuney, a breathtaking backdrop that reminds you how remote and magical these mountains are. With an early start tomorrow, it’s the perfect opportunity to rest well and recharge for the adventure ahead."
+  },
+  {
+    day: 7,
+    title: "Lamuney to Goecha La Viewpoint 1 (4,940 m / 16,200 ft) and return to Thansing/Kokchurang",
+    details: "<strong>• Trek: ~12–13 km round trip | 8–10 hrs (start pre-dawn with headlamps).</strong><br>• Today is the highlight of your Goechala trek, a day of challenge, awe, and unforgettable mountain vistas. You’ll start before dawn, so an early wake-up is essential. As you step onto the trail in the soft pre-dawn light, the Himalayas slowly come alive around you. Packing your bags the night before will make it easy to move quickly once you return, allowing for lunch and a descent to Thangsing or Kokchurang without any rush.<br>The trek begins with a steady climb over rocky moraines, gradually winding toward Samiti Lake. Since it will still be dark when you start, the lake’s beauty will remain hidden for a while, but the anticipation builds as you trek upward. From here, the trail ascends further, narrowing as it hugs the ridge, leading to the Goechala Viewpoint. Headlamps will guide you along this part of the trail, ensuring safe steps on the rocky path.<br>Reaching the Goechala Viewpoint at sunrise is nothing short of magical. Before you, the towering peaks of Kanchenjunga, Pandim, and Tenzing Khang glow golden as the first light of morning spreads across the Himalayas. The sheer scale and proximity of these giants leave trekkers speechless, and the panorama stretching from snow-covered ridges to distant valleys makes every step of the early climb worthwhile. This moment, standing above the world with the crisp mountain air around you, is one of the most memorable experiences of the trek.<br>After lingering to take in the sweeping vistas, you’ll begin your descent. A short walk brings you to Samiti Lake, where the still waters mirror the surrounding mountains in perfect clarity. Take time to explore the lakeshore, capture photos, and enjoy the serene ambiance before heading back to Lamuney for a hot, satisfying lunch.<br>Depending on the weather and energy levels, you’ll continue your descent to either Thangsing or Kokchurang, retracing some of the trail you covered earlier in the trek. Once you arrive at your campsite, relax in your tent, enjoy a warm meal, and soak in the sense of accomplishment after conquering one of the most stunning viewpoints of the Indian Himalayas."
+  },
+  {
+    day: 8,
+    title: "Thansing/Kokchurang to Tshoka",
+    details: "<strong>• Trek: ~15–16 km | 6–7 hrs (long descent day).</strong><br>• Today marks your descent toward Tshoka, giving your legs a mix of gentle climbs and easy downhill stretches through some of the trek’s most enchanting forests. Start your morning at the campsite with a wholesome breakfast, soaking in the fresh mountain air and panoramic surroundings before setting off.<br>Instead of retracing your earlier route, today you’ll follow a different trail from Kokchurang. The path winds through dense, verdant forests where only a single hiker can walk at a time. Tall rhododendrons, pines, and other Himalayan trees flank the trail, creating a serene canopy overhead. If trekking during spring, bursts of red and pink rhododendron flowers add vibrant color to your walk, making the forest feel almost magical.<br>The trail is mostly straightforward but requires attention, especially on steeper sections where the ground can be slippery. Move steadily, breathe in the crisp mountain air, and take time to enjoy the tranquility and natural beauty around you.<br>After about 4–5 hours of trekking, you’ll reach Phedang, your first rest stop of the day. Here, you can pause for a packed lunch while the cool breeze and gentle sounds of the forest refresh you. Re-energized, you’ll continue descending through thick rhododendron groves, following the familiar trail toward Tshoka. The latter part of the trek is gentler, offering a pleasant walk as the forest gradually opens to reveal distant Himalayan peaks.<br>Upon reaching Tshoka, settle into your campsite for the evening. Enjoy a warm meal, reflect on the day’s journey, and rest well — tomorrow will take you further down the trail as the trek winds toward its conclusion."
+  },
+  {
+    day: 9,
+    title: "Tshoka to Yuksom",
+    details: "<strong>• Trek: ~14 km | 5–6 hrs (final trekking day).</strong><br>• Your final day of the Goechala Trek takes you back to Yuksom, retracing the scenic trails along the Prek Chu River, through Bakhim and Sachen. Wake up early and enjoy a hearty breakfast at the campsite, preparing for a mostly downhill journey that still promises stunning forested landscapes and river views.<br>The trail is gentle and serene, letting you soak in the last moments of the Himalayas’ tranquility. Along the way, you’ll cross the three iconic iron bridges once more, pass through the quiet hamlets of Bakhim and Sachen, and witness the peaceful rhythm of mountain life. While the descent is easier than climbing, take care on steeper sections to avoid putting too much strain on your knees. Maintain a steady pace and pause whenever you want to capture the surrounding beauty.<br>As you approach Yuksom, a short uphill stretch signals the final push back to civilization. Soon, the familiar sights of the town greet you, along with the return of mobile connectivity. Take some time to explore Yuksom’s rich history and culture. Wander through its quaint streets, visit local monasteries, browse handicraft shops, or simply soak in the welcoming atmosphere.<br>Once you arrive at your guesthouse, enjoy a wholesome meal and reflect on the incredible journey you’ve just completed. This is a day to relax, celebrate your achievement, and take in the memories of a trek that will stay with you forever."
+  },
+  {
+    day: 10,
+    title: "Departure from Yuksom",
+    details: "<strong>• Drive back to NJP/Bagdogra (6–7 hrs).</strong><br>• Timing: depart after a relaxed breakfast; allow for road traffic and mountain weather delays.<br>• Final notes: as forests and foothills unfold into tea gardens, reflect on the range of ecosystems you traversed — from subtropical valleys to glacial meadows and the sacred views of Kanchenjunga. Carry out all non-biodegradable waste and respect local customs and conservation rules."
+  }
+],
+
+
+    howToReach: {
+      air: "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway (~150 km from Yuksom; ~6–7 hr by road).<br>• Pakyong Airport (Sikkim) is closer (~130 km away, ~5–6 hr) but has limited flights and is weather-dependent.<br><em>From both airports book a private cab to yuksom which may cost between ₹4000 - ₹8000</em>",
+      train: "New Jalpaiguri (NJP) or Siliguri, the nearest railhead (~145–153 km from Yuksom; 6–7 hr by road)",
+      road: "<br>• Route: Siliguri → Sevoke → Melli → Jorethang → Legship → Yuksom<br>• Shared jeeps from Siliguri's Tenzing Norgay Bus Terminus(near NJP railway station to Jorethang<br>• From Jorethang to Yuksom",
+      travelTip: "Start early from Siliguri if opting for a shared vehicle as last jeep for Yuksom from Jorethang departs by 1PM - 2PM."
+    },
+
+    didYouKnow: [
+  " <b>You can’t trek to the actual Goecha La Pass anymore!</b> <br>For environmental and safety reasons, trekkers stop at View Point 1 (4,940 m). But this spot offers the most dramatic and close-up views of Kanchenjunga and its neighboring peaks.",
+
+  " <b>Mt. Kanchenjunga is revered as a sacred mountain.</b> <br>At 8,586 m, it’s the third-highest mountain in the world. Locals never climb its summit out of respect — the first successful ascent in 1955 deliberately stopped short of the true summit.",
+
+  " <b>Samiti Lake is both sacred and stunning.</b> <br>This turquoise alpine lake mirrors Pandim and Kanchenjunga at sunrise. Locals consider it holy, so camping or washing in it is strictly forbidden.",
+
+  " <b>Khangchendzonga National Park is a UNESCO World Heritage Site.</b> <br>It’s home to red pandas, Himalayan black bears, blue sheep, and over 500 species of birds including the Himalayan monal and blood pheasant.",
+
+  " <b>Flora changes dramatically with altitude.</b> <br>From orchids, magnolias, and lush rhododendrons at lower elevations, to silver firs, junipers, and finally alpine meadows dotted with edelweiss — the trail is a botanist’s paradise.",
+
+  " <b>Rhododendron bloom transforms the trek in spring.</b> <br>In April–May, the forests turn crimson, pink, and purple — Sikkim has over 30 species of rhododendrons, more than anywhere else in India.",
+
+  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Kanchenjunga range is the abode of protective mountain deities."
+],
+
+
+    gallery: [
+      
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534990/goechala-view7_z1hrcv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534988/goechala-view8_ukhvfv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534987/goechala-view9_jmt3ln.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view6_zxmfea.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view14_lnsoag.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534983/goechala-view4_aonzed.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view2_jlxprg.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view12_gnasys.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view15_wrfshw.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view10_bujpza.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534958/goechala-view1_mj2zxp.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+    
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+      question: "Who can attempt the Goecha La trek?",
+      answer: "This trek is best suited for moderately experienced trekkers with a good level of fitness. While the trail is not technically difficult, long days and high altitude require stamina and proper acclimatization.",
+    },
+    {
+      question: "What is the best time to do the Goecha La trek?",
+      answer: "The Goecha La trek offers a unique charm in every season. Spring (April to June) is known for its vibrant bloom of rhododendrons, magnolias, wild strawberries, and countless alpine flowers — the forests come alive with color and birdsong. While skies may turn cloudy during the day, mornings and evenings usually offer clear, golden views of Kanchenjunga. Autumn (September to November) is the most popular season for trekkers seeking uninterrupted Himalayan views — crystal-clear skies, stable weather, and the golden hues of meadows and forests create postcard-perfect landscapes. Winter (December to February) transforms the region into a serene white world; Goecha La is one of the few high-altitude treks (up to ~15,000 ft) that can still be attempted during this time, offering the best mountain visibility and a magical chance to witness snowfall in the Eastern Himalayas.",
+    },
+    {
+      question: "What are the temperature levels during different seasons on the Goecha La trek?",
+      answer: "In spring (April–June), daytime temperatures range between 8°C to 25°C, while nights can drop to around -2°C, especially at higher camps like Lamuney and Thansing. Autumn (September–November) offers the most stable weather — days remain cool around 5°C to 12°C, and nights often dip to -5°C or lower. Winter (December–February) is extremely cold, with daytime highs near 0°C to 5°C and night temperatures plunging to -10°C or below, particularly above Dzongri, often accompanied by snow and crystal-clear mountain views.",
+    },
+    {
+      question: "What essential gear should I carry for Goecha La?",
+      answer: "Layered clothing, waterproof trekking shoes, insulated jackets, thermal wear, a 50L backpack, trekking poles, and a headlamp are essential. For a full checklist, download the PDF above.",
+    },
+    {
+      question: "Are there camping facilities along the trek?",
+      answer: "Yes, the trek involves overnight stays at organized camps at Dzongri, Thansing, and Goecha La base camps. Camp facilities include tents, basic bedding, and meals provided by the organizers.",
+    },
+    {
+      question: "Will I have mobile network coverage during the trek?",
+      answer: "Connectivity is very limited. Some areas may have intermittent BSNL or Airtel coverage, but don’t rely on it. Inform family beforehand about limited communication.",
+    },
+    {
+      question: "Do I need any permits for Goecha La trek?",
+      answer: "Yes, trekkers require an Sikkim State Permit and Kanchenjunga National Park permit, which are generally arranged by the trek operator before the trek starts.",
+    },
+    {
+      question: "Is the Goecha La trek suitable for solo trekkers?",
+      answer: "While possible, solo trekking in Sikkim is not recommended due to remote terrain and the need for park permits. It’s safer to join a guided group trek.",
+    },
+    {
+      question: "What makes Goecha La unique compared to other Himalayan treks?",
+      answer: "It offers one of the most spectacular close-up views of the Kanchenjunga range, including glaciers, alpine meadows, and rhododendron forests. The combination of diverse landscapes and cultural exposure makes it truly exceptional.",
+    }
+  ],
+},
+
+
+    faqsLink: "/faqs-and-articles",
+  },
+
+  /* West Bengal & Nepal */
+
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
@@ -4333,280 +4415,425 @@ itinerary: [
   faqsLink: "/pages/faqs-and-articles",
 },
 
+/* Ladakh & Kashmir */
+
 {
-  id: "pin-parvati-pass-trek",
-  name: "Pin Parvati Pass Trek",
-  tags: ["pass"],
-  difficulty: ["difficult"],
-  season: ["monsoon", "autumn"],
-  month: ["july", "august", "september"],
-  duration: ["10 Nights / 11 Days"],
-  region: "himachal pradesh",
-  coordinates: [
-    [31.9985, 77.3588], // Barshaini (start)
-    [32.0127, 77.4311], // Kheerganga
-    [32.0442, 77.5189], // Tunda Bhuj
-    [32.0761, 77.6123], // Thakur Kuan
-    [32.0911, 77.7135], // Odi Thach
-    [32.0985, 77.8262], // Mantalai Lake
-    [32.0978, 77.8917], // Base Camp (Parvati side)
-    [32.1022, 77.9445], // Pin Parvati Pass (17,450 ft)
-    [32.1318, 77.9814], // Pin Valley
-    [32.1862, 78.0544], // Mudh Village (end)
-  ],
-
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
-
-  heroImages: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
-  ],
-
-  subtitle: "Traverse the Untamed Himalayas",
-
-  seo: {
-    title: "Pin Parvati Pass Trek | Route, Itinerary & Cost | Planethimalayas",
-    description: "Pin Parvati Pass Trek (17,450 ft) is one of the most thrilling high-altitude crossovers in Himachal. A 11-day expedition that bridges lush Parvati Valley and stark Pin Valley of Spiti — glaciers, meadows, and raw Himalayan drama in one trek."
-  },
-
-  overview: {
-    facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days (+1 buffer day)" },
-      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
-      { emoji: "🏔️", label: "Max Altitude", value: "17,450 ft (Pin Parvati Pass)" },
-      { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "July to September" },
-      { emoji: "🗺️", label: "Region", value: "Kullu & Spiti, Himachal Pradesh" },
-      { emoji: "📍", label: "Start Point", value: "Barshaini (near Kasol)" },
-      { emoji: "🏁", label: "End Point", value: "Kaza, Spiti Valley" },
-      { emoji: "🧥", label: "Cloakroom facility", value: "Not vailable" },
+    id: "markha-valley-trek",
+    name: "Markha Valley Trek",
+    tags: ["pass"],
+    difficulty: ["difficult"],
+    season: ["monsoon"],
+    month: ["august", "september"],
+    region: "ladakh",
+    duration: "7 Nights / 8 Days",
+    coordinates: [
+      [34.1526, 77.5771],   // Leh
+      [33.970001, 77.260002], // Skiu (start near Leh)
+      [34.0500, 77.3760],   // Chilling area
+      [33.9700, 77.2600],   // Skiu
+      [33.8640, 77.5030],   // Markha
+      [33.8644, 77.5826], // Hemis (end near Leh)
     ],
 
-    snippet:
-      "The Pin Parvati Pass Trek is far more than just a Himalayan trail — it’s a bold journey across two completely distinct worlds. On one side, the Parvati Valley greets you with its lush, emerald forests, cascading waterfalls, hot springs, and vibrant meadows alive with flowers and birdsong. On the other, the Pin Valley unfolds as a high-altitude cold desert, a land of ochre cliffs, sapphire skies, and barren stretches that seem untouched by time. At an astonishing 5,289 meters, the pass itself stands as the ultimate bridge between these extremes — a place where greenery gives way to arid lands, moisture yields to thin, crisp air, and gentle streams transform into ice-laden rivers. <br>The trek begins at Barshaini, near the quaint village of Kasol, where the trail winds through the dreamy meadows of Kheerganga and Odi Thach, each step immersing you deeper into the wild heart of Himachal. You traverse rivers, cross wooden bridges, navigate dense forests, and ascend flower-strewn meadows before reaching the serene glacial lake of Mantalai, a campsite cradled by the towering peaks. The final push to the pass is a test of endurance and mountain sense, negotiating glaciers, steep ascents, and unpredictable high-altitude conditions. The moment you stand on the pass, gazing at the dramatic transition from Parvati’s green abundance to the stark, almost surreal Spiti Valley, you feel the Himalayas in their raw, unfiltered glory. <br>This is not a trek for the faint-hearted. The Pin Parvati Pass demands stamina, acclimatization, and respect for the high-altitude wilderness, where help is far away, and every stream crossing, rock scramble, or icy patch carries its own risks. Yet, it is precisely this challenge that makes it so unforgettable. Along the way, you also witness the fascinating coexistence of Himalayan cultures — from the forest-dwelling communities of Parvati Valley to the resilient villages of Spiti, shaped entirely by their environment. Every day brings new perspectives, new terrain, and new moments of awe that imprint themselves on your memory."
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+    ],
+
+    subtitle: "The Classic Trek of Ladakh’s High-Altitude Desert",
+
+    seo: {
+      title: "Markha Valley Trek | Itinerary, Cost & Dates | Planethimalayas",
+      description: "Markha Valley Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
+        { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "August to September" },
+        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
+        { emoji: "📍", label: "Start Point", value: "Skiu (near Leh)" },
+        { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      ],
+      snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
+    },
+
+    price: 22500,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 5000,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
+
+    dates: [
+      { label: "08 Aug - 15 Aug", start: "2026-08-08", end: "2025-08-15" },
+      { label: "09 Aug - 16 Aug", start: "2026-08-09", end: "2025-08-16" },
+      { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2025-08-22" },
+      { label: "16 Aug - 23 Aug", start: "2026-08-16", end: "2025-08-23" },
+      { label: "22 Aug - 29 Aug", start: "2026-08-22", end: "2025-08-29" },
+      { label: "23 Aug - 30 Aug", start: "2026-08-23", end: "2025-08-30" },
+      { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2025-09-05" },
+      { label: "30 Aug - 06 Sep", start: "2026-08-30", end: "2025-09-06" },
+      { label: "05 Sep - 12 Sep", start: "2026-09-05", end: "2025-09-12" },
+      { label: "06 Sep - 13 Sep", start: "2026-09-06", end: "2025-09-13" },
+      { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2025-09-19" },
+      { label: "13 Sep - 20 Sep", start: "2026-09-13", end: "2025-09-20" },
+    ],
+
+    highlights: [
+      "Explore the heart of Ladakh’s Hemis National Park, home to rare wildlife like the snow leopard",
+      "Cross the iconic Kongmaru La (17,100 ft) with breathtaking views of the Karakoram range",
+      "Stay in traditional Ladakhi villages with centuries-old mud houses and friendly locals",
+      "Walk past ancient monasteries, prayer wheels, and river crossings on wooden bridges",
+      "Experience stark contrasts — barren high-altitude deserts and oasis-like settlements",
+    ],
+
+    itinerary: [
+  {
+  day: 1,
+  title: "Arrival in Leh (11,500 ft / 3,500 m)",
+  details: "Arrive in Leh by flight or train and check in to your hotel, allowing your body to settle into the high altitude of 11,500 ft. Since a direct landing at this height can trigger AMS, the first day is entirely meant for rest and gentle acclimatization. Keep your schedule light—explore Leh market, visit nearby monasteries, or stroll around the town, but avoid visiting any very high-altitude pass or viewpoint. A mandatory trek briefing takes place at 5 PM, for which you must carry a copy of your ID proof and two photographs; foreign trekkers should bring a passport and visa copy. Leh has reliable post-paid network coverage, several ATMs, and plenty of shops where you can rent or buy any trekking gear you may have forgotten. The cafés here are lively hangouts for travelers, but avoid alcohol and smoking as they interfere with acclimatization. Stay hydrated, enjoy the local culture and cuisine, and return to your hotel early to rest well. An easy, relaxed Day 1 is crucial to prepare your body for the days ahead."
   },
-
-  price: 46900,
-  priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
-  addons: {
-    transport: null,
-    offloadingbag: 7500,
-    transportNote: "* Trekkers can request transport arrangements from Manali to Barshaini and from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-    offloadingNote: "* Max weight 9 kg per bag."
+  {
+  day: 2,
+  title: "Acclimatization and Sightseeing in Leh",
+  details: "This extra acclimatization day is crucial for helping your body adjust to the thinning air of Ladakh, so spend as much time outdoors as possible while keeping the day relaxed and strain-free. You can explore some of Leh’s most significant monasteries such as Shey, Thiksey, Hemis, and the Sangam viewpoint where the Indus and Zanskar rivers meet, each offering a window into Ladakh’s deep Buddhist heritage. Thiksey Gompa, perched on a hill, is the largest in central Ladakh and gives you a beautiful introduction to the region’s culture. Avoid gaining altitude or visiting high passes today, as it may interfere with your acclimatization. Instead, wander around Leh town, explore the lively bazaar, interact with locals, and sample the delicious local cuisine. If you prefer gentle activity, a downhill cycling tour around Leh can be done without putting strain on your body. As the day winds down, make sure to catch the sunset at Shanti Stupa, known for its glowing lights in the evening. Return to your hotel for the night and rest well — your actual trekking journey begins tomorrow."
   },
+  {
+  day: 3,
+  title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m) | Trek Distance: 11 km | 5-6 hrs.",
+  details: "Today marks the true beginning of your Markha Valley adventure as you drive from Leh to Skiu through some of Ladakh’s most iconic landscapes. The journey takes you past military camps, the famous Gurudwara Pathar Sahib, and the mysterious Magnetic Hill, with constant views of the Stok range until you enter the boundaries of Hemis National Park. A major highlight en route is the spectacular Sangam viewpoint where the emerald Indus and Zanskar rivers meet in a striking confluence. As the road turns towards Chilling, the scenery shifts dramatically—open terrains gradually narrow into deep valleys painted in shades of purple, grey, and black, with juniper trees lining the route. After crossing the Zanskar River over green iron bridges, you arrive at the serene village of Skiu, divided into Upper and Lower sections, adorned with mani stones, white stupas, and an ancient monastery. From here, your trek begins on a well-marked trail that follows the Markha River. Along the way, you may spot magpies, blue sheep, and other wildlife that thrive in this rich Himalayan ecosystem. You’ll pass small cafés, winter settlements, barley and wheat fields, mani walls, and Lhatos as you make your way through the valley. Continue trekking past the quiet village of Nagding, where meditation caves dot the rocky slopes, and the riverbanks widen into sandy stretches. After several hours, you enter the culturally vibrant village of Sara, marked by a dramatic gateway decorated with skulls of wild animals—symbols of pride for the locals. With its ancient monastery, historic castle, and lush wheat fields, Sara offers the perfect blend of culture and natural beauty. Settle into your tent or homestay for a warm meal and end the day under a dazzling sky full of stars."
+  },
+  {
+  day: 4,
+  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5-6 hours.",
+  details: "Begin your morning in Sara with a warm breakfast and stunning Himalayan views before easing into a day that feels beautifully familiar to the previous one. The trail gradually leads you across small water channels and stretches of cold desert terrain until you reach the charming village of Chalak, which appears after crossing a wooden bridge. Chalak is dotted with cozy tea houses, stone-walled animal shelters, and homes perched on small hillsides, surrounded by patches of green wheat fields contrasting against the barren mountains. After resting and interacting with friendly locals, continue on the gentle ascent towards Markha, passing a long stretch marked by Bharal horns and countless mani stones laid around elegant white stupas. These stones carry sacred Buddhist inscriptions—some even in Sanskrit—so treat them with great respect and avoid touching them, as villagers believe they are spiritually protected. The trail also unfolds ancient ruins with prayer flags fluttering above, adding a sense of timelessness to the valley. As you approach Markha, you must cross a flowing stream of the Markha River, which can rise up to thigh level at times; removing your shoes and wading through the icy water offers a refreshing burst of energy. A short walk afterward brings you to Markha, the largest village in the valley, known for its scattered traditional houses, monastery, and the ruins of the old Markha fort. Settle into your homestay or campsite here and soak in the cultural richness and scenic calm of this historic Himalayan settlement."
+  },
+  {
+  day: 5,
+  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 7 - 8 hrs.",
+  details: "Today’s journey takes you deeper into the upper Markha Valley, where the scenery begins to widen and the landscapes gain a grander, more dramatic character. As you leave Markha behind, make the most of the simplicity and innocence of the last inhabited villages you’ll encounter on this route. The trail meanders through beautiful stretches where barren mountains meet refreshing streams, with the path crossing the river multiple times—sometimes over small wooden bridges, other times through shallow flowing water. The valley slowly opens up as you approach Umlung, a tiny settlement that hosts the last teahouse of the trek and offers a peaceful monastery that blends effortlessly into the rugged surroundings. Beyond Umlung comes one of the most unforgettable moments of the trek: your very first view of Mt. Kang Yatse, standing tall at 6,400 m, appearing suddenly and magnificently as if inviting you forward. Keep following the river and navigating its crossings as the trail leads you toward Hankar, the final village of the Markha Valley. Along the way, look out for the beautifully perched Tacha monastery, seemingly balancing on a rocky cliff—a magical sight against the stark mountain backdrop. By the time you reach Hankar, surrounded by high pastures and towering peaks, you’ll feel the transition from village life to true Himalayan wilderness. Settle into your tent or homestay for the night and enjoy the quiet, remote beauty of this last inhabited stop on your route."
+  },
+  {
+  day: 6,
+  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 7 - 8 hrs.",
+  details: "Today’s trek feels refreshing and far gentler compared to yesterday’s demanding climb, allowing you to truly sink into the beauty of the upper Markha Valley. As you leave Hankar, the trail begins easily, and within the first kilometre you’ll reach a set of diversions—one leading toward Rupshu and Zanskar. Staying on the left trail, you walk toward a stone bridge that confirms you’re on the correct path. From here, several side trails appear frequently, so it’s important to keep close to your trek leader while enjoying the scenery. Within a couple of hours, the lush pastures of Thochuntse begin to unfold ahead of you, a welcome burst of greenery after days in Ladakh’s stark high-altitude desert. This small settlement has tea houses and seasonal campsites, making it a natural rest point. Just beyond this stretch, the trail steepens for about an hour before easing into a long, gradual ascent. As you walk, the mighty Kang Yatse peak dominates your right side, growing larger and more magnificent with every step, almost as if guiding you onward. A pair of serene twin lakes suddenly appear along the trail, offering a moment of calm reflection against the rugged landscape. From the lakes, a gentle descent leads you to the vast, windswept plateau of Nimaling, the highest campsite on the entire Markha Valley trek. This expansive grassland—dotted with grazing sheep, goats, and occasionally mountain hares—feels like a world entirely its own. With the towering Kang Yatse massif rising beside you and the open sky stretching endlessly above, Nimaling offers some of the most unforgettable views of the trek. Nights here can bring sudden snowfall, adding to the wild charm of this high-altitude sanctuary. Settle into your tent and let the quiet, elevated world of Nimaling lull you into deep rest."
+  },
+  {
+  day: 7,
+  title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
+  details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
+  },
+  {
+  day: 8,
+  title: "Departure from Leh",
+  details: "After completing the trek and your overnight stay in Leh, this is the day to check out and begin your onward journey. Homestay or hotel services conclude as per the itinerary, so ensure checkout is done within the standard checkout time. Airport drop can be arranged at the prevailing local rate, payable directly to the driver. If you have limited holidays, you can head straight to the Leh airport or bus stand for your departure. However, if you have extra days and wish to explore more of Ladakh, feel free to discuss with us—we’re happy to suggest places or help arrange further services."
+  }
+],
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to packed lunch on Day 10",
 
-  enquireOnly: true,
+    didYouKnow: [
+  "<b>Markha Valley is inside Hemis National Park!</b> - Home to rare species like snow leopards, ibex, Himalayan marmots, and golden eagles.",
+  "<b>Tea House Trek of Ladakh:</b> Villages like Skiu, Markha, and Hankar offer homestays where trekkers experience traditional Ladakhi hospitality.",
+  "<b>Kongmaru La is 17,300 ft high!</b> - The pass gives sweeping views of the Karakoram, Stok, and Kang Yatse ranges, a rare high-altitude desert panorama.",
+  "<b>Ancient monasteries and chortens:</b> The trail is dotted with centuries-old Buddhist structures, prayer walls, and mani stones, reflecting Ladakh's deep spiritual heritage.",
+  "<b>Endemic flora and fauna:</b> Look out for Himalayan blue poppies, edelweiss, primulas, yaks, ibex, and high-altitude Himalayan marmots.",
+  "<b>Arid cold desert ecosystem:</b> Unique in the Himalayas, the Markha Valley features barren rocky gorges and oasis-like green pastures where life adapts to extreme altitude and dryness.",
+  "<b>Traditional Ladakhi architecture:</b> Mud houses and wooden structures have survived centuries of harsh winters while blending sustainably with the environment.",
+  "<b>High-altitude river crossings:</b> The trek crosses multiple streams and tributaries of the Markha River; bridges and rocky fords offer adventure and scenic photography opportunities."
+],
 
-  highlights: [
-    "A rare crossover connecting lush Parvati Valley to arid Spiti Valley",
-    "Cross one of the highest Himalayan passes at 17,450 ft",
-    "Witness dramatic terrain shifts — meadows, moraines, glaciers, and deserts",
-    "Camp beside the sacred Mantalai Lake, the origin of the Parvati River",
-    "Experience both Buddhist and Hindu cultures in a single trek route",
-    "A challenging, raw, and rewarding trek for seasoned trekkers only"
+
+    howToReach: {
+      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (well connected to Delhi and major Indian cities).",
+      train: "No direct trains. Nearest station: Jammu Tawi (approx. 700 km). Continue by road or flight to Leh.",
+      road: "From Manali: 470 km / 2 days via Manali–Leh Highway. From Srinagar: 420 km / 2 days via Srinagar–Leh Highway.",
+      travelTip: "Arrive in Leh at least 2 days before the trek for proper acclimatization to avoid altitude sickness.",
+    },
+
+    gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535621/markha-valley-view3_ghyqx6.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535604/markha-valley-view8_frpdcl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535600/markha-valley-view2_pkja6f.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535597/markha-valley-view12_c36aaf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535592/markha-valley-view11_mcf7g4.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-view1_regn76.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Markha Valley trek?",
+      answer: "This trek is suitable for intermediate trekkers with basic high-altitude experience. While the trails are moderate, some days involve long distances and high-altitude camping.",
+    },
+    {
+      question: "What is the best season for the Markha Valley trek?",
+      answer: "The ideal months are June to September, avoiding the heavy snowfall of winter and the extreme cold of early spring. During this period, the valley is lush, rivers are flowing, and skies are generally clear.",
+    },
+    {
+      question: "What essential gear should I carry for the Markha Valley trek?",
+      answer: "Essentials include waterproof trekking boots, layered clothing, warm jacket, trekking poles, 40–50L backpack, thermal wear, and a headlamp. Refer to the downloadable PDF for a detailed packing list.",
+    },
+    {
+      question: "Are camping facilities available on the trek?",
+      answer: "Yes, the trek involves camping at scenic locations in Markha Valley, with tents, bedding, and nutritious meals provided by the trek organizers.",
+    },
+    {
+      question: "Is mobile network coverage available during the trek?",
+      answer: "Network coverage is extremely limited. Occasionally, BSNL and Airtel may work in Leh or at certain high points, but trekkers should plan for minimal connectivity.",
+    },
+    {
+      question: "Do I need any permits for the Markha Valley trek?",
+      answer: "Yes, trekkers require an Inner Line Permit (ILP) for restricted areas of Ladakh. Trek operators typically arrange these permits on behalf of the participants.",
+    },
+    {
+      question: "What makes the Markha Valley trek unique?",
+      answer: "Markha Valley offers a combination of pristine Himalayan landscapes, traditional Ladakhi villages, gompas (monasteries), and breathtaking views of the Stok and Kang Yatse peaks. The cultural immersion alongside high-altitude trekking makes it a truly memorable adventure.",
+    }
   ],
+},
 
- itinerary: [
+
+    faqsLink: "/faqs-and-articles",
+  },
+
+  {
+  "id": "winter-markha-valley-trek",
+  "name": "Winter Markha Valley Trek",
+  "tags": ["winter"],
+  "difficulty": ["difficult"],
+  "season": ["winter"],
+  "month": ["january", "february", "march"],
+  "region": "ladakh",
+  "duration": "7 Nights / 8 Days",
+
+  "coordinates": [
+    [34.1526, 77.5771],   // Leh
+    [34.0500, 77.3760],   // Chilling area
+    [33.9700, 77.2600],   // Skiu
+    [33.8640, 77.5030],   // Markha
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
+    ],
+
+    subtitle: "Ladakh’s Frozen Desert Adventure",
+
+    seo: {
+      title: "Winter Markha Valley Trek | Frozen River Trek in Ladakh | Planethimalayas",
+      description: "The Winter Markha Valley Trek is Ladakh’s most unique frozen-river experience, offering icy trails, snow-filled valleys, cozy homestays, and stunning views of Kang Yatse during deep winter. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult (Extreme Winter Conditions)" },
+        { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
+        { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
+        { emoji: "🌤️", label: "Best Time", value: "January to March" },
+        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
+        { emoji: "📍", label: "Start Point", value: "Chilling (near Leh)" },
+        { emoji: "🏁", label: "End Point", value: "Chilling / Leh" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available in Leh" }
+      ],
+
+      snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.\n\nAs temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.\n\nThe region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.\n\nFor winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
+    },
+
+    price: 22500,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 5000,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to breakfast on Day 7",
+
+    highlights: [
+  "Traverse the frozen Markha River, slide and skate on ice, and witness a unique winter landscape unlike any other in Ladakh",
+  "Stay in cozy homestays in Skiu, Markha, and Hankar, experiencing authentic Ladakhi winter hospitality",
+  "Spot winter wildlife such as Himalayan blue sheep, snowcocks, chukar partridge, and high-altitude birds in Hemis National Park",
+  "Walk past ancient monasteries, chortens, and mani walls, with snow-dusted peaks providing a serene backdrop",
+  "Marvel at the mighty Kang Yatse 1 (6,400 m) and Kang Yatse 2 (6,250 m) under clear winter skies",
+  "Experience the magical contrast of frozen rivers, snow-covered plains, and stark desert-like mountains",
+    ],
+
+    itinerary: [
   {
     day: 1,
-    title: "Bhuntar (2,000M) to Barsheni (2,580M)",
-    details: `• Distance: 50 kms | Duration: 2.5 hours<br>
-
-• The trek begins with a relaxed start — assembling at Bhuntar and driving up to Barsheni, the trailhead for the Pin Parvati Pass trek. Bhuntar, just 11 km from Kullu, is well connected via its airport to major cities. The scenic drive of 50 km takes around 2.5 hours. From Barsheni, we trek a short stretch of less than 20 minutes to Kalga. The remainder of the day is spent going through the trek itinerary, meeting fellow trekkers, checking gear, and settling into your guesthouse or campsite. This day allows you to absorb the first glimpse of the Himalayan landscape and prepare for the adventure ahead.`
+    title: "Arrival in Leh (11,500 ft / 3,500 m)",
+    details: "Arrive in Leh by flight and transfer to your hotel. Day 1 is dedicated to rest and acclimatization to the high-altitude cold of 11,500 ft. Winter temperatures can drop to -15°C during the day and -25°C at night, so keep outdoor activity light. Explore the Leh market gently if you feel comfortable. Stay hydrated, avoid alcohol, and enjoy local cuisine. A mandatory trek briefing takes place in the evening where you must carry ID proof and photographs; foreign trekkers should bring passport and visa copies. Overnight stay in Leh."
   },
   {
     day: 2,
-    title: "Kalga (2,280M) to Kheerganga (2,960M)",
-    details: `• Distance: 8 kms | Duration: 6 hours<br>
-
-• Kalga is a quaint village in Parvati Valley, surrounded by apple orchards and colorful flora. The trail begins with a steep descent to the riverbed, followed by a moderate climb to Nakthan village — a tiny settlement of 20–30 households. Nakthan offers a brief respite and some refreshments, with views of the roaring Parvati River. From here, we continue through meadows and past Rudranag Temple, named after the nearby serpent-like waterfall. After crossing a wooden bridge over the Parvati River, the trail gradually ascends to Kheerganga. This campsite lies in the heart of a vast meadow, with natural hot springs perfect for a warm dip — likely the last for several days. The trail has multiple stream crossings, but plenty of rest points make it manageable.`
+    title: "Acclimatization and Sightseeing in Leh",
+    details: "This day is for gradual acclimatization. Visit Leh Palace, Shey, Thiksey, and Hemis monasteries, and stroll around the town’s winter bazaar. Keep activity light to avoid altitude sickness. Winter sun is mild, but temperatures remain low, so dress in layers. This day prepares your body for the cold and high-altitude trekking ahead. Return to the hotel early for rest."
   },
   {
     day: 3,
-    title: "Kheerganga (2,960M) to Tunda Bhuj (3,200M)",
-    details: `• Distance: 11.37 kms | Duration: 4-5 hours<br>
-
-• We begin early from Kheerganga, trekking through flower-strewn meadows. The trail alternates between muddy paths and flat terrain through dense forests. While the distance is moderate, the real challenge is resisting frequent halts to admire the landscape and capture photographs. The final stretch involves a steep climb through mucky terrain, followed by a short walk across meadows. As you spot the foamy waterfalls across the river, you'll know you've reached the Tunda Bhuj campsite, surrounded by cliffs and the gentle roar of the Parvati River.`
+    title: "Leh → Chilling → Skiu (3,400 m) | Trek Distance: 8–10 km | 5–6 hrs",
+    details: "Drive from Leh to Chilling (approx. 70 km). Begin trekking along frozen riverbeds and icy trails of the Markha Valley. Cross frozen Markha river patches, snow bridges, and enjoy the stark winter desert landscapes. Spot blue sheep and winter birds while walking past small villages and mani walls. Reach Skiu village and stay overnight in a warm homestay. Daytime temperature may hover around -10°C and drop further at night."
   },
   {
     day: 4,
-    title: "Tunda Bhuj (3,200M) to Thakur Kuan (3,620M)",
-    details: `• Distance: 5.24 kms | Duration: 3-4 hours<br>
-
-• After breakfast, we leave Tunda Bhuj, following a trail dotted with meadows and cascading waterfalls. The day involves a 400M climb, making it a relatively easy trek. There is a tricky section about an hour into the trail, where landslides are possible, so caution is advised. As the tree line ends, the terrain becomes rocky. Thakur Kuan’s campsite is a vast pasture beside the Parvati River, with a nearby trolley bridge to explore if you arrive early.`
+    title: "Skiu → Markha (3,700 m) | Trek Distance: 10–11 km | 5–6 hrs",
+    details: "Follow gentle ascents along the frozen river valley. Pass ancient chortens, scattered hamlets, and snow-dusted pastures. The trail offers panoramic views of surrounding peaks and the frozen Markha River. Reach Markha village, one of the largest settlements, and check into a homestay. Temperatures can drop to -20°C at night. Immerse in Ladakhi culture and enjoy a warm meal."
   },
   {
     day: 5,
-    title: "Thakur Kuan (3,620M) to Odi Thatch (3,815M)",
-    details: `• Distance: 9.66 kms | Duration: 4-5 hours<br>
-
-• Today is thrilling, with two natural boulder bridges to cross — Pandu Pul 1 and Pandu Pul 2 — in the middle of the ferocious Parvati River. After the river-crossing adventure, the trail eases into a straight shepherd trail with multiple paths leading to Odi Thatch. This campsite, true to its name meaning 'meadows', is set in an expansive alpine pasture, offering a galactic-like panorama. Careful navigation is needed to follow the guide through the labyrinthine trail.`
+    title: "Markha Exploration (4,150 m) | Trek Distance: 6–8 km | 4–5 hrs",
+    details: "Today is an acclimatization hike to Thachungtse, with spectacular views of Kang Yatse (6,400 m) and the winter landscape. Spot Himalayan blue sheep navigating steep cliffs, and enjoy the quiet solitude of snow-covered valleys. Return to Markha for the night, relishing the warmth of homestay accommodations. Nighttime temperatures can plunge to -25°C, with wind chill making it feel colder."
   },
   {
     day: 6,
-    title: "Odi Thatch (3,815M) to Mantalai Lake (4,096M)",
-    details: `• Distance: 10.31 kms | Duration: 5-6 hours<br>
-
-• The trail today is straightforward with gentle ascents until the final 300M climb to Mantalai Lake. Along the way, we reach Mini Mantalai, a junction where numerous streams converge. The lake is glacial, serene, and considered sacred, surrounded by the mighty Himalayas. The campsite is on the lake’s banks, offering a peaceful environment to relax and prepare for the higher altitude sections ahead.`
+    title: "Markha → Skiu (3,400 m) | Trek Distance: 10–11 km | 5–6 hrs",
+    details: "Retrace your route along the frozen Markha river valley back to Skiu. Observe the winter flora and fauna in their dormant season. The valley appears wider and more dramatic on the return journey. Enjoy homestay comforts in Skiu. Temperatures remain below freezing, so proper winter clothing is essential."
   },
   {
     day: 7,
-    title: "Mantalai (4,096M) to Base Camp I (4,800M)",
-    details: `• Distance: 4.45 kms | Duration: 5-6 hours<br>
-
-• A demanding day with an 800M ascent. We start early before dawn while temperatures are lowest. The trail begins muddy with sections of loose scree. After crossing these, the ascent continues to a spur, then a moraine section which, though short, is challenging. Base Camp I sits on the edge of the Parvati glacier, offering spectacular views under moonlight or sunrise.`
+    title: "Skiu → Chilling → Leh (3,500 m) | Trek Distance: 5–6 km | 2.5–3.5 hrs + Drive",
+    details: "A short trek from Skiu to Chilling takes about 2.5–3.5 hours over icy terrain. From Chilling, drive back to Leh. Warm rooms, hot water, and local food await. Use this day to relax, shop for souvenirs, and enjoy Leh in winter. Overnight stay in Leh."
   },
   {
     day: 8,
-    title: "Base Camp I (4,800M) to Base Camp II via Pin Parvati Pass (5,289M)",
-    details: `• Distance: 6.37 kms | Duration: 7-8 hours<br>
-
-• Today is the summit push. An early start ensures firm ice for safer trekking. We traverse glaciers, negotiating open and hidden crevasses. The final 300–400M steep climb leads to the Pin Parvati Pass at 5,289M, with breathtaking views of Parvati Valley on one side and Pin Valley on the other. A long descent of about 1.5 km brings us to Base Camp II on the Pin Valley side, where we set up camp for the night.`
-  },
-  {
-    day: 9,
-    title: "Base Camp II (4,800M) to Wichkurung Thatch (3,500M)",
-    details: `• Distance: 11.83 kms | Duration: 6 hours<br>
-
-• The trail today is mostly descent. The first 3 km is steep, followed by river crossings and gentle flat stretches. After crossing streams and walking along the riverbank, we reach Wichkurung Thatch — a scenic, peaceful campsite in the Spiti region. The pace is easier, giving trekkers time to enjoy the high-altitude desert landscape.`
-  },
-  {
-    day: 10,
-    title: "Wichkurung Thatch (3,500M) to Mudh Village (3,970M) & Drive to Kaza (3,800M)",
-    details: `• Distance: 15.26 kms | Duration: 5 hours trekking + 2-hour drive<br>
-
-• The trail meanders through the wide-open Pin Valley, with multiple streams and unique high-altitude flora. We stop for lunch by a stream, absorbing the barren yet mesmerizing landscape. The trek ends at Mudh Village, the last settlement in Pin Valley, where you can explore local culture and cuisine. Afterwards, we drive for about 2 hours to Kaza, the administrative hub of Spiti Valley, for overnight stay in a guesthouse.`
-  },
-  {
-    day: 11,
-    title: "Kaza (3,800M) to Manali (2,050M) / Buffer Day",
-    details: `• Distance: ~200 km | Duration: 9–10 hours drive<br>
-
-• Kaza is the largest township of Spiti, with monasteries and small hamlets nearby to explore. We drive down to Manali via Kunzum La and Rohtang Pass. In case of delays due to weather or unforeseen circumstances, Day 12 acts as a buffer day. If used, an additional INR 5,000 per person is collected by the trek leader in Kaza. End of trek — a hot shower, hearty meal, and memories for a lifetime.`
-  },
-  {
-    day: 12,
-    title: "Buffer Day",
-    details: 
-`Day 12 is reserved as a buffer to account for unexpected weather changes, trail conditions, or other unforeseeable circumstances. While most trekkers may not need it, it ensures the group has flexibility without compromising safety. If this day is utilized, an additional INR 5,000 per person will be collected by the trek leader in Kaza. It’s advisable to keep this day in mind while planning your travel back, so that your journey ends safely and comfortably.`
-  },
+    title: "Departure from Leh",
+    details: "Early morning transfer to Leh Airport for your onward journey. Depending on your flight timing, enjoy a short walk in Leh or a hot breakfast at your hotel before heading to the airport. Trek concludes here."
+  }
 ],
 
-  howToReach: {
-    air: "<br>• Bhuntar Airport (near Kullu) is the closest, about 50 km from Kasol / Barshaini.<br>• Chandigarh Airport offers better connectivity; drive to Kasol takes about 8–9 hrs.<br><em>Shared or private cabs available from Bhuntar to Barshaini (₹1,500–₹3,000)</em>",
-    train: "Joginder Nagar Railway Station (~125 km from Kasol) is the nearest narrow-gauge line; Chandigarh and Pathankot are better connected options for major trains.",
-    road: "<br>• Regular overnight Volvo buses run from Delhi to Bhuntar or Manali.<br>• From Bhuntar, local taxis connect to Kasol and Barshaini.",
-    travelTip: "Start early for the drive to Barshaini to avoid mountain traffic near Kasol."
-  },
+    didYouKnow: [
+  "<b>The Markha River becomes a frozen highway!</b> – In winter, long stretches of the river turn into thick ice, letting trekkers walk and glide across it just like the Chadar, but in a far quieter environment.",
 
-  didYouKnow: [
-    "<b>Pin Parvati Pass was discovered by accident in 1884!</b> <br>British surveyors crossed it while mapping routes between Kullu and Spiti — they had no idea a natural route even existed until then.",
-    "<b>The trek connects two completely different worlds.</b> <br>Parvati Valley’s lush meadows and hot springs suddenly give way to Spiti’s dry, high-altitude desert — a surreal transition in just two days.",
-    "<b>Mantalai Lake is considered sacred.</b> <br>Locals believe it’s where Lord Shiva meditated. You’ll often see small stone shrines and prayer flags near its shores.",
-    "<b>Wildlife on the trail is rare but fascinating.</b> <br>You may spot Himalayan blue sheep, marmots, or even footprints of snow leopards near the higher camps.",
-    "<b>It’s a non-technical trek, but not without serious challenges.</b> <br>While you don’t need advanced climbing skills, the trail includes steep sections, river crossings, glacier stretches, and rocky terrain where extreme caution is necessary. The wilderness is remote, with help often far away, so trekkers must be well-prepared, vigilant, and self-reliant throughout this high-altitude journey.",
-    "<b>Pin Valley is part of the Cold Desert Biosphere Reserve.</b> <br>The region’s unique geology and rare high-altitude flora make it one of India’s most striking landscapes."
+  "<b>Hemis National Park is the world’s largest snow leopard habitat.</b> – Winter pulls both prey and predator down to valley floors, increasing chances of spotting pugmarks, scrapes, or fresh kills near Skiu, Markha, and Hankar.",
+
+  "<b>Blue sheep form giant winter herds.</b> – Instead of scattered groups, bharal gather in herds of 20–40 to search for scarce grazing patches, making sightings extremely common on the cliffs around Thachungtse and Hankar.",
+
+  "<b>Ibex descend lower due to snow buildup.</b> – Heavy snowfall forces Siberian ibex to move from high alpine ridges to sun-facing slopes closer to human trails, making winter one of the best seasons to spot them.",
+
+  "<b>Ancient Ladakhi homestays keep rooms warm even at –25°C.</b> – Traditional mud houses trap heat naturally, creating warm interiors without heaters while outside temperatures drop to –30°C and below.",
+
+  "<b>Winter birds stay active despite extreme cold.</b> – Chukar partridges, golden eagles, ravens, lammergeiers, and Eurasian magpies survive the cold desert by feeding on exposed shrubs and scavenging along frozen streams.",
+
+  "<b>Marmots are not visible in winter.</b> – Himalayan marmots hibernate deep underground from October to April. Many trekkers expect to see them, but winter Markha is a silent landscape where they remain asleep.",
+  
+  "<b>Seabuckthorn and willows dominate winter vegetation.</b> – Leafless but standing strong, these hardy Himalayan shrubs line the trail even at –20°C, giving the valley its characteristic golden-brown winter look.",
+
+  "<b>Frozen waterfalls turn into blue-ice curtains.</b> – Between Chilling and Skiu, several side waterfalls freeze solid, forming towering ice sheets that glisten under the winter sun.",
+
+  "<b>Snow leopards use frozen rivers as travel corridors.</b> – With the Markha River iced over, snow leopards walk the frozen surface for easier movement, leaving clear pawprints that trekkers often spot early in the morning.",
+
+  "<b>Ravens and magpies follow trekking groups.</b> – Winter food scarcity makes these intelligent birds shadow humans for crumbs, creating delightful interactions in the middle of the frozen desert.",
+
+  "<b>Juniper shrubs remain evergreen even at –30°C.</b> – One of the few plants that keeps its needles intact, juniper stands out as dark green patches against the white and brown winter terrain."
+    ],
+
+
+    howToReach: {
+  air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh. Flights are available from Delhi and other major Indian cities. During winter, this is the only practical way to reach Leh as roads are closed due to snow.",
+  train: "No direct trains. Nearest major railway station is Jammu Tawi (approx. 700 km from Leh), but road connectivity is not possible in winter, so air travel is mandatory.",
+  road: "Roads from Manali and Srinagar are closed during winter due to heavy snowfall. Overland travel is not recommended for winter treks.",
+  travelTip: "Arrive in Leh at least 2 days before the trek for acclimatization. Winter temperatures drop sharply, so acclimatization is essential to prevent altitude sickness."
+    },
+
+    gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855808/winter-markha-valley-leh-palace_odtgdj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-culture_mfksep.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-view3_hcptad.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855802/winter-markha-valley-view_kexpdr.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855801/winter-markha-valley-view2_nxtv13.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855800/winter-markha-valley-tradition_izi8ru.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855799/winter-markha-valley-vew1_nqexzr.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Markha Valley Winter Trek?",
+      answer: "This trek is ideal for experienced trekkers or winter enthusiasts comfortable with sub-zero temperatures. Moderate trails cover 10–15 km per day, but extreme cold (daytime -15°C, nighttime down to -35°C) requires proper preparation and resilience."
+    },
+    {
+      question: "What is the best time to do the Markha Valley Winter Trek?",
+      answer: "Winter months from January to March are perfect for this offbeat trek. During this period, the Markha River is frozen, creating a stunning winter landscape. Ensure you are well-prepared for snow and icy conditions."
+    },
+    {
+      question: "How do I reach Markha Valley in winter?",
+      answer: "During winter, roads are generally closed due to snow. The only way to reach Leh is by air via Kushok Bakula Rimpochee Airport. Plan to arrive at least 2 days early for acclimatization before the trek."
+    },
+    {
+      question: "What gear is essential for the extreme cold?",
+      answer: "Key gear includes insulated down jackets, thermal base layers, woolen socks, balaclava, insulated gloves, waterproof trekking boots, gaiters, and sleeping bags rated for -35°C. Microspikes or crampons are recommended for walking on frozen rivers."
+    },
+    {
+      question: "Are there homestays or camps along the winter trek?",
+      answer: "Yes, trekkers stay in cozy homestays in villages like Skiu, Markha, and Hunkar. These provide warm bedding, Ladakhi meals, and a unique cultural experience even in harsh winter conditions."
+    },
+    {
+      question: "What wildlife can I expect to see during winter?",
+      answer: "The trek passes through Hemis National Park. Trekkers may spot Himalayan blue sheep, ibex, Eurasian magpies, white-capped redstarts, and chukar partridges. Snow leopards are extremely elusive but occasionally sighted by lucky trekkers."
+    },
+    {
+      question: "How difficult is walking on the frozen Markha River?",
+      answer: "Walking on the frozen river is safe with proper winter boots and trekking poles. The ice is solid in most places, and trekkers can even slide or glide over certain stretches. Guides always ensure safe paths are used."
+    },
+    {
+      question: "Is mobile network or internet available during the trek?",
+      answer: "Connectivity is minimal. Leh has some network coverage, but most of the trail has no signal. Plan for limited communication and inform family/friends before starting."
+    },
+    {
+      question: "Do I need permits for the Markha Valley Winter Trek?",
+      answer: "Yes, an Inner Line Permit (ILP) for restricted areas of Ladakh is required. Trek operators usually arrange permits for participants, including winter-specific permissions if needed."
+    },
+    {
+      question: "What makes the Markha Valley Winter Trek unique?",
+      answer: "This trek is often called 'Chadar 2.0' because it offers a frozen river experience similar to the Chadar Trek without the extreme logistics. Stunning frozen rivers, snow-dusted villages, ancient monasteries, and views of Kang Yatse peaks make it a rare winter adventure."
+    },
+    {
+      question: "How do I stay safe in extreme cold and high altitude?",
+      answer: "Acclimatization is key. Stay hydrated, eat warm meals, avoid alcohol, and wear appropriate layered clothing. Follow guides’ instructions, and use insulated gear. Monitor for signs of frostbite or hypothermia. For a more detailed information on this extremely important topic please click the link below to read the full article:<br><strong><a href='https://www.planethimalayas.com/blogs/ultimate-winter-trek-preparation-guide-himalayas' target='_blank' rel='noopener noreferrer'>Ultimate Winter Trek Preparation Guide</a></strong>"
+    },
+    {
+      question: "Are there unique flora in winter Markha Valley?",
+      answer: "Most high-altitude flora are dormant during winter, but trekkers can see hardy species like Himalayan blue poppies, primulas, and alpine shrubs adapted to sub-zero conditions."
+    },
+    {
+      question: "Can beginners attempt the Markha Valley Winter Trek?",
+      answer: "Beginners are advised to gain prior trekking experience in cold or high-altitude environments before attempting this trek. The physical demand combined with extreme winter temperatures makes it unsuitable for novices."
+    }
   ],
-
-  gallery: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191227/pin-parvati-pass-view6_h4eopd.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191226/pin-parvati-pass-view4_uoz9kw.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191213/pin-parvati-pass-view5_dxm14k.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191208/pin-parvati-pass-view3_upywlf.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191198/pin-parvati-pass-view2_xgyrkx.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191185/pin-parvati-pass-view1_xinpz5.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero4_nen1ly.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191138/pin-parvati-pass-view32_jpfpjy.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191133/pin-parvati-pass-view33_ifw6hn.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191124/pin-parvati-pass-view30_evtqhz.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191100/pin-parvati-pass-view24_ylkggh.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191098/pin-parvati-pass-view28_ecsbsq.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191097/pin-parvati-pass-view31_qa6qlz.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191084/pin-parvati-pass-view27_rakjcr.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191080/pin-parvati-pass-view21_mw163u.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view26_qg4zpy.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view29_fbn5w4.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191065/pin-parvati-pass-view20_kqa8xy.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191058/pin-parvati-pass-view17_soyif8.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191053/pin-parvati-pass-view23_lao9fx.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191041/pin-parvati-pass-view25_qleo8d.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191031/pin-parvati-pass-view16_rg6hmk.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191020/pin-parvati-pass-view22_xo2eue.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191016/pin-parvati-pass-view18_hqgcwr.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191010/pin-parvati-pass-view13_kxs6lz.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191003/pin-parvati-pass-view15_jz5ttl.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191002/pin-parvati-pass-view19_c1dxs4.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190992/pin-parvati-pass-view9_kaakgq.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190988/pin-parvati-pass-view14_tlh415.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190979/pin-parvati-pass-view8_dvy2w9.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view12_i1ie0h.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view7_yczld4.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190948/pin-parvati-pass-view10_arrpcz.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762190911/pin-parvati-pass-view11_vt5w1s.jpg"
-  ],
-
-  downloadLink: "/docs/Packing_List.pdf",
-
-  faqs: {
-    questions: [
-      {
-        question: "Is Pin Parvati Pass trek suitable for beginners?",
-        answer:
-          "No. This is a difficult, high-altitude trek recommended only for experienced trekkers with prior exposure to 14,000+ ft treks. You must be physically fit and mentally prepared for long days, snowfields, and river crossings."
-      },
-      {
-        question: "What is the best time for Pin Parvati Pass?",
-        answer:
-          "Mid-July to late September is ideal, when snow has melted enough to make the pass accessible and Spiti roads are open."
-      },
-      {
-        question: "How should I prepare for the Pin Parvati Pass Trek?",
-        answer:
-          "Preparing for the Pin Parvati Pass trek requires both physical and mental readiness. Physically, focus on endurance training, long hikes with backpacks, and altitude acclimatization if possible. Mentally, be ready for challenging terrain, river crossings, and unpredictable weather — staying positive, patient, and alert will make the experience safer and more rewarding."
-      },
-      {
-        question: "How challenging is the pass crossing day?",
-        answer:
-          "It’s the toughest day of the trek — 8–9 hrs of continuous walking over moraine and snowfields, with a steep climb to the pass and long descent. Early start and proper acclimatization are key."
-      },
-      {
-        question: "Is camping allowed near Mantalai Lake?",
-        answer:
-          "Yes, but campsites are limited. It’s a sacred site — trekkers must maintain silence and avoid littering. No washing or cooking directly at the lake’s edge."
-      },
-      {
-        question: "Will I get mobile network during the trek?",
-        answer:
-          "Network is available only till Barshaini/Kheerganga. After that, it’s a complete digital detox till you reach Mudh in Spiti."
-      },
-      {
-        question: "What kind of gear do I need?",
-        answer:
-          "Good trekking shoes, multiple warm layers, waterproof jacket, poles, headlamp, and snow gloves. Crampons/microspikes may be needed depending on snow."
-      },
-      {
-        question: "Can the trek be done in reverse (from Spiti to Parvati)?",
-        answer:
-          "Technically yes, but it’s tougher due to steeper ascent from the Spiti side and difficult acclimatization. Most organized groups do it from Parvati to Spiti for safety and better altitude gain."
-      },
-      {
-        question: "What makes this trek special?",
-        answer:
-          "The Pin Parvati Pass offers one of the most dramatic landscape shifts in the Indian Himalayas — from lush greenery to stark desert — making it both physically demanding and visually unforgettable."
-      },
-      
-    ]
-  }
 },
 
+    faqsLink: "/faqs-and-articles",
+  },
   // Add other trek objects here...
 ];

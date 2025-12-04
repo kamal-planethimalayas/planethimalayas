@@ -14,51 +14,58 @@ import "../styles/global.css";
   <NewsBanner client:load />
 </div>
 
-<!-- Hero Carousel Section -->
-<section class="hero-carousel reveal">
-  <div class="carousel-track">
-    <div class="carousel-slide active" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810023/love-himalayas_zz3cyf.jpg');">
-      <div class="overlay"></div>
-      <div class="hero-content">
-        <h1>More Than Just A Trek</h1>
-        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-        <p class="hero-subheading">
-          Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas.
-        </p>
-      </div>
-    </div>
+<section class="hero-carousel-3d">
+  <div class="cube-wrapper">
+    <div class="cube">
 
-    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg');">
-      <div class="overlay"></div>
-      <div class="hero-content">
-        <h1>Not Just a Trek — A Journey That Stays With You</h1>
-        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-        <p class="hero-subheading">
-          Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
-        </p>
+      <!-- Front Face -->
+      <div class="cube-face front" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810023/love-himalayas_zz3cyf.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content">
+          <h1>More Than Just A Trek</h1>
+          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <p class="hero-subheading">
+            Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg');">
-      <div class="overlay"></div>
-      <div class="hero-content">
-        <h1>Individual Care, Every Step of the Way</h1>
-        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-        <p class="hero-subheading">
-          We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
-        </p>
+      <!-- Right Face -->
+      <div class="cube-face right" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content">
+          <h1>Not Just a Trek — A Journey That Stays With You</h1>
+          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <p class="hero-subheading">
+            Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="carousel-slide" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg');">
-      <div class="overlay"></div>
-      <div class="hero-content">
-        <h1>Built on Genuine Love for the Himalayas</h1>
-        <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
-        <p class="hero-subheading">
-          We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
-        </p>
+      <!-- Back Face -->
+      <div class="cube-face back" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content">
+          <h1>Individual Care, Every Step of the Way</h1>
+          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <p class="hero-subheading">
+            We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
+          </p>
+        </div>
       </div>
+
+      <!-- Left Face -->
+      <div class="cube-face left" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content">
+          <h1>Built on Genuine Love for the Himalayas</h1>
+          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <p class="hero-subheading">
+            We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -66,7 +73,7 @@ import "../styles/global.css";
   <button class="carousel-arrow left">&#10094;</button>
   <button class="carousel-arrow right">&#10095;</button>
 
-  <!-- Dots (for mobile + desktop visual feedback) -->
+  <!-- Dots -->
   <div class="carousel-dots">
     <button class="active"></button>
     <button></button>
@@ -367,52 +374,52 @@ import "../styles/global.css";
   }
 }
 
-.hero-carousel {
-  position: relative;
+.hero-carousel-3d {
+  perspective: 30000px;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
+  position: relative;
   overflow: hidden;
   color: white;
 }
 
-/* Smooth fade + slide blend transition */
-.carousel-track {
-  display: flex;
-  position: relative;
+.cube-wrapper {
+  width: 100%;
   height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
 }
 
-.carousel-slide {
+.cube {
+  width: 100%;
+  height: 100%;
   position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1),
-              transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 1s linear;
+}
+
+/* Cube faces */
+.cube-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  transform: scale(1.05);
+  backface-visibility: hidden;
 }
 
-/* Active slide (visible) */
-.carousel-slide.active {
-  opacity: 1;
-  transform: scale(1);
-  z-index: 2;
-}
+/* Position each face */
+.cube-face.front  { transform: rotateY(0deg) translateZ(50vw); }
+.cube-face.right  { transform: rotateY(90deg) translateZ(50vw); }
+.cube-face.back   { transform: rotateY(180deg) translateZ(50vw); }
+.cube-face.left   { transform: rotateY(-90deg) translateZ(50vw); }
 
-/* Keep other slides behind */
-.carousel-slide:not(.active) {
-  z-index: 1;
-}
-
-.overlay {
+/* Optional overlay */
+.cube-face .overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.25)
-  );
+  background: rgba(0,0,0,0.25);
   z-index: 1;
 }
 
@@ -539,7 +546,7 @@ import "../styles/global.css";
 
 /* Responsive */
 @media (max-width: 768px) {
-  .hero-carousel {
+  .hero-carousel-3d {
     height: 75vh;
     margin-top: -55px;
   }
@@ -722,6 +729,19 @@ import "../styles/global.css";
 
 .scroll-btn.left { left: -15px; }
 .scroll-btn.right { right: -15px; }
+
+.scroll-btn.at-start,
+.scroll-btn.at-end {
+  opacity: 0.4;            /* faded */
+  cursor: not-allowed;      /* stop cursor */
+  box-shadow: 0 2px 6px #ff7300 inset; /* inset glow to show it's inactive */
+}
+
+.scroll-btn.at-start:hover,
+.scroll-btn.at-end:hover {
+  background: rgba(255, 255, 255, 0.1); /* no extra glow on hover */
+  box-shadow: 0 2px 6px #ff7300 inset;
+}
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {
@@ -961,6 +981,19 @@ import "../styles/global.css";
 .scroll-btn.left { left: -15px; }
 .scroll-btn.right { right: -15px; }
 
+.scroll-btn.at-start,
+.scroll-btn.at-end {
+  opacity: 0.4;            /* faded */
+  cursor: not-allowed;      /* stop cursor */
+  box-shadow: 0 2px 6px #ff7300 inset; /* subtle inset glow to show inactive */
+}
+
+.scroll-btn.at-start:hover,
+.scroll-btn.at-end:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 6px #ff7300 inset;
+}
+
 
 /* ---------------------------------------
    MOBILE
@@ -1178,12 +1211,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Enable/Disable Arrows at edges
   function updateArrowState() {
-    const scrollLeft = Math.ceil(row.scrollLeft); // avoid fractional pixels
-    const maxScrollLeft = row.scrollWidth - row.clientWidth;
+  const scrollLeft = Math.ceil(row.scrollLeft);
+  const maxScrollLeft = row.scrollWidth - row.clientWidth;
 
-    leftBtn.disabled = scrollLeft <= 0;
-    rightBtn.disabled = scrollLeft >= maxScrollLeft;
+  // Left arrow
+  if (scrollLeft <= 0) {
+    leftBtn.classList.add('at-start');
+  } else {
+    leftBtn.classList.remove('at-start');
   }
+
+  // Right arrow
+  if (scrollLeft >= maxScrollLeft) {
+    rightBtn.classList.add('at-end');
+  } else {
+    rightBtn.classList.remove('at-end');
+  }
+}
 
   // Attach Events to arrows
   leftBtn.addEventListener("click", () => scrollTestimonials(-1));
@@ -1245,9 +1289,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const leftBtn = wrapper.querySelector(".scroll-btn.left");
     const rightBtn = wrapper.querySelector(".scroll-btn.right");
 
+    // Update button classes instead of disabled
     function updateButtons() {
-      leftBtn.disabled = row.scrollLeft <= 0;
-      rightBtn.disabled = row.scrollLeft + row.clientWidth >= row.scrollWidth - 1;
+      if (row.scrollLeft <= 0) {
+        leftBtn.classList.add("at-start");
+      } else {
+        leftBtn.classList.remove("at-start");
+      }
+
+      if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 1) {
+        rightBtn.classList.add("at-end");
+      } else {
+        rightBtn.classList.remove("at-end");
+      }
     }
 
     function scroll(direction) {
@@ -1319,88 +1373,61 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <script>
-const heroContainer = document.querySelector(".hero .container");
-const hero = document.querySelector(".contact-hero");
-
-window.addEventListener("scroll", () => {
-  const heroRect = hero.getBoundingClientRect();
-  const scrollY = window.scrollY;
-
-  if (heroRect.bottom > 0) {
-    let move = scrollY * 0.5;                
-    const maxMove = hero.offsetHeight / 2;
-
-    heroContainer.style.transform = `translateY(${move}px)`;
-  }
-});
-</script>
-
-<script>
 document.addEventListener("DOMContentLoaded", () => {
-  const slides = document.querySelectorAll(".carousel-slide");
+  const cube = document.querySelector(".cube");
+  const dots = document.querySelectorAll(".carousel-dots button");
   const leftArrow = document.querySelector(".carousel-arrow.left");
   const rightArrow = document.querySelector(".carousel-arrow.right");
-  const dots = document.querySelectorAll(".carousel-dots button");
-  const hero = document.querySelector(".hero-carousel");
+  const totalFaces = 4;
+  const rotateDelay = 10000;
 
   let currentIndex = 0;
-  let autoSlide;
+  let autoRotateTimeout;
 
-  function updateUI() {
-    slides.forEach((slide, index) => {
-      slide.classList.toggle("active", index === currentIndex);
-    });
-    dots.forEach((dot, index) => {
-      dot.classList.toggle("active", index === currentIndex);
-    });
+  // Smooth CSS transition
+  cube.style.transition = "transform 1s ease-in-out";
+
+  function rotateCube(index) {
+    currentIndex = (index + totalFaces) % totalFaces; // wrap-around
+    cube.style.transform = `rotateY(${-currentIndex * 90}deg)`;
+    dots.forEach((dot, i) => dot.classList.toggle("active", i === currentIndex));
   }
 
-  function showNext() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateUI();
+  function showNext() { rotateCube(currentIndex + 1); }
+  function showPrev() { rotateCube(currentIndex - 1); }
+
+  function scheduleAutoRotate() {
+    clearTimeout(autoRotateTimeout);
+    autoRotateTimeout = setTimeout(() => {
+      showNext();
+      scheduleAutoRotate(); // loop
+    }, rotateDelay);
   }
 
-  function showPrev() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateUI();
-  }
-
-  function goToSlide(index) {
-    currentIndex = index;
-    updateUI();
-    resetAutoSlide();
-  }
-
-  function resetAutoSlide() {
-    clearInterval(autoSlide);
-    autoSlide = setInterval(showNext, 5000);
-  }
+  // Arrow click
+  leftArrow.addEventListener("click", () => { showPrev(); scheduleAutoRotate(); });
+  rightArrow.addEventListener("click", () => { showNext(); scheduleAutoRotate(); });
 
   // Dots click
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => goToSlide(index));
-  });
-
-  // Arrows
-  leftArrow.addEventListener("click", () => { showPrev(); resetAutoSlide(); });
-  rightArrow.addEventListener("click", () => { showNext(); resetAutoSlide(); });
+  dots.forEach((dot, i) => dot.addEventListener("click", () => { rotateCube(i); scheduleAutoRotate(); }));
 
   // Pause on hover
-  hero.addEventListener("mouseenter", () => clearInterval(autoSlide));
-  hero.addEventListener("mouseleave", resetAutoSlide);
+  const hero = document.querySelector(".hero-carousel-3d");
+  hero.addEventListener("mouseenter", () => clearTimeout(autoRotateTimeout));
+  hero.addEventListener("mouseleave", scheduleAutoRotate);
 
-  // Swipe support (for mobile)
+  // Mobile swipe
   let startX = 0;
   hero.addEventListener("touchstart", e => startX = e.touches[0].clientX);
   hero.addEventListener("touchend", e => {
     const endX = e.changedTouches[0].clientX;
     if (startX - endX > 50) showNext();
     if (endX - startX > 50) showPrev();
-    resetAutoSlide();
+    scheduleAutoRotate();
   });
 
   // Initialize
-  updateUI();
-  resetAutoSlide();
+  rotateCube(0);
+  scheduleAutoRotate();
 });
 </script>
