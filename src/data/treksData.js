@@ -237,18 +237,17 @@ export const treks = [
       "The Pin Parvati Pass Trek is far more than just a Himalayan trail — it’s a bold journey across two completely distinct worlds. On one side, the Parvati Valley greets you with its lush, emerald forests, cascading waterfalls, hot springs, and vibrant meadows alive with flowers and birdsong. On the other, the Pin Valley unfolds as a high-altitude cold desert, a land of ochre cliffs, sapphire skies, and barren stretches that seem untouched by time. At an astonishing 5,289 meters, the pass itself stands as the ultimate bridge between these extremes — a place where greenery gives way to arid lands, moisture yields to thin, crisp air, and gentle streams transform into ice-laden rivers. <br>The trek begins at Barshaini, near the quaint village of Kasol, where the trail winds through the dreamy meadows of Kheerganga and Odi Thach, each step immersing you deeper into the wild heart of Himachal. You traverse rivers, cross wooden bridges, navigate dense forests, and ascend flower-strewn meadows before reaching the serene glacial lake of Mantalai, a campsite cradled by the towering peaks. The final push to the pass is a test of endurance and mountain sense, negotiating glaciers, steep ascents, and unpredictable high-altitude conditions. The moment you stand on the pass, gazing at the dramatic transition from Parvati’s green abundance to the stark, almost surreal Spiti Valley, you feel the Himalayas in their raw, unfiltered glory. <br>This is not a trek for the faint-hearted. The Pin Parvati Pass demands stamina, acclimatization, and respect for the high-altitude wilderness, where help is far away, and every stream crossing, rock scramble, or icy patch carries its own risks. Yet, it is precisely this challenge that makes it so unforgettable. Along the way, you also witness the fascinating coexistence of Himalayan cultures — from the forest-dwelling communities of Parvati Valley to the resilient villages of Spiti, shaped entirely by their environment. Every day brings new perspectives, new terrain, and new moments of awe that imprint themselves on your memory."
   },
 
-  price: 46900,
+  price: 56900,
   priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
   addons: {
     transport: null,
-    offloadingbag: 7500,
+    offloadingbag: 9300,
     transportNote: "* Trekkers can request transport arrangements from Manali to Barshaini and from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
     offloadingNote: "* Max weight 9 kg per bag."
   },
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to packed lunch on Day 10",
 
-  enquireOnly: true,
 
   highlights: [
     "A rare crossover connecting lush Parvati Valley to arid Spiti Valley",
@@ -658,6 +657,175 @@ export const treks = [
     faqsLink: "/faqs-and-articles",
   },
 
+  {
+  id: "deo‑tibba‑basecamp‑trek",
+  name: "Deo Tibba Base Camp Trek",
+  tags: ["beginner"],
+  difficulty: ["moderate"],
+  season: ["monsoon"],
+  month: ["july", "august", "september", "october"],
+  region: "himachal",
+  duration: "5 Nights / 6 Days",
+  coordinates: [
+    // approximate route waypoints (Manali → Chikka → Seri → Tainta/Chandratal → basecamp)
+    [32.2430, 77.1892], // Manali (start) – approx
+    [32.3360, 77.1910], // Chikka
+    [32.4020, 77.2300], // Seri meadow
+    [32.4300, 77.2600], // Tainta / near Chandratal approach
+    [32.4450, 77.2750]  // Deo Tibba Base Camp area
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",  // replace with actual image URL
+  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939896/deo-tibba-base-camp-hero1_k2zkxa.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939931/deo-tibba-base-camp-hero2_a3b3j0.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940015/deo-tibba-base-camp-hero3_fgxjxd.jpg",
+              ],  // replace with actual gallery image URLs
+
+  subtitle: "Meadows, Glacial Lakes & Wildflower Trails in Pir Panjal",
+
+  seo: {
+    title: "Deo Tibba Base Camp Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description: "Deo Tibba Base Camp Trek (≈ 14,700 ft) near Manali passing through forests, lush meadows, glacial streams and reaching high‑altitude base camp — perfect 6‑day alpine adventure."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "≈ 14,698 ft" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈ 40 km" },
+      { emoji: "🌤️", label: "Best Time", value: "July–October" },
+      { emoji: "🗺️", label: "Region", value: "Kullu Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Manali" },
+      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "🧥", label: "Accommodation", value: "Tents" }
+    ],
+    snippet: `Nestled in the heart of the Pir Panjal range, the Deo Tibba Base Camp Trek is a thrilling alpine adventure for trekkers seeking both serenity and spectacle. Starting near Manali, the trail winds through dense forests of pine, spruce, fir, oak, and silver birch, opening up to lush meadows that seem kissed by the Himalayas themselves. Snow-capped peaks — Deo Tibba (6,001 m), Norbu Peak (5,226 m), and Jagatsukh Peak (5,050 m) — dominate the skyline, while the emerald waters of Chota Chandratal mirror the sky in a magical display of alpine beauty.<br>Every step tells a story: cross glacial streams, climb gentle ridges, and soak in panoramic views that unfold like chapters of a Himalayan epic. Ideal for trekkers with moderate experience, this trail blends accessible challenge with breathtaking scenery, making it one of the most captivating high-altitude treks in Himachal Pradesh.`
+  },
+
+  price: 12900,   // placeholder — set as per your cost structure
+  priceNote: "* Manali to Manali",
+
+  addons: {
+    transport: null,  // placeholder for any airport/road transfers
+    offloadingbag: 4500,
+    transportNote: null,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – from lunch on Day 1 to breakfast on Day 6",
+
+  enquireOnly: true,
+
+  highlights: [
+    "The Deo Tibba Base Camp Trek lies in the Pir Panjal range and offers close‑up views of peaks like Deo Tibba (6,001 m), Indrasan (6,221 m), Norbu (5,226 m) and Jagatsukh (5,050 m) — a stunning show of the western Himalayas’ grandeur.",
+    "The meadows on this trail burst into wildflower bloom in monsoon — rhododendrons, Himalayan herbs, blue poppies and alpine anemones carpet the ground.",
+    "The glacial stream Jagatsukh Nala along the trail forms a refreshing river‑meadow ecosystem — dense forest, waterfalls, logs and glacial water — giving a mix of forest and alpine terrain within a few hours.",
+    "Chota Chandratal near the base camp offers a surreal glacial‑lake experience at high altitude (~14,700 ft) — ideal for trekking enthusiasts who love alpine lakes and mountain reflections.",
+    "Due to gradual ascents, mixed terrain of meadows, moraines and streams, this trek is considered Moderate — a fine choice for trekkers with good fitness and some trekking experience."
+  ],
+
+  "itinerary": [
+  {
+    "day": 1,
+    "title": "Manali → Khanol → Chika (3,200 m) | Drive: 20 km + Trek: 2 km | Duration: ~4–5 hrs",
+    "details": "Your adventure begins early from Manali, ideally after a day of acclimatization. We drive past Jagatsukh village on a winding dirt road, climbing past the Jagatsukh Nala to reach the Khanol dam site. From here, the trek starts with a gentle ascent into lush pine and oak forests, crossing the Jagatsukh river via a rustic bridge. After 2–3 hours of trekking, the trail opens up to the Chika meadow, dotted with huts and the Nag mandir. The gurgling river, forested backdrop, and panoramic peaks provide a magical first Himalayan sunset."
+  },
+  {
+    "day": 2,
+    "title": "Chika → Seri (3,900 m) | Trek Distance: 6 km | Duration: ~6–7 hrs",
+    "details": "Wake up to crisp mountain air and follow the trail along the Jagatsukh river. Forests slowly give way to shrubs, wildflowers, and rocky paths. You cross streams and boulder fields while enjoying occasional glimpses of surrounding peaks. The valley opens up to the expansive Seri meadow — a stunning glacial field with streams weaving through it, flanked by towering peaks. Tainta waterfall cascades in the distance, hinting at the wonders of tomorrow. Spend the evening soaking in the golden light over Norbu, Jagatsukh, and Malana Pass."
+  },
+  {
+    "day": 3,
+    "title": "Seri → Tainta (3,900 m) | Trek Distance: 3 km | Duration: ~3–4 hrs",
+    "details": "Today begins with an easy stroll across Seri’s grassy meadows, followed by multiple stream crossings and a steep ascent along the Tainta waterfall. Navigate rocks and boulders leading to a moraine field. Emerging into the Tainta meadow, you are surrounded by soaring snow-capped peaks and glaciers. The vast blue sky above and the serene alpine environment make this campsite perfect for acclimatization and absorbing the majesty of Deo Tibba, Norbu, and Jagatsukh peaks."
+  },
+  {
+    "day": 4,
+    "title": "Tainta → Deo Tibba Base Camp → Mini Chandratal → Tainta (4,500 m) | Trek Distance: 10 km | Duration: ~6–8 hrs",
+    "details": "Start early carrying only essentials and lunch. The trail gently climbs across the moraine field to reach Deo Tibba Base Camp. From here, a steeper ascent leads to the turquoise Mini Chandratal lake, with the majestic Deo Tibba peak towering above. The rocky, unmarked trail, switchbacks, and alpine meadows make this a thrilling high-altitude adventure. After spending time at this pristine lake, retrace your path back to Tainta for the night, reflecting on the day’s spectacular journey."
+  },
+  {
+    "day": 5,
+    "title": "Tainta → Chika (3,200 m) | Trek Distance: 9 km | Duration: ~6 hrs",
+    "details": "Today, you retrace your steps through rocky trails, meadows, and river crossings back to Chika. The descent is steep in places, demanding careful footing, but each turn is a chance to relive the magical moments of the trek. The Jagatsukh river continues to accompany you, its melodic gurgle a soothing soundtrack to the day's journey. Evening at the campsite offers a moment to reflect on the highs of the Deo Tibba experience."
+  },
+  {
+    "day": 6,
+    "title": "Chika → Khanol → Manali (≈ 2,050 m) | Drive: 20 km + Trek: 2 km | Duration: ~4–5 hrs",
+    "details": "After breakfast, trek down gently to Khanol where vehicles await. The scenic drive through mountain valleys brings you back to Manali. Though the trail retraces your steps, every view now carries memories of alpine meadows, sparkling streams, cascading waterfalls, and towering peaks. As the trek concludes, you carry a sense of awe, adventure, and accomplishment that only the Himalayas can instill."
+  }
+],
+
+  didYouKnow: [
+  "The name “Deo Tibba” literally means ‘Hill of the Gods’ — local Himachali folklore says that the dome‑shaped peak was considered the seat of deities, and the neighbouring Indrasan Peak was believed to be the throne from where gods would convene, adding a spiritual aura to the trek.",
+  "As you trek through the lower forests, you may encounter grazing herds of native shepherd‑communities like the Gaddi shepherds — shepherds and local herders who still practice traditional trans‑humance. Their flocks often move along the lower valleys in summers, giving trekkers a glimpse of authentic mountain life.",
+  "The forest stretch from Khanol/Chika onwards is rich in alpine‑forest flora: conifer trees (pine, fir, cedar/deodar, oak), wild berries, herbs and a variety of mountain flowers — this ecosystem supports wildlife like marmots, blue‑sheep and high‑altitude birds, so it’s not uncommon to spot these during early morning or dusk.",
+  "The meadow called Seri Meadow was once a glacial lake — over centuries, glaciers receded, leaving behind a broad alpine pasture dotted with streams and seasonal wild‑flowers, offering a surreal transition from icy past to lush greenery.",
+  "The so‑called “mini‑lake” Chota Chandratal (near the base camp) — though often confused in name with the more famous Chandra‑tal of Spiti — is a pristine glacial‑fed waterbody at high altitude (~4,400–4,500 m), offering serene mirror‑like reflections of towering peaks, making it a hidden gem for photography and solitude seekers.",
+  "Because the trail shifts rapidly — from thick evergreen forests, to flower‑strewn meadows, to rocky moraines and glacial terrain — you experience almost all major Himalayan ecosystems on one trek: forest, meadow, alpine pasture, and glacial valley, making Deo Tibba Base Camp Trek unusually diverse.",
+  "Even though the region lies close to more frequented areas around Manali, the harsh terrain and spiritual beliefs kept it sparsely visited historically — which has helped preserve the ecology and local culture intact, making this trek a rare blend of natural beauty and cultural legacy."
+],
+
+  howToReach: {
+    air: "Nearest Airport: Bhuntar Airport (Kullu). From Bhuntar → drive to Manali, then Jagatsukh/Khanol to begin trek.",
+    train: "Nearest major rail link: Joginder Nagar Railway. From there travel by road to Manali and Jagatsukh/Khanol.",
+    road: "Regular bus/jeep or taxi from Manali to Jagatsukh/Khanol (start point). Manali is well connected by bus from Delhi/Chandigarh.",
+    travelTip: "Reach Manali a day early to stock up essentials; carry warm clothes — nights at Tainta & Chota Chandratal get cold even in summers. Also, water from glacial streams may be unreliable — carry purification tablets."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939896/deo-tibba-base-camp-hero1_k2zkxa.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939931/deo-tibba-base-camp-hero2_a3b3j0.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940015/deo-tibba-base-camp-hero3_fgxjxd.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939326/deo-tibba-base-camp-view1_rkrcmz.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939361/deo-tibba-base-camp-view3_vcnuwr.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939379/deo-tibba-base-camp-view2_jmwf4a.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940257/deo-tibba-base-camp-view5_fcpnal.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940148/deo-tibba-base-camp-view4_rlgpib.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940015/deo-tibba-base-camp-hero3_fgxjxd.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939534/deo-tibba-base-camp-view11_ykuida.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939527/deo-tibba-base-camp-view7_q8zidx.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939413/deo-tibba-base-camp-view6_ktqf0o.jpg",
+                // add actual URLs of images for Chikka, Seri, Tainta meadows, Deo Tibba peaks, Chandratal, campsite tents etc.
+  ],
+
+  downloadLink: "/docs/Deo_Tibba_Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can participate in the Deo Tibba Base Camp trek?",
+        answer: "This trek is suitable for individuals with good physical fitness and some basic trekking experience. While the gradients are moderate, there are rocky stretches, stream crossings and high‑altitude camps."
+      },
+      {
+        question: "What should I pack for the Deo Tibba trek?",
+        answer: "Essential items include waterproof trekking shoes, layered clothing, 40–50 L rucksack with rain cover, thermal wear, sleeping bag for cold nights (high altitude), headlamp, trekking poles, water purification tablets. For a comprehensive packing list navigate to Packing List in this section to download the pdf."
+      },
+      {
+        question: "Is camping the only accommodation available?",
+        answer: "Yes — accommodation is in tents/campsites throughout the trek, from Chikka up to Base Camp and return."
+      },
+      {
+        question: "When is the best time to do Deo Tibba Base Camp trek?",
+        answer: "The ideal window is monsoon when meadows bloom and trails open, and September–October (post‑monsoon) when skies are clear and mountain views are stunning."
+      },
+      {
+        question: "What kind of terrain and challenges to expect?",
+        answer: "Terrain is a mix of forest trails, meadows, rocky and moraine paths, some stream crossings. There are moderate ascents. While altitude isn’t extreme technical, nights are cold and weather can be unpredictable — good acclimatisation and proper gear are essential."
+      },
+      {
+        question: "Do we visit any glacial lake on this trek?",
+        answer: "Yes — the trek includes a visit to the glacial lake Chota Chandratal near the base‑camp area, offering ethereal alpine‑lake scenery."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles"
+},
 
  {
     id: "hampta-circuit-trek",
@@ -710,7 +878,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 10500,
     priceNote: "* Manali to Manali",
     addons: {
-        offloadingbag: 4000,
+        offloadingbag: 3200,
         offloadingNote: "* Maximum weight 9kg / bag"
     },
 
@@ -1739,7 +1907,7 @@ seo: {
     priceNote: "* Sari to Sari",
     addons: {
       transport: 2800, 
-      offloadingbag: 1200,
+      offloadingbag: 1500,
       transportNote: "* Haridwar to Haridwar",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -1747,9 +1915,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
-      
-    
-      
+           
       { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
       { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
       { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -1994,7 +2160,7 @@ seo: {
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 3000, 
-      offloadingbag: 5000,
+      offloadingbag: 3500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -2793,7 +2959,7 @@ seo: {
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 3000,
-    offloadingbag: 1800,
+    offloadingbag: 2400,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -3043,7 +3209,7 @@ seo: {
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 3000,
-    offloadingbag: 1800,
+    offloadingbag: 2400,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag",
   },
@@ -3285,7 +3451,7 @@ itinerary: [
   priceNote: "* Barsu to Barsu",
   addons: {
     transport: 2500,
-    offloadingbag: 1800,
+    offloadingbag: 2400,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -3745,7 +3911,7 @@ itinerary: [
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 2800,    // fill in as applicable
-      offloadingbag: 4800, // if any
+      offloadingbag: 3200, // if any
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -3980,7 +4146,7 @@ itinerary: [
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 3000, 
-      offloadingbag: 6300,
+      offloadingbag: 5600,
       transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -4222,7 +4388,7 @@ itinerary: [
   priceNote: "* Manebhanjan to Srikhola",
   addons: {
     transport: 2500,
-    offloadingbag: 3500,
+    offloadingbag: 4000,
     transportNote: "* NJP / Bagdogra to NJP / Bagdogra",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -4469,7 +4635,7 @@ itinerary: [
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 5000,
+      offloadingbag: 4000,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -4670,7 +4836,7 @@ itinerary: [
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 5000,
+      offloadingbag: 4000,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 

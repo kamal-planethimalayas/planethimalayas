@@ -54,7 +54,7 @@ const { gallery, name } = trek;
       <div class="price-modal-content">
         <span class="close-price-modal">&times;</span> 
         <p><strong style="color: #ff7300;">PriceNote – Listed Price &amp; Customisation Rules:</strong><br>
-          The listed trek price, including the add-ons listed, applies to groups of at least 4 participants for the specified itinerary. For smaller groups, any difference in pricing will be communicated transparently before confirmation. Trek fees including add-ons for customized groups may vary based on your preferences, ensuring every adventure is tailored to your needs.
+          The listed trek price, including add-ons listed, applies to groups of at least 4 participants for the specified itinerary. For smaller groups, any difference in pricing will be communicated transparently before confirmation. Trek fees including any add-ons for customized groups may vary based on your preferences, ensuring every adventure is tailored to your needs.
         </p>
 
         <p><strong style="color: #ff7300;">Group Booking Offer:</strong><br>
@@ -386,25 +386,7 @@ const { gallery, name } = trek;
         <a href="#" id="open-cancellation">Cancellation & Refunds</a>
       </p>
 
-      
-      <!-- Enquiry & Fixed Departure Sections -->
-    <div class="pricing-options">
-
-      {/* Enquiry Section */}
-      <div class="enquiry-section">
-        <h3>Customize your trek to suit your preferences.</h3>
-
-        <div class="enquire-now-wrapper">
-          <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
-        </div>
-      </div>
-
-      {/* Fixed Departure Section */}
-      {groupedDates && Object.entries(groupedDates).length > 0 && (
-        <div class="fixed-departure-section">
-          <h3>Sign up for our fixed departure dates below.</h3>
-
-          {/* Addons inside Fixed Departure */}
+      {/* Addons inside Fixed Departure */}
           {trek.addons && (
             <div class="addons-section">
               <h3>Addons (Optional)</h3>
@@ -428,7 +410,24 @@ const { gallery, name } = trek;
                 )}
               </ul>
             </div>
-          )}
+          )}     
+ 
+      <!-- Enquiry & Fixed Departure Sections -->
+    <div class="pricing-options">
+
+      {/* Enquiry Section */}
+      <div class="enquiry-section">
+        <h3>Customize your trek to suit your preferences.</h3>
+
+        <div class="enquire-now-wrapper">
+          <button class="enquire-now-btn" data-trek={trek.name}>Enquire Now</button>
+        </div>
+      </div>
+
+      {/* Fixed Departure Section */}
+      {groupedDates && Object.entries(groupedDates).length > 0 && (
+        <div class="fixed-departure-section">
+          <h3>Sign up for our fixed departure dates below.</h3>
 
           {/* Registration Dates */}
           {Object.entries(groupedDates).map(([monthYear, dates]) => (
@@ -768,33 +767,6 @@ const { gallery, name } = trek;
   background-color: #fff;
 }
 
-/* Fixed Departure Addons */
-.fixed-departure-section .addons-section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  background-color: #fff7f0; /* light brand-adjacent */
-  border-left: 4px solid #ff7300; /* brand highlight */
-  border-radius: 6px;
-}
-
-.fixed-departure-section .addons-section h3 {
-  margin-top: 0;
-  font-size: 1rem;
-  color: #ff7300;
-}
-
-.fixed-departure-section .addons-section ul {
-  margin-top: 0.5rem;
-  padding: 0 1rem;
-}
-
-.fixed-departure-section .addons-section li {
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-  color: #000;
-}
-
 /* Price styling */
 .price-box h2 {
   color: #ff7300; /* brand color */
@@ -909,6 +881,32 @@ const { gallery, name } = trek;
 @keyframes modalFadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.price-box .addons-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #fff7f0; /* light brand-adjacent */
+  border-left: 4px solid #ff7300; /* brand highlight */
+  border-radius: 6px;
+}
+
+.price-box .addons-section h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #ff7300;
+}
+
+.price-box .addons-section ul {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+}
+
+.price-box .addons-section li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #000;
 }
 
 .faqs {
@@ -1738,6 +1736,8 @@ window.addEventListener('DOMContentLoaded', () => {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const section = document.querySelector(".trek-hero-3d");
+  if (!section) return;
+
   const cube = section.querySelector(".cube");
   const slides = section.querySelectorAll(".carousel-3d-slide");
   const dotsContainer = section.querySelector(".carousel-dots");
@@ -1749,7 +1749,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let autoTimer;
   const delay = 4000;
 
-  /* Create Dots */
+  /* -------------------------
+        BUILD DOTS
+  ------------------------- */
+  dotsContainer.innerHTML = "";
   for (let i = 0; i < total; i++) {
     const dot = document.createElement("button");
     if (i === 0) dot.classList.add("active");
@@ -1757,14 +1760,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   const dots = dotsContainer.querySelectorAll("button");
 
-  /* Rotate Cube */
+  /* -------------------------
+       ROTATE CUBE FUNCTION
+  ------------------------- */
   function rotateCube(i) {
     index = (i + total) % total;
     cube.style.transform = `rotateY(${index * -90}deg)`;
-    dots.forEach((dot, d) => dot.classList.toggle("active", d === index));
+
+    dots.forEach((dot, d) => {
+      dot.classList.toggle("active", d === index);
+    });
   }
 
-  /* Auto Rotate */
+  /* -------------------------
+         AUTOPLAY
+  ------------------------- */
   function startAuto() {
     clearTimeout(autoTimer);
     autoTimer = setTimeout(() => {
@@ -1773,7 +1783,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }, delay);
   }
 
-  /* Buttons */
+  /* -------------------------
+         BUTTONS
+  ------------------------- */
   nextBtn.addEventListener("click", () => {
     rotateCube(index + 1);
     startAuto();
@@ -1784,7 +1796,9 @@ document.addEventListener("DOMContentLoaded", () => {
     startAuto();
   });
 
-  /* Dots Click */
+  /* -------------------------
+         DOTS CLICK
+  ------------------------- */
   dots.forEach((dot, i) => {
     dot.addEventListener("click", () => {
       rotateCube(i);
@@ -1792,7 +1806,46 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  /* Initialize */
+  /* -------------------------
+         SWIPE SUPPORT
+  ------------------------- */
+  let startX = 0;
+  let startY = 0;
+  let isMoving = false;
+
+  section.addEventListener("touchstart", (e) => {
+    if (!e.touches[0]) return;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    isMoving = true;
+  });
+
+  section.addEventListener("touchmove", (e) => {
+    if (!isMoving) return;
+    let diffX = e.touches[0].clientX - startX;
+    let diffY = e.touches[0].clientY - startY;
+
+    // if vertical scroll, ignore
+    if (Math.abs(diffY) > Math.abs(diffX)) return;
+
+    e.preventDefault(); // smooth swipe
+  }, { passive: false });
+
+  section.addEventListener("touchend", (e) => {
+    if (!isMoving) return;
+    isMoving = false;
+
+    let diffX = e.changedTouches[0].clientX - startX;
+
+    if (Math.abs(diffX) > 50) {
+      if (diffX < 0) nextBtn.click();  // swipe left
+      else prevBtn.click();           // swipe right
+    }
+  });
+
+  /* -------------------------
+         INIT
+  ------------------------- */
   rotateCube(0);
   startAuto();
 });
