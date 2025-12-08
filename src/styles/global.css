@@ -307,6 +307,7 @@ section {
   padding: 6px 14px;
   cursor: pointer;
   border-radius: 8px;
+  border: 2px solid #ff7300;
   transition: all 0.25s ease;
   box-shadow:
     0 4px 12px rgba(255, 115, 0, 0.45),
@@ -316,7 +317,6 @@ section {
 /* Hover effect */
 .interaction-btn:hover {
   color: #000;
-  border: 2px solid #ff7300;
   background: #ff7300;
   box-shadow:
     0 8px 25px rgba(255, 115, 0, 0.8),

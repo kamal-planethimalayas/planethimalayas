@@ -205,10 +205,10 @@ window.addEventListener("scroll", () => {
 
 /* Updated Pillar Cards */
 .pillar-card {
-  background: #transparent; /* black cards */
+  background: #000; /* black cards */
   padding: 1rem;
   border-radius: 12px;
-
+  border: 2px solid #ff7300;
   /* brand shadow */
   box-shadow:
     0 4px 12px rgba(255, 115, 0, 0.45),
@@ -220,7 +220,6 @@ window.addEventListener("scroll", () => {
 /* Hover Glow */
 .pillar-card:hover {
   transform: translateY(-6px);
-  border: 2px solid #ff7300;
   box-shadow:
     0 8px 25px rgba(255, 115, 0, 0.8),
     0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
@@ -237,7 +236,7 @@ window.addEventListener("scroll", () => {
 /* Body text → white */
 .pillar-card p {
   font-family: Roboto, sans-serif;
-  color: #000; /* white for readability */
+  color: #fff; /* white for readability */
   line-height: 1.6;
 }
 

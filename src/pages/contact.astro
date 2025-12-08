@@ -132,8 +132,9 @@ import Layout from "../layouts/Layout.astro";
 .contact-cards .card {
   flex: 1 1 45%;
   min-width: 250px;
-  background-color: transparent; /* as before */
+  background-color: #000; /* as before */
   border-radius: 10px;
+  border: 2px solid #ff7300;
   padding: 1rem;
   text-align: center;
   box-shadow:
@@ -146,7 +147,7 @@ import Layout from "../layouts/Layout.astro";
 /* Hover → lift + stronger brand glow */
 .contact-cards .card:hover {
   transform: translateY(-8px);
-  border: 2px solid #ff7300;
+  
   box-shadow: 
     0 8px 25px rgba(255, 115, 0, 0.75),
     0 0 20px rgba(255, 115, 0, 0.8); /* bright brand glow */
@@ -163,7 +164,7 @@ import Layout from "../layouts/Layout.astro";
 /* Card links */
 .contact-cards .card a {
   text-decoration: none;
-  color: #000; /* original */
+  color: #fff; /* original */
   font-weight: bold;
   display: block;
   margin-bottom: 8px;

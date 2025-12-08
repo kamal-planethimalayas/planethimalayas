@@ -67,6 +67,18 @@ const { gallery, name } = trek;
       </div>
     </div>
 
+<!-- Itinerary Modal -->
+<div id="itinerary-modal" class="itinerary-modal">
+  <div class="itinerary-modal-content">
+    <span class="close-itinerary-modal">&times;</span> 
+    <p>
+      <strong style="color: #ff7300;">Itinerary Note:</strong><br>
+      This itinerary represents the most updated plan, but minor adjustments may occur due to operational needs or mountain conditions.
+    </p>
+  </div>
+</div>
+
+
 <!-- Terms & Conditions Modal -->
     <div id="termsModal" class="modal hidden">
     <div class="modal-content">
@@ -510,8 +522,9 @@ const { gallery, name } = trek;
   </section>
 
   <!-- Itinerary -->
-  <section id="itinerary">
+<section id="itinerary">
   <h2 class="section-heading">Itinerary</h2>
+  <span class="itinerary-info-icon" id="itinerary-info">?</span>
   <div class="itinerary-container">
     {trek.itinerary.map(day => (
       <article key={day.day} class="itinerary-day">
@@ -1191,6 +1204,83 @@ const { gallery, name } = trek;
 /* Remove extra border after last day */
 .itinerary-container .itinerary-day:last-child {
   border-bottom: none;
+}
+
+.itinerary-info-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: transparent; 
+  color: #ff7300;
+  border-radius: 50%;
+  border: 1px solid #ff7300;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.itinerary-info-icon:hover {
+  background: #ff7300;
+  color: black;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); 
+}
+
+/* Itinerary Modal styling */
+.itinerary-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.itinerary-modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 850px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  animation: modalFadeIn 0.3s ease;
+}
+
+.close-itinerary-modal {
+  float: right;
+  font-size: 26px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-itinerary-modal:hover{
+  color: #ff7300
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Gallery styling */
@@ -1959,6 +2049,26 @@ closeModal.addEventListener("click", () => {
 window.addEventListener("click", (e) => {
   if (e.target === priceModal) {
     priceModal.style.display = "none";
+  }
+});
+</script>
+
+<script>
+const itineraryIcon = document.getElementById("itinerary-info");
+const itineraryModal = document.getElementById("itinerary-modal");
+const closeModal = document.querySelector(".close-itinerary-modal");
+
+itineraryIcon.addEventListener("click", () => {
+  itineraryModal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", () => {
+  itineraryModal.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === itineraryModal) {
+    itineraryModal.style.display = "none";
   }
 });
 </script>
