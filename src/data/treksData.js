@@ -230,7 +230,7 @@ export const treks = [
       { emoji: "🗺️", label: "Region", value: "Kullu & Spiti, Himachal Pradesh" },
       { emoji: "📍", label: "Start Point", value: "Barshaini (near Kasol)" },
       { emoji: "🏁", label: "End Point", value: "Kaza, Spiti Valley" },
-      { emoji: "🧥", label: "Cloakroom facility", value: "Not vailable" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
     ],
 
     snippet:
@@ -1600,7 +1600,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     faqsLink: "/faqs-and-articles",
   },
 
-/* Uttarakhand */
+/* Uttarakhand Garhwal*/
 
   {
     id: "ali-bedni-bugyal-trek",
@@ -4076,6 +4076,270 @@ itinerary: [
     },
     faqsLink: "/pages/faqs-and-articles",
   },
+
+  /* Uttarakhand Kumaon*/
+
+{
+    id: "nanda-devi-east-base-camp-trek",
+    name: "Nanda Devi East Base Camp Trek",
+    tags: ["basecamp"],
+    difficulty: ["difficult"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "september", "october"],
+    duration: ["10 Nights / 11 Days"],
+    region: "uttarakhand",
+    coordinates: [
+        [30.0690, 80.2430], // Munsiyari
+        [30.1030, 80.3870], // Rilkot
+        [30.1620, 80.4650], // Panchhu / Ganghar
+        [30.1850, 80.5130], // Nanda Devi East Base Camp
+        [30.1620, 80.4650], // Back to Panchhu / Ganghar
+        [30.1030, 80.3870], // Rilkot
+        [30.0690, 80.2430], // Munsiyari (end)
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
+
+    heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-1860784_u3iihu.webp",
+    ],
+
+    subtitle: "An Adventure to the Foot of Nanda Devi, the Himalayan Queen",
+
+    seo: {
+        title: "Nanda Devi East Base Camp Trek | Itinerary, Cost & Dates | Planethimalayas",
+        description:
+            "Nanda Devi East Base Camp Trek (3,900 m) is a moderate, high-altitude Himalayan expedition from Munsiyari to the base of Nanda Devi East. Explore remote villages, rugged terrain, alpine meadows, glaciers, and breathtaking views of the Panchachuli & Nanda Devi ranges."
+    },
+
+    overview: {
+        facts: [
+            { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days" },
+            { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+            { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,700 m" },
+            { emoji: "⚡", label: "Trek Distance", value: "Approx. 100 Km" },
+            { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
+            { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
+            { emoji: "📍", label: "Start Point", value: "Munsiyari (2,200 m)" },
+            { emoji: "🏁", label: "End Point", value: "Munsiyari" },
+            { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+        ],
+        snippet:
+    "The Nanda Devi East Base Camp Trek is a mesmerizing journey deep into the untouched heart of Kumaon’s Johar Valley, where every step unfolds a new story of mountains, rivers, and culture. The trek begins from the quaint village of Rilkot, where terraced fields, wooden homes, and the warmth of local Kumaoni life set the stage for your adventure. As you walk past historic villages like Martoli and Panchhu/Ganghar, you are greeted by friendly villagers, stone temples, and the scent of pine and wildflowers carried by the mountain breeze.<br>The trail meanders alongside the roaring Gori Ganga River, crossing sparkling streams, wooden bridges, and rocky riverbeds shaped over centuries by monsoon torrents. The scenery transforms with every ascent—dense oak and pine forests give way to wide alpine meadows dotted with vibrant wildflowers, grazing bharal (blue sheep), Himalayan monals, and the occasional glimpse of elusive snow foxes or leopards. Waterfalls cascade down cliffs, while glaciers and moraines hint at the immense power of these mountains. The sheer variety of terrain—from lush forests to rocky ridges, open meadows, and gentle snowfields—keeps every day thrilling and visually breathtaking.<br>As the trail climbs higher, the twin peaks of Nanda Devi East and the mighty Nanda Devi (7,816 m) dominate the horizon, their snow-clad ridges glowing in the soft light of sunrise and sunset. Nights are spent in tents or cozy lodges under a canopy of stars, where the silence of the Himalayas and the crisp alpine air rejuvenate the body and spirit. By the time you reach Nanda Devi East Base Camp at 4,750 m, the experience reaches its peak—standing at the foot of these iconic mountains, witnessing the glaciers, cliffs, and sweeping valleys that surround you, you are immersed in the raw majesty of the Himalayas.<br>This trek is not just a passage through stunning landscapes; it is an exploration of Kumaon’s rich culture, its unique wildlife, and the serene power of high-altitude wilderness. Each day offers a new discovery—whether a playful herd of bharal, a quiet village tucked between ridges, or the dramatic shift of the valley as the sun lights up towering peaks.<br><br><strong>Please note:</strong> Trail conditions can change during late spring and post-monsoon due to landslides, river crossings, and snow patches. Proper acclimatization, fitness, and trekking gear are essential for a safe and rewarding journey."
+},
+
+    price: 34900,
+    priceNote: "* Munsiyari to Munsiyari",
+    addons: {
+        transport: 4000,
+        transportNote: "* Haldwani to Haldwani",
+        offloadingbag: 4500,
+        offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote:
+        "🍽️ All Meals – Nutritious meals provided from lunch on Day 2 to breakfast on Day 7",
+
+    highlights: [
+        "Trek into the remote Johar Valley, once part of an ancient Indo-Tibetan trade route",
+        "Spectacular views of Nanda Devi (7,816 m), Nanda Kot, and Panchachuli",
+        "Visit historic villages like Martoli and Ganghar",
+        "Camp at Nanda Devi East Base Camp surrounded by towering Himalayan walls",
+        "Explore glacier zones, moraines, alpine meadows, and high-altitude streams",
+        "Challenging yet rewarding terrain ideal for moderate to experienced trekkers",
+        "A culturally rich route showcasing Kumaoni heritage"
+    ],
+
+    itinerary: [
+{
+    day: 1,
+    title: "Kathgodam – Munsiyari (2,200 m) | 280 km Drive | 10–12 Hours",
+    details:
+        "<strong>• Drive: 280 km | Duration: 10–12 hrs</strong><br>• Begin your adventure with a long but scenic drive through the Kumaon hills. Pass through quaint towns like Almora and Thal, winding along deep valleys and forests, with glimpses of the distant Himalayan ranges. By evening, arrive at Munsiyari, the serene gateway to high-altitude treks, where the Panchachuli peaks greet you on the horizon."
+},
+{
+    day: 2,
+    title: "Munsiyari – Lilam (2,000 m) | 7 km Trek | 2–3 Hours",
+    details:
+        "<strong>• Trek: ~7 km | Duration: 2–3 hrs</strong><br>• Today is an easy trek designed for acclimatization. After breakfast, take a short drive to Selapani, the last motorable point, and begin the descent to the Gori Ganga River, crossing the bridge at Jimighat. The trail gradually ascends along the river, passing through scenic hamlets, until you reach Lilam Village. Settle into your campsite and soak in the peaceful Himalayan evenings while preparing for the trek ahead."
+},
+{
+    day: 3,
+    title: "Lilam – Bugdiyar (2,700 m) | 13 km Trek | 6–7 Hours",
+    details:
+        "<strong>• Trek: ~13 km | Duration: 6–7 hrs</strong><br>• Today’s trail follows the gorge alongside the Gori Ganga River, weaving through bamboo thickets and conifer forests. About 5 km in, pause at the confluence where the Ralam stream meets the river. Continue ascending toward Radgari, where a quaint tea shop provides a warm respite. Trek further to Bugdiyar, a picturesque campsite with a small rest house and a memorial honoring villagers and army personnel who lost their lives in the 1989 avalanche. Enjoy the serene mountains surrounding your camp."
+},
+{
+    day: 4,
+    title: "Bugdiyar – Rilkot (3,200 m) | 15 km Trek | 7–8 Hours",
+    details:
+        "<strong>• Trek: ~15 km | Duration: 7–8 hrs</strong><br>• Begin the day by crossing a charming river bridge and ascending toward an overhanging cliff with a small deity shrine. Continue along the river through lush alpine flora to encounter two magnificent waterfalls, each cascading over 80 meters. The trail gradually climbs amid towering cliffs and panoramic views, finally reaching Rilkot by late afternoon. Settle into your campsite and revel in the tranquility of the high Himalayas."
+},
+{
+    day: 5,
+    title: "Rilkot – Ghangar (3,300 m) | 12 km Trek | 6–7 Hours",
+    details:
+        "<strong>• Trek: ~12 km | Duration: 6–7 hrs</strong><br>• Trek above the tree line into arid landscapes, passing mostly deserted villages until reaching Burphu. Burphu Peak rises majestically in the background. Enter the scenic Pachu Valley, gradually climbing to Ghangar—a quaint Johari village with intricately carved wooden houses. In October, goat skins may be seen drying on rooftops. An ancient temple adds cultural charm, while the eastern face of Nanda Devi East hints at the adventure to come."
+},
+{
+    day: 6,
+    title: "Ghangar – Nanda Devi East Base Camp (3,900 m) | 7 km Trek | 3–4 Hours",
+    details:
+        "<strong>• Trek: ~7 km | Duration: 3–4 hrs</strong><br>• Ascend gently through Pachhu Valley, past clusters of rhododendron and birch trees. The towering north face of Nanda Devi East guides your way. As the valley widens, meadows carpeted with wildflowers open up, leading to a serene campsite at the base of Nanda Devi East. Spend the evening absorbing the panoramic glacier views, and sleep under the starry Himalayan sky."
+},
+{
+    day: 7,
+    title: "Nanda Devi East Base Camp – Glacier Excursion & Return to Base Camp (3,900 m) | 7 km Trek | 4–5 Hours",
+    details:
+        "<strong>• Trek: ~7 km | Duration: 4–5 hrs</strong><br>• Embark on a 4 km ascent to explore the Nanda Devi East Glacier. Marvel at the icy expanse, glacial streams, and towering peaks surrounding you. Take your time soaking in the surreal high-altitude landscape. After this exhilarating experience, retrace your steps to the base camp, enjoying the tranquility of Pachhu Valley and the serenity of high Himalayan meadows."
+},
+{
+    day: 8,
+    title: "Nanda Devi Base Camp – Martoli (3,350 m) | 12 km Trek | 5 Hours",
+    details:
+        "<strong>• Trek: ~12 km | Duration: 5 hrs | Altitude: 3,900 m → 3,350 m</strong><br>• Begin your descent from Nanda Devi East Base Camp to Martoli, walking through alpine meadows and rocky trails. Along the way, enjoy sweeping views of Nanda Devi, Nanda Devi East, Nanda Kot, and Trishul. Arrive at Martoli, a charming village with traditional Johari houses, camp near the open grasslands, and soak in the serene ambiance and rich cultural charm."
+},
+{
+    day: 9,
+    title: "Martoli – Bugdiyar (2,450 m) | 18 km Trek | 10 Hours",
+    details:
+        "<strong>• Trek: ~18 km | Duration: 10 hrs | Altitude: 3,350 m → 2,450 m</strong><br>• Trek downhill along the Gori Ganga River through lush forests, meadows, and hamlets including Rilkot. Witness Himalayan peaks framing your journey and the serene sound of flowing rivers. Reach Bugdiyar in the late afternoon, unwind at camp, enjoy a hearty meal, and rest under a star-lit sky."
+},
+{
+    day: 10,
+    title: "Bugdiyar – Babaldhar (2,500 m) | 8 km Trek + Drive to Munsiyari | 2–3 hrs Trek + 2 hrs Drive",
+    details:
+        "<strong>• Trek: ~8 km | Drive: ~16–20 km | Duration: 2–3 hrs trek + 2 hrs drive</strong><br>• Complete the final trek from Bugdiyar to Babaldhar through serene valleys and forests. Enjoy one last immersive view of the Himalayas before boarding a vehicle for a scenic drive back to Munsiyari. Arrive by afternoon, unwind, and reflect on the remarkable journey."
+},
+{
+    day: 11,
+    title: "Munsiyari – Kathgodam (3,200 m → 500 m) | 300 km Drive | 9–10 hrs",
+    details:
+        "<strong>• Drive: 300 km | Duration: 9–10 hrs</strong><br>• After breakfast, begin the return journey to Kathgodam, descending through the scenic Kumaon landscapes. As the mountains recede behind you, cherish the memories of glaciers, alpine meadows, and the awe-inspiring Nanda Devi East Base Camp adventure."
+}
+],
+
+    howToReach: {
+        air: "Nearest airport: Pantnagar Airport – 330 km from Munsiyari. Taxis available.",
+        train:
+            "Nearest major railway station: Kathgodam. From there, take a shared cab or private taxi to Munsiyari (10–12 hrs).",
+        road:
+            "From Delhi: Overnight bus to Haldwani/Kathgodam, then taxi to Munsiyari. From Almora: 8–9 hrs via Thal.",
+        travelTip:
+            "Arrive in Munsiyari one day early to rest and prepare for the long trek ahead."
+    },
+
+    didYouKnow: [
+        "The Johar Valley was once a major Indo-Tibetan trade route used by the Bhotia community.",
+        "Martoli village still has centuries-old stone houses and shrines dedicated to Nanda Devi.",
+        "Nanda Devi East is the twin peak of India’s iconic Nanda Devi massif (7,816 m).",
+        "The Gori Ganga valley is shaped heavily by glacial erosion and monsoon landslides.",
+        "Ganghar meadows offer one of the best close-up views of Nanda Kot (6,861 m)."
+    ],
+
+    gallery: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381748/nanda-devi-base-camp-8295835_x4h4aq.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-5512200_blmq70.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-1860784_u3iihu.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-6315064_ueukor.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-478768_eoooul.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381745/nanda-devi-base-camp-970605_kc4zhd.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381745/nanda-devi-base-camp-2721668_ljj77m.webp",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+        questions: [
+    {
+        question: "Who can join the Nanda Devi East Base Camp Trek?",
+        answer:
+            "This trek is suited for trekkers with good fitness and prior experience in high-altitude Himalayan treks. The route covers rocky trails, riverbeds, moraines, and long days of trekking, so a sense of adventure and endurance is essential."
+    },
+    {
+        question: "How long is the trek, and what is the daily hiking distance?",
+        answer:
+            "The trek spans 11–12 days, with daily distances ranging from 7 km to 18 km depending on the terrain. Some days involve steep climbs, boulder-hopping, and moraine navigation, so trekking poles and proper pacing are recommended."
+    },
+    {
+        question: "What is the difficulty level, and do I need prior experience?",
+        answer:
+            "Rated as a challenging trek, Nanda Devi East Base Camp demands stamina, balance, and basic high-altitude trekking experience. Prior Himalayan treks or exposure to multi-day treks at altitudes above 3,000 m will help in managing the route comfortably."
+    },
+    {
+        question: "When is the best time to embark on this trek?",
+        answer:
+            "The ideal windows are late spring (May–June) and post-monsoon (September–October). During these months, the weather is relatively stable, and the trails are accessible, though occasional snow or landslides may affect certain sections."
+    },
+    {
+        question: "What is the highest altitude reached during the trek, and how does it affect me?",
+        answer:
+            "The trek reaches up to 4,800 m at the Nanda Devi East Advanced Base Camp. At this altitude, symptoms like mild headache, shortness of breath, or fatigue can occur. Proper acclimatization in Munsiyari and Martoli, along with hydration, is crucial to minimize altitude sickness."
+    },
+    {
+        question: "What kind of accommodation and meals are provided?",
+        answer:
+            "Accommodation is a mix of basic tea-houses, tents, and guesthouses in villages like Lilam, Bugdiyar, Rilkot, and Martoli. Meals include wholesome local dishes like chapatti, lentils, vegetables, Maggi noodles, eggs, and tea. At remote camps, you’ll prepare meals with guidance from the trekking team."
+    },
+    {
+        question: "Do I need special gear or equipment, and what should I pack?",
+        answer:
+            "Yes, essentials include layered clothing, waterproof jackets, trekking boots, trekking poles, sleeping bags, gloves, and sunglasses. Carry high-energy snacks, personal medicines, and minimal luggage for the porters. Detailed gear lists are provided prior to departure."
+    },
+    {
+        question: "Is travel insurance included, and what does it cover?",
+        answer:
+            "Travel insurance is not included by default. It should cover emergency evacuation, medical expenses, and high-altitude trekking risks. We strongly recommend securing comprehensive insurance before the trek."
+    },
+    {
+        question: "How is safety ensured, and what emergency measures are in place?",
+        answer:
+            "Experienced guides accompany all groups, with knowledge of local terrain, weather patterns, and emergency protocols. The team carries first-aid kits, and communication with Munsiyari and ITBP posts is maintained in case of emergencies. Porters and mule support are available along the route."
+    },
+    {
+        question: "Are there additional costs or expenses not included in the package?",
+        answer:
+            "Yes. Extra costs may include vehicle transfers to trailheads, permits, mule or porter charges, personal snacks, and optional meals or souvenirs. Most local tea-houses charge nominal fees for food or overnight stays."
+    },
+    {
+        question: "What local customs and cultural sensitivities should I be aware of?",
+        answer:
+            "Respect village traditions and religious sites, dress modestly in villages, and seek permission before taking photographs. The Nanda Devi region is home to Johari communities, who maintain ancient customs and live in harmony with nature."
+    },
+    {
+        question: "What happens if I encounter medical issues or injuries?",
+        answer:
+            "Minor issues like blisters, fatigue, or mild altitude sickness are managed by guides and first-aid kits. For serious issues, evacuation is coordinated via ITBP posts or nearest roadheads. Always inform your guide about pre-existing medical conditions."
+    },
+    {
+        question: "Can I expect wildlife encounters or natural phenomena?",
+        answer:
+            "Yes. Trekkers may spot bharal (blue sheep), long-haired goats, and occasionally leopards from a distance. Seasonal flora like alpine meadows, rhododendrons, and snow bridges add to the breathtaking natural experience."
+    },
+    {
+        question: "Will I get mobile network during the trek?",
+        answer:
+            "Mobile network is available only until Munsiyari. Beyond that, the trail is off-grid. Inform family in advance and carry necessary emergency contacts."
+    },
+    {
+        question: "Do I need acclimatization?",
+        answer:
+            "Yes. Staying at Munsiyari and Martoli for a day each helps your body adjust to altitude, reducing risks of sickness and improving your trekking experience."
+    },
+    {
+        question: "Is offloading available?",
+        answer:
+            "Yes, mule or porter support is available on certain sections, particularly between villages and base camps, with prior arrangement and booking."
+    }
+]
+    },
+
+    faqsLink: "/faqs-and-articles",
+},
 
   /* Sikkim */
 
