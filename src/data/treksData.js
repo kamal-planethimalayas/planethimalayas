@@ -5,7 +5,7 @@ export const treks = [
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
-    tags: ["pass"],
+    tags: ["pro"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -184,7 +184,7 @@ export const treks = [
   {
   id: "pin-parvati-pass-trek",
   name: "Pin Parvati Pass Trek",
-  tags: ["pass"],
+  tags: ["pro"],
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
@@ -459,7 +459,7 @@ export const treks = [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["beginner", "pass"],
+    tags: ["intermediate"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -660,7 +660,7 @@ export const treks = [
   {
   id: "deo‑tibba‑basecamp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["beginner"],
+  tags: ["intermediate"],
   difficulty: ["moderate"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
@@ -1127,7 +1127,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
-    tags: ["pass"],
+    tags: ["pro"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1364,7 +1364,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["pass"],
+    tags: ["intermediate", "pro"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2104,7 +2104,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["beginner"],
+    tags: ["intermediate"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2516,7 +2516,7 @@ seo: {
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
-    tags: ["beginner"],
+    tags: ["intermediate"],
     difficulty: ["moderate"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
@@ -2902,7 +2902,7 @@ seo: {
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["beginner"],
+  tags: ["family", "beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -2963,10 +2963,7 @@ seo: {
 
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to breakfast on Day 6",
 
-  dates: [
-    
-    
-    
+  dates: [ 
     { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
     { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
     { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -3156,7 +3153,7 @@ seo: {
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["beginner"],
+  tags: ["family", "beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -3213,10 +3210,7 @@ seo: {
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
 
-  dates: [
-    
-    
-    
+  dates: [   
     { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
     { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
     { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
@@ -3637,7 +3631,7 @@ itinerary: [
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pass"],
+  tags: ["pro"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -3858,7 +3852,7 @@ itinerary: [
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
-    tags: ["pass"],
+    tags: ["pro"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4082,7 +4076,7 @@ itinerary: [
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["basecamp"],
+    tags: ["intermediate"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4342,7 +4336,7 @@ itinerary: [
   {
     id: "goechala-trek",
     name: "Goechala Trek",
-    tags: ["pass"],
+    tags: ["pro"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
@@ -4587,7 +4581,7 @@ itinerary: [
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["beginner"],
+  tags: ["intermediate"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
@@ -4843,7 +4837,7 @@ itinerary: [
 {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
-    tags: ["pass"],
+    tags: ["pro"],
     difficulty: ["difficult"],
     season: ["monsoon"],
     month: ["august", "september"],
@@ -5044,7 +5038,7 @@ itinerary: [
   {
   "id": "winter-markha-valley-trek",
   "name": "Winter Markha Valley Trek",
-  "tags": ["winter"],
+  "tags": ["pro"],
   "difficulty": ["difficult"],
   "season": ["winter"],
   "month": ["january", "february", "march"],

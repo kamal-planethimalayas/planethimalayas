@@ -8,15 +8,10 @@ const filterCategories = {
   season: ['spring', 'summer', 'monsoon', 'autumn', 'winter'],
   month: [
     'january','february','march','april','may','june',
-    'july','august','september','october','november','december'
+    'july','august','september','october','november','december',
   ],
-  days: ['4', '5', '6', '7', '8', '9', '10'],   
+  days: ['4', '5', '6', '7', '8', '9', '10', '11'],   
 };
-
-// ✅ define this before the HTML section
-const familyTreks = treks.filter(
-  (trek) => trek.tags && trek.tags.includes('family')
-);
 
 // ✅ define this before the HTML section
 const beginnerTreks = treks.filter(
@@ -24,8 +19,13 @@ const beginnerTreks = treks.filter(
 );
 
 // ✅ define this before the HTML section
-const passTreks = treks.filter(
-  (trek) => trek.tags && trek.tags.includes('pass')
+const intermediateTreks = treks.filter(
+  (trek) => trek.tags && trek.tags.includes('intermediate')
+);
+
+// ✅ define this before the HTML section
+const proTreks = treks.filter(
+  (trek) => trek.tags && trek.tags.includes('pro')
 );
 ---
 <Layout>
@@ -473,32 +473,13 @@ const passTreks = treks.filter(
 <main class="main-content" role="main" tabindex="0">
 <!-- Suggested Treks Section -->
 <section class="suggested-treks reveal">
-  <h2 class="suggested-title">Our Best Suggested Treks for a Perfect Family Adventure</h2>
+  <h2 class="suggested-title">Our Best Treks for First-Time Trekkers & Families</h2>
   <p class="suggested-desc">
-    Enjoy your perfect family adventure trip with us. These treks are easy on foot, scenic,
-    and offer some of the best Himalayan views. Open year-round, they
-    deliver a new experience each season — perfect for families and equally rewarding for
-    seasoned trekkers.
+  These handpicked trails are perfect for beginners, first-timers, and families looking for a safe,
+  comfortable start in the Himalayas. Scenic, gentle on the feet, and open through most of the year,
+  they offer something new in every season — while still being deeply rewarding for seasoned trekkers.
   </p>
 
-  <div class="suggested-trek-cards">
-    {familyTreks.map((trek) => (
-      <div class="suggested-trek-card" key={trek.id}>
-        <a href={`/trek/${trek.id}#trek-hero`}>
-          <img src={trek.heroImage} alt={trek.name} loading="lazy" />
-        </a>
-        <h3>{trek.name}</h3>
-        <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn-suggested">View Details</a>
-      </div>
-    ))}
-  </div>
-</section>
-
-<section class="suggested-treks reveal">
-  <h2 class="suggested-title">Our Best Suggested Treks for Fit Beginners</h2>
-  <p class="suggested-desc">
-  Discover our best treks for fit beginners — gentle yet rewarding journeys through stunning Himalayan landscapes. Each trail offers the perfect balance of challenge and beauty, with every season revealing a new side of the mountains to explore.
-  </p>
 
   <div class="suggested-trek-cards">
     {beginnerTreks.map((trek) => (
@@ -513,20 +494,37 @@ const passTreks = treks.filter(
   </div>
 </section>
 
-<!-- Pass Crossing Treks Section -->
 <section class="suggested-treks reveal">
-  <h2 class="suggested-title">Pass Crossing Treks — Where Every Step Tells a Story</h2>
+  <h2 class="suggested-title">Our Best Treks for Confident & Fit Trekkers</h2>
   <p class="suggested-desc">
-    A mountain pass crossing trek involves traversing a high point that connects two distinct valleys. 
-    These trails often start in lush forests and gradually rise above the tree line into rugged, 
-    rocky, and glacial terrain. The climb to the pass can be steep and demanding, 
-    with unpredictable weather and thin air adding to the challenge. 
-    Such treks test endurance, judgment, and adaptability — ideal for experienced trekkers 
-    ready to push beyond comfort and embrace the true high-altitude spirit of the Himalayas.
+  These treks are ideal for those with some trekking experience, offering a balanced mix of easy trails and challenging days that truly bring the Himalayas alive. Fit and committed first-timers can attempt them too, while seasoned trekkers continue to cherish these routes for their stunning terrain, altitude gain, and rewarding wilderness experience.
   </p>
 
   <div class="suggested-trek-cards">
-    {passTreks.map((trek) => (
+    {intermediateTreks.map((trek) => (
+      <div class="suggested-trek-card" key={trek.id}>
+        <a href={`/trek/${trek.id}#trek-hero`}>
+          <img src={trek.heroImage} alt={trek.name} loading="lazy" />
+        </a>
+        <h3>{trek.name}</h3>
+        <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn-suggested">View Details</a>
+      </div>
+    ))}
+  </div>
+</section>
+
+<!-- Pass Crossing Treks Section -->
+<section class="suggested-treks reveal">
+  <h2 class="suggested-title">High-Altitude Himalayan Treks — For Those Who Seek the Wild</h2>
+  <p class="suggested-desc">
+  These treks are crafted for seasoned trekkers who are ready to venture deep into the raw, untamed Himalayas.  
+  Whether crossing a high mountain pass or advancing toward historic base camps from where mountaineers launch their summit attempts, the journey demands resilience and experience.  
+  Expect steep ascents and descents, long trekking hours, rugged and rocky sections above the treeline, loose moraines, glacial traverses, and stretches with no clearly defined trail.  
+  With unpredictable mountain weather and remote wilderness all around, these routes offer a true high-altitude challenge — and an unforgettable taste of the Himalayas in their most powerful, elemental form.
+  </p>
+
+  <div class="suggested-trek-cards">
+    {proTreks.map((trek) => (
       <div class="suggested-trek-card" key={trek.id}>
         <a href={`/trek/${trek.id}#trek-hero`}>
           <img src={trek.heroImage} alt={trek.name} loading="lazy" />
@@ -566,7 +564,6 @@ const passTreks = treks.filter(
     )
     .join(' ');
 };
-
 
       return (
         <div class="trek-card show" data-trek-id={trek.id} key={trek.id}>
