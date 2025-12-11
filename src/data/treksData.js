@@ -1610,7 +1610,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 6 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
@@ -1859,7 +1859,7 @@ seo: {
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 6 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     coordinates: [
     [30.5416, 79.1801], // Sari Village (start)
     [30.5519, 79.1886], // Deoriatal
@@ -2109,7 +2109,7 @@ seo: {
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["6 Nights / 7 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     coordinates: [
     [30.9995, 78.9398], // Gangotri (start)
     [30.9756, 79.0644], // Chirbasa
@@ -2125,7 +2125,7 @@ seo: {
                   "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016476/IMG_20190927_133832_hgnmjz.jpg",
                   "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517986/gaumukh-tapovan-hero1_cwlzeb.jpg",
     ],
-    subtitle: "The Holy Land Of The Himalayan Giants",
+    subtitle: "Into the Holy Frontier of the Himalayan Giants",
 
     seo: {
       title: "Gaumukh Tapovan Trek | Itinerary, Cost & Dates | Planethimalayas",
@@ -2214,7 +2214,7 @@ seo: {
   },
   {
     day: 5,
-    title: "Exploration at Tapovan",
+    title: "Tapovan to Meru Base Camp  (4,460 m) and back to Tapovan",
     details: "A day in Tapovan feels almost surreal. At dawn, the first rays of sun strike Mt. Shivling, bathing its pyramid-like face in golden light — a moment often compared to watching a divine flame ignite. You may choose to hike further towards Meru Base Camp or the Kirti Bamak glacier, both offering dramatic terrain and closer views of the peaks. All around, herds of bharal (blue sheep) graze calmly on the slopes, blending into the rocks with effortless camouflage. In rare instances, trekkers notice faint tracks of snow leopards imprinted along secluded patches of the meadow. The silence of Tapovan, broken only by the wind, makes it a perfect place for meditation, photography, or simple reflection. The day ends in the quiet embrace of this Himalayan amphitheatre."
   },
   {
@@ -2324,7 +2324,7 @@ seo: {
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
     duration: ["5 Nights / 6 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
    coordinates: [
     [31.1051, 78.4305], // Sankri (start)
     [31.1872, 78.3378], // Phulara Ridge 
@@ -2521,7 +2521,7 @@ seo: {
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
     duration: ["7 Nights / 8 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     coordinates: [
     [31.1051, 78.4305], // Sankri (start)
     [31.1133, 78.4278], // Taluka
@@ -2715,7 +2715,7 @@ seo: {
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
     duration: ["5 Nights / 6 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     coordinates: [
   [31.0817, 78.0611], // Sankri (start)
   [31.0567, 78.4281], // Har Ki Dun Valley (end)
@@ -2906,7 +2906,7 @@ seo: {
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
-  region: "uttarakhand",
+  region: "uttarakhand-garhwal",
   duration: "5 Nights / 6 Days",
   coordinates: [
     [30.5561, 79.5617], // Joshimath (base)
@@ -3160,7 +3160,7 @@ seo: {
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
-  region: "uttarakhand",
+  region: "uttarakhand-garhwal",
   duration: "5 Nights / 6 Days",
   coordinates: [
     [31.0362, 78.1746], // Sankri (base)
@@ -3399,7 +3399,7 @@ itinerary: [
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
-  region: "uttarakhand",
+  region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
     [30.8376, 78.5651], // Barsu (base village)
@@ -3641,7 +3641,7 @@ itinerary: [
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
-  region: "uttarakhand",
+  region: "uttarakhand-garhwal",
   duration: "7 Nights / 8 Days",
   coordinates: [
     [31.0266, 78.4469], // Sankri (start)
@@ -3862,7 +3862,7 @@ itinerary: [
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    region: "uttarakhand",
+    region: "uttarakhand-garhwal",
     duration: "7 Nights / 8 Days",
     coordinates: [
       [30.0333, 79.3300], // Lohajung (start) – approx
@@ -4087,7 +4087,7 @@ itinerary: [
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["10 Nights / 11 Days"],
-    region: "uttarakhand",
+    region: "uttarakhand-kumaon",
     coordinates: [
         [30.0690, 80.2430], // Munsiyari
         [30.1030, 80.3870], // Rilkot
@@ -4098,10 +4098,10 @@ itinerary: [
         [30.0690, 80.2430], // Munsiyari (end)
     ],
 
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
 
     heroImages: [
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-1860784_u3iihu.webp",
     ],
@@ -4240,6 +4240,7 @@ itinerary: [
     ],
 
     gallery: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381748/nanda-devi-base-camp-8295835_x4h4aq.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-5512200_blmq70.webp",
@@ -4299,11 +4300,6 @@ itinerary: [
         question: "How is safety ensured, and what emergency measures are in place?",
         answer:
             "Experienced guides accompany all groups, with knowledge of local terrain, weather patterns, and emergency protocols. The team carries first-aid kits, and communication with Munsiyari and ITBP posts is maintained in case of emergencies. Porters and mule support are available along the route."
-    },
-    {
-        question: "Are there additional costs or expenses not included in the package?",
-        answer:
-            "Yes. Extra costs may include vehicle transfers to trailheads, permits, mule or porter charges, personal snacks, and optional meals or souvenirs. Most local tea-houses charge nominal fees for food or overnight stays."
     },
     {
         question: "What local customs and cultural sensitivities should I be aware of?",
