@@ -343,6 +343,40 @@ const proTreks = treks.filter(
 @media(min-width:768px){ .sticky-filter-btn{display:none !important;} }
 
 /* ====== SUGGESTED TREKS SECTION ====== */
+
+.suggested-index-links {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.suggested-index-links a {
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  color: #ff7300;
+  border-radius: 8px;
+  border: 2px solid #ff7300;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.suggested-index-links a:hover {
+  background-color: #ff7300;     /* brand background */
+  color: #000;                   /* black text */
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1);
+  transform: scale(1.05);
+}
+
 .suggested-treks {
   background: #fff;
   padding: 1.5rem 2rem;
@@ -471,8 +505,24 @@ const proTreks = treks.filter(
   </aside>
 
 <main class="main-content" role="main" tabindex="0">
+
+<!-- Suggested Treks Index -->
+<section class="suggested-index reveal">
+  <h2 class="suggested-title">Find the Right Trek for You</h2>
+  <p class="suggested-desc">
+    Choose your trekking experience based on your fitness, comfort level, and the kind of adventure you're looking for.
+    Jump directly to the category that fits you best.
+  </p>
+
+  <div class="suggested-index-links">
+    <a href="#beginner-treks">Beginner & Family Treks</a>
+    <a href="#intermediate-treks">Treks for Fit & Confident Trekkers</a>
+    <a href="#pro-treks">High-Altitude & Advanced Himalayan Treks</a>
+  </div>
+</section>
+
 <!-- Suggested Treks Section -->
-<section class="suggested-treks reveal">
+<section id="beginner-treks" class="suggested-treks reveal">
   <h2 class="suggested-title">Our Best Treks for First-Time Trekkers & Families</h2>
   <p class="suggested-desc">
   These handpicked trails are perfect for beginners, first-timers, and families looking for a safe,
@@ -494,8 +544,8 @@ const proTreks = treks.filter(
   </div>
 </section>
 
-<section class="suggested-treks reveal">
-  <h2 class="suggested-title">Our Best Treks for Confident & Fit Trekkers</h2>
+<section id="intermediate-treks" class="suggested-treks reveal">
+  <h2 class="suggested-title">Our Best Treks for Confident & Fit Trekkers with Prior Trekking Experience</h2>
   <p class="suggested-desc">
   These treks are ideal for those with some trekking experience, offering a balanced mix of easy trails and challenging days that truly bring the Himalayas alive. Fit and committed first-timers can attempt them too, while seasoned trekkers continue to cherish these routes for their stunning terrain, altitude gain, and rewarding wilderness experience.
   </p>
@@ -514,7 +564,7 @@ const proTreks = treks.filter(
 </section>
 
 <!-- Pass Crossing Treks Section -->
-<section class="suggested-treks reveal">
+<section id="pro-treks" class="suggested-treks reveal">
   <h2 class="suggested-title">High-Altitude Himalayan Treks — For Those Who Seek the Wild</h2>
   <p class="suggested-desc">
   These treks are crafted for seasoned trekkers who are ready to venture deep into the raw, untamed Himalayas.  
@@ -655,6 +705,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function filterTrekCards() {
   const filters = getSelectedFilters();
   const suggestedSections = document.querySelectorAll('.suggested-treks');
+  const indexSection = document.querySelector('.suggested-index'); // Entire index section
   const hasActiveFilters = Object.keys(filters).length > 0;
 
   trekCards.forEach(card => {
@@ -676,7 +727,12 @@ function filterTrekCards() {
     section.style.display = hasActiveFilters ? 'none' : 'block';
   });
 
-  // Smooth scroll to top of main-content **after DOM updates**
+  // Show/hide index section
+  if(indexSection){
+    indexSection.style.display = hasActiveFilters ? 'none' : 'block';
+  }
+
+  // Smooth scroll to top of main-content after DOM updates
   const mainContent = document.querySelector('.main-content');
   if(mainContent){
     setTimeout(() => {
