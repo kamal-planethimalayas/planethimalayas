@@ -1191,7 +1191,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 17900,
     priceNote: "* Jiskoon to Sangla",
     addons: {
-      transport: 4000, 
+      transport: 5000, 
       offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1428,7 +1428,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 17900,
     priceNote: "* Janglik to Baruva",
     addons: {
-      transport: 4000, 
+      transport: 5000, 
       offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1647,7 +1647,7 @@ seo: {
     price: 12500,
     priceNote: "* Lohajung to Wan",
     addons: {
-      transport: 2800, 
+      transport: 5000, 
       offloadingbag: 1500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1903,7 +1903,7 @@ seo: {
     price: 12500,
     priceNote: "* Sari to Sari",
     addons: {
-      transport: 2800, 
+      transport: 4000, 
       offloadingbag: 1500,
       transportNote: "* Haridwar to Haridwar",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -2156,7 +2156,7 @@ seo: {
     price: 16900,
     priceNote: "* Gangotri to Gangotri",
     addons: {
-      transport: 3000, 
+      transport: 5000, 
       offloadingbag: 2500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -2371,7 +2371,7 @@ seo: {
     price: 12500,
     priceNote: "* Sankri to Sankri",
     addons: {
-      transport: 3000, 
+      transport: 4000, 
       offloadingbag: 1500,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -2561,7 +2561,7 @@ seo: {
     price: 18500,
     priceNote: "* Sankri to Sankri",
     addons: {
-      transport: 3000, 
+      transport: 4000, 
       offloadingbag: 2000,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -2755,7 +2755,7 @@ seo: {
     price: 12900,
     priceNote: "* Sanri to Sankri",
     addons: {
-      transport: 3000, 
+      transport: 4000, 
       offloadingbag: 1800,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -2955,7 +2955,7 @@ seo: {
   price: 12900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
-    transport: 3000,
+    transport: 6000,
     offloadingbag: 1500,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
@@ -3202,7 +3202,7 @@ seo: {
   price: 12500,
   priceNote: "* Sankri to Sankri",
   addons: {
-    transport: 3000,
+    transport: 4000,
     offloadingbag: 1500,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag",
@@ -3441,7 +3441,7 @@ itinerary: [
   price: 8900,
   priceNote: "* Barsu to Barsu",
   addons: {
-    transport: 2500,
+    transport: 3000,
     offloadingbag: 1200,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
@@ -3693,7 +3693,7 @@ itinerary: [
   price: 22900,
   priceNote: "* Sankri to Janki Chatti",
   addons: {
-    transport: 3000,
+    transport: 5000,
     offloadingbag: 4000,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag"
@@ -3901,7 +3901,7 @@ itinerary: [
     price: 20900,     // you can fill in actual price
     priceNote: "* Lohajung to Wan",
     addons: {
-      transport: 2800,    // fill in as applicable
+      transport: 5000,    // fill in as applicable
       offloadingbag: 2400, // if any
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -4096,8 +4096,8 @@ itinerary: [
 
     heroImages: [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-1860784_u3iihu.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545955/nanda-devi-east-base-camp-trek-hero1_b5xt81.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view1_bslpi8.webp",
     ],
 
     subtitle: "An Adventure to the Foot of Nanda Devi, the Himalayan Queen",
@@ -4127,7 +4127,7 @@ itinerary: [
     price: 34900,
     priceNote: "* Munsiyari to Munsiyari",
     addons: {
-        transport: 4000,
+        transport: 5000,
         transportNote: "* Haldwani to Haldwani",
         offloadingbag: 4500,
         offloadingNote: "* Maximum weight 9kg / bag"
@@ -4235,15 +4235,15 @@ itinerary: [
 
     gallery: [
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381748/nanda-devi-base-camp-8295835_x4h4aq.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-5512200_blmq70.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-1860784_u3iihu.webp",
+        
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-6315064_ueukor.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-478768_eoooul.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381745/nanda-devi-base-camp-970605_kc4zhd.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381746/nanda-devi-base-camp-hero_fgdddx.webp",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381745/nanda-devi-base-camp-2721668_ljj77m.webp",
+        
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545955/nanda-devi-east-base-camp-trek-hero1_b5xt81.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545969/nanda-devi-east-base-camp-trek-hero1_aokgi8.png",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545957/nanda-devi-east-base-camp-trek-hero2_xrha53.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view1_bslpi8.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view_cenuoj.jpg",
     ],
 
     downloadLink: "/docs/Packing_List.pdf",
@@ -4394,7 +4394,7 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     priceNote: "* Dhoor/Loharkhet to Loharkhet/Dhoor",
 
     addons: {
-      transport: 4000,
+      transport: 5000,
       transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
       offloadingbag: 1500,
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -4513,6 +4513,242 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     faqsLink: "/pages/faqs-and-articles",
   },
 
+  {
+    id: "pindari-glacier-trek",
+    name: "Pindari Glacier Trek",
+    tags: ["beginner"],
+    difficulty: ["easy", "moderate"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "september", "october"],
+    duration: ["5 Nights / 6 Days"],
+    region: "uttarakhand-kumaon",
+
+    coordinates: [
+        [29.8380, 79.9150], // Khati
+        [29.8500, 79.9710], // Dwali
+        [29.8830, 79.9980], // Phurkia
+        [29.9130, 80.0260], // Zero Point / Pindari Glacier
+        [29.8830, 79.9980], // Back to Phurkia
+        [29.8500, 79.9710], // Dwali
+        [29.8380, 79.9150], // Khati
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg",
+
+    heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550200/pindari-glacier-hero2_yemxih.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550197/pindari-glacier-hero1_fbovjg.jpg",
+    ],
+    
+    subtitle: "A Classic Kumaon Himalayan Adventure",
+
+    seo: {
+        title: "Pindari Glacier Trek | Itinerary, Cost & Dates | Planethimalayas",
+        description:
+            "Pindari Glacier Trek (3,700 m) is a classic Kumaon Himalayan adventure from Khati to the snout of the Pindari Glacier. Explore forests, meadows, river valleys, snow bridges, and breathtaking views of Nanda Devi, Nanda Kot & Maiktoli."
+    },
+
+    overview: {
+        facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
+        { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m" },
+        { emoji: "⚡", label: "Trek Distance", value: "Approx. 48 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
+        { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
+        { emoji: "📍", label: "Start Point", value: "Khati Village (2,210 m)" },
+        { emoji: "🏁", label: "End Point", value: "Khati Village" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+    ],
+
+    snippet: 
+    "The Pindari Glacier Trek is a classic Himalayan journey into the wild heart of Kumaon, where every bend in the trail reveals a new surprise—whispering forests, roaring rivers, ancient trade routes, and the towering guardians of the Nanda Devi Sanctuary. Your adventure begins in the peaceful village of Khati, a little world of wooden homes, terraced fields, and warm mountain hospitality. The moment you step onto the trail, the scent of rhododendrons, the echo of distant waterfalls, and the calls of rare Himalayan birds pull you deeper into the valley.<br>As you move toward Dwali, the forest opens and closes like a living storybook—bridges swing above the turquoise Pindar River, moss-covered boulders glow in filtered sunlight, and high cliffs loom overhead like silent protectors. The trail climbs gradually, crossing spider-walls, old stone pathways, and landslide slopes carved over centuries by storms, glaciers, and monsoon winds. Every day feels different: one moment you're wrapped in dense greenery, and the next you’re standing before vast open meadows, icy streams, and ridgelines that lead your eyes straight to distant peaks.<br>Beyond Phurkia, the valley changes character entirely—alpine winds pick up, the landscape turns stark and glacial, and the mighty face of Nanda Khat glows golden in the morning sun. The approach to Zero Point is pure Himalayan theatre: snow bridges, frozen water channels, tumbling ice blocks, and the thunderous silence of high mountains. And then, without warning, the glacier appears—enormous, serene, shimmering beneath the sky. Standing at 12,300 ft in front of the snout of Pindari Glacier is not just a photo moment; it feels like touching the ancient heartbeat of the Himalayas.<br>Nights are spent in cozy camps surrounded by towering cliffs and a sky thick with stars. The quiet villages, the smiling locals, and the age-old stories of explorers who once passed through this valley add depth to the journey. As you descend back toward Khati, the trail seems to tell a different story—one of gratitude, calm, and connection to nature.<br>The Pindari Glacier Trek is perfect for both beginners and seasoned trekkers, thanks to its balanced terrain, rich biodiversity, and a trail that remains accessible for most of the year. From forests splashed with colour to glacial amphitheatres that take your breath away, this trek is a complete Himalayan experience—safe, scenic, and unforgettable.<br><br><strong>Please note:</strong> Trail sections between Khati, Dwali, and Phurkia can be affected by early-season snow, monsoon landslides, and stream crossings. Proper layers, sturdy footwear, and basic fitness ensure a smooth and rewarding journey."
+    },
+
+    price: 12900,
+    priceNote: "* Khati to Khati",
+
+    addons: {
+      transport: 5000,
+      transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
+      offloadingbag: 2000,
+      offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote:
+      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+
+    highlights: [
+    "One of Kumaon’s most iconic treks leading to the mighty Pindari Glacier",
+    "Verdant trail through oak, pine, deodar, and birch forests with changing landscapes every day",
+    "Majestic views of Mt. Nanda Devi East, Mt. Panwali Dwar, Mt. Maiktoli, and the surrounding Kumaon giants",
+    "Beautiful village trails through Khati — the last inhabited village on the route",
+    "Easy-to-moderate terrain suitable for fit beginners and families",
+    "Peaceful forest sections, riverside walks, wooden bridges, and glacier-side camps",
+    "Spring rhododendrons, monsoon greenery, crisp autumn skies, and winter snow patches — rewarding in all seasons",
+    "A perfect introductory Himalayan glacier trek with rich culture, scenery, and adventure"
+],
+
+    itinerary: [
+        {
+    day: 1,
+    title: "Kathgodam – Khati Village (2,210 m) | 185 km Drive | 10–11 Hours",
+    details:
+        "<strong>• Drive: 185 km | Duration: 10–11 hrs</strong><br>• Your journey begins early morning at 6:00 AM from Kathgodam Railway Station, where our team meets you for the drive to Khati, the base camp of the Pindari Glacier Trek. The route is beautifully scenic as you travel through Bheemtal, Almora, Bageshwar, and Kapkot—classic Kumaon landscapes filled with forests, winding valleys, and charming hillside towns.<br>• After Kapkot (the last ATM point), the road gradually narrows and winds deeper into the mountains. From Loharkhet, an off-road motorable stretch leads you to the traditional village of Khati—the last inhabited village on the Pindari trail. Khati is known for its warm locals, wooden homes, rich folklore, and legends suggesting the Pandavas once stayed here during their exile.<br>• Enjoy views of Nanda Kot, Nandabaner, and Laspadhura from the village. Mobile connectivity is minimal (only patchy BSNL), and electricity is largely solar-powered. After reaching the Khati campsite, settle into your tents, have dinner, and prepare for the trek ahead."
+},
+        {
+    day: 2,
+    title: "Khati – Dwali (2,575 m) | 13 km Trek | 6–7 Hours",
+    details:
+        "<strong>• Trek: 13 km | Duration: 6–7 hrs</strong><br>• After a hearty breakfast, begin your long walk toward Dwali. The Pindar River accompanies you throughout the day, filling the trail with the sound of rushing water. The route includes wooden bridges, cascading waterfalls, and several landslide-prone sections created by the 2013 disaster—so caution and following the trek leader’s instructions are essential.<br>• The first 20 minutes involve a steep ascent offering a bird’s-eye view of Khati. The gradient eases soon after, leading you to a stream—your first water point. Passing KMVN lodges, you reach a wooden bridge that crosses the first landslide zone before the trail narrows and descends into dense forest with the Pindar River gushing on your left.<br>• Multiple landslide zones follow, requiring detours down to the riverbank. You will navigate boulders, moraines, temporary trails, and steep reconnecting climbs back to the original ridge. Each section demands careful footwork, especially the longer detour where you cross huge boulders and four scissor bends before climbing back up through dense vegetation.<br>• After reconnecting with the main trail, an uphill stretch leads you to the sixth and final landslide zone. The descent to the river is loose and unstable, followed by a moraine walk to the final river crossing. Once across, you reach Dwali—an area still showing scars of the 2013 calamity.<br>• By evening, settle into the Dwali campsite with panoramic valley views. Drinking water is available nearby, and after dinner, rest in your tents for the night."
+},
+        {
+    day: 3,
+    title: "Dwali – Phurkia (3,250 m) | 5 km Trek | 3 Hours",
+    details:
+        "<strong>• Trek: 5 km | Duration: 3 hrs</strong><br>• Today’s trek is comparatively easier and shorter. After a warm breakfast, begin your ascent through beautiful Oak and Rhododendron forests. Clear weather offers spectacular views of Mt. Nanda Devi and Nanda Khat, while the trail gradually winds deeper into the Pindar Valley with forested switchbacks and scenic meadows perfect for photography.<br>• Look out for Himalayan Ibex grazing in the pastures across the river. As you continue along the verdant grasslands, you will cross two glacial streams—often frozen into hard layers of snow. The trail also includes a few landslide-prone patches and narrow spiderwall sections, where your trek leader will guide you through safely.<br>• After navigating these tricky segments, you’ll cross the final snow bridges and follow the left bank of the river toward Phurkia. Landmarks like the KMVN and PWD huts mark your arrival. The Phurkia campsite welcomes you with stunning views of the towering Nanda Khat peak. After pitching your tents, enjoy a hot meal and rest for the night."
+},
+        {
+    day: 4,
+    title: "Phurkia – Zero Point (3,700 m) – Phurkia | 12 km Trek | 7–8 Hours",
+    details:
+        "<strong>• Trek: 12 km round trip | Duration: 7–8 hrs</strong><br>• Today is your summit day — the most thrilling part of the Pindari Glacier trek. Start early from Phurkia, taking the trail on the left of the KMVN hut. Within 15 minutes, you’ll cross the first snow bridge and enter a beautiful meadow dominated by the towering face of Mt. Nanda Khat. The Pindar River thunders far below in a deep gorge as you continue along the ridge.<br>• After around 20 minutes, navigate a sensitive rockfall section before moving deeper into the valley where patches of hard snow appear. Crampons are extremely useful here. Continue past Bhujani as the terrain becomes increasingly glaciated, leading you toward the upper Pindar Valley.<br>• The trail now demands caution: narrow spiderwall traverses, broken ridges, and exposed sections test your focus. Ahead, the snow-covered slopes reveal grand views of Mt. Bauljuri and the Changuch massif. As greenery fades, you climb steadily toward the snowy Pindar ridge, reaching it in about 40 minutes. From the ridge-top, the mighty Pindari Glacier spreads out to your left while Changuch (6,322 m) towers on your right.<br>• Cross three expansive ice fields — heavily snow-laden in April and May — and continue toward the small hut and shrine of Pindari Baba (Dharmanand Ji). From here, a final 40-minute push over moraines brings you to the iconic board marking Pindari Glacier Zero Point. Enjoy breathtaking views of Changuch Peak and Nanda Kot (6,861 m), and soak in the high-altitude silence of this majestic glacier basin.<br>• After spending time at the summit viewpoint, retrace your route back to Phurkia. Descending is quicker, but caution is essential across snow fields and broken trail patches. By evening, settle into camp, enjoy a hot meal, and rest after an unforgettable summit day."
+},
+        {
+    day: 5,
+    title: "Phurkia – Dwali – Khati | 18 km Trek | 7–8 Hours",
+    details:
+        "<strong>• Trek: 18 km | Duration: 7–8 hrs</strong><br>• Today begins your long descent back toward the lower valley. Start early from Phurkia and retrace the same scenic trail you climbed earlier. Within 2 hours, you’ll reach Dwali after crossing the familiar snow bridges, meadows, and the forested ridge sections.<br>• From Dwali, continue your steady descent toward Khati. The route takes you through all the earlier landslide zones, narrow forest paths, and stretches along the thundering Pindar River. The downhill walk is faster but requires caution, especially on loose gravel and broken trail patches.<br>• As you lose altitude, the landscape transitions back into dense Rhododendron and Oak forests, followed by wide valley bends and wooden bridges that mark your return journey. After 4–5 hours from Dwali, you finally reach Khati — the warm, familiar village surrounded by Himalayan peaks.<br>• Settle into your campsite for the night. After a long day of trekking, enjoy a hearty dinner and rest well in the peaceful Khati valley."
+},
+        {
+    day: 6,
+    title: "Khati – Kharkia – Kathgodam | Trek + Drive | Full Day",
+    details:
+        "<strong>• Trek: 4 km | Duration: 1 hr<br>• Drive: Kharkia to Kathgodam</strong><br>• On your final day, start early from Khati and descend along the familiar forested trail to reach Kharkia, the road-head, in about an hour. Enjoy the last views of the quiet valley as you complete the trek portion of your journey.<br>• From Kharkia, begin the long drive back to Kathgodam, passing through the scenic towns of Kapkot, Bageshwar, Almora, and Bheemtal. The lush Kumaon landscape slowly gives way to plains as you return to civilization.<br>• You will reach Kathgodam by evening, marking the end of your Pindari Glacier adventure. Plan your onward travel accordingly and carry home unforgettable memories of the Himalayas."
+},
+    ],
+
+    howToReach: {
+    air: "Nearest airport: Pantnagar Airport – 240 km from Bageshwar. Taxis available to Kharkiya/Khati.",
+    train:
+        "Nearest major railway station: Kathgodam. From there, take a shared cab or private taxi to Bageshwar, then onwards to Kharkiya/Khati.",
+    road:
+        "From Delhi: Overnight bus to Haldwani/Kathgodam, then taxi to Bageshwar → Kharkiya → Khati. Roads remain open most of the year.",
+    travelTip:
+        "Arrive in Khati one day early to acclimatise and enjoy the village before starting the trek."
+},
+
+    didYouKnow: [
+    "The Pindari Glacier was one of the first glaciers in the Kumaon Himalayas to be documented by British explorers in the 1800s.",
+    "Eric Shipton, the legendary mountaineer, explored the Pindari Valley extensively and used it as a gateway for many Himalayan surveys.",
+    "The Pindari River flows directly from the glacier snout and eventually merges with the Alaknanda, forming part of the Ganga system.",
+    "Phurkia is known for rapid weather changes where a clear sky can turn into a whiteout within minutes.",
+    "Explorers in the early 1900s considered the Pindari Valley one of the best ‘training grounds’ before attempting big Himalayan peaks like Nanda Devi and Trisul.",
+    "Frank Smythe, famous for discovering the Valley of Flowers, also wrote about the Pindari region, calling it one of the most accessible glacier routes in India at the time.",
+    "Before modern trekking became popular, local shepherds and traders used this trail to cross seasonal routes connecting remote Himalayan villages.",
+    "Old expedition logs mention that the Pindari Glacier snout has receded dramatically over the last century — more than 200 meters according to early surveys.",
+    "Many early survey teams in the British era used Pindari as a base to map the lesser-known peaks of the Kumaon Himalaya, making it a historically significant exploration route."
+],
+
+    gallery: [
+      
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550200/pindari-glacier-hero2_yemxih.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550197/pindari-glacier-hero1_fbovjg.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550189/pindari-glacier-view4_epqlly.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550186/pindari-glacier-view3_slojrf.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550184/pindari-glacier-view2_gf0uqz.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550182/pindari-glacier-view1_smtg7t.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550179/pindari-glacier-view_urthaq.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550179/pindari-glacier-hero3_yswukk.jpg"
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+    questions: [
+        {
+            question: "Who can join the Pindari Glacier Trek?",
+            answer:
+                "This trek is suitable for beginners with good fitness as well as experienced trekkers. The trail includes long walking days, multiple stream crossings, and several landslide-detour sections, so basic endurance and balance are essential."
+        },
+        {
+            question: "How long is the trek, and what is the daily hiking distance?",
+            answer:
+                "The Pindari Glacier Trek spans 6 days, with daily trekking distances ranging from 4 km to 18 km depending on the terrain. Summit day involves walking on snow patches, moraine, and glacier sections, so pacing and hydration are important."
+        },
+        {
+            question: "What is the difficulty level, and do I need prior experience?",
+            answer:
+                "The trek is rated as moderate. No prior high-altitude experience is required, but you should be comfortable walking 6–7 hours a day. The landslide zones between Khati, Dwali, and Phurkia require caution and attention to your trek leader’s instructions."
+        },
+        {
+            question: "When is the best time to do the Pindari Glacier Trek?",
+            answer:
+                "The best season is spring to early summer (April–June) and post-monsoon (September–November). Snow on the trail is highest in April–May, while October offers the clearest mountain views, including Nanda Khat and Nanda Devi East."
+        },
+        {
+            question: "What is the highest altitude reached during this trek?",
+            answer:
+                "The highest point is the Pindari Glacier Zero Point at around 3,700 m. Mild symptoms like breathlessness or headaches can occur, so hydration and steady pacing are key to avoiding altitude-related discomfort."
+        },
+        {
+            question: "What kind of accommodation and meals are provided?",
+            answer:
+                "Accommodation is in tents throughout the trek, with campsites at Khati, Dwali, and Phurkia. Meals include hot vegetarian dishes, dal, rice, vegetables, roti, Maggi, soup, tea, and snacks. Campsites have drinking water sources nearby."
+        },
+        {
+            question: "Do I need special gear or equipment?",
+            answer:
+                "Carry warm layered clothing, waterproof jackets, trekking shoes, gloves, caps, sunglasses, and a sturdy backpack. On summit day, microspikes and gaiters may be used depending on snow conditions. Trekking poles are very helpful."
+        },
+        {
+            question: "Is travel insurance required?",
+            answer:
+                "Travel insurance is strongly recommended, covering high-altitude trekking, medical emergencies, evacuation, and weather-related delays. It is not included by default."
+        },
+        {
+            question: "How is safety ensured on the Pindari Glacier Trek?",
+            answer:
+                "Certified trek leaders guide the group, especially through landslide-prone detours, spider-wall sections, and snow patches. The team carries first-aid kits, and communication is maintained with Khati and Dwali. Campsites are checked for safety, and water sources are verified."
+        },
+        {
+            question: "What emergencies should I be prepared for?",
+            answer:
+                "Minor issues like fatigue, dehydration, and slips on loose gravel can happen. In case of serious medical issues, evacuation is arranged back towards Khati or Loharkhet, the nearest road-head. Always report discomfort early."
+        },
+        {
+            question: "Will I get mobile network during the trek?",
+            answer:
+                "Only BSNL works intermittently in Khati. Beyond Khati (Dwali, Phurkia, and Zero Point), the trail is completely off-grid with no mobile connectivity."
+        },
+        {
+            question: "Are wildlife sightings possible?",
+            answer:
+                "Yes, trekkers often spot Himalayan Ibex near streams and meadows, along with birds like Monal and Himalayan Griffon. The forests around Khati and Dwali are also rich in flora like rhododendron and oak."
+        },
+        {
+            question: "Are there water sources along the trail?",
+            answer:
+                "Yes, there are multiple water points, including streams near Khati, Dwali, and on the way to Phurkia. Many sections involve stream crossings or snow bridges, making it easy to refill bottles after purification."
+        },
+        {
+            question: "What local customs or cultural aspects should I keep in mind?",
+            answer:
+                "Khati village is known for its warm hospitality and mythology linked to the Pandavas. Dress modestly, respect local traditions, and seek permission before photographing villagers or homes."
+        },
+        {
+            question: "Is offloading available?",
+            answer:
+                "Yes, you can offload your backpack by hiring a porter or mule from Khati. Prior booking is recommended, especially during the peak season."
+        }
+    ]
+},
+
+    faqsLink: "/pages/faqs-and-articles",
+  },
+
   /* Sikkim */
 
   {
@@ -4578,7 +4814,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     price: 26900,
     priceNote: "* Yuksom to Yuksom",
     addons: {
-      transport: 3000, 
+      transport: 5000, 
       offloadingbag: 4200,
       transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -4820,7 +5056,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   price: 14900,
   priceNote: "* Manebhanjan to Srikhola",
   addons: {
-    transport: 2500,
+    transport: 4000,
     offloadingbag: 3000,
     transportNote: "* NJP / Bagdogra to NJP / Bagdogra",
     offloadingNote: "* Maximum weight 9kg/bag"
