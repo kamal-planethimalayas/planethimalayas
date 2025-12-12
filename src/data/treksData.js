@@ -61,9 +61,9 @@ export const treks = [
     price: 17900,
     priceNote: "* Kafnu to Kaza",
     addons: {
-      transport: 4000,
-      offloadingbag: 4800,
-      transportNote: "* Shimla to Manali",
+      transport: 2500,
+      offloadingbag: 4500,
+      transportNote: "* Shimla to Kafnu. Trekkers can request transport arrangement from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
@@ -241,7 +241,7 @@ export const treks = [
   priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
   addons: {
     transport: null,
-    offloadingbag: 9300,
+    offloadingbag: 6300,
     transportNote: "* Trekkers can request transport arrangements from Manali to Barshaini and from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
     offloadingNote: "* Max weight 9 kg per bag."
   },
@@ -506,7 +506,7 @@ export const treks = [
     price: 11900,
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
-      offloadingbag: 4000,
+      offloadingbag: 2800,
       offloadingNote: "* Maximum weight 9kg  /bag"
     },
 
@@ -704,12 +704,12 @@ export const treks = [
     snippet: `Nestled in the heart of the Pir Panjal range, the Deo Tibba Base Camp Trek is a thrilling alpine adventure for trekkers seeking both serenity and spectacle. Starting near Manali, the trail winds through dense forests of pine, spruce, fir, oak, and silver birch, opening up to lush meadows that seem kissed by the Himalayas themselves. Snow-capped peaks — Deo Tibba (6,001 m), Norbu Peak (5,226 m), and Jagatsukh Peak (5,050 m) — dominate the skyline, while the emerald waters of Chota Chandratal mirror the sky in a magical display of alpine beauty.<br>Every step tells a story: cross glacial streams, climb gentle ridges, and soak in panoramic views that unfold like chapters of a Himalayan epic. Ideal for trekkers with moderate experience, this trail blends accessible challenge with breathtaking scenery, making it one of the most captivating high-altitude treks in Himachal Pradesh.`
   },
 
-  price: 12900,   // placeholder — set as per your cost structure
+  price: 13900,   // placeholder — set as per your cost structure
   priceNote: "* Manali to Manali",
 
   addons: {
     transport: null,  // placeholder for any airport/road transfers
-    offloadingbag: 4500,
+    offloadingbag: 1500,
     transportNote: null,
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -879,7 +879,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 10500,
     priceNote: "* Manali to Manali",
     addons: {
-        offloadingbag: 3200,
+        offloadingbag: 1250,
         offloadingNote: "* Maximum weight 9kg / bag"
     },
 
@@ -1030,7 +1030,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 8900,
     priceNote: "* Manali to Manali",
     addons: {
-        offloadingbag: 3200,
+        offloadingbag: 2000,
         offloadingNote: "* Maximum weight 9kg / bag"
     },
 
@@ -1192,7 +1192,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     priceNote: "* Jiskoon to Sangla",
     addons: {
       transport: 4000, 
-      offloadingbag: 4800,
+      offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -1364,7 +1364,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate", "pro"],
+    tags: ["intermediate"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1429,7 +1429,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     priceNote: "* Janglik to Baruva",
     addons: {
       transport: 4000, 
-      offloadingbag: 4800,
+      offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -1644,11 +1644,11 @@ seo: {
   "The Ali–Bedni Bugyal Trek is a journey into the heart of Uttarakhand’s most enchanting high-altitude meadows — vast rolling grasslands that look like they’ve been brushed onto the earth by the hands of the gods. Starting from the quiet mountain village of Lohajung, the trail gently climbs through ancient oak and rhododendron forests where sunlight filters in golden beams and the woods echo with Himalayan thrushes, woodpeckers, and the occasional rustle of a mountain fox slipping between the shadows.<br>Then, almost without warning, the forests fall away and the world opens up into the endless green waves of Ali Bugyal — one of the largest alpine meadows in Asia. Walking here feels surreal. The air becomes crisp, the earth soft underfoot, and far on the horizon rise the great guardians of the Garhwal Himalayas: Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing white under the morning sun or flushed in shades of rose and gold at dusk. It’s a landscape so vast and quiet that you can hear the wind travel across the grass.<br>A gentle traverse leads you to Bedni Bugyal, equally magical yet imbued with a deeper spiritual energy. At its center lies Bedni Kund, a sacred, mirror-like pond believed to have witnessed centuries of rituals and the legendary Nanda Devi Raj Jat Yatra, one of the Himalayas’ most revered pilgrimages. The meadows here are dotted with wildflowers — blue poppies, brahmakamal, bistorts, and primulas — turning the terrain into a vibrant tapestry during summer.<br>Ali and Bedni are more than just meadows; they are living, breathing landscapes where nature, culture, and ancient lore blend seamlessly. Whether you are a first-time trekker or an experienced wanderer, these bugyals welcome you into a world where the sky feels close enough to touch, the mountains watch silently over the valleys, and every step fills you with a quiet sense of wonder."
     },
 
-    price: 10500,
+    price: 12500,
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 2800, 
-      offloadingbag: 2400,
+      offloadingbag: 1500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -1900,7 +1900,7 @@ seo: {
       "Experience a side of the Garhwal Himalayas that feels both mythical and impossibly serene. The Deoriatal–Chandrashila Trek begins gently, winding through ancient oak and rhododendron forests where the air is cool, birdsong echoes between the trees, and the forest floor glows with moss and wildflowers. As you climb, the landscape becomes a moving canvas — Himalayan woodpeckers darting between branches, verditer flycatchers glowing turquoise in the sunlight, and the elusive Himalayan Monal flashing iridescent colours in the undergrowth.<br>Soon the trail opens to the emerald shores of Deoriatal, a quiet, glass-still lake set against a backdrop of towering snow peaks of Chaukhamba and Kedarnath range. Locals believe gods and goddesses once bathed here — and when you see Chaukhamba reflected perfectly in the water, you’ll understand why this place feels sacred.<br>Beyond the lake lie wide, breezy meadows like Rohini and Shyalmi Bugyal, where the world suddenly expands. Shepherd shelters, soft grasslands dotted with seasonal blooms, and sweeping ridgelines guide you forward as the forests slowly give way to open Himalayan wilderness. Sunrise and sunset here are unforgettable — golden light spilling across distant ranges, clouds drifting like slow rivers below your feet.<br>The final ascent to Chandrashila Peak (12,083 ft) is short but exhilarating. As you reach the summit, the horizon bursts open into a full 360° panorama of the greatest Himalayan giants — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Nilkanth, and countless unnamed ridges fading into the sky. No other easy–moderate trek offers a summit view this grand.<br>Along the way, the spiritual heartbeat of the region accompanies you — especially at the Tungnath Temple, the highest Shiva temple in the world, standing resilient against roaring winds and centuries of snow.<br>This trek is more than a scenic trail — it’s a gentle, soul-stirring journey where forests, lakes, meadows, mythology, and mountains come together to create an experience that stays with you long after the trek ends."
     },
 
-    price: 10500,
+    price: 12500,
     priceNote: "* Sari to Sari",
     addons: {
       transport: 2800, 
@@ -2157,7 +2157,7 @@ seo: {
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 3000, 
-      offloadingbag: 3500,
+      offloadingbag: 2500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -2320,7 +2320,7 @@ seo: {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
     tags: ["beginner"],
-    difficulty: ["moderate"],
+    difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
     duration: ["5 Nights / 6 Days"],
@@ -2368,11 +2368,11 @@ seo: {
 <br>The Phulara Ridge Trek is not merely a trail to traverse; it is a story to inhabit. Each day reveals layers of the Himalayas — the hidden forests, the vibrant shepherd meadows, and the endless sky-road of the ridge. For those who walk it, the mountains become more than scenery; they become a rhythm, a presence, and a memory carved deep into the heart, an adventure that lingers long after the descent.`    
 },
 
-    price: 10500,
+    price: 12500,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 2400,
+      offloadingbag: 1500,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -2562,7 +2562,7 @@ seo: {
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 3600,
+      offloadingbag: 2000,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -2752,11 +2752,11 @@ seo: {
 "The Har Ki Dun Trek is one of those rare Himalayan journeys where myth, nature, and human warmth come together to create pure magic. Hidden deep in the Govind Pashu Vihar National Park, this cradle-shaped valley opens up a world of towering peaks, ancient legends, and timeless mountain life. The trail follows the clear blue waters of the Supin River, winding past whispering pine and deodar forests, wooden bridges, and meadows that seem to glow under the morning sun.<br>What makes Har Ki Dun unforgettable is its sense of peace — no roads, no crowds, only the soft hum of the valley and the rhythm of your steps. Every bend brings a new surprise — a cluster of wild rhododendrons, a snow-fed stream, or the distant sight of Swargarohini shining under a veil of clouds.<br>Trekkers walk through centuries-old villages like Osla, Gangad, and Seema, where time seems to move slower. The intricate wooden temples, carved with mythological motifs, tell stories of faith that still live strong in the mountains. The Duryodhana Temple of Osla, now devoted to Lord Someshwar, stands as a reminder of the valley’s deep connection to the Mahabharata.<br>As the trail climbs higher, it leads to alpine meadows and moraine fields, revealing stunning views of Bandarpoonch, Kalanag (Black Peak), and the Swargarohini massif — the same peaks said to mark the path to heaven taken by the Pandavas.<br>Har Ki Dun is not just a trek; it’s a living story. A story of rivers that sing, forests that whisper, and people who still greet you with warmth and mountain grace. Whether you’re drawn by mythology, nature, or the spirit of solitude, this trek will make you feel like you’ve stepped into another world — one that’s real, raw, and deeply human."
     },
 
-    price: 11900,
+    price: 12900,
     priceNote: "* Sanri to Sankri",
     addons: {
       transport: 3000, 
-      offloadingbag: 2400,
+      offloadingbag: 1800,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -2952,11 +2952,11 @@ seo: {
 
 <br>Accessible, rewarding, and rich in both natural grandeur and mountain culture, the Kuari Pass Trek is not just a high-altitude adventure — it’s a graceful introduction to the soul of the Himalayas, a journey where every step reminds you why these mountains have inspired explorers for over a century.`  },
 
-  price: 11500,
+  price: 12900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 3000,
-    offloadingbag: 2400,
+    offloadingbag: 1500,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -3199,11 +3199,11 @@ seo: {
 <br>Balanced in difficulty and rich in reward, Kedarkantha is a winter trek that blends gentle adventure with unforgettable Himalayan drama — the perfect journey for anyone dreaming of snow-covered forests, wide mountain views, and an intimate connection with the winter wilderness.`
   },
 
-  price: 10500,
+  price: 12500,
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 3000,
-    offloadingbag: 2400,
+    offloadingbag: 1500,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag",
   },
@@ -3442,7 +3442,7 @@ itinerary: [
   priceNote: "* Barsu to Barsu",
   addons: {
     transport: 2500,
-    offloadingbag: 2400,
+    offloadingbag: 1200,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -3694,7 +3694,7 @@ itinerary: [
   priceNote: "* Sankri to Janki Chatti",
   addons: {
     transport: 3000,
-    offloadingbag: 5600,
+    offloadingbag: 4000,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -3902,7 +3902,7 @@ itinerary: [
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 2800,    // fill in as applicable
-      offloadingbag: 3200, // if any
+      offloadingbag: 2400, // if any
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -4077,7 +4077,7 @@ itinerary: [
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
     tags: ["intermediate"],
-    difficulty: ["difficult"],
+    difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["10 Nights / 11 Days"],
@@ -4111,7 +4111,7 @@ itinerary: [
     overview: {
         facts: [
             { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days" },
-            { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+            { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
             { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,700 m" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 100 Km" },
             { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
@@ -4331,6 +4331,188 @@ itinerary: [
     faqsLink: "/faqs-and-articles",
 },
 
+
+{
+    id: "dhakuri-pass-trek",
+    name: "Dhakuri Pass Trek",
+    tags: ["beginner"],
+    difficulty: ["easy"],
+    season: ["spring", "summer", "monsoon", "autumn", "winter"],
+    month: ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
+    duration: ["4 Nights / 5 Days"],
+    region: "uttarakhand-kumaon",
+    coordinates: [
+        [29.5300, 79.6100], // Kathgodam (start)
+        [29.8450, 79.8770], // Dhoor Village
+        [29.8680, 79.9080], // Dhakuri Pass
+        [29.8760, 79.9150], // Chiltha Mata Temple Top
+        [29.8290, 79.8600], // Loharkhet
+        [29.5300, 79.6100], // Kathgodam (end)
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524797/dhakuri-trek-hero1_c97vl5.jpg",
+
+    heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524797/dhakuri-trek-hero1_c97vl5.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524790/dhakuri-trek-hero_lx7cgt.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524803/dhakuri-trek-view_j6e7rl.png",
+    ],
+    
+    subtitle: "Where Kumaon Opens the Door to the Himalayas",
+
+    seo: {
+    title: "Dhakuri Pass Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description:
+        "Dhakuri Pass Trek (2,800–3,300 m) is an easy Himalayan trek in Kumaon, Uttarakhand. Starting from Dhoor Village, it offers forest trails, rolling meadows, Chiltha Mata Temple Top, and sweeping 180° views of the Nepal & Kumaon Himalayas. A perfect offbeat alternative to Kedarkantha, Brahmatal & Triund."
+    },
+
+    overview: {
+        facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+        { emoji: "🏔️", label: "Max Altitude", value: "3,300 m (Chiltha Mata Top)" },
+        { emoji: "⚡", label: "Trek Distance", value: "Approx. 22 km" },
+        { emoji: "🌤️", label: "Best Time", value: "Year-round (All seasons)" },
+        { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
+        { emoji: "📍", label: "Start Point", value: "Kathgodam (554 m)" },
+        { emoji: "🏁", label: "End Point", value: "Kathgodam" },
+        { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
+    ],
+
+    snippet: `
+Dhakuri Pass (2,800 m) is one of Kumaon’s most timeless Himalayan trails — a route that blends forest charm, ancient village culture, and grand mountain vistas in a way few short treks can. Historically known as a key stopover for trekkers and mountaineers heading into the deep Johar Valley, Dhakuri has remained beautifully untouched even as other trails became commercialised. 
+<br>
+The journey begins in the remote villages above Bageshwar, where traditional Kumaoni settlements sit amidst terraced fields and pine forests. As you trek upward, the landscape shifts from oak–rhododendron woods to wide open meadows framed by the snow-covered giants of Kumaon and Nepal. The highlight of the trek is an ascent to the Chiltha Mata Temple Top (3,300 m), a high ridge offering a sweeping 360° panorama — layers of mountain ranges, distant Himalayan peaks, and the entire Dhakuri meadow unfolding below like a natural amphitheatre.
+<br>
+Every season creates a different personality for this trail: bright rhododendrons in spring, monsoon cloud seas spilling into the valley, crisp golden forests in autumn, and a silent white world in winter. Unlike popular treks such as Kedarkantha or Brahmatal, Dhakuri remains quiet, serene, and far from crowds — a true offbeat gem.
+<br>
+With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 20–22 km of total trekking, this journey is perfect for fit beginners, families, and anyone wanting a peaceful Himalayan escape that still delivers unforgettable views.
+    `
+    },
+
+    price: 10500,
+    priceNote: "* Dhoor/Loharkhet to Loharkhet/Dhoor",
+
+    addons: {
+      transport: 4000,
+      transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
+      offloadingbag: 1500,
+      offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+    inclusionsNote:
+      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
+
+    highlights: [
+        "Scenic trek through oak, pine, and rhododendron forests",
+        "360° Himalayan panorama from Chiltha Mata Temple Top (3,300 m)",
+        "Quiet, offbeat trail — far from the crowds",
+        "Comfortable Dhakuri Guesthouse stay with incredible mountain views",
+        "Spring flowers, monsoon cloud waves, autumn clarity, and winter snow — a year-round trekking gem",
+        "Perfect for beginners, families, and photographers"
+    ],
+
+    itinerary: [
+        {
+            day: 1,
+            title: "Kathgodam (554 m) to Dhoor Village (2,200 m) | 190 km Drive | 8–9 Hours",
+            details: `
+Begin early from Kathgodam and drive through Bhimtal, Almora, Bageshwar, and Bharadi — a route that gradually unfolds the beauty of Kumaon. At Bharadi, shift to a second shared vehicle for the climb to Dhoor Village. Arrive by evening and settle into a warm homestay or campsite. Enjoy stunning Himalayan views as your guide briefs you about the trek ahead.
+            `
+        },
+        {
+            day: 2,
+            title: "Dhoor Village to Dhakuri (2,800 m) | 4 km Trek | 3–4 Hours",
+            details: `
+Start after breakfast and follow a scenic forest trail towards Dhakuri Pass. Oak and rhododendron trees surround the path, and small mountain streams cross your route. After reaching Dhakuri, enjoy hot lunch (or packed lunch depending on time) and take in the breathtaking Himalayan views before settling into your guesthouse or campsite.
+            `
+        },
+        {
+            day: 3,
+            title: "Dhakuri to Chiltha Mata Temple Top (3,300 m) & Return | 10 km Trek | 6–8 Hours",
+            details: `
+Start before sunrise with tea and begin the 5 km ascent to Chiltha Mata Temple Top. The summit offers one of the finest 360° views in Kumaon — Nepal peaks, layered ridges, and the entire Dhakuri meadows below. Spend the day capturing sunrise, landscapes, or time-lapse sequences before descending back to Dhakuri for dinner.
+            `
+        },
+        {
+            day: 4,
+            title: "Dhakuri to Loharkhet (1,760 m) | 8 km Trek | 4–5 Hours",
+            details: `
+After breakfast, descend gradually through forests and old trade routes towards Loharkhet — once the traditional gateway for deeper Johar Valley expeditions. Reach by late afternoon, check into a homestay or campsite, and enjoy your final evening in the mountains.
+            `
+        },
+        {
+            day: 5,
+            title: "Loharkhet to Kathgodam (554 m) | 180 km Drive | 8–9 Hours",
+            details: `
+Begin the return journey early morning. Drive back through Almora, Bageshwar, and the scenic river valleys, reaching Kathgodam by evening. Your Dhakuri adventure comes to a peaceful close.
+            `
+        }
+    ],
+
+    howToReach: {
+      air: "Nearest airport: Pantnagar Airport – approx. 230 km from Bageshwar. Taxis to Bageshwar/Loharkhet available.",
+      train:
+        "Nearest major railway station: Kathgodam (95 km from Bageshwar). From there, take a shared cab or private taxi to Loharkhet via Bageshwar.",
+      road:
+        "From Delhi: Overnight bus to Haldwani/Kathgodam, then taxi to Bageshwar and onward to Dhoor/Loharkhet. From Almora: 4–5 hrs via Bageshwar.",
+      travelTip:
+        "Reach Dhoor or Loharkhet one day early to acclimatize and enjoy the peaceful Kumaon villages before the trek."
+    },
+
+    didYouKnow: [
+    "Dhakuri once served as an important halting point on the ancient trade route connecting Bageshwar to the Johar Valley and further into Tibet.",
+    "The Dhakuri meadows offer one of the best ‘mirror-view’ panoramas of the Kumaon giants — Maiktoli, Mrigthuni, Panwali Dwar, and Nanda Khat — all aligned in a single sweeping arc.",
+    "Chiltha Mata Temple Top (3,300 m) is believed by locals to be a sacred vantage point where shepherds once prayed for safe passage before entering high Himalayan valleys.",
+    "The forests around Dhakuri are home to rare fauna including Himalayan black bear, serow, and the elusive koklass pheasant often spotted near dawn.",
+    "During monsoon, the trail to Dhakuri blooms with over a dozen species of rhododendron and alpine flowers, making it one of the most biodiverse short treks in Kumaon.",
+    "Winter trekkers sometimes witness a rare ‘sea of clouds’ phenomenon from Dhakuri, where the entire valley below gets blanketed while the pass remains clear and sunny.",
+    "Old British-era records mention Dhakuri as a favourite campsite of explorers heading toward Sunderdunga, Pindari and Kafni glaciers — long before modern trekking existed."
+    ],
+
+
+    gallery: [
+      
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524797/dhakuri-trek-hero1_c97vl5.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524790/dhakuri-trek-hero_lx7cgt.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524803/dhakuri-trek-view_j6e7rl.png",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524786/images_gao1oe.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524784/dhakuri-trek-view3_k6qbua.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524783/dhakuri-trek-view1_kxgpeg.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765524783/dhakuri-trek-view2_tfdusc.webp"
+    
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+            question: "Who can join the Dhakuri Pass Trek?",
+            answer: "Anyone with basic fitness — beginners, families, and first-timers. The trail is easy-to-moderate with a few short climbs."
+        },
+        {
+            question: "Is this trek safe?",
+            answer: "Yes. The trail is well-marked, forested, and not exposed. Guides accompany you throughout."
+        },
+        {
+            question: "Will I get mobile network?",
+            answer: "Network is available in Kathgodam and some stretches near villages, but not at Dhakuri."
+        },
+        {
+            question: "What is the best season for this trek?",
+            answer: "Year-round. Spring blooms, monsoon clouds, autumn clarity, and winter snow each offer a unique experience."
+        },
+        {
+            question: "Is offloading available?",
+            answer: "Yes, mule/porter offloading is available with prior booking."
+        }
+  ]
+
+    },
+    faqsLink: "/pages/faqs-and-articles",
+  },
+
   /* Sikkim */
 
   {
@@ -4397,7 +4579,7 @@ itinerary: [
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 3000, 
-      offloadingbag: 5600,
+      offloadingbag: 4200,
       transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -4639,7 +4821,7 @@ itinerary: [
   priceNote: "* Manebhanjan to Srikhola",
   addons: {
     transport: 2500,
-    offloadingbag: 4000,
+    offloadingbag: 3000,
     transportNote: "* NJP / Bagdogra to NJP / Bagdogra",
     offloadingNote: "* Maximum weight 9kg/bag"
   },
@@ -4886,7 +5068,7 @@ itinerary: [
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 4000,
+      offloadingbag: 2800,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -5087,7 +5269,7 @@ itinerary: [
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 4000,
+      offloadingbag: 2800,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
