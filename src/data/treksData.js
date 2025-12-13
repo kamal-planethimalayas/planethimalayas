@@ -4749,6 +4749,200 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     faqsLink: "/pages/faqs-and-articles",
   },
 
+
+  {
+  id: "panchachuli-base-camp-trek",
+  name: "Panchachuli Base Camp Trek",
+  tags: ["intermediate"],
+  difficulty: ["moderate"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september", "october"],
+  duration: ["6 Nights / 7 Days"],
+  region: "uttarakhand-kumaon",
+
+  coordinates: [
+    [30.0010, 80.2080], // Darma Valley road head (Sobla)
+    [30.0300, 80.2600], // Dantu
+    [30.0700, 80.3050], // Sela
+    [30.1150, 80.3550], // Panchachuli Base Camp
+    [30.0700, 80.3050], // Sela
+    [30.0300, 80.2600], // Dantu
+    [30.0010, 80.2080], // Sobla
+  ],
+
+  heroImage:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625884/panchachuli-hero_l34sfx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625891/panchachuli-hero2_vqdkix.webp",
+  ],
+
+  subtitle: "Walking to the Foot of the Legendary Five Peaks",
+
+  seo: {
+    title:
+      "Panchachuli Base Camp Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description:
+      "Panchachuli Base Camp Trek (3,900 m) takes you deep into the remote Darma Valley of Kumaon, offering breathtaking close-up views of the five Panchachuli peaks, alpine meadows, glacier-fed rivers, and ancient trade routes near the Indo-Tibet border."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
+      { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
+      { emoji: "🗺️", label: "Region", value: "Darma Valley, Kumaon Himalayas" },
+      { emoji: "📍", label: "Start Point", value: "Sobla (near Dharchula)" },
+      { emoji: "🏁", label: "End Point", value: "Dharchula" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+    ],
+  
+
+  snippet:
+"The Panchachuli Base Camp Trek leads deep into one of Kumaon’s most dramatic and culturally rich regions — the legendary Darma Valley, a high-altitude corridor carved by glaciers, trade routes, and mountaineering history. Dominating the skyline throughout the journey are the five Panchachuli peaks, a striking chain rising sharply above the valley. Panchachuli I (6,355 m), II (6,904 m), III (6,312 m), IV (6,334 m), and V (6,437 m) stand like sentinels at the head of the valley, their massive ice walls and hanging glaciers visible from multiple points along the trail.<br>The trek follows the roaring Dhauliganga River, born from these glaciers, as it cuts through deep gorges and alpine landscapes. Ancient villages such as Dantu and Sela lie along this route — seasonal settlements of the Bhotiya community who once used this valley as a major Indo–Tibetan trade passage. Stone houses, prayer flags, and grazing grounds still echo stories of caravans that moved salt, wool, and grain across these mountains centuries ago.<br>As altitude increases, the landscape transforms dramatically. Lower forests of oak, pine, and rhododendron give way to vast alpine meadows bursting with seasonal wildflowers — blue poppies, primulas, and dwarf rhododendrons in summer. Higher up, the terrain becomes stark and elemental, with moraine fields, glacial streams, and snow patches even in late season. Himalayan bharal (blue sheep), marmots, and high-altitude birds like lammergeiers and snow pigeons are frequently spotted in the upper valley.<br>Beyond the last villages, the trail enters a raw, high-altitude amphitheatre where the Panchachuli massif reveals its full scale. Glaciers spill down from the peaks in enormous frozen cascades, and distant icefalls rumble across the valley like thunder. The base camp sits amidst snowfields and moraines, directly beneath the towering faces of the peaks — a place long used by climbers as a staging ground for expeditions. Legendary mountaineers, including teams led by explorers such as Eric Shipton, surveyed this region while mapping the eastern Kumaon Himalayas, cementing Panchachuli’s place in Himalayan mountaineering history.<br>Sunsets at base camp are unforgettable — the five peaks glow in shades of gold, copper, and crimson, while the valley below sinks into silence broken only by glacial winds and flowing water. Walking here feels less like a trek and more like entering a living mountain cathedral — vast, humbling, and powerful.<br>The Panchachuli Base Camp Trek is ideal for trekkers seeking more than scenic beauty. It offers close-up Himalayan drama, deep cultural context, and true wilderness solitude. Moderately demanding due to river crossings, long walking days, and high camps, it is best suited for fit trekkers ready to step beyond beginner routes and experience the Himalayas in their raw, uncompromising form.<br><br><strong>Please note:</strong> The Darma Valley is remote and weather-sensitive. Rapid changes in weather, glacial river swell, and high-altitude conditions demand good fitness, layered clothing, and respect for local traditions for a safe and rewarding journey."
+
+  },
+
+  price: 20900,
+  priceNote: "* Sobla to Dharchula",
+
+  addons: {
+    transport: 6000,
+    transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
+    offloadingbag: 2500,
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
+
+  highlights: [
+    "Up-close views of the iconic Panchachuli I–V peaks rising straight from the valley floor",
+    "Remote Darma Valley — one of Kumaon’s least-trekked and most pristine regions",
+    "Ancient Indo-Tibetan trade route with deep cultural significance",
+    "Alpine meadows, glacier-fed rivers, and massive hanging glaciers",
+    "Perfect balance of wilderness, altitude, and cultural immersion",
+    "Ideal for trekkers looking to move beyond beginner Himalayan trails",
+    "Spectacular sunrise and sunset views over towering snow walls",
+    "A true base camp experience without extreme technical climbing"
+  ],
+
+  itinerary: [
+  {
+    day: 1,
+    title: "Kathgodam – Dharchula – Sobla | 290 km Drive | 12–14 Hours",
+    details:
+      "<strong>• Drive: 290 km | Duration: 12–14 hrs<br>• Altitude: Kathgodam (554 m) → Sobla (2,040 m)</strong><br>• Start early from Kathgodam for a long yet breathtaking drive through the Kumaon Himalayas. The route passes Almora and Pithoragarh before following the Kali River — which also marks the Indo–Nepal border for much of the journey.<br>• Dharchula is a historic trade town once used by Tibetan and Nepali traders. After permits and local formalities, continue to Sobla, the road-head of the Darma Valley. Overnight stay near Sobla."
+  },
+  {
+    day: 2,
+    title: "Sobla – Dantu | 9 km Trek | 5–6 Hours",
+    details:
+      "<strong>• Trek: 9 km | Duration: 5–6 hrs<br>• Altitude: Sobla (2,040 m) → Dantu (2,400 m)</strong><br>• Enter the remote Darma Valley, walking alongside the powerful Dhauliganga River. The trail gradually ascends through forests, rocky sections, and riverside paths. Expect your first taste of river crossings and narrow trails carved into the mountainside.<br>• Villages here are seasonal, inhabited only during summer months by shepherd communities. Camp overnight at Dantu."
+  },
+  {
+    day: 3,
+    title: "Dantu – Sela | 8 km Trek | 4–5 Hours",
+    details:
+      "<strong>• Trek: 8 km | Duration: 4–5 hrs<br>• Altitude: Dantu (2,400 m) → Sela (3,100 m)</strong><br>• The valley opens into expansive alpine meadows with grazing grounds used by local Bhotiya shepherds. Wooden bridges, glacial streams, and wide landscapes dominate the day.<br>• Panchachuli peaks begin to appear more clearly, often hidden and revealed by moving clouds — a signature feature of this valley. Camp overnight at Sela, a high-altitude meadow campsite."
+  },
+  {
+    day: 4,
+    title: "Sela – Panchachuli Base Camp | 7 km Trek | 4–5 Hours",
+    details:
+      "<strong>• Trek: 7 km | Duration: 4–5 hrs<br>• Altitude: Sela (3,100 m) → Panchachuli Base Camp (3,850 m)</strong><br>• A visually dramatic day with steady ascent over moraines, glacial streams, and rocky terrain. The landscape becomes stark and powerful as vegetation thins out.<br>• The five Panchachuli peaks rise directly ahead, forming one of the most striking base camp settings in the Kumaon Himalayas. Acclimatisation is crucial due to the altitude. Overnight stay at base camp."
+  },
+  {
+    day: 5,
+    title: "Panchachuli Base Camp – Dantu | 15 km Trek | 6–7 Hours",
+    details:
+      "<strong>• Trek: 15 km | Duration: 6–7 hrs<br>• Altitude: Panchachuli Base Camp (3,850 m) → Dantu (2,400 m)</strong><br>• Begin the long descent back through Sela towards Dantu. Though downhill, the distance makes it a physically demanding day.<br>• River crossings feel more manageable now as trekkers gain confidence. The changing perspective of the valley reveals fresh views on the return journey. Overnight stay at Dantu."
+  },
+  {
+    day: 6,
+    title: "Dantu – Sobla – Dharchula | Trek + Drive",
+    details:
+      "<strong>• Trek: 9 km | Duration: 3–4 hrs<br>• Drive: Sobla to Dharchula<br>• Altitude: Dantu (2,400 m) → Sobla (2,040 m) → Dharchula (940 m)</strong><br>• Trek back down to Sobla, officially exiting the Darma Valley. From here, drive to Dharchula and check into a hotel.<br>• Evening at leisure — explore the riverside town, local markets, or simply relax after days spent in high alpine terrain."
+  },
+  {
+    day: 7,
+    title: "Dharchula – Kathgodam | Drive | 12–14 Hours (Optional Extension)",
+    details:
+      "<strong>• Drive: 12–14 hrs<br>• Altitude: Dharchula (940 m) → Kathgodam (554 m)</strong><br>• Drive back to Kathgodam, reaching by late evening. Alternatively, trekkers may choose to extend their journey — explore nearby valleys, plan shorter local hikes, or continue deeper into Kumaon with prior planning."
+  }
+],
+
+  howToReach: {
+    air:
+      "Nearest airport: Pantnagar Airport – approx. 320 km from Dharchula.",
+    train:
+      "Nearest railway station: Kathgodam. Shared or private taxis available to Dharchula.",
+    road:
+      "From Delhi: Bus or train to Kathgodam, then drive to Dharchula → Sobla.",
+    travelTip:
+      "Carry extra buffer days due to permit and weather dependencies in the Darma Valley."
+  },
+
+  didYouKnow: [
+    "The Panchachuli peaks are named after the five cooking hearths of the Pandavas from the Mahabharata.",
+    "The Darma Valley was historically an important Indo-Tibetan trade corridor.",
+    "British surveyors used Panchachuli as a reference landmark while mapping eastern Kumaon.",
+    "Early mountaineers considered Panchachuli one of the most aesthetically perfect Himalayan groups.",
+    "The valley remains lightly populated and is still grazed seasonally by local shepherds."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625884/panchachuli-hero_l34sfx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625891/panchachuli-hero2_vqdkix.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625871/panchachuli-view_gbxbs6.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625872/panchachuli-view1_bmjkc5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625875/panchachuli-view2_ggjb0z.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625878/panchachuli-view4_hly8bs.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625881/panchachuli-view5_p834ac.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625895/panchachuli-vew3_wjnnub.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Panchachuli Base Camp Trek?",
+        answer:
+          "This trek is best suited for fit trekkers with prior trekking experience. The terrain includes long walking days, river crossings, and high-altitude camps."
+      },
+      {
+        question: "What is the difficulty level of this trek?",
+        answer:
+          "The trek is graded as moderate. While it does not involve technical climbing, altitude gain and remoteness require good endurance."
+      },
+      {
+        question: "What is the highest altitude reached?",
+        answer:
+          "The highest point is Panchachuli Base Camp at approximately 3,900 m."
+      },
+      {
+        question: "Is this trek suitable for beginners?",
+        answer:
+          "Network is available only till Dharchula. Beyond Sobla, the trail is completely off-grid."
+      },
+      {
+        question: "Is offloading available?",
+        answer:
+          "Yes, porter and mule support is available with prior arrangement."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+
   /* Sikkim */
 
   {
