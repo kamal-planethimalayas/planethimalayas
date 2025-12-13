@@ -10,7 +10,7 @@ export const treks = [
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
     region: "himachal",
-    duration: "6 Nights / 7 Days",
+    duration: "6 Nights / 6 Days",
     coordinates: [
                   [31.5397, 77.9364], // Kafnu (start)
                   [32.0453, 78.0431], // Mud Village (end)
@@ -108,7 +108,14 @@ export const treks = [
       "Experience two distinct cultures — Kinnauri and Spitian — in one trek",
     ],
 
-    itinerary: [ { day: 1, title: "Shimla to Kafnu (7,900 ft)", details: "<strong>• Drive distance: ~200 km (7–8 hours).</strong> <br>• Reaching Kafnu feels like slipping quietly into a hidden corner of Kinnaur. Even though it lies deep in the valley, the journey is surprisingly smooth — the Bhaba River guides you almost the entire way, flowing confidently through the mountains as if escorting you to the start of your adventure. The hydel power project built along its course has brought steady roads, working routes, and constant movement of locals, trucks, and buses. Because of this, Kafnu — despite its remoteness — remains well connected to Kalpa, Reckong Peo, Karcham, Rampur, and even Shimla.<br>The final stretch into the village is unforgettable. The road climbs rapidly above the river, hugging steep mountain walls, twisting through narrow bends where every turn opens up a fresh perspective of the valley. It’s the kind of drive where the landscape keeps shifting — thick forests, cliff edges, sudden views of the river far below. For first-timers, the ride can feel thrilling; for mountain lovers, it feels like home.<br>Kafnu itself is a quiet settlement surrounded by forests, apple orchards, and the calm of the lower Himalayas. Wooden houses sit clustered on gentle slopes, with prayer flags fluttering on rooftops and the sound of the river echoing softly in the background. This is the last point of comfort before the wilderness begins.<br>You’ll check into a local lodge or homestay for the night — simple, warm, and welcoming. Use this day to rest your legs, settle into the altitude, and let the long journey fade out of your system." }, { day: 2, title: "Kafnu to Mulling (10,800 ft)", details: "<strong>• Trek distance: ~11 km | Duration: 6–7 hours | Altitude gain: ~2,900 ft. </strong><br>• The first day on the trail feels like slipping into a world that has been quietly waiting for you. As you leave Kafnu behind, the path rises gently through forests that seem untouched by time. Pines tower above you, silver birch trees sway in the morning light, and the Bhaba River rushes beside you with a steady, comforting presence. This is one of those rare Himalayan routes where the forest itself becomes the highlight — dense, aromatic, and filled with birdsong that follows you for hours.<br>Within the first stretch, the trail leads you past the Bhaba Hydel Project — India’s first underground dam hidden deep within the valley. It’s a reminder of how modern engineering coexists with raw nature here, though photography is strictly restricted. A little ahead, a bridge appears across the river; once you cross it, the forest begins to close in from all sides.<br>The real ascent begins when you spot a faint path rising away from the motor road — a narrow trail, almost secret, that leads you into the heart of the woods. For the next few kilometres, the canopy thickens, the air cools noticeably, and the forest floor turns soft with fallen leaves and needles. Every turn reveals a new frame — tall oaks, birches glowing white against the green, and patches of sunlight dancing between branches. It’s the kind of forest that makes you slow down simply because you don’t want it to end.<br>A short walk ahead opens unexpectedly into a clearing — a quiet patch of earth textured with grass, mud, and scattered stones. It feels like a natural rest point before the climb deepens. Soon after, you reach Champoria, a serene riverside zone wrapped in trees. Here, a sturdy log bridge helps you cross to the other side of the Bhaba River, marking the beginning of the steeper sections.<br>Beyond this point, the trail starts rising with purpose. The valley narrows, the sound of the river echoes louder between the walls, and the air grows colder with every step. A smaller tributary joins the main river here, signalling that you’re on the right track. Pace yourself — this is where the altitude begins to speak.<br>Around the 10 km mark, you emerge onto Jhandi Top, a natural ledge that offers your first wide, sweeping view of the upper valley. From here, the landscape opens dramatically, and far ahead — almost glowing in the afternoon light — you can spot the Mulling campsite tucked beneath vast green slopes. The final stretch to Mulling is short but beautiful, a gentle walk through meadows and soft earth.<br>When you finally arrive, the forest gives way to an expansive grassland framed by tall ridges. The Mulling hut stands quietly at the edge, offering two bare rooms for those trekking independently, though most prefer to pitch tents beside the river. The breeze here is cool, the meadows enormous, and the silence unforgettable.<br>This is where the Pin Bhaba trek truly begins to reveal its magic — a perfect first chapter in a journey that grows more dramatic with every passing day." }, { day: 3, title: "Mulling to Kara (11,700 ft)", details: "<strong>• Trek distance: ~6 km | Duration: 4–5 hours | Altitude gain: ~900 ft.</strong> <br>• The day begins with the mountains easing you gently out of Mulling. As you leave the wide grasslands behind, the trail shifts into a rocky stretch where the Bhaba Valley narrows again. The ascent is steady and calm, giving your legs enough time to warm up while the morning sun lights up the ridges above.<br>Barely 1.5 km into the day, the landscape opens into a long, soft meadow — a sudden burst of green set against dark cliffs. A waterfall tumbles down the slope to your right, its sound echoing across the valley like a constant reminder of the river running somewhere below you. It’s a refreshing, postcard-perfect spot that sets the tone for the beauty that lies ahead.<br>The trail continues to rise gradually from here, weaving through stones, tufts of grass, and tiny patches of wildflowers. After another short stretch, you experience one of the most fascinating features of this trek — a river that you can hear loudly but cannot see, flowing deep under layers of rock and soil, carving its own secret pathways beneath the surface. The sound grows stronger as you approach, vibrating through the earth beneath your boots, yet the water remains hidden. It's rare to encounter such a phenomenon on a Himalayan trek.<br>Beyond this mystical spot, the trail stiffens. A sharp ascent begins, lifting you quickly above the valley floor. As you climb, the world opens up once again, and soon you find yourself entering one of the most enchanting meadows of the entire trek — a sweeping, green expanse sprinkled with delicate alpine flowers. The colours change with the season: soft whites and yellows early on, deeper purples and reds as summer peaks. This meadow feels alive, almost glowing under the afternoon sun.<br>A gentle walk of just over a kilometre brings you to the Karah campsite — a serene setting beside a clear mountain stream, with ridges rising sharply on all sides. The sound of running water fills the air, this is one of those places where time feels slow.<br>Karah is where the trek truly begins to feel Himalayan — vast, quiet, and framed by towering walls of rock. You reach here by early afternoon, giving you enough time to rest, explore the stream, or simply lie back in the grass and gather strength for the long, high-altitude climb that awaits." }, { day: 4, title: "Kara to Phustirang (13,500 ft)", details: "<strong>• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,800 ft.</strong> <br>• Today may be the shortest walking day of the trek, but it is far from the easiest. With only 5 km to cover, the trail wastes no time in climbing sharply into higher terrain. The Bhaba Valley now sheds most of its softness — the meadows thin out, the slopes sharpen, and the air grows noticeably cooler as you gain altitude.<br>The day begins with a crossing of a lively tributary flowing down from the upper reaches of Phutsirang. The stream approaches from the left side of the valley, pouring down over boulders with a volume that depends entirely on the season. Once you cross it, the trail rises immediately, entering a landscape shaped by water and stone.<br>The ascent from here is steep and demands patience. The terrain is a blend of loose mud, scattered rocks, and narrow humps carved by streams over time. Mountain water accompanies you almost throughout the day — trickling, splitting, merging, and cutting through the slopes in multiple channels. These crossings, combined with the incline, make the day feel more taxing than the distance suggests, so pacing becomes essential.<br>Roughly 4 km into the climb, the valley widens just enough to reveal the lower Phutsirang campsite — a rugged but scenic patch surrounded by high ridgelines. It’s a brief but welcome visual breather after the relentless ascent.<br>From here, a final push of about 700 metres takes you higher into the upper basin. The moment you step into Phutsirang, the entire personality of the trek transforms. You stand inside a massive high-altitude amphitheatre — a wild, open cirque surrounded by dark, imposing mountains. The air feels thinner, the silence deeper, and the scale of the landscape almost overwhelming.<br>Phutsirang is not just a campsite; it’s a vantage point. From here, you can see three great passes of the region lined up like distant gateways:<br>Nimish Khango (16,185 ft)<br>Tari Khango (17,318 ft)<br>Pin Bhaba Pass (Wang Khango) (16,105 ft) — your objective for tomorrow<br>Watching the evening light fall across these ridges is an experience in itself. As the sun drops behind the mountains, temperatures dip quickly, and the sky fills with stars sharper and brighter than anything you might have seen before.<br>Rest well — tomorrow is the big day, the climb to the pass." }, { day: 5, title: "Phustirang to Mangrungtse (13,000 ft) via Pin Bhaba Pass (16,105 ft)", details: "<strong>• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~2,600 ft ascent and ~3,100 ft descent.</strong> <br>• You wake up knowing that today is the day — the day you step from one world into another. Crossing a high mountain pass isn’t just a climb; it’s a pilgrimage of sorts, one the mountains make you earn with every breath, every step, every quiet moment where you gather your strength. The excitement begins right from camp as the first light spills over the ridges above Phutsirang.<br>The ascent is steep from the very beginning. The trail twists through stony slopes and loose mud, rising steadily toward the saddle of the Pin Bhaba Pass. Your pace naturally slows as oxygen thins and the valley floor drops away behind you. Each pause rewards you with the sight of Bhaba Valley opening in full — green, lush, and impossibly gentle compared to where you’re heading.<br>Reaching the saddle is surreal. One moment you are climbing through familiar grassy ridges, and the next you’re standing on a knife-edge gateway between two completely different worlds. This is where the crossover becomes real. Behind you lies the soft, green embrace of Bhaba Valley. Ahead of you spreads the raw, wind-carved expanse of Pin — a canvas of browns, pinks, and pale earth stretching into the cold desert of Spiti. The contrast is so sudden, so dramatic, it almost feels staged by nature.<br>Below, far in the distance, a thin silver ribbon glints — the Pin River.<br>The descent begins sharply from the pass, dropping onto a terrain made of moraine fields, loose scree, and bits of old glacier. Every step demands focus. Move slow, plant each foot carefully, and stay patient — this is the part that tests your control more than your stamina.<br>Two kilometres down, you finally reach the Pin River. It crashes past you in icy torrents, fed by the snowfields above. You’ll need to remove your footwear to cross it — the water is freezing, but the moment your feet touch the stones on the other side, you know you’ve officially entered Spiti.<br>From here, the valley widens. The descent becomes more relaxed, though the ground is still scattered with moraine and scree. The colours around you shift constantly — dusty pinks, pale yellows, oxidized reds — the signature palette of the Pin Valley.<br>About 6 km after the river crossing, the trail reveals the Mangrungtse campsite far below. It rests quietly on the valley floor, surrounded by the vast emptiness that defines this region. It’s a wide, quiet patch of land beside the river, nestled between towering desert slopes. The wind here carries the dry, crisp air of Spiti, and the sky feels closer, clearer, almost overwhelming in its scale.<br>Tonight, as you rest in Mangruntse, you’ll feel the magnitude of what you’ve accomplished. The crossover is complete — you’ve walked from dense forests and glowing meadows into one of the highest cold deserts in the world.<br>And tomorrow, the trail will carry you deeper into Spiti’s awe-inspiring emptiness." }, { day: 6, title: "Mangrungtse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", details: "<strong>• Trek distance: ~16 km | Duration: 6–8 hours | Altitude gain: ~1000 ft descent.</strong> <br>• Your final morning on the Pin Bhaba Pass trek begins in the stark quiet of Mangruntse. The valley wakes slowly — cold winds brushing across the desert slopes, early light glinting off the Pin River, and a vastness so deep it feels like the world has paused around you. This is the day you exit the wilderness and walk back into human settlements. It’s long, around 16 km, so you start early while the valley is still cool.<br>The trail climbs gently out of Mangruntse and soon merges with the main route near Bwalder. Once you’re on the higher trail, Spiti’s famous palette of soft reds and browns begins to dominate the landscape. Ahead lies a long, sweeping valley that guides you toward Mudh — the first village of Spiti and the symbolic end of your journey.<br>A steady 2 km push brings you to Bara Boulder, a well-known rest point surrounded by moraine fields. The descent here is gradual, but the terrain is rough with scattered stones and loose earth. There’s a water source nearby, but it’s not the cleanest — the last good refill is always back at Bwalder or Mangruntse.<br>Just 300 metres beyond Bara Boulder, you cross a lively tributary of the Pin River using a log bridge, the kind of rustic crossing that marks the signature of Spiti’s trekking trails. Once you’re across, the scenery shifts dramatically.<br>The trail turns into a vast, flat stretch coated with red soil and tiny crimson stones — a landscape so unique that it feels as though you’ve stepped onto another planet. Winds blow freely here, carving ripples into the dust and sending sand brushing against your boots.<br>A long, flat walk of about 1.5 km brings you to another small mountain stream. You cross it via another simple log bridge, and just after this point, the reward of the entire day arrives:<br>The first distant view of Mudh Village: Even from 5 km away, Mudh looks like a painting — white houses clustered together, barley fields glowing green and gold, and a line of colourful prayer flags fluttering in the wind. The moment you spot it, something shifts inside you — fatigue eases, your pace steadies, and the heart picks up in excitement. After days in raw wilderness, the sight of this tiny settlement feels unreal.<br>The final stretch, though long, is gentle. The Pin River accompanies you for much of this section, carving a deep channel through the barren valley. Eventually, you reach the last river crossing of the trek — a suspension bridge swaying slightly in the wind, hanging above the wide, roaring Pin.<br>Crossing that bridge is an unforgettable moment. It’s the symbolic gateway into Spiti and the confirmation that your journey — this massive crossover from Kinnaur to Spiti — is nearly complete.<br>Once across, a short climb on a dusty path leads you straight into Mudh Village, the end point of your trek. Prayer flags welcome you, children often wave from rooftops, and the warm, dry wind of Spiti greets you like an old friend.<br>After a brief rest at Mudh, we drive back to Kaza, the cultural and commercial hub of Spiti, for an overnight stay in a guest house.<br>You’ve done it — six days, two contrasting valleys, one dramatic pass, and an experience that stays with you long after you’ve left these mountains." }, { day: 7, title: "Drive from Kaza to Manali (12,000 ft → 6,700 ft)", details: "<strong>• Distance: ~200 km | Duration: 9–10 hours by road.</strong> <br>• The trek may be over, but the journey isn’t finished yet. Early in the morning, you leave Kaza behind and begin the drive back toward Manali, a route that is as spectacular as the trek itself. The road climbs once more to Kunzum La, perched at 15,000 ft, where the barren beauty of Spiti stretches endlessly in every direction. Here, the mountains are stark, the winds strong, and the sense of accomplishment from the trek still fresh in your mind.<br>As you descend from the pass, the road winds past iconic Spiti landmarks — the quiet village of Losar, the rugged expanse near Chatru, and stretches where the terrain seems to change with every turn. The Chandra Valley opens gradually below, lush and serene, a striking contrast to the high desert you leave behind.<br>By evening, the drive brings you into the forests and greener valleys of Manali, the mountains softening into familiar slopes dotted with villages and rivers. For those who opted for transport with the trek package, this journey is a smooth, scenic farewell to the Pin Bhaba adventure — a chance to relive every moment of the trek as the Himalayas pass by your window." } ],
+    itinerary: [ 
+      { day: 1, title: "Shimla to Kafnu (7,900 ft)", details: "<strong>• Drive distance: ~200 km (7–8 hours).</strong> <br>• Reaching Kafnu feels like slipping quietly into a hidden corner of Kinnaur. Even though it lies deep in the valley, the journey is surprisingly smooth — the Bhaba River guides you almost the entire way, flowing confidently through the mountains as if escorting you to the start of your adventure. The hydel power project built along its course has brought steady roads, working routes, and constant movement of locals, trucks, and buses. Because of this, Kafnu — despite its remoteness — remains well connected to Kalpa, Reckong Peo, Karcham, Rampur, and even Shimla.<br>The final stretch into the village is unforgettable. The road climbs rapidly above the river, hugging steep mountain walls, twisting through narrow bends where every turn opens up a fresh perspective of the valley. It’s the kind of drive where the landscape keeps shifting — thick forests, cliff edges, sudden views of the river far below. For first-timers, the ride can feel thrilling; for mountain lovers, it feels like home.<br>Kafnu itself is a quiet settlement surrounded by forests, apple orchards, and the calm of the lower Himalayas. Wooden houses sit clustered on gentle slopes, with prayer flags fluttering on rooftops and the sound of the river echoing softly in the background. This is the last point of comfort before the wilderness begins.<br>You’ll check into a local lodge or homestay for the night — simple, warm, and welcoming. Use this day to rest your legs, settle into the altitude, and let the long journey fade out of your system." }, 
+      { day: 2, title: "Kafnu to Mulling (10,800 ft)", details: "<strong>• Trek distance: ~11 km | Duration: 6–7 hours | Altitude gain: ~2,900 ft. </strong><br>• The first day on the trail feels like slipping into a world that has been quietly waiting for you. As you leave Kafnu behind, the path rises gently through forests that seem untouched by time. Pines tower above you, silver birch trees sway in the morning light, and the Bhaba River rushes beside you with a steady, comforting presence. This is one of those rare Himalayan routes where the forest itself becomes the highlight — dense, aromatic, and filled with birdsong that follows you for hours.<br>Within the first stretch, the trail leads you past the Bhaba Hydel Project — India’s first underground dam hidden deep within the valley. It’s a reminder of how modern engineering coexists with raw nature here, though photography is strictly restricted. A little ahead, a bridge appears across the river; once you cross it, the forest begins to close in from all sides.<br>The real ascent begins when you spot a faint path rising away from the motor road — a narrow trail, almost secret, that leads you into the heart of the woods. For the next few kilometres, the canopy thickens, the air cools noticeably, and the forest floor turns soft with fallen leaves and needles. Every turn reveals a new frame — tall oaks, birches glowing white against the green, and patches of sunlight dancing between branches. It’s the kind of forest that makes you slow down simply because you don’t want it to end.<br>A short walk ahead opens unexpectedly into a clearing — a quiet patch of earth textured with grass, mud, and scattered stones. It feels like a natural rest point before the climb deepens. Soon after, you reach Champoria, a serene riverside zone wrapped in trees. Here, a sturdy log bridge helps you cross to the other side of the Bhaba River, marking the beginning of the steeper sections.<br>Beyond this point, the trail starts rising with purpose. The valley narrows, the sound of the river echoes louder between the walls, and the air grows colder with every step. A smaller tributary joins the main river here, signalling that you’re on the right track. Pace yourself — this is where the altitude begins to speak.<br>Around the 10 km mark, you emerge onto Jhandi Top, a natural ledge that offers your first wide, sweeping view of the upper valley. From here, the landscape opens dramatically, and far ahead — almost glowing in the afternoon light — you can spot the Mulling campsite tucked beneath vast green slopes. The final stretch to Mulling is short but beautiful, a gentle walk through meadows and soft earth.<br>When you finally arrive, the forest gives way to an expansive grassland framed by tall ridges. The Mulling hut stands quietly at the edge, offering two bare rooms for those trekking independently, though most prefer to pitch tents beside the river. The breeze here is cool, the meadows enormous, and the silence unforgettable.<br>This is where the Pin Bhaba trek truly begins to reveal its magic — a perfect first chapter in a journey that grows more dramatic with every passing day." }, 
+      { day: 3, title: "Mulling to Kara (11,700 ft)", details: "<strong>• Trek distance: ~6 km | Duration: 4–5 hours | Altitude gain: ~900 ft.</strong> <br>• The day begins with the mountains easing you gently out of Mulling. As you leave the wide grasslands behind, the trail shifts into a rocky stretch where the Bhaba Valley narrows again. The ascent is steady and calm, giving your legs enough time to warm up while the morning sun lights up the ridges above.<br>Barely 1.5 km into the day, the landscape opens into a long, soft meadow — a sudden burst of green set against dark cliffs. A waterfall tumbles down the slope to your right, its sound echoing across the valley like a constant reminder of the river running somewhere below you. It’s a refreshing, postcard-perfect spot that sets the tone for the beauty that lies ahead.<br>The trail continues to rise gradually from here, weaving through stones, tufts of grass, and tiny patches of wildflowers. After another short stretch, you experience one of the most fascinating features of this trek — a river that you can hear loudly but cannot see, flowing deep under layers of rock and soil, carving its own secret pathways beneath the surface. The sound grows stronger as you approach, vibrating through the earth beneath your boots, yet the water remains hidden. It's rare to encounter such a phenomenon on a Himalayan trek.<br>Beyond this mystical spot, the trail stiffens. A sharp ascent begins, lifting you quickly above the valley floor. As you climb, the world opens up once again, and soon you find yourself entering one of the most enchanting meadows of the entire trek — a sweeping, green expanse sprinkled with delicate alpine flowers. The colours change with the season: soft whites and yellows early on, deeper purples and reds as summer peaks. This meadow feels alive, almost glowing under the afternoon sun.<br>A gentle walk of just over a kilometre brings you to the Karah campsite — a serene setting beside a clear mountain stream, with ridges rising sharply on all sides. The sound of running water fills the air, this is one of those places where time feels slow.<br>Karah is where the trek truly begins to feel Himalayan — vast, quiet, and framed by towering walls of rock. You reach here by early afternoon, giving you enough time to rest, explore the stream, or simply lie back in the grass and gather strength for the long, high-altitude climb that awaits." }, 
+      { day: 4, title: "Kara to Phustirang (13,500 ft)", details: "<strong>• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,800 ft.</strong> <br>• Today may be the shortest walking day of the trek, but it is far from the easiest. With only 5 km to cover, the trail wastes no time in climbing sharply into higher terrain. The Bhaba Valley now sheds most of its softness — the meadows thin out, the slopes sharpen, and the air grows noticeably cooler as you gain altitude.<br>The day begins with a crossing of a lively tributary flowing down from the upper reaches of Phutsirang. The stream approaches from the left side of the valley, pouring down over boulders with a volume that depends entirely on the season. Once you cross it, the trail rises immediately, entering a landscape shaped by water and stone.<br>The ascent from here is steep and demands patience. The terrain is a blend of loose mud, scattered rocks, and narrow humps carved by streams over time. Mountain water accompanies you almost throughout the day — trickling, splitting, merging, and cutting through the slopes in multiple channels. These crossings, combined with the incline, make the day feel more taxing than the distance suggests, so pacing becomes essential.<br>Roughly 4 km into the climb, the valley widens just enough to reveal the lower Phutsirang campsite — a rugged but scenic patch surrounded by high ridgelines. It’s a brief but welcome visual breather after the relentless ascent.<br>From here, a final push of about 700 metres takes you higher into the upper basin. The moment you step into Phutsirang, the entire personality of the trek transforms. You stand inside a massive high-altitude amphitheatre — a wild, open cirque surrounded by dark, imposing mountains. The air feels thinner, the silence deeper, and the scale of the landscape almost overwhelming.<br>Phutsirang is not just a campsite; it’s a vantage point. From here, you can see three great passes of the region lined up like distant gateways:<br>Nimish Khango (16,185 ft)<br>Tari Khango (17,318 ft)<br>Pin Bhaba Pass (Wang Khango) (16,105 ft) — your objective for tomorrow<br>Watching the evening light fall across these ridges is an experience in itself. As the sun drops behind the mountains, temperatures dip quickly, and the sky fills with stars sharper and brighter than anything you might have seen before.<br>Rest well — tomorrow is the big day, the climb to the pass." }, 
+      { day: 5, title: "Phustirang to Mangrungtse (13,000 ft) via Pin Bhaba Pass (16,105 ft)", details: "<strong>• Trek distance: ~12 km | Duration: 9–10 hours | Altitude gain: ~2,600 ft ascent and ~3,100 ft descent.</strong> <br>• You wake up knowing that today is the day — the day you step from one world into another. Crossing a high mountain pass isn’t just a climb; it’s a pilgrimage of sorts, one the mountains make you earn with every breath, every step, every quiet moment where you gather your strength. The excitement begins right from camp as the first light spills over the ridges above Phutsirang.<br>The ascent is steep from the very beginning. The trail twists through stony slopes and loose mud, rising steadily toward the saddle of the Pin Bhaba Pass. Your pace naturally slows as oxygen thins and the valley floor drops away behind you. Each pause rewards you with the sight of Bhaba Valley opening in full — green, lush, and impossibly gentle compared to where you’re heading.<br>Reaching the saddle is surreal. One moment you are climbing through familiar grassy ridges, and the next you’re standing on a knife-edge gateway between two completely different worlds. This is where the crossover becomes real. Behind you lies the soft, green embrace of Bhaba Valley. Ahead of you spreads the raw, wind-carved expanse of Pin — a canvas of browns, pinks, and pale earth stretching into the cold desert of Spiti. The contrast is so sudden, so dramatic, it almost feels staged by nature.<br>Below, far in the distance, a thin silver ribbon glints — the Pin River.<br>The descent begins sharply from the pass, dropping onto a terrain made of moraine fields, loose scree, and bits of old glacier. Every step demands focus. Move slow, plant each foot carefully, and stay patient — this is the part that tests your control more than your stamina.<br>Two kilometres down, you finally reach the Pin River. It crashes past you in icy torrents, fed by the snowfields above. You’ll need to remove your footwear to cross it — the water is freezing, but the moment your feet touch the stones on the other side, you know you’ve officially entered Spiti.<br>From here, the valley widens. The descent becomes more relaxed, though the ground is still scattered with moraine and scree. The colours around you shift constantly — dusty pinks, pale yellows, oxidized reds — the signature palette of the Pin Valley.<br>About 6 km after the river crossing, the trail reveals the Mangrungtse campsite far below. It rests quietly on the valley floor, surrounded by the vast emptiness that defines this region. It’s a wide, quiet patch of land beside the river, nestled between towering desert slopes. The wind here carries the dry, crisp air of Spiti, and the sky feels closer, clearer, almost overwhelming in its scale.<br>Tonight, as you rest in Mangruntse, you’ll feel the magnitude of what you’ve accomplished. The crossover is complete — you’ve walked from dense forests and glowing meadows into one of the highest cold deserts in the world.<br>And tomorrow, the trail will carry you deeper into Spiti’s awe-inspiring emptiness." }, 
+      { day: 6, title: "Mangrungtse to Mudh (12,300 ft) – Drive to Kaza (12,000 ft)", details: "<strong>• Trek distance: ~16 km | Duration: 6–8 hours | Altitude gain: ~1000 ft descent.</strong> <br>• Your final morning on the Pin Bhaba Pass trek begins in the stark quiet of Mangruntse. The valley wakes slowly — cold winds brushing across the desert slopes, early light glinting off the Pin River, and a vastness so deep it feels like the world has paused around you. This is the day you exit the wilderness and walk back into human settlements. It’s long, around 16 km, so you start early while the valley is still cool.<br>The trail climbs gently out of Mangruntse and soon merges with the main route near Bwalder. Once you’re on the higher trail, Spiti’s famous palette of soft reds and browns begins to dominate the landscape. Ahead lies a long, sweeping valley that guides you toward Mudh — the first village of Spiti and the symbolic end of your journey.<br>A steady 2 km push brings you to Bara Boulder, a well-known rest point surrounded by moraine fields. The descent here is gradual, but the terrain is rough with scattered stones and loose earth. There’s a water source nearby, but it’s not the cleanest — the last good refill is always back at Bwalder or Mangruntse.<br>Just 300 metres beyond Bara Boulder, you cross a lively tributary of the Pin River using a log bridge, the kind of rustic crossing that marks the signature of Spiti’s trekking trails. Once you’re across, the scenery shifts dramatically.<br>The trail turns into a vast, flat stretch coated with red soil and tiny crimson stones — a landscape so unique that it feels as though you’ve stepped onto another planet. Winds blow freely here, carving ripples into the dust and sending sand brushing against your boots.<br>A long, flat walk of about 1.5 km brings you to another small mountain stream. You cross it via another simple log bridge, and just after this point, the reward of the entire day arrives:<br>The first distant view of Mudh Village: Even from 5 km away, Mudh looks like a painting — white houses clustered together, barley fields glowing green and gold, and a line of colourful prayer flags fluttering in the wind. The moment you spot it, something shifts inside you — fatigue eases, your pace steadies, and the heart picks up in excitement. After days in raw wilderness, the sight of this tiny settlement feels unreal.<br>The final stretch, though long, is gentle. The Pin River accompanies you for much of this section, carving a deep channel through the barren valley. Eventually, you reach the last river crossing of the trek — a suspension bridge swaying slightly in the wind, hanging above the wide, roaring Pin.<br>Crossing that bridge is an unforgettable moment. It’s the symbolic gateway into Spiti and the confirmation that your journey — this massive crossover from Kinnaur to Spiti — is nearly complete.<br>Once across, a short climb on a dusty path leads you straight into Mudh Village, the end point of your trek. Prayer flags welcome you, children often wave from rooftops, and the warm, dry wind of Spiti greets you like an old friend.<br>After a brief rest at Mudh, we drive back to Kaza, the cultural and commercial hub of Spiti, for an overnight stay in a guest house.<br>You’ve done it — six days, two contrasting valleys, one dramatic pass, and an experience that stays with you long after you’ve left these mountains." },
+    ],
 
 
     didYouKnow: [
@@ -188,7 +195,7 @@ export const treks = [
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
-  duration: ["10 Nights / 11 Days"],
+  duration: ["10 Nights / 10 Days +1 Buffer Day"],
   region: "himachal pradesh",
   coordinates: [
     [31.9985, 77.3588], // Barshaini (start)
@@ -331,13 +338,6 @@ export const treks = [
   },
   {
     day: 11,
-    title: "Kaza (3,800M) to Manali (2,050M) / Buffer Day",
-    details: `• Distance: ~200 km | Duration: 9–10 hours drive<br>
-
-• Kaza is the largest township of Spiti, with monasteries and small hamlets nearby to explore. We drive down to Manali via Kunzum La and Rohtang Pass. In case of delays due to weather or unforeseen circumstances, Day 12 acts as a buffer day. If used, an additional INR 5,000 per person is collected by the trek leader in Kaza. End of trek — a hot shower, hearty meal, and memories for a lifetime.`
-  },
-  {
-    day: 12,
     title: "Buffer Day",
     details: 
 `Day 12 is reserved as a buffer to account for unexpected weather changes, trail conditions, or other unforeseeable circumstances. While most trekkers may not need it, it ensures the group has flexibility without compromising safety. If this day is utilized, an additional INR 5,000 per person will be collected by the trek leader in Kaza. It’s advisable to keep this day in mind while planning your travel back, so that your journey ends safely and comfortably.`
@@ -873,7 +873,8 @@ export const treks = [
             { emoji: "🏁", label: "End Point", value: "Jobri / Manali" },
             { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
         ],
-snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that weaves together lush forests, alpine meadows, glacial streams, and panoramic mountain vistas, offering a perfect blend of nature, culture, and adventure.<br> The trek begins from the quaint village of Jagatsukh, near Manali, and gradually ascends through dense oak and pine forests, where the crisp mountain air and the scent of pine invigorate every step. As the trail opens into expansive alpine meadows, trekkers are greeted by a riot of wildflowers, gentle streams, and grazing livestock, creating a picture-perfect Himalayan setting. Day by day, the route takes adventurers across charming hamlets, verdant pastures, and rocky ridges, culminating at the summit of Sethan Dome (4,200 m), where breathtaking 360° views of the Pir Panjal and Dhauladhar ranges unfold. Unlike the popular Hampta Pass trek, this circuit offers solitude, offbeat paths, and intimate encounters with the high-altitude wilderness, making each campsite a serene escape.<br> The trek is ideal for beginners, first-time trekkers, and families, combining moderate trekking, stunning scenery, and immersive experiences in the Himalayas’ natural and cultural landscapes, making Hampta Circuit a hidden gem in Himachal Pradesh."
+
+    snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that weaves together lush forests, alpine meadows, glacial streams, and panoramic mountain vistas, offering a perfect blend of nature, culture, and adventure.<br> The trek begins from the quaint village of Jagatsukh, near Manali, and gradually ascends through dense oak and pine forests, where the crisp mountain air and the scent of pine invigorate every step. As the trail opens into expansive alpine meadows, trekkers are greeted by a riot of wildflowers, gentle streams, and grazing livestock, creating a picture-perfect Himalayan setting. Day by day, the route takes adventurers across charming hamlets, verdant pastures, and rocky ridges, culminating at the summit of Sethan Dome (4,200 m), where breathtaking 360° views of the Pir Panjal and Dhauladhar ranges unfold. Unlike the popular Hampta Pass trek, this circuit offers solitude, offbeat paths, and intimate encounters with the high-altitude wilderness, making each campsite a serene escape.<br> The trek is ideal for beginners, first-time trekkers, and families, combining moderate trekking, stunning scenery, and immersive experiences in the Himalayas’ natural and cultural landscapes, making Hampta Circuit a hidden gem in Himachal Pradesh."
     },
 
     price: 10500,
@@ -1191,7 +1192,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 17900,
     priceNote: "* Jiskoon to Sangla",
     addons: {
-      transport: 5000, 
+      transport: 6000, 
       offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1428,7 +1429,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     price: 17900,
     priceNote: "* Janglik to Baruva",
     addons: {
-      transport: 5000, 
+      transport: 6000, 
       offloadingbag: 3200,
       transportNote: "* Shimla to Shimla",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1645,9 +1646,9 @@ seo: {
     },
 
     price: 12500,
-    priceNote: "* Lohajung to Wan",
+    priceNote: "* Lohajung to Lohajung",
     addons: {
-      transport: 5000, 
+      transport: 6000, 
       offloadingbag: 1500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -1755,7 +1756,7 @@ seo: {
   },
   {
     day: 6,
-    title: "Drive from Lohajung to Rishikesh",
+    title: "Departure | Drive from Lohajung to Rishikesh",
     details: "<strong>• Distance: ~250 km | Duration: 10–11 hrs.</strong><br>• Today marks your departure day, the moment when your Himalayan adventure gently transitions back toward everyday life. After a warm breakfast, it’s time to bid farewell to the mountains that have been your home for the past few days. The drive winds through the heart of Garhwal’s valleys, passing river confluences, pine-covered slopes, and quiet mountain settlements that seem to whisper stories of the trek you’ve just completed.<br>As you journey back, every bend in the road feels like a reflection — of misty mornings on the trail, laughter shared at campsites, and the calm of endless meadows. Though the adventure ends here, the spirit of the Himalayas travels with you — in your heart, in your thoughts, and in the renewed energy you carry home."
   }
 ],
@@ -1913,14 +1914,14 @@ seo: {
 
     dates: [
            
-      { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
-      { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
-      { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
-      { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
-      { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
-      { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
-      { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
-      { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
+    { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
+    { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
+    { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
+    { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
+    { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
+    { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
+    { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
+    { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
     { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
     { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
     { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
@@ -2011,7 +2012,7 @@ seo: {
   },
   {
     day: 6,
-    title: "Sari to Rishikesh (Drive)",
+    title: "Departure | Sari to Rishikesh (Drive)",
     details: "<strong>• Drive Distance: ~195 km | Duration: 7–8 hrs.</strong><br>• Your final morning in the Himalayas begins slowly — perhaps a last look at the Chandrashilla peak glowing in the early light. After breakfast, you start the return drive following the same river valleys that now feel familiar. The mountains gradually give way to foothills, and the sounds of horns replace the wind and birds. Yet, something inside you has shifted — a calmness that the mountains leave behind. The trek ends, but the memory of Chandrashila’s sunrise stays forever."
   }
 ],
@@ -2100,7 +2101,6 @@ seo: {
   },
 
 
-
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
@@ -2108,7 +2108,7 @@ seo: {
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["6 Nights / 7 Days"],
+    duration: ["6 Nights / 6 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [30.9995, 78.9398], // Gangotri (start)
@@ -2156,7 +2156,7 @@ seo: {
     price: 16900,
     priceNote: "* Gangotri to Gangotri",
     addons: {
-      transport: 5000, 
+      transport: 6000, 
       offloadingbag: 2500,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -2165,22 +2165,22 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
-      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
-      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-      { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
-      { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
-      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
-      { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
-      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
-      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
-      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
-      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
+      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
+      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
+      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      { label: "13 Jun - 18 Jun", start: "2026-06-13", end: "2026-06-18" },
+      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
+      { label: "19 Sep - 24 Sep", start: "2026-09-19", end: "2026-09-24" },
+      { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
+      { label: "26 Sep - 01 Oct", start: "2026-09-26", end: "2026-10-01" },
+      { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+      { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
+      { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
     ],
 
     highlights: [
@@ -2222,13 +2222,7 @@ seo: {
     title: "Tapovan to Gangotri | 20 km | 8–10 hrs",
     details: "Leaving Tapovan behind, you descend carefully along the boulder and moraine sections back to Gaumukh. The glacier looks different from every angle — sometimes massive and intimidating, sometimes strangely gentle. From Gaumukh, you retrace the familiar trail through Bhojwasa and Chirbasa, gradually re-entering the green patches of pine and birch. The long descent brings you back to Gangotri by evening, where the comfort of a warm guesthouse and the hum of the temple bells feel especially welcoming after days spent in the high mountains."
   },
-  {
-    day: 7,
-    title: "Gangotri to Rishikesh",
-    details: "The journey concludes with the drive back through the Bhagirathi valley. As the mountains recede and the river flows wider and calmer, you carry with you the silence of Tapovan, the spiritual aura of Gaumukh, and the unforgettable landscapes of Gangotri National Park. By the time you reach Dehradun or Haridwar, the trek has already turned into memory — one that stays vivid for a lifetime."
-  }
 ],
-
 
     howToReach: {
       air: "**Fly to Jolly Grant Airport (Dehradun – DED)**<br>* Located about 225–260 km from Gangotri<br>* Daily flights connect Dehradun with major Indian cities like Delhi, Mumbai, Bangalore, Kolkata, and Chennai",
@@ -2252,7 +2246,6 @@ seo: {
 
   " <b>Legend of King Bhagirath.</b>  <br>The Bhagirathi peaks are named after him — it was his penance that brought the Ganga down from heaven to earth to purify the ashes of his ancestors."
 ],
-
 
     gallery: [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517998/gaumukh-tapovan-view11_x5r5s8.jpg",
@@ -2310,7 +2303,6 @@ seo: {
     }
   ]
 },
-
 
     faqsLink: "/faqs-and-articles",
   },
@@ -2377,7 +2369,7 @@ seo: {
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
       
@@ -2436,7 +2428,7 @@ seo: {
   },
   {
   day: 6,
-  title: "Sankri to Dehradun (Drive – 190 km | 8–9 hours)",
+  title: "Departure | Sankri to Dehradun (Drive – 190 km | 8–9 hours)",
   details: "After breakfast, the journey back to Dehradun begins, retracing the scenic route along the Tons River, passing through Mori, Purola, and the misty slopes of Mussoorie. As the miles roll by, there is time to reflect on the days spent trekking — the serene alpine meadows, the thrill of ridge walks, the soothing sound of streams, and the majestic peaks that framed every moment. Memories of sunrise over Kedarkantha, the laughter shared at campsites, and the quiet solitude of high-altitude forests fill the mind, leaving a deep sense of accomplishment and wonder. While the trek concludes, the mountains leave a lasting impression, inspiring the heart to dream of yet another Himalayan adventure, where every path promises new stories and unforgettable experiences."
   },
 ],
@@ -2567,7 +2559,7 @@ seo: {
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 8",
 
     dates: [
       
@@ -2630,7 +2622,7 @@ seo: {
   },
   {
     day: 8,
-    title: "Departure from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
+    title: "Departure | Drive from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
     details: "• Today marks the end of a truly memorable Himalayan journey. After an early breakfast, we bid farewell to Sankri and begin our long drive back to Dehradun. The route retraces the same winding mountain roads, passing through pine forests, terraced villages, and lively mountain streams that now feel beautifully familiar.<br>It’s a scenic yet lengthy drive of about 10 hours so an early start helps us make the most of the day. Along the way, enjoy short breaks to stretch and take in the final glimpses of the valley — a last reminder of the wilderness you’ve just explored on foot.<br>By evening, we reach Dehradun late in the evening, marking the conclusion of the trek. As you part ways with the mountains and fellow trekkers, take with you the stories, laughter, and quiet moments that made this journey truly special. Until next time — see you on another trail with Planethimalayas!."
   }
 ],
@@ -2761,7 +2753,7 @@ seo: {
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
 
     dates: [
       
@@ -2824,7 +2816,7 @@ seo: {
   },
   {
     day: 6,
-    title: "Departure from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
+    title: "Departure | Drive from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
     details: "Today marks the end of a truly memorable Himalayan journey. After an early breakfast, we bid farewell to Sankri and begin our long drive back to Dehradun. The route retraces the same winding mountain roads, passing through pine forests, terraced villages, and lively mountain streams that now feel beautifully familiar.<br>It’s a scenic yet lengthy drive of about 10 hours so an early start helps us make the most of the day. Along the way, enjoy short breaks to stretch and take in the final glimpses of the valley — a last reminder of the wilderness you’ve just explored on foot.<br>By evening, we reach Dehradun late in the evening, marking the conclusion of the trek. As you part ways with the mountains and fellow trekkers, take with you the stories, laughter, and quiet moments that made this journey truly special. Until next time — see you on another trail with Planethimalayas!."
   }
 ],
@@ -2907,7 +2899,7 @@ seo: {
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 6 Days",
+  duration: "5 Nights / 5 Days",
   coordinates: [
     [30.5561, 79.5617], // Joshimath (base)
     [30.48226, 79.5981], 
@@ -2932,7 +2924,7 @@ seo: {
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,516 ft (Kuari Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "30–35 Km" },
@@ -2952,7 +2944,7 @@ seo: {
 
 <br>Accessible, rewarding, and rich in both natural grandeur and mountain culture, the Kuari Pass Trek is not just a high-altitude adventure — it’s a graceful introduction to the soul of the Himalayas, a journey where every step reminds you why these mountains have inspired explorers for over a century.`  },
 
-  price: 12900,
+  price: 11900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 6000,
@@ -2961,67 +2953,67 @@ seo: {
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to breakfast on Day 6",
+  inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [ 
-    { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
-    { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
-    { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
-    { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
-    { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
-    { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
-    { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
-    { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
-    { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
-    { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
-    { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
-    { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
-    { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
-    { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
-    { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
-    { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
-    { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
-    { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
-    { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
-    { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
-    { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
-    { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
-    { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
-    { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
-    { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
-    { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
-    { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
-    { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
-    { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
-    { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
-    { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
-    { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
-    { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
-    { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
-    { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
-    { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
-    { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
-    { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
-    { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-    { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
-    { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-    { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-    { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
-    { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-    { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-    { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
-    { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-    { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-    { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-    { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-    { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-    { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-    { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-    { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-    { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-    { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-    { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-    { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
+    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
+    { label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
+    { label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
+    { label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+    { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
+    { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
+    { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+    { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
+    { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+    { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+    { label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
+    { label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
+    { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+    { label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
+    { label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
+    { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+    { label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
+    { label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
+    { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+    { label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
+    { label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+    { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+    { label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
+    { label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
+    { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+    { label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
+    { label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
+    { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+    { label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
+    { label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
+    { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+    { label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
+    { label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+    { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+    { label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
+    { label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
+    { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+    { label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
+    { label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
+    { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+    { label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
+    { label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
+    { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+    { label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
+    { label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
+    { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+    { label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
+    { label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+    { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+    { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
+    { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
+    { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+    { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
+    { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
+    { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+    { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
+    { label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+    { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
   ],
 
   highlights: [
@@ -3052,17 +3044,12 @@ seo: {
   day: 4, 
   title: "Khullara to Tali (11,060 ft) via Kuari Pass (12,516 ft)", 
   details: "<strong>• Trek 11 km / 7–8 hrs.</strong><br>• This is the most exhilarating day of the Kuari Pass trek — where the true high-altitude adventure begins. The trail from Khullara climbs steadily above the tree line, leading you into the vast alpine world of sweeping ridges and endless Himalayan views. Within about an hour, you’ll gain the high ridge section of the legendary Lord Curzon Trail. From here, the horizon explodes with grandeur — Mt. Chaukhamba, Neelkanth, Dronagiri, Nilgiri, Hathi–Ghoda Parvat, Trishul, and even distant glimpses of Nanda Devi shimmer under the blue sky. The ridge walk continues to the upper meadows of Kuari Pass — where a small shrine marks the top. Just beyond lies Pangarchulla Peak, one of the most exciting and challenging spring summit climbs in the Garhwal Himalayas.<br><br>From here, a gentle climb leads to Kuari Top — the highest vantage point, offering a 270° panoramic view of the Himalayan range. The actual pass lies further down at a small depression. After soaking in the magnificent scenery, retrace your steps back to the ridge and continue walking ahead toward Jhandi Top. The narrow ridge feels like the very spine of the mountains, before gently descending through the enchanting Chitrakantha meadows. As the forest returns, the trail winds through ancient oaks, pines, and dwarf rhododendrons, with sunlight streaming through the canopy. Finally, you’ll reach Tali — a quiet forest campsite surrounded by tall trees, perfect for a peaceful night after a rewarding climb.<br><br><strong>Note for Winter Trekkers:</strong> In peak winter, after heavy snowfall, the trail beyond Kuari Pass toward Tali and Gorson Bugyal is often closed. This section involves traversing a narrow, exposed ledge that becomes icy and dangerously slippery. For participant safety, the return route from Kuari Pass goes back to Khullara instead of continuing to Tali during such conditions."
-},
-{ 
+  },
+  { 
   day: 5, 
   title: "Tali to Auli (9,186 ft) → Drive to Joshimath (12 km)", 
   details: "<strong>• Trek 8 km / 6 hrs.</strong><br>• Begin your day with a serene walk toward Tali Lake — a small alpine pond nestled amidst tall oaks and pines. As you rise above the treeline, the grand panorama of Nanda Devi and the surrounding peaks unfolds once again. From the lake, a steep climb takes you to the thrilling cliffside traverse — a narrow ledge walk overlooking the Tugasi valley far below. This adventurous stretch soon leads to the open meadows of Gorson Bugyal, among the most picturesque in all of Garhwal. Walking through Gorson’s rolling slopes, you’re treated to sweeping Himalayan views and soft mountain breezes. The descent from here takes you through Padiyar Temple and into Auli, marking the end of your incredible Himalayan journey. From Auli, a short drive brings you back to Joshimath for an overnight stay in a cozy guesthouse.<br><br><strong>Winter Route Update:</strong> When the Tali–Gorson trail is inaccessible due to heavy snowfall, trekkers return the same way they came — from Khullara back to Joshimath. This alternate descent through the familiar forest route ensures both safety and comfort while still offering enchanting winter views of the Garhwal Himalayas."
-},
-  { 
-    day: 6, 
-    title: "Departure from Joshimath", 
-    details: "• Drive back to Rishikesh/Haridwar, passing through terraced fields, alpine forests, and scenic valleys. The journey offers a final glimpse of the majestic Himalayan ranges and the lush Mandakini Valley. Trip concludes with memories of Kuari Pass, its diverse landscapes, local culture, and natural beauty."
-  }
+  },
 ],
 
 
@@ -3441,7 +3428,7 @@ itinerary: [
   price: 8900,
   priceNote: "* Barsu to Barsu",
   addons: {
-    transport: 3000,
+    transport: 4000,
     offloadingbag: 1200,
     transportNote: "* Rishikesh to Rishikesh",
     offloadingNote: "* Maximum weight 9kg/bag"
@@ -3547,7 +3534,7 @@ itinerary: [
   },
   {
     day: 5,
-    title: "Barnala Tal to Barsu and drive back to Rishikesh",
+    title: "Barnala Tal to Barsu and drive back to Rishikesh or may continue with any other plan.",
     details: `<strong>• Trek: ~5 km descent | Drive: ~200 km / 8–10 hrs to Rishikesh via Uttarkashi and Chamba.</strong><br>• Retrace your steps through whispering forests and terraced slopes, often crossing shepherds with their flocks on the way down. Arrive Barsu by late morning — take one last look at the distant snow peaks before bidding goodbye. After breakfast, begin the long but scenic drive back through Garhwal’s valleys, river confluences, and mountain settlements. The journey back feels bittersweet — the trek ends, but the peace of the meadows and the rhythm of the mountains stay with you long after you’ve left. Reach Rishikesh by evening or night. Trek concludes with memories of vast alpine meadows and the quiet magic of the Himalayas.`
   },
 ],
@@ -3957,7 +3944,7 @@ itinerary: [
   },
   {
     "day": 8,
-    "title": "Lohajung to Rishikesh | Drive Distance: ~250 km | Duration: ~9–11 hrs.",
+    "title": "Departure | Lohajung to Rishikesh Drive Distance: ~250 km | Duration: ~9–11 hrs.",
     "details": "After breakfast, you bid farewell to the mountains and begin your long descent back toward the plains. The drive retraces the winding roads through Dewal, Gwaldam, and other small Himalayan settlements, offering one last look at the terraced fields, pine forests, and high ridges that marked the start of your journey. As you lose altitude, the cool mountain air gradually gives way to the warmer, busier atmosphere of the lower valleys. By evening or late night—depending on your final destination—you reach Kathgodam or Rishikesh, concluding the Roopkund adventure with memories of mystical meadows, high ridges, icy slopes, and the mysterious glacial lake that has intrigued trekkers and historians for generations."
   }
 ],
@@ -4209,7 +4196,7 @@ itinerary: [
 },
 {
     day: 11,
-    title: "Munsiyari – Kathgodam (3,200 m → 500 m) | 300 km Drive | 9–10 hrs",
+    title: "Departure | Munsiyari - Kathgodam (3,200 m → 500 m) | 300 km Drive | 9–10 hrs",
     details:
         "<strong>• Drive: 300 km | Duration: 9–10 hrs</strong><br>• After breakfast, begin the return journey to Kathgodam, descending through the scenic Kumaon landscapes. As the mountains recede behind you, cherish the memories of glaciers, alpine meadows, and the awe-inspiring Nanda Devi East Base Camp adventure."
 }
@@ -4757,7 +4744,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   difficulty: ["easy", "moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
-  duration: ["6 Nights / 7 Days"],
+  duration: ["6 Nights / 6 Days"],
   region: "uttarakhand-kumaon",
 
   coordinates: [
@@ -4790,7 +4777,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "easy / moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
@@ -4868,12 +4855,6 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     details:
       "<strong>• Trek: 9 km | Duration: 3–4 hrs<br>• Drive: Sobla to Dharchula<br>• Altitude: Dantu (2,400 m) → Sobla (2,040 m) → Dharchula (940 m)</strong><br>• Trek back down to Sobla, officially exiting the Darma Valley. From here, drive to Dharchula and check into a hotel.<br>• Evening at leisure — explore the riverside town, local markets, or simply relax after days spent in high alpine terrain."
   },
-  {
-    day: 7,
-    title: "Dharchula – Kathgodam | Drive | 12–14 Hours (Optional Extension)",
-    details:
-      "<strong>• Drive: 12–14 hrs<br>• Altitude: Dharchula (940 m) → Kathgodam (554 m)</strong><br>• Drive back to Kathgodam, reaching by late evening. Alternatively, trekkers may choose to extend their journey — explore nearby valleys, plan shorter local hikes, or continue deeper into Kumaon with prior planning."
-  }
 ],
 
   howToReach: {
@@ -5454,7 +5435,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     season: ["monsoon"],
     month: ["august", "september"],
     region: "ladakh",
-    duration: "7 Nights / 8 Days",
+    duration: "7 Nights / 7 Days",
     coordinates: [
       [34.1526, 77.5771],   // Leh
       [33.970001, 77.260002], // Skiu (start near Leh)
@@ -5480,7 +5461,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
         { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
@@ -5655,7 +5636,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   "season": ["winter"],
   "month": ["january", "february", "march"],
   "region": "ladakh",
-  "duration": "7 Nights / 8 Days",
+  "duration": "7 Nights / 7 Days",
 
   "coordinates": [
     [34.1526, 77.5771],   // Leh
@@ -5680,7 +5661,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult (Extreme Winter Conditions)" },
         { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
         { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
@@ -5691,7 +5672,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
       ],
 
-      snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.\n\nAs temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.\n\nThe region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.\n\nFor winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
+      snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.<br>As temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.<br>The region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.<br>For winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
     },
 
     price: 29500,
@@ -5864,5 +5845,209 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
     faqsLink: "/faqs-and-articles",
   },
-  // Add other trek objects here...
+  
+  
+  {
+  id: "kashmir-great-lakes-trek",
+  name: "Kashmir Great Lakes Trek",
+  tags: ["intermediate", "pro"],
+  difficulty: ["moderate", "difficult"],
+  season: ["monsoon"],
+  month: ["july", "august", "september"],
+  region: "kashmir",
+  duration: "6 Nights / 6 Days",
+
+  coordinates: [
+    [34.2511, 75.3315],   // Srinagar
+    [34.3000, 75.2900],   // Sonamarg (start)
+    [34.3320, 75.3600],   // Nichnai
+    [34.3570, 75.4180],   // Vishansar Lake
+    [34.3660, 75.4350],   // Krishansar Lake
+    [34.3890, 75.4750],   // Gadsar Pass / Gadsar Lake
+    [34.4100, 75.5100],   // Satsar Lakes
+    [34.4390, 75.5480],   // Gangbal Lake
+    [34.4530, 75.6000],   // Naranag (end)
+  ],
+
+   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535546/kgl-hero_phbnfu.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+    ],
+
+  subtitle: "A High-Altitude Walk Through Kashmir’s Alpine Lakes & Endless Meadows",
+
+  seo: {
+    title: "Kashmir Great Lakes Trek | Alpine Lakes of Kashmir | Planethimalayas",
+    description: "The Kashmir Great Lakes Trek is one of India’s most beautiful high-altitude treks, featuring pristine alpine lakes, lush meadows, dramatic mountain passes, and sweeping Himalayan views. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
+  },
+
+  overview: {
+  facts: [
+    { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+    { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+    { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
+    { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
+    { emoji: "🌤️", label: "Best Time", value: "July to September" },
+    { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas, Jammu & Kashmir" },
+    { emoji: "📍", label: "Start Point", value: "Sonamarg (Nichnai side)" },
+    { emoji: "🏁", label: "End Point", value: "Naranag" },
+    { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+  ],
+
+  snippet:
+    "The Kashmir Great Lakes Trek is often called the crown jewel of Indian Himalayan trekking — a journey through a dreamscape of alpine lakes, endless green meadows, and dramatic mountain passes that define the raw beauty of Kashmir. Set in the high ranges east of Srinagar, this trek strings together a series of pristine glacial lakes, each with its own colour, character, and story, all set against towering snow-clad peaks rising beyond 6,000 meters.<br>The trail begins near Sonamarg, the ‘Meadow of Gold’, where wide grasslands roll gently beneath open skies and the first streams flow cold and clear from surrounding glaciers. As you climb higher, the landscape shifts dramatically — gentle shepherd paths give way to vast alpine basins, rocky ridgelines, and high mountain passes like Nichnai Pass (around 4,100 m) and Gadsar Pass (around 4,200 m), from where the entire Kashmir valley seems to unfold beneath your feet.<br>What makes this trek truly legendary is its lakes. Vishansar and Kishansar sit like twin jewels cradled in sweeping meadows, reflecting sharp mountain silhouettes and drifting clouds. Gadsar Lake, often still partially frozen even in mid-summer, lies beneath rugged cliffs and is considered sacred by local shepherds. Further ahead, Satsar reveals not one but a chain of interconnected high-altitude lakes, while the final descent leads you to Gangbal and Nundkol — massive alpine lakes resting at the base of Mount Harmukh (5,142 m), one of Kashmir’s most revered peaks in local mythology.<br>The trek is a paradise for nature lovers. During peak summer, the meadows explode with wildflowers — gentians, buttercups, blue poppies, and edelweiss — while herds of sheep and horses graze freely under the watch of Gujjar and Bakarwal shepherds who still follow ancient migratory routes through these mountains. Birdlife is rich and varied, and marmots are commonly spotted near rocky sections. Though elusive, the region is also known habitat for Himalayan brown bears and snow leopards at higher elevations.<br>While the Kashmir Great Lakes Trek is not technical, it demands stamina and mental resilience. Long walking days, multiple river crossings, high-altitude camping above 3,500 meters, and rapidly changing mountain weather make it a serious undertaking. Sudden rain, mist, or snowfall can transform the landscape within minutes, adding to both the challenge and the magic of the journey.<br>For trekkers seeking the pure essence of Himalayan beauty — vast open spaces, crystal-clear lakes, high passes, and a feeling of walking through untouched wilderness — the Kashmir Great Lakes Trek delivers an experience that is both humbling and unforgettable. It is not just a trek through mountains, but a passage through one of the most visually dramatic high-altitude landscapes in the Indian Himalayas."
+  },
+
+  price: 29500,
+  priceNote: "* Srinagar to Srinagar",
+  addons: {
+    transport: null,
+    transportNote: null,
+    offloadingbag: 4200,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 2 to packed lunch on Day 7",
+
+  highlights: [
+    "Trek through a chain of iconic alpine lakes — Vishansar, Krishansar, Gadsar, Satsar, and Gangbal",
+    "Vast rolling meadows that stretch endlessly across the Kashmiri highlands",
+    "Cross high-altitude passes like Gadsar Pass with sweeping panoramic views",
+    "Frequent river crossings and snow patches adding adventure to the trail",
+    "Encounters with nomadic Gujjar and Bakarwal shepherd communities",
+    "Dramatic shifts in landscape — from lush grasslands to stark glacial basins",
+    "One of India’s most scenic high-altitude treks with continuous visual rewards"
+  ],
+
+  itinerary: [
+  {
+  day: 1,
+  title: "Srinagar – Shitkadi – Nichnai | 80 km Drive + 8 km Trek | 1,585 m (Srinagar) to 3,500 m (Nichnai)",
+  details:
+    "The journey begins early in the morning with a pickup from Srinagar. The exact pickup location and time are shared a day before departure. From Srinagar, drive through the scenic Sindh valley toward Sonamarg, with a short breakfast stop en route before continuing to the trek start point near Shitkadi, approximately 3 km before Sonamarg on the Srinagar road.<br>The trek begins at Shitkadi, marked by a lone roadside dhaba on the right side of the road. This is the last place to buy packaged water, biscuits, and small edibles, as there is no trace of civilization until Naranag, where the trek ends. A jeep track turns right from the road near the dhaba and drops toward the Sindh River, which flows between the track and the main road. The trail initially follows this track before turning sharply uphill. Within ten minutes, the path bends left and enters a green meadow that overlooks Sonamarg town, offering the first sweeping view of the valley below.<br>After about half an hour, the trail reaches the top of the meadow where Maple and Pine trees begin. At the tree line, the path briefly descends to a small brook before climbing again into a dense Maple forest. Walking on a thick green carpet beneath towering Maple trees is a rare experience unique to Kashmir. Over the next one and a half hours, the trail winds steadily uphill through the forest. It is important to stay on the ascending path, as descending trails lead toward nearby villages. Occasional clearings open up along the way, revealing increasingly expansive views of the Sonamarg valley, with its streams, meadows, pine forests, and the town nestled below.<br>The Maple forest ends at a ridge top, where the view opens dramatically toward Sonamarg and the neighboring valley. After a short pause at the ridge, the trail slopes gently downward into a broad alpine meadow on the other side. This meadow is lined with Silver Birch trees and a few shepherd huts, with a wide carpet of green stretching across the valley floor. Small streams cross the meadow and provide reliable water sources, while snow-dusted peaks rise quietly on the right. This beautiful meadow is known as Shekdur and makes for a perfect lunch stop.<br>Beyond Shekdur, the trail continues across the meadow for about half an hour before entering a forest of Silver Birch. The path descends gently through thick foliage, where sunlight filters through the canopy creating striking patterns of light and shadow. After around forty-five minutes, the Birch forest thins out and the trail drops into a river valley, marking the beginning of the Nichnai region.<br>The trail now follows the right bank of a fast-flowing river as it moves steadily upstream. Snow-clad peaks from the Sonamarg side remain visible behind, while the valley ahead opens gradually between two mountain ranges. The first section is rocky and slow-going, especially for pack animals, but soon gives way to wider grassy patches as the valley broadens. Far ahead, distinctive triangular twin snow-covered peaks come into view. A flat grassy section near the river is chosen to pitch tents, bringing the first day’s trek to an end at Nichnai, surrounded by high mountains, flowing water, and complete wilderness."
+  },
+  {
+  day: 2,
+  title: "Nichnai – Vishnusar Lake via Nichnai Pass | 13.5 km Trek | 3,540 m → 3,650 m via 4,030 m",
+  details:
+    "The day begins early from Nichnai, ideally by 8:00 am, as this is one of the longest and most scenic walking days of the trek. The campsite lies at around 3,540 m (11,607 ft), and today you cross the first major pass of the trek — Nichnai Pass, also locally known as Vishnusar Berry, perched high at 4,030 m (13,229 ft). Carry sufficient water from camp, though there are multiple streams along the way to refill later in the day.<br>The trail initially follows the river flowing through the Nichnai valley. For the first thirty minutes, you walk on flat ground before crossing the river to its left bank. From here, the valley slowly opens up into expansive alpine meadows, and the ascent begins so gradually that it almost goes unnoticed. Twin snow-clad peaks ahead act as constant reference points, with the Nichnai Pass lying slightly to their right. Over the next hour, the trail steadily climbs through lush grasslands, with the mountains slowly closing in on either side.<br>The final climb to Nichnai Pass is a clearly defined ascent that takes about an hour. Though not technically difficult, the altitude gain is quick and many trekkers feel the thin air here, as this is only the second day of trekking. The ridge you see from below is deceptive — the trail turns inward twice before the actual pass reveals itself. Standing at the pass, the view behind opens dramatically toward the Sonamarg valley and the entire route you have walked so far. This is also the last point on the trek where mobile network is occasionally available. From here on, the trail disconnects you completely from the outside world until you descend toward Gangbal days later.<br>Nichnai Pass feels like a wide, open corridor between mountain systems. Snow-covered Himalayan peaks line the left, while the terrain to the right rises in stark, barren ridges reminiscent of Ladakh’s cold desert landscapes. From the pass, the trail plunges sharply downward over loose rocks for nearly an hour. As altitude is lost, rocks slowly give way to grass, and bright red alpine flowers begin to dot the ground underfoot. A new river emerges below, fed by snowmelt from the pass, flowing gently through a vast green basin.<br>The descent eases into one of the most beautiful meadows of the trek — a wide, open valley stretching far ahead, flanked by contrasting mountain ranges. On the left rise classic snow-clad Himalayan peaks, while the right side displays grey, barren slopes shaped by wind and weather. A large waterfall crashes down a cliff on the left, feeding the river that runs through the meadow. Walking through this landscape feels unhurried and expansive, with the trail weaving gently along the grass.<br>Two main streams cut across the meadow. Stick close to the stream on the left and be prepared for a cold water crossing about half an hour later. The icy water is ankle to knee deep depending on the season. Beyond this crossing, the walk continues for another hour and a half through the meadow until you reach the end of the valley, where a stream flows perpendicular across the trail from left to right.<br>This stream originates from Vishnusar Lake, which lies slightly above and to the left of the campsite. Pitch your tents near this stream — the camping area is flat, spacious, and well-protected. The lake itself is hidden from view at the campsite, adding to the anticipation.<br>If energy permits, a short walk leads to Vishnusar Lake, located about 500 meters away and roughly 30 meters higher than the campsite. Follow the stream upstream without crossing it, and within minutes the lake reveals itself, cradled beneath four surrounding mountains. The Kishansar peak, though some distance away, reflects beautifully on the lake’s still surface. Vishnusar changes character through the day — appearing crystal clear in early morning, deep blue under a bright sun, and greenish-blue as clouds roll in during the afternoon. Watching the lake shift colours with light and weather is one of the quiet rewards of the Kashmir Great Lakes trek."
+  },
+  {
+  day: 3,
+  title: "Vishnusar – Gadsar Lake via Gadsar Pass | 16 km Trek | 3,650 m → 3,260 m via 4,180 m",
+  details:
+    "Day four is the most demanding and visually dramatic day of the Kashmir Great Lakes trek, taking you across Gadsar Pass — the highest point of the entire route at approximately 4,180 m (13,715 ft). Start early from Vishnusar Lake, carrying sufficient water as the first part of the climb is dry. The lake lies silent in the early morning, often reflecting the surrounding peaks in perfect symmetry, making it one of the most memorable departures of the trek.<br>The trail initially skirts the Kishansar Lake side and soon begins climbing sharply. Look closely at the mountainside ahead — a pencil-thin trail etched across the slope marks your route to the pass. Multiple faint tracks appear, but always choose the one that gains height. The climb is steady and relentless, taking about one and a half to two hours at a controlled pace. Roughly forty-five minutes into the ascent, turn around for one of the most iconic views of the trek — Vishnusar and Kishansar lakes appear together in a single frame, cradled in their high alpine bowls, their colours shifting with the angle of light.<br>As you continue upward, the twin-lake view remains in sight until you finally crest the ridge at Gadsar Pass. At 4,180 m, this wind-swept saddle marks the transition into a new valley altogether. Snow often lingers here even in mid-summer, and the air is noticeably thinner. From the pass, the landscape opens toward a long, remote valley stretching far ahead, dotted with small lakes and guarded by distant snow-covered peaks. On exceptionally clear days, trekkers can spot peaks across the Line of Control, including ranges extending toward Pakistan-occupied territory — a reminder of how close this wilderness lies to geopolitical boundaries.<br>The descent from Gadsar Pass is steep and direct. Snowfields often cover sections of the trail early in the season, making footing careful and deliberate. Within the first part of the descent, the trail passes Yamsar Lake, a small, deep-blue water body resting quietly on the left. Local folklore associates this lake with Yama, the god of death, and shepherds traditionally avoid camping here. Beyond Yamsar lies another unnamed alpine lake, equally pristine, reflecting the stark sky above.<br>As the descent continues, the terrain softens into grassy slopes and eventually levels out into a narrower meadow valley flanked by two mountain ranges. This section is famous for its wildflower bloom. The grass here is thick and bright green, punctuated by bursts of colour — red flowers give way to blue and then deep purple irises as the valley opens up. Walking through this stretch feels almost unreal, as if the valley has been painted deliberately for those willing to cross the pass.<br>Soon, the valley reveals Gadsar Lake itself, one of the most untouched and striking lakes of the entire trek. Nestled at around 3,260 m (10,706 ft), Gadsar sits beneath towering snow-clad cliffs on one side, where slabs of ice often break away and slide into the water, while the opposite bank blooms with blue alpine flowers. The lake’s water shifts between deep blue and green depending on the light, and a single stream connects Yamsar, the unnamed lake, and Gadsar in a cascading chain from high to low.<br>Camping near Gadsar Lake is sometimes permitted, though it is generally discouraged to preserve its fragile ecosystem. An abandoned army shelter stands nearby as a reminder of the valley’s strategic sensitivity. Most groups continue descending from the lake, and within thirty minutes the valley begins to widen. Another blue lake appears to the left, while the snow-covered peaks gradually give way to lower, barren mountains. Shepherd huts soon emerge, signalling a return to human presence.<br>A further descent of about an hour leads to the Gadsar Army Camp, a small post manned by a handful of soldiers. This is a mandatory reporting point. Trekkers must register here, as onward movement requires clearance from the army headquarters located several kilometres ahead near the treeline. Communication is handled via walkie-talkie, and identity documents are verified. Expect to wait for clearance, as this process can take a couple of hours. The day ends near the camp, resting after crossing the most remote and high-altitude section of the Kashmir Great Lakes trek."
+  },
+  {
+  day: 4,
+  title: "Gadsar – Satsar Lakes | 11.5 km Trek | 3,260 m → 3,650 m",
+  details:
+    "Day five begins from the Gadsar side with a river crossing followed by a sharp climb straight into the mountainside. The trail immediately gains height, pulling away from the river valley below. The terrain here feels unexpectedly familiar to trekkers from the Western Ghats — narrow trails etched into green slopes, rolling contours, and a sense of walking just above the treeline. Below you, the river snakes through the valley while clusters of trees thin out rapidly as you climb.<br>The first one and a half hours involve a steady ascent of roughly 1,100 feet. Though not technically difficult, the climb demands controlled pacing after the exertions of Gadsar Pass the previous day. As you cross the 11,500 ft mark, the trail stops climbing sharply and transitions into a long, almost level traverse. The route bends left, deliberately leaving the river valley behind, and opens into a broad meadow flanked by isolated mountains. The sense of exposure increases here — you are fully out in the open, surrounded by silence, wind, and vastness.<br>This section of the trail passes through an area known locally as Maengandob. Scattered across the meadow to your right are deep, unnatural-looking craters gouged into the earth — remnants of artillery shelling from the Kargil conflict. These bomb craters are stark reminders that this peaceful alpine landscape once echoed with explosions. On clear days from this stretch, trekkers may spot distant snow-clad peaks across the Line of Control, and occasionally even catch glimpses of Nanga Parbat far beyond, standing immense and solitary in Pakistan-occupied territory. The contrast between serene meadows and wartime scars is deeply humbling.<br>Ahead, the landscape becomes softer again. Isolated mountains rise like sentinels, while a low ridge forms on the right. Between them stretches a flat green basin threaded by a gentle stream. If your previous night was near Gadsar Lake, this meadow serves as a logical campsite. However, if you started the day from the Gadsar Army Camp, it is advisable to push further and reach Satsar today, keeping the next day lighter.<br>Satsar is not a single lake but a cluster of seven interconnected alpine lakes scattered across a high-altitude plateau at around 3,650 m (11,985 ft). Depending on the season, four to five of these lakes usually hold water, each differing slightly in size and colour. Beyond the ridge to the right lies the Satsar Army Check Post — the third line of defence from the Line of Control. Reporting here is mandatory, and the familiar process of identity verification and documentation repeats. Completing this formality today ensures an uninterrupted trekking day tomorrow.<br>A short walk of about ten minutes beyond the army camp brings you to the first Satsar lake. Broad, calm, and reflective, it sits quietly in a green bowl with mountains rising in front of it. This lake is typically chosen as the campsite. As evening settles in, the plateau grows silent, broken only by wind rippling across the water. The scattered lakes, open skies, and surrounding peaks create a sense of isolation that feels both peaceful and profound — a fitting pause before the final crossing toward Harmukh."
+  },
+  {
+  day: 5,
+  title: "Satsar – Gangbal & Nundkol via Zaj Pass | 9 km Trek | 3,650 m → 3,500 m (via 4,050 m)",
+  details:
+    "Day six is a relentless sequence of ascents and descents — a perfect mirror of the Kashmir Great Lakes trek as a whole. The trail tests endurance more than distance, constantly gaining and losing altitude across barren ridges before rewarding you with one of the most iconic lake views in the Indian Himalayas.<br>Begin the day by trekking gently upward for about half an hour from the Satsar campsite to reach the largest and final lake of the Satsar cluster. The terrain here is rocky and uneven, turning the walk into a slow boulder-hopping exercise. This lake marks the end of the Satsar plateau. From here, the trail begins to descend gradually, offering one last backward glance at the scattered lakes before the landscape changes again.<br>After about thirty minutes of descent, the forest line becomes visible far below on the left, while to the right a long ridge rises nearly 1,000 feet higher. This marks the start of the day’s most demanding climb. From an altitude of around 11,800 ft, the trail switches direction and begins a sharp zig-zag ascent along a pony track. The next forty-five minutes are steep and barren, with loose stones underfoot and little respite. Gaining the first ridge brings momentary relief, but the effort is far from over.<br>Two more ridges rise ahead, each climbed in succession. The landscape here feels stark and exposed — brown, rocky slopes devoid of vegetation. Looking back occasionally reveals a striking contrast: Gujjar huts tucked among tall pine forests far below, emphasizing how abruptly the terrain has shifted. A continuous two-hour climb eventually brings you to the highest ridge of the day at roughly 4,050 m (13,276 ft), commonly referred to as Zaj Pass.<br>What awaits on the ridge top is one of the most dramatic reveals of the trek. Almost suddenly, two large alpine lakes appear below, lying side by side in a deep mountain basin. A narrow stream links the higher lake to the lower one. These are Gangbal and Nundkol — the crown jewels of the Kashmir Great Lakes trek. If you look carefully, two smaller, unnamed blue lakes can also be spotted farther away, completing a breathtaking amphitheatre of water and stone.<br>From the pass, the trail drops steeply toward the lakes, losing nearly 1,400 feet in altitude. The descent is rocky and demanding, requiring careful footing. Midway down, a cold mountain stream cuts across the trail — the last reliable water source of the day and a welcome place to refill bottles. Beyond this point, the rocks gradually give way to grass, and the harsh terrain softens into green meadows once again.<br>The meadow stretches gently across the slope, with the tree line reappearing far below to the left. Though the lakes remain in sight, they seem deceptively distant. A short climb followed by another descent and a wooden log bridge crossing finally brings you to the shores of Nundkol Lake. This lake sees heavier footfall due to weekend trekkers from Naranag, and signs of human presence are often visible — a stark contrast to the pristine lakes earlier in the trek.<br>Nundkol sits directly beneath the towering Harmukh Peak, whose glaciers cling dramatically to its dark rock faces. Both Nundkol and Gangbal are famous for trout fishing, and their waters reflect the changing moods of the sky above. Gangbal Lake lies about twenty minutes away. A fast-flowing stream connects the two lakes — do not attempt to cross it downstream. Instead, walk upstream toward Gangbal where a sturdy man-made bridge allows safe crossing.<br>Gangbal is vast, silent, and commanding. The lake feels sacred — and rightly so. Mount Harmukh, revered in Kashmiri folklore as the abode of Lord Shiva, rises directly above it. Walking along the shores as evening settles in, with the mountain reflected in still waters and prayer-like silence all around, feels less like the end of a trek and more like a moment of quiet reverence. Camp near the lake and take in the final high-altitude night of this unforgettable journey."
+  },
+  {
+  day: 6,
+  title: "Gangbal – Naranag – Srinagar | 13 km Trek + 50 km Drive | 3,500 m → 2,380 m",
+  details:
+    "The final day of the trek is long, knee-intensive, and mentally demanding — a fitting conclusion to the Kashmir Great Lakes journey. While the altitude steadily drops, the relentless descent puts sustained pressure on toes and knees, making this day more challenging than it appears on paper.<br>From the Gangbal campsite at around 11,486 ft, begin descending along the outflowing stream toward the distant tree line. Avoid walking directly beside the stream; instead, stay on the ridge to the right where the trail is clearer and more stable. About thirty minutes into the walk, mobile network briefly appears — often the first signal in days — just enough to send a message home before the mountains reclaim their silence. Soon after, the ridge tapers off and the trail drops gently into a broad green meadow.<br>Looking back from the meadow offers one last commanding view of Mount Harmukh, its dark rocky face rising dramatically above the lakes you leave behind. The meadow itself is carpeted with small yellow alpine flowers, and the walk here becomes slow and careful as trekkers instinctively avoid stepping on the fragile blooms.<br>Roughly an hour into the descent, the fringes of the pine forest are reached. Tall pine trees border the meadow, and the first signs of human presence appear in the form of a solitary log hut. Rather than entering the forest immediately, the trail skirts its edge and turns right — and in a familiar twist characteristic of this trek, the descent briefly pauses. Though you drop to about 10,800 ft at the tree line, the trail climbs gently again to nearly 11,000 ft.<br>For the next six kilometres, altitude loss is minimal. The path weaves in and out of pine forests and open clearings, maintaining an elevation close to 10,800 ft. This section feels deceptively long, with constant minor ascents and descents that quietly drain energy even as the surroundings grow greener and more populated.<br>Only after covering nearly two-thirds of the day’s distance does the real descent begin. The trail suddenly steepens and plunges sharply through dense pine forest. The path is well-trodden, muddy in places, and demands careful footing. Over the final four kilometres, the trail drops more than 3,000 feet, making this one of the steepest sustained descents of the entire trek.<br>As altitude decreases, encounters with day trekkers increase — many heading uphill from Naranag toward Gangbal for short outings. The village of Naranag first becomes visible at around 8,500 ft, but despite being in sight, the descent continues relentlessly. The final stretch tests endurance and patience until the trail finally merges into a stone-paved village track.<br>Soon after, the forest opens up completely and the main road of Naranag is reached at approximately 7,800 ft. From here, a two-hour drive covering about 50 kilometres brings you back to Srinagar, typically by around 6:30 pm. The journey ends where it began, but with legs sore, hearts full, and the quiet satisfaction of having crossed one of the most scenic and demanding alpine traverses in the Indian Himalayas.<br>Important note: the security checkpost on the Naranag–Srinagar route closes at 4:00 pm. It is crucial to plan the descent and departure accordingly. If delayed beyond this time, overnight arrangements may need to be coordinated locally, sometimes with assistance from the Indian Army."
+  }
+],
+
+  didYouKnow: [
+    "The Kashmir Great Lakes region remains snow-covered for most of the year and is accessible only for a short window between July and September.",
+    "Gadsar Pass was historically used by shepherds to move livestock between grazing grounds across valleys.",
+    "Gangbal Lake lies at the base of Mount Harmukh (5,142 m), one of Kashmir’s most prominent peaks and a sacred mountain in local folklore.",
+    "The Gujjar and Bakarwal nomads migrate seasonally through these meadows, living in temporary shelters with their flocks.",
+    "Despite its popularity, the region has no permanent settlements beyond Naranag, preserving its wild and untouched character."
+  ],
+
+  howToReach: {
+    air: "Nearest airport: Srinagar International Airport. Regular flights operate from Delhi and other major Indian cities. Srinagar is the main gateway to the Kashmir Valley and offers the easiest access to the trek starting point.",
+    train: "Nearest major railway station: Jammu Tawi (approx. 270 km from Srinagar). From Jammu, you can continue by road to Srinagar via NH44. Train connectivity is reliable year-round, but onward travel depends on road conditions.",
+    road: "Srinagar is well connected by road to Jammu via the Jammu–Srinagar Highway (NH44). From Srinagar, a 2–3 hour drive takes you to Sonamarg (trek start) or Naranag (trek end), depending on the itinerary direction. Roads may face temporary closures due to landslides or weather, especially during monsoon.",
+    travelTip: "Plan to arrive in Srinagar at least one day before the trek begins to allow buffer time for weather or road delays. While the Kashmir Great Lakes Trek does not require long acclimatization like Ladakh treks, gradual ascent, hydration, and fitness preparation are important for a comfortable high-altitude experience."
+  },
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535552/kgl-view14_byzmiq.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535551/kgl-view13_cm0dts.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535549/kgl-view4_zsl7ou.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535546/kgl-hero_phbnfu.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535543/kgl-view6_cszcms.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535541/kgl-view12_blnxcy.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535540/kgl-view2_mchh5u.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view1_x2b9s2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535530/kgl-view10_xunafq.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535527/kgl-view9_jei9pf.jpg",
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Kashmir Great Lakes Trek?",
+        answer:
+          "This trek is best suited for fit trekkers with prior trekking experience. Long walking days, high altitude, and repeated ascents and descents require good stamina and endurance."
+      },
+      {
+        question: "What is the difficulty level of this trek?",
+        answer:
+          "The trek is graded moderate to moderate-difficult. While there are no technical sections, the altitude, long distances, river crossings, and high passes make it physically demanding."
+      },
+      {
+        question: "What is the highest altitude reached on the trek?",
+        answer:
+          "The highest point is Gadsar Pass at approximately 4,200 m, where snowfields and strong winds are common even in summer."
+      },
+      {
+        question: "When is the best time to do the Kashmir Great Lakes Trek?",
+        answer:
+          "The ideal season is from July to September, when the snow melts and the alpine lakes become accessible."
+      },
+      {
+        question: "What kind of accommodation is provided?",
+        answer:
+          "Accommodation is in tents throughout the trek. Campsites are set near lakes and meadows, offering immersive wilderness stays."
+      },
+      {
+        question: "Is acclimatization important on this trek?",
+        answer:
+          "Yes. The itinerary is designed to allow gradual altitude gain, but proper hydration, rest, and awareness of altitude sickness symptoms are essential."
+      },
+      {
+        question: "Will there be river crossings?",
+        answer:
+          "Yes. Several snow-fed streams must be crossed, especially between Gadsar and Satsar. Trekking poles are highly recommended."
+      },
+      {
+        question: "Is this trek suitable for beginners?",
+        answer:
+          "This trek is not recommended for absolute beginners. First-time trekkers should have strong fitness levels and prior exposure to multi-day hikes."
+      },
+      {
+        question: "What makes this trek unique?",
+        answer:
+          "The continuous sequence of high-altitude lakes, vast meadows, and dramatic mountain scenery makes this one of the most visually immersive treks in India."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
+  
+},
+// Add other trek objects here...
 ];
