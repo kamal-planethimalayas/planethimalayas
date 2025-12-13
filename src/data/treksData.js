@@ -660,8 +660,8 @@ export const treks = [
   {
   id: "deo‑tibba‑basecamp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["intermediate"],
-  difficulty: ["moderate"],
+  tags: ["intermediate", "pro"],
+  difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
   region: "himachal",
@@ -692,7 +692,7 @@ export const treks = [
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "≈ 14,698 ft" },
       { emoji: "⚡", label: "Trek Distance", value: "≈ 40 km" },
       { emoji: "🌤️", label: "Best Time", value: "July–October" },
@@ -1364,7 +1364,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate"],
+    tags: ["intermediate", "pro"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1394,7 +1394,7 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: ">15,000 ft (Buran Ghati)" },
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
@@ -1605,8 +1605,8 @@ snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that 
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["family", "beginner"],
-    difficulty: ["easy"],
+    tags: ["intermediate", "beginner"],
+    difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 6 Days"],
@@ -1632,7 +1632,7 @@ seo: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
         { emoji: "🏔️", label: "Max Altitude", value: "11,500 ft (Bedni bugyal)" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
@@ -1854,8 +1854,8 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["family", "beginner"],
-    difficulty: ["easy"],
+    tags: ["intermediate", "beginner"],
+    difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 6 Days"],
@@ -1887,7 +1887,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Chandrashila peak)" },
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
@@ -2104,7 +2104,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["intermediate"],
+    tags: ["intermediate", "pro"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2135,7 +2135,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate-Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "14,600 ft (Meru Base Camp)" },
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
@@ -2319,7 +2319,7 @@ seo: {
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "intermediate"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -2348,7 +2348,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,150 ft (3,700 m)" },
         { emoji: "⚡", label: "Trek Distance", value: "30 Km" },
         { emoji: "🌤️", label: "Best Time", value: "April-May & September-November" },
@@ -2516,8 +2516,8 @@ seo: {
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
-    tags: ["intermediate"],
-    difficulty: ["moderate"],
+    tags: ["intermediate", "pro"],
+    difficulty: ["moderate", "difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
     duration: ["7 Nights / 8 Days"],
@@ -2546,7 +2546,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },     
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },     
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Ruinsaratal)" },
         { emoji: "⚡", label: "Trek Distance", value: "65 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-November" },
@@ -2710,8 +2710,8 @@ seo: {
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
-    tags: ["family", "beginner"],
-    difficulty: ["easy"],
+    tags: ["intermediate", "beginner"],
+    difficulty: ["easy", "moderate"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
     duration: ["5 Nights / 6 Days"],
@@ -2739,7 +2739,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy" },     
+        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },     
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
@@ -2902,7 +2902,7 @@ seo: {
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["family", "beginner"],
+  tags: ["intermediate", "beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -2933,7 +2933,7 @@ seo: {
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,516 ft (Kuari Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "30–35 Km" },
       { emoji: "🌤️", label: "Best Time", value: "November to April" },
@@ -3153,7 +3153,7 @@ seo: {
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["family", "beginner"],
+  tags: ["intermediate", "beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -3181,7 +3181,7 @@ seo: {
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Kedarkantha Summit)" },
       { emoji: "⚡", label: "Trek Distance", value: "20–22 Km" },
       { emoji: "🌤️", label: "Best Time", value: "November to April (Best Winter Snow Trek)" },
@@ -4076,7 +4076,7 @@ itinerary: [
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["intermediate"],
+    tags: ["intermediate", "pro"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4516,7 +4516,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   {
     id: "pindari-glacier-trek",
     name: "Pindari Glacier Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "intermediate"],
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4753,8 +4753,8 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   {
   id: "panchachuli-base-camp-trek",
   name: "Panchachuli Base Camp Trek",
-  tags: ["intermediate"],
-  difficulty: ["moderate"],
+  tags: ["beginner", "intermediate"],
+  difficulty: ["easy", "moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   duration: ["6 Nights / 7 Days"],
@@ -4791,7 +4791,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "easy / moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
       { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
