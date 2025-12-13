@@ -5884,6 +5884,37 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     description: "The Kashmir Great Lakes Trek is one of India’s most beautiful high-altitude treks, featuring pristine alpine lakes, lush meadows, dramatic mountain passes, and sweeping Himalayan views. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
   },
 
+  advisory: {
+  type: "warning",
+  fullWidth: true,
+  title: "Important Advisory for Jammu & Kashmir Treks",
+  sections: [
+    {
+      heading: "Trekking Permit Status",
+      content:
+        "Trekking permits for Jammu & Kashmir are currently not fully confirmed. Planethimalayas has opened trek batches in good faith, anticipating that permissions will be granted. Final trek operations remain subject to official approvals."
+    },
+    {
+      heading: "Refund Policy",
+      points: [
+        "If trekking permissions remain unavailable until May 2026, or if security conditions do not allow safe operations, Planethimalayas will issue a 100% refund of the trek fee.",      
+      ]
+    },
+    {
+      heading: "High Uncertainty in J&K",
+      content:
+        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
+    },
+    {
+      heading: "Flight & Travel Advisory",
+      points: [
+        "Avoid booking flights too early. Plan travel only after April, once there is better clarity on trek permissions.",
+        "Always choose flexible or refundable tickets to prevent financial loss in case of last-minute operational changes."
+      ]
+    }
+  ]
+},
+
   overview: {
   facts: [
     { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
@@ -5901,7 +5932,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     "The Kashmir Great Lakes Trek is often called the crown jewel of Indian Himalayan trekking — a journey through a dreamscape of alpine lakes, endless green meadows, and dramatic mountain passes that define the raw beauty of Kashmir. Set in the high ranges east of Srinagar, this trek strings together a series of pristine glacial lakes, each with its own colour, character, and story, all set against towering snow-clad peaks rising beyond 6,000 meters.<br>The trail begins near Sonamarg, the ‘Meadow of Gold’, where wide grasslands roll gently beneath open skies and the first streams flow cold and clear from surrounding glaciers. As you climb higher, the landscape shifts dramatically — gentle shepherd paths give way to vast alpine basins, rocky ridgelines, and high mountain passes like Nichnai Pass (around 4,100 m) and Gadsar Pass (around 4,200 m), from where the entire Kashmir valley seems to unfold beneath your feet.<br>What makes this trek truly legendary is its lakes. Vishansar and Kishansar sit like twin jewels cradled in sweeping meadows, reflecting sharp mountain silhouettes and drifting clouds. Gadsar Lake, often still partially frozen even in mid-summer, lies beneath rugged cliffs and is considered sacred by local shepherds. Further ahead, Satsar reveals not one but a chain of interconnected high-altitude lakes, while the final descent leads you to Gangbal and Nundkol — massive alpine lakes resting at the base of Mount Harmukh (5,142 m), one of Kashmir’s most revered peaks in local mythology.<br>The trek is a paradise for nature lovers. During peak summer, the meadows explode with wildflowers — gentians, buttercups, blue poppies, and edelweiss — while herds of sheep and horses graze freely under the watch of Gujjar and Bakarwal shepherds who still follow ancient migratory routes through these mountains. Birdlife is rich and varied, and marmots are commonly spotted near rocky sections. Though elusive, the region is also known habitat for Himalayan brown bears and snow leopards at higher elevations.<br>While the Kashmir Great Lakes Trek is not technical, it demands stamina and mental resilience. Long walking days, multiple river crossings, high-altitude camping above 3,500 meters, and rapidly changing mountain weather make it a serious undertaking. Sudden rain, mist, or snowfall can transform the landscape within minutes, adding to both the challenge and the magic of the journey.<br>For trekkers seeking the pure essence of Himalayan beauty — vast open spaces, crystal-clear lakes, high passes, and a feeling of walking through untouched wilderness — the Kashmir Great Lakes Trek delivers an experience that is both humbling and unforgettable. It is not just a trek through mountains, but a passage through one of the most visually dramatic high-altitude landscapes in the Indian Himalayas."
   },
 
-  price: 29500,
+  price: 20500,
   priceNote: "* Srinagar to Srinagar",
   addons: {
     transport: null,
