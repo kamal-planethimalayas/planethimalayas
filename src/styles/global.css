@@ -222,11 +222,17 @@ html {
 }
 
 /* responsive heights */
-/* MOBILE HERO IMAGE FIX */
 @media (max-width: 768px) {
-  .trek-hero-3d {
-    height: 90vh;
+  .trek-hero-3d,
+  .carousel-3d-wrapper {
+    height: 85vh;
     margin-top: -55px;
+  }
+
+  .carousel-3d-slide {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center bottom; /* IMPORTANT */
   }
 }
 
