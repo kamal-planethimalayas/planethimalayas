@@ -23,7 +23,7 @@ import "../styles/global.css";
         <div class="overlay"></div>
         <div class="hero-content">
           <h1>More Than Just A Trek</h1>
-          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             Join our treks, thoughtfully crafted for deeply personal mountain experiences with unwavering focus on individual care, safety, and a genuine love for the Himalayas.
           </p>
@@ -35,7 +35,7 @@ import "../styles/global.css";
         <div class="overlay"></div>
         <div class="hero-content">
           <h1>Not Just a Trek — A Journey That Stays With You</h1>
-          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
           </p>
@@ -47,7 +47,7 @@ import "../styles/global.css";
         <div class="overlay"></div>
         <div class="hero-content">
           <h1>Individual Care, Every Step of the Way</h1>
-          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
           </p>
@@ -59,7 +59,7 @@ import "../styles/global.css";
         <div class="overlay"></div>
         <div class="hero-content">
           <h1>Built on Genuine Love for the Himalayas</h1>
-          <a href="/upcoming-treks" class="cta-button">Upcoming Treks</a>
+          <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
           </p>
@@ -228,9 +228,9 @@ import "../styles/global.css";
   </div> <!-- /.testimonials-wrapper -->
 </section> <!-- /.testimonials -->
 
-<!-- UPCOMING TREKS: Winter Treks -->
+<!-- UPCOMING TREKS: Current Season Treks -->
 <section class="trek-section reveal">
-  <h2>Upcoming <span>Treks</span></h2>
+  <h2>Trending <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
     <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
     <div class="trek-cards-scroll" id="winter">
@@ -290,42 +290,65 @@ import "../styles/global.css";
   </div>
 </section>
 
-<section class="leadgen-section reveal">
-  <div class="leadgen-overlay"></div>
+<!-- UPCOMING TREKS: Upcoming Season Treks -->
+<section class="trek-section reveal">
+  <h2>Upcoming <span>Treks</span></h2>
+  <div class="trek-cards-wrapper">
+    <button class="scroll-btn left" onclick="scrollCards('spring', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="spring">
+      {
+        treks
+          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring'))
+          .map(trek => {
+            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+            // Capitalize function
+      const capitalize = (str) => {
+  if (!str) return '';
 
-  <div class="leadgen-content">
-    <h2 class="section-heading">Plan Your <span>Himalayan Adventure</span></h2>
-    <p class="section-sub">
-      Get a personalised itinerary, dates & expert guidance from Planethimalayas.
-    </p>
+  // If it's an array (difficulty, tags etc.)
+  if (Array.isArray(str)) {
+    return str
+      .map(item => capitalize(item))   // Recursively capitalize each item
+      .join(', ');
+  }
 
-    <form id="homepageLeadForm" action="https://formspree.io/f/xrbldkrb" method="POST">
-      <div class="form-row">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
-      </div>
-
-      <div class="form-row">
-        <input type="text" id="phone-home" name="phone" placeholder="Phone Number" required />
-        <input type="text" name="trek" placeholder="Interested Trek (optional)" />
-      </div>
-
-      <div class="custom-message-field">
-        <textarea name="plan-details" placeholder="Tell us what you're planning…"></textarea>
-      </div>
-
-      <button type="submit" class="leadgen-btn">Get Details</button>
-    </form>
-
-    <!-- Error message -->
-    <div id="leadgenError" style="display:none; color:red; margin-top:20px; text-align:center;"></div>
-
-    <!-- Thank-you message -->
-    <div id="leadgenThankYou" style="display:none; text-align:center; margin-top:30px;">
-      <h3 style="color:#ff7300; text-shadow:0 0 8px #ff7300;">Thank You!</h3>
-      <p style="color:white;">We’ve received your details. Our team will reach out shortly.</p>
-      <a href="/upcoming-treks" class="leadgen-btn">Explore Upcoming Treks</a>
+  // If it's a string
+  return str
+    .split(' ')
+    .map(word =>
+      word
+        .split('-') // also split hyphens
+        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+        .join('-')  // join hyphens back
+    )
+    .join(' ');
+};
+            return (
+              <div class="trek-card" key={trek.id}>
+                <a href={`/trek/${trek.id}#trek-hero`}>
+                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+                </a>
+                <h3 class="trek-name">{trek.name}</h3>
+                <div class="trek-info">
+                  <span>
+                    <i class="fa fa-clock"></i> {duration}
+                  </span>
+                  <span>
+                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
+                  </span>
+                </div>
+                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
+                <div class="trek-buttons">
+                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
+                </div>
+              </div>
+            );
+          })
+      }
     </div>
+    <button class="scroll-btn right" onclick="scrollCards('spring', 1)">&gt;</button>
   </div>
 </section>
 
@@ -390,6 +413,48 @@ import "../styles/global.css";
       <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
     </div>
 </section>
+</div>
+
+<section class="leadgen-section reveal">
+  <div class="leadgen-overlay"></div>
+
+  <div class="leadgen-content">
+    <h2 class="section-heading">Plan Your <span>Himalayan Adventure</span></h2>
+    <p class="section-sub">
+      Get a personalised itinerary, dates & expert guidance from Planethimalayas.
+    </p>
+
+    <form id="homepageLeadForm" action="https://formspree.io/f/xrbldkrb" method="POST">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="form-row">
+        <input type="text" id="phone-home" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="trek" placeholder="Interested Trek (optional)" />
+      </div>
+
+      <div class="custom-message-field">
+        <textarea name="plan-details" placeholder="Tell us what you're planning…"></textarea>
+      </div>
+
+      <button type="submit" class="leadgen-btn">Get Details</button>
+    </form>
+
+    <!-- Error message -->
+    <div id="leadgenError" style="display:none; color:red; margin-top:20px; text-align:center;"></div>
+
+    <!-- Thank-you message -->
+    <div id="leadgenThankYou" style="display:none; text-align:center; margin-top:30px;">
+      <h3 style="color:#ff7300; text-shadow:0 0 8px #ff7300;">Thank You!</h3>
+      <p style="color:white;">We’ve received your details. Our team will reach out shortly.</p>
+      <a href="/upcoming-treks" class="leadgen-btn">Explore Treks</a>
+    </div>
+  </div>
+</section>
+
+</Layout>
 
 <style>
 
@@ -492,6 +557,7 @@ import "../styles/global.css";
   color: #ff7300;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: 18px;
   padding: 1rem 2.5rem;
   border-radius: 8px;
   border: 2px solid #ff7300;
@@ -741,12 +807,12 @@ import "../styles/global.css";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: none;
   background: rgba(255, 255, 255, 0.1);
   color: #ff7300;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
@@ -1025,12 +1091,12 @@ import "../styles/global.css";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: none;
   background: rgba(255, 255, 255, 0.1);
   color: #ff7300;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
@@ -1336,7 +1402,10 @@ input:focus, input:hover, textarea:focus {
 
 .leadgen-btn {
   margin-top: 10px;
-  padding: 16px;
+  align-self: center;          /* stops full-width */
+  width: auto;                 /* prevent stretch */
+  min-width: 220px;            /* visible & tappable */
+  padding: 14px 36px; 
   background: transparent;
   color: #ff7300;
   font-family: Roboto, sans-serif;
@@ -1367,9 +1436,6 @@ input:focus, input:hover, textarea:focus {
 }
 
 </style>
-
-</div>
-</Layout>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
