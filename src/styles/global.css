@@ -222,8 +222,12 @@ html {
 }
 
 /* responsive heights */
-@media (max-width: 767px) {
-  .trek-hero-3d { height: 70vh; margin-top: -55px; }
+/* MOBILE HERO IMAGE FIX */
+@media (max-width: 768px) {
+  .trek-hero-3d {
+    height: 90vh;
+    margin-top: -55px;
+  }
 }
 
 /* On desktop, keep visible (above dots hidden anyway) */

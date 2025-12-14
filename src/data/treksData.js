@@ -5877,7 +5877,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
     ],
 
-  subtitle: "A High-Altitude Walk Through Kashmir’s Alpine Lakes & Endless Meadows",
+  subtitle: "The Crown Jewel of Himalayan Treks",
 
   seo: {
     title: "Kashmir Great Lakes Trek | Alpine Lakes of Kashmir | Planethimalayas",
@@ -5892,26 +5892,12 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     {
       heading: "Trekking Permit Status",
       content:
-        "Trekking permits for Jammu & Kashmir are currently not fully confirmed. Planethimalayas has opened trek batches in good faith, anticipating that permissions will be granted. Final trek operations remain subject to official approvals."
-    },
-    {
-      heading: "Refund Policy",
-      points: [
-        "If trekking permissions remain unavailable until May 2026, or if security conditions do not allow safe operations, Planethimalayas will issue a 100% refund of the trek fee.",      
-      ]
-    },
+          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
     {
       heading: "High Uncertainty in J&K",
       content:
         "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
     },
-    {
-      heading: "Flight & Travel Advisory",
-      points: [
-        "Avoid booking flights too early. Plan travel only after April, once there is better clarity on trek permissions.",
-        "Always choose flexible or refundable tickets to prevent financial loss in case of last-minute operational changes."
-      ]
-    }
   ]
 },
 
