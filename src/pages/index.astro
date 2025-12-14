@@ -582,11 +582,13 @@ import "../styles/global.css";
 /* Responsive */
 @media (max-width: 768px) {
   .hero-carousel-3d {
-    height: 90vh;
+    height: 85vh;
     margin-top: -55px;
   }
   .carousel-slide {
-    height: 75vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center bottom; /* IMPORTANT */
   }
   .hero-content h1 {
     font-size: 2rem;
@@ -1364,6 +1366,10 @@ input:focus, input:hover, textarea:focus {
     padding-left: 1rem;
   padding-right: 1rem;
   }
+}
+.section-heading span {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 </style>
