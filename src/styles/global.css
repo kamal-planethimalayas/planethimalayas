@@ -222,18 +222,16 @@ html {
 }
 
 /* responsive heights */
-@media (max-width: 768px) {
-  .trek-hero-3d,
-  .carousel-3d-wrapper {
-    height: 85vh;
-    margin-top: -55px;
+@media (max-width: 767px) {
+  .trek-hero-3d { 
+    height: 75vh; 
+    margin-top: -55px; 
+    overflow: hidden;
   }
 
-  .carousel-3d-slide {
-    object-fit: cover;
-    background-size: cover;
-    background-position: center bottom; /* IMPORTANT */
-  }
+  .carousel-3d-wrapper {
+    height: 75vh;
+  } 
 }
 
 /* On desktop, keep visible (above dots hidden anyway) */
