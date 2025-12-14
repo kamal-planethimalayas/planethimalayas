@@ -5872,9 +5872,11 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
 
     heroImages: [
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535546/kgl-hero_phbnfu.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698698/IMG_20190731_170319_ufe38r.jpg",
     ],
 
   subtitle: "The Crown Jewel of Himalayan Treks",
@@ -6009,6 +6011,9 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535530/kgl-view10_xunafq.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535527/kgl-view9_jei9pf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698698/IMG_20190731_170319_ufe38r.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698772/IMG_20190723_082902_j4lrnx.jpg",
     ],
 
   downloadLink: "/docs/Packing_List.pdf",
