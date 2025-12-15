@@ -9,7 +9,7 @@ export const treks = [
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
-    region: "himachal",
+    region: "himachal pradesh",
     duration: "6 Nights / 6 Days",
     coordinates: [
                   [31.5397, 77.9364], // Kafnu (start)
@@ -464,7 +464,7 @@ export const treks = [
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
     duration: ["4 Nights / 5 Days"],
-    region: "himachal",
+    region: "himachal pradesh",
     coordinates: [
     [32.2396, 77.1892], // Jobra (start)
     [32.2592, 77.2503], // Jwara
@@ -664,7 +664,7 @@ export const treks = [
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
-  region: "himachal",
+  region: "himachal pradesh",
   duration: "5 Nights / 6 Days",
   coordinates: [
     // approximate route waypoints (Manali → Chikka → Seri → Tainta/Chandratal → basecamp)
@@ -704,7 +704,7 @@ export const treks = [
     snippet: `Nestled in the heart of the Pir Panjal range, the Deo Tibba Base Camp Trek is a thrilling alpine adventure for trekkers seeking both serenity and spectacle. Starting near Manali, the trail winds through dense forests of pine, spruce, fir, oak, and silver birch, opening up to lush meadows that seem kissed by the Himalayas themselves. Snow-capped peaks — Deo Tibba (6,001 m), Norbu Peak (5,226 m), and Jagatsukh Peak (5,050 m) — dominate the skyline, while the emerald waters of Chota Chandratal mirror the sky in a magical display of alpine beauty.<br>Every step tells a story: cross glacial streams, climb gentle ridges, and soak in panoramic views that unfold like chapters of a Himalayan epic. Ideal for trekkers with moderate experience, this trail blends accessible challenge with breathtaking scenery, making it one of the most captivating high-altitude treks in Himachal Pradesh.`
   },
 
-  price: 13900,   // placeholder — set as per your cost structure
+  price: 13400,   // placeholder — set as per your cost structure
   priceNote: "* Manali to Manali",
 
   addons: {
@@ -832,10 +832,10 @@ export const treks = [
     name: "Hampta Circuit Trek",
     tags: ["beginner", "family"],
     difficulty: ["easy"],
-    season: ["summer", "monsoon", "autumn", "winter"],
+    season: ["summer", "monsoon", "autumn",],
     month: ["may", "june", "july", "august", "september", "october", "november", "december"],
     duration: ["4 Nights / 5 Days"],
-    region: "himachal",
+    region: "himachal pradesh",
     coordinates: [
         [32.2330, 77.1830], // Jagatsukh (start)
         [32.2365, 77.1895], // Bogi
@@ -877,7 +877,7 @@ export const treks = [
     snippet: "Hampta Circuit Trek is an enchanting offbeat Himalayan adventure that weaves together lush forests, alpine meadows, glacial streams, and panoramic mountain vistas, offering a perfect blend of nature, culture, and adventure.<br> The trek begins from the quaint village of Jagatsukh, near Manali, and gradually ascends through dense oak and pine forests, where the crisp mountain air and the scent of pine invigorate every step. As the trail opens into expansive alpine meadows, trekkers are greeted by a riot of wildflowers, gentle streams, and grazing livestock, creating a picture-perfect Himalayan setting. Day by day, the route takes adventurers across charming hamlets, verdant pastures, and rocky ridges, culminating at the summit of Sethan Dome (4,200 m), where breathtaking 360° views of the Pir Panjal and Dhauladhar ranges unfold. Unlike the popular Hampta Pass trek, this circuit offers solitude, offbeat paths, and intimate encounters with the high-altitude wilderness, making each campsite a serene escape.<br> The trek is ideal for beginners, first-time trekkers, and families, combining moderate trekking, stunning scenery, and immersive experiences in the Himalayas’ natural and cultural landscapes, making Hampta Circuit a hidden gem in Himachal Pradesh."
     },
 
-    price: 10500,
+    price: 10400,
     priceNote: "* Manali to Manali",
     addons: {
         offloadingbag: 1250,
@@ -987,7 +987,7 @@ export const treks = [
     season: ["summer", "autumn", "monsoon", "winter","spring"],
     month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
     duration: ["3 Nights / 4 Days"],
-    region: "himachal",
+    region: "himachal pradesh",
     coordinates: [
         [32.2390, 77.1840], // Manali (start)
         [32.2500, 77.1950], // Lamadugh
@@ -1028,7 +1028,7 @@ export const treks = [
 "Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
     },
 
-    price: 8900,
+    price: 8400,
     priceNote: "* Manali to Manali",
     addons: {
         offloadingbag: 2000,
@@ -1133,7 +1133,7 @@ export const treks = [
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["6 Nights / 7 Days"],
-    region: "himachal",
+    region: "himachal pradesh",
     coordinates: [
     [31.4742, 78.1791], // Dhaula (start)
     [31.5236, 78.2856], // Jiskun
@@ -1189,7 +1189,7 @@ export const treks = [
 <br><strong>* Autumn (Sept–Oct):</strong> The trek turns into a painter’s palette — golden oak leaves, fiery-red maples, multiple other high waterfalls on either side the valley, and slopes bursting with alpine flowers. Clear skies reveal razor-sharp views of the waterfall, the gully, and the Kinnaur peaks. The valley feels crisp, colourful, and beautifully alive — arguably the best season for photography and long, thoughtful walks along the Rupin.`
   },
 
-    price: 17900,
+    price: 15900,
     priceNote: "* Jiskoon to Sangla",
     addons: {
       transport: 6000, 
@@ -1198,7 +1198,7 @@ export const treks = [
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
     dates: [
       { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
@@ -1370,7 +1370,7 @@ export const treks = [
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["6 Nights / 7 Days"],
-    region: "himachal",
+    region: "himachal pradesh",
     coordinates: [
     [31.1184, 77.5783], // Janglik (start)
     [31.1653, 77.6481], // Dayara
@@ -1426,7 +1426,7 @@ export const treks = [
 
 <br>The Buran Ghati Trek is more than a trek; it’s an immersion in the heart of the Himalayas, a journey that leaves you humbled, exhilarated, and longing for more.` },
 
-    price: 17900,
+    price: 15900,
     priceNote: "* Janglik to Baruva",
     addons: {
       transport: 6000, 
@@ -1435,7 +1435,7 @@ export const treks = [
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
     dates: [
       { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
@@ -1610,7 +1610,7 @@ export const treks = [
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
-    duration: ["5 Nights / 6 Days"],
+    duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
 
@@ -1645,7 +1645,7 @@ seo: {
   "The Ali–Bedni Bugyal Trek is a journey into the heart of Uttarakhand’s most enchanting high-altitude meadows — vast rolling grasslands that look like they’ve been brushed onto the earth by the hands of the gods. Starting from the quiet mountain village of Lohajung, the trail gently climbs through ancient oak and rhododendron forests where sunlight filters in golden beams and the woods echo with Himalayan thrushes, woodpeckers, and the occasional rustle of a mountain fox slipping between the shadows.<br>Then, almost without warning, the forests fall away and the world opens up into the endless green waves of Ali Bugyal — one of the largest alpine meadows in Asia. Walking here feels surreal. The air becomes crisp, the earth soft underfoot, and far on the horizon rise the great guardians of the Garhwal Himalayas: Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing white under the morning sun or flushed in shades of rose and gold at dusk. It’s a landscape so vast and quiet that you can hear the wind travel across the grass.<br>A gentle traverse leads you to Bedni Bugyal, equally magical yet imbued with a deeper spiritual energy. At its center lies Bedni Kund, a sacred, mirror-like pond believed to have witnessed centuries of rituals and the legendary Nanda Devi Raj Jat Yatra, one of the Himalayas’ most revered pilgrimages. The meadows here are dotted with wildflowers — blue poppies, brahmakamal, bistorts, and primulas — turning the terrain into a vibrant tapestry during summer.<br>Ali and Bedni are more than just meadows; they are living, breathing landscapes where nature, culture, and ancient lore blend seamlessly. Whether you are a first-time trekker or an experienced wanderer, these bugyals welcome you into a world where the sky feels close enough to touch, the mountains watch silently over the valleys, and every step fills you with a quiet sense of wonder."
     },
 
-    price: 12500,
+    price: 10900,
     priceNote: "* Lohajung to Lohajung",
     addons: {
       transport: 6000, 
@@ -1654,69 +1654,70 @@ seo: {
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
       
       
-      { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
-      { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
-      { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
-      { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
-      { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
-      { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
-      { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
-      { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
-      { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
-      { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
-      { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
-      { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
-      { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
-      { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
-      { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
-      { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
-      { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
-      { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
-      { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
-      { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
-      { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
-      { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
-      { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
-      { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
-      { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
-      { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
-      { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
-      { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
-      { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
-      { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
-      { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
-      { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
-      { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
-      { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
-      { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
-      { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
-      { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
-      { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
-      { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-      { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
-      { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-      { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-      { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
-      { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-      { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-      { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
-      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-      { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-      { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-      { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-      { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-      { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
+      { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
+{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
+{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
+{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
+{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
+{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
+{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
+{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
+{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
+{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
+{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
+{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
+{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
+{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
+{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
+{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
+{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
+{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
+{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
+{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
+{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
+{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
+{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
     ],
 
     highlights: [
@@ -1754,11 +1755,6 @@ seo: {
     title: "Ghairoli Patal to Wan Village (7,800 ft) | Drive to Lohajung",
     details: "<strong>• Trek Distance: ~10 km | Duration: 5–6 hrs.</strong><br>• Your final day on the Ali Bedni Bugyal Trek begins with the soft glow of dawn and the crisp mountain air brushing past your tent. Enjoy a comforting cup of tea followed by a hearty breakfast while taking one last look at the serene Himalayan landscape that has been your home for the past few days. Today marks your descent from Ghairoli Patal to Wan Village, followed by a short drive back to Lohajung.<br>The trail begins with a long, zigzag descent through a peaceful forest filled with ancient oak groves and moss-laden trees. As you make your way down, you’ll pass a few rustic shepherd huts — still used by nomadic herders who graze their flocks in these highlands during summer. The route then leads you once again to the Neelganga River, its crystal-clear waters cutting through the valley. Pause for a moment here — this is your final river crossing of the trek, and it offers a perfect chance to rest and reflect on the journey so far.<br>After crossing the river, the trail climbs gradually toward Ran Ka Dhar, a charming spot to catch your breath and take in sweeping views of the lower valley. A short and pleasant hike from here will bring you to Wan, one of the highest motorable villages in this part of Uttarakhand. Wan is a picturesque hamlet, known for its wooden houses, terraced farms, and warm-hearted locals.<br>Before concluding your trek, make sure to stop by the centuries-old Latu Devta temple, a sacred shrine steeped in local legend. The deity here is considered so powerful that even the priest enters blindfolded during rituals — a fascinating glimpse into the region’s deep-rooted traditions.<br>From Wan, board your vehicle for a short 45-minute drive to Lohajung, marking the end of your incredible Himalayan journey. Once back, unwind at your guesthouse, explore the small local market, or simply relax and soak in the quiet satisfaction of completing one of the most scenic treks in India. In the evening, gather with your trek mates for a celebratory dinner, share stories from the trail, and rest well after a truly memorable adventure."
   },
-  {
-    day: 6,
-    title: "Departure | Drive from Lohajung to Rishikesh",
-    details: "<strong>• Distance: ~250 km | Duration: 10–11 hrs.</strong><br>• Today marks your departure day, the moment when your Himalayan adventure gently transitions back toward everyday life. After a warm breakfast, it’s time to bid farewell to the mountains that have been your home for the past few days. The drive winds through the heart of Garhwal’s valleys, passing river confluences, pine-covered slopes, and quiet mountain settlements that seem to whisper stories of the trek you’ve just completed.<br>As you journey back, every bend in the road feels like a reflection — of misty mornings on the trail, laughter shared at campsites, and the calm of endless meadows. Though the adventure ends here, the spirit of the Himalayas travels with you — in your heart, in your thoughts, and in the renewed energy you carry home."
-  }
 ],
 
     howToReach: {
@@ -1859,7 +1855,7 @@ seo: {
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
-    duration: ["5 Nights / 6 Days"],
+    duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [30.5416, 79.1801], // Sari Village (start)
@@ -1901,7 +1897,7 @@ seo: {
       "Experience a side of the Garhwal Himalayas that feels both mythical and impossibly serene. The Deoriatal–Chandrashila Trek begins gently, winding through ancient oak and rhododendron forests where the air is cool, birdsong echoes between the trees, and the forest floor glows with moss and wildflowers. As you climb, the landscape becomes a moving canvas — Himalayan woodpeckers darting between branches, verditer flycatchers glowing turquoise in the sunlight, and the elusive Himalayan Monal flashing iridescent colours in the undergrowth.<br>Soon the trail opens to the emerald shores of Deoriatal, a quiet, glass-still lake set against a backdrop of towering snow peaks of Chaukhamba and Kedarnath range. Locals believe gods and goddesses once bathed here — and when you see Chaukhamba reflected perfectly in the water, you’ll understand why this place feels sacred.<br>Beyond the lake lie wide, breezy meadows like Rohini and Shyalmi Bugyal, where the world suddenly expands. Shepherd shelters, soft grasslands dotted with seasonal blooms, and sweeping ridgelines guide you forward as the forests slowly give way to open Himalayan wilderness. Sunrise and sunset here are unforgettable — golden light spilling across distant ranges, clouds drifting like slow rivers below your feet.<br>The final ascent to Chandrashila Peak (12,083 ft) is short but exhilarating. As you reach the summit, the horizon bursts open into a full 360° panorama of the greatest Himalayan giants — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Nilkanth, and countless unnamed ridges fading into the sky. No other easy–moderate trek offers a summit view this grand.<br>Along the way, the spiritual heartbeat of the region accompanies you — especially at the Tungnath Temple, the highest Shiva temple in the world, standing resilient against roaring winds and centuries of snow.<br>This trek is more than a scenic trail — it’s a gentle, soul-stirring journey where forests, lakes, meadows, mythology, and mountains come together to create an experience that stays with you long after the trek ends."
     },
 
-    price: 12500,
+    price: 10900,
     priceNote: "* Sari to Sari",
     addons: {
       transport: 4000, 
@@ -1910,68 +1906,69 @@ seo: {
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
            
-    { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
-    { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
-    { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
-    { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
-    { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
-    { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
-    { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
-    { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
-    { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
-    { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
-    { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
-    { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
-    { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
-    { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
-    { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
-    { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
-    { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
-    { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
-    { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
-    { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
-    { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
-    { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
-    { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
-    { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
-    { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
-    { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
-    { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
-    { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
-    { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
-    { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
-    { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
-    { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
-    { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
-    { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
-    { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
-    { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
-    { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
-    { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
-    { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-    { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
-    { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-    { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-    { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
-    { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-    { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-    { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
-    { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-    { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-    { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-    { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-    { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-    { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-    { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-    { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-    { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-    { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-    { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-    { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" }, 
+    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
+{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
+{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
+{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
+{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
+{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
+{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
+{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
+{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
+{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
+{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
+{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
+{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
+{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
+{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
+{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
+{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
+{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
+{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
+{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
+{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
+{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
+{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
     ],
 
     highlights: [
@@ -2010,11 +2007,6 @@ seo: {
     title: "Baniya Kund to Chandrashila Peak (12,083 ft) via Tungnath and return to Sari",
     details: "<strong>• Trek Distance: 10 km | Duration: 5–6 hrs trek + 40 min drive.</strong><br>• Begin your day early from **Baniya Kund campsite** and drive 5 km towards Chopta, the base for the sacred **Tungnath Temple**. From Chopta, follow the well-marked cemented pilgrim trail ascending sharply through scissor bends. After approximately 4 km of climb, you reach Tungnath temple, the highest Shiva temple in the world, located at 12,083 ft. Along the way, keep an eye out for Himalayan Monals and other mountain birds nesting among the Birch trees.<br> From Tungnath, the trail continues behind the temple complex towards **Chandrashila Peak**. The path winds steeply with several switchbacks, covering a 600 ft ascent over 1.5 km. During winter months, expect snow-covered trails and ensure proper gear such as crampons or microspikes.<br> Reaching the summit, you are rewarded with a breathtaking **360° panoramic view** of the Garhwal and Kumaon ranges — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Dunagiri, and Gangotri ranges unfold in every direction. The sunrise here is spectacular and considered one of the best in the Himalayas.<br> After soaking in the views, descend via the same route back to Tungnath and then drive back to Baniya Kund. From Baniya Kund, after lunch, a 40-minute drive brings you back to Sari, completing your trek. Today’s journey combines high-altitude pilgrimage, steep climbs, and some of the most iconic vistas of the Garhwal Himalayas, leaving you with memories that last a lifetime."
   },
-  {
-    day: 6,
-    title: "Departure | Sari to Rishikesh (Drive)",
-    details: "<strong>• Drive Distance: ~195 km | Duration: 7–8 hrs.</strong><br>• Your final morning in the Himalayas begins slowly — perhaps a last look at the Chandrashilla peak glowing in the early light. After breakfast, you start the return drive following the same river valleys that now feel familiar. The mountains gradually give way to foothills, and the sounds of horns replace the wind and birds. Yet, something inside you has shifted — a calmness that the mountains leave behind. The trek ends, but the memory of Chandrashila’s sunrise stays forever."
-  }
 ],
 
     howToReach: {
@@ -2315,7 +2307,7 @@ seo: {
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
-    duration: ["5 Nights / 6 Days"],
+    duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
    coordinates: [
     [31.1051, 78.4305], // Sankri (start)
@@ -2339,7 +2331,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,150 ft (3,700 m)" },
         { emoji: "⚡", label: "Trek Distance", value: "30 Km" },
@@ -2360,7 +2352,7 @@ seo: {
 <br>The Phulara Ridge Trek is not merely a trail to traverse; it is a story to inhabit. Each day reveals layers of the Himalayas — the hidden forests, the vibrant shepherd meadows, and the endless sky-road of the ridge. For those who walk it, the mountains become more than scenery; they become a rhythm, a presence, and a memory carved deep into the heart, an adventure that lingers long after the descent.`    
 },
 
-    price: 12500,
+    price: 10900,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 4000, 
@@ -2375,22 +2367,22 @@ seo: {
       
      
       
-      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
-      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
-      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
-      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
-      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
-      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
-      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+      { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
+      { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
+      { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
+      { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
+      { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
+      { label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+      { label: "02 May - 06 May", start: "2026-05-02", end: "2026-05-06" },
+      { label: "03 May - 07 May", start: "2026-05-03", end: "2026-05-07" },
+      { label: "09 May - 13 May", start: "2026-05-09", end: "2026-05-13" },
+      { label: "10 May - 14 May", start: "2026-05-10", end: "2026-05-14" },
+      { label: "16 May - 20 May", start: "2026-05-16", end: "2026-05-20" },
+      { label: "17 May - 21 May", start: "2026-05-17", end: "2026-05-21" },
+      { label: "23 May - 27 May", start: "2026-05-23", end: "2026-05-27" },
+      { label: "24 May - 28 May", start: "2026-05-24", end: "2026-05-28" },
+      { label: "30 May - 03 Jun", start: "2026-05-30", end: "2026-06-03" },
+      { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
     ],
 
     highlights: [
@@ -2512,7 +2504,7 @@ seo: {
     difficulty: ["moderate", "difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
-    duration: ["7 Nights / 8 Days"],
+    duration: ["7 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [31.1051, 78.4305], // Sankri (start)
@@ -2537,7 +2529,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },     
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Ruinsaratal)" },
         { emoji: "⚡", label: "Trek Distance", value: "65 Km" },
@@ -2550,7 +2542,7 @@ seo: {
       snippet: "The Har Ki Dun–Ruinsara Tal Trek is a rare Himalayan journey where myth, wilderness, and silence come together in perfect harmony. Hidden within the Govind Pashu Vihar National Park, this trail takes you beyond the ordinary — from ancient mountain villages to a sacred alpine lake nestled at the base of the mighty Swargarohini peaks.<br>The journey begins in the Har Ki Dun Valley, a cradle-shaped paradise often called the Valley of the Gods. The path follows the shimmering Supin River, winding through whispering pine and deodar forests, past wooden bridges, and sun-drenched meadows that open to views of Bandarpoonch, Black Peak (Kalanag), and the snow-bound Swargarohini massif. Villages like Osla, Gangad, and Seema still carry the scent of living legend — their carved wooden temples and centuries-old homes echo stories from the Mahabharata, preserved through generations of mountain life.<br>Beyond Seema, the trail diverts toward Devsu Bugyal, a high meadow framed by oak and silver-fir forests. In summer, it bursts into color with wildflowers; by autumn, it glows gold beneath a crisp Himalayan sky. From here, the trek grows quieter and wilder — descending to the valley floor and following the Supin River deeper into the heart of the mountains.<br>At last, the forest opens to reveal Ruinsara Tal — a tranquil glacial lake shimmering at 3,600 meters, surrounded by glaciers and towering peaks. Its still waters mirror the heavens above and the Swargarohini range beyond, creating a sight that feels both sacred and surreal. Nights here are unforgettable — stars scattered across the sky, the lake gleaming in silver light, and an unbroken silence that humbles you to the core.<br>The return trail retraces this divine landscape, giving you one last chance to absorb the valley’s peace and beauty. The Har Ki Dun–Ruinsara Tal Trek is more than a route — it’s a dialogue between you and the mountains, between legend and reality, between solitude and belonging. It leaves you with stories you’ll carry long after you’ve descended — of rivers that sang, peaks that glowed, and a lake that reflected the sky."
     },
 
-    price: 18500,
+    price: 17400,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 4000, 
@@ -2559,18 +2551,16 @@ seo: {
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 8",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-      
-     
-      
-      { label: "28 Mar - 04 Apr", start: "2026-03-28", end: "2026-04-04" },
-      { label: "11 Apr - 18 Apr", start: "2026-04-11", end: "2026-04-18" },
-      { label: "18 Apr - 25 Apr", start: "2026-04-18", end: "2026-04-25" },
-      { label: "02 May - 09 May", start: "2026-05-02", end: "2026-05-09" },
-      { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
-      { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
+       
+    { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" },
+    { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
+    { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
+    { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
+    { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+    { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
       
     ],
 
@@ -2616,15 +2606,12 @@ seo: {
     details: "• Today marks the most awaited day of the entire trek — the day you finally step into the legendary Har Ki Dun Valley, often called the Valley of the Gods. After a warm breakfast amidst the high mountains, set off early for a long yet deeply rewarding journey through one of the most enchanting landscapes in the Himalayas.<br>The trail begins with a steady climb through alpine meadows, where the early morning sun paints the snow peaks in golden hues. As you gain altitude, the air turns crisper, and snow patches begin to appear, shimmering against the deep green of the valley. You’ll walk through lush meadows and forested slopes, sometimes crossing small glacial streams and boulder-strewn patches. In spring, the route bursts alive with wildflowers — primulas, rhododendrons, and gentians, while in winter, it transforms into a white wonderland straight out of a dream.<br>As the valley opens up, you’ll catch your first breathtaking view of Swargarohini Peak, followed by the grand sight of Hata Peak, Black Peak (Kalanag), and Bandarpoonch standing tall in the distance. Each step forward unveils new panoramas — soaring ridges, icy waterfalls, and endless alpine expanses that seem untouched by time.<br>At the heart of the valley lies a small stone temple dedicated to Lord Shiva, with a sacred Shivling and a statue of Nandi overlooking the mighty peaks. The place holds immense mythological significance — it is believed to be the path taken by the Pandavas on their way to heaven, giving the valley its divine aura and name, Har Ki Dun — “The Valley of the Gods.”<br>Spend some quiet time here, letting the serenity of the valley sink in. Capture the vastness of this heavenly amphitheater, surrounded by snow-clad summits and the murmuring of glacial streams.<br>After immersing yourself in this Himalayan paradise, begin your descent back to Seematra, retracing the same scenic trail. The journey down feels gentler and filled with reflection. By evening, you’ll reach your campsite, where a warm dinner and peaceful night under a starlit sky await — a perfect close to one of the most memorable days of your trek."
   },
   {
-    day: 7,
-    title: "Trek to Gangad – Drive to Sankri | Distance: 10 km | Time: 4–5 hrs | Altitude: 1,950 m",
-    details: "•  We begin our return journey from Seematra, retracing the same scenic trail that once led us deep into the valley. As we descend, the familiar trail feels different in the soft morning light. This time instead od descending to Seema bridge we will trek through the Osla village, where you’ll get a glimpse into its century-old wooden homes and the revered Someshwar Temple, where local culture and traditions are still alive and deeply rooted.<br>Continuing further, we descend down and terk past Pawani Garat to reach Gangad, a charming little hamlet by the riverbank — the perfect spot to pause and soak in the final moments of mountain peace. From here, we board our vehicles and drive back to Sankri, arriving by evening. After a long but fulfilling day, unwind at the guesthouse with a hot meal and cherish the memories of the journey."
-  },
-  {
-    day: 8,
-    title: "Departure | Drive from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
-    details: "• Today marks the end of a truly memorable Himalayan journey. After an early breakfast, we bid farewell to Sankri and begin our long drive back to Dehradun. The route retraces the same winding mountain roads, passing through pine forests, terraced villages, and lively mountain streams that now feel beautifully familiar.<br>It’s a scenic yet lengthy drive of about 10 hours so an early start helps us make the most of the day. Along the way, enjoy short breaks to stretch and take in the final glimpses of the valley — a last reminder of the wilderness you’ve just explored on foot.<br>By evening, we reach Dehradun late in the evening, marking the conclusion of the trek. As you part ways with the mountains and fellow trekkers, take with you the stories, laughter, and quiet moments that made this journey truly special. Until next time — see you on another trail with Planethimalayas!."
-  }
+  day: 7,
+  title: "Trek to Gangad – Drive to Sankri | Distance: 10 km | Time: 4–5 hrs | Altitude: 1,950 m",
+  details:
+    "The day begins with the descent from Seematra, retracing the familiar trail as it winds gently down the valley. Walking in the soft morning light, the landscape feels calmer and more reflective than the days before. Instead of descending directly to the Seema bridge, the trail passes through Osla village, offering a glimpse into its century-old wooden homes and the revered Someshwar Temple, where local traditions and daily life continue much as they have for generations.<br><br>From Osla, the trail continues downhill past Pawani Garat and along forested paths to reach Gangad, a quiet riverside hamlet tucked beside the Supin River. After a short rest, vehicles are arranged for the drive back to Sankri, following the familiar mountain road through deep valleys and pine forests.<br><br>Arrival at Sankri by evening marks the official end of the trek. With the mountains now behind you, it’s time to unwind, reflect on the journey, and carry back memories of remote trails, village life, and days spent deep in the Himalayas."
+},
+
 ],
 
 
@@ -2706,7 +2693,7 @@ seo: {
     difficulty: ["easy", "moderate"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
-    duration: ["5 Nights / 6 Days"],
+    duration: ["6 Nights / 6 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
   [31.0817, 78.0611], // Sankri (start)
@@ -2730,7 +2717,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },     
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
@@ -2753,7 +2740,7 @@ seo: {
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
       
@@ -2810,15 +2797,17 @@ seo: {
     details: "• Today marks the most awaited day of the entire trek — the day you finally step into the legendary Har Ki Dun Valley, often called the Valley of the Gods. After a warm breakfast amidst the high mountains, set off early for a long yet deeply rewarding journey through one of the most enchanting landscapes in the Himalayas.<br>The trail begins with a steady climb through alpine meadows, where the early morning sun paints the snow peaks in golden hues. As you gain altitude, the air turns crisper, and snow patches begin to appear, shimmering against the deep green of the valley. You’ll walk through lush meadows and forested slopes, sometimes crossing small glacial streams and boulder-strewn patches. In spring, the route bursts alive with wildflowers — primulas, rhododendrons, and gentians, while in winter, it transforms into a white wonderland straight out of a dream.<br>As the valley opens up, you’ll catch your first breathtaking view of Swargarohini Peak, followed by the grand sight of Hata Peak, Black Peak (Kalanag), and Bandarpoonch standing tall in the distance. Each step forward unveils new panoramas — soaring ridges, icy waterfalls, and endless alpine expanses that seem untouched by time.<br>At the heart of the valley lies a small stone temple dedicated to Lord Shiva, with a sacred Shivling and a statue of Nandi overlooking the mighty peaks. The place holds immense mythological significance — it is believed to be the path taken by the Pandavas on their way to heaven, giving the valley its divine aura and name, Har Ki Dun — “The Valley of the Gods.”<br>Spend some quiet time here, letting the serenity of the valley sink in. Capture the vastness of this heavenly amphitheater, surrounded by snow-clad summits and the murmuring of glacial streams.<br>After immersing yourself in this Himalayan paradise, begin your descent back to Seematra, retracing the same scenic trail. The journey down feels gentler and filled with reflection. By evening, you’ll reach your campsite, where a warm dinner and peaceful night under a starlit sky await — a perfect close to one of the most memorable days of your trek." 
   },
   {
-    day: 5,
-    title: "Trek to Gangad – Drive to Sankri | Distance: 10 km | Time: 4–5 hrs | Altitude: 1,950 m",
-    details: "• We begin our return journey from Seematra, retracing the same scenic trail that once led us deep into the valley. As we descend, the familiar trail feels different in the soft morning light. This time instead od descending to Seema bridge we will trek through the Osla village, where you’ll get a glimpse into its century-old wooden homes and the revered Someshwar Temple, where local culture and traditions are still alive and deeply rooted.<br>Continuing further, we descend down and terk past Pawani Garat to reach Gangad, a charming little hamlet by the riverbank — the perfect spot to pause and soak in the final moments of mountain peace. From here, we board our vehicles and drive back to Sankri, arriving by evening. After a long but fulfilling day, unwind at the guesthouse with a hot meal and cherish the memories of the journey."
+  day: 5,
+  title: "Trek to Pawani Garat | Distance: 8–9 km | Time: 4–5 hrs | Altitude: ~1,900 m",
+  details:
+    "The day begins with the descent from Seematra, retracing parts of the familiar trail as the valley slowly opens up below. The walk feels gentler in the morning light, with forests thinning out and village paths appearing more frequently.<br><br>Instead of heading directly toward the Seema bridge, the trail passes through Osla village — a cultural highlight of the trek. Here, you walk past centuries-old wooden houses and the revered Someshwar Temple, offering a close look at the traditional lifestyle and deep-rooted customs of the region.<br><br>Continuing downhill, the trail winds through forest sections and terraced slopes before reaching Pawani Garat, a quiet riverside clearing. Surrounded by greenery and flowing water, this spot makes for a peaceful halt after a fulfilling day of walking. The evening is spent resting and soaking in the calm of the lower valley."
   },
   {
-    day: 6,
-    title: "Departure | Drive from Sankri to Dehradun | Distance: ~200 km | Time: 7–8 hrs",
-    details: "Today marks the end of a truly memorable Himalayan journey. After an early breakfast, we bid farewell to Sankri and begin our long drive back to Dehradun. The route retraces the same winding mountain roads, passing through pine forests, terraced villages, and lively mountain streams that now feel beautifully familiar.<br>It’s a scenic yet lengthy drive of about 10 hours so an early start helps us make the most of the day. Along the way, enjoy short breaks to stretch and take in the final glimpses of the valley — a last reminder of the wilderness you’ve just explored on foot.<br>By evening, we reach Dehradun late in the evening, marking the conclusion of the trek. As you part ways with the mountains and fellow trekkers, take with you the stories, laughter, and quiet moments that made this journey truly special. Until next time — see you on another trail with Planethimalayas!."
-  }
+  day: 6,
+  title: "Trek to Dhatmeer Roadhead – Drive to Sankri | Distance: 6–7 km Trek + Drive",
+  details:
+    "The final day starts with a relaxed descent from Pawani Garat, following village trails and forest paths toward the Dhatmeer roadhead. As altitude drops further, the surroundings gradually shift from dense forest to open valleys and scattered settlements, signalling the end of the trekking journey.<br><br>Upon reaching the roadhead at Dhatmeer, vehicles are arranged for the drive back to Sankri. The drive retraces scenic mountain roads along rivers and pine-covered slopes, bringing you back to the familiar base town by afternoon or early evening.<br><br>With the trek officially complete, the journey concludes in Sankri — carrying back memories of remote trails, cultural encounters, and days spent deep in the Garhwal Himalayas."
+  },
 ],
 
 
@@ -2944,7 +2933,7 @@ seo: {
 
 <br>Accessible, rewarding, and rich in both natural grandeur and mountain culture, the Kuari Pass Trek is not just a high-altitude adventure — it’s a graceful introduction to the soul of the Himalayas, a journey where every step reminds you why these mountains have inspired explorers for over a century.`  },
 
-  price: 11900,
+  price: 10400,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 6000,
@@ -3145,7 +3134,7 @@ seo: {
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 6 Days",
+  duration: "5 Nights / 5 Days",
   coordinates: [
     [31.0362, 78.1746], // Sankri (base)
     [31.0837, 78.2167], // Kedarkantha summit
@@ -3167,7 +3156,7 @@ seo: {
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Kedarkantha Summit)" },
       { emoji: "⚡", label: "Trek Distance", value: "20–22 Km" },
@@ -3186,7 +3175,7 @@ seo: {
 <br>Balanced in difficulty and rich in reward, Kedarkantha is a winter trek that blends gentle adventure with unforgettable Himalayan drama — the perfect journey for anyone dreaming of snow-covered forests, wide mountain views, and an intimate connection with the winter wilderness.`
   },
 
-  price: 12500,
+  price: 10400,
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 4000,
@@ -3195,67 +3184,68 @@ seo: {
     offloadingNote: "* Maximum weight 9kg/bag",
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 5",
 
   dates: [   
-    { label: "15 Dec - 20 Dec", start: "2025-12-15", end: "2025-12-20" },
-    { label: "20 Dec - 25 Dec", start: "2025-12-20", end: "2025-12-25" },
-    { label: "21 Dec - 26 Dec", start: "2025-12-21", end: "2025-12-26" },
-    { label: "22 Dec - 27 Dec", start: "2025-12-22", end: "2025-12-27" },
-    { label: "27 Dec - 01 Jan", start: "2025-12-27", end: "2026-01-01" },
-    { label: "28 Dec - 02 Jan", start: "2025-12-28", end: "2026-01-02" },
-    { label: "29 Dec - 03 Jan", start: "2025-12-29", end: "2026-01-03" },
-    { label: "03 Jan - 08 Jan", start: "2026-01-03", end: "2026-01-08" },
-    { label: "04 Jan - 09 Jan", start: "2026-01-04", end: "2026-01-09" },
-    { label: "05 Jan - 10 Jan", start: "2026-01-05", end: "2026-01-10" },
-    { label: "10 Jan - 15 Jan", start: "2026-01-10", end: "2026-01-15" },
-    { label: "11 Jan - 16 Jan", start: "2026-01-11", end: "2026-01-16" },
-    { label: "12 Jan - 17 Jan", start: "2026-01-12", end: "2026-01-17" },
-    { label: "17 Jan - 22 Jan", start: "2026-01-17", end: "2026-01-22" },
-    { label: "18 Jan - 23 Jan", start: "2026-01-18", end: "2026-01-23" },
-    { label: "19 Jan - 24 Jan", start: "2026-01-19", end: "2026-01-24" },
-    { label: "24 Jan - 29 Jan", start: "2026-01-24", end: "2026-01-29" },
-    { label: "25 Jan - 30 Jan", start: "2026-01-25", end: "2026-01-30" },
-    { label: "26 Jan - 31 Jan", start: "2026-01-26", end: "2026-01-31" },
-    { label: "31 Jan - 05 Feb", start: "2026-01-31", end: "2026-02-05" },
-    { label: "01 Feb - 06 Feb", start: "2026-02-01", end: "2026-02-06" },
-    { label: "02 Feb - 07 Feb", start: "2026-02-02", end: "2026-02-07" },
-    { label: "07 Feb - 12 Feb", start: "2026-02-07", end: "2026-02-12" },
-    { label: "08 Feb - 13 Feb", start: "2026-02-08", end: "2026-02-13" },
-    { label: "09 Feb - 14 Feb", start: "2026-02-09", end: "2026-02-14" },
-    { label: "14 Feb - 19 Feb", start: "2026-02-14", end: "2026-02-19" },
-    { label: "15 Feb - 20 Feb", start: "2026-02-15", end: "2026-02-20" },
-    { label: "16 Feb - 21 Feb", start: "2026-02-16", end: "2026-02-21" },
-    { label: "21 Feb - 26 Feb", start: "2026-02-21", end: "2026-02-26" },
-    { label: "22 Feb - 27 Feb", start: "2026-02-22", end: "2026-02-27" },
-    { label: "23 Feb - 28 Feb", start: "2026-02-23", end: "2026-02-28" },
-    { label: "28 Feb - 05 Mar", start: "2026-02-28", end: "2026-03-05" },
-    { label: "01 Mar - 06 Mar", start: "2026-03-01", end: "2026-03-06" },
-    { label: "02 Mar - 07 Mar", start: "2026-03-02", end: "2026-03-07" },
-    { label: "07 Mar - 12 Mar", start: "2026-03-07", end: "2026-03-12" },
-    { label: "08 Mar - 13 Mar", start: "2026-03-08", end: "2026-03-13" },
-    { label: "09 Mar - 14 Mar", start: "2026-03-09", end: "2026-03-14" },
-    { label: "14 Mar - 19 Mar", start: "2026-03-14", end: "2026-03-19" },
-    { label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-    { label: "16 Mar - 21 Mar", start: "2026-03-16", end: "2026-03-21" },
-    { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-    { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-    { label: "23 Mar - 28 Mar", start: "2026-03-23", end: "2026-03-28" },
-    { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-    { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-    { label: "30 Mar - 04 Apr", start: "2026-03-30", end: "2026-04-04" },
-    { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-    { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-    { label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-    { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-    { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-    { label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-    { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-    { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-    { label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-    { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-    { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
-    { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
+    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
+{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
+{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
+{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
+{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
+{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
+{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
+{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
+{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
+{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
+{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
+{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
+{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
+{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
+{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
+{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
+{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
+{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
+{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
+{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
+{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
+{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
+{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
   ],
 
   highlights: [
@@ -3296,10 +3286,7 @@ itinerary: [
 • Observe shepherds and local villagers tending to livestock, and small stone-built shrines along the way.<br>
 • Return to Sankri, evening free to explore local market, taste Garhwali cuisine, and interact with residents.` 
   },
-  { day: 6, title: "Departure from Sankri", 
-    details: `• Drive back 8–9 hrs to Dehradun through scenic valleys.<br>
-• Memories of snow-capped peaks, alpine meadows, and cultural encounters accompany trekkers as the journey concludes.` 
-  },
+  
 ],
 
   didYouKnow: [
@@ -3677,7 +3664,7 @@ itinerary: [
 
 <br>Bali Pass is demanding, unforgiving, and profoundly rewarding. For trekkers who come prepared and committed, it offers one of the most immersive, memorable, and culturally rich high-altitude crossovers in all of Uttarakhand — a journey that feels like both a pilgrimage and an adventure.`},
 
-  price: 22900,
+  price: 18900,
   priceNote: "* Sankri to Janki Chatti",
   addons: {
     transport: 5000,
@@ -3844,7 +3831,7 @@ itinerary: [
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     region: "uttarakhand-garhwal",
-    duration: "7 Nights / 8 Days",
+    duration: "7 Nights / 7 Days",
     coordinates: [
       [30.0333, 79.3300], // Lohajung (start) – approx
       [30.2157,79.6958], // Bedni Bugyal
@@ -3872,7 +3859,7 @@ itinerary: [
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,750 ft (Roopkund Lake)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
@@ -3885,7 +3872,7 @@ itinerary: [
       snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
     },
 
-    price: 20900,     // you can fill in actual price
+    price: 17400,     // you can fill in actual price
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 5000,    // fill in as applicable
@@ -3894,7 +3881,7 @@ itinerary: [
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 8",
+    inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
     enquireOnly: true,
 
@@ -3942,11 +3929,7 @@ itinerary: [
     "title": "Patar Nachauni to Wan Village (7,900–8,200 ft) + Drive to Lohajung | Trek Distance: ~15 km | Duration: ~7–8 hrs.",
     "details": "The descent begins through the open meadows, retracing the trail past Bedni Bugyal where the morning sun casts long shadows across the grasslands. The landscape slowly softens as you leave behind the rocky high-altitude ridges of Bhagwabasa. Wild mountain goats are often seen grazing here, and Himalayan eagles glide effortlessly above the valley. As the trail drops below the tree line, you re-enter cool forests of oak, rhododendron, and pine, where the scents of damp earth and forest foliage feel refreshing after days spent in the alpine zone. You cross Neel Ganga once again, this time appreciating the familiar bridge and the comforting sound of flowing water before making the final ascent to Wan village. A short, scenic drive takes you back to Lohajung, where warm food, a soft bed, and the quiet satisfaction of completing a historic trek await you."
   },
-  {
-    "day": 8,
-    "title": "Departure | Lohajung to Rishikesh Drive Distance: ~250 km | Duration: ~9–11 hrs.",
-    "details": "After breakfast, you bid farewell to the mountains and begin your long descent back toward the plains. The drive retraces the winding roads through Dewal, Gwaldam, and other small Himalayan settlements, offering one last look at the terraced fields, pine forests, and high ridges that marked the start of your journey. As you lose altitude, the cool mountain air gradually gives way to the warmer, busier atmosphere of the lower valleys. By evening or late night—depending on your final destination—you reach Kathgodam or Rishikesh, concluding the Roopkund adventure with memories of mystical meadows, high ridges, icy slopes, and the mysterious glacial lake that has intrigued trekkers and historians for generations."
-  }
+  
 ],
 
     didYouKnow: [
@@ -4067,7 +4050,7 @@ itinerary: [
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["10 Nights / 11 Days"],
+    duration: ["10 Nights / 10 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
         [30.0690, 80.2430], // Munsiyari
@@ -4097,7 +4080,7 @@ itinerary: [
 
     overview: {
         facts: [
-            { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days" },
+            { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days" },
             { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
             { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,700 m" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 100 Km" },
@@ -4121,7 +4104,7 @@ itinerary: [
     },
 
     inclusionsNote:
-        "🍽️ All Meals – Nutritious meals provided from lunch on Day 2 to breakfast on Day 7",
+        "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 10",
 
     highlights: [
         "Trek into the remote Johar Valley, once part of an ancient Indo-Tibetan trade route",
@@ -4194,12 +4177,7 @@ itinerary: [
     details:
         "<strong>• Trek: ~8 km | Drive: ~16–20 km | Duration: 2–3 hrs trek + 2 hrs drive</strong><br>• Complete the final trek from Bugdiyar to Babaldhar through serene valleys and forests. Enjoy one last immersive view of the Himalayas before boarding a vehicle for a scenic drive back to Munsiyari. Arrive by afternoon, unwind, and reflect on the remarkable journey."
 },
-{
-    day: 11,
-    title: "Departure | Munsiyari - Kathgodam (3,200 m → 500 m) | 300 km Drive | 9–10 hrs",
-    details:
-        "<strong>• Drive: 300 km | Duration: 9–10 hrs</strong><br>• After breakfast, begin the return journey to Kathgodam, descending through the scenic Kumaon landscapes. As the mountains recede behind you, cherish the memories of glaciers, alpine meadows, and the awe-inspiring Nanda Devi East Base Camp adventure."
-}
+
 ],
 
     howToReach: {
@@ -4318,6 +4296,189 @@ itinerary: [
     faqsLink: "/faqs-and-articles",
 },
 
+{
+  id: "ranthan-kharak-trek",
+  name: "Ranthan Kharak Trek",
+  tags: ["intermediate"],
+  difficulty: ["moderate"],
+  season: ["summer", "monsoon"],
+  month: ["may", "june", "september", "october"],
+  region: "uttarakhand-kumaon",
+  duration: "6 Nights / 6 Days",
+
+  coordinates: [
+  [29.4727, 79.6497],   // Kathgodam
+  [29.9355, 79.9858],   // Gogina Village
+  [29.9598, 80.0156],   // Namik Village / Namik Campsite
+  [29.9925, 80.0418],   // Bajimanian Kharak
+  [30.0258, 80.0669],   // Thal Tok (Mountain Col)
+  [30.0476, 80.0832],   // Ranthan Top
+  [29.9598, 80.0156],   // Return to Namik
+  [29.9355, 79.9858],   // End at Gogina
+  ],
+
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+
+  heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765805061/IMG-20160313-WA0018_hseesn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329743/chandrasila-trek-spring-view1_w4djrk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+  ],
+
+  subtitle: "Hidden Meadow of Kumaon Himalayas",
+
+  seo: {
+    title: "Ranthan Kharak Trek | Alpine Meadows of Kumaon | Planethimalayas",
+    description: "Ranthan Kharak Trek is a lesser-known Himalayan trail in Kumaon, offering vast alpine meadows, forest walks, and stunning views of Nanda Devi and surrounding peaks. Explore itinerary, difficulty, and details with Planethimalayas."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m (12,140 ft)" },
+      { emoji: "⚡", label: "Trek Distance", value: "40–45 Km (approx.)" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June, September–October" },
+      { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Gogina Village" },
+      { emoji: "🏁", label: "End Point", value: "Gogina Village" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+    ],
+
+    snippet:
+      "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
+  },
+
+  price: 9400,
+  priceNote: "* Kathgodam to Kathgodam",
+  addons: {
+    transport: 6000,
+    transportNote: "* kathgodam to Kathgodam",
+    offloadingbag: 3500,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
+
+  highlights: [
+    "Explore the vast and rarely visited alpine meadows of Ranthan Kharak",
+    "Walk through dense oak, pine, and rhododendron forests of Kumaon",
+    "Panoramic views of Nanda Devi, Nanda Kot, and Maiktoli on clear days",
+    "Experience true Himalayan solitude away from crowded trails",
+    "Traditional villages and ancient stone-paved mountain paths",
+    "Wildflowers and grazing horses across open high-altitude grasslands",
+    "Ideal trek for those seeking slow, immersive mountain travel"
+  ],
+
+  itinerary: [
+   {
+  day: 1,
+  title: "Arrival at Gogina",
+  details:
+    "Day 1 is scheduled as the arrival day at Gogina. Most trekkers usually reach Gogina from Kathgodam, a long but scenic drive into the interior regions of Kumaon. Transport for this route may be opted as an add-on, while some trekkers may choose to arrive independently from Kathgodam or other nearby towns.<br><br>The drive, for those travelling from Kathgodam, passes through winding mountain roads, forested ridges, and river valleys. After crossing Almora and reaching Bageshwar — the last major town on the route — the road follows the river upstream and climbs through small mountain villages before reaching Gogina. By evening, all participants assemble at the village. Settle into a local homestay, enjoy a warm meal, and rest well, as the trek begins the following morning."
+},
+    {
+  day: 2,
+  title: "Gogina – Namik Campsite | 6.5 km Trek | 1,955 m → 2,253 m",
+  details:
+    "The trek begins by walking through the quiet lanes of Gogina village, passing stone houses and farmlands before crossing a small bridge. Soon after, the trail takes a sharp descent into a deep gorge, dropping steadily towards the Ramganga River. This section is narrow and rocky in parts, offering dramatic views of cliffs and the river far below.<br><br>At the bottom of the gorge, you cross a long suspension bridge over the Ramganga — a thrilling crossing with the river flowing beneath. From here, the character of the trek changes completely as the trail climbs steeply through dense forests. A well-laid zig-zag path leads upward through oak, chestnut, bamboo, and deodar trees, testing endurance but rewarding with sweeping valley views.<br><br>As the ascent eases, signs of habitation appear — small farmlands, a village school, and scattered homes signal the approach to Namik. Walking through the terraced village offers a glimpse into the local mountain lifestyle. The campsite is located above the village in an open clearing near a temple, with views of the valley, surrounding villages, and distant glacier-fed mountains. The rest of the evening is spent resting and soaking in the peaceful setting."
+},
+    {
+  day: 3,
+  title: "Namik Campsite – Bajimanian Kharak | 5.4 km Trek | 2,253 m → 2,954 m",
+  details:
+    "The day begins with a gentle ascent from Namik through stone-laid trails that alternate between dense forests and wide alpine clearings known locally as kharaks. Early sections open into grassy meadows dotted with shepherd huts, offering beautiful morning views and a sense of life in these high pastures.<br><br>The trail then weaves through mixed forests of oak, maple, and rhododendron, forming a natural canopy overhead. The sound of leaves underfoot and nearby streams adds to the calm rhythm of the climb. A small stream crossing provides a good spot to refill water before reaching the first major clearing — a vast meadow enclosed by towering trees, perfect for a barefoot walk on the grass.<br><br>Continuing ahead, the route passes more forest pockets and open meadows, each with a distinct character. As you approach Bajimanian Kharak, the landscape opens up again into layered clearings used by shepherds during grazing season. The campsite is set in the upper meadow near Balchan Kund, a serene forest pond revered by locals. Spend the evening exploring the surroundings, listening to forest sounds, and soaking in the peaceful atmosphere of this beautiful high-altitude pasture."
+},
+    {
+  day: 4,
+  title: "Bajimanian Kharak – Thal Tok | 5 km Trek | 2,954 m → 3,393 m",
+  details:
+    "The day begins with a steady ascent from Bajimanian Kharak along stone-laid trails, weaving through open clearings and patches of dwarf rhododendron. As you climb higher, the forest thins out and the views begin to open, revealing expansive alpine landscapes ahead.<br><br>About a kilometre into the trek, the trail splits — one route leading towards high passes and distant valleys, while the left-hand trail continues towards Thal Tok. Taking the left, the path gently descends onto a narrow ledge walk that contours the mountainside, offering sweeping views of vast grasslands below.<br><br>Soon, the trail opens into wide alpine meadows where shepherds often graze their flocks. Crossing the meadow, the terrain changes once again as the route steepens towards the ridge. A zig-zag climb over rocky slopes and juniper shrubs leads you higher, testing endurance and balance at altitude.<br><br>Reaching Thal Tok, a wind-swept mountain col, the surroundings feel stark and dramatic. This high saddle connects multiple ridgelines and offers striking views of snow-clad Himalayan peaks. The campsite lies near the ridge, set in a raw, high-altitude environment that signals your transition into the true alpine zone."
+},
+    {
+  day: 5,
+  title: "Thal Tok – Ranthan Top – Namik | 14.2 km Trek | 3,393 m → 3,930 m → 2,253 m",
+  details:
+    "This is the longest and most demanding day of the trek, beginning before sunrise. From Thal Tok, the trail climbs steeply through rocky switchbacks toward the Chophu shoulder, opening up to vast mountain views as altitude is gained. The ascent continues over boulders and ridgelines, gradually transitioning into an exposed ridge walk that leads toward Ranthan Top.<br><br>The final climb to Ranthan Top is steep and strenuous, but the reward is immense. From the summit, sweeping views stretch across both Garhwal and Kumaon ranges, with massive Himalayan peaks rising on either side of the valley. The sense of scale and remoteness here defines the soul of the trek.<br><br>After spending time at the top, the descent begins — long, continuous, and testing on tired legs. The trail retraces ridges and ledges before dropping into alpine meadows and eventually re-entering forested sections. Gradually, the landscape softens as you descend toward Parava Thor and further down to Namik.<br><br>By late afternoon or evening, you reach Namik village, marking the end of an intense yet unforgettable day that brings together high-altitude ridges, dramatic mountain views, and a deep sense of accomplishment."
+},
+    {
+  day: 6,
+  title: "Namik – Gogina | 6.5 km Trek | 2,808 m → 1,956 m",
+  details:
+    "The final day of the trek begins with a steady descent from Namik, following the same trail taken on the first day. The path drops sharply at first, cutting down through forested slopes toward a suspension bridge that spans the gorge below. After crossing the bridge, a short but noticeable ascent brings you back onto the village trail — a reminder to stay attentive even on familiar ground.<br><br>As the trail evens out, the surroundings gradually shift from remote wilderness to cultivated fields and scattered huts. The mountains begin to recede into the background, replaced by village life and open valleys. This section is straightforward, but care is needed at trail junctions where the main path climbs quickly back onto the mud trail leading to Gogina.<br><br>The final stretch is an easy walk, allowing time to reflect on the journey of the past days — from high ridges and alpine meadows to long descents and quiet forest paths. Reaching Gogina by late morning or early afternoon marks the end of the trek, carrying back memories of a demanding yet deeply rewarding Himalayan experience."
+},
+  ],
+
+  didYouKnow: [
+  "Ranthan Kharak takes its name from two features: ‘Ranthan’ (the summit/top) and ‘Kharak’ (the many high-altitude clearings) that shepherds use for summer grazing.",
+  "The trek is famous for its spring rhododendron bloom — carpets of red and pink rhododendron flowers appear across the forests and kharaks, typically in April–May.",
+  "Balchan Kund, near the Bajimanian Kharak campsite, is a small, locally revered pond: the area around the kund attracts diverse birdlife (including Monal and other high-altitude species) and is used by villagers for ritual observances.",
+  "Nanda Kund / Nanda Kunda (approachable from higher ridges) is considered sacred in local tradition and offers panoramic views of both Garhwal and Kumaon Himalayan ranges on clear days.",
+  "The kharaks (meadows) are traditional seasonal grazing grounds used by local shepherds and village communities; many of the stone trails predate modern trekking routes and were once cattle/pony migration paths.",
+  "Local villages along the route practise terrace farming (potatoes, rajma, millets) and observe seasonal harvest customs – trekkers often witness local hospitality and simple village rituals when timings coincide with festivals.",
+  "Several shepherd-built stone huts and fenced enclosures visible on the trail are examples of sustainable, vernacular mountain architecture adapted to seasonal grazing life.",
+  "The upper ridges and ledges around Ranthan Top show clear signs of seasonal snow and verglass in early summer — these north-facing sections hold snow longer and demand caution during thaw/early season treks.",
+  "The route passes small, sacred tree-shrines (locally tied with ribbons) where villagers honour forest spirits and deities (examples: local worship of wood/forest spirits like ‘Golu Devta’), reflecting the deep local relationship with the landscape.",
+  "Because Ranthan Kharak lies in the transition zone between Garhwal and Kumaon ranges, trekkers can observe an especially rich mix of flora and birdlife — from oak/deodar forests to alpine meadow species — in a relatively short distance."
+  ],
+
+
+  howToReach: {
+    air: "Nearest airport: Pantnagar Airport. From Pantnagar, continue by road to Kathgodam and onward to Gogina Village.",
+    train: "Nearest railway station: Kathgodam. Well connected to Delhi and other major cities of North India.",
+    road: "Kathgodam is well connected by road to Delhi and other cities of Uttarakhand. From Kathgodam, a long mountain drive leads to Gogina Village via Almora and Bageshwar.",
+    travelTip: "Arrive at Kathgodam a day in advance to account for travel delays. Early morning departures are recommended for the drive to Gogina Village."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329886/chandrasila-trek-spring-view2_bg7mi8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765805061/IMG-20160313-WA0018_hseesn.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329743/chandrasila-trek-spring-view1_w4djrk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who is this trek suitable for?",
+        answer:
+          "The Ranthan Kharak Trek is suitable for trekkers with prior experience and good fitness levels. Beginners with strong endurance may attempt it under guidance."
+      },
+      {
+        question: "What is the difficulty level of this trek?",
+        answer:
+          "The trek is graded moderate. There are no technical sections, but consecutive walking days and altitude gain require stamina."
+      },
+      {
+        question: "What kind of terrain can I expect?",
+        answer:
+          "The trek includes village trails, forest paths, river crossings, and wide alpine meadows."
+      },
+      {
+        question: "When is the best time to do the Ranthan Kharak Trek?",
+        answer:
+          "The best months are May–June and September–October, when the meadows are accessible and weather is relatively stable."
+      },
+      {
+        question: "Is this trek crowded?",
+        answer:
+          "No. Ranthan Kharak remains one of the quieter and lesser-known treks in the Kumaon region."
+      },
+      {
+        question: "What makes this trek unique?",
+        answer:
+          "Its vast, untouched meadows, quiet trails, and immersive wilderness experience set it apart from more popular Himalayan treks."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
+},
 
 {
     id: "dhakuri-pass-trek",
@@ -4326,7 +4487,7 @@ itinerary: [
     difficulty: ["easy"],
     season: ["spring", "summer", "monsoon", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
-    duration: ["4 Nights / 5 Days"],
+    duration: ["4 Nights / 4 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
         [29.5300, 79.6100], // Kathgodam (start)
@@ -4355,7 +4516,7 @@ itinerary: [
 
     overview: {
         facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 4 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "🏔️", label: "Max Altitude", value: "3,300 m (Chiltha Mata Top)" },
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 22 km" },
@@ -4377,7 +4538,7 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     `
     },
 
-    price: 10500,
+    price: 8400,
     priceNote: "* Dhoor/Loharkhet to Loharkhet/Dhoor",
 
     addons: {
@@ -4388,7 +4549,7 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     },
 
     inclusionsNote:
-      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
+      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     highlights: [
         "Scenic trek through oak, pine, and rhododendron forests",
@@ -4428,13 +4589,7 @@ Start before sunrise with tea and begin the 5 km ascent to Chiltha Mata Temple T
 After breakfast, descend gradually through forests and old trade routes towards Loharkhet — once the traditional gateway for deeper Johar Valley expeditions. Reach by late afternoon, check into a homestay or campsite, and enjoy your final evening in the mountains.
             `
         },
-        {
-            day: 5,
-            title: "Loharkhet to Kathgodam (554 m) | 180 km Drive | 8–9 Hours",
-            details: `
-Begin the return journey early morning. Drive back through Almora, Bageshwar, and the scenic river valleys, reaching Kathgodam by evening. Your Dhakuri adventure comes to a peaceful close.
-            `
-        }
+        
     ],
 
     howToReach: {
@@ -4507,7 +4662,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["5 Nights / 6 Days"],
+    duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-kumaon",
 
     coordinates: [
@@ -4538,7 +4693,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
     overview: {
         facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m" },
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 48 Km" },
@@ -4553,7 +4708,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     "The Pindari Glacier Trek is a classic Himalayan journey into the wild heart of Kumaon, where every bend in the trail reveals a new surprise—whispering forests, roaring rivers, ancient trade routes, and the towering guardians of the Nanda Devi Sanctuary. Your adventure begins in the peaceful village of Khati, a little world of wooden homes, terraced fields, and warm mountain hospitality. The moment you step onto the trail, the scent of rhododendrons, the echo of distant waterfalls, and the calls of rare Himalayan birds pull you deeper into the valley.<br>As you move toward Dwali, the forest opens and closes like a living storybook—bridges swing above the turquoise Pindar River, moss-covered boulders glow in filtered sunlight, and high cliffs loom overhead like silent protectors. The trail climbs gradually, crossing spider-walls, old stone pathways, and landslide slopes carved over centuries by storms, glaciers, and monsoon winds. Every day feels different: one moment you're wrapped in dense greenery, and the next you’re standing before vast open meadows, icy streams, and ridgelines that lead your eyes straight to distant peaks.<br>Beyond Phurkia, the valley changes character entirely—alpine winds pick up, the landscape turns stark and glacial, and the mighty face of Nanda Khat glows golden in the morning sun. The approach to Zero Point is pure Himalayan theatre: snow bridges, frozen water channels, tumbling ice blocks, and the thunderous silence of high mountains. And then, without warning, the glacier appears—enormous, serene, shimmering beneath the sky. Standing at 12,300 ft in front of the snout of Pindari Glacier is not just a photo moment; it feels like touching the ancient heartbeat of the Himalayas.<br>Nights are spent in cozy camps surrounded by towering cliffs and a sky thick with stars. The quiet villages, the smiling locals, and the age-old stories of explorers who once passed through this valley add depth to the journey. As you descend back toward Khati, the trail seems to tell a different story—one of gratitude, calm, and connection to nature.<br>The Pindari Glacier Trek is perfect for both beginners and seasoned trekkers, thanks to its balanced terrain, rich biodiversity, and a trail that remains accessible for most of the year. From forests splashed with colour to glacial amphitheatres that take your breath away, this trek is a complete Himalayan experience—safe, scenic, and unforgettable.<br><br><strong>Please note:</strong> Trail sections between Khati, Dwali, and Phurkia can be affected by early-season snow, monsoon landslides, and stream crossings. Proper layers, sturdy footwear, and basic fitness ensure a smooth and rewarding journey."
     },
 
-    price: 12900,
+    price: 10400,
     priceNote: "* Khati to Khati",
 
     addons: {
@@ -4564,7 +4719,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     },
 
     inclusionsNote:
-      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     highlights: [
     "One of Kumaon’s most iconic treks leading to the mighty Pindari Glacier",
@@ -4608,12 +4763,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     details:
         "<strong>• Trek: 18 km | Duration: 7–8 hrs</strong><br>• Today begins your long descent back toward the lower valley. Start early from Phurkia and retrace the same scenic trail you climbed earlier. Within 2 hours, you’ll reach Dwali after crossing the familiar snow bridges, meadows, and the forested ridge sections.<br>• From Dwali, continue your steady descent toward Khati. The route takes you through all the earlier landslide zones, narrow forest paths, and stretches along the thundering Pindar River. The downhill walk is faster but requires caution, especially on loose gravel and broken trail patches.<br>• As you lose altitude, the landscape transitions back into dense Rhododendron and Oak forests, followed by wide valley bends and wooden bridges that mark your return journey. After 4–5 hours from Dwali, you finally reach Khati — the warm, familiar village surrounded by Himalayan peaks.<br>• Settle into your campsite for the night. After a long day of trekking, enjoy a hearty dinner and rest well in the peaceful Khati valley."
 },
-        {
-    day: 6,
-    title: "Khati – Kharkia – Kathgodam | Trek + Drive | Full Day",
-    details:
-        "<strong>• Trek: 4 km | Duration: 1 hr<br>• Drive: Kharkia to Kathgodam</strong><br>• On your final day, start early from Khati and descend along the familiar forested trail to reach Kharkia, the road-head, in about an hour. Enjoy the last views of the quiet valley as you complete the trek portion of your journey.<br>• From Kharkia, begin the long drive back to Kathgodam, passing through the scenic towns of Kapkot, Bageshwar, Almora, and Bheemtal. The lush Kumaon landscape slowly gives way to plains as you return to civilization.<br>• You will reach Kathgodam by evening, marking the end of your Pindari Glacier adventure. Plan your onward travel accordingly and carry home unforgettable memories of the Himalayas."
-},
+        
     ],
 
     howToReach: {
@@ -4794,7 +4944,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
   },
 
-  price: 20900,
+  price: 13400,
   priceNote: "* Sobla to Dharchula",
 
   addons: {
@@ -4805,7 +4955,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   },
 
   inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 6",
 
   highlights: [
     "Up-close views of the iconic Panchachuli I–V peaks rising straight from the valley floor",
@@ -4924,7 +5074,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 },
 
 
-  /* Sikkim */
+  /* Sikkim, West Bengal & Nepal*/
 
   {
     id: "goechala-trek",
@@ -4933,7 +5083,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
-    duration: ["9 Nights / 10 Days"],
+    duration: ["9 Nights / 9 Days"],
     region: "sikkim",
     coordinates: [
   [27.3745, 88.2350], // Yuksom (start)
@@ -4963,7 +5113,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 9 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
@@ -4986,7 +5136,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
 
 <br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
 
-    price: 26900,
+    price: 20900,
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 5000, 
@@ -5067,11 +5217,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     title: "Tshoka to Yuksom",
     details: "<strong>• Trek: ~14 km | 5–6 hrs (final trekking day).</strong><br>• Your final day of the Goechala Trek takes you back to Yuksom, retracing the scenic trails along the Prek Chu River, through Bakhim and Sachen. Wake up early and enjoy a hearty breakfast at the campsite, preparing for a mostly downhill journey that still promises stunning forested landscapes and river views.<br>The trail is gentle and serene, letting you soak in the last moments of the Himalayas’ tranquility. Along the way, you’ll cross the three iconic iron bridges once more, pass through the quiet hamlets of Bakhim and Sachen, and witness the peaceful rhythm of mountain life. While the descent is easier than climbing, take care on steeper sections to avoid putting too much strain on your knees. Maintain a steady pace and pause whenever you want to capture the surrounding beauty.<br>As you approach Yuksom, a short uphill stretch signals the final push back to civilization. Soon, the familiar sights of the town greet you, along with the return of mobile connectivity. Take some time to explore Yuksom’s rich history and culture. Wander through its quaint streets, visit local monasteries, browse handicraft shops, or simply soak in the welcoming atmosphere.<br>Once you arrive at your guesthouse, enjoy a wholesome meal and reflect on the incredible journey you’ve just completed. This is a day to relax, celebrate your achievement, and take in the memories of a trek that will stay with you forever."
   },
-  {
-    day: 10,
-    title: "Departure from Yuksom",
-    details: "<strong>• Drive back to NJP/Bagdogra (6–7 hrs).</strong><br>• Timing: depart after a relaxed breakfast; allow for road traffic and mountain weather delays.<br>• Final notes: as forests and foothills unfold into tea gardens, reflect on the range of ecosystems you traversed — from subtropical valleys to glacial meadows and the sacred views of Kanchenjunga. Carry out all non-biodegradable waste and respect local customs and conservation rules."
-  }
+  
 ],
 
 
@@ -5169,7 +5315,6 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     faqsLink: "/faqs-and-articles",
   },
 
-  /* West Bengal & Nepal */
 
   {
   id: "sandakphu-trek",
@@ -5178,7 +5323,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
-  region: ["west bengal", "nepal"],
+  region: ["west bengal", "nepal", "sikkim"],
   duration: "6 Nights / 7 Days",
   coordinates: [
     [26.8826, 88.1584], // Manebhanjan (Start)
@@ -5474,7 +5619,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
       snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
     },
 
-    price: 32500,
+    price: 22900,
     priceNote: "* Leh to Leh",
     addons: {
       transport: null,
@@ -5486,18 +5631,19 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
 
     dates: [
-      { label: "08 Aug - 15 Aug", start: "2026-08-08", end: "2025-08-15" },
-      { label: "09 Aug - 16 Aug", start: "2026-08-09", end: "2025-08-16" },
-      { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2025-08-22" },
-      { label: "16 Aug - 23 Aug", start: "2026-08-16", end: "2025-08-23" },
-      { label: "22 Aug - 29 Aug", start: "2026-08-22", end: "2025-08-29" },
-      { label: "23 Aug - 30 Aug", start: "2026-08-23", end: "2025-08-30" },
-      { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2025-09-05" },
-      { label: "30 Aug - 06 Sep", start: "2026-08-30", end: "2025-09-06" },
-      { label: "05 Sep - 12 Sep", start: "2026-09-05", end: "2025-09-12" },
-      { label: "06 Sep - 13 Sep", start: "2026-09-06", end: "2025-09-13" },
-      { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2025-09-19" },
-      { label: "13 Sep - 20 Sep", start: "2026-09-13", end: "2025-09-20" },
+      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
+{ label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
+{ label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+{ label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
+{ label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+{ label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
+{ label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+{ label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
+{ label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+{ label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+{ label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
+
     ],
 
     highlights: [
@@ -5544,11 +5690,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
   title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
   details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
   },
-  {
-  day: 8,
-  title: "Departure from Leh",
-  details: "After completing the trek and your overnight stay in Leh, this is the day to check out and begin your onward journey. Homestay or hotel services conclude as per the itinerary, so ensure checkout is done within the standard checkout time. Airport drop can be arranged at the prevailing local rate, payable directly to the driver. If you have limited holidays, you can head straight to the Leh airport or bus stand for your departure. However, if you have extra days and wish to explore more of Ladakh, feel free to discuss with us—we’re happy to suggest places or help arrange further services."
-  }
+ 
 ],
 
 
@@ -5675,7 +5817,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
       snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.<br>As temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.<br>The region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.<br>For winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
     },
 
-    price: 29500,
+    price: 29400,
     priceNote: "* Leh to Leh",
     addons: {
       transport: null,
@@ -5731,11 +5873,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     title: "Skiu → Chilling → Leh (3,500 m) | Trek Distance: 5–6 km | 2.5–3.5 hrs + Drive",
     details: "A short trek from Skiu to Chilling takes about 2.5–3.5 hours over icy terrain. From Chilling, drive back to Leh. Warm rooms, hot water, and local food await. Use this day to relax, shop for souvenirs, and enjoy Leh in winter. Overnight stay in Leh."
   },
-  {
-    day: 8,
-    title: "Departure from Leh",
-    details: "Early morning transfer to Leh Airport for your onward journey. Depending on your flight timing, enjoy a short walk in Leh or a hot breakfast at your hotel before heading to the airport. Trek concludes here."
-  }
+  
 ],
 
     didYouKnow: [
@@ -5919,7 +6057,7 @@ Begin the return journey early morning. Drive back through Almora, Bageshwar, an
     "The Kashmir Great Lakes Trek is often called the crown jewel of Indian Himalayan trekking — a journey through a dreamscape of alpine lakes, endless green meadows, and dramatic mountain passes that define the raw beauty of Kashmir. Set in the high ranges east of Srinagar, this trek strings together a series of pristine glacial lakes, each with its own colour, character, and story, all set against towering snow-clad peaks rising beyond 6,000 meters.<br>The trail begins near Sonamarg, the ‘Meadow of Gold’, where wide grasslands roll gently beneath open skies and the first streams flow cold and clear from surrounding glaciers. As you climb higher, the landscape shifts dramatically — gentle shepherd paths give way to vast alpine basins, rocky ridgelines, and high mountain passes like Nichnai Pass (around 4,100 m) and Gadsar Pass (around 4,200 m), from where the entire Kashmir valley seems to unfold beneath your feet.<br>What makes this trek truly legendary is its lakes. Vishansar and Kishansar sit like twin jewels cradled in sweeping meadows, reflecting sharp mountain silhouettes and drifting clouds. Gadsar Lake, often still partially frozen even in mid-summer, lies beneath rugged cliffs and is considered sacred by local shepherds. Further ahead, Satsar reveals not one but a chain of interconnected high-altitude lakes, while the final descent leads you to Gangbal and Nundkol — massive alpine lakes resting at the base of Mount Harmukh (5,142 m), one of Kashmir’s most revered peaks in local mythology.<br>The trek is a paradise for nature lovers. During peak summer, the meadows explode with wildflowers — gentians, buttercups, blue poppies, and edelweiss — while herds of sheep and horses graze freely under the watch of Gujjar and Bakarwal shepherds who still follow ancient migratory routes through these mountains. Birdlife is rich and varied, and marmots are commonly spotted near rocky sections. Though elusive, the region is also known habitat for Himalayan brown bears and snow leopards at higher elevations.<br>While the Kashmir Great Lakes Trek is not technical, it demands stamina and mental resilience. Long walking days, multiple river crossings, high-altitude camping above 3,500 meters, and rapidly changing mountain weather make it a serious undertaking. Sudden rain, mist, or snowfall can transform the landscape within minutes, adding to both the challenge and the magic of the journey.<br>For trekkers seeking the pure essence of Himalayan beauty — vast open spaces, crystal-clear lakes, high passes, and a feeling of walking through untouched wilderness — the Kashmir Great Lakes Trek delivers an experience that is both humbling and unforgettable. It is not just a trek through mountains, but a passage through one of the most visually dramatic high-altitude landscapes in the Indian Himalayas."
   },
 
-  price: 20500,
+  price: 20400,
   priceNote: "* Srinagar to Srinagar",
   addons: {
     transport: null,

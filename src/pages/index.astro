@@ -83,6 +83,268 @@ import "../styles/global.css";
 </section>
 
 <div class="container">
+
+<!-- UPCOMING TREKS: Upcoming Season Treks -->
+<section class="trek-section reveal">
+  <h2>Trending <span>Treks</span></h2>
+  <div class="trek-cards-wrapper">
+    <button class="scroll-btn left" onclick="scrollCards('spring', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="spring">
+      {
+        treks
+          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring'))
+          .map(trek => {
+            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+            // Capitalize function
+      const capitalize = (str) => {
+  if (!str) return '';
+
+  // If it's an array (difficulty, tags etc.)
+  if (Array.isArray(str)) {
+    return str
+      .map(item => capitalize(item))   // Recursively capitalize each item
+      .join(', ');
+  }
+
+  // If it's a string
+  return str
+    .split(' ')
+    .map(word =>
+      word
+        .split('-') // also split hyphens
+        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+        .join('-')  // join hyphens back
+    )
+    .join(' ');
+};
+            return (
+              <div class="trek-card" key={trek.id}>
+                <a href={`/trek/${trek.id}#trek-hero`}>
+                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+                </a>
+                <h3 class="trek-name">{trek.name}</h3>
+                <div class="trek-info">
+                  <span>
+                    <i class="fa fa-clock"></i> {duration}
+                  </span>
+                  <span>
+                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
+                  </span>
+                </div>
+                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
+                <div class="trek-buttons">
+                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
+                </div>
+              </div>
+            );
+          })
+      }
+    </div>
+    <button class="scroll-btn right" onclick="scrollCards('spring', 1)">&gt;</button>
+  </div>
+</section>
+
+<!-- DESTINATIONS SECTION -->
+<section class="destination-section reveal">
+  <h2>Popular <span>Destinations</span></h2>
+
+  <div class="destination-grid">
+    {
+      (() => {
+        /* -------- CONFIG -------- */
+
+        // Regions you want to hide
+        const excludedRegions = ["nepal", "west bengal"];
+
+        // Background images per region
+        const regionBackgrounds = {
+          "uttarakhand-kumaon":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625881/panchachuli-view5_p834ac.webp",
+          "uttarakhand-garhwal":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
+          "himachal pradesh":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191003/pin-parvati-pass-view15_jz5ttl.jpg",
+          "ladakh":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
+          "kashmir":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
+          "sikkim":
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+        };
+
+        /* -------- BUILD REGION MAP -------- */
+
+        const regionMap = {};
+
+        treks.forEach(trek => {
+          if (!trek.region) return;
+
+          const regions = Array.isArray(trek.region)
+            ? trek.region
+            : [trek.region];
+
+          regions.forEach(r => {
+            if (!r) return;
+
+            const region = r.toLowerCase();
+
+            if (
+              excludedRegions
+                .map(er => er.toLowerCase())
+                .includes(region)
+            ) return;
+
+            regionMap[region] = (regionMap[region] || 0) + 1;
+          });
+        });
+
+        /* -------- UTIL -------- */
+
+        const capitalize = (str) =>
+          str
+            .split(" ")
+            .map(word =>
+              word
+                .split("-")
+                .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+                .join("-")
+            )
+            .join(" ");
+
+        /* -------- RENDER -------- */
+
+        return Object.entries(regionMap).map(([region, count]) => (
+          <div
+            class="destination-card"
+            key={region}
+            style={{
+              backgroundImage: `linear-gradient(
+                rgba(0,0,0,0.45),
+                rgba(0,0,0,0.85)
+              ), url(${regionBackgrounds[region] || "/images/regions/default.jpg"})`
+            }}
+          >
+            <h3>{capitalize(region)}</h3>
+            <p>{count} Trek{count > 1 ? "s" : ""}</p>
+            <a
+              href={`/upcoming-treks?region=${region}`}
+              class="btn"
+            >
+              View Treks
+            </a>
+          </div>
+        ));
+      })()
+    }
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="news-section reveal">
+  <h2 class="news-section-heading">News & <span>Articles</span></h2>
+  <NewsSection client:load />
+</section>
+
+<!-- Faqs Section -->
+<section class="faqs-section reveal">
+    <h2 class="faqs-section-heading">FA<span>Qs</span></h2>
+
+    <!-- FAQ topics -->
+<!-- FAQ topics -->
+{generalFAQs.map((section, sectionIndex) => (
+          <div class="faq-topic" id={`faq-topic-${sectionIndex}`}>
+            <button class="faq-topic-header" aria-expanded="false">
+              {section.topic}
+              <span class="toggle">▶</span>
+            </button>
+            <div class="faq-topic-body" hidden>
+              {section.sections
+                ? section.sections.map((sub, subIndex) => (
+                    <div class="faq-subtopic" id={`faq-${sectionIndex}-${subIndex}`}>
+                      <button class="faq-subtopic-header" aria-expanded="false">
+                        {sub.subtopic}
+                        <span class="toggle">▶</span>
+                      </button>
+                      <div class="faq-subtopic-body" hidden>
+                        {sub.faqs.map((faq, faqIndex) => (
+                          <div class="faq-item" id={`faq-${sectionIndex}-${subIndex}-${faqIndex}`}>
+                            <button class="faq-question" aria-expanded="false">
+                              {faq.question}
+                              <span class="toggle">+</span>
+                            </button>
+                            <div class="faq-answer" hidden>
+                              <div set:html={faq.answer}></div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))
+                : section.faqs.map((faq, faqIndex) => (
+                    <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
+                      <button class="faq-question" aria-expanded="false">
+                        {faq.question}
+                        <span class="toggle">+</span>
+                      </button>
+                      <div class="faq-answer" hidden>
+                        <div set:html={faq.answer}></div>
+                      </div>
+                    </div>
+              ))}
+            </div>
+          </div>
+))}
+
+    <!-- Link to full FAQs page -->
+    <div class="faq-footer">
+      <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
+    </div>
+</section>
+
+</div>
+
+<section class="leadgen-section reveal">
+  <div class="leadgen-overlay"></div>
+
+  <div class="leadgen-content">
+    <h2 class="section-heading">Plan Your <span>Himalayan Adventure</span></h2>
+    <p class="section-sub">
+      Get a personalised itinerary, dates & expert guidance from Planethimalayas.
+    </p>
+
+    <form id="homepageLeadForm" action="https://formspree.io/f/xrbldkrb" method="POST">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="form-row">
+        <input type="text" id="phone-home" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="trek" placeholder="Interested Trek (optional)" />
+      </div>
+
+      <div class="custom-message-field">
+        <textarea name="plan-details" placeholder="Tell us what you're planning…"></textarea>
+      </div>
+
+      <button type="submit" class="leadgen-btn">Get Details</button>
+    </form>
+
+    <!-- Error message -->
+    <div id="leadgenError" style="display:none; color:red; margin-top:20px; text-align:center;"></div>
+
+    <!-- Thank-you message -->
+    <div id="leadgenThankYou" style="display:none; text-align:center; margin-top:30px;">
+      <h3 style="color:#ff7300; text-shadow:0 0 8px #ff7300;">Thank You!</h3>
+      <p style="color:white;">We’ve received your details. Our team will reach out shortly.</p>
+      <a href="/upcoming-treks" class="leadgen-btn">Explore Treks</a>
+    </div>
+  </div>
+</section>
+
+<div class=container>
 <!-- Testimonials Section -->
 <section class="testimonials reveal">
   <h2 class="testimonials-heading">What our <span>trekkers say</span></h2>
@@ -227,233 +489,7 @@ import "../styles/global.css";
     </div> <!-- /#testimonialRow -->
   </div> <!-- /.testimonials-wrapper -->
 </section> <!-- /.testimonials -->
-
-<!-- UPCOMING TREKS: Current Season Treks -->
-<section class="trek-section reveal">
-  <h2>Trending <span>Treks</span></h2>
-  <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="winter">
-      {
-        treks
-          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('winter'))
-          .map(trek => {
-            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
-            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
-            // Capitalize function
-      const capitalize = (str) => {
-  if (!str) return '';
-
-  // If it's an array (difficulty, tags etc.)
-  if (Array.isArray(str)) {
-    return str
-      .map(item => capitalize(item))   // Recursively capitalize each item
-      .join(', ');
-  }
-
-  // If it's a string
-  return str
-    .split(' ')
-    .map(word =>
-      word
-        .split('-') // also split hyphens
-        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-        .join('-')  // join hyphens back
-    )
-    .join(' ');
-};
-            return (
-              <div class="trek-card" key={trek.id}>
-                <a href={`/trek/${trek.id}#trek-hero`}>
-                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
-                </a>
-                <h3 class="trek-name">{trek.name}</h3>
-                <div class="trek-info">
-                  <span>
-                    <i class="fa fa-clock"></i> {duration}
-                  </span>
-                  <span>
-                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
-                  </span>
-                </div>
-                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
-                <div class="trek-buttons">
-                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
-                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
-                </div>
-              </div>
-            );
-          })
-      }
-    </div>
-    <button class="scroll-btn right" onclick="scrollCards('winter', 1)">&gt;</button>
-  </div>
-</section>
-
-<!-- UPCOMING TREKS: Upcoming Season Treks -->
-<section class="trek-section reveal">
-  <h2>Upcoming <span>Treks</span></h2>
-  <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('spring', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="spring">
-      {
-        treks
-          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring'))
-          .map(trek => {
-            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
-            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
-            // Capitalize function
-      const capitalize = (str) => {
-  if (!str) return '';
-
-  // If it's an array (difficulty, tags etc.)
-  if (Array.isArray(str)) {
-    return str
-      .map(item => capitalize(item))   // Recursively capitalize each item
-      .join(', ');
-  }
-
-  // If it's a string
-  return str
-    .split(' ')
-    .map(word =>
-      word
-        .split('-') // also split hyphens
-        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-        .join('-')  // join hyphens back
-    )
-    .join(' ');
-};
-            return (
-              <div class="trek-card" key={trek.id}>
-                <a href={`/trek/${trek.id}#trek-hero`}>
-                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
-                </a>
-                <h3 class="trek-name">{trek.name}</h3>
-                <div class="trek-info">
-                  <span>
-                    <i class="fa fa-clock"></i> {duration}
-                  </span>
-                  <span>
-                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
-                  </span>
-                </div>
-                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
-                <div class="trek-buttons">
-                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
-                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
-                </div>
-              </div>
-            );
-          })
-      }
-    </div>
-    <button class="scroll-btn right" onclick="scrollCards('spring', 1)">&gt;</button>
-  </div>
-</section>
-
-<!-- News Section -->
-<section class="news-section reveal">
-  <h2 class="news-section-heading">News & <span>Articles</span></h2>
-  <NewsSection client:load />
-</section>
-
-<!-- Faqs Section -->
-<section class="faqs-section reveal">
-    <h2 class="faqs-section-heading">FA<span>Qs</span></h2>
-
-    <!-- FAQ topics -->
-<!-- FAQ topics -->
-{generalFAQs.map((section, sectionIndex) => (
-          <div class="faq-topic" id={`faq-topic-${sectionIndex}`}>
-            <button class="faq-topic-header" aria-expanded="false">
-              {section.topic}
-              <span class="toggle">▶</span>
-            </button>
-            <div class="faq-topic-body" hidden>
-              {section.sections
-                ? section.sections.map((sub, subIndex) => (
-                    <div class="faq-subtopic" id={`faq-${sectionIndex}-${subIndex}`}>
-                      <button class="faq-subtopic-header" aria-expanded="false">
-                        {sub.subtopic}
-                        <span class="toggle">▶</span>
-                      </button>
-                      <div class="faq-subtopic-body" hidden>
-                        {sub.faqs.map((faq, faqIndex) => (
-                          <div class="faq-item" id={`faq-${sectionIndex}-${subIndex}-${faqIndex}`}>
-                            <button class="faq-question" aria-expanded="false">
-                              {faq.question}
-                              <span class="toggle">+</span>
-                            </button>
-                            <div class="faq-answer" hidden>
-                              <div set:html={faq.answer}></div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))
-                : section.faqs.map((faq, faqIndex) => (
-                    <div class="faq-item" id={`faq-${sectionIndex}-${faqIndex}`}>
-                      <button class="faq-question" aria-expanded="false">
-                        {faq.question}
-                        <span class="toggle">+</span>
-                      </button>
-                      <div class="faq-answer" hidden>
-                        <div set:html={faq.answer}></div>
-                      </div>
-                    </div>
-              ))}
-            </div>
-          </div>
-))}
-
-    <!-- Link to full FAQs page -->
-    <div class="faq-footer">
-      <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
-    </div>
-</section>
 </div>
-
-<section class="leadgen-section reveal">
-  <div class="leadgen-overlay"></div>
-
-  <div class="leadgen-content">
-    <h2 class="section-heading">Plan Your <span>Himalayan Adventure</span></h2>
-    <p class="section-sub">
-      Get a personalised itinerary, dates & expert guidance from Planethimalayas.
-    </p>
-
-    <form id="homepageLeadForm" action="https://formspree.io/f/xrbldkrb" method="POST">
-      <div class="form-row">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
-      </div>
-
-      <div class="form-row">
-        <input type="text" id="phone-home" name="phone" placeholder="Phone Number" required />
-        <input type="text" name="trek" placeholder="Interested Trek (optional)" />
-      </div>
-
-      <div class="custom-message-field">
-        <textarea name="plan-details" placeholder="Tell us what you're planning…"></textarea>
-      </div>
-
-      <button type="submit" class="leadgen-btn">Get Details</button>
-    </form>
-
-    <!-- Error message -->
-    <div id="leadgenError" style="display:none; color:red; margin-top:20px; text-align:center;"></div>
-
-    <!-- Thank-you message -->
-    <div id="leadgenThankYou" style="display:none; text-align:center; margin-top:30px;">
-      <h3 style="color:#ff7300; text-shadow:0 0 8px #ff7300;">Thank You!</h3>
-      <p style="color:white;">We’ve received your details. Our team will reach out shortly.</p>
-      <a href="/upcoming-treks" class="leadgen-btn">Explore Treks</a>
-    </div>
-  </div>
-</section>
-
 </Layout>
 
 <style>
@@ -1140,6 +1176,104 @@ import "../styles/global.css";
   }
 }
 
+/* ---------------------------------------
+   DESTINATION SECTION
+----------------------------------------- */
+
+.destination-section {
+  background: #fff;
+}
+
+.destination-section h2 {
+  font-size: 2.5rem;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+/* ---------------------------------------
+   GRID
+----------------------------------------- */
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+/* ---------------------------------------
+   DESTINATION CARD
+----------------------------------------- */
+
+.destination-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  padding: 2.5rem 1.5rem;
+  min-height: 260px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  border: 2px solid #ff7300;
+  box-shadow:
+    0 8px 22px rgba(0,0,0,0.35),
+    0 0 18px rgba(255,115,0,0.4);
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 16px 40px rgba(0,0,0,0.45),
+    0 0 26px rgba(255,115,0,0.85);
+}
+
+/* ---------------------------------------
+   TEXT
+----------------------------------------- */
+
+.destination-card h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ff7300;
+  margin-bottom: 0.6rem;
+}
+
+.destination-card p {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ---------------------------------------
+   CTA
+----------------------------------------- */
+
+.destination-card .btn {
+  display: inline-block;
+  padding: 0.45rem 1.2rem;
+  border: 2px solid #ff7300;
+  border-radius: 6px;
+  color: #ff7300;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.destination-card .btn:hover {
+  background: #ff7300;
+  color: #000;
+  box-shadow:
+    0 8px 20px rgba(255, 115, 0, 0.85),
+    0 0 18px rgba(255, 115, 0, 1);
+}
+
 .news-section {
   background-color: white;
   position: relative;
@@ -1310,7 +1444,8 @@ import "../styles/global.css";
 .trek-section.reveal h2 span,
 .news-section.reveal h2 span,
 .faqs-section.reveal h2 span,
-.leadgen-section.reveal h2 span {
+.leadgen-section.reveal h2 span,
+.destination-section.reveal h2 span {
   color: #ff7300;
   border-bottom: 4px solid #ff7300;
   padding-bottom: 2px;

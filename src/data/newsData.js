@@ -1,13 +1,17 @@
 export const news = [
 
   {
-  title: "Weather is getting colder and waiting for fresh winter snowfall.",
+  title: "Dry weather likely to prevail in all districts of Uttarakhand.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details: `
-    <p>• Our treks are operational on all slopes.</p>
-  `
+  <h3>Recent Updates:</h3>
+<ul>
+    <li>• Very light to light rain/snow likely to occur at isolated places in higher reaches of Uttarkashi, Chamoli and Pithoragarh districts of Uttarakhand. Snowfall likely to occur at a place with an altitude of 3500 meter and above.</li>
+    <li>• Shallow fog likely to occur at isolated places in plains of Uttarakhand, especially Haridwar and Udham Singh Nagar districts.</li>
+    <li>• Dry weather likely to prevail in remaining districts of Uttarakhand.</li>
+</ul>`
 },
 
   {
