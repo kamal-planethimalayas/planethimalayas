@@ -83,7 +83,6 @@ import "../styles/global.css";
 </section>
 
 <div class="container">
-
 <!-- UPCOMING TREKS: Upcoming Season Treks -->
 <section class="trek-section reveal">
   <h2>Trending <span>Treks</span></h2>
@@ -302,7 +301,6 @@ import "../styles/global.css";
       <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
     </div>
 </section>
-
 </div>
 
 <section class="leadgen-section reveal">
@@ -351,10 +349,8 @@ import "../styles/global.css";
 
   <!-- Wrapper to hold arrows + cards -->
   <div class="testimonials-wrapper" style="position: relative;">
-    <!-- Left Arrow -->
-    <button class="scroll-btn left" onclick="scrollTestimonials(-1)">&#10094;</button>
-    <!-- Right Arrow -->
-    <button class="scroll-btn right" onclick="scrollTestimonials(1)">&#10095;</button>
+    <button class="scroll-btn left">&#10094;</button>
+    <button class="scroll-btn right">&#10095;</button>
 
     <!-- Card Container -->
     <div class="testimonials-card-wrapper" id="testimonialRow">
@@ -1574,11 +1570,18 @@ input:focus, input:hover, textarea:focus {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const row = document.getElementById("testimonialRow");
-  const leftBtn = document.querySelector(".scroll-btn.left");
-  const rightBtn = document.querySelector(".scroll-btn.right");
 
-  // Scroll Function
+  /* ===== SCOPE EVERYTHING TO TESTIMONIALS SECTION ===== */
+  const section = document.querySelector(".testimonials");
+  if (!section) return;
+
+  const row = section.querySelector("#testimonialRow");
+  const leftBtn = section.querySelector(".scroll-btn.left");
+  const rightBtn = section.querySelector(".scroll-btn.right");
+
+  if (!row || !leftBtn || !rightBtn) return;
+
+  /* ===== SCROLL FUNCTION ===== */
   function scrollTestimonials(direction) {
     const card = row.querySelector(".testimonial-card");
     if (!card) return;
@@ -1591,76 +1594,88 @@ document.addEventListener("DOMContentLoaded", function () {
       behavior: "smooth"
     });
 
-    setTimeout(updateArrowState, 400); // update after scroll animation
+    setTimeout(updateArrowState, 400);
   }
 
-  // Enable/Disable Arrows at edges
+  /* ===== ENABLE / DISABLE ARROWS ===== */
   function updateArrowState() {
-  const scrollLeft = Math.ceil(row.scrollLeft);
-  const maxScrollLeft = row.scrollWidth - row.clientWidth;
+    const scrollLeft = Math.ceil(row.scrollLeft);
+    const maxScrollLeft = row.scrollWidth - row.clientWidth;
 
-  // Left arrow
-  if (scrollLeft <= 0) {
-    leftBtn.classList.add('at-start');
-  } else {
-    leftBtn.classList.remove('at-start');
+    if (scrollLeft <= 0) {
+      leftBtn.classList.add("at-start");
+    } else {
+      leftBtn.classList.remove("at-start");
+    }
+
+    if (scrollLeft >= maxScrollLeft - 1) {
+      rightBtn.classList.add("at-end");
+    } else {
+      rightBtn.classList.remove("at-end");
+    }
   }
 
-  // Right arrow
-  if (scrollLeft >= maxScrollLeft) {
-    rightBtn.classList.add('at-end');
-  } else {
-    rightBtn.classList.remove('at-end');
-  }
-}
-
-  // Attach Events to arrows
+  /* ===== ARROW CLICK EVENTS ===== */
   leftBtn.addEventListener("click", () => scrollTestimonials(-1));
   rightBtn.addEventListener("click", () => scrollTestimonials(1));
 
-  // Read More Toggle
-  document.querySelectorAll('.read-more-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      const card = btn.closest('.testimonial-card');
-      card.classList.toggle('expanded');
-      btn.textContent = card.classList.contains('expanded') ? 'Read Less' : 'Read More';
+  /* ===== READ MORE TOGGLE ===== */
+  section.querySelectorAll(".read-more-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      const card = btn.closest(".testimonial-card");
+      card.classList.toggle("expanded");
+      btn.textContent = card.classList.contains("expanded")
+        ? "Read Less"
+        : "Read More";
     });
   });
 
-  // Touch/drag scrolling for mobile
+  /* ===== DESKTOP DRAG SCROLL ===== */
   let isDown = false;
   let startX;
   let scrollLeftStart;
 
-  row.addEventListener('mousedown', (e) => {
+  row.addEventListener("mousedown", (e) => {
     isDown = true;
-    row.classList.add('dragging');
+    row.classList.add("dragging");
     startX = e.pageX - row.offsetLeft;
     scrollLeftStart = row.scrollLeft;
   });
-  row.addEventListener('mouseleave', () => { isDown = false; row.classList.remove('dragging'); });
-  row.addEventListener('mouseup', () => { isDown = false; row.classList.remove('dragging'); updateArrowState(); });
-  row.addEventListener('mousemove', (e) => {
-    if(!isDown) return;
+
+  row.addEventListener("mouseleave", () => {
+    isDown = false;
+    row.classList.remove("dragging");
+  });
+
+  row.addEventListener("mouseup", () => {
+    isDown = false;
+    row.classList.remove("dragging");
+    updateArrowState();
+  });
+
+  row.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - row.offsetLeft;
-    const walk = (startX - x); // drag distance
+    const walk = startX - x;
     row.scrollLeft = scrollLeftStart + walk;
   });
 
-  // Touch events for mobile
-  row.addEventListener('touchstart', (e) => {
+  /* ===== TOUCH SCROLL (MOBILE) ===== */
+  row.addEventListener("touchstart", (e) => {
     startX = e.touches[0].pageX - row.offsetLeft;
     scrollLeftStart = row.scrollLeft;
   });
-  row.addEventListener('touchmove', (e) => {
+
+  row.addEventListener("touchmove", (e) => {
     const x = e.touches[0].pageX - row.offsetLeft;
-    const walk = (startX - x);
+    const walk = startX - x;
     row.scrollLeft = scrollLeftStart + walk;
   });
-  row.addEventListener('touchend', updateArrowState);
 
-  // Initial state
+  row.addEventListener("touchend", updateArrowState);
+
+  /* ===== INITIAL STATE ===== */
   updateArrowState();
 });
 </script>

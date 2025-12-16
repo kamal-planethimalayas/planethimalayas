@@ -4,7 +4,7 @@ import { treks} from '../data/treksData.js';
 
 const filterCategories = {
   difficulty: ['easy', 'moderate', 'difficult'],
-  region: ['kashmir','ladakh','uttarakhand-Garhwal','uttarakhand-Kumaon','himachal','sikkim','west bengal','nepal'],
+  region: ['kashmir','ladakh','uttarakhand-Garhwal','uttarakhand-Kumaon','himachal pradesh','sikkim','west bengal','nepal'],
   season: ['spring', 'summer', 'monsoon', 'autumn', 'winter'],
   month: [
     'january','february','march','april','may','june',
@@ -12,6 +12,18 @@ const filterCategories = {
   ],
   days: ['4', '5', '6', '7', '8', '9', '10', '11'],   
 };
+
+const toTitleCase = (str = "") =>
+  str
+    .toLowerCase()
+    .split(" ")
+    .map(word =>
+      word
+        .split("-")
+        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+        .join("-")
+    )
+    .join(" ");
 
 // ✅ define this before the HTML section
 const beginnerTreks = treks.filter(
@@ -489,20 +501,24 @@ const proTreks = treks.filter(
 </style>
 
 <div class="page-wrapper">
-  <aside class="filter-navbar" role="region" aria-label="Filter treks">
-    <h2 class="filter-title">Filter Treks</h2>
-    {Object.entries(filterCategories).map(([category, options]) => (
-      <div class="filter-group" id={`filter-${category}`} key={category}>
-        <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
-        {options.map(option => (
-          <label key={option}>
-            <input type="checkbox" name={category} value={option} />{' '}
-            {option.charAt(0).toUpperCase() + option.slice(1)}
-          </label>
-        ))}
-      </div>
-    ))}
-  </aside>
+  
+
+<aside class="filter-navbar" role="region" aria-label="Filter treks">
+  <h2 class="filter-title">Filter Treks</h2>
+
+  {Object.entries(filterCategories).map(([category, options]) => (
+    <div class="filter-group" id={`filter-${category}`} key={category}>
+      <h3>{toTitleCase(category)}</h3>
+
+      {options.map(option => (
+        <label key={option}>
+          <input type="checkbox" name={category} value={option} />{" "}
+          {toTitleCase(option)}
+        </label>
+      ))}
+    </div>
+  ))}
+</aside>
 
 <main class="main-content" role="main" tabindex="0">
 
