@@ -33,7 +33,7 @@ export const treks = [
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,105 ft (Pin Bhaba Pass)" },
         { emoji: "⚡", label: "Trek Distance", value: "50 Km" },
@@ -61,7 +61,7 @@ export const treks = [
     price: 17900,
     priceNote: "* Kafnu to Kaza",
     addons: {
-      transport: 2500,
+      transport: 3000,
       offloadingbag: 4500,
       transportNote: "* Shimla to Kafnu. Trekkers can request transport arrangement from Kaza back to Manali. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -70,34 +70,33 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-      { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
-      { label: "12 Jul - 18 Jul", start: "2026-07-12", end: "2026-07-18" },
-      { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-      { label: "19 Jul - 25 Jul", start: "2026-07-19", end: "2026-07-25" },
-      { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
-      { label: "26 Jul - 01 Aug", start: "2026-07-26", end: "2026-08-01" },
-      { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
-      { label: "02 Aug - 08 Aug", start: "2026-08-02", end: "2026-08-08" },
-      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
-      { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
-      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-      { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
-      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
-      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-      { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
-      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
-      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-      { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
-      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
-      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-      
-    
+  { label: "10 Jul - 16 Jul", start: "2026-07-10", end: "2026-07-16" },
+  { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
+  { label: "17 Jul - 23 Jul", start: "2026-07-17", end: "2026-07-23" },
+  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
+  { label: "24 Jul - 30 Jul", start: "2026-07-24", end: "2026-07-30" },
+  { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
+  { label: "31 Jul - 06 Aug", start: "2026-07-31", end: "2026-08-06" },
+  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
+  { label: "07 Aug - 13 Aug", start: "2026-08-07", end: "2026-08-13" },
+  { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
+  { label: "14 Aug - 20 Aug", start: "2026-08-14", end: "2026-08-20" },
+  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+  { label: "21 Aug - 27 Aug", start: "2026-08-21", end: "2026-08-27" },
+  { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+  { label: "28 Aug - 03 Sep", start: "2026-08-28", end: "2026-09-03" },
+  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+  { label: "04 Sep - 10 Sep", start: "2026-09-04", end: "2026-09-10" },
+  { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+  { label: "11 Sep - 17 Sep", start: "2026-09-11", end: "2026-09-17" },
+  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+  { label: "18 Sep - 24 Sep", start: "2026-09-18", end: "2026-09-24" },
+  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+  { label: "25 Sep - 01 Oct", start: "2026-09-25", end: "2026-10-01" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  { label: "02 Oct - 08 Oct", start: "2026-10-02", end: "2026-10-08" },
+  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" }
+   
     ],
 
     highlights: [
@@ -229,7 +228,7 @@ export const treks = [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days (+1 buffer day)" },
+      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days (+1 buffer day)" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,450 ft (Pin Parvati Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
@@ -513,34 +512,45 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     dates: [
-      { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
-      { label: "12 Jul - 18 Jul", start: "2026-07-12", end: "2026-07-18" },
-      { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-      { label: "19 Jul - 25 Jul", start: "2026-07-19", end: "2026-07-25" },
-      { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
-      { label: "26 Jul - 01 Aug", start: "2026-07-26", end: "2026-08-01" },
-      { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
-      { label: "02 Aug - 08 Aug", start: "2026-08-02", end: "2026-08-08" },
-      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
-      { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
-      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-      { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
-      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
-      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-      { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
-      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
-      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-      { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
-      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
-      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-      
-    ],
+  { label: "11 Jul - 15 Jul", start: "2026-07-11", end: "2026-07-15" },
+  { label: "12 Jul - 16 Jul", start: "2026-07-12", end: "2026-07-16" },
+
+  { label: "18 Jul - 22 Jul", start: "2026-07-18", end: "2026-07-22" },
+  { label: "19 Jul - 23 Jul", start: "2026-07-19", end: "2026-07-23" },
+
+  { label: "25 Jul - 29 Jul", start: "2026-07-25", end: "2026-07-29" },
+  { label: "26 Jul - 30 Jul", start: "2026-07-26", end: "2026-07-30" },
+
+  { label: "01 Aug - 05 Aug", start: "2026-08-01", end: "2026-08-05" },
+  { label: "02 Aug - 06 Aug", start: "2026-08-02", end: "2026-08-06" },
+
+  { label: "08 Aug - 12 Aug", start: "2026-08-08", end: "2026-08-12" },
+  { label: "09 Aug - 13 Aug", start: "2026-08-09", end: "2026-08-13" },
+
+  { label: "15 Aug - 19 Aug", start: "2026-08-15", end: "2026-08-19" },
+  { label: "16 Aug - 20 Aug", start: "2026-08-16", end: "2026-08-20" },
+
+  { label: "22 Aug - 26 Aug", start: "2026-08-22", end: "2026-08-26" },
+  { label: "23 Aug - 27 Aug", start: "2026-08-23", end: "2026-08-27" },
+
+  { label: "29 Aug - 02 Sep", start: "2026-08-29", end: "2026-09-02" },
+  { label: "30 Aug - 03 Sep", start: "2026-08-30", end: "2026-09-03" },
+
+  { label: "05 Sep - 09 Sep", start: "2026-09-05", end: "2026-09-09" },
+  { label: "06 Sep - 10 Sep", start: "2026-09-06", end: "2026-09-10" },
+
+  { label: "12 Sep - 16 Sep", start: "2026-09-12", end: "2026-09-16" },
+  { label: "13 Sep - 17 Sep", start: "2026-09-13", end: "2026-09-17" },
+
+  { label: "19 Sep - 23 Sep", start: "2026-09-19", end: "2026-09-23" },
+  { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
+
+  { label: "26 Sep - 30 Sep", start: "2026-09-26", end: "2026-09-30" },
+  { label: "27 Sep - 01 Oct", start: "2026-09-27", end: "2026-10-01" },
+
+  { label: "03 Oct - 07 Oct", start: "2026-10-03", end: "2026-10-07" },
+  { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
+],
 
     highlights: [
       "Start from the green forests and meadows of Jobra near Manali",
@@ -716,7 +726,46 @@ export const treks = [
 
   inclusionsNote: "🍽️ All Meals – from lunch on Day 1 to breakfast on Day 6",
 
-  enquireOnly: true,
+  dates: [
+  { label: "11 Jul - 16 Jul", start: "2026-07-11", end: "2026-07-16" },
+  { label: "12 Jul - 17 Jul", start: "2026-07-12", end: "2026-07-17" },
+
+  { label: "18 Jul - 23 Jul", start: "2026-07-18", end: "2026-07-23" },
+  { label: "19 Jul - 24 Jul", start: "2026-07-19", end: "2026-07-24" },
+
+  { label: "25 Jul - 30 Jul", start: "2026-07-25", end: "2026-07-30" },
+  { label: "26 Jul - 31 Jul", start: "2026-07-26", end: "2026-07-31" },
+
+  { label: "01 Aug - 06 Aug", start: "2026-08-01", end: "2026-08-06" },
+  { label: "02 Aug - 07 Aug", start: "2026-08-02", end: "2026-08-07" },
+
+  { label: "08 Aug - 13 Aug", start: "2026-08-08", end: "2026-08-13" },
+  { label: "09 Aug - 14 Aug", start: "2026-08-09", end: "2026-08-14" },
+
+  { label: "15 Aug - 20 Aug", start: "2026-08-15", end: "2026-08-20" },
+  { label: "16 Aug - 21 Aug", start: "2026-08-16", end: "2026-08-21" },
+
+  { label: "22 Aug - 27 Aug", start: "2026-08-22", end: "2026-08-27" },
+  { label: "23 Aug - 28 Aug", start: "2026-08-23", end: "2026-08-28" },
+
+  { label: "29 Aug - 03 Sep", start: "2026-08-29", end: "2026-09-03" },
+  { label: "30 Aug - 04 Sep", start: "2026-08-30", end: "2026-09-04" },
+
+  { label: "05 Sep - 10 Sep", start: "2026-09-05", end: "2026-09-10" },
+  { label: "06 Sep - 11 Sep", start: "2026-09-06", end: "2026-09-11" },
+
+  { label: "12 Sep - 17 Sep", start: "2026-09-12", end: "2026-09-17" },
+  { label: "13 Sep - 18 Sep", start: "2026-09-13", end: "2026-09-18" },
+
+  { label: "19 Sep - 24 Sep", start: "2026-09-19", end: "2026-09-24" },
+  { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
+
+  { label: "26 Sep - 01 Oct", start: "2026-09-26", end: "2026-10-01" },
+  { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+
+  { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
+  { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
+],
 
   highlights: [
     "The Deo Tibba Base Camp Trek lies in the Pir Panjal range and offers close‑up views of peaks like Deo Tibba (6,001 m), Indrasan (6,221 m), Norbu (5,226 m) and Jagatsukh (5,050 m) — a stunning show of the western Himalayas’ grandeur.",
@@ -1631,7 +1680,7 @@ seo: {
 },
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
         { emoji: "🏔️", label: "Max Altitude", value: "11,500 ft (Bedni bugyal)" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
@@ -1883,7 +1932,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Chandrashila peak)" },
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
@@ -2126,7 +2175,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "14,600 ft (Meru Base Camp)" },
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
@@ -2302,11 +2351,11 @@ seo: {
   {
   id: "kedartal-trek",
   name: "Kedartal Trek",
-  tags: ["high-altitude", "expedition"],
-  difficulty: ["difficult"],
+  tags: ["intermediate", "pro"],
+  difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
-  month: ["may", "june", "july", "august", "september"],
-  duration: ["5 Nights / 6 Days"],
+  month: ["may", "june", "september", "october"],
+  duration: ["6 Nights / 6 Days"],
   region: "uttarakhand-garhwal",
   coordinates: [
     [30.7406, 78.4478], // Dehradun
@@ -2650,12 +2699,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 6",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      
-     
-      
+           
       { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
       { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
       { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
@@ -2707,11 +2754,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   title: "Pushtara to Taluka – Drive to Sankri (Trek – 8 km | 4–5 hours + Drive 1 hr)",
   details: "The day begins with a gentle descent from the Pushtara meadows, winding through alpine slopes dotted with wildflowers and the occasional Gujjar graveyard adding a touch of mystery to the trail. As the path drops, pine and rhododendron forests envelope the trekker, offering shade and the occasional sighting of Himalayan Monals. The descent is gradual, with intermittent ups and downs, revealing panoramic views of the snow-capped peaks behind and the lush valleys ahead. After crossing small streams and rocky patches, the trail meets the motorable road near Taluka village, a quaint settlement of traditional wooden houses and orchards. From here, a scenic one-hour drive returns you to Sankri, bringing the trek to a close. The evening is perfect for relaxation, reflecting on the journey, and soaking in the final views of the majestic mountains before overnight stay at a guesthouse or hotel in Sankri."
   },
-  {
-  day: 6,
-  title: "Departure | Sankri to Dehradun (Drive – 190 km | 8–9 hours)",
-  details: "After breakfast, the journey back to Dehradun begins, retracing the scenic route along the Tons River, passing through Mori, Purola, and the misty slopes of Mussoorie. As the miles roll by, there is time to reflect on the days spent trekking — the serene alpine meadows, the thrill of ridge walks, the soothing sound of streams, and the majestic peaks that framed every moment. Memories of sunrise over Kedarkantha, the laughter shared at campsites, and the quiet solitude of high-altitude forests fill the mind, leaving a deep sense of accomplishment and wonder. While the trek concludes, the mountains leave a lasting impression, inspiring the heart to dream of yet another Himalayan adventure, where every path promises new stories and unforgettable experiences."
-  },
+  
 ],
 
 
@@ -3033,8 +3076,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
       
-      
-      
       { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
       { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
       { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
@@ -3234,10 +3275,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [ 
-    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
-    { label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
-    { label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
-    { label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+    
     { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
     { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
     { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
@@ -3476,10 +3514,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 5",
 
   dates: [   
-    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
-{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
-{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
-{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
+    
 { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
 { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
 { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
@@ -3710,16 +3745,10 @@ itinerary: [
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
   dates: [
     
-   
-    
-    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
-    { label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
-    { label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
-    { label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
     { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
     { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
     { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
@@ -4645,7 +4674,7 @@ itinerary: [
   addons: {
     transport: 6000,
     transportNote: "* kathgodam to Kathgodam",
-    offloadingbag: 3500,
+    offloadingbag: 2500,
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
@@ -4774,8 +4803,8 @@ itinerary: [
     name: "Dhakuri Pass Trek",
     tags: ["beginner"],
     difficulty: ["easy"],
-    season: ["spring", "summer", "monsoon", "autumn", "winter"],
-    month: ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
+    season: ["spring", "summer", "autumn", "winter"],
+    month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["4 Nights / 4 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
@@ -5244,7 +5273,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   },
 
   inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 6",
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
   highlights: [
     "Up-close views of the iconic Panchachuli I–V peaks rising straight from the valley floor",
@@ -5439,17 +5468,23 @@ After breakfast, descend gradually through forests and old trade routes towards 
     dates: [
       
       
-      { label: "06 Dec - 15 Dec", start: "2025-12-06", end: "2025-12-15" },
-      { label: "13 Dec - 22 Dec", start: "2025-12-13", end: "2025-12-22" },
-      { label: "14 Mar - 23 Mar", start: "2026-03-14", end: "2026-03-23" },
-      { label: "21 Mar - 30 Mar", start: "2026-03-21", end: "2026-03-30" },
-      { label: "28 Mar - 06 Apr", start: "2026-03-28", end: "2026-04-06" },
-      { label: "04 Apr - 13 Apr", start: "2026-04-04", end: "2026-04-13" },
-      { label: "11 Apr - 20 Apr", start: "2026-04-04", end: "2026-04-20" },
-      { label: "18 Apr - 27 Apr", start: "2026-04-18", end: "2026-04-27" },
-      { label: "25 Apr - 04 May", start: "2026-04-25", end: "2026-05-04" },
-      { label: "02 May - 11 May", start: "2026-05-02", end: "2026-05-11" },
-      { label: "09 May - 18 May", start: "2026-05-09", end: "2026-05-18" },
+     { label: "06 Dec - 14 Dec", start: "2025-12-06", end: "2025-12-14" },
+{ label: "13 Dec - 21 Dec", start: "2025-12-13", end: "2025-12-21" },
+
+{ label: "14 Mar - 22 Mar", start: "2026-03-14", end: "2026-03-22" },
+{ label: "21 Mar - 29 Mar", start: "2026-03-21", end: "2026-03-29" },
+
+{ label: "28 Mar - 05 Apr", start: "2026-03-28", end: "2026-04-05" },
+{ label: "04 Apr - 12 Apr", start: "2026-04-04", end: "2026-04-12" },
+
+{ label: "11 Apr - 19 Apr", start: "2026-04-04", end: "2026-04-19" },
+
+{ label: "18 Apr - 26 Apr", start: "2026-04-18", end: "2026-04-26" },
+{ label: "25 Apr - 03 May", start: "2026-04-25", end: "2026-05-03" },
+
+{ label: "02 May - 10 May", start: "2026-05-02", end: "2026-05-10" },
+{ label: "09 May - 17 May", start: "2026-05-09", end: "2026-05-17" },
+
     ],
 
     highlights: [
@@ -6282,7 +6317,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   season: ["monsoon"],
   month: ["july", "august", "september"],
   region: "kashmir",
-  duration: "6 Nights / 6 Days",
+  duration: "5 Nights / 6 Days",
 
   coordinates: [
     [34.2511, 75.3315],   // Srinagar
@@ -6331,7 +6366,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
   overview: {
   facts: [
-    { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+    { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
     { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
     { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
     { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
@@ -6355,7 +6390,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 2 to packed lunch on Day 7",
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to packed lunch on Day 6",
 
   highlights: [
     "Trek through a chain of iconic alpine lakes — Vishansar, Krishansar, Gadsar, Satsar, and Gangbal",
@@ -6530,6 +6565,23 @@ After breakfast, descend gradually through forests and old trade routes towards 
     description:
       "Doodhpathri Trek is an easy alpine meadow trek in Kashmir, perfect for beginners. Lush green grasslands, pine forests, milky streams, and panoramic Pir Panjal views make it an ideal short Himalayan escape near Srinagar."
   },
+
+  advisory: {
+  type: "warning",
+  fullWidth: true,
+  title: "Important Advisory for Jammu & Kashmir Treks",
+  sections: [
+    {
+      heading: "Trekking Permit Status",
+      content:
+          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
+    {
+      heading: "High Uncertainty in J&K",
+      content:
+        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
+    },
+  ]
+},
 
   overview: {
     facts: [
