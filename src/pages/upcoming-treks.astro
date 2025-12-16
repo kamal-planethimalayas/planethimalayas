@@ -192,11 +192,19 @@ const proTreks = treks.filter(
   width: 100%;
   height: 220px;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  display: block;
+
+  /* Start slightly zoomed so edges are always filled */
+  transform: scale(1.02);
+
+  /* Slow, cinematic easing */
+  transition: 
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/* Smooth, slow zoom on hover */
 .trek-card:hover img {
-  transform: scale(1.1) rotate(-1deg);
+  transform: scale(1.12);
 }
 
 /* difficulty badge on top-left of image */
@@ -458,11 +466,18 @@ const proTreks = treks.filter(
   width: 100%;
   height: 140px;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  display: block;
+
+  /* Start slightly zoomed so edges are always filled */
+  transform: scale(1.02);
+
+  /* Slow, cinematic easing */
+  transition: 
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .suggested-trek-card:hover img{
-    transform: scale(1.1) rotate(-1deg);
+    transform: scale(1.12);
 }
 
 .suggested-trek-card h3 {

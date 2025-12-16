@@ -1016,24 +1016,28 @@ import "../styles/global.css";
   z-index: 10;
 }
 
-
 /* ---------------------------------------
-   TREK IMAGE
+   TREK IMAGE (SMOOTH PARALLAX ZOOM)
 ----------------------------------------- */
 
 .trek-card img {
   width: 100%;
-  height: 260px;   /* Increased height */
+  height: 260px;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+
+  /* Start slightly zoomed so edges are always filled */
+  transform: scale(1.02);
+
+  /* Slow, cinematic easing */
+  transition: 
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* NO zoom — stable image */
+/* Smooth, slow zoom on hover */
 .trek-card:hover img {
-  transform: scale(1.1) rotate(-1deg);
+  transform: scale(1.12);
 }
-
 
 /* ---------------------------------------
    TREK DIFFICULTY BADGE

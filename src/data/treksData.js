@@ -2299,6 +2299,295 @@ seo: {
     faqsLink: "/faqs-and-articles",
   },
 
+  {
+  id: "kedartal-trek",
+  name: "Kedartal Trek",
+  tags: ["high-altitude", "expedition"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "july", "august", "september"],
+  duration: ["5 Nights / 6 Days"],
+  region: "uttarakhand-garhwal",
+  coordinates: [
+    [30.7406, 78.4478], // Dehradun
+    [30.9200, 78.4610], // Gangotri
+    [30.9405, 78.4689], // Bhoj Kharak
+    [30.9637, 78.4804], // Kedar Kharak
+    [30.9726, 78.4927], // Kedartal
+    [30.9200, 78.4610], // Gangotri (end)
+  ],
+
+  heroImage:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889788/kedartal-hero_mexhsu.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889788/kedartal-hero_mexhsu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889846/kedartal-hero1_exnim0.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890046/kedartal-hero2_uowfhb.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890058/kedartal-hero3_czhrpg.jpg"
+  ],
+
+  subtitle: "A Raw Himalayan Adventure",
+
+  seo: {
+    title:
+      "Kedartal Trek | Difficult High Altitude Trek in Uttarakhand | Itinerary, Cost & Dates | Planethimalayas",
+    description:
+      "Kedartal Trek (4,750 m) is a challenging high-altitude Himalayan trek in Uttarakhand-Garhwal. Starting from Gangotri, the trail climbs through boulder zones, glacial valleys, and dramatic ridgelines to reach the pristine Kedartal glacial lake beneath Thalay Sagar, Bhrigupanth, and Meru. Ideal for experienced trekkers seeking a raw, expedition-like Himalayan experience."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "4,750 m (Kedartal)" },
+      { emoji: "⚡", label: "Trek Distance", value: "Approx. 24 km" },
+      { emoji: "🌤️", label: "Best Time", value: "May to September" },
+      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Gangotri (3,100 m)" },
+      { emoji: "🏁", label: "End Point", value: "Gangotri" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
+    ],
+
+    snippet: `
+Kedartal is not just a destination — it is an uncompromising encounter with the raw high Himalayas. Perched at an altitude of approximately 4,750 metres, this remote glacial lake lies hidden deep inside the Garhwal Himalayas, surrounded by some of the most formidable granite peaks in India. Towering above the valley are Thalay Sagar (6,904 m), Bhrigupanth (6,772 m), and Meru (6,660 m) — massive walls of rock and ice that dominate the skyline throughout the trek and lend Kedartal its dramatic, intimidating character.
+<br>
+The trek begins from Gangotri, one of the highest road-head pilgrimage towns in Uttarakhand and the point where the Bhagirathi River flows openly after emerging from the Gaumukh glacier further upstream. From the very first day, the trail offers no warm-up. The route climbs steeply along exposed ridges and rocky shelves, quickly leaving tree line behind and entering a landscape shaped by glaciers, landslides, and constant freeze-thaw cycles.
+<br>
+As the trail ascends, forests give way to vast boulder sections, moraine fields, and narrow mountain traverses carved into steep valley walls. The Kedartal valley is stark and unforgiving — snow bridges span icy streams, loose rocks demand careful footwork, and the air grows thinner with every kilometre. Camps such as Bhoj Kharak and Kedar Kharak sit high above the valley floor, surrounded by sheer mountain faces and complete isolation.
+<br>
+The Kedartal valley is also the birthplace of the Kedarganga stream, a glacial tributary that flows down from the lake and eventually meets the Bhagirathi River at Gangotri. This constant presence of glacial water underscores the raw, alpine nature of the terrain — cold, powerful, and ever-shifting.
+<br>
+The final climb to Kedartal is relentless. A steep ascent over unstable scree and glacier debris eventually reveals the lake — a deep, steel-blue expanse resting beneath vertical granite walls. With towering peaks reflected sharply on its surface and no signs of human settlement anywhere around, Kedartal feels wild, remote, and profoundly humbling.
+<br>
+Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and true high-altitude wilderness. True to the Planethimalayas ethos, this journey strips trekking down to its essentials and rewards effort with rare solitude, dramatic mountain architecture, and one of the most intense alpine landscapes in the Indian Himalayas.
+  `
+  },
+
+  price: 15900,
+  priceNote: "* Gangotri to Gangotri",
+
+  addons: {
+    transport: 6000,
+    transportNote: "* Dehradun to Dehradun (shared vehicle basis)",
+    offloadingbag: 2500,
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious high-altitude meals provided from dinner on Day 1 to dinner on Day 6",
+
+  highlights: [
+    "Sacred high-altitude Kedartal glacial lake at 4,750 m",
+    "Close-up views of Thalay Sagar, Bhrigupanth, and Meru peaks",
+    "Challenging terrain with boulder zones and glacial crossings",
+    "True expedition-style trekking experience",
+    "Remote campsites far from civilisation",
+    "One of the toughest and most rewarding treks in Garhwal"
+  ],
+
+  itinerary: [
+    {
+  day: 1,
+  title: "Reaching Gangotri (3,100 m) | Drive from Dehradun",
+  details: `
+The journey to Gangotri begins from Dehradun, following the classic approach route used by trekkers and pilgrims alike. The drive follows the Bhagirathi River for most of the day, passing through Mussoorie, Chamba, and Uttarkashi — the last major town before entering the upper Bhagirathi valley.
+<br>
+<br>Beyond Uttarkashi, the road narrows and climbs steadily through deep gorges, conifer forests, and scattered mountain settlements. The terrain becomes noticeably more alpine as you approach Gangotri, with colder air, reduced vegetation, and increasing views of high Himalayan slopes. By late afternoon or evening, arrive at Gangotri (3,100 m), check into a guesthouse, and spend time acclimatising to the altitude. Dinner and overnight stay at Gangotri.
+  `
+},
+    {
+  day: 2,
+  title: "Acclimatisation Day at Gangotri (3,100 m)",
+  details: `
+This day is reserved for acclimatisation and exploration around Gangotri to help the body adapt to the altitude before moving higher. Short walks are undertaken around the town, allowing trekkers to stay active without gaining additional height.
+<br>
+<br>Visit key landmarks in the Gangotri region including Surya Kund and Gauri Kund — natural rock formations and water pools near the temple complex — as well as Pandav Gufa, located a short walk away along the forested trail. Time is also spent at the Gangotri Temple area, observing the upper Bhagirathi valley and the surrounding mountain terrain.
+<br>
+<br>The remainder of the day is focused on rest, hydration, and preparation. Trekkers are advised to drink plenty of water, avoid exertion, and carefully attend the trek briefing conducted by the trek leader. Route details, safety protocols, gear checks, and expectations for the days ahead are discussed. Dinner and overnight stay at Gangotri, getting ready to begin the trek towards Bhoj Kharak the following day.
+  `
+},
+    {
+  day: 3,
+  title:
+    "Gangotri (3,100 m) to Bhoj Kharak (4,030 m) | 6 km Trek | 5–6 Hours",
+  details: `
+The trek begins from Gangotri with an immediate and sustained ascent, setting the tone for what lies ahead on the Kedartal route. The trail quickly leaves the settlement behind and starts climbing along the steep valley walls, crossing the Bhagirathi River before entering forested terrain.
+<br>
+<br>The climb is continuous and demanding. The path winds through fir forests, with rocky underfoot conditions dominating much of the trail. As you gain height, the Kedarganga can be heard flowing far below, reinforcing the steepness of the valley. Short, flatter sections appear occasionally, offering brief moments to recover before the ascent resumes.
+<br>
+<br>Higher up, the forest transitions into birch trees — locally known as bhoj — marking a clear change in altitude and vegetation. The trail remains narrow and rocky in parts, requiring careful foot placement and steady pacing. Hydration is important today, with a few natural water points available along the route to refill bottles.
+<br>
+<br>As the forest thins out, the trail becomes more exposed, passing across narrow rocky sections carved into the mountain side. These stretches demand focus but are manageable with calm movement and guidance from the trek leader.
+<br>
+<br>Bhoj Kharak is a small, high-altitude campsite located on limited grassy patches along the trail, enclosed by steep valley walls. The setting feels remote and rugged, offering the first true sense of the isolation that defines the Kedartal trek. Dinner and overnight stay at Bhoj Kharak.
+  `
+},
+    {
+  day: 4,
+  title:
+    "Bhoj Kharak (4,030 m) to Kedar Kharak (4,300 m) | 2.5 km Trek | 3–4 Hours",
+  details: `
+<br>Today’s trek is shorter in distance but continues the gradual climb deeper into the Kedartal valley. The trail begins with a steep ascent straight out of Bhoj Kharak, cutting through the last stretches of bhoj (birch) forest before crossing the tree line.
+<br>
+<br>After the initial climb, the terrain opens up into high-altitude meadows and wide alpine slopes. The gradient eases out, allowing a steadier pace as the trail undulates gently with moderate ascents and descents. With vegetation thinning, views expand dramatically, and the snow-covered mass of Bhrigupanth begins to dominate the skyline.
+<br>
+<br>This section of the valley feels quieter and more expansive. The open terrain increases the chances of spotting high-altitude wildlife such as bharal (blue sheep), goral, and Himalayan bird species. As altitude increases, the air grows noticeably colder, and small streams along the route often carry icy water, sometimes edged with frost.
+<br>
+<br>Kedar Kharak is located on a broad, dry alpine meadow beside a wide glacial stream, surrounded by massive rock faces and snowbound peaks. The campsite feels exposed and remote, offering uninterrupted views of the surrounding mountains. As evening approaches, the setting sun casts warm tones across the meadow and the face of Bhrigupanth, creating one of the most striking campsites of the trek. Dinner and overnight stay at Kedar Kharak.
+  `
+},
+    {
+  day: 5,
+  title:
+    "Kedar Kharak (4,300 m) to Kedartal (4,875 m) & Return | 5.4 km | 6–7 Hours",
+  details: `
+This is the most demanding and anticipated day of the Kedartal trek. An early start is essential as the route to the lake is long, exposed, and completely alpine in nature. The trail climbs steadily out of Kedar Kharak, immediately entering a stark, rocky landscape with no vegetation and no water sources along the way.
+<br>
+<br>The ascent is continuous, navigating through a maze of loose rocks, moraine, and uneven boulder sections. The terrain is physically taxing and requires constant attention to foot placement. With minimal descents, the effort remains sustained throughout the climb, making this the toughest day of the trek. Due to the open terrain and high altitude, weather conditions can change quickly, and trekkers must maintain a steady pace to reach the lake safely.
+<br>
+<br>As you approach the upper reaches of the valley, the massive granite walls of the Kedartal basin come into view. About half a kilometre before the lake, the imposing face of Thalay Sagar rises dramatically across a rocky ridge, marking the final approach. Crossing this ridge, the trail descends slightly and Kedartal suddenly reveals itself — a striking emerald-blue glacial lake resting beneath towering peaks at nearly 4,900 metres.
+<br>
+<br>Temperatures drop sharply at the lake, and the environment feels harsh and isolated. The still waters of Kedartal reflect the surrounding mountains with remarkable clarity, creating a moment that makes the long ascent worthwhile. Time at the lake is limited due to altitude and weather considerations.
+<br>
+<br>After soaking in the views, retrace the same route back to Kedar Kharak. The descent demands caution on loose rocks and tired legs. Arrive back at camp by late afternoon or early evening for dinner and overnight stay at Kedar Kharak.
+  `
+},
+    {
+  day: 6,
+  title:
+    "Kedar Kharak to Gangotri (3,100 m) | Return Trek | 6–7 Hours",
+  details: `
+The final day of the trek is a long descent back to Gangotri, retracing the same trail taken on the ascent. Starting early from Kedar Kharak, the route drops steadily through the Kedartal valley, crossing familiar sections of rocky terrain, exposed ledges, and narrow mountain paths that now demand equal care while descending.
+<br>
+<br>As the trail winds back through the upper valley and into forested stretches, the day offers a chance to reflect on the physical and mental challenges faced over the past days — the steep climbs, high altitude, and relentless terrain that defined the journey. Though the direction is downhill, caution remains essential, especially along narrow traverses and loose rock sections where focus is required till the very end.
+<br>
+<br>Gradually, signs of civilisation begin to return. Mobile network reappears as you approach Gangotri, along with the unmistakable sounds of the bustling temple area and the constant roar of the Bhagirathi River below. The transition from remote alpine silence to the energy of Gangotri feels abrupt yet grounding.
+<br>
+<br>The trek concludes upon reaching Gangotri, marking the end of a demanding yet deeply rewarding Himalayan journey. Overnight stay or onward travel arrangements can be made from Gangotri.
+  `
+}
+  ],
+
+  howToReach: {
+    air:
+      "Nearest airport: Jolly Grant Airport, Dehradun. From there, drive to Gangotri.",
+    train:
+      "Nearest railway station: Dehradun / Haridwar. Continue by road to Gangotri.",
+    road:
+      "Dehradun → Uttarkashi → Gangotri via NH134.",
+    travelTip:
+      "Arrive in Dehradun a day early for permit formalities and briefing."
+  },
+
+  didYouKnow: [
+    "Kedartal is also known as Shiva’s Lake and is considered sacred by locals.",
+    "The surrounding peaks — Thalay Sagar and Meru — are legendary in global mountaineering history.",
+    "The lake remains frozen for most of the year, even during early summer.",
+    "Unlike many Himalayan treks, Kedartal involves minimal forest walking and maximum alpine terrain.",
+    "The trail was historically used by shepherds but later adopted by mountaineers.",
+    "Weather can change rapidly due to the valley’s glacial geography."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765893072/kedartal-view12_kv5nns.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765892743/kedartal-view11_exmfb2.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765892421/kedartal-view10_ygpp5a.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765892083/kedartal-view9_goxt2v.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765891768/kedartal-view8_ncninu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765891442/kedartal-view7_klhhhq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765891113/kedartal-view6_gvby3j.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890774/kedartal-view5_nj9dhd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890469/kedartal-view4_s7sphf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890134/kedartal-view3_a3jxx4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890114/kedartal-view2_twolal.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890094/kedartal-view1_t6djnj.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890059/kedartal-view_riztmg.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890058/kedartal-hero3_czhrpg.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765890046/kedartal-hero2_uowfhb.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889846/kedartal-hero1_exnim0.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889788/kedartal-hero_mexhsu.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+ faqs: {
+  questions: [
+    {
+      question: "Who should attempt the Kedartal Trek?",
+      answer:
+        "Kedartal is strictly meant for experienced trekkers who have prior high-altitude trekking experience (4,000 m and above). Trekkers should be comfortable with long days, continuous steep ascents, rocky terrain, and exposed mountain sections. This trek demands strong physical fitness, mental resilience, and the ability to move confidently in rugged alpine terrain."
+    },
+    {
+      question: "How should I prepare physically for the Kedartal Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
+      question: "Why are two acclimatisation nights at Gangotri important?",
+      answer:
+        "Gangotri sits at approximately 3,100 m, and the trek involves rapid altitude gain beyond 4,000 m. Spending two nights here allows the body to adapt gradually, reducing the risk of Acute Mountain Sickness (AMS). Skipping or rushing acclimatisation significantly increases the chances of altitude-related complications later in the trek."
+    },
+    {
+      question: "Is altitude sickness a major concern on this trek?",
+      answer:
+        "Yes. Kedartal involves sustained exposure to high altitude with limited evacuation options once on the trail. Symptoms of AMS can escalate quickly if acclimatisation is inadequate. Trekkers must report symptoms early and strictly follow the trek leader’s instructions."
+    },
+    {
+      question: "Are any permits or permissions required for Kedartal?",
+      answer:
+        "Yes. Entry permits are required as the trek falls within a regulated high-altitude zone in Uttarakhand. Planethimalayas arranges all mandatory permissions for Indian nationals. Foreign nationals require additional clearances, which involve higher permit fees and longer processing time."
+    },
+    {
+      question: "Do foreign nationals need to pay more for this trek?",
+      answer:
+        "Yes. Forest permits and regulatory fees for foreign nationals are higher for Kedartal. These additional costs are charged separately and must be paid in advance during the booking process."
+    },
+    {
+      question: "Is travel or trekking insurance mandatory?",
+      answer:
+        "Yes. Trekking insurance covering high-altitude trekking and emergency evacuation is mandatory for all participants. This is a non-negotiable safety requirement due to the remote and demanding nature of the trek."
+    },
+    {
+      question: "Is offloading (porter for backpack) available on Kedartal?",
+      answer:
+        "Yes, offloading is available at an additional cost. However, trekkers should still be capable of carrying a light daypack and moving confidently on exposed sections. Offloading does not reduce the physical challenge of the terrain."
+    },
+    {
+      question: "Is there a cloakroom or luggage storage facility at Gangotri?",
+      answer:
+        "Yes. Cloakroom or safe luggage storage is available at Gangotri, allowing trekkers to leave behind unnecessary items before starting the trek."
+    },
+    {
+      question: "Is mobile network available during the trek?",
+      answer:
+        "Mobile network is available intermittently at Gangotri. Beyond Gangotri, there is no reliable network on the trail. Connectivity returns only upon descending back close to Gangotri at the end of the trek."
+    },
+    {
+      question: "What is the best time to do the Kedartal Trek?",
+      answer:
+        "The best time to attempt Kedartal is from mid-May to June and again from September to early October. These windows offer relatively stable weather, safer trail conditions, and clearer mountain views."
+    },
+    {
+      question: "Is Kedartal safe during the monsoon season?",
+      answer:
+        "No. The Kedartal trek is not recommended during the monsoon months. Heavy rainfall increases the risk of landslides, loose rock movement, slippery trails, and unpredictable river crossings, making the route unsafe."
+    },
+    {
+      question: "Are technical climbing skills required for Kedartal?",
+      answer:
+        "No technical climbing or rope work is involved. However, trekkers must be comfortable walking on loose rocks, narrow ledges, and steep gradients at high altitude."
+    },
+    {
+      question: "Can beginners attempt the Kedartal Trek?",
+      answer:
+        "No. Kedartal is not suitable for beginners. It is an expedition-style trek meant only for trekkers with solid prior experience in high-altitude Himalayan terrain."
+    }
+  ]
+},
+
+  faqsLink: "/pages/faqs-and-articles",
+},
 
   {
     id: "phulara-ridge-trek",
@@ -4352,7 +4641,7 @@ itinerary: [
   },
 
   price: 10400,
-  priceNote: "* Kathgodam to Kathgodam",
+  priceNote: "* Gogina to Gogina",
   addons: {
     transport: 6000,
     transportNote: "* kathgodam to Kathgodam",
@@ -6207,6 +6496,179 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
   faqsLink: "/faqs-and-articles",
   
+},
+
+{
+  id: "doodhpathri-trek",
+  name: "Doodhpathri Trek",
+  tags: ["beginner"],
+  difficulty: ["easy"],
+  season: ["summer", "monsoon"],
+  month: ["june", "july", "august", "september"],
+  duration: ["3 Nights / 4 Days"],
+  region: "kashmir",
+  coordinates: [
+    [34.0837, 74.7973], // Srinagar
+    [33.9735, 74.6342], // Doodhpathri
+    [33.9901, 74.6568], // Palmaidan Meadows
+    [34.0103, 74.6794], // Doodhpathri Top
+    [34.0837, 74.7973], // Srinagar (end)
+  ],
+
+  heroImage:
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+  heroImages: [
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg"
+  ],
+
+  subtitle: "The Valley of Milk Meadows",
+
+  seo: {
+    title: "Doodhpathri Trek | Easy Kashmir Trek | Itinerary & Cost | Planethimalayas",
+    description:
+      "Doodhpathri Trek is an easy alpine meadow trek in Kashmir, perfect for beginners. Lush green grasslands, pine forests, milky streams, and panoramic Pir Panjal views make it an ideal short Himalayan escape near Srinagar."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "4,100 m (Doodhpathri Top)" },
+      { emoji: "⚡", label: "Trek Distance", value: "Approx. 18 km" },
+      { emoji: "🌤️", label: "Best Time", value: "June to September" },
+      { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas" },
+      { emoji: "📍", label: "Start Point", value: "Srinagar" },
+      { emoji: "🏁", label: "End Point", value: "Srinagar" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
+    ],
+
+    snippet: `
+Doodhpathri, literally meaning “Valley of Milk,” is one of Kashmir’s most serene alpine landscapes — wide emerald meadows cut through by crystal-clear streams that turn milky white as they rush over limestone beds. Tucked away southwest of Srinagar, this region remains largely untouched by mass tourism, offering a peaceful Himalayan experience unlike the busier valleys of Gulmarg or Pahalgam.
+<br>
+The trek unfolds through rolling grasslands, pine and fir forests, and high-altitude pastures grazed by Gujjar and Bakarwal shepherds. With gentle ascents and open walking trails, Doodhpathri is perfect for beginners, families, and trekkers seeking a slow, immersive mountain journey rather than a physically demanding climb.
+<br>
+A highlight of the trek is the climb to Doodhpathri Top — a natural viewpoint that opens sweeping vistas of the Pir Panjal range, layered valleys, and endless green meadows stretching far into the horizon. During monsoon months, clouds drift low across the grasslands, creating a dreamlike atmosphere rarely seen on Himalayan trails.
+<br>
+Short, scenic, and deeply calming, the Doodhpathri Trek is ideal for those who want to experience Kashmir’s raw beauty at an unhurried pace — where silence, space, and scenery take centre stage.
+    `
+  },
+
+  price: 7900,
+  priceNote: "* Srinagar to Srinagar",
+
+  addons: {
+    transport: null,
+    transportNote: null,
+    offloadingbag: 1500,
+    offloadingNote: "* maximum weight 9 kg / bag",
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 4",
+
+  highlights: [
+    "Expansive alpine meadows of Doodhpathri with uninterrupted views",
+    "Milky-white streams flowing through lush green grasslands",
+    "Quiet, uncrowded trail away from mainstream Kashmir tourism",
+    "Panoramic views of the Pir Panjal mountain range",
+    "Easy terrain ideal for beginners, families, and first-time trekkers",
+    "Beautiful monsoon cloud formations and vibrant summer landscapes"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Arrival in Srinagar & Drive to Doodhpathri | 45 km Drive | 2–3 Hours",
+      details: `
+Arrive in Srinagar by afternoon and meet the Planethimalayas team. After a short briefing, drive towards Doodhpathri through forested roads and rolling countryside. Reach the meadow region by evening and settle into camps near the grasslands. Enjoy your first views of Kashmir’s untouched alpine terrain followed by dinner and overnight stay.
+      `
+    },
+    {
+      day: 2,
+      title: "Doodhpathri to Palmaidan Meadows | 7 km Trek | 4–5 Hours",
+      details: `
+Begin trekking after breakfast through wide meadows intersected by crystal-clear streams. The trail remains gentle and open, offering continuous views of surrounding ridges and forests. Reach Palmaidan — a vast, flat meadow ideal for camping — by afternoon. Spend the evening relaxing, photographing the landscape, or simply soaking in the silence of the mountains.
+      `
+    },
+    {
+      day: 3,
+      title: "Palmaidan to Doodhpathri Top & Return | 8 km Trek | 5–6 Hours",
+      details: `
+Start early for the gradual ascent towards Doodhpathri Top, the highest point of the trek. From the summit ridge, enjoy sweeping views of the Pir Panjal range and endless green valleys below. After spending time at the top, descend back to the campsite by late afternoon. Dinner and overnight stay at Palmaidan.
+      `
+    },
+    {
+      day: 4,
+      title: "Trek Back to Doodhpathri & Drive to Srinagar | 3–4 Hours",
+      details: `
+After breakfast, trek back through familiar meadows to the Doodhpathri roadhead. From here, drive back to Srinagar, reaching by evening. The trek concludes with unforgettable memories of Kashmir’s hidden alpine heartland.
+      `
+    }
+  ],
+
+  howToReach: {
+    air:
+      "Nearest airport: Srinagar International Airport. Taxis to Doodhpathri are easily available.",
+    train:
+      "Nearest railway station: Jammu Tawi. From Jammu, drive to Srinagar and onward to Doodhpathri.",
+    road:
+      "From Srinagar: 2–3 hours drive via Budgam district to Doodhpathri.",
+    travelTip:
+      "Arrive in Srinagar a day early to acclimatize and explore the city before heading to the meadows."
+  },
+
+  didYouKnow: [
+    "Doodhpathri gets its name from the milky appearance of its streams caused by limestone-rich soil.",
+    "The meadows are traditional summer grazing grounds for Gujjar and Bakarwal nomadic tribes.",
+    "Unlike Gulmarg or Pahalgam, Doodhpathri remains largely free from commercial tourism infrastructure.",
+    "The region sits on the lesser-explored side of the Pir Panjal range, offering rare panoramic viewpoints.",
+    "During monsoon, cloud layers often move below the trekking trail, creating a ‘floating meadow’ effect.",
+    "Local folklore believes the meadows were blessed by saints due to their unmatched serenity and purity."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896183/Doodhpathri_z5ipmd.jpg",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896171/doodhpathri-view_iokmf7.webp"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Doodhpathri Trek?",
+        answer:
+          "The trek is ideal for beginners, families, and anyone with basic fitness looking for an easy Himalayan experience."
+      },
+      {
+        question: "Is this trek suitable during monsoon?",
+        answer:
+          "Yes. Monsoon is one of the most beautiful times for Doodhpathri, with lush meadows and dramatic cloud formations."
+      },
+      {
+        question: "Is altitude sickness a concern?",
+        answer:
+          "The altitude gain is gradual, making it relatively safe. Proper hydration and steady pace are recommended."
+      },
+      {
+        question: "Will there be mobile network?",
+        answer:
+          "Mobile connectivity is available near Srinagar but unreliable once you enter the meadow region."
+      },
+      {
+        question: "Is offloading available?",
+        answer:
+          "Yes, mule or porter offloading is available with prior booking."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
 },
 // Add other trek objects here...
 ];
