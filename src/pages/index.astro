@@ -307,7 +307,7 @@ import "../styles/global.css";
   <div class="leadgen-overlay"></div>
 
   <div class="leadgen-content">
-    <h2 class="section-heading">Plan Your <span>Himalayan Adventure</span></h2>
+    <h2 class="section-heading">Plan Your <span>Himalayan Trek</span></h2>
     <p class="section-sub">
       Get a personalised itinerary, dates & expert guidance from Planethimalayas.
     </p>
@@ -1016,28 +1016,24 @@ import "../styles/global.css";
   z-index: 10;
 }
 
+
 /* ---------------------------------------
-   TREK IMAGE (SMOOTH PARALLAX ZOOM)
+   TREK IMAGE
 ----------------------------------------- */
 
 .trek-card img {
   width: 100%;
-  height: 260px;
+  height: 260px;   /* Increased height */
   object-fit: cover;
   display: block;
-
-  /* Start slightly zoomed so edges are always filled */
-  transform: scale(1.02);
-
-  /* Slow, cinematic easing */
-  transition: 
-    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.3s ease;
 }
 
-/* Smooth, slow zoom on hover */
+/* NO zoom — stable image */
 .trek-card:hover img {
-  transform: scale(1.12);
+  transform: scale(1.1) rotate(-1deg);
 }
+
 
 /* ---------------------------------------
    TREK DIFFICULTY BADGE
