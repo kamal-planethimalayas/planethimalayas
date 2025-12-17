@@ -548,11 +548,11 @@ const { gallery, name } = trek;
   </section>
 
   <!-- Itinerary -->
-<section id="itinerary">
-  <h2 class="section-heading">Itinerary</h2>
-  <span class="itinerary-info-icon" id="itinerary-info">?</span>
-  <div class="itinerary-container">
-    {trek.itinerary.map(day => (
+  <section id="itinerary">
+    <h2 class="section-heading">Itinerary</h2>
+    <span class="itinerary-info-icon" id="itinerary-info">?</span>
+    <div class="itinerary-container">
+      {trek.itinerary.map(day => (
       <article key={day.day} class="itinerary-day">
         <button class="itinerary-toggle">
           <span>📅 Day {day.day}: {day.title}</span>
@@ -562,9 +562,9 @@ const { gallery, name } = trek;
         </button>
         <div class="itinerary-details" set:html={day.details}></div>
       </article>
-    ))}
-  </div>
-</section>
+      ))}
+    </div>
+  </section>
 
   <!-- Packing List -->
     <section id="packing-list">
@@ -627,6 +627,94 @@ const { gallery, name } = trek;
         ))}
       </ul>
     </section>
+</section>
+
+{/* Similar Treks Section */}
+<section id="similar-treks" class="similar-treks-section reveal">
+  <h2 class="similar-treks-heading">
+    Similar <span>Treks</span>
+  </h2>
+
+  <div class="similar-treks-wrapper">
+    <button class="scroll-btn left" aria-label="Scroll left">❮</button>
+
+    <div class="trek-cards-container similar-treks-row" id="similarTreksRow">
+      {treks
+        .filter(t => t.id !== trek.id)
+        .map(t => {
+          let score = 0;
+
+          // Tags
+          const tagMatches =
+            t.tags?.filter(tag => trek.tags?.includes(tag)).length || 0;
+          score += tagMatches * 2;
+
+          // Season
+          const seasonMatches =
+            t.season?.filter(s => trek.season?.includes(s)).length || 0;
+          score += seasonMatches;
+
+          // Difficulty
+          if (t.difficulty?.some(d => trek.difficulty?.includes(d))) {
+            score += 1;
+          }
+
+          // Region
+          if (t.region === trek.region) score += 2;
+
+          return { ...t, score };
+        })
+        .filter(t => t.score >= 3)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8)
+        .map(similarTrek => (
+          <div class="trek-card show" data-trek-id={similarTrek.id}>
+            <a href={`/trek/${similarTrek.id}#trek-hero`}>
+              <img
+                src={similarTrek.heroImage}
+                alt={`View of ${similarTrek.name} trek`}
+                loading="lazy"
+              />
+              <span class="trek-difficulty">
+                {Array.isArray(similarTrek.difficulty)
+                  ? similarTrek.difficulty.join(", ")
+                  : similarTrek.difficulty}
+              </span>
+            </a>
+
+            <h3 class="trek-name">{similarTrek.name}</h3>
+
+            <div class="trek-info">
+              <div class="trek-duration">
+                <i class="fa fa-clock"></i> {similarTrek.duration}
+              </div>
+
+              <div class="trek-region">
+                <i class="fa fa-map-marker-alt"></i>{" "}
+                {similarTrek.region}
+              </div>
+            </div>
+
+            <div class="trek-buttons">
+              <a
+                href={`/trek/${similarTrek.id}#trek-overview-section`}
+                class="btn btn-details"
+              >
+                View Details
+              </a>
+              <a
+                href={`/trek/${similarTrek.id}#pricing-snippet-wrapper`}
+                class="btn btn-dates"
+              >
+                View Dates
+              </a>
+            </div>
+          </div>
+        ))}
+    </div>
+
+    <button class="scroll-btn right" aria-label="Scroll right">❯</button>
+  </div>
 </section>
  
 <style>
@@ -1015,10 +1103,7 @@ const { gallery, name } = trek;
 }
 
 .faqs {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  background: transparent;
 }
 
 .faqs h2 {
@@ -1067,7 +1152,6 @@ const { gallery, name } = trek;
 .faq-item.open .faq-answer {
   display: block;
 }
-
 
 /* =========================
    TREK NAVIGATION STYLES
@@ -1742,7 +1826,240 @@ const { gallery, name } = trek;
   }
 }
 
+/* ==================================================
+   SIMILAR TREKS SECTION
+================================================== */
+
+.similar-treks-section {
+  padding: 2rem 0;
+  position: relative;
+}
+
+/* Heading */
+.similar-treks-heading {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.similar-treks-heading span {
+  color: #ff7300;
+  position: relative;
+}
+
+.similar-treks-heading span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 4px;
+  background: #ff7300;
+  border-radius: 2px;
+}
+
+/* ==================================================
+   WRAPPER + SCROLL
+================================================== */
+
+.similar-treks-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Horizontal scroll row */
+.similar-treks-row {
+  display: flex;
+  gap: 1.6rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 2rem 0;
+  scrollbar-width: none;
+}
+
+.similar-treks-row::-webkit-scrollbar {
+  display: none;
+}
+
+/* ==================================================
+   TREK CARD (SIMILAR VARIANT)
+   Uses SAME markup as main trek cards
+================================================== */
+
+.similar-treks-row .trek-card {
+  flex: 0 0 280px;
+  max-width: 280px;
+  min-height: 320px;
+
+  background: #000;
+  border-radius: 12px;
+  border: 2px solid #ff7300;
+  overflow: hidden;
+
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover – subtle lift (no aggressive 3D) */
+.similar-treks-row .trek-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 8px 25px rgba(255, 115, 0, 0.8),
+    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+}
+
+/* ==================================================
+   IMAGE
+================================================== */
+
+.similar-treks-row .trek-card a {
+  position: relative;
+  display: block;
+}
+
+.similar-treks-row .trek-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transform: scale(1.03);
+  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.similar-treks-row .trek-card:hover img {
+  transform: scale(1.12);
+}
+
+/* Difficulty badge */
+.similar-treks-row .trek-difficulty {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,115,0,0.95);
+  color: #000;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  backdrop-filter: blur(3px);
+}
+
+/* ==================================================
+   TEXT CONTENT
+================================================== */
+
+.similar-treks-row .trek-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.9rem 1rem 0.5rem;
+  text-align: center;
+  color: #ff7300;
+}
+
+.similar-treks-row .trek-info {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  opacity: 0.9;
+  margin-bottom: 0.8rem;
+}
+
+.similar-treks-row .trek-info div {
+  margin-bottom: 4px;
+}
+
+/* ==================================================
+   CTA BUTTONS (COMPACT)
+================================================== */
+
+.similar-treks-row .trek-buttons {
+  margin-top: auto;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.similar-treks-row .trek-buttons a.btn {
+  font-size: 0.75rem;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  border: 1.5px solid #ff7300;
+  color: #ff7300;
+  background: transparent;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 4px 10px rgba(255,115,0,0.35),
+    0 0 8px rgba(255,115,0,0.25);
+}
+
+.similar-treks-row .trek-buttons a.btn:hover {
+  background: #ff7300;
+  color: #000;
+  box-shadow:
+    0 8px 22px rgba(255,115,0,0.85),
+    0 0 20px rgba(255,115,0,1);
+}
+
+/* ==================================================
+   SCROLL BUTTONS
+================================================== */
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ff7300;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 2px 6px #ff7300;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px #ff7300;
+}
+
+.scroll-btn.left {
+  left: -18px;
+}
+
+.scroll-btn.right {
+  right: -18px;
+}
+
+.scroll-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .trek-card {
+    flex: 0 0 100%;
+  }
+}
+
 </style>
+</Layout>
 
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", () => {
@@ -2165,4 +2482,49 @@ window.addEventListener("click", (e) => {
 });
 </script>
 
-</Layout>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const row = document.getElementById("similarTreksRow");
+  if (!row) return;
+
+  const leftBtn = document.querySelector(".scroll-btn.left");
+  const rightBtn = document.querySelector(".scroll-btn.right");
+
+  const scrollAmount = 300;
+
+  function updateButtons() {
+    leftBtn.disabled = row.scrollLeft <= 0;
+    rightBtn.disabled =
+      row.scrollLeft + row.clientWidth >= row.scrollWidth - 5;
+  }
+
+  leftBtn.addEventListener("click", () => {
+    row.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
+
+  rightBtn.addEventListener("click", () => {
+    row.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+
+  row.addEventListener("scroll", updateButtons);
+  updateButtons();
+
+  // Touch swipe
+  let startX = 0;
+  row.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+  });
+
+  row.addEventListener("touchend", e => {
+    const diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      row.scrollBy({
+        left: diff > 0 ? scrollAmount : -scrollAmount,
+        behavior: "smooth"
+      });
+    }
+  });
+});
+</script>
+
+

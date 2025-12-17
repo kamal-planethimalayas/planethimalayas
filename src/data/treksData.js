@@ -5,7 +5,7 @@ export const treks = [
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
-    tags: ["pro"],
+    tags: ["pro", "pass", "crossover", "kinnaur", "spiti", "glacier"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -167,6 +167,11 @@ export const treks = [
           answer: "This trek is suitable for individuals with prior high-altitude trekking experience and good physical fitness. It involves steep ascents, river crossings, and high-altitude camping.",
         },
         {
+          question: "How should I prepare physically for the Pin Bhaba Pass Trek?",
+          answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+        },
+        {
           question: "What should I pack for the Pin Bhaba Pass trek?",
           answer: "Essential items include waterproof trekking shoes, layered clothing, a 50L rucksack with rain cover, thermal wear, and a headlamp. For a detailed packing list, refer to the downloadable PDF above.",
         },
@@ -190,7 +195,7 @@ export const treks = [
   {
   id: "pin-parvati-pass-trek",
   name: "Pin Parvati Pass Trek",
-  tags: ["pro"],
+  tags: ["pro", "pass", "crossover", "parvati", "spiti", "glacier"],
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
@@ -458,7 +463,7 @@ export const treks = [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["intermediate"],
+    tags: ["intermediate", "pass", "crossover", "kullu", "lahaul", "lake", "glacier"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -670,7 +675,7 @@ export const treks = [
   {
   id: "deo‑tibba‑basecamp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["intermediate", "pro"],
+  tags: ["intermediate", "pro", "basecamp", "lake", "kullu", "glacier"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
@@ -879,7 +884,7 @@ export const treks = [
  {
     id: "hampta-circuit-trek",
     name: "Hampta Circuit Trek",
-    tags: ["beginner", "family"],
+    tags: ["beginner", "family", "kullu"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
     month: ["may", "june", "july", "august", "september", "october", "november", "december"],
@@ -1031,7 +1036,7 @@ export const treks = [
 {
     id: "rani-sui-lake-trek",
     name: "Rani Sui Lake Trek",
-    tags: ["beginner", "family"],
+    tags: ["beginner", "family", "kullu"],
     difficulty: ["easy"],
     season: ["summer", "autumn", "monsoon", "winter","spring"],
     month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
@@ -1177,7 +1182,7 @@ export const treks = [
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
-    tags: ["pro"],
+    tags: ["pro", "pass", "crossover", "shimla", "kinnaur", "glacier"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1381,6 +1386,11 @@ export const treks = [
       answer: "The Rupin Pass trek is best suited for trekkers with prior high-altitude trekking experience and good physical fitness. It involves steep ascents, long trekking days (up to 8–9 hrs), snow crossings, and high-altitude camping above 13,000 ft. Beginners are advised to start with easier treks before attempting Rupin.",
     },
     {
+      question: "How should I prepare physically for the Rupin Pass Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
       question: "What should I pack for the Rupin Pass trek?",
       answer: "Essential gear includes sturdy waterproof trekking shoes, 3–4 layers of warm clothing (including thermals, fleece, and down jacket), a 50–60L backpack with rain cover, trekking poles, personal medicines, and a headlamp. For a full checklist, download the PDF packing list above.",
     },
@@ -1414,7 +1424,7 @@ export const treks = [
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate", "pro"],
+    tags: ["intermediate", "pro", "pass", "crossover", "shimla", "kinnaur", "lake", "glacier"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1621,6 +1631,11 @@ export const treks = [
       answer: "Buran Ghati is one of the most versatile Himalayan treks. It combines ancient villages, dense oak-pine forests, high-altitude meadows, glacier basins, and a dramatic pass crossing with snow slides. Trekkers get both cultural immersion and adventure in a single trail, making it one of the best 'complete' Himalayan experiences.",
     },
     {
+      question: "How should I prepare physically for the Buran Ghati Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
       question: "What should I pack for the Buran Ghati trek?",
       answer: "Along with the standard Himalayan trekking essentials (waterproof shoes, layered warm clothing, backpack with rain cover, personal medicines, and a headlamp), trekkers must carry trekking poles and sturdy gloves for the snow wall descent. Download the PDF checklist above for a detailed packing list.",
     },
@@ -1655,7 +1670,7 @@ export const treks = [
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["intermediate", "beginner"],
+    tags: ["intermediate", "beginner", "family"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -1900,7 +1915,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["intermediate", "beginner"],
+    tags: ["intermediate", "beginner", "family", "lake"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -2145,7 +2160,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["intermediate", "pro"],
+    tags: ["intermediate", "pro", "glacier", "basecamp"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2319,6 +2334,11 @@ seo: {
       answer: "This trek is recommended for intermediate to experienced trekkers with good fitness. The trail includes steep ascents, high-altitude camping, and glacier-side trekking, making it suitable for those prepared for physically demanding Himalayan trails."
     },
     {
+      question: "How should I prepare physically for the Gaumukh-Tapovan Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
       question: "What should I pack for the Gaumukh-Tapovan trek?",
       answer: "Essential items include high-altitude trekking shoes, layered clothing, a 50L rucksack with rain cover, thermal wear, trekking poles, insulated water bottles, and a headlamp. For a detailed packing list, refer to the downloadable PDF above."
     },
@@ -2351,7 +2371,7 @@ seo: {
   {
   id: "kedartal-trek",
   name: "Kedartal Trek",
-  tags: ["intermediate", "pro"],
+  tags: ["intermediate", "pro", "lake", "glacier"],
   difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -2832,7 +2852,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
-    tags: ["intermediate", "pro"],
+    tags: ["intermediate", "pro", "lake"],
     difficulty: ["moderate", "difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
@@ -3923,7 +3943,7 @@ itinerary: [
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pro"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "tons", "yamunotri"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -4117,6 +4137,11 @@ itinerary: [
           "Bali Pass is ideal for experienced trekkers with prior exposure to high-altitude conditions. It involves steep ascents, scree slopes, and snow crossings.",
       },
       {
+      question: "How should I prepare physically for the Bali Pass Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+      {
         question: "What kind of weather should I expect?",
         answer:
           "Expect pleasant days (10–15°C) in lower camps and freezing temperatures near the pass (0°C to -5°C). Snow is common in early summer and post-monsoon.",
@@ -4144,7 +4169,7 @@ itinerary: [
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
-    tags: ["pro"],
+    tags: ["pro", "lake", "glacier"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4318,6 +4343,11 @@ itinerary: [
       answer: "This trek is suitable for individuals with good physical fitness and some high-altitude trekking experience. It involves steep ascents, high camps and variable terrain."
     },
     {
+      question: "How should I prepare physically for the Roopkund Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
       question: "What should I pack for the Roopkund trek?",
       answer: "Essential items include waterproof trekking shoes, layered clothing, 50 L rucksack with rain cover, thermal wear, sleeping bag rated for cold nights, headlamp, trekking poles."
     },
@@ -4364,7 +4394,7 @@ itinerary: [
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["intermediate", "pro"],
+    tags: ["intermediate", "pro", "basecamp", "glacier"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4619,7 +4649,7 @@ itinerary: [
   name: "Ranthan Kharak Trek",
   tags: ["intermediate"],
   difficulty: ["moderate"],
-  season: ["summer", "monsoon"],
+  season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   region: "uttarakhand-kumaon",
   duration: "6 Nights / 6 Days",
@@ -5397,7 +5427,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "goechala-trek",
     name: "Goechala Trek",
-    tags: ["pro"],
+    tags: ["pro", "lake", "glacier"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
@@ -5898,8 +5928,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
 {
     id: "markha-valley-trek",
-    name: "Markha Valley Trek",
-    tags: ["pro"],
+    name: "Markha Valley & Kongmaru La",
+    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover"],
     difficulty: ["difficult"],
     season: ["monsoon"],
     month: ["august", "september"],
@@ -5921,11 +5951,11 @@ After breakfast, descend gradually through forests and old trade routes towards 
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
     ],
 
-    subtitle: "The Classic Trek of Ladakh’s High-Altitude Himalayan Desert",
+    subtitle: "The Classic Trek of Himalayan Cold Desert",
 
     seo: {
-      title: "Markha Valley Trek | Itinerary, Cost & Dates | Planethimalayas",
-      description: "Markha Valley Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
+      title: "Markha Valley & Kongmaru La Trek | Itinerary, Cost & Dates | Planethimalayas",
+      description: "Markha Valley & Kongmaru La Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
     },
 
     overview: {
@@ -6062,6 +6092,11 @@ After breakfast, descend gradually through forests and old trade routes towards 
     {
       question: "Who can participate in the Markha Valley trek?",
       answer: "This trek is suitable for intermediate trekkers with basic high-altitude experience. While the trails are moderate, some days involve long distances and high-altitude camping.",
+    },
+    {
+      question: "How should I prepare physically for the Markha Valley Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
     },
     {
       question: "What is the best season for the Markha Valley trek?",
@@ -6312,7 +6347,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
   id: "kashmir-great-lakes-trek",
   name: "Kashmir Great Lakes Trek",
-  tags: ["intermediate", "pro"],
+  tags: ["intermediate", "pro", "pass", "lake"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -6487,6 +6522,11 @@ After breakfast, descend gradually through forests and old trade routes towards 
           "This trek is best suited for fit trekkers with prior trekking experience. Long walking days, high altitude, and repeated ascents and descents require good stamina and endurance."
       },
       {
+      question: "How should I prepare physically for the Kashmir Great Lakes Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+      {
         question: "What is the difficulty level of this trek?",
         answer:
           "The trek is graded moderate to moderate-difficult. While there are no technical sections, the altitude, long distances, river crossings, and high passes make it physically demanding."
@@ -6536,7 +6576,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
 {
   id: "doodhpathri-trek",
   name: "Doodhpathri Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "lake"],
   difficulty: ["easy"],
   season: ["summer", "monsoon"],
   month: ["june", "july", "august", "september"],
