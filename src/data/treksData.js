@@ -1722,11 +1722,6 @@ seo: {
 
     dates: [
       
-      
-      { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
-{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
-{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
-{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
 { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
 { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
 { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
@@ -1974,10 +1969,6 @@ seo: {
 
     dates: [
            
-    { label: "15 Dec - 19 Dec", start: "2025-12-15", end: "2025-12-19" },
-{ label: "20 Dec - 24 Dec", start: "2025-12-20", end: "2025-12-24" },
-{ label: "21 Dec - 25 Dec", start: "2025-12-21", end: "2025-12-25" },
-{ label: "22 Dec - 26 Dec", start: "2025-12-22", end: "2025-12-26" },
 { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
 { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
 { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },

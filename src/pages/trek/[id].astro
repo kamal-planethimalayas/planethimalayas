@@ -49,12 +49,12 @@ const { gallery, name } = trek;
   description={trek.seo?.description || trek.subtitle}
 >
 
-<!-- Modal -->
-    <div id="price-modal" class="price-modal">
-      <div class="price-modal-content">
+<!-- Price Modal -->
+  <div id="price-modal" class="price-modal">
+    <div class="price-modal-content">
         <span class="close-price-modal">&times;</span> 
-        <p><strong style="color: #ff7300;">PriceNote – Listed Price &amp; Customisation Rules:</strong><br>
-          The listed trek price, including add-ons listed, applies to groups of at least 4 participants for the specified itinerary. For smaller groups, any difference in pricing will be communicated transparently before confirmation. Trek fees including any add-ons for customized groups may vary based on your preferences, ensuring every adventure is tailored to your needs.
+        <p><br><strong style="color: #ff7300;">PriceNote – Listed Price &amp; Customisation Rules:</strong><br>
+          The listed trek price applies to our fixed departures for the specified itinerary. Trek fees including any add-ons for customized groups may vary based on your preferences, ensuring every adventure is tailored to your needs.
         </p>
 
         <p><strong style="color: #ff7300;">Group Booking Offer:</strong><br>
@@ -64,23 +64,42 @@ const { gallery, name } = trek;
         <p><strong style="color: #ff7300;">Scholarship for Kids:</strong><br>
           Children under 15 years receive a 30% discount on the trek price, making it easier for families to explore the Himalayas together.
         </p>
-      </div>
     </div>
+  </div>
+
+<!-- Transport Price Modal -->
+  <div id="transport-modal" class="transport-modal">
+    <div class="transport-modal-content">
+    <span class="close-transport-modal">&times;</span>
+    <p><br>
+      <strong style="color: #ff7300;">Transport Price Note:</strong><br>
+      The transport price mentioned is only an indicative estimate per person, assuming a small vehicle shared by at least 4 participants.<br>Fewer participants → cost rises;<br>More participants → cost decreases.
+    </p>
+    <p>
+      <strong style="color: #ff7300;">Transport Selection During Booking:</strong><br>
+      Selecting transport during booking informs us of your preference. No payment is collected at booking.
+    </p>
+    <p>
+      <strong style="color: #ff7300;">Final Cost & Payment:</strong><br>
+      Final transport cost will be communicated before departure and paid directly to the cab driver.
+    </p>
+    </div>
+  </div>
 
 <!-- Itinerary Modal -->
-<div id="itinerary-modal" class="itinerary-modal">
-  <div class="itinerary-modal-content">
+  <div id="itinerary-modal" class="itinerary-modal">
+    <div class="itinerary-modal-content">
     <span class="close-itinerary-modal">&times;</span> 
     <p>
       <strong style="color: #ff7300;">Itinerary Note:</strong><br>
       This itinerary represents the most updated plan, but minor adjustments may occur due to operational needs or mountain conditions.
     </p>
+    </div>
   </div>
-</div>
 
 
 <!-- Terms & Conditions Modal -->
-    <div id="termsModal" class="modal hidden">
+  <div id="termsModal" class="modal hidden">
     <div class="modal-content">
         <span class="close" id="close-terms">&times;</span>
         <h4 class="modal-title">Terms & Conditions</h4>
@@ -250,10 +269,10 @@ const { gallery, name } = trek;
       </div>
       </div>
     </div>
-    </div>
+  </div>
 
 <!-- Inclusions & Exclusions Modal -->
-    <div id="inclusionsModal" class="modal hidden">
+  <div id="inclusionsModal" class="modal hidden">
     <div class="modal-content">
         <span class="close" id="close-inclusions">&times;</span>
       <h2 class="modal-title">Inclusions & Exclusions</h2>
@@ -279,11 +298,11 @@ const { gallery, name } = trek;
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
 <!-- Cancellation & Refund Policy Modal -->
-    <div id="cancellationModal" class="modal hidden">
-      <div class="modal-content">
+  <div id="cancellationModal" class="modal hidden">
+    <div class="modal-content">
         <span class="close" id="close-cancellation">&times;</span>
         <h2 class="modal-title">Cancellation & Refunds</h2>
 
@@ -334,8 +353,8 @@ const { gallery, name } = trek;
             <a href="mailto:info@planethimalayas.com" style="color: #ff7300; text-decoration: underline;">info@planethimalayas.com</a>
           </p>
         </div>
-      </div>
     </div>
+  </div>
 
 <!-- Hero Section (3D Version) -->
 <section class="trek-hero-3d" data-trek-id="{trek.id}">
@@ -433,10 +452,13 @@ const { gallery, name } = trek;
                   <li>
                     <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()}
                     {trek.addons.transportNote ? <em> ({trek.addons.transportNote})</em> : null}
+                    {/* Transport Info Icon at the end of note */}
+                    <span class="transport-info-icon" id="transport-info">?</span>
                   </li>
                 ) : trek.addons.transportNote ? (
                   <li>
                     <strong>Transportation</strong> – <em>{trek.addons.transportNote}</em>
+                    <span class="transport-info-icon" id="transport-info">?</span>
                   </li>
                 ) : null}
 
@@ -2052,10 +2074,151 @@ const { gallery, name } = trek;
   box-shadow: none;
 }
 
+/* ===============================
+   MOBILE – 1 CARD PER VIEW (STABLE)
+================================ */
 @media (max-width: 768px) {
-  .trek-card {
-    flex: 0 0 100%;
+  .similar-treks-row {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
   }
+
+  .similar-treks-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ONE CARD PER SLIDE */
+  .similar-treks-row .trek-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    scroll-snap-align: center;
+
+    /* center card */
+    justify-content: center;
+  }
+
+  /* IMPORTANT: size the CARD itself, not children */
+  .similar-treks-row .trek-card {
+    padding: 0;
+  }
+
+  .similar-treks-row .trek-card > a,
+  .similar-treks-row .trek-card > h3,
+  .similar-treks-row .trek-card > .trek-info,
+  .similar-treks-row .trek-card > .trek-buttons {
+    width: 100%;
+  }
+
+  /* Restrict card width */
+  .similar-treks-row .trek-card {
+    max-width: 360px;
+  }
+
+  /* Image height tweak */
+  .trek-card img {
+    height: 190px;
+  }
+
+  /* Buttons always visible */
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    background: trasparent;
+    color: #ff7300;
+    border-radius: 50%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      0 6px 18px rgba(0,0,0,0.25),
+      0 0 14px rgba(255,115,0,0.7);
+  }
+
+  .scroll-btn.left {
+    left: 6px;
+  }
+
+  .scroll-btn.right {
+    right: 6px;
+  }
+}
+
+.transport-info-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  color: #ff7300;
+  border-radius: 50%;
+  border: 1px solid #ff7300;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 115, 0, 0.45), 0 0 10px rgba(255, 115, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transport-info-icon:hover {
+  background: #ff7300;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(255, 115, 0, 0.8), 0 0 22px rgba(255, 115, 0, 1);
+}
+
+.transport-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.transport-modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 850px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  animation: modalFadeIn 0.3s ease;
+}
+
+.close-transport-modal {
+  float: right;
+  font-size: 26px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-transport-modal:hover {
+  color: #ff7300;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 </style>
@@ -2526,5 +2689,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+
+<script>
+  const transportIcon = document.getElementById("transport-info");
+  const transportModal = document.getElementById("transport-modal");
+  const closeTransportModal = document.querySelector(".close-transport-modal");
+
+  transportIcon.addEventListener("click", () => {
+    transportModal.style.display = "flex";
+  });
+
+  closeTransportModal.addEventListener("click", () => {
+    transportModal.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === transportModal) {
+      transportModal.style.display = "none";
+    }
+  });
+</script>
+
 
 

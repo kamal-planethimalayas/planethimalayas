@@ -243,10 +243,10 @@ useEffect(() => {
     if (selectedTrek?.addons?.transport) {
       addonsArr.push({
         id: "transport",
-        label: `Transport (+ ₹${selectedTrek.addons.transport}) ${
-          selectedTrek.addons.transportNote || ""
-        }`,
-        price: selectedTrek.addons.transport,
+        label:
+          "Transport assistance (optional). Your request will be saved. " +
+          "Final transport cost will be communicated before departure and is payable directly to the driver.",
+        price: 0, // IMPORTANT: do not charge at booking time
       });
     }
     if (selectedTrek?.addons?.offloadingbag) {
@@ -265,12 +265,15 @@ useEffect(() => {
 
   participants.forEach((p) => {
     let participantAddonsTotal = 0;
+
     for (const key in p.addons) {
-      if (p.addons[key]) {
+      // ⛔ Do NOT add transport cost at booking time
+      if (p.addons[key] && key !== "transport") {
         const addonObj = addonsList.find((a) => a.id === key);
         if (addonObj) participantAddonsTotal += addonObj.price;
       }
     }
+
     total += basePrice + participantAddonsTotal;
   });
 
