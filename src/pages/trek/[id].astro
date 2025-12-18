@@ -1182,10 +1182,15 @@ const { gallery, name } = trek;
 #trek-nav {
   position: sticky;
   top: 70px; /* adjust for main navbar height */
-  background: white;
+   background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
   padding: 10px 20px;
   margin: 20px 0;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
   z-index: 1000;
   border-radius: 8px;
   overflow-x: auto; /* horizontal scroll if needed */
@@ -1198,11 +1203,8 @@ const { gallery, name } = trek;
     position: sticky;
     top: 0;
     left: 0;
-    background: white;
     z-index: 999;
     padding: 10px 20px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
     display: flex;
     justify-content: center;
   }

@@ -1,11 +1,1048 @@
 // src/data/treksData.js
 
-/* Himachal Pradesh */
 export const treks = [
+
+/* Ladakh & Kashmir */
+
+{
+    id: "markha-valley-trek",
+    name: "Markha Valley & Kongmaru La",
+    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows"],
+    difficulty: ["difficult"],
+    season: ["monsoon"],
+    month: ["august", "september"],
+    region: "ladakh",
+    duration: "7 Nights / 7 Days",
+    coordinates: [
+      [34.1526, 77.5771],   // Leh
+      [33.970001, 77.260002], // Skiu (start near Leh)
+      [34.0500, 77.3760],   // Chilling area
+      [33.9700, 77.2600],   // Skiu
+      [33.8640, 77.5030],   // Markha
+      [33.8644, 77.5826], // Hemis (end near Leh)
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+
+    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+    ],
+
+    subtitle: "The Classic Trek of Himalayan Cold Desert",
+
+    seo: {
+      title: "Markha Valley & Kongmaru La Trek | Itinerary, Cost & Dates | Planethimalayas",
+      description: "Markha Valley & Kongmaru La Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
+        { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "August to September" },
+        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
+        { emoji: "📍", label: "Start Point", value: "Skiu (near Leh)" },
+        { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      ],
+      snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
+    },
+
+    price: 22900,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 2800,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
+
+    dates: [
+      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
+{ label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
+{ label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+{ label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
+{ label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+{ label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
+{ label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+{ label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
+{ label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+{ label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+{ label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
+
+    ],
+
+    highlights: [
+      "Explore the heart of Ladakh’s Hemis National Park, home to rare wildlife like the snow leopard",
+      "Cross the iconic Kongmaru La (17,100 ft) with breathtaking views of the Karakoram range",
+      "Stay in traditional Ladakhi villages with centuries-old mud houses and friendly locals",
+      "Walk past ancient monasteries, prayer wheels, and river crossings on wooden bridges",
+      "Experience stark contrasts — barren high-altitude deserts and oasis-like settlements",
+    ],
+
+    itinerary: [
+  {
+  day: 1,
+  title: "Arrival in Leh (11,500 ft / 3,500 m)",
+  details: "Arrive in Leh by flight or train and check in to your hotel, allowing your body to settle into the high altitude of 11,500 ft. Since a direct landing at this height can trigger AMS, the first day is entirely meant for rest and gentle acclimatization. Keep your schedule light—explore Leh market, visit nearby monasteries, or stroll around the town, but avoid visiting any very high-altitude pass or viewpoint. A mandatory trek briefing takes place at 5 PM, for which you must carry a copy of your ID proof and two photographs; foreign trekkers should bring a passport and visa copy. Leh has reliable post-paid network coverage, several ATMs, and plenty of shops where you can rent or buy any trekking gear you may have forgotten. The cafés here are lively hangouts for travelers, but avoid alcohol and smoking as they interfere with acclimatization. Stay hydrated, enjoy the local culture and cuisine, and return to your hotel early to rest well. An easy, relaxed Day 1 is crucial to prepare your body for the days ahead."
+  },
+  {
+  day: 2,
+  title: "Acclimatization and Sightseeing in Leh",
+  details: "This extra acclimatization day is crucial for helping your body adjust to the thinning air of Ladakh, so spend as much time outdoors as possible while keeping the day relaxed and strain-free. You can explore some of Leh’s most significant monasteries such as Shey, Thiksey, Hemis, and the Sangam viewpoint where the Indus and Zanskar rivers meet, each offering a window into Ladakh’s deep Buddhist heritage. Thiksey Gompa, perched on a hill, is the largest in central Ladakh and gives you a beautiful introduction to the region’s culture. Avoid gaining altitude or visiting high passes today, as it may interfere with your acclimatization. Instead, wander around Leh town, explore the lively bazaar, interact with locals, and sample the delicious local cuisine. If you prefer gentle activity, a downhill cycling tour around Leh can be done without putting strain on your body. As the day winds down, make sure to catch the sunset at Shanti Stupa, known for its glowing lights in the evening. Return to your hotel for the night and rest well — your actual trekking journey begins tomorrow."
+  },
+  {
+  day: 3,
+  title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m) | Trek Distance: 11 km | 5-6 hrs.",
+  details: "Today marks the true beginning of your Markha Valley adventure as you drive from Leh to Skiu through some of Ladakh’s most iconic landscapes. The journey takes you past military camps, the famous Gurudwara Pathar Sahib, and the mysterious Magnetic Hill, with constant views of the Stok range until you enter the boundaries of Hemis National Park. A major highlight en route is the spectacular Sangam viewpoint where the emerald Indus and Zanskar rivers meet in a striking confluence. As the road turns towards Chilling, the scenery shifts dramatically—open terrains gradually narrow into deep valleys painted in shades of purple, grey, and black, with juniper trees lining the route. After crossing the Zanskar River over green iron bridges, you arrive at the serene village of Skiu, divided into Upper and Lower sections, adorned with mani stones, white stupas, and an ancient monastery. From here, your trek begins on a well-marked trail that follows the Markha River. Along the way, you may spot magpies, blue sheep, and other wildlife that thrive in this rich Himalayan ecosystem. You’ll pass small cafés, winter settlements, barley and wheat fields, mani walls, and Lhatos as you make your way through the valley. Continue trekking past the quiet village of Nagding, where meditation caves dot the rocky slopes, and the riverbanks widen into sandy stretches. After several hours, you enter the culturally vibrant village of Sara, marked by a dramatic gateway decorated with skulls of wild animals—symbols of pride for the locals. With its ancient monastery, historic castle, and lush wheat fields, Sara offers the perfect blend of culture and natural beauty. Settle into your tent or homestay for a warm meal and end the day under a dazzling sky full of stars."
+  },
+  {
+  day: 4,
+  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5-6 hours.",
+  details: "Begin your morning in Sara with a warm breakfast and stunning Himalayan views before easing into a day that feels beautifully familiar to the previous one. The trail gradually leads you across small water channels and stretches of cold desert terrain until you reach the charming village of Chalak, which appears after crossing a wooden bridge. Chalak is dotted with cozy tea houses, stone-walled animal shelters, and homes perched on small hillsides, surrounded by patches of green wheat fields contrasting against the barren mountains. After resting and interacting with friendly locals, continue on the gentle ascent towards Markha, passing a long stretch marked by Bharal horns and countless mani stones laid around elegant white stupas. These stones carry sacred Buddhist inscriptions—some even in Sanskrit—so treat them with great respect and avoid touching them, as villagers believe they are spiritually protected. The trail also unfolds ancient ruins with prayer flags fluttering above, adding a sense of timelessness to the valley. As you approach Markha, you must cross a flowing stream of the Markha River, which can rise up to thigh level at times; removing your shoes and wading through the icy water offers a refreshing burst of energy. A short walk afterward brings you to Markha, the largest village in the valley, known for its scattered traditional houses, monastery, and the ruins of the old Markha fort. Settle into your homestay or campsite here and soak in the cultural richness and scenic calm of this historic Himalayan settlement."
+  },
+  {
+  day: 5,
+  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 7 - 8 hrs.",
+  details: "Today’s journey takes you deeper into the upper Markha Valley, where the scenery begins to widen and the landscapes gain a grander, more dramatic character. As you leave Markha behind, make the most of the simplicity and innocence of the last inhabited villages you’ll encounter on this route. The trail meanders through beautiful stretches where barren mountains meet refreshing streams, with the path crossing the river multiple times—sometimes over small wooden bridges, other times through shallow flowing water. The valley slowly opens up as you approach Umlung, a tiny settlement that hosts the last teahouse of the trek and offers a peaceful monastery that blends effortlessly into the rugged surroundings. Beyond Umlung comes one of the most unforgettable moments of the trek: your very first view of Mt. Kang Yatse, standing tall at 6,400 m, appearing suddenly and magnificently as if inviting you forward. Keep following the river and navigating its crossings as the trail leads you toward Hankar, the final village of the Markha Valley. Along the way, look out for the beautifully perched Tacha monastery, seemingly balancing on a rocky cliff—a magical sight against the stark mountain backdrop. By the time you reach Hankar, surrounded by high pastures and towering peaks, you’ll feel the transition from village life to true Himalayan wilderness. Settle into your tent or homestay for the night and enjoy the quiet, remote beauty of this last inhabited stop on your route."
+  },
+  {
+  day: 6,
+  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 7 - 8 hrs.",
+  details: "Today’s trek feels refreshing and far gentler compared to yesterday’s demanding climb, allowing you to truly sink into the beauty of the upper Markha Valley. As you leave Hankar, the trail begins easily, and within the first kilometre you’ll reach a set of diversions—one leading toward Rupshu and Zanskar. Staying on the left trail, you walk toward a stone bridge that confirms you’re on the correct path. From here, several side trails appear frequently, so it’s important to keep close to your trek leader while enjoying the scenery. Within a couple of hours, the lush pastures of Thochuntse begin to unfold ahead of you, a welcome burst of greenery after days in Ladakh’s stark high-altitude desert. This small settlement has tea houses and seasonal campsites, making it a natural rest point. Just beyond this stretch, the trail steepens for about an hour before easing into a long, gradual ascent. As you walk, the mighty Kang Yatse peak dominates your right side, growing larger and more magnificent with every step, almost as if guiding you onward. A pair of serene twin lakes suddenly appear along the trail, offering a moment of calm reflection against the rugged landscape. From the lakes, a gentle descent leads you to the vast, windswept plateau of Nimaling, the highest campsite on the entire Markha Valley trek. This expansive grassland—dotted with grazing sheep, goats, and occasionally mountain hares—feels like a world entirely its own. With the towering Kang Yatse massif rising beside you and the open sky stretching endlessly above, Nimaling offers some of the most unforgettable views of the trek. Nights here can bring sudden snowfall, adding to the wild charm of this high-altitude sanctuary. Settle into your tent and let the quiet, elevated world of Nimaling lull you into deep rest."
+  },
+  {
+  day: 7,
+  title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
+  details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
+  },
+ 
+],
+
+
+    didYouKnow: [
+  "<b>Markha Valley is inside Hemis National Park!</b> - Home to rare species like snow leopards, ibex, Himalayan marmots, and golden eagles.",
+  "<b>Tea House Trek of Ladakh:</b> Villages like Skiu, Markha, and Hankar offer homestays where trekkers experience traditional Ladakhi hospitality.",
+  "<b>Kongmaru La is 17,300 ft high!</b> - The pass gives sweeping views of the Karakoram, Stok, and Kang Yatse ranges, a rare high-altitude desert panorama.",
+  "<b>Ancient monasteries and chortens:</b> The trail is dotted with centuries-old Buddhist structures, prayer walls, and mani stones, reflecting Ladakh's deep spiritual heritage.",
+  "<b>Endemic flora and fauna:</b> Look out for Himalayan blue poppies, edelweiss, primulas, yaks, ibex, and high-altitude Himalayan marmots.",
+  "<b>Arid cold desert ecosystem:</b> Unique in the Himalayas, the Markha Valley features barren rocky gorges and oasis-like green pastures where life adapts to extreme altitude and dryness.",
+  "<b>Traditional Ladakhi architecture:</b> Mud houses and wooden structures have survived centuries of harsh winters while blending sustainably with the environment.",
+  "<b>High-altitude river crossings:</b> The trek crosses multiple streams and tributaries of the Markha River; bridges and rocky fords offer adventure and scenic photography opportunities."
+],
+
+
+    howToReach: {
+      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (well connected to Delhi and major Indian cities).",
+      train: "No direct trains. Nearest station: Jammu Tawi (approx. 700 km). Continue by road or flight to Leh.",
+      road: "From Manali: 470 km / 2 days via Manali–Leh Highway. From Srinagar: 420 km / 2 days via Srinagar–Leh Highway.",
+      travelTip: "Arrive in Leh at least 2 days before the trek for proper acclimatization to avoid altitude sickness.",
+    },
+
+    gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535621/markha-valley-view3_ghyqx6.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535604/markha-valley-view8_frpdcl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535600/markha-valley-view2_pkja6f.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535597/markha-valley-view12_c36aaf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535592/markha-valley-view11_mcf7g4.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-view1_regn76.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Markha Valley trek?",
+      answer: "This trek is suitable for intermediate trekkers with basic high-altitude experience. While the trails are moderate, some days involve long distances and high-altitude camping.",
+    },
+    {
+      question: "How should I prepare physically for the Markha Valley Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+    {
+      question: "What is the best season for the Markha Valley trek?",
+      answer: "The ideal months are June to September, avoiding the heavy snowfall of winter and the extreme cold of early spring. During this period, the valley is lush, rivers are flowing, and skies are generally clear.",
+    },
+    {
+      question: "What essential gear should I carry for the Markha Valley trek?",
+      answer: "Essentials include waterproof trekking boots, layered clothing, warm jacket, trekking poles, 40–50L backpack, thermal wear, and a headlamp. Refer to the downloadable PDF for a detailed packing list.",
+    },
+    {
+      question: "Are camping facilities available on the trek?",
+      answer: "Yes, the trek involves camping at scenic locations in Markha Valley, with tents, bedding, and nutritious meals provided by the trek organizers.",
+    },
+    {
+      question: "Is mobile network coverage available during the trek?",
+      answer: "Network coverage is extremely limited. Occasionally, BSNL and Airtel may work in Leh or at certain high points, but trekkers should plan for minimal connectivity.",
+    },
+    {
+      question: "Do I need any permits for the Markha Valley trek?",
+      answer: "Yes, trekkers require an Inner Line Permit (ILP) for restricted areas of Ladakh. Trek operators typically arrange these permits on behalf of the participants.",
+    },
+    {
+      question: "What makes the Markha Valley trek unique?",
+      answer: "Markha Valley offers a combination of pristine Himalayan landscapes, traditional Ladakhi villages, gompas (monasteries), and breathtaking views of the Stok and Kang Yatse peaks. The cultural immersion alongside high-altitude trekking makes it a truly memorable adventure.",
+    }
+  ],
+},
+
+
+    faqsLink: "/faqs-and-articles",
+  },
+
+  {
+  "id": "winter-markha-valley-trek",
+  "name": "Winter Markha Valley Trek",
+  "tags": ["pro","meadows"],
+  "difficulty": ["difficult"],
+  "season": ["winter"],
+  "month": ["january", "february", "march"],
+  "region": "ladakh",
+  "duration": "7 Nights / 7 Days",
+
+  "coordinates": [
+    [34.1526, 77.5771],   // Leh
+    [34.0500, 77.3760],   // Chilling area
+    [33.9700, 77.2600],   // Skiu
+    [33.8640, 77.5030],   // Markha
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
+    ],
+
+    subtitle: "Ladakh & the Himalayas: A Frozen Desert Adventure",
+
+    seo: {
+      title: "Winter Markha Valley Trek | Frozen River Trek in Ladakh | Planethimalayas",
+      description: "The Winter Markha Valley Trek is Ladakh’s most unique frozen-river experience, offering icy trails, snow-filled valleys, cozy homestays, and stunning views of Kang Yatse during deep winter. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult (Extreme Winter Conditions)" },
+        { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
+        { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
+        { emoji: "🌤️", label: "Best Time", value: "January to March" },
+        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
+        { emoji: "📍", label: "Start Point", value: "Chilling (near Leh)" },
+        { emoji: "🏁", label: "End Point", value: "Chilling / Leh" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+      ],
+
+      snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.<br>As temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.<br>The region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.<br>For winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
+    },
+
+    price: 29400,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 2800,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to breakfast on Day 7",
+
+    highlights: [
+  "Traverse the frozen Markha River, slide and skate on ice, and witness a unique winter landscape unlike any other in Ladakh",
+  "Stay in cozy homestays in Skiu, Markha, and Hankar, experiencing authentic Ladakhi winter hospitality",
+  "Spot winter wildlife such as Himalayan blue sheep, snowcocks, chukar partridge, and high-altitude birds in Hemis National Park",
+  "Walk past ancient monasteries, chortens, and mani walls, with snow-dusted peaks providing a serene backdrop",
+  "Marvel at the mighty Kang Yatse 1 (6,400 m) and Kang Yatse 2 (6,250 m) under clear winter skies",
+  "Experience the magical contrast of frozen rivers, snow-covered plains, and stark desert-like mountains",
+    ],
+
+    itinerary: [
+  {
+    day: 1,
+    title: "Arrival in Leh (11,500 ft / 3,500 m)",
+    details: "Arrive in Leh by flight and transfer to your hotel. Day 1 is dedicated to rest and acclimatization to the high-altitude cold of 11,500 ft. Winter temperatures can drop to -15°C during the day and -25°C at night, so keep outdoor activity light. Explore the Leh market gently if you feel comfortable. Stay hydrated, avoid alcohol, and enjoy local cuisine. A mandatory trek briefing takes place in the evening where you must carry ID proof and photographs; foreign trekkers should bring passport and visa copies. Overnight stay in Leh."
+  },
+  {
+    day: 2,
+    title: "Acclimatization and Sightseeing in Leh",
+    details: "This day is for gradual acclimatization. Visit Leh Palace, Shey, Thiksey, and Hemis monasteries, and stroll around the town’s winter bazaar. Keep activity light to avoid altitude sickness. Winter sun is mild, but temperatures remain low, so dress in layers. This day prepares your body for the cold and high-altitude trekking ahead. Return to the hotel early for rest."
+  },
+  {
+    day: 3,
+    title: "Leh → Chilling → Skiu (3,400 m) | Trek Distance: 8–10 km | 5–6 hrs",
+    details: "Drive from Leh to Chilling (approx. 70 km). Begin trekking along frozen riverbeds and icy trails of the Markha Valley. Cross frozen Markha river patches, snow bridges, and enjoy the stark winter desert landscapes. Spot blue sheep and winter birds while walking past small villages and mani walls. Reach Skiu village and stay overnight in a warm homestay. Daytime temperature may hover around -10°C and drop further at night."
+  },
+  {
+    day: 4,
+    title: "Skiu → Markha (3,700 m) | Trek Distance: 10–11 km | 5–6 hrs",
+    details: "Follow gentle ascents along the frozen river valley. Pass ancient chortens, scattered hamlets, and snow-dusted pastures. The trail offers panoramic views of surrounding peaks and the frozen Markha River. Reach Markha village, one of the largest settlements, and check into a homestay. Temperatures can drop to -20°C at night. Immerse in Ladakhi culture and enjoy a warm meal."
+  },
+  {
+    day: 5,
+    title: "Markha Exploration (4,150 m) | Trek Distance: 6–8 km | 4–5 hrs",
+    details: "Today is an acclimatization hike to Thachungtse, with spectacular views of Kang Yatse (6,400 m) and the winter landscape. Spot Himalayan blue sheep navigating steep cliffs, and enjoy the quiet solitude of snow-covered valleys. Return to Markha for the night, relishing the warmth of homestay accommodations. Nighttime temperatures can plunge to -25°C, with wind chill making it feel colder."
+  },
+  {
+    day: 6,
+    title: "Markha → Skiu (3,400 m) | Trek Distance: 10–11 km | 5–6 hrs",
+    details: "Retrace your route along the frozen Markha river valley back to Skiu. Observe the winter flora and fauna in their dormant season. The valley appears wider and more dramatic on the return journey. Enjoy homestay comforts in Skiu. Temperatures remain below freezing, so proper winter clothing is essential."
+  },
+  {
+    day: 7,
+    title: "Skiu → Chilling → Leh (3,500 m) | Trek Distance: 5–6 km | 2.5–3.5 hrs + Drive",
+    details: "A short trek from Skiu to Chilling takes about 2.5–3.5 hours over icy terrain. From Chilling, drive back to Leh. Warm rooms, hot water, and local food await. Use this day to relax, shop for souvenirs, and enjoy Leh in winter. Overnight stay in Leh."
+  },
+  
+],
+
+    didYouKnow: [
+  "<b>The Markha River becomes a frozen highway!</b> – In winter, long stretches of the river turn into thick ice, letting trekkers walk and glide across it just like the Chadar, but in a far quieter environment.",
+
+  "<b>Hemis National Park is the world’s largest snow leopard habitat.</b> – Winter pulls both prey and predator down to valley floors, increasing chances of spotting pugmarks, scrapes, or fresh kills near Skiu, Markha, and Hankar.",
+
+  "<b>Blue sheep form giant winter herds.</b> – Instead of scattered groups, bharal gather in herds of 20–40 to search for scarce grazing patches, making sightings extremely common on the cliffs around Thachungtse and Hankar.",
+
+  "<b>Ibex descend lower due to snow buildup.</b> – Heavy snowfall forces Siberian ibex to move from high alpine ridges to sun-facing slopes closer to human trails, making winter one of the best seasons to spot them.",
+
+  "<b>Ancient Ladakhi homestays keep rooms warm even at –25°C.</b> – Traditional mud houses trap heat naturally, creating warm interiors without heaters while outside temperatures drop to –30°C and below.",
+
+  "<b>Winter birds stay active despite extreme cold.</b> – Chukar partridges, golden eagles, ravens, lammergeiers, and Eurasian magpies survive the cold desert by feeding on exposed shrubs and scavenging along frozen streams.",
+
+  "<b>Marmots are not visible in winter.</b> – Himalayan marmots hibernate deep underground from October to April. Many trekkers expect to see them, but winter Markha is a silent landscape where they remain asleep.",
+  
+  "<b>Seabuckthorn and willows dominate winter vegetation.</b> – Leafless but standing strong, these hardy Himalayan shrubs line the trail even at –20°C, giving the valley its characteristic golden-brown winter look.",
+
+  "<b>Frozen waterfalls turn into blue-ice curtains.</b> – Between Chilling and Skiu, several side waterfalls freeze solid, forming towering ice sheets that glisten under the winter sun.",
+
+  "<b>Snow leopards use frozen rivers as travel corridors.</b> – With the Markha River iced over, snow leopards walk the frozen surface for easier movement, leaving clear pawprints that trekkers often spot early in the morning.",
+
+  "<b>Ravens and magpies follow trekking groups.</b> – Winter food scarcity makes these intelligent birds shadow humans for crumbs, creating delightful interactions in the middle of the frozen desert.",
+
+  "<b>Juniper shrubs remain evergreen even at –30°C.</b> – One of the few plants that keeps its needles intact, juniper stands out as dark green patches against the white and brown winter terrain."
+    ],
+
+
+    howToReach: {
+  air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh. Flights are available from Delhi and other major Indian cities. During winter, this is the only practical way to reach Leh as roads are closed due to snow.",
+  train: "No direct trains. Nearest major railway station is Jammu Tawi (approx. 700 km from Leh), but road connectivity is not possible in winter, so air travel is mandatory.",
+  road: "Roads from Manali and Srinagar are closed during winter due to heavy snowfall. Overland travel is not recommended for winter treks.",
+  travelTip: "Arrive in Leh at least 2 days before the trek for acclimatization. Winter temperatures drop sharply, so acclimatization is essential to prevent altitude sickness."
+    },
+
+    gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855808/winter-markha-valley-leh-palace_odtgdj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-culture_mfksep.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-view3_hcptad.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855802/winter-markha-valley-view_kexpdr.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855801/winter-markha-valley-view2_nxtv13.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855800/winter-markha-valley-tradition_izi8ru.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855799/winter-markha-valley-vew1_nqexzr.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Markha Valley Winter Trek?",
+      answer: "This trek is ideal for experienced trekkers or winter enthusiasts comfortable with sub-zero temperatures. Moderate trails cover 10–15 km per day, but extreme cold (daytime -15°C, nighttime down to -35°C) requires proper preparation and resilience."
+    },
+    {
+      question: "What is the best time to do the Markha Valley Winter Trek?",
+      answer: "Winter months from January to March are perfect for this offbeat trek. During this period, the Markha River is frozen, creating a stunning winter landscape. Ensure you are well-prepared for snow and icy conditions."
+    },
+    {
+      question: "How do I reach Markha Valley in winter?",
+      answer: "During winter, roads are generally closed due to snow. The only way to reach Leh is by air via Kushok Bakula Rimpochee Airport. Plan to arrive at least 2 days early for acclimatization before the trek."
+    },
+    {
+      question: "What gear is essential for the extreme cold?",
+      answer: "Key gear includes insulated down jackets, thermal base layers, woolen socks, balaclava, insulated gloves, waterproof trekking boots, gaiters, and sleeping bags rated for -35°C. Microspikes or crampons are recommended for walking on frozen rivers."
+    },
+    {
+      question: "Are there homestays or camps along the winter trek?",
+      answer: "Yes, trekkers stay in cozy homestays in villages like Skiu, Markha, and Hunkar. These provide warm bedding, Ladakhi meals, and a unique cultural experience even in harsh winter conditions."
+    },
+    {
+      question: "What wildlife can I expect to see during winter?",
+      answer: "The trek passes through Hemis National Park. Trekkers may spot Himalayan blue sheep, ibex, Eurasian magpies, white-capped redstarts, and chukar partridges. Snow leopards are extremely elusive but occasionally sighted by lucky trekkers."
+    },
+    {
+      question: "How difficult is walking on the frozen Markha River?",
+      answer: "Walking on the frozen river is safe with proper winter boots and trekking poles. The ice is solid in most places, and trekkers can even slide or glide over certain stretches. Guides always ensure safe paths are used."
+    },
+    {
+      question: "Is mobile network or internet available during the trek?",
+      answer: "Connectivity is minimal. Leh has some network coverage, but most of the trail has no signal. Plan for limited communication and inform family/friends before starting."
+    },
+    {
+      question: "Do I need permits for the Markha Valley Winter Trek?",
+      answer: "Yes, an Inner Line Permit (ILP) for restricted areas of Ladakh is required. Trek operators usually arrange permits for participants, including winter-specific permissions if needed."
+    },
+    {
+      question: "What makes the Markha Valley Winter Trek unique?",
+      answer: "This trek is often called 'Chadar 2.0' because it offers a frozen river experience similar to the Chadar Trek without the extreme logistics. Stunning frozen rivers, snow-dusted villages, ancient monasteries, and views of Kang Yatse peaks make it a rare winter adventure."
+    },
+    {
+      question: "How do I stay safe in extreme cold and high altitude?",
+      answer: "Acclimatization is key. Stay hydrated, eat warm meals, avoid alcohol, and wear appropriate layered clothing. Follow guides’ instructions, and use insulated gear. Monitor for signs of frostbite or hypothermia. For a more detailed information on this extremely important topic please click the link below to read the full article:<br><strong><a href='https://www.planethimalayas.com/blogs/ultimate-winter-trek-preparation-guide-himalayas' target='_blank' rel='noopener noreferrer'>Ultimate Winter Trek Preparation Guide</a></strong>"
+    },
+    {
+      question: "Are there unique flora in winter Markha Valley?",
+      answer: "Most high-altitude flora are dormant during winter, but trekkers can see hardy species like Himalayan blue poppies, primulas, and alpine shrubs adapted to sub-zero conditions."
+    },
+    {
+      question: "Can beginners attempt the Markha Valley Winter Trek?",
+      answer: "Beginners are advised to gain prior trekking experience in cold or high-altitude environments before attempting this trek. The physical demand combined with extreme winter temperatures makes it unsuitable for novices."
+    }
+  ],
+},
+
+    faqsLink: "/faqs-and-articles",
+  },
+
+  {
+    id: "rumtse-tso-moriri-trek",
+    name: "Rumtse Tso Moriri Trek",
+    tags: ["pro", "pass", "lake"],
+    difficulty: ["difficult"],
+    season: ["monsoon"],
+    month: ["august", "september"],
+    region: "ladakh",
+    duration: "10 Nights / 10 Days",
+    coordinates: [
+      [34.1526, 77.5771],   // Leh
+      [34.0536, 77.4901],   // Rumtse
+      [32.9862, 78.2605]      // Tso Moriri
+    ],
+
+    heroImage: 	"https://res.cloudinary.com/dr44hob9b/image/upload/v1766077431/tso-moriri_lake_icvc4o.jpg",
+
+
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766077431/tso-moriri_lake_icvc4o.jpg",
+		            "https://res.cloudinary.com/dr44hob9b/image/upload/v1766075708/Chanpas-who-make-cashmere_au7xtr.jpg",
+		            "https://res.cloudinary.com/dr44hob9b/image/upload/v1766077341/karzok-village-2_qfxx6f.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+    ],
+
+    subtitle: "Walking the Himalayan Cold Desert with the Changpas",
+
+   seo: {
+  title: "Rumtse to Tso Moriri Trek | Changpa Nomads, Itinerary, Cost & Dates | Planethimalayas",
+  description: "Rumtse to Tso Moriri Trek (17,815 ft) is Ladakh’s most immersive high-altitude trek, traversing the Changthang plateau, crossing multiple 5,000 m passes, encountering Changpa nomads, and ending at the sacred Tso Moriri Lake over 8 days.",
+  },
+
+
+  overview: {
+      facts: [
+  { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days" },
+  { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+  { emoji: "🏔️", label: "Max Altitude", value: "17,800 ft (Kyamar La)" },
+  { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
+  { emoji: "🌤️", label: "Best Time", value: "July to September" },
+  { emoji: "🗺️", label: "Region", value: "Changthang Plateau, Ladakh" },
+  { emoji: "📍", label: "Start Point", value: "Rumtse (near Leh)" },
+  { emoji: "🏁", label: "End Point", value: "Korzok Village (Tso Moriri)" },
+  { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+],
+
+      snippet: `The Rumtse to Tso Moriri Trek is one of Ladakh’s most immersive journeys — a route that takes you deep into the heart of the Changthang plateau, where mountains stretch endlessly and nomadic life continues unchanged for centuries. Beginning near the village of Rumtse, not far from Leh, the trail quickly leaves roads and settlements behind, entering a world defined by silence, wind, and vast open spaces.
+
+<br>The early days unfold across wide alpine pastures grazed by yaks and pashmina goats, with distant ridgelines framing the horizon. This is Changpa land — home to one of the last surviving nomadic cultures of the Himalayas. Along the way, trekkers encounter seasonal Changpa camps, recognizable by their dark yak-hair rebo tents, stone enclosures for livestock, and prayer flags fluttering against an immense sky. These interactions offer a rare glimpse into a way of life built around migration, resilience, and harmony with the land.
+
+<br>As the trek progresses, the landscape becomes increasingly dramatic. High mountain passes such as Kyamar La, Mandalchan La, and Shibuk La rise above 5,000 meters, each offering sweeping views of Ladakh’s stark beauty — ochre valleys, snow-streaked peaks, and distant salt plains stretching toward the Tibetan plateau. Despite the altitude, the terrain remains non-technical, allowing trekkers to focus on the rhythm of walking and the raw scale of the surroundings.
+
+<br>The journey culminates at the magnificent Tso Moriri Lake, a shimmering expanse of deep blue cradled by barren mountains. Sacred to the Changpas and local communities, the lake radiates a quiet, spiritual presence. Reflections of the surrounding peaks ripple across its surface, while migratory birds circle overhead, adding life to the high-altitude stillness.
+
+<br>This trek is not about speed or summits — it is about immersion. Long walking days, cold nights, and vast distances are balanced by profound solitude, cultural encounters, and landscapes that feel untouched by time. For trekkers seeking Ladakh beyond the familiar valleys, Rumtse to Tso Moriri is a rare and unforgettable Himalayan experience.`,
+},
+
+    price: 54900,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 8000,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to lunch on Day 10",
+
+
+   highlights: [
+  "Journey deep into the Changthang Plateau, one of Ladakh’s most remote and untouched high-altitude landscapes",
+  "Cross multiple high mountain passes including Kyamar La (17,800 ft), offering vast views of the Rupshu plains",
+  "Experience the nomadic lifestyle of the Changpa people, encountering yak herders and traditional tented settlements",
+  "Walk through wide alpine valleys, salt flats, and turquoise streams that feel worlds away from civilization",
+  "End the trek at the breathtaking Tso Moriri Lake, a sacred high-altitude wetland surrounded by snow-capped peaks",
+  ],
+
+
+  itinerary: [
+  {
+    day: 1,
+    title: "Arrival & Reporting in Leh (11,500 ft / 3,500 m)",
+    details: "Arrive in Leh by air or road and check in to your hotel or guesthouse. Leh sits at an altitude of 11,500 ft, and sudden exposure to this height requires immediate rest. The entire day is reserved for acclimatization—avoid exertion, long walks, or climbing viewpoints. Spend time hydrating well, eating light meals, and allowing your body to adjust. In the evening, you may take a slow walk around Leh Market, observing local life and picking up any last-minute essentials. A mandatory reporting and briefing session is conducted where trek leaders explain the route, safety protocols, altitude precautions, and gear checks. An easy, restful first day is critical for preparing your body for the demanding high-altitude terrain ahead."
+  },
+  {
+    day: 2,
+    title: "Acclimatization Day in Leh – Culture, Cuisine & Preparation",
+    details: "This acclimatization day plays a decisive role in how your body performs on the trek. Begin the day with a slow morning and a short walk to stimulate blood circulation without strain. You may explore nearby cultural landmarks such as Shey Palace, Thiksey Monastery, Hemis Monastery, and the Sangam viewpoint where the Indus and Zanskar rivers merge. Thiksey Gompa, perched dramatically on a hill, offers panoramic views and deep insight into Ladakhi Buddhist traditions. Avoid gaining excessive altitude or visiting high passes today. Spend time in Leh Market browsing for souvenirs like prayer flags, pashmina shawls, handcrafted silver jewelry, and Tibetan artefacts. Food to try includes thukpa, momos, skyu, butter tea, and apricot-based products. Eat light, avoid alcohol, stay well hydrated, and rest early—your body should feel comfortable and stable before heading into the remote Changthang region."
+  },
+  {
+    day: 3,
+    title: "Leh (11,500 ft) → Rumtse (13,667 ft) Drive → Trek to Kyamar (14,714 ft) | Trek: 13 km | 6 hrs",
+    details: "Drive from Leh to the picturesque village of Rumtse along the Leh–Manali highway, following the Indus River through wide valleys and stark mountain terrain. Rumtse marks the entry point into the Changthang plateau. From here, the trail leaves the highway, crossing a stream before opening into vast valleys characteristic of Changthang’s raw landscapes. The trek today is relatively easy with a gentle ascent, making it ideal for easing into the journey. Walk alongside a winding river, through green patches dotted with alpine flowers contrasting against rugged brown terrain. Water is available from streams along the route. Wildlife sightings may include marmots and high-altitude birds. Kyamar campsite lies in an open valley with wave-like mountain formations surrounding you. Overnight in tents."
+  },
+  {
+    day: 4,
+    title: "Kyamar (14,714 ft) → Tisaling (16,378 ft) via Kyamar La (16,700 ft) & Mandalchan La (16,976 ft) | Trek: 15 km | 8–9 hrs",
+    details: "This is a physically demanding day involving two high passes and a significant altitude gain. The trail climbs gradually toward Kyamar La through arid, desert-like terrain marked by colorful mineral-rich mountains. From the pass, you are rewarded with distant views of the Kang Yatse massif and surrounding snow-clad peaks. Descend into a broad valley before ascending again toward Mandalchan La, the second pass of the day. After crossing the pass, the landscape opens dramatically into the vast Changthang valley, revealing its unique, otherworldly topography. Cross a stream before reaching the expansive Tisaling campsite. Blue sheep and Tibetan wild asses are often spotted here. Water is available near camps but should be purified. Move slowly, watch for AMS symptoms, and layer clothing properly as winds can be strong. Overnight in tents."
+  },
+  {
+    day: 5,
+    title: "Tisaling (16,378 ft) → Ponganagu / Tso Kar Campsite (14,922 ft) via Shibuk La (17,248 ft) | Trek: 15 km | 6–7 hrs",
+    details: "Climb steadily toward Shibuk La, the third pass of the trek and one of its most scenic. The ascent is gradual but sustained. From the top, the Rupshu plateau unfolds below—a vast, open expanse that defines Changthang’s scale and isolation. Descend gradually, followed by long flat sections leading toward Tso Kar, the famous saltwater lake known as the White Lake. The terrain transitions from green grasslands to wide, arid plains. Nomadic Changpa camps may be visible in the distance with grazing yaks and pashmina goats. Engage respectfully—observe daily routines, greet warmly, and avoid intrusive photography. Learn about their seasonal migration patterns and sustainable high-altitude living. Camp near Tso Kar. Overnight in tents."
+  },
+  {
+    day: 6,
+    title: "Ponganagu (14,922 ft) → Nuruchan (15,254 ft) | Trek: 16 km | 5–6 hrs",
+    details: "Today’s walk is long but relatively easy, following the shores of Tso Kar and Startsapuk Tso. The trail is mostly flat with minor undulations, offering constant views of shimmering lakes and vast plains. Water sources are scarce along the trail—carry sufficient water from camp. Nomadic settlements are occasionally visible, and this region provides excellent insight into Changpa pastoral life. You may see herds of kiang (wild asses), marmots, and migratory birds. A cold river crossing near Nuruchan requires caution—cross slowly, preferably in sandals, and keep essentials dry. Reach the Nuruchan campsite by evening. Overnight in tents."
+  },
+  {
+    day: 7,
+    title: "Nuruchan (15,254 ft) → Gyamar Barma (17,074 ft) via Kyamayuri La (17,713 ft) | Trek: 18 km | 7–8 hrs",
+    details: "This day takes you deeper into the Changthang heartland. The trail ascends gradually alongside a meandering river with snow-covered peaks rising on either side. Weather can change rapidly—carry rain protection and warm layers. After a steady climb and descent, reach the nomadic settlement of Rajun Karu, where Changpa families, yaks, horses, and pashmina goats are commonly seen. Engage respectfully, learn about their wool trade, and observe their harmony with the harsh environment. The trail then ascends to Kyamayuri La, the fourth and taxing pass of the trek, followed by a long descent to Gyamar Barma—arguably the most scenic campsite of the journey. Expect strong winds here. Overnight in tents."
+  },
+  {
+    day: 8,
+    title: "Gyamar Barma (17,074 ft) → Gyamar (16,787 ft) via Kartse La (17,614 ft) | Trek: 8 km | 3–4 hrs",
+    details: "The shortest trekking day but involving the steepest climb. Cross the river near camp and begin the sharp ascent toward Kartse La, the fifth pass of the trek. Midway, turn back for breathtaking views of Gyamar Barma valley—grazing animals, winding rivers, and nomadic camps create a living landscape. From the pass, descend gradually into Gyamar, a valley rich in streams and water sources. Wildlife sightings are common here. Take the afternoon to rest and recover. Overnight in tents."
+  },
+  {
+    day: 9,
+    title: "Gyamar (16,787 ft) → Karzok (14,890 ft) via Yalung Nyau La (17,760 ft) | Trek: 20 km | 8–9 hrs",
+    details: "This is the longest and most challenging day of the trek. Begin with a long gradual ascent following a river through jagged mountain terrain toward Yalung Nyau La, the sixth and final pass. Multiple river crossings are involved—move carefully and follow instructions. From the pass, the first view of the deep-blue Tso Moriri Lake unfolds dramatically below, offering an unforgettable moment. Descend steeply at first, then gradually flatten out as you approach Karzok village. Walk along the shores of the freshwater lake and absorb the tranquility of this sacred landscape. Overnight in a homestay at Karzok."
+  },
+  {
+    day: 10,
+    title: "Karzok → Leh (215 km Drive | 8–9 hrs)",
+    details: "Depart early from Karzok for the long drive back to Leh via Mahe Bridge and Chumathang. The route transitions from high plateaus to river valleys and geothermal landscapes. Reach Leh by evening, marking the end of an extraordinary journey across Ladakh’s remote Changthang plateau and the living world of the Changpa nomads."
+  },
+  ],
+
+
+  didYouKnow: [
+    "<b>The Changpas migrate seasonally across vast distances.</b><br>Their entire lifestyle revolves around grazing cycles for pashmina goats, often covering hundreds of kilometers each year.",
+    "<b>Tso Moriri is considered sacred by local communities.</b><br>Swimming or disturbing the lake is traditionally discouraged due to its spiritual significance.",
+    "<b>Pashmina wool comes from a specific breed of Changthangi goats.</b><br>The extreme cold of Changthang produces the world’s finest cashmere.",
+    "<b>The plateau is part of a trans-Himalayan ecosystem.</b><br>Its landscape is closer to Tibet than mainland India, both culturally and geographically."
+  ],
+
+
+    howToReach: {
+      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (well connected to Delhi and major Indian cities).",
+      train: "No direct trains. Nearest station: Jammu Tawi (approx. 700 km). Continue by road or flight to Leh.",
+      road: "From Manali: 470 km / 2 days via Manali–Leh Highway. From Srinagar: 420 km / 2 days via Srinagar–Leh Highway.",
+      travelTip: "Arrive in Leh at least 2 days before the trek for proper acclimatization to avoid altitude sickness.",
+    },
+
+    gallery: [
+	    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766075708/Chanpas-who-make-cashmere_au7xtr.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
+   
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
+           "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
+     
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+    questions: [
+      {
+        question: "Who should attempt the Rumtse to Tso Moriri Trek?",
+        answer:
+          "This trek is ideal for fit trekkers with prior high-altitude trekking experience. Beginners are not recommended due to altitude and remoteness."
+      },
+      {
+        question: "Do foreigners need special permits?",
+        answer:
+          "Yes. Foreign nationals require Inner Line Permits, which are arranged by the trek operator."
+      },
+      {
+        question: "Is porter or mule offloading available?",
+        answer:
+          "Yes. Pack animals are used for common gear, and personal offloading can be arranged at extra cost."
+      },
+      {
+        question: "How cold does it get on this trek?",
+        answer:
+          "Day temperatures range between 10–18°C, while nights can drop to -5°C or lower at higher camps."
+      },
+      {
+        question: "Is there mobile network or internet?",
+        answer:
+          "Network is extremely limited. You may get signal in Leh and occasionally near Korzok village, but most of the trek is completely off-grid."
+      }
+    ]
+  },
+
+
+    faqsLink: "/faqs-and-articles",
+  },
+  
+  
+  {
+  id: "kashmir-great-lakes-trek",
+  name: "Kashmir Great Lakes Trek",
+  tags: ["intermediate", "pro", "pass", "lake", "meadows"],
+  difficulty: ["moderate", "difficult"],
+  season: ["monsoon"],
+  month: ["july", "august", "september"],
+  region: "kashmir",
+  duration: "5 Nights / 6 Days",
+
+  coordinates: [
+    [34.2511, 75.3315],   // Srinagar
+    [34.3000, 75.2900],   // Sonamarg (start)
+    [34.3320, 75.3600],   // Nichnai
+    [34.3570, 75.4180],   // Vishansar Lake
+    [34.3660, 75.4350],   // Krishansar Lake
+    [34.3890, 75.4750],   // Gadsar Pass / Gadsar Lake
+    [34.4100, 75.5100],   // Satsar Lakes
+    [34.4390, 75.5480],   // Gangbal Lake
+    [34.4530, 75.6000],   // Naranag (end)
+  ],
+
+   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
+    ],
+
+  subtitle: "The Crown Jewel of Himalayan Treks",
+
+  seo: {
+    title: "Kashmir Great Lakes Trek | Alpine Lakes of Kashmir | Planethimalayas",
+    description: "The Kashmir Great Lakes Trek is one of India’s most beautiful high-altitude treks, featuring pristine alpine lakes, lush meadows, dramatic mountain passes, and sweeping Himalayan views. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
+  },
+
+  advisory: {
+  type: "warning",
+  fullWidth: true,
+  title: "Important Advisory for Jammu & Kashmir Treks",
+  sections: [
+    {
+      heading: "Trekking Permit Status",
+      content:
+          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
+    {
+      heading: "High Uncertainty in J&K",
+      content:
+        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
+    },
+  ]
+},
+
+  overview: {
+  facts: [
+    { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+    { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+    { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
+    { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
+    { emoji: "🌤️", label: "Best Time", value: "July to September" },
+    { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas, Jammu & Kashmir" },
+    { emoji: "📍", label: "Start Point", value: "Sonamarg (Nichnai side)" },
+    { emoji: "🏁", label: "End Point", value: "Naranag" },
+    { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+  ],
+
+  snippet:
+    "The Kashmir Great Lakes Trek is often called the crown jewel of Indian Himalayan trekking — a journey through a dreamscape of alpine lakes, endless green meadows, and dramatic mountain passes that define the raw beauty of Kashmir. Set in the high ranges east of Srinagar, this trek strings together a series of pristine glacial lakes, each with its own colour, character, and story, all set against towering snow-clad peaks rising beyond 6,000 meters.<br>The trail begins near Sonamarg, the ‘Meadow of Gold’, where wide grasslands roll gently beneath open skies and the first streams flow cold and clear from surrounding glaciers. As you climb higher, the landscape shifts dramatically — gentle shepherd paths give way to vast alpine basins, rocky ridgelines, and high mountain passes like Nichnai Pass (around 4,100 m) and Gadsar Pass (around 4,200 m), from where the entire Kashmir valley seems to unfold beneath your feet.<br>What makes this trek truly legendary is its lakes. Vishansar and Kishansar sit like twin jewels cradled in sweeping meadows, reflecting sharp mountain silhouettes and drifting clouds. Gadsar Lake, often still partially frozen even in mid-summer, lies beneath rugged cliffs and is considered sacred by local shepherds. Further ahead, Satsar reveals not one but a chain of interconnected high-altitude lakes, while the final descent leads you to Gangbal and Nundkol — massive alpine lakes resting at the base of Mount Harmukh (5,142 m), one of Kashmir’s most revered peaks in local mythology.<br>The trek is a paradise for nature lovers. During peak summer, the meadows explode with wildflowers — gentians, buttercups, blue poppies, and edelweiss — while herds of sheep and horses graze freely under the watch of Gujjar and Bakarwal shepherds who still follow ancient migratory routes through these mountains. Birdlife is rich and varied, and marmots are commonly spotted near rocky sections. Though elusive, the region is also known habitat for Himalayan brown bears and snow leopards at higher elevations.<br>While the Kashmir Great Lakes Trek is not technical, it demands stamina and mental resilience. Long walking days, multiple river crossings, high-altitude camping above 3,500 meters, and rapidly changing mountain weather make it a serious undertaking. Sudden rain, mist, or snowfall can transform the landscape within minutes, adding to both the challenge and the magic of the journey.<br>For trekkers seeking the pure essence of Himalayan beauty — vast open spaces, crystal-clear lakes, high passes, and a feeling of walking through untouched wilderness — the Kashmir Great Lakes Trek delivers an experience that is both humbling and unforgettable. It is not just a trek through mountains, but a passage through one of the most visually dramatic high-altitude landscapes in the Indian Himalayas."
+  },
+
+  price: 20400,
+  priceNote: "* Srinagar to Srinagar",
+  addons: {
+    transport: null,
+    transportNote: null,
+    offloadingbag: 4200,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to packed lunch on Day 6",
+
+  highlights: [
+    "Trek through a chain of iconic alpine lakes — Vishansar, Krishansar, Gadsar, Satsar, and Gangbal",
+    "Vast rolling meadows that stretch endlessly across the Kashmiri highlands",
+    "Cross high-altitude passes like Gadsar Pass with sweeping panoramic views",
+    "Frequent river crossings and snow patches adding adventure to the trail",
+    "Encounters with nomadic Gujjar and Bakarwal shepherd communities",
+    "Dramatic shifts in landscape — from lush grasslands to stark glacial basins",
+    "One of India’s most scenic high-altitude treks with continuous visual rewards"
+  ],
+
+  itinerary: [
+  {
+  day: 1,
+  title: "Srinagar – Shitkadi – Nichnai | 80 km Drive + 8 km Trek | 1,585 m (Srinagar) to 3,500 m (Nichnai)",
+  details:
+    "The journey begins early in the morning with a pickup from Srinagar. The exact pickup location and time are shared a day before departure. From Srinagar, drive through the scenic Sindh valley toward Sonamarg, with a short breakfast stop en route before continuing to the trek start point near Shitkadi, approximately 3 km before Sonamarg on the Srinagar road.<br>The trek begins at Shitkadi, marked by a lone roadside dhaba on the right side of the road. A jeep track turns right from the road near the dhaba and drops toward the Sindh River, which flows between the track and the main road. The trail initially follows this track before turning sharply uphill. Within ten minutes, the path bends left and enters a green meadow that overlooks Sonamarg town, offering the first sweeping view of the valley below.<br>After about half an hour, the trail reaches the top of the meadow where Maple and Pine trees begin. At the tree line, the path briefly descends to a small brook before climbing again into a dense Maple forest. Walking on a thick green carpet beneath towering Maple trees is a rare experience unique to Kashmir. Over the next one and a half hours, the trail winds steadily uphill through the forest. It is important to stay on the ascending path, as descending trails lead toward nearby villages. Occasional clearings open up along the way, revealing increasingly expansive views of the Sonamarg valley, with its streams, meadows, pine forests, and the town nestled below.<br>The Maple forest ends at a ridge top, where the view opens dramatically toward Sonamarg and the neighboring valley. After a short pause at the ridge, the trail slopes gently downward into a broad alpine meadow on the other side. This meadow is lined with Silver Birch trees and a few shepherd huts, with a wide carpet of green stretching across the valley floor. Small streams cross the meadow and provide reliable water sources, while snow-dusted peaks rise quietly on the right. This beautiful meadow is known as Shekdur and makes for a perfect lunch stop.<br>Beyond Shekdur, the trail continues across the meadow for about half an hour before entering a forest of Silver Birch. The path descends gently through thick foliage, where sunlight filters through the canopy creating striking patterns of light and shadow. After around forty-five minutes, the Birch forest thins out and the trail drops into a river valley, marking the beginning of the Nichnai region.<br>The trail now follows the right bank of a fast-flowing river as it moves steadily upstream. Snow-clad peaks from the Sonamarg side remain visible behind, while the valley ahead opens gradually between two mountain ranges. The first section is rocky and slow-going, especially for pack animals, but soon gives way to wider grassy patches as the valley broadens. Far ahead, distinctive triangular twin snow-covered peaks come into view. A flat grassy section near the river is chosen to pitch tents, bringing the first day’s trek to an end at Nichnai, surrounded by high mountains, flowing water, and complete wilderness."
+  },
+  {
+  day: 2,
+  title: "Nichnai – Vishnusar Lake via Nichnai Pass | 13.5 km Trek | 3,540 m → 3,650 m via 4,030 m",
+  details:
+    "The day begins early from Nichnai, ideally by 8:00 am, as this is one of the longest and most scenic walking days of the trek. The campsite lies at around 3,540 m (11,607 ft), and today you cross the first major pass of the trek — Nichnai Pass, also locally known as Vishnusar Berry, perched high at 4,030 m (13,229 ft). Carry sufficient water from camp, though there are multiple streams along the way to refill later in the day.<br>The trail initially follows the river flowing through the Nichnai valley. For the first thirty minutes, you walk on flat ground before crossing the river to its left bank. From here, the valley slowly opens up into expansive alpine meadows, and the ascent begins so gradually that it almost goes unnoticed. Twin snow-clad peaks ahead act as constant reference points, with the Nichnai Pass lying slightly to their right. Over the next hour, the trail steadily climbs through lush grasslands, with the mountains slowly closing in on either side.<br>The final climb to Nichnai Pass is a clearly defined ascent that takes about an hour. Though not technically difficult, the altitude gain is quick and many trekkers feel the thin air here, as this is only the second day of trekking. The ridge you see from below is deceptive — the trail turns inward twice before the actual pass reveals itself. Standing at the pass, the view behind opens dramatically toward the Sonamarg valley and the entire route you have walked so far. This is also the last point on the trek where mobile network is occasionally available. From here on, the trail disconnects you completely from the outside world until you descend toward Gangbal days later.<br>Nichnai Pass feels like a wide, open corridor between mountain systems. Snow-covered Himalayan peaks line the left, while the terrain to the right rises in stark, barren ridges reminiscent of Ladakh’s cold desert landscapes. From the pass, the trail plunges sharply downward over loose rocks for nearly an hour. As altitude is lost, rocks slowly give way to grass, and bright red alpine flowers begin to dot the ground underfoot. A new river emerges below, fed by snowmelt from the pass, flowing gently through a vast green basin.<br>The descent eases into one of the most beautiful meadows of the trek — a wide, open valley stretching far ahead, flanked by contrasting mountain ranges. On the left rise classic snow-clad Himalayan peaks, while the right side displays grey, barren slopes shaped by wind and weather. A large waterfall crashes down a cliff on the left, feeding the river that runs through the meadow. Walking through this landscape feels unhurried and expansive, with the trail weaving gently along the grass.<br>Two main streams cut across the meadow. Stick close to the stream on the left and be prepared for a cold water crossing about half an hour later. The icy water is ankle to knee deep depending on the season. Beyond this crossing, the walk continues for another hour and a half through the meadow until you reach the end of the valley, where a stream flows perpendicular across the trail from left to right.<br>This stream originates from Vishnusar Lake, which lies slightly above and to the left of the campsite. Pitch your tents near this stream — the camping area is flat, spacious, and well-protected. The lake itself is hidden from view at the campsite, adding to the anticipation.<br>If energy permits, a short walk leads to Vishnusar Lake, located about 500 meters away and roughly 30 meters higher than the campsite. Follow the stream upstream without crossing it, and within minutes the lake reveals itself, cradled beneath four surrounding mountains. The Kishansar peak, though some distance away, reflects beautifully on the lake’s still surface. Vishnusar changes character through the day — appearing crystal clear in early morning, deep blue under a bright sun, and greenish-blue as clouds roll in during the afternoon. Watching the lake shift colours with light and weather is one of the quiet rewards of the Kashmir Great Lakes trek."
+  },
+  {
+  day: 3,
+  title: "Vishnusar – Gadsar Lake via Gadsar Pass | 16 km Trek | 3,650 m → 3,260 m via 4,180 m",
+  details:
+    "Day four is the most demanding and visually dramatic day of the Kashmir Great Lakes trek, taking you across Gadsar Pass — the highest point of the entire route at approximately 4,180 m (13,715 ft). Start early from Vishnusar Lake, carrying sufficient water as the first part of the climb is dry. The lake lies silent in the early morning, often reflecting the surrounding peaks in perfect symmetry, making it one of the most memorable departures of the trek.<br>The trail initially skirts the Kishansar Lake side and soon begins climbing sharply. Look closely at the mountainside ahead — a pencil-thin trail etched across the slope marks your route to the pass. Multiple faint tracks appear, but always choose the one that gains height. The climb is steady and relentless, taking about one and a half to two hours at a controlled pace. Roughly forty-five minutes into the ascent, turn around for one of the most iconic views of the trek — Vishnusar and Kishansar lakes appear together in a single frame, cradled in their high alpine bowls, their colours shifting with the angle of light.<br>As you continue upward, the twin-lake view remains in sight until you finally crest the ridge at Gadsar Pass. At 4,180 m, this wind-swept saddle marks the transition into a new valley altogether. Snow often lingers here even in mid-summer, and the air is noticeably thinner. From the pass, the landscape opens toward a long, remote valley stretching far ahead, dotted with small lakes and guarded by distant snow-covered peaks. On exceptionally clear days, trekkers can spot peaks across the Line of Control, including ranges extending toward Pakistan-occupied territory — a reminder of how close this wilderness lies to geopolitical boundaries.<br>The descent from Gadsar Pass is steep and direct. Snowfields often cover sections of the trail early in the season, making footing careful and deliberate. Within the first part of the descent, the trail passes Yamsar Lake, a small, deep-blue water body resting quietly on the left. Local folklore associates this lake with Yama, the god of death, and shepherds traditionally avoid camping here. Beyond Yamsar lies another unnamed alpine lake, equally pristine, reflecting the stark sky above.<br>As the descent continues, the terrain softens into grassy slopes and eventually levels out into a narrower meadow valley flanked by two mountain ranges. This section is famous for its wildflower bloom. The grass here is thick and bright green, punctuated by bursts of colour — red flowers give way to blue and then deep purple irises as the valley opens up. Walking through this stretch feels almost unreal, as if the valley has been painted deliberately for those willing to cross the pass.<br>Soon, the valley reveals Gadsar Lake itself, one of the most untouched and striking lakes of the entire trek. Nestled at around 3,260 m (10,706 ft), Gadsar sits beneath towering snow-clad cliffs on one side, where slabs of ice often break away and slide into the water, while the opposite bank blooms with blue alpine flowers. The lake’s water shifts between deep blue and green depending on the light, and a single stream connects Yamsar, the unnamed lake, and Gadsar in a cascading chain from high to low.<br>Camping near Gadsar Lake is sometimes permitted, though it is generally discouraged to preserve its fragile ecosystem. An abandoned army shelter stands nearby as a reminder of the valley’s strategic sensitivity. Most groups continue descending from the lake, and within thirty minutes the valley begins to widen. Another blue lake appears to the left, while the snow-covered peaks gradually give way to lower, barren mountains. Shepherd huts soon emerge, signalling a return to human presence.<br>A further descent of about an hour leads to the Gadsar Army Camp, a small post manned by a handful of soldiers. This is a mandatory reporting point. Trekkers must register here, as onward movement requires clearance from the army headquarters located several kilometres ahead near the treeline. Communication is handled via walkie-talkie, and identity documents are verified. Expect to wait for clearance, as this process can take a couple of hours. The day ends near the camp, resting after crossing the most remote and high-altitude section of the Kashmir Great Lakes trek."
+  },
+  {
+  day: 4,
+  title: "Gadsar – Satsar Lakes | 11.5 km Trek | 3,260 m → 3,650 m",
+  details:
+    "Day five begins from the Gadsar side with a river crossing followed by a sharp climb straight into the mountainside. The trail immediately gains height, pulling away from the river valley below. The terrain here feels unexpectedly familiar to trekkers from the Western Ghats — narrow trails etched into green slopes, rolling contours, and a sense of walking just above the treeline. Below you, the river snakes through the valley while clusters of trees thin out rapidly as you climb.<br>The first one and a half hours involve a steady ascent of roughly 1,100 feet. Though not technically difficult, the climb demands controlled pacing after the exertions of Gadsar Pass the previous day. As you cross the 11,500 ft mark, the trail stops climbing sharply and transitions into a long, almost level traverse. The route bends left, deliberately leaving the river valley behind, and opens into a broad meadow flanked by isolated mountains. The sense of exposure increases here — you are fully out in the open, surrounded by silence, wind, and vastness.<br>This section of the trail passes through an area known locally as Maengandob. Scattered across the meadow to your right are deep, unnatural-looking craters gouged into the earth — remnants of artillery shelling from the Kargil conflict. These bomb craters are stark reminders that this peaceful alpine landscape once echoed with explosions. On clear days from this stretch, trekkers may spot distant snow-clad peaks across the Line of Control, and occasionally even catch glimpses of Nanga Parbat far beyond, standing immense and solitary in Pakistan-occupied territory. The contrast between serene meadows and wartime scars is deeply humbling.<br>Ahead, the landscape becomes softer again. Isolated mountains rise like sentinels, while a low ridge forms on the right. Between them stretches a flat green basin threaded by a gentle stream. If your previous night was near Gadsar Lake, this meadow serves as a logical campsite. However, if you started the day from the Gadsar Army Camp, it is advisable to push further and reach Satsar today, keeping the next day lighter.<br>Satsar is not a single lake but a cluster of seven interconnected alpine lakes scattered across a high-altitude plateau at around 3,650 m (11,985 ft). Depending on the season, four to five of these lakes usually hold water, each differing slightly in size and colour. Beyond the ridge to the right lies the Satsar Army Check Post — the third line of defence from the Line of Control. Reporting here is mandatory, and the familiar process of identity verification and documentation repeats. Completing this formality today ensures an uninterrupted trekking day tomorrow.<br>A short walk of about ten minutes beyond the army camp brings you to the first Satsar lake. Broad, calm, and reflective, it sits quietly in a green bowl with mountains rising in front of it. This lake is typically chosen as the campsite. As evening settles in, the plateau grows silent, broken only by wind rippling across the water. The scattered lakes, open skies, and surrounding peaks create a sense of isolation that feels both peaceful and profound — a fitting pause before the final crossing toward Harmukh."
+  },
+  {
+  day: 5,
+  title: "Satsar – Gangbal & Nundkol via Zaj Pass | 9 km Trek | 3,650 m → 3,500 m (via 4,050 m)",
+  details:
+    "Day six is a relentless sequence of ascents and descents — a perfect mirror of the Kashmir Great Lakes trek as a whole. The trail tests endurance more than distance, constantly gaining and losing altitude across barren ridges before rewarding you with one of the most iconic lake views in the Indian Himalayas.<br>Begin the day by trekking gently upward for about half an hour from the Satsar campsite to reach the largest and final lake of the Satsar cluster. The terrain here is rocky and uneven, turning the walk into a slow boulder-hopping exercise. This lake marks the end of the Satsar plateau. From here, the trail begins to descend gradually, offering one last backward glance at the scattered lakes before the landscape changes again.<br>After about thirty minutes of descent, the forest line becomes visible far below on the left, while to the right a long ridge rises nearly 1,000 feet higher. This marks the start of the day’s most demanding climb. From an altitude of around 11,800 ft, the trail switches direction and begins a sharp zig-zag ascent along a pony track. The next forty-five minutes are steep and barren, with loose stones underfoot and little respite. Gaining the first ridge brings momentary relief, but the effort is far from over.<br>Two more ridges rise ahead, each climbed in succession. The landscape here feels stark and exposed — brown, rocky slopes devoid of vegetation. Looking back occasionally reveals a striking contrast: Gujjar huts tucked among tall pine forests far below, emphasizing how abruptly the terrain has shifted. A continuous two-hour climb eventually brings you to the highest ridge of the day at roughly 4,050 m (13,276 ft), commonly referred to as Zaj Pass.<br>What awaits on the ridge top is one of the most dramatic reveals of the trek. Almost suddenly, two large alpine lakes appear below, lying side by side in a deep mountain basin. A narrow stream links the higher lake to the lower one. These are Gangbal and Nundkol — the crown jewels of the Kashmir Great Lakes trek. If you look carefully, two smaller, unnamed blue lakes can also be spotted farther away, completing a breathtaking amphitheatre of water and stone.<br>From the pass, the trail drops steeply toward the lakes, losing nearly 1,400 feet in altitude. The descent is rocky and demanding, requiring careful footing. Midway down, a cold mountain stream cuts across the trail — the last reliable water source of the day and a welcome place to refill bottles. Beyond this point, the rocks gradually give way to grass, and the harsh terrain softens into green meadows once again.<br>The meadow stretches gently across the slope, with the tree line reappearing far below to the left. Though the lakes remain in sight, they seem deceptively distant. A short climb followed by another descent and a wooden log bridge crossing finally brings you to the shores of Nundkol Lake. This lake sees heavier footfall due to weekend trekkers from Naranag, and signs of human presence are often visible — a stark contrast to the pristine lakes earlier in the trek.<br>Nundkol sits directly beneath the towering Harmukh Peak, whose glaciers cling dramatically to its dark rock faces. Both Nundkol and Gangbal are famous for trout fishing, and their waters reflect the changing moods of the sky above. Gangbal Lake lies about twenty minutes away. A fast-flowing stream connects the two lakes — do not attempt to cross it downstream. Instead, walk upstream toward Gangbal where a sturdy man-made bridge allows safe crossing.<br>Gangbal is vast, silent, and commanding. The lake feels sacred — and rightly so. Mount Harmukh, revered in Kashmiri folklore as the abode of Lord Shiva, rises directly above it. Walking along the shores as evening settles in, with the mountain reflected in still waters and prayer-like silence all around, feels less like the end of a trek and more like a moment of quiet reverence. Camp near the lake and take in the final high-altitude night of this unforgettable journey."
+  },
+  {
+  day: 6,
+  title: "Gangbal – Naranag – Srinagar | 13 km Trek + 50 km Drive | 3,500 m → 2,380 m",
+  details:
+    "The final day of the trek is long, knee-intensive, and mentally demanding — a fitting conclusion to the Kashmir Great Lakes journey. While the altitude steadily drops, the relentless descent puts sustained pressure on toes and knees, making this day more challenging than it appears on paper.<br>From the Gangbal campsite at around 11,486 ft, begin descending along the outflowing stream toward the distant tree line. Avoid walking directly beside the stream; instead, stay on the ridge to the right where the trail is clearer and more stable. About thirty minutes into the walk, mobile network briefly appears — often the first signal in days — just enough to send a message home before the mountains reclaim their silence. Soon after, the ridge tapers off and the trail drops gently into a broad green meadow.<br>Looking back from the meadow offers one last commanding view of Mount Harmukh, its dark rocky face rising dramatically above the lakes you leave behind. The meadow itself is carpeted with small yellow alpine flowers, and the walk here becomes slow and careful as trekkers instinctively avoid stepping on the fragile blooms.<br>Roughly an hour into the descent, the fringes of the pine forest are reached. Tall pine trees border the meadow, and the first signs of human presence appear in the form of a solitary log hut. Rather than entering the forest immediately, the trail skirts its edge and turns right — and in a familiar twist characteristic of this trek, the descent briefly pauses. Though you drop to about 10,800 ft at the tree line, the trail climbs gently again to nearly 11,000 ft.<br>For the next six kilometres, altitude loss is minimal. The path weaves in and out of pine forests and open clearings, maintaining an elevation close to 10,800 ft. This section feels deceptively long, with constant minor ascents and descents that quietly drain energy even as the surroundings grow greener and more populated.<br>Only after covering nearly two-thirds of the day’s distance does the real descent begin. The trail suddenly steepens and plunges sharply through dense pine forest. The path is well-trodden, muddy in places, and demands careful footing. Over the final four kilometres, the trail drops more than 3,000 feet, making this one of the steepest sustained descents of the entire trek.<br>As altitude decreases, encounters with day trekkers increase — many heading uphill from Naranag toward Gangbal for short outings. The village of Naranag first becomes visible at around 8,500 ft, but despite being in sight, the descent continues relentlessly. The final stretch tests endurance and patience until the trail finally merges into a stone-paved village track.<br>Soon after, the forest opens up completely and the main road of Naranag is reached at approximately 7,800 ft. From here, a two-hour drive covering about 50 kilometres brings you back to Srinagar, typically by around 6:30 pm. The journey ends where it began, but with legs sore, hearts full, and the quiet satisfaction of having crossed one of the most scenic and demanding alpine traverses in the Indian Himalayas.<br>Important note: the security checkpost on the Naranag–Srinagar route closes at 4:00 pm. It is crucial to plan the descent and departure accordingly. If delayed beyond this time, overnight arrangements may need to be coordinated locally, sometimes with assistance from the Indian Army."
+  }
+],
+
+  didYouKnow: [
+    "The Kashmir Great Lakes region remains snow-covered for most of the year and is accessible only for a short window between July and September.",
+    "Gadsar Pass was historically used by shepherds to move livestock between grazing grounds across valleys.",
+    "Gangbal Lake lies at the base of Mount Harmukh (5,142 m), one of Kashmir’s most prominent peaks and a sacred mountain in local folklore.",
+    "The Gujjar and Bakarwal nomads migrate seasonally through these meadows, living in temporary shelters with their flocks.",
+    "Despite its popularity, the region has no permanent settlements beyond Naranag, preserving its wild and untouched character."
+  ],
+
+  howToReach: {
+    air: "Nearest airport: Srinagar International Airport. Regular flights operate from Delhi and other major Indian cities. Srinagar is the main gateway to the Kashmir Valley and offers the easiest access to the trek starting point.",
+    train: "Nearest major railway station: Jammu Tawi (approx. 270 km from Srinagar). From Jammu, you can continue by road to Srinagar via NH44. Train connectivity is reliable year-round, but onward travel depends on road conditions.",
+    road: "Srinagar is well connected by road to Jammu via the Jammu–Srinagar Highway (NH44). From Srinagar, a 2–3 hour drive takes you to Sonamarg (trek start) or Naranag (trek end), depending on the itinerary direction. Roads may face temporary closures due to landslides or weather, especially during monsoon.",
+    travelTip: "Plan to arrive in Srinagar at least one day before the trek begins to allow buffer time for weather or road delays. While the Kashmir Great Lakes Trek does not require long acclimatization like Ladakh treks, gradual ascent, hydration, and fitness preparation are important for a comfortable high-altitude experience."
+  },
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535552/kgl-view14_byzmiq.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535551/kgl-view13_cm0dts.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535549/kgl-view4_zsl7ou.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535546/kgl-hero_phbnfu.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535543/kgl-view6_cszcms.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535541/kgl-view12_blnxcy.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535540/kgl-view2_mchh5u.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view1_x2b9s2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535530/kgl-view10_xunafq.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535527/kgl-view9_jei9pf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698698/IMG_20190731_170319_ufe38r.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698772/IMG_20190723_082902_j4lrnx.jpg",
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Kashmir Great Lakes Trek?",
+        answer:
+          "This trek is best suited for fit trekkers with prior trekking experience. Long walking days, high altitude, and repeated ascents and descents require good stamina and endurance."
+      },
+      {
+      question: "How should I prepare physically for the Kashmir Great Lakes Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
+    },
+      {
+        question: "What is the difficulty level of this trek?",
+        answer:
+          "The trek is graded moderate to moderate-difficult. While there are no technical sections, the altitude, long distances, river crossings, and high passes make it physically demanding."
+      },
+      {
+        question: "What is the highest altitude reached on the trek?",
+        answer:
+          "The highest point is Gadsar Pass at approximately 4,200 m, where snowfields and strong winds are common even in summer."
+      },
+      {
+        question: "When is the best time to do the Kashmir Great Lakes Trek?",
+        answer:
+          "The ideal season is from July to September, when the snow melts and the alpine lakes become accessible."
+      },
+      {
+        question: "What kind of accommodation is provided?",
+        answer:
+          "Accommodation is in tents throughout the trek. Campsites are set near lakes and meadows, offering immersive wilderness stays."
+      },
+      {
+        question: "Is acclimatization important on this trek?",
+        answer:
+          "Yes. The itinerary is designed to allow gradual altitude gain, but proper hydration, rest, and awareness of altitude sickness symptoms are essential."
+      },
+      {
+        question: "Will there be river crossings?",
+        answer:
+          "Yes. Several snow-fed streams must be crossed, especially between Gadsar and Satsar. Trekking poles are highly recommended."
+      },
+      {
+        question: "Is this trek suitable for beginners?",
+        answer:
+          "This trek is not recommended for absolute beginners. First-time trekkers should have strong fitness levels and prior exposure to multi-day hikes."
+      },
+      {
+        question: "What makes this trek unique?",
+        answer:
+          "The continuous sequence of high-altitude lakes, vast meadows, and dramatic mountain scenery makes this one of the most visually immersive treks in India."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
+  
+},
+
+{
+  id: "doodhpathri-trek",
+  name: "Doodhpathri Trek",
+  tags: ["beginner", "lake", "meadows"],
+  difficulty: ["easy"],
+  season: ["summer", "monsoon"],
+  month: ["june", "july", "august", "september"],
+  duration: ["3 Nights / 4 Days"],
+  region: "kashmir",
+  coordinates: [
+    [34.0837, 74.7973], // Srinagar
+    [33.9735, 74.6342], // Doodhpathri
+    [33.9901, 74.6568], // Palmaidan Meadows
+    [34.0103, 74.6794], // Doodhpathri Top
+    [34.0837, 74.7973], // Srinagar (end)
+  ],
+
+  heroImage:
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+  heroImages: [
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg"
+  ],
+
+  subtitle: "The Valley of Milk Meadows",
+
+  seo: {
+    title: "Doodhpathri Trek | Easy Kashmir Trek | Itinerary & Cost | Planethimalayas",
+    description:
+      "Doodhpathri Trek is an easy alpine meadow trek in Kashmir, perfect for beginners. Lush green grasslands, pine forests, milky streams, and panoramic Pir Panjal views make it an ideal short Himalayan escape near Srinagar."
+  },
+
+  advisory: {
+  type: "warning",
+  fullWidth: true,
+  title: "Important Advisory for Jammu & Kashmir Treks",
+  sections: [
+    {
+      heading: "Trekking Permit Status",
+      content:
+          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
+    {
+      heading: "High Uncertainty in J&K",
+      content:
+        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
+    },
+  ]
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "4,100 m (Doodhpathri Top)" },
+      { emoji: "⚡", label: "Trek Distance", value: "Approx. 18 km" },
+      { emoji: "🌤️", label: "Best Time", value: "June to September" },
+      { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas" },
+      { emoji: "📍", label: "Start Point", value: "Srinagar" },
+      { emoji: "🏁", label: "End Point", value: "Srinagar" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
+    ],
+
+    snippet: `
+Doodhpathri, literally meaning “Valley of Milk,” is one of Kashmir’s most serene alpine landscapes — wide emerald meadows cut through by crystal-clear streams that turn milky white as they rush over limestone beds. Tucked away southwest of Srinagar, this region remains largely untouched by mass tourism, offering a peaceful Himalayan experience unlike the busier valleys of Gulmarg or Pahalgam.
+<br>
+The trek unfolds through rolling grasslands, pine and fir forests, and high-altitude pastures grazed by Gujjar and Bakarwal shepherds. With gentle ascents and open walking trails, Doodhpathri is perfect for beginners, families, and trekkers seeking a slow, immersive mountain journey rather than a physically demanding climb.
+<br>
+A highlight of the trek is the climb to Doodhpathri Top — a natural viewpoint that opens sweeping vistas of the Pir Panjal range, layered valleys, and endless green meadows stretching far into the horizon. During monsoon months, clouds drift low across the grasslands, creating a dreamlike atmosphere rarely seen on Himalayan trails.
+<br>
+Short, scenic, and deeply calming, the Doodhpathri Trek is ideal for those who want to experience Kashmir’s raw beauty at an unhurried pace — where silence, space, and scenery take centre stage.
+    `
+  },
+
+  price: 7900,
+  priceNote: "* Srinagar to Srinagar",
+
+  addons: {
+    transport: null,
+    transportNote: null,
+    offloadingbag: 1500,
+    offloadingNote: "* maximum weight 9 kg / bag",
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 4",
+
+  highlights: [
+    "Expansive alpine meadows of Doodhpathri with uninterrupted views",
+    "Milky-white streams flowing through lush green grasslands",
+    "Quiet, uncrowded trail away from mainstream Kashmir tourism",
+    "Panoramic views of the Pir Panjal mountain range",
+    "Easy terrain ideal for beginners, families, and first-time trekkers",
+    "Beautiful monsoon cloud formations and vibrant summer landscapes"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Arrival in Srinagar & Drive to Doodhpathri | 45 km Drive | 2–3 Hours",
+      details: `
+Arrive in Srinagar by afternoon and meet the Planethimalayas team. After a short briefing, drive towards Doodhpathri through forested roads and rolling countryside. Reach the meadow region by evening and settle into camps near the grasslands. Enjoy your first views of Kashmir’s untouched alpine terrain followed by dinner and overnight stay.
+      `
+    },
+    {
+      day: 2,
+      title: "Doodhpathri to Palmaidan Meadows | 7 km Trek | 4–5 Hours",
+      details: `
+Begin trekking after breakfast through wide meadows intersected by crystal-clear streams. The trail remains gentle and open, offering continuous views of surrounding ridges and forests. Reach Palmaidan — a vast, flat meadow ideal for camping — by afternoon. Spend the evening relaxing, photographing the landscape, or simply soaking in the silence of the mountains.
+      `
+    },
+    {
+      day: 3,
+      title: "Palmaidan to Doodhpathri Top & Return | 8 km Trek | 5–6 Hours",
+      details: `
+Start early for the gradual ascent towards Doodhpathri Top, the highest point of the trek. From the summit ridge, enjoy sweeping views of the Pir Panjal range and endless green valleys below. After spending time at the top, descend back to the campsite by late afternoon. Dinner and overnight stay at Palmaidan.
+      `
+    },
+    {
+      day: 4,
+      title: "Trek Back to Doodhpathri & Drive to Srinagar | 3–4 Hours",
+      details: `
+After breakfast, trek back through familiar meadows to the Doodhpathri roadhead. From here, drive back to Srinagar, reaching by evening. The trek concludes with unforgettable memories of Kashmir’s hidden alpine heartland.
+      `
+    }
+  ],
+
+  howToReach: {
+    air:
+      "Nearest airport: Srinagar International Airport. Taxis to Doodhpathri are easily available.",
+    train:
+      "Nearest railway station: Jammu Tawi. From Jammu, drive to Srinagar and onward to Doodhpathri.",
+    road:
+      "From Srinagar: 2–3 hours drive via Budgam district to Doodhpathri.",
+    travelTip:
+      "Arrive in Srinagar a day early to acclimatize and explore the city before heading to the meadows."
+  },
+
+  didYouKnow: [
+    "Doodhpathri gets its name from the milky appearance of its streams caused by limestone-rich soil.",
+    "The meadows are traditional summer grazing grounds for Gujjar and Bakarwal nomadic tribes.",
+    "Unlike Gulmarg or Pahalgam, Doodhpathri remains largely free from commercial tourism infrastructure.",
+    "The region sits on the lesser-explored side of the Pir Panjal range, offering rare panoramic viewpoints.",
+    "During monsoon, cloud layers often move below the trekking trail, creating a ‘floating meadow’ effect.",
+    "Local folklore believes the meadows were blessed by saints due to their unmatched serenity and purity."
+  ],
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896183/Doodhpathri_z5ipmd.jpg",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896171/doodhpathri-view_iokmf7.webp"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Doodhpathri Trek?",
+        answer:
+          "The trek is ideal for beginners, families, and anyone with basic fitness looking for an easy Himalayan experience."
+      },
+      {
+        question: "Is this trek suitable during monsoon?",
+        answer:
+          "Yes. Monsoon is one of the most beautiful times for Doodhpathri, with lush meadows and dramatic cloud formations."
+      },
+      {
+        question: "Is altitude sickness a concern?",
+        answer:
+          "The altitude gain is gradual, making it relatively safe. Proper hydration and steady pace are recommended."
+      },
+      {
+        question: "Will there be mobile network?",
+        answer:
+          "Mobile connectivity is available near Srinagar but unreliable once you enter the meadow region."
+      },
+      {
+        question: "Is offloading available?",
+        answer:
+          "Yes, mule or porter offloading is available with prior booking."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+
+/* Himachal Pradesh */
+
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
-    tags: ["pro", "pass", "crossover", "kinnaur", "spiti", "glacier"],
+    tags: ["pro", "pass", "crossover", "kinnaur", "spiti", "glacier", "meadows"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -195,7 +1232,7 @@ export const treks = [
   {
   id: "pin-parvati-pass-trek",
   name: "Pin Parvati Pass Trek",
-  tags: ["pro", "pass", "crossover", "parvati", "spiti", "glacier"],
+  tags: ["pro", "pass", "crossover", "parvati", "spiti", "glacier", "lake", "meadows"],
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
@@ -463,7 +1500,7 @@ export const treks = [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["intermediate", "pass", "crossover", "kullu", "lahaul", "lake", "glacier"],
+    tags: ["intermediate", "pass", "crossover", "kullu", "lahaul", "lake", "glacier", "meadows"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -675,7 +1712,7 @@ export const treks = [
   {
   id: "deo‑tibba‑basecamp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["intermediate", "pro", "basecamp", "lake", "kullu", "glacier"],
+  tags: ["intermediate", "pro", "basecamp", "lake", "kullu", "glacier", "meadows"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
@@ -884,7 +1921,7 @@ export const treks = [
  {
     id: "hampta-circuit-trek",
     name: "Hampta Circuit Trek",
-    tags: ["beginner", "family", "kullu"],
+    tags: ["beginner", "family", "kullu", "meadows"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
     month: ["may", "june", "july", "august", "september", "october", "november", "december"],
@@ -1036,7 +2073,7 @@ export const treks = [
 {
     id: "rani-sui-lake-trek",
     name: "Rani Sui Lake Trek",
-    tags: ["beginner", "family", "kullu"],
+    tags: ["beginner", "family", "kullu", "meadows"],
     difficulty: ["easy"],
     season: ["summer", "autumn", "monsoon", "winter","spring"],
     month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
@@ -1182,7 +2219,7 @@ export const treks = [
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
-    tags: ["pro", "pass", "crossover", "shimla", "kinnaur", "glacier"],
+    tags: ["pro", "pass", "crossover", "shimla", "kinnaur", "glacier", "meadows"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1424,7 +2461,7 @@ export const treks = [
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate", "pro", "pass", "crossover", "shimla", "kinnaur", "lake", "glacier"],
+    tags: ["intermediate", "pro", "pass", "crossover", "shimla", "kinnaur", "lake", "glacier", "meadows"], 
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -1670,7 +2707,7 @@ export const treks = [
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["intermediate", "beginner", "family"],
+    tags: ["intermediate", "beginner", "family", "meadows", "ridgewalk"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -1910,7 +2947,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["intermediate", "beginner", "family", "lake"],
+    tags: ["intermediate", "beginner", "family", "lake", "meadows", "peak"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -2151,7 +3188,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["intermediate", "pro", "glacier", "basecamp"],
+    tags: ["intermediate", "pro", "glacier", "basecamp", "meadows"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2362,7 +3399,7 @@ seo: {
   {
   id: "kedartal-trek",
   name: "Kedartal Trek",
-  tags: ["intermediate", "pro", "lake", "glacier"],
+  tags: ["intermediate", "pro", "lake", "glacier", "meadows"],
   difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -2652,7 +3689,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
-    tags: ["beginner", "intermediate"],
+    tags: ["beginner", "intermediate", "meadows", "ridgewalk"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -2843,7 +3880,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
-    tags: ["intermediate", "pro", "lake"],
+    tags: ["intermediate", "pro", "lake", "meadows"],
     difficulty: ["moderate", "difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
@@ -3032,7 +4069,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
-    tags: ["intermediate", "beginner"],
+    tags: ["intermediate", "beginner", "meadows"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
@@ -3224,7 +4261,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["intermediate", "beginner"],
+  tags: ["intermediate", "beginner", "meadows"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -3467,7 +4504,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["intermediate", "beginner"],
+  tags: ["intermediate", "beginner", "meadows", "peak"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -3698,7 +4735,7 @@ itinerary: [
 {
   id: "dayara-bugyal-trek",
   name: "Dayara Bugyal Trek",
-  tags: ["family", "beginner"],
+  tags: ["family", "beginner", "meadows"],
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -3934,7 +4971,7 @@ itinerary: [
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover", "tons", "yamunotri"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "tons", "yamunotri", "meadows", "ridgewalk"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -4160,7 +5197,7 @@ itinerary: [
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
-    tags: ["pro", "lake", "glacier"],
+    tags: ["pro", "lake", "glacier", "meadows", "ridgewalk"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4385,7 +5422,7 @@ itinerary: [
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["intermediate", "pro", "basecamp", "glacier"],
+    tags: ["intermediate", "pro", "basecamp", "glacier", "meadows"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4638,7 +5675,7 @@ itinerary: [
 {
   id: "ranthan-kharak-trek",
   name: "Ranthan Kharak Trek",
-  tags: ["intermediate"],
+  tags: ["intermediate", "meadows"],
   difficulty: ["moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -4822,7 +5859,7 @@ itinerary: [
 {
     id: "dhakuri-pass-trek",
     name: "Dhakuri Pass Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "meadows"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -4997,7 +6034,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "pindari-glacier-trek",
     name: "Pindari Glacier Trek",
-    tags: ["beginner", "intermediate"],
+    tags: ["beginner", "intermediate", "meadows"],
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -5229,7 +6266,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
   id: "panchachuli-base-camp-trek",
   name: "Panchachuli Base Camp Trek",
-  tags: ["beginner", "intermediate"],
+  tags: ["beginner", "intermediate", "meadows"],
   difficulty: ["easy", "moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -5418,7 +6455,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "goechala-trek",
     name: "Goechala Trek",
-    tags: ["pro", "lake", "glacier"],
+    tags: ["pro", "lake", "glacier", "meadows"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn","winter"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
@@ -5434,13 +6471,12 @@ After breakfast, descend gradually through forests and old trade routes towards 
   [27.6673, 88.2820], // Goecha La Viewpoint (end)
 ],
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+  heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
 
-  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+  heroImages: [ "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534971/goechala-view13_dni0oj.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view11_cwp15u.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534974/goechala-hero_h266sf.jpg"
   ],
 
   subtitle: "A Himalayan Symphony Of Nature & Majesty",
@@ -5586,8 +6622,10 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
   " <b>Rhododendron bloom transforms the trek in spring.</b> <br>In April–May, the forests turn crimson, pink, and purple — Sikkim has over 30 species of rhododendrons, more than anywhere else in India.",
 
-  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Kanchenjunga range is the abode of protective mountain deities."
-],
+  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Kanchenjunga range is the abode of protective mountain deities.",
+
+  " <b>Traditional Sikkimese food becomes essential at altitude.</b><br>Local dishes like thukpa, phagshapa, and butter tea are not just comfort food — they are high-calorie, warming meals designed for cold, high-altitude conditions and are deeply tied to mountain survival."
+  ],
 
 
     gallery: [
@@ -5610,6 +6648,9 @@ After breakfast, descend gradually through forests and old trade routes towards 
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534967/goechala-view10_bujpza.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534958/goechala-view1_mj2zxp.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534957/goechala-hero1_gv5uoh.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063292/khangchendzonga-peak_3_kh3a07.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg"
     
     ],
 
@@ -5660,15 +6701,265 @@ After breakfast, descend gradually through forests and old trade routes towards 
     faqsLink: "/faqs-and-articles",
   },
 
+  {
+  id: "dzongri-winter-trek",
+  name: "Dzongri Winter Trek",
+
+  tags: ["intermediate", "pro", "meadows"],
+  difficulty: ["moderate-difficult"],
+  season: ["winter", "spring", "autumn"],
+  month: ["december", "january", "february"],
+  duration: ["7 Nights / 7 Days"],
+  region: "sikkim",
+  coordinates: [
+  [27.3745, 88.2350], // Yuksom (start)
+  [27.5679, 88.2817], // Tshoka
+  [27.5997, 88.2942], // Dzongri
+  ],
+
+  heroImage:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
+  ],
+
+  subtitle: "Winter Silence, Golden Sunrise & The Face of Kanchenjunga",
+
+  seo: {
+    title:
+      "Dzongri Winter Trek | Snow Trek in Sikkim with Kanchenjunga Views | Planethimalayas",
+    description:
+      "Dzongri Winter Trek in Sikkim is a rare Himalayan snow trek offering sunrise views of Mt. Kanchenjunga, vast alpine meadows, frozen forests, and silent winter landscapes. A perfect high-altitude winter adventure."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "13,675 ft (Dzongri Top)" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈50 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "December-March" },
+      { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
+      { emoji: "📍", label: "Start / End", value: "Yuksom (West Sikkim)" },
+      { emoji: "🏁", label: "End Point", value: "Yuksom (West Sikkim)" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+    ],
+
+    snippet: `
+The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya — a journey where snow softens the world, silence deepens, and the mountains feel closer, heavier, and infinitely more alive. Traversing the sacred landscapes of West Sikkim inside the Khangchendzonga National Park, this trek strips the trail down to its purest form. In winter, Dzongri is not about crowds or color — it is about stillness, shadow, light, and the overwhelming presence of Kanchenjunga watching from afar.
+
+<br>The trail begins in Yuksom, Sikkim’s ancient capital and the spiritual gateway to Kanchenjunga. As you climb, stone-paved paths wind through dense oak and magnolia forests, now hushed under frost and fallen leaves. Rhododendron branches stand bare and skeletal, prayer flags flutter stiffly in the cold air, and wooden bridges creak over partially frozen mountain streams. With each step upward, winter asserts itself — breath turns visible, footsteps crunch softly, and the forest gradually opens into snow-dusted clearings where the mountains begin to reveal themselves.
+
+<br>By the time you reach Dzongri meadows, the landscape transforms into something surreal. Vast alpine bowls lie blanketed in snow, stretching endlessly beneath an impossibly blue winter sky. The air here is razor-sharp and startlingly clear, carrying sound across distances and sharpening every contour of the surrounding peaks. Dzongri feels less like a campsite and more like a natural amphitheater built for the mountains — a place where silence is not empty, but charged with presence.
+
+<br>The defining moment of the trek arrives at dawn atop Dzongri Top. As first light spills over the horizon, the entire Kanchenjunga massif ignites in shades of gold and copper. The world’s third-highest mountain rises in solemn grandeur, flanked by Pandim, Kabru North and South, Rathong, Simvo, and a scattering of lesser-known yet striking summits. In winter, the clarity is unmatched — peaks appear closer, sharper, and more imposing, as if the mountains have stepped forward to be seen. The view is not fleeting; it lingers, holding you still in awe as sunlight slowly floods the Eastern Himalaya.
+
+<br>Unlike the busier summer routes, winter Dzongri offers an intimacy that few Himalayan treks can match. Trails are quieter, camps are fewer, and the mountains dominate every moment. Days are spent exploring frozen meadows, following snow-covered ridgelines, and absorbing the ever-shifting moods of the sky — from crystalline mornings to dramatic cloud build-ups rolling in from Tibet. Afternoons glow with soft alpine light, while evenings arrive swiftly, pulling temperatures down and drawing trekkers back into the warmth of camp.
+
+<br>As darkness settles, Dzongri reveals another side of its magic. Stars blaze fiercely in the cold night sky, the Milky Way cutting clearly across the heavens. The mountains fade into silhouettes, but their presence remains unmistakable — vast, silent, eternal. Wrapped in layers, gathered around a warm meal or a crackling fire, the experience becomes deeply personal. Conversations soften, thoughts slow, and the Himalaya works quietly on the mind.
+
+<br>At an altitude of approximately 4,000 m, Dzongri in winter is a demanding trek that rewards preparation and respect. Cold nights, snow-covered trails, and rapid temperature drops test endurance, but they also heighten the sense of achievement. This is a trek for those who seek not just views, but feeling — the raw, humbling sensation of standing small beneath giants.
+
+<br>In winter, Dzongri is more than a viewpoint. It is a sanctuary of snow and silence, a front-row seat to Kanchenjunga’s majesty, and a rare chance to experience the Himalaya in its most honest, undisturbed form. A journey that does not shout for attention, but stays with you — quietly, deeply, and forever.`
+  },
+
+  price: 16900,
+  priceNote: "* Yuksom to Yuksom",
+  addons: {
+      transport: 5000, 
+      offloadingbag: 4000,
+      transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
+      offloadingNote: "* Maximum weight 9kg / bag"
+    },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
+
+
+ dates: [
+
+  { label: "03 Jan - 09 Jan", start: "2026-01-03", end: "2026-01-09" },
+  { label: "17 Jan - 23 Jan", start: "2026-01-17", end: "2026-01-23" },
+  { label: "31 Jan - 06 Feb", start: "2026-01-31", end: "2026-02-06" },
+
+  { label: "14 Feb - 20 Feb", start: "2026-02-14", end: "2026-02-20" },
+  { label: "28 Feb - 06 Mar", start: "2026-02-28", end: "2026-03-06" },
+
+  { label: "14 Mar - 20 Mar", start: "2026-03-14", end: "2026-03-20" },
+  { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" }
+  ],
+
+  highlights: [
+    "Witness one of the most dramatic winter sunrises over Mt. Kanchenjunga from Dzongri Top",
+    "Explore vast Dzongri meadows covered in pristine winter snow",
+    "Experience a true Himalayan winter trek with minimal crowds",
+    "Snow-covered forests, frozen trails, and silent alpine camps",
+    "Panoramic views of Pandim, Kabru, Rathong & Kokthang peaks"
+  ],
+
+  itinerary: [
+   {
+    day: 1,
+    title: "Reporting Day at Yuksom | NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
+    details: "<strong>• ~150 km | 6–7 hr drive.</strong><br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, misty river valleys, and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and crisper, and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries, and quiet lanes lined with traditional homes. After checking into a cozy guesthouse, spend the evening sorting out documents for trek permits, checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim’s royal and spiritual history. As dusk settles over the valley, meet your trek crew over a warm dinner, discuss the trail ahead, and get a good night’s rest — tomorrow, your Himalayan adventure truly begins."
+  },
+  {
+    day: 2,
+    title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
+    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
+  },
+  {
+    day: 3,
+    title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
+    details: "<strong>• Trek: ~7 km | 4–5 hrs.</strong><br>• The second day of your trek takes you from the deep forested camp of Sachen to the vibrant Tibetan settlement of Tshoka, with a refreshing halt at Bakhim along the way. As dawn breaks, the forest awakens to a soft chorus of Himalayan birds — thrushes, flycatchers, and the occasional laughing thrush echoing through the valley. The air feels cool and clean, and the early sunlight streams through oak leaves, painting golden streaks across the trail.<br>After breakfast, you begin a beautiful forest walk that winds gently up and down, following the sound of the Prek Chu River below. The first landmark is the Prek Chu Bridge, a sturdy wooden crossing that sways lightly above a rushing mountain stream — a wonderful photo stop. From here, the trail starts to climb steadily through lush oak, maple, and rhododendron forests, where the melody of birds and rustling leaves set the perfect trekking rhythm. Keep your eyes peeled for the Yellow-billed Blue Magpie, a striking bird that often flits among the canopy.<br>Soon, a steep zigzag ascent brings you to Bakhim (8,600 ft) — a small rest point with mesmerizing views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks while refilling water bottles before the next stretch. From Bakhim, the path turns steeper but far more rewarding as you climb through groves of magnolia trees. In spring, these trees burst into pink and white blooms, transforming the forest into a dreamlike scene straight out of a painting.<br>A little later, you’ll reach Tshoka, a picturesque hamlet perched on an open shelf with prayer-flagged huts and a small monastery overlooking snow-covered giants like Mt. Pandim and Tenzing Khang. The campsite here is stunning — with wooden huts, a serene lake nearby, and a sweeping view of the Eastern Himalayas. Evening is the best time to explore the Tshoka Monastery or simply sit by the lakeside, watching the clouds drift past the peaks.<br>As night falls, the air turns crisp and silent except for the flutter of prayer flags in the wind. Rest well — tomorrow, the trail takes you even deeper into rhododendron country, towards Dzongri."
+  },
+  {
+    day: 4,
+    title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
+    details: "<strong>• Trek: ~8 km | 6–8 hrs.</strong><br>• The fourth day of the trek marks one of the most breathtaking — and demanding — sections of the journey, as you climb from the peaceful settlement of Tshoka to the high alpine meadows of Dzongri. The morning at Tshoka feels magical: mist rolling over the wooden huts, prayer flags fluttering softly, and a faint glow on distant snow peaks. After a warm breakfast, you begin your steady ascent toward higher altitudes.<br>The trail starts gently, winding through a dense rhododendron and oak forest, where the cool mountain air carries the earthy scent of moss and rain-soaked wood. Soon, a beautiful wooden walkway appears — a series of planks that guide you through one of the most enchanting sections of the entire trek. In spring, this path transforms into a tunnel of colors, with blooming red, pink, and white rhododendrons draping the forest in a surreal floral canopy. Each step along this stretch feels like walking through a dream — soft creaks beneath your boots, petals scattered across the trail, and an almost sacred stillness in the air.<br>Gradually, the forest thickens again, and the path grows steeper as you climb toward Phedang (12,000 ft) — a scenic clearing lined with prayer flags fluttering against the backdrop of deep green valleys. This is the perfect spot to rest, enjoy a snack, and hydrate before the final push to Dzongri. Beyond Phedang, the trees begin to thin, and the climb becomes more relentless. The gain in altitude is noticeable, so move slowly, breathe deeply, and pace yourself to avoid altitude-related fatigue.<br>After a challenging ascent, you’ll reach Deorali Top, a panoramic ridge that rewards every step of the climb. From here, the view opens dramatically — Kanchenjunga, Pandim, and other towering peaks rise majestically across the skyline, often shimmering through drifting clouds. It’s one of those rare Himalayan moments where silence, effort, and beauty merge perfectly.<br>From Deorali, the terrain levels out into a more gradual path leading to Dzongri, one of the most iconic high-altitude camps in Sikkim. The landscape shifts to open meadows, dwarf rhododendrons, and patches of frost-crusted grass. As the wind turns colder and stronger, you’ll know you’ve truly entered the alpine zone.<br>By evening, you arrive at the Dzongri campsite — a windswept meadow surrounded by snow peaks and crisp mountain air. After settling in, enjoy a hot meal, stay warm inside your tent, and rest deeply. The next morning brings a special reward — the legendary sunrise from Dzongri Top, one of the most magnificent sights in the Eastern Himalayas."
+  },
+  {
+    day: 5,
+    title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & Dzongri meadows explore (3,930 m / 12,900 ft)",
+    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After breakfast, the day unfolds as a relaxed exploration of the vast Dzongri Meadows — a chance to soak in the Himalayas beyond the drama of sunrise. With the early summit glow still fresh in memory, you walk slowly across these high-altitude alpine plains, now fully revealed under the crisp winter light. Snow-covered undulations stretch in every direction, creating a sense of space and silence that feels both humbling and deeply calming.<br>As the sun climbs higher, the surrounding peaks stand tall in breathtaking clarity. Kanchenjunga’s massive south face dominates the horizon, while Pandim, the Kabru range, Rathong, and Kokthang form a sweeping arc around the meadows. In winter, the air is razor-sharp — every ridge, icefield, and contour appears etched with precision, offering some of the clearest mountain views the Eastern Himalayas can deliver.<br>The experience here is unhurried and immersive — short walks, long pauses, quiet conversations, and moments of complete stillness broken only by the crunch of snow underfoot. As the afternoon progresses, shadows lengthen across the meadows and the temperature begins to drop rapidly, a reminder of how unforgiving the mountains can be once the sun starts to fade.<br>You return to camp well before sunset, welcomed by the comfort of a warm, cozy campsite, steaming hot food, and often a crackling bonfire under a sky filling with stars. Wrapped in layers, sharing stories and silence in equal measure, the day settles into memory — not just as a trek highlight, but as one of those rare Himalayan moments that feels quietly unforgettable."
+  },
+    {
+      day: 6,
+      title: "Dzongri to Tshoka",
+      details:
+        "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Descend back through alpine slopes into forested terrain. The contrast between open snowfields and dense woods is striking. Return to Tshoka for a warmer night at lower altitude."
+    },
+    {
+      day: 7,
+      title: "Tshoka to Yuksom",
+      details:
+        "<strong>• Trek: ~14 km | 5–6 hrs.</strong><br>• A long descent through familiar forests and bridges brings you back to Yuksom, marking the end of a powerful winter journey."
+    }
+  ],
+
+  howToReach: {
+      air: "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway (~150 km from Yuksom; ~6–7 hr by road).<br>• Pakyong Airport (Sikkim) is closer (~130 km away, ~5–6 hr) but has limited flights and is weather-dependent.<br><em>From both airports book a private cab to yuksom which may cost between ₹4000 - ₹8000</em>",
+      train: "New Jalpaiguri (NJP) or Siliguri, the nearest railhead (~145–153 km from Yuksom; 6–7 hr by road)",
+      road: "<br>• Route: Siliguri → Sevoke → Melli → Jorethang → Legship → Yuksom<br>• Shared jeeps from Siliguri's Tenzing Norgay Bus Terminus(near NJP railway station to Jorethang<br>• From Jorethang to Yuksom",
+      travelTip: "Start early from Siliguri if opting for a shared vehicle as last jeep for Yuksom from Jorethang departs by 1PM - 2PM."
+    },
+
+ didYouKnow: [
+  "<b>Dzongri is considered a sacred resting ground in local belief.</b><br>Locals believe the vast Dzongri meadows are watched over by mountain spirits of the Kanchenjunga range. This is why permanent structures are avoided and trekkers are expected to tread lightly and respectfully.",
+
+  "<b>Kanchenjunga is never climbed to its true summit out of reverence.</b><br>The third-highest mountain in the world is worshipped as a living deity in Sikkim. Even the first successful expedition in 1955 stopped short of the actual summit, a tradition still respected today.",
+
+  "<b>The Kabru–Pandim ridge tells the story of Sikkim’s guardian peaks.</b><br>From Dzongri, Kabru North & South and Pandim rise dramatically alongside Kanchenjunga. Local folklore regards these peaks as protectors of the land, forming a natural fortress around the sacred heart of Sikkim.",
+
+  "<b>Dzongri’s winter silence is a rare Himalayan phenomenon.</b><br>Unlike popular summer treks, winter Dzongri sees very few trekkers, no grazing animals, and minimal human movement — creating an almost meditative stillness that many describe as spiritually intense.",
+
+  "<b>The meadows were once seasonal grazing grounds.</b><br>Before conservation restrictions, local herders used Dzongri as a summer pasture for yaks. The stone shelters scattered around the region are remnants of this old high-altitude lifestyle.",
+
+  "<b>Winter alters not just scenery, but perception.</b><br>With snow blanketing the meadows and forests, familiar landmarks disappear. Navigation relies heavily on ridgelines and peaks, making winter Dzongri a lesson in reading mountains rather than trails.",
+
+  "<b>Traditional Sikkimese food becomes essential at altitude.</b><br>Local dishes like thukpa, phagshapa, and butter tea are not just comfort food — they are high-calorie, warming meals designed for cold, high-altitude conditions and are deeply tied to mountain survival."
+  ],
+
+  gallery: [
+      
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534990/goechala-view7_z1hrcv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534988/goechala-view8_ukhvfv.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534987/goechala-view9_jmt3ln.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view6_zxmfea.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view14_lnsoag.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534983/goechala-view4_aonzed.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view15_wrfshw.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063292/khangchendzonga-peak_3_kh3a07.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg"
+      
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "How difficult is the Dzongri Winter Trek?",
+      answer:
+        "In winter, Dzongri becomes significantly more challenging due to snow-covered trails, sub-zero temperatures, and shorter daylight hours. While it does not involve technical climbing, it demands good fitness, stamina, and the ability to walk on snow for extended durations. Prior high-altitude trekking experience is strongly recommended."
+    },
+    {
+      question: "Who should attempt the Dzongri Winter Trek?",
+      answer:
+        "This trek is ideal for trekkers who have previously completed at least one Himalayan trek above 3,500 m and are comfortable in cold conditions. It suits those seeking solitude, dramatic mountain views, and a quieter Himalayan experience rather than first-time trekkers or casual hikers."
+    },
+    {
+      question: "How cold does it get on the trek?",
+      answer:
+        "Daytime temperatures generally range between 0°C and 8°C under clear skies. Nights at Dzongri can drop between -8°C and -12°C, and sometimes lower during cold spells. Wind chill at exposed viewpoints like Dzongri Top can make conditions feel much colder."
+    },
+    {
+      question: "How should I prepare physically and mentally for a winter trek like Dzongri?",
+      answer:
+        "Preparation should focus on cardiovascular endurance, leg strength, and balance. Stair climbing, weighted hikes, and endurance training are effective. Mental preparedness is equally important, as cold weather, limited daylight, and snow can be psychologically demanding. Familiarity with winter layering systems is a big advantage."
+    },
+    {
+      question: "Is altitude sickness a concern on this trek?",
+      answer:
+        "Yes. Dzongri sits at approximately 4,000 m (around 13,100 ft), and altitude-related issues can occur. Proper acclimatization, slow ascent, hydration, and honest communication with trek leaders are critical. Guides closely monitor oxygen levels and symptoms throughout the trek."
+    },
+    {
+      question: "Is Dzongri safe to trek in winter?",
+      answer:
+        "Yes, provided the trek is conducted with an experienced operator using proper winter gear and trained staff. Routes are carefully assessed for snow conditions, weather is monitored daily, and contingency plans are in place for sudden changes."
+    },
+    {
+      question: "Do foreign nationals need special permits for the Dzongri Trek?",
+      answer:
+        "Yes. Foreign nationals require a Protected Area Permit (PAP) to trek in this region, which must be arranged through a registered Indian trekking operator. Solo trekking is not permitted for foreigners, and valid passport and visa details are required in advance."
+    },
+    {
+      question: "Is offloading or porter support available on the Dzongri Winter Trek?",
+      answer:
+        "Yes. Offloading via porters is available and highly recommended in winter to conserve energy and reduce fatigue. Trekkers typically carry only a daypack, while the rest of the luggage is transported separately, subject to weather and trail conditions."
+    },
+    {
+      question: "What kind of accommodation can I expect during the trek?",
+      answer:
+        "Accommodation includes basic guesthouses or lodges at lower villages like Yuksom and Tshoka, and high-quality alpine tents at Dzongri. Sleeping arrangements are designed for winter conditions, with insulated sleeping bags and proper ground insulation."
+    },
+    {
+      question: "Is there mobile network or internet connectivity on the trek?",
+      answer:
+        "Mobile network is limited. Basic connectivity may be available at Yuksom and occasionally at Tshoka, depending on the provider. Beyond that, including Dzongri, there is no reliable network or internet access. Trekkers should be prepared to remain completely offline."
+    },
+    {
+      question: "What kind of food is served during the winter trek?",
+      answer:
+        "Meals are nutritious, warm, and designed for high-energy output in cold conditions. Expect a mix of Indian, local Sikkimese, and simple continental dishes, along with soups and hot beverages to maintain hydration and body warmth."
+    },
+    {
+      question: "What makes Dzongri in winter different from other seasons?",
+      answer:
+        "Winter offers clearer skies, sharper mountain views, far fewer trekkers, and a deeply serene atmosphere. Snow transforms the landscape into a stark alpine environment, making the experience more intense, immersive, and visually dramatic compared to spring or autumn."
+    }
+  ]
+},
+
+  faqsLink: "/faqs-and-articles",
+},
+
 
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["intermediate"],
+  tags: ["intermediate", "ridgewalk", "meadows"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
-  region: ["west bengal", "nepal", "sikkim"],
+  region: ["west bengal", "nepal",],
   duration: "6 Nights / 7 Days",
   coordinates: [
     [26.8826, 88.1584], // Manebhanjan (Start)
@@ -5680,10 +6971,11 @@ After breakfast, descend gradually through forests and old trade routes towards 
     [26.9084, 88.1473]  // Srikhola (End)
   ],
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
+  heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063333/sleeping-buddha-sandakpu1_khv34b.jpg",
 
-  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1761628707/sandakphu-hero_recfo0.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628658/sadakphu-view16_vsefge.jpg",            
+  heroImages: [ 
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063333/sleeping-buddha-sandakpu1_khv34b.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063322/sleeping-buddha-sandkphu_vqzei7.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628742/sadakphu-view12_pygien.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628729/sadakphu-view4_ih8lem.jpg",  
   ],
@@ -5834,6 +7126,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   },
 
   gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063333/sleeping-buddha-sandakpu1_khv34b.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628751/sandakphu-srikhola_a2s03s.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628750/sadakphu-view13_klc4xn.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1761628750/sadakphu-view11_hnw0jx.jpg",
@@ -5915,843 +7208,5 @@ After breakfast, descend gradually through forests and old trade routes towards 
   faqsLink: "/pages/faqs-and-articles",
 },
 
-/* Ladakh & Kashmir */
-
-{
-    id: "markha-valley-trek",
-    name: "Markha Valley & Kongmaru La",
-    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover"],
-    difficulty: ["difficult"],
-    season: ["monsoon"],
-    month: ["august", "september"],
-    region: "ladakh",
-    duration: "7 Nights / 7 Days",
-    coordinates: [
-      [34.1526, 77.5771],   // Leh
-      [33.970001, 77.260002], // Skiu (start near Leh)
-      [34.0500, 77.3760],   // Chilling area
-      [33.9700, 77.2600],   // Skiu
-      [33.8640, 77.5030],   // Markha
-      [33.8644, 77.5826], // Hemis (end near Leh)
-    ],
-
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-
-    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
-    ],
-
-    subtitle: "The Classic Trek of Himalayan Cold Desert",
-
-    seo: {
-      title: "Markha Valley & Kongmaru La Trek | Itinerary, Cost & Dates | Planethimalayas",
-      description: "Markha Valley & Kongmaru La Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
-    },
-
-    overview: {
-      facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
-        { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
-        { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "August to September" },
-        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
-        { emoji: "📍", label: "Start Point", value: "Skiu (near Leh)" },
-        { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
-        { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
-      ],
-      snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
-    },
-
-    price: 22900,
-    priceNote: "* Leh to Leh",
-    addons: {
-      transport: null,
-      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 2800,
-      offloadingNote: "* Maximum weight 9kg/bag"
-    },
-
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
-
-    dates: [
-      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
-{ label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
-{ label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-{ label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
-{ label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-{ label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
-{ label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-{ label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
-{ label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
-{ label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-{ label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
-
-    ],
-
-    highlights: [
-      "Explore the heart of Ladakh’s Hemis National Park, home to rare wildlife like the snow leopard",
-      "Cross the iconic Kongmaru La (17,100 ft) with breathtaking views of the Karakoram range",
-      "Stay in traditional Ladakhi villages with centuries-old mud houses and friendly locals",
-      "Walk past ancient monasteries, prayer wheels, and river crossings on wooden bridges",
-      "Experience stark contrasts — barren high-altitude deserts and oasis-like settlements",
-    ],
-
-    itinerary: [
-  {
-  day: 1,
-  title: "Arrival in Leh (11,500 ft / 3,500 m)",
-  details: "Arrive in Leh by flight or train and check in to your hotel, allowing your body to settle into the high altitude of 11,500 ft. Since a direct landing at this height can trigger AMS, the first day is entirely meant for rest and gentle acclimatization. Keep your schedule light—explore Leh market, visit nearby monasteries, or stroll around the town, but avoid visiting any very high-altitude pass or viewpoint. A mandatory trek briefing takes place at 5 PM, for which you must carry a copy of your ID proof and two photographs; foreign trekkers should bring a passport and visa copy. Leh has reliable post-paid network coverage, several ATMs, and plenty of shops where you can rent or buy any trekking gear you may have forgotten. The cafés here are lively hangouts for travelers, but avoid alcohol and smoking as they interfere with acclimatization. Stay hydrated, enjoy the local culture and cuisine, and return to your hotel early to rest well. An easy, relaxed Day 1 is crucial to prepare your body for the days ahead."
-  },
-  {
-  day: 2,
-  title: "Acclimatization and Sightseeing in Leh",
-  details: "This extra acclimatization day is crucial for helping your body adjust to the thinning air of Ladakh, so spend as much time outdoors as possible while keeping the day relaxed and strain-free. You can explore some of Leh’s most significant monasteries such as Shey, Thiksey, Hemis, and the Sangam viewpoint where the Indus and Zanskar rivers meet, each offering a window into Ladakh’s deep Buddhist heritage. Thiksey Gompa, perched on a hill, is the largest in central Ladakh and gives you a beautiful introduction to the region’s culture. Avoid gaining altitude or visiting high passes today, as it may interfere with your acclimatization. Instead, wander around Leh town, explore the lively bazaar, interact with locals, and sample the delicious local cuisine. If you prefer gentle activity, a downhill cycling tour around Leh can be done without putting strain on your body. As the day winds down, make sure to catch the sunset at Shanti Stupa, known for its glowing lights in the evening. Return to your hotel for the night and rest well — your actual trekking journey begins tomorrow."
-  },
-  {
-  day: 3,
-  title: "Leh → Skiu (Drive, 70 km / 2–3 hrs) → Trek to Sara (11,800 ft / 3,600 m) | Trek Distance: 11 km | 5-6 hrs.",
-  details: "Today marks the true beginning of your Markha Valley adventure as you drive from Leh to Skiu through some of Ladakh’s most iconic landscapes. The journey takes you past military camps, the famous Gurudwara Pathar Sahib, and the mysterious Magnetic Hill, with constant views of the Stok range until you enter the boundaries of Hemis National Park. A major highlight en route is the spectacular Sangam viewpoint where the emerald Indus and Zanskar rivers meet in a striking confluence. As the road turns towards Chilling, the scenery shifts dramatically—open terrains gradually narrow into deep valleys painted in shades of purple, grey, and black, with juniper trees lining the route. After crossing the Zanskar River over green iron bridges, you arrive at the serene village of Skiu, divided into Upper and Lower sections, adorned with mani stones, white stupas, and an ancient monastery. From here, your trek begins on a well-marked trail that follows the Markha River. Along the way, you may spot magpies, blue sheep, and other wildlife that thrive in this rich Himalayan ecosystem. You’ll pass small cafés, winter settlements, barley and wheat fields, mani walls, and Lhatos as you make your way through the valley. Continue trekking past the quiet village of Nagding, where meditation caves dot the rocky slopes, and the riverbanks widen into sandy stretches. After several hours, you enter the culturally vibrant village of Sara, marked by a dramatic gateway decorated with skulls of wild animals—symbols of pride for the locals. With its ancient monastery, historic castle, and lush wheat fields, Sara offers the perfect blend of culture and natural beauty. Settle into your tent or homestay for a warm meal and end the day under a dazzling sky full of stars."
-  },
-  {
-  day: 4,
-  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5-6 hours.",
-  details: "Begin your morning in Sara with a warm breakfast and stunning Himalayan views before easing into a day that feels beautifully familiar to the previous one. The trail gradually leads you across small water channels and stretches of cold desert terrain until you reach the charming village of Chalak, which appears after crossing a wooden bridge. Chalak is dotted with cozy tea houses, stone-walled animal shelters, and homes perched on small hillsides, surrounded by patches of green wheat fields contrasting against the barren mountains. After resting and interacting with friendly locals, continue on the gentle ascent towards Markha, passing a long stretch marked by Bharal horns and countless mani stones laid around elegant white stupas. These stones carry sacred Buddhist inscriptions—some even in Sanskrit—so treat them with great respect and avoid touching them, as villagers believe they are spiritually protected. The trail also unfolds ancient ruins with prayer flags fluttering above, adding a sense of timelessness to the valley. As you approach Markha, you must cross a flowing stream of the Markha River, which can rise up to thigh level at times; removing your shoes and wading through the icy water offers a refreshing burst of energy. A short walk afterward brings you to Markha, the largest village in the valley, known for its scattered traditional houses, monastery, and the ruins of the old Markha fort. Settle into your homestay or campsite here and soak in the cultural richness and scenic calm of this historic Himalayan settlement."
-  },
-  {
-  day: 5,
-  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 7 - 8 hrs.",
-  details: "Today’s journey takes you deeper into the upper Markha Valley, where the scenery begins to widen and the landscapes gain a grander, more dramatic character. As you leave Markha behind, make the most of the simplicity and innocence of the last inhabited villages you’ll encounter on this route. The trail meanders through beautiful stretches where barren mountains meet refreshing streams, with the path crossing the river multiple times—sometimes over small wooden bridges, other times through shallow flowing water. The valley slowly opens up as you approach Umlung, a tiny settlement that hosts the last teahouse of the trek and offers a peaceful monastery that blends effortlessly into the rugged surroundings. Beyond Umlung comes one of the most unforgettable moments of the trek: your very first view of Mt. Kang Yatse, standing tall at 6,400 m, appearing suddenly and magnificently as if inviting you forward. Keep following the river and navigating its crossings as the trail leads you toward Hankar, the final village of the Markha Valley. Along the way, look out for the beautifully perched Tacha monastery, seemingly balancing on a rocky cliff—a magical sight against the stark mountain backdrop. By the time you reach Hankar, surrounded by high pastures and towering peaks, you’ll feel the transition from village life to true Himalayan wilderness. Settle into your tent or homestay for the night and enjoy the quiet, remote beauty of this last inhabited stop on your route."
-  },
-  {
-  day: 6,
-  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 7 - 8 hrs.",
-  details: "Today’s trek feels refreshing and far gentler compared to yesterday’s demanding climb, allowing you to truly sink into the beauty of the upper Markha Valley. As you leave Hankar, the trail begins easily, and within the first kilometre you’ll reach a set of diversions—one leading toward Rupshu and Zanskar. Staying on the left trail, you walk toward a stone bridge that confirms you’re on the correct path. From here, several side trails appear frequently, so it’s important to keep close to your trek leader while enjoying the scenery. Within a couple of hours, the lush pastures of Thochuntse begin to unfold ahead of you, a welcome burst of greenery after days in Ladakh’s stark high-altitude desert. This small settlement has tea houses and seasonal campsites, making it a natural rest point. Just beyond this stretch, the trail steepens for about an hour before easing into a long, gradual ascent. As you walk, the mighty Kang Yatse peak dominates your right side, growing larger and more magnificent with every step, almost as if guiding you onward. A pair of serene twin lakes suddenly appear along the trail, offering a moment of calm reflection against the rugged landscape. From the lakes, a gentle descent leads you to the vast, windswept plateau of Nimaling, the highest campsite on the entire Markha Valley trek. This expansive grassland—dotted with grazing sheep, goats, and occasionally mountain hares—feels like a world entirely its own. With the towering Kang Yatse massif rising beside you and the open sky stretching endlessly above, Nimaling offers some of the most unforgettable views of the trek. Nights here can bring sudden snowfall, adding to the wild charm of this high-altitude sanctuary. Settle into your tent and let the quiet, elevated world of Nimaling lull you into deep rest."
-  },
-  {
-  day: 7,
-  title: "Nimaling → Chokdo via Kongmaru La (17,300 ft / 5,275 m) → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
-  details: "Start early and cross the stream near the Nimaling campsite before beginning the long climb to Kongmaru La—the highest point of the Markha Valley Trek. The ascent takes around 2–3 hours and is strenuous but rewarding, opening to magnificent views of the Karakoram range, the Indus Valley, the Ladakh Range, and even the distant K2 on a clear day. Colorful prayer flags flutter in the wind at the top, and surprisingly, there is often decent mobile network here. From the pass, the trail descends steeply through narrow rocky sections before easing out towards the villages of Chikirmo and Chokdo. The descent is long and can be hard on the knees, but the scenery of the Indus Valley remains spectacular throughout. Upon reaching Chokdo, board your vehicle for the 60 km (approx 2–3 hrs) drive back to Leh. Spend the evening resting in your hotel and celebrating the completion of the Markha Valley Trek."
-  },
- 
-],
-
-
-    didYouKnow: [
-  "<b>Markha Valley is inside Hemis National Park!</b> - Home to rare species like snow leopards, ibex, Himalayan marmots, and golden eagles.",
-  "<b>Tea House Trek of Ladakh:</b> Villages like Skiu, Markha, and Hankar offer homestays where trekkers experience traditional Ladakhi hospitality.",
-  "<b>Kongmaru La is 17,300 ft high!</b> - The pass gives sweeping views of the Karakoram, Stok, and Kang Yatse ranges, a rare high-altitude desert panorama.",
-  "<b>Ancient monasteries and chortens:</b> The trail is dotted with centuries-old Buddhist structures, prayer walls, and mani stones, reflecting Ladakh's deep spiritual heritage.",
-  "<b>Endemic flora and fauna:</b> Look out for Himalayan blue poppies, edelweiss, primulas, yaks, ibex, and high-altitude Himalayan marmots.",
-  "<b>Arid cold desert ecosystem:</b> Unique in the Himalayas, the Markha Valley features barren rocky gorges and oasis-like green pastures where life adapts to extreme altitude and dryness.",
-  "<b>Traditional Ladakhi architecture:</b> Mud houses and wooden structures have survived centuries of harsh winters while blending sustainably with the environment.",
-  "<b>High-altitude river crossings:</b> The trek crosses multiple streams and tributaries of the Markha River; bridges and rocky fords offer adventure and scenic photography opportunities."
-],
-
-
-    howToReach: {
-      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (well connected to Delhi and major Indian cities).",
-      train: "No direct trains. Nearest station: Jammu Tawi (approx. 700 km). Continue by road or flight to Leh.",
-      road: "From Manali: 470 km / 2 days via Manali–Leh Highway. From Srinagar: 420 km / 2 days via Srinagar–Leh Highway.",
-      travelTip: "Arrive in Leh at least 2 days before the trek for proper acclimatization to avoid altitude sickness.",
-    },
-
-    gallery: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535621/markha-valley-view3_ghyqx6.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535604/markha-valley-view8_frpdcl.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535600/markha-valley-view2_pkja6f.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535597/markha-valley-view12_c36aaf.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535592/markha-valley-view11_mcf7g4.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-view1_regn76.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
-    ],
-
-    downloadLink: "/docs/Packing_List.pdf",
-
-    faqs: {
-  questions: [
-    {
-      question: "Who can participate in the Markha Valley trek?",
-      answer: "This trek is suitable for intermediate trekkers with basic high-altitude experience. While the trails are moderate, some days involve long distances and high-altitude camping.",
-    },
-    {
-      question: "How should I prepare physically for the Markha Valley Trek?",
-      answer:
-        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
-    },
-    {
-      question: "What is the best season for the Markha Valley trek?",
-      answer: "The ideal months are June to September, avoiding the heavy snowfall of winter and the extreme cold of early spring. During this period, the valley is lush, rivers are flowing, and skies are generally clear.",
-    },
-    {
-      question: "What essential gear should I carry for the Markha Valley trek?",
-      answer: "Essentials include waterproof trekking boots, layered clothing, warm jacket, trekking poles, 40–50L backpack, thermal wear, and a headlamp. Refer to the downloadable PDF for a detailed packing list.",
-    },
-    {
-      question: "Are camping facilities available on the trek?",
-      answer: "Yes, the trek involves camping at scenic locations in Markha Valley, with tents, bedding, and nutritious meals provided by the trek organizers.",
-    },
-    {
-      question: "Is mobile network coverage available during the trek?",
-      answer: "Network coverage is extremely limited. Occasionally, BSNL and Airtel may work in Leh or at certain high points, but trekkers should plan for minimal connectivity.",
-    },
-    {
-      question: "Do I need any permits for the Markha Valley trek?",
-      answer: "Yes, trekkers require an Inner Line Permit (ILP) for restricted areas of Ladakh. Trek operators typically arrange these permits on behalf of the participants.",
-    },
-    {
-      question: "What makes the Markha Valley trek unique?",
-      answer: "Markha Valley offers a combination of pristine Himalayan landscapes, traditional Ladakhi villages, gompas (monasteries), and breathtaking views of the Stok and Kang Yatse peaks. The cultural immersion alongside high-altitude trekking makes it a truly memorable adventure.",
-    }
-  ],
-},
-
-
-    faqsLink: "/faqs-and-articles",
-  },
-
-  {
-  "id": "winter-markha-valley-trek",
-  "name": "Winter Markha Valley Trek",
-  "tags": ["pro"],
-  "difficulty": ["difficult"],
-  "season": ["winter"],
-  "month": ["january", "february", "march"],
-  "region": "ladakh",
-  "duration": "7 Nights / 7 Days",
-
-  "coordinates": [
-    [34.1526, 77.5771],   // Leh
-    [34.0500, 77.3760],   // Chilling area
-    [33.9700, 77.2600],   // Skiu
-    [33.8640, 77.5030],   // Markha
-    ],
-
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
-
-    heroImages: [
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
-    ],
-
-    subtitle: "Ladakh & the Himalayas: A Frozen Desert Adventure",
-
-    seo: {
-      title: "Winter Markha Valley Trek | Frozen River Trek in Ladakh | Planethimalayas",
-      description: "The Winter Markha Valley Trek is Ladakh’s most unique frozen-river experience, offering icy trails, snow-filled valleys, cozy homestays, and stunning views of Kang Yatse during deep winter. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
-    },
-
-    overview: {
-      facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult (Extreme Winter Conditions)" },
-        { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
-        { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
-        { emoji: "🌤️", label: "Best Time", value: "January to March" },
-        { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
-        { emoji: "📍", label: "Start Point", value: "Chilling (near Leh)" },
-        { emoji: "🏁", label: "End Point", value: "Chilling / Leh" },
-        { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
-      ],
-
-      snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.<br>As temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.<br>The region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.<br>For winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
-    },
-
-    price: 29400,
-    priceNote: "* Leh to Leh",
-    addons: {
-      transport: null,
-      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 2800,
-      offloadingNote: "* Maximum weight 9kg/bag"
-    },
-
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to breakfast on Day 7",
-
-    highlights: [
-  "Traverse the frozen Markha River, slide and skate on ice, and witness a unique winter landscape unlike any other in Ladakh",
-  "Stay in cozy homestays in Skiu, Markha, and Hankar, experiencing authentic Ladakhi winter hospitality",
-  "Spot winter wildlife such as Himalayan blue sheep, snowcocks, chukar partridge, and high-altitude birds in Hemis National Park",
-  "Walk past ancient monasteries, chortens, and mani walls, with snow-dusted peaks providing a serene backdrop",
-  "Marvel at the mighty Kang Yatse 1 (6,400 m) and Kang Yatse 2 (6,250 m) under clear winter skies",
-  "Experience the magical contrast of frozen rivers, snow-covered plains, and stark desert-like mountains",
-    ],
-
-    itinerary: [
-  {
-    day: 1,
-    title: "Arrival in Leh (11,500 ft / 3,500 m)",
-    details: "Arrive in Leh by flight and transfer to your hotel. Day 1 is dedicated to rest and acclimatization to the high-altitude cold of 11,500 ft. Winter temperatures can drop to -15°C during the day and -25°C at night, so keep outdoor activity light. Explore the Leh market gently if you feel comfortable. Stay hydrated, avoid alcohol, and enjoy local cuisine. A mandatory trek briefing takes place in the evening where you must carry ID proof and photographs; foreign trekkers should bring passport and visa copies. Overnight stay in Leh."
-  },
-  {
-    day: 2,
-    title: "Acclimatization and Sightseeing in Leh",
-    details: "This day is for gradual acclimatization. Visit Leh Palace, Shey, Thiksey, and Hemis monasteries, and stroll around the town’s winter bazaar. Keep activity light to avoid altitude sickness. Winter sun is mild, but temperatures remain low, so dress in layers. This day prepares your body for the cold and high-altitude trekking ahead. Return to the hotel early for rest."
-  },
-  {
-    day: 3,
-    title: "Leh → Chilling → Skiu (3,400 m) | Trek Distance: 8–10 km | 5–6 hrs",
-    details: "Drive from Leh to Chilling (approx. 70 km). Begin trekking along frozen riverbeds and icy trails of the Markha Valley. Cross frozen Markha river patches, snow bridges, and enjoy the stark winter desert landscapes. Spot blue sheep and winter birds while walking past small villages and mani walls. Reach Skiu village and stay overnight in a warm homestay. Daytime temperature may hover around -10°C and drop further at night."
-  },
-  {
-    day: 4,
-    title: "Skiu → Markha (3,700 m) | Trek Distance: 10–11 km | 5–6 hrs",
-    details: "Follow gentle ascents along the frozen river valley. Pass ancient chortens, scattered hamlets, and snow-dusted pastures. The trail offers panoramic views of surrounding peaks and the frozen Markha River. Reach Markha village, one of the largest settlements, and check into a homestay. Temperatures can drop to -20°C at night. Immerse in Ladakhi culture and enjoy a warm meal."
-  },
-  {
-    day: 5,
-    title: "Markha Exploration (4,150 m) | Trek Distance: 6–8 km | 4–5 hrs",
-    details: "Today is an acclimatization hike to Thachungtse, with spectacular views of Kang Yatse (6,400 m) and the winter landscape. Spot Himalayan blue sheep navigating steep cliffs, and enjoy the quiet solitude of snow-covered valleys. Return to Markha for the night, relishing the warmth of homestay accommodations. Nighttime temperatures can plunge to -25°C, with wind chill making it feel colder."
-  },
-  {
-    day: 6,
-    title: "Markha → Skiu (3,400 m) | Trek Distance: 10–11 km | 5–6 hrs",
-    details: "Retrace your route along the frozen Markha river valley back to Skiu. Observe the winter flora and fauna in their dormant season. The valley appears wider and more dramatic on the return journey. Enjoy homestay comforts in Skiu. Temperatures remain below freezing, so proper winter clothing is essential."
-  },
-  {
-    day: 7,
-    title: "Skiu → Chilling → Leh (3,500 m) | Trek Distance: 5–6 km | 2.5–3.5 hrs + Drive",
-    details: "A short trek from Skiu to Chilling takes about 2.5–3.5 hours over icy terrain. From Chilling, drive back to Leh. Warm rooms, hot water, and local food await. Use this day to relax, shop for souvenirs, and enjoy Leh in winter. Overnight stay in Leh."
-  },
-  
-],
-
-    didYouKnow: [
-  "<b>The Markha River becomes a frozen highway!</b> – In winter, long stretches of the river turn into thick ice, letting trekkers walk and glide across it just like the Chadar, but in a far quieter environment.",
-
-  "<b>Hemis National Park is the world’s largest snow leopard habitat.</b> – Winter pulls both prey and predator down to valley floors, increasing chances of spotting pugmarks, scrapes, or fresh kills near Skiu, Markha, and Hankar.",
-
-  "<b>Blue sheep form giant winter herds.</b> – Instead of scattered groups, bharal gather in herds of 20–40 to search for scarce grazing patches, making sightings extremely common on the cliffs around Thachungtse and Hankar.",
-
-  "<b>Ibex descend lower due to snow buildup.</b> – Heavy snowfall forces Siberian ibex to move from high alpine ridges to sun-facing slopes closer to human trails, making winter one of the best seasons to spot them.",
-
-  "<b>Ancient Ladakhi homestays keep rooms warm even at –25°C.</b> – Traditional mud houses trap heat naturally, creating warm interiors without heaters while outside temperatures drop to –30°C and below.",
-
-  "<b>Winter birds stay active despite extreme cold.</b> – Chukar partridges, golden eagles, ravens, lammergeiers, and Eurasian magpies survive the cold desert by feeding on exposed shrubs and scavenging along frozen streams.",
-
-  "<b>Marmots are not visible in winter.</b> – Himalayan marmots hibernate deep underground from October to April. Many trekkers expect to see them, but winter Markha is a silent landscape where they remain asleep.",
-  
-  "<b>Seabuckthorn and willows dominate winter vegetation.</b> – Leafless but standing strong, these hardy Himalayan shrubs line the trail even at –20°C, giving the valley its characteristic golden-brown winter look.",
-
-  "<b>Frozen waterfalls turn into blue-ice curtains.</b> – Between Chilling and Skiu, several side waterfalls freeze solid, forming towering ice sheets that glisten under the winter sun.",
-
-  "<b>Snow leopards use frozen rivers as travel corridors.</b> – With the Markha River iced over, snow leopards walk the frozen surface for easier movement, leaving clear pawprints that trekkers often spot early in the morning.",
-
-  "<b>Ravens and magpies follow trekking groups.</b> – Winter food scarcity makes these intelligent birds shadow humans for crumbs, creating delightful interactions in the middle of the frozen desert.",
-
-  "<b>Juniper shrubs remain evergreen even at –30°C.</b> – One of the few plants that keeps its needles intact, juniper stands out as dark green patches against the white and brown winter terrain."
-    ],
-
-
-    howToReach: {
-  air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh. Flights are available from Delhi and other major Indian cities. During winter, this is the only practical way to reach Leh as roads are closed due to snow.",
-  train: "No direct trains. Nearest major railway station is Jammu Tawi (approx. 700 km from Leh), but road connectivity is not possible in winter, so air travel is mandatory.",
-  road: "Roads from Manali and Srinagar are closed during winter due to heavy snowfall. Overland travel is not recommended for winter treks.",
-  travelTip: "Arrive in Leh at least 2 days before the trek for acclimatization. Winter temperatures drop sharply, so acclimatization is essential to prevent altitude sickness."
-    },
-
-    gallery: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855822/winter-markha-valley-hero_y4wizr.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855808/winter-markha-valley-leh-palace_odtgdj.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-culture_mfksep.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855803/winter-markha-valley-view3_hcptad.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855802/winter-markha-valley-view_kexpdr.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855801/winter-markha-valley-view2_nxtv13.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855800/winter-markha-valley-tradition_izi8ru.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855799/winter-markha-valley-vew1_nqexzr.jpg",
-    ],
-
-    downloadLink: "/docs/Packing_List.pdf",
-
-    faqs: {
-  questions: [
-    {
-      question: "Who can participate in the Markha Valley Winter Trek?",
-      answer: "This trek is ideal for experienced trekkers or winter enthusiasts comfortable with sub-zero temperatures. Moderate trails cover 10–15 km per day, but extreme cold (daytime -15°C, nighttime down to -35°C) requires proper preparation and resilience."
-    },
-    {
-      question: "What is the best time to do the Markha Valley Winter Trek?",
-      answer: "Winter months from January to March are perfect for this offbeat trek. During this period, the Markha River is frozen, creating a stunning winter landscape. Ensure you are well-prepared for snow and icy conditions."
-    },
-    {
-      question: "How do I reach Markha Valley in winter?",
-      answer: "During winter, roads are generally closed due to snow. The only way to reach Leh is by air via Kushok Bakula Rimpochee Airport. Plan to arrive at least 2 days early for acclimatization before the trek."
-    },
-    {
-      question: "What gear is essential for the extreme cold?",
-      answer: "Key gear includes insulated down jackets, thermal base layers, woolen socks, balaclava, insulated gloves, waterproof trekking boots, gaiters, and sleeping bags rated for -35°C. Microspikes or crampons are recommended for walking on frozen rivers."
-    },
-    {
-      question: "Are there homestays or camps along the winter trek?",
-      answer: "Yes, trekkers stay in cozy homestays in villages like Skiu, Markha, and Hunkar. These provide warm bedding, Ladakhi meals, and a unique cultural experience even in harsh winter conditions."
-    },
-    {
-      question: "What wildlife can I expect to see during winter?",
-      answer: "The trek passes through Hemis National Park. Trekkers may spot Himalayan blue sheep, ibex, Eurasian magpies, white-capped redstarts, and chukar partridges. Snow leopards are extremely elusive but occasionally sighted by lucky trekkers."
-    },
-    {
-      question: "How difficult is walking on the frozen Markha River?",
-      answer: "Walking on the frozen river is safe with proper winter boots and trekking poles. The ice is solid in most places, and trekkers can even slide or glide over certain stretches. Guides always ensure safe paths are used."
-    },
-    {
-      question: "Is mobile network or internet available during the trek?",
-      answer: "Connectivity is minimal. Leh has some network coverage, but most of the trail has no signal. Plan for limited communication and inform family/friends before starting."
-    },
-    {
-      question: "Do I need permits for the Markha Valley Winter Trek?",
-      answer: "Yes, an Inner Line Permit (ILP) for restricted areas of Ladakh is required. Trek operators usually arrange permits for participants, including winter-specific permissions if needed."
-    },
-    {
-      question: "What makes the Markha Valley Winter Trek unique?",
-      answer: "This trek is often called 'Chadar 2.0' because it offers a frozen river experience similar to the Chadar Trek without the extreme logistics. Stunning frozen rivers, snow-dusted villages, ancient monasteries, and views of Kang Yatse peaks make it a rare winter adventure."
-    },
-    {
-      question: "How do I stay safe in extreme cold and high altitude?",
-      answer: "Acclimatization is key. Stay hydrated, eat warm meals, avoid alcohol, and wear appropriate layered clothing. Follow guides’ instructions, and use insulated gear. Monitor for signs of frostbite or hypothermia. For a more detailed information on this extremely important topic please click the link below to read the full article:<br><strong><a href='https://www.planethimalayas.com/blogs/ultimate-winter-trek-preparation-guide-himalayas' target='_blank' rel='noopener noreferrer'>Ultimate Winter Trek Preparation Guide</a></strong>"
-    },
-    {
-      question: "Are there unique flora in winter Markha Valley?",
-      answer: "Most high-altitude flora are dormant during winter, but trekkers can see hardy species like Himalayan blue poppies, primulas, and alpine shrubs adapted to sub-zero conditions."
-    },
-    {
-      question: "Can beginners attempt the Markha Valley Winter Trek?",
-      answer: "Beginners are advised to gain prior trekking experience in cold or high-altitude environments before attempting this trek. The physical demand combined with extreme winter temperatures makes it unsuitable for novices."
-    }
-  ],
-},
-
-    faqsLink: "/faqs-and-articles",
-  },
-  
-  
-  {
-  id: "kashmir-great-lakes-trek",
-  name: "Kashmir Great Lakes Trek",
-  tags: ["intermediate", "pro", "pass", "lake"],
-  difficulty: ["moderate", "difficult"],
-  season: ["monsoon"],
-  month: ["july", "august", "september"],
-  region: "kashmir",
-  duration: "5 Nights / 6 Days",
-
-  coordinates: [
-    [34.2511, 75.3315],   // Srinagar
-    [34.3000, 75.2900],   // Sonamarg (start)
-    [34.3320, 75.3600],   // Nichnai
-    [34.3570, 75.4180],   // Vishansar Lake
-    [34.3660, 75.4350],   // Krishansar Lake
-    [34.3890, 75.4750],   // Gadsar Pass / Gadsar Lake
-    [34.4100, 75.5100],   // Satsar Lakes
-    [34.4390, 75.5480],   // Gangbal Lake
-    [34.4530, 75.6000],   // Naranag (end)
-  ],
-
-   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
-
-    heroImages: [
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
-    ],
-
-  subtitle: "The Crown Jewel of Himalayan Treks",
-
-  seo: {
-    title: "Kashmir Great Lakes Trek | Alpine Lakes of Kashmir | Planethimalayas",
-    description: "The Kashmir Great Lakes Trek is one of India’s most beautiful high-altitude treks, featuring pristine alpine lakes, lush meadows, dramatic mountain passes, and sweeping Himalayan views. Explore itinerary, difficulty, cost, and dates with Planethimalayas."
-  },
-
-  advisory: {
-  type: "warning",
-  fullWidth: true,
-  title: "Important Advisory for Jammu & Kashmir Treks",
-  sections: [
-    {
-      heading: "Trekking Permit Status",
-      content:
-          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
-    {
-      heading: "High Uncertainty in J&K",
-      content:
-        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
-    },
-  ]
-},
-
-  overview: {
-  facts: [
-    { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-    { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
-    { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
-    { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
-    { emoji: "🌤️", label: "Best Time", value: "July to September" },
-    { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas, Jammu & Kashmir" },
-    { emoji: "📍", label: "Start Point", value: "Sonamarg (Nichnai side)" },
-    { emoji: "🏁", label: "End Point", value: "Naranag" },
-    { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
-  ],
-
-  snippet:
-    "The Kashmir Great Lakes Trek is often called the crown jewel of Indian Himalayan trekking — a journey through a dreamscape of alpine lakes, endless green meadows, and dramatic mountain passes that define the raw beauty of Kashmir. Set in the high ranges east of Srinagar, this trek strings together a series of pristine glacial lakes, each with its own colour, character, and story, all set against towering snow-clad peaks rising beyond 6,000 meters.<br>The trail begins near Sonamarg, the ‘Meadow of Gold’, where wide grasslands roll gently beneath open skies and the first streams flow cold and clear from surrounding glaciers. As you climb higher, the landscape shifts dramatically — gentle shepherd paths give way to vast alpine basins, rocky ridgelines, and high mountain passes like Nichnai Pass (around 4,100 m) and Gadsar Pass (around 4,200 m), from where the entire Kashmir valley seems to unfold beneath your feet.<br>What makes this trek truly legendary is its lakes. Vishansar and Kishansar sit like twin jewels cradled in sweeping meadows, reflecting sharp mountain silhouettes and drifting clouds. Gadsar Lake, often still partially frozen even in mid-summer, lies beneath rugged cliffs and is considered sacred by local shepherds. Further ahead, Satsar reveals not one but a chain of interconnected high-altitude lakes, while the final descent leads you to Gangbal and Nundkol — massive alpine lakes resting at the base of Mount Harmukh (5,142 m), one of Kashmir’s most revered peaks in local mythology.<br>The trek is a paradise for nature lovers. During peak summer, the meadows explode with wildflowers — gentians, buttercups, blue poppies, and edelweiss — while herds of sheep and horses graze freely under the watch of Gujjar and Bakarwal shepherds who still follow ancient migratory routes through these mountains. Birdlife is rich and varied, and marmots are commonly spotted near rocky sections. Though elusive, the region is also known habitat for Himalayan brown bears and snow leopards at higher elevations.<br>While the Kashmir Great Lakes Trek is not technical, it demands stamina and mental resilience. Long walking days, multiple river crossings, high-altitude camping above 3,500 meters, and rapidly changing mountain weather make it a serious undertaking. Sudden rain, mist, or snowfall can transform the landscape within minutes, adding to both the challenge and the magic of the journey.<br>For trekkers seeking the pure essence of Himalayan beauty — vast open spaces, crystal-clear lakes, high passes, and a feeling of walking through untouched wilderness — the Kashmir Great Lakes Trek delivers an experience that is both humbling and unforgettable. It is not just a trek through mountains, but a passage through one of the most visually dramatic high-altitude landscapes in the Indian Himalayas."
-  },
-
-  price: 20400,
-  priceNote: "* Srinagar to Srinagar",
-  addons: {
-    transport: null,
-    transportNote: null,
-    offloadingbag: 4200,
-    offloadingNote: "* Maximum weight 9kg/bag"
-  },
-
-  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to packed lunch on Day 6",
-
-  highlights: [
-    "Trek through a chain of iconic alpine lakes — Vishansar, Krishansar, Gadsar, Satsar, and Gangbal",
-    "Vast rolling meadows that stretch endlessly across the Kashmiri highlands",
-    "Cross high-altitude passes like Gadsar Pass with sweeping panoramic views",
-    "Frequent river crossings and snow patches adding adventure to the trail",
-    "Encounters with nomadic Gujjar and Bakarwal shepherd communities",
-    "Dramatic shifts in landscape — from lush grasslands to stark glacial basins",
-    "One of India’s most scenic high-altitude treks with continuous visual rewards"
-  ],
-
-  itinerary: [
-  {
-  day: 1,
-  title: "Srinagar – Shitkadi – Nichnai | 80 km Drive + 8 km Trek | 1,585 m (Srinagar) to 3,500 m (Nichnai)",
-  details:
-    "The journey begins early in the morning with a pickup from Srinagar. The exact pickup location and time are shared a day before departure. From Srinagar, drive through the scenic Sindh valley toward Sonamarg, with a short breakfast stop en route before continuing to the trek start point near Shitkadi, approximately 3 km before Sonamarg on the Srinagar road.<br>The trek begins at Shitkadi, marked by a lone roadside dhaba on the right side of the road. A jeep track turns right from the road near the dhaba and drops toward the Sindh River, which flows between the track and the main road. The trail initially follows this track before turning sharply uphill. Within ten minutes, the path bends left and enters a green meadow that overlooks Sonamarg town, offering the first sweeping view of the valley below.<br>After about half an hour, the trail reaches the top of the meadow where Maple and Pine trees begin. At the tree line, the path briefly descends to a small brook before climbing again into a dense Maple forest. Walking on a thick green carpet beneath towering Maple trees is a rare experience unique to Kashmir. Over the next one and a half hours, the trail winds steadily uphill through the forest. It is important to stay on the ascending path, as descending trails lead toward nearby villages. Occasional clearings open up along the way, revealing increasingly expansive views of the Sonamarg valley, with its streams, meadows, pine forests, and the town nestled below.<br>The Maple forest ends at a ridge top, where the view opens dramatically toward Sonamarg and the neighboring valley. After a short pause at the ridge, the trail slopes gently downward into a broad alpine meadow on the other side. This meadow is lined with Silver Birch trees and a few shepherd huts, with a wide carpet of green stretching across the valley floor. Small streams cross the meadow and provide reliable water sources, while snow-dusted peaks rise quietly on the right. This beautiful meadow is known as Shekdur and makes for a perfect lunch stop.<br>Beyond Shekdur, the trail continues across the meadow for about half an hour before entering a forest of Silver Birch. The path descends gently through thick foliage, where sunlight filters through the canopy creating striking patterns of light and shadow. After around forty-five minutes, the Birch forest thins out and the trail drops into a river valley, marking the beginning of the Nichnai region.<br>The trail now follows the right bank of a fast-flowing river as it moves steadily upstream. Snow-clad peaks from the Sonamarg side remain visible behind, while the valley ahead opens gradually between two mountain ranges. The first section is rocky and slow-going, especially for pack animals, but soon gives way to wider grassy patches as the valley broadens. Far ahead, distinctive triangular twin snow-covered peaks come into view. A flat grassy section near the river is chosen to pitch tents, bringing the first day’s trek to an end at Nichnai, surrounded by high mountains, flowing water, and complete wilderness."
-  },
-  {
-  day: 2,
-  title: "Nichnai – Vishnusar Lake via Nichnai Pass | 13.5 km Trek | 3,540 m → 3,650 m via 4,030 m",
-  details:
-    "The day begins early from Nichnai, ideally by 8:00 am, as this is one of the longest and most scenic walking days of the trek. The campsite lies at around 3,540 m (11,607 ft), and today you cross the first major pass of the trek — Nichnai Pass, also locally known as Vishnusar Berry, perched high at 4,030 m (13,229 ft). Carry sufficient water from camp, though there are multiple streams along the way to refill later in the day.<br>The trail initially follows the river flowing through the Nichnai valley. For the first thirty minutes, you walk on flat ground before crossing the river to its left bank. From here, the valley slowly opens up into expansive alpine meadows, and the ascent begins so gradually that it almost goes unnoticed. Twin snow-clad peaks ahead act as constant reference points, with the Nichnai Pass lying slightly to their right. Over the next hour, the trail steadily climbs through lush grasslands, with the mountains slowly closing in on either side.<br>The final climb to Nichnai Pass is a clearly defined ascent that takes about an hour. Though not technically difficult, the altitude gain is quick and many trekkers feel the thin air here, as this is only the second day of trekking. The ridge you see from below is deceptive — the trail turns inward twice before the actual pass reveals itself. Standing at the pass, the view behind opens dramatically toward the Sonamarg valley and the entire route you have walked so far. This is also the last point on the trek where mobile network is occasionally available. From here on, the trail disconnects you completely from the outside world until you descend toward Gangbal days later.<br>Nichnai Pass feels like a wide, open corridor between mountain systems. Snow-covered Himalayan peaks line the left, while the terrain to the right rises in stark, barren ridges reminiscent of Ladakh’s cold desert landscapes. From the pass, the trail plunges sharply downward over loose rocks for nearly an hour. As altitude is lost, rocks slowly give way to grass, and bright red alpine flowers begin to dot the ground underfoot. A new river emerges below, fed by snowmelt from the pass, flowing gently through a vast green basin.<br>The descent eases into one of the most beautiful meadows of the trek — a wide, open valley stretching far ahead, flanked by contrasting mountain ranges. On the left rise classic snow-clad Himalayan peaks, while the right side displays grey, barren slopes shaped by wind and weather. A large waterfall crashes down a cliff on the left, feeding the river that runs through the meadow. Walking through this landscape feels unhurried and expansive, with the trail weaving gently along the grass.<br>Two main streams cut across the meadow. Stick close to the stream on the left and be prepared for a cold water crossing about half an hour later. The icy water is ankle to knee deep depending on the season. Beyond this crossing, the walk continues for another hour and a half through the meadow until you reach the end of the valley, where a stream flows perpendicular across the trail from left to right.<br>This stream originates from Vishnusar Lake, which lies slightly above and to the left of the campsite. Pitch your tents near this stream — the camping area is flat, spacious, and well-protected. The lake itself is hidden from view at the campsite, adding to the anticipation.<br>If energy permits, a short walk leads to Vishnusar Lake, located about 500 meters away and roughly 30 meters higher than the campsite. Follow the stream upstream without crossing it, and within minutes the lake reveals itself, cradled beneath four surrounding mountains. The Kishansar peak, though some distance away, reflects beautifully on the lake’s still surface. Vishnusar changes character through the day — appearing crystal clear in early morning, deep blue under a bright sun, and greenish-blue as clouds roll in during the afternoon. Watching the lake shift colours with light and weather is one of the quiet rewards of the Kashmir Great Lakes trek."
-  },
-  {
-  day: 3,
-  title: "Vishnusar – Gadsar Lake via Gadsar Pass | 16 km Trek | 3,650 m → 3,260 m via 4,180 m",
-  details:
-    "Day four is the most demanding and visually dramatic day of the Kashmir Great Lakes trek, taking you across Gadsar Pass — the highest point of the entire route at approximately 4,180 m (13,715 ft). Start early from Vishnusar Lake, carrying sufficient water as the first part of the climb is dry. The lake lies silent in the early morning, often reflecting the surrounding peaks in perfect symmetry, making it one of the most memorable departures of the trek.<br>The trail initially skirts the Kishansar Lake side and soon begins climbing sharply. Look closely at the mountainside ahead — a pencil-thin trail etched across the slope marks your route to the pass. Multiple faint tracks appear, but always choose the one that gains height. The climb is steady and relentless, taking about one and a half to two hours at a controlled pace. Roughly forty-five minutes into the ascent, turn around for one of the most iconic views of the trek — Vishnusar and Kishansar lakes appear together in a single frame, cradled in their high alpine bowls, their colours shifting with the angle of light.<br>As you continue upward, the twin-lake view remains in sight until you finally crest the ridge at Gadsar Pass. At 4,180 m, this wind-swept saddle marks the transition into a new valley altogether. Snow often lingers here even in mid-summer, and the air is noticeably thinner. From the pass, the landscape opens toward a long, remote valley stretching far ahead, dotted with small lakes and guarded by distant snow-covered peaks. On exceptionally clear days, trekkers can spot peaks across the Line of Control, including ranges extending toward Pakistan-occupied territory — a reminder of how close this wilderness lies to geopolitical boundaries.<br>The descent from Gadsar Pass is steep and direct. Snowfields often cover sections of the trail early in the season, making footing careful and deliberate. Within the first part of the descent, the trail passes Yamsar Lake, a small, deep-blue water body resting quietly on the left. Local folklore associates this lake with Yama, the god of death, and shepherds traditionally avoid camping here. Beyond Yamsar lies another unnamed alpine lake, equally pristine, reflecting the stark sky above.<br>As the descent continues, the terrain softens into grassy slopes and eventually levels out into a narrower meadow valley flanked by two mountain ranges. This section is famous for its wildflower bloom. The grass here is thick and bright green, punctuated by bursts of colour — red flowers give way to blue and then deep purple irises as the valley opens up. Walking through this stretch feels almost unreal, as if the valley has been painted deliberately for those willing to cross the pass.<br>Soon, the valley reveals Gadsar Lake itself, one of the most untouched and striking lakes of the entire trek. Nestled at around 3,260 m (10,706 ft), Gadsar sits beneath towering snow-clad cliffs on one side, where slabs of ice often break away and slide into the water, while the opposite bank blooms with blue alpine flowers. The lake’s water shifts between deep blue and green depending on the light, and a single stream connects Yamsar, the unnamed lake, and Gadsar in a cascading chain from high to low.<br>Camping near Gadsar Lake is sometimes permitted, though it is generally discouraged to preserve its fragile ecosystem. An abandoned army shelter stands nearby as a reminder of the valley’s strategic sensitivity. Most groups continue descending from the lake, and within thirty minutes the valley begins to widen. Another blue lake appears to the left, while the snow-covered peaks gradually give way to lower, barren mountains. Shepherd huts soon emerge, signalling a return to human presence.<br>A further descent of about an hour leads to the Gadsar Army Camp, a small post manned by a handful of soldiers. This is a mandatory reporting point. Trekkers must register here, as onward movement requires clearance from the army headquarters located several kilometres ahead near the treeline. Communication is handled via walkie-talkie, and identity documents are verified. Expect to wait for clearance, as this process can take a couple of hours. The day ends near the camp, resting after crossing the most remote and high-altitude section of the Kashmir Great Lakes trek."
-  },
-  {
-  day: 4,
-  title: "Gadsar – Satsar Lakes | 11.5 km Trek | 3,260 m → 3,650 m",
-  details:
-    "Day five begins from the Gadsar side with a river crossing followed by a sharp climb straight into the mountainside. The trail immediately gains height, pulling away from the river valley below. The terrain here feels unexpectedly familiar to trekkers from the Western Ghats — narrow trails etched into green slopes, rolling contours, and a sense of walking just above the treeline. Below you, the river snakes through the valley while clusters of trees thin out rapidly as you climb.<br>The first one and a half hours involve a steady ascent of roughly 1,100 feet. Though not technically difficult, the climb demands controlled pacing after the exertions of Gadsar Pass the previous day. As you cross the 11,500 ft mark, the trail stops climbing sharply and transitions into a long, almost level traverse. The route bends left, deliberately leaving the river valley behind, and opens into a broad meadow flanked by isolated mountains. The sense of exposure increases here — you are fully out in the open, surrounded by silence, wind, and vastness.<br>This section of the trail passes through an area known locally as Maengandob. Scattered across the meadow to your right are deep, unnatural-looking craters gouged into the earth — remnants of artillery shelling from the Kargil conflict. These bomb craters are stark reminders that this peaceful alpine landscape once echoed with explosions. On clear days from this stretch, trekkers may spot distant snow-clad peaks across the Line of Control, and occasionally even catch glimpses of Nanga Parbat far beyond, standing immense and solitary in Pakistan-occupied territory. The contrast between serene meadows and wartime scars is deeply humbling.<br>Ahead, the landscape becomes softer again. Isolated mountains rise like sentinels, while a low ridge forms on the right. Between them stretches a flat green basin threaded by a gentle stream. If your previous night was near Gadsar Lake, this meadow serves as a logical campsite. However, if you started the day from the Gadsar Army Camp, it is advisable to push further and reach Satsar today, keeping the next day lighter.<br>Satsar is not a single lake but a cluster of seven interconnected alpine lakes scattered across a high-altitude plateau at around 3,650 m (11,985 ft). Depending on the season, four to five of these lakes usually hold water, each differing slightly in size and colour. Beyond the ridge to the right lies the Satsar Army Check Post — the third line of defence from the Line of Control. Reporting here is mandatory, and the familiar process of identity verification and documentation repeats. Completing this formality today ensures an uninterrupted trekking day tomorrow.<br>A short walk of about ten minutes beyond the army camp brings you to the first Satsar lake. Broad, calm, and reflective, it sits quietly in a green bowl with mountains rising in front of it. This lake is typically chosen as the campsite. As evening settles in, the plateau grows silent, broken only by wind rippling across the water. The scattered lakes, open skies, and surrounding peaks create a sense of isolation that feels both peaceful and profound — a fitting pause before the final crossing toward Harmukh."
-  },
-  {
-  day: 5,
-  title: "Satsar – Gangbal & Nundkol via Zaj Pass | 9 km Trek | 3,650 m → 3,500 m (via 4,050 m)",
-  details:
-    "Day six is a relentless sequence of ascents and descents — a perfect mirror of the Kashmir Great Lakes trek as a whole. The trail tests endurance more than distance, constantly gaining and losing altitude across barren ridges before rewarding you with one of the most iconic lake views in the Indian Himalayas.<br>Begin the day by trekking gently upward for about half an hour from the Satsar campsite to reach the largest and final lake of the Satsar cluster. The terrain here is rocky and uneven, turning the walk into a slow boulder-hopping exercise. This lake marks the end of the Satsar plateau. From here, the trail begins to descend gradually, offering one last backward glance at the scattered lakes before the landscape changes again.<br>After about thirty minutes of descent, the forest line becomes visible far below on the left, while to the right a long ridge rises nearly 1,000 feet higher. This marks the start of the day’s most demanding climb. From an altitude of around 11,800 ft, the trail switches direction and begins a sharp zig-zag ascent along a pony track. The next forty-five minutes are steep and barren, with loose stones underfoot and little respite. Gaining the first ridge brings momentary relief, but the effort is far from over.<br>Two more ridges rise ahead, each climbed in succession. The landscape here feels stark and exposed — brown, rocky slopes devoid of vegetation. Looking back occasionally reveals a striking contrast: Gujjar huts tucked among tall pine forests far below, emphasizing how abruptly the terrain has shifted. A continuous two-hour climb eventually brings you to the highest ridge of the day at roughly 4,050 m (13,276 ft), commonly referred to as Zaj Pass.<br>What awaits on the ridge top is one of the most dramatic reveals of the trek. Almost suddenly, two large alpine lakes appear below, lying side by side in a deep mountain basin. A narrow stream links the higher lake to the lower one. These are Gangbal and Nundkol — the crown jewels of the Kashmir Great Lakes trek. If you look carefully, two smaller, unnamed blue lakes can also be spotted farther away, completing a breathtaking amphitheatre of water and stone.<br>From the pass, the trail drops steeply toward the lakes, losing nearly 1,400 feet in altitude. The descent is rocky and demanding, requiring careful footing. Midway down, a cold mountain stream cuts across the trail — the last reliable water source of the day and a welcome place to refill bottles. Beyond this point, the rocks gradually give way to grass, and the harsh terrain softens into green meadows once again.<br>The meadow stretches gently across the slope, with the tree line reappearing far below to the left. Though the lakes remain in sight, they seem deceptively distant. A short climb followed by another descent and a wooden log bridge crossing finally brings you to the shores of Nundkol Lake. This lake sees heavier footfall due to weekend trekkers from Naranag, and signs of human presence are often visible — a stark contrast to the pristine lakes earlier in the trek.<br>Nundkol sits directly beneath the towering Harmukh Peak, whose glaciers cling dramatically to its dark rock faces. Both Nundkol and Gangbal are famous for trout fishing, and their waters reflect the changing moods of the sky above. Gangbal Lake lies about twenty minutes away. A fast-flowing stream connects the two lakes — do not attempt to cross it downstream. Instead, walk upstream toward Gangbal where a sturdy man-made bridge allows safe crossing.<br>Gangbal is vast, silent, and commanding. The lake feels sacred — and rightly so. Mount Harmukh, revered in Kashmiri folklore as the abode of Lord Shiva, rises directly above it. Walking along the shores as evening settles in, with the mountain reflected in still waters and prayer-like silence all around, feels less like the end of a trek and more like a moment of quiet reverence. Camp near the lake and take in the final high-altitude night of this unforgettable journey."
-  },
-  {
-  day: 6,
-  title: "Gangbal – Naranag – Srinagar | 13 km Trek + 50 km Drive | 3,500 m → 2,380 m",
-  details:
-    "The final day of the trek is long, knee-intensive, and mentally demanding — a fitting conclusion to the Kashmir Great Lakes journey. While the altitude steadily drops, the relentless descent puts sustained pressure on toes and knees, making this day more challenging than it appears on paper.<br>From the Gangbal campsite at around 11,486 ft, begin descending along the outflowing stream toward the distant tree line. Avoid walking directly beside the stream; instead, stay on the ridge to the right where the trail is clearer and more stable. About thirty minutes into the walk, mobile network briefly appears — often the first signal in days — just enough to send a message home before the mountains reclaim their silence. Soon after, the ridge tapers off and the trail drops gently into a broad green meadow.<br>Looking back from the meadow offers one last commanding view of Mount Harmukh, its dark rocky face rising dramatically above the lakes you leave behind. The meadow itself is carpeted with small yellow alpine flowers, and the walk here becomes slow and careful as trekkers instinctively avoid stepping on the fragile blooms.<br>Roughly an hour into the descent, the fringes of the pine forest are reached. Tall pine trees border the meadow, and the first signs of human presence appear in the form of a solitary log hut. Rather than entering the forest immediately, the trail skirts its edge and turns right — and in a familiar twist characteristic of this trek, the descent briefly pauses. Though you drop to about 10,800 ft at the tree line, the trail climbs gently again to nearly 11,000 ft.<br>For the next six kilometres, altitude loss is minimal. The path weaves in and out of pine forests and open clearings, maintaining an elevation close to 10,800 ft. This section feels deceptively long, with constant minor ascents and descents that quietly drain energy even as the surroundings grow greener and more populated.<br>Only after covering nearly two-thirds of the day’s distance does the real descent begin. The trail suddenly steepens and plunges sharply through dense pine forest. The path is well-trodden, muddy in places, and demands careful footing. Over the final four kilometres, the trail drops more than 3,000 feet, making this one of the steepest sustained descents of the entire trek.<br>As altitude decreases, encounters with day trekkers increase — many heading uphill from Naranag toward Gangbal for short outings. The village of Naranag first becomes visible at around 8,500 ft, but despite being in sight, the descent continues relentlessly. The final stretch tests endurance and patience until the trail finally merges into a stone-paved village track.<br>Soon after, the forest opens up completely and the main road of Naranag is reached at approximately 7,800 ft. From here, a two-hour drive covering about 50 kilometres brings you back to Srinagar, typically by around 6:30 pm. The journey ends where it began, but with legs sore, hearts full, and the quiet satisfaction of having crossed one of the most scenic and demanding alpine traverses in the Indian Himalayas.<br>Important note: the security checkpost on the Naranag–Srinagar route closes at 4:00 pm. It is crucial to plan the descent and departure accordingly. If delayed beyond this time, overnight arrangements may need to be coordinated locally, sometimes with assistance from the Indian Army."
-  }
-],
-
-  didYouKnow: [
-    "The Kashmir Great Lakes region remains snow-covered for most of the year and is accessible only for a short window between July and September.",
-    "Gadsar Pass was historically used by shepherds to move livestock between grazing grounds across valleys.",
-    "Gangbal Lake lies at the base of Mount Harmukh (5,142 m), one of Kashmir’s most prominent peaks and a sacred mountain in local folklore.",
-    "The Gujjar and Bakarwal nomads migrate seasonally through these meadows, living in temporary shelters with their flocks.",
-    "Despite its popularity, the region has no permanent settlements beyond Naranag, preserving its wild and untouched character."
-  ],
-
-  howToReach: {
-    air: "Nearest airport: Srinagar International Airport. Regular flights operate from Delhi and other major Indian cities. Srinagar is the main gateway to the Kashmir Valley and offers the easiest access to the trek starting point.",
-    train: "Nearest major railway station: Jammu Tawi (approx. 270 km from Srinagar). From Jammu, you can continue by road to Srinagar via NH44. Train connectivity is reliable year-round, but onward travel depends on road conditions.",
-    road: "Srinagar is well connected by road to Jammu via the Jammu–Srinagar Highway (NH44). From Srinagar, a 2–3 hour drive takes you to Sonamarg (trek start) or Naranag (trek end), depending on the itinerary direction. Roads may face temporary closures due to landslides or weather, especially during monsoon.",
-    travelTip: "Plan to arrive in Srinagar at least one day before the trek begins to allow buffer time for weather or road delays. While the Kashmir Great Lakes Trek does not require long acclimatization like Ladakh treks, gradual ascent, hydration, and fitness preparation are important for a comfortable high-altitude experience."
-  },
-
-  gallery: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535560/kgl-view7_so7ys6.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535552/kgl-view14_byzmiq.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535551/kgl-view13_cm0dts.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535549/kgl-view4_zsl7ou.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535546/kgl-hero_phbnfu.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535543/kgl-view6_cszcms.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535541/kgl-view12_blnxcy.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535540/kgl-view2_mchh5u.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view1_x2b9s2.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535530/kgl-view10_xunafq.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535529/kgl-view8_p6vtjz.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535527/kgl-view9_jei9pf.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698680/IMG_20190723_123022_ojepmb.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698698/IMG_20190731_170319_ufe38r.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765698772/IMG_20190723_082902_j4lrnx.jpg",
-    ],
-
-  downloadLink: "/docs/Packing_List.pdf",
-
-  faqs: {
-    questions: [
-      {
-        question: "Who can join the Kashmir Great Lakes Trek?",
-        answer:
-          "This trek is best suited for fit trekkers with prior trekking experience. Long walking days, high altitude, and repeated ascents and descents require good stamina and endurance."
-      },
-      {
-      question: "How should I prepare physically for the Kashmir Great Lakes Trek?",
-      answer:
-        "Preparation should begin at least 6–8 weeks before the trek. A strong cardiovascular base is essential — regular running, stair climbing, cycling, or hiking with a loaded backpack is recommended. Strength training focusing on legs, core, and balance will help handle steep climbs and descents. Prior experience on difficult Himalayan treks significantly improves safety and comfort."
-    },
-      {
-        question: "What is the difficulty level of this trek?",
-        answer:
-          "The trek is graded moderate to moderate-difficult. While there are no technical sections, the altitude, long distances, river crossings, and high passes make it physically demanding."
-      },
-      {
-        question: "What is the highest altitude reached on the trek?",
-        answer:
-          "The highest point is Gadsar Pass at approximately 4,200 m, where snowfields and strong winds are common even in summer."
-      },
-      {
-        question: "When is the best time to do the Kashmir Great Lakes Trek?",
-        answer:
-          "The ideal season is from July to September, when the snow melts and the alpine lakes become accessible."
-      },
-      {
-        question: "What kind of accommodation is provided?",
-        answer:
-          "Accommodation is in tents throughout the trek. Campsites are set near lakes and meadows, offering immersive wilderness stays."
-      },
-      {
-        question: "Is acclimatization important on this trek?",
-        answer:
-          "Yes. The itinerary is designed to allow gradual altitude gain, but proper hydration, rest, and awareness of altitude sickness symptoms are essential."
-      },
-      {
-        question: "Will there be river crossings?",
-        answer:
-          "Yes. Several snow-fed streams must be crossed, especially between Gadsar and Satsar. Trekking poles are highly recommended."
-      },
-      {
-        question: "Is this trek suitable for beginners?",
-        answer:
-          "This trek is not recommended for absolute beginners. First-time trekkers should have strong fitness levels and prior exposure to multi-day hikes."
-      },
-      {
-        question: "What makes this trek unique?",
-        answer:
-          "The continuous sequence of high-altitude lakes, vast meadows, and dramatic mountain scenery makes this one of the most visually immersive treks in India."
-      }
-    ]
-  },
-
-  faqsLink: "/faqs-and-articles",
-  
-},
-
-{
-  id: "doodhpathri-trek",
-  name: "Doodhpathri Trek",
-  tags: ["beginner", "lake"],
-  difficulty: ["easy"],
-  season: ["summer", "monsoon"],
-  month: ["june", "july", "august", "september"],
-  duration: ["3 Nights / 4 Days"],
-  region: "kashmir",
-  coordinates: [
-    [34.0837, 74.7973], // Srinagar
-    [33.9735, 74.6342], // Doodhpathri
-    [33.9901, 74.6568], // Palmaidan Meadows
-    [34.0103, 74.6794], // Doodhpathri Top
-    [34.0837, 74.7973], // Srinagar (end)
-  ],
-
-  heroImage:
-"https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
-  heroImages: [
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg"
-  ],
-
-  subtitle: "The Valley of Milk Meadows",
-
-  seo: {
-    title: "Doodhpathri Trek | Easy Kashmir Trek | Itinerary & Cost | Planethimalayas",
-    description:
-      "Doodhpathri Trek is an easy alpine meadow trek in Kashmir, perfect for beginners. Lush green grasslands, pine forests, milky streams, and panoramic Pir Panjal views make it an ideal short Himalayan escape near Srinagar."
-  },
-
-  advisory: {
-  type: "warning",
-  fullWidth: true,
-  title: "Important Advisory for Jammu & Kashmir Treks",
-  sections: [
-    {
-      heading: "Trekking Permit Status",
-      content:
-          "Trekking permits for Jammu & Kashmir are currently not confirmed. At present, Planethimalayas has not opened any batches for booking and will do so only after all necessary permissions for trek operations are officially granted. As per current updates, an official decision regarding trekking permissions is expected by May 2026."    },
-    {
-      heading: "High Uncertainty in J&K",
-      content:
-        "Trekking in Jammu & Kashmir can be impacted by sudden administrative decisions, political developments, or security-related restrictions."
-    },
-  ]
-},
-
-  overview: {
-    facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
-      { emoji: "🏔️", label: "Max Altitude", value: "4,100 m (Doodhpathri Top)" },
-      { emoji: "⚡", label: "Trek Distance", value: "Approx. 18 km" },
-      { emoji: "🌤️", label: "Best Time", value: "June to September" },
-      { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas" },
-      { emoji: "📍", label: "Start Point", value: "Srinagar" },
-      { emoji: "🏁", label: "End Point", value: "Srinagar" },
-      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
-    ],
-
-    snippet: `
-Doodhpathri, literally meaning “Valley of Milk,” is one of Kashmir’s most serene alpine landscapes — wide emerald meadows cut through by crystal-clear streams that turn milky white as they rush over limestone beds. Tucked away southwest of Srinagar, this region remains largely untouched by mass tourism, offering a peaceful Himalayan experience unlike the busier valleys of Gulmarg or Pahalgam.
-<br>
-The trek unfolds through rolling grasslands, pine and fir forests, and high-altitude pastures grazed by Gujjar and Bakarwal shepherds. With gentle ascents and open walking trails, Doodhpathri is perfect for beginners, families, and trekkers seeking a slow, immersive mountain journey rather than a physically demanding climb.
-<br>
-A highlight of the trek is the climb to Doodhpathri Top — a natural viewpoint that opens sweeping vistas of the Pir Panjal range, layered valleys, and endless green meadows stretching far into the horizon. During monsoon months, clouds drift low across the grasslands, creating a dreamlike atmosphere rarely seen on Himalayan trails.
-<br>
-Short, scenic, and deeply calming, the Doodhpathri Trek is ideal for those who want to experience Kashmir’s raw beauty at an unhurried pace — where silence, space, and scenery take centre stage.
-    `
-  },
-
-  price: 7900,
-  priceNote: "* Srinagar to Srinagar",
-
-  addons: {
-    transport: null,
-    transportNote: null,
-    offloadingbag: 1500,
-    offloadingNote: "* maximum weight 9 kg / bag",
-  },
-
-  inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 4",
-
-  highlights: [
-    "Expansive alpine meadows of Doodhpathri with uninterrupted views",
-    "Milky-white streams flowing through lush green grasslands",
-    "Quiet, uncrowded trail away from mainstream Kashmir tourism",
-    "Panoramic views of the Pir Panjal mountain range",
-    "Easy terrain ideal for beginners, families, and first-time trekkers",
-    "Beautiful monsoon cloud formations and vibrant summer landscapes"
-  ],
-
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival in Srinagar & Drive to Doodhpathri | 45 km Drive | 2–3 Hours",
-      details: `
-Arrive in Srinagar by afternoon and meet the Planethimalayas team. After a short briefing, drive towards Doodhpathri through forested roads and rolling countryside. Reach the meadow region by evening and settle into camps near the grasslands. Enjoy your first views of Kashmir’s untouched alpine terrain followed by dinner and overnight stay.
-      `
-    },
-    {
-      day: 2,
-      title: "Doodhpathri to Palmaidan Meadows | 7 km Trek | 4–5 Hours",
-      details: `
-Begin trekking after breakfast through wide meadows intersected by crystal-clear streams. The trail remains gentle and open, offering continuous views of surrounding ridges and forests. Reach Palmaidan — a vast, flat meadow ideal for camping — by afternoon. Spend the evening relaxing, photographing the landscape, or simply soaking in the silence of the mountains.
-      `
-    },
-    {
-      day: 3,
-      title: "Palmaidan to Doodhpathri Top & Return | 8 km Trek | 5–6 Hours",
-      details: `
-Start early for the gradual ascent towards Doodhpathri Top, the highest point of the trek. From the summit ridge, enjoy sweeping views of the Pir Panjal range and endless green valleys below. After spending time at the top, descend back to the campsite by late afternoon. Dinner and overnight stay at Palmaidan.
-      `
-    },
-    {
-      day: 4,
-      title: "Trek Back to Doodhpathri & Drive to Srinagar | 3–4 Hours",
-      details: `
-After breakfast, trek back through familiar meadows to the Doodhpathri roadhead. From here, drive back to Srinagar, reaching by evening. The trek concludes with unforgettable memories of Kashmir’s hidden alpine heartland.
-      `
-    }
-  ],
-
-  howToReach: {
-    air:
-      "Nearest airport: Srinagar International Airport. Taxis to Doodhpathri are easily available.",
-    train:
-      "Nearest railway station: Jammu Tawi. From Jammu, drive to Srinagar and onward to Doodhpathri.",
-    road:
-      "From Srinagar: 2–3 hours drive via Budgam district to Doodhpathri.",
-    travelTip:
-      "Arrive in Srinagar a day early to acclimatize and explore the city before heading to the meadows."
-  },
-
-  didYouKnow: [
-    "Doodhpathri gets its name from the milky appearance of its streams caused by limestone-rich soil.",
-    "The meadows are traditional summer grazing grounds for Gujjar and Bakarwal nomadic tribes.",
-    "Unlike Gulmarg or Pahalgam, Doodhpathri remains largely free from commercial tourism infrastructure.",
-    "The region sits on the lesser-explored side of the Pir Panjal range, offering rare panoramic viewpoints.",
-    "During monsoon, cloud layers often move below the trekking trail, creating a ‘floating meadow’ effect.",
-    "Local folklore believes the meadows were blessed by saints due to their unmatched serenity and purity."
-  ],
-
-  gallery: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896173/doodhpathri-hero_icytal.webp",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-hero2_e74hmm.webp",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896176/doodhpathri-view1_fxzfhy.jpg",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896183/Doodhpathri_z5ipmd.jpg",
-   "https://res.cloudinary.com/dr44hob9b/image/upload/v1765896171/doodhpathri-view_iokmf7.webp"
-  ],
-
-  downloadLink: "/docs/Packing_List.pdf",
-
-  faqs: {
-    questions: [
-      {
-        question: "Who can join the Doodhpathri Trek?",
-        answer:
-          "The trek is ideal for beginners, families, and anyone with basic fitness looking for an easy Himalayan experience."
-      },
-      {
-        question: "Is this trek suitable during monsoon?",
-        answer:
-          "Yes. Monsoon is one of the most beautiful times for Doodhpathri, with lush meadows and dramatic cloud formations."
-      },
-      {
-        question: "Is altitude sickness a concern?",
-        answer:
-          "The altitude gain is gradual, making it relatively safe. Proper hydration and steady pace are recommended."
-      },
-      {
-        question: "Will there be mobile network?",
-        answer:
-          "Mobile connectivity is available near Srinagar but unreliable once you enter the meadow region."
-      },
-      {
-        question: "Is offloading available?",
-        answer:
-          "Yes, mule or porter offloading is available with prior booking."
-      }
-    ]
-  },
-
-  faqsLink: "/pages/faqs-and-articles",
-},
 // Add other trek objects here...
 ];
