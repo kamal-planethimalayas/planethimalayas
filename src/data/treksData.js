@@ -6,7 +6,7 @@ export const treks = [
 
 {
     id: "markha-valley-trek",
-    name: "Markha Valley & Kongmaru La",
+    name: "Markha Valley Trek",
     tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows"],
     difficulty: ["difficult"],
     season: ["monsoon"],
@@ -32,8 +32,8 @@ export const treks = [
     subtitle: "The Classic Trek of Himalayan Cold Desert",
 
     seo: {
-      title: "Markha Valley & Kongmaru La Trek | Itinerary, Cost & Dates | Planethimalayas",
-      description: "Markha Valley & Kongmaru La Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
+      title: "Markha Valley Trek | Itinerary, Cost & Dates | Planethimalayas",
+      description: "Markha Valley Trek (17,060 ft) is Ladakh’s most iconic trek, crossing high passes, river crossings, Buddhist monasteries, and dramatic desert landscapes over 8 days."
     },
 
     overview: {
@@ -64,17 +64,17 @@ export const treks = [
 
     dates: [
       { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
-{ label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
-{ label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-{ label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
-{ label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-{ label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
-{ label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-{ label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
-{ label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
-{ label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-{ label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
+      { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
+      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+      { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
+      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
+      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
+      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+      { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
+      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
+      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+      { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
 
     ],
 
@@ -459,7 +459,7 @@ export const treks = [
   { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days" },
   { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
   { emoji: "🏔️", label: "Max Altitude", value: "17,800 ft (Kyamar La)" },
-  { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
+  { emoji: "⚡", label: "Trek Distance", value: "105–110 Km" },
   { emoji: "🌤️", label: "Best Time", value: "July to September" },
   { emoji: "🗺️", label: "Region", value: "Changthang Plateau, Ladakh" },
   { emoji: "📍", label: "Start Point", value: "Rumtse (near Leh)" },
