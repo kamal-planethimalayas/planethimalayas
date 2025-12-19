@@ -10,7 +10,7 @@ export const treks = [
     tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows", "teahouse"],
     difficulty: ["difficult"],
     season: ["monsoon"],
-    month: ["august", "september"],
+    month: ["july", "august", "september"],
     region: "ladakh",
     duration: "7 Nights / 7 Days",
     coordinates: [
@@ -42,7 +42,7 @@ export const treks = [
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
         { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "August to September" },
+        { emoji: "🌤️", label: "Best Time", value: "July to September" },
         { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
         { emoji: "📍", label: "Start Point", value: "Skiu (near Leh)" },
         { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
@@ -51,12 +51,12 @@ export const treks = [
       snippet: "The Markha Valley Trek is the crown jewel of Ladakh — a rare Himalayan journey where stark cold-desert landscapes blend effortlessly with deep-rooted culture, ancient monasteries, and warm Ladakhi hospitality. Often called the ‘Tea House Trek of Ladakh’, this trail lets you walk through rugged gorges, cross icy streams, wander across wide-open high-altitude meadows, and spend nights in remote villages that feel suspended in time.<br>Your adventure begins in Leh, giving you the perfect chance to acclimatize and explore the region’s rich cultural heritage before stepping into the wilderness. As you enter the valley, the scenery shifts dramatically — willow-lined streams accompany your path, mud houses merge with ochre mountain walls, and the silence of the cold desert stretches endlessly before you. Passing through villages like Skiu, Sara, Markha, Hankar, and Nimaling, you experience the gentle rhythm of Ladakhi life, where locals greet you with hot tea, soft smiles, and stories passed down through generations. Places like Sara Village, with its animal-skull gateway, ancient monastery, and sweeping barley fields, offer an intimate encounter with Ladakh’s living traditions.<br>The trail winds through the vast expanse of Hemis National Park, home to unique wildlife such as Himalayan blue sheep, marmots, lammergeiers, golden eagles, and, with immense luck, even the elusive snow leopard. Along the way, you pass historic fort ruins, towering chortens, and hidden gems like the Tacha Monastery, nestled dramatically between cliffs and offering a peaceful pause in the middle of the desert.<br>Though Ladakh is known for its dry landscapes, the trek surprises you with river crossings like the Indus and Markha, as well as clear mountain streams that cut through barren terrain. As you climb higher, the valley opens into lush summer grazing grounds at Nimaling, one of the most picturesque campsites in the region. Surrounded by grazing yaks and endless meadows, Nimaling offers unmatched views of Kang Yatse, Dzo Jongo, and the wild, untamed Ladakh ranges. Nights here are magical, with some of the clearest skies in India — the Milky Way spreading across the horizon in an explosion of stars.<br>The high point of the trek, both literally and emotionally, is Kongmaru La (17,300 ft). The climb is steep and strenuous, but the moment you reach the pass, the entire panorama of the Karakoram, Stok, and Kang Yatse ranges unfolds like a painted canvas. Fluttering prayer flags mark the spot, celebrating your arrival at one of Ladakh’s most breathtaking viewpoints.<br>Every day on the Markha Valley Trek brings new moods — dry golden deserts, narrow rock gorges, vibrant green oases, ancient Buddhist shrines, high-altitude pastures, and remote hamlets that exist far from the bustle of the modern world. Unlike most Himalayan routes, Markha Valley is not a to-and-fro trail, giving you a constantly changing, non-repetitive perspective of the Ladakhi Himalayas. The journey is challenging, especially at high altitude, but deeply rewarding for trekkers who seek solitude, culture, wildlife, and the raw, unfiltered beauty of Ladakh.<br>The Markha Valley Trek is more than a hike — it’s an immersive cultural journey, a walk through one of the largest valleys of Ladakh, and a soul-stirring exploration of nature, history, and the high Himalayan desert. A trek that lingers long after your footsteps fade."
     },
 
-    price: 22900,
+    price: 24900,
     priceNote: "* Leh to Leh",
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 2800,
+      offloadingbag: 5000,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
@@ -210,8 +210,8 @@ export const treks = [
   {
   "id": "winter-markha-valley-trek",
   "name": "Winter Markha Valley Trek",
-  "tags": ["pro","meadows"],
-  "difficulty": ["difficult"],
+  "tags": ["intermediate","meadows"],
+  "difficulty": ["moderate"],
   "season": ["winter"],
   "month": ["january", "february", "march"],
   "region": "ladakh",
@@ -241,7 +241,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult (Extreme Winter Conditions)" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate (Extreme Winter Conditions)" },
         { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
         { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
         { emoji: "🌤️", label: "Best Time", value: "January to March" },
@@ -427,7 +427,7 @@ export const treks = [
     tags: ["pro", "pass", "lake"],
     difficulty: ["difficult"],
     season: ["monsoon"],
-    month: ["august", "september"],
+    month: ["july", "august", "september"],
     region: "ladakh",
     duration: "10 Nights / 10 Days",
     coordinates: [
@@ -615,7 +615,222 @@ export const treks = [
 
     faqsLink: "/faqs-and-articles",
   },
-  
+
+  {
+  id: "nubra-valley-trek",
+  name: "Nubra Valley Trek",
+  tags: ["intermediate", "pass", "meadows"],
+  difficulty: ["moderate"],
+  season: ["monsoon"],
+  month: ["july", "august", "september"],
+  region: "ladakh",
+  duration: "8 Nights / 8 Days",
+  coordinates: [
+    [34.1526, 77.5771],   // Leh
+    [34.3214, 77.5756],   // Khardung region
+    [34.5931, 77.4250]    // Nubra Valley
+  ],
+
+  heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160952/nubra-valley2_peqb3p.jpg",
+
+
+  heroImages: [
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160952/nubra-valley2_peqb3p.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766161559/nubra-valley_jqyhh8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160829/nubra-valley1_g1gnkv.jpg",
+            "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
+  ],
+
+  subtitle: "Where Himalayan Cold Desert Meet Lush Valleys",
+
+  seo: {
+    title: "Nubra Valley Trek | Sand Dunes, Monasteries & Himalayan Landscapes | Planethimalayas",
+    description: "The Nubra Valley Trek is a rare Ladakh experience combining high mountain passes, cold desert landscapes, green villages, rivers, monasteries, and sand dunes—offering a culturally rich and scenic Himalayan journey."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,582 ft (Lasermo La)" },
+      { emoji: "⚡", label: "Trek Distance", value: "50–55 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "July - September" },
+      { emoji: "🗺️", label: "Region", value: "Nubra Valley, Ladakh" },
+      { emoji: "📍", label: "Start Point", value: "Leh" },
+      { emoji: "🏁", label: "End Point", value: "Leh" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+    ],
+
+    snippet: `The Nubra Valley Trek is a journey through one of Ladakh’s most surprising landscapes — a place where cold desert mountains suddenly give way to rivers, green fields, and living valleys shaped by centuries of trade, migration, and survival. Once a vital transit corridor of the ancient Silk Route, Nubra connected Ladakh with Central Asia and Tibet. Today, it remains a region where history feels alive, written into the land and the rhythm of daily life.
+
+<br>The journey begins with a dramatic drive from Leh across the legendary Khardung La, climbing into a world of stark rock, wind, and altitude before descending into the wide, open basin of the Nubra Valley. This transition alone feels transformative. Barren slopes soften into river-fed plains, villages appear along the valley floor, and the air carries a sense of openness rarely found in the high Himalayas. The trek officially begins near Hundar, a quiet settlement nestled at the heart of Nubra.
+
+<br>Walking into the valley, the trail moves through narrow gorges that slowly open into expansive meadows and grazing lands. The terrain is gentle yet constantly changing — braided rivers, soft grasslands, and open valleys framed by distant ridgelines. These landscapes serve as summer pastures for yaks, sheep, and goats, and it is common to encounter shepherds moving with their herds, continuing a way of life that has remained largely unchanged for generations.
+
+<br>One of Nubra’s most captivating qualities is its sense of contrast. Silver sand dunes lie beneath snow-streaked peaks. Double-humped Bactrian camels roam near riverbeds, echoing the valley’s Silk Route past. Fields of barley, wheat, and potatoes thrive beside arid slopes, sustained by glacial meltwater flowing down from the high mountains. Traditional Ladakhi villages emerge unexpectedly, their flat-roofed homes and chortens blending seamlessly into the landscape.
+
+<br>As the trek progresses deeper into the valley, the environment grows more remote and alpine. The climb toward Lasermo La — an eternally snow-bound high pass at 5,400 meters — marks a dramatic shift in scale and atmosphere. Meadows give way to glacial terrain, frozen streams, and snowfields. Crossing Lasermo La is the defining moment of the trek, connecting the Nubra and Indus valleys and offering sweeping views across the Ladakh, Zanskar, and distant Karakoram ranges. The silence here is profound, broken only by wind and the crunch of snow underfoot.
+
+<br>Despite its high altitude, the Nubra Valley Trek remains non-technical and rhythm-driven. Days are paced thoughtfully, allowing trekkers to absorb the landscape rather than rush through it. Evenings are spent camping in wide, open valleys under vast Himalayan skies, where the absence of light pollution reveals constellations in startling clarity. Life slows down, conversations deepen, and the mountains begin to feel less like scenery and more like companions.
+
+<br>What sets Nubra apart is not just its scenery, but its balance. It offers the very essence of Ladakh — high passes, cold desert terrain, rivers, monasteries, and pastoral culture — without the crowds of more popular routes. This is Ladakh experienced quietly, intimately, and honestly.
+
+<br>The Nubra Valley Trek is not about chasing summits or ticking off milestones. It is about walking through space, history, and contrast — from sand dunes to snowfields, from ancient trade routes to living villages — and discovering a side of the Himalayas that reveals itself only to those willing to move slowly and listen.`
+  },
+
+  price: 32400,
+  priceNote: "* Leh to Leh",
+
+  addons: {
+    transport: null,
+    transportNote: "* Transport from Leh airport to hotel and return can be arranged on request. Costs are shared directly by trekkers.",
+    offloadingbag: 6000,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 3 to lunch on Day 8",
+
+  highlights: [
+    "Cross high Himalayan passes offering sweeping views of the Ladakh and Karakoram ranges",
+    "Walk through Nubra Valley’s green villages, riversides, and high-altitude grazing grounds",
+    "Experience Ladakhi culture through monasteries, traditional homes, and local interactions",
+    "Witness the unique contrast of sand dunes, cold desert terrain, and lush farmlands",
+    "A balanced trek combining moderate challenge, scenic beauty, and cultural depth"
+  ],
+
+  itinerary: [
+    {
+    day: 1,
+    title: "Arrival & Reporting in Leh (11,500 ft / 3,500 m)",
+    details: "Arrive in Leh by air or road and check in to your hotel or guesthouse. Leh sits at an altitude of 11,500 ft, and sudden exposure to this height requires immediate rest. The entire day is reserved for acclimatization—avoid exertion, long walks, or climbing viewpoints. Spend time hydrating well, eating light meals, and allowing your body to adjust. In the evening, you may take a slow walk around Leh Market, observing local life and picking up any last-minute essentials. A mandatory reporting and briefing session is conducted where trek leaders explain the route, safety protocols, altitude precautions, and gear checks. An easy, restful first day is critical for preparing your body for the demanding high-altitude terrain ahead."
+  },
+  {
+    day: 2,
+    title: "Acclimatization Day in Leh – Culture, Cuisine & Preparation",
+    details: "This acclimatization day plays a decisive role in how your body performs on the trek. Begin the day with a slow morning and a short walk to stimulate blood circulation without strain. You may explore nearby cultural landmarks such as Shey Palace, Thiksey Monastery, Hemis Monastery, and the Sangam viewpoint where the Indus and Zanskar rivers merge. Thiksey Gompa, perched dramatically on a hill, offers panoramic views and deep insight into Ladakhi Buddhist traditions. Avoid gaining excessive altitude or visiting high passes today. Spend time in Leh Market browsing for souvenirs like prayer flags, pashmina shawls, handcrafted silver jewelry, and Tibetan artefacts. Food to try includes thukpa, momos, skyu, butter tea, and apricot-based products. Eat light, avoid alcohol, stay well hydrated, and rest early—your body should feel comfortable and stable before heading into the remote Changthang region."
+  },
+    {
+  day: 3,
+  title: "Leh (11,500 ft) → Khardung La Drive → Skarchen → Trek to Hunder Dok (12,570 ft / 3,832 m) | Trek: 6 km | 3–4 hrs",
+  details: "Begin early from Leh for a scenic drive toward the Nubra Valley, crossing the legendary Khardung La—one of the highest motorable passes in the world. The route climbs rapidly through stark, high-altitude terrain before descending into the Nubra region, where the landscape softens into wide valleys and riverbeds. After approximately six hours of driving, reach Skarchen, the road-head from where the trek begins.\n\nFrom Skarchen, start trekking along the Hunder River, walking on the quieter side of the valley, away from the active road construction. The trail follows a newly forming path beside the river, offering gentle gradients and uninterrupted views of the surrounding mountains. As you progress deeper into the valley, the narrow gorge slowly widens, revealing the unexpected openness of Hunder Dok.\n\nHunder Dok is a secluded and expansive settlement, hidden from view until the very last stretch. Suddenly, the terrain opens into a large village basin filled with neatly laid farmfields of barley, wheat, and potatoes. A central pathway runs through the heart of the village, dividing homes and farmlands on either side, offering a rare glimpse into Nubra’s agricultural life. Set up camp near the village and settle in for the night amid the calm and greenery of this remote Himalayan settlement."
+},
+    {
+  day: 4,
+  title: "Hunder Dok (12,570 ft / 3,832 m) → Sumdo Dok (13,900 ft / 4,237 m) | Trek: 8 km | 4–5 hrs",
+  details: "Leave Hunder Dok after breakfast and begin trekking upstream alongside the Thanglasgo River. The trail is gentle and unhurried, allowing the body to adapt gradually as altitude is gained. Wide open valleys stretch ahead, flanked by smooth mountain slopes and scattered alpine meadows that change color with the season.\n\nAs you walk deeper into the valley, the landscape opens further into expansive grasslands, often used as grazing grounds by local livestock during summer months. The sound of flowing water remains constant, guiding the route and adding to the calm rhythm of the day’s walk.\n\nBy afternoon, reach Sumdo Dok, a beautiful confluence where the Sniu Valley meets the Thanglasgo Valley. The campsite sits in an open basin surrounded by rolling terrain and distant ridgelines, making it one of the more scenic camps of the trek. Spend the evening resting, hydrating well, and soaking in the stillness of this high-altitude wilderness. Overnight in tents."
+},
+    {
+  day: 5,
+  title: "Sumdo Dok (13,900 ft / 4,237 m) → Thanglasgo Valley (14,760 ft / 4,500 m) | Trek: 9 km | 5–6 hrs",
+  details: "Begin the day by leaving Sumdo Dok and entering the upper reaches of the Thanglasgo Valley. The trail follows a narrow stream that gently guides the route uphill, making the ascent steady but manageable. With no sharp climbs, today’s walk allows trekkers to maintain a slow, rhythmic pace while gaining altitude gradually.\n\nAs the valley widens, the terrain transforms into open grazing grounds. This region serves as the primary summer pasture for livestock from Hunder Dok and Wachan, and it is common to see herds of yaks, sheep, and goats spread across the meadows. The landscape feels alive with movement, bells, and distant calls of shepherds tending their animals.\n\nTwo prominent shepherd settlements mark the heart of Thanglasgo, reflecting the long-standing pastoral traditions of Nubra Valley. Camp is set slightly beyond these settlements, offering quieter surroundings while still overlooking the expansive valley. The evening is ideal for rest and acclimatization, with open skies and wide horizons defining this high-altitude campsite. Overnight in tents."
+},
+    {
+  day: 6,
+  title: "Thanglasgo Valley (14,760 ft / 4,500 m) → Lasermo La Base Camp (15,750 ft / 4,800 m) | Trek: 10 km | 5–6 hrs",
+  details: "Start the day by moving deeper into the upper Thanglasgo Valley, following a narrow stream that flows steadily down from the higher reaches of the mountains. The trail is well-defined and climbs gradually, making the ascent comfortable despite the increasing altitude. Wide alpine meadows stretch on either side, offering long, uninterrupted walking sections.\n\nAs you gain height, the landscape becomes increasingly glacial in character. Small high-altitude lakes appear along the route, formed by meltwater draining from nearby glaciers. These pools reflect the surrounding peaks and add color to the otherwise stark terrain. Yaks and dzos are often seen grazing peacefully across the meadows, highlighting the valley’s continued use as summer pasture.\n\nBy afternoon, reach the base camp of Lasermo La, set in an open basin directly facing the snow-covered pass. The towering, permanently snow-bound slopes of Lasermo La dominate the skyline, offering a dramatic preview of the crossing to come. Settle into camp early, hydrate well, and rest in preparation for the demanding day ahead. Overnight in tents."
+},
+    {
+  day: 7,
+  title: "Lasermo La Base (15,750 ft / 4,800 m) → Lasermo La (17,720 ft / 5,400 m) → Phyang Phu (15,160 ft / 4,620 m) | Trek: 11 km | 6–7 hrs",
+  details: "Begin well before sunrise for the most demanding and rewarding day of the trek. An early start is essential to take advantage of the firm, frozen snow conditions before the sun softens the surface. The initial climb is gradual, moving steadily over moraines and rocky terrain as the route rises toward the snowline.\n\nOnce on the snow, the landscape changes completely. The trail continues upward across snowfields, with careful footing required as you make the final approach to Lasermo La. Reaching the pass at 5,400 meters is a powerful moment—the vast expanse of the Karakoram mountains unfolds on one side, while the Ladakh and Zanskar ranges stretch endlessly on the other, offering one of the most dramatic panoramas of the entire journey.\n\nAfter spending time at the pass, begin a controlled descent toward the southern base of Lasermo La. The terrain gradually transitions from snow to rocky slopes and then into wider alpine ground. Continue descending into the Phyang Phu area, where the valley opens up into gentler terrain suitable for camping. Set up camp near Phyang Phu and enjoy a well-earned rest after crossing one of Ladakh’s classic high passes. Overnight in tents."
+},
+{
+  day: 8,
+  title: "Phyang Phu (15,160 ft / 4,620 m) → Morobuk → Drive to Leh (11,500 ft) | Trek: 7 km | 4–5 hrs + 40 min drive",
+  details: "After breakfast, begin the final descent of the trek toward Morobuk. The trail gradually loses altitude, making for a relaxed and reflective walk after the intensity of the high-pass crossing. As you descend, expansive views of the Stok Range dominate the skyline, with sharp ridgelines and changing light offering a dramatic farewell to the high mountains.\n\nThe terrain becomes progressively gentler as the valley opens up, and signs of habitation slowly reappear. Reach Morobuk by late morning, where vehicles await for the short drive back to Leh. The transition from remote high-altitude wilderness to the familiarity of town is swift, marking the end of the trekking journey.\n\nArrive in Leh by early afternoon and check into your hotel. The remainder of the day is free to rest, freshen up, or explore Leh Market at an easy pace. Overnight stay in a hotel in Leh, bringing the Nubra Valley Trek to a comfortable and well-earned conclusion."
+},
+  ],
+
+  didYouKnow: [
+    "<b>Nubra Valley was part of the ancient Silk Route.</b><br>Caravans once passed through this valley connecting Central Asia with India.",
+    "<b>The valley sits between two major mountain ranges.</b><br>Nubra lies between the Karakoram and Ladakh ranges.",
+    "<b>Bactrian camels are native to this region.</b><br>The rare double-humped camels are remnants of Silk Route trade.",
+    "<b>Despite being a cold desert, Nubra is agriculturally rich.</b><br>Glacial rivers make farming possible in this high-altitude valley."
+  ],
+
+  howToReach: {
+    air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh.",
+    train: "No direct train access. Nearest major station is Jammu Tawi.",
+    road: "Leh is accessible via Srinagar–Leh and Manali–Leh highways (seasonal).",
+    travelTip: "Plan at least 2 acclimatization days in Leh before starting the trek."
+  },
+
+  gallery: [
+     "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766161559/nubra-valley_jqyhh8.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160952/nubra-valley2_peqb3p.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160829/nubra-valley1_g1gnkv.jpg",
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+   questions: [
+  {
+    question: "Is the Nubra Valley Trek suitable for beginners?",
+    answer:
+      "Yes, the Nubra Valley Trek can be attempted by fit beginners who have good cardiovascular endurance and are comfortable with multi-day walking. However, due to high altitude and a major pass crossing, prior trekking experience is beneficial and proper acclimatization is essential."
+  },
+  {
+    question: "Why are two acclimatization days in Leh important?",
+    answer:
+      "Leh is located at 11,500 ft, and rapid ascent to this altitude can lead to Acute Mountain Sickness (AMS). Two full acclimatization days allow your body to adapt to low oxygen levels, significantly reducing the risk of AMS during the trek, especially before crossing Lasermo La above 5,400 m."
+  },
+  {
+    question: "How should I prepare physically for the Nubra Valley Trek?",
+    answer:
+      "Preparation should include regular cardio workouts such as running, cycling, or stair climbing for at least 4–6 weeks before the trek. Strength training for legs and core, along with long walks carrying a light backpack, will help build endurance for sustained high-altitude trekking days."
+  },
+  {
+    question: "Do Indians and foreign nationals need permits for Nubra Valley?",
+    answer:
+      "Yes. Indian nationals require an Inner Line Permit (ILP) to visit Nubra Valley. Foreign nationals also require a Protected Area Permit (PAP). These permits are mandatory and are typically arranged by the trek operator prior to the trek."
+  },
+  {
+    question: "Is travel and trek insurance mandatory?",
+    answer:
+      "Yes. Trek insurance covering high-altitude trekking, emergency evacuation, and medical expenses is mandatory. Due to the remoteness of the region, evacuation can be time-consuming and costly without insurance coverage."
+  },
+  {
+    question: "What kind of accommodation is provided during the trek?",
+    answer:
+      "Accommodation is primarily in tents at designated campsites. On certain days, especially in Nubra Valley villages, homestay accommodation may be used depending on itinerary and availability."
+  },
+  {
+    question: "How cold does it get during the trek?",
+    answer:
+      "Daytime temperatures usually range between 10–18°C in summer. Night temperatures at higher camps can drop to 0°C or slightly below, especially near Lasermo La. Proper layering and a good-quality sleeping bag are essential."
+  },
+  {
+    question: "What makes the Nubra Valley Trek special compared to other Ladakh treks?",
+    answer:
+      "The Nubra Valley Trek stands out for its dramatic contrasts—high snowbound passes, cold desert terrain, lush green villages, rivers, sand dunes, and ancient monasteries. It also offers deep cultural insight into Ladakhi life while remaining less crowded than popular routes like Markha Valley."
+  },
+  {
+    question: "Are there chances of spotting wildlife on this trek?",
+    answer:
+      "Yes. Trekkers may spot marmots, mountain hares, kiang (Tibetan wild ass), and various high-altitude birds. Yaks, dzos, sheep, and goats are commonly seen in grazing areas. Larger wildlife sightings are rare but possible in remote sections."
+  },
+  {
+    question: "Is there mobile network or internet connectivity during the trek?",
+    answer:
+      "Mobile network is largely unavailable during the trek. Limited connectivity may be found in Leh and some parts of Nubra Valley. The trek is mostly off-grid, making it ideal for a digital detox."
+  },
+  {
+    question: "What is the level of difficulty of the Lasermo La crossing?",
+    answer:
+      "The Lasermo La crossing is the most challenging part of the trek due to altitude, snow conditions, and early-morning start. While technically non-technical, it requires good stamina, careful pacing, and strict adherence to the trek leader’s instructions."
+  },
+  {
+    question: "Is emergency evacuation possible during the trek?",
+    answer:
+      "Yes, but evacuation options are limited due to terrain and remoteness. In serious cases, evacuation may involve horses, vehicles, or helicopter support (weather permitting), which is why comprehensive insurance is strongly recommended."
+  },
+]
+  },
+
+  faqsLink: "/faqs-and-articles"
+},
   
   {
   id: "kashmir-great-lakes-trek",
@@ -7253,15 +7468,23 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
         { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
       ],
 
-      snippet: `The Everest Base Camp Trek is one of the most iconic journeys in the Himalayas, a pilgrimage for trekkers drawn to the raw power and legacy of Mount Everest. Beginning with a dramatic flight into Lukla, the trail follows the ancient paths of the Khumbu Valley, crossing roaring rivers on suspension bridges draped in prayer flags.
+      snippet: `The Everest Base Camp Trek is not merely a route in the Himalayas — it is the most storied walking trail on Earth. For decades, this path through Nepal’s Khumbu Valley has drawn explorers, mountaineers, and dreamers who want to stand in the shadow of the world’s highest mountain. Every step on this trail carries history: from early Sherpa traders and Tibetan pilgrims to legendary climbers preparing for summit attempts on Everest.
 
-<br>The route winds through traditional Sherpa villages like Phakding, Namche Bazaar, and Dingboche, where stone houses, mani walls, and spinning prayer wheels reflect centuries-old Himalayan culture. Buddhist monasteries such as Tengboche stand as spiritual landmarks, offering moments of stillness beneath towering peaks like Ama Dablam and Thamserku.
+<br>The journey begins with a dramatic flight into Lukla, often described as one of the most thrilling airports in the world. From here, the trail follows ancient trade routes carved into the Khumbu landscape, crossing glacial rivers on high suspension bridges adorned with fluttering prayer flags. Each crossing feels symbolic — a quiet reminder that you are stepping deeper into the high Himalayas.
 
-<br>As altitude increases, forests give way to alpine scrub and glacial terrain. The air grows thinner, the landscapes harsher, and the mountains more imposing. Massive glaciers, icy moraines, and the infamous Khumbu Icefall dominate the upper reaches of the trek, revealing the true scale of Everest’s domain.
+<br>The trek winds through iconic Sherpa villages such as Phakding, Namche Bazaar, Tengboche, Dingboche, Lobuche, and Gorakshep — each with its own character and significance. Namche Bazaar, the heart of the Khumbu, is a bustling mountain town where trekkers acclimatize, exchange stories, and witness the first jaw-dropping views of Everest, Lhotse, and Ama Dablam. Tengboche Monastery, perched on a ridge beneath Ama Dablam, is the spiritual soul of the trail, where chants echo against snow-clad peaks and prayer flags ripple in the wind.
 
-<br>Reaching Everest Base Camp is both humbling and exhilarating. Surrounded by the Western Cwm, Nuptse, and the towering south face of Everest, trekkers stand at the threshold of the world’s highest mountain—a place where expeditions begin and dreams are tested.
+<br>One of the most remarkable aspects of the EBC trek is its homestay and teahouse culture. Nights are spent in warm, family-run lodges where Sherpa hospitality shines through shared meals, laughter, and stories by the stove. These teahouses are more than accommodation — they are windows into a resilient mountain culture shaped by altitude, tradition, and deep reverence for the mountains.
 
-<br>The trek culminates with a climb to Kala Patthar, the highest point of the journey, offering the most breathtaking close-up view of Everest at sunrise. This is not just a trek; it is a journey through culture, endurance, and the heart of the Himalayas.`,
+<br>As altitude increases, the terrain transforms dramatically. Pine and rhododendron forests give way to alpine scrub, yak pastures, and eventually stark glacial landscapes. The region lies within Sagarmatha National Park, a UNESCO World Heritage Site, home to Himalayan tahrs, musk deer, snow leopards (rarely seen), and vibrant high-altitude birdlife. In spring, the lower valleys burst into color with blooming rhododendrons, while autumn brings crystal-clear skies and razor-sharp mountain views.
+
+<br>Throughout the trek, the mountains never leave your sight. Ama Dablam reveals itself in stunning profile from Tengboche and Pangboche, considered by many to be the most beautiful peak in the Himalayas. Nuptse and Lhotse loom massive as you approach Everest, while peaks like Thamserku, Kangtega, Pumori, and Lobuche East frame the valley in every direction. The sense of scale is overwhelming — photographs rarely capture how immense and alive these mountains feel.
+
+<br>Reaching Everest Base Camp itself is an experience layered with emotion. Unlike a traditional summit viewpoint, EBC is a raw, chaotic, and powerful place — a shifting landscape of ice, rock, and color where climbers prepare for one of the most dangerous ascents on Earth. The Khumbu Icefall creaks and groans nearby, prayer flags mark expedition sites, and the realization sets in that you are standing at the very threshold of Mount Everest’s south face. It feels humbling, surreal, and deeply personal.
+
+<br>The journey culminates with the ascent of Kala Patthar, the highest point of the trek and the ultimate viewpoint of Everest. From its rocky summit, trekkers witness Everest up close in all its dominance, especially at sunrise when golden light washes over Everest, Nuptse, and Pumori. This is the moment when exhaustion fades, silence takes over, and the enormity of what you’ve walked through truly sinks in.
+
+<br>The Everest Base Camp Trek is not just about reaching a destination. It is about walking through living history, sharing space with a timeless culture, and confronting both the beauty and harshness of the highest mountains on Earth. It is a journey that changes how you see mountains — and often, how you see yourself.`
     },
 
     price: 84900,
@@ -7296,7 +7519,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   day: 2,
   title: "Kathmandu → Lukla Flight (9,383 ft) – Trek to Phakding (8,563 ft)",
   details:
-    "You begin the day with an early morning transfer to the airport, accompanied by your trek leader, for the iconic flight from Kathmandu to Lukla. These flights are intentionally scheduled in the morning hours, when weather conditions are most stable, as winds often pick up later in the day. On clear days, the short flight offers spectacular aerial views of the Himalayas, setting the tone for the journey ahead.<br><br>After landing at Lukla’s dramatic mountain airstrip, you meet your support team and complete final preparations before starting the trek. The trail descends gently toward the Dudh Koshi River, easing your body into walking at altitude. You pass through charming Sherpa villages such as Chheplung, Ghat, and the small hamlets of Sano and Thulo Gumela, where mani stones, prayer wheels, and traditional houses line the path. Along the way, you encounter historic monasteries including Drangdrak Gompa and Pema Choling Gompa, adding a strong spiritual presence to the walk.<br><br></br>Throughout the day, the soothing sound of the Dudh Koshi flows beside you, while views of sacred Mount Khumbila and the striking twin peaks of Kusum Kanguru dominate the skyline. Sharing the trail with fellow trekkers, porters, and mule caravans, you gradually make your way to Phakding, where you settle in for the night—marking a gentle and rewarding first day on the Everest trail."
+    "You begin the day with an early morning transfer to the airport, accompanied by your trek leader, for the iconic flight from Kathmandu to Lukla. These flights are intentionally scheduled in the morning hours, when weather conditions are most stable, as winds often pick up later in the day. On clear days, the short flight offers spectacular aerial views of the Himalayas, setting the tone for the journey ahead.<br><br>After landing at Lukla’s dramatic mountain airstrip, you meet your support team and complete final preparations before starting the trek. The trail descends gently toward the Dudh Koshi River, easing your body into walking at altitude. You pass through charming Sherpa villages such as Chheplung, Ghat, and the small hamlets of Sano and Thulo Gumela, where mani stones, prayer wheels, and traditional houses line the path. Along the way, you encounter historic monasteries including Drangdrak Gompa and Pema Choling Gompa, adding a strong spiritual presence to the walk.<br><br>Throughout the day, the soothing sound of the Dudh Koshi flows beside you, while views of sacred Mount Khumbila and the striking twin peaks of Kusum Kanguru dominate the skyline. Sharing the trail with fellow trekkers, porters, and mule caravans, you gradually make your way to Phakding, where you settle in for the night—marking a gentle and rewarding first day on the Everest trail."
 },
       {
   day: 3,
