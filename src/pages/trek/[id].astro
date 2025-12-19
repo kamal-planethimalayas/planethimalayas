@@ -278,7 +278,7 @@ const { gallery, name } = trek;
       <div class="modal-card">
         <div class="inclusions">
         <h3>✅ Inclusions</h3>
-        <p>{trek.inclusionsNote}</p>
+        <p><span set:html={trek.inclusionsNote}</span></p>
         <p>🏕️ Trekking & Camping Equipment – Includes accommodation in tents / homestays / lodges, sleeping bags, cooking gear, and other essentials</p>
         <p>🧗 Safety Gear – Technical equipment like ropes, ice axe, microspikes, etc., wherever needed</p>
         <p>🩺 Basic Medical Support – On-trek first aid and support for minor medical issues</p>
@@ -287,7 +287,7 @@ const { gallery, name } = trek;
         </div>
         <div class="exclusions">
         <h3>❌ Exclusions</h3>
-        <p>{trek.exclusionsNote}</p>
+        <p><span set:html={trek.exclusionsNote}</span></p>
         <p>🚑 Insurance – Travel or medical insurance is not included</p>
         <p>🚨 Emergency Costs – Expenses for evacuation, rescue, or medical treatment are not covered</p>
         <p>🎒 Backpack Offloading – Available as an optional add-on at an extra charge</p>
@@ -442,6 +442,8 @@ const { gallery, name } = trek;
         <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
         <a href="#" id="open-cancellation">Cancellation & Refunds</a>
       </p>
+
+      
 
       {/* Addons inside Fixed Departure */}
           {trek.addons && (

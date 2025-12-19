@@ -7,7 +7,7 @@ export const treks = [
 {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
-    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows"],
+    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows", "teahouse"],
     difficulty: ["difficult"],
     season: ["monsoon"],
     month: ["august", "september"],
@@ -6955,7 +6955,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["intermediate", "ridgewalk", "meadows"],
+  tags: ["intermediate", "ridgewalk", "teahouse"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
@@ -7212,8 +7212,8 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 {
     id: "everest-base-camp-trek",
     name: "Everest Base Camp Trek",
-    tags: ["pro", "expedition"],
-    difficulty: ["difficult"],
+    tags: ["intermediate", "pro", "basecamp", "teahouse"],
+    difficulty: ["moderate", "difficult"],
     season: ["spring", "autumn"],
     month: ["march", "april", "may", "september", "october", "november"],
     region: "nepal",
@@ -7243,7 +7243,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "12 Nights / 13 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "18,519 ft (Kala Patthar)" },
         { emoji: "⚡", label: "Trek Distance", value: "130 Km (round trip)" },
         { emoji: "🌤️", label: "Best Time", value: "March–May & September–November" },
@@ -7271,8 +7271,11 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
       offloadingNote: "* Maximum weight 10kg/bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Meals provided during the trek from Lukla onward.<br>Airport pickup and drop off services.<br>Kathmandu-Lukla-Kathmandu flight",
-    exclusionsNote: "Meals during stay at Kathmandu.<br>Drinks, beverages, hot shower, etc during your stay at homestays on trek",
+    inclusionsNote: `🍽️ All Meals – Meals provided during the trek from Lukla onward.
+                    <br><br>🚐 Airport pickup and drop off services.
+                    <br><br>✈️ Kathmandu-Lukla-Kathmandu flight`,
+    exclusionsNote: `🍽️ Meals during stay at Kathmandu.
+                      <br><br>🚿 Drinks, beverages, hot shower, etc during your stay at homestays on trek`,
 
     highlights: [
       "Walk the legendary Khumbu trail to the base of Mount Everest, the highest peak on Earth",
@@ -7466,7 +7469,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
     },
 
     faqsLink: "/faqs-and-articles",
-  }
+  },
 
 // Add other trek objects here...
 ];
