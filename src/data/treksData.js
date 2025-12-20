@@ -7,8 +7,8 @@ export const treks = [
 {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
-    tags: ["pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows", "teahouse"],
-    difficulty: ["difficult"],
+    tags: ["intermediate", "pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows", "teahouse"],
+    difficulty: ["moderate", "difficult"],
     season: ["monsoon"],
     month: ["july", "august", "september"],
     region: "ladakh",
@@ -39,7 +39,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "⚡", label: "Trek Grade", value: "Modrate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
         { emoji: "⚡", label: "Trek Distance", value: "55–60 Km" },
         { emoji: "🌤️", label: "Best Time", value: "July to September" },
@@ -241,7 +241,7 @@ export const treks = [
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Moderate (Extreme Winter Conditions)" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
         { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
         { emoji: "🌤️", label: "Best Time", value: "January to March" },
@@ -619,8 +619,8 @@ export const treks = [
   {
   id: "nubra-valley-trek",
   name: "Nubra Valley Trek",
-  tags: ["intermediate", "pass", "meadows"],
-  difficulty: ["moderate"],
+  tags: ["intermediate", "pro", "pass", "meadows"],
+  difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
   region: "ladakh",
@@ -651,7 +651,7 @@ export const treks = [
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate - Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,582 ft (Lasermo La)" },
       { emoji: "⚡", label: "Trek Distance", value: "50–55 Km" },
       { emoji: "🌤️", label: "Best Time", value: "July - September" },
@@ -890,7 +890,7 @@ export const treks = [
   overview: {
   facts: [
     { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-    { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+    { emoji: "⚡", label: "Trek Grade", value: "Moderate - Difficult" },
     { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
     { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
     { emoji: "🌤️", label: "Best Time", value: "July to September" },
@@ -4472,6 +4472,218 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     faqsLink: "/faqs-and-articles",
   },
+
+  {
+  id: "satopanth-lake-trek",
+  name: "Satopanth Lake Trek",
+  tags: ["intermediate", "lake", "glacier", "meadows"],
+  difficulty: ["moderate"],
+  season: ["summer", "monsoon"],
+  month: ["june", "july", "august", "september"],
+  region: "uttarakhand-garhwal",
+  duration: "5 Nights / 5 Days",
+  coordinates: [
+    [30.5550, 79.5670],   // Joshimath
+    [30.7366, 79.4930],   // Mana
+    [30.7429, 79.4553]    // Satopanth Lake
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239294/satopanth_lake_qicjen.jpg",
+
+  heroImages: [
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239294/satopanth_lake_qicjen.jpg",
+   "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239410/satopanth_lake-trek-view17_jvauzq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766238387/satopanth_lake-trek-view7_upnjoo.jpg",
+  ],
+
+  subtitle: "A Sacred Himalayan Journey to the Abode of the Gods",
+
+  seo: {
+    title: "Satopanth Lake Trek | Mythology, Itinerary, Best Time & Cost | Planethimalayas",
+    description: "Satopanth Lake Trek (15,100 ft) is a spiritually rich Himalayan journey in Uttarakhand, tracing mythological trails from Mana village through glaciers, alpine meadows, and ancient legends associated with the Pandavas and the Trimurti."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "15,100 ft (Satopanth Lake)" },
+      { emoji: "📏", label: "Trek Distance", value: "22–24 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "June to September" },
+      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Mana Village" },
+      { emoji: "🏁", label: "End Point", value: "Badrinath" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" }
+    ],
+
+    snippet: `The Satopanth Lake Trek is not just a walk to a high-altitude lake — it is a journey into one of the most spiritually charged and visually dramatic corners of the Garhwal Himalayas. Hidden deep above the Alaknanda Valley, Satopanth Lake rests at around 15,100 ft, cradled by towering peaks, ancient glaciers, and silence so profound it feels timeless. This is a trail where mythology, wilderness, and raw Himalayan beauty coexist seamlessly.
+
+<br>The trek begins near the sacred town of Badrinath, one of the revered Char Dham pilgrimage sites, and moves through Mana village, known as India’s last village near the Indo-Tibetan border. Mana itself is steeped in legend — home to Bhim Pul, the roaring Saraswati River, and stories from the Mahabharata that still live in local memory. From here, the trail gradually leaves the pilgrim paths behind and enters a world shaped by glaciers, rock, and altitude.
+
+<br>Walking alongside the glacial waters of the Alaknanda River, the landscape shifts dramatically with every passing kilometer. Lush river valleys slowly give way to wide alpine meadows like Laxmi Van, believed to be a resting place of Goddess Lakshmi. Further ahead, the terrain turns rugged and austere, crossing moraines, boulder sections, and glacial debris that remind trekkers of the raw forces that shape these mountains.
+
+<br>The route is dotted with breathtaking natural landmarks. Vasudhara Falls, plunging dramatically into the valley below, is one of the most iconic sights on the trail — its thundering waters fed directly by glaciers above. Sahastradhara, meaning “a thousand streams,” presents a surreal sight where countless freshwater rivulets cascade down the mountain face, creating a living tapestry of flowing water. These waterfalls are not just visual spectacles; they are vital water sources and living symbols of the glaciers that sustain the valley.
+
+<br>As altitude increases, vegetation thins, and the landscape becomes vast and stark. Hardy alpine grasses, juniper shrubs, and rare high-altitude flowers cling to life in the short Himalayan summer. Wildlife sightings may include blue sheep (bharal) navigating steep slopes, Himalayan marmots whistling from rocky outcrops, and high-altitude birds such as lammergeiers circling effortlessly above the cliffs.
+
+<br>Dominating the skyline throughout the trek are some of Garhwal’s most legendary peaks. Chaukhamba I (7,138 m) rises like a massive fortress guarding the valley, while Neelkanth (6,596 m) — often called the Queen of Garhwal — stands in commanding elegance. Peaks like Balakun and neighboring ice-clad ridges add to the overwhelming sense of scale, making every campsite feel small beneath the mountains.
+
+<br>The final approach to Satopanth Lake is both physically demanding and emotionally powerful. The trail crosses glacial terrain and rocky ridgelines before the lake suddenly reveals itself — a pristine, emerald-green body of water with a distinct triangular shape. According to Hindu belief, each corner of the lake is occupied by Brahma, Vishnu, and Mahesh, and the lake is said to be their meditation ground. Swimming or disturbing the waters is strictly forbidden, and the stillness of the place commands quiet respect rather than celebration.
+
+<br>Standing at Satopanth, surrounded by towering rock walls, snowfields, and absolute silence, the atmosphere feels otherworldly. There are no crowds, no distractions, and no sense of urgency — only the sound of wind, distant ice movement, and the weight of the mountains around you. It is this rare combination of mythological depth, high-altitude wilderness, and raw solitude that has earned Satopanth its reputation as the “doorway to heaven.”
+
+<br>The Satopanth Lake Trek is ideal for trekkers who seek more than just scenery. It demands respect for altitude, patience with rugged terrain, and an appreciation for slow, meaningful journeys. In return, it offers an experience that feels deeply personal — a trek where every step is layered with legend, every valley tells a story, and the destination leaves a lasting imprint long after the trail ends.
+` },
+
+  price: 16900,
+  priceNote: "* Joshimath to Badrinath",
+
+  addons: {
+    transport: 7000,
+    transportNote: "* Rishikesh to Rishikesh",
+    offloadingbag: 4000,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from packed lunch on Day 1 to dinner on Day 5",
+
+  dates: [
+      
+      { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
+
+      { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
+      { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
+
+      { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
+      
+      { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
+      { label: "18 Oct - 22 Oct", start: "2026-10-18", end: "2026-10-22" },
+  ],
+
+  highlights: [
+    "Trek to the sacred Satopanth Lake, revered as the meditation site of the Hindu Trinity",
+    "Walk along the Alaknanda River through glacial valleys and dramatic moraines",
+    "Close-up views of major Garhwal peaks including Chaukhamba I (7,138 m) and Neelkanth (6,596 m)",
+    "Explore Mana Village — India’s last village near the Indo-Tibetan border",
+    "Experience a rare blend of mythology, high-altitude wilderness, and spiritual solitude"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Reporting at Joshimath (6,150 ft)",
+      details: "Arrive at Joshimath by afternoon and check into your guesthouse. Joshimath serves as a vital acclimatization base for treks in the Garhwal Himalayas. Spend the day resting, hydrating well, and taking short walks around the town. In the evening, a briefing session covers route details, altitude precautions, gear checks, and local regulations. Early dinner and overnight stay at Joshimath."
+    },
+    {
+  day: 2,
+  title: "Drive Joshimath → Mana (10,500 ft) & Trek to Laxmi Van (11,800 ft) | Trek: 7–8 km | 4–5 hrs",
+  details: "Start early with a scenic drive to Mana, India’s last village near the Indo–China border, where permits are verified before the trek begins. From Mana, the trail branches left along the Alaknanda River, initially following a well-paved pilgrim path. Around 3 km into the trek, reach the majestic Vasudhara Falls—a 400 ft cascade revered for its sacred waters, where trekkers can refill bottles. Beyond the falls, the trail transitions into glacial moraines and rocky terrain, gradually gaining altitude. After a steady ascent, arrive at Laxmi Van, a serene meadow shaded by Bhoj Patra trees and believed to be the resting place of Goddess Lakshmi. The campsite offers views of the Alkapuri Glacier, the source of the Alaknanda River, flowing from the base of Balakun Peak. Overnight stay in tents near the river. Natural water sources available."
+},
+    {
+  day: 3,
+  title: "Trek Laxmi Van (11,800 ft) → Chakrateertha (13,800 ft) | Trek: 5 km | 4–5 hrs",
+  details: "Today’s trek is more demanding than the previous day, with an altitude gain of over 2,000 ft as you enter the dramatic Satopanth Valley. The trail continues along the left bank of the Alaknanda River, gradually transitioning into open grasslands that run through the terminal moraine of the Dhano Glacier. As you progress, the landscape becomes increasingly alpine and, on clear days, the majestic Bhagirathi peaks begin to reveal themselves ahead. After trekking for around 5 km, reach the spectacular Sahastradhara—an impressive cascade formed by over a hundred small waterfalls flowing down a massive rock face. From here, Mt. Neelkanth dominates the skyline to your left. Since weather conditions tend to change rapidly post noon, an early start is crucial. Chakrateertha campsite lies about 30 minutes beyond Sahastradhara, set on a flat clearing surrounded by towering Himalayan peaks. Temperatures range between 5°C to 10°C during the day and can drop to 0°C to -5°C at night. Proper layering is essential. This altitude also demands close monitoring for AMS symptoms such as headache, nausea, fatigue, dizziness, or loss of appetite—report immediately to the Trek Leader if any signs appear. Overnight stay in tents amidst pristine wilderness."
+},
+    {
+  day: 4,
+  title: "Trek Chakrateertha (13,800 ft) → Satopanth Tal (14,100 ft) → Chakrateertha | Trek: 6–7 km | 5–6 hrs",
+  details: "Today is the most anticipated and visually striking day of the trek as you journey to the sacred Satopanth Tal. Wake up to a breathtaking amphitheatre of peaks—Mt. Chaukhamba standing tall at the center, Mt. Neelkanth to the left, and Mt. Balakun guarding the right—an unforgettable Himalayan panorama. The trek begins on gentle, flat grasslands for the first couple of kilometers, offering a relaxed start before the terrain gradually becomes rugged. The trail then weaves through boulder zones and glacial moraines, a technically tricky section that demands careful footing; trekking poles are highly recommended here. As you continue along the ridge, the lake remains hidden until the final ascent, adding to the sense of anticipation. Suddenly, Satopanth Tal reveals itself—an expansive, triangular glacial lake with a perimeter of over one kilometer, shimmering in deep shades of blue. Steeped in mythology, it is believed that the holy trinity—Brahma, Vishnu, and Mahesh—meditated at the three corners of the lake. Nearby stands a small stone shelter, said to be the abode of the revered sage Mauni Baba. Remarkably, the lake’s crystal-clear waters remain pristine throughout the year. On exceptionally clear days, trekkers can spot three of the legendary seven steps of the Swargarohini Glacier, believed to be the path taken by the Pandavas on their ascent to heaven. Spend time absorbing the silence, scale, and spiritual energy of this sacred place before beginning the descent back to Chakrateertha. The return trek takes approximately 2–3 hours. Overnight stay in tents."
+},
+    {
+  day: 5,
+  title: "Trek Chakrateertha → Badrinath (10,300 ft) via Laxmivan & Mana | Trek: 15 km | 5–6 hrs",
+  details: "Today marks the final day of trekking as you descend from the high alpine terrain back to the sacred town of Badrinath. An early start is essential due to the long distance involved. After breakfast, begin retracing the same trail used during the ascent. The descent is gradual yet steady, first leading down to the serene meadows of Laxmivan, followed by a continued descent towards Mana—the last village of India near the Indo-Tibetan border. From Mana, the trail transitions into a gentle walk towards Badrinath, offering a comfortable finish to the journey. Upon reaching Badrinath, check into a hotel and take time to rest and freshen up. In the evening, explore the local market, visit the revered Badrinath Temple, or unwind at the natural hot water spring, a perfect way to relax tired muscles after days in the mountains."
+}
+  ],
+
+  didYouKnow: [
+    "<b>Satopanth Lake is triangular in shape.</b><br>Each corner is associated with Brahma, Vishnu, and Mahesh.",
+    "<b>The trail overlaps with the legendary Swargarohini path.</b><br>Believed to be the route taken by the Pandavas toward heaven.",
+    "<b>Swimming in Satopanth Lake is strictly forbidden.</b><br>It is considered deeply sacred by locals and pilgrims.",
+    "<b>Neelkanth Peak is called the 'Queen of Garhwal'.</b><br>Its reflection is often visible during clear mornings."
+  ],
+
+  howToReach: {
+    air: "Nearest Airport: Jolly Grant Airport, Dehradun (approx. 290 km from Joshimath).",
+    train: "Nearest Railway Station: Haridwar / Rishikesh. Continue by road to Joshimath.",
+    road: "Joshimath is well connected via Haridwar–Rishikesh–Chamoli route.",
+    travelTip: "Plan an extra buffer day in case of weather-related delays in the mountains."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766238287/satopanth_lake-trek-view6_j09ngy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766238387/satopanth_lake-trek-view7_upnjoo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766238900/satopanth_lake-trek-view8_ktrdui.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766238153/satopanth_lake-trek-view5_o23vab.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239179/satopanth_lake-trek-view14_vo9cf9.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239200/satopanth_lake-trek-view10_qwonei.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239203/satopanth_lake-trek-view11_a6rxos.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239204/satopanth_lake-trek-view12_o0n8o6.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239211/satopanth_lake-trek-view15_chvrnd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239218/satopanth_lake-trek-view20_wggqr2.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239223/satopanth_lake-trek-view21_r65prx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239234/satopanth_lake-trek-view23_veuyo7.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239240/satopanth_lake-trek-view24_b7bjmw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239243/satopanth_lake-trek-view13_ueedzs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239252/satopanth_lake-trek-view16_pa7u4h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239279/satopanth_lake-trek-view26_ts2rv1.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239286/satopanth_lake-trek-view22_v0wgng.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239297/satopanth_lake-trek-view28_wyraoe.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239304/satopanth_lake-trek-view27_ynlfot.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239355/satopanth_lake-trek-view29_mjlvbd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239358/satopanth_lake-trek-view2_lzuv7k.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239368/satopanth_lake-trek-view_dloz1q.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239394/satopanth_lake-trek-view3_m3dser.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239412/satopanth_lake-trek-view9_qjfdwc.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239423/satopanth_lake-trek-view19_tcmi1q.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239428/satopanth_lake-trek-view18_cwo6gs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239294/satopanth_lake_qicjen.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239410/satopanth_lake-trek-view17_jvauzq.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239315/satopanth_lake-trek-view25_kaqujl.jpg",
+
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who should attempt the Satopanth Lake Trek?",
+        answer: "This trek is suitable for fit beginners with prior trekking experience and intermediate trekkers comfortable with long walking days and high altitude."
+      },
+      {
+        question: "How difficult is the Satopanth Lake Trek?",
+        answer: "It is a moderate trek with rocky terrain and glacier sections. Altitude is the primary challenge rather than technical difficulty."
+      },
+      {
+        question: "Is acclimatization important for this trek?",
+        answer: "Yes. Spending a night at Joshimath is essential to reduce the risk of altitude sickness."
+      },
+      {
+        question: "Are permits required?",
+        answer: "Yes. Forest permits are required and are arranged at Mana village. Foreign nationals may require additional documentation."
+      },
+      {
+        question: "What is the best time to do this trek?",
+        answer: "June to September offers the safest conditions. Early season has snow, while late monsoon offers greener landscapes but occasional rain."
+      },
+      {
+        question: "What kind of weather should I expect?",
+        answer: "Day temperatures range between 10–15°C, while nights can drop to 0°C or below near Satopanth."
+      },
+      {
+        question: "Is travel insurance mandatory?",
+        answer: "Strongly recommended, especially covering high-altitude trekking and evacuation."
+      },
+      {
+        question: "What nearby places can be visited with extra time?",
+        answer: "Badrinath Temple, Vasudhara Falls, Mana village attractions, and Valley of Flowers (seasonal)."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles"
+},
 
   {
   id: "kuari-pass-trek",
