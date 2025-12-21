@@ -2973,10 +2973,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      
-{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
-{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
-{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+
 { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
 { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
@@ -3220,10 +3217,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-           
-{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
-{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
-{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+
 { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
 { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
@@ -4555,7 +4549,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
 
       { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
-      
+
       { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
       { label: "18 Oct - 22 Oct", start: "2026-10-18", end: "2026-10-22" },
   ],
@@ -4750,10 +4744,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [ 
-    
-    { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
-    { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
-    { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+
     { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
     { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
     { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
@@ -4989,10 +4980,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 5",
 
   dates: [   
-    
-{ label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
-{ label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
-{ label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+
 { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
 { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
@@ -5223,10 +5211,7 @@ itinerary: [
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
   dates: [
-    
-    { label: "27 Dec - 31 Dec", start: "2025-12-27", end: "2025-12-31" },
-    { label: "28 Dec - 01 Jan", start: "2025-12-28", end: "2026-01-01" },
-    { label: "29 Dec - 02 Jan", start: "2025-12-29", end: "2026-01-02" },
+
     { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
     { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
     { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },

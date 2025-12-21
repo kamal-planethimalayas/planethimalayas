@@ -522,7 +522,9 @@ const { gallery, name } = trek;
 
     {/* Trek snippet */}
     <div class="snippet-wrapper">
-      <div class="trek-overview-snippet" set:html={trek.overview.snippet}></div>
+      <div class="trek-overview-snippet" set:html={trek.overview.snippet}>
+        <h2 class="trek-overview-title">Walking <span>The Trail</span></h2>
+      </div>
       <span class="read-more-link">Read More</span>
     </div>
     </div>
@@ -1760,7 +1762,7 @@ const { gallery, name } = trek;
 }
 
 .trek-overview-card li {
-  background-color: #ffffff;
+  background-color: #ff7300;
   border-radius: 8px;
   display: flex;
   align-items: flex-start; /* fixes the text wrap alignment */
@@ -1768,6 +1770,7 @@ const { gallery, name } = trek;
   font-size: 1rem;
   line-height: 1.6;
   text-align: left;
+  padding: 1rem;
 }
 
 /* Desktop: 3 items per row */
