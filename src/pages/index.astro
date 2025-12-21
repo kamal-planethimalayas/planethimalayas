@@ -87,11 +87,11 @@ import "../styles/global.css";
 <section class="trek-section reveal">
   <h2>Trending <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('spring', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="spring">
+    <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="winter">
       {
         treks
-          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring'))
+          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('winter'))
           .map(trek => {
             const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
             const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
@@ -141,7 +141,7 @@ import "../styles/global.css";
           })
       }
     </div>
-    <button class="scroll-btn right" onclick="scrollCards('spring', 1)">&gt;</button>
+    <button class="scroll-btn right" onclick="scrollCards('winter', 1)">&gt;</button>
   </div>
 </section>
 

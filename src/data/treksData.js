@@ -2928,9 +2928,11 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
+    heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
 
-    heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
+    heroImages: [
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517485/ali-bedni-view6_ofmkxs.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153747/IMG_20170919_090518_jkbosf.jpg",
     ],
@@ -3105,7 +3107,13 @@ seo: {
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517466/ali-bedni-view11_pzgmcn.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517465/ali-bedni-view9_k1surt.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero_ttwxwq.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg"
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319547/ali-bedni-bugyal-view_mqzwpu.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319537/ali-bedni-bugyal-view2_ifuite.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view3_vxag5s.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319537/ali-bedni-bugyal-view1_qo0bjn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319537/ali-bedni-bugyal-view5_cj5kcn.jpg"
 
     ],
 
@@ -3432,7 +3440,7 @@ seo: {
         { emoji: "🏔️", label: "Max Altitude", value: "14,600 ft (Meru Base Camp)" },
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
-        { emoji: "🗺️", label: "Region", value: "Uttarkashi district, Gangotri National Park, Uttarakhand" },
+        { emoji: "🗺️", label: "Region", value: "Gangotri National Park, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Gangotri (Uttarakhand)" },
         { emoji: "🏁", label: "End Point", value: "Gangotri (Uttarakhand)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
@@ -3450,7 +3458,7 @@ seo: {
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 6000, 
-      offloadingbag: 2500,
+      offloadingbag: 4000,
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
@@ -3606,6 +3614,233 @@ seo: {
   },
 
   {
+    id: "nandanvan-vasukital-trek",
+    name: "Nandanvan Vasukital Trek",
+    tags: ["pro", "glacier", "meadows", "lake"],
+    difficulty: ["difficult"],
+    season: ["summer", "autumn"],
+    month: ["june", "july", "october", "september"],
+    region: "uttarakhand-garhwal",
+    duration: "7 Nights / 7 Days",
+    coordinates: [
+      [30.9947, 78.9398],   // Gangotri
+      [30.9632, 79.0629],   // Bhojbasa
+      [30.9338, 79.1046],   // Nandanvan
+      [30.9076, 79.1314]    // Vasukital
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321981/vasukital-trek-hero_xealyu.jpg",
+
+    heroImages: [
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321981/vasukital-trek-hero_xealyu.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321977/vasukital-trek-hero1_zoibct.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322003/vasukital-trek-hero2_g5ponr.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322018/vasukital-trek-hero3_b4l1dj.jpg"
+    ],
+
+    subtitle: "A Sacred High-Altitude Journey Beneath the Great Himalayan Giants",
+
+    seo: {
+      title: "Nandanvan Vasukital Trek | Mt Shivling, Bhagirathi Peaks, Itinerary & Cost | Planethimalayas",
+      description: "The Nandanvan Vasukital Trek is a demanding high-altitude Himalayan trek taking trekkers deep into the Gangotri Glacier basin, offering close-up views of Mt. Shivling, Bhagirathi I–III, Kedardome, Meru, and the pristine Vasukital Lake underneath Vasuki Parvat."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "16,200 ft (Vasukital)" },
+        { emoji: "📏", label: "Trek Distance", value: "46–48 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "June - July / September - october" },
+        { emoji: "🗺️", label: "Region", value: "Gangotri National Park, Uttarakhand" },
+        { emoji: "📍", label: "Start Point", value: "Gangotri" },
+        { emoji: "🏁", label: "End Point", value: "Gangotri" },
+        { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+      ],
+
+      snippet: `The Nandanvan–Vasukital Trek is not merely a high-altitude journey — it is a slow, deliberate walk into the geological and spiritual core of the Indian Himalayas. This is a land where mountains are still being shaped, where glaciers grind valleys into existence, and where silence carries a weight that words often fail to describe.
+
+<br>The journey begins at Gangotri (10,200 ft), one of the most sacred towns in the Himalayas and the revered source of the River Ganga. Here, the Bhagirathi flows young and fierce, cutting through rock and forest before beginning its long journey across the plains. As we step onto the trail, the sound of the river becomes our constant companion — sometimes distant, sometimes thunderous — reminding us that water, ice, and time are the true architects of this landscape.
+
+<br>The initial walk toward Chirbasa and Bhojbasa traces the edge of the massive Gangotri Glacier, one of the longest glaciers in the Himalayas. Ancient chir pine forests thin out as altitude increases, giving way to stark moraine fields, glacial debris, and wide riverbeds carved by seasonal meltwater. Blue sheep are often spotted traversing steep slopes above, while Himalayan griffons and lammergeiers circle effortlessly overhead. Vegetation becomes sparse — hardy alpine shrubs, mosses, and lichens clinging to life in a climate defined by cold winds and intense sunlight.
+
+<br>As Bhojbasa (12,450 ft) comes into view, the scale of the terrain begins to overwhelm the senses. The glacier stretches endlessly, its cracked surface groaning softly beneath the sun. And then, almost suddenly, Mt. Shivling (6,543 m / 21,467 ft) rises into view — sharp, symmetrical, and commanding. Few mountains in the Himalayas evoke such awe. From here onward, the trek shifts from a pilgrimage path into a serious high-mountain expedition.
+
+<br>Ahead lies Gaumukh (13,200 ft), the iconic snout of the Gangotri Glacier — the physical birthplace of the Ganga. Standing before this massive wall of ice, watching icy blue water emerge from its depths, one understands the true scale of glacial power. This is a living, moving river of ice, sculpting the land inch by inch. From Gaumukh, the trail turns technical, crossing the width of the Gangotri Glacier’s terminal moraine — a chaotic world of boulders, shifting rocks, and hidden crevasses that demands absolute focus and respect.
+
+<br>The climb to Nandanvan (14,200 ft) is steep and unrelenting, ascending through loose moraines and unstable rock. Each step must be placed carefully. And then, quite suddenly, the terrain opens into one of the most dramatic alpine meadows in the Himalayas. Nandanvan sits directly opposite the Bhagirathi massif — Bhagirathi I (6,856 m), II (6,512 m), and III (6,454 m) — with Mt. Shivling dominating the skyline and Meru (6,660 m) and Sudarshan (6,507 m) completing a near-perfect amphitheater of peaks. Camps are pitched beside glacial streams, surrounded by walls of rock and ice that glow gold at sunrise and burn crimson at sunset.
+
+<br>This region is the cradle of Indian mountaineering. Countless expeditions have staged their climbs from these very meadows — attempts on Bhagirathi, Shivling, Meru, Kalindi Pass, and beyond. Even today, climbers use Nandanvan and Vasukital as acclimatization grounds, their tents dotting the landscape like small, temporary scars in an otherwise untouched wilderness.
+
+<br>The day hike to Vasukital (16,200 ft) pushes deeper into this raw world. The route follows the Kalindi trail along the lateral moraine of the Chaturangi Glacier, gradually ascending before turning sharply upward across steep, unstable slopes. Fixed ropes are often required here, a reminder that the mountains do not yield easily. And then, at the end of this demanding climb, Vasukital reveals itself — a high-altitude glacial lake resting beneath Vasuki Parvat (6,756 m / 22,165 ft). Often frozen, eerily silent, and framed by barren rock walls, the lake feels untouched by time, a place few ever reach.
+
+<br>Weather in this region is unpredictable and extreme. Days can swing from brilliant sunshine to biting winds within minutes. Nights plunge well below freezing even in summer. The air is thin, the terrain unforgiving, and the isolation complete. Yet within this harshness lies an unmatched beauty — the play of clouds across ice walls, the slow movement of glaciers, and the overwhelming sense of Earth still shaping itself before your eyes.
+
+<br>This trek is not about ticking destinations off a list. It is about understanding scale, patience, and humility. Walking these trails, you witness firsthand the forces that carve mountains, feed rivers, and sustain life far beyond the Himalayas. For seasoned trekkers seeking a profound connection with high-altitude wilderness, Nandanvan–Vasukital is not just a trek — it is a masterclass in nature’s raw power and quiet grace.`
+ },
+
+    price: 26900,
+    priceNote: "* Gangotri to Gangotri",
+    addons: {
+      transport: 6000,
+      transportNote: "* Rishikesh to Rishikesh.",
+      offloadingbag: 5000,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from dinner on Day 1 to dinner on Day 7",
+
+    dates: [
+      
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+
+      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+
+      { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
+    ],
+
+    highlights: [
+      "Trek alongside the massive Gangotri Glacier, one of the largest glaciers in the Himalayas",
+      "Get close-up views of Mt. Shivling, often called the most beautiful mountain in India",
+      "Camp at Nandanvan meadow surrounded by Bhagirathi I, II & III, Meru, and Sudarshan peaks",
+      "Visit the remote and pristine Vasukital Lake, hidden high above the Gangotri basin",
+      "Experience the spiritual atmosphere of Gangotri, one of the Char Dham pilgrimage sites"
+    ],
+
+    itinerary: [
+      {
+    day: 1,
+    title: "Arrive in Gangotri (3,048 m / 10,000 ft) | Reporting Day",
+    details: "The journey begins with a long but beautiful 9–10 hour drive from Rishikesh, gradually gaining altitude as the road winds past Uttarkashi, the apple orchards of Harsil Valley, and the ever-changing moods of the Bhagirathi River. The final approach to Gangotri feels almost sacred — steep cliffs, deodar forests, and the roar of the river echoing through the valley. By evening, you reach the ancient Gangotri Temple, one of the revered Char Dhams of Uttarakhand. Offering prayers here as the sun sets behind the mountains sets the tone for the days ahead. Nightfall brings crisp mountain air and a peaceful stay at a local guesthouse or hotel."
+  },
+  {
+    day: 2,
+    title: "Acclimatization in Gangotri",
+    details: "Since Gangotri is at an altitude of 10,000 ft, a full day in Gangotri helps your body adjust to the altitude. The day feels relaxed yet enriching — you can walk to Pandava Gufa, a quiet cave surrounded by pine forests, or visit Surya Kund, where the Bhagirathi crashes through a dramatic gorge. Trek leaders conduct a detailed briefing and gear inspection while the slow pace allows you to observe the wildlife of this region. Himalayan griffon vultures circle the cliffs above, yellow-billed choughs hop fearlessly around temple steps, and mountain breezes drift through the valley. The night is spent once again in Gangotri, giving your body the ideal acclimatization window."
+  },
+  {
+    day: 3,
+    title: "Gangotri to Bhojwasa (3,780 m) | 14 km | 6–7 hrs",
+    details: "The trek truly begins as you step into the protected limits of Gangotri National Park. The initial trail moves through mixed forests of oak, pine, and birch before transitioning into a more alpine landscape. For much of the day, the Bhagirathi River accompanies you — sometimes as a distant roar, sometimes rushing right beside the trail. The route passes through Chirbasa, a place literally named “the home of pines,” where the forest thickens and the air carries the resinous scent of blue pine. Beyond Chirbasa, vegetation thins out and the valley opens wide. Eventually, you reach the windswept plain of Bhojwasa, named after the bhojpatra (birch) forests that once flourished here. With views of the Bhagirathi peaks dominating the horizon and the last line of trees behind you, you settle into camps pitched beside the river — a dramatic setting for the night."
+  },
+      {
+  day: 4,
+  title: "Bhojbasa (12,450 ft) → Nandanvan (14,200 ft) | Trek: 6 km | 4–5 hrs",
+  details: "Begin early from Bhojbasa and cross the Bhagirathi River using the fixed trolley system, which may involve some waiting depending on conditions. After the crossing, follow the familiar trail toward Gaumukh, walking along the wide, gravelly riverbed carved by the Bhagirathi. The dramatic ice snout of the Gangotri Glacier soon comes into view — an immense wall of ice and debris from where the sacred Ganga emerges, marking one of the most powerful landscapes in the Indian Himalayas.\n\nFrom Gaumukh, the route diverges from the Tapovan trail. Instead of climbing upward, the path traverses the entire width of the Gangotri Glacier’s terminal moraine. This section is technically demanding and requires extreme caution. You will walk across loose moraines, unstable boulders, and ice-polished rock slabs, with several open crevasses hidden beneath debris. The terrain here is fragile and constantly shifting — it is absolutely essential to stay close to the guide, follow instructions carefully, and avoid unnecessary movements or shortcuts.\n\nAfter safely crossing the glacier, the trail begins a steep ascent on the opposite side, climbing through loose scree, moraines, and large boulders for nearly an hour. This final push demands patience and controlled movement, as the ground remains unstable.\n\nThe effort is richly rewarded upon reaching Nandanvan — a high-altitude alpine meadow dramatically perched above the Gangotri Glacier. The campsite lies beside a clear glacial stream, surrounded by some of the most iconic Himalayan giants. Mt. Shivling (21,467 ft) rises sharply to the south, while Bhagirathi I (22,489 ft), Bhagirathi II (21,290 ft), and Bhagirathi III (21,151 ft) dominate the skyline. Meru (21,850 ft) and Sudarshan Parbat (21,345 ft) complete the amphitheater of peaks, creating a setting that feels both overwhelming and deeply humbling. Overnight camping at Nandanvan."
+},
+      {
+  day: 5,
+  title: "Nandanvan (14,200 ft) → Vasukital (16,200 ft) → Nandanvan | Trek: 12 km | 7–8 hrs",
+  details: "Depart early from Nandanvan and move eastward toward Vasuki Parvat, following the Kalindi Pass trail. The route initially traces the lateral moraine ridge of the Chaturangi Glacier, offering a steady and largely gradual ascent. This section is deceptively comfortable, with wide views opening toward the Bhagirathi massif while the glacier flows silently below, etched deep into the valley.\n\nAs the meadow ends, the trail descends briefly toward a connecting glacier that drains down from the slopes of Bhagirathi peaks and Vasuki Parvat. After carefully crossing this icy stretch, the route turns sharply upward. What follows is the most demanding section of the day — a near-vertical climb up the opposite lateral moraine leading directly toward Vasukital. The ascent is extremely steep, close to a 90-degree incline in places, composed of loose scree, unstable moraines, and large boulders. Due to the high risk of slipping and rock movement, fixed ropes are commonly used here, usually set up by seasonal climbers. Trekkers must use the rope for both balance and safety while ascending this exposed slope.\n\nOnce this technical section is negotiated, Vasukital suddenly comes into view — a pristine high-altitude lake resting on a flat alpine shelf directly beneath Vasuki Parvat (21,075 ft). The lake sits in stark isolation, often holding ice even during peak summer months. This area serves as a seasonal base camp for climbers attempting Bhagirathi peaks, as well as an important acclimatization ground for expeditions heading toward Kalindi Pass, Satopanth, and other major summits of the region.\n\nSpend time at the lake absorbing the silence and raw grandeur of the surroundings before beginning the descent. The return follows the same route — carefully down-climbing the steep moraine using the fixed rope, followed by an easy and relaxed walk back along the Chaturangi Glacier’s lateral ridge toward Nandanvan.\n\nAs the day winds down, the return journey is illuminated by warm evening light, with the skyline dominated by the striking forms of Mt. Shivling, Meru, and Bhagirathi Parvat. The changing colors across ice, rock, and snow make for a memorable sunset walk back to camp. Overnight stay at Nandanvan."
+},
+      {
+        day: 6,
+        title: "Nandanvan (14,200 ft) → Bhojbasa (12,450 ft) | Trek: 6 km | 4–5 hrs",
+        details: "Descend carefully back across the glacier to Bhojbasa. Though downhill, the moraine terrain requires focus and balance. The descent offers renewed perspectives of the glacier and surrounding peaks. Rest and recover at Bhojbasa."
+      },
+      {
+        day: 7,
+        title: "Bhojbasa (12,450 ft) → Gangotri (10,050 ft) | Trek: 14 km | 4–5 hrs",
+        details: "Retrace your steps along the Bhagirathi River back to Gangotri. The return walk feels easier as altitude decreases. Reach Gangotri by afternoon, marking the end of a powerful high-altitude Himalayan journey."
+      }
+    ],
+
+    didYouKnow: [
+      "<b>Mt. Shivling is considered the symbolic representation of Lord Shiva.</b><br>Its near-perfect pyramid shape makes it one of the most photographed peaks in the Himalayas.",
+      "<b>Nandanvan has been a base for legendary Indian mountaineering expeditions.</b><br>Many historic climbs of Bhagirathi peaks started from this meadow.",
+      "<b>Vasukital remains frozen for most of the year.</b><br>Even in peak summer, floating ice sheets are common on the lake’s surface.",
+      "<b>The Gangotri Glacier is one of the primary sources of the Ganga.</b><br>The Bhagirathi River emerges from Gaumukh, just above Bhojbasa."
+    ],
+
+    howToReach: {
+      air: "Nearest Airport: Jolly Grant Airport, Dehradun (approx. 250 km).",
+      train: "Nearest Railway Station: Rishikesh (approx. 235 km).",
+      road: "Gangotri is accessible by road from Rishikesh and Dehradun via Uttarkashi.",
+      travelTip: "Plan buffer days as road access can be affected by weather or landslides during monsoon."
+    },
+
+    gallery: [
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321981/vasukital-trek-hero_xealyu.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321977/vasukital-trek-hero1_zoibct.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322003/vasukital-trek-hero2_g5ponr.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322018/vasukital-trek-hero3_b4l1dj.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322038/vasukital-trek-view3_lwcf5m.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322032/vasukital-trek-view_jhc2ac.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322028/vasukital-trek-view6_htdpjt.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322028/vasukital-trek-view8_azv5ci.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322016/vasukital-trek-view5_vpleqq.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766322010/vasukital-trek-view4_cxrgvp.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321997/vasukital-trek-view1_kzttxh.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321990/gangotri-dham_jlevpb.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321978/vasukital-trek-view9_yrbpih.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321978/vasukital-trek-view17_vps6nq.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321977/vasukital-trek-view12_fn7inx.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321957/vasukital-trek-view15_fqigas.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321947/vasukital-trek-view14_jqevkr.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+    faqs: {
+     questions: [
+  {
+    question: "Who should attempt the Nandanvan Vasukital Trek?",
+    answer: "The Nandanvan Vasukital Trek is strictly meant for experienced trekkers only. Participants must have prior high-altitude trekking experience above 4,500 m and should be comfortable walking on glaciers, loose moraines, steep ascents, and exposed terrain. This trek is not suitable for beginners or first-time Himalayan trekkers due to its remoteness, technical sections, and physical demands."
+  },
+  {
+    question: "How difficult is the Nandanvan Vasukital Trek?",
+    answer: "This trek is classified as Difficult to Very Difficult. The challenges include rapid altitude gain, long trekking hours, glacial crossings, unstable moraine slopes, steep ascents near Vasukital, and extreme weather conditions. The terrain is remote and unforgiving, requiring strong physical endurance and mental resilience."
+  },
+  {
+    question: "Is prior acclimatization mandatory?",
+    answer: "Yes, proper acclimatization is mandatory. A minimum acclimatization stay at Gangotri is essential due to the rapid gain in altitude. The itinerary is designed to allow gradual acclimatization, but trekkers must monitor their health closely to avoid Acute Mountain Sickness (AMS), which can be dangerous in this remote region."
+  },
+  {
+    question: "How should I prepare for the trek?",
+    answer: "Preparation should begin at least 6–8 weeks before the trek. Trekkers should focus on cardiovascular endurance through running, cycling, or stair climbing, along with strength training for legs and core. Prior experience on high-altitude treks, glacier terrain, and carrying a loaded backpack is strongly recommended."
+  },
+  {
+  question: "What is the best time to do the Nandanvan Vasukital Trek?",
+  answer: "The best time to attempt the Nandanvan Vasukital Trek is from mid-May to the end of June, and again from mid-September to the end of October. During these windows, weather conditions are relatively stable and glacier crossings are manageable. Early season offers dramatic snow and ice formations, while the post-monsoon period brings clearer skies and sharper mountain views with colder temperatures. Outside these periods, the region becomes unsafe due to monsoon instability, heavy snowfall, and extreme weather."
+  },
+  {
+    question: "Are permits required for this trek?",
+    answer: "Yes, permits for Gangotri National Park are mandatory. Permit charges differ for Indian and foreign nationals and are issued by the forest department. These permits are usually arranged by the trek operator and must be carried throughout the trek."
+  },
+  {
+    question: "How cold does it get on the trek?",
+    answer: "Day temperatures range between 5°C to 15°C, while night temperatures can drop to -5°C or lower at higher camps such as Nandanvan. Weather conditions can change rapidly, and strong winds are common at higher altitudes."
+  },
+  {
+    question: "Is water available throughout the trek?",
+    answer: "Water is available from glacial streams and snowmelt, but it is not always safe to drink directly. Using a filtered water bottle, chlorine tablets, or purification drops is highly recommended throughout the trek."
+  },
+  {
+    question: "What kind of accommodation is available?",
+    answer: "Accommodation beyond Gangotri is in tents only. At Bhojwasa, basic facilities such as GMVN rest house and ashrams are available, but all higher camps including Nandanvan are fully tented camps in remote alpine terrain."
+  },
+  {
+    question: "Is insurance mandatory for this trek?",
+    answer: "Yes, high-altitude trekking insurance is mandatory. The insurance must cover emergency evacuation, medical expenses, and high-altitude trekking activities due to the remoteness and technical nature of the route."
+  },
+  {
+    question: "What are the rescue and emergency arrangements?",
+    answer: "Rescue operations in this region are challenging due to terrain and weather. Trek operators follow strict safety protocols, carry medical kits, and have evacuation plans in place. In emergencies, assistance may involve long evacuation times and coordination with local authorities."
+  },
+  {
+    question: "Is mobile network available on the trek?",
+    answer: "Mobile network is available only at Gangotri. Beyond Gangotri, the trek is completely off-grid with no mobile connectivity."
+  }
+]
+    },
+
+    faqsLink: "/faqs-and-articles"
+},
+
+
+  {
   id: "kedartal-trek",
   name: "Kedartal Trek",
   tags: ["intermediate", "pro", "lake", "glacier", "meadows"],
@@ -3676,7 +3911,7 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   addons: {
     transport: 6000,
     transportNote: "* Dehradun to Dehradun (shared vehicle basis)",
-    offloadingbag: 2500,
+    offloadingbag: 4000,
     offloadingNote: "* Maximum weight 9kg / bag"
   },
 
@@ -6869,7 +7104,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
     name: "Goechala Trek",
     tags: ["pro", "lake", "glacier", "meadows"],
     difficulty: ["difficult"],
-    season: ["spring", "summer", "autumn","winter"],
+    season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
     duration: ["9 Nights / 9 Days"],
     region: "sikkim",
