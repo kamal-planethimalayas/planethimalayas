@@ -7352,8 +7352,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
   id: "dzongri-winter-trek",
   name: "Dzongri Winter Trek",
 
-  tags: ["intermediate", "pro", "meadows"],
-  difficulty: ["moderate-difficult"],
+  tags: ["intermediate", "meadows"],
+  difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["december", "january", "february"],
   duration: ["7 Nights / 7 Days"],
@@ -7374,7 +7374,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
   ],
 
-  subtitle: "Winter Silence, Golden Sunrise & The Face of Kanchenjunga",
+  subtitle: "Winter Silence, Golden Sunrise & The Face of Kangchendzonga",
 
   seo: {
     title:
@@ -7414,7 +7414,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 <br>In winter, Dzongri is more than a viewpoint. It is a sanctuary of snow and silence, a front-row seat to Kanchenjunga’s majesty, and a rare chance to experience the Himalaya in its most honest, undisturbed form. A journey that does not shout for attention, but stays with you — quietly, deeply, and forever.`
   },
 
-  price: 16900,
+  price: 17900,
   priceNote: "* Yuksom to Yuksom",
   addons: {
       transport: 5000, 
