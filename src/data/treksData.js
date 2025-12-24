@@ -1711,6 +1711,228 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   }
 },
 
+{
+  id: "miyar-valley-trek",
+  name: "Miyar Valley Trek",
+  tags: ["beginner", "intermediate", "glacier", "meadows", "lake"],
+  difficulty: ["moderate"],
+  season: ["monsoon"],
+  month: ["july", "august", "september"],
+  region: "himachal pradesh",
+  duration: "7 Nights / 7 Days",
+  coordinates: [
+  [32.6785, 76.9143], // Udaipur (start)
+  [32.7040, 76.9680], // Khanjar (last motorable village)
+  [32.7330, 77.0035], // Yolling campsite
+  [32.7620, 77.0350], // Zardong campsite
+  [32.7905, 77.0700], // Palpu campsite
+  [32.8175, 77.0930], // Gompa campsite
+  [32.8350, 77.1025], // Tharang campsite
+  [32.8510, 77.1130], // Miyar Glacier viewpoint / Kesar Yon Choo
+  [32.9041, 77.0847], // Khanjar (return point / optional drive)
+],
+
+  heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580508/miyar-valley-hero1_th1gbs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580500/miyar-valley-view2_chy4kv.webp",
+  ],
+
+  subtitle: "The Valley of a Thousand Glaciers",
+
+  seo: {
+    title: "Miyar Valley Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description:
+      "Miyar Valley Trek is one of the most remote and pristine Himalayan trails in Himachal Pradesh. Walk through wildflower meadows, ancient villages, and massive glaciers in this true expedition-style trek."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft" },
+      { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
+      { emoji: "🌤️", label: "Best Time", value: "July to September" },
+      { emoji: "🗺️", label: "Region", value: "Lahaul, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Khanjer Village" },
+      { emoji: "🏁", label: "End Point", value: "Khanjer Village" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
+    ],
+    snippet: `The Miyar Valley Trek is a rare passage into the true heart of Lahaul — a region that remained hidden from trekkers for decades, shielded behind the long closures of Rohtang Pass. With the opening of the Atal Tunnel, this remote Himalayan world finally became accessible during the monsoon months, when Lahaul transforms into a landscape of colour, water, and life. What lies beyond the tunnel is not just a trek, but an invitation into one of the least explored valleys of the Indian Himalayas.
+
+<br>Miyar Valley rests quietly between the high walls of Zanskar and Chamba, unfolding in a graceful S-shaped stretch that runs for nearly 75 kilometres. It is a valley where distance is not measured in kilometres but in how deeply you step away from civilisation. As you walk along the Miyar Nallah, the trail alternates between forgotten mountain hamlets, vast river-fed meadows, and slopes bursting with alpine flowers — many of them rare Himalayan orchids that bloom freely here, untouched by crowds.
+
+<br>The valley slowly reveals its true scale. Massive walls of rock rise on either side, glaciers spill down from hidden cirques, and the sound of flowing water follows you everywhere. The Miyar Glacier dominates the upper reaches — a colossal river of ice stretching deep toward Kang La, a high pass that once connected traders and shepherds to Zanskar. Near its snout lie serene, blue glacial pools, revered by locals and Buddhists alike, adding a quiet spiritual weight to the landscape.
+
+<br>This trek is also a walk through mountaineering history. Long before trekkers arrived, climbers from across the world came here to test themselves against legendary peaks like Menthosa, the Fortress Peaks, and the Tharang massif. As you move through the valley, these giants stand fully exposed — from base to summit — their rugged faces streaked with colour, ice, and time. In places, memorials quietly remind you of those who never returned, grounding the beauty of the valley in deep respect.
+
+<br>Life in Miyar unfolds gently. River deltas spread across the valley floor, streams braid and merge into the main river, and shepherds move slowly with their herds across open pastures. You cross icy tributaries, balance across glacial flows, and camp beside boulder-strewn basins where mountains loom close and the wind carries stories through the rocks. These are not fleeting moments — they linger.
+
+<br>Culturally, Miyar reflects the soul of Lahaul. Buddhist stupas and Hindu shrines stand close together, prayer flags flutter beside stone temples, and locals carry names drawn from both traditions. This blending of cultures is subtle, lived-in, and deeply authentic — something you don’t observe as a tourist, but experience as a quiet witness passing through.
+
+<br>The Miyar Valley Trek offers no single dramatic summit moment. Instead, it gives you something far rarer — prolonged solitude, untouched landscapes, and a sense of walking through a living Himalayan valley that still belongs to itself. Few trekkers ever make it here. Fewer still truly absorb it. If you find yourself walking these trails, know that you are among the fortunate ones.`
+ },
+
+  price: 14900,
+  priceNote: "* Khanjer to Khanjer",
+
+  addons: {
+    transport: 3000,
+    offloadingbag: 5000,
+    transportNote:
+      "* Manali to Manali",
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
+
+  dates: [
+  { label: "04 Jul - 10 Jul", start: "2026-07-04", end: "2026-07-10" },
+  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
+  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
+  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+],
+
+  highlights: [
+  "One of the most remote and least-crowded long treks in Himachal Pradesh",
+  "Endless alpine meadows filled with wildflowers during peak summer",
+  "Walk alongside massive glaciers and pristine glacial rivers of the Miyar Valley",
+  "Experience ancient Lahauli villages and traditional high-altitude mountain life",
+  "Panoramic views of iconic peaks including Mt. Menthosa (6,443 m), Tharang Peak (~6,100 m), Castle Peak (~6,300 m), and the dramatic Never Seen Tower (~6,100 m)"
+],
+
+  itinerary: [
+    {
+  day: 1,
+  title: "Reporting Day at Khanjer Base Camp (10,200 ft)",
+  details:
+    "<strong>• Drive distance: ~150 km | Duration: 6–7 hours (from Manali).</strong><br>• Day 1 is the reporting day at Khanjer, the roadhead and base camp for the Miyar Valley Trek. Trekkers can either reach Manali and opt for our shared transport, or make independent arrangements to reach Khanjer directly.<br><br>The journey from Manali to Khanjer is a spectacular transition from the green valleys of Kullu to the stark, high-altitude terrain of Lahaul. Leaving Manali early, the route passes through the Atal Tunnel — a dramatic gateway that instantly changes the landscape. On the other side, the Lahaul region opens up with wide valleys, sparse vegetation, and towering brown-grey mountains shaped by wind and ice.<br><br>The road follows the Chandra River for a long stretch, cutting through deep gorges and open plains before reaching Udaipur, a culturally rich settlement known for the ancient Mrikula Devi Temple. From Udaipur, the route turns into the quieter Miyar Valley road, climbing steadily along the Miyar Nallah toward Khanjer. The scenery becomes increasingly remote as villages thin out and the sense of isolation grows.<br><br>Khanjer is the last motorable village of the valley — a small, stone-built settlement set against steep mountain walls. This is where the trek truly begins. After arrival, trekkers check into the base camp, meet the trek leader, and go through a detailed briefing covering the route, safety protocols, and expectations for the days ahead. The rest of the evening is spent resting, acclimatizing, and preparing for the long journey into the heart of Miyar Valley."
+},
+    {
+  day: 2,
+  title: "Khanjer to Yolling (12,345 ft)",
+  details:
+    "<strong>• Trek distance: ~9.2 km | Duration: 4–5 hours | Altitude gain: ~781 ft.</strong><br>• The trek officially begins today from Khanjer, the last motorable village of the Miyar Valley. Leaving the stone houses behind, the trail rises gently through a series of well-defined switchbacks, making for a steady and comfortable ascent. This is an easy–moderate walking day, designed to ease you into the rhythm of long Himalayan distances.<br><br>The lower sections of the trail pass directly through cultivated farmland — a rare sight on such a remote trek. From June to September, the valley comes alive with agricultural activity. You’ll walk past neatly arranged plots growing barley, seed potatoes, iceberg lettuce, cauliflowers, apples, and sea buckthorn. Locals also cultivate medicinal plants like kuth (Saussurea lappa) and mannu, plants that have supported mountain communities here for generations. These fertile fields exist thanks to a unique mix of alluvial, hill-type, and meadow soils found in this region.<br><br>As you gain height, the valley opens up dramatically. The trail skirts past small village clusters and an unexpected landmark — a flat, grassy patch locals occasionally use as a cricket ground, framed by towering mountains on all sides. It’s a reminder of how life adapts creatively even in the most remote corners of the Himalayas.<br><br>Midway through the trek, you pass near Tharang, one of the cultural heart points of the valley. From here, the views expand to reveal Menthosa Peak — Lahaul’s second-highest mountain, often called the crown of Miyar Valley. Its massive, icy walls dominate the skyline, drawing the attention of trekkers and climbers alike. The surrounding steep rock faces in this region have long attracted mountaineers, adding a quiet sense of adventure to the landscape.<br><br>The final stretch to Yolling is gentle. The switchbacks ease out, and the trail levels into a wide, open meadow. A clear mountain stream flows nearby, providing a soothing soundtrack as you arrive at camp. Yolling is an expansive, flat grassland — calm, scenic, and perfectly positioned to let your body adapt while offering your first true immersion into the vastness of Miyar Valley."
+},
+    {
+  day: 3,
+  title: "Yolling to Zardong (12,667 ft)",
+  details:
+    "<strong>• Trek distance: ~12 km | Duration: 5–6 hours.</strong><br>• One of the more engaging days on the trek, the walk begins gently before a short descent to a bridge, followed by a steep climb towards Gompa. You pass Gompa Nala, a shepherd’s hut, and the serene Gompa Lake before traversing boulder-strewn sections with mild ups and downs. The trail eventually opens into flat riverbanks offering beach-like walks beside gushing waters. As you move deeper into the valley, dramatic rocky massifs rise around you, the valley widens after every nala, and flower-filled meadows lead you to the beautiful campsite of Zardong."
+},
+   {
+  day: 4,
+  title: "Zardong to Palpu via Kesar Yon Choo (12,782 ft) | Optional trek to Miyar Glacier",
+  details:
+    "<strong>• Trek distance: ~12.5 km | Duration: 5–6 hours.</strong><br>• The trail largely follows the river, offering long, flat and soothing walks through the heart of the valley. You pass through Chhudong — a vast riverside meadow where the Miyar River flows broad and calm, guiding the route clearly towards Palpu. The campsite at Palpu lies near Castle Peak, with expansive views of the valley, Tharang massif, and on clear days, the crown jewel of Miyar — Mt. Menthosa. An optional extension takes you to Kesar Yon Choo, a stunning meadow dotted with seven icy ponds, beyond which a short boulder walk and stream crossing lead to the snout of the Miyar Glacier. After spending time at the glacier, you retrace your steps back to camp, crossing a couple of streams along the way."
+},
+    {
+  day: 5,
+  title: "Palpu to Gompa (12,828 ft)",
+  details:
+    "<strong>• Trek distance: ~12.5 km | Duration: 5–6 hours.</strong><br>• The day begins from the scenic campsite of Palpu, set beneath Castle Peak with sweeping views of the valley and the imposing Tharang massif. If the skies are clear, Mt. Menthosa often reveals itself in all its grandeur. The trail is largely gentle with minimal altitude gain and loss, making for a relaxed yet immersive walk deeper into the upper Miyar Valley. Wide valley floors, river-side stretches, and the growing sense of remoteness define today’s journey as you gradually make your way to the peaceful campsite at Gompa."
+},
+    {
+  day: 6,
+  title: "Gompa to Tharang (12,270 ft)",
+  details:
+    "<strong>• Trek distance: ~7.5 km | Duration: 4–5 hours.</strong><br>• The trail retraces its way down the valley, staying close to the Miyar River for most of the day. Long, flat walks through the expansive meadows of Chhudong make this a relaxed descent, with the river flowing wide and calm beside you, its waters stretching all the way toward the glacier snout. Beyond Chhudong, the valley narrows and the terrain shifts into boulder sections interspersed with cold stream crossings, including a stream descending from the valley below Never Seen Tower and Castle Peak. The route alternates between gentle riverside stretches and rocky patches before opening out again as you approach the familiar campsite at Tharang."
+},
+    {
+  day: 7,
+  title: "Tharang to Khanjer – Drive to Manali (6,730 ft)",
+  details:
+    "<strong>• Trek distance: ~7.5 km | Duration: 6–7 hours.</strong><br>• The final walk of the trek unfolds through long, dramatic flat stretches as you move towards the Thanpattan region — a landscape so vast and cinematic it often feels straight out of a classic western film. The easy, almost level trail allows time to absorb the grandeur of the Miyar Valley one last time, with wide-open views and a deep sense of completion. Upon reaching Khanjer, the trek concludes. If opted, a vehicle awaits for the return drive to Manali via Udaipur and the Atal Tunnel, a scenic 6-7 hour journey that brings you back from the raw isolation of the valley to the bustle of civilization."
+}
+  ],
+
+  didYouKnow: [
+    "Miyar Valley has over 100 mapped glaciers, earning it the title ‘Valley of a Thousand Glaciers’.",
+    "The valley remains inaccessible for nearly half the year due to heavy snowfall and isolation.",
+    "Many sections of the trail were historically used by shepherds moving between high summer pastures.",
+    "Miyar’s wildflower diversity rivals the more famous Valley of Flowers, but sees a fraction of the visitors.",
+    "The region lies close to the Indo-Tibetan border and remains strategically sensitive.",
+    "The Miyar Glacier stretches nearly 36 km and climbs all the way to Kang La (17,600 ft), a high-altitude pass that historically connected the Miyar Valley of Lahaul with the Zanskar region."
+  ],
+
+  howToReach: {
+    air: "Nearest Airport: Bhuntar (Kullu). From there, drive to Manali and onward to Udaipur.",
+    train: "Nearest Railway Station: Joginder Nagar or Chandigarh. Continue by road to Manali → Udaipur.",
+    road:
+      "From Manali: ~150 km via Atal Tunnel or Rohtang Pass (seasonal). Roads depend heavily on weather conditions.",
+    travelTip:
+      "Plan buffer days for travel, as landslides and weather delays are common in Lahaul."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580500/miyar-valley-view2_chy4kv.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580502/miyar-valley-view1_cdxh8x.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580510/miyar-valley-view_poouaw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580508/miyar-valley-hero1_th1gbs.jpg",
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Miyar Valley Trek?",
+      answer:
+        "The Miyar Valley Trek can be attempted by fit beginners as well as experienced trekkers. While the trail itself is not technically difficult, the long walking days, remote terrain, and river crossings can be physically and mentally demanding. Prior trekking experience is beneficial but not mandatory."
+    },
+    {
+      question: "How should I prepare for the Miyar Valley Trek?",
+      answer:
+        "A minimum of 6–8 weeks of physical preparation is recommended. Focus on cardiovascular endurance through running, cycling, or stair climbing, along with leg and core strength training. Practicing long-distance walks on consecutive days will help prepare for the sustained effort required on the trek."
+    },
+    {
+      question: "What permits are required for Indians and foreign nationals?",
+      answer:
+        "Indian trekkers require local forest permissions, which are arranged by the trek operator. Foreign nationals need an Inner Line Permit due to the valley’s proximity to the Indo-Tibetan border. These permits must be arranged in advance and require valid identification documents."
+    },
+    {
+      question: "How serious are altitude-related issues on this trek?",
+      answer:
+        "The trek involves gradual altitude gain, making acclimatization relatively manageable. However, due to the length of the trek and continuous exposure above 12,000 ft, Acute Mountain Sickness (AMS) remains a possibility. Proper hydration, slow pacing, and adherence to acclimatization protocols are essential."
+    },
+    {
+      question: "What is the weather like in the Miyar Valley?",
+      answer:
+        "Weather in the Miyar Valley is generally stable during the trekking season but can change quickly. Days are pleasant with clear skies, while nights can be cold, especially at higher camps. Occasional rain or snowfall at upper elevations is possible depending on the month."
+    },
+    {
+      question: "Are there river crossings on the trek?",
+      answer:
+        "Yes, the trek involves multiple river and stream crossings, especially near glacier-fed sections. Water levels are usually manageable but can rise during afternoons due to snowmelt. Early starts and proper guidance make these crossings safe."
+    },
+    {
+      question: "Is mobile network available during the trek?",
+      answer:
+        "Mobile network connectivity is available only till Udaipur. Beyond Khanjer, there is no mobile signal throughout the duration of the trek, adding to its remoteness."
+    },
+    {
+      question: "What is the best time to do the Miyar Valley Trek?",
+      answer:
+        "The best time to trek in the Miyar Valley is from mid-June to late September. This period offers accessible trails, blooming alpine meadows, and relatively stable weather conditions."
+    },
+    {
+      question: "Is the Miyar Valley Trek safe?",
+      answer:
+        "Yes, when undertaken with proper planning and experienced support, the trek is safe. The route is well-defined, and risks are primarily related to weather, river crossings, and altitude, all of which are managed through careful scheduling and acclimatization."
+    }
+  ]
+},
+
+  faqsLink: "/pages/faqs-and-articles",
+},
+
   
   {
     id: "hampta-pass-trek",
@@ -2151,13 +2373,13 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         [32.2408, 77.2000], // Sarotu (return)
         [32.2330, 77.1830], // Jobri (end)
     ],
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535058/hampta-pass-4_etl9tn.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587994/hampta-circuit-pic3_ayniis.webp",
     
     heroImages: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535058/hampta-pass-4_etl9tn.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535049/hampta-pass-13_kuylu5.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535051/hampta-pass-12_xjjdgc.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535060/hampta-pass-14_s7jkyx.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587994/hampta-circuit-pic3_ayniis.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587995/hampta-circuit-pic4_py4iwc.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587997/hampta-circuit-pic1_hlge2l.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587998/hampta-circuit-pic2_i5jros.jpg",
     ],
 
     subtitle: "A Scenic Offbeat Himalayan Circuit",
@@ -2248,11 +2470,10 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     ],
 
     gallery: [
-         "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535049/hampta-pass-13_kuylu5.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535051/hampta-pass-12_xjjdgc.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535060/hampta-pass-14_s7jkyx.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535058/hampta-pass-4_etl9tn.jpg",
-     
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587994/hampta-circuit-pic3_ayniis.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587995/hampta-circuit-pic4_py4iwc.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587997/hampta-circuit-pic1_hlge2l.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766587998/hampta-circuit-pic2_i5jros.jpg",
     ],
 
     downloadLink: "/docs/Packing_List.pdf",
@@ -2288,7 +2509,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 {
     id: "rani-sui-lake-trek",
     name: "Rani Sui Lake Trek",
-    tags: ["beginner", "family", "kullu", "meadows"],
+    tags: ["beginner", "family", "kullu", "meadows", "lake"],
     difficulty: ["easy"],
     season: ["summer", "autumn", "monsoon", "winter","spring"],
     month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
@@ -2303,12 +2524,12 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         [32.2380, 77.1850], // Mahili Thach
         [32.2390, 77.1840], // Shangchar / Manali (end)
     ],
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588815/Rani-Sui-Lake-hero1_gsloff.jpg",
     
     heroImages: [
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588815/Rani-Sui-Lake-hero1_gsloff.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588811/Rani-Sui-Lake-hero_bjyaxe.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605803/IMG-20190909-WA0000_afe8gq.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605801/IMG_20190912_100939-EFFECTS_pb1adf.jpg",
     ],
 
     subtitle: "A Short Himalayan Trek with Big Views",
@@ -2394,7 +2615,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     gallery: [
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605813/IMG_20190911_130716_w3czt8.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605811/IMG_20190910_100118_a05zd3.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588815/Rani-Sui-Lake-hero1_gsloff.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588811/Rani-Sui-Lake-hero_bjyaxe.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605810/IMG-20190912-WA0019_xtwpqk.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605803/IMG-20190909-WA0000_afe8gq.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1764605801/IMG_20190912_100939-EFFECTS_pb1adf.jpg"
