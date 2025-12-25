@@ -1,0 +1,198 @@
+/* ==========================
+   TESTIMONIALS SECTION
+========================== */
+
+.testimonials {
+  background-color: white; 
+  color: #000;
+  position: relative;
+}
+
+.testimonials-heading {
+  font-size: 2.5rem;
+  font-family: 'Helvetica', sans-serif;
+  text-align: left;
+  color: #000;
+}
+
+/* Card wrapper with horizontal scroll */
+.testimonials-card-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 2rem 0;
+  position: relative;
+  scroll-snap-type: x mandatory;
+
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.testimonials-card-wrapper::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+
+/* Individual testimonial card */
+.testimonial-card {
+  flex: 0 0 32%;
+  max-width: 33.3333%;
+  scroll-snap-align: start;
+  background: #000;
+  border-radius: 12px;
+  border: 2px solid #ff7300;
+  padding: 2rem;
+  color: #fff;
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.22,1,0.36,1),
+              box-shadow 0.4s cubic-bezier(0.22,1,0.36,1),
+              border 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255,115,0,0.45),
+              0 0 10px rgba(255,115,0,0.3);
+  position: relative;
+  z-index: 5; /* behind arrows */
+}
+
+.testimonial-card:hover {
+  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1),
+              0 12px 24px rgba(0,0,0,0.25),
+              0 6px 20px rgba(255,115,0,0.95),
+              0 12px 40px rgba(255,115,0,0.35),
+              inset 0 0 8px rgba(255,115,0,0.1);
+}
+
+/* Header and info */
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid #ff7300;
+}
+
+.testimonial-info h3 {
+  color: #ff7300;
+}
+
+.testimonial-profession,
+.testimonial-social a {
+  color: #fff;
+}
+
+.testimonial-stars {
+  color: #ff7300;
+}
+
+.testimonial-social a:hover {
+  color: #ff7300;
+}
+
+/* Read More button */
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #ff7300;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+/* Clamp effect for text */
+.testimonial-text {
+  position: relative;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  transition: max-height 0.45s ease;
+}
+
+.testimonial-card:not(.expanded) .testimonial-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+  pointer-events: none;
+}
+
+.testimonial-card.expanded .testimonial-text {
+  display: block;
+  max-height: none !important;
+}
+
+.testimonial-card.expanded .testimonial-text::after {
+  display: none;
+}
+
+/* ==========================
+   SCROLL BUTTONS
+========================== */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(255,255,255,0.15);
+  color: #ff7300;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20; /* always above cards */
+  box-shadow: 0 2px 6px #ff7300;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-btn:hover {
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 4px 12px #ff7300;
+}
+
+.scroll-btn.left { left: -15px; }
+.scroll-btn.right { right: -15px; }
+
+/* Disabled state removed visually, hover still works */
+.scroll-btn.at-start,
+.scroll-btn.at-end {
+  opacity: 0.4;            /* faded */
+  cursor: not-allowed;      /* stop cursor */
+  box-shadow: 0 2px 6px #ff7300 inset; /* inset glow to show it's inactive */
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+@media (max-width: 1024px) {
+  .testimonial-card {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

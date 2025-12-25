@@ -1779,7 +1779,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   priceNote: "* Khanjer to Khanjer",
 
   addons: {
-    transport: 3000,
+    transport: 6000,
     offloadingbag: 5000,
     transportNote:
       "* Manali to Manali",
@@ -3144,18 +3144,18 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["intermediate", "beginner", "family", "meadows", "ridgewalk"],
+    tags: ["beginner", "family", "meadows", "ridgewalk"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
-    heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
+    heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
 
     heroImages: [
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517485/ali-bedni-view6_ofmkxs.jpg",
+                "https://res.cloudinary.com/dr44hob9b/image/upload/v1766319538/ali-bedni-bugyal-view4_nif4kk.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153747/IMG_20170919_090518_jkbosf.jpg",
     ],
 
@@ -3173,7 +3173,7 @@ seo: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
         { emoji: "🏔️", label: "Max Altitude", value: "11,500 ft (Bedni bugyal)" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
@@ -3196,61 +3196,29 @@ seo: {
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
-    dates: [
-
-{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
-{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+    dates: [   
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
-{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
 { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
-{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
 { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
-{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
 { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
-{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
-{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+
 { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
-{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
 { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
-{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
 { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
-{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
 { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
-{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+
 { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
-{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
 { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
-{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
-{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
-{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
-{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
-    ],
+  ],
 
     highlights: [
       "Panoramic views of Trishul and Nanda Ghunti",
@@ -3389,8 +3357,8 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["intermediate", "beginner", "family", "lake", "meadows", "peak"],
-    difficulty: ["easy", "moderate"],
+    tags: ["beginner", "family", "lake", "meadows", "peak"],
+    difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
@@ -3402,15 +3370,13 @@ seo: {
     [30.5278, 79.2236], // Tungnath
     [30.5411, 79.2253], // Chandrashila Summit (end)
   ],
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
+    heroImage:       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517852/chandrashila-hero_r8w4xm.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517841/chandrashila-view5_e0xdz7.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329747/chandrasila-trek-spring-view_hcem1p.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517840/chandrashila-view6_le2ugy.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329740/chandrashila-summit-view1_qg5i13.jpg",
+                
     ],
     subtitle: "A Perfect Himalayan Panorama",
 
@@ -3422,7 +3388,7 @@ seo: {
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Chandrashila peak)" },
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
@@ -3446,61 +3412,29 @@ seo: {
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
-    dates: [
-
-{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
-{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
+    dates: [   
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
-{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
 { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
-{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
 { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
-{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
 { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
-{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
-{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+
 { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
-{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
 { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
-{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
 { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
-{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
 { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
-{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+
 { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
-{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
 { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
-{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
-{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
-{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
-{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
-    ],
+  ],
 
     highlights: [
       "Trek starts from Sari Village, a scenic hamlet nestled in the Garhwal Himalayas",
@@ -4355,7 +4289,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
-    tags: ["beginner", "intermediate", "meadows", "ridgewalk"],
+    tags: ["beginner", "meadows", "ridgewalk"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -4735,8 +4669,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
-    tags: ["intermediate", "beginner", "meadows"],
-    difficulty: ["easy", "moderate"],
+    tags: ["beginner", "meadows"],
+    difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
     duration: ["6 Nights / 6 Days"],
@@ -4764,7 +4698,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     overview: {
       facts: [
         { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },     
+        { emoji: "⚡", label: "Trek Grade", value: "Easy" },     
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
@@ -5139,7 +5073,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["intermediate", "beginner", "meadows"],
+  tags: ["beginner", "meadows"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -5200,59 +5134,28 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
-  dates: [ 
+  dates: [   
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-    { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
-    { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
-    { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-    { label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
-    { label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
-    { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-    { label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
-    { label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
-    { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-    { label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
-    { label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
-    { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
-    { label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
-    { label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
-    { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-    { label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
-    { label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
-    { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-    { label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
-    { label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
-    { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-    { label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
-    { label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
-    { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-    { label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
-    { label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
-    { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-    { label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
-    { label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
-    { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-    { label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
-    { label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
-    { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-    { label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
-    { label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
-    { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-    { label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
-    { label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
-    { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-    { label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
-    { label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
-    { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-    { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-    { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
-    { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-    { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-    { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
-    { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-    { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-    { label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
-    { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
   ],
 
   highlights: [
@@ -5377,9 +5280,203 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 },
 
 {
+  id: "gulabi-kantha-trek",
+  name: "Gulabi Kantha Trek",
+  tags: ["meadows", "beginner"],
+  difficulty: ["easy"],
+  season: ["summer", "monsoon", "winter", "spring"],
+  month: ["march", "april", "may", "june", "july", "august", "september", "october", "december", "january"],
+  region: "uttarakhand",
+  duration: "4 Nights / 5 Days",
+  coordinates: [
+    [31.0146, 78.4534], // Hanuman Chatti (start)
+    [31.0146, 78.4534], // Hanuman Chatti (end)
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/gulabi-kantha-trek-hero_xz4rxq.webp",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/gulabi-kantha-trek-hero_xz4rxq.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/Mount-Bandarpoonch-from-Gulabi-kantha_rzofn8.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670798/gulabi-kantha-trek-view_a2jod3.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670800/gulabi-kantha-trek-view1_yrlzqp.webp"
+  ],
+
+  subtitle: "The Pink Mountain Above Yamuna Valley",
+
+  seo: {
+    title: "Gulabi Kantha Trek | Itinerary, Cost & Dates | Planethimalayas",
+    description:
+      "Gulabi Kantha Trek (12,000 ft) is a lesser-known all-season trek near Yamunotri offering meadows, forests, snowfields, and 360° views of Bandarpunch, Swargarohini, and Chaukhambha."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft (Gulabi Kantha Summit)" },
+      { emoji: "⚡", label: "Trek Distance", value: "26 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "September to May" },
+      { emoji: "🗺️", label: "Region", value: "Uttarkashi District, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Hanuman Chatti" },
+      { emoji: "🏁", label: "End Point", value: "Hanuman Chatti" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
+    ],
+    snippet: `The Gulabi Kantha Trek is a quiet Himalayan journey tucked deep inside the Yamuna Valley of Uttarakhand — a trail that balances accessibility with rare solitude and unfolds differently with every season. Despite lying close to major pilgrimage and trekking routes such as Yamunotri Temple and the Dodital Lake trail, Gulabi Kantha has somehow remained off the radar, preserving an old-world calm where forests feel undisturbed and mountain views arrive without crowds.
+
+<br>The journey begins from Hanuman Chatti, at the sacred confluence of the Yamuna River and the Hanuman Ganga. As you leave the road behind, the trail gently climbs through traditional villages where wooden houses cling to slopes and daily life still follows the rhythm of seasons rather than schedules. Soon, the path slips into dense forests of oak, pine, and towering deodar. Sunlight filters through the canopy in soft beams, the forest floor smells of pine needles and damp earth, and birdsong becomes your most constant companion. The ascent is gradual, allowing the body to adapt naturally as the trail slowly gains height.
+
+<br>As you move higher, the forests begin to thin and wide grassy clearings emerge — an unmistakable sign that you are approaching the high Himalayan meadows. These open stretches feel expansive and quiet, broken only by the sound of wind and distant water streams. Walking here feels unhurried; the trail invites you to slow down, look around, and notice how the landscape opens up with every step.
+
+<br>One of Gulabi Kantha’s defining qualities is its remarkable seasonal versatility. In summer, the meadows turn lush green and alive with wild Himalayan flowers, while clear mountain streams crisscross the trail, offering constant sources of fresh water. During the monsoon, low-hanging clouds roll through the valley, wrapping the forests and grasslands in mist and giving the trek a dramatic, almost dreamlike atmosphere. In winter, these same meadows disappear under deep snow, transforming the region into a quiet white expanse — a landscape so open and gentle that parts of it, especially around Seema Thatch, hold strong potential for winter skiing.
+
+<br>Spring brings the trek’s most distinctive character. Rhododendron forests burst into bloom, painting entire slopes in shades of red and pink. It is during this season that the mountain truly earns its name — Gulabi Kantha, meaning “Pink Mountain”. Walking through these flowering forests, with petals scattered along the trail and snow-capped peaks rising beyond the trees, feels both intimate and surreal.
+
+<br>The summit of Gulabi Kantha, rising to around 13,200 ft, offers a sweeping 360-degree panorama that feels far grander than the effort required to reach it. Directly ahead stand the towering peaks of the Garhwal Himalaya — Bandarpunch (20,729 ft / 6,316 m) dominating the skyline, alongside Kala Nag / Black Peak (20,955 ft / 6,387 m). The massive Chaukhambha massif (23,406 ft / 7,138 m) rises further east, while the Gangotri group of peaks, including summits over 21,000 ft, stretch across the horizon. To the north and west, Jaonli Peak (21,758 ft / 6,632 m), Srikantha (22,493 ft / 6,856 m), and Swargarohini I (20,512 ft / 6,252 m) stand tall, creating a continuous wall of high Himalayan giants.
+
+<br>On the opposite side of the summit lies the route toward Dodital Lake (10,860 ft / 3,310 m), reached via Darwa Pass (approximately 13,615 ft / 4,150 m) — a classic alpine crossing known for its pristine forests and mythological importance as the birthplace of Lord Ganesha. From the top of Gulabi Kantha, the landscape drops gently toward this quieter world of lakes, forests, and ancient legends.
+
+<br>Gulabi Kantha is a trek for those who want the Himalayas to feel personal rather than overwhelming — a place where trails remain peaceful, views arrive without competition, and every season tells a different story. Whether walked through flowers, mist, or snow, it offers an experience that feels less like a checklist and more like a conversation with the mountains themselves.`
+},
+
+  price: 10900,
+  priceNote: "* Hanuman Chatti to Hanuman Chatti",
+  addons: {
+    transport: 4000,
+    offloadingbag: 1500,
+    transportNote:
+      "* Dehradun to Dehradun.",
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
+
+  dates: [   
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+  ],
+
+  highlights: [
+    "All-season trek offering completely different landscapes throughout the year",
+    "Panoramic 360-degree summit views of major Garhwal peaks",
+    "Spring rhododendron blooms that give Gulabi Kantha its name",
+    "Vast alpine meadows like Seema Thatch, ideal for winter skiing",
+    "Less crowded trail despite proximity to Yamunotri and Dodital",
+  ],
+
+  itinerary: [
+    {
+  day: 1,
+  title: "Reporting Day at Hanuman Chatti (7,600 ft)",
+  details:
+    "<strong>• Reporting Location: Hanuman Chatti | Optional transport from Dehradun available.</strong><br>• Day 1 is the reporting day at Hanuman Chatti. Trekkers can choose to reach the base on their own and get in touch with our team upon arrival, or opt for the optional transport service arranged from Dehradun. The cost of this shared transport is borne directly by participants and will be communicated in advance.<br><br>The drive from Dehradun to Hanuman Chatti takes approximately 6–8 hours, covering around 180 km. Depending on road conditions and traffic, the route is taken either via Mussoorie and Kempty Falls or via Vikasnagar and the Yamuna Valley road. The Mussoorie route offers scenic mountain views and forested stretches, while the Vikasnagar route is often preferred during peak traffic hours for a smoother drive.<br><br>As the road follows the Yamuna River upstream, the surroundings gradually shift from busy hill towns to quieter valleys and dense forested slopes. On clear days, distant views of Bandarpunch Peak begin to appear as you approach the upper valley. Hanuman Chatti lies at the confluence of the Yamuna and Hanuman Ganga rivers and serves as an important base for treks and pilgrimages in the region.<br><br>After arrival, trekkers check into a guest house or homestay. The rest of the day is kept relaxed for rest, acclimatization, gear check, and a briefing by the trek leader in preparation for the days ahead."
+},
+    {
+  day: 2,
+  title: "Hanuman Chatti to Kandola Chhani (8,900 ft)",
+  details:
+    "<strong>• Trek distance: ~5 km | Duration: 4–5 hours | Altitude gain: ~1,300 ft.</strong><br>• Day 2 marks the beginning of the Gulabi Kantha trek as you leave Hanuman Chatti after an early breakfast and step onto the trail. The ascent is gentle and steady, making it an ideal first day of walking. The path winds through village trails, forest sections, and open clearings, with small mountain streams flowing alongside at intervals.<br><br>As you climb higher, the trail leads you through Nishni Village — a scenic settlement known for its traditional wooden houses built in the classic Yamuna Valley architectural style. The village reflects a deep-rooted mountain culture, with terraced fields, narrow paths, and warm local life. One of the highlights here is a beautifully crafted multi-storey Shiva temple, which holds strong spiritual significance for the villagers and stands as a symbol of the region’s heritage.<br><br>Beyond Nishni, the landscape begins to open up. The trail passes through rhododendron forests and terraced farmlands before emerging into Kandola Chhani — a peaceful high-altitude clearing surrounded by oak and pine forests. The word “Chhani” refers to seasonal settlements used by villagers for farming and cattle grazing, and the area consists of a few wooden huts and small cultivated fields growing crops such as potatoes, kidney beans, and millets.<br><br>The campsite at Kandola Chhani is set on soft grassy ground with distant views of snow-clad peaks. As evening approaches, the sky often turns shades of orange and pink, creating a calm, almost meditative atmosphere. The day ends here with time to relax, soak in the surroundings, and rest well, as the trek gradually moves deeper into the mountains over the coming days."
+},
+    {
+  day: 3,
+  title: "Kandola Chhani to Seema Thatch (11,400 ft)",
+  details:
+    "<strong>• Trek distance: ~6 km | Duration: 6–7 hours | Altitude gain: ~2,500 ft.</strong><br>• Day 3 takes you from Kandola Chhani deeper into the alpine zone as the trail steadily climbs toward the vast meadows of Seema Thatch. The day involves a mix of gradual ascents and steeper sections, making it one of the more physically demanding but visually rewarding days of the trek.<br><br>The walk begins gently, winding through dense oak and maple forests where sunlight filters softly through the canopy. The forest feels alive — leaves rustle overhead, birds call from hidden branches, and the air carries a cool, earthy freshness. As you gain altitude, rhododendron trees begin to appear in abundance, their red and pink blooms lining the trail and spreading across the slopes like a natural carpet, especially vibrant during spring and early summer.<br><br>As the forest gradually thins, the landscape opens into rolling alpine meadows. Wildflowers scatter the grasslands, and the views begin to widen with every step. Along the way, it is common to spot shepherds grazing their flocks in these high-altitude pastures — a glimpse into a traditional way of life that has existed here for generations and blends seamlessly with the landscape.<br><br>The final approach to Seema Thatch is marked by an increasing sense of openness. The trees fall away completely, revealing a vast, high-altitude meadow flanked by rugged mountain slopes. Seema Thatch stretches across gentle ridges and open plains, offering an immediate feeling of space and quiet after the forested climb.<br><br>As evening sets in, Seema Thatch becomes truly magical. The setting sun paints the sky in shades of orange, pink, and deep purple, casting a warm golden glow across the grasslands and distant peaks. This is the perfect place to slow down, sit quietly, and absorb the scale and beauty of the Himalayas. The night is spent camping under a clear, star-filled sky, with the openness of the meadow amplifying the sense of calm and isolation."
+},
+    {
+  day: 4,
+  title: "Seema Thatch to Gulabi Kantha Summit (13,200 ft) and descend to Kandola Chhani",
+  details:
+    "<strong>• Trek distance: ~12 km | Duration: 9–10 hours.</strong><br>• Day 4 is the summit day and the most rewarding day of the Gulabi Kantha trek. The day begins early from Seema Thatch, with a steady ascent toward Gulabi Kantha — the highest point of the trek. The climb from Seema Thatch to the summit is relatively short but slightly steep, requiring slow and consistent pacing. Depending on the season, the trail alternates between alpine grasslands covered in wildflowers during summer and spring, and snow patches during winter months.<br><br>As you gain height, the surroundings grow more expansive. The trail passes Jhandi Top, a natural viewpoint offering early glimpses of the surrounding Himalayan ranges. With every step upward, the landscape opens further, and the sense of scale becomes more dramatic. Soon, you reach the summit of Gulabi Kantha at approximately 13,200 ft — a broad, open top that rewards you with an uninterrupted 360-degree panorama.<br><br>From the summit, some of the most prominent peaks of the Garhwal Himalayas dominate the horizon. You can clearly spot Bandar Punch I and II, the Swargarohini massif, the Gangotri massif, Srikanth Peak, and Mt. Jaonli rising high above the surrounding valleys. The vastness of the view, combined with the quiet of the high mountains, makes the effort of the climb deeply worthwhile.<br><br>After spending ample time at the summit, soaking in the views and capturing photographs, you descend back to Seema Thatch, where a hot lunch awaits at the campsite. Post-lunch, the trek continues downhill toward Kandola Chhani. The descent is long but comparatively easier, retracing your route through the wide alpine meadows and forest sections encountered earlier. This return walk offers a fresh perspective on the landscape, allowing you to appreciate the untouched beauty of the region once more.<br><br>By the time you arrive at Kandola Chhani in the late afternoon, the memories of standing atop Gulabi Kantha — surrounded by snow-clad peaks and vast open spaces — remain etched in your mind. The night is spent camping at Kandola Chhani, marking the end of one of the most memorable days of the trek."
+},
+  {
+  day: 5,
+  title: "Kandola Chhani to Hanuman Chatti – Departure",
+  details:
+    "<strong>• Trek distance: 5 km | Duration: 3–4 hours.</strong><br><strong>• Drive distance (optional): ~180 km | Duration: 6–7 hours.</strong><br>• The final day of the trek begins with a relaxed breakfast at Kandola Chhani, followed by a gradual descent to Hanuman Chatti. The trail winds down through dense forests, open clearings, and familiar mountain landscapes, offering a quiet and reflective walk as the journey comes to an end.<br><br>Upon reaching Hanuman Chatti, the trek officially concludes. Trekkers can take a short break here to unwind and relive the experiences of the past few days. Participants may choose to plan their onward journey independently. For those who have opted for Planethimalayas’ optional transport service, the vehicle will be ready at Hanuman Chatti for the drive back to Dehradun.<br><br>As you leave the mountains behind and head back toward the city, the memories of Gulabi Kantha—its alpine meadows, panoramic Himalayan views, and serene trails—remain etched in your mind, marking a fulfilling end to a quiet and colorful Himalayan journey."
+}
+  ],
+
+  didYouKnow: [
+    "Gulabi Kantha gets its name from the pink rhododendron blooms seen during spring.",
+    "The trek lies close to Dodital, believed to be the birthplace of Lord Ganesha.",
+    "Seema Thatch is considered suitable for developing winter skiing activities.",
+    "Despite its proximity to Yamunotri, the trail remains largely unexplored.",
+    "The region is part of the upper Yamuna Valley, rich in both ecology and mythology."
+  ],
+
+  howToReach: {
+    air: "Nearest Airport: Jolly Grant Airport, Dehradun (210 km). From there, travel by road to Hanuman Chatti.",
+    train: "Nearest Railway Station: Dehradun. Taxis and buses are available to Barkot and Hanuman Chatti.",
+    road: "From Dehradun: 210 km / 8–9 hrs via Mussoorie, Kempty Falls, and Barkot.",
+    travelTip: "Reach Dehradun a day early to ensure a relaxed start due to long mountain travel."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/gulabi-kantha-trek-hero_xz4rxq.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/Mount-Bandarpoonch-from-Gulabi-kantha_rzofn8.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670800/gulabi-kantha-trek-view1_yrlzqp.webp"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can participate in the Gulabi Kantha trek?",
+        answer:
+          "The trek is suitable for beginners with basic fitness as well as experienced trekkers looking for a quieter trail."
+      },
+      {
+        question: "Is Gulabi Kantha suitable for winter trekking?",
+        answer:
+          "Yes, the trek can be done in winter and offers beautiful snow-covered landscapes."
+      },
+      {
+        question: "What kind of fitness is required?",
+        answer:
+          "Regular walking, light jogging, or stair climbing for a few weeks prior to the trek is sufficient."
+      },
+      {
+        question: "Will there be mobile network coverage?",
+        answer:
+          "Mobile connectivity is available at Hanuman Chatti but becomes unreliable once the trek begins."
+      },
+      {
+        question: "What permits are required?",
+        answer:
+          "Forest and local permits are required and are arranged by the trek organizer."
+      },
+    ],
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["intermediate", "beginner", "meadows", "peak"],
+  tags: ["beginner", "meadows", "peak"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -5437,57 +5534,25 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 5",
 
   dates: [   
-
-{ label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
-{ label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
 { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
-{ label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
 { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
-{ label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
 { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
-{ label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
 { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
-{ label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
-{ label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
+
 { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
-{ label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
 { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
-{ label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
 { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
-{ label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
 { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-{ label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
-{ label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
+
 { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
-{ label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
 { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-{ label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
-{ label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
-{ label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
-{ label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-{ label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
-{ label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
+
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-{ label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-{ label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-{ label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
   ],
@@ -5667,60 +5732,29 @@ itinerary: [
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
-  dates: [
+ dates: [   
+{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
+{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
+{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
+{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-    { label: "03 Jan - 07 Jan", start: "2026-01-03", end: "2026-01-07" },
-    { label: "04 Jan - 08 Jan", start: "2026-01-04", end: "2026-01-08" },
-    { label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-    { label: "10 Jan - 14 Jan", start: "2026-01-10", end: "2026-01-14" },
-    { label: "11 Jan - 15 Jan", start: "2026-01-11", end: "2026-01-15" },
-    { label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-    { label: "17 Jan - 21 Jan", start: "2026-01-17", end: "2026-01-21" },
-    { label: "18 Jan - 22 Jan", start: "2026-01-18", end: "2026-01-22" },
-    { label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-    { label: "24 Jan - 28 Jan", start: "2026-01-24", end: "2026-01-28" },
-    { label: "25 Jan - 29 Jan", start: "2026-01-25", end: "2026-01-29" },
-    { label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
-    { label: "31 Jan - 04 Feb", start: "2026-01-31", end: "2026-02-04" },
-    { label: "01 Feb - 05 Feb", start: "2026-02-01", end: "2026-02-05" },
-    { label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-    { label: "07 Feb - 11 Feb", start: "2026-02-07", end: "2026-02-11" },
-    { label: "08 Feb - 12 Feb", start: "2026-02-08", end: "2026-02-12" },
-    { label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-    { label: "14 Feb - 18 Feb", start: "2026-02-14", end: "2026-02-18" },
-    { label: "15 Feb - 19 Feb", start: "2026-02-15", end: "2026-02-19" },
-    { label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-    { label: "21 Feb - 25 Feb", start: "2026-02-21", end: "2026-02-25" },
-    { label: "22 Feb - 26 Feb", start: "2026-02-22", end: "2026-02-26" },
-    { label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-    { label: "28 Feb - 04 Mar", start: "2026-02-28", end: "2026-03-04" },
-    { label: "01 Mar - 05 Mar", start: "2026-03-01", end: "2026-03-05" },
-    { label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-    { label: "07 Mar - 11 Mar", start: "2026-03-07", end: "2026-03-11" },
-    { label: "08 Mar - 12 Mar", start: "2026-03-08", end: "2026-03-12" },
-    { label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-    { label: "14 Mar - 18 Mar", start: "2026-03-14", end: "2026-03-18" },
-    { label: "15 Mar - 19 Mar", start: "2026-03-15", end: "2026-03-19" },
-    { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-    { label: "21 Mar - 25 Mar", start: "2026-03-21", end: "2026-03-25" },
-    { label: "22 Mar - 26 Mar", start: "2026-03-22", end: "2026-03-26" },
-    { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-    { label: "28 Mar - 01 Apr", start: "2026-03-28", end: "2026-04-01" },
-    { label: "29 Mar - 02 Apr", start: "2026-03-29", end: "2026-04-02" },
-    { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-    { label: "04 Apr - 08 Apr", start: "2026-04-04", end: "2026-04-08" },
-    { label: "05 Apr - 09 Apr", start: "2026-04-05", end: "2026-04-09" },
-    { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-    { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-    { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
-    { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-    { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-    { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
-    { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-    { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-    { label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
-    { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
-   ],
+{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
+{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
+{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
+{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+
+{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
+{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
+{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
+{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
+{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+  ],
 
 
   highlights: [
@@ -6796,6 +6830,29 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     inclusionsNote:
       "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
+    dates: [
+  { label: "05 Jan - 08 Jan", start: "2026-01-05", end: "2026-01-08" },
+  { label: "12 Jan - 15 Jan", start: "2026-01-12", end: "2026-01-15" },
+  { label: "19 Jan - 22 Jan", start: "2026-01-19", end: "2026-01-22" },
+  { label: "26 Jan - 29 Jan", start: "2026-01-26", end: "2026-01-29" },
+
+  { label: "02 Feb - 05 Feb", start: "2026-02-02", end: "2026-02-05" },
+  { label: "09 Feb - 12 Feb", start: "2026-02-09", end: "2026-02-12" },
+  { label: "16 Feb - 19 Feb", start: "2026-02-16", end: "2026-02-19" },
+  { label: "23 Feb - 26 Feb", start: "2026-02-23", end: "2026-02-26" },
+
+  { label: "02 Mar - 05 Mar", start: "2026-03-02", end: "2026-03-05" },
+  { label: "09 Mar - 12 Mar", start: "2026-03-09", end: "2026-03-12" },
+  { label: "16 Mar - 19 Mar", start: "2026-03-16", end: "2026-03-19" },
+  { label: "23 Mar - 26 Mar", start: "2026-03-23", end: "2026-03-26" },
+  { label: "30 Mar - 02 Apr", start: "2026-03-30", end: "2026-04-02" },
+
+  { label: "06 Apr - 09 Apr", start: "2026-04-06", end: "2026-04-09" },
+  { label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
+  { label: "20 Apr - 23 Apr", start: "2026-04-20", end: "2026-04-23" },
+  { label: "27 Apr - 30 Apr", start: "2026-04-27", end: "2026-04-30" }
+],
+
     highlights: [
         "Scenic trek through oak, pine, and rhododendron forests",
         "360° Himalayan panorama from Chiltha Mata Temple Top (3,300 m)",
@@ -6903,7 +6960,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "pindari-glacier-trek",
     name: "Pindari Glacier Trek",
-    tags: ["beginner", "intermediate", "meadows"],
+    tags: ["beginner", "meadows"],
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -7135,8 +7192,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
   id: "panchachuli-base-camp-trek",
   name: "Panchachuli Base Camp Trek",
-  tags: ["beginner", "intermediate", "meadows"],
-  difficulty: ["easy", "moderate"],
+  tags: ["intermediate", "meadows"],
+  difficulty: ["moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   duration: ["6 Nights / 6 Days"],
@@ -7173,7 +7230,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "easy / moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
       { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
