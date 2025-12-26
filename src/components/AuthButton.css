@@ -1,26 +1,63 @@
 /* NORMAL STATE (reversed from hover) */
 .auth-btn.login {
-  background-color: transparent;        /* black */
-  color: #ff7300;                /* brand text */
-  font-weight: bold;
-  border: 2px solid #ff7300;     /* brand border */
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 0.5rem 1rem;
   border-radius: 6px;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: #ff7300;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s ease;
+
+  border: 2px solid #ff7300;
+
+  /* elevated glass feel */
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 6px 16px rgba(0, 0, 0, 0.35),
+    0 0 10px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
 }
 
-/* HOVER STATE (reversed from normal) */
+/* subtle glass highlight */
+.auth-btn.login::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* HOVER — brand “ON” state */
 .auth-btn.login:hover {
-  background-color: #ff7300;     /* brand background */
-  color: #000;                   /* black text */
+  background: #ff7300;
+  color: #000;
+  transform: scale(1.05) translateY(-2px);
+
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
-  transform: scale(1.05);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 26px rgba(0, 0, 0, 0.45),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 45px rgba(255, 115, 0, 0.75);
 }
 
 .auth-btn.login:active {

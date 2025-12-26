@@ -81,18 +81,20 @@ export default function BookingEntry() {
   onMouseEnter={() => setHover(true)}
   onMouseLeave={() => setHover(false)}
   style={{
-    width: "100%", // full width of container
-    maxWidth: "300px", // optional, keeps it consistent on larger screens
+    width: "100%",
+    maxWidth: "300px",
     padding: "1rem",
     fontSize: "1rem",
     fontWeight: "bold",
-    borderRadius: "5px",
-    border: `2px solid #ff7300`,
+    borderRadius: "8px",
+    border: "2px solid #ff7300",
     cursor: "pointer",
     marginTop: "1rem",
-    backgroundColor: hover ? "#ff7300" : "transparent",
+    backgroundColor: hover ? "#ff7300" : "rgba(255,255,255,0.1)", // glassy base
     color: hover ? "black" : "#ff7300",
-    boxShadow: hover ? `0 0 15px #ff7300` : "none",
+    boxShadow: hover
+      ? "inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)"
+      : "0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)",
     transition: "all 0.3s ease",
   }}
 >

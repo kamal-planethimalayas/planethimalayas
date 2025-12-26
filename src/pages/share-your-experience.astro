@@ -235,34 +235,34 @@ const brandColor = "#ff7300";
 
 .submit-btn {
   display: inline-block;
-  background: transparent;
+  width: 200px;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1); /* subtle glass effect */
   color: #ff7300;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  padding: 0.7rem 2.5rem;
   border-radius: 8px;
-  text-decoration: none;
-  border: 2px solid #ff7300;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 0.75rem 1.5rem;
-  cursor: pointer;
   text-align: center;
   text-decoration: none;
-  width: 200px;
+  border: 2px solid #ff7300;
+  cursor: pointer;
+
+  box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.25), /* glassy highlight */
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .submit-btn:hover {
   background: #ff7300;
   color: black;
-  transform: scale(1.05);
-  /* Bottom glow effect only */
+  transform: translateY(-2px) scale(1.05);
   box-shadow:
+    inset 0 1px 2px rgba(255,255,255,0.4),
     0 8px 25px rgba(255, 115, 0, 0.8),
     0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
-
 }
 
 /* Thank You Message */

@@ -1,35 +1,34 @@
 export const testimonials = [
   {
     id: 1,
-    name: "Yashesh Vora",
-    location: "Pune",
-    image:
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766680534/yashesh_h8ixf9.jpg",
-    instagram: "yashesh_vora",
+    name: "Akshata Poojari",
+    location: "Bangalore",
+    image: "/images/main/akshata.jpg",
+    instagram: "akshata_r_poojari",
     rating: 5,
     text:
-      "We had an amazing experience with Planethimalayas organized by Kamal sir. Everything from stay and food to overall arrangements was perfectly managed. Manish, Satish and Ashish were extremely supportive throughout the trip. We completed Tungnath and Deoriatal treks, and the food was simple, local, and delicious. The beautiful Sari village visit was truly beautiful my parents even walked 5 km, which was a big surprise for us!\nThe itinerary was very thoughtfully planned and suitable for my parents as well as my little one. Highly recommended for all kind of treks in the Himalayan ranges!"
+      "The trekking experience was absolutely unforgettable. Our guide was friendly and knowledgeable, making the whole journey fun and safe."
   },
   {
     id: 2,
-    name: "Ananya Mitra",
-    location: "Kolkata",
-    image:
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762540205/Screenshot_20251107-235350.Instagram_nvs4zy.jpg",
-    instagram: "ananya_mitra22",
+    name: "Samar",
+    location: "Automotive UX Designer | Pune",
+    image: "/images/main/samar.jpeg",
+    instagram: "wheelspin_199",
     rating: 5,
     text:
-      "Kamal Das the leader and founder is a great person and had good knowledge about the route. The food was great and the stays were comfortable which was above the expectation in that altitude.\nThanks to Planethimalayas."
+      "I made friendship with the mountains through Kamal sir’s experience. The moment I met him at my last trek at Kedarkantha, I was impressed by his mountaineering knowledge and friendly nature that this year too (to Tungnath) and every year hereafter I am going to partner him to a new peak and new experiences in those journeys. Kudos to Planethimalayas for the exceptional work in making the love of mountains more accessible and enjoyable."
   },
   {
     id: 3,
-    name: "Jytte Scheepens",
-    location: "Freelancer | Breda, Netherlands",
-    image: "/images/main/jytte.png",
-    instagram: "flowofjytte",
+    name: "Suramita Chakrabarty",
+    location: "Kolkata",
+    image:
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762540205/Screenshot_20251107-235337.Instagram_itofyg.jpg",
+    instagram: "suramitachakrabarty",
     rating: 5,
     text:
-      "I did the Kashmir Great Lakes trek with Kamal. This was such an unforgettable experience. Kamal is such an amazing guide. He told us so many interesting facts, I had beautiful deep talks with him about the mountains and listened to many of his stories about the experiences he's had while trekking. He's such a genuine and pure soul. I was the only female in the team, but not once I felt uncomfortable or left out. Everyone was incredibly respectful and nice. We were allowed to walk on our own pace and didn't feel rushed or pushed. Everyone can do the trek as they want, in the way they want. He respects you and really goes out of his way to make you enjoy the most. Till this day he's still a dear friend of mine and I hope to have the privilege to go to the mountains again, together with him. If you're planning to do a trek, definitely do it with Kamal — he will 100% make sure this trip is something you'll never forget."
+      "Amazing staff with good and decent behaviour. Food quality was also very good. Throughout the trek they had taken utmost care of everything.\nWill definitely plan again with Mr. Kamal Das."
   },
   {
     id: 4,
@@ -43,33 +42,34 @@ export const testimonials = [
   },
   {
     id: 5,
-    name: "Suramita Chakrabarty",
-    location: "Kolkata",
-    image:
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762540205/Screenshot_20251107-235337.Instagram_itofyg.jpg",
-    instagram: "suramitachakrabarty",
+    name: "Jytte Scheepens",
+    location: "Freelancer | Breda, Netherlands",
+    image: "/images/main/jytte.png",
+    instagram: "flowofjytte",
     rating: 5,
     text:
-      "Amazing staff with good and decent behaviour. Food quality was also very good. Throughout the trek they had taken utmost care of everything.\nWill definitely plan again with Mr. Kamal Das."
+      "I did the Kashmir Great Lakes trek with Kamal. This was such an unforgettable experience. Kamal is such an amazing guide. He told us so many interesting facts, I had beautiful deep talks with him about the mountains and listened to many of his stories about the experiences he's had while trekking. He's such a genuine and pure soul. I was the only female in the team, but not once I felt uncomfortable or left out. Everyone was incredibly respectful and nice. We were allowed to walk on our own pace and didn't feel rushed or pushed. Everyone can do the trek as they want, in the way they want. He respects you and really goes out of his way to make you enjoy the most. Till this day he's still a dear friend of mine and I hope to have the privilege to go to the mountains again, together with him. If you're planning to do a trek, definitely do it with Kamal — he will 100% make sure this trip is something you'll never forget."
   },
   {
     id: 6,
-    name: "Samar",
-    location: "Automotive UX Designer | Pune",
-    image: "/images/main/samar.jpeg",
-    instagram: "wheelspin_199",
+    name: "Ananya Mitra",
+    location: "Kolkata",
+    image:
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1762540205/Screenshot_20251107-235350.Instagram_nvs4zy.jpg",
+    instagram: "ananya_mitra22",
     rating: 5,
     text:
-      "I made friendship with the mountains through Kamal sir’s experience. The moment I met him at my last trek at Kedarkantha, I was impressed by his mountaineering knowledge and friendly nature that this year too (to Tungnath) and every year hereafter I am going to partner him to a new peak and new experiences in those journeys. Kudos to Planethimalayas for the exceptional work in making the love of mountains more accessible and enjoyable."
+      "Kamal Das the leader and founder is a great person and had good knowledge about the route. The food was great and the stays were comfortable which was above the expectation in that altitude.\nThanks to Planethimalayas."
   },
   {
     id: 7,
-    name: "Akshata Poojari",
-    location: "Bangalore",
-    image: "/images/main/akshata.jpg",
-    instagram: "akshata_r_poojari",
+    name: "Yashesh Vora",
+    location: "Pune",
+    image:
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766680534/yashesh_h8ixf9.jpg",
+    instagram: "yashesh_vora",
     rating: 5,
     text:
-      "The trekking experience was absolutely unforgettable. Our guide was friendly and knowledgeable, making the whole journey fun and safe."
+      "We had an amazing experience with Planethimalayas organized by Kamal sir. Everything from stay and food to overall arrangements was perfectly managed. Manish, Satish and Ashish were extremely supportive throughout the trip. We completed Tungnath and Deoriatal treks, and the food was simple, local, and delicious. The beautiful Sari village visit was truly beautiful my parents even walked 5 km, which was a big surprise for us!\nThe itinerary was very thoughtfully planned and suitable for my parents as well as my little one. Highly recommended for all kind of treks in the Himalayan ranges!"
   }
 ];

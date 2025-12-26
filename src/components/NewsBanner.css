@@ -36,28 +36,62 @@
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);  /* always vertically centered */
+  transform: translateY(-50%);
   padding: 6px 14px;
-  background: #fff;
-  border: 1px solid #ff7300;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 2px solid #ff7300;
+
   color: #ff7300;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: all 0.3s ease;
-  line-height: normal;   /* prevent vertical trim */
+  line-height: normal;
+
+  /* elevated glass */
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 6px 14px rgba(0, 0, 0, 0.3),
+    0 0 10px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
 }
 
+/* subtle glass highlight */
+.news-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* HOVER — brand ON state */
 .news-btn:hover {
   background: #ff7300;
   color: #000;
-  /* Bottom glow effect only */
-  box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+
   transform: translateY(-50%) scale(1.05);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 22px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.75);
 }
 
 @keyframes scroll {

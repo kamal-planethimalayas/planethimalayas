@@ -136,28 +136,58 @@ export default function AuthPage() {
       </a>
 
       {/* NEW TOP TABS */}
-      <div style={{ width: "100%", maxWidth: "450px", display: "flex", marginBottom: "1rem", gap: "0.5rem" }}>
-        <div
-          style={tabStyle(isLogin)}
-          onClick={() => {
-            setIsLogin(true);
-            setError(null);
-            setInfoMessage("");
-          }}
-        >
-          Already have an account?
-        </div>
-        <div
-          style={tabStyle(!isLogin)}
-          onClick={() => {
-            setIsLogin(false);
-            setError(null);
-            setInfoMessage("");
-          }}
-        >
-          Don’t have an account?
-        </div>
-      </div>
+<div style={{ width: "100%", maxWidth: "450px", display: "flex", marginBottom: "1rem", gap: "0.5rem" }}>
+  <div
+    style={{
+      flex: 1,
+      padding: "1rem",
+      marginTop: "2rem",
+      textAlign: "center",
+      fontWeight: "bold",
+      borderRadius: "5px",
+      cursor: "pointer",
+      transition: "0.3s",
+      border: `2px solid ${brandColor}`,
+      backgroundColor: isLogin ? '#ff7300' : "transparent",
+      color: isLogin ? "#000" : brandColor,
+      boxShadow: isLogin
+        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
+        : `0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`,
+    }}
+    onClick={() => {
+      setIsLogin(true);
+      setError(null);
+      setInfoMessage("");
+    }}
+  >
+    Already have an account?
+  </div>
+  <div
+    style={{
+      flex: 1,
+      padding: "1rem",
+      marginTop: "2rem",
+      textAlign: "center",
+      fontWeight: "bold",
+      borderRadius: "5px",
+      cursor: "pointer",
+      transition: "0.3s",
+      border: `2px solid ${brandColor}`,
+      backgroundColor: !isLogin ? '#ff7300' : "transparent",
+      color: !isLogin ? "#000" : brandColor,
+      boxShadow: !isLogin
+        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
+        : `0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`,
+    }}
+    onClick={() => {
+      setIsLogin(false);
+      setError(null);
+      setInfoMessage("");
+    }}
+  >
+    Don’t have an account?
+  </div>
+</div>
 
       {/* Animated Main Title */}
       <h1
@@ -226,27 +256,29 @@ export default function AuthPage() {
         {infoMessage && <p style={{ color: "green", marginBottom: "1rem" }}>{infoMessage}</p>}
 
         {/* CTA */}
-        <button
-          type="submit"
-          disabled={loading}
-          onMouseEnter={() => setHoverBtn(true)}
-          onMouseLeave={() => setHoverBtn(false)}
-          style={{
-            padding: "1rem",
-            fontSize: "1rem",
-            fontWeight: "bold",
-            borderRadius: "5px",
-            border: `2px solid ${brandColor}`,
-            marginTop: "0.5rem",
-            cursor: "pointer",
-            backgroundColor: hoverBtn ? brandColor : "transparent",
-            color: hoverBtn ? "black" : brandColor,
-            boxShadow: hoverBtn ? `0 0 15px ${brandColor}` : "none",
-            transition: "all 0.3s ease",
-          }}
-        >
-          {loading ? "Please wait..." : isLogin ? "Login" : "Sign Up"}
-        </button>
+<button
+  type="submit"
+  disabled={loading}
+  style={{
+    padding: "1rem",
+    fontSize: "1rem",
+    fontWeight: "bold",
+    borderRadius: "8px",
+    border: `2px solid ${brandColor}`,
+    marginTop: "0.5rem",
+    cursor: loading ? "not-allowed" : "pointer",
+    background: hoverBtn ? brandColor : "rgba(255,255,255,0.1)",
+    color: hoverBtn ? "black" : brandColor,
+    boxShadow: hoverBtn
+      ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)`
+      : `0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`,
+    transition: "all 0.3s ease",
+  }}
+  onMouseEnter={() => setHoverBtn(true)}
+  onMouseLeave={() => setHoverBtn(false)}
+>
+  {loading ? "Please wait..." : isLogin ? "Login" : "Sign Up"}
+</button>
       </form>
     </div>
   );

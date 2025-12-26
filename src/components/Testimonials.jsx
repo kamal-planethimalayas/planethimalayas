@@ -13,7 +13,7 @@ export default function Testimonials() {
         <button className="scroll-btn right">&#10095;</button>
 
         <div className="testimonials-card-wrapper" id="testimonialRow">
-          {testimonials.map((t) => (
+          {[...testimonials].reverse().map((t) => (
             <div className="testimonial-card" key={t.id}>
               <div className="testimonial-header">
                 <img src={t.image} alt={t.name} className="testimonial-pic" />

@@ -263,21 +263,51 @@ const proTreks = treks.filter(
   border-radius: 6px;
   text-decoration: none;
   text-align: center;
-  transition: all 0.35s ease;
-  border: 2px solid #ff7300;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+
   color: #ff7300;
-  background: transparent;
+  border: 2px solid #ff7300;
+  cursor: pointer;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* depth + glow */
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.35);
+
+  transition: all 0.35s ease;
+  position: relative;
 }
 
+/* subtle glass highlight */
+.trek-buttons a.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover — activated brand state */
 .trek-buttons a.btn:hover {
   background: #ff7300;
   color: black;
+
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 26px rgba(0,0,0,0.45),
+    0 0 22px rgba(255,115,0,1),
+    0 0 40px rgba(255,115,0,0.7);
 }
 
 /* --------------------------------------------------
@@ -303,8 +333,11 @@ const proTreks = treks.filter(
 }
 
 /* ====== MOBILE FILTER MODAL ====== */
-@media(max-width:767px){
-  .filter-navbar { display:none !important; }
+@media (max-width: 767px) {
+  .filter-navbar {
+    display: none !important;
+  }
+
   .sticky-filter-btn {
     display: block;
     position: fixed;
@@ -312,24 +345,36 @@ const proTreks = treks.filter(
     left: 0;
     width: 100%;
     padding: 1rem 0;
-    background: #ff7300;          /* brand color */
-    color: #000;                  /* black text */
-    border: none;
+
     font-weight: 700;
     font-size: 1.1rem;
-    z-index: 10000;
-    cursor: pointer;
     text-align: center;
-    transition: box-shadow 0.3s ease, transform 0.2s ease;
-}
+    cursor: pointer;
 
-/* Hover Glow Effect */
-.sticky-filter-btn:hover {
+    color: #ff7300;
+    background: #fff;
+    border: 2px solid #ff7300;
+
+    /* depth + polish */
     box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+      inset 0 1px 1px rgba(255,255,255,0.4),
+      0 -4px 18px rgba(0,0,0,0.35),
+      0 0 22px rgba(255,115,0,0.9);
+
+    z-index: 10000;
+    transition: box-shadow 0.3s ease, transform 0.25s ease;
+  }
+
+  /* Hover / Active state */
+  .sticky-filter-btn:hover {
     transform: translateY(-2px);
-}
+    color: #000;
+    background: #ff7300;
+    box-shadow:
+      inset 0 1px 1px rgba(255,255,255,0.45),
+      0 -6px 26px rgba(0,0,0,0.45),
+      0 0 30px rgba(255,115,0,1);
+  }
 
   .filter-modal { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:black; z-index:10001; overflow-y:auto; padding:1rem; }
   .filter-modal.open { display:block; }
@@ -382,20 +427,26 @@ const proTreks = treks.filter(
   border: 2px solid #ff7300;
   text-decoration: none;
   font-weight: 600;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
   box-sizing: border-box;
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.25),
+    0 4px 12px rgba(255,115,0,0.45),
+    0 0 10px rgba(255,115,0,0.3);
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .suggested-index-links a:hover {
-  background-color: #ff7300;     /* brand background */
-  color: #000;                   /* black text */
+  background: #ff7300;
+  color: #000;
+
+  transform: translateY(-2px) scale(1.04);
+
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
-  transform: scale(1.05);
+    inset 0 1px 1px rgba(255,255,255,0.4),
+    0 8px 25px rgba(255,115,0,0.85),
+    0 0 26px rgba(255,115,0,1);
 }
 
 .suggested-treks {
@@ -500,18 +551,25 @@ const proTreks = treks.filter(
   font-size: 0.85rem;
   margin-bottom: 0.8rem;
   border: 2px solid #ff7300;
+
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: all 0.3s ease;
+    inset 0 1px 1px rgba(255,255,255,0.25),
+    0 4px 12px rgba(255,115,0,0.45),
+    0 0 10px rgba(255,115,0,0.3);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
 .btn-suggested:hover {
   background: #ff7300;
-  color: black;
+  color: #000;
+
+  transform: translateY(-2px) scale(1.04);
+
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+    inset 0 1px 1px rgba(255,255,255,0.4),
+    0 8px 25px rgba(255,115,0,0.85),
+    0 0 26px rgba(255,115,0,1);
 }
 
 </style>

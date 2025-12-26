@@ -45,26 +45,62 @@
 }
 
 .upcoming-btn {
+  position: relative;
+  display: inline-block;
+
   padding: 6px 14px;
-  background-color: transparent; /* brand color */
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
   color: #ff7300;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
+
+  border: 1.5px solid #ff7300;
+
+  /* elevated glass feel (lighter than main CTA) */
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: background 0.2s ease;
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 6px 16px rgba(0, 0, 0, 0.3),
+    0 0 8px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+/* subtle glass highlight */
+.upcoming-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .upcoming-btn:hover {
-  background-color: #ff7300;
-  color: black;
-  transform: scale(1.05);
-  /* Bottom glow effect only */
+  background: #ff7300;
+  color: #000;
+  transform: scale(1.05) translateY(-2px);
+
+  /* bottom-heavy glow, “turned on” feel */
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 24px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 45px rgba(255, 115, 0, 0.7);
 }
 
 .search-box input {

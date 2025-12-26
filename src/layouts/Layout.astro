@@ -233,40 +233,103 @@ import SearchBox from "../components/SearchBox.jsx";
 </div>
 
 <style>
+/* ===== SHARED GLASS BASE ===== */
+.scroll-top,
+.whatsapp-float,
+.faq-button {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
- .scroll-top {
+  border: 2px solid #ff7300;
+  color: #ff7300;
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
+  transition:
+    background 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    color 0.25s ease;
+}
+
+/* glass reflection layer */
+.scroll-top::before,
+.whatsapp-float::before,
+.faq-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.scroll-top {
   position: fixed;
   bottom: 65px;
-  right: 100px; /* placed left of WhatsApp/FAQ */
+  right: 100px;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  border: none;
-  background-color: transparent; 
-  color: #ff7300;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  display: none; /* hidden until scroll */
+  display: none;
   align-items: center;
   justify-content: center;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  border: 2px solid #ff7300;
-  transition: opacity 0.3s ease;
   z-index: 999;
 }
 
+/* hover — unchanged behavior */
 .scroll-top:hover {
   background: #ff7300;
   color: black;
   transform: translateY(-2px) scale(1.05);
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 22px rgba(255,115,0,1),
+    0 0 40px rgba(255,115,0,0.7);
 }
-      
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 125px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* hover stays brand */
+.whatsapp-float:hover {
+  background: #ff7300;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 22px rgba(255,115,0,1),
+    0 0 40px rgba(255,115,0,0.7);
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .floating-buttons {
   position: fixed;
   bottom: 4rem;
@@ -278,60 +341,25 @@ import SearchBox from "../components/SearchBox.jsx";
   z-index: 999;
 }
 
-.whatsapp-float {
-  position: fixed;
-  bottom: 125px;
-  right: 0;
-  z-index: 999;
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  border-radius: 50%;
-  border: 2px solid #ff7300;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: background-color 0.3s ease;
-}
-
-.whatsapp-float:hover {
-  background-color: #ff7300; /* brighter WhatsApp green */
-  transform: translateY(-2px) scale(1.05);
-  box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
-}
-
-.whatsapp-icon {
-  width: 24px;
-  height: 24px;
-}
-
 .faq-button {
-  background-color: transparent; /* brand color */
-  color: #ff7300;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: all 0.3s ease;
+  position: relative;
 }
 
+/* hover glow unchanged */
 .faq-button:hover {
   background: #ff7300;
   color: black;
   transform: translateY(-2px) scale(1.05);
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 22px rgba(255,115,0,1),
+    0 0 40px rgba(255,115,0,0.7);
 }
 
       body {

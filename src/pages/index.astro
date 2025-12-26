@@ -484,66 +484,64 @@ import "../styles/global.css";
 }
 
 .cta-button {
+  position: relative;
   display: inline-block;
-  background: transparent;
+
+  /* Glass base */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
   color: #ff7300;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
+
   padding: 1rem 2.5rem;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 2px solid #ff7300;
   text-decoration: none;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Elevated glass feel */
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+/* subtle glass highlight layer */
+.cta-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
 }
 
 .cta-button:hover {
+  /* keep structure, just “turn it on” */
   background: #ff7300;
   color: #000;
-  border: 2px solid #ff7300;
   transform: translateY(-6px);
 
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 14px 35px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(255, 115, 0, 1),
+    0 0 60px rgba(255, 115, 0, 0.75);
 }
 
-/* Arrows */
-.carousel-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  color: white;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 3;
-  padding: 0.4rem 0.8rem;
-  border-radius: 50%;
-  transition: background 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-.carousel-arrow:hover {
-  background: #ff7300;
-  color: black;
-  box-shadow: 0 8px 20px #ff7300, 0 6px 15px rgba(0, 0, 0, 0.4);
-  transform: translateY(-50%) scale(1.05);
-}
-
-.carousel-arrow.left {
-  left: 50px;
-}
-.carousel-arrow.right {
-  right: 50px;
-}
-
-/* Dots */
 .carousel-dots {
   position: absolute;
   bottom: 25px;
@@ -560,16 +558,41 @@ import "../styles/global.css";
   width: 12px;
   height: 12px;
   border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
   border: 2px solid #ff7300;
-  background-color: transparent;
   cursor: pointer;
   padding: 0;
   margin: 0;
   box-sizing: content-box;
-  display: inline-block;
-  transition: background 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 4px 10px rgba(0,0,0,0.25);
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
+
+.carousel-arrow.left { left: 50px; } 
+.carousel-arrow.right { right: 50px; }
+
+/* active / hover dot */
+.carousel-dots button:hover,
+.carousel-dots button.active {
+  background: #ff7300;
+  transform: scale(1.15);
+
+  box-shadow:
+    0 0 12px rgba(255,115,0,0.9),
+    0 0 22px rgba(255,115,0,0.7);
+}
+
 
 .carousel-dots button.active {
   background-color: #ff7300;
@@ -772,7 +795,7 @@ import "../styles/global.css";
   margin-bottom: 0.8rem;
 }
 
-/* Base CTA */
+/* Base CTA — glassy elevated */
 .trek-card a.btn {
   padding: 0.45rem 1rem;
   text-decoration: none;
@@ -780,21 +803,46 @@ import "../styles/global.css";
   font-size: 0.9rem;
   border-radius: 6px;
   border: 2px solid #ff7300;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
   color: #ff7300;
-  background: transparent;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
   transition: all 0.25s ease;
+  position: relative;
 }
 
-/* Hover CTA — brand background and black text */
+/* subtle glass reflection */
+.trek-card a.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover CTA — brand ON (unchanged behavior) */
 .trek-card a.btn:hover {
   background: #ff7300;
   color: black;
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1); /* bright brand orange glow */
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.7);
 }
 
 
@@ -809,41 +857,76 @@ import "../styles/global.css";
   width: 40px;
   height: 40px;
   border: none;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ff7300;
-  font-size: 20px;
-  font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  color: #ff7300;
+  font-size: 20px;
+  font-weight: bold;
   z-index: 20;
-  box-shadow: 0 2px 6px #ff7300;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.3),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* glass sheen */
+.scroll-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover — brighter glass, same logic */
 .scroll-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 12px #ff7300;
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 8px 20px rgba(0,0,0,0.4),
+    0 0 18px rgba(255,115,0,0.9);
 }
 
 .scroll-btn.left { left: -15px; }
 .scroll-btn.right { right: -15px; }
 
+/* Inactive state — frosted but disabled */
 .scroll-btn.at-start,
 .scroll-btn.at-end {
-  opacity: 0.4;            /* faded */
-  cursor: not-allowed;      /* stop cursor */
-  box-shadow: 0 2px 6px #ff7300 inset; /* subtle inset glow to show inactive */
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow:
+    inset 0 2px 6px rgba(255,115,0,0.35),
+    0 4px 10px rgba(0,0,0,0.3);
 }
 
+/* Hover does NOT re-enable inactive buttons */
 .scroll-btn.at-start:hover,
 .scroll-btn.at-end:hover {
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 2px 6px #ff7300 inset;
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 2px 6px rgba(255,115,0,0.35),
+    0 4px 10px rgba(0,0,0,0.3);
 }
-
 
 /* ---------------------------------------
    MOBILE
@@ -987,15 +1070,45 @@ import "../styles/global.css";
   color: #ff7300;
   font-weight: 600;
   text-decoration: none;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
   transition: all 0.25s ease;
+  position: relative;
 }
 
+/* subtle glass reflection */
+.destination-card .btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover — brand ON (same logic) */
 .destination-card .btn:hover {
   background: #ff7300;
   color: #000;
   box-shadow:
-    0 8px 20px rgba(255,115,0,0.85),
-    0 0 18px rgba(255,115,0,1);
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 18px rgba(255,115,0,1),
+    0 0 36px rgba(255,115,0,0.7);
 }
 
 .news-section {
@@ -1261,27 +1374,61 @@ input:focus, input:hover, textarea:focus {
 
 .leadgen-btn {
   margin-top: 10px;
-  align-self: center;          /* stops full-width */
-  width: auto;                 /* prevent stretch */
-  min-width: 220px;            /* visible & tappable */
-  padding: 14px 36px; 
-  background: transparent;
-  color: #ff7300;
+  align-self: center;
+  width: auto;
+  min-width: 220px;
+  padding: 14px 36px;
+
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
+  color: #ff7300;
+
   border-radius: 12px;
   border: 2px solid #ff7300;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3);
-  transition: 0.3s ease;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  /* elevation + soft brand glow */
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 8px 18px rgba(0,0,0,0.35),
+    0 0 12px rgba(255,115,0,0.35);
+
+  transition: all 0.3s ease;
+  position: relative;
 }
 
+/* subtle glass reflection */
+.leadgen-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover — brand ON */
 .leadgen-btn:hover {
   background: #ff7300;
-  color: black;
-  box-shadow: 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1);
+  color: #000;
   transform: scale(1.05);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 12px 28px rgba(0,0,0,0.45),
+    0 0 22px rgba(255,115,0,1),
+    0 0 42px rgba(255,115,0,0.7);
 }
 
 @media (max-width: 680px) {
@@ -1405,24 +1552,58 @@ input:focus, input:hover, textarea:focus {
   margin: 18px auto 0;
   width: fit-content;
   padding: 10px 40px;
-  background: transparent;
-  color: #ff7300;
+
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 1rem;
+  color: #ff7300;
+  text-decoration: none;
+
   border-radius: 6px;
   border: 2px solid #ff7300;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* elevation + soft glow */
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.35);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  position: relative;
 }
 
+/* subtle glass reflection */
+.btn-book::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Hover — brand ON */
 .btn-book:hover {
   transform: translateY(-2px);
   background: #ff7300;
   color: #000;
+
   box-shadow:
-    0 8px 20px rgba(255,115,0,0.85),
-    0 0 18px rgba(255,115,0,1);
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.45),
+    0 0 18px rgba(255,115,0,1),
+    0 0 36px rgba(255,115,0,0.7);
 }
 
 /* RIGHT IMAGE */
