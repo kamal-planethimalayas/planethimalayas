@@ -150,7 +150,6 @@
   width: 40px;
   height: 40px;
   border: none;
-  background: rgba(255,255,255,0.15);
   color: #ff7300;
   font-size: 20px;
   font-weight: bold;
@@ -160,24 +159,62 @@
   align-items: center;
   justify-content: center;
   z-index: 20; /* always above cards */
-  box-shadow: 0 2px 6px #ff7300;
+  /* glass base */
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.3),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* glass sheen */
+.scroll-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
 .scroll-btn:hover {
-  background: rgba(255,255,255,0.25);
-  box-shadow: 0 4px 12px #ff7300;
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 8px 20px rgba(0,0,0,0.4),
+    0 0 18px rgba(255,115,0,0.9);
 }
 
 .scroll-btn.left { left: -15px; }
 .scroll-btn.right { right: -15px; }
 
-/* Disabled state removed visually, hover still works */
+/* Inactive state — frosted but disabled */
 .scroll-btn.at-start,
 .scroll-btn.at-end {
-  opacity: 0.4;            /* faded */
-  cursor: not-allowed;      /* stop cursor */
-  box-shadow: 0 2px 6px #ff7300 inset; /* inset glow to show it's inactive */
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow:
+    inset 0 2px 6px rgba(255,115,0,0.35),
+    0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Hover does NOT re-enable inactive buttons */
+.scroll-btn.at-start:hover,
+.scroll-btn.at-end:hover {
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 2px 6px rgba(255,115,0,0.35),
+    0 4px 10px rgba(0,0,0,0.3);
 }
 
 /* ==========================
