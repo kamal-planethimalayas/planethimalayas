@@ -9,10 +9,9 @@
   border-radius: 6px;
 
   /* glass base */
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
   color: #ff7300;
   font-weight: 700;
   cursor: pointer;

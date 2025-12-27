@@ -90,7 +90,7 @@ export default function BookingEntry() {
     border: "2px solid #ff7300",
     cursor: "pointer",
     marginTop: "1rem",
-    backgroundColor: hover ? "#ff7300" : "rgba(255,255,255,0.1)", // glassy base
+    backgroundColor: hover ? "#ff7300" : "rgba(0,0,0,0.75)", // glassy base
     color: hover ? "black" : "#ff7300",
     boxShadow: hover
       ? "inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)"

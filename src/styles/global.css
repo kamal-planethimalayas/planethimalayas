@@ -127,9 +127,9 @@ html {
   left: 50%;
   transform: translateX(-50%);
   /* Glass base */
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
 
   color: #ff7300;
   font-weight: 600;
@@ -192,9 +192,9 @@ html {
   border-radius: 50%;
   cursor: pointer;
   /* glass base */
-  background: rgba(255, 255, 255, 0.14);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
 
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.3),

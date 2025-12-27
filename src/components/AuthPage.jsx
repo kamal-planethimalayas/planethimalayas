@@ -148,7 +148,7 @@ export default function AuthPage() {
       cursor: "pointer",
       transition: "0.3s",
       border: `2px solid ${brandColor}`,
-      backgroundColor: isLogin ? '#ff7300' : "transparent",
+      backgroundColor: isLogin ? '#ff7300' : "rgba(0,0,0,0.75)",
       color: isLogin ? "#000" : brandColor,
       boxShadow: isLogin
         ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
@@ -173,7 +173,7 @@ export default function AuthPage() {
       cursor: "pointer",
       transition: "0.3s",
       border: `2px solid ${brandColor}`,
-      backgroundColor: !isLogin ? '#ff7300' : "transparent",
+      backgroundColor: !isLogin ? '#ff7300' : "rgba(0,0,0,0.75)",
       color: !isLogin ? "#000" : brandColor,
       boxShadow: !isLogin
         ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
@@ -267,7 +267,7 @@ export default function AuthPage() {
     border: `2px solid ${brandColor}`,
     marginTop: "0.5rem",
     cursor: loading ? "not-allowed" : "pointer",
-    background: hoverBtn ? brandColor : "rgba(255,255,255,0.1)",
+    background: hoverBtn ? brandColor : "rgba(0, 0, 0, 0.75)",
     color: hoverBtn ? "black" : brandColor,
     boxShadow: hoverBtn
       ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)`
