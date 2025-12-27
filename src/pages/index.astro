@@ -860,7 +860,7 @@ backdrop-filter: blur(15px);
   border: none;
   border-radius: 50%;
   cursor: pointer;
-
+  border: 2px solid #ff7300;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -881,7 +881,7 @@ backdrop-filter: blur(15px);
     0 6px 14px rgba(0,0,0,0.35),
     0 0 10px rgba(255,115,0,0.3);
 
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* glass sheen */
@@ -901,7 +901,8 @@ backdrop-filter: blur(15px);
 
 /* Hover — brighter glass, same logic */
 .scroll-btn:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: #ff7300;
+  color: #000;
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.45),
     0 8px 20px rgba(0,0,0,0.4),
