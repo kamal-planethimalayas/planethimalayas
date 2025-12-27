@@ -126,7 +126,11 @@ html {
   bottom: 100px; /* Just above dots */
   left: 50%;
   transform: translateX(-50%);
-  background: transparent;
+  /* Glass base */
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
   color: #ff7300;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;

@@ -5286,7 +5286,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   difficulty: ["easy"],
   season: ["summer", "monsoon", "winter", "spring"],
   month: ["march", "april", "may", "june", "july", "august", "september", "october", "december", "january"],
-  region: "uttarakhand",
+  region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
     [31.0146, 78.4534], // Hanuman Chatti (start)

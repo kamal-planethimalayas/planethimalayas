@@ -111,8 +111,13 @@
 .testimonial-text {
   position: relative;
   display: -webkit-box;
+  display: box; /* optional fallback */
+  
   -webkit-line-clamp: 5;
+  line-clamp: 5; /* 👈 add this */
+
   -webkit-box-orient: vertical;
+  box-orient: vertical;
   overflow: hidden;
   font-size: 1rem;
   line-height: 1.4;

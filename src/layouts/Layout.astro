@@ -481,9 +481,16 @@ import SearchBox from "../components/SearchBox.jsx";
   transition: border 0.3s ease;
   border: 4px solid transparent;
   border-radius: 10px;
+  /* Elevated glass feel */
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 
 }
 
@@ -494,6 +501,16 @@ import SearchBox from "../components/SearchBox.jsx";
   background: #ff7300;
   border-radius: 2px;
   transition: border-color 0.3s ease;
+  /* Elevated glass feel */
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 }
 
 .hamburger:hover,
@@ -501,8 +518,10 @@ import SearchBox from "../components/SearchBox.jsx";
 .hamburger.active {
   border-color: var(--brand-color);
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 14px 35px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(255, 115, 0, 1),
+    0 0 60px rgba(255, 115, 0, 0.75);
   transform: scale(1.05);
 }
 
@@ -611,10 +630,31 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Elevated glass feel */
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: all 0.3s ease;
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+/* subtle glass highlight layer */
+.mobile-search-icon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
 }
 
 .mobile-search-icon svg {
@@ -628,8 +668,10 @@ main {
 .mobile-search-toggle:hover .mobile-search-icon {
   background: #ff7300;             /* brand background */
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 14px 35px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(255, 115, 0, 1),
+    0 0 60px rgba(255, 115, 0, 0.75);
   transform: scale(1.05);
 }
 

@@ -1804,9 +1804,11 @@ const { gallery, name } = trek;
 
   /* Physical elevation (controlled, readable) */
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.35), /* top surface light */
-    0 8px 18px rgba(0, 0, 0, 0.35),            /* main lift */
-    0 0 10px rgba(255, 115, 0, 0.35);          /* soft brand aura */
+  inset 0 1px 1px rgba(255, 255, 255, 0.35),   /* softer inner highlight */
+  0 8px 22px rgba(0, 0, 0, 0.28),              /* main lift (reduced depth) */
+  0 0 18px rgba(255, 115, 0, 0.55),            /* controlled glow */
+  0 0 36px rgba(255, 115, 0, 0.35);            /* soft ambient spread */
+
 }
 
 /* Desktop: 3 items per row */

@@ -40,9 +40,9 @@
   padding: 6px 14px;
 
   /* glass base */
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.35);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
 
   border: 2px solid #ff7300;
 
