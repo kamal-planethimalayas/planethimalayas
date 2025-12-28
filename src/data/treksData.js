@@ -5513,14 +5513,16 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { emoji: "🏁", label: "End Point", value: "Sankri" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
-    snippet: `The Kedarkantha Trek is where winter in the Himalayas feels truly alive. Beginning from the charming wooden village of Sankri, the trail climbs through silent forests of pine, maple, and oak, each turn opening into wider views of snow-brushed ridgelines and distant white summits. As you move higher, the landscape transforms dramatically — frozen streams, ancient trees heavy with fresh powder, and long rolling meadows that glow under winter sun.
-
-<br>Midway lies the serene lake of Juda Ka Talab, a still sheet of ice in the heart of dense alpine woods. Beyond it, the terrain rises gently toward the open slopes of Kedarkantha Base, one of the most breathtaking winter campsites in Uttarakhand. Nights here are unforgettable — crisp air, bright constellations, and the silence of untouched snow all around you.
-
-<br>The final climb to the Kedarkantha summit is the moment every trekker waits for. At 12,500 ft, the world opens into a sweeping Himalayan panorama: the Swargarohini group, Bandarpoonch, Black Peak, and the valleys of Har Ki Dun and Rupin stretching deep into the distance. With sunrise lighting up the peaks in fiery orange, the summit feels less like a mountain top and more like a place suspended between earth and sky.
-
-<br>Balanced in difficulty and rich in reward, Kedarkantha is a winter trek that blends gentle adventure with unforgettable Himalayan drama — the perfect journey for anyone dreaming of snow-covered forests, wide mountain views, and an intimate connection with the winter wilderness.`
-  },
+    snippet: `The Kedarkantha Trek begins quietly, almost gently, in the wooden lanes of Sankri — a village where smoke curls from slate roofs, prayer flags flutter in the cold air, and the Himalayas feel close enough to touch. As you step onto the trail, the outside world fades away. Pines rise tall and straight around you, oak and maple branches arch overhead, and the crunch of snow beneath your boots becomes your steady rhythm. Sunlight filters through the forest canopy, catching on frost-covered needles and turning the path ahead into a glowing corridor of winter.
+<br><br>
+Gradually, the forest deepens. The air grows sharper, cleaner, and silence settles in — broken only by the wind brushing through trees or the soft crack of frozen streams hidden beneath snow. Then, without warning, the trees open up to reveal Juda Ka Talab. In winter, the lake lies perfectly still, locked beneath a sheet of ice, reflecting the surrounding forest like a frozen mirror. Camps here feel otherworldly — tents pitched beside ancient trees, evening skies turning pink and violet as darkness falls, and stars emerging brighter than you ever remember them.
+<br><br>
+Beyond Juda Ka Talab, the trail climbs steadily toward Kedarkantha Base. The forest thins, giving way to vast white clearings and gentle slopes that roll endlessly toward the horizon. This is where the mountains begin to feel grand and open. From camp, the silence is profound — broken only by the flutter of prayer flags and the distant whisper of wind over snow. Nights are cold, but unforgettable: breath hanging in the air, constellations sharp and close, and the sense of standing deep within the Himalayas, far from anything familiar.
+<br><br>
+Summit day arrives before dawn. Headlamps glow softly as you begin the final ascent, boots biting into fresh snow as the slope rises above the treeline. With each step, the sky lightens — deep blues giving way to amber and gold. And then, suddenly, you are there. At 12,500 ft, the Kedarkantha summit opens into a vast Himalayan theatre. Swargarohini stands tall and commanding, Bandarpoonch and Black Peak line the horizon, and far below, the valleys of Har Ki Dun and Rupin stretch endlessly into the distance. As sunrise ignites the peaks in shades of fire and gold, time seems to pause — the world silent, immense, and breathtakingly alive.
+<br><br>
+Kedarkantha is more than a winter trek. It is a journey through silent forests, frozen lakes, open alpine slopes, and unforgettable summits — a perfect balance of adventure and beauty. Whether it’s your first experience of snow or a return to the mountains you love, this trek leaves you with something rare: the feeling of truly walking inside winter itself.`
+},
 
   price: 10400,
   priceNote: "* Sankri to Sankri",
@@ -5566,36 +5568,79 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   ],
 
 itinerary: [
-  { day: 1, title: "Arrival at Sankri (6,400 ft)", 
-    details: `• Drive approx. 8–9 hrs from Dehradun (200 km) through Yamuna Valley and Tons River, witnessing cascading waterfalls and terraced farmland.<br>
-• Pass small Garhwali villages with stone cottages and prayer flags fluttering in the breeze.<br>
-• Overnight stay in guesthouse at Sankri, a quaint hamlet that serves as the gateway to Kedarkantha.` 
+  { day: 1, title: "Reach Sankri – Gateway to Kedarkantha (6,400 ft)", 
+    details: `• The journey to Kedarkantha begins long before the first step on the trail — it begins on the road to Sankri. For those opting for shared transport, our pickup vehicle meets participants in Dehradun, with exact pickup point and driver details shared a day prior. As the city fades behind, the mountains slowly take over, and the rhythm of travel shifts from haste to anticipation.
+<br><br>
+Leaving Dehradun, the route bends through either Mussoorie or Vikasnagar, chosen carefully based on road and traffic conditions. Soon, the landscape opens into the broad valleys of the Yamuna River — one of the most sacred rivers of the Himalayas. Here, the Yamuna flows wide and calm, nourishing terraced farmlands and small settlements tucked into the hillsides. Waterfalls spill down rock faces, sunlight dances across fields, and the air grows noticeably cooler and cleaner.
+<br><br>
+Past Naugaon, the journey meets the Tons River — wilder, faster, and deeper than the Yamuna. From here onward, the road follows the Tons closely, winding alongside its roaring waters through dense forests and narrow mountain bends. The river has a raw, untamed energy, carving its way through the valley as the road climbs higher into Uttarakhand’s remote interior. Villages like Purola and Mori pass by quietly, their stone houses, wooden balconies, and prayer flags offering brief glimpses into mountain life untouched by hurry.
+<br><br>
+By evening, Sankri appears — a small, charming hamlet surrounded by pine-covered slopes and distant snow-lined ridges. This is where roads end and the trek truly begins. As night settles in, the village feels calm and welcoming, with crisp mountain air, softly lit guesthouses, and the first real sense of being deep in the Himalayas.
+<br><br>
+The day ends with an overnight stay in Sankri, allowing the body to rest, acclimatize, and prepare — because from tomorrow onward, the mountains will be explored on foot.` 
   },
   { day: 2, title: "Sankri to Juda Ka Talab (9,100 ft)", 
-    details: `• Trek 4 km / 4 hrs, gradual ascent through dense pine, oak, and maple forests.<br>
-• Trail passes traditional hamlets where shepherds herd goats and cows.<br>
-• Witness winter snow gradually covering the meadows, with birds like Himalayan monal and pheasants visible along the trail.<br>
-• Camp beside Juda Ka Talab, a serene high-altitude lake surrounded by alpine forests, reflecting snow-capped peaks.` 
+    details: `<strong>• Trek 4 km / 4 hrs, gradual ascent through dense pine, oak, and maple forests.</strong><br><br>
+After an early breakfast in Sankri, the trail begins by walking past the forest office and the last cluster of houses in Saud village. For a short while, the path follows the road that leads toward the Har Ki Dun valley — a gentle warm-up before the mountains make their intentions clear. Soon, a sharp left turn pulls you away from the road and into a steadily rising trail, climbing firmly for nearly a kilometre on a recently paved stretch.
+<br><br>
+This initial ascent rewards effort with wide, sweeping views of the Har Ki Dun valley below — ridgelines layered one after another, forests spilling down slopes, and the sense of leaving the inhabited world behind. Gradually, the trail narrows and slips into the forest, where oak, fir, pine, maple, and rhododendron trees close in, forming a dense and comforting canopy overhead.
+<br><br>
+In spring, this section of the trail comes alive with colour — red and pink rhododendron blooms line the path, joined by smaller alpine flowers pushing through the forest floor. The air feels cooler here, quieter, broken only by footsteps and the occasional rustle of leaves. Small seasonal dhabas appear along the way, offering welcome pauses for warm tea, coffee, or a quick plate of maggi — simple comforts that feel earned on a steady uphill climb.
+<br><br>
+The ascent continues gradually but relentlessly all the way to Juda Ka Talab. To maintain rhythm and energy, it’s best to keep moving with short, regular breaks rather than long stops. During peak winter months, this route can be busy, with multiple camping grounds appearing well before Juda Ka Talab. It’s important to stay close to your guide and team to ensure you reach the designated campsite.
+<br><br>
+By around noon, the forest opens up and the campsite near Juda Ka Talab comes into view. After lunch and some well-deserved rest, take time to layer up and hike to the lake itself — a quiet, still stretch of water nestled deep within the forest. As evening approaches, the setting sun casts soft light through the trees, turning the surroundings golden. Choose a peaceful spot to take it in, but return to camp before darkness settles, ending the day wrapped in forest silence and mountain calm.` 
   },
-  { day: 3, title: "Juda Ka Talab to Kedarkantha Base Camp (11,200 ft)", 
-    details: `• Trek 4 km / 3–4 hrs through oak and deodar forests, opening into expansive snow meadows.<br>
-• Trail offers views of Swargarohini and Bandarpoonch ranges in the distance.<br>
-• Ascend gentle ridges with panoramic vistas of winter forests dotted with frost-covered shrubs.<br>
-• Camp at Kedarkantha Base Camp with stunning views of towering peaks and frozen streams.` 
-  },
-  { day: 4, title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Hargaon (8,900 ft)", 
-    details: `• Early morning 6 km / 7–8 hrs climb to summit, starting pre-dawn to witness sunrise.<br>
-• The ascent passes alpine meadows blanketed in snow, with scattered rhododendron and juniper shrubs.<br>
-• Reaching the summit rewards trekkers with 360° views of Himalayan giants including Swargarohini, Black Peak, and Bandarpoonch.<br>
-• Descend via the same route to Hargaon campsite, experiencing changing light on the mountains and glimpses of wildlife like musk deer and Himalayan monal.<br>
-• Overnight stay at Hargaon, interacting with locals and learning Garhwali folklore.` 
-  },
-  { day: 5, title: "Hargaon to Sankri", 
-    details: `• Trek 6 km / 4 hrs through forested trails, crossing small streams and meadows dotted with wildflowers in season.<br>
-• Observe shepherds and local villagers tending to livestock, and small stone-built shrines along the way.<br>
-• Return to Sankri, evening free to explore local market, taste Garhwali cuisine, and interact with residents.` 
-  },
-  
+  {
+  day: 3,
+  title: "Juda Ka Talab to Kedarkantha Base Camp (11,200 ft)",
+  details: `<strong>• Short trek of approx. 2–2.5 km / 2–3 hrs, climbing steadily from forested trails into open alpine meadows.</strong><br><br>
+The morning at Juda Ka Talab begins unhurried and calm. If the day is clear, soak in the warmth of the early sun as it filters through the trees, lighting up the forest floor. Enjoy a relaxed breakfast at camp before starting the day’s short but rewarding hike toward Kedarkantha Base Camp.
+<br><br>
+The trail begins by walking past Juda Ka Talab itself, after which it turns sharply uphill to the right. This section climbs steeply for about 1 to 1.5 km and forms the most demanding part of the day. The ascent is steady and continuous, encouraging a slow, comfortable pace. Midway through the climb, a small seasonal dhaba offers a welcome break — a good spot to pause, catch your breath, and enjoy something warm.
+<br><br>
+Once the steep climb ends, the trail eases into a gentler stretch — an almost straight walk of roughly a kilometre through dense forest. Here, sunlight streams in softly through the canopy, creating a beautiful play of light and shadow. When snow blankets the ground, the forest turns into a quiet winter wonderland, making this section one of the most scenic parts of the trek.
+<br><br>
+As the forest thins out, the landscape opens dramatically into a vast alpine meadow — the Kedarkantha Base Camp. This expansive clearing is an ideal campsite, offering grand, cinematic views of mountain ranges stretching across the southern horizon. During peak season, the meadow fills with tents accommodating thousands of trekkers, so it’s important to stay close to your guide and team to locate your designated camping area.
+<br><br>
+Standing tall to the north is your destination for the next day — the Kedarkantha summit at around 12,000 ft. In winter, its snow-covered slopes give it the unmistakable look of a true Himalayan peak, drawing your eyes upward and building anticipation for the climb ahead.
+<br><br>
+After settling in, take a short break followed by lunch at camp. As evening approaches, layer up well — temperatures drop quickly here once the sun dips. With ample daylight remaining, explore the meadow, visit nearby dhabas if open, or simply sit back and take in the scale of the surroundings.
+<br><br>
+Join the briefing session led by your trek leader, covering important tips and preparation for the early-morning summit climb. As the day winds down, don’t miss the sunset — Kedarkantha Base Camp is known for its stunning evening views, with the sky glowing in shifting hues as the mountains fall into shadow. Turn in early for the night, resting well for the summit push that begins long before dawn.`
+},
+  {
+  day: 4,
+  title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Hargaon (8,900 ft)",
+  details: `<strong>• Pre-dawn summit attempt covering approx. 5–6 km / 7–8 hrs, climbing through snow-covered meadows to Kedarkantha peak before descending to lower camps.</strong><br><br>
+The day begins much before sunrise, awakened by your guide’s call echoing through the cold, silent meadow. Outside, the temperature is biting, and hesitation is the real enemy — the key is to act quickly and decisively. Layer up well, protect your hands and face, and prepare yourself for the summit push. A quick breakfast of warm porridge and hot tea helps fuel the body before stepping into the dark.
+<br><br>
+With headlamps switched on, the team moves out together, staying close to the guide and maintaining a slow, steady rhythm. The pace is intentionally unhurried — moving too fast causes sweating, which quickly turns uncomfortable and dangerously cold once you stop. Instead, a calm, consistent climb keeps the body warm and energy balanced as the trail winds upward through the night.
+<br><br>
+After a few hours of ascent, the last trees fall away behind you and the landscape changes dramatically. You emerge into wide, open terrain — exposed, windy, and breathtakingly beautiful. Kedarkantha now feels close, almost calling you forward. A small seasonal dhaba appears along the way, offering a brief chance to step inside, warm up, and gather strength — but the stop is short. The mountains demand movement.
+<br><br>
+From here, the climb eases slightly, but the altitude and biting wind make every step feel earned. Despite the cold, something shifts internally — the vast openness, the growing light on the horizon, and the anticipation ahead create a surge of motivation that’s hard to put into words.
+<br><br>
+Soon, you find yourself standing right beneath the Kedarkantha peak, rising tall and striking against the sky. A short pause allows you to catch your breath as the eastern horizon begins to glow deep orange. Sunrise is close — about an hour away, and the summit just as far. The final stretch is the steepest and most exposed part of the trek, with sharp drops on either side and strong, bone-chilling winds sweeping across the slope. Careful footing, patience, and focus are essential as you negotiate this challenging section.
+<br><br>
+At last, the trail opens onto the summit — a broad, flat ground scattered with large boulders and crowned by a small temple. As the sun breaks over the horizon, the world transforms. Warm light spills across distant peaks, valleys wake slowly below, and the cold momentarily fades into insignificance. It’s a moment of deep satisfaction — quiet, powerful, and unforgettable.
+<br><br>
+After spending time on the summit capturing memories and soaking in the experience, the descent begins carefully. Depending on snow conditions, sections of the trail may allow for glissading — a thrilling way to slide down snow slopes — always under the guidance of your trek leader.
+<br><br>
+By lunchtime, you return to base camp for a well-earned meal. The journey continues downhill afterward, descending to Hargaon or Juda Ka Talab depending on current camp arrangements. As the day winds down, celebrate the achievement of the summit climb before retreating into your sleeping bag — tired, fulfilled, and carrying memories that will stay long after the mountains fade from view.`
+},
+  {
+  day: 5,
+  title: "Hargaon → Sankri (Easy Descent & Trek Concludes)",
+  details: `<strong>• Relaxed morning and an easy 6 km / 4 hrs descent back to Sankri through familiar forest trails.</strong><br><br>
+After several early starts and long trekking days, this morning is well deservedly slow. Wake up after a comfortable night’s sleep, soak in the calm mountain air, and enjoy an unhurried breakfast at the campsite before packing up for the final descent.
+<br><br>
+The trail back to Sankri follows the same familiar route you climbed earlier in the trek, making the walk feel easier and more reflective. The descent winds gently through pine and oak forests, with occasional open patches and quiet clearings offering chances to pause, chat, and simply enjoy the last moments on the trail.
+<br><br>
+With no rush today, the walk remains comfortable and relaxed, allowing you to take in the surroundings at your own pace. The forest gradually thins out as the path approaches Sankri village, signaling the end of the trekking journey.
+<br><br>
+By late afternoon, you arrive back in Sankri where the trek officially concludes. After checking into your guesthouse, the evening is free to rest, freshen up, and unwind. Spend the rest of the day at leisure — stroll around the village, visit the local market, or enjoy a quiet evening reflecting on the summit climb and days spent in the mountains. The night at Sankri marks a calm and comfortable end to the Kedarkantha trek before departures the following day.`
+}
 ],
 
   didYouKnow: [
