@@ -5568,7 +5568,7 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
   ],
 
 itinerary: [
-  { day: 1, title: "Reach Sankri – Gateway to Kedarkantha (6,400 ft)", 
+  { day: 1, title: "Reach Sankri – Gateway to Kedarkantha (6,400 ft) | From Dehradun ~ 200km approx ", 
     details: `• The journey to Kedarkantha begins long before the first step on the trail — it begins on the road to Sankri. For those opting for shared transport, our pickup vehicle meets participants in Dehradun, with exact pickup point and driver details shared a day prior. As the city fades behind, the mountains slowly take over, and the rhythm of travel shifts from haste to anticipation.
 <br><br>
 Leaving Dehradun, the route bends through either Mussoorie or Vikasnagar, chosen carefully based on road and traffic conditions. Soon, the landscape opens into the broad valleys of the Yamuna River — one of the most sacred rivers of the Himalayas. Here, the Yamuna flows wide and calm, nourishing terraced farmlands and small settlements tucked into the hillsides. Waterfalls spill down rock faces, sunlight dances across fields, and the air grows noticeably cooler and cleaner.
@@ -5579,7 +5579,7 @@ By evening, Sankri appears — a small, charming hamlet surrounded by pine-cover
 <br><br>
 The day ends with an overnight stay in Sankri, allowing the body to rest, acclimatize, and prepare — because from tomorrow onward, the mountains will be explored on foot.` 
   },
-  { day: 2, title: "Sankri to Juda Ka Talab (9,100 ft)", 
+  { day: 2, title: "Sankri to Juda Ka Talab (9,100 ft) | ~ 4-5 km", 
     details: `<strong>• Trek 4 km / 4 hrs, gradual ascent through dense pine, oak, and maple forests.</strong><br><br>
 After an early breakfast in Sankri, the trail begins by walking past the forest office and the last cluster of houses in Saud village. For a short while, the path follows the road that leads toward the Har Ki Dun valley — a gentle warm-up before the mountains make their intentions clear. Soon, a sharp left turn pulls you away from the road and into a steadily rising trail, climbing firmly for nearly a kilometre on a recently paved stretch.
 <br><br>
@@ -5593,7 +5593,7 @@ By around noon, the forest opens up and the campsite near Juda Ka Talab comes in
   },
   {
   day: 3,
-  title: "Juda Ka Talab to Kedarkantha Base Camp (11,200 ft)",
+  title: "Juda Ka Talab to Kedarkantha Base Camp (11,200 ft) | ~ 2-3 km",
   details: `<strong>• Short trek of approx. 2–2.5 km / 2–3 hrs, climbing steadily from forested trails into open alpine meadows.</strong><br><br>
 The morning at Juda Ka Talab begins unhurried and calm. If the day is clear, soak in the warmth of the early sun as it filters through the trees, lighting up the forest floor. Enjoy a relaxed breakfast at camp before starting the day’s short but rewarding hike toward Kedarkantha Base Camp.
 <br><br>
@@ -5611,8 +5611,8 @@ Join the briefing session led by your trek leader, covering important tips and p
 },
   {
   day: 4,
-  title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Hargaon (8,900 ft)",
-  details: `<strong>• Pre-dawn summit attempt covering approx. 5–6 km / 7–8 hrs, climbing through snow-covered meadows to Kedarkantha peak before descending to lower camps.</strong><br><br>
+  title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Hargaon (8,900 ft) | ~ 10 km",
+  details: `<strong>• Pre-dawn summit attempt covering approx. 4 km / 3–4 hrs, climbing through snow-covered meadows to Kedarkantha peak before descending to lower camps.</strong><br><br>
 The day begins much before sunrise, awakened by your guide’s call echoing through the cold, silent meadow. Outside, the temperature is biting, and hesitation is the real enemy — the key is to act quickly and decisively. Layer up well, protect your hands and face, and prepare yourself for the summit push. A quick breakfast of warm porridge and hot tea helps fuel the body before stepping into the dark.
 <br><br>
 With headlamps switched on, the team moves out together, staying close to the guide and maintaining a slow, steady rhythm. The pace is intentionally unhurried — moving too fast causes sweating, which quickly turns uncomfortable and dangerously cold once you stop. Instead, a calm, consistent climb keeps the body warm and energy balanced as the trail winds upward through the night.
@@ -5631,8 +5631,8 @@ By lunchtime, you return to base camp for a well-earned meal. The journey contin
 },
   {
   day: 5,
-  title: "Hargaon → Sankri (Easy Descent & Trek Concludes)",
-  details: `<strong>• Relaxed morning and an easy 6 km / 4 hrs descent back to Sankri through familiar forest trails.</strong><br><br>
+  title: "Hargaon → Sankri (Descent & Trek Concludes) | ~ 4-5 km",
+  details: `<strong>• Relaxed morning and an easy 5 km / 3-4 hrs descent back to Sankri through familiar forest trails.</strong><br><br>
 After several early starts and long trekking days, this morning is well deservedly slow. Wake up after a comfortable night’s sleep, soak in the calm mountain air, and enjoy an unhurried breakfast at the campsite before packing up for the final descent.
 <br><br>
 The trail back to Sankri follows the same familiar route you climbed earlier in the trek, making the walk feel easier and more reflective. The descent winds gently through pine and oak forests, with occasional open patches and quiet clearings offering chances to pause, chat, and simply enjoy the last moments on the trail.

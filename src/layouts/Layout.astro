@@ -812,9 +812,9 @@ backdrop-filter: blur(15px);
 /* Close Button */
 #leadGenModal .modal-close {
   position: absolute;
-  top: 18px;
-  right: 22px;
-  font-size: 22px;
+  top: 24px;
+  right: 24px;
+  font-size: 30px;
   color: #ff7300;
   cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
@@ -916,7 +916,6 @@ backdrop-filter: blur(15px);
   min-width: 240px;
   padding: 15px 40px;
 
-  background: transparent;
   color: #ff7300;
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -926,20 +925,45 @@ backdrop-filter: blur(15px);
   border: 2px solid #ff7300;
   cursor: pointer;
 
+  /* glass base */
+  background: rgba(0, 0, 0, 0.35);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+  /* elevation + soft brand glow */
   box-shadow:
-    0 6px 18px rgba(255,115,0,0.4),
-    0 0 12px rgba(255,115,0,0.25);
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 8px 18px rgba(0,0,0,0.35),
+    0 0 12px rgba(255,115,0,0.35);
 
   transition: all 0.3s ease;
+}
+
+/* subtle glass reflection */
+#leadGenModal .btn-submit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
 }
 
 #leadGenModal .btn-submit:hover {
   background: #ff7300;
   color: #000;
-  transform: scale(1.06);
+  transform: scale(1.05);
+
   box-shadow:
-    0 12px 30px rgba(255,115,0,0.8),
-    0 0 28px rgba(255,115,0,1);
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 12px 28px rgba(0,0,0,0.45),
+    0 0 22px rgba(255,115,0,1),
+    0 0 42px rgba(255,115,0,0.7);
 }
 
 /* ================================
