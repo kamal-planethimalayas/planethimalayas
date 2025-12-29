@@ -76,7 +76,7 @@ backdrop-filter: blur(15px);
 .profile-circle {
   width: 2.5rem;
   height: 2.5rem;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
   color: #ff7300;
   border: 2px solid #ff7300;
   font-weight: bold;
@@ -113,7 +113,7 @@ backdrop-filter: blur(15px);
 /* Dropdown links */
 .profile-dropdown .dropdown-link {
   padding: 0.75rem 1rem;
-  background: #000 !important;               /* Black background (force override) */
+  background: rgba(0, 0, 0, 0.75) !important;               /* Black background (force override) */
   color: #ff7300 !important;                 /* Brand text (force override) */
   text-decoration: none;
   border: 2px solid #ff7300 !important;

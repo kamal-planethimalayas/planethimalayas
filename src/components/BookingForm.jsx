@@ -26,6 +26,7 @@ export default function BookingForm() {
   const [voucherCode, setVoucherCode] = useState("");
   const [voucherMessage, setVoucherMessage] = useState("");
   const [appliedVoucher, setAppliedVoucher] = useState(null); // store full voucher
+  const [voucherHover, setVoucherHover] = useState(false);
   const [offerApplied, setOfferApplied] = useState(false);
   const [offerMessage, setOfferMessage] = useState("");
   const [appliedOfferId, setAppliedOfferId] = useState(null);
@@ -39,7 +40,6 @@ const removeParticipant = (index) => {
   newParticipants.splice(index, 1); // remove participant at index
   setParticipants(newParticipants);
 };
-
 
   // Load URL params
 useEffect(() => {
@@ -679,21 +679,40 @@ new window.Razorpay(options).open();
   {/* Logo & Title */}
   <a href="/" style={{ textDecoration: "none" }}>
   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem" }}>
-    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "50px", marginRight: "10px" }} />
-    <h2 style={{ fontFamily: "Helvetica, sans-serif", fontSize: "1.8rem", margin: 0 }}>
-      <span style={{ color: "black" }}>Planet</span>
-      <span style={{ color: "#ff7300" }}>himalayas</span>
-    </h2>
+    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "80px" }} />
+    
   </div>
   </a>
 
-  <h1 style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-    {editingBookingId ? "Edit Booking" : "New Booking"}
-  </h1>
+  <h2 style={{ textAlign: "center", marginBottom: "1.5rem", fontSize: "2rem", fontWeight: "bold" }}>
+  <span style={{ color: "#000" }}>
+    {editingBookingId ? "Edit" : "New"}
+  </span>{" "}
+  <span
+    style={{
+      color: "#ff7300",
+      borderBottom: "4px solid #ff7300",
+      paddingBottom: "4px",
+    }}
+  >
+    Booking
+  </span>
+</h2>
 
-  <p><strong>Trek Name:</strong> {trek?.name}</p>
-  <p><strong>Date:</strong> {startDate && endDate ? `${startDate} to ${endDate}` : "Not selected"}</p>
-  <p><strong>Base Price:</strong> ₹{basePrice}</p>
+  <p>
+  <strong>Trek Name:</strong>{" "}
+  <span style={{ color: "#ff7300" }}>{trek?.name}</span>
+</p>
+<p>
+  <strong>Date:</strong>{" "}
+  <span style={{ color: "#ff7300" }}>
+    {startDate && endDate ? `${startDate} to ${endDate}` : "Not selected"}
+  </span>
+</p>
+<p>
+  <strong>Base Price:</strong>{" "}
+  <span style={{ color: "#ff7300" }}>₹{basePrice}</span>
+</p>
 
   {/* Participants */}
   {participants.map((p, idx) => (
@@ -735,11 +754,9 @@ new window.Razorpay(options).open();
   flagsPath="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/flags/4x3/"
 />
 
-
-
       {addonsList.length > 0 && (
         <fieldset style={{ ...fieldsetStyle, padding: "0.8rem" }}>
-          <legend>Add-ons</legend>
+          <legend><strong>Add-ons</strong></legend>
           {addonsList.map((a) => (
             <label key={a.id} style={{ display: "block", marginBottom: "0.5rem" }}>
               <input type="checkbox" checked={!!p.addons[a.id]} onChange={() => toggleAddon(idx, a.id)} /> {a.label}
@@ -751,24 +768,81 @@ new window.Razorpay(options).open();
       {/* Remove participant button for non-leaders */}
     {idx > 0 && (
       <button
-        type="button"
-        onClick={() => removeParticipant(idx)}
-        style={{
-          ...addBtnStyle,
-          backgroundColor: "#d32f2f",
-          color: "#fff",
-          marginTop: "0.5rem"
-        }}
-      >
-        Remove Participant
-      </button>
+  type="button"
+  onClick={() => removeParticipant(idx)}
+  style={{
+    ...addBtnStyle,
+    background: "rgba(0, 0, 0, 0.75)", // glassy red base
+    backdropFilter: "blur(15px)",
+    WebkitBackdropFilter: "blur(15px)",
+    color: "red",
+    border: "2px solid red", // red border
+    marginTop: "0.5rem",
+    boxShadow: `
+      inset 0 1px 1px rgba(255,255,255,0.35),
+      0 10px 28px rgba(0,0,0,0.35),
+      0 0 12px rgba(211,47,47,0.35)
+    `,
+    transition: "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease",
+    cursor: "pointer",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.background = "red"; // solid red
+    e.currentTarget.style.color = "#000";
+    e.currentTarget.style.transform = "translateY(-4px)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.45),
+      0 14px 35px rgba(0,0,0,0.45),
+      0 0 30px rgba(211,47,47,1),
+      0 0 60px rgba(211,47,47,0.75)
+    `;
+  }}
+  onMouseLeave={(e) => {
+    Object.assign(e.currentTarget.style, {
+      ...addBtnStyle,
+      background: "rgba(0, 0, 0, 0.75)",
+      backdropFilter: "blur(15px)",
+      WebkitBackdropFilter: "blur(15px)",
+      color: "red",
+      border: "2px solid #d32f2f",
+      marginTop: "0.5rem",
+      boxShadow: `
+        inset 0 1px 1px rgba(255,255,255,0.35),
+        0 10px 28px rgba(0,0,0,0.35),
+        0 0 12px rgba(211,47,47,0.35)
+      `,
+      transition: "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease",
+      cursor: "pointer",
+    });
+  }}
+>
+  Remove Participant
+</button>
     )}
     </fieldset>
   ))}
 
-  <button type="button" onClick={addParticipant} style={addBtnStyle}>
-    + Add Participant
-  </button>
+  <button
+  type="button"
+  onClick={addParticipant}
+  style={addBtnStyle}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.transform = "translateY(-4px)";
+    e.currentTarget.style.background = "#ff7300";
+    e.currentTarget.style.color = "#000";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.45),
+        0 14px 35px rgba(0,0,0,0.45),
+        0 0 30px rgba(255,115,0,1),
+        0 0 60px rgba(255,115,0,0.75)
+    `;
+  }}
+  onMouseLeave={(e) => {
+    Object.assign(e.currentTarget.style, addBtnStyle);
+  }}
+>
+  + Add Participant
+</button>
 
   {/* Voucher Code */}
   <div style={{ marginBottom: "1rem" }}>
@@ -782,19 +856,60 @@ new window.Razorpay(options).open();
 <button
   type="button"
   onClick={handleApplyVoucher}
+  disabled={!!appliedVoucher}
+  onMouseEnter={() => !appliedVoucher && setVoucherHover(true)}
+  onMouseLeave={() => setVoucherHover(false)}
   style={{
     width: "28%",
     marginLeft: "2%",
     padding: "0.5rem",
-    backgroundColor: appliedVoucher ? "#ccc" : "#ff7300",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
-    cursor: appliedVoucher ? "not-allowed" : "pointer",
+
+    /* BACKGROUND */
+    background: appliedVoucher
+      ? "#888"        // dead
+      : voucherHover
+      ? "#ff7300"                       // active hover
+      : "rgba(0,0,0,0.75)",             // glass base
+
+    backdropFilter: appliedVoucher ? "none" : "blur(15px)",
+    WebkitBackdropFilter: appliedVoucher ? "none" : "blur(15px)",
+
+    color: appliedVoucher
+      ? "#555"
+      : voucherHover
+      ? "#000"
+      : "#ff7300",
+
     fontWeight: "bold",
     fontSize: "0.95rem",
+
+    borderRadius: "8px",
+    border: `2px solid ${appliedVoucher ? "#888" : "#ff7300"}`,
+
+    cursor: appliedVoucher ? "not-allowed" : "pointer",
+
+    /* SHADOW */
+    boxShadow: appliedVoucher
+      ? "none"
+      : voucherHover
+      ? `
+        inset 0 1px 1px rgba(255,255,255,0.45),
+        0 14px 35px rgba(0,0,0,0.45),
+        0 0 30px rgba(255,115,0,1),
+        0 0 60px rgba(255,115,0,0.75)
+      `
+      : `
+        inset 0 1px 1px rgba(255,255,255,0.35),
+        0 10px 28px rgba(0,0,0,0.35),
+        0 0 12px rgba(255,115,0,0.35)
+      `,
+
+    transform:
+      !appliedVoucher && voucherHover ? "translateY(-4px)" : "none",
+
+    transition:
+      "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease",
   }}
-  disabled={!!appliedVoucher}
 >
   Apply
 </button>
@@ -812,7 +927,7 @@ new window.Razorpay(options).open();
       display: "flex",
       alignItems: "center",
       padding: "1rem",
-      border: "1px solid #ccc",
+      border: "2px solid #ff7300",
       borderRadius: "8px",
       marginBottom: "0.8rem",
       gap: "1rem",
@@ -823,14 +938,82 @@ new window.Razorpay(options).open();
   onClick={() => handleApplyOffer(offer.code)}
   disabled={offer.alreadyUsed || appliedOfferId === offer.id}
   style={{
-    width: "25%",
+    width: "28%",
     padding: "0.5rem",
-    backgroundColor: offer.alreadyUsed || appliedOfferId === offer.id ? "#ccc" : "#ff7300",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
-    cursor: offer.alreadyUsed || appliedOfferId === offer.id ? "not-allowed" : "pointer",
+    position: "relative",
+
+    /* BACKGROUND */
+    background:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "#888" // dead
+        : "rgba(0,0,0,0.75)",      // glass base
+
+    backdropFilter:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "none"
+        : "blur(15px)",
+    WebkitBackdropFilter:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "none"
+        : "blur(15px)",
+
+    /* TEXT */
+    color:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "#555"
+        : "#ff7300",
+
     fontWeight: "bold",
+    fontSize: "0.9rem",
+
+    borderRadius: "8px",
+    border:
+  offer.alreadyUsed || appliedOfferId === offer.id
+    ? "2px solid #888"
+    : "2px solid #ff7300",
+
+    cursor:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "not-allowed"
+        : "pointer",
+
+    /* ELEVATION */
+    boxShadow:
+      offer.alreadyUsed || appliedOfferId === offer.id
+        ? "none"
+        : `
+          inset 0 1px 1px rgba(255,255,255,0.35),
+          0 10px 28px rgba(0,0,0,0.35),
+          0 0 12px rgba(255,115,0,0.35)
+        `,
+
+    transition:
+      "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease",
+  }}
+  onMouseEnter={e => {
+    if (offer.alreadyUsed || appliedOfferId === offer.id) return;
+
+    e.currentTarget.style.background = "#ff7300";
+    e.currentTarget.style.color = "#000";
+    e.currentTarget.style.transform = "translateY(-4px)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.45),
+      0 14px 35px rgba(0,0,0,0.45),
+      0 0 30px rgba(255,115,0,1),
+      0 0 60px rgba(255,115,0,0.75)
+    `;
+  }}
+  onMouseLeave={e => {
+    if (offer.alreadyUsed || appliedOfferId === offer.id) return;
+
+    e.currentTarget.style.background = "rgba(0,0,0,0.75)";
+    e.currentTarget.style.color = "#ff7300";
+    e.currentTarget.style.transform = "translateY(0)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.35),
+      0 10px 28px rgba(0,0,0,0.35),
+      0 0 12px rgba(255,115,0,0.35)
+    `;
   }}
 >
   {offer.code}
@@ -849,7 +1032,18 @@ new window.Razorpay(options).open();
 
 </div>
 
-  <p><strong>Total Price:</strong> ₹{totalPrice}</p>
+  <p>
+  <strong>Total Price:</strong>{" "}
+  <span
+    style={{
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      color: "#ff7300",
+    }}
+  >
+    ₹{totalPrice}
+  </span>
+</p>
 
   <label style={{ display: "block", marginBottom: "1rem" }}>
   <input 
@@ -862,9 +1056,9 @@ new window.Razorpay(options).open();
     href="/terms-and-conditions" 
     target="_blank" 
     rel="noopener noreferrer" 
-    style={{ color: "#ff7300" }}
+    style={{ color: "#ff7300", fontWeight: "bold" }}
   >
-    Terms and Conditions
+    Terms & Conditions
   </a>
 </label>
 
@@ -877,16 +1071,53 @@ new window.Razorpay(options).open();
   style={{
     width: "100%",
     padding: "1rem",
-    backgroundColor: "#ff7300",
-    color: "#fff",
-    border: "none",
-    borderRadius: "6px",
+    position: "relative",
+
+    /* Glass base */
+    background: "rgba(0, 0, 0, 0.75)",
+    backdropFilter: "blur(15px)",
+    WebkitBackdropFilter: "blur(15px)",
+
+    color: "#ff7300",
     fontWeight: "bold",
     fontSize: "1rem",
+
+    border: "2px solid #ff7300",
+    borderRadius: "10px",
+
     cursor: "pointer",
-    boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-    transition: "background-color 0.3s ease, transform 0.2s ease",
- }}
+
+    /* Elevated feel */
+    boxShadow: `
+      inset 0 1px 1px rgba(255,255,255,0.35),
+      0 10px 28px rgba(0,0,0,0.35),
+      0 0 12px rgba(255,115,0,0.35)
+    `,
+
+    transition:
+      "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease",
+  }}
+  onMouseEnter={e => {
+    e.currentTarget.style.background = "#ff7300";
+    e.currentTarget.style.color = "#000";
+    e.currentTarget.style.transform = "translateY(-4px)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.45),
+      0 14px 35px rgba(0,0,0,0.45),
+      0 0 30px rgba(255,115,0,1),
+      0 0 60px rgba(255,115,0,0.75)
+    `;
+  }}
+  onMouseLeave={e => {
+    e.currentTarget.style.background = "rgba(0, 0, 0, 0.75)";
+    e.currentTarget.style.color = "#ff7300";
+    e.currentTarget.style.transform = "translateY(0)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.35),
+      0 10px 28px rgba(0,0,0,0.35),
+      0 0 12px rgba(255,115,0,0.35)
+    `;
+  }}
 >
   Save Booking
 </button>
@@ -896,6 +1127,31 @@ new window.Razorpay(options).open();
   type="submit"
   disabled={!termsAccepted || loadingSubmit}
   style={!termsAccepted ? disabledSubmitStyle : submitStyle}
+  onMouseEnter={e => {
+    if (!termsAccepted || loadingSubmit) return;
+
+    e.currentTarget.style.background = "#ff7300";
+    e.currentTarget.style.color = "#000";
+    e.currentTarget.style.transform = "translateY(-4px)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.45),
+      0 14px 35px rgba(0,0,0,0.45),
+      0 0 30px rgba(255,115,0,1),
+      0 0 60px rgba(255,115,0,0.75)
+    `;
+  }}
+  onMouseLeave={e => {
+    if (!termsAccepted || loadingSubmit) return;
+
+    e.currentTarget.style.background = "rgba(0, 0, 0, 0.75)";
+    e.currentTarget.style.color = "#ff7300";
+    e.currentTarget.style.transform = "translateY(0)";
+    e.currentTarget.style.boxShadow = `
+      inset 0 1px 1px rgba(255,255,255,0.35),
+      0 10px 28px rgba(0,0,0,0.35),
+      0 0 12px rgba(255,115,0,0.35)
+    `;
+  }}
 >
   {loadingSubmit ? "Processing..." : "Pay & Book"}
 </button>
@@ -926,7 +1182,7 @@ const inputStyle = {
 };
 
 const fieldsetStyle = {
-  border: "1px solid #ff7300",
+  border: "2px solid #ff7300",
   borderRadius: "8px",
   padding: "1rem",
   margin: "1rem 0",
@@ -935,36 +1191,78 @@ const fieldsetStyle = {
 const addBtnStyle = {
   width: "100%",
   padding: "0.8rem",
-  backgroundColor: "blue",
-  color: "#fff",
-  border: "none",
-  borderRadius: "6px",
-  cursor: "pointer",
+
+  /* glass background */
+  background: "rgba(0, 0, 0, 0.75)",
+  backdropFilter: "blur(15px)",
+  WebkitBackdropFilter: "blur(15px)",
+
+  color: "#ff7300",
   fontWeight: "bold",
   fontSize: "0.95rem",
+
+  borderRadius: "8px",
+  border: "2px solid #ff7300",
+
+  cursor: "pointer",
   marginBottom: "1rem",
-  boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-  transition: "background-color 0.3s ease, transform 0.2s ease",
+
+  boxShadow: `
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 10px 28px rgba(0,0,0,0.35),
+    0 0 12px rgba(255,115,0,0.35)
+  `,
+
+  transition:
+    "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease",
 };
+
+const disabledSubmitStyle = {
+  width: "100%",
+  padding: "1rem",
+
+  background: "#888",
+  color: "#555",
+
+  border: "2px solid #888",
+  borderRadius: "10px",
+
+  fontWeight: "bold",
+  fontSize: "1rem",
+
+  cursor: "not-allowed",
+  boxShadow: "none",
+};
+
 const submitStyle = {
   width: "100%",
   padding: "1rem",
-  backgroundColor: "#ff7300",
-  color: "#fff",
-  border: "none",
-  borderRadius: "6px",
+  position: "relative",
+
+  /* Glass base */
+  background: "rgba(0, 0, 0, 0.75)",
+  backdropFilter: "blur(15px)",
+  WebkitBackdropFilter: "blur(15px)",
+
+  color: "#ff7300",
   fontWeight: "bold",
   fontSize: "1rem",
+
+  border: "2px solid #ff7300",
+  borderRadius: "10px",
+
   cursor: "pointer",
-  boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-  transition: "background-color 0.3s ease, transform 0.2s ease",
+
+  /* Elevated */
+  boxShadow: `
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 10px 28px rgba(0,0,0,0.35),
+    0 0 12px rgba(255,115,0,0.35)
+  `,
+
+  transition:
+    "transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease",
 };
-const disabledSubmitStyle = {
-  ...submitStyle,
-  backgroundColor: "#ccc",
-  cursor: "not-allowed",
-  boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-  transition: "background-color 0.3s ease, transform 0.2s ease",
-};
+
 
 

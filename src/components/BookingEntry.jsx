@@ -62,11 +62,7 @@ export default function BookingEntry() {
       {/* Logo & Title */}
   <a href="/" style={{ textDecoration: "none" }}>
   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem" }}>
-    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "50px", marginRight: "10px" }} />
-    <h2 style={{ fontFamily: "Helvetica, sans-serif", fontSize: "1.8rem", margin: 0 }}>
-      <span style={{ color: "black" }}>Planet</span>
-      <span style={{ color: "#ff7300" }}>himalayas</span>
-    </h2>
+    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "80px" }} />
   </div>
   </a>
       <h1 style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '2rem', marginBottom: '0.5rem' }}>
