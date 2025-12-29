@@ -147,7 +147,7 @@ export default function AuthPage() {
       backgroundColor: isLogin ? '#ff7300' : "rgba(0,0,0,0.75)",
       color: isLogin ? "#000" : brandColor,
       boxShadow: isLogin
-        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
+        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)`
         : `0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`,
     }}
     onClick={() => {
@@ -172,7 +172,7 @@ export default function AuthPage() {
       backgroundColor: !isLogin ? '#ff7300' : "rgba(0,0,0,0.75)",
       color: !isLogin ? "#000" : brandColor,
       boxShadow: !isLogin
-        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`
+        ? `inset 0 1px 2px rgba(255,255,255,0.25), 0 8px 25px rgba(255,115,0,0.8), 0 0 22px rgba(255,115,0,1)`
         : `0 4px 12px rgba(255,115,0,0.45), 0 0 10px rgba(255,115,0,0.3)`,
     }}
     onClick={() => {
