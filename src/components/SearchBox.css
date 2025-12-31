@@ -150,9 +150,12 @@
     0 0 45px rgba(255, 115, 0, 0.7);
 }
 
+.search-box {
+  padding: 1rem;
+}
+
 .search-box input {
   padding: 0.4rem;
-  margin-right: 1rem;
   font-size: 1rem;
   border: 2px solid #ff7300;
   border-radius: 8px;
@@ -169,4 +172,19 @@
     0 8px 25px rgba(255, 115, 0, 0.8),
     0 0 22px rgba(255, 115, 0, 1);
 }
+
+@media (max-width: 768px) {
+  .search-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .search-box input {
+    margin-right: 0;        /* remove desktop spacing */
+    width: 90%;             /* or fixed like 280px */
+    max-width: 400px;
+  }
+}
+
 
