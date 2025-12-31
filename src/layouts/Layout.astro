@@ -694,69 +694,15 @@ backdrop-filter: blur(15px);
 <style is:global>
 
   @media (max-width: 768px) {
-    .desktop-search { display: none; }
+    .desktop-search { display: none;  }
     .mobile-search-btn { display: inline-block !important; }
   }
-  /* Shared Auth button styles */
-  .auth-btn {
-    display: inline-block;
-    padding: 8px 16px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.2s ease, transform 0.1s ease;          
-  }
-
 
   /* Search styles */
   .desktop-search { display: block; }
-  
-  @media (max-width: 768px) {
-    .desktop-search { display: none; }
-  }
-
-.search-box {
-  position: relative;
-  display: flex;
-  gap: 8px;
-}
 
 .search-box input {
-  padding: 8px 16px;
-  width: 380px;
-  border-radius: 8px;
-  border: 1px solid #ff7300;
-  flex: 1;
-}
-
-.results-box {
-  position: absolute;      /* allows it to float above other elements */
-  top: 300%;               /* right below the search input */
-  left: 0;
-  width: 400px;             /* match the input width or parent container */
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  z-index: 9999;           /* make sure it appears above navbar */
-  max-height: 400px;
-  overflow-y: auto;
-}
-
-.result-item, .no-result {
-  display: flex;
-  padding: 10px;
-  border-bottom: 1px solid #eee;
-  text-decoration: none;
-  color: black;
-}
-
-.result-item:hover {
-  background: #f9f9f9;
+  width: 400px;
 }
 
 /* ================================
@@ -848,8 +794,22 @@ backdrop-filter: blur(15px);
   transition: all 0.3s ease;
 }
 
+#leadGenModal .modal-close::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
 #leadGenModal .modal-close:hover {
-  transform: scale(1.05);
+  transform: translateY(-6px);
   color: #000;
   background: red;
   box-shadow:

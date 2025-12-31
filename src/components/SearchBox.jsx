@@ -18,7 +18,31 @@ export default function SearchBox() {
     return str.slice(0, 3).charAt(0).toUpperCase() + str.slice(1, 3);
   };
 
+  const placeholderText =
+  "Search trek by name / region / season / difficulty / month / days.";
 
+  useEffect(() => {
+  let index = 0;
+  let scrolling = true;
+
+  const interval = setInterval(() => {
+    if (!scrolling) return;
+
+    index++;
+    inputRef.current.placeholder =
+      placeholderText.slice(index) + "  " + placeholderText.slice(0, index);
+
+    if (index >= placeholderText.length) {
+      scrolling = false;
+      setTimeout(() => {
+        index = 0;
+        scrolling = true;
+      }, 2000); // pause 2 sec
+    }
+  }, 150);
+
+  return () => clearInterval(interval);
+}, []);
 
   const handleChange = (e) => {
     const value = e.target.value.toLowerCase();
@@ -80,7 +104,7 @@ export default function SearchBox() {
       <input
         ref={inputRef}
         type="text"
-        placeholder="search trek by name/region/season/difficulty/month/days..."
+        placeholder="Search trek by name/region/season/difficulty/month/days..."
         value={query}
         onChange={handleChange}
         
@@ -96,7 +120,6 @@ export default function SearchBox() {
               left: dropdownPos.left,
               width: dropdownPos.width,
               maxWidth: window.innerWidth < 768 ? "100%" : "none",
-              background: "white",
               border: "2px solid #ff7300",
               borderRadius: "8px",
               zIndex: 9999, // much higher than navbar
@@ -121,7 +144,7 @@ export default function SearchBox() {
             ) : (
               <div className="no-result">
                 <p>No matches found</p>
-                <a href="/upcoming-treks" className="upcoming-btn">See all upcoming treks</a>
+                <a href="/upcoming-treks" className="upcoming-btn">See Upcoming Treks</a>
               </div>
             )}
           </div>,
