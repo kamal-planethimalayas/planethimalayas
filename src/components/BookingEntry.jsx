@@ -65,12 +65,50 @@ export default function BookingEntry() {
     <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "80px" }} />
   </div>
   </a>
-      <h1 style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        <span style={{ marginTop: '0.5rem' }}>Confirm Booking</span>
-    </h1>
-      <p><strong>Trek Name:</strong> {trek.name}</p>
-      <p><strong>Date:</strong> {trekDate}</p>
-      <p><strong>Base Price:</strong> ₹{price}</p>
+      <h1
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    marginBottom: "1.5rem",
+    fontSize: "2rem",
+    fontWeight: "700",
+  }}
+>
+  <span>
+    <span style={{ color: "#000" }}>Confirm </span>
+    <span
+      style={{
+        color: "#ff7300",
+        borderBottom: "4px solid #ff7300",
+        paddingBottom: "2px",   // 👈 space between text & underline
+        display: "inline-block"
+      }}
+    >
+      Booking
+    </span>
+  </span>
+</h1>
+      <p>
+  <strong>Trek Name:</strong>{" "}
+  <span style={{ color: "#ff7300", fontWeight: "600" }}>
+    {trek.name}
+  </span>
+</p>
+
+<p>
+  <strong>Date:</strong>{" "}
+  <span style={{ color: "#ff7300", fontWeight: "600" }}>
+    {trekDate}
+  </span>
+</p>
+
+<p>
+  <strong>Base Price:</strong>{" "}
+  <span style={{ color: "#ff7300", fontWeight: "600", fontSize: "1.05rem" }}>
+    ₹{price}
+  </span>
+</p>
       <p>Please review your selection and click below to proceed:</p>
       <button
   onClick={handleProceed}

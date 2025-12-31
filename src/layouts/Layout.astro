@@ -812,17 +812,51 @@ backdrop-filter: blur(15px);
 /* Close Button */
 #leadGenModal .modal-close {
   position: absolute;
-  top: 24px;
-  right: 24px;
-  font-size: 30px;
-  color: #ff7300;
+  top: 18px;
+  right: 18px;
+
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+  line-height: 1;
+
+  color: red;
   cursor: pointer;
-  transition: transform 0.2s ease, color 0.2s ease;
+
+  z-index: 10; /* 🔥 above overlay */
+  pointer-events: auto;
+  touch-action: manipulation;
+  border: 2px solid red;
+  border-radius: 50%;
+
+  /* glass base */
+  background: rgba(0, 0, 0, 0.35);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+  /* elevation + soft brand glow */
+  box-shadow:
+  inset 0 1px 1px rgba(255,255,255,0.35),
+  0 8px 18px rgba(0,0,0,0.35),
+  0 0 12px rgba(211, 47, 47, 0.45);
+
+  transition: all 0.3s ease;
 }
 
 #leadGenModal .modal-close:hover {
-  transform: scale(1.15);
-  color: #fff;
+  transform: scale(1.05);
+  color: #000;
+  background: red;
+  box-shadow:
+  inset 0 1px 1px rgba(255,255,255,0.45),
+  0 12px 28px rgba(0,0,0,0.45),
+  0 0 22px rgba(211, 47, 47, 1),
+  0 0 42px rgba(211, 47, 47, 0.7);
 }
 
 /* Heading & Text */
@@ -988,6 +1022,14 @@ backdrop-filter: blur(15px);
 
   #leadGenModal h2 {
     font-size: 1.6rem;
+  }
+
+  #leadGenModal .modal-close {
+    top: 12px;
+    right: 12px;
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
   }
 }
   
@@ -1164,6 +1206,7 @@ window.addEventListener('DOMContentLoaded', () => {
     trekInput.value = trekName; // prefill trek name if provided
     modal.style.display = 'block';
   };
+
   const closeModal = () => {
     modal.style.display = 'none';
   };
@@ -1176,8 +1219,16 @@ window.addEventListener('DOMContentLoaded', () => {
     }, 8000);
   }
 
-  // Close modal on close button or outside click
-  closeBtn.addEventListener('click', closeModal);
+  // Close modal on close button (desktop + touch)
+  ["click", "touchstart", "pointerup"].forEach(evt => {
+    closeBtn.addEventListener(evt, (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeModal();
+    });
+  });
+
+  // Close modal on outside click
   window.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
   });

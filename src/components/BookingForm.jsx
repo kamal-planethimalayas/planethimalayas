@@ -684,7 +684,7 @@ new window.Razorpay(options).open();
   </div>
   </a>
 
-  <h2 style={{ textAlign: "center", marginBottom: "1.5rem", fontSize: "2rem", fontWeight: "bold" }}>
+  <h2 style={{ textAlign: "center", marginBottom: "1.5rem", fontSize: "2rem", fontWeight: "bold", marginBottom: "1.5rem" }}>
   <span style={{ color: "#000" }}>
     {editingBookingId ? "Edit" : "New"}
   </span>{" "}
@@ -701,17 +701,17 @@ new window.Razorpay(options).open();
 
   <p>
   <strong>Trek Name:</strong>{" "}
-  <span style={{ color: "#ff7300" }}>{trek?.name}</span>
+  <span style={{ color: "#ff7300", fontWeight: "600"}}>{trek?.name}</span>
 </p>
 <p>
   <strong>Date:</strong>{" "}
-  <span style={{ color: "#ff7300" }}>
+  <span style={{ color: "#ff7300", fontWeight: "600"}}>
     {startDate && endDate ? `${startDate} to ${endDate}` : "Not selected"}
   </span>
 </p>
 <p>
   <strong>Base Price:</strong>{" "}
-  <span style={{ color: "#ff7300" }}>₹{basePrice}</span>
+  <span style={{ color: "#ff7300", fontWeight: "600", fontSize: "1.05rem" }}>₹{basePrice}</span>
 </p>
 
   {/* Participants */}
