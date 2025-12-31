@@ -418,6 +418,23 @@ const { gallery, name } = trek;
 
 <div class="container">
 
+<!-- Trek Overview Section -->
+<section id="trek-overview-section" class="trek-overview-section reveal">
+  <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
+  <!-- Facts cards -->
+  <div class="trek-overview-card">
+    <ul>
+      {trek.overview.facts.map(fact => {
+        return (
+          <li key={fact.label}>
+            {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
+          </li>
+        );
+      })}
+    </ul>
+  </div>
+</section>
+
 <!-- Pricing -->
 <section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper reveal">
   <div class="pricing-and-snippet">
@@ -528,23 +545,6 @@ const { gallery, name } = trek;
       <span class="read-more-link">Read More</span>
     </div>
     </div>
-</section>
-
-<!-- Trek Overview Section -->
-<section id="trek-overview-section" class="trek-overview-section reveal">
-  <h2 class="trek-overview-title">Trek <span>Overview</span></h2>
-  <!-- Facts cards -->
-  <div class="trek-overview-card">
-    <ul>
-      {trek.overview.facts.map(fact => {
-        return (
-          <li key={fact.label}>
-            {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
-          </li>
-        );
-      })}
-    </ul>
-  </div>
 </section>
 
 <section class="trek-details">

@@ -5481,7 +5481,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 5 Days",
+  duration: "4 Nights / 4 Days",
   coordinates: [
     [31.0362, 78.1746], // Sankri (base)
     [31.0837, 78.2167], // Kedarkantha summit
@@ -5498,12 +5498,12 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   seo: {
   title: "Kedarkantha Trek | Itinerary, Cost & Dates | Planethimalayas",
-  description: "Kedarkantha Trek (12,500 ft) is Uttarakhand’s most popular winter trek, with pine forests, clearings, and a rewarding 360° summit climb. A perfect 6-day beginner-friendly Himalayan trek."
+  description: "Kedarkantha Trek (12,500 ft) is Uttarakhand’s most popular winter trek, with pine forests, clearings, and a rewarding 360° summit climb. A perfect 4-day beginner-friendly Himalayan trek."
 },
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 4 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Kedarkantha Summit)" },
       { emoji: "⚡", label: "Trek Distance", value: "20–22 Km" },
@@ -5524,7 +5524,7 @@ Summit day arrives before dawn. Headlamps glow softly as you begin the final asc
 Kedarkantha is more than a winter trek. It is a journey through silent forests, frozen lakes, open alpine slopes, and unforgettable summits — a perfect balance of adventure and beauty. Whether it’s your first experience of snow or a return to the mountains you love, this trek leaves you with something rare: the feeling of truly walking inside winter itself.`
 },
 
-  price: 10400,
+  price: 8400,
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 4000,
@@ -5533,29 +5533,29 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
     offloadingNote: "* Maximum weight 9kg/bag",
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 5",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 4",
 
   dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
+{ label: "05 Jan – 08 Jan", start: "2026-01-05", end: "2026-01-08" },
+{ label: "12 Jan – 15 Jan", start: "2026-01-12", end: "2026-01-15" },
+{ label: "19 Jan – 22 Jan", start: "2026-01-19", end: "2026-01-22" },
+{ label: "26 Jan – 29 Jan", start: "2026-01-26", end: "2026-01-29" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
+{ label: "02 Feb – 05 Feb", start: "2026-02-02", end: "2026-02-05" },
+{ label: "09 Feb – 12 Feb", start: "2026-02-09", end: "2026-02-12" },
+{ label: "16 Feb – 19 Feb", start: "2026-02-16", end: "2026-02-19" },
+{ label: "23 Feb – 26 Feb", start: "2026-02-23", end: "2026-02-26" },
 
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+{ label: "02 Mar – 05 Mar", start: "2026-03-02", end: "2026-03-05" },
+{ label: "09 Mar – 12 Mar", start: "2026-03-09", end: "2026-03-12" },
+{ label: "16 Mar – 19 Mar", start: "2026-03-16", end: "2026-03-19" },
+{ label: "23 Mar – 26 Mar", start: "2026-03-23", end: "2026-03-26" },
+{ label: "30 Mar – 02 Apr", start: "2026-03-30", end: "2026-04-02" },
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+{ label: "06 Apr – 09 Apr", start: "2026-04-06", end: "2026-04-09" },
+{ label: "13 Apr – 16 Apr", start: "2026-04-13", end: "2026-04-16" },
+{ label: "20 Apr – 23 Apr", start: "2026-04-20", end: "2026-04-23" },
+{ label: "27 Apr – 30 Apr", start: "2026-04-27", end: "2026-04-30" },
 
   ],
 
@@ -5611,36 +5611,28 @@ Join the briefing session led by your trek leader, covering important tips and p
 },
   {
   day: 4,
-  title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Hargaon (8,900 ft) | ~ 10 km",
-  details: `<strong>• Pre-dawn summit attempt covering approx. 4 km / 3–4 hrs, climbing through snow-covered meadows to Kedarkantha peak before descending to lower camps.</strong><br><br>
-The day begins much before sunrise, awakened by your guide’s call echoing through the cold, silent meadow. Outside, the temperature is biting, and hesitation is the real enemy — the key is to act quickly and decisively. Layer up well, protect your hands and face, and prepare yourself for the summit push. A quick breakfast of warm porridge and hot tea helps fuel the body before stepping into the dark.
+  title: "Summit Day: Kedarkantha Base → Summit (12,500 ft) → Descend to Sankri (6,400 ft) | ~ 14 km",
+  details: `<strong>• Early morning summit attempt followed by a long descent — approx. 14 km total trekking, making this the final and most rewarding day of the journey.</strong><br><br>
+The final day begins much before sunrise, awakened by your trek leader’s call cutting through the still, freezing air of Kedarkantha Base Camp. Outside, the meadow lies silent under the stars, temperatures well below freezing. This is not a morning for hesitation — layer up quickly, cover your face and hands, and prepare yourself mentally and physically for the summit push. A quick breakfast of warm porridge and hot tea fuels the body before stepping into the darkness.
 <br><br>
-With headlamps switched on, the team moves out together, staying close to the guide and maintaining a slow, steady rhythm. The pace is intentionally unhurried — moving too fast causes sweating, which quickly turns uncomfortable and dangerously cold once you stop. Instead, a calm, consistent climb keeps the body warm and energy balanced as the trail winds upward through the night.
+With headlamps switched on, the team sets off together, staying close to the guide and maintaining a slow, steady rhythm. The key is consistency — moving too fast leads to sweating, which quickly turns into biting cold once you stop. Instead, a calm, deliberate pace keeps the body warm as the trail climbs steadily upward through snow-covered slopes.
 <br><br>
-After a few hours of ascent, the last trees fall away behind you and the landscape changes dramatically. You emerge into wide, open terrain — exposed, windy, and breathtakingly beautiful. Kedarkantha now feels close, almost calling you forward. A small seasonal dhaba appears along the way, offering a brief chance to step inside, warm up, and gather strength — but the stop is short. The mountains demand movement.
+After a few hours, the last trees fall away and the terrain opens up completely. You emerge into wide, exposed meadows — vast, windy, and stunningly beautiful. Kedarkantha now feels close, almost within reach. A small seasonal dhaba appears along the route, offering a brief shelter to warm up before continuing — the stop is short, as lingering too long in the cold is never advisable.
 <br><br>
-From here, the climb eases slightly, but the altitude and biting wind make every step feel earned. Despite the cold, something shifts internally — the vast openness, the growing light on the horizon, and the anticipation ahead create a surge of motivation that’s hard to put into words.
+From here, the gradient eases slightly, but the altitude and wind add their own challenge. Soon, you find yourself standing right beneath the Kedarkantha peak, rising tall and snow-clad against the early morning sky. As the eastern horizon begins to glow deep orange, a quiet excitement builds — sunrise is less than an hour away, and so is the summit.
 <br><br>
-Soon, you find yourself standing right beneath the Kedarkantha peak, rising tall and striking against the sky. A short pause allows you to catch your breath as the eastern horizon begins to glow deep orange. Sunrise is close — about an hour away, and the summit just as far. The final stretch is the steepest and most exposed part of the trek, with sharp drops on either side and strong, bone-chilling winds sweeping across the slope. Careful footing, patience, and focus are essential as you negotiate this challenging section.
+The final stretch is the steepest and most exposed section of the entire trek. Sharp drops line either side of the narrow trail, and strong, bone-chilling winds demand focus and careful footing. There’s no need to rush — slow, steady steps are all it takes. With every move upward, the sky continues to change colour, urging you forward.
 <br><br>
-At last, the trail opens onto the summit — a broad, flat ground scattered with large boulders and crowned by a small temple. As the sun breaks over the horizon, the world transforms. Warm light spills across distant peaks, valleys wake slowly below, and the cold momentarily fades into insignificance. It’s a moment of deep satisfaction — quiet, powerful, and unforgettable.
+Reaching the summit feels surreal. The trail opens onto a broad, flat top scattered with large boulders and marked by a small temple. As the sun rises, warm light spills across the Himalayan ranges, illuminating distant peaks and valleys far below. The cold fades into the background, replaced by a deep sense of satisfaction and quiet achievement — a moment that stays etched in memory long after the trek ends.
 <br><br>
-After spending time on the summit capturing memories and soaking in the experience, the descent begins carefully. Depending on snow conditions, sections of the trail may allow for glissading — a thrilling way to slide down snow slopes — always under the guidance of your trek leader.
+After spending time on the summit capturing memories and soaking in the views, the descent begins carefully. Depending on snow conditions, parts of the trail may allow for controlled glissading — always under your trek leader’s guidance. By late morning, you return to Kedarkantha Base Camp for a well-earned rest and lunch.
 <br><br>
-By lunchtime, you return to base camp for a well-earned meal. The journey continues downhill afterward, descending to Hargaon or Juda Ka Talab depending on current camp arrangements. As the day winds down, celebrate the achievement of the summit climb before retreating into your sleeping bag — tired, fulfilled, and carrying memories that will stay long after the mountains fade from view.`
+After lunch, the journey continues downhill — a long but gentle descent all the way back to Sankri. The trail retraces familiar forest paths, gradually dropping in altitude as pine and oak trees close in once again. Fatigue mixes with contentment as each step brings you closer to warmth, roads, and rest.
+<br><br>
+By late evening, you arrive back in Sankri, marking the true end of the trek. After freshening up at the guesthouse, enjoy a warm dinner and reflect on the journey — from silent forests and snow-covered meadows to the unforgettable summit sunrise. Settle in for a well-deserved night’s rest.
+<br><br>
+The following day is reserved for departure. Guests may check out of the guesthouse before noon, concluding the Kedarkantha trek with memories that linger long after the mountains are left behind.`
 },
-  {
-  day: 5,
-  title: "Hargaon → Sankri (Descent & Trek Concludes) | ~ 4-5 km",
-  details: `<strong>• Relaxed morning and an easy 5 km / 3-4 hrs descent back to Sankri through familiar forest trails.</strong><br><br>
-After several early starts and long trekking days, this morning is well deservedly slow. Wake up after a comfortable night’s sleep, soak in the calm mountain air, and enjoy an unhurried breakfast at the campsite before packing up for the final descent.
-<br><br>
-The trail back to Sankri follows the same familiar route you climbed earlier in the trek, making the walk feel easier and more reflective. The descent winds gently through pine and oak forests, with occasional open patches and quiet clearings offering chances to pause, chat, and simply enjoy the last moments on the trail.
-<br><br>
-With no rush today, the walk remains comfortable and relaxed, allowing you to take in the surroundings at your own pace. The forest gradually thins out as the path approaches Sankri village, signaling the end of the trekking journey.
-<br><br>
-By late afternoon, you arrive back in Sankri where the trek officially concludes. After checking into your guesthouse, the evening is free to rest, freshen up, and unwind. Spend the rest of the day at leisure — stroll around the village, visit the local market, or enjoy a quiet evening reflecting on the summit climb and days spent in the mountains. The night at Sankri marks a calm and comfortable end to the Kedarkantha trek before departures the following day.`
-}
 ],
 
   didYouKnow: [
