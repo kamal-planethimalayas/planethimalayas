@@ -365,7 +365,19 @@ import "../styles/global.css";
 
       <div class="form-row">
         <input type="text" id="phone-home" name="phone" placeholder="Phone Number" required />
-        <input type="text" name="trek" placeholder="Interested Trek (optional)" />
+        <input
+          list="treks-list"
+          id="trekName"
+          name="trekName"
+          placeholder="Start typing or enter a new trek name..."
+          required
+          autocomplete="off"
+        />
+        <datalist id="treks-list">
+          {treks.map((t) => (
+            <option value={t.name} />
+          ))}
+        </datalist>
       </div>
 
       <div class="custom-message-field">
