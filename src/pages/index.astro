@@ -487,6 +487,50 @@ import "../styles/global.css";
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
+.hero-content h1 {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+/* Underline (hidden by default) */
+.hero-content h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 0%;
+  background-color: #ff7300; /* brand */
+  right: 0;     /* starts from the right */
+  left: auto;
+  transition: width 0.35s ease, left 0.35s ease, right 0.35s ease;
+}
+
+/* Hover: animate underline from right → left */
+.hero-content h1:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.hero-content h1.animate-underline::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+/* Active state: NO underline, ONLY color change */
+.hero-content h1.active {
+  color: #ff7300 !important;  /* brand color */
+}
+
+.hero-content h1.active::after {
+  width: 0;  /* make sure underline does NOT show */
+}
+
 .hero-subheading {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;

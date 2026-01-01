@@ -87,8 +87,8 @@ html {
   position: relative;
   z-index: 3;
   text-align: center;
-  width: 90%;
-  max-width: 1200px;
+  width: 85%;
+  max-width: 1000px;
 }
 
 /* Title */
@@ -102,13 +102,51 @@ html {
   text-overflow: ellipsis;
 }
 
+.trek-hero-title {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 4px;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+/* Underline (hidden by default) */
+.trek-hero-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 0%;
+  background-color: #ff7300; /* brand */
+  right: 0;     /* starts from the right */
+  left: auto;
+  transition: width 0.35s ease, left 0.35s ease, right 0.35s ease;
+}
+
+/* Hover: animate underline from right → left */
+.trek-hero-title:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+/* Active state: NO underline, ONLY color change */
+.trek-hero-title.active {
+  color: #ff7300 !important;  /* brand color */
+}
+
+.trek-hero-title.active::after {
+  width: 0;  /* make sure underline does NOT show */
+}
+
 /* Subtitle */
 .trek-hero-subtitle {
   font-size: clamp(1rem, 4vw, 2rem);
   color: #fff;
   margin-top: 0.5rem;
   text-shadow: 3px 3px 8px rgba(0,0,0,0.95);
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -249,9 +287,9 @@ backdrop-filter: blur(15px);
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   cursor: pointer;
   display: inline-block;
   transition: transform 0.25s, background 0.25s;
