@@ -7,7 +7,7 @@ export const treks = [
 {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
-    tags: ["intermediate", "pro", "pass", "glacier", "markha", "hemis", "crossover", "meadows", "teahouse"],
+    tags: ["intermediate", "pro", "pass", "crossover", "teahouse"],
     difficulty: ["moderate", "difficult"],
     season: ["monsoon"],
     month: ["july", "august", "september"],
@@ -63,19 +63,14 @@ export const treks = [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 7",
 
     dates: [
-      { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
       { label: "09 Aug - 15 Aug", start: "2026-08-09", end: "2026-08-15" },
-      { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
       { label: "16 Aug - 22 Aug", start: "2026-08-16", end: "2026-08-22" },
-      { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
       { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
-      { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
       { label: "30 Aug - 05 Sep", start: "2026-08-30", end: "2026-09-05" },
-      { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
       { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
-      { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
       { label: "13 Sep - 19 Sep", start: "2026-09-13", end: "2026-09-19" },
-
+      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
     ],
 
     highlights: [
@@ -210,7 +205,7 @@ export const treks = [
   {
   "id": "winter-markha-valley-trek",
   "name": "Winter Markha Valley Trek",
-  "tags": ["intermediate","meadows"],
+  "tags": ["intermediate", "teahouse"],
   "difficulty": ["moderate"],
   "season": ["winter"],
   "month": ["january", "february", "march"],
@@ -247,7 +242,7 @@ export const treks = [
         { emoji: "🌤️", label: "Best Time", value: "January to March" },
         { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
         { emoji: "📍", label: "Start Point", value: "Chilling (near Leh)" },
-        { emoji: "🏁", label: "End Point", value: "Chilling / Leh" },
+        { emoji: "🏁", label: "End Point", value: "Chilling / Skiu" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
       ],
 
@@ -574,9 +569,8 @@ export const treks = [
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
-   
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
-           "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
      
     ],
 
@@ -619,7 +613,7 @@ export const treks = [
   {
   id: "nubra-valley-trek",
   name: "Nubra Valley Trek",
-  tags: ["intermediate", "pro", "pass", "meadows"],
+  tags: ["intermediate", "pro", "pass"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -636,9 +630,9 @@ export const treks = [
 
   heroImages: [
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160952/nubra-valley2_peqb3p.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766161559/nubra-valley_jqyhh8.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160829/nubra-valley1_g1gnkv.jpg",
-            "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766161559/nubra-valley_jqyhh8.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160829/nubra-valley1_g1gnkv.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
   ],
 
   subtitle: "Where Himalayan Cold Desert Meet Lush Valleys",
@@ -651,13 +645,13 @@ export const treks = [
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Moderate - Difficult" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,582 ft (Lasermo La)" },
       { emoji: "⚡", label: "Trek Distance", value: "50–55 Km" },
       { emoji: "🌤️", label: "Best Time", value: "July - September" },
       { emoji: "🗺️", label: "Region", value: "Nubra Valley, Ladakh" },
-      { emoji: "📍", label: "Start Point", value: "Leh" },
-      { emoji: "🏁", label: "End Point", value: "Leh" },
+      { emoji: "📍", label: "Start Point", value: "Skarchen" },
+      { emoji: "🏁", label: "End Point", value: "Morobuk" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
     ],
 
@@ -756,7 +750,7 @@ export const treks = [
   },
 
   gallery: [
-     "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766162447/best_view_dw5qnf.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1766161559/nubra-valley_jqyhh8.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160952/nubra-valley2_peqb3p.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1766160829/nubra-valley1_g1gnkv.jpg",
@@ -835,7 +829,7 @@ export const treks = [
   {
   id: "kashmir-great-lakes-trek",
   name: "Kashmir Great Lakes Trek",
-  tags: ["intermediate", "pro", "pass", "lake", "meadows"],
+  tags: ["intermediate", "pro", "pass", "crossover", "lake"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -890,12 +884,12 @@ export const treks = [
   overview: {
   facts: [
     { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
-    { emoji: "⚡", label: "Trek Grade", value: "Moderate - Difficult" },
+    { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
     { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,200 m (13,800 ft)" },
     { emoji: "⚡", label: "Trek Distance", value: "65–75 Km (approx.)" },
     { emoji: "🌤️", label: "Best Time", value: "July to September" },
     { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas, Jammu & Kashmir" },
-    { emoji: "📍", label: "Start Point", value: "Sonamarg (Nichnai side)" },
+    { emoji: "📍", label: "Start Point", value: "Sonamarg" },
     { emoji: "🏁", label: "End Point", value: "Naranag" },
     { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
   ],
@@ -1064,10 +1058,10 @@ export const treks = [
 {
   id: "doodhpathri-trek",
   name: "Doodhpathri Trek",
-  tags: ["beginner", "lake", "meadows"],
+  tags: ["beginner", "lake"],
   difficulty: ["easy"],
   season: ["summer", "monsoon"],
-  month: ["june", "july", "august", "september"],
+  month: ["june", "july", "august", "september", "october"],
   duration: ["3 Nights / 4 Days"],
   region: "kashmir",
   coordinates: [
@@ -1117,10 +1111,10 @@ export const treks = [
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "4,100 m (Doodhpathri Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 18 km" },
-      { emoji: "🌤️", label: "Best Time", value: "June to September" },
-      { emoji: "🗺️", label: "Region", value: "Kashmir Himalayas" },
-      { emoji: "📍", label: "Start Point", value: "Srinagar" },
-      { emoji: "🏁", label: "End Point", value: "Srinagar" },
+      { emoji: "🌤️", label: "Best Time", value: "June to October" },
+      { emoji: "🗺️", label: "Region", value: "Kashmir" },
+      { emoji: "📍", label: "Start Point", value: "Doodhpathri" },
+      { emoji: "🏁", label: "End Point", value: "Doodhpathri" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
 
@@ -1257,7 +1251,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
-    tags: ["pro", "pass", "crossover", "kinnaur", "spiti", "glacier", "meadows"],
+    tags: ["pro", "pass", "crossover", "glacier"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -1291,8 +1285,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         { emoji: "⚡", label: "Trek Distance", value: "50 Km" },
         { emoji: "🌤️", label: "Best Time", value: "July to mid-September" },
         { emoji: "🗺️", label: "Region", value: "Crossover from Bhaba Valley in Kinnaur to Pin Valley in Spiti, H.P." },      
-        { emoji: "📍", label: "Start Point", value: "Kafnu (Kinnaur Valley, H.P.)" },
-        { emoji: "🏁", label: "End Point", value: "Mudh (Spiti Valley, H.P.)" },
+        { emoji: "📍", label: "Start Point", value: "Kafnu (Kinnaur Valley)" },
+        { emoji: "🏁", label: "End Point", value: "Mudh (Spiti Valley)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },                
       ],
       snippet: `The Pin Bhaba Pass Trek is a rare Himalayan journey where the landscape changes so dramatically, it feels as if the mountains are turning their own pages for you. What begins in the deep green folds of Kinnaur slowly transforms into the cold, wind-shaped desert of Spiti — and this transition is so surreal that trekkers often pause not just to admire the view, but to absorb the shift happening around them.
@@ -1322,33 +1316,20 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-  { label: "10 Jul - 16 Jul", start: "2026-07-10", end: "2026-07-16" },
   { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
-  { label: "17 Jul - 23 Jul", start: "2026-07-17", end: "2026-07-23" },
   { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-  { label: "24 Jul - 30 Jul", start: "2026-07-24", end: "2026-07-30" },
   { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
-  { label: "31 Jul - 06 Aug", start: "2026-07-31", end: "2026-08-06" },
   { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
-  { label: "07 Aug - 13 Aug", start: "2026-08-07", end: "2026-08-13" },
   { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
-  { label: "14 Aug - 20 Aug", start: "2026-08-14", end: "2026-08-20" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-  { label: "21 Aug - 27 Aug", start: "2026-08-21", end: "2026-08-27" },
   { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-  { label: "28 Aug - 03 Sep", start: "2026-08-28", end: "2026-09-03" },
   { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-  { label: "04 Sep - 10 Sep", start: "2026-09-04", end: "2026-09-10" },
   { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-  { label: "11 Sep - 17 Sep", start: "2026-09-11", end: "2026-09-17" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-  { label: "18 Sep - 24 Sep", start: "2026-09-18", end: "2026-09-24" },
   { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-  { label: "25 Sep - 01 Oct", start: "2026-09-25", end: "2026-10-01" },
   { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-  { label: "02 Oct - 08 Oct", start: "2026-10-02", end: "2026-10-08" },
-  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" }
-   
+  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" }
     ],
 
     highlights: [
@@ -1447,7 +1428,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
   id: "pin-parvati-pass-trek",
   name: "Pin Parvati Pass Trek",
-  tags: ["pro", "pass", "crossover", "parvati", "spiti", "glacier", "lake", "meadows"],
+  tags: ["pro", "pass", "crossover", "glacier", "lake"],
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
@@ -1491,8 +1472,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
       { emoji: "🌤️", label: "Best Time", value: "July to September" },
       { emoji: "🗺️", label: "Region", value: "Kullu & Spiti, Himachal Pradesh" },
-      { emoji: "📍", label: "Start Point", value: "Barshaini (near Kasol)" },
-      { emoji: "🏁", label: "End Point", value: "Kaza, Spiti Valley" },
+      { emoji: "📍", label: "Start Point", value: "Barshaini (Parvati Valley)" },
+      { emoji: "🏁", label: "End Point", value: "Kaza (Spiti Valley)" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
     ],
 
@@ -1500,7 +1481,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       "The Pin Parvati Pass Trek is far more than just a Himalayan trail — it’s a bold journey across two completely distinct worlds. On one side, the Parvati Valley greets you with its lush, emerald forests, cascading waterfalls, hot springs, and vibrant meadows alive with flowers and birdsong. On the other, the Pin Valley unfolds as a high-altitude cold desert, a land of ochre cliffs, sapphire skies, and barren stretches that seem untouched by time. At an astonishing 5,289 meters, the pass itself stands as the ultimate bridge between these extremes — a place where greenery gives way to arid lands, moisture yields to thin, crisp air, and gentle streams transform into ice-laden rivers. <br>The trek begins at Barshaini, near the quaint village of Kasol, where the trail winds through the dreamy meadows of Kheerganga and Odi Thach, each step immersing you deeper into the wild heart of Himachal. You traverse rivers, cross wooden bridges, navigate dense forests, and ascend flower-strewn meadows before reaching the serene glacial lake of Mantalai, a campsite cradled by the towering peaks. The final push to the pass is a test of endurance and mountain sense, negotiating glaciers, steep ascents, and unpredictable high-altitude conditions. The moment you stand on the pass, gazing at the dramatic transition from Parvati’s green abundance to the stark, almost surreal Spiti Valley, you feel the Himalayas in their raw, unfiltered glory. <br>This is not a trek for the faint-hearted. The Pin Parvati Pass demands stamina, acclimatization, and respect for the high-altitude wilderness, where help is far away, and every stream crossing, rock scramble, or icy patch carries its own risks. Yet, it is precisely this challenge that makes it so unforgettable. Along the way, you also witness the fascinating coexistence of Himalayan cultures — from the forest-dwelling communities of Parvati Valley to the resilient villages of Spiti, shaped entirely by their environment. Every day brings new perspectives, new terrain, and new moments of awe that imprint themselves on your memory."
   },
 
-  price: 56900,
+  price: 54900,
   priceNote: "* Barshaini to Kaza (Kasol to Spiti crossover)",
   addons: {
     transport: null,
@@ -1714,7 +1695,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 {
   id: "miyar-valley-trek",
   name: "Miyar Valley Trek",
-  tags: ["beginner", "intermediate", "glacier", "meadows", "lake"],
+  tags: ["beginner", "intermediate", "glacier", "lake"],
   difficulty: ["moderate"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -1756,8 +1737,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
       { emoji: "🌤️", label: "Best Time", value: "July to September" },
       { emoji: "🗺️", label: "Region", value: "Lahaul, Himachal Pradesh" },
-      { emoji: "📍", label: "Start Point", value: "Khanjer Village" },
-      { emoji: "🏁", label: "End Point", value: "Khanjer Village" },
+      { emoji: "📍", label: "Start Point", value: "Khanjer" },
+      { emoji: "🏁", label: "End Point", value: "Khanjer" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
     ],
     snippet: `The Miyar Valley Trek is a rare passage into the true heart of Lahaul — a region that remained hidden from trekkers for decades, shielded behind the long closures of Rohtang Pass. With the opening of the Atal Tunnel, this remote Himalayan world finally became accessible during the monsoon months, when Lahaul transforms into a landscape of colour, water, and life. What lies beyond the tunnel is not just a trek, but an invitation into one of the least explored valleys of the Indian Himalayas.
@@ -1797,6 +1778,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
   { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
 ],
 
   highlights: [
@@ -1937,7 +1919,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["intermediate", "pass", "crossover", "kullu", "lahaul", "lake", "glacier", "meadows"],
+    tags: ["intermediate", "pass", "crossover", "lake", "glacier"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -1974,7 +1956,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         { emoji: "⚡", label: "Trek Distance", value: "26 Km" },
         { emoji: "🌤️", label: "Best Time", value: "July to October" },
         { emoji: "🗺️", label: "Region", value: "Crossover from Kullu valley to Lahaul valley, Himachal Pradesh" },
-        { emoji: "📍", label: "Start Point", value: "Jobra (Near Manali)" },
+        { emoji: "📍", label: "Start Point", value: "Jobra Dam (Near Manali)" },
         { emoji: "🏁", label: "End Point", value: "Chatru" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
       ],
@@ -2029,6 +2011,9 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   { label: "03 Oct - 07 Oct", start: "2026-10-03", end: "2026-10-07" },
   { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
+
+  { label: "10 Oct - 14 Oct", start: "2026-10-10", end: "2026-10-14" },
+  { label: "11 Oct - 15 Oct", start: "2026-10-11", end: "2026-10-15" },
 ],
 
     highlights: [
@@ -2149,7 +2134,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
   id: "deo‑tibba‑basecamp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["intermediate", "pro", "basecamp", "lake", "kullu", "glacier", "meadows"],
+  tags: ["intermediate", "pro", "basecamp", "lake", "glacier"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
@@ -2165,7 +2150,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",  // replace with actual image URL
-  heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",
+  heroImages: [ "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939896/deo-tibba-base-camp-hero1_k2zkxa.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939931/deo-tibba-base-camp-hero2_a3b3j0.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940015/deo-tibba-base-camp-hero3_fgxjxd.jpg",
@@ -2186,8 +2171,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       { emoji: "⚡", label: "Trek Distance", value: "≈ 40 km" },
       { emoji: "🌤️", label: "Best Time", value: "July–October" },
       { emoji: "🗺️", label: "Region", value: "Kullu Valley, Himachal Pradesh" },
-      { emoji: "📍", label: "Start Point", value: "Manali" },
-      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "📍", label: "Start Point", value: "Khanol Dam (near Manali)" },
+      { emoji: "🏁", label: "End Point", value: "Khanol Dam" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not available" }
     ],
     snippet: `Nestled in the heart of the Pir Panjal range, the Deo Tibba Base Camp Trek is a thrilling alpine adventure for trekkers seeking both serenity and spectacle. Starting near Manali, the trail winds through dense forests of pine, spruce, fir, oak, and silver birch, opening up to lush meadows that seem kissed by the Himalayas themselves. Snow-capped peaks — Deo Tibba (6,001 m), Norbu Peak (5,226 m), and Jagatsukh Peak (5,050 m) — dominate the skyline, while the emerald waters of Chota Chandratal mirror the sky in a magical display of alpine beauty.<br>Every step tells a story: cross glacial streams, climb gentle ridges, and soak in panoramic views that unfold like chapters of a Himalayan epic. Ideal for trekkers with moderate experience, this trail blends accessible challenge with breathtaking scenery, making it one of the most captivating high-altitude treks in Himachal Pradesh.`
@@ -2244,6 +2229,9 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
   { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
+
+  { label: "10 Oct - 15 Oct", start: "2026-10-10", end: "2026-10-15" },
+  { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
 ],
 
   highlights: [
@@ -2306,7 +2294,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   gallery: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939634/deo-tibba-base-camp-hero_uypfkf.jpg",
-                "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939896/deo-tibba-base-camp-hero1_k2zkxa.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939896/deo-tibba-base-camp-hero1_k2zkxa.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939931/deo-tibba-base-camp-hero2_a3b3j0.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764940015/deo-tibba-base-camp-hero3_fgxjxd.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1764939326/deo-tibba-base-camp-view1_rkrcmz.jpg",
@@ -2358,7 +2346,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
  {
     id: "hampta-circuit-trek",
     name: "Hampta Circuit Trek",
-    tags: ["beginner", "family", "kullu", "meadows"],
+    tags: ["beginner"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
     month: ["may", "june", "july", "august", "september", "october", "november", "december"],
@@ -2397,8 +2385,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 35 Km" },
             { emoji: "🌤️", label: "Best Time", value: "May–January" },
             { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Pir Panjal Range" },
-            { emoji: "📍", label: "Start Point", value: "Jagatsukh Village (Near Manali)" },
-            { emoji: "🏁", label: "End Point", value: "Jobri / Manali" },
+            { emoji: "📍", label: "Start Point", value: "Jagatsukh (near Manali)" },
+            { emoji: "🏁", label: "End Point", value: "Jobri Dam (near Manali)" },
             { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
         ],
 
@@ -2509,7 +2497,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 {
     id: "rani-sui-lake-trek",
     name: "Rani Sui Lake Trek",
-    tags: ["beginner", "family", "kullu", "meadows", "lake"],
+    tags: ["beginner", "lake"],
     difficulty: ["easy"],
     season: ["summer", "autumn", "monsoon", "winter","spring"],
     month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
@@ -2547,8 +2535,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 25 Km" },
             { emoji: "🌤️", label: "Best Time", value: "May–October" },
             { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Manali" },
-            { emoji: "📍", label: "Start Point", value: "Manali (2040 m)" },
-            { emoji: "🏁", label: "End Point", value: "Shangchar / Manali" },
+            { emoji: "📍", label: "Start Point", value: "Manali" },
+            { emoji: "🏁", label: "End Point", value: "Shangchar" },
             { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
         ],
     snippet: 
@@ -2656,7 +2644,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
-    tags: ["pro", "pass", "crossover", "shimla", "kinnaur", "glacier", "meadows"],
+    tags: ["pro", "pass", "crossover", "glacier"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2693,8 +2681,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
         { emoji: "🗺️", label: "Region", value: "Crossover from Shimla valley to Kinnaur valley, Himachal Pradesh" },
-        { emoji: "📍", label: "Start Point", value: "Jiskoon (Himachal)" },
-        { emoji: "🏁", label: "End Point", value: "sangla (Himachal)" },
+        { emoji: "📍", label: "Start Point", value: "Jiskoon (Shimla Valley)" },
+        { emoji: "🏁", label: "End Point", value: "Sangla (Kinnaur Valley)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },        
       ],
       snippet: 
@@ -2898,7 +2886,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate", "pro", "pass", "crossover", "shimla", "kinnaur", "lake", "glacier", "meadows"], 
+    tags: ["intermediate", "pro", "pass", "crossover", "lake", "glacier"], 
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -2933,8 +2921,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-October" },
         { emoji: "🗺️", label: "Region", value: "Crossover from Pabbar valley to Kinnaur valley, Himachal" },
-        { emoji: "📍", label: "Start Point", value: "Janglik (Himachal)" },
-        { emoji: "🏁", label: "End Point", value: "Baruva (Himachal)" },
+        { emoji: "📍", label: "Start Point", value: "Janglik (Shimla Valley)" },
+        { emoji: "🏁", label: "End Point", value: "Baruva (Kinnaur Valley)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
       ],
       snippet: `Every trek has breathtaking moments, and every trek has sections that test your patience. The Buran Ghati Trek, however, seems to have taken all the best parts of Himalayan trekking and woven them into one unforgettable journey. From the very first step, it captures your imagination and refuses to let go.
@@ -3144,7 +3132,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["beginner", "family", "meadows", "ridgewalk"],
+    tags: ["beginner"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -3177,8 +3165,8 @@ seo: {
         { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Lohajung (Uttarakhand)" },
-        { emoji: "🏁", label: "End Point", value: "Wan (Uttarakhand)" },
+        { emoji: "📍", label: "Start Point", value: "Lohajung / Wan" },
+        { emoji: "🏁", label: "End Point", value: "Wan" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
       snippet: 
@@ -3357,7 +3345,7 @@ seo: {
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["beginner", "family", "lake", "meadows", "peak"],
+    tags: ["beginner", "lake"],
     difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -3393,8 +3381,8 @@ seo: {
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Rudrayaprayag district, Kedarnath Wildlife Sanctuary, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Sari (Uttarakhand)" },
-        { emoji: "🏁", label: "End Point", value: "sari (Uttarakhand)" },
+        { emoji: "📍", label: "Start Point", value: "Sari" },
+        { emoji: "🏁", label: "End Point", value: "Sari" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
     snippet: 
@@ -3561,7 +3549,7 @@ seo: {
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["intermediate", "pro", "glacier", "basecamp", "meadows"],
+    tags: ["intermediate", "pro", "glacier", "basecamp"],
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -3638,6 +3626,7 @@ seo: {
       { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
       { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
       { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
+      { label: "10 Oct - 15 Oct", start: "2026-10-10", end: "2026-10-15" },
     ],
 
     highlights: [
@@ -3772,7 +3761,7 @@ seo: {
   {
     id: "nandanvan-vasukital-trek",
     name: "Nandanvan Vasukital Trek",
-    tags: ["pro", "glacier", "meadows", "lake"],
+    tags: ["pro", "glacier", "lake"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["june", "july", "october", "september"],
@@ -3807,7 +3796,7 @@ seo: {
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,200 ft (Vasukital)" },
         { emoji: "📏", label: "Trek Distance", value: "46–48 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "June - July / September - october" },
+        { emoji: "🌤️", label: "Best Time", value: "June - July & September - october" },
         { emoji: "🗺️", label: "Region", value: "Gangotri National Park, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Gangotri" },
         { emoji: "🏁", label: "End Point", value: "Gangotri" },
@@ -3999,7 +3988,7 @@ seo: {
   {
   id: "kedartal-trek",
   name: "Kedartal Trek",
-  tags: ["intermediate", "pro", "lake", "glacier", "meadows"],
+  tags: ["intermediate", "pro", "lake", "glacier"],
   difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -4039,8 +4028,8 @@ seo: {
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "4,750 m (Kedartal)" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 24 km" },
-      { emoji: "🌤️", label: "Best Time", value: "May to September" },
-      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
+      { emoji: "🌤️", label: "Best Time", value: "May - June & September - October" },
+      { emoji: "🗺️", label: "Region", value: "Gangotri National Park, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Gangotri (3,100 m)" },
       { emoji: "🏁", label: "End Point", value: "Gangotri" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
@@ -4289,7 +4278,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
-    tags: ["beginner", "meadows", "ridgewalk"],
+    tags: ["beginner"],
     difficulty: ["easy", "moderate"],
     season: ["spring", "autumn"],
     month: ["april", "may", "june", "september", "october", "november"],
@@ -4322,7 +4311,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
         { emoji: "🏔️", label: "Max Altitude", value: "12,150 ft (3,700 m)" },
         { emoji: "⚡", label: "Trek Distance", value: "30 Km" },
         { emoji: "🌤️", label: "Best Time", value: "April-May & September-November" },
-        { emoji: "🗺️", label: "Region", value: "Uttarkashi district, Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
+        { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🏁", label: "End Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
@@ -4480,7 +4469,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun Ruinsaratal Trek",
-    tags: ["intermediate", "pro", "lake", "meadows"],
+    tags: ["intermediate", "pro", "lake"],
     difficulty: ["moderate", "difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["april", "may", "june", "september", "october"],
@@ -4514,7 +4503,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Ruinsaratal)" },
         { emoji: "⚡", label: "Trek Distance", value: "65 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May-June & September-November" },
-        { emoji: "🗺️", label: "Region", value: "Uttarkashi district, Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
+        { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🏁", label: "End Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
@@ -4541,7 +4530,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
     { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
     { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
-      
+    { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },  
     ],
 
     highlights: [
@@ -4669,7 +4658,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
-    tags: ["beginner", "meadows"],
+    tags: ["beginner"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
@@ -4702,7 +4691,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
-        { emoji: "🗺️", label: "Region", value: "Uttarkashi district, Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
+        { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar Wildlife Sanctuary, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🏁", label: "End Point", value: "Sankri (Uttarakhand)" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
@@ -4744,7 +4733,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
       { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
       { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
-
+      { label: "30 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
     ],
 
     highlights: [
@@ -4861,7 +4851,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "satopanth-lake-trek",
   name: "Satopanth Lake Trek",
-  tags: ["intermediate", "lake", "glacier", "meadows"],
+  tags: ["intermediate", "lake", "glacier"],
   difficulty: ["moderate"],
   season: ["summer", "monsoon"],
   month: ["june", "july", "august", "september"],
@@ -5073,7 +5063,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["beginner", "meadows"],
+  tags: ["beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -5282,7 +5272,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 {
   id: "gulabi-kantha-trek",
   name: "Gulabi Kantha Trek",
-  tags: ["meadows", "beginner"],
+  tags: ["beginner"],
   difficulty: ["easy"],
   season: ["summer", "monsoon", "winter", "spring"],
   month: ["march", "april", "may", "june", "july", "august", "september", "october", "december", "january"],
@@ -5339,7 +5329,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>Gulabi Kantha is a trek for those who want the Himalayas to feel personal rather than overwhelming — a place where trails remain peaceful, views arrive without competition, and every season tells a different story. Whether walked through flowers, mist, or snow, it offers an experience that feels less like a checklist and more like a conversation with the mountains themselves.`
 },
 
-  price: 10900,
+  price: 10400,
   priceNote: "* Hanuman Chatti to Hanuman Chatti",
   addons: {
     transport: 4000,
@@ -5476,7 +5466,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["beginner", "meadows", "peak"],
+  tags: ["beginner"],
   difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -5508,7 +5498,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Kedarkantha Summit)" },
       { emoji: "⚡", label: "Trek Distance", value: "20–22 Km" },
       { emoji: "🌤️", label: "Best Time", value: "November to April (Best Winter Snow Trek)" },
-      { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar National Park, Uttarkashi, Uttarakhand" },
+      { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar National Park, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Sankri" },
       { emoji: "🏁", label: "End Point", value: "Sankri" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
@@ -5709,7 +5699,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
   id: "dayara-bugyal-trek",
   name: "Dayara Bugyal Trek",
-  tags: ["family", "beginner", "meadows"],
+  tags: ["beginner"],
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -5742,7 +5732,7 @@ The following day is reserved for departure. Guests may check out of the guestho
       { emoji: "🏔️", label: "Max Altitude", value: "12,100 ft (Bakaria Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "22–24 Km" },
       { emoji: "🌤️", label: "Best Time", value: "November to April" },
-      { emoji: "🗺️", label: "Region", value: "Gangotri Range, Uttarkashi, Uttarakhand" },
+      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Barsu Village" },
       { emoji: "🏁", label: "End Point", value: "Barsu Village" },
       { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
@@ -5911,7 +5901,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover", "tons", "yamunotri", "meadows", "ridgewalk"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -5945,9 +5935,9 @@ The following day is reserved for departure. Guests may check out of the guestho
       { emoji: "🏔️", label: "Max Altitude", value: "16,207 ft (Bali Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "64 Km" },
       { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
-      { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar National Park, Uttarkashi, Uttarakhand" },
-      { emoji: "📍", label: "Start Point", value: "Sankri (Uttarkashi, Uttarakhand)" },
-      { emoji: "🏁", label: "End Point", value: "Janki Chatti (Yamunotri, Uttarkashi, Uttarakhand)" },
+      { emoji: "🗺️", label: "Region", value: "Govind Pashu Vihar National Park, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Sankri" },
+      { emoji: "🏁", label: "End Point", value: "Janki Chatti (near Yamunotri)" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
     ],
     snippet: `The Bali Pass Trek is one of those rare Himalayan journeys where the landscape keeps transforming faster than your eyes can register. It begins gently, almost deceptively, in the quiet valley of Sankri — a world of wooden houses, terraced fields, and forests that glow golden in the morning sun. From here, the trail slips into the timeless Har Ki Dun region, weaving through the ancient villages of Osla, Gangad, and Dhatmeer, where traditional wooden homes, carved balconies, and stories of the Pandavas feel as much a part of the valley as the river that runs through it. Life here moves slowly, and for many trekkers, this early cultural immersion sets the emotional tone for the days ahead.
@@ -6137,7 +6127,7 @@ The following day is reserved for departure. Guests may check out of the guestho
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
-    tags: ["pro", "lake", "glacier", "meadows", "ridgewalk"],
+    tags: ["pro", "lake", "glacier"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -6176,8 +6166,8 @@ The following day is reserved for departure. Guests may check out of the guestho
         { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
         { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
         { emoji: "🗺️", label: "Region", value: "Chamoli District, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Lohajung (Uttarakhand)" },
-        { emoji: "🏁", label: "End Point", value: "Wan Village (Uttarakhand)" },
+        { emoji: "📍", label: "Start Point", value: "Lohajung / Wan" },
+        { emoji: "🏁", label: "End Point", value: "Wan" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
       snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
@@ -6362,7 +6352,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["intermediate", "pro", "basecamp", "glacier", "meadows"],
+    tags: ["intermediate", "pro", "basecamp", "glacier"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -6402,7 +6392,7 @@ The following day is reserved for departure. Guests may check out of the guestho
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 100 Km" },
             { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
             { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
-            { emoji: "📍", label: "Start Point", value: "Munsiyari (2,200 m)" },
+            { emoji: "📍", label: "Start Point", value: "Munsiyari" },
             { emoji: "🏁", label: "End Point", value: "Munsiyari" },
             { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
         ],
@@ -6615,7 +6605,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
   id: "ranthan-kharak-trek",
   name: "Ranthan Kharak Trek",
-  tags: ["intermediate", "meadows"],
+  tags: ["intermediate"],
   difficulty: ["moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -6658,8 +6648,8 @@ The following day is reserved for departure. Guests may check out of the guestho
       { emoji: "⚡", label: "Trek Distance", value: "40–45 Km (approx.)" },
       { emoji: "🌤️", label: "Best Time", value: "May–June, September–October" },
       { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
-      { emoji: "📍", label: "Start Point", value: "Gogina Village" },
-      { emoji: "🏁", label: "End Point", value: "Gogina Village" },
+      { emoji: "📍", label: "Start Point", value: "Gogina" },
+      { emoji: "🏁", label: "End Point", value: "Gogina" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
     ],
 
@@ -6799,7 +6789,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
     id: "dhakuri-pass-trek",
     name: "Dhakuri Pass Trek",
-    tags: ["beginner", "meadows"],
+    tags: ["beginner"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -6838,8 +6828,8 @@ The following day is reserved for departure. Guests may check out of the guestho
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 22 km" },
         { emoji: "🌤️", label: "Best Time", value: "Year-round (All seasons)" },
         { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Kathgodam (554 m)" },
-        { emoji: "🏁", label: "End Point", value: "Kathgodam" },
+        { emoji: "📍", label: "Start Point", value: "Dhoor/Loharkhet" },
+        { emoji: "🏁", label: "End Point", value: "Dhoor/Loharkhet" },
         { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
 
@@ -6997,7 +6987,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "pindari-glacier-trek",
     name: "Pindari Glacier Trek",
-    tags: ["beginner", "meadows"],
+    tags: ["beginner"],
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -7038,8 +7028,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 48 Km" },
         { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
         { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Khati Village (2,210 m)" },
-        { emoji: "🏁", label: "End Point", value: "Khati Village" },
+        { emoji: "📍", label: "Start Point", value: "Khati" },
+        { emoji: "🏁", label: "End Point", value: "Khati" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
     ],
 
@@ -7271,7 +7261,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
       { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
-      { emoji: "🗺️", label: "Region", value: "Darma Valley, Kumaon Himalayas" },
+      { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Sobla (near Dharchula)" },
       { emoji: "🏁", label: "End Point", value: "Dharchula" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
@@ -7294,7 +7284,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   },
 
   inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
   highlights: [
     "Up-close views of the iconic Panchachuli I–V peaks rising straight from the valley floor",
@@ -7418,7 +7408,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "goechala-trek",
     name: "Goechala Trek",
-    tags: ["pro", "lake", "glacier", "meadows"],
+    tags: ["pro", "lake", "glacier"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
@@ -7457,8 +7447,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
         { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
         { emoji: "🌤️", label: "Best Time", value: "March-June & September-November" },
         { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
-        { emoji: "📍", label: "Start Point", value: "Yuksom (West Sikkim)" },
-        { emoji: "🏁", label: "End Point", value: "Yuksom (West Sikkim)" },
+        { emoji: "📍", label: "Start Point", value: "Yuksom" },
+        { emoji: "🏁", label: "End Point", value: "Yuksom" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
 
@@ -7668,7 +7658,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   id: "dzongri-winter-trek",
   name: "Dzongri Winter Trek",
 
-  tags: ["intermediate", "meadows"],
+  tags: ["intermediate"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["december", "january", "february"],
@@ -7707,8 +7697,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
       { emoji: "⚡", label: "Trek Distance", value: "≈50 Km" },
       { emoji: "🌤️", label: "Best Time", value: "December-March" },
       { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
-      { emoji: "📍", label: "Start / End", value: "Yuksom (West Sikkim)" },
-      { emoji: "🏁", label: "End Point", value: "Yuksom (West Sikkim)" },
+      { emoji: "📍", label: "Start / End", value: "Yuksom" },
+      { emoji: "🏁", label: "End Point", value: "Yuksom" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
     ],
 
@@ -7739,7 +7729,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
+  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
 
  dates: [
@@ -7918,7 +7908,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["intermediate", "ridgewalk", "teahouse"],
+  tags: ["intermediate", "teahouse"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
@@ -7958,8 +7948,8 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
       { emoji: "📏", label: "Total Trek Distance", value: "≈ 80 km" },
       { emoji: "🌤️", label: "Best Time", value: "October–May" },
       { emoji: "🗺️", label: "Region", value: "Singalila Ridge, Darjeeling District" },
-      { emoji: "📍", label: "Start Point", value: "Manebhanjan (Darjeeling, West Bengal)" },
-      { emoji: "🏁", label: "End Point", value: "Srikhola (West Bengal)" },
+      { emoji: "📍", label: "Start Point", value: "Manebhanjan" },
+      { emoji: "🏁", label: "End Point", value: "Srikhola" },
       { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
     ],
     snippet: `The Sandakphu–Phalut Trek is a journey along one of the most iconic ridgelines in the Himalayas — a trail that rises and falls along the Indo–Nepal border, revealing the world’s greatest mountains in one sweeping frame. From the very first day, the landscape feels different: moss-covered oak forests humming with birdlife, mist drifting through ancient rhododendron trees, and long undulating paths that open suddenly into wide, wind-carved meadows.
@@ -8212,7 +8202,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
         { emoji: "🌤️", label: "Best Time", value: "March–May & September–November" },
         { emoji: "🗺️", label: "Region", value: "Khumbu Valley, Nepal Himalayas" },
         { emoji: "📍", label: "Start Point", value: "Lukla" },
-        { emoji: "🏁", label: "End Point", value: "Everest Base Camp" },
+        { emoji: "🏁", label: "End Point", value: "Lukla" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
       ],
 
