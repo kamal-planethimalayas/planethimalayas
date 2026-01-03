@@ -1,16 +1,16 @@
 export const news = [
 
   {
-  title: "Dry weather likely to prevail in all districts of Uttarakhand.",
+  title: "Dry weather likely to prevail in the mountains with scattered snowfall in isolated places.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details: `
   <h3>Recent Updates:</h3>
 <ul>
-    <li>• Very light to light rain/snow likely to occur at isolated places in higher reaches of Uttarkashi, Chamoli and Pithoragarh districts of Uttarakhand. Snowfall likely to occur at a place with an altitude of 3500 meter and above.</li>
-    <li>• Shallow fog likely to occur at isolated places in plains of Uttarakhand, especially Haridwar and Udham Singh Nagar districts.</li>
-    <li>• Dry weather likely to prevail in remaining districts of Uttarakhand.</li>
+    <li>• Very light to light rain/snow likely to occur at isolated places in higher reaches.</li>
+    <li>• Shallow to dense fog likely to occur at isolated places in plains of Jammu, Himachal and Uttarakhand.</li>
+    <li>• Dry weather likely to prevail over the next week.</li>
 </ul>`
 },
 
@@ -39,12 +39,11 @@ export const news = [
 },
   
 {
-  title: "Upcoming Departures - (Deoriatal Chandrashila - 16th Dec; Kuari Pass - 27th Dec)",
+  title: "Winter Exclusive - Dzongri Winter Trek",
   type: "news",
   head: "Slopes",
   thumbnail: "/images/main/brand-logo-news.png",
-  details: `<p>• Our first winter batch to Deoriatal-Chandrashila starting on 15th December.</p>
-  <p>• Our first winter group to Kuari Pass starting on 27th December</p>`
+  details: `<p>Read <strong><a href="/trek/dzongri-winter-trek" target="_blank" rel="noopener noreferrer">Full Details</a></strong></p>`
 },
 
   {

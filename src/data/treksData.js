@@ -4063,6 +4063,17 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   inclusionsNote:
     "🍽️ All Meals – Nutritious high-altitude meals provided from dinner on Day 1 to dinner on Day 6",
 
+  dates: [
+      
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+
+      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
+
+      { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+
+      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+    ],
+
   highlights: [
     "Sacred high-altitude Kedartal glacial lake at 4,750 m",
     "Close-up views of Thalay Sagar, Bhrigupanth, and Meru peaks",
