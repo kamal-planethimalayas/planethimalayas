@@ -428,7 +428,9 @@ backdrop-filter: blur(15px);
         left: 0;
         right: 0;
         height: 55px;
-        background-color: var(--brand-color);
+        background-color: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
         display: flex;
         justify-content: flex-end;
         padding-right:24px;
@@ -451,7 +453,7 @@ backdrop-filter: blur(15px);
 
       nav.main-navbar ul.nav-links li a {
         font-weight: 700;
-        color: black;
+        color: var(--brand-color);
         text-decoration: none;
         padding: 8px 16px;
         border-radius: 8px;
@@ -461,8 +463,8 @@ backdrop-filter: blur(15px);
 
       nav.main-navbar ul.nav-links li a:hover,
       nav.main-navbar ul.nav-links li a:focus {
-        background: black;
-        color: var(--brand-color);
+        background: var(--brand-color);
+        color: black;
         outline: none;
       }
 
@@ -555,7 +557,9 @@ backdrop-filter: blur(15px);
     width: 50vw;
     max-width: 300px;
     height: 100vh;    /* full screen height */
-    background-color: var(--brand-color);
+    background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
     transform: translateX(100%);  /* hidden by default */
     transition: transform 0.3s ease;
     padding-top: 1rem;
