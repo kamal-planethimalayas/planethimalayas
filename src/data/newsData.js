@@ -1,16 +1,17 @@
 export const news = [
 
   {
-  title: "Dry weather likely to prevail in the mountains with scattered snowfall in isolated places.",
+  title: "Finally snowfall in Uttarakhand. Cold wave conditions are unlikely over any part of the country.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details: `
   <h3>Recent Updates:</h3>
 <ul>
-    <li>• Very light to light rain/snow likely to occur at isolated places in higher reaches.</li>
-    <li>• Shallow to dense fog likely to occur at isolated places in plains of Jammu, Himachal and Uttarakhand.</li>
-    <li>• Dry weather likely to prevail over the next week.</li>
+    <li>❖ Under the influence of western disturbance, isolated to scattered rainfall/snowfall
+likely over Western Himalayan Region (WHR) during few days of the week.</li>
+    <li>❖ Light rainfall/snowfall at isolated places also likely over Sikkim and Arunachal Pradesh under the influence of the westerly trough during some days of the week.</li>
+    <li>❖ Dense fog conditions are likely to prevail during early morning hours in isolated pockets of north India on some days of the week.</li>
 </ul>`
 },
 
