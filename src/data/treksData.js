@@ -5280,6 +5280,227 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   faqsLink: "/faqs-and-articles",
 },
 
+  {
+  id: "pangarchulla-peak-trek",
+  name: "Pangarchulla Peak Trek",
+  tags: ["beginner"],
+  difficulty: ["difficult"],
+  season: ["spring"],
+  month: ["march", "april"],
+  region: "uttarakhand-garhwal",
+  duration: "6 Nights / 6 Days",
+  coordinates: [
+    [30.5561, 79.5617], // Joshimath (base)
+    [30.48226, 79.5981], 
+    [30.4755, 79.6151], // Pangarchulla Summit
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
+              
+              "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535468/kuari-pass-view18_omgk4v.jpg",
+  ],
+
+    subtitle: "A True Himalayan Summit Challenge",
+
+  seo: {
+  title: "Pangarchulla Peak Trek | Itinerary, Cost & Dates | Planethimalayas",
+  description: "Pangarchulla Peak Trek (14,700 ft) is a thrilling summit climb near Kuari Pass, offering dramatic views of Nanda Devi, Chaukhamba, Kamet and Dronagiri. Ideal for trekkers ready to push beyond beginner trails."
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "14,700 ft (Pangarchulla Peak)" },
+      { emoji: "⚡", label: "Trek Distance", value: "28–30 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "March & April" },
+      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Joshimath" },
+      { emoji: "🏁", label: "End Point", value: "Joshimath" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Not available" },
+    ],
+    snippet: `The Pangarchulla Peak Trek is where the graceful beauty of the Kuari Pass trail meets the raw thrill of a true Himalayan summit climb. Rising high above the rolling meadows and forests of the Garhwal Himalayas, Pangarchulla offers trekkers the rare chance to stand atop a snow-covered peak while being surrounded by some of the most iconic mountains in India.
+
+
+<br>The journey begins from the same historic trailhead near Joshimath, gradually drawing you through oak, deodar, and rhododendron forests that feel timeless and untouched. Familiar camps like Guling and Khullara ease you into the mountains, allowing your body to adapt as the scenery steadily grows more dramatic. Wide clearings open suddenly to reveal Dronagiri towering across the valley, while distant ridgelines hint at the greater heights still to come.
+
+
+<br>Unlike Kuari Pass, Pangarchulla demands effort and intent. The summit push is steep, sustained, and often snow-laden — especially in winter and early spring. Each step higher tests endurance, balance, and resolve. But with that challenge comes extraordinary reward. As you gain the upper slopes, the horizon opens into a breathtaking amphitheater of peaks — Nanda Devi, Chaukhamba, Kamet, Nilkanth, Hathi–Ghodi, and Trishul rising in silent grandeur.
+
+
+<br>Pangarchulla is one of the most beautiful snow climbs in Uttarakhand. Crisp air, untouched white slopes, and long ridge walks under deep blue skies make the ascent feel both demanding and deeply meditative — ideal for trekkers looking to step confidently into high-altitude mountaineering.
+
+
+<br>Bold, immersive, and deeply satisfying, the Pangarchulla Peak Trek is not just a continuation of Kuari Pass — it is its wild, adventurous crescendo. A perfect choice for trekkers ready to move beyond easy trails and experience the true power, exposure, and exhilaration of the high Himalayas.`
+},
+
+  price: 13400,
+  priceNote: "* Joshimath to Joshimath",
+  addons: {
+    transport: 6000,
+    offloadingbag: 1500,
+    transportNote: "* Rishikesh to Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 6",
+
+  dates: [   
+
+{ label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
+{ label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
+{ label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
+
+{ label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
+{ label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
+{ label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
+{ label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+
+  ],
+
+  highlights: [
+    "Panoramic views of India’s highest peak Nanda Devi and surrounding Himalayan giants like Donagiri, Hathi-Ghodi, Kamet, Nandakhat, etc.",
+    "Walk through enchanting oak, deodar, and rhododendron forests",
+    "Snow-covered meadows that look like a white carpet stretching to the horizon",
+    "Stunning sunrise and sunset views over Mt. Dronagiri",
+  ],
+
+ itinerary: [
+{
+day: 1,
+title: "Reach Joshimath (6,700 ft) | Drive distance: 250 km / 10–11 hrs.",
+details: "• Arrive at Joshimath via the scenic Badrinath highway, tracing the course of the Alaknanda River through deep valleys and sacred confluences. This long yet beautiful drive sets the tone for the adventure ahead. Snow peaks begin appearing as you near Joshimath, reminding you that higher challenges await. Overnight stay in a guesthouse for rest and acclimatization."
+},
+{
+day: 2,
+title: "Drive from Joshimath to Tugashi (8,000 ft) → Trek to Guling (9,400 ft) | Drive 15 km | Trek 3 km / 2–3 hrs.",
+details: "• A short drive brings you to Tugashi village, where the trek begins. The trail climbs steadily past terraced farms and into open meadows, with sweeping views of the Dhauli Ganga valley. As you gain height, Dronagiri Peak emerges dramatically across the horizon. By evening, reach the Guling campsite, surrounded by quiet forests and expansive mountain views — your first true night in the wilderness."
+},
+{
+day: 3,
+title: "Guling to Khullara (11,070 ft) | Trek 6 km / 5 hrs.",
+details: "• Today’s trek winds through dense oak and rhododendron forests, gradually gaining altitude. The trail alternates between gentle ascents and short steep sections, keeping the walk engaging. As trees thin out, wide alpine clearings appear, offering striking views of Nanda Devi, Kamet, and Hathi–Ghodi. Khullara sits in an open bowl of mountains — a crucial campsite for acclimatization before the summit attempt."
+},
+{
+day: 4,
+title: "Khullara to Kuari Pass (12,516 ft) and back — Acclimatization Day | Trek 10–11 km / 6–7 hrs.",
+details: "• Today is a vital acclimatization and preparation day before the summit push. The trail climbs steadily from Khullara toward the legendary Kuari Pass, following the historic Lord Curzon ridge. As you gain height, the views expand dramatically — Chaukhamba, Neelkanth, Dronagiri, Kamet, Hathi–Ghodi, and distant Nanda Devi dominate the skyline. The ridge walk offers an exhilarating preview of high-altitude exposure without the physical strain of a summit climb. After spending time at Kuari Pass and allowing your body to adapt to thinner air, retrace your steps back to Khullara. This day plays a crucial role in improving summit success and safety."
+},
+{
+day: 5,
+title: "Khullara to Pangarchulla Peak (14,700 ft) and back | Trek 10–12 km / 8–9 hrs.",
+details: "• Summit day begins early, often before dawn. The trail climbs steeply above Khullara, quickly leaving vegetation behind and entering a stark alpine landscape. The ascent is sustained and demanding, requiring steady pacing and mental focus. As altitude is gained, the Himalayan panorama unfolds in full force — Nanda Devi, Chaukhamba, Kamet, Nilkanth, Dronagiri, Trishul, and surrounding peaks rise in every direction. Reaching the summit of Pangarchulla is a moment of pure achievement. After spending time at the top, descend carefully back to Khullara for a well-earned rest."
+},
+{
+day: 6,
+title: "Khullara to Tugashi via Guling → Drive to Joshimath | Trek 9–10 km / 5–6 hrs.",
+details: "• Begin the descent through familiar forests and open meadows, retracing your path via Guling back to Tugashi village. The walk down is relaxed and reflective, offering time to absorb the experience of the summit climb. From Tugashi, drive back to Joshimath, marking the end of a demanding, immersive, and deeply fulfilling Himalayan expedition."
+}
+],
+
+  didYouKnow: [
+"Pangarchulla Peak is considered one of the best introductory winter summit climbs in the Indian Himalayas.",
+"The peak lies close to the Kuari Pass ridge, sharing the historic Lord Curzon Trail for much of the approach.",
+"In spring, Pangarchulla is often used as a training climb for trekkers preparing for higher Himalayan expeditions.",
+"Clear summit days offer views of more than a dozen major Himalayan peaks above 6,000 m.",
+"The climb requires early alpine starts and teaches essential skills like pacing, layering, and snow movement.",
+"Despite its height, Pangarchulla remains relatively unexplored compared to major trekking passes.",
+],
+
+  howToReach: {
+    air: "Nearest Airport: Jolly Grant Airport, Dehradun (approx. 270 km from Joshimath).",
+    train: "Nearest major railway station: Haridwar (approx. 280 km from Joshimath).",
+    road: "Regular buses and shared cabs available from Rishikesh/Haridwar to Joshimath (9–10 hrs).",
+    travelTip: "Arrive a day early in Joshimath for acclimatization and to buffer against delays on mountain roads.",
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535468/kuari-pass-view18_omgk4v.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535465/kuari-pass-view2_oxhgmd.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535460/kuari-pass-view17_zymig5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535458/kuari-pass-view1_expcd5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535457/kuari-pass-view19_qn2urg.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535457/kuari-pass-view15_gp5aep.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535454/kuari-pass-view4_te0tbe.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535452/kuari-pass-view10_dsyc7e.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535446/kuari-pass-view7_jbvh7a.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535445/kuari-pass-view16_rmowmz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535441/kuari-pass-hero_i7brif.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535439/kuari-pass-view5_u9r93l.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535436/kuari-pass-view6_hqdpax.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535431/kuari-pass-view14_a6n2br.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535429/kuari-pass-view12_hob7q5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535429/kuari-pass-hero1_sho7ie.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535429/kuari-pass-view3_inyksi.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535421/kuari-pass-view11_c1d51c.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535419/kuari-pass-view8_sso7sa.jpg",
+
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+ faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Pangarchulla Peak trek?",
+      answer: "Pangarchulla Peak is best suited for trekkers who have prior Himalayan trekking experience. While it is often tagged as a moderate-to-difficult trek, the summit push involves steep snow climbs and long summit days, making it ideal for fit beginners with strong endurance or intermediate trekkers looking to attempt their first true Himalayan summit.",
+    },
+    {
+      question: "What is the best season to climb Pangarchulla Peak?",
+      answer: "The best time to attempt Pangarchulla Peak is during spring (April–May), when snow conditions are stable and summit chances are highest. Autumn (September–October) offers clear weather and dramatic mountain views, though snow cover may be limited. Winter ascents are technical and only recommended for highly experienced trekkers.",
+    },
+    {
+      question: "How difficult is the Pangarchulla Peak summit day?",
+      answer: "The summit day is the most demanding part of the trek. It involves a very early alpine start, steep snow sections, and continuous ascent for several hours. Proper acclimatization, physical fitness, and mental resilience are essential to safely attempt the summit.",
+    },
+    {
+      question: "What kind of fitness level is required for Pangarchulla Peak?",
+      answer: "Trekkers should be able to comfortably jog 5 km in under 35 minutes and handle sustained uphill climbs with a backpack. Prior experience at altitudes above 12,000 ft is strongly recommended, as Pangarchulla reaches close to 15,000 ft.",
+    },
+    {
+      question: "What essential gear should I carry for Pangarchulla Peak?",
+      answer: "In addition to standard trekking gear, Pangarchulla requires proper winter equipment such as insulated jackets, snow gaiters, microspikes or crampons (as advised by the operator), trekking poles, and high-ankle waterproof trekking shoes. A detailed technical packing list is provided before the trek.",
+    },
+    {
+      question: "What are the temperature ranges during the Pangarchulla Peak trek?",
+      answer: "In spring, daytime temperatures range between 5°C to 12°C, while nights can drop to -5°C to -8°C. During autumn, days are colder at 3°C to 10°C, with nights often falling below -10°C. Wind chill near the summit can significantly reduce perceived temperatures.",
+    },
+    {
+      question: "Is acclimatization built into the Pangarchulla Peak itinerary?",
+      answer: "Yes, a proper Pangarchulla itinerary includes gradual altitude gain and acclimatization hikes, often via Kuari Pass or surrounding ridgelines. This significantly improves safety and summit success rates.",
+    },
+    {
+      question: "Are camping facilities available on the Pangarchulla Peak trek?",
+      answer: "Yes, the trek includes high-altitude camping at designated snow or meadow camps. All tents, sleeping bags, mattresses, and hot meals are provided by the trek operator, designed to handle sub-zero conditions.",
+    },
+    {
+      question: "Is Pangarchulla Peak safe for first-time summit climbers?",
+      answer: "Pangarchulla is considered a safe introduction to Himalayan summit trekking when attempted with proper preparation, acclimatization, and a certified trek leader. However, it should not be underestimated, as weather and snow conditions can change rapidly.",
+    },
+    {
+      question: "Is mobile network or internet available during the trek?",
+      answer: "Mobile network is extremely limited. Airtel and BSNL may work briefly near road heads, but there is no reliable connectivity once the trek begins. This trek offers a true digital detox experience.",
+    },
+    {
+      question: "Do I need permits to climb Pangarchulla Peak?",
+      answer: "Forest permits and camping permissions are required and are handled by the trek operator. Trekkers do not need to arrange any permits on their own.",
+    },
+    {
+      question: "What makes Pangarchulla Peak a special summit trek?",
+      answer: "Pangarchulla offers a rare combination of a challenging summit climb and unmatched panoramic views of peaks like Nanda Devi, Chaukhamba, Kamet, Hathi-Ghodi, Dronagiri, and Neelkanth. Standing on the summit feels like being in the heart of the Garhwal Himalayas, making it a deeply rewarding experience for serious trekkers.",
+    }
+  ],
+},
+
+  faqsLink: "/faqs-and-articles",
+},
+
 {
   id: "gulabi-kantha-trek",
   name: "Gulabi Kantha Trek",
