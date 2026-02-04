@@ -1711,5 +1711,328 @@ YOUR SKIN
 </ul>
 `
 },
+
+{
+  title: "Best Spring Treks in the Himalayas: High-Altitude Adventures When the Mountains Awaken",
+  slug: "best-spring-treks-himalayas",
+  date: "2026-02-12",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks and expeditions across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
+  tags: [
+    "spring treks in Himalayas",
+    "high altitude trekking",
+    "best Himalayan treks",
+    "Planethimalayas",
+    "Pangarchulla Peak trek",
+    "Goechala trek",
+    "Everest Base Camp trek",
+    "snow trekking in spring",
+    "Himalayan adventure travel",
+    "Garhwal Himalayas",
+    "Sikkim trekking",
+    "Nepal trekking"
+  ],
+  description: "Spring transforms the Himalayas into a rare playground of snow, sunshine, and blooming forests. From Pangarchulla Peak and Goechala to Everest Base Camp, explore the best spring treks in the Himalayas with trek highlights, weather insights, and high-altitude adventure details.",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766068757/everest_wdjvrw.jpg",
+  content: `
+<p><strong>Spring in the Himalayas is a season of awakening.</strong> A time when the mountains slowly rise from winter’s deep silence, when snow still guards the high passes, yet the sun begins to soften the edges of the cold. For high-altitude trekkers, this is the most poetic and powerful time to be in the mountains.</p>
+
+<p>Imagine walking across vast snowfields under clear blue skies, the crunch of fresh snow beneath your boots, icy wind brushing past ridgelines, and far below — forests waking up in shades of green, crimson, and pink as rhododendrons bloom. The air is crisp, the days are longer, and the mountains feel alive.</p>
+
+<p><strong>Spring high-altitude trekking offers the best of both worlds:</strong> winter-like adventure in the upper reaches and comfortable, sunlit trekking conditions on the lower trails. While many regions remain inaccessible due to heavy snow, select routes across India and Nepal open up to deliver some of the most rewarding Himalayan experiences of the year.</p>
+
+<p>This is the season for those who seek snow without extreme cold, altitude without chaos, and adventure without compromise.</p>
+
+<br>
+
+<h3><strong>Spring Trekking in the Himalayas: What to Expect</strong></h3>
+<ul>
+  ❄️ Snow-covered trails and high camps above 3,500 m<br>
+  🌞 Clear skies and warmer daytime temperatures<br>
+  🌺 Blooming forests and alpine flowers on lower slopes<br>
+  🏔️ Fewer crowds compared to peak summer and autumn<br>
+</ul>
+
+<br>
+
+<h2>⭐ Our Top 3 Spring Treks</h2>
+
+<p>Among all spring routes, these three stand out for their altitude, scenery, and pure Himalayan drama. They represent the truest form of high-altitude trekking — demanding prior experience, sound acclimatization practices, and a clear understanding of mountain risks such as Acute Mountain Sickness (AMS). These are not beginner trails, but journeys meant for trekkers who are ready to respect the Himalayas and earn their rewards.</p>
+
+<br>
+
+<h3>
+  🏔️ <a 
+    href="https://planethimalayas.com/trek/pangarchulla-peak-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+    <strong>Pangarchulla Peak Trek</strong>
+  </a>
+</h3>
+<a href="https://planethimalayas.com/trek/pangarchulla-peak-trek">
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg" alt="Pangarchulla Peak Trek" />
+</a>
+
+<p>Pangarchulla Peak is a true spring mountaineering-style trek — steep, snowy, and immensely rewarding. The summit climb involves long snow walks, sharp ridges, and sweeping views of the Garhwal giants.</p>
+
+<ul>
+  🏕️ <strong>Base Camp:</strong> Joshimath (6,600 ft.)<br>
+  📆 <strong>Duration:</strong> 6 days<br>
+  📍 <strong>Highest Altitude:</strong> ~14,700 ft<br>
+  ⏰ <strong>Best Time:</strong> March to April<br>
+  ⚠️ <strong>Difficulty:</strong> Difficult<br>
+</ul>
+
+<br>
+
+<h3>🏔️<a 
+    href="https://planethimalayas.com/trek/goechala-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+   <strong>Goechala Trek</strong></h3>
+   </a>
+<a href="https://planethimalayas.com/trek/goechala-trek">
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg" alt="Goechala Trek Kanchenjunga" />
+</a>
+
+<p>Goechala in spring is a journey through changing worlds — dense rhododendron forests, snow-laden alpine meadows, and breathtaking close-up views of Mt. Kanchenjunga glowing at sunrise.</p>
+
+<ul>
+  🏕️ <strong>Base Camp:</strong> Yuksom (5,840 ft.)<br>
+  📆 <strong>Duration:</strong> 9 days<br>
+  📍 <strong>Highest Altitude:</strong> ~15,100 ft<br>
+  ⏰ <strong>Best Time:</strong> March to May<br>
+  ⚠️ <strong>Difficulty:</strong> Difficult<br>
+</ul>
+
+<br>
+
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/everest-base-camp-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Everest Base Camp Trek</strong></h3>
+  </a>
+<a href="https://planethimalayas.com/trek/everest-base-camp-trek">
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766068757/everest_wdjvrw.jpg" alt="Everest Base Camp Trek" />
+</a>
+
+<p>The Everest Base Camp trek in spring is legendary. This is when the Khumbu Valley comes alive — climbers prepare for summit bids, monasteries hum with energy, and the world’s tallest peaks dominate every horizon. The journey unfolds through a well-established network of traditional teahouse accommodations, allowing trekkers to rest each night in warm lodges, share meals with fellow adventurers, and experience the rich Sherpa hospitality that defines the Everest region.</p>
+
+<ul>
+  🏕️ <strong>Base Camp:</strong> Kathmandu (4,600 ft.)<br>
+  📆 <strong>Duration:</strong> 13 days<br>
+  📍 <strong>Highest Altitude:</strong> ~17,600 ft (Kala Patthar)<br>
+  ⏰ <strong>Best Time:</strong> April to May<br>
+  ⚠️ <strong>Difficulty:</strong> Difficult<br>
+</ul>
+
+<br>
+
+<h2>🌿 More Exceptional Spring Treks with Planethimalayas</h2>
+
+<p>Beyond the raw drama of our high-altitude spring classics lies a gentler side of the Himalayas. These lower-altitude routes welcome first-time trekkers and families with open trails and forgiving terrain, yet they lose none of the magic. Alpine lakes shimmer, meadows stretch endlessly, and mountain cultures reveal themselves slowly — offering journeys that are just as meaningful for seasoned trekkers as they are for beginners.</p>
+
+<!-- Deoriatal Chandrashila -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/deoriatal-chandrashila-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Deoriatal–Chandrashila Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/deoriatal-chandrashila-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg" alt="Deoriatal Chandrashila Trek">
+  </a>
+</div>
+<p>
+A perfect spring trek for panoramic Himalayan views, Deoriatal–Chandrashila rewards trekkers with reflections of Chaukhamba at Deoriatal Lake and a breathtaking summit climb offering 270° views of Nanda Devi, Trishul, and Kedar Peak.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Sari (6,600 ft.)<br>
+	📆 <strong>Duration:</strong> 5 days<br>
+	📍 <strong>Highest Altitude:</strong> ~12,100 ft (Chandrashila peak)<br>
+	⏰ <strong>Best Time:</strong> November to April<br>
+	⚠️ <strong>Difficulty:</strong> Easy<br>
+</ul>
+<br>
+<!-- Ranthan Kharak -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/ranthan-kharak-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Ranthan Kharak Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/ranthan-kharak-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp" alt="Ranthan Kharak Trek">
+  </a>
+</div>
+<p>
+An offbeat gem in the Kumaon Himalayas, Ranthan Kharak takes you through remote shepherd trails, dense oak forests, and expansive alpine clearings, culminating in dramatic close-up views of Nanda Devi and Maiktoli.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Gogina (6,400 ft.)<br>
+	📆 <strong>Duration:</strong> 6 days<br>
+	📍 <strong>Highest Altitude:</strong> ~12,894 ft (Ranthan top)<br>
+	⏰ <strong>Best Time:</strong> March-April & October-November<br>
+	⚠️ <strong>Difficulty:</strong> Moderate<br>
+</ul>
+<br>
+<!-- Pindari Glacier -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/pindari-glacier-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Pindari Glacier Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/pindari-glacier-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg" alt="Pindari Glacier Trek">
+  </a>
+</div>
+<p>
+Following a historic trade route, the Pindari Glacier trek offers a classic Himalayan experience with river valleys, stone villages, and a dramatic glacier snout framed by towering peaks like Nanda Devi East and Changuch.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Khati (7,251 ft.)<br>
+	📆 <strong>Duration:</strong> 5 days<br>
+	📍 <strong>Highest Altitude:</strong> ~12,140 ft (Pindari glacier viewpoint)<br>
+	⏰ <strong>Best Time:</strong> April-June & October-November<br>
+	⚠️ <strong>Difficulty:</strong> Moderate<br>
+</ul>
+<br>
+<!-- Sandakphu -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/sandakphu-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Sandakphu Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/sandakphu-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766063333/sleeping-buddha-sandakpu1_khv34b.jpg" alt="Sandakphu Trek">
+  </a>
+</div>
+<p>
+Known for its legendary “Sleeping Buddha” view, Sandakphu offers unparalleled vistas of Everest, Kanchenjunga, Lhotse, and Makalu — making it one of the finest viewpoint treks in the Eastern Himalayas.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Manebhanjan (7,054 ft.)<br>
+	📆 <strong>Duration:</strong> 7 days<br>
+	📍 <strong>Highest Altitude:</strong> ~11,930 ft (Sandakphu)<br>
+	⏰ <strong>Best Time:</strong> November-May<br>
+	⚠️ <strong>Difficulty:</strong> Moderate<br>
+</ul>
+<br>
+<!-- Har Ki Dun -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/harkidun-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Har Ki Dun Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/harkidun-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg" alt="Har Ki Dun Trek">
+  </a>
+</div>
+<p>
+Often called the “Valley of Gods,” Har Ki Dun blends ancient Himalayan villages, terraced fields, and lush spring forests with grand views of Swargarohini, making it both scenic and culturally immersive.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Sankri (6,400 ft.)<br>
+	📆 <strong>Duration:</strong> 6 days<br>
+	📍 <strong>Highest Altitude:</strong> ~11,200 ft (Harkidun)<br>
+	⏰ <strong>Best Time:</strong> November-May<br>
+	⚠️ <strong>Difficulty:</strong> Easy<br>
+</ul>
+<br>
+<!-- Kedarkantha -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/kedarkantha-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Kedarkantha Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/kedarkantha-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535492/kedarkantha-hero_afsxo1.jpg" alt="Kedarkantha Trek">
+  </a>
+</div>
+<p>
+A classic summit trek, Kedarkantha is known for its forest camps, open ridgelines, and a rewarding summit climb that offers sweeping views of the Yamunotri and Gangotri ranges.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Sankri (6,400 ft.)<br>
+	📆 <strong>Duration:</strong> 4 days<br>
+	📍 <strong>Highest Altitude:</strong> ~12,500 ft (Kedarkantha top)<br>
+	⏰ <strong>Best Time:</strong> November-April<br>
+	⚠️ <strong>Difficulty:</strong> Easy-Moderate<br>
+</ul>
+<br>
+<!-- Dayara Bugyal -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/dayara-bugyal-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Dayara Bugyal Trek</strong></h3>
+  </a>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/dayara-bugyal-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1756831840/dayara-hero_xad9ui.jpg" alt="Dayara Bugyal Trek">
+  </a>
+</div>
+<p>
+Dayara Bugyal is celebrated for its vast alpine meadows that come alive in spring, offering uninterrupted views of Bandarpoonch and Kala Nag, along with gentle trails ideal for relaxed exploration.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Barsu (7,400 ft.)<br>
+	📆 <strong>Duration:</strong> 5 days<br>
+	📍 <strong>Highest Altitude:</strong> ~12,100 ft (Bakaria top)<br>
+	⏰ <strong>Best Time:</strong> November-April<br>
+	⚠️ <strong>Difficulty:</strong> Easy<br>
+</ul>
+<br>
+<!-- Ali Bedni Bugyal -->
+<h3>🏔️ <a 
+    href="https://planethimalayas.com/trek/ali-bedni-bugyal-trek"
+    style="color:#ff7300; text-decoration:none;"
+  >
+  <strong>Ali–Bedni Bugyal Trek</strong></h3>
+<div class="trek-card">
+  <a href="https://planethimalayas.com/trek/ali-bedni-bugyal-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg" alt="Ali Bedni Bugyal Trek">
+  </a>
+</div>
+<p>
+One of the most scenic meadow treks in India, Ali–Bedni Bugyal unfolds with endless grasslands, oak forests, and constant Himalayan views, culminating at the sacred Bedni Kund beneath Trishul.
+</p>
+<ul>
+	🏕️ <strong>Base Camp:</strong> Lohajung (7,600 ft.)<br>
+	📆 <strong>Duration:</strong> 5 days<br>
+	📍 <strong>Highest Altitude:</strong> ~11,500 ft (Bedni bugyal)<br>
+	⏰ <strong>Best Time:</strong> November-April<br>
+	⚠️ <strong>Difficulty:</strong> Easy<br>
+</ul>
+<br>
+<br>
+
+<h3>✨ <strong>Final Words: Walk the Himalayas When They Are Most Alive</strong></h3>
+
+<p>Spring is not just a trekking season — it is a transformation. Snow still rules the heights, flowers bloom below, and the mountains invite you to witness their rebirth.</p>
+
+<p>If you want to experience the Himalayas at their most balanced, most beautiful, and most alive — <strong>spring is when you must walk these trails.</strong></p>
+
+<blockquote><em>Some seasons show you the mountains. Spring lets you feel them breathe.</em></blockquote>
+`
+},
     
 ];

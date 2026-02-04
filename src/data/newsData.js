@@ -48,24 +48,27 @@ likely over Western Himalayan Region (WHR) during few days of the week.</li>
 },
 
   {
-    title: "The Ultimate Winter Trek Preparation Guide for the Himalayas",
-    type: "articles",
-    head: "Articles",
-    thumbnail: "/images/extras/experience-hero5.jpg",
-    details: 'A complete, deeply detailed Himalayan winter trek preparation guide covering layering, gear breakdowns, snow survival, hypothermia treatment, cold-injury prevention, hydration strategy, fitness prep, night routines, weather behaviour, packing lists, myths, FAQs, and expert safety insights based on real Himalayan scenarios — written for both beginners and experienced trekkers. Read <strong><a href="/blogs/ultimate-winter-trek-preparation-guide-himalayas/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
-  {
-    title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
-    type: "articles",
-    head: "Articles",
-    thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761463363/pexels-tirachard-kumtanom-112571-450062_for5dd.jpg",
-    details: 'Discover how trekking has changed in 2025 — from a raw, humbling adventure to a crowded social media trend — and why responsible trekking with Planethimalayas is the key to preserving the true spirit of the Himalayas. Read <strong><a href="/blogs/real-picture-of-himalayan-trekking/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
-  {
-    title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
-    type: "articles",
-    head: "Articles",
-    thumbnail: "/images/extras/experience-hero7.jpg",
-    details: 'Whether you\'re trekking in the Himalayas or anywhere in nature, it\'s our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in. Read <strong><a href="/blogs/mountain-manners/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
-  },
+  title: "Best Spring Treks in the Himalayas",
+  type: "articles",
+  head: "Articles",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766068757/everest_wdjvrw.jpg",
+  link: "/blogs/best-spring-treks-himalayas/",
+  details: '<em>Some seasons show you the mountains. Spring lets you feel them breathe.</em><br>Spring is not just a trekking season — it is a transformation. Snow still rules the heights, flowers bloom below, and the mountains invite you to witness their rebirth. If you want to experience the Himalayas at their most balanced, most beautiful, and most alive — spring is when you must walk these trails. Read <strong><a href="/blogs/best-spring-treks-himalayas/" target="_blank" rel="noopener noreferrer">full article</a></strong>'
+},
+{
+  title: "AMS - Acute Mountain Sickness",
+  type: "articles",
+  head: "Articles",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302941/ams_trigsv.jpg",
+  link: "/blogs/mountain-sickness/",
+  details: `If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS). Read <strong><a href="/blogs/mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>`
+},
+{
+  title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
+  type: "articles",
+  head: "Articles",
+  thumbnail: "/images/extras/experience-hero7.jpg",
+  link: "/blogs/mountain-manners/",
+  details: 'Whether you\'re trekking in the Himalayas or anywhere in nature, it\'s our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in. Read <strong><a href="/blogs/mountain-manners/" target="_blank" rel="noopener noreferrer">full article</a></strong>',
+},
 ]; 

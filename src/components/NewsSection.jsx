@@ -26,7 +26,13 @@ function NewsItem({ item }) {
 
   return (
     <li className="news-item">
-      <img src={item.thumbnail} alt="" className="news-thumbnail" />
+      {item.link ? (
+        <a href={item.link} target="_blank" rel="noopener noreferrer">
+          <img src={item.thumbnail} alt={item.title} className="news-thumbnail" />
+        </a>
+      ) : (
+        <img src={item.thumbnail} alt={item.title} className="news-thumbnail" />
+      )}
       <div className="news-text">
         <p className="news-title">{item.title}</p>
 
