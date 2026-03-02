@@ -35,7 +35,7 @@ import "../styles/global.css";
       <div class="cube-face right" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/journey-1_w9t3zk.jpg');">
         <div class="overlay"></div>
         <div class="hero-content">
-          <h1>Not Just a Trek — A Journey That Stays With You</h1>
+          <h1>A Journey That Stays With You</h1>
           <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             Every trail we walk is a carefully chosen path into the heart of the Himalayas — not just to witness their grandeur, but to feel them under your skin and soul.
@@ -47,7 +47,7 @@ import "../styles/global.css";
       <div class="cube-face back" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761809893/care_pzucvr.jpg');">
         <div class="overlay"></div>
         <div class="hero-content">
-          <h1>Individual Care, Every Step of the Way</h1>
+          <h1>Safety & Care on Top Priority</h1>
           <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             We keep our groups small so we can focus on you — your pace, your concerns, your joy. Our leaders walk with intention, offering safety and attention without intrusion.
@@ -59,7 +59,7 @@ import "../styles/global.css";
       <div class="cube-face left" style="background-image: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1761810048/love-himalayas-3_fpus1m.jpg');">
         <div class="overlay"></div>
         <div class="hero-content">
-          <h1>Built on Genuine Love for the Himalayas</h1>
+          <h1>True Love for the Himalayas</h1>
           <a href="/upcoming-treks" class="cta-button">Explore Treks</a>
           <p class="hero-subheading">
             We live and breathe these mountains. With Planethimalayas, your trek becomes a way of giving back to the Himalayas that give us so much.
@@ -88,11 +88,11 @@ import "../styles/global.css";
 <section class="trek-section reveal">
   <h2>Trending <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="winter">
+    <button class="scroll-btn left" onclick="scrollCards('spring', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="spring">
       {
         treks
-          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('winter'))
+          .filter(trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring'))
           .map(trek => {
             const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
             const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
@@ -254,36 +254,28 @@ import "../styles/global.css";
 <!-- Exclusive Section -->
 <section class="home-trek-feature reveal">
   <div class="trek-image">
-    <span class="trek-badge">Winter Exclusive</span>
-    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg" alt="Dzongri Winter Trek">
+    <span class="trek-badge">Spring Exclusive</span>
+    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg" alt="Goechala Trek">
   </div>
 
   <div class="trek-content">
-    <h2 class="trek-content-name">Dzongri <span>Winter Trek</span></h2>
+    <h2 class="trek-content-name">Goechala <span> Trek</span></h2>
 
     <div class="trek-meta">
       <span>📍 Sikkim - Khangchendzonga National Park</span>
-      <span>🏔️ 13,670 ft</span>
-      <span>❄️ Winter Exclusive</span>
+      <span>🏔️ 15,200 ft</span>
+      <span>❄️ Spring Exclusive</span>
       <span>⚡ Moderate</span>
-      <span>⏳ 7 Nights / 7 Days</span>
+      <span>⏳ 9 Nights / 9 Days</span>
     </div>
 
     <div class="trek-text-wrapper">
       <p class="trek-snippet" id="dzongriSnippet">
-      Dzongri Winter Trek is a rare Himalayan journey meant for trekkers who crave
-      raw winter landscapes, deep silence, and dramatic mountain views far away
-      from crowded trails. Walking through snow-covered forests and frozen
-      meadows, this trek offers a front-row seat to Kanchenjunga, Pandim, and Kabru
-      glowing under crisp winter skies. With fewer trekkers on the trail, the
-      experience feels deeply personal, immersive, and profoundly wild — a true
-      winter Himalayan adventure.
-      </p>
-
+Goechala Trek in spring is a grand and epic Himalayan passage through one of the wildest landscapes in the eastern Himalaya, crafted for trekkers who seek not just altitude but immersion in a living mountain ecosystem. As the season shifts, ancient forests burst into color with blooming rhododendrons, birdsong echoes through moss-laden trails, glacial streams surge beside the path, and vast alpine meadows unfold beneath clear, crystalline skies. The journey rises steadily through dense woodland, wooden bridges, and dramatic ridgelines, building a sense of scale and wilderness long before the mountains fully reveal themselves. And then, at the iconic Goechala Viewpoint, Khangchendzonga, Pandim, and the surrounding giants rise in overwhelming proximity — not just as peaks to admire, but as towering presences within a raw, untamed Himalayan world. With longer daylight hours, vibrant biodiversity, and expansive high-altitude drama, Goechala in spring feels powerful, immersive, and profoundly wild — an expedition where achievement arrives naturally, earned through every step into the heart of the mountains.      </p>
       <button class="read-more-btn" type="button">Read more →</button>
     </div>
 
-    <a href="/trek/dzongri-winter-trek" class="btn-book">
+    <a href="/trek/goechala-trek" class="btn-book">
       Register Now
     </a>
   </div>

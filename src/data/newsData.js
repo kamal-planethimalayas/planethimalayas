@@ -1,17 +1,17 @@
 export const news = [
 
   {
-  title: "Finally snowfall in Uttarakhand. Cold wave conditions are unlikely over any part of the country.",
+  title: "Dry weather likely to prevail in the mountains",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
-  details: `
+  details:
+  `
   <h3>Recent Updates:</h3>
 <ul>
-    <li>❖ Under the influence of western disturbance, isolated to scattered rainfall/snowfall
-likely over Western Himalayan Region (WHR) during few days of the week.</li>
-    <li>❖ Light rainfall/snowfall at isolated places also likely over Sikkim and Arunachal Pradesh under the influence of the westerly trough during some days of the week.</li>
-    <li>❖ Dense fog conditions are likely to prevail during early morning hours in isolated pockets of north India on some days of the week.</li>
+    <li>❖ Very light to light rain rainfall/snowfall (at places with
+altitude 3000 m and above) likely to occur at isolated places.
+    <li>❖ Dry weather likely to prevail in the mountains with no warning.
 </ul>`
 },
 
@@ -40,11 +40,11 @@ likely over Western Himalayan Region (WHR) during few days of the week.</li>
 },
   
 {
-  title: "Winter Exclusive - Dzongri Winter Trek",
+  title: "Spring Exclusive - Goechala Trek",
   type: "news",
   head: "Slopes",
   thumbnail: "/images/main/brand-logo-news.png",
-  details: `<p>Read <strong><a href="/trek/dzongri-winter-trek" target="_blank" rel="noopener noreferrer">Full Details</a></strong></p>`
+  details: `<p>Read <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">Full Details</a></strong></p>`
 },
 
   {
