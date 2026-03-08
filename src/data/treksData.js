@@ -3185,18 +3185,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
@@ -3401,18 +3390,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
@@ -4351,8 +4329,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
            
-      { label: "11 Apr - 15 Apr", start: "2026-04-11", end: "2026-04-15" },
-      { label: "12 Apr - 16 Apr", start: "2026-04-12", end: "2026-04-16" },
       { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
       { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
       { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
@@ -4535,8 +4511,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
        
-    { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" },
-    { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
     { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
     { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
     { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
@@ -5136,18 +5110,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
@@ -5350,10 +5313,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 6",
 
   dates: [   
-
-{ label: "15 Mar - 20 Mar", start: "2026-03-15", end: "2026-03-20" },
-{ label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-{ label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
 
 { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
 { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
@@ -5575,18 +5534,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
 
   dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
@@ -5758,18 +5706,7 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 4",
 
   dates: [   
-{ label: "05 Jan – 08 Jan", start: "2026-01-05", end: "2026-01-08" },
-{ label: "12 Jan – 15 Jan", start: "2026-01-12", end: "2026-01-15" },
-{ label: "19 Jan – 22 Jan", start: "2026-01-19", end: "2026-01-22" },
-{ label: "26 Jan – 29 Jan", start: "2026-01-26", end: "2026-01-29" },
 
-{ label: "02 Feb – 05 Feb", start: "2026-02-02", end: "2026-02-05" },
-{ label: "09 Feb – 12 Feb", start: "2026-02-09", end: "2026-02-12" },
-{ label: "16 Feb – 19 Feb", start: "2026-02-16", end: "2026-02-19" },
-{ label: "23 Feb – 26 Feb", start: "2026-02-23", end: "2026-02-26" },
-
-{ label: "02 Mar – 05 Mar", start: "2026-03-02", end: "2026-03-05" },
-{ label: "09 Mar – 12 Mar", start: "2026-03-09", end: "2026-03-12" },
 { label: "16 Mar – 19 Mar", start: "2026-03-16", end: "2026-03-19" },
 { label: "23 Mar – 26 Mar", start: "2026-03-23", end: "2026-03-26" },
 { label: "30 Mar – 02 Apr", start: "2026-03-30", end: "2026-04-02" },
@@ -5992,18 +5929,7 @@ The following day is reserved for departure. Guests may check out of the guestho
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
  dates: [   
-{ label: "05 Jan - 09 Jan", start: "2026-01-05", end: "2026-01-09" },
-{ label: "12 Jan - 16 Jan", start: "2026-01-12", end: "2026-01-16" },
-{ label: "19 Jan - 23 Jan", start: "2026-01-19", end: "2026-01-23" },
-{ label: "26 Jan - 30 Jan", start: "2026-01-26", end: "2026-01-30" },
 
-{ label: "02 Feb - 06 Feb", start: "2026-02-02", end: "2026-02-06" },
-{ label: "09 Feb - 13 Feb", start: "2026-02-09", end: "2026-02-13" },
-{ label: "16 Feb - 20 Feb", start: "2026-02-16", end: "2026-02-20" },
-{ label: "23 Feb - 27 Feb", start: "2026-02-23", end: "2026-02-27" },
-
-{ label: "02 Mar - 06 Mar", start: "2026-03-02", end: "2026-03-06" },
-{ label: "09 Mar - 13 Mar", start: "2026-03-09", end: "2026-03-13" },
 { label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
 { label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
 { label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
@@ -6204,7 +6130,6 @@ The following day is reserved for departure. Guests may check out of the guestho
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
 
   dates: [
-    { label: "15 May - 22 May", start: "2026-05-15", end: "2026-05-22" },
     { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
     { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
     { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
@@ -7090,18 +7015,7 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
       "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     dates: [
-  { label: "05 Jan - 08 Jan", start: "2026-01-05", end: "2026-01-08" },
-  { label: "12 Jan - 15 Jan", start: "2026-01-12", end: "2026-01-15" },
-  { label: "19 Jan - 22 Jan", start: "2026-01-19", end: "2026-01-22" },
-  { label: "26 Jan - 29 Jan", start: "2026-01-26", end: "2026-01-29" },
-
-  { label: "02 Feb - 05 Feb", start: "2026-02-02", end: "2026-02-05" },
-  { label: "09 Feb - 12 Feb", start: "2026-02-09", end: "2026-02-12" },
-  { label: "16 Feb - 19 Feb", start: "2026-02-16", end: "2026-02-19" },
-  { label: "23 Feb - 26 Feb", start: "2026-02-23", end: "2026-02-26" },
-
-  { label: "02 Mar - 05 Mar", start: "2026-03-02", end: "2026-03-05" },
-  { label: "09 Mar - 12 Mar", start: "2026-03-09", end: "2026-03-12" },
+  
   { label: "16 Mar - 19 Mar", start: "2026-03-16", end: "2026-03-19" },
   { label: "23 Mar - 26 Mar", start: "2026-03-23", end: "2026-03-26" },
   { label: "30 Mar - 02 Apr", start: "2026-03-30", end: "2026-04-02" },
@@ -7709,12 +7623,6 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
     dates: [
       
-      
-     { label: "06 Dec - 14 Dec", start: "2025-12-06", end: "2025-12-14" },
-{ label: "13 Dec - 21 Dec", start: "2025-12-13", end: "2025-12-21" },
-
-{ label: "14 Mar - 22 Mar", start: "2026-03-14", end: "2026-03-22" },
-{ label: "21 Mar - 29 Mar", start: "2026-03-21", end: "2026-03-29" },
 
 { label: "28 Mar - 05 Apr", start: "2026-03-28", end: "2026-04-05" },
 { label: "04 Apr - 12 Apr", start: "2026-04-04", end: "2026-04-12" },
@@ -7966,15 +7874,8 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 
  dates: [
 
-  { label: "03 Jan - 09 Jan", start: "2026-01-03", end: "2026-01-09" },
-  { label: "17 Jan - 23 Jan", start: "2026-01-17", end: "2026-01-23" },
-  { label: "31 Jan - 06 Feb", start: "2026-01-31", end: "2026-02-06" },
+  //{ label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" }
 
-  { label: "14 Feb - 20 Feb", start: "2026-02-14", end: "2026-02-20" },
-  { label: "28 Feb - 06 Mar", start: "2026-02-28", end: "2026-03-06" },
-
-  { label: "14 Mar - 20 Mar", start: "2026-03-14", end: "2026-03-20" },
-  { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" }
   ],
 
   highlights: [
@@ -8207,28 +8108,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
 
   dates: [
-      { label: "03 Jan - 09 Jan", start: "2026-01-03", end: "2026-01-09" },
-      { label: "04 Jan - 10 Jan", start: "2026-01-04", end: "2026-01-10" },
-      { label: "10 Jan - 16 Jan", start: "2026-01-10", end: "2026-01-16" },
-      { label: "11 Jan - 17 Jan", start: "2026-01-11", end: "2026-01-17" },
-      { label: "17 Jan - 23 Jan", start: "2026-01-17", end: "2026-01-23" },
-      { label: "18 Jan - 24 Jan", start: "2026-01-18", end: "2026-01-24" },  
-      { label: "24 Jan - 30 Jan", start: "2026-01-24", end: "2026-01-30" },
-      { label: "25 Jan - 31 Jan", start: "2026-01-25", end: "2026-01-31" },
-      { label: "31 Jan - 06 Feb", start: "2026-01-31", end: "2026-02-06" },
-      { label: "01 Feb - 07 Feb", start: "2026-02-01", end: "2026-02-07" },
-      { label: "07 Feb - 13 Feb", start: "2026-02-07", end: "2026-02-13" },
-      { label: "08 Feb - 14 Feb", start: "2026-02-08", end: "2026-02-14" },
-      { label: "14 Feb - 20 Feb", start: "2026-02-14", end: "2026-02-20" },
-      { label: "15 Feb - 21 Feb", start: "2026-02-15", end: "2026-02-21" },    
-      { label: "21 Feb - 27 Feb", start: "2026-02-21", end: "2026-02-27" },
-      { label: "22 Feb - 28 Feb", start: "2026-02-22", end: "2026-02-28" },
-      { label: "28 Feb - 06 Mar", start: "2026-02-28", end: "2026-03-06" },
-      { label: "01 Mar - 07 Mar", start: "2026-03-01", end: "2026-03-07" },    
-      { label: "07 Mar - 13 Mar", start: "2026-03-07", end: "2026-03-13" },
-      { label: "08 Mar - 14 Mar", start: "2026-03-08", end: "2026-03-14" },   
-      { label: "14 Mar - 20 Mar", start: "2026-03-14", end: "2026-03-20" },
-      { label: "15 Mar - 21 Mar", start: "2026-03-15", end: "2026-03-21" },    
+        
       { label: "21 Mar - 27 Mar", start: "2026-03-21", end: "2026-03-27" },
       { label: "22 Mar - 28 Mar", start: "2026-03-22", end: "2026-03-28" },
       { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" },
