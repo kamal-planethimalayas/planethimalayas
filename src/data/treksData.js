@@ -3133,7 +3133,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
     tags: ["beginner"],
-    difficulty: ["easy", "moderate"],
+    difficulty: ["easy"],
     season: ["spring", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
@@ -3173,7 +3173,7 @@ seo: {
   "The Ali–Bedni Bugyal Trek is a journey into the heart of Uttarakhand’s most enchanting high-altitude meadows — vast rolling grasslands that look like they’ve been brushed onto the earth by the hands of the gods. Starting from the quiet mountain village of Lohajung, the trail gently climbs through ancient oak and rhododendron forests where sunlight filters in golden beams and the woods echo with Himalayan thrushes, woodpeckers, and the occasional rustle of a mountain fox slipping between the shadows.<br>Then, almost without warning, the forests fall away and the world opens up into the endless green waves of Ali Bugyal — one of the largest alpine meadows in Asia. Walking here feels surreal. The air becomes crisp, the earth soft underfoot, and far on the horizon rise the great guardians of the Garhwal Himalayas: Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing white under the morning sun or flushed in shades of rose and gold at dusk. It’s a landscape so vast and quiet that you can hear the wind travel across the grass.<br>A gentle traverse leads you to Bedni Bugyal, equally magical yet imbued with a deeper spiritual energy. At its center lies Bedni Kund, a sacred, mirror-like pond believed to have witnessed centuries of rituals and the legendary Nanda Devi Raj Jat Yatra, one of the Himalayas’ most revered pilgrimages. The meadows here are dotted with wildflowers — blue poppies, brahmakamal, bistorts, and primulas — turning the terrain into a vibrant tapestry during summer.<br>Ali and Bedni are more than just meadows; they are living, breathing landscapes where nature, culture, and ancient lore blend seamlessly. Whether you are a first-time trekker or an experienced wanderer, these bugyals welcome you into a world where the sky feels close enough to touch, the mountains watch silently over the valleys, and every step fills you with a quiet sense of wonder."
     },
 
-    price: 10900,
+    price: 12900,
     priceNote: "* Lohajung to Lohajung",
     addons: {
       transport: 6000, 
@@ -3194,6 +3194,8 @@ seo: {
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
 
   ],
 
@@ -5647,7 +5649,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
   tags: ["beginner"],
-  difficulty: ["easy", "moderate"],
+  difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
@@ -6052,6 +6054,183 @@ The following day is reserved for departure. Guests may check out of the guestho
   ],
 },
 
+
+  faqsLink: "/faqs-and-articles",
+},
+
+{
+  id: "dodital-darwa-pass-trek",
+  name: "Dodital - Darwa Pass Trek",
+  tags: ["beginner"],
+  difficulty: ["easy", "moderate"],
+  season: ["spring", "summer", "autumn"],
+  month: ["march", "april", "may", "june", "september", "october", "november"],
+  region: "uttarakhand-garhwal",
+  duration: "4 Nights / 5 Days",
+  coordinates: [
+    [30.7365, 78.5154], // Agoda village (base)
+    [30.8026, 78.5206], // Dodital Lake
+    [30.8281, 78.5354], // Darwa Top
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital_egmgih.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490486/dodital-trek1_qujknb.jpg",
+  ],
+
+  subtitle: "Sacred Waters, Himalayan Heights",
+
+  seo: {
+  title: "Dodital Darwa Pass Trek | Itinerary, Cost & Dates | Planethimalayas",
+  description: "Dodital Darwa Pass Trek (13,000 ft) combines sacred forest trails, the pristine Dodital lake, and panoramic Himalayan views from Darwa Top including Bandarpoonch and Swargarohini."
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "13,000 ft (Darwa Pass Top)" },
+      { emoji: "⚡", label: "Trek Distance", value: "38–40 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "March to June, September to November" },
+      { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Agoda Village" },
+      { emoji: "🏁", label: "End Point", value: "Agoda Village" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
+    ],
+
+    snippet: `Hidden deep within the forests of the Garhwal Himalayas lies Dodital — a pristine high-altitude lake revered in mythology and surrounded by towering deodar, oak, and rhododendron forests. The journey to this sacred waterbody is one of Uttarakhand’s most enchanting forest treks, where every step takes you deeper into a world of whispering trees, glacial streams, and ancient Himalayan silence.
+
+<br>The trail begins from the peaceful village of Agoda, gradually climbing through traditional mountain hamlets and dense forests alive with birdsong. The path follows the Assi Ganga valley, crossing wooden bridges and shaded ridges where sunlight filters gently through tall conifers. As the climb continues, the air grows cooler and the forest thicker, creating an atmosphere that feels almost mystical.
+
+<br>Eventually the trail opens to reveal Dodital — a serene emerald lake nestled at the base of forested ridges. According to local legend, this is the birthplace of Lord Ganesha, and a small temple beside the lake quietly honors that ancient belief. The still waters mirror the surrounding peaks and towering trees, creating a place that feels deeply peaceful and spiritually significant.
+
+<br>Beyond Dodital, the trail climbs further toward Darwa Top — a high ridge that reveals an extraordinary panorama of the Garhwal Himalayas. From here, the dramatic silhouettes of Bandarpoonch, Swargarohini, Draupadi ka Danda, and Black Peak dominate the horizon, standing like silent guardians above the valleys below.
+
+<br>Blending mythological charm, dense Himalayan forests, and high-altitude vistas, the Dodital – Darwa Top Trek offers an experience that feels both adventurous and meditative — a journey where nature, culture, and spirituality come together in perfect harmony.`
+  },
+
+  price: 10400,
+  priceNote: "* Agoda to Agoda",
+
+  addons: {
+    transport: 4000,
+    offloadingbag: 1200,
+    transportNote: "* Rishikesh to Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
+
+  highlights: [
+    "Sacred alpine lake Dodital surrounded by dense deodar forests",
+    "Darwa Top (13,000 ft) offering stunning views of Bandarpoonch and Swargarohini ranges",
+    "Beautiful forest trail through oak, pine, and rhododendron ecosystems",
+    "Rich Himalayan wildlife including monals, Himalayan thrushes, and musk deer",
+    "Mythological significance as the believed birthplace of Lord Ganesha",
+    "Crystal clear mountain streams and wooden bridges along the trail",
+    "Perfect blend of spiritual heritage and natural Himalayan beauty",
+  ],
+
+ itinerary: [
+  {
+    day: 1,
+    title: "Arrival at Agoda Village (7,300 ft)",
+    details: `<strong>• Drive: 7–8 hrs from Dehradun via Uttarkashi along the Bhagirathi valley.</strong><br>• The journey winds through terraced villages, pine forests, and river valleys before reaching the quiet mountain village of Agoda. This charming settlement serves as the gateway to Dodital. Spend the evening settling into your guesthouse while enjoying traditional Garhwali hospitality and views of the surrounding hills.`
+  },
+  {
+    day: 2,
+    title: "Agoda to Manjhi Camp (9,200 ft)",
+    details: `<strong>• Trek: ~9 km | Duration: 5–6 hrs.</strong><br>• The trail begins with a gradual ascent through terraced farmlands before entering dense oak and rhododendron forests. The path follows the Assi Ganga river valley, with occasional glimpses of mountain streams cascading down the slopes. Birds and wildlife are abundant in this section of the forest. By afternoon, reach the peaceful campsite at Manjhi, surrounded by towering conifers and cool mountain air.`
+  },
+  {
+    day: 3,
+    title: "Manjhi to Dodital Lake (10,300 ft)",
+    details: `<strong>• Trek: ~6 km | Duration: 4–5 hrs.</strong><br>• Today's trail gradually climbs deeper into thick forests, with the sound of mountain streams accompanying you along the way. The forest suddenly opens to reveal the serene Dodital lake — an emerald jewel surrounded by towering pine and deodar trees. Spend the afternoon exploring the lake, visiting the small Ganesh temple nearby, and enjoying the calm reflections of the surrounding peaks on the still water.`
+  },
+  {
+    day: 4,
+    title: "Excursion to Darwa Top (13,000 ft) and return to Dodital",
+    details: `<strong>• Trek: ~10 km round trip | Duration: 6–7 hrs.</strong><br>• Start early for the climb toward Darwa Top, a ridge that rises above Dodital. The trail ascends steadily through alpine clearings before reaching the open summit ridge. From the top, a magnificent panorama unfolds — Bandarpoonch, Swargarohini, and Draupadi ka Danda dominate the skyline. After spending time absorbing the views, descend back to Dodital for the final night beside the lake.`
+  },
+  {
+    day: 5,
+    title: "Dodital to Agoda and drive back to Rishikesh",
+    details: `<strong>• Trek: ~15 km descent | Drive: 7–8 hrs.</strong><br>• Retrace your steps through the lush forests back toward Agoda village. The downhill walk offers one last chance to absorb the tranquility of these Himalayan forests. After reaching Agoda, begin the drive back through Uttarkashi toward Rishikesh. The trek concludes with memories of sacred lakes, forest trails, and sweeping Himalayan views.`
+  },
+],
+
+  didYouKnow: [
+  `Dodital is believed to be the birthplace of Lord Ganesha according to local mythology.`,
+  `The lake is home to Himalayan golden trout, introduced during the British era.`,
+  `Dodital remains frozen during the peak winter months, turning the lake into a natural ice field.`,
+  `The Assi Ganga river originates near Dodital and flows down to join the Bhagirathi River.`,
+  `The forests around Dodital are part of a rich Himalayan biodiversity zone with rare birds and alpine flora.`,
+  `Darwa Top was historically used as a shepherd route connecting different Himalayan valleys.`,
+  `The region is known for sightings of Himalayan monal, musk deer, and black bears.`,
+  `Dodital has long been a spiritual retreat for sages and wandering ascetics.`,
+  `The trek provides one of the easiest ways to witness high-altitude Himalayan landscapes without extreme climbing.`,
+  `Local villagers still follow seasonal migration patterns with livestock in the surrounding alpine pastures.`,
+],
+
+  howToReach: {
+    air: "Nearest Airport: Jolly Grant Airport, Dehradun (approx. 210 km from Agoda).",
+    train: "Nearest major railway station: Dehradun (approx. 190 km from Agoda).",
+    road: "Regular buses and shared taxis connect Dehradun to Uttarkashi, from where local vehicles reach Agoda village.",
+    travelTip: "Arrive in Dehradun a day early to comfortably reach Agoda via Uttarkashi the next morning.",
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital_egmgih.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490486/dodital-trek1_qujknb.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490487/darwa_pass_luefdn.png",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490482/dodital-trek2_wnlyff.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital-trek_vsnxmy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital-temple_dikebo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/doital-trek3_vonrag.jpg",
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Who can participate in the Dodital Darwa Top trek?",
+      answer: "The trek is suitable for beginners with basic fitness. Its gradual forest trail and moderate altitude make it ideal for first-time Himalayan trekkers."
+    },
+    {
+      question: "What is the best season for the Dodital Darwa Top trek?",
+      answer: "The best time is from March to June and September to November when the forests are vibrant and the Himalayan views are clear."
+    },
+    {
+      question: "What should I pack for the Dodital trek?",
+      answer: "Essentials include trekking shoes, layered clothing, a warm jacket, gloves, hat, water bottle, trekking poles, and a 30–40L backpack."
+    },
+    {
+      question: "Are there camping facilities on the trek?",
+      answer: "Yes, campsites are set up near Dodital and Manjhi with tents, mattresses, and meals provided by the trek operator."
+    },
+    {
+      question: "Will there be mobile network coverage?",
+      answer: "Mobile network is very limited once the trek begins. Occasional signals may appear near Agoda village."
+    },
+    {
+      question: "Do I need permits for the Dodital trek?",
+      answer: "Forest entry permissions are required and are typically arranged by the trek operator."
+    },
+    {
+      question: "What makes Dodital Darwa Top special?",
+      answer: "The trek combines dense Himalayan forests, a sacred alpine lake, and stunning views of the Garhwal Himalayas from Darwa Top."
+    },
+    {
+      question: "Is Dodital a religious site?",
+      answer: "Yes, the lake is believed to be the birthplace of Lord Ganesha and has a small temple on its shore visited by pilgrims and trekkers alike."
+    }
+  ],
+},
 
   faqsLink: "/faqs-and-articles",
 },
