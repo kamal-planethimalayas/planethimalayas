@@ -1,7 +1,7 @@
 export const news = [
 
   {
-  title: "Dry weather likely to prevail in the mountains",
+  title: "Fresh Snowfall in Mountains, Hailstorm Alert for Several States",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
@@ -9,9 +9,8 @@ export const news = [
   `
   <h3>Recent Updates:</h3>
 <ul>
-    <li>❖ Very light to light rain rainfall/snowfall (at places with
-altitude 3000 m and above) likely to occur at isolated places.
-    <li>❖ Dry weather likely to prevail in the mountains with no warning.
+    <li>❖ As of March 17, 2026, the IMD has reported fresh, moderate snowfall in the Western Himalayas (J&K, Himachal Pradesh, Uttarakhand) driven by active Western Disturbances. Heavy snowfall occurred on the Dhauladhar range and near the Atal Tunnel. Further rain and snow are forecast for the region until March 20-21.
+    
 </ul>`
 },
 
