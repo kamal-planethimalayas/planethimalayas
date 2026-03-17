@@ -3134,7 +3134,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     name: "Ali Bedni Bugyal Trek",
     tags: ["beginner"],
     difficulty: ["easy"],
-    season: ["spring", "autumn", "winter"],
+    season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
@@ -3186,16 +3186,19 @@ seo: {
 
     dates: [   
 
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
 { label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+
 
   ],
 
@@ -3338,7 +3341,7 @@ seo: {
     name: "Deoriatal Chandrashila Trek",
     tags: ["beginner", "lake"],
     difficulty: ["easy"],
-    season: ["spring", "autumn", "winter"],
+    season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
@@ -3393,14 +3396,18 @@ seo: {
 
     dates: [   
 
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -3596,14 +3603,17 @@ seo: {
       { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
       { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
       { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+
       { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
       { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
       { label: "13 Jun - 18 Jun", start: "2026-06-13", end: "2026-06-18" },
       { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
+
       { label: "19 Sep - 24 Sep", start: "2026-09-19", end: "2026-09-24" },
       { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
       { label: "26 Sep - 01 Oct", start: "2026-09-26", end: "2026-10-01" },
       { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+
       { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
       { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
       { label: "10 Oct - 15 Oct", start: "2026-10-10", end: "2026-10-15" },
@@ -3744,7 +3754,7 @@ seo: {
     tags: ["pro", "glacier", "lake"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
-    month: ["june", "july", "october", "september"],
+    month: ["may", "june", "october", "september"],
     region: "uttarakhand-garhwal",
     duration: "7 Nights / 7 Days",
     coordinates: [
@@ -4330,11 +4340,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-           
-      { label: "18 Apr - 22 Apr", start: "2026-04-18", end: "2026-04-22" },
-      { label: "19 Apr - 23 Apr", start: "2026-04-19", end: "2026-04-23" },
-      { label: "25 Apr - 29 Apr", start: "2026-04-25", end: "2026-04-29" },
-      { label: "26 Apr - 30 Apr", start: "2026-04-26", end: "2026-04-30" },
+
       { label: "02 May - 06 May", start: "2026-05-02", end: "2026-05-06" },
       { label: "03 May - 07 May", start: "2026-05-03", end: "2026-05-07" },
       { label: "09 May - 13 May", start: "2026-05-09", end: "2026-05-13" },
@@ -4345,6 +4351,11 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { label: "24 May - 28 May", start: "2026-05-24", end: "2026-05-28" },
       { label: "30 May - 03 Jun", start: "2026-05-30", end: "2026-06-03" },
       { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
+
+      { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
+      { label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+
+
     ],
 
     highlights: [
@@ -4460,8 +4471,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     name: "Harkidun Ruinsaratal Trek",
     tags: ["intermediate", "pro", "lake"],
     difficulty: ["moderate", "difficult"],
-    season: ["spring", "summer", "autumn"],
-    month: ["april", "may", "june", "september", "october"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "september", "october"],
     duration: ["7 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
@@ -4512,11 +4523,12 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-       
-    { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
     { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
     { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
     { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+
+    
+    { label: "06 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
     { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },  
     ],
 
@@ -4700,18 +4712,13 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
       
-      { label: "21 Mar - 26 Mar", start: "2026-03-21", end: "2026-03-26" },
-      { label: "22 Mar - 27 Mar", start: "2026-03-22", end: "2026-03-27" },
-      { label: "28 Mar - 02 Apr", start: "2026-03-28", end: "2026-04-02" },
-      { label: "29 Mar - 03 Apr", start: "2026-03-29", end: "2026-04-03" },
-      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-      { label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
       { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
       { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
       { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
       { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
       { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
       { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+
       { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
       { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
       { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
@@ -4722,6 +4729,12 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
       { label: "30 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
       { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+
+      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
+      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      { label: "13 Jun - 18 Jun", start: "2026-06-13", end: "2026-06-18" },
+      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
+
     ],
 
     highlights: [
@@ -4840,8 +4853,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   name: "Satopanth Lake Trek",
   tags: ["intermediate", "lake", "glacier"],
   difficulty: ["moderate"],
-  season: ["summer", "monsoon"],
-  month: ["june", "july", "august", "september"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september", "october"],
   region: "uttarakhand-garhwal",
   duration: "5 Nights / 5 Days",
   coordinates: [
@@ -4911,10 +4924,11 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [
       
+      { label: "24 May - 28 May", start: "2026-05-24", end: "2026-05-28" },
       { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
 
+      { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
       { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
-      { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
 
       { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
 
@@ -5052,8 +5066,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   name: "Kuari Pass Trek",
   tags: ["beginner"],
   difficulty: ["easy", "moderate"],
-  season: ["winter", "spring", "autumn"],
-  month: ["september", "october", "november", "december", "january", "february", "march", "april"],
+  season: ["winter", "spring", "summer", "autumn"],
+  month: ["september", "october", "november", "december", "january", "february", "march", "april", "may", "june"],
   region: "uttarakhand-garhwal",
   duration: "5 Nights / 5 Days",
   coordinates: [
@@ -5111,16 +5125,20 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
-  dates: [   
-
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
+  dates: [ 
 
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -5467,8 +5485,8 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   name: "Gulabi Kantha Trek",
   tags: ["beginner"],
   difficulty: ["easy"],
-  season: ["summer", "monsoon", "winter", "spring"],
-  month: ["march", "april", "may", "june", "july", "august", "september", "october", "december", "january"],
+  season: ["summer", "winter", "spring"],
+  month: ["march", "april", "may", "june", "september", "october", "novembeer", "december", "january", "february"],
   region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
@@ -5537,14 +5555,18 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 
   dates: [   
 
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -5872,8 +5894,8 @@ The following day is reserved for departure. Guests may check out of the guestho
   name: "Dayara Bugyal Trek",
   tags: ["beginner"],
   difficulty: ["easy"],
-  season: ["autumn", "winter", "spring"],
-  month: ["september", "october", "november", "december", "january", "february", "march", "april"],
+  season: ["autumn", "winter", "spring", "summer"],
+  month: ["september", "october", "november", "december", "january", "february", "march", "april","may", "june"],
   region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
@@ -5932,14 +5954,18 @@ The following day is reserved for departure. Guests may check out of the guestho
 
  dates: [   
 
-{ label: "16 Mar - 20 Mar", start: "2026-03-16", end: "2026-03-20" },
-{ label: "23 Mar - 27 Mar", start: "2026-03-23", end: "2026-03-27" },
-{ label: "30 Mar - 03 Apr", start: "2026-03-30", end: "2026-04-03" },
-
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
 { label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -6124,6 +6150,23 @@ The following day is reserved for departure. Guests may check out of the guestho
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
+  Dates: [
+
+{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+
+{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
+{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
+{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
+{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+
+{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+
+  ],
+
   highlights: [
     "Sacred alpine lake Dodital surrounded by dense deodar forests",
     "Darwa Top (13,000 ft) offering stunning views of Bandarpoonch and Swargarohini ranges",
@@ -6297,7 +6340,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 
 <br>Bali Pass is demanding, unforgiving, and profoundly rewarding. For trekkers who come prepared and committed, it offers one of the most immersive, memorable, and culturally rich high-altitude crossovers in all of Uttarakhand — a journey that feels like both a pilgrimage and an adventure.`},
 
-  price: 18900,
+  price: 21900,
   priceNote: "* Sankri to Janki Chatti",
   addons: {
     transport: 5000,
@@ -6312,8 +6355,9 @@ The following day is reserved for departure. Guests may check out of the guestho
     { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
     { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
     { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
-    { label: "29 May - 22 May", start: "2026-05-29", end: "2026-06-05" },
-    { label: "30 May - 22 May", start: "2026-05-30", end: "2026-06-06" },
+    { label: "29 May - 05 Jun", start: "2026-05-29", end: "2026-06-05" },
+    { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
+
     { label: "05 Jun - 12 Jun", start: "2026-06-05", end: "2026-06-12" },
     { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
     { label: "12 Jun - 19 Jun", start: "2026-06-12", end: "2026-06-19" },
@@ -6519,6 +6563,19 @@ The following day is reserved for departure. Guests may check out of the guestho
     },
 
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
+
+    dates: [
+    { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+    { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
+    { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+    { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
+    { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+
+    { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
+    { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+    { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
+    { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+  ],
 
     enquireOnly: true,
 
