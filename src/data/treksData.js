@@ -3383,7 +3383,7 @@ seo: {
       "Experience a side of the Garhwal Himalayas that feels both mythical and impossibly serene. The Deoriatal–Chandrashila Trek begins gently, winding through ancient oak and rhododendron forests where the air is cool, birdsong echoes between the trees, and the forest floor glows with moss and wildflowers. As you climb, the landscape becomes a moving canvas — Himalayan woodpeckers darting between branches, verditer flycatchers glowing turquoise in the sunlight, and the elusive Himalayan Monal flashing iridescent colours in the undergrowth.<br>Soon the trail opens to the emerald shores of Deoriatal, a quiet, glass-still lake set against a backdrop of towering snow peaks of Chaukhamba and Kedarnath range. Locals believe gods and goddesses once bathed here — and when you see Chaukhamba reflected perfectly in the water, you’ll understand why this place feels sacred.<br>Beyond the lake lie wide, breezy meadows like Rohini and Shyalmi Bugyal, where the world suddenly expands. Shepherd shelters, soft grasslands dotted with seasonal blooms, and sweeping ridgelines guide you forward as the forests slowly give way to open Himalayan wilderness. Sunrise and sunset here are unforgettable — golden light spilling across distant ranges, clouds drifting like slow rivers below your feet.<br>The final ascent to Chandrashila Peak (12,083 ft) is short but exhilarating. As you reach the summit, the horizon bursts open into a full 360° panorama of the greatest Himalayan giants — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Nilkanth, and countless unnamed ridges fading into the sky. No other easy–moderate trek offers a summit view this grand.<br>Along the way, the spiritual heartbeat of the region accompanies you — especially at the Tungnath Temple, the highest Shiva temple in the world, standing resilient against roaring winds and centuries of snow.<br>This trek is more than a scenic trail — it’s a gentle, soul-stirring journey where forests, lakes, meadows, mythology, and mountains come together to create an experience that stays with you long after the trek ends."
     },
 
-    price: 10900,
+    price: 10400,
     priceNote: "* Sari to Sari",
     addons: {
       transport: 4000, 
@@ -4699,7 +4699,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 "The Har Ki Dun Trek is one of those rare Himalayan journeys where myth, nature, and human warmth come together to create pure magic. Hidden deep in the Govind Pashu Vihar National Park, this cradle-shaped valley opens up a world of towering peaks, ancient legends, and timeless mountain life. The trail follows the clear blue waters of the Supin River, winding past whispering pine and deodar forests, wooden bridges, and meadows that seem to glow under the morning sun.<br>What makes Har Ki Dun unforgettable is its sense of peace — no roads, no crowds, only the soft hum of the valley and the rhythm of your steps. Every bend brings a new surprise — a cluster of wild rhododendrons, a snow-fed stream, or the distant sight of Swargarohini shining under a veil of clouds.<br>Trekkers walk through centuries-old villages like Osla, Gangad, and Seema, where time seems to move slower. The intricate wooden temples, carved with mythological motifs, tell stories of faith that still live strong in the mountains. The Duryodhana Temple of Osla, now devoted to Lord Someshwar, stands as a reminder of the valley’s deep connection to the Mahabharata.<br>As the trail climbs higher, it leads to alpine meadows and moraine fields, revealing stunning views of Bandarpoonch, Kalanag (Black Peak), and the Swargarohini massif — the same peaks said to mark the path to heaven taken by the Pandavas.<br>Har Ki Dun is not just a trek; it’s a living story. A story of rivers that sing, forests that whisper, and people who still greet you with warmth and mountain grace. Whether you’re drawn by mythology, nature, or the spirit of solitude, this trek will make you feel like you’ve stepped into another world — one that’s real, raw, and deeply human."
     },
 
-    price: 12900,
+    price: 12400,
     priceNote: "* Sanri to Sankri",
     addons: {
       transport: 4000, 
@@ -5321,7 +5321,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>Bold, immersive, and deeply satisfying, the Pangarchulla Peak Trek is not just a continuation of Kuari Pass — it is its wild, adventurous crescendo. A perfect choice for trekkers ready to move beyond easy trails and experience the true power, exposure, and exhilaration of the high Himalayas.`
 },
 
-  price: 13400,
+  price: 13900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 6000,
@@ -6553,7 +6553,7 @@ The following day is reserved for departure. Guests may check out of the guestho
       snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
     },
 
-    price: 17400,     // you can fill in actual price
+    price: 19400,     // you can fill in actual price
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 5000,    // fill in as applicable
@@ -7050,7 +7050,7 @@ The following day is reserved for departure. Guests may check out of the guestho
       "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
   },
 
-  price: 10400,
+  price: 12400,
   priceNote: "* Gogina to Gogina",
   addons: {
     transport: 6000,
@@ -7250,17 +7250,6 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     inclusionsNote:
       "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
-    dates: [
-  
-  { label: "16 Mar - 19 Mar", start: "2026-03-16", end: "2026-03-19" },
-  { label: "23 Mar - 26 Mar", start: "2026-03-23", end: "2026-03-26" },
-  { label: "30 Mar - 02 Apr", start: "2026-03-30", end: "2026-04-02" },
-
-  { label: "06 Apr - 09 Apr", start: "2026-04-06", end: "2026-04-09" },
-  { label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
-  { label: "20 Apr - 23 Apr", start: "2026-04-20", end: "2026-04-23" },
-  { label: "27 Apr - 30 Apr", start: "2026-04-27", end: "2026-04-30" }
-],
 
     highlights: [
         "Scenic trek through oak, pine, and rhododendron forests",
@@ -7859,17 +7848,15 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
     dates: [
       
+{ label: "02 Apr - 10 Apr", start: "2026-04-02", end: "2026-04-10" },
+{ label: "09 Apr - 17 Apr", start: "2026-04-09", end: "2026-04-17" },
+{ label: "16 Apr - 24 Apr", start: "2026-04-16", end: "2026-04-24" },
+{ label: "23 Apr - 01 May", start: "2026-04-23", end: "2026-05-01" },
 
-{ label: "28 Mar - 05 Apr", start: "2026-03-28", end: "2026-04-05" },
-{ label: "04 Apr - 12 Apr", start: "2026-04-04", end: "2026-04-12" },
-
-{ label: "11 Apr - 19 Apr", start: "2026-04-04", end: "2026-04-19" },
-
-{ label: "18 Apr - 26 Apr", start: "2026-04-18", end: "2026-04-26" },
-{ label: "25 Apr - 03 May", start: "2026-04-25", end: "2026-05-03" },
-
-{ label: "02 May - 10 May", start: "2026-05-02", end: "2026-05-10" },
-{ label: "09 May - 17 May", start: "2026-05-09", end: "2026-05-17" },
+{ label: "30 Apr - 08 May", start: "2026-04-30", end: "2026-05-08" },
+{ label: "07 May - 15 May", start: "2026-05-07", end: "2026-05-15" },
+{ label: "14 May - 22 May", start: "2026-05-14", end: "2026-05-22" },
+{ label: "21 May - 29 May", start: "2026-05-21", end: "2026-05-29" },
 
     ],
 
@@ -8344,11 +8331,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
 
   dates: [
-        
-      { label: "21 Mar - 27 Mar", start: "2026-03-21", end: "2026-03-27" },
-      { label: "22 Mar - 28 Mar", start: "2026-03-22", end: "2026-03-28" },
-      { label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" },
-      { label: "29 Mar - 04 Apr", start: "2026-03-29", end: "2026-04-04" },    
+   
       { label: "04 Apr - 10 Apr", start: "2026-04-04", end: "2026-04-10" },
       { label: "05 Apr - 11 Apr", start: "2026-04-05", end: "2026-04-11" },    
       { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
@@ -8357,6 +8340,12 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
       { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },   
       { label: "25 Apr - 01 May", start: "2026-04-25", end: "2026-05-01" },
       { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
+
+      { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
+      { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
+      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+
     ],
 
   highlights: [
