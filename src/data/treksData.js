@@ -6504,6 +6504,335 @@ The following day is reserved for departure. Guests may check out of the guestho
   faqsLink: "/pages/faqs-and-articles",
 },
 
+{
+  id: "borasu-pass-trek",
+  name: "Borasu Pass Trek",
+  tags: ["lake", "glacier", "pass", "crossover", "moraine"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september"],
+  region: ["uttarakhand-garhwal", "himachal pradesh"],
+  duration: "8 Nights / 9 Days",
+  coordinates: [
+  [31.0169, 78.2755], // Sankri (start)
+
+  [31.0982, 78.3041], // Dhatmeer / Taluka roadhead
+  [31.1285, 78.3502], // Seema
+  [31.1506, 78.3668], // Boslo (before Har Ki Dun)
+
+  [31.1654, 78.3729], // Har Ki Dun valley
+  [31.1889, 78.4105], // Morinda Tal (Maninda Tal region)
+
+  [31.2057, 78.4528], // Saunbhera / Maninda valley campsite
+  [31.2284, 78.4821], // Upper Lamjung (Borasu Base Camp)
+
+  [31.2459, 78.5037], // Borasu Pass (≈ 5,450 m)
+
+  [31.2686, 78.5259], // Descend ridge / glacier exit point
+  [31.2924, 78.5552], // Rani Kanda campsite
+
+  [31.3228, 78.4036], // Forest exit / bridge point
+  [31.3519, 78.4365], // Chitkul (end)
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905974/borasu-pass1_hzb0n7.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535102/harkidun-view2_bmvyqy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg"
+  ],
+
+  subtitle: "A Remote Himalayan Traverse from Harkidun to Baspa Valley",
+
+  seo: {
+    title: "Borasu Pass Trek | Complete Itinerary & Route | Planethimalayas",
+    description:
+      "Borasu Pass Trek (17,880 ft) is a challenging high-altitude crossover connecting Har Ki Dun valley in Uttarakhand to Chitkul in Himachal. A raw Himalayan expedition across forests, glaciers, and remote alpine terrain.",
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,880 ft (Borasu Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September" },
+      { emoji: "🗺️", label: "Region", value: "Harkidun valley, Uttarakhand to Baspa Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Sankri" },
+      { emoji: "🏁", label: "End Point", value: "Chitkul" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Borasu Pass Trek is not a journey that reveals itself all at once. It unfolds gradually, almost patiently, beginning in the quiet mountain settlement of Sankri — a place where wooden homes cling to the slopes and life moves to the rhythm of seasons rather than time. The early days feel deceptively gentle as the trail slips into the Har Ki Dun valley, following the restless flow of the river through forests of walnut, chestnut, and deodar. Villages like Gangad and Osla appear along the way, their architecture and traditions rooted deeply in the past, offering a glimpse into a Himalayan life that has remained largely unchanged for centuries.
+
+<br>As you move deeper into the valley, the trail opens into vast grasslands framed by towering peaks. Har Ki Dun, often called the ‘Valley of Gods,’ stretches wide and serene, with the Swargarohini massif rising dramatically at its head. There is a sense of calm here — a rare stillness — broken only by the sound of wind brushing through the valley and the distant rush of glacial streams. For many, this is where the trek feels complete. But Borasu begins where Har Ki Dun ends.
+
+<br>Beyond this point, the landscape shifts almost abruptly. The forests disappear, the valley narrows, and the terrain becomes rugged and untamed. The trail moves toward Maninda Tal, a high-altitude glacial lake that appears almost unexpectedly amid moraine and boulder fields. The water reflects the surrounding peaks with an eerie clarity, and the silence here feels deeper, heavier. Campsites become more exposed, winds stronger, and the altitude more noticeable.
+
+<br>From Maninda, the approach to the pass turns increasingly demanding. The terrain is a mix of loose rocks, glacier moraine, and snow patches that test both balance and endurance. The trail is no longer forgiving — it requires focus, patience, and a steady rhythm. As you climb higher, the world begins to strip itself down to its rawest form — no trees, no shelter, only rock, snow, and sky.
+
+<br>The final push to Borasu Pass is steep and relentless. Each step feels deliberate as the altitude presses against your lungs and the wind cuts through the silence. But when you finally reach the top, the effort dissolves into something far greater. On one side lies the valley you’ve climbed through — green, layered, alive. On the other side opens an entirely different world — stark, vast, and glacial, stretching endlessly toward Kinnaur.
+
+<br>The descent is just as intense. Steep snow slopes often require careful footing or controlled glissades, followed by long traverses across moraine and glacier-fed streams. Slowly, almost imperceptibly, the harsh alpine terrain begins to soften. Green returns to the landscape, streams widen, and the trail leads you toward the Baspa Valley.
+
+<br>By the time you reach Chitkul, the last inhabited village near the Indo-Tibet border, the contrast feels surreal. From dense forests and mythological valleys to glaciers and barren passes, and finally back to green meadows and human settlements — Borasu is not just a trek, it is a complete Himalayan transition.
+
+<br>With Planethimalayas, this journey is approached as an expedition rather than a trek — slow, immersive, and deeply connected to the terrain. It is meant for those who seek not just altitude, but experience — the kind that stays long after the mountains are behind you.`
+  },
+
+  price: 34900,
+  priceNote: "* Sankri to Chitkul",
+
+  addons: {
+    transport: 6000,
+    offloadingbag: 7200,
+    transportNote: "* Dehradun to Sankri & Chitkul to Shimla",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to lunch on Day 8",
+
+  highlights: [
+    "A rare high-altitude crossover connecting Har Ki Dun valley to Baspa (Kinnaur)",
+  
+    "Stunning views of Swargarohini, Bandarpoonch, and Kala Nag (Black Peak)",
+  
+    "Journey through ancient Himalayan villages and the culturally rich Har Ki Dun valley",
+  
+    "Scenic passage via the glacial Maninda Tal and remote high-altitude meadow camps",
+  
+    "Traverse from lush forests to stark glacial terrain of moraine, scree, and snow",
+  
+    "Technical crossing of Borasu Pass (17,880 ft) with steep snow slopes and exposed sections",
+  
+    "Dramatic transition from raw alpine wilderness to the vibrant Baspa Valley",
+  
+    "Finish at Chitkul — the last inhabited village near the Indo-Tibet border"
+  ],
+
+  itinerary: [
+    {
+    "day": 1,
+    "title": "Arrive in Sankri (6,400 ft) | Drive distance: ~195 km | Duration: 6–8 hours.",
+    "details": "Your journey begins with a long yet stunning drive from Dehradun to Sankri, passing through Mussoorie, Purola, and Mori. The road winds through thick pine and deodar forests, opening occasionally into deep valleys where the Tons River glimmers below. As the altitude rises, the air becomes cooler and the landscape noticeably quieter. When you finally arrive in Sankri—an isolated Himalayan village inside Govind Pashu Vihar National Park—you’ll immediately feel the shift into mountain life. The village serves as the base for many legendary Garhwal treks. You settle into a cozy guesthouse or homestay, resting as the sun sets behind the ridges."
+    },
+    {
+    "day": 2,
+    "title": "Sankri to Dhatmeer (7,875 ft) – Trek to Seema (8,400 ft) | Drive distance: 18 km | Trek distance: ~8 km | Duration: 1.5 hrs drive + 5–6 hrs trek.",
+    "details": "The day begins with a short but beautiful drive to Dhatmeer, the starting point of the trek. Soon after stepping onto the trail, you find yourself walking beside the Supin River, its constant flow echoing through forests of walnut, chestnut, and deodar. The path takes you across wooden bridges and through small mountain villages like Gangaar, where life moves slowly and peacefully. With every turn, the valley opens wider, offering clearer glimpses of the snow-covered Swargarohini peaks. By late afternoon, you reach Seema—a serene riverside campsite surrounded by forests and meadows. The sound of the river becomes your lullaby for the night."
+    },
+    {
+    day: 3,
+    title: "Seema (8,400 ft) to Boslo (10,000 ft) | ~10 km | 6–7 hrs",
+    details: "Today is where the valley truly begins to open itself to you. With a steady altitude gain ahead, we start early — the kind of morning where the air feels crisp and the forest still holds onto the last traces of night. The trail continues much like the previous day, winding through damp, stone-laid paths that demand careful footing, especially with the constant presence of water trickling across the route. Within minutes of starting, we pass a small settlement — a quiet reminder of how deeply life is rooted in these remote valleys.\n\nThe Supin river remains your silent companion below, sometimes hidden behind thick vegetation, sometimes revealing itself in flashes through the trees. As the trail progresses, wooden bridges and small stream crossings become frequent, each one adding a rhythm to your walk. About an hour into the trek, a suspension bridge pulls you across to the other side of the valley, followed immediately by a steep climb that tests your breathing. But as always in the mountains, effort is quickly rewarded.\n\nWith height, the landscape begins to shift. The dense forests slowly loosen their grip, making way for wider clearings and longer sightlines. The towering trees thin out, replaced by shorter shrubs and open slopes that let the light pour in. It is here, almost unexpectedly, that the mountains begin to reveal themselves. The first distant glimpses of the great Garhwal peaks appear — vast, silent, and unmoving — slowly rising above the valley walls.\n\nThe trail doesn’t give in easily though. After a brief stretch of relatively flat ground, the ascent resumes — steady, continuous, and at times relentless. There are sections where you lose altitude briefly, only to regain it again, reminding you that progress in the mountains is rarely linear. But with every turn, the valley grows grander, the scale deeper, and the sense of isolation stronger.\n\nAs the day moves forward, the forest transforms once again. What began as tall, enclosing woods now opens into a vibrant mix of vegetation — wild plants, scattered flowers, and patches of green that feel almost untouched. The valley floor below carries the river in full force, but from up here, it feels distant — like a quiet hum beneath the vastness around you.\n\nA couple of hours before Har Ki Dun, we break away and move toward our campsite at Boslo — a beautiful open meadow set away from the restricted zones of the valley. The moment you step into this space, it feels earned. Surrounded by dense forests on one side and towering peaks on the other, the campsite opens wide to the sky, offering a rare sense of freedom after a day of enclosed trails.\n\nRight in front stands Hata Peak, calm yet commanding, while far below, the river continues its endless journey through the valley. As evening sets in, the light softens across the meadow, and the mountains begin to glow in shades of gold and grey. Sitting here with a hot cup in hand, watching the last light fade behind the ridgelines, you realise — this is the kind of place you don’t just reach, you arrive at.\n\nThe night settles in quietly. The wind moves gently through the meadow, the forest stands still, and somewhere far below, the river continues to flow — constant, unseen, and reassuring. Boslo is not just a stop before Har Ki Dun. It is a place that holds its own silence, its own space, and its own story in the journey ahead."
+    },
+    {
+    day: 4,
+    title: "Boslo (10,000 ft) to Ratta Tho (13,500 ft) via Har Ki Dun & Maninda Tal | ~7 km | 4-5 hrs",
+    details: "Today feels different right from the start. There’s a quiet sense of anticipation in the air — the kind that comes when you know you’re about to leave the familiar behind. This is the day we move beyond Har Ki Dun, stepping off the well-walked trail and into terrain that feels far more raw, far more untouched.\n\nThe morning begins unhurried. From Boslo, the trail gently leads us into the vast expanse of Har Ki Dun valley. The landscape opens wide here — a sweeping basin of green with the river flowing lazily through it, and the great Swargarohini massif standing tall at the head of the valley. With fewer crowds this early in the day, the valley feels almost personal, as if it has slowed down just for you. There’s time to pause, to look around, to take in the scale of it all before moving ahead.\n\nSoon, we leave the main trail behind. Almost instantly, the difference is noticeable. The footsteps thin out, the silence deepens, and the valley begins to feel wilder. The trail now climbs gradually along the river, moving into a space that very few trekkers venture into. The mountains seem closer here, more involved — clouds brushing against their ridges, sunlight slipping in and out, constantly changing the mood of the landscape.\n\nThe first stretch is a steady, comfortable ascent. After about an hour, the terrain flattens briefly and leads us to Maninda Tal — a quiet glacial lake resting in the middle of this vast valley. The contrast is striking. Around it, the wind moves freely, grass sways endlessly, and rocks lie scattered without order. And yet, the lake remains perfectly still, holding a deep turquoise calm that feels almost unreal in this rugged setting. Nearby, you’ll notice old stone shelters — remnants of shepherd life that once passed through these high lands.\n\nBeyond the lake, the valley changes character once again. The lush greens begin to fade, giving way to drier, golden hues. Vegetation becomes sparse, shrubs disappear, and the landscape opens into wide, rolling meadows broken occasionally by boulder sections. The trail is not demanding, but it constantly reminds you that you are gaining height — slowly, steadily, without urgency.\n\nThere are moments here where the trail feels almost secondary. You find yourself stopping without reason — lying back on the grass, watching clouds drift lazily across the sky, dissolving into the vastness above the peaks. Time stretches in these moments. The mountains don’t rush you, and for once, you don’t feel the need to rush either.\n\nA short boulder patch interrupts the softness of the meadows, demanding focus for a while, before the trail returns to gentle inclines again. The altitude begins to make its presence felt, but the openness of the valley keeps the journey light.\n\nBy early afternoon, we arrive at Ratta Tho — a campsite marked by its striking red boulder, standing out against the muted tones of the surrounding landscape. The campsite sits in a wide alpine clearing, exposed, quiet, and completely removed from everything below. There are no forests here, no tall trees — only open sky, scattered rocks, and distant snow slopes beginning to appear higher up.\n\nAs you settle into camp, the shift becomes clear. The comfort of the lower valleys is behind you now. Ahead lies the harsher, colder, more demanding world of high altitude. But for now, the stillness of Ratta Tho, the slow-moving clouds, and the vast emptiness around you offer a rare kind of peace — one that only exists when you step beyond the known. On a clear day, you get the first glimpse of the mighty Borasu Pass from here."
+    },
+    {
+    day: 5,
+    title: "Ratta Tho (13,500 ft) to Sonbhera (15,000 ft) | ~6 km | 3–4 hrs",
+    details: "The mountains begin to feel different from today.\n\nGone are the soft meadows and forgiving trails of the lower valleys. What lies ahead now is a landscape that feels colder, quieter, and far more indifferent to your presence. Ratta Tho, with its open expanse and striking red boulder, serves as the last gentle pause before the terrain starts to harden.\n\nWe start early, as the wind here tends to rise sharply as the day progresses. The first stretch moves gradually over rolling alpine ground, but the softness underfoot doesn’t last long. Very soon, the trail begins to weave through scattered boulders and loose moraine, demanding a more careful rhythm. Each step now needs attention — not because the trail is extremely technical yet, but because the mountains are slowly introducing you to what lies ahead.\n\nThe valley tightens as we move forward. What was once wide and open now begins to narrow, guiding us toward the upper reaches of the Borasu basin. Streams born from melting snow crisscross the trail, sometimes gentle, sometimes forcing you to pause and choose your steps wisely. The sound of flowing water follows you constantly, echoing through the emptiness.\n\nAs we gain altitude, the landscape starts losing its colour. The greens fade into pale yellows, then into a raw mix of grey rock and dusty earth. Vegetation becomes almost nonexistent. The only life you occasionally spot are a few resilient alpine flowers clinging stubbornly to the cold ground — small reminders of the world you’ve left behind.\n\nThere is a certain silence here that feels heavier than before. No birds, no distant village sounds, no movement except the wind and your own breath. It’s the kind of silence that makes you aware of your own presence in the mountains — and how small it really is.\n\nThe climb today is steady and continuous, gaining close to 1,500 feet without any dramatic steep sections, but the altitude ensures that it is felt. Breaks become more frequent, not out of exhaustion alone, but because your body is beginning to adjust to thinner air. The pace slows naturally, and the group starts spreading out, each person finding their own rhythm.\n\nAs we approach Sonbhera, the terrain opens slightly into a vast high-altitude meadow, unlike anything we’ve seen so far. The ground here feels damp, almost sponge-like in places, with multiple small streams weaving through it, forming a delicate web of water channels. In early season, patches of snow often remain scattered across the campsite, adding to its raw beauty.\n\nSonbhera is not a place of comfort — it is a place of transition. Surrounded by towering ridgelines and distant snow slopes, it feels exposed, almost vulnerable. But it is also incredibly powerful. Standing here, you can see the route ahead beginning to reveal itself — the higher ridges, the snowfields, and somewhere beyond them, the unseen line of Borasu Pass.\n\nBy the time we settle into camp, the temperature begins to drop quickly. The wind picks up, sweeping across the open ground without obstruction. Layers go on, conversations grow quieter, and the mountains slowly take over the evening.\n\nToday is not about reaching a destination. It is about stepping deeper into the high Himalayas — where the terrain strips away comfort, and replaces it with something far more real."
+    },
+    {
+    day: 6,
+    title: "Sonbhera (15,000 ft) to Upper Lamjung (16,000 ft) | ~2 km | 2 hrs",
+    details: "Today is deceptive.\n\nOn paper, it is the shortest day of the entire journey — a quick push to the base camp of the pass. But the mountains have their own way of redefining what ‘short’ really means. This is where the terrain begins to prepare you, quietly but firmly, for what lies ahead.\n\nWe don’t rush the morning. The cold here lingers longer, and the sun takes its time to touch the valley floor. Once it does, we begin — not with urgency, but with awareness.\n\nThe moment we leave Sonbhera, the softness disappears. Within minutes, the trail transforms into a field of boulders — endless, scattered, uneven. There is no defined path anymore, only a direction. Each step becomes deliberate. Your feet search for stability, your balance adjusts constantly, and your pace slows into something more measured.\n\nCrossing the campsite takes barely a few minutes before the real climb begins. The route rises sharply along a narrow ridge, threading its way upward through loose rock and broken terrain. About an hour into the climb, we reach the top of the first ridge — and it is here that the mountain quietly rewards you.\n\nBelow, Sonbhera stretches out like a living map. Streams carve their way through the meadow, dividing the land into intricate patterns — almost geometric, almost unreal. From above, the campsite looks like a mosaic of green and gold, stitched together by threads of water. It’s one of those views that holds you in place longer than you expect.\n\nThe trail eases briefly after this, allowing a few minutes of level walking — a rare luxury at this altitude. But it doesn’t last. The second ridge rises ahead, steeper and more rugged. The climb is shorter, sharper — about half an hour of steady effort that leads you higher into a world that feels increasingly distant from everything below.\n\nAnd then, almost suddenly, you arrive.\n\nUpper Lamjung.\n\nThe base camp of Borasu Pass.\n\nLocally, ‘Lamjung’ translates to ‘Long Moustache’ — a name inspired by the sweeping ridgelines below that, from a distance, resemble the curve of a long moustache. Standing here, you understand why. The terrain folds and curves in ways that feel almost deliberate, almost sculpted.\n\nThe campsite itself is unlike anything you’ve experienced so far. It is small, uneven, and filled with loose rock — a place where pitching tents feels more like negotiation than routine. Comfort takes a backseat here. This is not a campsite meant for ease; it is a place meant for purpose.\n\nAll around you, the mountains rise in stark contrast. To one side, softer slopes roll away into muted colours, almost calm in their appearance. To the other, sharp ridges and jagged rock faces dominate the skyline — raw, aggressive, constantly shedding loose stones that echo through the valley. Every few minutes, you hear it — the distant rumble of rockfall, reminding you of the fragile nature of this terrain.\n\nThe pass itself remains hidden, tucked away behind layers of glacier and ridge. You know it is close, but the mountain doesn’t reveal it yet.\n\nIf the sky is clear, the reward is immense. From this vantage point, you can spot distant glacial lakes resting quietly in the folds of the mountains — untouched, unmoving, almost frozen in time. Clouds drift slowly, forming and dissolving without warning, casting shadows that change the entire landscape within moments.\n\nThe ground beneath your feet feels ancient — like the remains of something that once stood tall and has now collapsed into itself. Rocks scattered in every direction, as if pushed down by time.\n\nWater is scarce here. You can hear it — faintly, somewhere beneath the ice or between rocks — but finding it takes effort. Everything here demands a little more from you.\n\nAs evening sets in, the temperature drops quickly. The wind carries a sharp bite, and the silence deepens, broken only by the occasional crack and rumble of shifting rock.\n\nTomorrow is the pass.\n\nAnd tonight, the mountains make sure you understand what that truly means."
+    },
+    {
+    day: 7,
+    title: "Upper Lamjung (16,000 ft) to Bonga (14,800 ft) via Borasu Pass (17,880 ft) | ~10 km | 10-12 hrs",
+    details: "Today is the day the mountains test everything you’ve carried within you.\n\nWe begin long before the sun even considers rising. In the darkness, under a sky still heavy with stars, there is a quiet urgency in the air. Headlamps flicker on, boots crunch over frozen ground, and without much conversation, we start moving. The peaks around us are still silhouettes — dark, silent, watching.\n\nThe climb begins immediately.\n\nThe first stretch is steep and relentless, weaving through boulders and broken rock. Within an hour, we reach the base of the glacier — the point where the terrain shifts once again. Here, we pause. Crampons or microspikes go on. Ice axes are readied. The mountain demands more from us now.\n\nThe initial slope feels manageable, almost welcoming. But it doesn’t stay that way for long.\n\nAs we move higher, the gradient sharpens quickly. Snow and rock alternate unpredictably underfoot. The slope steepens — 30 degrees, then 50, then pushing toward 70. Breathing becomes heavier, steps slower, more deliberate. The final approach to the pass is the kind that forces silence — steep, exposed, and mentally demanding. Every step feels earned.\n\nAnd then, almost suddenly, there is nowhere higher to climb.\n\nBorasu Pass.\n\nAt nearly 17,880 feet, you stand in a world that feels completely stripped down to its rawest form. There is no softness here — only wind, snow, rock, and the vast openness of the high Himalayas. Peaks stretch endlessly in every direction, their faces painted in shifting patterns of white snow and dark rock. The air is thin, the cold sharp, and yet there is a stillness that holds you in place.\n\nWe don’t stay long.\n\nBecause what comes next is where the real challenge begins.\n\nThe descent.\n\nRight from the pass, the mountain drops away sharply — almost intimidating in its directness. The first section is steep enough to require fixed ropes in certain conditions. Each step downward needs focus. Loose snow, hard ice, and exposure combine to demand complete attention. This initial descent alone takes time, patience, and control.\n\nOnce off the steep face, we enter a long stretch of snowfields. At first glance, it feels easier — almost forgiving. But this terrain has its own dangers. Hidden crevasses lie beneath the surface, and sections of the slope fall away sharply on one side. The group moves carefully, maintaining distance, placing each step with intent. Over the next hour, we steadily lose altitude, the pass slowly rising behind us.\n\nAnd then, the mountains change again.\n\nSnow gives way to rock.\n\nWhat follows is a long, exhausting traverse across massive boulder fields — unstable, uneven, and mentally draining. There is no defined trail here. You choose your line, step by step, navigating gaps, balancing over shifting rock, constantly adjusting. Progress feels slow, far slower than it looks on paper. Every movement demands attention, and fatigue begins to build.\n\nAfter what feels like an endless stretch of rock, the terrain eases briefly as we cross a wide glacial basin. The ground here is harsh but manageable, giving you just enough relief before the next challenge rises ahead.\n\nTo continue, we must gain a ridge visible in the distance.\n\nThe climb to it is short, but brutal — a steep slope of loose scree and sliding rock that shifts under every step. It’s the kind of section that tests willpower more than strength. Each step forward feels like half a step back. But once you push through and gain the ridge, something changes.\n\nThe walk ahead becomes more defined.\n\nNarrow, yes. Still loose, yes. But finally, a direction you can follow without constant calculation.\n\nAs we move along the ridge, the stark whites and greys begin to soften. Colour slowly returns to the landscape. Snow peaks move into the background. Streams begin to appear — not just heard, but seen. The mountains feel a little less hostile, a little more alive.\n\nGradually, the trail descends toward greener ground. Patches of grass emerge. Small flowers begin to appear, breaking through the cold earth. It feels like stepping back into a world that supports life again.\n\nBy early evening, we reach Bonga — a campsite that feels almost comforting after the harshness of the day. A stream flows nearby, the ground is softer, and the valley opens out around us. But the cold remains, a reminder of where we’ve just come from.\n\nToday is not just another day on the trek.\n\nIt is the crossing.\n\nThe moment where you leave one world behind and step into another — carrying with you the quiet satisfaction of having stood on one of the rawest, most demanding mountain passes in the Himalayas."
+    },
+    {
+    day: 8,
+    title: "Bonga (14,800 ft) to Chitkul (10,800 ft) | ~14 km | 8–10 hrs",
+    details: "The body feels it today.\n\nAfter yesterday’s crossing, the fatigue sits deeper — not just in the legs, but somewhere quieter. And yet, the journey isn’t done. What lies ahead is long, demanding, and in many ways, just as testing.\n\nWe begin after a slightly relaxed morning, stepping out of Bonga around 9 AM. The air feels calmer here, but the terrain quickly reminds you that the mountains are not done with you yet.\n\nThe first section of the trail is relentless — a series of steep ascents and descents across massive boulders spread along an exposed mountainside. There is no clear trail to follow. You move by instinct, choosing your steps carefully, navigating through gaps, balancing over unstable rock while the valley drops sharply below. It demands constant focus. One careless step here is not an option.\n\nWater is scarce in this stretch, and the dryness adds to the effort. For nearly two to three hours, it’s just you, the rock, and the silence of the mountains. Progress feels slow, measured not in distance but in effort.\n\nAnd then, almost quietly, the mountains begin to soften.\n\nThe endless boulder field gives way to patches of firmer ground. Small signs of life begin to appear — first in the form of scattered shrubs, then slowly, more defined vegetation. The harsh greys start blending into muted greens.\n\nAnother hour or so, and the transformation becomes complete.\n\nThe tree line appears.\n\nAnd with it, a feeling that’s hard to describe.\n\nYou step into forests of Bhojpatra — their pale bark and golden leaves catching the light, rustling gently in the wind. After days spent in stark, high-altitude wilderness, this feels almost surreal. The sound of dry leaves under your feet, the subtle warmth in the air, the presence of trees all around — it feels like returning to a forgotten world.\n\nThe trail now flows more naturally, winding through these forests before opening up into rolling grasslands. The terrain undulates gently, small humps rising and falling, but compared to what you’ve crossed, it feels almost effortless. Streams begin to appear more frequently, and the valley feels alive again.\n\nGradually, the descent leads us toward the riverbed. There’s one final stretch of rocky terrain — a last reminder of the mountains we’ve just left behind — before the landscape eases out completely.\n\nBy late afternoon, we reach a small wooden bridge.\n\nCrossing it feels symbolic.\n\nOn one side lies the raw, untamed world of Borasu — silent, harsh, and unforgettable. On the other, a defined path, smoother ground, and the slow return to civilisation.\n\nFrom here, the trail merges into a proper track leading toward Chitkul — the last inhabited village near the Indo-Tibetan border. The mountains still stand tall around you, but something has changed. The intensity has softened. The journey is coming to a close.\n\nBy the time we reach Chitkul, the contrast is striking — wooden houses, fields, and the quiet rhythm of village life replacing the isolation of the high mountains. Accommodation awaits, along with warmth, rest, and the first real sense of completion.\n\nBut even as the trek ends, a part of you stays behind.\n\nSomewhere between the silence of Upper Lamjung, the raw exposure of Borasu Pass, and the endless valleys that tested you — a part of you now belongs to the mountains."
+    },
+    {
+      day: 9,
+      title: "Buffer Day",
+      details: "Reserved for weather or acclimatization delays to ensure safe crossing of the pass."
+    }
+  ],
+
+  didYouKnow: [
+  "Borasu Pass was historically used as a trans-Himalayan trade route linking the Har Ki Dun valley (Garhwal) with Baspa valley (Kinnaur), long before modern borders restricted movement.",
+  
+  "The entire approach until Har Ki Dun falls inside Govind Pashu Vihar National Park — a protected ecosystem known for species like Himalayan black bear, musk deer, and monal.",
+  
+  "Beyond Har Ki Dun, the trail enters a rarely traversed glacial basin where route marking is minimal and navigation relies heavily on experience and terrain reading.",
+  
+  "Borasu Pass (~17,880 ft) involves real high-altitude mountaineering elements — including steep snow slopes, potential rope sections, glacier crossings, and crevasse-prone zones.",
+  
+  "The climb to the pass is often safer in early morning hours due to firmer snow conditions, reducing risk of slips, rockfall, and snow instability.",
+  
+  "The crossover marks a dramatic ecological shift — from the lush Tons valley of Uttarakhand to the drier, more rugged Baspa valley of Himachal Pradesh.",
+  
+  "Upper Lamjung, the basecamp for the pass, is located in an active rockfall zone, which is why campsite selection and timing are critical for safety.",
+  
+  "The descent from the pass is considered more demanding than the ascent, involving steep snow slopes followed by long stretches of unstable moraine and boulder fields.",
+  
+  "No Inner Line Permit (ILP) is typically required for this trek, but forest permits from Uttarakhand and local permissions are mandatory and managed by the organising team.",
+  
+  "Chitkul, the trek’s endpoint, lies close to the Indo-Tibet border and remains one of the last motorable inhabited villages in India."
+  ],
+
+  howToReach: {
+      air: "<br>• Nearest Airport: Jolly Grant Airport, Dehradun (DED)<br>• Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.<br>• From the airport, you can hire a taxi to Dehradun ISBT or directly to Sankri.",
+      train: "<br>• Nearest Railway Station: Dehradun Railway Station<br>• Well connected with major cities like Delhi, Haridwar, Rishikesh, and Lucknow.",
+      road: "Dehradun to Sankri (190 km | 8–9 hours)",
+      travelTip: "<br>• Private Cab: Can be booked in advance. Costlier but comfortable.<br>• Local Bus: From Dehradun ISBT to Sankri via Purola (limited availability, leaves early morning)."
+  },
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535105/harkidun-view1_mvk7ru.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535102/harkidun-view2_bmvyqy.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535099/harkidun-view3_cuqmu9.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535098/harkidun-view4_o8psfe.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535092/harkidun-view6_tsp4ab.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535088/harkidun-view5_njkqaz.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535084/harkidun-hero_hirxbl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905974/borasu-pass1_hzb0n7.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905938/borasu-pass4_cwhfce.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905975/borasu-pass2_o3vkm5.jpg"
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Who can join the Borasu Pass Trek?",
+      answer:
+        "Borasu Pass is strictly meant for experienced trekkers. You should have completed at least one or two high-altitude treks (14,000 ft+) before attempting this. This trek involves long days, steep ascents, glacier travel, and exposure to harsh weather conditions. Beginners are not recommended unless they are exceptionally fit and well-prepared."
+    },
+    {
+      question: "How difficult is the Borasu Pass Trek?",
+      answer:
+        "This is a difficult to expedition-grade trek. It includes high altitude (17,880 ft), long trekking days (8–10 hours), glacier crossings, moraine, boulder sections, and steep snow slopes. The pass day itself is physically and mentally demanding and requires endurance, balance, and acclimatization."
+    },
+    {
+      question: "What kind of terrain should I expect?",
+      answer:
+        "The trek offers extreme terrain variation — starting from forest trails and river valleys, moving into alpine meadows, and then transitioning into rocky moraine, glacier sections, and steep snow slopes near the pass. The descent includes loose scree, glacier streams, and exposed ridgelines."
+    },
+    {
+      question: "Is the Borasu Pass Trek technical?",
+      answer:
+        "Yes, it involves moderate technical elements. The pass crossing may require use of microspikes/crampons, gaiters, and sometimes rope support depending on snow conditions. Knowledge of basic trekking techniques like walking on snow, maintaining balance on loose rocks, and controlled descent is important."
+    },
+    {
+      question: "What are the main risks involved in this trek?",
+      answer:
+        "The key risks include Acute Mountain Sickness (AMS), sudden weather changes, snowstorms, slips on snow slopes, and fatigue due to long trekking hours. Remote terrain also means limited evacuation options, which is why proper planning and experienced leadership are critical."
+    },
+    {
+      question: "What is AMS and how serious is it on this trek?",
+      answer:
+        "Acute Mountain Sickness (AMS) occurs due to rapid gain in altitude and reduced oxygen levels. Since Borasu reaches nearly 18,000 ft, AMS risk is high if not managed properly. Symptoms include headache, nausea, dizziness, fatigue, and loss of appetite. Severe cases can lead to HAPE/HACE, which are life-threatening."
+    },
+    {
+      question: "How does Planethimalayas manage AMS risk?",
+      answer:
+        "We follow a strict acclimatization schedule with gradual altitude gain, include buffer days, monitor oxygen saturation levels regularly, and ensure hydration and nutrition. Our leaders are trained to identify early AMS symptoms and take immediate action, including descent if required."
+    },
+    {
+      question: "What precautions should trekkers take to avoid AMS?",
+      answer:
+        "Trekkers should maintain a steady pace, stay hydrated (3–4 litres daily), avoid alcohol/smoking, eat properly, and never ignore symptoms like headache or nausea. Proper acclimatization and listening to your trek leader are crucial."
+    },
+    {
+      question: "What kind of weather should I expect?",
+      answer:
+        "Weather varies drastically. Lower camps (Sankri to Har Ki Dun) are pleasant (10–15°C daytime), while higher camps drop to -5°C to -10°C at night. At the pass, temperatures can fall further with strong winds. Sudden snowfall is common even in summer."
+    },
+    {
+      question: "Is travel insurance mandatory for this trek?",
+      answer:
+        "Yes, travel insurance is mandatory. This trek involves remote high-altitude terrain where evacuation (if required) can be expensive and logistically complex. Insurance ensures financial protection in case of medical emergencies, evacuation, or trip disruptions."
+    },
+    {
+      question: "What documents are required for the trek?",
+      answer:
+        "You must carry a valid government-issued ID (Aadhar/Passport), a medical fitness certificate, and a signed liability waiver form. These are mandatory for permits and safety compliance."
+    },
+    {
+      question: "Do I need any permits or Inner Line Permit (ILP)?",
+      answer:
+        "No ILP is required for this trek. However, forest permits are mandatory as the trek passes through Govind Pashu Vihar National Park. These permits are arranged by the organizing team."
+    },
+    {
+      question: "How physically fit do I need to be?",
+      answer:
+        "You should be able to run 5 km in 30–35 minutes comfortably and carry a backpack for long durations. Good cardiovascular endurance, leg strength, and stamina are essential. Preparation should begin at least 6–8 weeks before the trek."
+    },
+    {
+      question: "What kind of preparation is required?",
+      answer:
+        "Focus on cardio (running, cycling), strength training (legs and core), and endurance (long walks with backpack). Stair climbing and hiking practice significantly help. Mental preparedness is equally important due to long and demanding days."
+    },
+    {
+      question: "Is prior high-altitude experience necessary?",
+      answer:
+        "Yes, strongly recommended. Trekkers without prior experience above 12,000–14,000 ft may struggle with acclimatization and terrain challenges."
+    },
+    {
+      question: "Will there be mobile network or internet?",
+      answer:
+        "Network is available till Sankri (limited). Beyond that, there is no reliable connectivity. This is a remote expedition with complete digital disconnection."
+    },
+    {
+      question: "What kind of food and water is provided?",
+      answer:
+        "Nutritious vegetarian meals are provided throughout the trek. Meals are designed to support high-energy output. Safe drinking water is provided at camps and refilled during the trek."
+    },
+    {
+      question: "What safety measures are taken by Planethimalayas?",
+      answer:
+        "We operate with certified trek leaders, trained support staff, medical kits, oxygen cylinders, and planned evacuation protocols. Campsites are chosen carefully, and group size is controlled to ensure safety and personal attention."
+    },
+    {
+      question: "What should I pack for the trek?",
+      answer:
+        "You need proper trekking gear including layered clothing, down jacket, waterproof jacket, trekking shoes, gloves, cap, sunglasses, and personal medical kit. A detailed packing list is provided after booking."
+    },
+    {
+      question: "Is offloading available?",
+      answer:
+        "Yes, offloading is available at additional cost. However, trekkers are encouraged to carry their own essential daypack for better mobility and safety."
+    },
+    {
+      question: "What happens in case of bad weather or delays?",
+      answer:
+        "A buffer day is included in the itinerary to handle weather delays. If conditions become unsafe, the trek leader may modify or cancel the pass attempt prioritizing safety."
+    },
+    {
+      question: "What makes Borasu Pass different from other treks?",
+      answer:
+        "Unlike regular treks, Borasu is a true crossover expedition connecting two distinct Himalayan regions. It offers a complete transition — forests, valleys, glaciers, and high-altitude pass crossing — making it one of the most raw and less-commercialized experiences in India."
+    },
+    {
+      question: "Can beginners attempt this trek with training?",
+      answer:
+        "Even with training, beginners are not advised unless they have prior trekking exposure. The risk level, terrain, and altitude make it unsuitable as a first high-altitude experience."
+    },
+    {
+      question: "What is the role of the trek leader during the expedition?",
+      answer:
+        "The trek leader is responsible for navigation, safety decisions, pace management, health monitoring, and emergency handling. Their instructions must be followed at all times for a safe and successful trek."
+    }
+  ],
+  },
+  faqsLink: "/pages/faqs-and-articles",
+},
+
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
