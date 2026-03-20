@@ -555,7 +555,7 @@ const { gallery, name } = trek;
       <li><a href="#itinerary">Itinerary</a></li>
       <li><a href="#packing-list">Packing List</a></li>
       <li><a href="#did-you-know">Did You Know?</a></li>
-      <li><a href="#map">Map</a></li>
+      <li><a href="#map">Route Map</a></li>
       <li><a href="#how-to-reach">How to Reach</a></li> 
       <li><a href="#gallery">Gallery</a></li>     
       <li><a href="#faqs">TrekFAQs</a></li>
@@ -616,10 +616,17 @@ const { gallery, name } = trek;
   </section>
 
   <!-- Trek Map Section -->
-  <section id="map"> 
-    <h2 class="section-heading">Map</h2>
-    <TrekMap client:only="react" coordinates={trek.coordinates} />
-  </section>
+<section id="map">
+  <h2 class="section-heading">Route Map</h2>
+
+  <TrekMap
+    client:only="react"
+    trekName={trek.name}
+    coordinates={trek.coordinates}
+    waypoints={trek.waypoints}
+  />
+
+</section>
 
   <!-- How to reach -->
   <section id="how-to-reach">

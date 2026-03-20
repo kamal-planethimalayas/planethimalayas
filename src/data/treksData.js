@@ -6281,7 +6281,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover"],
+  tags: ["pro", "lake", "glacier", "moraine", "pass", "crossover"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -6507,7 +6507,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 {
   id: "borasu-pass-trek",
   name: "Borasu Pass Trek",
-  tags: ["lake", "glacier", "pass", "crossover", "moraine"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september"],
@@ -6533,7 +6533,19 @@ The following day is reserved for departure. Guests may check out of the guestho
 
   [31.3228, 78.4036], // Forest exit / bridge point
   [31.3519, 78.4365], // Chitkul (end)
-  ],
+],
+
+waypoints: [
+  { name: "Sankri (Start)", coords: [31.0169, 78.2755], type: "start" },
+  { name: "Seema Village", coords: [31.1285, 78.3502], type: "village" },
+  { name: "Har Ki Dun Valley", coords: [31.1654, 78.3729], type: "valley" },
+  { name: "Morinda Tal", coords: [31.1889, 78.4105], type: "lake" },
+  { name: "Saunbhera Campsite", coords: [31.2057, 78.4528], type: "camp" },
+  { name: "Borasu Base Camp", coords: [31.2284, 78.4821], type: "camp" },
+  { name: "Borasu Pass (5,450 m)", coords: [31.2459, 78.5037], type: "pass" },
+  { name: "Rani Kanda Campsite", coords: [31.2924, 78.5552], type: "camp" },
+  { name: "Chitkul (End)", coords: [31.3519, 78.4365], type: "end" },
+],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg",
 
@@ -6830,6 +6842,365 @@ The following day is reserved for departure. Guests may check out of the guestho
     }
   ],
   },
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
+  id: "mayali-pass-trek",
+  name: "Mayali Pass Trek",
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september"],
+  region: ["uttarakhand-garhwal"],
+  duration: "9 Nights / 10 Days",
+  coordinates: [
+  [30.6508, 78.6432], // Gangi (start - Bhilangana valley)
+
+  [30.6729, 78.6625], // Kalyani / Kharsoli meadow
+  [30.6947, 78.6863], // Tambakund region (upper valley basin)
+  [30.7158, 78.7059], // Chowki campsite (Doodh Ganga valley)
+
+  [30.7364, 78.7312], // Masar Tal
+  [30.7589, 78.7556], // Masar Top / glacier approach
+
+  [30.7798, 78.7813], // Mayali Pass (~5300m)
+
+  [30.8012, 78.8035], // Glacier descent (Mandakini side)
+  [30.8226, 78.8241], // Upper basin before Vasuki Tal
+
+  [30.8397, 78.8458], // Vasuki Tal
+  [30.8469, 78.8583], // Kedarnath
+
+  [30.8796, 78.8387], // Rambara (en route descent)
+  [30.9081, 78.8112], // Gaurikund (end)
+],
+
+waypoints: [
+  { name: "Gangi (Start)", coords: [30.6508, 78.6432], type: "start" },
+
+  { name: "Kalyani Meadow", coords: [30.6729, 78.6625], type: "camp" },
+
+  { name: "Chowki Campsite", coords: [30.7158, 78.7059], type: "camp" },
+
+  { name: "Masar Tal", coords: [30.7364, 78.7312], type: "lake" },
+
+  { name: "Mayali Pass (~5300m)", coords: [30.7798, 78.7813], type: "pass" },
+
+  { name: "Vasuki Tal", coords: [30.8397, 78.8458], type: "lake" },
+
+  { name: "Kedarnath", coords: [30.8469, 78.8583], type: "camp" },
+
+  { name: "Gaurikund (End)", coords: [30.9081, 78.8112], type: "end" },
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/mayali-pass_z6rs1i.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/mayali-pass_z6rs1i.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007886/peaks_zetbho.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008039/vasukital_tdltwl.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007794/Kedarnath_odudsn.jpg"
+  ],
+
+  subtitle: "An Ordeal of Grit and Endurance Across the Sacred Himalayan Lakes",
+
+  seo: {
+  title: "Mayali Pass Trek | Complete Itinerary & Route | Planethimalayas",
+  description:
+    "Mayali Pass Trek (17,400 ft approx) is a demanding high-altitude crossover connecting the remote Bhilangana valley to Kedarnath in the Mandakini valley. This expedition takes you through dense forests, high-altitude lakes like Masar Tal and Vasuki Tal, glacier terrain, and a dramatic Himalayan pass, offering a raw and less-explored trekking experience in the Garhwal Himalayas.",
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,400 ft (Mayali Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September" },
+      { emoji: "🗺️", label: "Region", value: "Crossover from Bhilangana Valley to Mandikini Valley, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Gangi" },
+      { emoji: "🏁", label: "End Point", value: "Gourikund" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Mayali Pass Trek begins deep in the Bhilangana valley, far beyond where most mountain roads end. The drive to Gangi itself sets the tone — The drive from the plains winds upward along the Bhilangana valley, passing the vast expanse of Tehri Dam, where the scale of human engineering slowly gives way to the dominance of the Himalayas. Beyond this, the road narrows, the valleys deepen, and settlements grow quieter until you arrive at Gangi — a remote village where the road ends and the mountains take over.
+
+<br>Life here moves with a quiet rhythm. Stone houses, terraced fields, and the constant presence of the Bhilangana river define the landscape. The trail begins gently, but the wilderness ahead is unmistakable. As you move beyond Gangi and Guttu, the path enters dense forests — raw, untouched, and known to be home to Himalayan wildlife. Campsites like Kharsoli and Tambakund emerge as small clearings in this vastness, surrounded by towering trees and the distant sound of flowing water. The trail here is far from straightforward, often broken by stream crossings, loose sections, and landslide-prone stretches that demand attention at every step.
+
+<br>As the trek progresses, the route toward Chowki introduces one of its first true tests — crossing the Bhilangana river. At times, a makeshift shepherd bridge offers passage, though its reliability is never certain. When conditions do not permit, the trail pushes further ahead to safer crossing points, adding both distance and challenge. Upon reaching Chowki, the landscape opens dramatically. The Bhilangana valley stretches out in sweeping layers, framed by towering ridgelines and distant peaks, offering a rare moment of perspective before the intensity ahead.
+
+<br>Beyond Chowki, the character of the trek shifts completely. The climb toward Masar Tal is steep and relentless, cutting through rugged terrain where each step demands effort. Masar Tal itself appears like a hidden world — a high-altitude glacial lake set against a stark, silent backdrop. From here, the ascent to Masar Top grows sharper, leading into an exposed alpine environment where the trail fades into moraine and snowfields. Crossing near Paiyan Tal, the route traverses vast glacial expanses, where direction is guided more by experience than by any visible path.
+
+<br>This entire stretch — from Masar Tal to Mayali Pass and further down to Vasuki Tal — forms the core of the trek. It is long, demanding, and constantly changing. The terrain never stays the same: snow, ice, loose rock, and hidden crevasses shape the journey. The intensity here is dictated entirely by conditions — weather, snow cover, and timing — often requiring patience, adaptability, and sometimes even an additional buffer day.
+
+<br>The final approach to Mayali Pass is a steady, exhausting climb over glacial terrain. At the top, the world opens in every direction — a vast, silent expanse of peaks and ridgelines stretching across the Garhwal Himalayas. The descent, however, is immediate and unforgiving, dropping sharply over snow and moraine toward the Mandakini valley. As you lose altitude, the stark landscape gradually softens, leading to the sacred waters of Vasuki Tal, where the peaks of the Kedarnath range begin to dominate the horizon.
+
+<br>From Vasuki Top, the first clear views into the Kedarnath valley emerge — a striking contrast after days spent in isolation. The sight of Kedarnath, along with the distant movement of pilgrims, feels almost surreal. After enduring the silence and intensity of the high mountains, the return to human presence carries a different kind of weight — one of reflection, completion, and quiet gratitude.
+
+<br>The final descent follows the well-defined pilgrim trail from Kedarnath to Gaurikund. What was once a remote and uncertain journey gradually merges into a path walked by thousands, bringing the expedition to a close.
+
+<br>With Planethimalayas, the Mayali Pass Trek is approached as a true Himalayan expedition — one that demands resilience, awareness, and respect for the mountains. It is not just about crossing a pass, but about experiencing the full depth of the Himalayas in their most raw and unpredictable form — a journey that stays with you long after it ends.`
+},
+
+  price: 54900,
+  priceNote: "* Gangi to Sonprayag ",
+
+  addons: {
+    transport: 6000,
+    offloadingbag: 7200,
+    transportNote: "* Rishikesh to Gangi & Gourikund to Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 8",
+
+  highlights: [
+  "A remote high-altitude crossover connecting the Bhilangana valley to the Mandakini (Kedarnath) valley",
+
+  "Journey through dense, bear-inhabited Himalayan forests with raw and untouched wilderness",
+
+  "Isolated campsites like Kharsoli, Tambakund, and the vast open expanse of Chowki",
+
+  "Frequent river crossings, landslide zones, and constantly shifting trail conditions",
+
+  "Sacred high-altitude lakes including Masar Tal, Paiyan Tal, and Vasuki Tal",
+
+  "Steep and demanding ascent to Mayali Pass (~5,300 m) across moraine, snow, and glacial terrain",
+
+  "Unpredictable weather and long, committing stretches requiring endurance and adaptability",
+
+  "Panoramic views of Gangotri region peaks like Thalaysagar, Jogin, and Meru from the Bhilangana valley",
+
+  "Stunning perspectives of Kedarnath region peaks like Nanda Devi, Kedarnath, Chaukhamba, Kedar Dome, and Karchakund on descent into the Mandakini valley",
+
+  "A rare transition from deep wilderness to the sacred landscape of Kedarnath",
+
+  "Trek concludes at the iconic Kedarnath Temple after days of remote high-altitude isolation"
+],
+
+  itinerary: [
+    {
+  "day": 1,
+  "title": "Rishikesh to Gangi (8,200 ft) | Drive distance: ~210 km | Duration: 9–10 hours.",
+  "details": "The journey begins early from Rishikesh, gradually leaving behind the crowded plains as the road climbs steadily into the Garhwal Himalayas. The drive follows the Bhagirathi valley for a while before branching toward Tehri, where the vast expanse of the Tehri Dam reservoir dominates the landscape. The scale here feels immense — still waters stretching deep into the mountains, surrounded by steep ridgelines.\n\nBeyond Tehri, the road narrows and the terrain begins to feel more rugged and remote. The route winds through small mountain settlements and dense forest sections, with the valley growing quieter with every passing kilometer. As you move deeper, the presence of the Bhilangana valley becomes more pronounced — narrower, steeper, and far less inhabited.\n\nA key halt along the way is Ghuttu (5177 ft), a well-known village among trekkers and one of the last significant settlements in this region. It has long served as a gateway to the Khatling Glacier and nearby high-altitude routes, carrying a quiet familiarity for those who have explored this side of the Himalayas.\n\nFrom Ghuttu, the road continues further into isolation, eventually reaching Gangi — now accessible by road, yet still retaining its raw, untouched character. Surrounded by steep forested slopes and the constant flow of the Bhilangana river below, Gangi feels like the true beginning of the expedition. As evening sets in, the stillness of the valley takes over, marking the transition from journey to trek."
+},
+    {
+  "day": 2,
+  "title": "Gangi (9,000 ft) to Kalyani (9,500 ft) | ~7 km | 5–6 hrs",
+  "details": "The trek begins straight out of Gangi, quickly entering a dense forest of pine and rhododendron that sets the tone for the journey ahead. The trail feels raw and undisturbed, with sections that are narrow, uneven, and constantly shifting underfoot. The Bhilangana river remains close by, its force unmistakable — loud, restless, and always present somewhere below the trail.\n\nWithin a couple of hours, you pass Dhakuli — a small settlement that appears almost abandoned. The silence here feels unusual, as if the village has been left behind by time. Beyond this point, the wilderness deepens. The forest thickens, the trail becomes more rugged, and the sense of isolation begins to settle in.\n\nFor most of the day, you continue along the Bhilangana valley, walking parallel to the river, occasionally descending toward it before climbing back up along the slopes. The terrain is not overly steep, but it demands steady movement and attention, especially with loose sections and broken patches along the way.\n\nThe final stretch to Kalyani is a steady climb, gaining height through dense forest before the landscape suddenly opens out. Kalyani appears as a wide, open meadow — a surprising contrast after hours of enclosed forest. Surrounded by towering ridgelines and backed by thick woodland, the campsite feels both exposed and protected at the same time.\n\nIt’s here that the rhythm of the trek begins to take shape — long days, changing terrain, and the constant presence of the river guiding your way deeper into the mountains."
+},
+    {
+  "day": 3,
+  "title": "Kalyani (9,500 ft) to Kharsoli (9,700 ft) | ~8 km | 6 hrs",
+  "details": "The trail continues deeper into the Bhilangana valley, maintaining a steady rhythm through a mix of dense forest and sudden meadow openings. The landscape feels more alive here — multiple small tributaries cut across the trail, feeding into the Bhilangana river below. Each crossing adds a pause, a moment to assess footing, as the terrain remains constantly shifting.\n\nThe valley begins to reveal its scale today. As the forest briefly opens up, you get your first distant views of towering peaks like Thalaysagar and Meru rising sharply in the distance — stark, dramatic, and unmistakably high Himalayan. These glimpses come and go, often hidden behind ridgelines and clouds, but they mark a clear transition into more serious terrain.\n\nThe trail itself is not always forgiving. Sections along the Bhilangana river pass through landslide-prone zones where the path narrows and the ground feels unstable. These stretches demand careful movement and awareness, especially in loose or freshly eroded sections.\n\nBetween these exposed patches, the forest returns — quieter, denser, and occasionally giving way to small meadows that offer brief relief. The contrast between enclosed forest and open valley keeps the day visually engaging, never allowing the terrain to feel repetitive.\n\nBy late afternoon, you arrive at Kharsoli — a peaceful campsite set amidst a mix of forest and open ground. With the sound of distant water and the first real presence of high peaks around you, the campsite feels like a transition point — where the valley begins to shift from forested comfort toward the harsher terrain that lies ahead."
+},
+    {
+  "day": 4,
+  "title": "Kharsoli (9,700 ft) to Tambakund (11,200 ft) | ~8 km | 6 hrs",
+  "details": "The trail continues along the Bhilangana valley, but the character of the terrain begins to change from today. The initial stretch feels familiar — moving through a mix of forest sections and open clearings, with the river still guiding your direction somewhere below. The valley remains beautiful, but there is a noticeable shift in effort.\n\nGradually, the climb begins.\n\nWhat starts as a steady ascent soon turns steeper, pulling you higher above the valley floor. The trail narrows in sections, cutting across slopes that demand more careful footing. The forest begins to thin out intermittently, opening into wider views of the valley you’ve been walking through over the past few days.\n\nThe sound of the river fades slightly as you gain altitude, replaced by a quieter, more exposed atmosphere. The terrain feels more committing now — longer stretches without easy relief, and a steady gain in height that begins to make its presence felt.\n\nAs you approach Tambakund, the landscape opens into a high-altitude basin surrounded by rising ridgelines. The campsite sits in a vast, open setting — quieter, more exposed, and clearly deeper into the mountains than anything before.\n\nBy now, the transition is evident. The dense forests are slowly giving way, the climbs are becoming more sustained, and the trek is steadily moving toward harsher, more alpine terrain."
+},
+    {
+  "day": 5,
+  "title": "Tambakund (11,200 ft) to Chowki (13,051 ft) | ~5 km | 3–5 hrs",
+  "details": "Though shorter in distance, today is one of the most crucial transitions of the trek. The day begins by continuing along the upper Bhilangana valley, but very soon, the route demands a river crossing — a defining moment of the day.\n\nDepending on conditions, this can be done via a temporary shepherd’s wooden bridge, if available and stable. At times, this bridge may not be usable, in which case the route involves moving further ahead toward Zero Point to find a safer crossing, before traversing back toward Chowki. The river here is powerful, fed directly by glacial melt, and demands complete caution.\n\nOnce across, the climb begins immediately.\n\nA steep ascent pulls you sharply above the valley floor, gaining altitude quickly and cutting across rugged slopes. The effort is short but intense — the kind that makes you stop, breathe, and look back more often than usual. As you gain height, the valley you’ve been walking through begins to reveal itself in full scale.\n\nAnd then, almost suddenly, the terrain opens.\n\nChowki.\n\nA vast meadow set deep within wild Himalayan terrain, surrounded by towering peaks on all sides. The Bhilangana river continues to flow far below, now seen in its entirety as it emerges from the visible snout of the Khatling Glacier — a raw, glacial landscape that dominates the horizon ahead.\n\nFrom here, the mountains begin to show their true scale. Peaks like Thalaysagar, Jogin, and others rise sharply beyond the basin, often partially hidden behind shifting clouds. Turn around, and the entire valley you’ve ascended stretches endlessly behind you — layered, deep, and almost unreal in its scale.\n\nChowki is not just a campsite — it is a viewpoint in itself. As evening approaches, the meadow transforms under changing light. The landscape takes on shades of yellow, green, and brown, while the surrounding peaks glow under crimson sunset hues. Sunrise here feels just as surreal, with first light slowly revealing the vastness around you.\n\nBut this is also where the mountains begin to change their mood.\n\nFrom Chowki onward, weather becomes highly unpredictable. Clear skies can turn within minutes, winds can rise without warning, and conditions can shift rapidly. It is a place that demands awareness — where every step forward must be balanced with caution, and every moment of beauty observed with respect for the terrain.\n\nThe comfort of the lower valleys is now far behind. What lies ahead is far more exposed, far more demanding, and entirely at the mercy of the mountains."
+},
+    {
+  "day": 6,
+  "title": "Chowki (13,051 ft) to Masar Tal (13,500 ft) | ~8 km | 5–6 hrs",
+  "details": "From today onward, the trek steps fully into its most demanding phase.\n\nThe climb begins right out of Chowki — steep, continuous, and unrelenting. There is no gradual build-up anymore. The trail gains altitude quickly, cutting across exposed slopes and broken terrain where footing needs to be deliberate and steady.\n\nThe valley behind slowly drops away, and the route ahead feels more rugged with every step. Vegetation thins rapidly, giving way to a harsher alpine landscape where rock, loose soil, and scattered snow patches begin to dominate.\n\nAs you gain height, the weather becomes a decisive factor.\n\nClouds can roll in without warning, reducing visibility to dangerous levels. In such conditions, the trail can easily disappear into the terrain, making navigation difficult. This is a day where staying together is not optional — it is essential. Movement becomes slower, more cautious, and fully dependent on group coordination.\n\nThe climb demands both physical and mental focus. There are no easy sections to recover — only a steady push upward through terrain that feels increasingly isolated and exposed.\n\nBy the time you reach Masar Tal, the landscape has completely transformed.\n\nThe lake sits quietly amidst this rugged terrain — cold, still, and surrounded by rising slopes and distant ridgelines. There is a starkness to this place, a silence that feels deeper than anything encountered so far.\n\nThis is not just another campsite.\n\nIt marks the beginning of the true high-altitude traverse — where conditions, terrain, and effort all come together to define the journey ahead."
+},
+    {
+  "day": 7,
+  "title": "Masar Tal (13,500 ft) to Vasuki Tal (13,570 ft) via Mayali Pass (~17,390 ft) | ~10 km | 10–12 hrs",
+  "details": "This is the longest and most demanding day of the entire trek — the crossing of Mayali Pass.\n\nThe day begins early, often before sunrise, with a steady climb toward Masar Top. The ascent is steep right from the start, moving across loose rock, snow patches, and broken moraine. As you gain height, the landscape becomes completely barren — stripped down to rock, ice, and sky.\n\nBeyond Masar Top, the terrain opens into a high glacial basin where Paiyan Tal appears — a silent, high-altitude lake set amidst cold, rugged surroundings. It feels momentary, almost unreal, before the route pushes further into harsher terrain.\n\nWhat follows is a long, continuous stretch across the Mayali icefield.\n\nFor nearly 2 kilometers, the route climbs gradually but relentlessly over snow and glacial terrain. The surface conditions vary — from hard-packed snow to softer sections that demand careful footing. The altitude begins to weigh heavily, slowing movement and stretching effort over time.\n\nThe final push to the pass is steady and exposed.\n\nAt around 17,390 ft, Mayali Pass stands as a high, wind-swept crossing — raw, silent, and completely at the mercy of weather. Views, if clear, stretch across both sides — the glaciated expanse of the Bhilangana side behind you, and the rugged drop into the Kedarnath valley ahead.\n\nBut there is no pause for long.\n\nThe descent begins immediately — and it is unforgiving.\n\nA steep, treacherous drop pulls you sharply down from the pass, often across snow slopes and loose rock. Depending on conditions, this section may require technical assistance, including ropes, as footing can be unstable and exposed. Each step demands focus, patience, and control.\n\nThe descent continues for 3–4 km, gradually easing as altitude is lost and the terrain begins to open toward the Mandakini basin.\n\nBy the time you reach Vasuki Tal, the contrast feels immense.\n\nSet beneath towering peaks of the Kedarnath region, the lake rests in a vast high-altitude basin — calmer, yet still deeply connected to the raw terrain you’ve just crossed. After a long and committing day, the campsite feels earned.\n\nThis is not just another day of trekking.\n\nIt is the crossing — where the Bhilangana valley is left behind, and the journey enters the sacred terrain of Kedarnath."
+},
+    {
+  "day": 8,
+  "title": "Vasuki Tal (13,570 ft) to Kedarnath (11,755 ft) via Vasuki Top | ~8 km | 5–6 hrs",
+  "details": "After the intensity of the pass, today offers a different kind of movement — still high in the mountains, but with a gradual transition toward a more defined trail.\n\nThe day begins with a short ascent from Vasuki Tal, climbing over a series of humps toward Vasuki Top. The terrain remains rugged, with a mix of rocky ground and open stretches, but the gradient is more forgiving compared to the previous day.\n\nAs you gain this final height, the landscape opens dramatically.\n\nFrom Vasuki Top, the first clear views of the Kedarnath valley appear — a vast, glacially carved basin surrounded by towering peaks of the region. The contrast is immediate. After days of isolation in the Bhilangana valley and the harsh crossing of Mayali Pass, the sight of this broader, more open valley feels almost surreal.\n\nThe descent begins gradually, moving across high-altitude terrain that slowly transitions into a more defined path. As you lose altitude, signs of human movement begin to reappear — faint trails, distant structures, and eventually, the unmistakable presence of pilgrims.\n\nThe final approach to Kedarnath brings a unique shift in atmosphere.\n\nAfter days spent in complete wilderness, the sudden presence of people, movement, and sound feels striking. The Kedarnath Temple, standing at 11,755 ft against the dramatic Himalayan backdrop, marks not just the end of a trail, but a powerful transition — from isolation to devotion.\n\nReaching here after crossing one of the most remote high-altitude passes in the region carries a different weight altogether. The journey does not just end — it settles."
+},
+    {
+  "day": 9,
+  "title": "Kedarnath (11,755 ft) to Sonprayag (6,000 ft) via Gaurikund | Trek: ~22 km | Drive: ~5 km | 8–10 hrs",
+  "details": "The final day begins with a long descent along the well-defined Kedarnath pilgrimage trail. The path is clearly marked and steadily descends alongside the Mandakini river, passing through key points like Rambara — a place that still carries the memory of the 2013 floods.\n\nCompared to the previous days, the trail feels structured and active, with a constant flow of pilgrims moving in both directions. Stone-paved sections, railings, and rest points make the descent more straightforward, though the distance ensures that it remains physically demanding on the knees.\n\nAs you continue descending, the air grows warmer and thicker, and the high mountain silence gradually gives way to the sounds of human movement, conversations, and the river flowing stronger with every kilometer.\n\nBy the time you reach Gaurikund, the transition feels complete. Roads, vehicles, and the presence of the outside world return after days of complete isolation in the high Himalayas.\n\nA short drive from Gaurikund brings you to Sonprayag (6,000 ft), marking the true end of the journey. From raw glacial terrain and silent high-altitude crossings to a structured pilgrimage route, the trek comes full circle — leaving behind a journey that feels far greater than the distance covered."
+},
+{
+  "day": 10,
+  "title": "Buffer Day",
+  "details": "This day is reserved to account for any delays during the trek, especially around the Mayali Pass crossing. Weather in this region is highly unpredictable, and conditions such as heavy snowfall, low visibility, or unsafe terrain can impact movement and timing.\n\nThe buffer ensures flexibility in the itinerary, allowing the team to wait for safer conditions if required, without compromising the overall plan. It also acts as a safety margin in case of slower progress across technical sections or extended halts due to river crossings or route conditions.\n\nIf not utilized during the trek, this day remains a rest and recovery window before departure."
+},
+  ],
+
+  didYouKnow: [
+  "The Bhilangana valley, from where the trek begins, remains one of the least explored regions in Garhwal, with Gangi village acting as a rare gateway into this isolated landscape.",
+
+  "The forests between Gangi and Tambakund are rich in Himalayan biodiversity, home to species like Himalayan black bear, musk deer, and monal, with dense oak, pine, and rhododendron cover dominating the lower altitudes.",
+
+  "Khatling Glacier, visible from the Chowki region, is one of the most heavily glaciated and complex glacier systems in the Garhwal Himalayas, known for its unstable terrain and hidden crevasses.",
+
+  "The glacier basin connects to technical high-altitude routes like Auden’s Col, where climbers must navigate crevasse fields, ice walls, and exposed glacier crossings to reach the Gangotri side.",
+
+  "The Mayali Pass (~17,390 ft) itself is a non-technical but highly demanding crossover, where route conditions change every season due to shifting snowfields, moraine movement, and glacial retreat.",
+
+  "Sacred high-altitude lakes like Masar Tal, Paiyan Tal, and Vasuki Tal are not just scenic landmarks but hold deep spiritual significance in local belief systems, often associated with purity and divine presence.",
+
+  "Vasuki Tal, located near Kedarnath, is believed to be the place where Lord Vishnu is said to have bathed, and it remains one of the most sacred high-altitude lakes in the region.",
+
+  "The transition from Bhilangana valley to Kedarnath valley marks a dramatic geological and ecological shift — from dense forested isolation to a more open, glacially carved basin with established pilgrimage routes.",
+
+  "On clear days, the trek offers rare close-range views of some of the most iconic and technically challenging peaks in the Indian Himalayas, including Thalaysagar, Meru, Jogin group, Kedarnath Peak, Kedardome, Kedar Kharak, Trishul, and the Chaukhamba massif.",
+
+  "Thalaysagar and Meru, visible from the Bhilangana side, are among the most sought-after peaks for technical climbers worldwide due to their steep granite faces and complex routes.",
+
+  "Unlike many treks, Mayali Pass does not follow a single well-defined trail — sections of the route require constant terrain reading, especially across moraine, snowfields, and glacial basins.",
+
+  "Weather in this region is heavily influenced by the glacial systems around Khatling, often leading to sudden cloud build-up, whiteouts, and rapid temperature drops even during stable seasons.",
+
+  "Kedarnath, the endpoint of the trek, is one of the twelve Jyotirlingas of Lord Shiva, and its current temple is believed to have been revived by Adi Shankaracharya in the 8th century.",
+
+  "The contrast of reaching Kedarnath after days of complete wilderness is unique — from absolute isolation in high-altitude terrain to one of the most spiritually active sites in the Himalayas within a single journey."
+],
+
+  howToReach: {
+  air: "<br>• Nearest Airport: Jolly Grant Airport, Dehradun (DED)<br>• Well connected with major cities like Delhi, Mumbai, Bangalore, and others.<br>• From the airport, you can hire a taxi to Rishikesh or directly toward Ghuttu/Gangi (limited direct options).",
+
+  train: "<br>• Nearest Railway Station: Rishikesh / Haridwar<br>• Both stations are well connected with Delhi and other major cities.<br>• From here, you can continue your journey by road toward Ghuttu and Gangi.",
+
+  road: "Rishikesh to Gangi (~210 km | 9–10 hours via Tehri – Ghuttu)",
+
+  travelTip: "<br>• Private Cab: The most reliable and comfortable option. Can be booked from Rishikesh/Dehradun for a direct journey to Gangi. Ideal for groups and ensures flexibility in timing.<br>• Shared Vehicles / Public Transport: Available till Ghuttu via local buses or shared jeeps from Rishikesh/Tehri. From Ghuttu to Gangi, transport options are limited and may require hiring a local jeep on the spot.<br>• It is advisable to start early in the morning, as mountain roads are long and conditions can vary."
+},
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008421/gangi_kooisy.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008343/bhilangana-vallru_vh1ggt.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008268/bhilangana-valley1_a4lwzg.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008191/bhilangana-valley_n3kyjt.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008112/vasukital1_sbyyex.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774008039/vasukital_tdltwl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007959/thalay-sagar_hcu1bk.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007886/peaks_zetbho.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007802/paiyatal_fhlkpj.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007798/masar-tal_y31dw2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007797/mayali-pass1_kdewjf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/guttu-village_pxezmq.jpg",
+	    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/mayali-pass_z6rs1i.jpg",
+	    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007794/Kedarnath_odudsn.jpg",
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Who can join the Mayali Pass Trek?",
+      answer:
+        "Mayali Pass is strictly for experienced trekkers. You must have prior high-altitude trekking experience (14,000 ft+) and be comfortable with long, demanding days in remote terrain. This trek is not suitable for beginners due to its unpredictability, terrain complexity, and exposure to harsh conditions."
+    },
+    {
+      question: "How difficult is the Mayali Pass Trek?",
+      answer:
+        "This is a difficult to expedition-grade trek. It involves a high-altitude pass (~17,390 ft), long trekking hours (8–12 hrs on key days), steep ascents, glacial traverses, river crossings, and unstable terrain. The stretch from Chowki to Vasuki Tal is particularly demanding, both physically and mentally."
+    },
+    {
+      question: "What makes Mayali Pass more challenging than other treks?",
+      answer:
+        "Unlike many structured treks, Mayali involves constant terrain variation, minimal defined trail in upper sections, unpredictable weather, and long committing stretches without exit options. The crossing from Masar Tal to Vasuki Tal via the pass includes glacier travel, steep descent, and exposure to rapidly changing conditions."
+    },
+    {
+      question: "What kind of terrain should I expect?",
+      answer:
+        "The trek begins with dense forests and river valleys, transitions into alpine meadows, and then moves into rugged high-altitude terrain including moraine, glacial basins, snowfields, and steep descents. Frequent river crossings and landslide-prone sections add to the complexity."
+    },
+    {
+      question: "Is the Mayali Pass Trek technical?",
+      answer:
+        "It is not a fully technical climb but involves technical sections depending on conditions. The descent from the pass toward Vasuki Tal can be steep and treacherous, sometimes requiring rope support. Basic snow-walking skills, balance on loose terrain, and strong endurance are essential."
+    },
+    {
+      question: "What are the main risks involved in this trek?",
+      answer:
+        "Key risks include AMS (Acute Mountain Sickness), sudden weather changes, whiteouts, river crossing hazards, landslides, and slips on snow or loose moraine. The remoteness of the Bhilangana valley makes evacuation difficult, increasing the importance of preparedness and experienced leadership."
+    },
+    {
+      question: "How unpredictable is the weather on this trek?",
+      answer:
+        "Weather in the Mayali region is highly unpredictable, especially beyond Chowki. Clear skies can turn into complete whiteouts within minutes. Cloud build-up, strong winds, and sudden snowfall are common due to the influence of the Khatling glacier system."
+    },
+    {
+      question: "What is the most difficult section of the trek?",
+      answer:
+        "The stretch from Chowki to Vasuki Tal via Masar Tal and Mayali Pass is the most demanding. It involves steep climbs, glacier traversal, navigation challenges, and a long, exposed descent into the Kedarnath valley. This section defines the difficulty of the trek."
+    },
+    {
+      question: "What kind of flora and fauna can be seen on this trek?",
+      answer:
+        "Lower sections feature dense forests of oak, pine, and rhododendron, rich in biodiversity. Wildlife sightings may include Himalayan black bear, musk deer, and monal. As altitude increases, vegetation reduces drastically, transitioning into alpine and glacial landscapes."
+    },
+    {
+      question: "What are the key lakes on this trek?",
+      answer:
+        "The trek passes through several sacred high-altitude lakes including Masar Tal, Paiyan Tal, and Vasuki Tal. These lakes are not only scenic but hold deep spiritual significance and are rarely visited compared to other Himalayan lakes."
+    },
+    {
+      question: "What kind of mountain views can be expected?",
+      answer:
+        "On clear days, the trek offers spectacular views of iconic peaks like Thalaysagar, Meru, Jogin group, Kedarnath Peak, Kedardome, Kedar Kharak, Trishul, and Chaukhamba massif. These are among the most prominent and technically challenging peaks in the Indian Himalayas."
+    },
+    {
+      question: "What is special about the Bhilangana valley?",
+      answer:
+        "The Bhilangana valley is one of the most remote and least explored regions in Garhwal. It offers raw wilderness, minimal human presence, and a deep sense of isolation, making the initial days of the trek uniquely immersive."
+    },
+    {
+      question: "What is the significance of Kedarnath in this trek?",
+      answer:
+        "Kedarnath, one of the twelve Jyotirlingas of Lord Shiva, marks the spiritual culmination of the trek. Reaching it after days of complete wilderness creates a powerful contrast — from isolation in the high mountains to one of the most sacred pilgrimage sites in India."
+    },
+    {
+      question: "How physically fit do I need to be?",
+      answer:
+        "You should be able to run 5 km in 30 minutes and sustain long trekking days of 8–10 hours. Strong cardiovascular fitness, endurance, and mental resilience are essential due to the demanding nature of the trek."
+    },
+    {
+      question: "What kind of preparation is required?",
+      answer:
+        "Preparation should include cardio training (running, cycling), strength training (legs and core), and endurance building (long hikes with load). Training should begin at least 6–8 weeks before the trek."
+    },
+    {
+      question: "Is prior high-altitude experience necessary?",
+      answer:
+        "Yes, it is strongly recommended. Trekkers without prior exposure above 12,000–14,000 ft may struggle with acclimatization and terrain challenges."
+    },
+    {
+      question: "Will there be mobile network connectivity?",
+      answer:
+        "Network is available till Gangi (limited). Beyond that, there is no connectivity. The trek is a complete digital disconnect experience."
+    },
+    {
+      question: "What kind of food and water is provided?",
+      answer:
+        "Nutritious vegetarian meals are provided throughout the trek to support high energy requirements. Safe drinking water is arranged at camps and refilled during the trek."
+    },
+    {
+      question: "What safety measures are taken by Planethimalayas?",
+      answer:
+        "We operate with experienced trek leaders, trained support staff, medical kits, oxygen support, and well-planned acclimatization schedules. Constant monitoring and flexible decision-making ensure safety throughout the expedition."
+    },
+    {
+      question: "What happens in case of bad weather or delays?",
+      answer:
+        "A buffer day is included to manage delays. If conditions become unsafe, especially near the pass, the trek leader may alter the plan or hold position until safe conditions return."
+    },
+    {
+      question: "What kind of overall experience does Mayali Pass offer?",
+      answer:
+        "Mayali Pass is not just a trek — it is a full Himalayan expedition. It combines deep wilderness, glacial terrain, sacred geography, and extreme conditions into a single journey. It is as much about endurance and awareness as it is about witnessing the raw, unpredictable nature of the Himalayas."
+    },
+  ],
+},
+  
   faqsLink: "/pages/faqs-and-articles",
 },
 
