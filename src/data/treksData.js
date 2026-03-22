@@ -6510,9 +6510,9 @@ The following day is reserved for departure. Guests may check out of the guestho
   tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
-  month: ["may", "june", "september"],
+  month: ["may", "june", "september", "october"],
   region: ["uttarakhand-garhwal", "himachal pradesh"],
-  duration: "8 Nights / 9 Days",
+  duration: "8 Nights / 8 Days + 1 Buffer Day",
   coordinates: [
   [31.0169, 78.2755], // Sankri (start)
 
@@ -6566,11 +6566,11 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days + 1 Buffer Day" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,880 ft (Borasu Pass)" },
-      { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "May–June & September" },
+      { emoji: "⚡", label: "Trek Distance", value: "~80 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September-October" },
       { emoji: "🗺️", label: "Region", value: "Harkidun valley, Uttarakhand to Baspa Valley, Himachal Pradesh" },
       { emoji: "📍", label: "Start Point", value: "Sankri" },
       { emoji: "🏁", label: "End Point", value: "Chitkul" },
@@ -6594,7 +6594,7 @@ waypoints: [
 <br>With Planethimalayas, this journey is approached as an expedition rather than a trek — slow, immersive, and deeply connected to the terrain. It is meant for those who seek not just altitude, but experience — the kind that stays long after the mountains are behind you.`
   },
 
-  price: 34900,
+  price: 39900,
   priceNote: "* Sankri to Chitkul",
 
   addons: {
@@ -6604,7 +6604,7 @@ waypoints: [
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to lunch on Day 8",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 9",
 
   highlights: [
     "A rare high-altitude crossover connecting Har Ki Dun valley to Baspa (Kinnaur)",
@@ -6851,9 +6851,9 @@ waypoints: [
   tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
-  month: ["may", "june", "september"],
+  month: ["may", "june", "september", "october"],
   region: ["uttarakhand-garhwal"],
-  duration: "9 Nights / 10 Days",
+  duration: "9 Nights / 9 Days + 1 Buffer Day",
   coordinates: [
   [30.6508, 78.6432], // Gangi (start - Bhilangana valley)
 
@@ -6913,11 +6913,11 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 9 Days + 1 Buffer Day" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,400 ft (Mayali Pass)" },
-      { emoji: "⚡", label: "Trek Distance", value: "75–80 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "May–June & September" },
+      { emoji: "⚡", label: "Trek Distance", value: "~90 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September-October" },
       { emoji: "🗺️", label: "Region", value: "Crossover from Bhilangana Valley to Mandikini Valley, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Gangi" },
       { emoji: "🏁", label: "End Point", value: "Gourikund" },
@@ -6953,7 +6953,7 @@ waypoints: [
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 8",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 10",
 
   highlights: [
   "A remote high-altitude crossover connecting the Bhilangana valley to the Mandakini (Kedarnath) valley",
@@ -7028,7 +7028,7 @@ waypoints: [
 {
   "day": 10,
   "title": "Buffer Day",
-  "details": "This day is reserved to account for any delays during the trek, especially around the Mayali Pass crossing. Weather in this region is highly unpredictable, and conditions such as heavy snowfall, low visibility, or unsafe terrain can impact movement and timing.\n\nThe buffer ensures flexibility in the itinerary, allowing the team to wait for safer conditions if required, without compromising the overall plan. It also acts as a safety margin in case of slower progress across technical sections or extended halts due to river crossings or route conditions.\n\nIf not utilized during the trek, this day remains a rest and recovery window before departure."
+  "details": "This day is reserved to account for any delays during the trek, especially around the Mayali Pass crossing. Weather in this region is highly unpredictable, and conditions such as heavy snowfall, low visibility, or unsafe terrain can impact movement and timing.\n\nThe buffer ensures flexibility in the itinerary, allowing the team to wait for safer conditions if required, without compromising the overall plan. It also acts as a safety margin in case of slower progress across technical sections or extended halts due to river crossings or route conditions."
 },
   ],
 
@@ -7198,6 +7198,368 @@ waypoints: [
       answer:
         "Mayali Pass is not just a trek — it is a full Himalayan expedition. It combines deep wilderness, glacial terrain, sacred geography, and extreme conditions into a single journey. It is as much about endurance and awareness as it is about witnessing the raw, unpredictable nature of the Himalayas."
     },
+  ],
+},
+  
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
+  id: "panpatia-col-trek",
+  name: "Panpatia Col Trek",
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september", "october"],
+  region: ["uttarakhand-garhwal"],
+  duration: "10 Nights / 10 Nights + 1 Buffer Day",
+  coordinates: [
+  [30.7433, 79.4938], // Badrinath (start)
+
+  [30.7352, 79.4681], // Hanuman Chatti
+  [30.7165, 79.4402], // Khirao Village
+
+  [30.7012, 79.4156], // Uniyandevi Temple
+  [30.6828, 79.3924], // Shepherd Camp
+
+  [30.6641, 79.3687], // Snout Camp (Khirao Glacier snout)
+  [30.6485, 79.3452], // Moraine Camp
+
+  [30.6324, 79.3186], // Parvati Gully Base
+  [30.6158, 79.2951], // Parvati Col (~5070m)
+
+  [30.6027, 79.2684], // Panpatia Icefield Camp
+  [30.5903, 79.2428], // Panpatia Col (~5230m)
+
+  [30.5716, 79.2105], // Sujal Sarovar
+  [30.5552, 79.1843], // Kachni Meadows
+
+  [30.5415, 79.1608], // Madhmaheshwar
+  [30.5203, 79.1346], // Ransi (end)
+],
+
+waypoints: [
+  { name: "Badrinath (Start)", coords: [30.7433, 79.4938], type: "start" },
+
+  { name: "Hanuman Chatti", coords: [30.7352, 79.4681], type: "village" },
+
+  { name: "Khirao Village", coords: [30.7165, 79.4402], type: "village" },
+
+  { name: "Uniyandevi Temple", coords: [30.7012, 79.4156], type: "camp" },
+
+  { name: "Shepherd Camp", coords: [30.6828, 79.3924], type: "camp" },
+
+  { name: "Khirao Glacier Snout", coords: [30.6641, 79.3687], type: "landmark" },
+
+  { name: "Moraine Camp", coords: [30.6485, 79.3452], type: "camp" },
+
+  { name: "Parvati Gully Base", coords: [30.6324, 79.3186], type: "camp" },
+
+  { name: "Parvati Col (~5070m)", coords: [30.6158, 79.2951], type: "pass" },
+
+  { name: "Panpatia Icefield", coords: [30.6027, 79.2684], type: "landmark" },
+
+  { name: "Panpatia Col (~5230m)", coords: [30.5903, 79.2428], type: "pass" },
+
+  { name: "Sujal Sarovar", coords: [30.5716, 79.2105], type: "lake" },
+
+  { name: "Madhmaheshwar", coords: [30.5415, 79.1608], type: "camp" },
+
+  { name: "Ransi (End)", coords: [30.5203, 79.1346], type: "end" },
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169738/panpatia-col2_lnsrjf.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169733/panpatia-col3_getrve.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169735/panpatia-col4_rye8xs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169738/panpatia-col2_lnsrjf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169736/panpatia-col_kdk8hx.jpg"
+  ],
+
+  subtitle: "A Relentless High Himalayan Traverse in the Shadow of Chaukhamba",
+
+  seo: {
+  title: "Panpatia Col Trek | Complete Itinerary & Route | Planethimalayas",
+  description:
+    "Panpatia Col Trek (17,160 ft) is one of the most challenging Himalayan expeditions, connecting Badrinath to Madhmaheshwar through remote glaciers, crevasse fields, and high-altitude passes across the heart of Garhwal.",
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days + 1 Buffer Day" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "17,300 ft (Panpatia Col)" },
+      { emoji: "⚡", label: "Trek Distance", value: "65–70 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September-October" },
+      { emoji: "🗺️", label: "Region", value: "Crossover from Chamoli District to Rudraprayag District, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Badrinath" },
+      { emoji: "🏁", label: "End Point", value: "Ransi" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Panpatia Col Trek is one of the most remote and demanding high-altitude crossings in the Garhwal Himalayas, connecting the Alaknanda basin near Badrinath to the Mandakini valley via Madhyamaheshwar. Sitting on the watershed between these two river systems, the route cuts across glaciers, icefields, and high mountain passes — not defined by a trail, but by terrain that constantly shifts under changing mountain conditions.
+
+<br>The name “Panpatia Col” refers to the high mountain pass that links the Alaknanda basin to the Mandakini valley, sitting deep within a glaciated landscape shaped by centuries of ice movement. Historically, the route is believed to have been used by local shepherds and, according to regional folklore, even by temple priests who are said to have traversed this high glacial corridor to move between the shrines of Badrinath and Kedarnath — a journey that reflects both devotion and an extraordinary understanding of the mountains.
+
+<br>The approach to the col begins through the hidden Khirao valley, a lesser-known route that quickly leaves behind human presence and enters dense forests, eventually leading to the snout of the Khirao Ganga glacier — the very source of the river. From here, the landscape transforms completely. The trail disappears into moraine and debris before opening onto the glacier itself, where movement becomes a matter of navigating unstable ground, hidden crevasses, and constantly shifting ice.
+
+<br>One of the defining features of this expedition is the crossing of the vast Panpatia icefield — a roughly 7-kilometre stretch of glacial terrain marked by deep crevasses, snow bridges, and an overwhelming sense of scale. Before reaching it, the route climbs steeply through Parvati Gully to Parvati Col, offering the first glimpse of the immense icefield guarded by towering peaks like Chaukhamba. The crossing itself is slow, deliberate, and often roped, where every step is guided by experience rather than a visible path.
+
+<br>At Panpatia Col, the highest point of the journey, the landscape opens into a vast, silent expanse of snow and ridgelines. But the challenge continues immediately with a steep descent toward Sujal Sarovar, followed by a long transition out of the glacial zone. As the terrain softens, the route eventually reconnects with defined trails near Madhyamaheshwar, marking a powerful return to civilization after days spent in complete isolation.
+
+<br>What makes Panpatia Col truly unique is the nature of the experience it offers. This is not a trek with predictable trails or comfortable camps — it is a full-scale Himalayan expedition where terrain, weather, and conditions dictate the journey. Expect long days on unstable moraine, movement across crevassed glaciers, steep snow climbs, and a constant need for focus and adaptability.
+
+<br>Starting from Badrinath and ending near the Kedarnath valley, the Panpatia Col route is a rare crossing that brings together mythology, raw geography, and extreme high-altitude travel. It is a journey meant for those who seek more than just a trek — an experience that demands respect, tests resilience, and offers a deep, unfiltered encounter with the Himalayas in their most powerful form.`
+},
+
+  price: 74900,
+  priceNote: "* Badrinath to Ransi",
+
+  addons: {
+    transport: 7000,
+    offloadingbag: 8000,
+    transportNote: "* Rishikesh to Badrinath & Ransi to Rishikesh",
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – except during transport to and from Rishikesh",
+
+  highlights: [
+  "Begin from the sacred grounds of Badrinath, where the journey shifts rapidly from pilgrimage to pure Himalayan wilderness",
+
+  "Enter the hidden Khirao valley — a remote, rarely explored corridor of dense forests, seasonal settlements, and deep isolation",
+
+  "Reach the snout of the Khirao Ganga glacier — the last point of transition before stepping into a fully glaciated landscape",
+
+  "Navigate a demanding glacier traverse over unstable moraine, loose debris, and crevasse-prone terrain with no defined trail",
+
+  "Climb steeply through Parvati Gully — a technical ascent leading into the upper glacial basin",
+
+  "Cross the vast Panpatia icefield (~7 km) — a silent expanse of snow and ice riddled with crevasses, where scale and exposure are overwhelming",
+
+  "Experience close, dominating views of peaks like Neelkanth, Barmal, Parvati, and the towering four summits of Chaukhamba - dominating the backdrop of the Panpatia icefield",
+
+  "Panpatia Col (~5,230 m) — a true expedition-grade crossing between two Himalayan basins",
+
+  "Descend steeply over exposed snow slopes and moraine, often requiring fixed ropes and sustained focus",
+
+  "Camp beside the stark high-altitude waters of Sujal Sarovar",
+
+  "Witness a dramatic shift in landscape as the harsh glacial world softens into alpine meadows of Kachni",
+
+  "Conclude at the sacred Madhmaheshwar temple, returning to civilization after days of complete isolation"
+],
+
+  itinerary: [
+    {
+  "day": 1,
+  "title": "Rishikesh to Badrinath (10,827 ft) | Drive distance: ~300 km | Duration: 10–12 hours.",
+  "details": "The journey begins early from Rishikesh, gradually leaving behind the plains as the road climbs deep into the Garhwal Himalayas. The drive follows the Alaknanda valley for most of the day, passing through a series of sacred confluences where major Himalayan rivers meet — each one marking a steady progression deeper into the mountains.\n\nAs the altitude increases, the landscape begins to change noticeably. Forested hills give way to steeper, more rugged terrain, and the valleys grow narrower and more dramatic. The road winds through well-known mountain towns before eventually entering the high-altitude zone, where the air turns crisp and the presence of the greater Himalayas becomes more dominant.\n\nBy late afternoon or evening, you arrive at Badrinath (3,300 m), one of the most revered pilgrimage sites in India, set against a striking backdrop of towering peaks. The town carries a unique blend of spiritual energy and high-altitude rawness, with the Alaknanda river flowing forcefully through its heart.\n\nThe evening is kept for acclimatization and preparation. A visit to the sacred Badrinath Temple offers a moment of calm before the expedition begins, followed by time to gather any last-minute essentials from the local market. As night sets in, a final check of your rucksack ensures everything is in place — marking the transition from a long mountain drive to the beginning of a demanding high-altitude journey ahead."
+},
+    {
+  "day": 2,
+  "title": "Badrinath to Uniyandevi Temple (9,200 ft) via Hanuman Chatti & Khirao Village | Trek distance: ~5 km | Duration: 4–5 hours.",
+  "details": "A short drive from Badrinath brings you to Hanuman Chatti, the true starting point of the trek. A short drive from here brings you to Benakuli where the road ends. From Benakuli, cross the bridge over the confluence of the Alaknanda and Khirao Ganga, and begin following the trail upstream along the Khirao Ganga toward its source — marking the entry into the hidden Khirao valley.\n\nThe initial stretch moves through dense forests filled with walnut trees and rich Himalayan vegetation. The trail feels raw and alive, with signs of wildlife presence — this region is known to be bear-inhabited, adding a sense of wilderness right from the start.\n\nAs you move ahead, a narrow cemented trail leads to Khirao village, a small seasonal settlement with a few old stone houses. The village remains occupied only during the summer months, when locals return with their cattle for grazing and limited farming. Despite the presence of electric poles, there is no electricity here, and only intermittent Jio network may be available.\n\nBeyond the village, the trail continues deeper into the valley for another couple of kilometers before reaching the Uniyandevi temple — a quiet clearing surrounded by forest. This serves as the campsite for the night at around 2,800 meters. The setting is serene yet wild, with thick vegetation, blooming flowers, and the constant awareness of being in a remote Himalayan forest."
+},
+    {
+  "day": 3,
+  "title": "Uniyandevi Temple to Shepherd Camp (11,700 ft) | Trek distance: ~6 km | Duration: 5–6 hours.",
+  "details": "The trail continues deeper into the Khirao valley, steadily gaining altitude as it moves toward the higher Himalayas. The climb is gradual but consistent, taking you through dense forest sections that slowly begin to thin out with height. This stretch still carries strong signs of wildlife presence, with the region known to be bear-inhabited, adding to the rawness of the terrain.\n\nAs you gain elevation, the landscape begins to transition. The forest starts giving way to open meadows, and on clear days, peaks like Barmal and Hathi Parvat come into view. The valley ahead feels wider and more alpine, with grassy slopes gradually disappearing behind and glacial basins starting to dominate the terrain.\n\nWaterfalls can be seen cutting down steep rock faces from hanging glaciers above, feeding into the Khirao Ganga as small tributaries. Water sources along the trail are limited, making it important to refill whenever possible. The meadows are often dotted with grazing cattle, indicating seasonal movement of shepherds in this region.\n\nThe campsite at Shepherd Camp is set beside a small running stream — a tributary of the Khirao Ganga — offering a reliable water source. Surrounded by a mix of fading vegetation and rising alpine features, the setting marks a clear transition point between forested terrain and the harsher glacial world that lies ahead."
+},
+    {
+  "day": 4,
+  "title": "Shepherd Camp to Snout Camp (12,800 ft) | Trek distance: ~4 km | Duration: 3–4 hours.",
+  "details": "The trail continues further up the Khirao valley, gaining altitude steadily as the effects of cold and thinning air become more noticeable. Though the distance is short, the climb feels more demanding, with the terrain gradually losing all traces of dense vegetation.\n\nAs you move ahead, the treeline finally disappears, marking a clear transition into the high-altitude alpine zone. The landscape changes dramatically — dominated by moraine, loose rocks, and glacial debris. The colors shift to shades of grey, black, and brown, with snow-covered peaks rising in the distance.\n\nSnout Camp is set just ahead of the snout of the Khirao Ganga glacier, the very source of the river you have been following since the start. Towering above is the imposing presence of Nilkantha Peak, with numerous waterfalls cascading down its lower slopes, fed by hanging glaciers high above.\n\nThis is where the true Himalayan wilderness begins to take over — a stark, cold environment shaped by ice, wind, and shifting terrain. Surrounded by glaciers, crevasses, and high peaks, the campsite offers a first real taste of the raw alpine world that defines the journey ahead."
+},
+    {
+  "day": 5,
+  "title": "Snout Camp to Moraine Camp (14,100 ft) | Trek distance: ~5 km | Duration: 5–7 hours.",
+  "details": "Beyond Snout Camp, the trail disappears completely as you step into a true expedition zone. The route moves along the lateral moraine of the Khirao Ganga glacier, crossing past its snout and entering a landscape that is constantly shifting and unforgiving.\n\nThere is no defined path from here onward — only direction. Occasional stone cairns mark the safer lines taken by previous teams, but these are never absolute. The glacier is alive, constantly changing with movement, rockfall, and slides, meaning yesterday’s safe route may not exist today.\n\nThe terrain is a mix of loose soil, unstable rocks, and large boulders scattered over a frozen, uneven glacial base. Crevasses lie hidden beneath sections of debris, and every step demands attention. Footing is unreliable, and progress is slow, often requiring careful navigation across sections prone to rockfall.\n\nThis is where discipline becomes critical. Following the guide closely is essential, as route finding and decision-making play a major role in safe passage through this terrain. Moraine Camp is set within this harsh environment, surrounded by raw glacial features — a place where the mountains begin to fully dictate the pace and nature of the journey."
+},
+    {
+  "day": 6,
+  "title": "Moraine Camp to Parvati Gully (15,010 ft) | Trek distance: ~4–5 km | Duration: 5–7 hours.",
+  "details": "The route continues across the same broken glacial terrain, moving over loose debris and moraine as you push further into the upper reaches of the Khirao glacier. The landscape remains harsh and unstable, demanding steady movement and constant awareness.\n\nAs you progress, the moraine field gradually comes to an end, and you step onto the frozen body of the glacier itself. This section requires a careful lateral traverse, maintaining direction while negotiating crevasse-prone zones and uneven ice. Throughout this stretch, the imposing presence of Parvati Peak stays to your right, guiding the line of movement across the glacier.\n\nAt the far end of this traverse, a massive wall of rock and boulders rises abruptly — a clear barrier marking the base of the next major challenge. Beyond this wall lies the vast Panpatia icefield, still hidden from full view but looming above.\n\nParvati Gully campsite is established at the base of this climb, set in a rugged and exposed environment. The setting feels intense and anticipatory — a pause before the most demanding phase of the expedition. Tomorrow brings a steep ascent and entry into one of the most formidable glacial sections of the journey."
+},
+    {
+  "day": 7,
+  "title": "Parvati Gully to Panpatia Snowfield (17,020 ft) via Parvati Col (16,630 ft) | Trek distance: ~10 km | Duration: 8–10 hours.",
+  "details": "The day begins with a steep and demanding climb up Parvati Gully, one of the most technical sections of the trek. The ascent requires patience, careful footing, and at times technical assistance, as you work your way up loose rock, snow, and ice toward Parvati Col.\n\nReaching Parvati Col opens up an entirely new world. Ahead lies the vast Panpatia icefield — an intimidating expanse of snow and ice stretching as far as the eye can see. The terrain here is heavily crevassed, with countless hidden gaps beneath fragile snow bridges, making every step deliberate and controlled.\n\nDominating the horizon is the massive Chaukhamba massif, rising so close and powerful that it feels almost within reach. The scale of the landscape is overwhelming, and the exposure constant. This is a place where the mountains demand complete focus and humility.\n\nCrossing the icefield is long and mentally exhausting. Movement is slow, often roped, and entirely dependent on following the guide’s exact footsteps. There is no room for error here — discipline and awareness are critical.\n\nThe campsite is set on the snowfield itself, just before the final approach to Panpatia Col. Surrounded by endless ice, towering peaks, and absolute silence, the setting feels both surreal and humbling — a reminder that only a handful of trekkers ever reach this remote and powerful part of the Himalayas."
+},
+   {
+  "day": 8,
+  "title": "Panpatia Snowfield to Sujal Sarovar (15,420 ft) via Panpatia Col (17,160 ft) | Trek distance: ~10 km | Duration: 8–10 hours.",
+  "details": "The day begins with a gradual push across the Panpatia icefield toward the final objective — Panpatia Col. After an hour or so of steady movement over snow and crevasse fields, you reach the col at around 5,230 meters. It’s a moment of achievement — a brief pause for photos and celebration after crossing one of the most unforgiving terrains in the Himalayas.\n\nBut the challenge is far from over. The descent from the col begins immediately and is often more intimidating than the climb. Steep snow slopes and exposed sections require fixed ropes, and complete focus becomes essential. This is where many realize that reaching the top is only half the journey.\n\nAs you descend carefully, maintaining discipline and composure, the terrain continues to test endurance. The vast presence of the Chaukhamba massif remains in sight, adding to the intensity of the landscape as you move lower.\n\nThe route eventually leads to Sujal Sarovar, a small high-altitude lake set amidst rugged terrain. Reaching the campsite after a long and demanding day feels deeply earned. Surrounded by peaks and silence, it marks the transition from the harsh glacial crossing toward the descent into the Mandakini valley."
+},
+    {
+  "day": 9,
+  "title": "Sujal Sarovar to Madhyamaheshwar (11,480 ft) | Trek distance: ~10 km | Duration: 6–8 hours.",
+  "details": "The day begins with a short but steady climb to Sujal Pass above the sarovar, offering a final look back at the harsh glacial terrain you’ve just crossed. From here, the route descends steeply toward Kachni meadows, marking a dramatic transition in landscape — from barren alpine to patches of green, flowing water, and life returning to the mountains.\n\nAs you lose altitude, the descent eases out and the first clear signs of civilization begin to appear. The trail becomes more defined, and for the first time in days, a proper path guides your way forward. In the distance, the sacred temple of Madhyamaheshwar comes into view — a sight that feels both grounding and surreal after a week spent in complete isolation.\n\nWith the return of mobile network and a structured trail, the contrast is striking. The silence of glaciers, the uncertainty of moraine, and the intensity of high-altitude travel slowly give way to familiarity. Yet, the weight of the journey remains.\n\nReaching Madhyamaheshwar marks more than just the end of a trekking day — it is a return to civilization after days of negotiating one of the most unforgiving terrains in the Himalayas. The temple, set amidst a beautiful high-altitude meadow, offers a moment of reflection, completion, and quiet gratitude."
+},
+{
+  "day": 10,
+  "title": "Madhyamaheshwar to Ransi (6,397 ft) | Trek distance: ~16 km | Duration: 6–7 hours.",
+  "details": "The final day follows a well-defined pilgrim trail, descending steadily from Madhyamaheshwar toward Ransi. The path is clearly laid out and much easier underfoot compared to the terrain of the past week, allowing for a more relaxed pace as you move through forests, small hamlets, and terraced landscapes.\n\nAs you descend, the altitude drops quickly and the air grows warmer, with the surroundings becoming greener and more inhabited. The trail is frequently used by pilgrims, bringing a steady sense of movement and connection after days spent in complete isolation.\n\nReaching Ransi marks the end of the trekking journey and the return to the roadhead. From here, you can choose to stay overnight or begin your onward drive. The transition feels complete — from a remote, high-altitude expedition across glaciers and passes to a familiar, grounded Himalayan setting."
+},
+{
+  "day": 11,
+  "title": "Buffer Day | Contingency for Weather & Delays",
+  "details": "This day is kept as a buffer to account for any delays during the expedition, especially in the high-altitude glacial sections where weather, terrain, and route conditions can be unpredictable. Sections like the Panpatia icefield, Parvati Gully, and the descent from the col are highly condition-dependent, and even a small delay can impact the overall schedule.\n\nIf the trek proceeds as planned, this day can be used for rest, recovery, or to begin the return journey at a more relaxed pace. However, in case of unfavorable weather, route challenges, or safety considerations, this buffer becomes crucial in ensuring a flexible and safe completion of the expedition."
+},
+  ],
+
+  didYouKnow: [
+  "Long before modern expeditions, local shepherds are believed to have had partial knowledge of the Panpatia route, using sections of the valley for seasonal grazing — though the full glacial crossing remained largely avoided due to its risks.",
+
+  "The idea of a priest crossing between Badrinath and Kedarnath through this route is rooted in oral folklore passed down in villages of both valleys — not documented history, but widely believed among locals.",
+
+  "Early British explorers like  described this region as ‘confusing beyond measure’ due to its broken glacier systems and lack of visible passes, which is why it remained unexplored for decades.",
+
+  "Even today, GPS navigation is unreliable across the Panpatia icefield — teams rely heavily on ground reading, snow conditions, and experience rather than digital navigation.",
+
+  "The Khirao valley sees almost no trekking traffic compared to other Himalayan routes, making wildlife encounters more likely — signs of Himalayan black bear and other fauna are frequently noticed, even if sightings are rare.",
+
+  "Cairns (stone markers) found along the glacier are often temporary — many get wiped out each season due to snowfall, glacier movement, or rockfall, forcing every team to reassess the route from scratch.",
+
+  "The Panpatia icefield is known for ‘false flats’ — sections that appear easy and level from a distance but take hours to cross due to hidden crevasses and soft snow conditions.",
+
+  "Weather systems from both the Alaknanda and Mandakini valleys influence this region, often causing sudden whiteouts even when surrounding areas seem clear.",
+
+  "The descent after the col is psychologically more demanding than the climb — many experienced trekkers consider this stretch the real crux due to exposure, fatigue, and shifting snow conditions.",
+
+  "Sujal Sarovar is not just a campsite but a natural collection point of glacial meltwater, changing size and shape depending on seasonal snowmelt and ice conditions.",
+
+  "The transition from complete silence on the glacier to hearing distant temple bells near  is often described by trekkers as one of the most surreal moments of the journey.",
+
+  "Very few trekking routes in India demand this level of sustained focus — on Panpatia, even a single distracted step in glacier sections can have serious consequences, which is why guides treat it as a true expedition rather than a trek.",
+
+  "Unlike popular treks where campsites are fixed, on Panpatia, camps are often decided on the spot based on safety, snow conditions, and team movement — making every expedition slightly different from the last.",
+
+  "Completing Panpatia Col is less about reaching a summit and more about successfully navigating a continuously changing landscape — which is why it is often respected more than many peak climbs among seasoned Himalayan trekkers."
+],
+
+  howToReach: {
+  air: "<br>• Nearest Airport: Jolly Grant Airport, Dehradun (DED)<br>• Well connected with major cities like Delhi, Mumbai, Bangalore, and others.<br>• From the airport, you can hire a taxi to Rishikesh, which serves as the main base for the journey toward Badrinath.",
+
+  train: "<br>• Nearest Railway Station: Rishikesh / Haridwar<br>• Both stations are well connected with Delhi and other major cities.<br>• From here, continue your journey by road to Badrinath via Joshimath.",
+
+  road: "Rishikesh to Badrinath (~300 km | 10–12 hours via Devprayag – Rudraprayag – Joshimath). Trek begins from Hanuman Chatti near Badrinath and concludes at Ransi (roadhead near Madhyamaheshwar).",
+
+  travelTip: "<br>• Private Cab: The most reliable and comfortable option. Hire from Rishikesh/Dehradun for a direct journey to Badrinath. Ideal for groups and allows flexibility in timing.<br>• Shared Vehicles / Public Transport: Regular buses and shared jeeps operate from Rishikesh/Haridwar to Joshimath and Badrinath during the season.<br>• Return Journey: After completing the trek at Ransi, you can hire a local jeep to Ukhimath/Rudraprayag and continue onward to Rishikesh.<br>• It is advisable to start early, as mountain drives are long and road conditions can vary depending on weather and season."
+},
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169733/panpatia-col3_getrve.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169735/panpatia-col4_rye8xs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169738/panpatia-col2_lnsrjf.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169736/panpatia-col_kdk8hx.jpg"
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Who can join the Panpatia Col Trek?",
+      answer:
+        "Panpatia Col is strictly for experienced trekkers with prior high-altitude exposure (14,000 ft+). This is an expedition-style crossing involving glacier travel, route finding, and long, demanding days. It is not suitable for beginners."
+    },
+    {
+      question: "How difficult is the Panpatia Col Trek?",
+      answer:
+        "This is an expedition-grade trek. It involves crossing a high pass (~17,160 ft), navigating crevassed glaciers, steep ascents like Parvati Gully, and long days (8–10+ hours). The glacier traverse and descent from the col make it one of the toughest treks in India."
+    },
+    {
+      question: "What makes Panpatia Col more challenging than other treks?",
+      answer:
+        "Unlike regular treks, Panpatia has no defined trail beyond the glacier snout. The route constantly changes due to glacier movement, crevasses, and rockfall. It demands navigation skills, discipline, and the ability to move safely in unpredictable terrain."
+    },
+    {
+      question: "What kind of terrain should I expect?",
+      answer:
+        "The trek begins with dense forests in the Khirao valley, transitions into alpine meadows, and then into harsh glacial terrain including moraine, boulder fields, icefields, crevasses, and steep snow descents. Each day brings a new type of terrain."
+    },
+    {
+      question: "Is the Panpatia Col Trek technical?",
+      answer:
+        "It is not a full mountaineering climb but includes technical sections. Parvati Gully requires careful climbing and sometimes rope support, while the descent from Panpatia Col is steep and exposed, often requiring fixed ropes depending on conditions."
+    },
+    {
+      question: "What are the main risks involved in this trek?",
+      answer:
+        "Key risks include AMS (Acute Mountain Sickness), crevasse hazards, rockfall, unstable moraine, sudden weather changes, and slips on snow or ice. The remoteness makes evacuation difficult, so preparedness and experienced leadership are critical."
+    },
+    {
+      question: "How unpredictable is the weather on this trek?",
+      answer:
+        "Weather in the Panpatia region is highly unpredictable. Whiteouts, strong winds, and sudden snowfall are common, especially on the icefield. Conditions can change within minutes due to the influence of surrounding glacial systems."
+    },
+    {
+      question: "What is the most difficult section of the trek?",
+      answer:
+        "The stretch from Moraine Camp to Sujal Sarovar via Parvati Gully, Parvati Col, Panpatia icefield, and Panpatia Col is the most demanding. It involves technical climbing, glacier crossing, crevasse navigation, and a long, exposed descent."
+    },
+    {
+      question: "What kind of flora and fauna can be seen on this trek?",
+      answer:
+        "Lower sections in the Khirao valley feature dense forests of walnut and other Himalayan vegetation, rich in biodiversity and known for wildlife like Himalayan black bear. As altitude increases, vegetation disappears into alpine and glacial terrain."
+    },
+    {
+      question: "What are the key landmarks on this trek?",
+      answer:
+        "Major landmarks include Khirao valley, Khirao Ganga glacier snout, Moraine Camp, Parvati Gully, Parvati Col, the Panpatia icefield, Panpatia Col, Sujal Sarovar, and the descent to Madhyamaheshwar."
+    },
+    {
+      question: "What kind of mountain views can be expected?",
+      answer:
+        "The trek offers close views of peaks like Nilkantha, Barmal, Parvati, and the Chaukhamba massif, especially during the glacier traverse where these mountains dominate the landscape."
+    },
+    {
+      question: "What is the significance of Madhyamaheshwar in this trek?",
+      answer:
+        "Madhyamaheshwar is one of the Panch Kedar temples dedicated to Lord Shiva. Reaching it after crossing Panpatia Col creates a powerful contrast — from remote glacial wilderness to a sacred and inhabited Himalayan landscape."
+    },
+    {
+      question: "How physically fit do I need to be?",
+      answer:
+        "You should be able to run 5 km in 30 minutes and sustain long trekking days of 8–10 hours. Strong endurance, stamina, and mental resilience are essential for this expedition."
+    },
+    {
+      question: "What kind of preparation is required?",
+      answer:
+        "Preparation should include cardio training (running, cycling), strength training (legs and core), and endurance hikes with load. A minimum of 6–8 weeks of structured preparation is recommended."
+    },
+    {
+      question: "Is prior high-altitude experience necessary?",
+      answer:
+        "Yes, prior high-altitude trekking experience is strongly recommended. Without exposure above 12,000–14,000 ft, acclimatization and terrain challenges can become difficult to manage."
+    },
+    {
+      question: "Will there be mobile network connectivity?",
+      answer:
+        "Limited network is available at the first campsite near Khirao village/Uniyandevi temple, and that too only on Jio. Beyond this, there is no connectivity throughout the glacier section. Network resumes again while descending near Kachni meadows (toward Madhyamaheshwar), starting with Jio signal."
+    },
+    {
+      question: "What kind of food and water is provided?",
+      answer:
+        "Nutritious vegetarian meals are provided throughout the trek to meet high energy demands. Drinking water is arranged at camps and sourced safely during the trek."
+    },
+    {
+      question: "What safety measures are taken by Planethimalayas?",
+      answer:
+        "We operate with experienced expedition leaders, trained support staff, glacier-trained guides, medical kits, and oxygen support. Continuous monitoring, safe route selection, and flexible decisions ensure safety throughout the journey."
+    },
+    {
+      question: "What happens in case of bad weather or delays?",
+      answer:
+        "A buffer day is included to manage delays. In case of unsafe conditions, especially on the glacier or near the col, the trek leader may hold position, alter plans, or delay movement until conditions improve."
+    },
+    {
+      question: "What kind of overall experience does Panpatia Col offer?",
+      answer:
+        "Panpatia Col is a true Himalayan expedition — a journey through untouched valleys, crevassed glaciers, and high mountain passes. It demands focus, resilience, and respect for the terrain, offering one of the most raw and powerful trekking experiences in the Indian Himalayas."
+    }
   ],
 },
   
