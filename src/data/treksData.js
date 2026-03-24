@@ -2533,7 +2533,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
             { emoji: "⚡", label: "Trek Grade", value: "Easy" },
             { emoji: "🏔️", label: "Max Altitude", value: "4,025 m (Khanpari Tibba)" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 25 Km" },
-            { emoji: "🌤️", label: "Best Time", value: "May–October" },
+            { emoji: "🌤️", label: "Best Time", value: "May–July, September-October" },
             { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Manali" },
             { emoji: "📍", label: "Start Point", value: "Manali" },
             { emoji: "🏁", label: "End Point", value: "Shangchar" },
