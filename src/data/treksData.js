@@ -2543,7 +2543,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 "Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
     },
 
-    price: 8400,
+    price: 8900,
     priceNote: "* Manali to Manali",
     addons: {
         offloadingbag: 2000,
@@ -2911,6 +2911,381 @@ description:
   ],
 },
   
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
+  id: "beas-kund-trek",
+  name: "Beas Kund Trek",
+  tags: ["beginner", "lake"],
+  difficulty: ["easy"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "july", "september", "october"],
+  region: ["himachal pradesh"],
+  duration: "2 Nights / 3 Days",
+
+  coordinates: [
+    [32.2432, 77.1892], // Manali (start)
+
+    [32.3105, 77.2187], // Dhundi
+    [32.3278, 77.2385], // Bakarthach
+
+    [32.3442, 77.2568], // Beas Kund
+
+    [32.3278, 77.2385], // Bakarthach (return)
+    [32.3105, 77.2187], // Dhundi
+
+    [32.2432, 77.1892], // Manali (end)
+  ],
+
+  waypoints: [
+    { name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
+
+    { name: "Dhundi", coords: [32.3105, 77.2187], type: "roadhead" },
+
+    { name: "Bakarthach", coords: [32.3278, 77.2385], type: "camp" },
+
+    { name: "Beas Kund", coords: [32.3442, 77.2568], type: "lake" },
+
+    { name: "Dhundi (Return)", coords: [32.3105, 77.2187], type: "roadhead" },
+
+    { name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774363582/beas-kund-trek_gea1bt.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774363582/beas-kund-trek_gea1bt.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774364293/beas-kund-trek2_pszqfx.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774362994/Beas-kund-trek1_oa68zg.jpg"
+  ],
+
+  subtitle: "A Short Walk to the Source of the Beas River",
+
+  seo: {
+    title: "Beas Kund Trek | Itinerary, Cost & Best Time | Planethimalayas",
+    description:
+      "Beas Kund Trek (12,200 ft) is an easy to moderate trek near Manali, leading to the source of the Beas River. Perfect for beginners, families, and kids, this short Himalayan trek offers glacier views, alpine meadows, and iconic peaks like Hanuman Tibba and Friendship Peak."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "2 Nights / 3 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "12,200 ft (Beas Kund)" },
+      { emoji: "⚡", label: "Trek Distance", value: "~16 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May-July & September-October" },
+      { emoji: "🗺️", label: "Region", value: "Solang Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Manali" },
+      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Beas Kund Trek begins from the Solang valley near Manali, gradually moving away from the noise of the town and into a quieter, more open Himalayan landscape. The trail follows the course of the Beas River, staying close to its origin, where the sound of flowing water remains a constant presence throughout the journey.
+
+<br>Unlike meadow-heavy treks, this route unfolds through a wide glacial valley, surrounded by towering peaks that feel close and imposing. Peaks like Hanuman Tibba, Friendship Peak, and Shitidhar dominate the skyline, giving the entire trek a strong high-mountain character despite its short duration.
+
+<br>The trail itself is steady and well-defined, moving across rocky terrain, river crossings, and patches of alpine grasslands. As you gain altitude, the landscape becomes more rugged, with moraine sections and glacial features beginning to appear, offering a glimpse into the raw geography of the Himalayas.
+
+<br>At its heart lies Beas Kund, a small glacial lake believed to be the origin of the Beas River. Associated with Sage Vyas, the lake carries both geographical and mythological significance. Set against a stark backdrop of snow-covered peaks, it is a place that feels quiet, contained, and deeply rooted in the mountains.
+
+<br>What makes this trek stand out is its balance — a short journey that still offers glacier views, high-altitude terrain, and close encounters with major Himalayan peaks. It does not overwhelm, but steadily introduces you to the mountains in their more raw and structured form.
+
+<br>As you descend back toward Dhundi and eventually Manali, the scale of the valley begins to shrink, but the memory of walking at the base of such towering peaks lingers. Beas Kund is less about distance and more about proximity — to mountains, to glaciers, and to the source of a river that shapes the entire valley below.`
+  },
+
+  price: 6900,
+  priceNote: "* Manali to Manali",
+
+  addons: {
+    transport: null,
+    offloadingbag: 1200,
+    transportNote: null,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 3 lunch",
+
+  highlights: [
+    "Easy access from Manali, making it one of the most beginner-friendly Himalayan treks",
+
+    "Scenic drive to Dhundi through Solang Valley with views of surrounding peaks",
+
+    "Walk along the Beas River through a wide glacial valley",
+
+    "Close views of iconic peaks like Hanuman Tibba, Friendship Peak, and Shitidhar",
+
+    "Camp at Bakarthach, a beautiful high-altitude grassland surrounded by mountains",
+
+    "Visit Beas Kund (~12,200 ft), the glacial source of the Beas River"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Manali (6,725 ft) to Dhundi (9,300 ft) drive, trek to Bakarthach (10,800 ft) | Drive: ~15 km | Trek: 4–5 km | Duration: 4–5 hours.",
+      details: "The journey begins with a short drive from Manali toward Dhundi via Solang Valley, gradually leaving behind the main town and entering a quieter mountain setting. The road follows the Beas River upstream, with views of surrounding peaks beginning to open up as you approach the roadhead.\n\nFrom Dhundi, the trek starts along a well-defined trail that moves through a wide glacial valley. The river stays close, cutting through the landscape, while the path gradually ascends over a mix of rocky terrain and patches of grassland.\n\nBakarthach, the campsite for the day, sits in an open alpine zone surrounded by towering peaks. The setting feels expansive yet grounded, with the sound of the river and the presence of mountains defining the experience."
+    },
+
+    {
+      day: 2,
+      title: "Bakarthach to Beas Kund (12,200 ft) and return | Trek distance: 6–7 km | Duration: 5–6 hours.",
+      details: "The day begins with a gradual ascent deeper into the valley, following the course of the river toward its source. The terrain becomes more rugged, with moraine sections and glacial features appearing along the way.\n\nAs you move higher, the peaks feel closer and more dominant, especially Hanuman Tibba and Friendship Peak, which rise sharply above the valley. The sense of scale increases with every step.\n\nBeas Kund appears quietly—a small glacial lake set against a stark mountain backdrop. Believed to be the origin of the Beas River, it holds both geographical and mythological significance. Time here is unhurried, allowing you to take in the stillness and the surrounding peaks.\n\nAfter spending time at the lake, the return to Bakarthach follows the same route, with the descent offering a broader perspective of the valley."
+    },
+
+    {
+      day: 3,
+      title: "Bakarthach to Dhundi, drive to Manali | Trek distance: 4–5 km | Drive: ~15 km | Duration: 4–5 hours.",
+      details: "The final day involves a steady descent back toward Dhundi, retracing the path along the Beas River. The valley, now familiar, feels more approachable, with the same landmarks appearing from a different perspective.\n\nReaching Dhundi marks the end of the trek, where the road reconnects you to Manali. The drive back feels like a transition from the quiet, high-altitude environment to the liveliness of the valley below.\n\nThe trek concludes with a sense of having experienced the source of a river and the presence of some of the most prominent peaks in the region—all within a short and well-balanced journey."
+    }
+  ],
+
+  didYouKnow: [
+    "Beas Kund is believed to be the meditation site of Sage Vyas, from whom the Beas River gets its name.",
+
+    "The trek follows the early course of the Beas River, allowing you to walk alongside it almost from its origin.",
+
+    "The valley is a classic example of a glacial trough, shaped by ancient ice movement over thousands of years.",
+
+    "Bakarthach is a traditional grazing ground, often used by local shepherds during summer months.",
+
+    "Peaks like Hanuman Tibba and Friendship Peak appear unusually close due to the openness of the valley.",
+
+    "The terrain here gives an early introduction to moraine and glacial landscapes without technical difficulty.",
+
+    "Weather can shift quickly due to the open valley, with clouds often rolling in by afternoon.",
+
+    "Despite its short duration, the trek offers one of the closest non-technical approaches to major Himalayan peaks.",
+
+    "The water flowing through the valley is directly sourced from glacial melt, making it extremely cold and clear.",
+
+    "This trek is often used as a training ground for beginners before attempting higher or longer Himalayan treks."
+  ],
+
+  howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774363582/beas-kund-trek_gea1bt.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774364293/beas-kund-trek2_pszqfx.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774362994/Beas-kund-trek1_oa68zg.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join the Beas Kund Trek?",
+        answer: "This trek is suitable for beginners, families, and first-time trekkers with basic fitness."
+      },
+      {
+        question: "Is this trek good for kids?",
+        answer: "Yes, it is one of the best short treks near Manali for kids, as long as they are comfortable walking."
+      },
+      {
+        question: "How difficult is the trek?",
+        answer: "It is an easy to moderate trek with gradual ascents and no technical sections."
+      },
+      {
+        question: "Is altitude sickness a concern?",
+        answer: "Mild symptoms are possible, but the gradual ascent and shorter duration make it manageable."
+      },
+      {
+        question: "What makes Beas Kund special?",
+        answer: "It is the source of the Beas River and offers close views of major Himalayan peaks."
+      },
+      {
+        question: "Will there be mobile network?",
+        answer: "Network is available till Manali and partially near Dhundi; beyond that there is no connectivity."
+      }
+    ]
+  },
+
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
+  id: "chandrakhani-pass-trek",
+  name: "Chandrakhani Pass Trek",
+  tags: ["beginner"],
+  difficulty: ["easy"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "july", "september", "october"],
+  region: ["himachal pradesh"],
+  duration: "3 Nights / 4 Days",
+
+  coordinates: [
+    [32.2432, 77.1892], // Manali (start)
+
+    [32.0715, 77.2398], // Rumsu Village
+    [32.0958, 77.2176], // Chaklani
+
+    [32.1132, 77.1964], // Chandrakhani Pass
+
+    [32.1045, 77.2102], // Naya Tapru
+
+    [32.0715, 77.2398], // Rumsu (return)
+
+    [32.2432, 77.1892], // Manali (end)
+  ],
+
+  waypoints: [
+    { name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
+
+    { name: "Rumsu Village", coords: [32.0715, 77.2398], type: "village" },
+
+    { name: "Chaklani", coords: [32.0958, 77.2176], type: "camp" },
+
+    { name: "Chandrakhani Pass", coords: [32.1132, 77.1964], type: "pass" },
+
+    { name: "Naya Tapru", coords: [32.1045, 77.2102], type: "camp" },
+
+    { name: "Rumsu (Return)", coords: [32.0715, 77.2398], type: "village" },
+
+    { name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774365373/chandrakhani-pass_bdqyc2.webp",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774365373/chandrakhani-pass_bdqyc2.webp"
+  ],
+
+  subtitle: "A Ridge Walk Across Valleys and Mythology",
+
+  seo: {
+    title: "Chandrakhani Pass Trek | Itinerary, Cost & Best Time | Planethimalayas",
+    description:
+      "Chandrakhani Pass Trek (12,100 ft) is an easy to moderate trek near Manali, known for its vast meadows, ridge walks, and panoramic views of the Pir Panjal and Parvati ranges. Ideal for beginners and families seeking a scenic Himalayan pass experience."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "12,100 ft (Chandrakhani Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "~22 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "May-July & September-October" },
+      { emoji: "🗺️", label: "Region", value: "Kullu Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Manali" },
+      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Chandrakhani Pass Trek begins from the traditional village of Rumsu, gradually leaving behind the settled landscape and moving into forested mountain terrain. The trail climbs steadily through dense pine and oak forests, where the sounds of the valley slowly fade into a quieter rhythm.
+
+<br>As the ascent continues, the forest begins to open, giving way to expansive meadows that stretch across the mountainside. These high-altitude grasslands offer the first real sense of openness, with wide views and a noticeable shift in the character of the landscape.
+
+<br>The defining feature of this trek is the ridge walk leading up to Chandrakhani Pass. Unlike valley treks, this route unfolds along open ridgelines, where both sides drop into vast valleys, creating a constant sense of exposure and scale.
+
+<br>From the pass, the panorama expands dramatically. Peaks of the Pir Panjal range rise on one side, while the Parvati Valley opens on the other, creating one of the most rewarding viewpoints in the region.
+
+<br>Steeped in local mythology, the pass is believed to be where the gods scattered divine elements across the valley, adding a cultural depth to the journey beyond just the landscape.
+
+<br>What makes this trek unique is its balance of forest trails, open meadows, and high ridgelines—all within a short duration. It offers a complete Himalayan experience without technical difficulty, making it both accessible and memorable.
+
+<br>As the trail descends toward Naya Tapru and eventually back to Rumsu, the journey feels complete—not just in distance covered, but in the variety of landscapes and perspectives experienced along the way.`
+  },
+
+  price: 9400,
+  priceNote: "* Manali to Manali",
+
+  addons: {
+    transport: null,
+    offloadingbag: 1500,
+    transportNote: null,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
+
+  highlights: [
+    "Easy access from Manali with a traditional village start from Rumsu",
+
+    "Walk through dense pine and oak forests before emerging into open meadows",
+
+    "Expansive ridge walk with views on both sides of the mountain",
+
+    "Panoramic views of Pir Panjal and Parvati Valley ranges",
+
+    "Reach Chandrakhani Pass (~12,100 ft), a historic and scenic Himalayan crossing",
+
+    "Peaceful high-altitude campsites like Chaklani and Naya Tapru"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Manali (6,400 ft) to Rumsu (6,800 ft) drive | Duration: 1–2 hours.",
+      details: "A short drive from Manali takes you to Rumsu village, a traditional Himalayan settlement. The day is kept easy to settle into the environment and prepare for the trek ahead."
+    },
+
+    {
+      day: 2,
+      title: "Rumsu to Chaklani (11,400 ft) | Trek distance: 8–9 km | Duration: 5–6 hours.",
+      details: "The trail climbs steadily through dense forests before opening into wide meadows. The gradual transition offers both shade and views, making the ascent enjoyable and varied."
+    },
+
+    {
+      day: 3,
+      title: "Chaklani to Chandrakhani Pass (12,100 ft) & descend to Naya Tapru (10,600 ft) | Trek distance: 8–9 km | Duration: 6–7 hours.",
+      details: "The day involves a ridge walk to Chandrakhani Pass, offering panoramic views of surrounding ranges. After spending time at the pass, the trail descends to Naya Tapru campsite."
+    },
+
+    {
+      day: 4,
+      title: "Naya Tapru to Rumsu, drive to Manali | Trek distance: 5–6 km | Duration: 4–5 hours.",
+      details: "The final descent retraces forest trails back to Rumsu, followed by a drive to Manali, marking the end of the trek."
+    }
+  ],
+
+  didYouKnow: [
+    "Chandrakhani Pass is linked to local legends where gods are believed to have scattered divine elements across the valley.",
+
+    "The ridge offers one of the rare viewpoints where both Kullu and Parvati valleys can be seen together.",
+
+    "Rumsu village still preserves traditional Himachali culture and architecture.",
+
+    "The trail transitions quickly from forest to open ridge, offering diverse landscapes in a short span.",
+
+    "This trek is often considered a perfect introduction to Himalayan passes for beginners."
+  ],
+
+  howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774365373/chandrakhani-pass_bdqyc2.webp"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Who can join this trek?",
+        answer: "Suitable for beginners and families with basic fitness."
+      },
+      {
+        question: "Is this trek difficult?",
+        answer: "It is an easy to moderate trek with gradual ascents."
+      },
+      {
+        question: "What is special about Chandrakhani Pass?",
+        answer: "It offers ridge walks and panoramic valley views."
+      }
+    ]
+  },
+
   faqsLink: "/pages/faqs-and-articles",
 },
 
