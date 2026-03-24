@@ -4711,7 +4711,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      
+      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
       { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
       { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
       { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
@@ -5671,7 +5671,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
   tags: ["beginner"],
-  difficulty: ["easy"],
+  difficulty: ["easy", "moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
@@ -7277,7 +7277,7 @@ waypoints: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1774169736/panpatia-col_kdk8hx.jpg"
   ],
 
-  subtitle: "A Relentless High Himalayan Traverse in the Shadow of Chaukhamba",
+  subtitle: "A Relentless Himalayan Traverse in the Shadow of Chaukhamba",
 
   seo: {
   title: "Panpatia Col Trek | Complete Itinerary & Route | Planethimalayas",
@@ -8061,7 +8061,7 @@ waypoints: [
   id: "ranthan-kharak-trek",
   name: "Ranthan Kharak Trek",
   tags: ["intermediate"],
-  difficulty: ["moderate"],
+  difficulty: ["easy", "moderate"],
   season: ["spring", "summer", "autumn"],
   month: ["march", "april", "may", "june", "september", "october", "november"],
   region: "uttarakhand-kumaon",
@@ -8098,7 +8098,7 @@ waypoints: [
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m (12,140 ft)" },
       { emoji: "⚡", label: "Trek Distance", value: "40–45 Km (approx.)" },
       { emoji: "🌤️", label: "Best Time", value: "March–June, September–November" },
