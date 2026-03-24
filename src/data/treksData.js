@@ -2499,8 +2499,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     name: "Rani Sui Lake Trek",
     tags: ["beginner", "lake"],
     difficulty: ["easy"],
-    season: ["summer", "autumn", "monsoon", "winter","spring"],
-    month: ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "july", "september", "october"],
     duration: ["3 Nights / 4 Days"],
     region: "himachal pradesh",
     coordinates: [
@@ -2640,6 +2640,279 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     faqsLink: "/faqs-and-articles",
 },
 
+{
+  id: "brighu-lake-trek",
+  name: "Brighu Lake Trek",
+  tags: ["beginner", "lake"],
+  difficulty: ["easy", "moderate"],
+  season: ["summer", "autumn"],
+  month: ["june", "july", "september", "october"],
+  region: ["himachal pradesh"],
+  duration: "3 Nights / 4 Days",
+  coordinates: [
+  [32.2432, 77.1892], // Manali (start)
+
+[32.3165, 77.1660], // Gulaba (roadhead)
+[32.3288, 77.1542], // Gulaba Meadows
+
+[32.3475, 77.1386], // Rola Kholi
+
+[32.3628, 77.1215], // Bhrigu Lake
+
+[32.3475, 77.1386], // Rola Kholi (return)
+[32.3165, 77.1660], // Gulaba
+
+[32.2432, 77.1892], // Manali (end)
+],
+
+waypoints: [
+  { name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
+
+{ name: "Gulaba (Roadhead)", coords: [32.3165, 77.1660], type: "roadhead" },
+
+{ name: "Gulaba Meadows", coords: [32.3288, 77.1542], type: "camp" },
+
+{ name: "Rola Kholi", coords: [32.3475, 77.1386], type: "camp" },
+
+{ name: "Bhrigu Lake", coords: [32.3628, 77.1215], type: "lake" },
+
+{ name: "Gulaba (Descent Point)", coords: [32.3165, 77.1660], type: "roadhead" },
+
+{ name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353588/brighu-lake_jgspnx.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353588/brighu-lake_jgspnx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353589/brighu-lake-trek_ekssjo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353591/brighu-lake-trek1_pb2zzh.jpg"
+  ],
+
+  subtitle: "Meadows That Climb to a Sacred Himalayan Lake",
+
+  seo: {
+title: "Bhrigu Lake Trek | Complete Itinerary, Cost & Best Time | Planethimalayas",
+description:
+"Bhrigu Lake Trek (14,100 ft) is an easy to moderate high-altitude trek near Manali, known for its vast alpine meadows and stunning Himalayan views. A perfect escape for beginners, families, and even kids, this short and scenic trek in Himachal offers a rewarding mountain experience without long travel or extreme difficulty.",
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "3 Nights / 4 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "13,850 ft (Brighu Lake)" },
+      { emoji: "⚡", label: "Trek Distance", value: "~30 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "June-July & September-October" },
+      { emoji: "🗺️", label: "Region", value: "Kullu Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Manali" },
+      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `The Bhrigu Lake Trek unfolds as a quiet ascent into the higher reaches of the Kullu valley, where the landscape changes faster than your thoughts can settle. Beginning near Manali, the trail wastes no time in gaining altitude, rising steadily through forests and opening suddenly into vast alpine meadows that seem to stretch endlessly under the sky. It is this immediate transition—from the familiar to the expansive—that defines the character of the journey.
+
+<br>These meadows are not just a passage but an experience in themselves. Rolling in every direction, they carry a sense of openness rarely found on Himalayan trails, with uninterrupted views of peaks like Hanuman Tibba and the Seven Sisters. The air grows thinner, the horizon wider, and with every step, the noise of the world below fades into a distant memory.
+
+<br>Unlike longer expeditions that slowly build toward their climax, Bhrigu Lake reveals its high-altitude nature early. You find yourself walking above the tree line sooner than expected, where the terrain feels both exposed and freeing. The trail is clear, yet the experience is shaped less by the path and more by the vastness around it—the shifting light on the grasslands, the sudden movement of clouds, and the silence that settles in without warning.
+
+<br>At the heart of this journey lies Bhrigu Lake itself, set quietly at over 14,000 feet. Revered in local belief and associated with the sage Maharishi Bhrigu, the lake carries a stillness that feels almost deliberate. Even as weather and seasons change, it is said to never fully freeze—a detail that adds to its quiet mystique rather than demanding attention.
+
+<br>Reaching the lake is not marked by grandeur, but by a subtle shift in atmosphere. The wind slows, the sounds soften, and the vastness of the surroundings seems to draw inward. It is less about arrival and more about presence—a moment where the journey briefly pauses, allowing you to take in the simplicity of where you stand.
+
+<br>What makes the Bhrigu Lake Trek truly memorable is not just its accessibility, but the way it compresses the essence of the Himalayas into a short span of time. In just a few days, it offers high-altitude exposure, sweeping landscapes, and a sense of distance from the everyday world—without demanding extreme endurance.
+
+<br>As the trail descends back toward Manali, the transition feels almost unreal. The same meadows, once expansive and endless, now feel familiar, as if they’ve quietly shaped your pace and perspective. Bhrigu Lake does not overwhelm or test in extremes—it lingers instead, in the calm it leaves behind and the quiet pull to return to the mountains once again.`
+},
+
+  price: 7400,
+  priceNote: "* Manali to Manali",
+
+  addons: {
+    transport: null,
+    offloadingbag: 1500,
+    transportNote: null,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
+
+  highlights: [
+  "Easy accessibility from Manali, making it one of the most convenient high-altitude treks in Himachal",
+
+"Scenic mountain drive to Gulaba along the Rohtang Pass road, with sweeping views of the Kullu Valley",
+
+"Walk across the vast rolling meadows of Gulaba, opening into wide alpine landscapes above the tree line",
+
+"Bird’s-eye views of the Kullu Valley with prominent peaks like Hanuman Tibba, Friendship Peak, Ladakhi Peak, and Shitidhar dominating the skyline",
+
+"Camp at Rola Kholi, a stunning high-altitude campsite surrounded by open grasslands and mountain ridges",
+
+"Visit the sacred Bhrigu Lake (~14,100 ft), known for its spiritual significance and serene high-altitude setting"
+],
+
+  itinerary: [
+    {
+"day": 1,
+"title": "Manali (6,725 ft) to Gulaba (9,840 ft) drive, trek to Gulaba Meadows (10,500 ft) | Drive: ~22 km | Trek: 3–4 km | Duration: 4–5 hours.",
+"details": "The journey begins from Manali, leaving behind the bustle of the town as the road climbs steadily toward Gulaba along the iconic Rohtang Pass route. The drive itself is a highlight, offering sweeping views of the Kullu Valley, winding mountain roads, and glimpses of distant snow-clad peaks. As you gain altitude, the air turns cooler and the landscape begins to open up.\n\nReaching Gulaba, the trek begins with a gradual ascent through forested patches before quickly transitioning into open meadows. Within a short span, the tree line starts thinning out, and the trail emerges into expansive grasslands that define the character of this trek.\n\nThe campsite at Gulaba Meadows is set amidst rolling slopes with wide, uninterrupted views of the surrounding mountains. The evening is calm and open, with the vastness of the landscape offering the first real sense of being in the high Himalayas. It also serves as an important acclimatization point before heading higher the next day."
+},
+
+{
+"day": 2,
+"title": "Gulaba Meadows to Rola Kholi (12,500 ft) | Trek distance: 6–7 km | Duration: 5–6 hours.",
+"details": "The day begins with a steady climb through endless rolling meadows, where the trail feels less like a defined path and more like a natural progression across open terrain. The absence of dense forests allows for uninterrupted views right from the start, with the Kullu Valley gradually unfolding below.\n\nAs you gain altitude, the landscape becomes more dramatic. The ridgelines stretch wider, the air grows thinner, and peaks like Hanuman Tibba, Friendship Peak, and Shitidhar begin to dominate the horizon. The sense of elevation is constant, with every step bringing a broader perspective of the surrounding ranges.\n\nRola Kholi, the campsite for the day, sits in a wide alpine basin surrounded by gentle slopes and high ridges. It is one of the most scenic high-altitude camps in the region, offering a perfect balance of openness and shelter. The evening here is often marked by shifting clouds, golden light on the grasslands, and a deep silence that settles across the valley."
+},
+
+{
+"day": 3,
+"title": "Rola Kholi to Bhrigu Lake (14,100 ft) and return | Trek distance: 8–9 km | Duration: 6–7 hours.",
+"details": "This is the most significant day of the trek, with a steady climb toward Bhrigu Lake. The trail ascends gradually at first, crossing ridgelines and high meadows before becoming steeper as you approach the lake basin. The terrain remains open throughout, with no tree cover—only vast slopes, shifting clouds, and distant peaks guiding the way.\n\nAs you gain height, the landscape starts to feel more stark and minimal. The grasslands slowly give way to rocky patches, and the wind often carries a sharper edge at this altitude. The final stretch to the lake is marked by a quiet, almost sudden arrival.\n\nBhrigu Lake sits calmly amidst this high-altitude setting, carrying a strong sense of stillness. Associated with Maharishi Bhrigu, the lake holds deep spiritual significance and is known for its unique presence across changing seasons. The time spent here is unhurried—allowing space to absorb the silence, the altitude, and the scale of the surroundings.\n\nAfter spending time at the lake, the descent back to Rola Kholi follows the same route, with the return offering a different perspective of the terrain. The evening at camp feels more grounded, carrying the quiet satisfaction of having reached the highest point of the journey."
+},
+
+{
+"day": 4,
+"title": "Rola Kholi to Gulaba, drive to Manali | Trek distance: 8–9 km | Drive: ~22 km | Duration: 5–6 hours.",
+"details": "The final day begins with a gradual descent from Rola Kholi, retracing the path across the same expansive meadows that marked the ascent. The landscape, now familiar, feels different on the way down—less overwhelming, yet equally beautiful.\n\nAs you lose altitude, the air grows denser and the distant views slowly give way to closer surroundings. The trail eventually leads back to Gulaba, where the road reconnects you to the outside world.\n\nThe drive back to Manali marks a clear transition—from open, high-altitude silence to the liveliness of the valley. The mountains remain in view, but the pace changes. The trek concludes not with a dramatic finish, but with a quiet sense of completion—of having experienced a slice of the high Himalayas in a short yet deeply memorable journey."
+},
+  ],
+
+  didYouKnow: [
+  "Despite being a short trek, Bhrigu Lake takes you above the tree line unusually fast — something that typically takes several days on most Himalayan treks.",
+
+"The meadows of Gulaba and Rola Kholi are part of ancient grazing grounds still used by local shepherds, which is why you may come across flocks of sheep even at high altitudes.",
+
+"Unlike many high-altitude lakes that freeze completely in winter, Bhrigu Lake is believed by locals to never fully freeze — adding to its spiritual significance.",
+
+"The lake is associated with Maharishi Bhrigu, one of the Saptarishis, and is considered a place of deep meditation rather than pilgrimage in the traditional sense.",
+
+"On clear days, the ridgelines around Bhrigu Lake offer a rare viewing angle where peaks of both the Pir Panjal and parts of the Greater Himalayas can be seen together.",
+
+"The open meadows on this trek can be disorienting in poor visibility — with no defined trail, navigation often depends on understanding the terrain rather than following a path.",
+
+"Rola Kholi, now a popular campsite, was once just a natural halt used by shepherds moving livestock across high-altitude grasslands.",
+
+"The sudden weather shifts on this trek are influenced by its proximity to the Rohtang Pass corridor, where clouds can roll in within minutes even on clear days.",
+
+"During early summer, patches of snow often remain scattered across the meadows, creating a striking contrast of green grass and white snowfields.",
+
+"The descent often feels shorter not because of distance, but because the vast landscapes that felt overwhelming on the way up now feel familiar and easier to read.",
+
+"Unlike remote expeditions, Bhrigu Lake offers a rare psychological contrast — you feel deep in the mountains, yet the road and civilization are never too far away.",
+
+"For many trekkers, Bhrigu Lake becomes their first real experience of high-altitude silence — not the absence of sound, but the absence of distraction.",
+
+"The trek is often underestimated due to its short duration, but the rapid altitude gain is what makes acclimatization and pacing more important than expected.",
+
+"What stays with most trekkers isn’t just the lake, but the feeling of walking across open meadows with nothing blocking your horizon — a rare kind of freedom in the Himalayas."
+],
+
+  howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353588/brighu-lake_jgspnx.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353589/brighu-lake1_w9bciu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353589/brighu-lake-trek_ekssjo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353591/brighu-lake-trek1_pb2zzh.jpg"
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+"question": "Who can join the Bhrigu Lake Trek?",
+"answer":
+"Bhrigu Lake is ideal for beginners, first-time trekkers, and even families. Anyone with basic fitness and the ability to walk 4–6 hours a day can complete this trek comfortably."
+},
+
+{
+"question": "Is the Bhrigu Lake Trek suitable for families and kids?",
+"answer":
+"Yes, this is one of the best treks in Himachal for families and kids. Children who are reasonably active usually adapt well, often better than adults, as long as the pace is kept slow and steady with proper rest."
+},
+
+{
+"question": "How difficult is the Bhrigu Lake Trek?",
+"answer":
+"It is an easy to moderate high-altitude trek. The main challenge comes from the rapid altitude gain rather than the terrain, which remains mostly gradual and non-technical."
+},
+
+{
+"question": "Do I need any permits for this trek?",
+"answer":
+"Yes, permits are required as the trek falls under forest and protected areas near Gulaba. These are arranged by the trekking team and are included in the trek logistics."
+},
+
+{
+"question": "Will there be mobile network connectivity?",
+"answer":
+"Network is usually available in Manali and partially near Gulaba (mostly Jio). Beyond that, especially at higher camps like Rola Kholi and near the lake, there is no reliable connectivity."
+},
+
+{
+"question": "What kind of accommodation is provided during the trek?",
+"answer":
+"Accommodation is in high-quality tents at scenic campsites like Gulaba Meadows and Rola Kholi. These are open alpine camps with beautiful views and basic trekking facilities."
+},
+
+{
+"question": "What precautions should families take, especially with kids?",
+"answer":
+"The key is to maintain a slow pace, stay well hydrated, and avoid rushing the ascent. Proper layering, sun protection, and listening to the trek leader are important. Kids usually do well if they are comfortable walking and are kept warm and energized."
+},
+
+{
+"question": "What kind of weather can be expected on this trek?",
+"answer":
+"Weather can change quickly. Days are usually pleasant with strong sun, while evenings and nights can get cold, especially at higher camps. Sudden clouds or light rain are also common due to the trek’s proximity to Rohtang Pass."
+},
+
+{
+"question": "What is special about Bhrigu Lake?",
+"answer":
+"Bhrigu Lake is a high-altitude sacred lake associated with Maharishi Bhrigu. It is known for its calm setting and the local belief that it never fully freezes, adding to its spiritual significance."
+},
+
+{
+"question": "Is prior trekking experience required?",
+"answer":
+"No prior trekking experience is required, but basic fitness and a willingness to walk in mountain terrain are important."
+},
+
+{
+"question": "How physically fit do I need to be?",
+"answer":
+"You should be able to walk comfortably for 4–6 hours a day on gradual inclines. Light cardio preparation like walking, jogging, or cycling for a few weeks helps a lot."
+},
+
+{
+"question": "What makes Bhrigu Lake a good beginner trek?",
+"answer":
+"It offers quick access to high-altitude landscapes, wide meadows, and big mountain views within a short duration, without technical difficulty—making it a perfect introduction to Himalayan trekking."
+},
+
+{
+"question": "Is altitude sickness a concern on this trek?",
+"answer":
+"Yes, since the altitude gain is quick, mild symptoms like headache or fatigue can occur. Proper hydration, pacing, and acclimatization stops help manage this effectively."
+},
+
+{
+"question": "What kind of overall experience does this trek offer?",
+"answer":
+"Bhrigu Lake offers a rare combination of accessibility and high-altitude beauty—vast meadows, panoramic Himalayan views, and a sacred lake experience, all within a short and rewarding journey near Manali."
+}
+  ],
+},
+  
+  faqsLink: "/pages/faqs-and-articles",
+},
 
   {
     id: "rupin-pass-trek",
