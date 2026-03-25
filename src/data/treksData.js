@@ -1698,7 +1698,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   tags: ["beginner", "intermediate", "glacier", "lake"],
   difficulty: ["moderate"],
   season: ["monsoon"],
-  month: ["july", "august", "september"],
+  month: ["july", "august", "september", "october"],
   region: "himachal pradesh",
   duration: "7 Nights / 7 Days",
   coordinates: [
@@ -1735,7 +1735,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft" },
       { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
-      { emoji: "🌤️", label: "Best Time", value: "July to September" },
+      { emoji: "🌤️", label: "Best Time", value: "July to October" },
       { emoji: "🗺️", label: "Region", value: "Lahaul, Himachal Pradesh" },
       { emoji: "📍", label: "Start Point", value: "Khanjer" },
       { emoji: "🏁", label: "End Point", value: "Khanjer" },
@@ -2349,7 +2349,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     tags: ["beginner"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
-    month: ["may", "june", "july", "august", "september", "october", "november", "december"],
+    month: ["may", "june", "july", "august", "september", "october", "november"],
     duration: ["4 Nights / 5 Days"],
     region: "himachal pradesh",
     coordinates: [
@@ -2383,7 +2383,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
             { emoji: "⚡", label: "Trek Grade", value: "Easy" },
             { emoji: "🏔️", label: "Max Altitude", value: "4,200 m (Sethan Dome)" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 35 Km" },
-            { emoji: "🌤️", label: "Best Time", value: "May–January" },
+            { emoji: "🌤️", label: "Best Time", value: "May–November" },
             { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Pir Panjal Range" },
             { emoji: "📍", label: "Start Point", value: "Jagatsukh (near Manali)" },
             { emoji: "🏁", label: "End Point", value: "Jobri Dam (near Manali)" },
@@ -2710,19 +2710,21 @@ description:
       { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
     ],
 
-    snippet: `The Bhrigu Lake Trek unfolds as a quiet ascent into the higher reaches of the Kullu valley, where the landscape changes faster than your thoughts can settle. Beginning near Manali, the trail wastes no time in gaining altitude, rising steadily through forests and opening suddenly into vast alpine meadows that seem to stretch endlessly under the sky. It is this immediate transition—from the familiar to the expansive—that defines the character of the journey.
+    snippet: `Some treks feel long and gradual, revealing the mountains layer by layer. The Bhrigu Lake Trek is different—it rises quickly, almost decisively, taking you from the familiar into the high Himalayas in a way that feels both sudden and deeply immersive. It is a journey defined by openness, where the landscape does not build slowly but expands all at once, pulling you into its scale from the very beginning.
 
-<br>These meadows are not just a passage but an experience in themselves. Rolling in every direction, they carry a sense of openness rarely found on Himalayan trails, with uninterrupted views of peaks like Hanuman Tibba and the Seven Sisters. The air grows thinner, the horizon wider, and with every step, the noise of the world below fades into a distant memory.
+<br>What draws trekkers here is simple—a short Himalayan escape that offers vast meadows, high-altitude exposure, and uninterrupted views without the need for long, demanding days. It is the promise of walking above the tree line early, of seeing more sky than forest, and of feeling the mountains not as distant peaks, but as something that surrounds you completely.
 
-<br>Unlike longer expeditions that slowly build toward their climax, Bhrigu Lake reveals its high-altitude nature early. You find yourself walking above the tree line sooner than expected, where the terrain feels both exposed and freeing. The trail is clear, yet the experience is shaped less by the path and more by the vastness around it—the shifting light on the grasslands, the sudden movement of clouds, and the silence that settles in without warning.
+<br>The journey begins near Manali, climbing steadily through forested sections that quickly give way to open grasslands. The transition is almost abrupt. One moment you are within the comfort of trees, and the next, you are walking across wide alpine meadows that stretch endlessly in every direction. The trail itself becomes secondary—the experience shaped more by the vastness around you than the path beneath your feet.
 
-<br>At the heart of this journey lies Bhrigu Lake itself, set quietly at over 14,000 feet. Revered in local belief and associated with the sage Maharishi Bhrigu, the lake carries a stillness that feels almost deliberate. Even as weather and seasons change, it is said to never fully freeze—a detail that adds to its quiet mystique rather than demanding attention.
+<br>As the ascent continues, the sense of elevation becomes constant. Peaks like Hanuman Tibba and the Seven Sisters rise clearly across the horizon, while the Kullu Valley slowly drops away behind you. The air grows thinner, the silence deeper, and the rhythm of the trek begins to settle into something slower, more aware.
 
-<br>Reaching the lake is not marked by grandeur, but by a subtle shift in atmosphere. The wind slows, the sounds soften, and the vastness of the surroundings seems to draw inward. It is less about arrival and more about presence—a moment where the journey briefly pauses, allowing you to take in the simplicity of where you stand.
+<br>At the center of this journey lies Bhrigu Lake, resting quietly at over 14,000 feet. There is no dramatic reveal—only a gradual arrival into a space that feels still and self-contained. Associated with Maharishi Bhrigu, the lake carries a quiet presence, shaped as much by belief as by the stark simplicity of its surroundings.
 
-<br>What makes the Bhrigu Lake Trek truly memorable is not just its accessibility, but the way it compresses the essence of the Himalayas into a short span of time. In just a few days, it offers high-altitude exposure, sweeping landscapes, and a sense of distance from the everyday world—without demanding extreme endurance.
+<br>Time at the lake feels different. The wind softens, the landscape steadies, and the vastness that defined the climb now feels closer, almost intimate. It is not a place that demands attention, but one that holds it—subtly, without effort.
 
-<br>As the trail descends back toward Manali, the transition feels almost unreal. The same meadows, once expansive and endless, now feel familiar, as if they’ve quietly shaped your pace and perspective. Bhrigu Lake does not overwhelm or test in extremes—it lingers instead, in the calm it leaves behind and the quiet pull to return to the mountains once again.`
+<br>What makes this trek stand out is not just what you see, but how quickly you experience it all. In just a few days, it brings together meadows, ridgelines, altitude, and stillness—without pushing the body to extremes. It is as much about ease as it is about elevation.
+
+<br>As you descend back toward Manali, the same landscapes begin to feel familiar. The meadows that once felt endless now feel known, the silence less overwhelming. The journey doesn’t end with the lake—it lingers in the calm it leaves behind, and in the quiet realization of how easily the mountains can reshape your sense of space, pace, and distance.`
 },
 
   price: 7400,
@@ -2981,17 +2983,22 @@ description:
       { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
     ],
 
-    snippet: `The Beas Kund Trek begins from the Solang valley near Manali, gradually moving away from the noise of the town and into a quieter, more open Himalayan landscape. The trail follows the course of the Beas River, staying close to its origin, where the sound of flowing water remains a constant presence throughout the journey.
+    snippet: `Some treks are about distance, while others are about how close you can get to the mountains—and the Beas Kund Trek is firmly the latter. This is a journey that places you right at the base of towering Himalayan peaks, where the scale feels immediate and constant, and the landscape carries a raw, glacial character from the very beginning.
 
-<br>Unlike meadow-heavy treks, this route unfolds through a wide glacial valley, surrounded by towering peaks that feel close and imposing. Peaks like Hanuman Tibba, Friendship Peak, and Shitidhar dominate the skyline, giving the entire trek a strong high-mountain character despite its short duration.
+<br>For those coming in, the expectation is clear—a short yet immersive trek near Manali that offers a real high-mountain experience without long durations. It’s about walking through a wide alpine valley, staying close to the origins of a river, and witnessing the transition from green terrain to rugged glacial ground in just a few days.
 
-<br>The trail itself is steady and well-defined, moving across rocky terrain, river crossings, and patches of alpine grasslands. As you gain altitude, the landscape becomes more rugged, with moraine sections and glacial features beginning to appear, offering a glimpse into the raw geography of the Himalayas.
+<br>The journey begins from the Solang valley, gradually moving away from the last signs of civilization and into a broad, open landscape shaped by ancient glaciers. The Beas River becomes your constant companion, flowing beside the trail, its presence grounding the entire experience.
 
-<br>At its heart lies Beas Kund, a small glacial lake believed to be the origin of the Beas River. Associated with Sage Vyas, the lake carries both geographical and mythological significance. Set against a stark backdrop of snow-covered peaks, it is a place that feels quiet, contained, and deeply rooted in the mountains.
+<br>Unlike meadow-dominated treks, the terrain here feels more structured and defined. The trail moves steadily across rocky paths, river crossings, and alpine stretches, with the valley opening wide on all sides. Peaks like Hanuman Tibba, Friendship Peak, and Shitidhar rise sharply above, never feeling distant but always close enough to dominate your field of view.
 
-<br>What makes this trek stand out is its balance — a short journey that still offers glacier views, high-altitude terrain, and close encounters with major Himalayan peaks. It does not overwhelm, but steadily introduces you to the mountains in their more raw and structured form.
+<br>As you gain altitude, the softness of the lower valley begins to fade. Moraine sections appear, the terrain grows rougher, and the landscape starts to reflect the true nature of glacial environments. It’s a gradual but clear shift—from green to grey, from open to stark.
 
-<br>As you descend back toward Dhundi and eventually Manali, the scale of the valley begins to shrink, but the memory of walking at the base of such towering peaks lingers. Beas Kund is less about distance and more about proximity — to mountains, to glaciers, and to the source of a river that shapes the entire valley below.`
+<br>At the center of this journey lies Beas Kund, a small, quiet lake set at the foot of these massive peaks. Believed to be the source of the Beas River and associated with Sage Vyas, it holds a significance that feels both geographical and deeply rooted in local belief. There is no dramatic arrival—just a still, contained space where everything seems to pause.
+
+<br>What makes this trek stand out is not just the destination, but the proximity it offers throughout. The mountains are never in the background—they are always around you, shaping every step and every view.
+
+<br>As you descend back toward Dhundi and eventually Manali, the valley slowly begins to close in, and the peaks that once felt overwhelming start to recede. But the memory remains—of walking through a landscape where distance didn’t matter, and where the mountains felt closer than ever before.`
+
   },
 
   price: 6900,
@@ -3177,20 +3184,20 @@ description:
       { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
     ],
 
-    snippet: `The Chandrakhani Pass Trek begins from the traditional village of Rumsu, gradually leaving behind the settled landscape and moving into forested mountain terrain. The trail climbs steadily through dense pine and oak forests, where the sounds of the valley slowly fade into a quieter rhythm.
+    snippet: `Some treks are about reaching a destination, while others are about walking through constantly shifting landscapes—and Chandrakhani Pass sits firmly in the latter. This is a journey defined not by a single highlight, but by the rhythm of forests giving way to meadows, and meadows opening into vast ridgelines where the mountains feel closer with every step.
 
-<br>As the ascent continues, the forest begins to open, giving way to expansive meadows that stretch across the mountainside. These high-altitude grasslands offer the first real sense of openness, with wide views and a noticeable shift in the character of the landscape.
+<br>For those coming in, the expectation is simple yet compelling—a short Himalayan escape that offers variety, views, and a sense of space without extreme difficulty. It’s the kind of trek where you don’t have to wait days to feel immersed; the transition happens steadily, almost naturally, as the surroundings begin to expand around you.
 
-<br>The defining feature of this trek is the ridge walk leading up to Chandrakhani Pass. Unlike valley treks, this route unfolds along open ridgelines, where both sides drop into vast valleys, creating a constant sense of exposure and scale.
+<br>The journey begins from the traditional village of Rumsu, just beyond Naggar, where the trail moves quietly through dense pine and oak forests. The initial climb is steady and shaded, grounding you in the terrain before gradually opening into wide alpine clearings that hint at what lies ahead.
 
-<br>From the pass, the panorama expands dramatically. Peaks of the Pir Panjal range rise on one side, while the Parvati Valley opens on the other, creating one of the most rewarding viewpoints in the region.
+<br>As the forest thins out, the landscape shifts into rolling meadows and exposed ridgelines. The trail no longer feels enclosed—instead, it stretches outward, with views beginning to open on both sides. This transition is subtle but powerful, marking the point where the trek truly begins to reveal its character.
 
-<br>Steeped in local mythology, the pass is believed to be where the gods scattered divine elements across the valley, adding a cultural depth to the journey beyond just the landscape.
+<br>The approach to Chandrakhani Pass is along a high ridge, where the sense of elevation becomes constant. Valleys fall away on either side, and the horizon expands into layers of distant peaks. The pass itself is not just a point on the map, but a viewpoint where the Pir Panjal range meets the Parvati Valley in a wide, uninterrupted panorama.
 
-<br>What makes this trek unique is its balance of forest trails, open meadows, and high ridgelines—all within a short duration. It offers a complete Himalayan experience without technical difficulty, making it both accessible and memorable.
+<br>Steeped in local mythology, the pass is believed to be where divine elements were scattered across the valley by the gods, adding a quiet cultural depth to the experience—something that isn’t always visible, but often felt.
 
-<br>As the trail descends toward Naya Tapru and eventually back to Rumsu, the journey feels complete—not just in distance covered, but in the variety of landscapes and perspectives experienced along the way.`
-  },
+<br>As the trail descends toward Naya Tapru and eventually back to Rumsu, the journey comes full circle. What begins as a forest walk evolves into a ridge-top experience and returns again to familiar ground, leaving behind not just views, but a sense of having moved through different layers of the Himalayas in a short, well-balanced trek.`
+ },
 
   price: 9400,
   priceNote: "* Manali to Manali",
@@ -3220,28 +3227,28 @@ description:
 
   itinerary: [
     {
-      day: 1,
-      title: "Manali (6,400 ft) to Rumsu (6,800 ft) drive | Duration: 1–2 hours.",
-      details: "A short drive from Manali takes you to Rumsu village, a traditional Himalayan settlement. The day is kept easy to settle into the environment and prepare for the trek ahead."
-    },
+"day": 1,
+"title": "Manali (6,400 ft) to Rumsu (6,800 ft) | Drive: ~20 km | Duration: 1–2 hours.",
+"details": "The journey begins with a short drive from Manali toward Naggar and further up to Rumsu village, a quiet and traditional Himalayan settlement perched above the Kullu Valley. As you leave behind the busier stretches of Manali, the road narrows and winds through apple orchards and scattered homes, gradually transitioning into a more rural landscape.\n\nRumsu itself offers a glimpse into local Himachali life, with traditional wooden houses, small temples, and a slower pace that feels far removed from the tourist-heavy areas below. The day is intentionally kept light, allowing time to settle in, organize gear, and ease into the rhythm of the mountains.\n\nThe surrounding views begin to open slightly, hinting at the higher ridgelines you’ll soon be walking on. It’s a gentle start—less about distance and more about preparing both physically and mentally for the trek ahead."
+},
 
-    {
-      day: 2,
-      title: "Rumsu to Chaklani (11,400 ft) | Trek distance: 8–9 km | Duration: 5–6 hours.",
-      details: "The trail climbs steadily through dense forests before opening into wide meadows. The gradual transition offers both shade and views, making the ascent enjoyable and varied."
-    },
+{
+"day": 2,
+"title": "Rumsu to Chaklani (11,400 ft) | Trek distance: 8–9 km | Duration: 5–6 hours.",
+"details": "The trek begins with a steady ascent out of Rumsu, quickly entering dense forests of pine, oak, and occasional deodar. The trail is well-defined, gradually gaining altitude through shaded sections where the forest canopy filters the sunlight, creating a cool and comfortable climb.\n\nAs you move higher, the forest begins to thin in patches, offering brief openings that reveal views of the Kullu Valley below. The gradient remains consistent—neither too steep nor too gradual—making it a steady and rhythmic climb.\n\nAfter a few hours, the landscape starts to shift. The dense forest gives way to wider clearings and eventually opens into alpine meadows. This transition is noticeable—not just visually, but in the feel of the trail itself, as the surroundings become more expansive.\n\nChaklani, the campsite for the day, is set in one such open meadow. Surrounded by rolling grasslands and forest edges, it offers a balanced setting with both shelter and views. The evening here is quiet, with the first real sense of being higher up in the mountains settling in."
+},
 
-    {
-      day: 3,
-      title: "Chaklani to Chandrakhani Pass (12,100 ft) & descend to Naya Tapru (10,600 ft) | Trek distance: 8–9 km | Duration: 6–7 hours.",
-      details: "The day involves a ridge walk to Chandrakhani Pass, offering panoramic views of surrounding ranges. After spending time at the pass, the trail descends to Naya Tapru campsite."
-    },
+{
+"day": 3,
+"title": "Chaklani to Chandrakhani Pass (12,100 ft) & descend to Naya Tapru (10,600 ft) | Trek distance: 8–9 km | Duration: 6–7 hours.",
+"details": "This is the most defining day of the trek, beginning with a gradual climb out of Chaklani toward the upper ridgelines. The forest cover reduces significantly, and the trail opens into wide meadows that lead toward the pass.\n\nAs you approach the ridge, the character of the trek changes. The path now runs along exposed ridgelines, with valleys dropping away on both sides. The sense of space becomes constant, and the views begin to dominate the experience.\n\nThe final stretch to Chandrakhani Pass is steady but not technical. Reaching the pass, you’re greeted with panoramic views that stretch across the Pir Panjal range on one side and the Parvati Valley on the other. Peaks appear layered across the horizon, creating a wide, uninterrupted mountain panorama.\n\nAfter spending time at the pass, the trail descends toward Naya Tapru. The descent is gradual at first, moving back into softer terrain with patches of grassland and scattered trees. Naya Tapru campsite sits slightly lower, offering a more sheltered environment after the exposed ridge walk. The contrast between the open pass and this quieter camp adds depth to the day’s experience."
+},
 
-    {
-      day: 4,
-      title: "Naya Tapru to Rumsu, drive to Manali | Trek distance: 5–6 km | Duration: 4–5 hours.",
-      details: "The final descent retraces forest trails back to Rumsu, followed by a drive to Manali, marking the end of the trek."
-    }
+{
+"day": 4,
+"title": "Naya Tapru to Rumsu, drive to Manali | Trek distance: 5–6 km | Duration: 4–5 hours.",
+"details": "The final day begins with a descent from Naya Tapru back toward Rumsu, retracing sections of the trail through forested terrain. The path gradually re-enters dense tree cover, bringing back the shade and familiar feel of the lower mountain landscape.\n\nThe descent is steady and easier on the lungs, allowing for a more relaxed pace. Occasional openings in the forest still offer glimpses of the valley, but the focus shifts back to the trail underfoot and the quiet rhythm of walking.\n\nReaching Rumsu marks the end of the trekking section. From here, a short drive brings you back to Manali, transitioning from the calm, elevated environment of the trek to the livelier atmosphere of the town.\n\nThe journey concludes with a sense of having experienced multiple layers of the Himalayas—from dense forests to open ridges and high mountain views—all within a compact and well-balanced trek."
+}
   ],
 
   didYouKnow: [
@@ -3286,6 +3293,361 @@ description:
     ]
   },
 
+  faqsLink: "/pages/faqs-and-articles",
+},
+
+{
+  id: "kalihani-pass-trek",
+  name: "Kalihani Pass Trek",
+  tags: ["intermediate", "pass", "glacier"],
+  difficulty: ["moderate", "difficult"],
+  season: ["summer", "autumn"],
+  month: ["june", "july", "september", "october"],
+  region: ["himachal pradesh"],
+  duration: "7 Nights / 8 Days",
+  coordinates: [
+[32.2432, 77.1892], // Manali (start)
+
+[32.2786, 77.2921], // Sangchar (roadhead)
+[32.2954, 77.3018], // Jammu Pani
+
+[32.3187, 77.3156], // Pani Dhar
+
+[32.3372, 77.3298], // Riyali Thatch
+
+[32.3526, 77.3441], // Shagor
+
+[32.3689, 77.3605], // Kalihani Pass
+
+[32.3526, 77.3441], // Shagor (return)
+
+[32.3368, 77.3272], // Rani Sui Lake
+
+[32.3095, 77.2874], // Khanpari Tibba
+[32.2892, 77.2621], // Lamadugh
+
+[32.2432, 77.1892], // Manali (end)
+],
+
+waypoints: [
+{ name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
+
+{ name: "Sangchar (Roadhead)", coords: [32.2786, 77.2921], type: "roadhead" },
+
+{ name: "Jammu Pani", coords: [32.2954, 77.3018], type: "camp" },
+
+{ name: "Pani Dhar", coords: [32.3187, 77.3156], type: "camp" },
+
+{ name: "Riyali Thatch", coords: [32.3372, 77.3298], type: "camp" },
+
+{ name: "Shagor", coords: [32.3526, 77.3441], type: "camp" },
+
+{ name: "Kalihani Pass", coords: [32.3689, 77.3605], type: "pass" },
+
+{ name: "Rani Sui Lake", coords: [32.3368, 77.3272], type: "lake" },
+
+{ name: "Khanpari Tibba", coords: [32.3095, 77.2874], type: "landmark" },
+
+{ name: "Lamadugh", coords: [32.2892, 77.2621], type: "camp" },
+
+{ name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426458/Kalihani_pass_hvxung.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426458/Kalihani_pass_hvxung.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426405/kalihani-pass-trek15_ojil53.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426365/kalihani-pass-trek9_vxno5a.jpg",
+	"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426459/Rani-Sui-Lake-hero1_w8vwrq.jpg"
+  ],
+
+  subtitle: "An Offbeat Gateway to Bara Bhangal",
+
+  seo: {
+title: "Kalihani Pass Trek | Complete Itinerary, Cost & Best Time | Planethimalayas",
+
+description:
+"Kalihani Pass Trek (15,750 ft) is a challenging high-altitude trek in Himachal Pradesh near Manali, featuring glaciers, alpine meadows, and the sacred Rani Sui Lake. Ideal for experienced trekkers, this offbeat Himalayan trek offers dramatic mountain views, diverse terrain, and a true expedition-like experience in the Kullu Valley."
+},
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "15,850 ft (Kalihani Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "~45 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "June-July & September-October" },
+      { emoji: "🗺️", label: "Region", value: "Kullu Valley, Himachal Pradesh" },
+      { emoji: "📍", label: "Start Point", value: "Manali" },
+      { emoji: "🏁", label: "End Point", value: "Manali" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not Available" },
+    ],
+
+    snippet: `Beyond the familiar trails around Manali lies a quieter side of the Himalayas—one that doesn’t reveal itself all at once, but unfolds gradually as you move deeper into it. The Kalihani Pass Trek follows this shift, starting in the comfort of forested paths and slowly leading into landscapes that feel increasingly distant, raw, and untouched.
+
+<br>What makes this journey stand apart is its direction. The route moves toward the remote expanse of the Bara Bhangal side, a region known more by reputation than by footfall. It’s not about reaching a crowded summit or ticking off a viewpoint, but about walking into terrain that feels less traveled, where every day carries you further from the familiar rhythm of the valley.
+
+<br>The early stages pass through dense forests, grazing clearings, and water-fed camps like Jammu Pani, where the trail feels grounded and steady. There is a sense of progression, but not urgency—the mountains remain partially hidden, revealing themselves in fragments rather than all at once.
+
+<br>As altitude builds, the landscape begins to open out. Meadows like Riyali Thatch stretch wide under shifting light, and camps like Shagor sit at the edge of where vegetation starts to thin. The trail becomes less about walking through and more about moving across—across slopes, across ridgelines, across a terrain that feels increasingly exposed.
+
+<br>The approach to Kalihani Pass marks a clear transition. Grass gives way to rock, and rock to snow. The environment grows quieter, sharper, and more defined by altitude. The final stretch is not just a climb, but an entry into a glacial world where the scale of the mountains feels immediate and absolute.
+
+<br>At the pass, the landscape opens toward the wild, lesser-seen side of the range. It’s a moment that doesn’t demand celebration, but holds a quiet intensity—of having reached a place that feels both distant and deeply rooted in the geography of the Himalayas.
+
+<br>The return carries a different rhythm. As the trail loops back toward Rani Sui Lake and descends through ridgelines like Khanpari Tibba, the terrain softens once again. The same mountains remain, but the experience begins to settle, moving from effort into reflection.
+
+<br>By the time you reach back toward Manali, what stays is not just the memory of the pass, but the gradual shift you moved through—forests to meadows, meadows to glacier, and isolation back to familiarity. Kalihani is less about a single highlight, and more about the feeling of having walked into a quieter, less-seen side of the Himalayas—and back.`
+},
+
+  price: 18900,
+  priceNote: "* Manali to Manali",
+
+  addons: {
+    transport: null,
+    offloadingbag: 4000,
+    transportNote: null,
+    offloadingNote: "* Maximum weight 9kg/bag"
+  },
+
+  inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 8 lunch",
+
+  highlights: [
+"Move through a rich mix of dense Himalayan forests and vast alpine meadows, where the landscape gradually opens with altitude and changes character every day",
+
+"Experience diverse flora and fauna along the trail, with vibrant wildflowers in the meadows and varied vegetation across different altitude zones",
+
+"Camp at some of the most beautiful high-altitude sites like Riyali Thatch and Shagor, set in wide open spaces with uninterrupted mountain surroundings",
+
+"Take in expansive ridge-top views from Shagor and higher sections, overlooking both the Dhauladhar and Pir Panjal ranges with the Kullu Valley far below",
+
+"Reach Kalihani Pass (~15,800 ft), the highest point of the trek, marking a dramatic transition into a stark, glacial landscape near the edge of the remote Bara Bhangal region",
+
+"Visit the serene Rani Sui Lake, set quietly within a vast meadow, known for its calm setting and local significance",
+
+"Climb to Khanpari Tibba, a natural viewpoint offering sweeping bird’s-eye views of the Dhauladhar range ovverlooking the Kullu valley"
+],
+
+
+  itinerary: [
+
+{
+"day": 1,
+"title": "Manali (6,562 ft) to Sangchar (7,680 ft) drive, trek to Jammu Pani (9,840 ft) | Drive: ~18 km | Trek: 5–6 km | Duration: 5–6 hours.",
+"details": "The journey begins with a short drive from Manali toward the lesser-explored side of the valley, gradually leaving behind the busier routes. The road climbs toward Sangchar, a quiet roadhead where the trek officially begins, marking the shift from vehicle access to foot trails.\n\nThe initial trail enters dense forests, where pine, oak, and deodar dominate the landscape. The ascent is steady but shaded, with the sound of water streams accompanying the route. The terrain feels grounded and enclosed, offering little in terms of long views but a strong sense of being within the mountains.\n\nAs the climb continues, the forest begins to break into occasional clearings, hinting at the higher terrain ahead. Jammu Pani, the campsite, is set near a reliable water source, surrounded by forest and open patches. It serves as a calm first halt, easing the body into the rhythm of a longer and more demanding trek ahead."
+},
+
+{
+"day": 2,
+"title": "Jammu Pani to Pani Dhar | Trek distance: 7–8 km | Duration: 5–6 hours.",
+"details": "The day begins with a continued ascent through forested terrain, gradually gaining altitude along well-defined trails used historically by locals and shepherds. The forest remains dense for most of the climb, with occasional breaks offering glimpses of the valley below.\n\nAs you move higher, the vegetation begins to change subtly. The trees grow thinner, and the trail starts opening into wider sections where the surroundings feel less enclosed. The gradient remains consistent, making it a steady and sustained climb rather than a steep push.\n\nPani Dhar sits at a transitional point—where the forest starts giving way to more open terrain. The campsite offers a mix of tree cover and clearings, setting the stage for the more expansive landscapes that begin to unfold from the next day onward."
+},
+
+{
+"day": 3,
+"title": "Pani Dhar to Riyali Thatch (12,000 ft) | Trek distance: 6–7 km | Duration: 5–6 hours.",
+"details": "This day marks a clear shift in the character of the trek. The dense forest gradually recedes, opening into vast alpine meadows that stretch across the slopes. The transition is noticeable—not just visually, but in the feel of the trail, as the surroundings begin to expand in every direction.\n\nRiyali Thatch is one of the defining landscapes of this trek—wide, rolling grasslands dotted with seasonal wildflowers during the summer months. The sense of openness replaces the earlier enclosure of the forest, and views begin to extend toward distant ridgelines.\n\nThe campsite here is expansive and exposed, offering uninterrupted views of the surrounding terrain. The evening light across the meadows, combined with the growing sense of altitude, creates a shift in atmosphere—from sheltered to open, from grounded to elevated."
+},
+
+{
+"day": 4,
+"title": "Riyali Thatch to Shagor (13,120 ft) | Trek distance: 5–6 km | Duration: 4–5 hours.",
+"details": "The trail continues its gradual climb, now fully within open alpine terrain. The path moves across wide slopes and ridgelines, with very little tree cover remaining. The sense of elevation becomes more constant, and the surroundings feel increasingly expansive.\n\nAs you approach Shagor, the landscape becomes more dramatic. The campsite sits in a high-altitude basin, surrounded by ridges that offer sweeping views of both the Dhauladhar and Pir Panjal ranges. Valleys stretch out below, giving a strong sense of scale and distance.\n\nShagor is one of the most scenic camps on the trek—not just for its location, but for the perspective it offers. It feels like a threshold, where the softer alpine terrain begins to give way to the harsher, more rugged world higher up."
+},
+
+{
+"day": 5,
+"title": "Shagor to Kalihani Pass (15,750 ft) and return | Trek distance: 8–9 km | Duration: 7–8 hours.",
+"details": "This is the most demanding and defining day of the trek. The route ascends steadily from Shagor, leaving behind the grassy slopes and moving into rockier, more rugged terrain. As altitude increases, the environment becomes more stark, with patches of snow and moraine appearing closer to the pass.\n\nThe climb to Kalihani Pass is gradual but sustained, requiring steady pacing. The transition from meadow to glacial terrain is clear, marking a shift in both landscape and effort. The final approach opens into a high, exposed section where the scale of the mountains feels immediate and unfiltered.\n\nAt the pass, the terrain drops away toward the remote Bara Bhangal side—a region known for its isolation and minimal access. The moment here is defined less by celebration and more by the starkness of the surroundings.\n\nAfter spending time at the pass, the descent follows the same route back to Shagor. The return feels different, with the harshness of the upper terrain giving way once again to the relative softness of the alpine slopes."
+},
+
+{
+"day": 6,
+"title": "Shagor to Rani Sui Lake | Trek distance: 6–7 km | Duration: 5–6 hours.",
+"details": "The trail descends gradually from Shagor, moving away from the harsher upper terrain into softer alpine landscapes. The route traverses across open slopes and meadows, maintaining wide views of the surrounding ranges.\n\nRani Sui Lake appears quietly within a vast meadow, without a dramatic reveal. Surrounded by open grasslands, it carries a calm, grounded presence that contrasts with the starkness of the previous day.\n\nThe campsite near the lake offers a more sheltered and peaceful environment. The setting feels less exposed, with the focus shifting from scale to stillness—marking a gentle transition in the overall journey."
+},
+
+{
+"day": 7,
+"title": "Rani Sui to Lamadugh (9,840 ft) via Khanpari Tibba | Trek distance: 7–8 km | Duration: 5–6 hours.",
+"details": "The day begins with a climb toward Khanpari Tibba, a prominent high point along the route. From here, the views open once again—this time overlooking the Manali valley, with the Dhauladhar range stretching across the horizon.\n\nThe trail then descends gradually toward Lamadugh, re-entering forested sections after days spent in open terrain. The transition is noticeable, as the path moves back under tree cover, bringing shade and a sense of enclosure once again.\n\nLamadugh serves as the final campsite, offering a comfortable and relatively lower-altitude halt after the high-altitude sections of the trek."
+},
+
+{
+"day": 8,
+"title": "Lamadugh to Manali | Trek distance: 5–6 km | Duration: 3–4 hours.",
+"details": "The final day is a steady descent from Lamadugh back to Manali. The trail moves entirely through forested terrain, gradually losing altitude as the sounds and signs of civilization begin to return.\n\nThe path is well-defined and easier on the body, allowing for a more relaxed pace. As you approach Manali, the shift from quiet mountain trails to the liveliness of the town becomes clear.\n\nThe trek concludes with a strong sense of completion—not defined by a single point, but by the progression through forests, meadows, ridgelines, and high-altitude terrain. Kalihani leaves behind not just views, but the memory of having moved steadily into a more remote and less-traveled side of the Himalayas, and back."
+}
+
+],
+
+  didYouKnow: [
+"The route toward Kalihani Pass has long been used by local shepherds moving between grazing grounds, and even today, sections of the trail follow these traditional high-altitude migration paths.",
+
+"Bara Bhangal, the remote valley beyond the pass, is one of the most isolated inhabited regions in Himachal—cut off for most of the year, with access routes that are long, demanding, and rarely used by regular trekkers.",
+
+"Riyali Thatch isn’t just a scenic meadow—it’s part of a larger alpine ecosystem that bursts into life during summer, with a wide variety of wildflowers that change color and pattern within weeks.",
+
+"Shagor sits at a unique vantage point where you can simultaneously observe the transition between two major Himalayan systems—the Dhauladhar and the Pir Panjal—something rarely visible from a single campsite.",
+
+"The approach to Kalihani Pass often involves crossing old snow bridges and glacial patches, depending on the season—remnants of winter that linger well into summer at higher altitudes.",
+
+"Unlike many popular treks, large sections of this route don’t have a clearly defined trail, especially in the upper regions—navigation often depends on terrain reading and local knowledge rather than marked paths.",
+
+"Weather near Kalihani Pass can change rapidly due to its exposure—clear skies can turn into whiteouts within hours, especially when clouds move in from the Bara Bhangal side.",
+
+"Rani Sui Lake is deeply tied to local folklore and is considered sacred, but unlike more popular lakes, it remains quiet and relatively untouched, even during peak trekking seasons.",
+
+"Khanpari Tibba acts as a natural viewpoint over the Manali valley, but historically, it was also used as a lookout point by locals moving across ridgelines to assess weather and terrain conditions ahead.",
+
+"The descent from high-altitude terrain back into forests around Lamadugh often feels more dramatic than expected—not because of difficulty, but because of how suddenly the landscape changes after days in open meadows.",
+
+"Wildlife signs are often more common than sightings—especially in the lower forest sections, where Himalayan species move quietly, leaving behind tracks and subtle traces along the trail.",
+
+"Despite being close to Manali in terms of starting point, the trek quickly loses any sense of proximity—by the time you reach Shagor, the landscape feels far more remote than its map location suggests.",
+
+"The Kalihani route is often underestimated—not for its technical difficulty, but for the way it builds gradually, demanding consistency over multiple days rather than a single challenging push.",
+
+"What most trekkers remember isn’t just the pass, but the progression—the slow shift from enclosed forest trails to open meadows, and finally into a stark, high-altitude environment that feels almost untouched."
+],
+
+  howToReach: {
+        air: "Nearest airport: Bhuntar Airport (Kullu) – 50 km from Manali. Take a cab or bus to reach Manali.",
+        train: "Nearest major railway station: Chandigarh Railway Station. From Chandigarh, take a Volvo bus or private cab to Manali (~8–10 hrs).",
+        road: "From Delhi: Overnight Volvo buses (12–14 hrs) regularly ply to Manali. From Chandigarh: 8–10 hrs by cab or bus. Manali is well-connected and has frequent bus services.",
+        travelTip: "Arrive in Manali a day before the trek for acclimatization and avoid delays."
+    },
+
+  gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426458/Kalihani_pass_hvxung.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426405/kalihani-pass-trek15_ojil53.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774426365/kalihani-pass-trek9_vxno5a.jpg",
+	"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426459/Rani-Sui-Lake-hero1_w8vwrq.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426564/kalihani-pass-trek8_kkuocw.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426562/kalihani-pass-trek5_by7vq9.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426557/kalihani-pass-trek3_aszjr3.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426557/kalihani-pass-trek_auaedh.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426557/kalihani-pass-trek7_eunt38.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426537/kalihani-pass-trek6_nrvesu.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426529/kalihani-pass-trek4_ru6lj1.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426520/kalihani-pass-trek2_olzzbi.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426472/kalihani-pass-trek1_q65b2t.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426459/kalihani-pass-1_ukix8m.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426451/kalihani-pass-trek17_x73yno.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426416/kalihani-pass-trek13_adqh8y.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426413/kalihani-pass-trek11_karg8q.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426392/kalihani-pass-trek16_vtkni6.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426389/kalihani-pass-trek14_lkpnln.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426371/kalihani-pass-trek12_t4nbyj.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1774426371/kalihani-pass-trek10_d8btx8.jpg",
+
+    ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+questions: [
+
+{
+"question": "Who can join the Kalihani Pass Trek?",
+"answer":
+"This trek is best suited for trekkers with good fitness and preferably some prior trekking experience. While it is not technical, the long duration (7–8 days), continuous altitude gain, and high camps make it more demanding than beginner treks."
+},
+
+{
+"question": "Is Kalihani Pass suitable for beginners or families?",
+"answer":
+"It is not ideal for complete beginners or families with young kids. The trek involves multiple long walking days, remote camps, and high-altitude exposure above 15,000 ft. Fit beginners with strong preparation may attempt it, but it is better suited for those who have done at least one trek before."
+},
+
+{
+"question": "How difficult is the Kalihani Pass Trek?",
+"answer":
+"It is a moderate to difficult trek. The challenge comes from its length, back-to-back trekking days, and high-altitude summit push toward Kalihani Pass. The terrain itself is varied but mostly non-technical, requiring endurance more than technical skills."
+},
+
+{
+"question": "Do we actually cross Kalihani Pass?",
+"answer":
+"No, this itinerary goes up to Kalihani Pass (~15,800 ft) and returns from there. The pass itself leads toward the remote Bara Bhangal region, which requires a separate, longer, and more committing expedition."
+},
+
+{
+"question": "What makes Kalihani Pass special?",
+"answer":
+"This trek stands out for its diversity — dense forests, vast meadows, high-altitude camps like Riyali and Shagor, and a summit approach that feels raw and untouched. The views of both the Dhauladhar and Pir Panjal ranges, along with the connection toward the remote Bara Bhangal valley, give it a unique offbeat character."
+},
+
+{
+"question": "Is altitude sickness (AMS) a concern on this trek?",
+"answer":
+"Yes, AMS is a real concern as the trek goes above 15,000 ft. The itinerary is designed for gradual acclimatization, but staying hydrated, maintaining a steady pace, and reporting symptoms early are crucial for a safe experience."
+},
+
+{
+"question": "What kind of preparation is required?",
+"answer":
+"You should be able to walk 6–8 hours a day for multiple consecutive days. A preparation routine of 4–6 weeks including cardio (running, brisk walking), leg strength, and endurance training is strongly recommended."
+},
+
+{
+"question": "What kind of terrain should I expect?",
+"answer":
+"The trek moves through dense pine and oak forests, wide alpine meadows, ridge walks, and high-altitude rocky terrain near the pass. Each day brings a noticeable shift in landscape, which is one of the defining features of this trek."
+},
+
+{
+"question": "What is the best time to do this trek?",
+"answer":
+"The best months are June to September. Early summer brings lingering snow near the pass, while late season offers clearer views and more stable weather. Monsoon can bring lush meadows but also occasional rain."
+},
+
+{
+"question": "Will there be mobile network connectivity?",
+"answer":
+"Network is available in Manali and partially in the lower villages like Rumsu. Beyond that, there is no reliable connectivity throughout the trek, especially from Chaklani onwards."
+},
+
+{
+"question": "What kind of accommodation is provided?",
+"answer":
+"Accommodation is in tents at all campsites such as Chaklani, Riyali Thatch, Shagor, and Rani Sui. These are remote alpine camps with basic but well-managed trekking facilities."
+},
+
+{
+"question": "Do I need any permits for this trek?",
+"answer":
+"Yes, permits are required as the route passes through forest and high-altitude grazing regions. These are arranged as part of the trek logistics."
+},
+
+{
+"question": "What precautions should I take during the trek?",
+"answer":
+"Maintain a steady pace, stay hydrated, layer properly for changing weather, and follow the trek leader’s instructions at all times. Avoid rushing on ascent days, especially toward higher camps and the pass."
+},
+
+{
+"question": "What kind of weather can be expected?",
+"answer":
+"Days are usually pleasant, but weather can change quickly at higher altitudes. Evenings and nights can get cold, especially at camps like Shagor. Sudden cloud build-up, wind, and occasional rain are common."
+},
+
+{
+"question": "How remote is this trek?",
+"answer":
+"While the trek starts close to Manali, it quickly moves into less-traveled regions. By the time you reach Riyali and Shagor, the landscape feels remote and untouched, with very limited human presence."
+},
+
+{
+"question": "What kind of overall experience does this trek offer?",
+"answer":
+"Kalihani Pass offers a complete Himalayan journey — forests, meadows, high-altitude camps, and a powerful summit approach. It’s less about reaching a point and more about experiencing the gradual transition into a raw, offbeat mountain landscape that stays with you long after the trek ends."
+}
+
+],
+},
+  
   faqsLink: "/pages/faqs-and-articles",
 },
 
