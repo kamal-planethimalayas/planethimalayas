@@ -2349,7 +2349,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     tags: ["beginner"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
-    month: ["may", "june", "july", "august", "september", "october", "november"],
+    month: ["june", "july", "september", "october", "november"],
     duration: ["4 Nights / 5 Days"],
     region: "himachal pradesh",
     coordinates: [
@@ -2383,7 +2383,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
             { emoji: "⚡", label: "Trek Grade", value: "Easy" },
             { emoji: "🏔️", label: "Max Altitude", value: "4,200 m (Sethan Dome)" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 35 Km" },
-            { emoji: "🌤️", label: "Best Time", value: "May–November" },
+            { emoji: "🌤️", label: "Best Time", value: "June-July, September-November" },
             { emoji: "🗺️", label: "Region", value: "Northern Himachal Pradesh, Pir Panjal Range" },
             { emoji: "📍", label: "Start Point", value: "Jagatsukh (near Manali)" },
             { emoji: "🏁", label: "End Point", value: "Jobri Dam (near Manali)" },
@@ -2551,6 +2551,31 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
+
+    Dates: [
+
+{ label: "06 Apr - 09 Apr", start: "2026-04-06", end: "2026-04-09" },
+{ label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
+{ label: "20 Apr - 23 Apr", start: "2026-04-20", end: "2026-04-23" },
+{ label: "27 Apr - 30 Apr", start: "2026-04-27", end: "2026-04-30" },
+
+{ label: "04 May - 07 May", start: "2026-05-04", end: "2026-05-07" },
+{ label: "11 May - 14 May", start: "2026-05-11", end: "2026-05-14" },
+{ label: "18 May - 21 May", start: "2026-05-18", end: "2026-05-21" },
+{ label: "25 May - 28 May", start: "2026-05-25", end: "2026-05-28" },
+
+{ label: "01 Jun - 04 Jun", start: "2026-06-01", end: "2026-06-04" },
+{ label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
+{ label: "15 Jun - 18 Jun", start: "2026-06-15", end: "2026-06-18" },
+{ label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
+{ label: "29 Jun - 02 Jul", start: "2026-06-29", end: "2026-07-02" },
+
+{ label: "06 Jul - 09 Jul", start: "2026-07-06", end: "2026-07-09" },
+{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
+{ label: "20 Jul - 23 Jul", start: "2026-07-20", end: "2026-07-23" },
+{ label: "27 Jul - 30 Jul", start: "2026-07-27", end: "2026-07-30" },
+
+  ],
 
     highlights: [
         "Trek from Manali through Lamadugh and Manalsu River valley",
@@ -2922,7 +2947,7 @@ description:
   tags: ["beginner", "lake"],
   difficulty: ["easy"],
   season: ["summer", "autumn"],
-  month: ["may", "june", "july", "september", "october"],
+  month: ["june", "july", "september", "october"],
   region: ["himachal pradesh"],
   duration: "2 Nights / 3 Days",
 
@@ -2976,7 +3001,7 @@ description:
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,200 ft (Beas Kund)" },
       { emoji: "⚡", label: "Trek Distance", value: "~16 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "May-July & September-October" },
+      { emoji: "🌤️", label: "Best Time", value: "June-July & September-October" },
       { emoji: "🗺️", label: "Region", value: "Solang Valley, Himachal Pradesh" },
       { emoji: "📍", label: "Start Point", value: "Manali" },
       { emoji: "🏁", label: "End Point", value: "Manali" },
@@ -3210,6 +3235,30 @@ description:
   },
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
+
+  Dates: [
+
+{ label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
+{ label: "20 Apr - 23 Apr", start: "2026-04-20", end: "2026-04-23" },
+{ label: "27 Apr - 30 Apr", start: "2026-04-27", end: "2026-04-30" },
+
+{ label: "04 May - 07 May", start: "2026-05-04", end: "2026-05-07" },
+{ label: "11 May - 14 May", start: "2026-05-11", end: "2026-05-14" },
+{ label: "18 May - 21 May", start: "2026-05-18", end: "2026-05-21" },
+{ label: "25 May - 28 May", start: "2026-05-25", end: "2026-05-28" },
+
+{ label: "01 Jun - 04 Jun", start: "2026-06-01", end: "2026-06-04" },
+{ label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
+{ label: "15 Jun - 18 Jun", start: "2026-06-15", end: "2026-06-18" },
+{ label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
+{ label: "29 Jun - 02 Jul", start: "2026-06-29", end: "2026-07-02" },
+
+{ label: "06 Jul - 09 Jul", start: "2026-07-06", end: "2026-07-09" },
+{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
+{ label: "20 Jul - 23 Jul", start: "2026-07-20", end: "2026-07-23" },
+{ label: "27 Jul - 30 Jul", start: "2026-07-27", end: "2026-07-30" },
+
+  ],
 
   highlights: [
     "Easy access from Manali with a traditional village start from Rumsu",
@@ -4352,7 +4401,7 @@ seo: {
     tags: ["beginner", "lake"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
-    month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
+    month: ["january", "february", "march", "april", "may", "september", "october", "november", "december"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
@@ -4416,8 +4465,6 @@ seo: {
 { label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
 { label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
 
-{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
-{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -6331,7 +6378,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>Bold, immersive, and deeply satisfying, the Pangarchulla Peak Trek is not just a continuation of Kuari Pass — it is its wild, adventurous crescendo. A perfect choice for trekkers ready to move beyond easy trails and experience the true power, exposure, and exhilaration of the high Himalayas.`
 },
 
-  price: 13900,
+  price: 12900,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 6000,
@@ -6348,6 +6395,9 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
 { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
 { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+
+      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
+      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
 
   ],
 
@@ -6934,7 +6984,7 @@ The following day is reserved for departure. Guests may check out of the guestho
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,100 ft (Bakaria Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "22–24 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "November to April" },
+      { emoji: "🌤️", label: "Best Time", value: "November to June" },
       { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Barsu Village" },
       { emoji: "🏁", label: "End Point", value: "Barsu Village" },
@@ -8980,6 +9030,7 @@ waypoints: [
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545957/nanda-devi-east-base-camp-trek-hero2_xrha53.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view1_bslpi8.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view_cenuoj.jpg",
+        
     ],
 
     downloadLink: "/docs/Packing_List.pdf",
@@ -9089,13 +9140,12 @@ waypoints: [
   ],
 
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg",
 
   heroImages: [
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1765805061/IMG-20160313-WA0018_hseesn.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329743/chandrasila-trek-spring-view1_w4djrk.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
   ],
 
   subtitle: "Hidden Meadow of Kumaon Himalayas",
@@ -9122,7 +9172,7 @@ waypoints: [
       "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
   },
 
-  price: 12400,
+  price: 10400,
   priceNote: "* Gogina to Gogina",
   addons: {
     transport: 6000,
@@ -9132,6 +9182,22 @@ waypoints: [
   },
 
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
+
+  dates: [
+      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
+      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
+      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+
+      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
+      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
+      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+
+      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
+
+    ],
 
   highlights: [
     "Explore the vast and rarely visited alpine meadows of Ranthan Kharak",
@@ -9204,11 +9270,10 @@ waypoints: [
   },
 
   gallery: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-4729040_axtme9.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329886/chandrasila-trek-spring-view2_bg7mi8.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1765805061/IMG-20160313-WA0018_hseesn.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329743/chandrasila-trek-spring-view1_w4djrk.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
   ],
 
   downloadLink: "/docs/Packing_List.pdf",
@@ -9663,7 +9728,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   id: "panchachuli-base-camp-trek",
   name: "Panchachuli Base Camp Trek",
   tags: ["intermediate", "meadows"],
-  difficulty: ["moderate"],
+  difficulty: ["easy", "moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   duration: ["6 Nights / 6 Days"],
@@ -9700,7 +9765,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "easy - moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
       { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
@@ -9907,7 +9972,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
 
 <br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
 
-    price: 20900,
+    price: 21900,
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 5000, 
