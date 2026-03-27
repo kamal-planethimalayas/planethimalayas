@@ -7159,10 +7159,10 @@ The following day is reserved for departure. Guests may check out of the guestho
     [30.8281, 78.5354], // Darwa Top
   ],
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774613306/Darwa_top_trek_ebfrql.png",
 
   heroImages: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774613306/Darwa_top_trek_ebfrql.png",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital_egmgih.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490486/dodital-trek1_qujknb.jpg",
   ],
@@ -7286,6 +7286,7 @@ The following day is reserved for departure. Guests may check out of the guestho
   },
 
   gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774613306/Darwa_top_trek_ebfrql.png",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/darwa-pass-top_kw6mkb.png",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490480/dodital_egmgih.jpg",
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1773490486/dodital-trek1_qujknb.jpg",
@@ -8267,7 +8268,7 @@ waypoints: [
 {
   id: "panpatia-col-trek",
   name: "Panpatia Col Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
+  tags: ["pro", "lake", "glacier", "pass"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -9446,7 +9447,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
     "The forests around Dhakuri are home to rare fauna including Himalayan black bear, serow, and the elusive koklass pheasant often spotted near dawn.",
     "During monsoon, the trail to Dhakuri blooms with over a dozen species of rhododendron and alpine flowers, making it one of the most biodiverse short treks in Kumaon.",
     "Winter trekkers sometimes witness a rare ‘sea of clouds’ phenomenon from Dhakuri, where the entire valley below gets blanketed while the pass remains clear and sunny.",
-    "Old British-era records mention Dhakuri as a favourite campsite of explorers heading toward Sunderdunga, Pindari and Kafni glaciers — long before modern trekking existed."
+    "Old British-era records mention Dhakuri as a favourite campsite of explorers heading toward Sunderdhunga, Pindari and Kafni glaciers — long before modern trekking existed."
     ],
 
 
@@ -9497,8 +9498,8 @@ After breakfast, descend gradually through forests and old trade routes towards 
     name: "Pindari Glacier Trek",
     tags: ["beginner"],
     difficulty: ["easy", "moderate"],
-    season: ["spring", "summer", "autumn"],
-    month: ["april", "may", "june", "september", "october", "november"],
+    season: ["summer", "autumn"],
+    month: ["may", "june", "september", "october", "november"],
     duration: ["5 Nights / 5 Days"],
     region: "uttarakhand-kumaon",
 
@@ -9723,156 +9724,398 @@ After breakfast, descend gradually through forests and old trade routes towards 
     faqsLink: "/pages/faqs-and-articles",
   },
 
-
   {
-  id: "panchachuli-base-camp-trek",
-  name: "Panchachuli Base Camp Trek",
-  tags: ["intermediate", "meadows"],
-  difficulty: ["easy", "moderate"],
-  season: ["summer", "autumn"],
-  month: ["may", "june", "september", "october"],
-  duration: ["6 Nights / 6 Days"],
+  id: "khaliya-top-trek",
+  name: "Khaliya Top Trek",
+  tags: ["beginner"],
+  difficulty: ["easy"],
+  season: ["winter", "spring", "summer", "autumn"],
+  month: ["january", "february", "march", "april", "may", "october", "november", "december"],
+  duration: "2 Nights / 3 Days",
   region: "uttarakhand-kumaon",
 
   coordinates: [
-    [30.0010, 80.2080], // Darma Valley road head (Sobla)
-    [30.0300, 80.2600], // Dantu
-    [30.0700, 80.3050], // Sela
-    [30.1150, 80.3550], // Panchachuli Base Camp
-    [30.0700, 80.3050], // Sela
-    [30.0300, 80.2600], // Dantu
-    [30.0010, 80.2080], // Sobla
+    [30.0672, 80.2386], // Munsiyari (start)
+
+    [30.0905, 80.2478], // Balanti Bend
+
+    [30.1042, 80.2555], // Khaliya Dwar
+
+    [30.1178, 80.2689], // Khaliya Top
+
+    [30.1265, 80.2795], // Zero Point
+
+    [30.0905, 80.2478], // Return to Balanti Bend
+
+    [30.0672, 80.2386], // Munsiyari (end)
   ],
 
-  heroImage:
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
+  waypoints: [
+    { name: "Munsiyari (Start)", coords: [30.0672, 80.2386], type: "start" },
+
+    { name: "Balanti Bend", coords: [30.0905, 80.2478], type: "roadhead" },
+
+    { name: "Khaliya Dwar", coords: [30.1042, 80.2555], type: "camp" },
+
+    { name: "Khaliya Top", coords: [30.1178, 80.2689], type: "summit" },
+
+    { name: "Zero Point", coords: [30.1265, 80.2795], type: "viewpoint" },
+
+    { name: "Balanti Bend (Return)", coords: [30.0905, 80.2478], type: "roadhead" },
+
+    { name: "Munsiyari (End)", coords: [30.0672, 80.2386], type: "end" },
+  ],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774635805/khaliya-top-trek_hwefy7.webp",
 
   heroImages: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625884/panchachuli-hero_l34sfx.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625891/panchachuli-hero2_vqdkix.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774635806/Khaliya-Top-Trek1_ejdkzc.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774635805/khaliya-top-trek_hwefy7.webp"
   ],
 
-  subtitle: "Walking to the Foot of the Legendary Five Peaks",
+  subtitle: "The Best Viewpoint of Panchachuli",
 
-  seo: {
-    title:
-      "Panchachuli Base Camp Trek | Itinerary, Cost & Dates | Planethimalayas",
-    description:
-      "Panchachuli Base Camp Trek (3,900 m) takes you deep into the remote Darma Valley of Kumaon, offering breathtaking close-up views of the five Panchachuli peaks, alpine meadows, glacier-fed rivers, and ancient trade routes near the Indo-Tibet border."
-  },
+ seo: {
+  title: "Khaliya Top Trek (3,500 m) | Munsiyari Trek Itinerary, Cost & Details | Planethimalayas",
+  description:
+    "Khaliya Top Trek (3,500 m) is a short Himalayan trek in Munsiyari offering stunning views of Panchachuli, Nanda Devi & Kumaon peaks. Explore itinerary, distance, cost, best time, and complete trek details for this perfect beginner-friendly getaway."
+},
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "easy - moderate" },
-      { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,900 m" },
-      { emoji: "⚡", label: "Trek Distance", value: "Approx. 52 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
-      { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
-      { emoji: "📍", label: "Start Point", value: "Sobla (near Dharchula)" },
-      { emoji: "🏁", label: "End Point", value: "Dharchula" },
-      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      { emoji: "⏳", label: "Trek Duration", value: "2 Nights / 3 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,500 m" },
+      { emoji: "⚡", label: "Trek Distance", value: "12–14 Km (approx.)" },
+      { emoji: "🌤️", label: "Best Time", value: "Year-round (except peak monsoon)" },
+      { emoji: "🗺️", label: "Region", value: "Munsiyari, Kumaon Himalayas" },
+      { emoji: "📍", label: "Start Point", value: "Munsiyari" },
+      { emoji: "🏁", label: "End Point", value: "Munsiyari" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
     ],
-  
 
-  snippet:
-"The Panchachuli Base Camp Trek leads deep into one of Kumaon’s most dramatic and culturally rich regions — the legendary Darma Valley, a high-altitude corridor carved by glaciers, trade routes, and mountaineering history. Dominating the skyline throughout the journey are the five Panchachuli peaks, a striking chain rising sharply above the valley. Panchachuli I (6,355 m), II (6,904 m), III (6,312 m), IV (6,334 m), and V (6,437 m) stand like sentinels at the head of the valley, their massive ice walls and hanging glaciers visible from multiple points along the trail.<br>The trek follows the roaring Dhauliganga River, born from these glaciers, as it cuts through deep gorges and alpine landscapes. Ancient villages such as Dantu and Sela lie along this route — seasonal settlements of the Bhotiya community who once used this valley as a major Indo–Tibetan trade passage. Stone houses, prayer flags, and grazing grounds still echo stories of caravans that moved salt, wool, and grain across these mountains centuries ago.<br>As altitude increases, the landscape transforms dramatically. Lower forests of oak, pine, and rhododendron give way to vast alpine meadows bursting with seasonal wildflowers — blue poppies, primulas, and dwarf rhododendrons in summer. Higher up, the terrain becomes stark and elemental, with moraine fields, glacial streams, and snow patches even in late season. Himalayan bharal (blue sheep), marmots, and high-altitude birds like lammergeiers and snow pigeons are frequently spotted in the upper valley.<br>Beyond the last villages, the trail enters a raw, high-altitude amphitheatre where the Panchachuli massif reveals its full scale. Glaciers spill down from the peaks in enormous frozen cascades, and distant icefalls rumble across the valley like thunder. The base camp sits amidst snowfields and moraines, directly beneath the towering faces of the peaks — a place long used by climbers as a staging ground for expeditions. Legendary mountaineers, including teams led by explorers such as Eric Shipton, surveyed this region while mapping the eastern Kumaon Himalayas, cementing Panchachuli’s place in Himalayan mountaineering history.<br>Sunsets at base camp are unforgettable — the five peaks glow in shades of gold, copper, and crimson, while the valley below sinks into silence broken only by glacial winds and flowing water. Walking here feels less like a trek and more like entering a living mountain cathedral — vast, humbling, and powerful.<br>The Panchachuli Base Camp Trek is ideal for trekkers seeking more than scenic beauty. It offers close-up Himalayan drama, deep cultural context, and true wilderness solitude. Moderately demanding due to river crossings, long walking days, and high camps, it is best suited for fit trekkers ready to step beyond beginner routes and experience the Himalayas in their raw, uncompromising form.<br><br><strong>Please note:</strong> The Darma Valley is remote and weather-sensitive. Rapid changes in weather, glacial river swell, and high-altitude conditions demand good fitness, layered clothing, and respect for local traditions for a safe and rewarding journey."
-
+    snippet:
+      "Khaliya Top Trek is one of the most rewarding short treks in the Kumaon Himalayas, offering stunning panoramic views with minimal effort. Starting from the remote mountain town of Munsiyari, this trek quickly ascends into alpine meadows and snow-covered landscapes that open up to reveal the majestic Panchachuli peaks in their full glory.<br><br>The trail begins with a short drive to Balanti Bend, followed by a steady hike through forests of oak and rhododendron. As you gain altitude, the forest gradually thins out, giving way to wide open meadows that remain snow-covered during winter months. Khaliya Top itself is a vast alpine ridge that offers uninterrupted views of towering Himalayan peaks including Panchachuli, Nanda Devi, Hardeol, and Rajrambha.<br><br>A highlight of the trek is the early morning hike to Zero Point, where sunrise paints the snow peaks in golden hues — a moment that defines the entire experience. The trek also includes a visit to Thamri Kund, a hidden alpine lake surrounded by forests and local folklore.<br><br>Perfect for beginners, families, and those short on time, Khaliya Top delivers a complete Himalayan experience — forests, meadows, snow, and big mountain views — in just a few days."
   },
 
-  price: 13400,
-  priceNote: "* Sobla to Dharchula",
+  price: 6900,
+  priceNote: "* Munsiyari to Munsiyari",
 
   addons: {
-    transport: 6000,
-    transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
-    offloadingbag: 2500,
-    offloadingNote: "* Maximum weight 9kg / bag"
+    transport: 4000,
+    transportNote: "* Kathgodam to Kathgodam",
+    offloadingbag: null,
+    offloadingNote: null,
   },
 
   inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
+    "🍽️ All Meals – Nutritious meals provided from lunch on Day 2 to lunch on Day 3",
+
+  dates: [
+    { label: "05 Apr - 07 Apr", start: "2026-04-05", end: "2026-04-07" },
+    { label: "12 Apr - 14 Apr", start: "2026-04-12", end: "2026-04-14" },
+    { label: "19 Apr - 21 Apr", start: "2026-04-19", end: "2026-04-21" },
+    { label: "26 Apr - 28 Apr", start: "2026-04-26", end: "2026-04-28" },
+
+    { label: "03 May - 05 May", start: "2026-05-03", end: "2026-05-05" },
+    { label: "10 May - 12 May", start: "2026-05-10", end: "2026-05-12" },
+    { label: "17 May - 19 May", start: "2026-05-17", end: "2026-05-19" },
+    { label: "24 May - 26 May", start: "2026-05-24", end: "2026-05-26" },
+  ],
 
   highlights: [
-    "Up-close views of the iconic Panchachuli I–V peaks rising straight from the valley floor",
-    "Remote Darma Valley — one of Kumaon’s least-trekked and most pristine regions",
-    "Ancient Indo-Tibetan trade route with deep cultural significance",
-    "Alpine meadows, glacier-fed rivers, and massive hanging glaciers",
-    "Perfect balance of wilderness, altitude, and cultural immersion",
-    "Ideal for trekkers looking to move beyond beginner Himalayan trails",
-    "Spectacular sunrise and sunset views over towering snow walls",
-    "A true base camp experience without extreme technical climbing"
+    "Close-up views of Panchachuli peaks right from the campsite",
+    "Short and beginner-friendly trek with high-altitude rewards",
+    "Snow trekking experience in winter months",
+    "Beautiful alpine meadows and forest trails",
+    "Sunrise hike to Zero Point with 360° Himalayan views",
+    "Visit to Thamri Kund — a hidden alpine lake",
+    "Ideal for first-time trekkers and quick Himalayan escapes"
   ],
 
   itinerary: [
   {
     day: 1,
-    title: "Kathgodam – Dharchula – Sobla | 290 km Drive | 12–14 Hours",
+    title: "Kathgodam – Munsiyari (2,200 m) | 280 km Drive | 10–12 Hours",
     details:
-      "<strong>• Drive: 290 km | Duration: 12–14 hrs<br>• Altitude: Kathgodam (554 m) → Sobla (2,040 m)</strong><br>• Start early from Kathgodam for a long yet breathtaking drive through the Kumaon Himalayas. The route passes Almora and Pithoragarh before following the Kali River — which also marks the Indo–Nepal border for much of the journey.<br>• Dharchula is a historic trade town once used by Tibetan and Nepali traders. After permits and local formalities, continue to Sobla, the road-head of the Darma Valley. Overnight stay near Sobla."
+      "<strong>• Drive: 280 km | Duration: 10–12 hrs</strong><br>• Your journey begins from Kathgodam early in the morning, heading deep into the Kumaon Himalayas toward the remote mountain town of Munsiyari. The drive is long but incredibly scenic, passing through Bhimtal, Almora, Bageshwar, and Thal—each offering glimpses of Kumaon’s culture, rivers, and forested valleys.<br><br>• As you cross Bageshwar, the landscape becomes more rugged and dramatic. The road follows the Gori Ganga River, with deep gorges on one side and towering cliffs on the other. Small Himalayan villages, terraced farms, and pine forests accompany you along the way.<br><br>• The final stretch after Birthi Falls is particularly stunning, with winding mountain roads and your first distant views of the Panchachuli peaks on a clear day. Birthi Falls itself is a popular stop — a powerful waterfall cascading down from high cliffs.<br><br>• Reach Munsiyari by evening. Known as the ‘Gateway to Johar Valley,’ this peaceful Himalayan town sits at the base of the Panchachuli range. Check into your homestay or campsite, enjoy hot dinner, and rest for the trek ahead."
   },
   {
     day: 2,
-    title: "Sobla – Dantu | 9 km Trek | 5–6 Hours",
+    title: "Munsiyari (2,200 m) – Khaliya Top (3,500 m) | 5 km Trek | Drive + 3–4 Hours Trek",
     details:
-      "<strong>• Trek: 9 km | Duration: 5–6 hrs<br>• Altitude: Sobla (2,040 m) → Dantu (2,400 m)</strong><br>• Enter the remote Darma Valley, walking alongside the powerful Dhauliganga River. The trail gradually ascends through forests, rocky sections, and riverside paths. Expect your first taste of river crossings and narrow trails carved into the mountainside.<br>• Villages here are seasonal, inhabited only during summer months by shepherd communities. Camp overnight at Dantu."
+      "<strong>• Drive: 10 km | Trek: 5 km | Duration: 3–4 hrs</strong><br>• After breakfast, drive from Munsiyari to Balanti Bend / Khaliya Dwar, the starting point of the trek. The short drive climbs gradually through forest roads, offering occasional views of the valley below.<br><br>• The trek begins with a steady ascent through dense forests of oak and rhododendron. The trail is well-defined but consistently uphill, gaining altitude quickly. During spring, rhododendrons bloom in vibrant red and pink, while in winter, the forest section is often snow-covered.<br><br>• As you climb higher, the forest begins to thin out, and the trail opens into expansive bugyals (alpine meadows). This transition is sudden and beautiful — within a few kilometers, you move from shaded forest to open Himalayan landscapes.<br><br>• Continue ascending toward Khaliya Top, located at around 3,500 meters. The campsite offers breathtaking panoramic views of the Panchachuli peaks, Nanda Devi, Nanda Kot, and surrounding Himalayan giants.<br><br>• Spend the evening soaking in sunset views as the peaks glow golden. Overnight stay in tents at Khaliya Top."
   },
   {
     day: 3,
-    title: "Dantu – Sela | 8 km Trek | 4–5 Hours",
+    title: "Khaliya Top – Zero Point (~3,800 m) – Thamri Kund (2,800 m) – Munsiyari | 6–7 km Trek",
     details:
-      "<strong>• Trek: 8 km | Duration: 4–5 hrs<br>• Altitude: Dantu (2,400 m) → Sela (3,100 m)</strong><br>• The valley opens into expansive alpine meadows with grazing grounds used by local Bhotiya shepherds. Wooden bridges, glacial streams, and wide landscapes dominate the day.<br>• Panchachuli peaks begin to appear more clearly, often hidden and revealed by moving clouds — a signature feature of this valley. Camp overnight at Sela, a high-altitude meadow campsite."
-  },
-  {
-    day: 4,
-    title: "Sela – Panchachuli Base Camp | 7 km Trek | 4–5 Hours",
-    details:
-      "<strong>• Trek: 7 km | Duration: 4–5 hrs<br>• Altitude: Sela (3,100 m) → Panchachuli Base Camp (3,850 m)</strong><br>• A visually dramatic day with steady ascent over moraines, glacial streams, and rocky terrain. The landscape becomes stark and powerful as vegetation thins out.<br>• The five Panchachuli peaks rise directly ahead, forming one of the most striking base camp settings in the Kumaon Himalayas. Acclimatisation is crucial due to the altitude. Overnight stay at base camp."
-  },
-  {
-    day: 5,
-    title: "Panchachuli Base Camp – Dantu | 15 km Trek | 6–7 Hours",
-    details:
-      "<strong>• Trek: 15 km | Duration: 6–7 hrs<br>• Altitude: Panchachuli Base Camp (3,850 m) → Dantu (2,400 m)</strong><br>• Begin the long descent back through Sela towards Dantu. Though downhill, the distance makes it a physically demanding day.<br>• River crossings feel more manageable now as trekkers gain confidence. The changing perspective of the valley reveals fresh views on the return journey. Overnight stay at Dantu."
-  },
-  {
-    day: 6,
-    title: "Dantu – Sobla – Dharchula | Trek + Drive",
-    details:
-      "<strong>• Trek: 9 km | Duration: 3–4 hrs<br>• Drive: Sobla to Dharchula<br>• Altitude: Dantu (2,400 m) → Sobla (2,040 m) → Dharchula (940 m)</strong><br>• Trek back down to Sobla, officially exiting the Darma Valley. From here, drive to Dharchula and check into a hotel.<br>• Evening at leisure — explore the riverside town, local markets, or simply relax after days spent in high alpine terrain."
-  },
+      "<strong>• Trek: 6–7 km | Duration: 4–6 hrs</strong><br>• Begin early for a sunrise hike to Zero Point, the highest accessible point above Khaliya Top. The short climb takes you to approximately 3,800 meters and offers a stunning 360-degree view of the Kumaon Himalayas. Peaks like Panchachuli, Nanda Devi, Hardeol, and Rajrambha light up dramatically at sunrise.<br><br>• Return to the campsite for breakfast and begin your descent toward Balanti Bend. The descent is quicker but requires careful footing, especially in snowy or loose sections.<br><br>• On the way down, take a short detour to Thamri Kund, a serene alpine lake surrounded by dense forest. The lake holds cultural significance for locals and is known for its peaceful setting and occasional wildlife sightings.<br><br>• Hike back to the roadhead and drive to Munsiyari, marking the end of the trek. The journey concludes with a sense of having experienced one of the most rewarding short treks in the Himalayas."
+  }
+],
+
+  didYouKnow: [
+  "Khaliya Bugyal has been used for centuries by local shepherds of the Johar Valley as a high-altitude grazing ground during summer, long before trekking routes became popular.",
+
+  "Unlike many Himalayan treks, Khaliya Top gives you close-range views of the Panchachuli peaks without needing multiple days of ascent — making it one of the shortest approaches to big mountain panoramas in India.",
+
+  "The Zero Point above Khaliya Top reaches close to 4,000 meters, which means many trekkers unknowingly experience high-altitude conditions much faster than on longer Himalayan treks.",
+
+  "Khaliya remains surprisingly uncrowded even in peak season because Munsiyari lies in eastern Kumaon — far from the usual trekking circuits like Manali or Uttarkashi.",
+
+  "In winter, Khaliya Bugyal transforms into a natural ski slope, and small-scale skiing activities are occasionally conducted here by local authorities.",
+
+  "The forests below Khaliya are part of a rich Himalayan ecosystem where trekkers can spot pheasants, Himalayan monal, and even mountain antelopes if lucky.",
+
+  "The sudden transition from dense oak and rhododendron forest to vast open bugyal happens within just a few kilometers — a rare landscape shift that usually takes days on bigger treks.",
+
+  "Munsiyari, the base for this trek, is historically an important trade route hub connecting India to Tibet via the Johar Valley.",
+
+  "On exceptionally clear days, Khaliya Top offers a sweeping Himalayan skyline including Nanda Devi, Nanda Kot, Hardeol, and Rajrambha — some of the most prominent peaks of the Kumaon Himalaya." 
 ],
 
   howToReach: {
-    air:
-      "Nearest airport: Pantnagar Airport – approx. 320 km from Dharchula.",
-    train:
-      "Nearest railway station: Kathgodam. Shared or private taxis available to Dharchula.",
-    road:
-      "From Delhi: Bus or train to Kathgodam, then drive to Dharchula → Sobla.",
-    travelTip:
-      "Carry extra buffer days due to permit and weather dependencies in the Darma Valley."
+    air: "Nearest airport: Pantnagar Airport. From here, travel by road to Munsiyari.",
+    train: "Nearest railway station: Kathgodam. Well connected to Delhi and major cities.",
+    road: "Drive from Kathgodam to Munsiyari via Almora and Bageshwar (approx. 10–11 hrs).",
+    travelTip: "Arrive in Munsiyari a day early to rest and enjoy views of Panchachuli peaks."
   },
 
-  didYouKnow: [
-    "The Panchachuli peaks are named after the five cooking hearths of the Pandavas from the Mahabharata.",
-    "The Darma Valley was historically an important Indo-Tibetan trade corridor.",
-    "British surveyors used Panchachuli as a reference landmark while mapping eastern Kumaon.",
-    "Early mountaineers considered Panchachuli one of the most aesthetically perfect Himalayan groups.",
-    "The valley remains lightly populated and is still grazed seasonally by local shepherds."
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774635806/Khaliya-Top-Trek1_ejdkzc.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774635805/khaliya-top-trek_hwefy7.webp"
   ],
 
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+  questions: [
+    {
+      question: "Is Khaliya Top suitable for beginners?",
+      answer:
+        "Yes, this is one of the best beginner-friendly treks in the Himalayas with a short duration and gradual ascent. It is ideal for first-time trekkers, families, and even children with basic fitness."
+    },
+    {
+      question: "Can I do this trek in winter?",
+      answer:
+        "Yes, Khaliya Top is popular as a winter trek with beautiful snow-covered landscapes from December to March. The trail turns into a snowy wonderland, and in some sections, you may even experience walking on fresh snow."
+    },
+    {
+      question: "What makes this trek special?",
+      answer:
+        "The close-up views of the Panchachuli peaks combined with a short and accessible trail make this trek unique. Unlike longer Himalayan treks, you get dramatic mountain views in just 1–2 days."
+    },
+    {
+      question: "How difficult is the trek?",
+      answer:
+        "The trek is easy and suitable for beginners with basic fitness. The trail includes a steady ascent through forest and bugyal, with no technical sections."
+    },
+
+    {
+      question: "What is the temperature like during the trek?",
+      answer:
+        "Temperature varies by season. In summer (April–June), daytime temperatures range between 12°C to 20°C, while nights can drop to 2°C to 5°C. In autumn (September–November), days are cooler (8°C to 15°C) and nights can go below 0°C. In winter (December–March), temperatures can drop to -5°C or lower, especially at night with heavy snowfall."
+    },
+    {
+      question: "What else can I explore around Munsiyari?",
+      answer:
+        "Munsiyari offers several beautiful experiences beyond Khaliya Top. You can visit Birthi Falls, explore the scenic Thamri Kund, take village walks, or simply relax with panoramic views of the Panchachuli range. It’s a great destination to extend your trip by 1–2 days."
+    },
+    {
+      question: "What is Munsiyari known for?",
+      answer:
+        "Munsiyari is known as the ‘Gateway to Johar Valley’ and is famous for its stunning views of the Panchachuli peaks. It has a rich history as a trade route to Tibet and is also known for its peaceful atmosphere, traditional culture, and untouched natural beauty."
+    },
+    {
+      question: "Is this trek suitable for families and kids?",
+      answer:
+        "Yes, Khaliya Top is one of the best Himalayan treks for families and kids. The short duration, moderate altitude, and well-defined trail make it a safe and enjoyable experience when done with proper guidance."
+    },
+    {
+      question: "What local food should I try in Munsiyari?",
+      answer:
+        "While in Munsiyari, you should try local Kumaoni dishes like Bhatt ki Churkani (black soybean curry), Aloo ke Gutke, Mandua (ragi) roti, and local dals. Simple home-style meals served in guesthouses often give the most authentic experience."
+    },
+  ]
+},
+
+  faqsLink: "/faqs-and-articles",
+},
+
+{
+  id: "sunderdhunga-valley-trek",
+  name: "Sunderdhunga Valley Trek",
+  tags: ["intermediate", "pro", "glacier", "lake"],
+  difficulty: ["difficult"],
+  season: ["summer", "autumn"],
+  month: ["may", "june", "september", "october"],
+  duration: ["7 Nights / 7 Days"],
+  region: "uttarakhand-kumaon",
+
+  coordinates: [
+  [29.7770, 79.9040], // Bageshwar (start)
+
+  [29.8380, 79.9150], // Khati Village
+
+  [29.8505, 79.9620], // Jatoli
+
+  [29.8685, 79.9950], // Kathaliya
+
+  [29.9000, 80.0300], // Maiktoli Base Camp
+
+  [29.8685, 79.9950], // Kathaliya (return)
+
+  [29.8505, 79.9620], // Jatoli (return)
+
+  [29.8380, 79.9150], // Khati (return)
+
+  [29.7770, 79.9040], // Bageshwar (end)
+],
+
+waypoints: [
+  { name: "Bageshwar (Start)", coords: [29.7770, 79.9040], type: "start" },
+
+  { name: "Khati Village", coords: [29.8380, 79.9150], type: "village" },
+
+  { name: "Jatoli", coords: [29.8505, 79.9620], type: "camp" },
+
+  { name: "Kathaliya", coords: [29.8685, 79.9950], type: "camp" },
+
+  { name: "Maiktoli Base Camp", coords: [29.9000, 80.0300], type: "glacier" },
+
+  { name: "Kathaliya (Return)", coords: [29.8685, 79.9950], type: "camp" },
+
+  { name: "Jatoli (Return)", coords: [29.8505, 79.9620], type: "camp" },
+
+  { name: "Khati (Return)", coords: [29.8380, 79.9150], type: "village" },
+
+  { name: "Bageshwar (End)", coords: [29.7770, 79.9040], type: "end" },
+],
+
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642528/Sunderdhunga-valley4_saf4ow.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642528/Sunderdhunga-valley4_saf4ow.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642518/Sunderdhunga-valley_za5wud.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642525/Sunderdhunga-valley3_yelvoy.jpg"
+  ],
+
+  subtitle: "Into the Wild Heart of Kumaon",
+
+  seo: {
+    title: "Sunderdhunga Valley Trek | Maiktoli Base Camp Trek Itinerary & Cost | Planethimalayas",
+    description:
+      "Sunderdhunga Valley Trek is a raw and offbeat Himalayan journey in Kumaon leading to Maiktoli Glacier. Explore itinerary, distance, altitude, cost, and complete trek details for this remote valley beyond the usual trails."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "~4,200 m" },
+      { emoji: "📏", label: "Trek Distance", value: "~60–65 km" },
+      { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
+      { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Khati" },
+      { emoji: "🏁", label: "End Point", value: "Khati" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" }
+    ],
+
+    snippet:
+    "Sunderdhunga Valley is not a trek you casually sign up for—it is something you grow into. Hidden beyond the popular Pindari trail, this valley feels untouched, raw, and deeply personal. Unlike well-trodden routes, Sunderdhunga does not guide you gently; it pulls you in slowly, asking for patience, awareness, and respect for the mountains.<br><br>The journey begins from the familiar village of Khati, but very soon, the trail diverges into a quieter world. Forests grow denser, trails become narrower, and human presence fades. The route to Jatoli and Kathaliya feels like walking through forgotten Himalayan corridors—suspended bridges, river crossings, dense oak and birch forests, and sections where the trail disappears into boulder fields and moraine.<br><br>As you move deeper, the valley opens into a dramatic glacial basin dominated by Maiktoli and surrounding peaks. The terrain shifts constantly—soft forest floor gives way to rugged moraine, icy streams, and exposed high-altitude landscapes. There are no crowds here, no fixed comforts—only the sound of wind, distant rockfall, and the rhythm of your own footsteps.<br><br>This trek demands more than just fitness. River crossings can be tricky, trails can be broken, and weather can change rapidly. It is not uncommon to navigate landslide zones or walk on unstable terrain. But that is exactly what makes Sunderdhunga special—it is one of the last remaining Himalayan treks where the experience still feels like exploration.<br><br>And when you return, what stays is not just the view of peaks—it’s the silence of the valley, the feeling of remoteness, and the quiet confidence that comes from walking a path that few choose to take."
+  },
+
+  price: 21900,
+  priceNote: "* Khati to Khati",
+
+  addons: {
+    transport: 4000,
+    transportNote: "* Kathgodam to Kathgodam",
+    offloadingbag: 4200,
+    offloadingNote: "* maximum weight </=9kg",
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
+
+  highlights: [
+    "A truly offbeat Himalayan valley with minimal crowds and raw wilderness",
+    "Close-up views of Maiktoli, Panwali Dwar, and surrounding glaciated peaks",
+    "Challenging terrain including river crossings, moraine, and remote forest trails",
+    "Kathaliya campsite — a dramatic high-altitude basin deep inside the valley",
+    "An exploratory trekking experience far from commercialized routes"
+  ],
+
+  itinerary: [
+  {
+    day: 1,
+    title: "Kathgodam – Khati (2,210 m) | 185 km Drive | 10–11 Hours",
+    details:
+      "<strong>• Drive: 185 km</strong><br>Drive through the Kumaon heartland via Bhimtal, Almora, Bageshwar, and Kapkot before reaching Khati — the last inhabited village on this route. The road gradually narrows after Kapkot, entering deep mountain terrain with views of Nanda Kot and surrounding ridgelines. Khati feels isolated yet alive with culture, wooden homes, and old Himalayan stories."
+  },
+  {
+    day: 2,
+    title: "Khati – Jatoli (2,800 m) | 8 km Trek | 4–5 Hours",
+    details:
+      "<strong>• Trek: 8 km</strong><br>The trail diverges from the popular Pindari route and enters the quieter Sunderdhunga valley. Dense forests of oak, pine, and rhododendron dominate the day. Expect narrow trails, wooden bridges, and sections where the forest almost swallows the path. Human presence fades quickly, replaced by raw Himalayan silence."
+  },
+  {
+    day: 3,
+    title: "Jatoli – Kathaliya (3,200 m) | 10 km Trek | 5–6 Hours",
+    details:
+      "<strong>• Trek: 10 km</strong><br>The terrain begins to change — forests break into rocky patches, boulder sections, and landslide zones. Multiple river crossings and moraine-like stretches demand careful footing. As you approach Kathaliya, the valley suddenly opens into a dramatic alpine basin surrounded by towering cliffs and glacier-fed streams."
+  },
+  {
+    day: 4,
+    title: "Kathaliya – Maiktoli Base (~4,200 m) – Return | 10 km | 7–8 Hours",
+    details:
+      "<strong>• Trek: 10 km</strong><br>Move deeper into glacial terrain — loose moraine, snow patches (early season), and exposed ridgelines. The trail is raw and less defined, requiring attention and guidance. Maiktoli Base Camp offers a powerful, close-up view of the glacier and surrounding giants — rugged, silent, and untouched. Return to Kathaliya by evening."
+  },
+  {
+    day: 5,
+    title: "Kathaliya – Baluni Top (~3,800 m) – Return | 6 km | 4–5 Hours",
+    details:
+      "<strong>• Trek: 6 km</strong><br>A shorter but incredibly rewarding climb to Baluni Top. The trail ascends steeply above Kathaliya into high alpine terrain. From the top, the entire Sunderdhunga valley unfolds beneath you, with expansive views of Maiktoli, Panwali Dwar, and surrounding peaks. This viewpoint adds depth to the expedition — not just reaching the valley, but understanding its scale."
+  },
+  {
+    day: 6,
+    title: "Kathaliya – Jatoli via Devi Kund & Nag Kund | 10 km Trek | 6–7 Hours",
+    details:
+      "<strong>• Trek: 10 km</strong><br>Instead of retracing the same path, take the higher spiritual route via Devi Kund and Nag Kund. These high-altitude alpine lakes sit quietly amidst rugged terrain, often surrounded by mist and silence. The trail here feels more remote and mystical compared to the main valley route. After visiting the lakes, descend back into forest sections toward Jatoli."
+  },
+  {
+    day: 7,
+    title: "Jatoli – Khati | 8 km Trek | 4–5 Hours",
+    details:
+      "<strong>• Trek: 8 km</strong><br>Descend through dense forests, retracing the quieter valley trail back to Khati. The return feels different — familiar paths, but with a deeper connection to the terrain after exploring the upper valley."
+  }
+],
+
+  didYouKnow: [
+    "Sunderdhunga literally means ‘Valley of Beautiful Stones’ — a name inspired by its glacial terrain filled with unique rock formations.",
+    "Very few trekking groups enter Sunderdhunga each season, making it one of the least crowded valleys in Kumaon.",
+    "The Maiktoli Glacier region was historically used by early explorers as an access route to survey inner Kumaon peaks.",
+    "Unlike Pindari, there are no established lodges beyond Khati — everything in Sunderdhunga is fully expedition-style.",
+    "The valley sits in a transition zone where dense Himalayan forests abruptly give way to stark glacial landscapes."
+  ],
+
+  howToReach: {
+  air: "Nearest airport: Pantnagar Airport (approx. 240 km from Khati). From Pantnagar, hire a taxi or take shared transport to Bageshwar/Kapkot, then continue toward Kharkiya/Khati by road.",
+  
+  train: "Nearest major railway station: Kathgodam. Well connected to Delhi and other cities. From Kathgodam, take a shared cab or private taxi to Bageshwar, then onward via Kapkot to Kharkiya/Khati.",
+  
+  road: "From Delhi: Overnight bus or train to Haldwani/Kathgodam → drive to Bageshwar (via Almora) → continue to Kapkot → Kharkiya → short trek or local vehicle access to Khati. Total travel time: ~10–12 hours by road from Kathgodam.",
+  
+  travelTip: "Arrive at Khati a day early to acclimatise and settle in. Roads beyond Kapkot can be rough and slow, so plan buffer time to avoid delays before the trek begins."
+  },
+
   gallery: [
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625888/panchachuli-hero1_csghjn.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625884/panchachuli-hero_l34sfx.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625891/panchachuli-hero2_vqdkix.webp",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625871/panchachuli-view_gbxbs6.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625872/panchachuli-view1_bmjkc5.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625875/panchachuli-view2_ggjb0z.jpg",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625878/panchachuli-view4_hly8bs.webp",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625881/panchachuli-view5_p834ac.webp",
-    "https://res.cloudinary.com/dr44hob9b/image/upload/v1765625895/panchachuli-vew3_wjnnub.jpg"
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642528/Sunderdhunga-valley4_saf4ow.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642525/Sunderdhunga-valley3_yelvoy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642523/Sunderdhunga-valley2_obsc61.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642520/Sunderdhunga-valley1_dtehke.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642518/Sunderdhunga-valley5_ydr6c4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1774642518/Sunderdhunga-valley_za5wud.jpg"
   ],
 
   downloadLink: "/docs/Packing_List.pdf",
@@ -9880,36 +10123,45 @@ After breakfast, descend gradually through forests and old trade routes towards 
   faqs: {
     questions: [
       {
-        question: "Who can join the Panchachuli Base Camp Trek?",
+        question: "How difficult is the Sunderdhunga Valley Trek?",
         answer:
-          "This trek is best suited for fit trekkers with prior trekking experience. The terrain includes long walking days, river crossings, and high-altitude camps."
+          "This trek is rated moderate to difficult due to long walking days, river crossings, and rugged terrain including moraine and landslide sections."
       },
       {
-        question: "What is the difficulty level of this trek?",
+        question: "Who can attempt this trek?",
         answer:
-          "The trek is graded as moderate. While it does not involve technical climbing, altitude gain and remoteness require good endurance."
+          "Suitable for trekkers with prior experience or beginners with strong fitness and mental preparedness for remote trekking conditions."
       },
       {
-        question: "What is the highest altitude reached?",
+        question: "Is this trek safe?",
         answer:
-          "The highest point is Panchachuli Base Camp at approximately 3,900 m."
+          "Yes, with an experienced team. Planethimalayas ensures trained leaders, route awareness, first aid, and safe campsite selection."
       },
       {
-        question: "Is this trek suitable for beginners?",
+        question: "What permits are required?",
         answer:
-          "Network is available only till Dharchula. Beyond Sobla, the trail is completely off-grid."
+          "Forest permits are required and arranged at Bageshwar/Khati before entering the valley."
       },
       {
-        question: "Is offloading available?",
+        question: "What kind of accommodation is provided?",
         answer:
-          "Yes, porter and mule support is available with prior arrangement."
+          "All stays are in tents after Khati. This is a fully camping-based trek with no lodges beyond the village."
+      },
+      {
+        question: "Will I get mobile network?",
+        answer:
+          "Only limited connectivity in Khati (BSNL). Beyond that, the valley is completely off-grid."
+      },
+      {
+        question: "What weather should I expect?",
+        answer:
+          "Days are mild (10–18°C) but nights can drop below freezing, especially near Kathaliya and Maiktoli base."
       }
-    ]
+    ],
   },
 
-  faqsLink: "/pages/faqs-and-articles",
-},
-
+  faqsLink: "/faqs-and-articles",
+  },
 
   /* Sikkim, West Bengal & Nepal*/
 
