@@ -2546,13 +2546,15 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     price: 8900,
     priceNote: "* Manali to Manali",
     addons: {
+        transport: null,
         offloadingbag: 2000,
-        offloadingNote: "* Maximum weight 9kg / bag"
+        offloadingNote: "* Maximum weight 9kg / bag",
+        transportNote: null,
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
 
-    Dates: [
+    dates: [
 
 { label: "06 Apr - 09 Apr", start: "2026-04-06", end: "2026-04-09" },
 { label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
@@ -3236,7 +3238,7 @@ description:
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
-  Dates: [
+  dates: [
 
 { label: "13 Apr - 16 Apr", start: "2026-04-13", end: "2026-04-16" },
 { label: "20 Apr - 23 Apr", start: "2026-04-20", end: "2026-04-23" },
@@ -5706,10 +5708,8 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   ],
 },
 
-
     faqsLink: "/faqs-and-articles",
   },
-
 
   {
     id: "harkidun-trek",
@@ -7210,7 +7210,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
-  Dates: [
+  dates: [
 
 { label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
 { label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
