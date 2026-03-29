@@ -1922,7 +1922,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     tags: ["intermediate", "pass", "crossover", "lake", "glacier"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
-    month: ["july", "august", "september", "october"],
+    month: ["June", "july", "august", "september", "october"],
     duration: ["4 Nights / 5 Days"],
     region: "himachal pradesh",
     coordinates: [
@@ -1973,45 +1973,47 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     dates: [
+
+  { label: "06 Jun - 10 Jun", start: "2026-06-06", end: "2026-06-10" },
+  { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
+  { label: "13 Jun - 17 Jun", start: "2026-06-13", end: "2026-06-17" },
+  { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
+  { label: "20 Jun - 24 Jun", start: "2026-06-20", end: "2026-06-24" },
+  { label: "21 Jun - 25 Jun", start: "2026-06-21", end: "2026-06-25" },
+  { label: "27 Jun - 01 Jul", start: "2026-06-27", end: "2026-07-01" },
+  { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
+
+  { label: "04 Jul - 08 Jul", start: "2026-07-04", end: "2026-07-08" },
+  { label: "05 Jul - 09 Jul", start: "2026-07-05", end: "2026-07-09" },
   { label: "11 Jul - 15 Jul", start: "2026-07-11", end: "2026-07-15" },
   { label: "12 Jul - 16 Jul", start: "2026-07-12", end: "2026-07-16" },
-
   { label: "18 Jul - 22 Jul", start: "2026-07-18", end: "2026-07-22" },
   { label: "19 Jul - 23 Jul", start: "2026-07-19", end: "2026-07-23" },
-
   { label: "25 Jul - 29 Jul", start: "2026-07-25", end: "2026-07-29" },
   { label: "26 Jul - 30 Jul", start: "2026-07-26", end: "2026-07-30" },
 
   { label: "01 Aug - 05 Aug", start: "2026-08-01", end: "2026-08-05" },
   { label: "02 Aug - 06 Aug", start: "2026-08-02", end: "2026-08-06" },
-
   { label: "08 Aug - 12 Aug", start: "2026-08-08", end: "2026-08-12" },
   { label: "09 Aug - 13 Aug", start: "2026-08-09", end: "2026-08-13" },
-
   { label: "15 Aug - 19 Aug", start: "2026-08-15", end: "2026-08-19" },
   { label: "16 Aug - 20 Aug", start: "2026-08-16", end: "2026-08-20" },
-
   { label: "22 Aug - 26 Aug", start: "2026-08-22", end: "2026-08-26" },
   { label: "23 Aug - 27 Aug", start: "2026-08-23", end: "2026-08-27" },
-
   { label: "29 Aug - 02 Sep", start: "2026-08-29", end: "2026-09-02" },
   { label: "30 Aug - 03 Sep", start: "2026-08-30", end: "2026-09-03" },
 
   { label: "05 Sep - 09 Sep", start: "2026-09-05", end: "2026-09-09" },
   { label: "06 Sep - 10 Sep", start: "2026-09-06", end: "2026-09-10" },
-
   { label: "12 Sep - 16 Sep", start: "2026-09-12", end: "2026-09-16" },
   { label: "13 Sep - 17 Sep", start: "2026-09-13", end: "2026-09-17" },
-
   { label: "19 Sep - 23 Sep", start: "2026-09-19", end: "2026-09-23" },
   { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
-
   { label: "26 Sep - 30 Sep", start: "2026-09-26", end: "2026-09-30" },
   { label: "27 Sep - 01 Oct", start: "2026-09-27", end: "2026-10-01" },
-
+  
   { label: "03 Oct - 07 Oct", start: "2026-10-03", end: "2026-10-07" },
   { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
-
   { label: "10 Oct - 14 Oct", start: "2026-10-10", end: "2026-10-14" },
   { label: "11 Oct - 15 Oct", start: "2026-10-11", end: "2026-10-15" },
 ],

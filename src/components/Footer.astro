@@ -7,7 +7,7 @@ import "../styles/global.css";
 
     <div class="footer-top">
       <div class="footer-social">
-        <p>Follow Us</p>
+        <h4>Follow Us</h4>
           <a href="https://instagram.com/planethimalayas.official" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://facebook.com/planethimalayas.official" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://linkedin.com/company/planethimalayas" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -89,7 +89,10 @@ import "../styles/global.css";
     </div>
 
     <div class="footer-home">
-      <p><a href="/" class="footer-brand">Planethimalayas</a></p>
+      <p><a href="/" class="footer-brand">Planet</span><span class="brand-himalayas">himalayas</span></a></p>
+      <p class="footer-address">
+        <strong>Official Address:</strong> Block Danga, Ward - 13, Raghunathpur-723133, District-Purulia (West Bengal)
+      </p>
       <div class="footer-quick-links">
         <a href="/upcoming-treks" target="_blank" rel="noopener noreferrer">Upcoming Treks</a>
         <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
@@ -154,6 +157,13 @@ import "../styles/global.css";
   flex-wrap: wrap;
 }
 
+.footer-social h4 {
+  font-size: 1rem;
+  font-color: #000;
+  font-family: Helvetica, sans-serif;
+  margin-right: 1rem;
+}
+
 .footer-columns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -203,12 +213,31 @@ import "../styles/global.css";
 
 .footer-brand {
   font-size: 2rem;
-  color: #666;
   text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease, letter-spacing 0.2s ease;
+}
+
+/* Planet = black */
+.brand-planet {
+  color: #000;
+}
+
+/* Himalayas = brand color */
+.brand-himalayas {
+  color: #ff7300;
 }
 
 .footer-brand:hover {
-  color: #ff7300;
+  letter-spacing: 0.5px;
+}
+
+
+.footer-address strong {
+  color: #000;
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-family: Helvetica, sans-serif;
 }
 
 .footer-quick-links {
@@ -217,13 +246,21 @@ import "../styles/global.css";
   gap: 2rem; /* increase this to add more spacing between <a> links */
 }
 
-.footer-home a {
+.footer-home a:not(.footer-brand) {
   color: #666;
   text-decoration: none;
 }
 
-.footer-home a:hover {
+.footer-home a:not(.footer-brand):hover {
   color: #ff7300;
+}
+
+.footer-brand,
+.footer-brand:visited,
+.footer-brand:active,
+.footer-brand:focus {
+  color: inherit;
+  text-decoration: none;
 }
 
 
