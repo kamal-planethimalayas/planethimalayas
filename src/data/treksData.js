@@ -8602,7 +8602,7 @@ waypoints: [
     },
 
     inclusionsNote:
-        "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 10",
+        "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 8",
 
     highlights: [
         "Trek into the remote Johar Valley, once part of an ancient Indo-Tibetan trade route",
@@ -9240,24 +9240,54 @@ After breakfast, descend gradually through forests and old trade routes towards 
   },
 
   {
-    id: "pindari-glacier-trek",
-    name: "Pindari Glacier Trek",
-    tags: ["beginner"],
-    difficulty: ["easy", "moderate"],
+    id: "pindari-kafni-glacier-trek",
+    name: "Pindari & Kafni Glacier Trek",
+    tags: ["beginner", "intermediate", "glacier"],
+    difficulty: ["moderate"],
     season: ["summer", "autumn"],
-    month: ["may", "june", "september", "october", "november"],
-    duration: ["5 Nights / 5 Days"],
+    month: ["may", "june", "september", "october"],
+    duration: ["7 Nights / 7 Days"],
     region: "uttarakhand-kumaon",
 
     coordinates: [
-        [29.8380, 79.9150], // Khati
-        [29.8500, 79.9710], // Dwali
-        [29.8830, 79.9980], // Phurkia
-        [29.9130, 80.0260], // Zero Point / Pindari Glacier
-        [29.8830, 79.9980], // Back to Phurkia
-        [29.8500, 79.9710], // Dwali
-        [29.8380, 79.9150], // Khati
-    ],
+  [29.8380, 79.9150], // Khati (start)
+
+  [29.8500, 79.9710], // Dwali (junction)
+
+  [29.8830, 79.9980], // Phurkia (Pindari route)
+
+  [29.9130, 80.0260], // Pindari Glacier Zero Point
+
+  [29.8500, 79.9710], // Back to Dwali (diversion point)
+
+  [29.8455, 79.9525], // Kafni Bridge / Divergence
+
+  [29.8625, 79.9755], // Kafni Glacier
+
+  [29.8500, 79.9710], // Back to Dwali
+
+  [29.8380, 79.9150], // Khati (end)
+],
+
+waypoints: [
+  { name: "Khati (Start)", coords: [29.8380, 79.9150], type: "start" },
+
+  { name: "Dwali (Trail Junction)", coords: [29.8500, 79.9710], type: "junction" },
+
+  { name: "Phurkia", coords: [29.8830, 79.9980], type: "camp" },
+
+  { name: "Pindari Glacier Zero Point", coords: [29.9130, 80.0260], type: "glacier" },
+
+  { name: "Dwali (Return & Diversion)", coords: [29.8500, 79.9710], type: "junction" },
+
+  { name: "Kafni Bridge (Divergence Point)", coords: [29.8455, 79.9525], type: "bridge" },
+
+  { name: "Kafni Glacier", coords: [29.8625, 79.9755], type: "glacier" },
+
+  { name: "Dwali (Return from Kafni)", coords: [29.8500, 79.9710], type: "junction" },
+
+  { name: "Khati (End)", coords: [29.8380, 79.9150], type: "end" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg",
 
@@ -9270,18 +9300,17 @@ After breakfast, descend gradually through forests and old trade routes towards 
     subtitle: "A Classic Kumaon Himalayan Adventure",
 
     seo: {
-        title: "Pindari Glacier Trek | Itinerary, Cost & Dates | Planethimalayas",
-        description:
-            "Pindari Glacier Trek (3,700 m) is a classic Kumaon Himalayan adventure from Khati to the snout of the Pindari Glacier. Explore forests, meadows, river valleys, snow bridges, and breathtaking views of Nanda Devi, Nanda Kot & Maiktoli."
+        title: "Pindari & Kafni Glacier Trek, Kumaon | Itinerary, Cost, Dates | Planethimalayas",
+        description:"Pindari & Kafni Glacier Trek (3,700 m) is a classic Kumaon Himalayan journey through the Pindar Valley, combining two glacier systems in one trail. Starting from Khati, the route explores forests, river gorges, alpine meadows, and snow bridges, leading to the snouts of both Pindari and Kafni Glaciers with views of Nanda Devi, Nanda Kot, and Maiktoli. Ideal for trekkers seeking a diverse and immersive Himalayan experience."
     },
 
     overview: {
         facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
-        { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
-        { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m" },
-        { emoji: "⚡", label: "Trek Distance", value: "Approx. 48 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "April–June & September-November" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
+        { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,850 m" },
+        { emoji: "⚡", label: "Trek Distance", value: "Approx. 70 Km" },
+        { emoji: "🌤️", label: "Best Time", value: "April–June & September-October" },
         { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Khati" },
         { emoji: "🏁", label: "End Point", value: "Khati" },
@@ -9289,39 +9318,60 @@ After breakfast, descend gradually through forests and old trade routes towards 
     ],
 
     snippet: 
-    "The Pindari Glacier Trek is a classic Himalayan journey into the wild heart of Kumaon, where every bend in the trail reveals a new surprise—whispering forests, roaring rivers, ancient trade routes, and the towering guardians of the Nanda Devi Sanctuary. Your adventure begins in the peaceful village of Khati, a little world of wooden homes, terraced fields, and warm mountain hospitality. The moment you step onto the trail, the scent of rhododendrons, the echo of distant waterfalls, and the calls of rare Himalayan birds pull you deeper into the valley.<br>As you move toward Dwali, the forest opens and closes like a living storybook—bridges swing above the turquoise Pindar River, moss-covered boulders glow in filtered sunlight, and high cliffs loom overhead like silent protectors. The trail climbs gradually, crossing spider-walls, old stone pathways, and landslide slopes carved over centuries by storms, glaciers, and monsoon winds. Every day feels different: one moment you're wrapped in dense greenery, and the next you’re standing before vast open meadows, icy streams, and ridgelines that lead your eyes straight to distant peaks.<br>Beyond Phurkia, the valley changes character entirely—alpine winds pick up, the landscape turns stark and glacial, and the mighty face of Nanda Khat glows golden in the morning sun. The approach to Zero Point is pure Himalayan theatre: snow bridges, frozen water channels, tumbling ice blocks, and the thunderous silence of high mountains. And then, without warning, the glacier appears—enormous, serene, shimmering beneath the sky. Standing at 12,300 ft in front of the snout of Pindari Glacier is not just a photo moment; it feels like touching the ancient heartbeat of the Himalayas.<br>Nights are spent in cozy camps surrounded by towering cliffs and a sky thick with stars. The quiet villages, the smiling locals, and the age-old stories of explorers who once passed through this valley add depth to the journey. As you descend back toward Khati, the trail seems to tell a different story—one of gratitude, calm, and connection to nature.<br>The Pindari Glacier Trek is perfect for both beginners and seasoned trekkers, thanks to its balanced terrain, rich biodiversity, and a trail that remains accessible for most of the year. From forests splashed with colour to glacial amphitheatres that take your breath away, this trek is a complete Himalayan experience—safe, scenic, and unforgettable.<br><br><strong>Please note:</strong> Trail sections between Khati, Dwali, and Phurkia can be affected by early-season snow, monsoon landslides, and stream crossings. Proper layers, sturdy footwear, and basic fitness ensure a smooth and rewarding journey."
-    },
+`The Pindari–Kafni Glacier Trek unfolds as a deeper passage into Kumaon’s glacial heart, where two distinct valleys—shaped by ice, rivers, and time—gradually reveal their character. Beginning from the last inhabited village of Khati, the trail does not rush into the mountains; it eases you in. Forests of oak, pine, and rhododendron close in around the path, the Pindar River stays constant beside you, and the valley begins to stretch ahead—not dramatically, but with quiet intent.
 
-    price: 10400,
+<br>As the journey progresses toward Dwali and beyond, the terrain begins to shift in layers. The dense forest corridors break into open sections, landslide zones expose the raw structure of the valley, and the river cuts deeper into the landscape. This is not just a trail—it is a corridor once used for movement, trade, and survival, where every bend carries the imprint of natural forces that continue to reshape it.
+
+<br>Above Phurkia, the transformation is unmistakable. Vegetation thins, the air sharpens, and the valley opens into a high-altitude glacial basin. The approach to Pindari Glacier is defined by moraine fields, snow bridges, and fractured terrain—subtle indicators of a living glacier system constantly in motion. Peaks like Nanda Khat (6,611 m) and Changuch (6,322 m) rise with clarity, while the glacier itself reveals not as a single moment, but as a gradual realization of scale and silence.
+
+<br>Just as the Pindar Valley begins to settle into familiarity, the route shifts again—this time into the quieter and more isolated Kafni Valley. Narrower, less travelled, and more contained, Kafni offers a different kind of experience. The trail feels closer to the terrain, the forests denser, and the glacier basin more intimate. Dominated by the massive presence of Nanda Kot (6,861 m), this valley does not overwhelm—it absorbs, drawing you into a quieter understanding of the mountains.
+
+<br>Together, these two valleys create a rare continuity—one broad and expressive, the other inward and restrained. Over the course of the journey, the Himalayas are not presented as a single spectacle, but as a system—of rivers, glaciers, forests, and ridgelines, all connected and constantly evolving.
+
+<br>By the time the trail returns to Khati, the experience no longer feels like a sequence of destinations. It becomes a progression—of terrain, altitude, and perspective—where the mountains are not just seen, but gradually understood in parts.
+
+<br>What makes the Pindari–Kafni Glacier Trek stand apart is not just its accessibility or its visual range, but the way it allows time for immersion. Over multiple days, it moves through ecosystems, introduces glacial landscapes, and balances exposure with depth—making it both a complete introduction to Himalayan trekking and a journey that continues to stay with you long after it ends.`   
+ },
+
+    price: 16900,
     priceNote: "* Khati to Khati",
 
     addons: {
       transport: 5000,
       transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
-      offloadingbag: 2000,
+      offloadingbag: 4500,
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
     inclusionsNote:
-      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
+      "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     highlights: [
-    "One of Kumaon’s most iconic treks leading to the mighty Pindari Glacier",
-    "Verdant trail through oak, pine, deodar, and birch forests with changing landscapes every day",
-    "Majestic views of Mt. Nanda Devi East, Mt. Panwali Dwar, Mt. Maiktoli, and the surrounding Kumaon giants",
-    "Beautiful village trails through Khati — the last inhabited village on the route",
-    "Easy-to-moderate terrain suitable for fit beginners and families",
-    "Peaceful forest sections, riverside walks, wooden bridges, and glacier-side camps",
-    "Spring rhododendrons, monsoon greenery, crisp autumn skies, and winter snow patches — rewarding in all seasons",
-    "A perfect introductory Himalayan glacier trek with rich culture, scenery, and adventure"
-],
+  "A rare dual-valley experience covering both the expansive Pindar Valley and the quieter, more isolated Kafni Valley",
+
+  "Close approach to the Pindari Glacier snout, revealing active moraine fields, ice formations, and the raw dynamics of a living glacier",
+
+  "Exploration of the lesser-trekked Kafni Glacier basin, set beneath the massive presence of Nanda Kot (6,861 m)",
+
+  "Layered Himalayan landscapes transitioning from dense oak, pine, and rhododendron forests to alpine meadows and high-altitude glacial terrain",
+
+  "Continuous river companionship along the Pindar and Kafni rivers, shaping the valley’s depth, soundscape, and movement",
+
+  "Historic trail through the Johar region, once part of ancient Indo-Tibetan trade routes used by local communities and traders",
+
+  "Grand Himalayan views featuring peaks like Nanda Khat (6,611 m), Changuch (6,322 m), Nanda Kot (6,861 m), and Maiktoli (6,803 m)",
+
+  "Classic Kumaoni mountain villages like Khati and Dwali, offering a glimpse into traditional Himalayan life and architecture",
+
+  "A complete glacial ecosystem experience—moraine walks, snow bridges, alpine basins, and shifting high-altitude weather patterns"
+    ],
 
     itinerary: [
         {
     day: 1,
-    title: "Kathgodam – Khati Village (2,210 m) | 185 km Drive | 10–11 Hours",
+    title: "Arrival at Khati Village (2,210 m) | Reporting Day",
     details:
-        "<strong>• Drive: 185 km | Duration: 10–11 hrs</strong><br>• Your journey begins early morning at 6:00 AM from Kathgodam Railway Station, where our team meets you for the drive to Khati, the base camp of the Pindari Glacier Trek. The route is beautifully scenic as you travel through Bheemtal, Almora, Bageshwar, and Kapkot—classic Kumaon landscapes filled with forests, winding valleys, and charming hillside towns.<br>• After Kapkot (the last ATM point), the road gradually narrows and winds deeper into the mountains. From Loharkhet, an off-road motorable stretch leads you to the traditional village of Khati—the last inhabited village on the Pindari trail. Khati is known for its warm locals, wooden homes, rich folklore, and legends suggesting the Pandavas once stayed here during their exile.<br>• Enjoy views of Nanda Kot, Nandabaner, and Laspadhura from the village. Mobile connectivity is minimal (only patchy BSNL), and electricity is largely solar-powered. After reaching the Khati campsite, settle into your tents, have dinner, and prepare for the trek ahead."
+        "<strong>• Arrival & Reporting</strong><br>• Today marks your arrival into the Kumaon Himalayas, as you make your way toward Khati—the last inhabited village of the Pindar Valley and the starting point of your journey ahead. Most travellers approach via Haldwani/Kathgodam, following a long but incredibly scenic mountain drive through Bheemtal, Almora, Bageshwar, and Kapkot.<br>• As the road leaves behind the busier hill towns, the landscape begins to shift—valleys deepen, forests grow denser, and the mountains start to feel more intimate and less travelled. Beyond Kapkot, the route narrows and winds through remote sections, eventually leading toward Loharkhet and further into the interior of the valley.<br>• Khati sits quietly amidst this setting—wooden homes, terraced fields, and a pace of life that feels unchanged over time. With limited connectivity and largely solar-powered electricity, the village naturally disconnects you from the outside world even before the trek begins.<br>• Trekkers are expected to reach Khati by evening and report at the designated meeting point. The rest of the day is kept flexible to allow for travel variations. Once everyone has arrived, you settle into camp/homestay, meet your trek team, and prepare for the journey into the Pindar Valley starting the next morning."
 },
         {
     day: 2,
@@ -9337,17 +9387,31 @@ After breakfast, descend gradually through forests and old trade routes towards 
 },
         {
     day: 4,
-    title: "Phurkia – Zero Point (3,700 m) – Phurkia | 12 km Trek | 7–8 Hours",
+    title: "Phurkia – Pindari Glacier (Zero Point ~3,700 m) – Dwali (2,575 m) | 17 km Trek | 7–8 Hours",
     details:
-        "<strong>• Trek: 12 km round trip | Duration: 7–8 hrs</strong><br>• Today is your summit day — the most thrilling part of the Pindari Glacier trek. Start early from Phurkia, taking the trail on the left of the KMVN hut. Within 15 minutes, you’ll cross the first snow bridge and enter a beautiful meadow dominated by the towering face of Mt. Nanda Khat. The Pindar River thunders far below in a deep gorge as you continue along the ridge.<br>• After around 20 minutes, navigate a sensitive rockfall section before moving deeper into the valley where patches of hard snow appear. Crampons are extremely useful here. Continue past Bhujani as the terrain becomes increasingly glaciated, leading you toward the upper Pindar Valley.<br>• The trail now demands caution: narrow spiderwall traverses, broken ridges, and exposed sections test your focus. Ahead, the snow-covered slopes reveal grand views of Mt. Bauljuri and the Changuch massif. As greenery fades, you climb steadily toward the snowy Pindar ridge, reaching it in about 40 minutes. From the ridge-top, the mighty Pindari Glacier spreads out to your left while Changuch (6,322 m) towers on your right.<br>• Cross three expansive ice fields — heavily snow-laden in April and May — and continue toward the small hut and shrine of Pindari Baba (Dharmanand Ji). From here, a final 40-minute push over moraines brings you to the iconic board marking Pindari Glacier Zero Point. Enjoy breathtaking views of Changuch Peak and Nanda Kot (6,861 m), and soak in the high-altitude silence of this majestic glacier basin.<br>• After spending time at the summit viewpoint, retrace your route back to Phurkia. Descending is quicker, but caution is essential across snow fields and broken trail patches. By evening, settle into camp, enjoy a hot meal, and rest after an unforgettable summit day."
+        "<strong>• Trek: ~17 km | Duration: 7–8 hrs</strong><br>• Today is the defining day of the Pindari Valley. Starting early from Phurkia, the trail moves into a stark, glacial landscape where vegetation fades and the terrain becomes raw and exposed. Snow bridges, moraine fields, and broken ridgelines guide your way toward the upper basin.<br>• As you approach Zero Point, the valley opens into a wide glacial amphitheatre. The Pindari Glacier stretches ahead—layered with ice, rock, and time—while peaks like Nanda Khat and Changuch rise sharply around you, shaping both the skyline and the weather patterns of the region.<br>• The experience here is less about reaching a point and more about understanding the scale of the Himalayas—the slow movement of ice, the silence of high altitude, and the ruggedness of terrain that constantly reshapes itself.<br>• After spending time at the glacier, the descent begins immediately all the way down to Dwali. The return journey is long but gradual, with the harsh glacier zone slowly transitioning into greener valley sections. By the time you reach Dwali, the return of trees and river sounds feels grounding after the starkness above."
 },
-        {
+
+{
     day: 5,
-    title: "Phurkia – Dwali – Khati | 18 km Trek | 7–8 Hours",
+    title: "Dwali – Khatti / Bayali (2,210 m) | 5 km Trek | 2–3 Hours",
     details:
-        "<strong>• Trek: 18 km | Duration: 7–8 hrs</strong><br>• Today begins your long descent back toward the lower valley. Start early from Phurkia and retrace the same scenic trail you climbed earlier. Within 2 hours, you’ll reach Dwali after crossing the familiar snow bridges, meadows, and the forested ridge sections.<br>• From Dwali, continue your steady descent toward Khati. The route takes you through all the earlier landslide zones, narrow forest paths, and stretches along the thundering Pindar River. The downhill walk is faster but requires caution, especially on loose gravel and broken trail patches.<br>• As you lose altitude, the landscape transitions back into dense Rhododendron and Oak forests, followed by wide valley bends and wooden bridges that mark your return journey. After 4–5 hours from Dwali, you finally reach Khati — the warm, familiar village surrounded by Himalayan peaks.<br>• Settle into your campsite for the night. After a long day of trekking, enjoy a hearty dinner and rest well in the peaceful Khati valley."
+        "<strong>• Trek: ~5 km | Duration: 2–3 hrs</strong><br>• After the long glacier day, today is intentionally shorter. The trail descends gently along the Pindar River, moving back into dense forests of Oak and Rhododendron.<br>• The valley here feels alive again—bird calls, flowing water, and thick vegetation replace the silence of higher altitudes. This stretch also allows you to observe how quickly Himalayan ecosystems change with altitude.<br>• Reaching Khati or Bayali, you return to the last inhabited section of the valley. Wooden homes, terraced fields, and signs of daily life create a contrast to the untouched upper reaches you’ve just experienced.<br>• The evening is calm and restorative, giving your body time to recover before heading into the quieter Kafni Valley the next day."
 },
-        
+
+{
+    day: 6,
+    title: "Khatti / Bayali – Kafni Glacier (~3,850 m) – Return | 14–16 km Trek | 7–8 Hours",
+    details:
+        "<strong>• Trek: ~14–16 km | Duration: 7–8 hrs</strong><br>• Today you leave the main Pindari route and enter the lesser-explored Kafni Valley—a quieter, narrower, and more isolated extension of the region.<br>• The trail initially follows the Pindar River before branching into the Kafni valley, where the landscape immediately feels different—denser forests, fewer trekkers, and a more intimate connection with the terrain.<br>• As you gain altitude, the valley tightens before opening into alpine sections leading toward the Kafni Glacier. Unlike Pindari, this glacier sits in a more enclosed basin, with the massive presence of Nanda Kot(6,861 m) dominating the skyline.<br>• The experience here is quieter and more introspective—less dramatic in scale, but deeper in isolation. You spend time exploring the glacier viewpoint before returning along the same trail to Khati/Bayali.<br>• This day adds a second dimension to the trek—showing how two neighboring valleys can feel completely different in character."
+},
+
+{
+    day: 7,
+    title: "Khatti – Dwali – Khati (2,210 m) | 18 km Trek | 7–8 Hours",
+    details:
+        "<strong>• Trek: ~18 km | Duration: 7–8 hrs</strong><br>• The final trekking day retraces your path through the Pindar Valley, descending steadily along the river and through familiar forest sections. The trail, once demanding, now feels more intuitive—every bridge, ridge, and bend carrying a sense of recognition.<br>• Moving alongside the Pindar River, the valley slowly shifts back into its lived-in form—dense forests, occasional clearings, and the quiet presence of villages returning into view.<br>• By the time you reach Khati, the journey comes full circle. What began as an entry into the mountains now settles into a quiet sense of completion. The evening is unhurried—shared over a warm meal, stories from the trail, and the lingering presence of the valley that shaped the past few days.<br><br><strong>• End of Trek:</strong> The trek officially concludes at Khati with dinner and an overnight stay.<br><strong>• Departure:</strong> The following morning is departure. Trekkers are expected to check out by 10:00 AM and continue their onward journey. Drop transport to Kathgodam is an additional service on request."
+},       
     ],
 
     howToReach: {
@@ -9361,15 +9425,33 @@ After breakfast, descend gradually through forests and old trade routes towards 
 },
 
     didYouKnow: [
-    "The Pindari Glacier was one of the first glaciers in the Kumaon Himalayas to be documented by British explorers in the 1800s.",
-    "Eric Shipton, the legendary mountaineer, explored the Pindari Valley extensively and used it as a gateway for many Himalayan surveys.",
-    "The Pindari River flows directly from the glacier snout and eventually merges with the Alaknanda, forming part of the Ganga system.",
-    "Phurkia is known for rapid weather changes where a clear sky can turn into a whiteout within minutes.",
-    "Explorers in the early 1900s considered the Pindari Valley one of the best ‘training grounds’ before attempting big Himalayan peaks like Nanda Devi and Trisul.",
-    "Frank Smythe, famous for discovering the Valley of Flowers, also wrote about the Pindari region, calling it one of the most accessible glacier routes in India at the time.",
-    "Before modern trekking became popular, local shepherds and traders used this trail to cross seasonal routes connecting remote Himalayan villages.",
-    "Old expedition logs mention that the Pindari Glacier snout has receded dramatically over the last century — more than 200 meters according to early surveys.",
-    "Many early survey teams in the British era used Pindari as a base to map the lesser-known peaks of the Kumaon Himalaya, making it a historically significant exploration route."
+  "The Pindari Glacier was among the earliest glaciers in the Kumaon Himalaya to be surveyed in detail by British explorers in the 19th century, making this valley one of the birthplaces of Himalayan trekking in India.",
+
+  "Unlike Pindari, the Kafni Valley has remained relatively untouched—not because it is inaccessible, but because it was never part of major trade or expedition routes, preserving its quieter and more isolated character.",
+
+  "The Pindar River originates directly from the snout of the Pindari Glacier and eventually feeds into the Alaknanda River, making it part of the larger Ganga river system that sustains millions downstream.",
+
+  "Kafni Glacier sits in a more enclosed basin compared to Pindari, which is why its approach feels more intimate—less expansive, but more immersive and silent.",
+
+  "The villages in this region, especially Khati, were once part of seasonal trade networks connecting to the Johar Valley, where traders would move goods toward Tibet before border closures ended these routes.",
+
+  "Early expedition records show that the Pindari Glacier has been retreating steadily for over a century, with visible shifts in the snout position and moraine spread—something trekkers can still observe today.",
+
+  "Peaks like Nanda Kot (6,861 m) and Maiktoli (6,803 m) play a direct role in shaping the glaciers here—their snow accumulation feeds the ice systems that define both Pindari and Kafni valleys.",
+
+  "The transition from dense forest to alpine terrain on this trek happens over a relatively short distance, making it one of the best routes to observe how Himalayan ecosystems change with altitude.",
+
+  "Kafni Valley is often skipped by trekkers due to time constraints, which is why those who include it experience a side of Kumaon that feels far less travelled despite being so close to a popular route.",
+
+  "Many sections of the trail you walk today were originally formed not for trekking, but by shepherds and local movement—meaning the path follows the natural logic of the terrain rather than modern design.",
+
+  "The silence near both glaciers is not just the absence of sound—it’s the absence of human presence, something that becomes more noticeable in Kafni than in the busier Pindari valley.",
+
+  "During early summer, snow bridges form naturally over glacial streams, but they weaken rapidly as temperatures rise—this is why timing and guidance are critical on glacier approaches.",
+
+  "The contrasting character of Pindari (broad, open, and historically explored) and Kafni (narrow, quiet, and less disturbed) offers a rare opportunity to experience two different Himalayan moods within the same trek.",
+
+  "For many trekkers, the most lasting memory isn’t the glacier itself, but the gradual transition between ecosystems—where forests, rivers, and ice all exist within a single continuous journey."
 ],
 
     gallery: [
@@ -9390,14 +9472,14 @@ After breakfast, descend gradually through forests and old trade routes towards 
     faqs: {
     questions: [
         {
-            question: "Who can join the Pindari Glacier Trek?",
+            question: "Who can join the Pindari & Kafni Glacier Trek?",
             answer:
                 "This trek is suitable for beginners with good fitness as well as experienced trekkers. The trail includes long walking days, multiple stream crossings, and several landslide-detour sections, so basic endurance and balance are essential."
         },
         {
             question: "How long is the trek, and what is the daily hiking distance?",
             answer:
-                "The Pindari Glacier Trek spans 6 days, with daily trekking distances ranging from 4 km to 18 km depending on the terrain. Summit day involves walking on snow patches, moraine, and glacier sections, so pacing and hydration are important."
+                "The Pindari Glacier Trek spans 7 days, with daily trekking distances ranging from 5 km to 18 km depending on the terrain. Summit day involves walking on snow patches, moraine, and glacier sections, so pacing and hydration are important."
         },
         {
             question: "What is the difficulty level, and do I need prior experience?",
@@ -9405,19 +9487,19 @@ After breakfast, descend gradually through forests and old trade routes towards 
                 "The trek is rated as moderate. No prior high-altitude experience is required, but you should be comfortable walking 6–7 hours a day. The landslide zones between Khati, Dwali, and Phurkia require caution and attention to your trek leader’s instructions."
         },
         {
-            question: "When is the best time to do the Pindari Glacier Trek?",
+            question: "When is the best time to do the Pindari & Kafni Glacier Trek?",
             answer:
                 "The best season is spring to early summer (April–June) and post-monsoon (September–November). Snow on the trail is highest in April–May, while October offers the clearest mountain views, including Nanda Khat and Nanda Devi East."
         },
         {
             question: "What is the highest altitude reached during this trek?",
             answer:
-                "The highest point is the Pindari Glacier Zero Point at around 3,700 m. Mild symptoms like breathlessness or headaches can occur, so hydration and steady pacing are key to avoiding altitude-related discomfort."
+                "The highest points are the Pindari Glacier Zero Point at around 3,700 m. and Kafni Glacier Point at around 3,850m. Mild symptoms like breathlessness or headaches can occur, so hydration and steady pacing are key to avoiding altitude-related discomfort."
         },
         {
             question: "What kind of accommodation and meals are provided?",
             answer:
-                "Accommodation is in tents throughout the trek, with campsites at Khati, Dwali, and Phurkia. Meals include hot vegetarian dishes, dal, rice, vegetables, roti, Maggi, soup, tea, and snacks. Campsites have drinking water sources nearby."
+                "Accommodation is in tents throughout the trek, with campsites at Khati, Dwali, Bayali, and Phurkia. Meals include hot vegetarian dishes, dal, rice, vegetables, roti, Maggi, soup, tea, and snacks. Campsites have drinking water sources nearby."
         },
         {
             question: "Do I need special gear or equipment?",
@@ -9430,7 +9512,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
                 "Travel insurance is strongly recommended, covering high-altitude trekking, medical emergencies, evacuation, and weather-related delays. It is not included by default."
         },
         {
-            question: "How is safety ensured on the Pindari Glacier Trek?",
+            question: "How is safety ensured on the Pindari & Kafni Glacier Trek?",
             answer:
                 "Certified trek leaders guide the group, especially through landslide-prone detours, spider-wall sections, and snow patches. The team carries first-aid kits, and communication is maintained with Khati and Dwali. Campsites are checked for safety, and water sources are verified."
         },
