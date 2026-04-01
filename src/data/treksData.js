@@ -8512,17 +8512,39 @@ waypoints: [
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october", "november"],
-    duration: ["10 Nights / 10 Days"],
+    duration: ["8 Nights / 8 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
-        [30.0690, 80.2430], // Munsiyari
-        [30.1030, 80.3870], // Rilkot
-        [30.1620, 80.4650], // Panchhu / Ganghar
-        [30.1850, 80.5130], // Nanda Devi East Base Camp
-        [30.1620, 80.4650], // Back to Panchhu / Ganghar
-        [30.1030, 80.3870], // Rilkot
-        [30.0690, 80.2430], // Munsiyari (end)
-    ],
+  [30.0690, 80.2430], // Munsiyari (start)
+
+  [30.1030, 80.3870], // Rilkot
+
+  [30.1620, 80.4650], // Ghangar
+
+  [30.1850, 80.5130], // Nanda Devi East Base Camp
+
+  [30.1705, 80.4920], // Martoli
+
+  [30.1030, 80.3870], // Rilkot (return roadhead)
+
+  [30.0690, 80.2430], // Munsiyari (end)
+],
+
+waypoints: [
+  { name: "Munsiyari (Start)", coords: [30.0690, 80.2430], type: "start" },
+
+  { name: "Rilkot", coords: [30.1030, 80.3870], type: "camp" },
+
+  { name: "Ghangar", coords: [30.1620, 80.4650], type: "village" },
+
+  { name: "Nanda Devi East Base Camp", coords: [30.1850, 80.5130], type: "glacier" },
+
+  { name: "Martoli", coords: [30.1705, 80.4920], type: "village" },
+
+  { name: "Rilkot (Roadhead)", coords: [30.1030, 80.3870], type: "roadhead" },
+
+  { name: "Munsiyari (End)", coords: [30.0690, 80.2430], type: "end" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
 
@@ -8542,10 +8564,10 @@ waypoints: [
 
     overview: {
         facts: [
-            { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days" },
+            { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days" },
             { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
             { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,700 m" },
-            { emoji: "⚡", label: "Trek Distance", value: "Approx. 100 Km" },
+            { emoji: "⚡", label: "Trek Distance", value: "Approx. 60 Km" },
             { emoji: "🌤️", label: "Best Time", value: "May–June & Sep–Oct" },
             { emoji: "🗺️", label: "Region", value: "Kumaon Himalayas, Uttarakhand" },
             { emoji: "📍", label: "Start Point", value: "Munsiyari" },
@@ -8553,10 +8575,24 @@ waypoints: [
             { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
         ],
         snippet:
-    "The Nanda Devi East Base Camp Trek is a mesmerizing journey deep into the untouched heart of Kumaon’s Johar Valley, where every step unfolds a new story of mountains, rivers, and culture. The trek begins from the quaint village of Rilkot, where terraced fields, wooden homes, and the warmth of local Kumaoni life set the stage for your adventure. As you walk past historic villages like Martoli and Panchhu/Ganghar, you are greeted by friendly villagers, stone temples, and the scent of pine and wildflowers carried by the mountain breeze.<br>The trail meanders alongside the roaring Gori Ganga River, crossing sparkling streams, wooden bridges, and rocky riverbeds shaped over centuries by monsoon torrents. The scenery transforms with every ascent—dense oak and pine forests give way to wide alpine meadows dotted with vibrant wildflowers, grazing bharal (blue sheep), Himalayan monals, and the occasional glimpse of elusive snow foxes or leopards. Waterfalls cascade down cliffs, while glaciers and moraines hint at the immense power of these mountains. The sheer variety of terrain—from lush forests to rocky ridges, open meadows, and gentle snowfields—keeps every day thrilling and visually breathtaking.<br>As the trail climbs higher, the twin peaks of Nanda Devi East and the mighty Nanda Devi (7,816 m) dominate the horizon, their snow-clad ridges glowing in the soft light of sunrise and sunset. Nights are spent in tents or cozy lodges under a canopy of stars, where the silence of the Himalayas and the crisp alpine air rejuvenate the body and spirit. By the time you reach Nanda Devi East Base Camp at 4,750 m, the experience reaches its peak—standing at the foot of these iconic mountains, witnessing the glaciers, cliffs, and sweeping valleys that surround you, you are immersed in the raw majesty of the Himalayas.<br>This trek is not just a passage through stunning landscapes; it is an exploration of Kumaon’s rich culture, its unique wildlife, and the serene power of high-altitude wilderness. Each day offers a new discovery—whether a playful herd of bharal, a quiet village tucked between ridges, or the dramatic shift of the valley as the sun lights up towering peaks.<br><br><strong>Please note:</strong> Trail conditions can change during late spring and post-monsoon due to landslides, river crossings, and snow patches. Proper acclimatization, fitness, and trekking gear are essential for a safe and rewarding journey."
+`Hidden deep within the Kumaon Himalayas, the Nanda Devi East Base Camp Trek enters a region where the mountains are not just seen—they are revealed slowly, and only on their own terms. Set in the remote Johar Valley, this journey follows the powerful Gori Ganga river system, carving its way through ancient forests, abandoned trade routes, and high-altitude meadows that once connected India to Tibet.
+
+<br>The trail doesn’t rush into altitude—it builds into it. Beginning from the inner reaches of the valley, the landscape evolves from pine and oak forests into wide glacial basins, where the terrain opens and the scale of the Himalayas becomes impossible to ignore. Rivers turn into glacial streams, ridgelines rise without warning, and the silence begins to feel heavier with every passing day.
+
+<br>What defines this trek is not just where it goes, but what it moves toward.
+
+<br>Standing ahead is the Nanda Devi massif—dominated by Nanda Devi (7,816 m), India’s highest peak entirely within its borders, and Nanda Devi East (7,434 m), known locally as Sunanda Devi. Together, they form a mountain system that has remained naturally protected within the legendary Nanda Devi Sanctuary—one of the most formidable and isolated high-altitude regions in the world. Peaks like Nanda Kot (6,861 m) and Maiktoli (6,803 m) rise alongside, shaping the glaciers, weather, and movement of the entire valley.
+
+<br>This is not a trail of constant views—it is a journey of timing, patience, and perspective. Clouds move fast, weather shifts without warning, and the mountains reveal themselves in fragments, never all at once. And that is exactly what makes the experience real.
+
+<br>By the time you reach base camp, it is not just about standing at 3,900+ meters beneath towering peaks—it is about understanding the terrain, the silence, and the scale of a place that has remained untouched for reasons beyond difficulty.
+
+<br>This trek is not designed to impress quickly. It builds, it holds back, and then, if conditions allow, it reveals something few places in the Himalayas still can—raw, unfiltered mountain presence.
+
+<br><br><strong>Expect a journey shaped by terrain, weather, and patience—where every step deeper into the valley feels like moving further away from the known, and closer to something far more powerful.</strong>`
 },
 
-    price: 34900,
+    price: 19400,
     priceNote: "* Munsiyari to Munsiyari",
     addons: {
         transport: 5000,
@@ -8580,66 +8616,136 @@ waypoints: [
 
     itinerary: [
 {
-    day: 1,
-    title: "Kathgodam – Munsiyari (2,200 m) | 280 km Drive | 10–12 Hours",
-    details:
-        "<strong>• Drive: 280 km | Duration: 10–12 hrs</strong><br>• Begin your adventure with a long but scenic drive through the Kumaon hills. Pass through quaint towns like Almora and Thal, winding along deep valleys and forests, with glimpses of the distant Himalayan ranges. By evening, arrive at Munsiyari, the serene gateway to high-altitude treks, where the Panchachuli peaks greet you on the horizon."
-},
-{
-    day: 2,
-    title: "Munsiyari – Lilam (2,000 m) | 7 km Trek | 2–3 Hours",
-    details:
-        "<strong>• Trek: ~7 km | Duration: 2–3 hrs</strong><br>• Today is an easy trek designed for acclimatization. After breakfast, take a short drive to Selapani, the last motorable point, and begin the descent to the Gori Ganga River, crossing the bridge at Jimighat. The trail gradually ascends along the river, passing through scenic hamlets, until you reach Lilam Village. Settle into your campsite and soak in the peaceful Himalayan evenings while preparing for the trek ahead."
-},
-{
-    day: 3,
-    title: "Lilam – Bugdiyar (2,700 m) | 13 km Trek | 6–7 Hours",
-    details:
-        "<strong>• Trek: ~13 km | Duration: 6–7 hrs</strong><br>• Today’s trail follows the gorge alongside the Gori Ganga River, weaving through bamboo thickets and conifer forests. About 5 km in, pause at the confluence where the Ralam stream meets the river. Continue ascending toward Radgari, where a quaint tea shop provides a warm respite. Trek further to Bugdiyar, a picturesque campsite with a small rest house and a memorial honoring villagers and army personnel who lost their lives in the 1989 avalanche. Enjoy the serene mountains surrounding your camp."
-},
-{
-    day: 4,
-    title: "Bugdiyar – Rilkot (3,200 m) | 15 km Trek | 7–8 Hours",
-    details:
-        "<strong>• Trek: ~15 km | Duration: 7–8 hrs</strong><br>• Begin the day by crossing a charming river bridge and ascending toward an overhanging cliff with a small deity shrine. Continue along the river through lush alpine flora to encounter two magnificent waterfalls, each cascading over 80 meters. The trail gradually climbs amid towering cliffs and panoramic views, finally reaching Rilkot by late afternoon. Settle into your campsite and revel in the tranquility of the high Himalayas."
-},
-{
-    day: 5,
-    title: "Rilkot – Ghangar (3,300 m) | 12 km Trek | 6–7 Hours",
-    details:
-        "<strong>• Trek: ~12 km | Duration: 6–7 hrs</strong><br>• Trek above the tree line into arid landscapes, passing mostly deserted villages until reaching Burphu. Burphu Peak rises majestically in the background. Enter the scenic Pachu Valley, gradually climbing to Ghangar—a quaint Johari village with intricately carved wooden houses. In October, goat skins may be seen drying on rooftops. An ancient temple adds cultural charm, while the eastern face of Nanda Devi East hints at the adventure to come."
-},
-{
-    day: 6,
-    title: "Ghangar – Nanda Devi East Base Camp (3,900 m) | 7 km Trek | 3–4 Hours",
-    details:
-        "<strong>• Trek: ~7 km | Duration: 3–4 hrs</strong><br>• Ascend gently through Pachhu Valley, past clusters of rhododendron and birch trees. The towering north face of Nanda Devi East guides your way. As the valley widens, meadows carpeted with wildflowers open up, leading to a serene campsite at the base of Nanda Devi East. Spend the evening absorbing the panoramic glacier views, and sleep under the starry Himalayan sky."
-},
-{
-    day: 7,
-    title: "Nanda Devi East Base Camp – Glacier Excursion & Return to Base Camp (3,900 m) | 7 km Trek | 4–5 Hours",
-    details:
-        "<strong>• Trek: ~7 km | Duration: 4–5 hrs</strong><br>• Embark on a 4 km ascent to explore the Nanda Devi East Glacier. Marvel at the icy expanse, glacial streams, and towering peaks surrounding you. Take your time soaking in the surreal high-altitude landscape. After this exhilarating experience, retrace your steps to the base camp, enjoying the tranquility of Pachhu Valley and the serenity of high Himalayan meadows."
-},
-{
-    day: 8,
-    title: "Nanda Devi Base Camp – Martoli (3,350 m) | 12 km Trek | 5 Hours",
-    details:
-        "<strong>• Trek: ~12 km | Duration: 5 hrs | Altitude: 3,900 m → 3,350 m</strong><br>• Begin your descent from Nanda Devi East Base Camp to Martoli, walking through alpine meadows and rocky trails. Along the way, enjoy sweeping views of Nanda Devi, Nanda Devi East, Nanda Kot, and Trishul. Arrive at Martoli, a charming village with traditional Johari houses, camp near the open grasslands, and soak in the serene ambiance and rich cultural charm."
-},
-{
-    day: 9,
-    title: "Martoli – Bugdiyar (2,450 m) | 18 km Trek | 10 Hours",
-    details:
-        "<strong>• Trek: ~18 km | Duration: 10 hrs | Altitude: 3,350 m → 2,450 m</strong><br>• Trek downhill along the Gori Ganga River through lush forests, meadows, and hamlets including Rilkot. Witness Himalayan peaks framing your journey and the serene sound of flowing rivers. Reach Bugdiyar in the late afternoon, unwind at camp, enjoy a hearty meal, and rest under a star-lit sky."
-},
-{
-    day: 10,
-    title: "Bugdiyar – Babaldhar (2,500 m) | 8 km Trek + Drive to Munsiyari | 2–3 hrs Trek + 2 hrs Drive",
-    details:
-        "<strong>• Trek: ~8 km | Drive: ~16–20 km | Duration: 2–3 hrs trek + 2 hrs drive</strong><br>• Complete the final trek from Bugdiyar to Babaldhar through serene valleys and forests. Enjoy one last immersive view of the Himalayas before boarding a vehicle for a scenic drive back to Munsiyari. Arrive by afternoon, unwind, and reflect on the remarkable journey."
+  day: 1,
+  title: "Kathgodam – Munsiyari (2,200 m) | 280 km Drive | 10–12 Hours",
+  details:
+`The journey into the Johar Valley doesn’t begin with mountains—it begins with distance. Long, winding, patient distance. As you leave the plains behind, the road slowly climbs through the Kumaon hills, passing through towns like Almora and Thal, each carrying a quieter rhythm than the last.<br>The landscape transitions almost unnoticed—broad valleys tighten, forests grow denser, and rivers begin to cut deeper into the earth. Pine forests dominate the mid-altitudes, their dry scent lingering in the air, while terraced fields cling to the hillsides—evidence of a life shaped by terrain.<br>And then, almost without warning, Munsiyari opens up.
+
+<br>Here, the Panchachuli range stands across the horizon—not aggressively, but with quiet authority. These peaks aren’t just mountains here; they are part of identity, weather, belief, and rhythm of life. The Johari community has lived with them, traded across them, and respected their moods for centuries.
+
+<br>By evening, as the last light touches the peaks, you realize something important—the journey ahead isn’t just a trek. It is an entry into a valley that still remembers how to live with the mountains, not conquer them.`
 },
 
+{
+  day: 2,
+  title: "Munsiyari – Rilkot (~3,200 m) | Drive + Trek | 6–8 Hours",
+  details:
+`This day introduces you to the unpredictability that defines the Himalayas—not as an obstacle, but as reality.
+
+<br>Depending on road conditions shaped by landslides and weather, you may drive deep into the valley toward Bugdiyar or Rilkot. Or the road may end sooner, asking you to walk more than expected. This flexibility is not inconvenience—it is your first lesson in adapting to the mountains.
+
+As the trek begins, the trail drops toward the Gori Ganga river, a force that has carved this valley over millennia. The sound of the river is constant—not soothing, but powerful, reminding you of the scale of erosion and time.
+<br>
+The route moves through dense forests of oak, pine, and occasionally rhododendron. In spring, these forests burn red with blooming flowers. In monsoon, everything turns deep green and alive. In autumn, the forest breathes in silence.
+<br>
+Wildlife here is not always seen, but always present—Himalayan langurs move silently through trees, and if you’re lucky, distant signs of musk deer or even black bear may appear in the quieter sections.
+<br>
+Reaching Rilkot, you notice something different—this is not just a campsite. It is a place where movement pauses. The valley begins to open, the forests thin out, and the sense of entering deeper terrain becomes real.`
+},
+
+{
+  day: 3,
+  title: "Rilkot – Ghangar (~3,300 m) | 12 km Trek | 6–7 Hours",
+  details:
+`Beyond Rilkot, the valley begins to change character.
+<br>
+The dense forests slowly give way to a more open, rugged landscape. The Gori Ganga still flows beside you, but now the valley widens, revealing old trade routes that once connected India to Tibet.
+<br>
+You pass through abandoned villages and seasonal settlements—silent reminders of the Johar valley’s past. Once thriving with trade and culture, many of these villages now stand partially empty, their wooden houses weathered by time. Migration has changed the valley, but not erased its memory.
+<br>
+As you approach Burphu and Ghangar, the terrain shifts further. You begin to see high-altitude flora—dwarf junipers, alpine grasses, and in certain seasons, a burst of wildflowers that briefly color the valley floor.
+<br>
+And then, if the weather allows, you get your first distant glimpse of something more powerful—
+the eastern face of Nanda Devi East.
+<br>
+It does not reveal itself fully. It never does. It appears through clouds, then disappears again. That is its nature here—present, but never fully accessible.`
+},
+
+{
+  day: 4,
+  title: "Ghangar – Nanda Devi East Base Camp (~3,900 m) | 7 km Trek | 3–4 Hours",
+  details:
+`Beyond Ghangar, the valley begins to feel larger than it looks on a map. The trail enters the upper reaches of the Pachhu Valley, a glacial basin shaped over thousands of years by ice, water, and time. The terrain opens wide—alpine meadows stretch across the valley floor, while lateral moraines and glacial streams define its structure. <br> The forests are now behind you. In their place stand scattered clusters of Bhojpatra (birch)—trees that once carried ancient scriptures on their bark—marking the transition into a more sacred and exposed landscape. 
+<br> As you gain altitude, the mountains begin to rise—not suddenly, but with presence. To your left and ahead, the massive face of Nanda Devi East (7,434 m) dominates the valley—steep, glaciated, and sharply defined. Locally revered as Sunanda Devi, it carries both physical and spiritual weight in this region. But this is only one part of a much larger system. Hidden behind and connected through ridgelines lies Nanda Devi (7,816 m)—India’s second highest peak and the highest entirely within Indian territory. For a long time, before Everest was measured, this very peak was believed to be the highest in the world. Even today, it stands within its own natural fortress—the Nanda Devi Sanctuary—guarded by a ring of high peaks and glaciers that have historically kept it isolated and protected. Around you, other giants quietly define the skyline: <br> Nanda Kot (6,861 m) — rising with a sharp pyramidal form, dominating the lower valley views; <br>Maiktoli (6,803 m) — a massive glaciated peak forming part of the inner sanctuary wall; <br>Panchachuli Peaks (6,334–6,904 m) — forming the eastern skyline of the Johar Valley, visible earlier in the approach. <br> These peaks are not just visual elements—they control weather systems, feed glaciers, and shape the very movement of this valley. 
+<br>Reaching Nanda Devi East Base Camp, you don’t arrive at a dramatic point—you arrive into a space. A wide, silent basin surrounded by icefalls, ridgelines, and shifting clouds. And somewhere beyond what you can see, hidden behind layers of terrain and weather, stands Nanda Devi herself (7,816 m). Not revealed. Not easily seen. Only approached with patience.`
+},
+
+{
+  day: 5,
+  title: "Nanda Devi East Base Camp – Glacier Exploration | 4–5 Hours",
+  details:
+`This day is where the valley begins to reveal its depth—if you allow it to.
+<br>
+From base camp, exploration is not about reaching a fixed point, but about understanding the terrain. You can move further toward the glacial moraine systems, walking along unstable rock, crossing meltwater streams, and approaching the lower edges of the glacier that feeds the valley.
+<br>
+On a clear day, the amphitheater of peaks opens up:
+<br>
+Nanda Devi East stands sharp and defined
+<br>The greater Nanda Devi may reveal glimpses of its upper ridges—never fully, but enough to understand its scale
+<br>Maiktoli and surrounding unnamed ridgelines form a continuous wall of ice and rock
+<br>Glacial systems flow down from these peaks, feeding the Pachhu Valley below
+<br>
+Exploration here is limited not by distance, but by terrain and safety. Trekkers can move a few kilometers into the valley, but beyond that, the ground becomes increasingly unstable—loose moraine, hidden crevasses, and rapidly changing weather make further movement risky without technical gear.
+<br>
+This region carries the memory of older routes—ancient trade paths that once connected the Johar Valley to Tibet, now largely abandoned but still traceable in fragments.
+<br>
+It also sits close to some of the most legendary high-altitude routes in Indian mountaineering:
+<br>
+Traill’s Pass (5,312 m) — an old trans-Himalayan route connecting Kumaon to the Milam Glacier region
+<br>Thompson’s Gate — a high and rarely attempted passage used in exploratory expeditions To Sunanda Devi summit.
+<br>Even today, expeditions in this region demand respect. The terrain has not softened with time. Standing here, you understand something clearly — this is not a place built for movement. It is a place that allows it, briefly.
+<br>
+The experience is not about how far you go, but how deeply you observe. The silence here is not empty. It is controlled, powerful, and constant.`
+},
+
+{
+  day: 6,
+  title: "Nanda Devi Base Camp – Martoli (~3,350 m) | 12 km Trek | 5 Hours",
+  details:
+`The descent toward Martoli is not just a change in altitude—it is a shift back into human history.
+<br>
+As you move down from base camp, the stark glacial terrain slowly softens. The valley widens, the grasses return, and the river once again becomes a guiding presence instead of a distant force.
+<br>
+Martoli appears gradually—not as a village in the usual sense, but as a landscape shaped by settlement. Set on a broad, open plateau above the valley, Martoli is surrounded by sweeping alpine meadows, with uninterrupted views of peaks like Nanda Devi East, Nanda Kot, and distant glaciated ridges.
+<br>
+The geography here is striking—wide, exposed, and open to the sky. Unlike the enclosed feeling of forested valleys, Martoli feels expansive, almost wind-swept, with nothing blocking your line of sight for kilometers.
+<br>
+The village itself carries a different kind of presence. Stone houses, many now abandoned or partially broken, stand as remnants of a time when this was a thriving hub on the Indo-Tibetan trade route. The Johari community once moved through these valleys seasonally, trading salt, wool, and goods across high passes. Today, only a few families return seasonally. The rest of the village exists in quiet memory.
+<br>
+Walking through Martoli, you notice details — wooden carvings on old doors, prayer flags fluttering in the wind, and open fields that once held activity but now hold silence.
+<br>
+But the mountains remain unchanged. They stand close here—not distant, not hidden. And for the first time in the journey, the scale of the Himalayas feels both accessible and overwhelming at the same time.
+<br>
+Martoli is not just a stop on the descent. It is where the valley tells you what it used to be—and what still remains beneath the silence.`
+},
+
+{
+  day: 7,
+  title: "Martoli – Roadhead (Rilkot/Bugdiyar) – Drive to Munsiyari | 6–8 Hours",
+  details:
+`This day brings you back—but not in a straight line.
+<br>
+Depending on road and weather conditions, you trek down to the nearest accessible point—Rilkot or Bugdiyar—and then drive back toward Munsiyari.
+<br>
+The descent feels longer, not physically, but mentally. The valley that once felt vast now feels familiar.
+<br>
+The Gori Ganga flows beside you again, but its sound now carries memory instead of introduction.
+<br>
+By the time you reach Munsiyari, the peaks stand the same—but your understanding of them does not.`
+},
+
+{
+  day: 8,
+  title: "Buffer Day | Weather / Road / Exploration",
+  details:
+`This day exists because the mountains do not follow schedules.
+<br>
+Weather in the Johar Valley is unpredictable—cloud cover, mist, and sudden shifts can hide the peaks for days. This buffer allows space for patience—for waiting at base camp, for another chance at clear views, or for deeper exploration of the valley.
+<br>
+If everything goes perfectly, this day becomes a gift—time to explore more of Martoli, Ghangar, or simply sit in silence and absorb what the journey has already given you.
+<br>
+Because in the Himalayas, the best experiences are rarely the ones that are planned.`
+}
 ],
 
     howToReach: {
@@ -8655,7 +8761,7 @@ waypoints: [
     didYouKnow: [
         "The Johar Valley was once a major Indo-Tibetan trade route used by the Bhotia community.",
         "Martoli village still has centuries-old stone houses and shrines dedicated to Nanda Devi.",
-        "Nanda Devi East is the twin peak of India’s iconic Nanda Devi massif (7,816 m).",
+        "Nanda Devi East(7,434 m) - also known as - Sunanda Devi is the twin peak of India’s iconic Nanda Devi massif (7,816 m).",
         "The Gori Ganga valley is shaped heavily by glacial erosion and monsoon landslides.",
         "Ganghar meadows offer one of the best close-up views of Nanda Kot (6,861 m)."
     ],
@@ -8686,7 +8792,7 @@ waypoints: [
     {
         question: "How long is the trek, and what is the daily hiking distance?",
         answer:
-            "The trek spans 11–12 days, with daily distances ranging from 7 km to 18 km depending on the terrain. Some days involve steep climbs, boulder-hopping, and moraine navigation, so trekking poles and proper pacing are recommended."
+            "The trek spans 7-8 days, with daily distances ranging from 7 km to 18 km depending on the terrain. Some days involve steep climbs, boulder-hopping, and moraine navigation, so trekking poles and proper pacing are recommended."
     },
     {
         question: "What is the difficulty level, and do I need prior experience?",
