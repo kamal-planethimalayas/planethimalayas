@@ -114,11 +114,7 @@ export default function ThankYouPage() {
       </p>
 
       <h2 style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        <span style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: '40px', marginRight: '8px' }} />
-          <span style={{ color: 'black' }}>Planet</span>
-          <span style={{ color: '#ff7300' }}>himalayas</span>
-        </span>
+        
         <span style={{ marginTop: '0.5rem' }}>Booking Details</span>
       </h2>
 
