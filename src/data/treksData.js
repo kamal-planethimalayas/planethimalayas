@@ -8592,7 +8592,7 @@ waypoints: [
 <br><br><strong>Expect a journey shaped by terrain, weather, and patience—where every step deeper into the valley feels like moving further away from the known, and closer to something far more powerful.</strong>`
 },
 
-    price: 19400,
+    price: 17400,
     priceNote: "* Munsiyari to Munsiyari",
     addons: {
         transport: 5000,
@@ -8919,10 +8919,10 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
       "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
   },
 
-  price: 10400,
+  price: 9900,
   priceNote: "* Gogina to Gogina",
   addons: {
-    transport: 6000,
+    transport: 5000,
     transportNote: "* kathgodam to Kathgodam",
     offloadingbag: 2500,
     offloadingNote: "* Maximum weight 9kg/bag"
@@ -9121,11 +9121,11 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     `
     },
 
-    price: 8400,
+    price: 6900,
     priceNote: "* Dhoor/Loharkhet to Loharkhet/Dhoor",
 
     addons: {
-      transport: 5000,
+      transport: 4000,
       transportNote: "* Kathgodam to Kathgodam (shared vehicle basis)",
       offloadingbag: 1500,
       offloadingNote: "* Maximum weight 9kg / bag"
@@ -9333,7 +9333,7 @@ waypoints: [
 <br>What makes the Pindari–Kafni Glacier Trek stand apart is not just its accessibility or its visual range, but the way it allows time for immersion. Over multiple days, it moves through ecosystems, introduces glacial landscapes, and balances exposure with depth—making it both a complete introduction to Himalayan trekking and a journey that continues to stay with you long after it ends.`   
  },
 
-    price: 16900,
+    price: 14900,
     priceNote: "* Khati to Khati",
 
     addons: {
@@ -9626,7 +9626,7 @@ waypoints: [
       "Khaliya Top Trek is one of the most rewarding short treks in the Kumaon Himalayas, offering stunning panoramic views with minimal effort. Starting from the remote mountain town of Munsiyari, this trek quickly ascends into alpine meadows and snow-covered landscapes that open up to reveal the majestic Panchachuli peaks in their full glory.<br><br>The trail begins with a short drive to Balanti Bend, followed by a steady hike through forests of oak and rhododendron. As you gain altitude, the forest gradually thins out, giving way to wide open meadows that remain snow-covered during winter months. Khaliya Top itself is a vast alpine ridge that offers uninterrupted views of towering Himalayan peaks including Panchachuli, Nanda Devi, Hardeol, and Rajrambha.<br><br>A highlight of the trek is the early morning hike to Zero Point, where sunrise paints the snow peaks in golden hues — a moment that defines the entire experience. The trek also includes a visit to Thamri Kund, a hidden alpine lake surrounded by forests and local folklore.<br><br>Perfect for beginners, families, and those short on time, Khaliya Top delivers a complete Himalayan experience — forests, meadows, snow, and big mountain views — in just a few days."
   },
 
-  price: 6900,
+  price: 5400,
   priceNote: "* Munsiyari to Munsiyari",
 
   addons: {
@@ -9853,13 +9853,13 @@ waypoints: [
     "Sunderdhunga Valley is not a trek you casually sign up for—it is something you grow into. Hidden beyond the popular Pindari trail, this valley feels untouched, raw, and deeply personal. Unlike well-trodden routes, Sunderdhunga does not guide you gently; it pulls you in slowly, asking for patience, awareness, and respect for the mountains.<br><br>The journey begins from the familiar village of Khati, but very soon, the trail diverges into a quieter world. Forests grow denser, trails become narrower, and human presence fades. The route to Jatoli and Kathaliya feels like walking through forgotten Himalayan corridors—suspended bridges, river crossings, dense oak and birch forests, and sections where the trail disappears into boulder fields and moraine.<br><br>As you move deeper, the valley opens into a dramatic glacial basin dominated by Maiktoli and surrounding peaks. The terrain shifts constantly—soft forest floor gives way to rugged moraine, icy streams, and exposed high-altitude landscapes. There are no crowds here, no fixed comforts—only the sound of wind, distant rockfall, and the rhythm of your own footsteps.<br><br>This trek demands more than just fitness. River crossings can be tricky, trails can be broken, and weather can change rapidly. It is not uncommon to navigate landslide zones or walk on unstable terrain. But that is exactly what makes Sunderdhunga special—it is one of the last remaining Himalayan treks where the experience still feels like exploration.<br><br>And when you return, what stays is not just the view of peaks—it’s the silence of the valley, the feeling of remoteness, and the quiet confidence that comes from walking a path that few choose to take."
   },
 
-  price: 21900,
+  price: 17900,
   priceNote: "* Khati to Khati",
 
   addons: {
-    transport: 4000,
+    transport: 5000,
     transportNote: "* Kathgodam to Kathgodam",
-    offloadingbag: 4200,
+    offloadingbag: 4500,
     offloadingNote: "* maximum weight </=9kg",
   },
 

@@ -2118,12 +2118,8 @@ Yes, treks like Pangarchulla and Goechala require prior experience and good fitn
 <strong>Not sure which Kumaon trek is right for you?</strong><br>
 Tell us your experience level and time — we’ll suggest the perfect trek for you.
 </p>
+<p><strong>👉 <a href="javascript:void(0);" onclick="openModal('Kumaon Trek Blog')" style="color:#ff7300;">Get Your Personalised Trek Plan Now</a></strong></p>
 
-<p>
-<strong>👉 <a href="#" onclick="openModal()" style="color:#ff7300; font-size:18px;">
-Get Your Personalised Trek Plan Now
-</a></strong>
-</p>
 </div>
 
 <br>
