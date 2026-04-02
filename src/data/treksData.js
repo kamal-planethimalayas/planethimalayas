@@ -2545,7 +2545,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 "Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
     },
 
-    price: 1,
+    price: 7900,
     priceNote: "* Manali to Manali",
     addons: {
         transport: null,
@@ -5529,7 +5529,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   {
     id: "harkidun-ruinsaratal-trek",
-    name: "Harkidun Ruinsaratal Trek",
+    name: "Harkidun & Ruinsaratal Trek",
     tags: ["intermediate", "pro", "lake"],
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
@@ -5553,7 +5553,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       subtitle: "A Timeless Himalayan Masterpiece",
 
     seo: {
-      title: "Har Ki Dun Ruinsara Tal Trek | Itinerary, Cost & Dates | Planethimalayas",
+      title: "Har Ki Dun & Ruinsara Tal Trek | Itinerary, Cost & Dates | Planethimalayas",
       description: "Har Ki Dun & Ruinsara Tal Trek (11,800 ft) blends ancient villages, alpine valleys, and a pristine high-altitude lake. A 8-day trek rich in history and Himalayan beauty."
     },
 
@@ -5572,7 +5572,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       snippet: "The Har Ki Dun–Ruinsara Tal Trek is a rare Himalayan journey where myth, wilderness, and silence come together in perfect harmony. Hidden within the Govind Pashu Vihar National Park, this trail takes you beyond the ordinary — from ancient mountain villages to a sacred alpine lake nestled at the base of the mighty Swargarohini peaks.<br>The journey begins in the Har Ki Dun Valley, a cradle-shaped paradise often called the Valley of the Gods. The path follows the shimmering Supin River, winding through whispering pine and deodar forests, past wooden bridges, and sun-drenched meadows that open to views of Bandarpoonch, Black Peak (Kalanag), and the snow-bound Swargarohini massif. Villages like Osla, Gangad, and Seema still carry the scent of living legend — their carved wooden temples and centuries-old homes echo stories from the Mahabharata, preserved through generations of mountain life.<br>Beyond Seema, the trail diverts toward Devsu Bugyal, a high meadow framed by oak and silver-fir forests. In summer, it bursts into color with wildflowers; by autumn, it glows gold beneath a crisp Himalayan sky. From here, the trek grows quieter and wilder — descending to the valley floor and following the Supin River deeper into the heart of the mountains.<br>At last, the forest opens to reveal Ruinsara Tal — a tranquil glacial lake shimmering at 3,600 meters, surrounded by glaciers and towering peaks. Its still waters mirror the heavens above and the Swargarohini range beyond, creating a sight that feels both sacred and surreal. Nights here are unforgettable — stars scattered across the sky, the lake gleaming in silver light, and an unbroken silence that humbles you to the core.<br>The return trail retraces this divine landscape, giving you one last chance to absorb the valley’s peace and beauty. The Har Ki Dun–Ruinsara Tal Trek is more than a route — it’s a dialogue between you and the mountains, between legend and reality, between solitude and belonging. It leaves you with stories you’ll carry long after you’ve descended — of rivers that sang, peaks that glowed, and a lake that reflected the sky."
     },
 
-    price: 17400,
+    price: 16900,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 4000, 
@@ -6026,7 +6026,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 },
     {
   day: 5,
-  title: "Trek Chakrateertha → Badrinath (10,300 ft) via Laxmivan & Mana | Trek: 15 km | 5–6 hrs",
+  title: "Trek Chakrateertha → Badrinath (10,300 ft) via Laxmivan & Mana | Trek: 15 km | 7–8 hrs",
   details: "Today marks the final day of trekking as you descend from the high alpine terrain back to the sacred town of Badrinath. An early start is essential due to the long distance involved. After breakfast, begin retracing the same trail used during the ascent. The descent is gradual yet steady, first leading down to the serene meadows of Laxmivan, followed by a continued descent towards Mana—the last village of India near the Indo-Tibetan border. From Mana, the trail transitions into a gentle walk towards Badrinath, offering a comfortable finish to the journey. Upon reaching Badrinath, check into a hotel and take time to rest and freshen up. In the evening, explore the local market, visit the revered Badrinath Temple, or unwind at the natural hot water spring, a perfect way to relax tired muscles after days in the mountains."
 }
   ],
@@ -7657,7 +7657,7 @@ waypoints: [
 <br>With Planethimalayas, this journey is approached as an expedition rather than a trek — slow, immersive, and deeply connected to the terrain. It is meant for those who seek not just altitude, but experience — the kind that stays long after the mountains are behind you.`
   },
 
-  price: 39900,
+  price: 35400,
   priceNote: "* Sankri to Chitkul",
 
   addons: {
@@ -8006,13 +8006,13 @@ waypoints: [
 <br>With Planethimalayas, the Mayali Pass Trek is approached as a true Himalayan expedition — one that demands resilience, awareness, and respect for the mountains. It is not just about crossing a pass, but about experiencing the full depth of the Himalayas in their most raw and unpredictable form — a journey that stays with you long after it ends.`
 },
 
-  price: 54900,
-  priceNote: "* Gangi to Sonprayag ",
+  price: 59900,
+  priceNote: "* Rishikesh to Rishikesh ",
 
   addons: {
-    transport: 6000,
+    transport: null,
     offloadingbag: 7200,
-    transportNote: "* Rishikesh to Gangi & Gourikund to Rishikesh",
+    transportNote: null,
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
