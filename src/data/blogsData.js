@@ -2114,9 +2114,16 @@ Yes, treks like Pangarchulla and Goechala require prior experience and good fitn
 <br>
 
 <div style="border:1px solid #ff7300; padding:20px; border-radius:8px; margin:20px 0;">
-  <p><strong>Not sure which Kumaon trek is right for you?</strong></p>
-  <p>Tell us your experience level and time — we’ll suggest the perfect trek.</p>
-<p><strong>👉 <a href="javascript:void(0);" onclick="openModal('Kumaon Trek Blog')" style="color:#ff7300;">Get Personalised Trek Recommendation</a></strong></p>
+  <p style="font-size:18px;">
+<strong>Not sure which Kumaon trek is right for you?</strong><br>
+Tell us your experience level and time — we’ll suggest the perfect trek for you.
+</p>
+
+<p>
+<strong>👉 <a href="#" onclick="openModal()" style="color:#ff7300; font-size:18px;">
+Get Your Personalised Trek Plan Now
+</a></strong>
+</p>
 </div>
 
 <br>
@@ -2254,7 +2261,8 @@ which at the time became the highest mountain ever climbed.
 <h2>⭐ Best Treks in Kumaon Himalayas (Planethimalayas)</h2>
 
 <!-- Khaliya Top -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/khaliya-top-trek/" style="color:#ff7300;">KHALIYA TOP TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/khaliya-top-trek/" style="color:#ff7300;">KHALIYA TOP TREK</a>
+👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"Best views of Panchachuli peaks"</p>
 
@@ -2277,7 +2285,7 @@ Khaliya Top Trek (3,500 m) is one of the best short treks in Kumaon, offering pa
 <br>
 
 <!-- Nanda Devi East BC -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/nanda-devi-east-base-camp-trek/" style="color:#ff7300;">NANDA DEVI EAST BASE CAMP TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/nanda-devi-east-base-camp-trek/" style="color:#ff7300;">NANDA DEVI EAST BASE CAMP TREK</a>👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"Journey to the base of the Himalayan queen"</p>
 
@@ -2300,7 +2308,7 @@ The Nanda Devi East Base Camp Trek (3,900 m) is a high-altitude expedition into 
 <br>
 
 <!-- Sunderdhunga -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/sunderdhunga-valley-trek/" style="color:#ff7300;">SUNDERDHUNGA VALLEY TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/sunderdhunga-valley-trek/" style="color:#ff7300;">SUNDERDHUNGA VALLEY TREK</a>👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"Into the wild heart of Kumaon"</p>
 
@@ -2323,7 +2331,7 @@ Sunderdhunga Valley Trek is a raw and offbeat Himalayan journey leading to Maikt
 <br>
 
 <!-- Pindari Kafni -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/pindari-kafni-glacier-trek" style="color:#ff7300;">PINDARI AND KAFNI GLACIER TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/pindari-kafni-glacier-trek" style="color:#ff7300;">PINDARI AND KAFNI GLACIER TREK</a>👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"A classic journey into Kumaon’s glacial valleys"</p>
 
@@ -2346,7 +2354,7 @@ The Pindari & Kafni Glacier Trek (3,700 m) explores two glacier systems in one j
 <br>
 
 <!-- Ranthan Kharak -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/ranthan-kharak-trek/" style="color:#ff7300;">RANTHAN KHARAK TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/ranthan-kharak-trek/" style="color:#ff7300;">RANTHAN KHARAK TREK</a>👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"Offbeat meadows with uninterrupted Himalayan silence"</p>
 
@@ -2369,7 +2377,7 @@ Ranthan Kharak Trek is a lesser-known trail offering vast alpine meadows, dense 
 <br>
 
 <!-- Dhakuri Pass -->
-<h3>🏔️ <a href="https://planethimalayas.com/trek/dhakuri-pass-trek/" style="color:#ff7300;">DHAKURI PASS TREK</a></h3>
+<h3>🏔️ <a href="https://planethimalayas.com/trek/dhakuri-pass-trek/" style="color:#ff7300;">DHAKURI PASS TREK</a>👉 View Details & Upcoming Dates</h3>
 <br>
 <p style="margin-top:-10px;">"An easy trail with timeless Himalayan charm"</p>
 
