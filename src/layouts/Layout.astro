@@ -1158,7 +1158,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const phoneField = document.getElementById('phone');
 
   // Open/Close modal
-  const openModal = (trekName = "") => {
+  window.openModal = (trekName = "") => {
     trekInput.value = trekName; // prefill trek name if provided
     modal.style.display = 'block';
   };

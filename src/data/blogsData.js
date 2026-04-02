@@ -7,7 +7,7 @@ export const blogs = [
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -121,7 +121,7 @@ export const blogs = [
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -218,7 +218,7 @@ export const blogs = [
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -291,7 +291,7 @@ export const blogs = [
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -395,7 +395,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -515,7 +515,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -618,7 +618,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience lading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -709,7 +709,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -798,7 +798,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -908,7 +908,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1012,7 +1012,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1098,7 +1098,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1243,7 +1243,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1333,7 +1333,7 @@ If you feel any of the following, descend without delay:<br>
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading treks and high-altitude expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1720,7 +1720,7 @@ YOUR SKIN
     name: "Kamal Das",
     thumbnail: "/images/main/kamal.jpg",
     designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks and expeditions across the Himalayas.",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
     socials: {
       linkedin: "https://linkedin.com/in/kamaldas1304"
     }
@@ -1750,6 +1750,8 @@ YOUR SKIN
 
 <p>This is the season for those who seek snow without extreme cold, altitude without chaos, and adventure without compromise.</p>
 
+<br>
+<p><strong>At Planethimalayas, we curate these spring treks to balance adventure, safety, and deeply immersive mountain experiences.</strong></p>
 <br>
 
 <h3><strong>Spring Trekking in the Himalayas: What to Expect</strong></h3>
@@ -1834,6 +1836,12 @@ YOUR SKIN
   ⚠️ <strong>Difficulty:</strong> Difficult<br>
 </ul>
 
+<br>
+<div style="border:1px solid #ff7300; padding:20px; border-radius:8px; margin:20px 0;">
+  <p><strong>Not sure which trek is right for you?</strong></p>
+  <p>Tell us your experience level, time, and preference — we’ll suggest the perfect trek for you.</p>
+  <p><strong>👉 <a href="https://tally.so/forms/nWaQNk" style="color:#ff7300;">Get Personalised Trek Recommendation</a></strong></p>
+</div>
 <br>
 
 <h2>🌿 More Exceptional Spring Treks with Planethimalayas</h2>
@@ -2032,7 +2040,386 @@ One of the most scenic meadow treks in India, Ali–Bedni Bugyal unfolds with en
 <p>If you want to experience the Himalayas at their most balanced, most beautiful, and most alive — <strong>spring is when you must walk these trails.</strong></p>
 
 <blockquote><em>Some seasons show you the mountains. Spring lets you feel them breathe.</em></blockquote>
+<br>
+<br>
+
+<h3>❓ Frequently Asked Questions</h3>
+
+<p><strong>Is spring a good time for trekking in the Himalayas?</strong><br>
+Yes, spring offers a unique mix of snow trekking and comfortable weather, making it one of the best seasons.</p>
+
+<p><strong>Which are the best spring treks for beginners?</strong><br>
+Treks like Deoriatal Chandrashila and Dayara Bugyal are ideal for beginners.</p>
+
+<p><strong>Do I need prior experience for high-altitude spring treks?</strong><br>
+Yes, treks like Pangarchulla and Goechala require prior experience and good fitness levels.</p>
 `
 },
+
+{
+  title: "Kumaon Himalayas Trekking Guide: Offbeat Treks, Nanda Devi, Hidden Valleys & Cultural Exploration",
+  slug: "kumaon-himalayas-trekking-guide",
+  date: "2026-04-02",
+  author: {
+    name: "Kamal Das",
+    thumbnail: "/images/main/kamal.jpg",
+    designation: "Founder, Planethimalayas",
+    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
+    socials: {
+      linkedin: "https://linkedin.com/in/kamaldas1304"
+    }
+  },
+  tags: [
+  "kumaon himalayas",
+  "kumaon trekking",
+  "kumaon trekking guide",
+  "offbeat treks in uttarakhand",
+  "uttarakhand trekking",
+  "nanda devi trek",
+  "nanda devi east base camp trek",
+  "pindari glacier trek",
+  "kafni glacier trek",
+  "sunderdhunga valley trek",
+  "ranthan kharak trek",
+  "khaliya top trek",
+  "dhakuri pass trek",
+  "johar valley trek",
+  "munsiyari trekking",
+  "hidden himalayan treks",
+  "offbeat himalayan destinations",
+  "himalayan trekking india",
+  "trekking in kumaon vs garhwal",
+  "best treks in kumaon himalayas",
+  "ghost villages uttarakhand",
+  "explore kumaon valleys",
+  "high altitude trekking india",
+  "planethimalayas"
+],
+  description: "Explore the Kumaon Himalayas with this complete trekking and travel guide. Discover offbeat treks, Nanda Devi region, hidden valleys, ghost villages, and the best trekking routes in Kumaon with Planethimalayas.",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+  content: `
+
+<p><strong>Kumaon Himalayas is where the mountains don’t just rise — they unfold.</strong></p>
+
+<p>Nestled in the eastern reaches of <a href="https://en.wikipedia.org/wiki/Uttarakhand" target="_blank">Uttarakhand</a>, Kumaon is a rare transitional landscape where the fertile lower Himalayas gradually merge into the glacier-fed high Himalayas. From the dense wilderness of <a href="https://en.wikipedia.org/wiki/Jim_Corbett_National_Park" target="_blank">Jim Corbett National Park</a> to the towering presence of <a href="https://en.wikipedia.org/wiki/Nanda_Devi" target="_ blank">Nanda Devi (7,816 m)</a>, the highest peak in Uttarakhand, the region offers an unmatched spectrum of geography, culture, and exploration.</p>
+
+<p>While the <a href=" https://en.wikipedia.org/wiki/Garhwal_Himalayas" target="_blank"> Garhwal Himalayas </a> attract large numbers due to iconic pilgrimages like <a href=" https://en.wikipedia.org/wiki/Char_Dham" target="_blank">Char Dham</a> and <a href=" https://en.wikipedia.org/wiki/Panch_Kedar" target="_blank">Panch Kedar</a>, Kumaon remains quieter — more raw, more intimate, and deeply rewarding for those seeking <strong>offbeat Himalayan trekking experiences</strong>.</p>
+
+<p>Bounded by <a href=" https://en.wikipedia.org/wiki/Tibet" target="_blank">Tibet</a> in the north, <a href=" https://en.wikipedia.org/wiki/Nepal" target="_blank">Nepal</a> along the Kali River in the east, and Garhwal in the west, Kumaon stands as one of the most diverse and culturally rich mountain regions in India.</p>
+
+<br>
+
+<p><strong>At <a href="https://planethimalayas.com/" target="_blank">Planethimalayas</a>, we design treks in Kumaon that go beyond routes — they immerse you into landscapes, history, and the rhythm of the mountains.</strong></p>
+
+<br>
+
+<div style="border:1px solid #ff7300; padding:20px; border-radius:8px; margin:20px 0;">
+  <p><strong>Not sure which Kumaon trek is right for you?</strong></p>
+  <p>Tell us your experience level and time — we’ll suggest the perfect trek.</p>
+<p><strong>👉 <a href="javascript:void(0);" onclick="openModal('Kumaon Trek Blog')" style="color:#ff7300;">Get Personalised Trek Recommendation</a></strong></p>
+</div>
+
+<br>
+
+<h2>📜 Culture & History of Exploration in Kumaon</h2>
+
+<p>Kumaon’s story is not just about landscapes — it is about people who dared to explore them.</p>
+
+<p>Legendary explorers like <strong><a href="https://en.wikipedia.org/wiki/Nain_Singh" target="_blank">Nain Singh Rawat</a></strong>, from Milam in Johar Valley, mapped the route to Lhasa disguised as a Tibetan monk — counting each step using prayer beads. His work remains one of the most extraordinary achievements in Himalayan exploration.</p>
+
+<p><strong><a href="https://en.wikipedia.org/wiki/Mani_Singh_Rawat" target="_blank"> Mani Singh Rawat </a></strong> assisted early British surveyors in mapping these remote valleys, helping establish Kumaon as a crucial region for geographical discovery.</p>
+
+<p>British explorers further shaped Kumaon’s legacy:</p>
+
+<ul>
+  <li>
+      <strong>George William Traill</strong> crossed <strong>Traill’s Pass (5,312 m)</strong> in 1830, linking the Pindari and Johar valleys.
+  </li>
+
+  <li>
+    <a href="https://en.wikipedia.org/wiki/W._W._Graham" target="_blank">
+      W.W. Graham
+    </a> attempted to breach the formidable 
+    <a href="https://en.wikipedia.org/wiki/Rishi_Ganga" target="_blank">
+      Rishi Ganga gorge
+    </a>, highlighting the extreme difficulty of accessing the Nanda Devi Sanctuary.
+  </li>
+
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Tom_Longstaff" target="_blank">
+      Tom Longstaff
+    </a> successfully climbed 
+    <a href="https://en.wikipedia.org/wiki/Trisul" target="_blank">
+      Trisul (7,120 m)
+    </a> in 1907 — one of the earliest successful ascents of a 7000-meter peak.
+  </li>
+</ul>
+
+<p>
+The golden era of exploration began in the 1930s with 
+<a href="https://en.wikipedia.org/wiki/Eric_Shipton" target="_blank"><strong>Eric Shipton</strong></a> 
+and 
+<a href="https://en.wikipedia.org/wiki/Bill_Tilman" target="_blank"><strong>Bill Tilman</strong></a>, 
+who revolutionized mountaineering with their lightweight expedition style. In 1934, along with Sherpas including 
+<a href="https://en.wikipedia.org/wiki/Ang_Tharkay" target="_blank">Ang Tharkay</a>, 
+they became the first to enter the inner 
+<a href="https://en.wikipedia.org/wiki/Nanda_Devi" target="_blank">Nanda Devi Sanctuary</a> 
+by navigating the near-impenetrable 
+<a href="https://en.wikipedia.org/wiki/Rishi_Ganga" target="_blank">Rishi Ganga gorge</a>—one of the greatest feats in mountaineering history.
+</p>
+
+<p>
+In 1936, 
+<a href="https://en.wikipedia.org/wiki/Bill_Tilman" target="_blank">Bill Tilman</a> 
+and 
+<a href="https://en.wikipedia.org/wiki/Noel_Odell" target="_blank">Noel Odell</a> 
+successfully summited 
+<a href="https://en.wikipedia.org/wiki/Nanda_Devi" target="_blank"><strong>Nanda Devi (7,816 m)</strong></a>, 
+which at the time became the highest mountain ever climbed.
+</p>
+
+<br>
+
+<h2>🌄 Tourism in Kumaon: Popular Destinations</h2>
+
+<p>Kumaon offers a softer entry into the Himalayas through its towns and cultural landscapes.</p>
+
+<ul>
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Almora" target="_blank">Almora</a>, 
+    <a href="https://en.wikipedia.org/wiki/Nainital" target="_blank">Nainital</a>, 
+    <a href="https://en.wikipedia.org/wiki/Bhimtal" target="_blank">Bhimtal</a>, 
+    <a href="https://en.wikipedia.org/wiki/Bageshwar" target="_blank">Bageshwar</a> 
+    — lakes, views, colonial charm
+  </li>
+
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Jim_Corbett_National_Park" target="_blank">
+      Jim Corbett National Park
+    </a> — wildlife and forest ecosystem
+  </li>
+
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Munsiyari" target="_ blank">Munsiyari</a>,
+    Khati, 
+    Sharmoli
+    — gateways to higher Himalayan valleys
+  </li>
+</ul>
+
+<p>These destinations blend <strong>nature, culture, and accessibility</strong>, making Kumaon ideal for both relaxed travel and deeper exploration.</p>
+
+<br>
+
+<h2>🏔️ Exploration & Trekking in Kumaon Himalayas</h2>
+
+<p>The true essence of Kumaon lies beyond the roads — in its valleys.</p>
+
+<p>Regions like <strong>Pindar, Johar, Darma, and Ralam</strong> offer some of the most immersive trekking experiences in the Himalayas. These valleys lead to glaciers, high passes, alpine meadows, and some of the most dramatic mountain landscapes in India.</p>
+
+<p>At the center stands <strong>Nanda Devi</strong> — not just a peak, but a presence. Worshipped as a deity, it shapes the climate, rivers, and culture of the entire region.</p>
+
+<p>Treks here are not just journeys — they are <strong>explorations into geography, history, and mountain life</strong>.</p>
+
+<br>
+
+<h3>🏚️ The Story of Ghost Villages</h3>
+
+<p>Kumaon also tells a quieter story — of migration.</p>
+
+<p>Over 1,700 villages in Uttarakhand are now classified as <strong>ghost villages (Bhootia Gaon)</strong>.</p>
+
+<ul>
+• Lack of infrastructure and healthcare<br>
+• Limited livelihood opportunities<br>
+• Climate challenges and wildlife conflict<br>
+</ul>
+
+<p>Walking through these regions gives trekkers a rare insight into a disappearing way of life — making trekking in Kumaon deeply meaningful.</p>
+
+<br>
+
+<h2>🧭 Modern Trekking in Kumaon</h2>
+
+<ul>
+• Professional guides with deep local knowledge<br>
+• Homestays and camps blending comfort with authenticity<br>
+• Road connectivity to base villages like Munsiyari, Khati, Loharkhet<br>
+</ul>
+
+<p>Today, Kumaon offers the perfect balance of <strong>raw exploration and structured trekking</strong>.</p>
+
+<br>
+
+<h2>⭐ Best Treks in Kumaon Himalayas (Planethimalayas)</h2>
+
+<!-- Khaliya Top -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/khaliya-top-trek/" style="color:#ff7300;">KHALIYA TOP TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"Best views of Panchachuli peaks"</p>
+
+<a href="https://planethimalayas.com/trek/khaliya-top-trek/">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774635805/khaliya-top-trek_hwefy7.webp" 
+       alt="Khaliya Top Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Munsiyari to Munsiyari<br>
+<strong>Difficulty:</strong> Easy<br>
+<strong>Best Season:</strong> Year-round (except monsoon)
+</p>
+<p>
+Khaliya Top Trek (3,500 m) is one of the best short treks in Kumaon, offering panoramic views of Panchachuli, Nanda Devi, and surrounding Himalayan peaks. Perfect for beginners, this trek combines alpine meadows, forest trails, and stunning viewpoints—making it an ideal introduction to Himalayan trekking.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<!-- Nanda Devi East BC -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/nanda-devi-east-base-camp-trek/" style="color:#ff7300;">NANDA DEVI EAST BASE CAMP TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"Journey to the base of the Himalayan queen"</p>
+
+<a href="https://planethimalayas.com/trek/nanda-devi-east-base-camp-trek/">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg" 
+       alt="Nanda Devi East Base Camp Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Khati to Khati (Johar Valley)<br>
+<strong>Difficulty:</strong> Moderate to Difficult<br>
+<strong>Best Season:</strong> May–June & September–October
+</p>
+<p>
+The Nanda Devi East Base Camp Trek (3,900 m) is a high-altitude expedition into the remote Johar Valley, leading to the base of Nanda Devi. This trail passes through ancient trade routes, alpine meadows, glaciers, and abandoned villages—offering one of the most immersive trekking experiences in the Kumaon Himalayas.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<!-- Sunderdhunga -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/sunderdhunga-valley-trek/" style="color:#ff7300;">SUNDERDHUNGA VALLEY TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"Into the wild heart of Kumaon"</p>
+
+<a href="https://planethimalayas.com/trek/sunderdhunga-valley-trek/">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774642528/Sunderdhunga-valley4_saf4ow.jpg" 
+       alt="Sunderdhunga Valley Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Khati to Khati<br>
+<strong>Difficulty:</strong> Difficult<br>
+<strong>Best Season:</strong> May–June & September–October
+</p>
+<p>
+Sunderdhunga Valley Trek is a raw and offbeat Himalayan journey leading to Maiktoli Glacier and pristine high-altitude landscapes. Far from crowded trails, this trek offers a true wilderness experience with rugged terrain and untouched beauty.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<!-- Pindari Kafni -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/pindari-kafni-glacier-trek" style="color:#ff7300;">PINDARI AND KAFNI GLACIER TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"A classic journey into Kumaon’s glacial valleys"</p>
+
+<a href="https://planethimalayas.com/trek/pindari-kafni-glacier-trek">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg" 
+       alt="Pindari Kafni Glacier Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Khati to Khati<br>
+<strong>Difficulty:</strong> Moderate<br>
+<strong>Best Season:</strong> May–June & September–October
+</p>
+<p>
+The Pindari & Kafni Glacier Trek (3,700 m) explores two glacier systems in one journey. With river valleys, forests, alpine meadows, and dramatic glacier views, it offers a perfect balance of accessibility and Himalayan adventure.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<!-- Ranthan Kharak -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/ranthan-kharak-trek/" style="color:#ff7300;">RANTHAN KHARAK TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"Offbeat meadows with uninterrupted Himalayan silence"</p>
+
+<a href="https://planethimalayas.com/trek/ranthan-kharak-trek/">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg" 
+       alt="Ranthan Kharak Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Gogina to Gogina (Namik Region)<br>
+<strong>Difficulty:</strong> Easy to Moderate<br>
+<strong>Best Season:</strong> April–June & September–November
+</p>
+<p>
+Ranthan Kharak Trek is a lesser-known trail offering vast alpine meadows, dense forests, and stunning views of Nanda Devi. Ideal for those seeking solitude and a deeper Himalayan experience.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<!-- Dhakuri Pass -->
+<h3>🏔️ <a href="https://planethimalayas.com/trek/dhakuri-pass-trek/" style="color:#ff7300;">DHAKURI PASS TREK</a></h3>
+<br>
+<p style="margin-top:-10px;">"An easy trail with timeless Himalayan charm"</p>
+
+<a href="https://planethimalayas.com/trek/dhakuri-pass-trek/">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765524797/dhakuri-trek-hero1_c97vl5.jpg" 
+       alt="Dhakuri Pass Trek" 
+       style="float:left; width:260px; margin:0 15px 10px 0; border-radius:6px;" />
+</a>
+
+<p>
+<strong>Route:</strong> Loharkhet to Loharkhet<br>
+<strong>Difficulty:</strong> Easy<br>
+<strong>Best Season:</strong> All year (except monsoon)
+</p>
+<p>
+Dhakuri Pass Trek (2,800–3,300 m) blends forest trails, cultural landscapes, and panoramic Himalayan views. A perfect offbeat alternative for beginners seeking a relaxed yet rewarding trek.
+</p>
+<div style="clear:both;"></div>
+
+<br>
+
+<p><strong>Each of these treks offers a unique blend of natural beauty, cultural immersion, and exploration—making Kumaon Himalayas one of the best regions for offbeat trekking in India.</strong></p>
+
+<br>
+
+<h2>❓ Frequently Asked Questions</h2>
+
+<p><strong>Is Kumaon good for trekking?</strong><br>
+Yes, Kumaon offers some of the best offbeat treks in the Himalayas, ranging from beginner to advanced levels.</p>
+
+<p><strong>Which is the best trek in Kumaon for beginners?</strong><br>
+Khaliya Top and Dhakuri Pass are ideal beginner-friendly treks.</p>
+
+<p><strong>What is special about Kumaon Himalayas?</strong><br>
+Its combination of offbeat trails, rich exploration history, and cultural depth makes it unique.</p>
+
+<p><strong>When is the best time to trek in Kumaon?</strong><br>
+Spring (March–June) and Autumn (September–November) are ideal seasons.</p>
+
+<br>
+
+<h3>✨ Final Words</h3>
+
+<p>Kumaon is not just a destination — it is a journey into the deeper Himalayas.</p>
+
+<p>If you are looking for <strong>offbeat trekking in Uttarakhand, unexplored valleys, and real mountain experiences</strong>, Kumaon is where you begin.</p>
+
+<blockquote><em>Some places you visit. Kumaon stays with you.</em></blockquote>
+
+`
+}
     
 ];
