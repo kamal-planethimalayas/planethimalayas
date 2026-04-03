@@ -1,7 +1,7 @@
 export const news = [
 
   {
-  title: "Fresh Snowfall in Mountains, Hailstorm Alert for Several States",
+  title: "The Western Himalayan Region (WHR) will experience widespread light to moderate rain and snowfall with thunderstorms, lightning, and gusty winds (40-50 kmph) from April 3-6, 2026",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
@@ -9,8 +9,9 @@ export const news = [
   `
   <h4>Recent Updates:</h4>
 <ul>
-    <li>❖ As of March 17, 2026, the IMD has reported fresh, moderate snowfall in the Western Himalayas (J&K, Himachal Pradesh, Uttarakhand) driven by active Western Disturbances. Heavy snowfall occurred on the Dhauladhar range and near the Atal Tunnel. Further rain and snow are forecast for the region until March 20-21.
-    
+    <li>❖ Western Himalayas (Jammu-Kashmir, Himachal, Uttarakhand): Active Western Disturbances are bringing rain, snowfall, and high-speed winds. Isolated hailstorms are likely.</li>
+    <li>❖ Eastern Himalayas (Sikkim & Arunachal Pradesh): Light to moderate precipitation is expected to be widespread.</li>
+    <li>❖ Impact: Potential disruptions due to lightning and strong winds. Travelers are advised to check local forecasts.</li>
 </ul>`
 },
 
