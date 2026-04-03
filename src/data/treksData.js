@@ -4646,7 +4646,7 @@ seo: {
 
 <br>More than a trek, Gaumukh–Tapovan is a pilgrimage through geology, mythology, and Himalayan grandeur — a route where every bend tells a story, every wind carries an echo of ancient devotion, and every mountain stands as a reminder of nature’s timeless, towering presence.`    },
 
-    price: 17900,
+    price: 17400,
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 6000, 
@@ -5389,7 +5389,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>The Phulara Ridge Trek is not merely a trail to traverse; it is a story to inhabit. Each day reveals layers of the Himalayas — the hidden forests, the vibrant shepherd meadows, and the endless sky-road of the ridge. For those who walk it, the mountains become more than scenery; they become a rhythm, a presence, and a memory carved deep into the heart, an adventure that lingers long after the descent.`    
 },
 
-    price: 10900,
+    price: 9900,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 4000, 
@@ -5572,7 +5572,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       snippet: "The Har Ki Dun–Ruinsara Tal Trek is a rare Himalayan journey where myth, wilderness, and silence come together in perfect harmony. Hidden within the Govind Pashu Vihar National Park, this trail takes you beyond the ordinary — from ancient mountain villages to a sacred alpine lake nestled at the base of the mighty Swargarohini peaks.<br>The journey begins in the Har Ki Dun Valley, a cradle-shaped paradise often called the Valley of the Gods. The path follows the shimmering Supin River, winding through whispering pine and deodar forests, past wooden bridges, and sun-drenched meadows that open to views of Bandarpoonch, Black Peak (Kalanag), and the snow-bound Swargarohini massif. Villages like Osla, Gangad, and Seema still carry the scent of living legend — their carved wooden temples and centuries-old homes echo stories from the Mahabharata, preserved through generations of mountain life.<br>Beyond Seema, the trail diverts toward Devsu Bugyal, a high meadow framed by oak and silver-fir forests. In summer, it bursts into color with wildflowers; by autumn, it glows gold beneath a crisp Himalayan sky. From here, the trek grows quieter and wilder — descending to the valley floor and following the Supin River deeper into the heart of the mountains.<br>At last, the forest opens to reveal Ruinsara Tal — a tranquil glacial lake shimmering at 3,600 meters, surrounded by glaciers and towering peaks. Its still waters mirror the heavens above and the Swargarohini range beyond, creating a sight that feels both sacred and surreal. Nights here are unforgettable — stars scattered across the sky, the lake gleaming in silver light, and an unbroken silence that humbles you to the core.<br>The return trail retraces this divine landscape, giving you one last chance to absorb the valley’s peace and beauty. The Har Ki Dun–Ruinsara Tal Trek is more than a route — it’s a dialogue between you and the mountains, between legend and reality, between solitude and belonging. It leaves you with stories you’ll carry long after you’ve descended — of rivers that sang, peaks that glowed, and a lake that reflected the sky."
     },
 
-    price: 16900,
+    price: 14900,
     priceNote: "* Sankri to Sankri",
     addons: {
       transport: 4000, 
@@ -5969,7 +5969,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>The Satopanth Lake Trek is ideal for trekkers who seek more than just scenery. It demands respect for altitude, patience with rugged terrain, and an appreciation for slow, meaningful journeys. In return, it offers an experience that feels deeply personal — a trek where every step is layered with legend, every valley tells a story, and the destination leaves a lasting imprint long after the trail ends.
 ` },
 
-  price: 16900,
+  price: 15400,
   priceNote: "* Joshimath to Badrinath",
 
   addons: {
@@ -7657,7 +7657,7 @@ waypoints: [
 <br>With Planethimalayas, this journey is approached as an expedition rather than a trek — slow, immersive, and deeply connected to the terrain. It is meant for those who seek not just altitude, but experience — the kind that stays long after the mountains are behind you.`
   },
 
-  price: 35400,
+  price: 35900,
   priceNote: "* Sankri to Chitkul",
 
   addons: {
@@ -8006,7 +8006,7 @@ waypoints: [
 <br>With Planethimalayas, the Mayali Pass Trek is approached as a true Himalayan expedition — one that demands resilience, awareness, and respect for the mountains. It is not just about crossing a pass, but about experiencing the full depth of the Himalayas in their most raw and unpredictable form — a journey that stays with you long after it ends.`
 },
 
-  price: 59900,
+  price: 54900,
   priceNote: "* Rishikesh to Rishikesh ",
 
   addons: {
@@ -8316,7 +8316,7 @@ waypoints: [
       snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
     },
 
-    price: 19400,     // you can fill in actual price
+    price: 16900,     // you can fill in actual price
     priceNote: "* Lohajung to Wan",
     addons: {
       transport: 5000,    // fill in as applicable
@@ -8592,7 +8592,7 @@ waypoints: [
 <br><br><strong>Expect a journey shaped by terrain, weather, and patience—where every step deeper into the valley feels like moving further away from the known, and closer to something far more powerful.</strong>`
 },
 
-    price: 17400,
+    price: 16900,
     priceNote: "* Munsiyari to Munsiyari",
     addons: {
         transport: 5000,
@@ -9853,7 +9853,7 @@ waypoints: [
     "Sunderdhunga Valley is not a trek you casually sign up for—it is something you grow into. Hidden beyond the popular Pindari trail, this valley feels untouched, raw, and deeply personal. Unlike well-trodden routes, Sunderdhunga does not guide you gently; it pulls you in slowly, asking for patience, awareness, and respect for the mountains.<br><br>The journey begins from the familiar village of Khati, but very soon, the trail diverges into a quieter world. Forests grow denser, trails become narrower, and human presence fades. The route to Jatoli and Kathaliya feels like walking through forgotten Himalayan corridors—suspended bridges, river crossings, dense oak and birch forests, and sections where the trail disappears into boulder fields and moraine.<br><br>As you move deeper, the valley opens into a dramatic glacial basin dominated by Maiktoli and surrounding peaks. The terrain shifts constantly—soft forest floor gives way to rugged moraine, icy streams, and exposed high-altitude landscapes. There are no crowds here, no fixed comforts—only the sound of wind, distant rockfall, and the rhythm of your own footsteps.<br><br>This trek demands more than just fitness. River crossings can be tricky, trails can be broken, and weather can change rapidly. It is not uncommon to navigate landslide zones or walk on unstable terrain. But that is exactly what makes Sunderdhunga special—it is one of the last remaining Himalayan treks where the experience still feels like exploration.<br><br>And when you return, what stays is not just the view of peaks—it’s the silence of the valley, the feeling of remoteness, and the quiet confidence that comes from walking a path that few choose to take."
   },
 
-  price: 17900,
+  price: 16900,
   priceNote: "* Khati to Khati",
 
   addons: {
