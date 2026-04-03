@@ -2545,7 +2545,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 "Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
     },
 
-    price: 7900,
+    price: 8400,
     priceNote: "* Manali to Manali",
     addons: {
         transport: null,
@@ -3228,7 +3228,7 @@ description:
 <br>As the trail descends toward Naya Tapru and eventually back to Rumsu, the journey comes full circle. What begins as a forest walk evolves into a ridge-top experience and returns again to familiar ground, leaving behind not just views, but a sense of having moved through different layers of the Himalayas in a short, well-balanced trek.`
  },
 
-  price: 9400,
+  price: 8400,
   priceNote: "* Manali to Manali",
 
   addons: {
@@ -4236,7 +4236,7 @@ seo: {
   "The Ali–Bedni Bugyal Trek is a journey into the heart of Uttarakhand’s most enchanting high-altitude meadows — vast rolling grasslands that look like they’ve been brushed onto the earth by the hands of the gods. Starting from the quiet mountain village of Lohajung, the trail gently climbs through ancient oak and rhododendron forests where sunlight filters in golden beams and the woods echo with Himalayan thrushes, woodpeckers, and the occasional rustle of a mountain fox slipping between the shadows.<br>Then, almost without warning, the forests fall away and the world opens up into the endless green waves of Ali Bugyal — one of the largest alpine meadows in Asia. Walking here feels surreal. The air becomes crisp, the earth soft underfoot, and far on the horizon rise the great guardians of the Garhwal Himalayas: Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing white under the morning sun or flushed in shades of rose and gold at dusk. It’s a landscape so vast and quiet that you can hear the wind travel across the grass.<br>A gentle traverse leads you to Bedni Bugyal, equally magical yet imbued with a deeper spiritual energy. At its center lies Bedni Kund, a sacred, mirror-like pond believed to have witnessed centuries of rituals and the legendary Nanda Devi Raj Jat Yatra, one of the Himalayas’ most revered pilgrimages. The meadows here are dotted with wildflowers — blue poppies, brahmakamal, bistorts, and primulas — turning the terrain into a vibrant tapestry during summer.<br>Ali and Bedni are more than just meadows; they are living, breathing landscapes where nature, culture, and ancient lore blend seamlessly. Whether you are a first-time trekker or an experienced wanderer, these bugyals welcome you into a world where the sky feels close enough to touch, the mountains watch silently over the valleys, and every step fills you with a quiet sense of wonder."
     },
 
-    price: 12900,
+    price: 9900,
     priceNote: "* Lohajung to Lohajung",
     addons: {
       transport: 6000, 
@@ -4646,7 +4646,7 @@ seo: {
 
 <br>More than a trek, Gaumukh–Tapovan is a pilgrimage through geology, mythology, and Himalayan grandeur — a route where every bend tells a story, every wind carries an echo of ancient devotion, and every mountain stands as a reminder of nature’s timeless, towering presence.`    },
 
-    price: 16900,
+    price: 17900,
     priceNote: "* Gangotri to Gangotri",
     addons: {
       transport: 6000, 
@@ -5101,7 +5101,7 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   `
   },
 
-  price: 15900,
+  price: 17900,
   priceNote: "* Gangotri to Gangotri",
 
   addons: {
@@ -5758,7 +5758,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 "The Har Ki Dun Trek is one of those rare Himalayan journeys where myth, nature, and human warmth come together to create pure magic. Hidden deep in the Govind Pashu Vihar National Park, this cradle-shaped valley opens up a world of towering peaks, ancient legends, and timeless mountain life. The trail follows the clear blue waters of the Supin River, winding past whispering pine and deodar forests, wooden bridges, and meadows that seem to glow under the morning sun.<br>What makes Har Ki Dun unforgettable is its sense of peace — no roads, no crowds, only the soft hum of the valley and the rhythm of your steps. Every bend brings a new surprise — a cluster of wild rhododendrons, a snow-fed stream, or the distant sight of Swargarohini shining under a veil of clouds.<br>Trekkers walk through centuries-old villages like Osla, Gangad, and Seema, where time seems to move slower. The intricate wooden temples, carved with mythological motifs, tell stories of faith that still live strong in the mountains. The Duryodhana Temple of Osla, now devoted to Lord Someshwar, stands as a reminder of the valley’s deep connection to the Mahabharata.<br>As the trail climbs higher, it leads to alpine meadows and moraine fields, revealing stunning views of Bandarpoonch, Kalanag (Black Peak), and the Swargarohini massif — the same peaks said to mark the path to heaven taken by the Pandavas.<br>Har Ki Dun is not just a trek; it’s a living story. A story of rivers that sing, forests that whisper, and people who still greet you with warmth and mountain grace. Whether you’re drawn by mythology, nature, or the spirit of solitude, this trek will make you feel like you’ve stepped into another world — one that’s real, raw, and deeply human."
     },
 
-    price: 12400,
+    price: 11400,
     priceNote: "* Sanri to Sankri",
     addons: {
       transport: 4000, 
@@ -6380,7 +6380,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>Bold, immersive, and deeply satisfying, the Pangarchulla Peak Trek is not just a continuation of Kuari Pass — it is its wild, adventurous crescendo. A perfect choice for trekkers ready to move beyond easy trails and experience the true power, exposure, and exhilaration of the high Himalayas.`
 },
 
-  price: 12900,
+  price: 13400,
   priceNote: "* Joshimath to Joshimath",
   addons: {
     transport: 6000,
@@ -6602,7 +6602,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 <br>Gulabi Kantha is a trek for those who want the Himalayas to feel personal rather than overwhelming — a place where trails remain peaceful, views arrive without competition, and every season tells a different story. Whether walked through flowers, mist, or snow, it offers an experience that feels less like a checklist and more like a conversation with the mountains themselves.`
 },
 
-  price: 10400,
+  price: 9900,
   priceNote: "* Hanuman Chatti to Hanuman Chatti",
   addons: {
     transport: 4000,
@@ -7003,7 +7003,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 <br>With its short duration, gentle gradients, and remarkable diversity of scenery, the Dayara Bugyal Trek is ideal for beginners, families, nature lovers, and photographers — yet remains a deeply rejuvenating experience for seasoned trekkers seeking the quiet magic of the Garhwal Himalayas.`
   },
 
-  price: 8900,
+  price: 9900,
   priceNote: "* Barsu to Barsu",
   addons: {
     transport: 4000,
@@ -8919,7 +8919,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
       "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
   },
 
-  price: 9900,
+  price: 11400,
   priceNote: "* Gogina to Gogina",
   addons: {
     transport: 5000,
@@ -9121,7 +9121,7 @@ With a cosy guesthouse at Dhakuri, easy-to-moderate trail difficulty, and only 2
     `
     },
 
-    price: 6900,
+    price: 8400,
     priceNote: "* Dhoor/Loharkhet to Loharkhet/Dhoor",
 
     addons: {
@@ -9626,7 +9626,7 @@ waypoints: [
       "Khaliya Top Trek is one of the most rewarding short treks in the Kumaon Himalayas, offering stunning panoramic views with minimal effort. Starting from the remote mountain town of Munsiyari, this trek quickly ascends into alpine meadows and snow-covered landscapes that open up to reveal the majestic Panchachuli peaks in their full glory.<br><br>The trail begins with a short drive to Balanti Bend, followed by a steady hike through forests of oak and rhododendron. As you gain altitude, the forest gradually thins out, giving way to wide open meadows that remain snow-covered during winter months. Khaliya Top itself is a vast alpine ridge that offers uninterrupted views of towering Himalayan peaks including Panchachuli, Nanda Devi, Hardeol, and Rajrambha.<br><br>A highlight of the trek is the early morning hike to Zero Point, where sunrise paints the snow peaks in golden hues — a moment that defines the entire experience. The trek also includes a visit to Thamri Kund, a hidden alpine lake surrounded by forests and local folklore.<br><br>Perfect for beginners, families, and those short on time, Khaliya Top delivers a complete Himalayan experience — forests, meadows, snow, and big mountain views — in just a few days."
   },
 
-  price: 5400,
+  price: 6900,
   priceNote: "* Munsiyari to Munsiyari",
 
   addons: {
@@ -10052,7 +10052,7 @@ waypoints: [
 
 <br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
 
-    price: 21900,
+    price: 20400,
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 5000, 
@@ -10536,7 +10536,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 <br>From cloud-draped forests to ridges that soar above the world, Sandakphu and Phalut offer an experience that balances adventure with soulful beauty — a trek where the mountains feel close, the culture feels alive, and every viewpoint leaves you humbled by the scale of the Eastern Himalayas. Perfect for fit beginners and seasoned trekkers alike, this is a route that stays with you long after the trail ends.`
   },
 
-  price: 14900,
+  price: 16400,
   priceNote: "* Manebhanjan to Srikhola",
   addons: {
     transport: 4000,
