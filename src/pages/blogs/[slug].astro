@@ -60,25 +60,36 @@ if (data) {
 
   <!-- 🔥 AUTHOR BLOCK (new) -->
     <div class="meta">
-      <img src={blog.author.thumbnail} alt={blog.author.name} />
+  <img 
+    src={(blog.author && blog.author.thumbnail) || "/images/main/brand-logo.png"} 
+    alt={(blog.author && blog.author.name) || "PH In-House Team"} 
+  />
 
-      <div class="author-info">
-        <div class="author-name">{blog.author.name}</div>
-        <div class="author-designation">{blog.author.designation}</div>
-        <p class="author-bio">{blog.author.bio}</p>
-
-        {blog.author.socials?.linkedin && (
-          <a 
-            href={blog.author.socials.linkedin} 
-            target="_blank"
-            rel="noopener noreferrer"
-            class="author-linkedin"
-          >
-            LinkedIn Profile →
-          </a>
-        )}
-      </div>
+  <div class="author-info">
+    <div class="author-name">
+      {(blog.author && blog.author.name) || "PH In-House Team"}
     </div>
+
+    <div class="author-designation">
+      {(blog.author && blog.author.designation) || "Editorial Team, Planethimalayas"}
+    </div>
+
+    <p class="author-bio">
+      {(blog.author && blog.author.bio) || "The PH In-House Team is the core editorial and operations group at Planethimalayas—made up of trek leaders, route planners, and on-ground experts with deep experience across the Himalayas."}
+    </p>
+
+    {(blog.author && blog.author.socials && blog.author.socials.linkedin) && (
+      <a 
+        href={blog.author.socials.linkedin} 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="author-linkedin"
+      >
+        LinkedIn Profile →
+      </a>
+    )}
+  </div>
+</div>
     <!-- END AUTHOR BLOCK -->
 
   <!-- Blog Interactions -->
@@ -270,10 +281,8 @@ if (data) {
 .meta img {
   width: 64px;
   height: 64px;
-  border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid #ff7300;
 }
 
 .author-info {
@@ -290,6 +299,8 @@ if (data) {
 
 .author-designation {
   font-size: 0.95rem;
+    font-weight: 700;
+
   color: #555;
 }
 

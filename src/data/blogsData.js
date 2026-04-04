@@ -4,14 +4,14 @@ export const blogs = [
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Himalayan trekking",
   "trek preparation",
@@ -118,14 +118,14 @@ export const blogs = [
   slug: "mountain-manners",
   date: "2025-09-16",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
     "Leave No Trace",
     "Trekking Tips",
@@ -215,14 +215,14 @@ export const blogs = [
   slug: "mountain-sickness",
   date: "2025-09-16",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Mountain Sickness",
   "Acute Mountain Sickness",
@@ -288,14 +288,14 @@ export const blogs = [
   slug: "preventing-ams-mountain-sickness",
   date: "2025-09-16",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Mountain Sickness",
   "Acute Mountain Sickness",
@@ -392,14 +392,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "himalayan-trek-packing",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Himalayan Trek Packing List",
   "Trekking Gear Checklist",
@@ -512,14 +512,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "healthy-himalayan-trek",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Himalayan Trek Fitness Guide",
   "Trekking Training Plan",
@@ -615,14 +615,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience lading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "How to Choose a Himalayan Trek",
   "Best Treks in the Indian Himalayas",
@@ -706,14 +706,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Best Trekking Shoes for Himalayas",
   "Trekking Footwear Guide India",
@@ -795,14 +795,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Best Backpack for Himalayan Treks",
   "Trekking Backpack Guide India",
@@ -905,14 +905,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "packing-backpack",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "How to Pack a Backpack for Himalayan Trek",
   "Backpack Packing Tips for Trekking",
@@ -1009,14 +1009,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "trekking-shoes-care",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Trekking Shoes Care",
   "How to Maintain Trekking Shoes",
@@ -1095,14 +1095,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "Best Trekking Jackets for Himalayas",
   "Synthetic vs Down Jacket for Trekking",
@@ -1240,14 +1240,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "real-picture-of-himalayan-trekking",
   date: "2025-10-26",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
     "Himalayan trekking",
     "responsible trekking",
@@ -1330,14 +1330,14 @@ If you feel any of the following, descend without delay:<br>
   slug: "ultimate-winter-trek-preparation-guide-himalayas",
   date: "2025-10-26",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
     "winter trekking",
     "Himalayan trekking",
@@ -1717,14 +1717,14 @@ YOUR SKIN
   slug: "best-spring-treks-himalayas",
   date: "2026-02-12",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
     "spring treks in Himalayas",
     "high altitude trekking",
@@ -2061,14 +2061,14 @@ Yes, treks like Pangarchulla and Goechala require prior experience and good fitn
   slug: "kumaon-himalayas-trekking-guide",
   date: "2026-04-02",
   author: {
-    name: "Kamal Das",
-    thumbnail: "/images/main/kamal.jpg",
-    designation: "Founder, Planethimalayas",
-    bio: "A certified mountaineer and Wilderness First Responder with over a decade of experience leading high-altitude treks across the Himalayas.",
-    socials: {
-      linkedin: "https://linkedin.com/in/kamaldas1304"
-    }
-  },
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
   tags: [
   "kumaon himalayas",
   "kumaon trekking",
