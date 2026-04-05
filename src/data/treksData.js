@@ -8592,7 +8592,7 @@ waypoints: [
 <br><br><strong>Expect a journey shaped by terrain, weather, and patience—where every step deeper into the valley feels like moving further away from the known, and closer to something far more powerful.</strong>`
 },
 
-    price: 16900,
+    price: 19900,
     priceNote: "* Munsiyari to Munsiyari",
     addons: {
         transport: 5000,
@@ -8602,7 +8602,7 @@ waypoints: [
     },
 
     inclusionsNote:
-        "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 8",
+        "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 8",
 
     highlights: [
         "Trek into the remote Johar Valley, once part of an ancient Indo-Tibetan trade route",
@@ -9333,7 +9333,7 @@ waypoints: [
 <br>What makes the Pindari–Kafni Glacier Trek stand apart is not just its accessibility or its visual range, but the way it allows time for immersion. Over multiple days, it moves through ecosystems, introduces glacial landscapes, and balances exposure with depth—making it both a complete introduction to Himalayan trekking and a journey that continues to stay with you long after it ends.`   
  },
 
-    price: 14900,
+    price: 17400,
     priceNote: "* Khati to Khati",
 
     addons: {
@@ -9637,7 +9637,7 @@ waypoints: [
   },
 
   inclusionsNote:
-    "🍽️ All Meals – Nutritious meals provided from lunch on Day 2 to lunch on Day 3",
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 3",
 
   dates: [
     { label: "05 Apr - 07 Apr", start: "2026-04-05", end: "2026-04-07" },
@@ -9853,7 +9853,7 @@ waypoints: [
     "Sunderdhunga Valley is not a trek you casually sign up for—it is something you grow into. Hidden beyond the popular Pindari trail, this valley feels untouched, raw, and deeply personal. Unlike well-trodden routes, Sunderdhunga does not guide you gently; it pulls you in slowly, asking for patience, awareness, and respect for the mountains.<br><br>The journey begins from the familiar village of Khati, but very soon, the trail diverges into a quieter world. Forests grow denser, trails become narrower, and human presence fades. The route to Jatoli and Kathaliya feels like walking through forgotten Himalayan corridors—suspended bridges, river crossings, dense oak and birch forests, and sections where the trail disappears into boulder fields and moraine.<br><br>As you move deeper, the valley opens into a dramatic glacial basin dominated by Maiktoli and surrounding peaks. The terrain shifts constantly—soft forest floor gives way to rugged moraine, icy streams, and exposed high-altitude landscapes. There are no crowds here, no fixed comforts—only the sound of wind, distant rockfall, and the rhythm of your own footsteps.<br><br>This trek demands more than just fitness. River crossings can be tricky, trails can be broken, and weather can change rapidly. It is not uncommon to navigate landslide zones or walk on unstable terrain. But that is exactly what makes Sunderdhunga special—it is one of the last remaining Himalayan treks where the experience still feels like exploration.<br><br>And when you return, what stays is not just the view of peaks—it’s the silence of the valley, the feeling of remoteness, and the quiet confidence that comes from walking a path that few choose to take."
   },
 
-  price: 16900,
+  price: 20900,
   priceNote: "* Khati to Khati",
 
   addons: {
