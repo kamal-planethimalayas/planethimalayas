@@ -92,6 +92,23 @@ export const generalFAQs = [
   ]
 },
 
+    {
+        topic: "Important trek facts:",
+        faqs: [
+          {
+  "question": "Which are the best spring treks in the Himalayas?",
+  "answer": `<p>Spring (March to May) is one of the most beautiful seasons to explore the Indian Himalayas. Trails are alive with blooming rhododendrons, wildflowers, and fresh alpine meadows, while the weather is pleasant and skies are generally clear for stunning mountain views. Some of the best spring treks include <strong><a href="https://www.planethimalayas.com/trek/chandrakhani-pass-trek" target="_blank" rel="noopener noreferrer">Chandrakhani Pass</a>, <a href="https://www.planethimalayas.com/trek/ali-bedni-bugyal-trek" target="_blank" rel="noopener noreferrer">Ali Bedni Bugyal</a>, <a href="https://www.planethimalayas.com/trek/deoriatal-chandrashila-trek" target="_blank" rel="noopener noreferrer">Deoriatal Chandrashila</a>, <a href="https://www.planethimalayas.com/trek/harkidun-trek" target="_blank" rel="noopener noreferrer">Har Ki Dun</a>, <a href="https://www.planethimalayas.com/trek/kuari-pass-trek" target="_blank" rel="noopener noreferrer">Kuari Pass</a></strong>, and more, each offering a unique combination of landscapes, altitude, and adventure challenges.</p>
+<p>Spring treks are ideal for both beginners seeking easy trails and seasoned trekkers looking for high-altitude snow experiences. From colorful meadows to glacial vistas, these treks provide the perfect balance of adventure, scenic beauty, and cultural immersion.</p>
+<p>At <strong>Planethimalayas</strong>, we have curated some of the best spring treks that let you experience the Himalayas in their most vibrant and pristine form. <strong><a href="https://www.planethimalayas.com/blogs/best-spring-treks-himalayas" target="_blank" rel="noopener noreferrer">Explore our guide</a></strong> to find the perfect trek for your spring adventure and witness the Himalayas at their peak of beauty and serenity.</p>`
+},
+{
+  "question": "Which are the best treks in Kumaon Himalayas of Uttarakhand?",
+  "answer": `<p>The Kumaon Himalayas of Uttarakhand offer an incredible variety of treks, ranging from easy scenic hikes to challenging high-altitude expeditions. Some of the most popular treks include <strong>Khaliya Top, Ranthan Kharak, Pindari Glacier, Kafni Glacier, Nanda Devi East Base Camp, Sunderdhunga Valley, Ralamdhura, and Brijganga Pass</strong>. Each trek showcases pristine alpine meadows, dense forests, glacial streams, and awe-inspiring Himalayan peaks. Kumaon treks are distinct from Garhwal routes with their quieter trails, verdant valleys, and offbeat, raw landscapes, giving trekkers a truly immersive experience in the heart of the Himalayas.</p>
+<p>To know more about the Kumaon Himalayas and the treks we operate and organize there, <strong><a href="https://planethimalayas.com/blogs/kumaon-himalayas-trekking-guide" target="_blank" rel="noopener noreferrer">click here to explore our complete guide</a></strong>.</p>`
+}
+    ]
+},
+
 {
     topic: "Trekking for women:",
     faqs: [

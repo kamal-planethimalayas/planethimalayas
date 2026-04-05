@@ -4415,7 +4415,7 @@ seo: {
     [30.5278, 79.2236], // Tungnath
     [30.5411, 79.2253], // Chandrashila Summit (end)
   ],
-    heroImage:       "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517847/chandrashila-hero2_zmhy2k.jpg",
+    heroImage:       "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
                 "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517852/chandrashila-hero_r8w4xm.jpg",
@@ -6135,7 +6135,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     [30.4755, 79.6151], // Kuari Pass summit
   ],
 
-  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535437/kuari-pass-view13_iafpu5.jpg",
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
 
   heroImages: [
               "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
