@@ -1,17 +1,19 @@
 export const news = [
 
   {
-  title: "The Western Himalayan Region (WHR) will experience widespread light to moderate rain and snowfall with thunderstorms, lightning, and gusty winds (40-50 kmph) from April 3-6, 2026",
+  title: "As of April 6, 2026, the India Meteorological Department (IMD) warns of active Western Disturbances affecting Northwest India, bringing heavy rain/snowfall to mountainous regions on April 7th-8th.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
   `
+  <p>Expect thunderstorms, hail, and strong winds (40-60 kmph) in Himachal Pradesh, Uttarakhand, and Jammu & Kashmir, causing a sharp temperature drop.</p>
   <h4>Recent Updates:</h4>
 <ul>
-    <li>❖ Western Himalayas (Jammu-Kashmir, Himachal, Uttarakhand): Active Western Disturbances are bringing rain, snowfall, and high-speed winds. Isolated hailstorms are likely.</li>
-    <li>❖ Eastern Himalayas (Sikkim & Arunachal Pradesh): Light to moderate precipitation is expected to be widespread.</li>
-    <li>❖ Impact: Potential disruptions due to lightning and strong winds. Travelers are advised to check local forecasts.</li>
+    <li>❖ Jammu & Kashmir & Ladakh: Widespread light/moderate rain or snowfall is expected over the next 2-3 days, with heavy falls at isolated locations.</li>
+    <li>❖ Himachal Pradesh: Thunderstorms, lightning, and hail are likely in lower hills, with high-speed winds (40-60 kmph) predicted for isolated places.</li>
+    <li>❖ Uttarakhand: Similar conditions with intermittent rain/snow in higher reaches, accompanied by thunderstorms and gusty winds.</li>
+    <li>❖ Impact: Potential disruption in travel, flash floods, and landslides in vulnerable areas.</li>
 </ul>`
 },
 
