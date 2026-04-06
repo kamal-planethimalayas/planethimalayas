@@ -23,10 +23,7 @@ export const generalFAQs = [
       question: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
       answer: `<p>Whether you're trekking in the Himalayas or anywhere in nature, it's our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in.<br><strong><a href='https://www.planethimalayas.com/blogs//mountain-manners' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
     },
-    {
-      question: "How to stay fit and healthy on a trek in the Himalayas ?",
-      answer:  `<p>Trekking in the Himalayas is an unforgettable experience — but it also pushes your body through tough terrain, thin air, and unpredictable weather. Whether you're doing a beginner-friendly trek like Kedarkantha or a high-altitude route like Rupin Pass, staying fit and healthy on the trail is key to enjoying the journey.<br><strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
-    },
+
     {
       question: "Selecting the Perfect Himalayan Trek for You",
       answer: `<p>Choose a trail that matches your fitness, experience, and goals. With hundreds of treks in the Indian Himalayas — from snowy summits to wildflower meadows — it can be overwhelming to decide which one’s right for you.<br><strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
@@ -126,7 +123,7 @@ export const generalFAQs = [
   },
   {
     question: "How can women manage menstruation during treks?",
-    answer: `Menstruation is common during trekking. Women should carry enough sanitary supplies like tampons, menstrual cups, or pads. Tampons and cups are often the most practical for trekking as they require less frequent changes. Always carry sealable disposal bags for used products and never leave them in nature. Staying hydrated, maintaining hygiene, and taking rest when needed helps manage discomfort.`
+    answer: `Menstruation is common during trekking. Women should carry enough sanitary supplies like tampons, menstrual cups, or pads. Tampons and cups are often the most practical for trekking as they require less frequent changes. Always carry sealable disposal bags for used products and never leave them in nature. Staying hydrated, maintaining hygiene, taking rest, and informing your trek leader when needed helps manage discomfort.`
   },
   {
     question: "What precautions should women take to ensure hygiene?",
@@ -212,6 +209,57 @@ faqs: [
 
   },
 
+  {
+      topic: "Himalayan Trek Health & Wellness FAQs",
+      faqs: 
+      [
+      {
+      question: "How to stay fit and healthy on a trek in the Himalayas ?",
+      answer:  `<p>Trekking in the Himalayas is an unforgettable experience — but it also pushes your body through tough terrain, thin air, and unpredictable weather. Whether you're doing a beginner-friendly trek like Kedarkantha or a high-altitude route like Rupin Pass, staying fit and healthy on the trail is key to enjoying the journey. <strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
+    },
+    
+  {
+    question: "How does altitude affect gut health and digestion during a Himalayan trek?",
+    answer: `<p>At high altitude, oxygen levels drop, which slows down digestion and affects how your gut functions. Many trekkers experience loss of appetite, bloating, nausea, or constipation due to reduced oxygen supply (hypoxia) and changes in metabolism. Eating heavy or oily food can make this worse.<br><br>
+    To manage this, stick to light, warm meals, eat smaller portions more frequently, and stay well hydrated. Soups, khichdi, and simple carbs are easier to digest on the trail.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to understand gut health challenges in detail.</p>`
+  },
+  {
+    question: "How can women manage menstrual cycles during Himalayan treks?",
+    answer: `<p>Trekking during periods is manageable with proper preparation. Women should carry enough sanitary products or menstrual cups, along with biodegradable disposal bags to maintain hygiene in remote areas. Staying hydrated and maintaining nutrition helps reduce cramps and fatigue.<br><br>
+    Altitude and physical stress can sometimes delay or alter cycles — this is normal. Planning ahead and informing your trek leader if needed can make the experience much smoother.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the complete guide.</p>`
+  },
+  {
+    question: "How to manage cramps, joint pain, and fatigue in older trekkers?",
+    answer: `<p>Joint pain and fatigue are common challenges, especially during descents where knees take more impact. Older trekkers may also experience slower recovery due to muscle strain and continuous walking.<br><br>
+    Using trekking poles, wearing proper shoes, maintaining a steady pace, and taking regular breaks can significantly reduce strain. Light stretching and staying hydrated also help manage cramps and fatigue effectively.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> for advanced trekking health tips.</p>`
+  },
+  {
+    question: "What are the mental health challenges during solo treks in the Himalayas?",
+    answer: `<p>Solo trekking can bring unexpected mental challenges such as loneliness, anxiety, or self-doubt, especially in remote and high-altitude environments. Physical fatigue combined with isolation can amplify these feelings.<br><br>
+    Staying mentally engaged, maintaining a routine, and focusing on the present moment can help. Interacting with fellow trekkers or guides also reduces feelings of isolation.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to explore mental health strategies on treks.</p>`
+  },
+  {
+    question: "How to prevent infections and maintain hygiene in high-altitude camps?",
+    answer: `<p>Maintaining hygiene in remote camps is critical, as infections spread quickly in shared environments. Limited water availability and basic facilities make it easier for bacteria and viruses to spread.<br><br>
+    Always sanitize hands before eating, avoid sharing utensils, keep your feet dry, and change socks regularly. Carrying personal hygiene essentials like wet wipes and sanitizers is essential for staying healthy.<br><strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> for a complete trekking health guide.</p>`
+  },
+  {
+    question: "What are the risks of food poisoning on remote treks and how to avoid it?",
+    answer: `<p>Food poisoning is a real risk on remote treks due to limited storage, hygiene challenges, and unpredictable conditions. Contaminated food or water can lead to stomach infections that may force you to quit the trek midway.<br><br>
+    To prevent this, eat freshly cooked meals, avoid raw or uncovered food, and drink only filtered or boiled water. Carrying basic medication for stomach issues is also highly recommended.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to learn more.</p>`
+  },
+  {
+    question: "How does sleep deprivation affect trekking performance at high altitude?",
+    answer: `<p>Sleep at high altitude is often disturbed due to low oxygen levels, which can lead to fatigue, irritability, and reduced stamina. Poor sleep also increases the risk of altitude sickness and impacts decision-making ability on the trail.<br><br>
+    Maintaining warmth, following a consistent sleep routine, and avoiding caffeine late in the day can help improve sleep quality.<br><strong><a href='https://www.planethimalayas.com/blogs/advanced-trekking-health-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to understand its full impact.</p>`
+  },
+  {
+    question: "How to stay healthy on multi-day treks with minimal facilities?",
+    answer: `<p>Multi-day treks often involve basic campsites with limited access to water, sanitation, and comfort. Staying healthy in such conditions requires discipline and smart packing.<br><br>
+    Carry essentials like wet wipes, sanitizer, quick-dry clothes, and personal medication. Staying organized, maintaining hygiene, and listening to your body are key to sustaining energy over multiple days.<br><strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> for a complete survival and health guide.</p>`
+  },
+],
+},
 
 {
   topic: "Booking a trek with Planethimalayas:",
