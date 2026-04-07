@@ -11,7 +11,7 @@ const brandColor = "#ff7300";
 <section class="about-hero reveal">
 <div class="about-hero-overlay"></div>
   <div class="container">
-      <h1>Who We Are</h1>
+      <h1>Who <span>We Are</span></h1>
       <p> Planethimalayas is built on a rare promise: 
       <span style="font-weight: bold">"every trek is a deeply personal mountain journey"</span> — crafted with obsessive attention to detail, care for every individual, and an unshakable love for the Himalayas.
       </p>
@@ -147,6 +147,10 @@ window.addEventListener("scroll", () => {
   text-shadow:  3px 3px 6px rgba(0, 0, 0, 0.7),
     6px 6px 12px rgba(0, 0, 0, 0.5),
     0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero h1 span {
+  color: #ff7300; /* your brand color */
 }
 
 .about-hero p {

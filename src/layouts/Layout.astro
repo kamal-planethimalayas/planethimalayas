@@ -244,8 +244,14 @@ import SearchBox from "../components/SearchBox.jsx";
             <li><a href="/blogs">Articles</a></li>
           </ul>
         </li>
-        <li><a href="/contact">Contact Us</a></li>
-        <li><a href="/about">About Us</a></li>
+        <li class="dropdown">
+          <span class="dropdown-toggle">About ▾</span>
+          <ul class="dropdown-menu">
+            <li><a href="/about">About Us</a></li> 
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/why-planethimalayas">Why With Us</a></li>
+          </ul>
+        </li>
         <li><a href="/share-your-experience">Share Your Experience</a></li>
       </ul>
     </nav>
@@ -520,7 +526,7 @@ backdrop-filter: blur(15px);
   .dropdown-menu {
     position: absolute;
     top: 120%;
-    left: 50%;
+    left: 100%;
     transform: translateX(-50%) translateY(10px);
     
     background: rgba(0, 0, 0, 0.75);
@@ -553,6 +559,7 @@ backdrop-filter: blur(15px);
     border-radius: 6px;
     margin: 8px;
     transition: all 0.25s ease;
+    background: rgba(255, 255, 255, 0.05);
   }
 
   .dropdown-menu li a:hover {
@@ -675,30 +682,51 @@ backdrop-filter: blur(15px);
     transform: translateX(0);  /* slide in */
   }
 
-  .dropdown-menu {
-    position: static;
-    transform: none;
-    opacity: 1;
-    pointer-events: auto;
+  /* Mobile dropdown */
+.dropdown-menu {
+  position: static;
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
 
-    max-height: 0;
-    overflow: hidden;
+  max-height: 0;
+  overflow: hidden;
 
-    background: transparent;
-    box-shadow: none;
+  background: transparent;
+  box-shadow: none;
 
-    transition: max-height 0.35s ease;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* 👈 spacing between items */
 
-  /* When opened */
-  .dropdown.open .dropdown-menu {
-    max-height: 300px;
-    padding: 12px;
-  }
+  transition: max-height 0.35s ease;
+}
 
-  .dropdown-menu li a {
-    padding: 10px 16px;
-  }
+/* When opened */
+.dropdown.open .dropdown-menu {
+  max-height: 300px;
+  padding: 8px 10px; /* 👈 outer breathing */
+}
+
+/* Individual items */
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 14px;
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.05); /* 👈 KEY: makes items visible */
+  
+  margin-left: 6px;  /* 👈 slight indent = hierarchy */
+  margin-right: 6px;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover / tap */
+.dropdown-menu li a:active {
+  background: var(--brand-color);
+  color: black;
+}
 
   .hamburger {
     display: flex;  /* show hamburger on mobile */

@@ -1,0 +1,86 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import WhyPlanethimalayas from "../components/WhyPlanethimalayas.astro";
+---
+
+<Layout>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <!-- HERO SECTION -->
+    <section class="why-hero reveal">
+        <div class="why-hero-overlay"></div>
+        <div class="container">
+            <h1>Why Planet<span>himalayas</span></h1>
+            <p> Deep, personal Himalayan experiences — crafted in small groups, led by experts, and grounded in safety.</p>
+        </div>
+    </section>
+    
+
+    <style>
+        /* General container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* HERO SECTION */
+.why-hero {
+  width: 100%;
+  height: 100vh;
+  background: url('/images/main/experience-heroPH1.jpg') center center no-repeat;
+  background-size: cover; /* stretches to full width, crops if needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;   /* content starts from left */
+  align-items: center;           /* vertical center */
+  padding: 2rem 2rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  );
+}
+
+.why-hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center inside container */
+}
+
+.why-hero h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow:  3px 3px 6px rgba(0, 0, 0, 0.7),
+    6px 6px 12px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.why-hero p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7),
+    4px 4px 10px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+}
+
+        .why-hero h1 span{
+            color: #ff7300;
+        }
+    </style>
+</Layout>

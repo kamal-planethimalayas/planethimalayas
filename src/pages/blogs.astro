@@ -556,6 +556,10 @@ backdrop-filter: blur(15px);
     0 0 42px rgba(255,115,0,0.7);
 }
 
+#blog-search {
+  transition: opacity 0.2s ease;
+}
+
   </style>
 </Layout>
 
@@ -582,5 +586,37 @@ categoryButtons.forEach(btn => {
     });
 
   });
+});
+</script>
+
+<script>
+const blogSearchInput = document.getElementById("blog-search");
+
+const blogPlaceholders = [
+  "Search articles, guides...",
+  "Explore fitness, packing, altitude...",
+  "Looking for beginner trekking tips?",
+  "Find stories from the Himalayas..."
+];
+
+let blogIndex = 0;
+let blogInterval;
+
+// Start rotating on focus
+blogSearchInput.addEventListener("focus", () => {
+  blogInterval = setInterval(() => {
+
+    setTimeout(() => {
+      blogIndex = (blogIndex + 1) % blogPlaceholders.length;
+      blogSearchInput.setAttribute("placeholder", blogPlaceholders[blogIndex]);
+      blogSearchInput.style.opacity = 1;
+    }, 200);
+
+  }, 2000);
+});
+
+// Stop when user leaves
+blogSearchInput.addEventListener("blur", () => {
+  clearInterval(blogInterval);
 });
 </script>
