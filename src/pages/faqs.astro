@@ -12,11 +12,19 @@ import { trekFAQs } from "../data/faqsData.js";
         <input
           id="faq-search"
           type="text"
-          placeholder="Search FAQs..."
+          placeholder="Search fitness, packing, altitude, safety..."
         />
       </div>
     </div>
   </section>
+
+  <section class="faq-intro">
+  <div class="container">
+    <p>
+      Find clear answers to common trekking questions — from fitness and packing to altitude and safety.
+    </p>
+  </div>
+</section>
 
   <!-- FAQ Topics -->
   <section class="faqs-section">
@@ -174,7 +182,42 @@ import { trekFAQs } from "../data/faqsData.js";
       const scrollY = window.scrollY;
       heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
     });
+    const firstTopic = document.querySelector(".faq-topic");
+    if (firstTopic) {
+      const header = firstTopic.querySelector(".faq-topic-header");
+      const body = firstTopic.querySelector(".faq-topic-body");
+
+      header.setAttribute("aria-expanded", "true");
+      body.hidden = false;
+      header.querySelector(".toggle").textContent = "▼";
+    }
   </script>
+
+  <script>
+const searchInput = document.getElementById("faq-search");
+
+const placeholders = [
+  "Search fitness, packing, altitude...",
+  "What do you want to know?",
+  "Find answers before your trek..."
+];
+
+let index = 0;
+let interval;
+
+// Start rotating when focused
+searchInput.addEventListener("focus", () => {
+  interval = setInterval(() => {
+    index = (index + 1) % placeholders.length;
+    searchInput.setAttribute("placeholder", placeholders[index]);
+  }, 2000); // change every 2 seconds
+});
+
+// Stop rotating when user leaves
+searchInput.addEventListener("blur", () => {
+  clearInterval(interval);
+});
+</script>
 
   <style>
     /* =========================
@@ -208,6 +251,15 @@ import { trekFAQs } from "../data/faqsData.js";
       transform: translateY(0);
       transition: transform 0.2s ease-out;
     }
+
+    .faq-intro {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.faq-intro p {
+  color: #333;
+}
 
     .faq-search-wrapper {
       max-width: 500px;
@@ -266,9 +318,20 @@ import { trekFAQs } from "../data/faqsData.js";
         color: #ff7300;
     }
 
+    .faq-topic-header[aria-expanded="true"] {
+      transform: translateY(-3px);
+      color: #ff7300;
+    }
+
     .faq-topic-body {
       padding: 0.5rem 1rem;
       background: #fff;  
+    }
+
+    .faq-topic-body,
+    .faq-subtopic-body,
+    .faq-answer {
+      transition: all 0.25s ease;
     }
 
     .faq-item {

@@ -7,16 +7,40 @@ import { blogs } from "../data/blogsData.js";
   <!-- BLOG HERO (same as FAQ hero) -->
   <section class="faq-hero reveal">
     <div class="container">
-      <h1 class="faq-hero-title">Stories, insights, and guides from the Himalayas</h1>
+      <h1 class="faq-hero-title">Journal</h1>
       <div class="faq-search-wrapper">
         <input
           id="blog-search"
           type="text"
-          placeholder="Search Articles..."
+          placeholder="Search topics like fitness, packing, AMS..."
         />
       </div>
     </div>
   </section>
+
+  <section class="journal-intro">
+  <div class="container">
+    <p>
+      Explore detailed trekking guides, fitness tips, packing checklists, and real Himalayan experiences. 
+      Whether you're preparing for your first trek or planning a high-altitude expedition, our journal 
+      helps you make informed decisions and trek with confidence.
+    </p>
+  </div>
+</section>
+
+<section class="blog-categories">
+<h2 class="categories-title">Browse by <span>category</span></h2>
+  <div class="container categories-grid">
+    
+    <button class="category-btn active" data-category="all">All</button>
+    <button class="category-btn" data-category="Trek Guides">Trek Guides</button>
+    <button class="category-btn" data-category="Preparation">Preparation</button>
+    <button class="category-btn" data-category="Trekkig Tips & Basics">Trekkig Tips & Basics</button>
+    <button class="category-btn" data-category="Health & Wellness">Health & Wellness</button>
+    <button class="category-btn" data-category="Stories">Stories</button>
+
+  </div>
+</section>
 
   <!-- Blog Cards Section -->
 <section class="blogs-section">
@@ -28,10 +52,12 @@ import { blogs } from "../data/blogsData.js";
         target="_blank" 
         rel="noopener noreferrer"
         key={index}
+        data-category={blog.category}
         data-search={`${blog.slug} ${blog.tags.join(" ")} ${blog.content}`}
       >
         <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
         <div class="blog-content">
+          <span class="blog-category">{blog.category}</span>
           <h2>{blog.title}</h2>
 
           <!-- Description wrapper: desc-inner holds the HTML so measurement is accurate -->
@@ -45,6 +71,17 @@ import { blogs } from "../data/blogsData.js";
         </div>
       </a>
     ))}
+  </div>
+</section>
+
+<section class="faq-preview">
+  <div class="container">
+    <h2>Still have <span>questions before your trek?</span></h2>
+    <p>
+      From altitude sickness and fitness to packing and safety — find clear answers 
+      to everything you need before heading to the Himalayas.
+    </p>
+    <a href="/faqs" class="faq-btn">Explore FAQs</a>
   </div>
 </section>
 
@@ -363,5 +400,187 @@ import { blogs } from "../data/blogsData.js";
   user-select: none;
 }
 
+.journal-intro {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.journal-intro p {
+  color: #333;
+}
+
+.blog-categories {
+  padding: 1rem;
+}
+
+.categories-grid {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+}
+
+.category-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 2px solid #ff7300;
+  background: transparent;
+  color: #ff7300;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.category-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.category-btn:hover,
+.category-btn.active {
+  background: #ff7300;
+  color: #000;
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 18px rgba(255,115,0,1),
+    0 0 36px rgba(255,115,0,0.7);
+}
+
+.blog-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #000;
+  background: #ff7300;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.categories-title {
+  font-size: 2.5rem;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+}
+
+.categories-title span,
+.faq-preview span {
+  color: #ff7300;
+  border-bottom: 4px solid #ff7300;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+.faq-preview {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.faq-preview h2 {
+  font-size: 2.5rem;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.faq-preview p {
+  color: #333;
+}
+
+.faq-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  color: #ff7300;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255,115,0,0.3);
+
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.faq-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.faq-btn:hover {
+  background: #ff7300;
+  color: #000;
+  transform: scale(1.05);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 12px 28px rgba(0,0,0,0.45),
+    0 0 22px rgba(255,115,0,1),
+    0 0 42px rgba(255,115,0,0.7);
+}
+
   </style>
 </Layout>
+
+<script>
+const categoryButtons = document.querySelectorAll(".category-btn");
+
+categoryButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+
+    // Active state
+    categoryButtons.forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    const selected = btn.getAttribute("data-category");
+
+    document.querySelectorAll(".blog-card").forEach(card => {
+      const category = card.getAttribute("data-category");
+
+      if (selected === "all" || category === selected) {
+        card.style.display = "flex";
+      } else {
+        card.style.display = "none";
+      }
+    });
+
+  });
+});
+</script>

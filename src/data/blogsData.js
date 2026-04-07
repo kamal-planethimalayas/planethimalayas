@@ -3,6 +3,7 @@ export const blogs = [
   title: "Getting Prepared for a Trek in the Himalayas",
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
+  category: "Preparation",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -117,6 +118,7 @@ export const blogs = [
   title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
   slug: "mountain-manners",
   date: "2025-09-16",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -214,6 +216,7 @@ export const blogs = [
   title: "AMS - Acute Mountain Sickness",
   slug: "mountain-sickness",
   date: "2025-09-16",
+  category: "Health & Wellness",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -287,6 +290,7 @@ export const blogs = [
   title: "Preventing AMS-Mountain Sickness",
   slug: "preventing-ams-mountain-sickness",
   date: "2025-09-16",
+  category: "Health & Wellness",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -391,6 +395,7 @@ If you feel any of the following, descend without delay:<br>
   title: "Complete Himalayan Trek Packing List | Essential Trekking Gear & Tips",
   slug: "himalayan-trek-packing",
   date: "2025-09-19",
+  category: "Preparation",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -511,6 +516,7 @@ If you feel any of the following, descend without delay:<br>
   title: "Staying Fit & Healthy on a Himalayan Trek (Complete Guide)",
   slug: "healthy-himalayan-trek",
   date: "2025-09-19",
+  category: "Health & Wellness",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -699,6 +705,7 @@ If you feel any of the following, descend without delay:<br>
   title: "Advanced Health & Survival Guide for Himalayan Treks (Real Problems Trekkers Face)",
   slug: "advanced-trekking-health-guide-himalayas",
   date: "2025-09-20",
+  category: "Health & Wellness",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -962,6 +969,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Choosing the Right Himalayan Trek",
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
+  category: "Preparation",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1053,6 +1061,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Ideal Trekking Shoes for Himalayan Treks | Buying Guide, Features & Top Brands",
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1142,6 +1151,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Ideal Trekking Backpack for Himalayan Treks | Capacity, Fit & Top Brands Guide",
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1252,6 +1262,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "How to Pack Your Backpack for a Himalayan Trek | Smart Packing Guide",
   slug: "packing-backpack",
   date: "2025-09-19",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1356,6 +1367,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "How to Take Care of Your Trekking Shoes for Durability | Pre-Trek Checklist",
   slug: "trekking-shoes-care",
   date: "2025-09-19",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1442,6 +1454,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Complete Guide to Trekking Jackets | Types, Layering & Care for Himalayan Treks",
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
+  category: "Trekkig Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1587,6 +1600,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Trekking in the Himalayas: The Real Picture You Need to Know (2025)",
   slug: "real-picture-of-himalayan-trekking",
   date: "2025-10-26",
+  category: "Stories",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1677,6 +1691,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "The Ultimate Winter Trek Preparation Guide for the Himalayas",
   slug: "ultimate-winter-trek-preparation-guide-himalayas",
   date: "2025-10-26",
+  category: "Preparation",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -2064,6 +2079,7 @@ YOUR SKIN
   title: "Best Spring Treks in the Himalayas (2026 Guide): Region-Wise Trails, Snow Views & Blooming Landscapes",
   slug: "best-spring-treks-himalayas",
   date: "2026-02-12",
+  category: "Trek Guides",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -2693,6 +2709,7 @@ Yes, especially above 3,000 meters, making it perfect for snow trekking experien
   title: "Kumaon Himalayas Trekking Guide: Offbeat Treks, Nanda Devi, Hidden Valleys & Cultural Exploration",
   slug: "kumaon-himalayas-trekking-guide",
   date: "2026-04-02",
+  category: "Trek Guides",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
