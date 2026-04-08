@@ -243,15 +243,15 @@ export const blogs = [
   content: `
 <p>If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS).</p>
 
-<h3>🌬️ What is Mountain Sickness?</h3>
+<h3 style="color:#ff7300">🌬️ What is Mountain Sickness?</h3>
 <p>Mountain Sickness is a physical condition that occurs when your body fails to adapt to the lower oxygen levels and reduced air pressure at high altitudes—usually above 2,500 meters (8,200 feet).</p>
 <p>As you ascend higher, the air becomes thinner, and your body has to work harder to get enough oxygen. If you gain altitude too quickly, your body doesn’t get enough time to adjust—this is what leads to mountain sickness.</p>
 
-<h3>🧠 Why Does Mountain Sickness Happen?</h3>
+<h3 style="color:#ff7300">🧠 Why Does Mountain Sickness Happen?</h3>
 <p>At sea level, oxygen concentration is about 21%. But at 3,000 to 5,000 meters, this drops significantly. The reduced oxygen makes it difficult for your body to perform normal functions, especially during physical activity like trekking.</p>
 <p>This sudden change puts stress on your lungs, heart, and brain. If your body can’t adapt fast enough, you begin to experience the symptoms of AMS.</p>
 
-<h3>⚠️ Common Symptoms of Mountain Sickness</h3>
+<h3 style="color:#ff7300">⚠️ Common Symptoms of Mountain Sickness</h3>
 <ul>
 <li>Headache (most common early sign)</li>
 <li>Dizziness or light-headedness</li>
@@ -262,7 +262,7 @@ export const blogs = [
 <li>Shortness of breath at rest</li>
 </ul>
 <br>
-<h3>🚨 Severe Forms of Mountain Sickness</h3>
+<h3 style="color:#ff7300">🚨 Severe Forms of Mountain Sickness</h3>
 <p>While most cases of AMS are mild and go away with rest and acclimatization, it can escalate into more dangerous conditions if ignored:</p>
 <ul>
 <li>HAPE (High Altitude Pulmonary Edema) – Fluid in the lungs. Can be fatal if untreated.</li>
@@ -270,7 +270,7 @@ export const blogs = [
 </ul>
 <p>Both require immediate descent and urgent medical attention.</p>
 
-<h3>🏕️ Who is at Risk?</h3>
+<h3 style="color:#ff7300">🏕️ Who is at Risk?</h3>
 <p>Mountain sickness can affect anyone, regardless of age, gender, or fitness level. Even experienced trekkers are not immune. You are at higher risk if:</p>
 <ul>
 <li>You ascend too quickly</li>
@@ -279,8 +279,8 @@ export const blogs = [
 <li>You ignore early symptoms and push further</li>
 </ul>
 <br>
-<h3>🧭 Final Thoughts</h3>
-<p>Mountain sickness is not something to be taken lightly—but the good news is, it’s entirely preventable. The first step to prevention is awareness.</p>
+<h3 style="color:#ff7300">🧭 Final Thoughts</h3>
+<p>Mountain sickness is not something to be taken lightly—but the good news is, it’s entirely preventable. The first step to prevention is awareness. Learn how to recognize symptoms early and prevent altitude-related issues in our detailed guide on <a href="https://planethimalayas.com/blogs/preventing-ams-mountain-sickness/" target="_blank" rel="noopener noreferrer">preventing mountain sickness (AMS) on Himalayan treks</a>.</p>
 <p>If you’re trekking in the Himalayas or anywhere above 2,500 meters, take the time to understand your body, ascend slowly, and never ignore the warning signs.</p>
 <blockquote>✅ <em><q>Know the signs. Respect the altitude. Trek safe.</em></q></blockquote>
 `
@@ -317,10 +317,10 @@ export const blogs = [
   content: `
 <p>Trekking in the Himalayas is an unforgettable experience—but it comes with a silent danger: Mountain Sickness, also known as Acute Mountain Sickness (AMS). The good news? With the right precautions, mountain sickness is completely preventable.</p>
 
-<h3>📍 What Causes Mountain Sickness?</h3>
+<h3 style="color:#ff7300">📍 What Causes Mountain Sickness?</h3>
 <p>Mountain sickness happens when you ascend to higher altitudes too quickly, without giving your body time to adjust to the lower oxygen levels and reduced air pressure. This typically begins above 2,500 meters (8,200 feet).</p>
 
-<h3>✅ 10 Expert-Backed Tips to Prevent Mountain Sickness</h3>
+<h3 style="color:#ff7300">✅ 10 Expert-Backed Tips to Prevent Mountain Sickness</h3>
 <p>Each of these tips can greatly reduce your risk of AMS and help you trek more confidently and safely.</p>
 
 <ol>
@@ -377,7 +377,7 @@ export const blogs = [
 </li>
 </ol>
 <br>
-<h3>🚨 When to Descend Immediately</h3>
+<h3 style="color:#ff7300">🚨 When to Descend Immediately</h3>
 If you feel any of the following, descend without delay:<br>
 > Breathlessness at rest<br>
 > Severe headache<br>
@@ -385,7 +385,7 @@ If you feel any of the following, descend without delay:<br>
 > Loss of coordination<br>
 > Hallucinations or confusion<br>
 <br>
-<h3>🌄 Final Words</h3>
+<h3 style="color:#ff7300">🌄 Final Words</h3>
 <p>Avoiding mountain sickness isn’t about luck—it’s about preparation, awareness, and respecting your limits. With smart planning and slow, mindful trekking, you’ll not only stay safe, but also enjoy your Himalayan trek in its full glory.</p>
 <blockquote><em>Climb high—but climb wise. The mountains will always be there.</em></blockquote>
 `,
@@ -427,7 +427,7 @@ If you feel any of the following, descend without delay:<br>
   content: `
   <p>Packing smart is the key to a safe and comfortable trek. Here’s a complete checklist of everything you’ll need for a week-long Himalayan adventure. For a comprehensive packing list, download the PDF: <a href='/docs/Packing_List.pdf' target='_blank' rel='noopener noreferrer'>Download Packing List</a></p>
 
-<h3>👕 CLOTHING (Layer Up!)</h3>
+<h3 style="color:#ff7300">👕 CLOTHING (Layer Up!)</h3>
 <ul>
   <li>Base layers / Thermals (top & bottom) / 2 sets / Essential for cold nights</li>
   <li>Fleece jacket or sweater / 1 / Lightweight warmth</li>
@@ -444,20 +444,20 @@ If you feel any of the following, descend without delay:<br>
   <li>Undergarments / As required / Quick-dry preferred</li>
 </ul>
 <br>
-<h3>🥾 FOOTWEAR</h3>
+<h3 style="color:#ff7300">🥾 FOOTWEAR</h3>
 <ul>
   <li>Trekking shoes / 1 pair / High ankle, well-broken-in</li>
   <li>Floaters or slippers / 1 pair / For campsites & water crossings</li>
 </ul>
 <br>
-<h3>🎒 BAGS</h3>
+<h3 style="color:#ff7300">🎒 BAGS</h3>
 <ul>
 <li>Backpack / 40–50 L / With rain cover & padded straps</li>
 <li>Daypack / 10–20 L / For summit or short hikes</li>
 <li>Dry bags or Zip locks / 2–3 / Keep clothes & electronics dry</li>
 </ul>
 <br>
-<h3>🧼 TOILETRIES & PERSONAL CARE</h3>
+<h3 style="color:#ff7300">🧼 TOILETRIES & PERSONAL CARE</h3>
 <ul>
 <li>Biodegradable soap & shampoo / Travel size</li>
 <li>Toothbrush & toothpaste / Compact set</li>
@@ -470,7 +470,7 @@ If you feel any of the following, descend without delay:<br>
 <li>Sanitary items (if needed) / Pack enough + extra zip lock bag</li>
 </ul>
 <br>
-<h3>🩹 FIRST AID & MEDICATIONS</h3>
+<h3 style="color:#ff7300">🩹 FIRST AID & MEDICATIONS</h3>
 <p>✅ Your trek leader usually carries a full kit, but here’s what to carry personally:</p>
 <ul>
 <li>Personal medicines / Enough for 7+ days</li>
@@ -481,7 +481,7 @@ If you feel any of the following, descend without delay:<br>
 <li>ORS / Electrolytes / Hydration boost</li>
 </ul>
 <br>
-<h3>🔦 GADGETS & ESSENTIALS</h3>
+<h3 style="color:#ff7300">🔦 GADGETS & ESSENTIALS</h3>
 <ul>
 <li>Headlamp or Torch / With spare batteries</li>
 <li>Power bank / Keep charged from base</li>
@@ -491,7 +491,7 @@ If you feel any of the following, descend without delay:<br>
 <li>Small diary & pen (optional) / For journaling your adventure</li>
 </ul>
 <br>
-<h3>🧘 TREKKING GEAR (Optional but Useful)</h3>
+<h3 style="color:#ff7300">🧘 TREKKING GEAR (Optional but Useful)</h3>
 <ul>
 <li>Trekking poles / Great for knee support</li>
 <li>Gaiters / For snow or mud treks</li>
@@ -499,7 +499,7 @@ If you feel any of the following, descend without delay:<br>
 <li>Energy bars & Dry fruits / Easy trail snacks</li>
 </ul>
 <br>
-<h3>🔁 FINAL CHECKLIST: MUST-HAVES BEFORE YOU LEAVE</h3>
+<h3 style="color:#ff7300">🔁 FINAL CHECKLIST: MUST-HAVES BEFORE YOU LEAVE</h3>
 <ul>
 <li>✅ ID Proof (Aadhar/Passport)</li>
 <li>✅ Trekking shoes tested and broken-in</li>
@@ -547,7 +547,7 @@ If you feel any of the following, descend without delay:<br>
 <h3 style="color:#ff7300">🏋️‍♂️ 1. Train Your Body for the Mountains</h3>
 <p>Your trek actually begins weeks before you reach the mountains.</p>
 
-<p>At high altitude, oxygen levels are lower (see: <a href="https://en.wikipedia.org/wiki/Altitude_sickness" target="_blank">Altitude Sickness</a>), so your body needs better cardiovascular efficiency.</p>
+<p>At high altitude, oxygen levels are lower (see: <a href="https://planethimalayas.com/blogs/mountain-sickness/" target="_blank">Altitude Sickness</a>), so your body needs better cardiovascular efficiency.</p>
 
 <ul>
 <li><b>Cardio Training:</b> Jogging, brisk walking, cycling (30–45 mins daily)</li>
