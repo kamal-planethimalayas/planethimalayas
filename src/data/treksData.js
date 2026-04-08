@@ -3352,7 +3352,7 @@ description:
 {
   id: "kalihani-pass-trek",
   name: "Kalihani Pass Trek",
-  tags: ["intermediate", "pass", "glacier"],
+  tags: ["intermediate", "pro", "pass", "glacier"],
   difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
   month: ["june", "july", "september", "october"],
@@ -5910,7 +5910,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "satopanth-lake-trek",
   name: "Satopanth Lake Trek",
-  tags: ["intermediate", "lake", "glacier"],
+  tags: ["intermediate", "pro", "lake", "glacier"],
   difficulty: ["moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -6325,7 +6325,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
   id: "pangarchulla-peak-trek",
   name: "Pangarchulla Peak Trek",
-  tags: ["intermediate", "pro", "peak"],
+  tags: ["pro", "peak"],
   difficulty: ["difficult"],
   season: ["spring"],
   month: ["march", "april"],
@@ -9242,7 +9242,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "pindari-kafni-glacier-trek",
     name: "Pindari & Kafni Glacier Trek",
-    tags: ["beginner", "intermediate", "glacier"],
+    tags: ["intermediate", "pro", "glacier"],
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -9773,7 +9773,7 @@ waypoints: [
 {
   id: "sunderdhunga-valley-trek",
   name: "Sunderdhunga Valley Trek",
-  tags: ["intermediate", "pro", "glacier", "lake"],
+  tags: ["pro", "glacier", "lake"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],

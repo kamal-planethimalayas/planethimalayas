@@ -544,7 +544,7 @@ If you feel any of the following, descend without delay:<br>
 
 <p>Whether you're heading to Kedarkantha or attempting a high-altitude trek like Rupin Pass, this guide will help you stay strong, safe, and energized throughout your journey.</p>
 
-<h3>🏋️‍♂️ 1. Train Your Body for the Mountains</h3>
+<h3 style="color:#ff7300">🏋️‍♂️ 1. Train Your Body for the Mountains</h3>
 <p>Your trek actually begins weeks before you reach the mountains.</p>
 
 <p>At high altitude, oxygen levels are lower (see: <a href="https://en.wikipedia.org/wiki/Altitude_sickness" target="_blank">Altitude Sickness</a>), so your body needs better cardiovascular efficiency.</p>
@@ -560,7 +560,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>🥗 2. Nutrition: What You Eat Decides Your Energy</h3>
+<h3 style="color:#ff7300">🥗 2. Nutrition: What You Eat Decides Your Energy</h3>
 <p>Your appetite may drop at altitude due to reduced oxygen affecting digestion.</p>
 
 <ul>
@@ -576,7 +576,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>💧 3. Hydration: Your First Line of Defense</h3>
+<h3 style="color:#ff7300">💧 3. Hydration: Your First Line of Defense</h3>
 <p>Dehydration is one of the most underestimated triggers for altitude-related issues — and often the first domino to fall when your body starts struggling on a trek.</p>
 
 <p>At high altitude, your body loses fluids much faster than at sea level. This happens due to increased breathing rate (you breathe faster in low oxygen), dry mountain air, and continuous physical exertion. Even if you don’t feel sweaty, you are constantly losing water and essential salts.</p>
@@ -637,7 +637,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>😴 4. Sleep & Recovery at High Altitude</h3>
+<h3 style="color:#ff7300">😴 4. Sleep & Recovery at High Altitude</h3>
 <p>Sleep becomes lighter and disturbed at altitude due to lower oxygen levels.</p>
 
 <p>This can affect your energy, mood, and even decision-making ability.</p>
@@ -652,7 +652,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>💊 5. Understanding & Preventing Altitude Sickness</h3>
+<h3 style="color:#ff7300">💊 5. Understanding & Preventing Altitude Sickness</h3>
 <p><a href="https://en.wikipedia.org/wiki/Altitude_sickness" target="_blank">Altitude sickness</a> happens when your body fails to adapt to lower oxygen levels.</p>
 
 <ul>
@@ -665,7 +665,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>🧼 6. Hygiene: The Most Ignored Survival Factor</h3>
+<h3 style="color:#ff7300">🧼 6. Hygiene: The Most Ignored Survival Factor</h3>
 <p>Infections spread quickly in remote camps where facilities are limited.</p>
 
 <ul>
@@ -679,7 +679,7 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>🧠 7. Mental Strength: The Hidden Factor</h3>
+<h3 style="color:#ff7300">🧠 7. Mental Strength: The Hidden Factor</h3>
 <p>Treks are as much mental as physical.</p>
 
 <ul>
@@ -694,9 +694,19 @@ If you feel any of the following, descend without delay:<br>
 
 <br>
 
-<h3>🌄 Final Words: Respect the Mountains</h3>
-<p>Your body is your most important gear.</p>
+<div style="border:1px solid #ff7300; padding:20px; border-radius:8px; margin:20px 0; background: #fff7f0;">
+<p><b>Want to go deeper into trekking health?</b></p>
 
+<p>While this guide covers the essentials of staying fit and healthy on a Himalayan trek, there are several advanced challenges that trekkers often face — from gut health issues and sleep disruption to menstrual health, food safety, and mental well-being in remote environments.</p>
+
+<p>If you want a more detailed understanding of these real-world problems and how to handle them on the trail, read our in-depth guide on 
+<strong><a href="/blogs/advanced-trekking-health-guide-himalayas" target="_blank">Advanced Health & Survival Tips for Himalayan Treks</a></strong>. It’s designed to help you prepare not just physically, but practically and mentally for the realities of multi-day high-altitude trekking.</p>
+</div>
+
+<br>
+
+<h3 style="color:#ff7300">🌄 Final Words: Respect the Mountains</h3>
+<p>Your body is your most important gear.</p>
 <p>If you train well, eat right, hydrate properly, and stay aware — the Himalayas reward you with one of the most powerful experiences of your life.</p>
 `
 },

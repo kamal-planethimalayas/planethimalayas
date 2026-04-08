@@ -41,14 +41,6 @@ export const news = [
 </ul>`  
 },
   
-{
-  title: "Spring Exclusive - Goechala Trek",
-  type: "news",
-  head: "Slopes",
-  thumbnail: "/images/main/brand-logo-news.png",
-  details: `<p>Read <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">Full Details</a></strong></p>`
-},
-
   {
   title: "Best Spring Treks in the Himalayas",
   type: "articles",
@@ -58,12 +50,13 @@ export const news = [
   details: '<em>"Some seasons show you the mountains. Spring lets you feel them breathe".</em><br>Spring is not just a trekking season — it is a transformation. Snow still rules the heights, flowers bloom below, and the mountains invite you to witness their rebirth. If you want to experience the Himalayas at their most balanced, most beautiful, and most alive — spring is when you must walk these trails. Read <strong><a href="/blogs/best-spring-treks-himalayas/" target="_blank" rel="noopener noreferrer">full article</a></strong>'
 },
 {
-  title: "AMS - Acute Mountain Sickness",
+  title: "Kumaon Himalayas",
   type: "articles",
   head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302941/ams_trigsv.jpg",
-  link: "/blogs/mountain-sickness/",
-  details: `If you’re planning a high-altitude trek in the Himalayas, it’s important to understand one of the most common health risks in the mountains: Mountain Sickness, also known as Acute Mountain Sickness (AMS). Read <strong><a href="/blogs/mountain-sickness/" target="_blank" rel="noopener noreferrer">full article</a></strong>`
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
+  link: "/blogs/kumaon-himalayas-trekking-guide/",
+  details: `"SOME TREKS SHOW YOU THE HIMALAYAS. 
+ KUMAON MAKES YOU WALK LONG ENOUGH TO UNDERSTAND THEM".<br>Explore the Kumaon Himalayas with this complete trekking and travel guide. Discover offbeat treks, Nanda Devi region, hidden valleys, ghost villages, and the best trekking routes in Kumaon with Planethimalayas. Read <strong><a href="/blogs/kumaon-himalayas-trekking-guide/" target="_blank" rel="noopener noreferrer">full article</a></strong>`
 },
 {
   title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
