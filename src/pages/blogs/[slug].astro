@@ -39,6 +39,16 @@ if (data) {
   dislikes = data.dislikes;
   comments = data.comments || [];
 }
+
+const currentSlug = Astro.params.slug;
+
+// find current blog
+const currentBlog = blogs.find(b => b.slug === currentSlug);
+
+// filter similar category blogs (excluding current)
+const relatedBlogs = blogs.filter(
+  b => b.category === currentBlog.category && b.slug !== currentSlug
+);
 ---
 
 <Layout>
@@ -103,6 +113,32 @@ if (data) {
 
   <!-- Bottom Share Buttons -->
   <ShareButtons pageUrl={Astro.request.url} pageTitle={blog.title} />
+
+<section class="related-blogs">
+  <div class="container">
+
+    <h2 class="related-title">
+      More <span>Suggested Blogs to Read</span>
+    </h2>
+
+    <div class="related-slider">
+      {relatedBlogs.map((blog, index) => (
+        <a 
+          href={`/blogs/${blog.slug}`} 
+          class="blog-card related-card"
+          key={index}
+        >
+          <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+          <div class="blog-content">
+            <span class="blog-category">{blog.category}</span>
+            <h2>{blog.title}</h2>
+          </div>
+        </a>
+      ))}
+    </div>
+
+  </div>
+</section>
 </Layout>
 
 <style>
@@ -345,6 +381,136 @@ if (data) {
 
   .author-bio {
     font-size: 0.9rem;
+  }
+}
+
+/* ===== RELATED BLOGS SECTION ===== */
+
+.related-blogs {
+  position: relative;
+  padding: 2rem 1rem;
+}
+
+/* Title */
+.related-title {
+  font-size: 2rem;
+  font-family: 'Helvetica', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.related-title span {
+  color: #ff7300;
+  border-bottom: 3px solid #ff7300;
+}
+
+/* ===== SLIDER ===== */
+
+.related-slider {
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem; /* peek next card */
+
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 1rem;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar (desktop only) */
+.related-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.related-slider::-webkit-scrollbar-thumb {
+  background: rgba(255,115,0,0.6);
+  border-radius: 10px;
+}
+
+/* ===== CARDS ===== */
+
+.related-card {
+  min-width: 220px;
+  max-width: 220px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  transform: scale(0.98);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover (desktop) */
+@media (hover: hover) {
+  .related-card:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Touch feedback (mobile) */
+.related-card:active {
+  transform: scale(0.96);
+}
+
+/* Image */
+.related-card .blog-thumb {
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Content */
+.related-card .blog-content {
+  padding: 0.6rem;
+}
+
+/* Title */
+.related-card h2 {
+  font-size: 0.95rem;
+  line-height: 1.3;
+  margin: 0.3rem 0;
+}
+
+/* Category badge */
+.related-card .blog-category {
+  font-size: 0.65rem;
+  padding: 3px 6px;
+}
+
+/* ===== SCROLL HINT (fade effect) ===== */
+
+.related-blogs::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  width: 60px;
+
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0),
+    #fff
+  );
+
+  pointer-events: none;
+}
+
+/* ===== MOBILE OPTIMIZATION ===== */
+
+@media (max-width: 768px) {
+  .related-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .related-slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 
