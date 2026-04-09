@@ -1,6 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { blogs } from "../data/blogsData.js";
+
+const category = Astro.url.searchParams.get("category");
+
+const filteredBlogs = category
+  ? blogs.filter(
+      b => b.category.toLowerCase().trim() === category.toLowerCase().trim()
+    )
+  : blogs;
 ---
 
 <Layout>
@@ -35,17 +43,17 @@ import { blogs } from "../data/blogsData.js";
     <button class="category-btn active" data-category="all">All</button>
     <button class="category-btn" data-category="Trek Guides">Trek Guides</button>
     <button class="category-btn" data-category="Preparation">Preparation</button>
-    <button class="category-btn" data-category="Trekkig Tips & Basics">Trekkig Tips & Basics</button>
+    <button class="category-btn" data-category="Trekking Tips & Basics">Trekking Tips & Basics</button>
     <button class="category-btn" data-category="Health & Wellness">Health & Wellness</button>
     <button class="category-btn" data-category="Stories">Stories</button>
 
   </div>
 </section>
 
-  <!-- Blog Cards Section -->
+ <!-- Blog Cards Section -->
 <section class="blogs-section">
   <div class="container blogs-list">
-    {blogs.map((blog, index) => (
+    {filteredBlogs.map((blog, index) => (
       <a 
         href={`/blogs/${blog.slug}`} 
         class="blog-card" 
@@ -55,20 +63,22 @@ import { blogs } from "../data/blogsData.js";
         data-category={blog.category}
         data-search={`${blog.slug} ${blog.tags.join(" ")} ${blog.content}`}
       >
-        <img src={blog.thumbnail} alt={blog.title} class="blog-thumb" />
+        <img src={blog.thumbnail} alt={blog.title} />
+
         <div class="blog-content">
           <span class="blog-category">{blog.category}</span>
+
           <h2>{blog.title}</h2>
 
-          <!-- Description wrapper: desc-inner holds the HTML so measurement is accurate -->
-          <div class="blog-description" data-index={index}>
-            <div class="desc-inner" set:html={blog.description}></div>
+          <!-- AUTHOR (TEXT ONLY) -->
+          <div class="blog-author-block">
+            <div class="blog-author-text">
+              <span class="blog-author-name">{blog.author.name}</span>
+              <span class="blog-author-date">{blog.date}</span>
+            </div>
           </div>
-
-          <span class="read-more" aria-expanded="false" style="display:none;">Read More</span>
-
-                  
         </div>
+
       </a>
     ))}
   </div>
@@ -84,105 +94,6 @@ import { blogs } from "../data/blogsData.js";
     <a href="/faqs" class="faq-btn">Explore FAQs</a>
   </div>
 </section>
-
-  <script>
-  const searchInput = document.getElementById("blog-search");
-  const blogCards = document.querySelectorAll(".blog-card");
-
-  searchInput.addEventListener("input", () => {
-    const value = searchInput.value.toLowerCase();
-
-    blogCards.forEach(card => {
-      // Read visible text
-      const text = card.textContent.toLowerCase();
-
-      // Read extra search data (slug, tags, content)
-      const extra = card.getAttribute("data-search")?.toLowerCase() || "";
-
-      // Match against both visible text + hidden data
-      const haystack = text + " " + extra;
-
-      card.style.display = haystack.includes(value) ? "flex" : "none";
-    });
-  });
-
-  // Parallax effect (kept same)
-  const heroTitle = document.querySelector(".faq-hero-title");
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
-  });
-</script>
-
-  <script>
-  // Utility: debounce
-  const debounce = (fn, wait = 120) => {
-    let t;
-    return (...args) => {
-      clearTimeout(t);
-      t = setTimeout(() => fn(...args), wait);
-    };
-  };
-
-  function setupReadMoreControls() {
-    document.querySelectorAll(".blog-card").forEach(card => {
-      const desc = card.querySelector(".blog-description");
-      const inner = desc.querySelector(".desc-inner") || desc;
-      const toggle = card.querySelector(".read-more");
-
-      // Ensure clamp class is present first to allow consistent measurement
-      desc.classList.add("clamp");
-
-      // Measure overflow after layout settled
-      const isOverflowing = inner.scrollHeight > desc.clientHeight + 2; // small tolerance
-
-      if (isOverflowing) {
-        desc.classList.add("has-overflow");
-        toggle.style.display = "inline-block";
-        toggle.setAttribute("aria-expanded", "false");
-      } else {
-        // no overflow → don't show fade or toggle (keep text fully visible)
-        desc.classList.remove("has-overflow");
-        // optional: remove clamp so layout isn't artificially limited (keeps it natural)
-        desc.classList.remove("clamp");
-        toggle.style.display = "none";
-      }
-
-      // Toggle behavior — prevent card navigation
-      toggle.onclick = function (e) {
-        e.preventDefault();
-        e.stopPropagation(); // prevent anchor click bubbling
-        const expanded = desc.classList.toggle("expanded");
-        // When expanded, remove clamp (so it displays fully); when collapsed, reapply clamp
-        if (expanded) {
-          desc.classList.remove("clamp");
-          desc.classList.add("expanded");
-          toggle.textContent = "Read Less";
-          toggle.setAttribute("aria-expanded", "true");
-        } else {
-          desc.classList.remove("expanded");
-          // if it originally had overflow, reapply clamp
-          if (desc.classList.contains("has-overflow")) desc.classList.add("clamp");
-          toggle.textContent = "Read More";
-          toggle.setAttribute("aria-expanded", "false");
-        }
-      };
-    });
-  }
-
-  // Run after everything loads (fonts/images) so measurements are accurate
-  window.addEventListener("load", () => {
-    // run once immediately after load
-    setupReadMoreControls();
-    // ensure re-check shortly after to catch any late layout shifts
-    setTimeout(setupReadMoreControls, 200);
-  });
-
-  // Recalculate on resize (debounced)
-  window.addEventListener("resize", debounce(() => {
-    setupReadMoreControls();
-  }, 160));
-</script>
 
   <style>
     /* Reuse FAQ hero styles exactly */
@@ -237,7 +148,6 @@ import { blogs } from "../data/blogsData.js";
 
     /* Blog Cards Section */
 .blogs-section {
-  padding: 2rem 0;
   background: #fff;
 }
 
@@ -245,19 +155,18 @@ import { blogs } from "../data/blogsData.js";
   display: grid;
   gap: 1rem;
 
-  grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
-  justify-content: center; /* centers cards nicely */
+  /* FULL WIDTH UTILIZATION */
+  grid-template-columns: repeat(4, 1fr);
 
-  padding: 0 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  animation: fadeInUp 0.4s ease both;
+  width: 100%;
+  padding: 0 1.2rem;
 }
 
+/* smoother, less stiff animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(16px);
   }
   to {
     opacity: 1;
@@ -265,7 +174,7 @@ import { blogs } from "../data/blogsData.js";
   }
 }
 
-/* BLOG CARD – DARK + BRAND SHADOW */
+/* BLOG CARD – CLEAN EDITORIAL STYLE */
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -274,147 +183,91 @@ import { blogs } from "../data/blogsData.js";
   overflow: hidden;
   text-decoration: none;
   color: #fff; 
-  background: #121316; /* card black */
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: #121316;
 
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.35),
     0 10px 28px rgba(0, 0, 0, 0.35),
-    0 0 12px rgba(255, 115, 0, 0.35);
+    0 0 12px rgba(255, 115, 0, 0.25);
 
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .blog-card:hover {
-  transform: translateY(-5px) scale(1.02);
+  transform: translateY(-6px);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.45),
-    0 14px 35px rgba(0, 0, 0, 0.45),
-    0 0 30px rgba(255, 115, 0, 1),
-    0 0 60px rgba(255, 115, 0, 0.75);
+    0 16px 40px rgba(0, 0, 0, 0.5),
+    0 0 25px rgba(255, 115, 0, 0.7);
 }
 
-/* Thumbnail */
+/* IMAGE */
 .blog-thumb {
   width: 100%;
-  height: 160px;
+  height: 140px;
   object-fit: cover;
-  transition: transform 0.3s ease;
 }
 
-.blog-card:hover .blog-thumb {
-  transform: scale(1.05);
-}
-
-/* Content */
+/* CONTENT */
 .blog-content {
-  padding: 1rem;
-   
+  padding: 0.8rem;
 }
 
+/* CATEGORY */
+.blog-category {
+  font-size: 0.65rem;
+  font-weight: 700;
+  background: #ff7300;
+  color: #000;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+/* TITLE */
 .blog-content h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-bottom: 0.6rem;
   color: #ff7300;
 }
 
-/* AUTHOR BLOCK INSIDE BLOG CARDS */
+/* AUTHOR */
 .blog-author-block {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  margin: 0.6rem 0 0.4rem 0;
-}
-
-.blog-author-thumb {
-  width: 38px;
-  height: 38px;
-  object-fit: cover;
-  flex-shrink: 0;
-  background: #fff;
-  padding: 6px;
-}
-
-.blog-author-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
+  gap: 0.5rem;
 }
 
 .blog-author-name {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #fff;;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .blog-author-date {
-  font-size: 0.8rem;
-  color: #fff;
+  font-size: 0.7rem;
+  opacity: 0.7;
 }
 
-/* DESCRIPTION BASE */
-.blog-description {
-  line-height: 1.5em;
-  font-size: 1rem;
-  margin: 0.5rem 0;
-  position: relative;
-  max-height: none;
-  overflow: visible;
-  color: #fff;
-  transition: max-height 0.3s ease;
+/* Tablet */
+@media (max-width: 1024px) {
+  .blogs-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-/* CLAMP */
-.blog-description.clamp {
-  max-height: calc(1.5em * 5);
-  overflow: hidden;
+/* Mobile */
+@media (max-width: 768px) {
+  .blogs-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-/* DARK FADE OVERLAY */
-.blog-description.clamp.has-overflow::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 2.2em;
-  background: linear-gradient(
-  to bottom,
-  rgba(18, 19, 22, 0),
-  rgba(18, 19, 22, 0.65),
-  #121316
-);
-  pointer-events: none;
-}
-
-/* EXPANDED STATE */
-.blog-description.expanded {
-  max-height: none;
-  overflow: visible;
-}
-.blog-description.expanded::after {
-  display: none;
-}
-
-.desc-inner {
-  line-height: 1.5em;
-  color: #fff;
-}
-
-/* READ MORE */
-.read-more {
-  display: inline-block;
-  color: #ff7300; /* brand */
-  font-weight: 700;
-  cursor: pointer;
-  font-size: 0.9rem;
-  margin-top: 0.4rem;
-  user-select: none;
+/* Very small devices */
+@media (max-width: 480px) {
+  .blogs-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
 }
 
 .journal-intro {
@@ -581,6 +434,35 @@ backdrop-filter: blur(15px);
 </Layout>
 
 <script>
+  const searchInput = document.getElementById("blog-search");
+  const blogCards = document.querySelectorAll(".blog-card");
+
+  searchInput.addEventListener("input", () => {
+    const value = searchInput.value.toLowerCase();
+
+    blogCards.forEach(card => {
+      // Read visible text
+      const text = card.textContent.toLowerCase();
+
+      // Read extra search data (slug, tags, content)
+      const extra = card.getAttribute("data-search")?.toLowerCase() || "";
+
+      // Match against both visible text + hidden data
+      const haystack = text + " " + extra;
+
+      card.style.display = haystack.includes(value) ? "flex" : "none";
+    });
+  });
+
+  // Parallax effect (kept same)
+  const heroTitle = document.querySelector(".faq-hero-title");
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    heroTitle.style.transform = `translateY(${scrollY * 0.3}px)`;
+  });
+</script>
+
+<script>
 const categoryButtons = document.querySelectorAll(".category-btn");
 
 categoryButtons.forEach(btn => {
@@ -636,4 +518,33 @@ blogSearchInput.addEventListener("focus", () => {
 blogSearchInput.addEventListener("blur", () => {
   clearInterval(blogInterval);
 });
+</script>
+
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const activeCategory = urlParams.get("category");
+
+if (activeCategory) {
+  const buttons = document.querySelectorAll(".category-btn");
+
+  buttons.forEach(btn => {
+    const btnCategory = btn.getAttribute("data-category");
+
+    if (btnCategory === activeCategory) {
+      btn.classList.add("active");
+    } else {
+      btn.classList.remove("active");
+    }
+  });
+
+  document.querySelectorAll(".blog-card").forEach(card => {
+    const cardCategory = card.getAttribute("data-category");
+
+    if (cardCategory === activeCategory) {
+      card.style.display = "flex";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
 </script>

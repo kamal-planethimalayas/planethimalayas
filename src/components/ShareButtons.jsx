@@ -35,6 +35,7 @@ export default function ShareButtons({ pageUrl, pageTitle }) {
 
   return (
     <div className="share-buttons">
+      <h3>{pageTitle}</h3>
       <h3>Share this post:</h3>
       <div className="share-buttons-list">
         {platforms.map((p, i) => (
@@ -46,7 +47,7 @@ export default function ShareButtons({ pageUrl, pageTitle }) {
             className="share-btn"
             style={{ color: p.color }}
           >
-            <i className={p.iconClass}></i> {p.name}
+            <i className={p.iconClass}></i>
           </a>
         ))}
       </div>

@@ -209,7 +209,7 @@ export const blogs = [
   title: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
   slug: "mountain-manners",
   date: "2025-09-16",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1287,7 +1287,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Ideal Trekking Shoes for Himalayan Treks | Buying Guide, Features & Top Brands",
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1377,7 +1377,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   title: "Ideal Trekking Backpack for Himalayan Treks | Capacity, Fit & Top Brands Guide",
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1560,7 +1560,7 @@ If the weight feels balanced, your shoulders aren’t strained, and your posture
   title: "How to Pack Your Backpack for a Himalayan Trek | Smart Packing Guide",
   slug: "packing-backpack",
   date: "2025-09-19",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1736,7 +1736,7 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   title: "How to Take Care of Your Trekking Shoes for Durability | Pre-Trek Checklist",
   slug: "trekking-shoes-care",
   date: "2025-09-19",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1823,7 +1823,7 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   title: "Complete Guide to Trekking Jackets | Types, Layering & Care for Himalayan Treks",
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
-  category: "Trekkig Tips & Basics",
+  category: "Trekking Tips & Basics",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
