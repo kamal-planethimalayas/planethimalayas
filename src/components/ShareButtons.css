@@ -3,9 +3,19 @@
   padding: 1rem; 
 }
 
+.share-buttons h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  border-bottom: 2px solid #ff7300; /* brand underline */
+  padding-bottom: 0.25rem;
+}
+
 .share-buttons h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
   color: #000;
