@@ -1256,7 +1256,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
     region: "himachal pradesh",
-    duration: "6 Nights / 6 Days",
+    duration: "6 Nights / 7 Days",
     coordinates: [
                   [31.5397, 77.9364], // Kafnu (start)
                   [32.0453, 78.0431], // Mud Village (end)
@@ -1279,7 +1279,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,105 ft (Pin Bhaba Pass)" },
         { emoji: "⚡", label: "Trek Distance", value: "50 Km" },
@@ -1432,7 +1432,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   difficulty: ["difficult"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september"],
-  duration: ["10 Nights / 10 Days +1 Buffer Day"],
+  duration: ["10 Nights / 11 Days +1 Buffer Day"],
   region: "himachal pradesh",
   coordinates: [
     [31.9985, 77.3588], // Barshaini (start)
@@ -1466,7 +1466,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 10 Days (+1 buffer day)" },
+      { emoji: "⏳", label: "Trek Duration", value: "10 Nights / 11 Days (+1 buffer day)" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,450 ft (Pin Parvati Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "≈110 Km" },
@@ -1700,7 +1700,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
   region: "himachal pradesh",
-  duration: "7 Nights / 7 Days",
+  duration: "7 Nights / 8 Days",
   coordinates: [
   [32.6785, 76.9143], // Udaipur (start)
   [32.7040, 76.9680], // Khanjar (last motorable village)
@@ -1731,7 +1731,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft" },
       { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
@@ -1771,14 +1771,14 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "04 Jul - 10 Jul", start: "2026-07-04", end: "2026-07-10" },
-  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
-  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
+  { label: "04 Jul - 11 Jul", start: "2026-07-04", end: "2026-07-11" },
+  { label: "18 Jul - 25 Jul", start: "2026-07-18", end: "2026-07-25" },
+  { label: "01 Aug - 08 Aug", start: "2026-08-01", end: "2026-08-08" },
+  { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2026-08-22" },
+  { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2026-09-05" },
+  { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2026-09-19" },
+  { label: "26 Sep - 03 Oct", start: "2026-09-26", end: "2026-10-03" },
+  { label: "10 Oct - 17 Oct", start: "2026-10-10", end: "2026-10-17" },
 ],
 
   highlights: [
@@ -4199,7 +4199,7 @@ questions: [
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
-    duration: ["5 Nights / 5 Days"],
+    duration: ["4 Nights / 5 Days"],
     region: "uttarakhand-garhwal",
     heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg",
 
@@ -4222,21 +4222,21 @@ seo: {
 },
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
-        { emoji: "🏔️", label: "Max Altitude", value: "11,500 ft (Bedni bugyal)" },
+        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+        { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Bedni Top)" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },
-        { emoji: "⚡", label: "Trek Distance", value: "28 Km" },
+        { emoji: "⚡", label: "Trek Distance", value: "~35-40 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Lohajung / Wan" },
+        { emoji: "📍", label: "Start Point", value: "Wan" },
         { emoji: "🏁", label: "End Point", value: "Wan" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
       snippet: 
-  "The Ali–Bedni Bugyal Trek is a journey into the heart of Uttarakhand’s most enchanting high-altitude meadows — vast rolling grasslands that look like they’ve been brushed onto the earth by the hands of the gods. Starting from the quiet mountain village of Lohajung, the trail gently climbs through ancient oak and rhododendron forests where sunlight filters in golden beams and the woods echo with Himalayan thrushes, woodpeckers, and the occasional rustle of a mountain fox slipping between the shadows.<br>Then, almost without warning, the forests fall away and the world opens up into the endless green waves of Ali Bugyal — one of the largest alpine meadows in Asia. Walking here feels surreal. The air becomes crisp, the earth soft underfoot, and far on the horizon rise the great guardians of the Garhwal Himalayas: Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing white under the morning sun or flushed in shades of rose and gold at dusk. It’s a landscape so vast and quiet that you can hear the wind travel across the grass.<br>A gentle traverse leads you to Bedni Bugyal, equally magical yet imbued with a deeper spiritual energy. At its center lies Bedni Kund, a sacred, mirror-like pond believed to have witnessed centuries of rituals and the legendary Nanda Devi Raj Jat Yatra, one of the Himalayas’ most revered pilgrimages. The meadows here are dotted with wildflowers — blue poppies, brahmakamal, bistorts, and primulas — turning the terrain into a vibrant tapestry during summer.<br>Ali and Bedni are more than just meadows; they are living, breathing landscapes where nature, culture, and ancient lore blend seamlessly. Whether you are a first-time trekker or an experienced wanderer, these bugyals welcome you into a world where the sky feels close enough to touch, the mountains watch silently over the valleys, and every step fills you with a quiet sense of wonder."
+"The Ali–Bedni Bugyal Trek is one of the best meadow treks in the Himalayas, a breathtaking journey through Uttarakhand’s most enchanting high-altitude grasslands. Beginning from the serene mountain village of Wan, this beginner-friendly trek offers the perfect introduction to Himalayan trekking, blending ease with unmatched scenic beauty. The trail gradually ascends through ancient oak and rhododendron forests, where filtered sunlight paints the woods in golden hues and the silence is broken only by birdsong and the whisper of the wind.<br>As the forest thins, the landscape opens dramatically into the sweeping expanse of Ali Bugyal — a vast, rolling alpine meadow that feels almost otherworldly. Walking here is an experience in itself, with soft grass underfoot and uninterrupted views stretching endlessly toward the horizon. Towering above this dreamlike setting stand the mighty peaks of Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing brilliantly against the Himalayan sky.<br>A gentle traverse leads to Bedni Bugyal, equally stunning yet deeply spiritual in its presence. At its heart lies the sacred Bedni Kund, a pristine high-altitude lake associated with the legendary Nanda Devi Raj Jat Yatra. During summer, the meadows bloom into a vibrant carpet of wildflowers, adding color and life to an already magical landscape.<br>This easy trek in the Himalayas is not just about reaching a destination — it’s about immersing yourself in vast open spaces, breathing crisp mountain air, and experiencing the quiet grandeur of nature at its purest. Whether you are a first-time trekker or someone returning to the mountains, the Ali Bedni Bugyal Trek promises an unforgettable escape into the soul of the Himalayas."
     },
 
-    price: 9900,
+    price: 8900,
     priceNote: "* Lohajung to Lohajung",
     addons: {
       transport: 6000, 
@@ -4245,13 +4245,12 @@ seo: {
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     dates: [   
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-15" },
+{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-22" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
 { label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
@@ -4259,7 +4258,7 @@ seo: {
 { label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
 { label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
 
-{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
+{ label: "01 Jun - 05Jun", start: "2026-06-01", end: "2026-06-05" },
 { label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
 
@@ -4275,40 +4274,81 @@ seo: {
     ],
 
     itinerary: [
-  {
-    day: 1,
-    title: "Drive from Rishikesh to Lohajung (7,600 ft)",
-    details: "<strong>• Distance: ~250 km | Duration: 9–10 hrs.</strong><br>• Your journey to Ali Bedni Bugyal Trek begins with an early morning drive from Rishikesh to Lohajung, a scenic Himalayan village that serves as the base for many treks in Uttarakhand. The drive takes around 10–11 hours, covering roughly 220 km through winding mountain roads and breathtaking river valleys.<br>As you leave behind the spiritual town of Rishikesh, where the holy Ganga flows gracefully, the landscape transforms into steep ridges and dense pine forests. Along the way, you’ll pass through three of the Panch Prayags — Devprayag, Rudraprayag, and Karnaprayag — each a sacred confluence where tributaries of the Alaknanda meet other rivers.<br>At Devprayag, witness the iconic meeting of the Bhagirathi and Alaknanda Rivers, marking the birth of the mighty Ganga. It’s a spectacular sight that captures both the serenity and power of the Himalayas.<br>The road continues through charming mountain towns and terraced fields, with the Alaknanda River keeping you company for most of the journey. As you approach Lohajung (7,600 ft), the first views of the Nanda Ghunti Peak emerge — a glimpse of the snowy giants awaiting you in the coming days.<br>Lohajung is a small yet lively settlement with a few local shops and guesthouses. If you arrive before sunset, take a gentle walk around the village to acclimatize and enjoy the mountain air. According to local folklore, the name Lohajung comes from an ancient tale — it’s believed that Goddess Parvati fought a demon named Lohasur here, hence the name ‘Lohajung,’ meaning ‘the war with Lohasur’.<br>End your day with a hot, comforting dinner at the guesthouse and prepare for the trek ahead — tomorrow, the real adventure begins."
-  },
-  {
-    day: 2,
-    title: "Lohajung to Didna Village (8,200 ft)",
-    details: "<strong>• Trek Distance: ~6 km | Duration: 4–5 hrs.</strong><br>• The trek to Didna (8,200 ft) starts with a clearly defined forest path that meanders through oak and rhododendron trees. The initial section includes gentle ascents and descents through shaded woodland, making it a pleasant start to your Himalayan journey.<br>After about an hour and a half of hiking, we’ll reach the Neel Ganga River, a sparkling mountain stream that marks the midpoint of today’s trek. It’s a perfect spot to rest, refill your bottles, and soak in the calming sound of the gushing water surrounded by thick forest.<br>From Neel Ganga, the trail climbs steeply for the next couple of hours — this is the most challenging part of the day. The steady ascent leads us up to Didna village, a charming hamlet known for its traditional stone houses and terraced fields. The views start opening up beautifully as you gain altitude.<br>We’ll continue a little further ahead into the outskirts of Didna, where we’ll set up camp in a peaceful forest clearing. The site offers a quiet, natural ambience — surrounded by tall trees and the distant hum of the valley below.<br>Evening time is perfect for short acclimatization walks or simply relaxing near the campsite. You can watch the sun dip behind the hills, enjoy some photography, and later, a warm, freshly cooked dinner under a canopy of stars.<br>Sleep early tonight — tomorrow’s trek will take us above the tree line into open alpine meadows."
-  },
-  {
-    day: 3,
-    title: "Didna to Ali Bugyal (11,000 ft)",
-    details: "<strong>• Trek Distance: ~6 km | Duration: 5–6 hrs.</strong><br>• Day 3 of the trek unfolds the heart of the trek — vast rolling meadows, crisp mountain air, and unforgettable views. Today, we trek from Didna to Khobal Tal, passing through the legendary Ali Bugyal, one of the most scenic alpine meadows in India.<br>We begin the morning with an early breakfast before setting out on the trail. The initial section climbs steadily through dense oak and rhododendron forests — a tranquil stretch filled with bird calls and soft mountain light filtering through the trees.<br>A few hours into the trek, we’ll reach Tolpani, a small clearing that serves as the only reliable water source on this route. It’s the perfect spot to rest, refill your bottles, and gather energy for the ascent ahead.<br>Soon after, the forest begins to thin, and the breathtaking Ali Bugyal opens up before you — a sweeping expanse of velvet-green slopes stretching endlessly into the horizon. This section of the trail is truly a photographer’s paradise, offering panoramic views of Mt. Trishul and Mt. Mrigthuni standing tall against the skyline. During winter, these meadows turn into a snow-laden wonderland, glowing under the Himalayan sun.<br>As you traverse the gentle undulations of Ali Bugyal, take your time to immerse yourself in the calmness and grandeur of this high-altitude landscape.<br>From here, the trail continues towards Khobal Tal, our campsite for the night. Located near a serene lake at the edge of the meadows, Khobal Tal is surrounded by pine forests and open views of the mountains. As dusk settles, you’ll find yourself sitting by your tent under a clear, starlit sky — the perfect setting to unwind after a long, rewarding day of trekking.<br>Tonight, we camp here in the wilderness, lulled to sleep by the whispers of the alpine breeze and the tranquility of the high meadows."
-  },
-  {
-    day: 4,
-    title: "Ali Bugyal to Ghairoli Patal (10,500 ft) via Bedni Bugyal (Bedni Top: 12,500 ft)",
-    details: "<strong>• Trek Distance: ~7 km round trip | Duration: 5–6 hrs.</strong><br>• Day 4 brings yet another magical chapter of this Himalayan journey as we move from Khobal Tal to Bedni Bugyal, one of the most enchanting alpine meadows in India. After a refreshing cup of morning tea and a wholesome breakfast, we’ll begin our gradual ascent along a narrow, scenic trail that winds through rolling ridges and open landscapes.<br>Soon, the trail opens up to the magnificent Bedni Bugyal, a vast green expanse set against the dramatic backdrop of towering Himalayan peaks. This is where the grandeur of the Garhwal Himalayas truly comes alive — with Mt. Trishul, Nanda Ghunti, Neelkanth, and Chaukhamba gleaming in the morning light. During early hours, the meadows shimmer with dew and golden sunlight, making it one of the most photogenic stretches of the entire trek.<br>At the heart of the meadow lies the sacred Bedni Kund, a small glacial pond surrounded by legends. Deeply rooted in local mythology, this site plays a key role in the Nanda Devi Raj Jat Yatra, a grand pilgrimage held once every 12 years. On a clear day, the reflection of the mighty peaks in the calm waters of Bedni Kund creates a breathtaking sight you’ll never forget.<br>After spending time soaking in the spiritual and natural beauty of Bedni Bugyal, we’ll begin our descent toward Ghairoli Patal, our campsite for the night. The route drops sharply through enchanting meadows and dense oak forests, filled with birdsong and misty glades.<br>Ghairoli Patal is a tranquil clearing nestled deep in the woods — the perfect spot to rest after a rewarding day. As evening falls, enjoy a hot dinner, share stories with your trek mates, and gaze up at the starlit sky through the canopy of trees. The gentle silence of the forest will lull you into a peaceful night’s sleep in your tents."
-  },
-  {
-    day: 5,
-    title: "Ghairoli Patal to Wan Village (7,800 ft) | Drive to Lohajung",
-    details: "<strong>• Trek Distance: ~10 km | Duration: 5–6 hrs.</strong><br>• Your final day on the Ali Bedni Bugyal Trek begins with the soft glow of dawn and the crisp mountain air brushing past your tent. Enjoy a comforting cup of tea followed by a hearty breakfast while taking one last look at the serene Himalayan landscape that has been your home for the past few days. Today marks your descent from Ghairoli Patal to Wan Village, followed by a short drive back to Lohajung.<br>The trail begins with a long, zigzag descent through a peaceful forest filled with ancient oak groves and moss-laden trees. As you make your way down, you’ll pass a few rustic shepherd huts — still used by nomadic herders who graze their flocks in these highlands during summer. The route then leads you once again to the Neelganga River, its crystal-clear waters cutting through the valley. Pause for a moment here — this is your final river crossing of the trek, and it offers a perfect chance to rest and reflect on the journey so far.<br>After crossing the river, the trail climbs gradually toward Ran Ka Dhar, a charming spot to catch your breath and take in sweeping views of the lower valley. A short and pleasant hike from here will bring you to Wan, one of the highest motorable villages in this part of Uttarakhand. Wan is a picturesque hamlet, known for its wooden houses, terraced farms, and warm-hearted locals.<br>Before concluding your trek, make sure to stop by the centuries-old Latu Devta temple, a sacred shrine steeped in local legend. The deity here is considered so powerful that even the priest enters blindfolded during rituals — a fascinating glimpse into the region’s deep-rooted traditions.<br>From Wan, board your vehicle for a short 45-minute drive to Lohajung, marking the end of your incredible Himalayan journey. Once back, unwind at your guesthouse, explore the small local market, or simply relax and soak in the quiet satisfaction of completing one of the most scenic treks in India. In the evening, gather with your trek mates for a celebratory dinner, share stories from the trail, and rest well after a truly memorable adventure."
-  },
+{
+  day: 1,
+  title: "Arrival at Wan (7,800 ft) – Base Camp",
+  details:
+    "<strong>Distance (Rishikesh): ~260 km | Duration: 10–11 hrs.<br>Distance (Kathgodam/Haldwani): ~200 km | Duration: 8–9 hrs.</strong><br><br>\
+Your journey begins as you arrive at Wan (7,800 ft), a quiet and picturesque Himalayan village that serves as the base camp for the Ali Bedni Bugyal Trek. You are expected to report at our base camp by evening, where you’ll be accommodated in a comfortable guesthouse or homestay, surrounded by forests and traditional mountain homes.<br><br>\
+If you are travelling from Rishikesh, the drive takes you deep into the Garhwal Himalayas, following the course of the Alaknanda River for most of the journey. Along the way, you pass through the sacred confluences of Devprayag, Rudraprayag, and Karnaprayag, where powerful rivers meet in dramatic settings. Devprayag, where the Bhagirathi and Alaknanda merge to form the Ganga, is especially striking and worth a brief stop. The road winds through steep valleys, terraced fields, and small mountain towns, offering constantly changing landscapes.<br><br>\
+Those coming from Kathgodam or Haldwani enter through the Kumaon region, passing through scenic towns like Almora and Kausani. Kausani is particularly known for its sweeping views of Himalayan peaks, and on a clear day, the distant snow-clad ranges create an unforgettable backdrop. The route further continues through Gwaldam and Deval before reaching Wan, gradually transitioning into denser forests and quieter terrain.<br><br>\
+As you arrive in Wan, you’ll notice its raw Himalayan charm — wooden houses, terraced farms, and a deep sense of calm. The village is also home to the revered Latu Devta Temple, closely associated with the Nanda Devi Raj Jat Yatra, one of the most significant pilgrimages in Uttarakhand.<br><br>\
+After checking in, take some time to relax and acclimatize. The evening is spent enjoying a warm meal and a short trek briefing, setting the tone for the journey ahead. The stillness of Wan and the cool mountain air offer a perfect beginning to your trek."
+},
+
+{
+  day: 2,
+  title: "Wan (7,800 ft) to Ghairoli Patal (10,500 ft)",
+  details:
+    "<strong>Trek Distance: ~10 km | Duration: 5–6 hrs.</strong><br><br>\
+The trek begins from Wan village, gradually leaving behind the last signs of habitation as you step into dense mountain forests. The trail starts with a gentle descent before easing into a steady ascent, allowing your body to gradually adjust to the rhythm of trekking.<br><br>\
+Early in the journey, you cross the Neelganga River, a clear, fast-flowing stream cutting through the valley. The sound of water echoing through the forest creates a calming atmosphere, making it an ideal place to pause briefly before continuing onward.<br><br>\
+As you climb higher, the forest thickens with towering oak and rhododendron trees. During spring, these woods come alive with blooming rhododendrons in vivid shades of red and pink, while autumn brings softer golden tones to the landscape. The trail remains shaded for most of the day, making the climb pleasant despite the altitude gain.<br><br>\
+The route feels immersive and untouched, with occasional glimpses of distant valleys through the trees. Birdsong and the rustling of leaves accompany you throughout, creating a quiet, almost meditative trekking experience.<br><br>\
+After a steady climb, you arrive at Ghairoli Patal (10,500 ft), a serene forest clearing surrounded by tall oak trees. The campsite is peaceful and slightly hidden within the woods, offering a sense of solitude and connection with nature.<br><br>\
+As evening sets in, the forest takes on a magical stillness. Enjoy a hot dinner at camp and rest well in your tents, as tomorrow takes you above the tree line into the vast alpine meadows that define this trek."
+},
+
+{
+  day: 3,
+  title: "Ghairoli Patal (10,500 ft) to Bedni Top (12,500 ft) via Ali & Bedni Bugyal – Return to Ghairoli Patal",
+  details:
+    "<strong>Trek Distance: ~12–14 km (round trip) | Duration: 7–8 hrs.</strong><br><br>\
+Today is the most rewarding and visually stunning day of the trek, as you journey from dense forests into the expansive alpine meadows of Ali and Bedni Bugyal. Carry only your essentials for the day, as you will return to Ghairoli Patal by evening.<br><br>\
+The trail begins with a gradual ascent through thinning forest, and within a few hours, the landscape transforms dramatically as you step out onto the rolling grasslands of Ali Bugyal. At around 11,000 ft, Ali Bugyal stretches endlessly in soft green undulations, offering a sense of vastness that is both humbling and exhilarating. The views begin to open up, revealing towering Himalayan peaks like Mt. Trishul and Mt. Mrigthuni rising sharply against the skyline.<br><br>\
+Continuing onward, the trail gently connects Ali Bugyal to Bedni Bugyal, another expansive meadow that feels even more dramatic in scale and setting. As you approach Bedni Top (12,500 ft), the panorama becomes even more breathtaking, with peaks like Nanda Ghunti, Trishul, and Chaukhamba dominating the horizon. The high altitude air feels crisp and pure, and every step reveals a wider, more spectacular view.<br><br>\
+At Bedni, you will also come across the sacred Bedni Kund, a small high-altitude lake steeped in mythology. It holds deep religious importance and is a key site during the Nanda Devi Raj Jat Yatra. On a clear day, the reflection of the surrounding peaks in its still waters creates a surreal and unforgettable sight.<br><br>\
+After spending ample time exploring, resting, and absorbing the beauty of the meadows, you begin your descent back along the same trail to Ghairoli Patal. The return journey offers a different perspective of the landscape, especially as the light begins to soften toward evening.<br><br>\
+Back at camp, enjoy a well-earned dinner and rest under the forest canopy, carrying with you the memories of one of the most iconic meadow days in the Himalayas."
+},
+
+{
+  day: 4,
+  title: "Ghairoli Patal (10,500 ft) to Wan (7,800 ft)",
+  details:
+    "<strong>Trek Distance: ~10 km | Duration: 4–5 hrs.</strong><br><br>\
+After breakfast, you begin your descent back to Wan, retracing the same forest trail that brought you into the mountains. The descent feels easier on the lungs but requires careful footing as you navigate through the forest paths.<br><br>\
+The route once again passes through dense oak and rhododendron forests, offering a familiar yet equally beautiful experience. The sounds of the forest feel more pronounced on the way down, and you may notice details that were missed during the ascent.<br><br>\
+Crossing the Neelganga River once again marks the final stretch of the trek. It’s a good place to pause briefly, reflect on the journey, and take in the surroundings one last time before returning to civilization.<br><br>\
+A gradual climb from the river brings you back to Wan village, where the trek comes full circle. Upon reaching the base camp, you can relax, freshen up, and enjoy the comfort of a proper stay after days in the wilderness.<br><br>\
+The evening is free to unwind, explore the village, or simply sit back and take in the mountain views. A warm dinner and a sense of accomplishment mark your final night in the Himalayas."
+},
+
+{
+  day: 5,
+  title: "Departure from Wan (7,800 ft)",
+  details:
+    "<strong>Distance to Rishikesh: ~260 km | Duration: 10–11 hrs.<br>Distance to Kathgodam/Haldwani: ~200 km | Duration: 8–9 hrs.</strong><br><br>\
+After breakfast, it’s time to bid farewell to the mountains as you begin your return journey from Wan. Depending on your onward plans, you can drive back either toward Rishikesh through the Garhwal region or toward Kathgodam/Haldwani via the Kumaon route.<br><br>\
+The drive offers one last opportunity to soak in the beauty of the Himalayan landscapes — winding roads, river valleys, and distant peaks slowly fading into the horizon. If time permits, you may choose to stop again at key points like Devprayag or Kausani for a short break.<br><br>\
+By evening, you reach your destination, marking the end of a deeply fulfilling journey through forests, rivers, and some of the most beautiful alpine meadows in India. The experience of Ali and Bedni Bugyal stays with you long after the trek is over, calling you back to the mountains once again."
+}
 ],
 
     howToReach: {
-      air: "Nearest airport is Jolly Grant Airport, Dehradun (approx. 250 km from Lohajung)",
-      train: "Nearest railway stations: Rishikesh or Haridwar. Frequent trains from Delhi, Dehradun, and major cities",
-      road: "Overnight buses available from Delhi to Rishikesh/Haridwar",
-      travelTip: "Shared cabs or private taxis are available from Rishikesh to Lohajung, usually departing early in the morning. Here's how you can make the journey smoother:<br><br>**Route A (Direct or via major hubs):**<br>Rishikesh → Devprayag → Srinagar → Rudraprayag → Karnaprayag → Tharali → Debal → Lohajung. This route spans approximately **260–270 km** and takes **10 to 12 hours** depending on road conditions.<br><br>**Option B (Break journey for comfort):**<br>Split the trek: Take public transport or a taxi to Karnaprayag (~6–7 h), then switch to shared cabs via Tharali and Debal to reach Lohajung in around 3–4 more hours.<br> **Key travel hubs:** Karnaprayag is approximately 172 km from Rishikesh; from there, it's about 60 km to Debal, then another 20 km to Lohajung.<br> **Pro tips:**<br>• Book shared cabs early—seats are limited and fill up fast.<br>• Carry enough cash—ATMs are rare beyond Karnaprayag.<br>• Travel breaks at Devprayag, Srinagar, or Karnaprayag offer scenic river confluences and local food stops."
-
-    },
+  air: "Nearest airport is Jolly Grant Airport, Dehradun (approx. 270 km from Wan)",
+  train: "Nearest railway stations: Rishikesh/Haridwar (Garhwal route) or Kathgodam/Haldwani (Kumaon route), both well connected to Delhi and major cities",
+  road: "Overnight buses available from Delhi to Rishikesh/Haridwar and Kathgodam/Haldwani",
+  travelTip: "Wan, the base camp for the Ali Bedni Bugyal Trek, can be reached via two scenic Himalayan routes — through Garhwal (Rishikesh side) or Kumaon (Kathgodam side). Both offer unique landscapes and experiences.<br><br>\
+<strong>Route A (via Rishikesh – Garhwal side):</strong><br>\
+Rishikesh → Devprayag → Srinagar → Rudraprayag → Karnaprayag → Tharali → Deval → Wan. This route spans approximately <strong>260–270 km</strong> and takes around <strong>10–11 hours</strong>. Along the way, you pass three sacred confluences — Devprayag, Rudraprayag, and Karnaprayag — where rivers merge dramatically amidst steep valleys. The drive follows the Alaknanda River for long stretches, offering stunning views and multiple scenic stop points.<br><br>\
+<strong>Route B (via Kathgodam/Haldwani – Kumaon side):</strong><br>\
+Kathgodam/Haldwani → Almora → Kausani → Gwaldam → Deval → Wan. This route is approximately <strong>200–220 km</strong> and takes around <strong>8–9 hours</strong>. The journey passes through the Kumaon hills, with Kausani offering panoramic views of Himalayan peaks like Trishul and Nanda Devi on clear days. The road then winds through dense forests and quiet mountain towns before reaching Wan.<br><br>\
+<strong>Option for a comfortable break journey:</strong><br>\
+If traveling via Rishikesh, you can break your journey at Karnaprayag (around 6–7 hours from Rishikesh), and continue the next day via shared cabs through Tharali and Deval to reach Wan in another 3–4 hours.<br><br>\
+<strong>Pro tips:</strong><br>\
+Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared cabs are limited and usually depart early in the morning, so plan your connections accordingly. Key stopovers like Devprayag, Karnaprayag, and Kausani are great for short breaks, food, and soaking in some of the most scenic river and mountain views of the journey."
+},
 
   didYouKnow: [
     " <b>Roopkund, the mysterious Skeleton Lake, lies further on this trail!</b>  <br>Beyond Bedni Bugyal, the route leads to Roopkund (16,499 ft), where hundreds of ancient human skeletons were discovered — still a mystery for historians and scientists. This is also the route for the sacred Nanda Devi Raj Jat Yatra.",
@@ -4406,7 +4446,7 @@ seo: {
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "september", "october", "november", "december"],
-    duration: ["5 Nights / 5 Days"],
+    duration: ["5 Nights / 6 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [30.5416, 79.1801], // Sari Village (start)
@@ -4432,7 +4472,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Chandrashila peak)" },
         { emoji: "⚡", label: "Trek Distance", value: "32 Km" },
@@ -4459,15 +4499,15 @@ seo: {
 
     dates: [   
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+{ label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
+{ label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
+{ label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
+{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
 
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
-{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
-{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+{ label: "04 May - 09 May", start: "2026-05-04", end: "2026-05-09" },
+{ label: "11 May - 16 May", start: "2026-05-11", end: "2026-05-16" },
+{ label: "18 May - 23 May", start: "2026-05-18", end: "2026-05-23" },
+{ label: "25 May - 30 May", start: "2026-05-25", end: "2026-05-30" },
 
 
   ],
@@ -4601,7 +4641,7 @@ seo: {
     difficulty: ["moderate" , "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["6 Nights / 6 Days"],
+    duration: ["6 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [30.9995, 78.9398], // Gangotri (start)
@@ -4627,7 +4667,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "14,600 ft (Meru Base Camp)" },
         { emoji: "⚡", label: "Trek Distance", value: "42 Km" },
@@ -4658,27 +4698,27 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
-      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
-      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+  { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+  { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+  { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+  { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+  { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
-      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
-      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
-      { label: "13 Jun - 18 Jun", start: "2026-06-13", end: "2026-06-18" },
-      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
+  { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+  { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+  { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
 
-      { label: "19 Sep - 24 Sep", start: "2026-09-19", end: "2026-09-24" },
-      { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
-      { label: "26 Sep - 01 Oct", start: "2026-09-26", end: "2026-10-01" },
-      { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+  { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
-      { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
-      { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
-      { label: "10 Oct - 15 Oct", start: "2026-10-10", end: "2026-10-15" },
-    ],
+  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+  { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
+],
 
     highlights: [
       "The trek starts from Gangotri - one of the sacred dhams in Uttarakhand.",
@@ -4817,7 +4857,7 @@ seo: {
     season: ["summer", "autumn"],
     month: ["may", "june", "october", "september"],
     region: "uttarakhand-garhwal",
-    duration: "7 Nights / 7 Days",
+    duration: "7 Nights / 8 Days",
     coordinates: [
       [30.9947, 78.9398],   // Gangotri
       [30.9632, 79.0629],   // Bhojbasa
@@ -4843,7 +4883,7 @@ seo: {
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,200 ft (Vasukital)" },
         { emoji: "📏", label: "Trek Distance", value: "46–48 Km" },
@@ -4888,13 +4928,13 @@ seo: {
 
     dates: [
       
-      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+      { label: "24 May - 31 May", start: "2026-05-24", end: "2026-05-31" },
 
-      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+      { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
 
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
 
-      { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
+      { label: "11 Oct - 18 Oct", start: "2026-10-11", end: "2026-10-18" },
     ],
 
     highlights: [
@@ -5043,7 +5083,7 @@ seo: {
   difficulty: ["moderate", "difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
-  duration: ["6 Nights / 6 Days"],
+  duration: ["6 Nights / 7 Days"],
   region: "uttarakhand-garhwal",
   coordinates: [
     [30.7406, 78.4478], // Dehradun
@@ -5075,7 +5115,7 @@ seo: {
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "4,750 m (Kedartal)" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 24 km" },
@@ -5116,13 +5156,13 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
 
   dates: [
       
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
 
-      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
+      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
 
-      { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
-      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+      { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
     ],
 
   highlights: [
@@ -5344,7 +5384,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     difficulty: ["easy", "moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october", "november"],
-    duration: ["5 Nights / 5 Days"],
+    duration: ["5 Nights / 6 Days"],
     region: "uttarakhand-garhwal",
    coordinates: [
     [31.1051, 78.4305], // Sankri (start)
@@ -5368,7 +5408,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,150 ft (3,700 m)" },
         { emoji: "⚡", label: "Trek Distance", value: "30 Km" },
@@ -5402,19 +5442,19 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
 
-      { label: "02 May - 06 May", start: "2026-05-02", end: "2026-05-06" },
-      { label: "03 May - 07 May", start: "2026-05-03", end: "2026-05-07" },
-      { label: "09 May - 13 May", start: "2026-05-09", end: "2026-05-13" },
-      { label: "10 May - 14 May", start: "2026-05-10", end: "2026-05-14" },
-      { label: "16 May - 20 May", start: "2026-05-16", end: "2026-05-20" },
-      { label: "17 May - 21 May", start: "2026-05-17", end: "2026-05-21" },
-      { label: "23 May - 27 May", start: "2026-05-23", end: "2026-05-27" },
-      { label: "24 May - 28 May", start: "2026-05-24", end: "2026-05-28" },
-      { label: "30 May - 03 Jun", start: "2026-05-30", end: "2026-06-03" },
-      { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
+      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
+      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
+      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
+      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
+      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
+      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
+      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-26" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-27" },
+      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
 
-      { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
-      { label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      { label: "08 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
 
 
     ],
@@ -5534,7 +5574,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["7 Nights / 7 Days"],
+    duration: ["7 Nights / 8 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
     [31.1051, 78.4305], // Sankri (start)
@@ -5559,7 +5599,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },     
         { emoji: "🏔️", label: "Max Altitude", value: "12,000 ft (Ruinsaratal)" },
         { emoji: "⚡", label: "Trek Distance", value: "65 Km" },
@@ -5584,13 +5624,13 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-    { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
-    { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
-    { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+    { label: "02 May - 09 May", start: "2026-05-02", end: "2026-05-09" },
+    { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
+    { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
 
     
-    { label: "06 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
-    { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },  
+    { label: "06 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
+    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },  
     ],
 
     highlights: [
@@ -5720,7 +5760,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "april", "june", "march", "september", "october", "november"],
-    duration: ["6 Nights / 6 Days"],
+    duration: ["6 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
   [31.0817, 78.0611], // Sankri (start)
@@ -5744,7 +5784,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },     
         { emoji: "🏔️", label: "Max Altitude", value: "11,200 ft (Harkidun)" },
         { emoji: "⚡", label: "Trek Distance", value: "40 Km" },
@@ -5770,31 +5810,30 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-      { label: "04 Apr - 09 Apr", start: "2026-04-04", end: "2026-04-09" },
-      { label: "11 Apr - 16 Apr", start: "2026-04-11", end: "2026-04-16" },
-      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-      { label: "18 Apr - 23 Apr", start: "2026-04-18", end: "2026-04-23" },
-      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-      { label: "25 Apr - 30 Apr", start: "2026-04-25", end: "2026-04-30" },
-      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+  { label: "04 Apr - 10 Apr", start: "2026-04-04", end: "2026-04-10" },
+  { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
+  { label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },
+  { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
+  { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },
+  { label: "25 Apr - 01 May", start: "2026-04-25", end: "2026-05-01" },
+  { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
 
-      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
-      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
-      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
-      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
-      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
-      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-28" },
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
-      { label: "30 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+  { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
+  { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
+  { label: "09 May - 15 May", start: "2026-05-09", end: "2026-05-15" },
+  { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
+  { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
+  { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+  { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
+  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+  { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+  { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
-      { label: "06 Jun - 11 Jun", start: "2026-06-06", end: "2026-06-11" },
-      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
-      { label: "13 Jun - 18 Jun", start: "2026-06-13", end: "2026-06-18" },
-      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
-
-    ],
+  { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+  { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+  { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+],
 
     highlights: [
       "Ancient Himalayan villages: Osla & Gangad",
@@ -5915,7 +5954,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 5 Days",
+  duration: "5 Nights / 6 Days",
   coordinates: [
     [30.5550, 79.5670],   // Joshimath
     [30.7366, 79.4930],   // Mana
@@ -5939,7 +5978,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "15,100 ft (Satopanth Lake)" },
       { emoji: "📏", label: "Trek Distance", value: "22–24 Km" },
@@ -5983,16 +6022,16 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [
       
-      { label: "24 May - 28 May", start: "2026-05-24", end: "2026-05-28" },
-      { label: "31 May - 04 Jun", start: "2026-05-31", end: "2026-06-04" },
+      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
+      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
 
-      { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
-      { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
+      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
 
-      { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
+      { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
 
-      { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
-      { label: "18 Oct - 22 Oct", start: "2026-10-18", end: "2026-10-22" },
+      { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
+      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
   ],
 
   highlights: [
@@ -6128,7 +6167,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   season: ["winter", "spring", "summer", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april", "may", "june"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 5 Days",
+  duration: "5 Nights / 6 Days",
   coordinates: [
     [30.5561, 79.5617], // Joshimath (base)
     [30.48226, 79.5981], 
@@ -6153,7 +6192,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 5 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,516 ft (Kuari Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "30–35 Km" },
@@ -6186,20 +6225,20 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [ 
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+{ label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
+{ label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
+{ label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
+{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
 
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
-{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
-{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
+{ label: "04 May - 09 May", start: "2026-05-04", end: "2026-05-09" },
+{ label: "11 May - 16 May", start: "2026-05-11", end: "2026-05-16" },
+{ label: "18 May - 23 May", start: "2026-05-18", end: "2026-05-23" },
+{ label: "25 May - 30 May", start: "2026-05-25", end: "2026-05-30" },
 
-{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
-{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+{ label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
+{ label: "08 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
 
-  ],
+],
 
   highlights: [
     "Panoramic views of India’s highest peak Nanda Devi and surrounding Himalayan giants like Donagiri, Hathi-Ghodi, Kamet, Nandakhat, etc.",
@@ -6330,7 +6369,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   season: ["spring"],
   month: ["march", "april"],
   region: "uttarakhand-garhwal",
-  duration: "6 Nights / 6 Days",
+  duration: "6 Nights / 7 Days",
   coordinates: [
     [30.5561, 79.5617], // Joshimath (base)
     [30.48226, 79.5981], 
@@ -6355,7 +6394,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "14,700 ft (Pangarchulla Peak)" },
       { emoji: "⚡", label: "Trek Distance", value: "28–30 Km" },
@@ -6393,13 +6432,13 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [   
 
-{ label: "05 Apr - 10 Apr", start: "2026-04-05", end: "2026-04-10" },
-{ label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-{ label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-{ label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+{ label: "05 Apr - 11 Apr", start: "2026-04-05", end: "2026-04-11" },
+{ label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },
+{ label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },
+{ label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
 
-      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
-      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
+      { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
+      { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
 
   ],
 
@@ -6737,7 +6776,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
   region: "uttarakhand-garhwal",
-  duration: "4 Nights / 4 Days",
+  duration: "4 Nights / 5 Days",
   coordinates: [
     [31.0362, 78.1746], // Sankri (base)
     [31.0837, 78.2167], // Kedarkantha summit
@@ -6759,7 +6798,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 4 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Kedarkantha Summit)" },
       { emoji: "⚡", label: "Trek Distance", value: "20–22 Km" },
@@ -6793,14 +6832,10 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
 
   dates: [   
 
-{ label: "16 Mar – 19 Mar", start: "2026-03-16", end: "2026-03-19" },
-{ label: "23 Mar – 26 Mar", start: "2026-03-23", end: "2026-03-26" },
-{ label: "30 Mar – 02 Apr", start: "2026-03-30", end: "2026-04-02" },
 
-{ label: "06 Apr – 09 Apr", start: "2026-04-06", end: "2026-04-09" },
-{ label: "13 Apr – 16 Apr", start: "2026-04-13", end: "2026-04-16" },
-{ label: "20 Apr – 23 Apr", start: "2026-04-20", end: "2026-04-23" },
-{ label: "27 Apr – 30 Apr", start: "2026-04-27", end: "2026-04-30" },
+{ label: "13 Apr – 17 Apr", start: "2026-04-13", end: "2026-04-17" },
+{ label: "20 Apr – 24 Apr", start: "2026-04-20", end: "2026-04-24" },
+{ label: "27 Apr – 01 May", start: "2026-04-27", end: "2026-05-01" },
 
   ],
 
@@ -7575,7 +7610,7 @@ The following day is reserved for departure. Guests may check out of the guestho
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   region: ["uttarakhand-garhwal", "himachal pradesh"],
-  duration: "8 Nights / 8 Days + 1 Buffer Day",
+  duration: "8 Nights / 9 Days + 1 Buffer Day",
   coordinates: [
   [31.0169, 78.2755], // Sankri (start)
 
@@ -7629,7 +7664,7 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days + 1 Buffer Day" },
+      { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days + 1 Buffer Day" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,880 ft (Borasu Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "~80 Km" },
@@ -7916,7 +7951,7 @@ waypoints: [
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
   region: ["uttarakhand-garhwal"],
-  duration: "9 Nights / 9 Days + 1 Buffer Day",
+  duration: "9 Nights / 10 Days + 1 Buffer Day",
   coordinates: [
   [30.6508, 78.6432], // Gangi (start - Bhilangana valley)
 
@@ -7976,7 +8011,7 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 9 Days + 1 Buffer Day" },
+      { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days + 1 Buffer Day" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "17,400 ft (Mayali Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "~90 Km" },
@@ -8275,7 +8310,7 @@ waypoints: [
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     region: "uttarakhand-garhwal",
-    duration: "7 Nights / 7 Days",
+    duration: "7 Nights / 8 Days",
     coordinates: [
       [30.0333, 79.3300], // Lohajung (start) – approx
       [30.2157,79.6958], // Bedni Bugyal
@@ -8303,7 +8338,7 @@ waypoints: [
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,750 ft (Roopkund Lake)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
@@ -8328,17 +8363,17 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-    { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
-    { label: "22 May - 28 May", start: "2026-05-22", end: "2026-05-28" },
-    { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
-    { label: "29 May - 04 Jun", start: "2026-05-29", end: "2026-06-04" },
-    { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
+  { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
+  { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
+  { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
+  { label: "29 May - 05 Jun", start: "2026-05-29", end: "2026-06-05" },
+  { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
 
-    { label: "05 Jun - 11 Jun", start: "2026-06-05", end: "2026-06-11" },
-    { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
-    { label: "12 Jun - 18 Jun", start: "2026-06-12", end: "2026-06-18" },
-    { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
-  ],
+  { label: "05 Jun - 12 Jun", start: "2026-06-05", end: "2026-06-12" },
+  { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
+  { label: "12 Jun - 19 Jun", start: "2026-06-12", end: "2026-06-19" },
+  { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
+],
 
     enquireOnly: true,
 
@@ -8512,7 +8547,7 @@ waypoints: [
     difficulty: ["moderate", "difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october", "november"],
-    duration: ["8 Nights / 8 Days"],
+    duration: ["8 Nights / 9 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
   [30.0690, 80.2430], // Munsiyari (start)
@@ -8564,7 +8599,7 @@ waypoints: [
 
     overview: {
         facts: [
-            { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 8 Days" },
+            { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
             { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
             { emoji: "🏔️", label: "Max Altitude", value: "Approx. 4,700 m" },
             { emoji: "⚡", label: "Trek Distance", value: "Approx. 60 Km" },
@@ -8873,7 +8908,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   season: ["spring", "summer", "autumn"],
   month: ["march", "april", "may", "june", "september", "october", "november"],
   region: "uttarakhand-kumaon",
-  duration: "6 Nights / 6 Days",
+  duration: "6 Nights / 7 Days",
 
   coordinates: [
   [29.4727, 79.6497],   // Kathgodam
@@ -8904,7 +8939,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy / Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,700 m (12,140 ft)" },
       { emoji: "⚡", label: "Trek Distance", value: "40–45 Km (approx.)" },
@@ -8931,20 +8966,19 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
   dates: [
-      { label: "12 Apr - 17 Apr", start: "2026-04-12", end: "2026-04-17" },
-      { label: "19 Apr - 24 Apr", start: "2026-04-19", end: "2026-04-24" },
-      { label: "26 Apr - 01 May", start: "2026-04-26", end: "2026-05-01" },
+  { label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },
+  { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },
+  { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
 
-      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
-      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
-      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
+  { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
+  { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
+  { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
+  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
+  { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
-      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
-      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
-
-    ],
+  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+  { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+],
 
   highlights: [
     "Explore the vast and rarely visited alpine meadows of Ranthan Kharak",
@@ -9070,7 +9104,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
-    duration: ["4 Nights / 4 Days"],
+    duration: ["4 Nights / 5 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
         [29.5300, 79.6100], // Kathgodam (start)
@@ -9099,7 +9133,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
     overview: {
         facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 4 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },
         { emoji: "🏔️", label: "Max Altitude", value: "3,300 m (Chiltha Mata Top)" },
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 22 km" },
@@ -9246,7 +9280,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
-    duration: ["7 Nights / 7 Days"],
+    duration: ["7 Nights / 8 Days"],
     region: "uttarakhand-kumaon",
 
     coordinates: [
@@ -9306,7 +9340,7 @@ waypoints: [
 
     overview: {
         facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,850 m" },
         { emoji: "⚡", label: "Trek Distance", value: "Approx. 70 Km" },
@@ -9777,7 +9811,7 @@ waypoints: [
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
-  duration: ["7 Nights / 7 Days"],
+  duration: ["7 Nights / 8 Days"],
   region: "uttarakhand-kumaon",
 
   coordinates: [
@@ -9838,7 +9872,7 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "~4,200 m" },
       { emoji: "📏", label: "Trek Distance", value: "~60–65 km" },
@@ -10000,7 +10034,7 @@ waypoints: [
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
-    duration: ["9 Nights / 9 Days"],
+    duration: ["9 Nights / 10 Days"],
     region: "sikkim",
     coordinates: [
   [27.3745, 88.2350], // Yuksom (start)
@@ -10029,7 +10063,7 @@ waypoints: [
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 9 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "15,200 ft (Goechala Viewpoint-1)" },
         { emoji: "⚡", label: "Trek Distance", value: "≈85 Km" },
@@ -10065,15 +10099,13 @@ waypoints: [
 
     dates: [
       
-{ label: "02 Apr - 10 Apr", start: "2026-04-02", end: "2026-04-10" },
-{ label: "09 Apr - 17 Apr", start: "2026-04-09", end: "2026-04-17" },
-{ label: "16 Apr - 24 Apr", start: "2026-04-16", end: "2026-04-24" },
-{ label: "23 Apr - 01 May", start: "2026-04-23", end: "2026-05-01" },
+{ label: "16 Apr - 25 Apr", start: "2026-04-16", end: "2026-04-25" },
+{ label: "23 Apr - 02 May", start: "2026-04-23", end: "2026-05-02" },
 
-{ label: "30 Apr - 08 May", start: "2026-04-30", end: "2026-05-08" },
-{ label: "07 May - 15 May", start: "2026-05-07", end: "2026-05-15" },
-{ label: "14 May - 22 May", start: "2026-05-14", end: "2026-05-22" },
-{ label: "21 May - 29 May", start: "2026-05-21", end: "2026-05-29" },
+{ label: "30 Apr - 09 May", start: "2026-04-30", end: "2026-05-09" },
+{ label: "07 May - 16 May", start: "2026-05-07", end: "2026-05-16" },
+{ label: "14 May - 23 May", start: "2026-05-14", end: "2026-05-23" },
+{ label: "21 May - 30 May", start: "2026-05-21", end: "2026-05-30" },
 
     ],
 
@@ -10242,7 +10274,7 @@ waypoints: [
   difficulty: ["moderate"],
   season: ["winter"],
   month: ["december", "january", "february"],
-  duration: ["7 Nights / 7 Days"],
+  duration: ["7 Nights / 8 Days"],
   region: "sikkim",
   coordinates: [
   [27.3745, 88.2350], // Yuksom (start)
@@ -10271,7 +10303,7 @@ waypoints: [
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,675 ft (Dzongri Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "≈50 Km" },

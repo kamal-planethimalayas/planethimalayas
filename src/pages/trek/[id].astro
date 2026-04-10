@@ -49,6 +49,32 @@ const { gallery, name } = trek;
   description={trek.seo?.description || trek.subtitle}
 >
 
+<!-- Trek Grade Modal -->
+<div id="trekgrade-modal" class="trekgrade-modal">
+  <div class="trekgrade-modal-content">
+    <span class="close-trekgrade-modal">&times;</span> 
+    <h1><strong style="color: #000; font-family: Helvetica, Arial, sans-serif; font-weight: 700; display: inline-block; border-bottom: 2px solid #ff7300; padding-bottom: 2px;">
+    Trek Grade Guide:</strong></h1><br>
+    <p>
+      
+      Trekking in the Himalayas is a true adventure experience — a journey into high-altitude wilderness where nature exists in its most raw and powerful form. Every trek comes with physical challenges, unpredictable weather, and varying terrain. Choosing the right trek grade is essential not just for a great experience, but also for safety and proper acclimatization.<br><br>
+
+      To help you make the right choice, treks are categorized into three levels based on altitude, terrain, duration, and overall difficulty:<br><br>
+
+      <strong>Easy (Beginner-Friendly Treks):</strong><br>
+      Ideal for first-time trekkers or those looking for an easy trek in the Himalayas. These treks usually last up to a week, with shorter hiking days, gradual altitude gain, and a maximum altitude of around 14,000 ft. The terrain remains well-defined, often within or near the tree line, with civilization relatively accessible. Weather conditions are more predictable, making these treks safer and easier to manage, with quicker rescue access if required.<br><br>
+
+      <strong>Moderate Treks:</strong><br>
+      Designed for trekkers with some prior experience or good fitness levels. These treks may extend beyond a week and include a mix of short and long trekking days, with altitudes reaching up to 16,000 ft. You move above the tree line into more rugged landscapes — including alpine meadows, moraines, and high-altitude terrain. Weather becomes more unpredictable, and conditions can change suddenly. While still manageable, these treks require better preparation, endurance, and mental strength.<br><br>
+
+      <strong>Difficult (Expedition-Level Treks):</strong><br>
+      These are high-altitude expeditions meant for experienced trekkers. Routes often exceed 17,000 ft and pass through glaciers, snowfields, steep ascents, river crossings, and technical terrain. Treks can last up to two weeks, taking you far from civilization into extreme Himalayan conditions. Weather can shift rapidly, and sections may require technical equipment like ropes or ice axes. Rescue in such regions is complex, making experience, self-sufficiency, and strong mental resilience absolutely essential.<br><br>
+
+      Understanding these categories helps you choose a trek that matches your fitness, experience, and expectations — ensuring a safe, enjoyable, and truly memorable Himalayan adventure.
+    </p>
+  </div>
+</div>
+
 <!-- Price Modal -->
   <div id="price-modal" class="price-modal">
     <div class="price-modal-content">
@@ -426,8 +452,12 @@ const { gallery, name } = trek;
     <ul>
       {trek.overview.facts.map(fact => {
         return (
-          <li key={fact.label}>
+          <li>
             {fact.emoji} <strong>{fact.label}:</strong> {fact.value}
+
+            {fact.label === "Trek Grade" && (
+              <span class="trekgrade-info-icon trek-grade-info">?</span>
+            )}
           </li>
         );
       })}
@@ -1074,11 +1104,11 @@ backdrop-filter: blur(15px);
   align-items: center;
   width: 20px;
   height: 20px;
-  background: rgba(0, 0, 0, 0.75);
+  background: white;
 backdrop-filter: blur(15px);
 -webkit-backdrop-filter: blur(15px);
  
-  color: #ff7300;
+  color: black;
   border-radius: 50%;
   border: 1px solid #ff7300;
   font-size: 0.75rem;
@@ -1508,11 +1538,11 @@ backdrop-filter: blur(15px);
   align-items: center;
   width: 20px;
   height: 20px;
-  background: rgba(0, 0, 0, 0.75);
+  background: white;
 backdrop-filter: blur(15px);
 -webkit-backdrop-filter: blur(15px);
  
-  color: #ff7300;
+  color: black;
   border-radius: 50%;
   border: 1px solid #ff7300;
   font-size: 0.75rem;
@@ -1951,7 +1981,7 @@ backdrop-filter: blur(15px);
 
 .trek-overview-card li {
   position: relative;
-  background: #ff7300;
+  background: #fff7f0;
   border-radius: 8px;
   border: 2px solid #ff7300;
   display: flex;
@@ -1962,13 +1992,11 @@ backdrop-filter: blur(15px);
   line-height: 1.6;
   padding: 1rem;
 
-  /* Physical elevation (controlled, readable) */
   box-shadow:
-  inset 0 1px 1px rgba(255, 255, 255, 0.35),   /* softer inner highlight */
-  0 8px 22px rgba(0, 0, 0, 0.28),              /* main lift (reduced depth) */
-  0 0 18px rgba(255, 115, 0, 0.55),            /* controlled glow */
-  0 0 36px rgba(255, 115, 0, 0.35);            /* soft ambient spread */
-
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),   /* soft inner highlight */
+    0 10px 26px rgba(0, 0, 0, 0.32),             /* strong lift (main elevation) */
+    0 0 14px rgba(255, 115, 0, 0.38),            /* tight glow */
+    0 0 28px rgba(255, 115, 0, 0.22);            /* soft ambient spread */
 }
 
 /* Desktop: 3 items per row */
@@ -2407,11 +2435,11 @@ backdrop-filter: blur(15px);
   align-items: center;
   width: 20px;
   height: 20px;
-  background: rgba(0, 0, 0, 0.75);
+  background: white;
 backdrop-filter: blur(15px);
 -webkit-backdrop-filter: blur(15px);
  
-  color: #ff7300;
+  color: black;
   border-radius: 50%;
   border: 1px solid #ff7300;
   font-size: 0.75rem;
@@ -2546,6 +2574,141 @@ backdrop-filter: blur(15px);
   font-size: 0.85rem;
   color: #ff7300;
   margin-bottom: 10px;
+}
+
+.trekgrade-info-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background: white;
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+ 
+  color: black;
+  border-radius: 50%;
+  border: 1px solid #ff7300;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 6px;
+  cursor: pointer;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(255, 115, 0, 0.35);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.trekgrade-info-icon:hover {
+  background: #ff7300;
+  color: black;
+  transform: scale(1.05);
+  /* Bottom glow effect only */
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 14px 35px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(255, 115, 0, 1),
+    0 0 60px rgba(255, 115, 0, 0.75); 
+}
+
+/* Itinerary Modal styling */
+.trekgrade-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.trekgrade-modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1000px;
+  max-height: 85vh;
+  overflow-y: auto;
+
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  animation: modalFadeIn 0.3s ease;
+}
+
+
+.close-trekgrade-modal {
+  float: right;
+  top: 18px;
+  right: 18px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 1;
+  color: red;
+  cursor: pointer;
+  cursor: pointer;
+  border: 2px solid red;
+  border-radius: 50%;
+  /* glass base */
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+  /* elevation + soft brand glow */
+  box-shadow:
+  inset 0 1px 1px rgba(255,255,255,0.35),
+  0 8px 18px rgba(0,0,0,0.35),
+  0 0 12px rgba(211, 47, 47, 0.45);
+
+  transition: all 0.3s ease;
+}
+
+.close-trekgrade-modal::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.close-trekgrade-modal:hover{
+  transform: translateY(-6px);
+  color: #000;
+  background: red;
+  box-shadow:
+  inset 0 1px 1px rgba(255,255,255,0.45),
+  0 12px 28px rgba(0,0,0,0.45),
+  0 0 22px rgba(211, 47, 47, 1),
+  0 0 42px rgba(211, 47, 47, 0.7);
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 </style>
@@ -3049,5 +3212,72 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 </script>
 
+<script>
+  document.querySelectorAll(".trek-grade-info").forEach(icon => {
+    icon.addEventListener("click", () => {
+      document.getElementById("trekgrade-modal").style.display = "flex";
+    });
+  });
+</script>
 
+<script>
+const trekgradeIcon = document.getElementById("trekgrade-info");
+const trekgradeModal = document.getElementById("trekgrade-modal");
+const closeModal = document.querySelector(".close-trekgrade-modal");
 
+trekgradeIcon.addEventListener("click", () => {
+  trekgradeModal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", () => {
+  trekgradeModal.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === trekgradeModal) {
+    trekgradeModal.style.display = "none";
+  }
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("trekgrade-modal");
+  const closeBtn = document.querySelector(".close-trekgrade-modal");
+
+  if (!modal) return;
+
+  // OPEN MODAL (supports multiple icons)
+  document.addEventListener("click", (e) => {
+    const trigger = e.target.closest(".trek-grade-info");
+    if (trigger) {
+      modal.style.display = "flex";
+      document.body.style.overflow = "hidden"; // prevent background scroll
+    }
+  });
+
+  // CLOSE BUTTON
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+      document.body.style.overflow = "auto";
+    });
+  }
+
+  // CLICK OUTSIDE TO CLOSE
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+      document.body.style.overflow = "auto";
+    }
+  });
+
+  // ESC KEY CLOSE (pro-level UX)
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modal.style.display === "flex") {
+      modal.style.display = "none";
+      document.body.style.overflow = "auto";
+    }
+  });
+});
+</script>
