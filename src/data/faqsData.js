@@ -45,6 +45,20 @@ export const generalFAQs = [
       answer: `Packing your backpack correctly can make a huge difference on a Himalayan trek — from comfort and balance to quick access and weather protection. A poorly packed bag leads to back pain, frustration, and unnecessary energy drain. Learn how to pack your trekking backpack the smart way. Discover backpack zones, weight distribution, waterproofing & common mistakes to avoid on Himalayan treks.<br><strong><a href='https://www.planethimalayas.com/blogs/packing-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
     {
+  question: "Trekking poles: do they really reduce fatigue and injuries?",
+  answer: `Yes — when used correctly, trekking poles significantly reduce both fatigue and the risk of injuries, especially on long Himalayan treks.<br><br>
+
+They work by distributing load across your arms and shoulders instead of putting constant pressure on your knees and legs. This is particularly important during descents, where most strain and joint stress occur. Poles also improve balance on uneven terrain like rocks, snow, or loose gravel, reducing the chances of slips and falls.<br><br>
+
+<p>However, their effectiveness depends on proper technique, timing, and consistent use throughout the trek — not just when you're already tired.</p>
+
+<p><strong>👉 Want to understand how trekking poles actually improve performance and safety in real mountain conditions? <a href="/blogs/trekking-poles-benefits-himalayas">Click here to read the complete guide</a>.</strong></p>`
+},
+{
+      question: "What are the different kind of Jackets and How to choose the right Jacket for your Himalayan Adventure",
+      answer: `When you step into the Himalayas, your jacket is your shield against cold winds, snowfall, and unpredictable mountain weather. The right trekking jacket keeps you warm, dry, and comfortable — but with so many options (down, synthetic, fleece, waterproof shells), choosing can be confusing. Here's all that you need to know about trekking jackets — from waterproof vs synthetic vs down jackets, to proper layering, care, washing, drying, and storage. Learn how to choose the right jacket for your Himalayan adventure.<br><strong><a href='https://www.planethimalayas.com/trekking-jackets-guide' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
+    },
+    {
       question: "How to prepare for a winter trek in the Himalayas",
       answer: `Winter trekking in the Himalayas isn’t just about walking on snow — it demands intelligent layering, cold-weather strategy, hydration discipline, and awareness of cold injuries. This guide helps beginners and experienced trekkers stay safe and warm while enjoying one of nature’s finest seasons.<br><strong><a href='https://www.planethimalayas.com/blogs/ultimate-winter-trek-preparation-guide-himalayas' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
@@ -61,18 +75,21 @@ export const generalFAQs = [
       answer: `Choose lightweight, breathable, moisture-wicking, and quick-dry clothing. Avoid cotton as it retains moisture. Opt for trekking pants, t-shirts, and jackets suitable for changing weather conditions. Comfortable, flexible clothing that allows movement is ideal.`
     },
     {
-      question: "How to do proper layering of clothes in different seasons?",
-      answer: `Layering helps adapt to temperature changes:<br>
+  question: "How should you layer clothing across different Himalayan seasons?",
+  answer: `Layering is not just about adding clothes — it’s about adapting intelligently to changing mountain conditions. Each season in the Himalayas behaves differently, so your layering strategy must adjust accordingly:<br><br>
+
 <ul>
-<li><strong>Summer:</strong> Base layer: breathable t-shirt, Mid-layer: light fleece, Outer: windproof jacket.</li>
-<li><strong>Monsoon:</strong> Base: quick-dry shirt, Mid-layer: fleece/light jacket, Outer: waterproof rain jacket & pants.</li>
-<li><strong>Autumn/Winter:</strong> Base: thermal innerwear, Mid-layer: fleece/down jacket, Outer: windproof & waterproof shell. Add woolen gloves, hat, and warm socks.</li>
-</ul>`
-    },
-    {
-      question: "What are the different kind of Jackets and How to choose the right Jacket for your Himalayan Adventure",
-      answer: `When you step into the Himalayas, your jacket is your shield against cold winds, snowfall, and unpredictable mountain weather. The right trekking jacket keeps you warm, dry, and comfortable — but with so many options (down, synthetic, fleece, waterproof shells), choosing can be confusing. Here's all that you need to know about trekking jackets — from waterproof vs synthetic vs down jackets, to proper layering, care, washing, drying, and storage. Learn how to choose the right jacket for your Himalayan adventure.<br><strong><a href='https://www.planethimalayas.com/trekking-jackets-guide' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
-    },
+<p><strong>🌤️ Summer Treks:</strong> Days can feel surprisingly warm under direct sun, but wind exposure and altitude still bring sudden chills. Start with a breathable base layer (quick-dry t-shirt), keep a light fleece handy, and always carry a windproof jacket for ridgelines and evenings.</p>
+
+<p><strong>🌧️ Monsoon Treks:</strong> Moisture management becomes critical. Use a quick-dry base layer, a light insulating layer if needed, and a reliable waterproof outer shell (jacket + pants). Staying dry is more important than staying warm.</p>
+
+<p><strong>❄️ Autumn & Winter Treks:</strong> Cold becomes constant and more intense. Use a thermal base layer, an insulating mid-layer (fleece or down), and a windproof/waterproof outer shell. Accessories like gloves, woolen caps, and insulated socks are essential to prevent heat loss.</p>
+</ul>
+
+<p>The key is not just what you wear, but when you adjust — adding or removing layers based on movement, wind, and temperature shifts.</p>
+
+<p><strong>👉 Want to truly master layering for extreme Himalayan microclimates? <a href="/blogs/layering-clothing-himalayan-microclimates">Click here to read the complete guide</a>.</strong></p>`
+},
     {
       question: "Why is it important to keep your feet dry and smell-free during a trek?",
       answer: `Dry feet prevent blisters, fungal infections, cold-related injuries, and bad odor. Wet or sweaty feet can reduce grip, increase discomfort, and affect endurance. Proper foot care ensures comfort, safety, and better overall trekking experience.`

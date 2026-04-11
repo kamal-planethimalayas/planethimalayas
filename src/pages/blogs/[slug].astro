@@ -52,7 +52,7 @@ const relatedBlogs = blogs.filter(
   b => b.category === currentBlog.category && b.slug !== currentSlug
 );
 
-const seasonOfBlog = currentBlog.season || "spring"; // adjust if needed
+const seasonOfBlog = currentBlog.season || "summer"; // adjust if needed
 
 const upcomingTrekCards = treks
   .filter(t => t.season?.includes(seasonOfBlog)) // make sure 'season' exists
@@ -129,13 +129,13 @@ const upcomingTrekCards = treks
   <aside class="blog-sidebar">
     
     <!-- 🏔️ Upcoming Treks -->
-    <div class="sidebar-upcoming-treks">
+    <div class="sidebar-treks">
       <h3>Trending Treks</h3>
+    <div class="sidebar-upcoming-treks">
       {treks
         .filter(
-          trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('spring')
+          trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('summer')
         )
-        .slice(0, 5)
         .map(trek => {
           const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
           const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
@@ -150,14 +150,14 @@ const upcomingTrekCards = treks
           };
 
           return (
-            <div class="sidebar-trek-card" key={trek.id}>
+            <div class="sidebar-trek-card" data-trek key={trek.id}>
               <a href={`/trek/${trek.id}#trek-hero`}>
                 <img src={trek.heroImage} alt={`View of ${trek.name} trek`} />
               </a>
               <h4 class="trek-name">{trek.name}</h4>
               <div class="trek-info">
-                <span>{capitalize(difficultyStr)}</span>
-                <span>{duration}</span>
+                <span class="trek-difficulty">{capitalize(difficultyStr)}</span>
+                <span class="trek-duration">{duration}</span>
               </div>
               <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">
                 View Dates
@@ -165,26 +165,37 @@ const upcomingTrekCards = treks
             </div>
           );
         })}
-      <a href={`/upcoming-treks?season=spring`} class="more-treks-cta">
+      </a>
+    </div>
+      <a href={`/upcoming-treks?season=summer`} class="more-treks-cta">
         More Upcoming Treks →
       </a>
     </div>
 
     <!-- 📚 Related Blogs -->
-    <section class="sidebar-related-blogs">
+    <div class="sidebar-related-blogs">
       <h3>Related Blogs</h3>
       <div class="sidebar-blogs">
-        {relatedBlogs.slice(0,5).map((b, i) => (
-          <a href={`/blogs/${b.slug}`} class="sidebar-blog-card" key={i}>
-            <img src={b.thumbnail} alt={b.title} />
-            <div class="blog-title">{b.title}</div>
-          </a>
+        {relatedBlogs.map((b, i) => (
+          <div class="sidebar-blog-card" data-blog key={i}>
+        
+            <a href={`/blogs/${b.slug}`} class="blog-image-link">
+              <img src={b.thumbnail} alt={b.title} />
+            </a>
+
+            <h4 class="blog-title">
+              <a href={`/blogs/${b.slug}`} class="blog-title-link">
+                {b.title}
+              </a>
+            </h4>
+
+          </div>
         ))}
       </div>
       <a href={`/blogs?category=${encodeURIComponent(currentBlog.category)}`} class="sidebar-cta">
         More Related Blogs →
-      </a>
-    </section>
+      <a>
+    </div>
 
   </aside>
 
@@ -284,7 +295,7 @@ const upcomingTrekCards = treks
 /* ------------------------
    HEADINGS
 ------------------------- */
-.sidebar-upcoming-treks h3,
+.sidebar-treks h3,
 .sidebar-related-blogs h3 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
@@ -298,11 +309,14 @@ const upcomingTrekCards = treks
 /* =========================
    TREK CARDS
 ========================= */
+.sidebar-treks {
+  padding-top: 4rem;
+}
+
 .sidebar-upcoming-treks {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;       /* breathing space between trek cards */
-  padding-top: 4rem;
 }
 
 .sidebar-trek-card {
@@ -310,10 +324,11 @@ const upcomingTrekCards = treks
   flex-direction: column;
   width: 100%;
   max-width: 220px;          /* uniform width */
-  height: 260px;             /* uniform height */
+  height: 280px;             /* uniform height */
   background: #121316;
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 1rem;
   border: 2px solid #ff7300;
   position: relative;
   /* 3D + smooth transitions */
@@ -358,8 +373,10 @@ const upcomingTrekCards = treks
 
 .sidebar-trek-card .trek-info {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  flex-direction: column;   /* 🔥 key change */
+  align-items: center;
+  gap: 0.2rem;
+
   font-size: 0.85rem;
   color: #fff;
   margin-bottom: 0.5rem;
@@ -416,16 +433,15 @@ backdrop-filter: blur(15px);
     0 0 40px rgba(255, 115, 0, 0.7);
 }
 
-.sidebar-upcoming-treks .more-treks-cta {
+.sidebar-treks .more-treks-cta {
   font-size: 0.9rem;
   font-weight: 700;
   color: #ff7300;
   text-decoration: none;
   text-align: left;
-  margin-top: 1rem;
 }
 
-.sidebar-upcoming-treks .more-treks-cta:hover {
+.sidebar-treks .more-treks-cta:hover {
   text-decoration: underline;
 }
 
@@ -448,7 +464,7 @@ backdrop-filter: blur(15px);
   flex-direction: column;
   width: 100%;
   max-width: 220px;          /* uniform width */
-  height: 260px;             /* uniform height */
+  height: 280px;             /* uniform height */
   background: #121316;
   border-radius: 10px;
   overflow: hidden;
@@ -504,6 +520,16 @@ backdrop-filter: blur(15px);
   text-decoration: underline;
 }
 
+.blog-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-title-link:hover {
+  text-decoration: none;
+  color: #ff7300;
+}
+
 /* =========================
    RESPONSIVE MOBILE FIX
 ========================= */
@@ -524,7 +550,7 @@ backdrop-filter: blur(15px);
     align-items: stretch;   /* center the cards */
   }
 
-  .sidebar-upcoming-treks,
+  .sidebar-treks,
   .sidebar-related-blogs {
     padding-top: 1rem;
   }
@@ -745,6 +771,66 @@ backdrop-filter: blur(15px);
     font-size: 0.9rem;
   }
 }
-
-
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  function shuffle(array) {
+    return [...array].sort(() => Math.random() - 0.5);
+  }
+
+  function setupRotator(selector, visibleCount = 5) {
+    const container = document.querySelector(selector);
+    if (!container) return;
+
+    let items = Array.from(container.children);
+
+    function showRandomSet() {
+      items = shuffle(items);
+
+      // fade out
+      items.forEach(el => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(10px)";
+      });
+
+      setTimeout(() => {
+        // 🔥 IMPORTANT: reorder DOM
+        items.forEach(el => container.appendChild(el));
+
+        // show only first N
+        items.forEach((el, i) => {
+          el.style.display = i < visibleCount ? "" : "none";
+        });
+
+        // fade in visible ones
+        setTimeout(() => {
+          items.slice(0, visibleCount).forEach(el => {
+            el.style.opacity = "1";
+            el.style.transform = "translateY(0)";
+          });
+        }, 50);
+
+      }, 300);
+    }
+
+    // initial setup
+    items.forEach((el, i) => {
+      el.style.transition = "all 0.4s ease";
+      if (i >= visibleCount) el.style.display = "none";
+    });
+
+    // 🔥 RUN ONCE IMMEDIATELY (IMPORTANT FIX)
+    showRandomSet();
+
+    // rotate every 5 sec
+    setInterval(showRandomSet, 5000);
+  }
+
+  // Apply correctly to INNER containers
+  setupRotator(".sidebar-upcoming-treks");
+  setupRotator(".sidebar-blogs");
+
+});
+</script>
