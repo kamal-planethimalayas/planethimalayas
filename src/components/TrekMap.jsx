@@ -13,6 +13,7 @@ import {
 import { useEffect } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet-polylinedecorator";
 
 // Fix marker icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -46,6 +47,59 @@ function FitBounds({ coordinates }) {
       const bounds = L.latLngBounds(coordinates);
       map.fitBounds(bounds, { padding: [30, 30] });
     }
+  }, [coordinates, map]);
+
+  return null;
+}
+
+function RouteArrows({ coordinates }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!coordinates || coordinates.length < 2) return;
+
+    const mid = Math.floor(coordinates.length / 2);
+
+    const forwardPath = coordinates.slice(0, mid + 1);
+    const returnPath = coordinates.slice(mid);
+
+    // 👉 Forward arrows (→)
+    const forwardDecorator = L.polylineDecorator(forwardPath, {
+      patterns: [
+        {
+          offset: "5%",
+          repeat: "60px",
+          symbol: L.Symbol.arrowHead({
+            pixelSize: 10,
+            polygon: false,
+            pathOptions: { color: "#ff7300", weight: 2 }
+          }),
+        },
+      ],
+    });
+
+    // 👉 Return arrows (←)
+    const returnDecorator = L.polylineDecorator(returnPath, {
+      patterns: [
+        {
+          offset: "5%",
+          repeat: "60px",
+          symbol: L.Symbol.arrowHead({
+            pixelSize: 10,
+            polygon: false,
+            pathOptions: { color: "#555", weight: 2 }
+          }),
+        },
+      ],
+    });
+
+    forwardDecorator.addTo(map);
+    returnDecorator.addTo(map);
+
+    return () => {
+      map.removeLayer(forwardDecorator);
+      map.removeLayer(returnDecorator);
+    };
   }, [coordinates, map]);
 
   return null;
@@ -87,6 +141,7 @@ export default function TrekMap({ trekName, coordinates, waypoints = [] }) {
 
         {/* ✅ NEW: Auto zoom */}
         <FitBounds coordinates={coordinates} />
+        <RouteArrows coordinates={coordinates} />
 
         {/* Route line (unchanged, slightly enhanced style) */}
         <Polyline

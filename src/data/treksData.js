@@ -8979,15 +8979,30 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   duration: "6 Nights / 7 Days",
 
   coordinates: [
-  [29.4727, 79.6497],   // Kathgodam
-  [29.9355, 79.9858],   // Gogina Village
-  [29.9598, 80.0156],   // Namik Village / Namik Campsite
-  [29.9925, 80.0418],   // Bajimanian Kharak
-  [30.0258, 80.0669],   // Thal Tok (Mountain Col)
-  [30.0476, 80.0832],   // Ranthan Top
-  [29.9598, 80.0156],   // Return to Namik
-  [29.9355, 79.9858],   // End at Gogina
+  [30.086502915731486, 80.06587398734273],   // Gogina Village
+  [30.096741539946354, 80.11008228962771],   // Namik Village / Namik Campsite
+  [30.08079409772236, 80.11386701589767],   // Bajimanian Kharak
+  [30.088435561188398, 80.12223820220885],   // Thal Tok (Mountain Col)
+  [30.10753663671706, 80.13327712912633],   // Ranthan Top
+  [30.088435561188398, 80.12223820220885],   // Thal Tok (Mountain Col)
+  [30.096741539946354, 80.11008228962771],   // Return to Namik
+  [30.086502915731486, 80.06587398734273],   // End at Gogina
   ],
+
+  waypoints: [
+  { name: "Gogina (Start/End)", coords: [30.086502915731486, 80.06587398734273], type: "start/end" },
+
+  { name: "Namik Village", coords: [30.096741539946354, 80.11008228962771], type: "camp" },
+
+  { name: "Bajimanian Kharak", coords: [30.08079409772236, 80.11386701589767], type: "camp" },
+
+  { name: "Thal Tok", coords: [30.088435561188398, 80.12223820220885], type: "camp" },
+
+  { name: "Ranthan Top", coords: [30.10753663671706, 80.13327712912633], type: "view point" },
+
+  { name: "Namik Village", coords: [30.096741539946354, 80.11008228962771], type: "camp" },
+
+],
 
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg",
@@ -9095,6 +9110,12 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   details:
     "The final day of the trek begins with a steady descent from Namik, following the same trail taken on the first day. The path drops sharply at first, cutting down through forested slopes toward a suspension bridge that spans the gorge below. After crossing the bridge, a short but noticeable ascent brings you back onto the village trail — a reminder to stay attentive even on familiar ground.<br><br>As the trail evens out, the surroundings gradually shift from remote wilderness to cultivated fields and scattered huts. The mountains begin to recede into the background, replaced by village life and open valleys. This section is straightforward, but care is needed at trail junctions where the main path climbs quickly back onto the mud trail leading to Gogina.<br><br>The final stretch is an easy walk, allowing time to reflect on the journey of the past days — from high ridges and alpine meadows to long descents and quiet forest paths. Reaching Gogina by late morning or early afternoon marks the end of the trek, carrying back memories of a demanding yet deeply rewarding Himalayan experience."
 },
+  {
+    day: 7,
+    title: "Departure from Gogina | Drive",
+    details:
+      "Begin your return journey from Gogina. The drive retraces the scenic mountain route back toward Bageshwar and further to Kathgodam or other onward destinations.<br><br>As you descend through winding roads, forests, and river valleys, the mountains slowly fade into the distance, bringing the journey to a close. Most trekkers plan their onward travel from Kathgodam, marking the end of a rewarding and immersive Himalayan experience."
+  }
   ],
 
   didYouKnow: [
