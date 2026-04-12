@@ -8312,13 +8312,52 @@ waypoints: [
     region: "uttarakhand-garhwal",
     duration: "7 Nights / 8 Days",
     coordinates: [
-      [30.0333, 79.3300], // Lohajung (start) – approx
-      [30.2157,79.6958], // Bedni Bugyal
-      [30.1897, 79.6925], // Patar Nachauni
-      [30.2089, 79.7034], // Bagwabasa
-      [30.2230, 79.7068], // Roopkund lake
-      
-    ],
+  [30.20480541627504, 79.6191935635451], // Wan Village (start)
+
+  [30.205565215393804, 79.65236721271035], // Ghairoli Patal
+
+  [30.20667186241208, 79.66732346592686], // Bedni Bugyal / Bedni Kund
+
+  [30.238422799575847, 79.69217070440739], // Patar Nachauni
+
+  [30.24888330739027, 79.70089476605098], // Kalua Vinayak Temple
+
+  [30.252316242282287, 79.71068563723948], // Bhagwabasa
+
+  [30.26542318717406, 79.73188772251036], // Roopkund Lake
+
+  [30.252316242282287, 79.71068563723948], // Bhagwabasa (return)
+
+  [30.24888330739027, 79.70089476605098], // Kalua Vinayak Temple
+
+  [30.238422799575847, 79.69217070440739], // Patar Nachauni (return)
+
+  [30.20667186241208, 79.66732346592686], // Bedni Bugyal (return)
+
+  [30.205565215393804, 79.65236721271035], // Ghairoli Patal (return)
+
+  [30.20480541627504, 79.6191935635451], // Wan Village (end)
+],
+
+waypoints: [
+  { name: "Wan Village (Start)", coords: [30.20480541627504, 79.6191935635451], type: "start" },
+
+  { name: "Ghairoli Patal", coords: [30.205565215393804, 79.65236721271035], type: "camp" },
+
+  { name: "Bedni Bugyal / Bedni Kund", coords: [30.20667186241208, 79.66732346592686], type: "meadow" },
+
+  { name: "Patar Nachauni", coords: [30.238422799575847, 79.69217070440739], type: "camp" },
+
+  { name: "Bhagwabasa", coords: [30.252316242282287, 79.71068563723948], type: "camp" },
+
+  { name: "Roopkund Lake", coords: [30.26542318717406, 79.73188772251036], type: "glacier" },
+
+  { name: "Patar Nachauni (Return)", coords: [30.238422799575847, 79.69217070440739], type: "camp" },
+
+  { name: "Ghairoli Patal (Return)", coords: [30.205565215393804, 79.65236721271035], type: "camp" },
+
+  { name: "Wan Village (End)", coords: [30.20480541627504, 79.6191935635451], type: "end" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",  // replace with actual image URL
     
@@ -8344,7 +8383,7 @@ waypoints: [
         { emoji: "⚡", label: "Trek Distance", value: "≈53 km" },
         { emoji: "🌤️", label: "Best Time", value: "May–June & September–October" },
         { emoji: "🗺️", label: "Region", value: "Chamoli District, Uttarakhand" },
-        { emoji: "📍", label: "Start Point", value: "Lohajung / Wan" },
+        { emoji: "📍", label: "Start Point", value: "Wan" },
         { emoji: "🏁", label: "End Point", value: "Wan" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
@@ -8352,7 +8391,7 @@ waypoints: [
     },
 
     price: 16900,     // you can fill in actual price
-    priceNote: "* Lohajung to Wan",
+    priceNote: "* Wan to Wan",
     addons: {
       transport: 5000,    // fill in as applicable
       offloadingbag: 2400, // if any
@@ -8385,43 +8424,55 @@ waypoints: [
       "Finish via Wan village — small Himalayan hamlet with traditional charm",
     ],
 
-    itinerary: [
+ itinerary: [
   {
-    "day": 1,
-    "title": "Rishikesh to Lohajung (7,600 ft) | Drive Distance: ~250 km (9–11 hrs).",
-    "details": "Your journey begins early from Rishikesh as the road climbs steadily into the mountains of Garhwal and later enters the lush green landscapes of Kumaon. The drive moves through forests of chir pine, terraced valleys, lively markets, and small hill towns like Gwaldam and Dewal. As the altitude rises, the forests grow denser and the roads turn narrower, revealing deep river gorges and hanging cloud layers. By evening, you finally reach the quiet Himalayan base village of Lohajung, perched at the meeting point of the Pindar and Kail rivers. The air is cool and crisp, and as sunset hits, golden light washes over the distant Nanda Ghunti peak. After settling into a warm homestay or guesthouse, many trekkers enjoy a short acclimatisation walk to the nearby ridge to get their first taste of the mountains."
+    day: 1,
+    title: "Arrival at Wan Village (7,900–8,200 ft) | Drive",
+    details:
+      "Your journey into the Himalayas begins with two convenient approach options.<br><br><strong>Option 1: From Kathgodam/Haldwani (~210–230 km, 8–10 hrs)</strong><br>This route passes through the scenic Kumaon region via Almora, Kausani, Gwaldam, and Dewal. Expect beautiful views of terraced fields, pine forests, and panoramic Himalayan peaks, especially near Kausani where the Trishul massif often dominates the skyline.<br><br><strong>Option 2: From Rishikesh/Haridwar (~260–280 km, 10–12 hrs)</strong><br>This route follows the Garhwal region through Karnaprayag and Tharali, with dramatic river valleys, deep gorges, and winding mountain roads leading into quieter interiors.<br><br>Both routes converge toward Wan — a peaceful Himalayan village surrounded by dense forests and mountain views. You stay overnight in a comfortable homestay or lodge, allowing you to acclimatise and ease into the mountain environment."
   },
   {
-    "day": 2,
-    "title": "Lohajung to Didna Village (8,530 ft) | Trek Distance: ~8 km | Duration: ~6-7 hrs.",
-    "details": "The trek begins with a pleasant descent through oak and rhododendron forests that echo with the sound of mountain birds. Soon you reach the sparkling Neel Ganga river, flowing over smooth stones and forming small natural pools. After a break here, the trail crosses a wooden bridge and begins a long, steady climb toward Didna. The forest becomes thicker, alive with wildflowers and the occasional rustling of langurs leaping through the canopy. As you emerge from the woods, terraced fields and slate-roofed houses appear—the quiet village of Didna spread across a gentle slope. With views of distant snow-covered ridges and the slow rhythm of mountain life around you, the evening feels peaceful. You stay in a rustic homestay or guesthouse overlooking the valley, where cool winds and starlit skies set the tone for the journey ahead."
+    day: 2,
+    title: "Wan to Ghairoli Patal (9,900 ft) | Trek Distance: ~6 km | Duration: ~4–5 hrs",
+    details:
+      "The trek begins from Wan village, passing through the sacred Latu Devta Temple, an important cultural landmark of the region. Just beyond, you encounter one of the largest ancient banyan trees, its massive roots and canopy creating a mystical setting.<br><br>The trail descends through dense forest to the Neel Ganga river, where you cross a wooden bridge over its clear, rushing waters. From here, the climb begins gradually through forests of oak, rhododendron, and maple. The forest is rich with birdlife and filtered sunlight, creating a calm and immersive trekking experience.<br><br>By afternoon, you reach Ghairoli Patal — a quiet forest clearing surrounded by towering oak trees. From this day onwards, accommodation will be in tents."
   },
   {
-    "day": 3,
-    "title": "Didna to Ali Bugyal (11,320 ft) | Trek Distance: ~10 km | Duration: ~7–8 hrs.",
-    "details": "The day starts with a steady uphill climb through thick forests of rhododendron, oak, maple, and occasional walnut trees. This stretch is known for sightings of the Himalayan monal, the brilliantly coloured state bird of Uttarakhand, and troops of langurs moving through the branches. As you gain altitude, the forest begins to thin and pockets of open grass appear. Soon, the trail pushes above the tree line and unveils one of India’s most spectacular alpine meadows—Ali Bugyal. The meadow rolls endlessly like a green ocean draped over the mountainside, often covered in soft drifting mist. Snow peaks such as Trishul and Nanda Ghunti rise suddenly on the horizon, creating a postcard-like backdrop. Wild horses grazing on the slopes add to the charm of this landscape. You settle in Ali Bugyal for the night—either in tents or a homestay—where the wind feels colder, the air thinner, and the night sky brilliantly clear."
+    day: 3,
+    title: "Ghairoli Patal to Patar Nachauni (12,818 ft) via Bedni Bugyal | Trek Distance: ~10–11 km | Duration: ~7–8 hrs",
+    details:
+      "The day begins with a steady ascent through dense forests, gradually thinning as you gain altitude. Soon, the trail opens up above the tree line, revealing the vast alpine meadows of Ali and Bedni Bugyal.<br><br>These meadows stretch endlessly like a green ocean, with uninterrupted views of Mt. Trishul and Nanda Ghunti dominating the horizon. A short detour takes you to Bedni Kund, a sacred alpine lake reflecting the surrounding peaks on clear days.<br><br>As you move ahead, the terrain becomes more rugged and exposed. The lush meadows slowly transition into high-altitude terrain as you climb toward Patar Nachauni. The campsite sits above the meadows, offering sweeping views, colder winds, and a sense of entering the higher Himalayan zone."
   },
   {
-    "day": 4,
-    "title": "Ali Bugyal to Patar Nachauni (12,818 ft) | Trek Distance: ~8 km | Duration: ~5–6 hrs.",
-    "details": "The morning begins with a gentle traverse across the vast meadows linking Ali Bugyal to Bedni Bugyal, one of the largest and most breathtaking alpine pastures in the Himalayas. The landscape is open and windswept, offering sweeping 360-degree views of towering peaks. A short detour takes you to the tranquil Bedni Kund, a sacred mountain lake where the Trishul massif often reflects perfectly on calm days. Locals believe this lake is blessed by Goddess Nanda Devi, adding a spiritual atmosphere to the setting. As you move ahead, the lush meadows slowly give way to rougher, more rugged terrain. The trail begins to climb toward Patar Nachauni, where the wind picks up and temperatures drop noticeably. The campsite sits above the rolling meadows, surrounded by open ridgelines and wide alpine bowls. Nights here can be extremely cold even in summer, with clear skies revealing thousands of stars."
+    day: 4,
+    title: "Patar Nachauni to Bhagwabasa (14,100–14,500 ft) | Trek Distance: ~5 km | Duration: ~4–5 hrs",
+    details:
+      "Today’s climb is shorter but steeper as you move deeper into high altitude terrain. The trail ascends toward Kalu Vinayak, a stone shrine dedicated to Lord Ganesha perched on a high ridge.<br><br>The ascent involves rocky switchbacks, and with every step, the views become more dramatic. Peaks like Trishul appear closer, while vast valleys stretch below.<br><br>After reaching the ridge, the trail descends slightly over loose moraine to Bhagwabasa — your final campsite before Roopkund. The landscape here is barren and stark, with strong winds and freezing temperatures. Nights are extremely cold, often dropping below zero."
   },
   {
-    "day": 5,
-    "title": "Patar Nachauni to Bhagwabasa (14,100–14,500 ft) | Trek Distance: ~5 km | Duration: ~4–5 hrs.",
-    "details": "Today the trail steepens dramatically as you climb toward Kalu Vinayak, a stone shrine to Lord Ganesha perched on a high ridge at around 14,200 ft. The ascent is steady but demanding, weaving through rocky switchbacks that offer increasingly dramatic mountain views with each step. Once you reach the shrine, the panorama opens wide—Trishul seems almost within reach, and the silhouettes of Nanda Ghunti and the Chaukhamba range rise in the distance. From this ridge, you descend slightly over loose moraine to reach Bhagwabasa, the final campsite before Roopkund. The land here is barren and stark, with patches of old snow lingering even in early summer. Vegetation has disappeared entirely, replaced by grey boulders and icy winds that sweep through the valley. Nights at Bhagwabasa are bitterly cold, often dropping well below freezing, making it important to stay warm, hydrated, and well-rested for the summit attempt."
+    day: 5,
+    title: "Bhagwabasa to Roopkund (15,750 ft) & Junargali (if feasible) – Back to Patar Nachauni | Trek Distance: ~10 km | Duration: ~8–9 hrs",
+    details:
+      "The summit day begins early, usually around 3–4 AM. The trail climbs steeply over snow, scree, and rocky sections under headlamp light. As you gain altitude, the air becomes thinner and the surroundings more dramatic.<br><br>You reach Roopkund Lake, a glacial lake set inside a high-altitude crater, known for the ancient human skeletons visible around its edges when snow melts.<br><br>From here, the climb toward Junargali Top is attempted only if conditions permit. Though not far in distance, the route is steep and can be dangerous during early season due to hard snow and ice, making it often inaccessible.<br><br>After spending some time at Roopkund, you descend carefully back to Bhagwabasa and continue further down to Patar Nachauni for a more comfortable overnight stay."
   },
   {
-    "day": 6,
-    "title": "Bhagwabasa to Roopkund Lake (15,750 ft) and back to Patar Nachauni | Trek Distance: ~10 km | Duration: ~8–9 hrs (round trip).",
-    "details": "The summit day begins long before dawn, usually between 3 and 4 AM, when the snow is firm and the weather most predictable. The trail climbs sharply through zigzagging slopes of snow, scree, and rock, illuminated only by headlamps and the faint glow of approaching sunrise. As you gain altitude, the valley falls away behind you and the air becomes thin and crisp. The final approach brings you into the high cirque that cradles Roopkund—a glacial lake resting inside a natural crater surrounded by steep snow walls. In early summer, when the snow begins to melt, human skeletons dating back centuries emerge at the edges of the lake, giving Roopkund its legendary and somewhat eerie identity. The environment here demands caution; snow conditions can quickly shift between hard ice and soft slush, especially after sunrise. Sunglasses are essential to protect against intense glare, and trekkers must follow the guide closely at all times. The climb to Junargali Top is only possible post-monsoon when the trail is free of heavy snow; during May–June it remains dangerously icy and is often closed. After spending a short, reflective time at the lake, you begin the careful descent back to Bhagwabasa, then continue further down to the warmer, safer meadows of Patar Nachauni. The long day ends with hot food, relief, and a deep sense of achievement."
+    day: 6,
+    title: "Patar Nachauni to Ghairoli Patal | Trek Distance: ~10–11 km | Duration: ~6–7 hrs",
+    details:
+      "The descent begins through open alpine meadows, retracing your steps across Bedni Bugyal. The morning light casts long shadows across the grasslands, and the expansive views feel even more striking on the way down.<br><br>Gradually, you re-enter the forest zone as the trail drops below the tree line. The environment shifts from exposed high-altitude terrain to dense oak and rhododendron forests, bringing back the sounds and scents of the forest.<br><br>By afternoon, you reach the peaceful campsite of Ghairoli Patal, surrounded by tall oak trees."
   },
   {
-    "day": 7,
-    "title": "Patar Nachauni to Wan Village (7,900–8,200 ft) + Drive to Lohajung | Trek Distance: ~15 km | Duration: ~7–8 hrs.",
-    "details": "The descent begins through the open meadows, retracing the trail past Bedni Bugyal where the morning sun casts long shadows across the grasslands. The landscape slowly softens as you leave behind the rocky high-altitude ridges of Bhagwabasa. Wild mountain goats are often seen grazing here, and Himalayan eagles glide effortlessly above the valley. As the trail drops below the tree line, you re-enter cool forests of oak, rhododendron, and pine, where the scents of damp earth and forest foliage feel refreshing after days spent in the alpine zone. You cross Neel Ganga once again, this time appreciating the familiar bridge and the comforting sound of flowing water before making the final ascent to Wan village. A short, scenic drive takes you back to Lohajung, where warm food, a soft bed, and the quiet satisfaction of completing a historic trek await you."
+    day: 7,
+    title: "Ghairoli Patal to Wan Village | Trek Distance: ~6 km | Duration: ~3–4 hrs",
+    details:
+      "The final day of trekking is a gentle descent through the forest. You retrace the trail past Neel Ganga, crossing the familiar wooden bridge before gradually climbing back toward Wan.<br><br>As you approach the village, the forest opens up to reveal traditional homes and terraced fields. The trek concludes at Wan, where you can relax and reflect on the journey through one of the most scenic high-altitude trails in the Himalayas."
   },
-  
+  {
+    day: 8,
+    title: "Departure from Wan | Drive",
+    details:
+      "Begin your return journey from Wan. Depending on your onward plans, you can drive back toward Kathgodam/Haldwani or Rishikesh/Haridwar, retracing the scenic mountain roads with lasting memories of the trek."
+  }
 ],
 
     didYouKnow: [
