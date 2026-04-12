@@ -4212,8 +4212,26 @@ questions: [
 
     subtitle: "A Timeless Himalayan Meadow Walk",
     coordinates: [
-  [30.2106, 79.5861], // Lohajung (start)
-  [30.3014, 79.6467], // Bedni Bugyal (end)
+  [30.204709969702932, 79.61916977761162], // Wan (start)
+  [30.205362157894474, 79.6520320621281], // Ghairoli Patal
+  [30.1852180911031, 79.66063457937453], //Ali Bugyal
+  [30.19573793560142, 79.64533668824885], //Bedni Bugyal
+  [30.20911443931021, 79.66702779428996], //Bedni Kund
+  [30.205362157894474, 79.6520320621281], // Ghairoli Patal
+  [30.204709969702932, 79.61916977761162], // Wan (end)
+],
+
+waypoints: [
+  { name: "Wan Village (Start/End)", coords: [30.204709969702932, 79.61916977761162], type: "start/end" },
+
+  { name: "Ghairoli Patal", coords: [30.205362157894474, 79.6520320621281], type: "camp" },
+
+  { name: "Alii Bugyal", coords: [30.1852180911031, 79.66063457937453], type: "meadows" },
+
+  { name: "Bedni Bugyal", coords: [30.19573793560142, 79.64533668824885], type: "meadows" },
+
+  { name: "Ghairoli Patal", coords: [30.205362157894474, 79.6520320621281], type: "camp" },
+
 ],
 
 seo: {
@@ -4225,7 +4243,7 @@ seo: {
         { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
         { emoji: "🏔️", label: "Max Altitude", value: "12,500 ft (Bedni Top)" },
         { emoji: "⚡", label: "Trek Grade", value: "Easy" },
-        { emoji: "⚡", label: "Trek Distance", value: "~35-40 Km" },
+        { emoji: "⚡", label: "Trek Distance", value: "~28 Km" },
         { emoji: "🌤️", label: "Best Time", value: "September-May" },
         { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Wan" },
@@ -4290,7 +4308,7 @@ After checking in, take some time to relax and acclimatize. The evening is spent
   day: 2,
   title: "Wan (7,800 ft) to Ghairoli Patal (10,500 ft)",
   details:
-    "<strong>Trek Distance: ~10 km | Duration: 5–6 hrs.</strong><br><br>\
+    "<strong>Trek Distance: ~6 km | Duration: 5–6 hrs.</strong><br><br>\
 The trek begins from Wan village, gradually leaving behind the last signs of habitation as you step into dense mountain forests. The trail starts with a gentle descent before easing into a steady ascent, allowing your body to gradually adjust to the rhythm of trekking.<br><br>\
 Early in the journey, you cross the Neelganga River, a clear, fast-flowing stream cutting through the valley. The sound of water echoing through the forest creates a calming atmosphere, making it an ideal place to pause briefly before continuing onward.<br><br>\
 As you climb higher, the forest thickens with towering oak and rhododendron trees. During spring, these woods come alive with blooming rhododendrons in vivid shades of red and pink, while autumn brings softer golden tones to the landscape. The trail remains shaded for most of the day, making the climb pleasant despite the altitude gain.<br><br>\
@@ -4316,7 +4334,7 @@ Back at camp, enjoy a well-earned dinner and rest under the forest canopy, carry
   day: 4,
   title: "Ghairoli Patal (10,500 ft) to Wan (7,800 ft)",
   details:
-    "<strong>Trek Distance: ~10 km | Duration: 4–5 hrs.</strong><br><br>\
+    "<strong>Trek Distance: ~6 km | Duration: 4–5 hrs.</strong><br><br>\
 After breakfast, you begin your descent back to Wan, retracing the same forest trail that brought you into the mountains. The descent feels easier on the lungs but requires careful footing as you navigate through the forest paths.<br><br>\
 The route once again passes through dense oak and rhododendron forests, offering a familiar yet equally beautiful experience. The sounds of the forest feel more pronounced on the way down, and you may notice details that were missed during the ascent.<br><br>\
 Crossing the Neelganga River once again marks the final stretch of the trek. It’s a good place to pause briefly, reflect on the journey, and take in the surroundings one last time before returning to civilization.<br><br>\
@@ -8340,7 +8358,7 @@ waypoints: [
 ],
 
 waypoints: [
-  { name: "Wan Village (Start)", coords: [30.20480541627504, 79.6191935635451], type: "start" },
+  { name: "Wan Village (Start/End)", coords: [30.20480541627504, 79.6191935635451], type: "start/end" },
 
   { name: "Ghairoli Patal", coords: [30.205565215393804, 79.65236721271035], type: "camp" },
 
@@ -8356,7 +8374,6 @@ waypoints: [
 
   { name: "Ghairoli Patal (Return)", coords: [30.205565215393804, 79.65236721271035], type: "camp" },
 
-  { name: "Wan Village (End)", coords: [30.20480541627504, 79.6191935635451], type: "end" },
 ],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg",  // replace with actual image URL
