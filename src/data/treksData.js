@@ -3714,12 +3714,37 @@ questions: [
     duration: ["6 Nights / 7 Days"],
     region: "himachal pradesh",
     coordinates: [
-    [31.4742, 78.1791], // Dhaula (start)
-    [31.5236, 78.2856], // Jiskun
-    [31.5501, 78.3678], // Jakha
-    [31.5867, 78.4511], // Upper Waterfall Camp
-    [31.6275, 78.5167], // Rupin Pass (end)
+    [31.24148057483581, 78.09991840239157], // Jiskoon (start)
+    [31.267023939173345, 78.08447668458108], // Jakha
+    [31.29809541340261, 78.08442979481461], // Saruwas Thatch
+    [31.31017865049252, 78.10214163649141], // Burans Kandi
+    [31.328007393011337, 78.13660421200895], //Dhanderas Thatch
+    [31.34313571636426, 78.15198193501517], //Upper Waterfall
+    [31.35423358416261, 78.15427635331872], //Rupin Pass
+    [31.36844720773274, 78.21495787719506], //Ronti Gad
+    [31.400819506568002, 78.23506998755288], //Sangla Kanda (end)
   ],
+
+  waypoints: [
+  { name: "Jiskoon (start)", coords: [31.24148057483581, 78.09991840239157], type: "start" },
+
+  { name: "Jhaka", coords: [31.267023939173345, 78.08447668458108], type: "village" },
+
+  { name: "Saruwas Thatch", coords: [31.29809541340261, 78.08442979481461], type: "camp" },
+
+  { name: "Burans Kandi", coords: [31.31017865049252, 78.10214163649141], type: "camp" },
+
+  { name: "Dhanderas Thatch", coords: [31.328007393011337, 78.13660421200895], type: "camp" },
+
+  { name: "Upper Waterfall", coords: [31.34313571636426, 78.15198193501517], type: "camp" },
+
+  { name: "Rupin Pass", coords: [31.35423358416261, 78.15427635331872], type: "pass" },
+
+  { name: "Ronti Gad", coords: [31.36844720773274, 78.21495787719506], type: "camp" },
+
+  { name: "Sangla Kanda (end)", coords: [31.400819506568002, 78.23506998755288], type: "end" },
+],
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535222/rupin-pass-hero_u3itsr.jpg",
     
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1755535222/rupin-pass-hero_u3itsr.jpg",
@@ -3956,12 +3981,53 @@ questions: [
     duration: ["6 Nights / 7 Days"],
     region: "himachal pradesh",
     coordinates: [
-    [31.1184, 77.5783], // Janglik (start)
-    [31.1653, 77.6481], // Dayara
-    [31.2147, 77.6911], // Litham
-    [31.2628, 77.7369], // Dhunda
-    [31.2836, 77.7581], // Buran Ghati Pass (end)
-  ],
+  [31.317878107104587, 78.01003177541739], // Janglik
+  [31.347375954702887, 78.06584454654922], // Dayara
+  [31.364650678548998, 78.11446239694753], // Litham
+
+  // 👉 Up to Chandranahan
+  [31.38058490563203, 78.101924935489],
+  [31.392850617578436, 78.10369982887688],
+  [31.399632146670847, 78.08840193648714], // Last lake
+
+  // 👉 COME BACK SAME WAY (IMPORTANT)
+  [31.392850617578436, 78.10369982887688],
+  [31.38058490563203, 78.101924935489],
+  [31.364650678548998, 78.11446239694753], // Back to Litham
+
+  // 👉 Then move to Dhunda
+  [31.374451449395075, 78.14240941288728], // Lower Dhunda
+  [31.37784293950326, 78.13767636330813], // Upper Dhunda
+  [31.389676116232124, 78.15043869342333], // Buran Pass
+  [31.420280744157246, 78.15367238567657], // River camp
+  [31.470100789398117, 78.17930714706718], // Barua
+],
+  waypoints: [
+  { name: "Janglik (Start)", coords: [31.317878107104587, 78.01003177541739], type: "start" },
+
+  { name: "Dayara", coords: [31.347375954702887, 78.06584454654922], type: "camp" },
+
+  { name: "Litham", coords: [31.364650678548998, 78.11446239694753], type: "camp" },
+
+  { name: "Chandranahan lake", coords: [31.38058490563203, 78.101924935489], type: "lake" },
+  { name: "Chandranahan lake 5", coords: [31.392850617578436, 78.10369982887688], type: "lake" },
+  { name: "Chandranahan hidden lake", coords: [31.399632146670847, 78.08840193648714], type: "lake" },
+  { name: "Chandranahan lake 5", coords: [31.392850617578436, 78.10369982887688], type: "lake" },
+  { name: "Chandranahan lake", coords: [31.38058490563203, 78.101924935489], type: "lake" },
+  { name: "Litham", coords: [31.364650678548998, 78.11446239694753], type: "camp" },
+
+
+  { name: "Lower dhunda", coords: [31.374451449395075, 78.14240941288728], type: "camp" },
+
+  { name: "Upper dhunda", coords: [31.37784293950326, 78.13767636330813], type: "camp" },
+
+  { name: "Buran Pass", coords: [31.389676116232124, 78.15043869342333], type: "pass" },
+
+  { name: "River camp", coords: [31.420280744157246, 78.15367238567657], type: "camp" },
+
+  { name: "Barua (End)", coords: [31.470100789398117, 78.17930714706718], type: "end" },
+],
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg",
@@ -7404,9 +7470,52 @@ The following day is reserved for departure. Guests may check out of the guestho
   region: "uttarakhand-garhwal",
   duration: "7 Nights / 8 Days",
   coordinates: [
-    [31.0266, 78.4469], // Sankri (start)
-    [31.0853, 78.7069], // Janki Chatti (end)
-  ],
+  [31.076982601622962, 78.18099866284925], // Sankri
+  [31.07782980977555, 78.24583045641957],
+  [31.101693189608238, 78.30457039489822],
+  [31.105953162208394, 78.31311413160132],
+  [31.11403517971345, 78.33282520315987], // Chilur Gad
+  [31.115827529429342, 78.35501791158282], // Seema
+  [31.124692973777197, 78.38243388328704], // Debshu Bugyal
+  [31.114385337279337, 78.4059061613253], // Rainbasera
+  [31.084055543504178, 78.45802582914702], // Ruinsara Lake
+  [31.069505604548258, 78.4673126786427], // Thanga
+  [31.067147464701144, 78.46039335806138], // Odari
+  [31.05054577970959, 78.44549794701189], // Bali Pass Base
+  [31.033164825485407, 78.44478828242366], // Bali Pass
+  [31.02359975383345, 78.45060715642352],
+  [31.006063866733502, 78.45468310758469],
+  [30.9992471077429, 78.45321055303631], // Lower Dhamni
+  [31.000445084385188, 78.46308910555588], // Yamunotri
+  [30.980893791950486, 78.44247927455866], // Janki Chatti
+],
+waypoints: [
+  { name: "Sankri (Start)", coords: [31.076982601622962, 78.18099866284925], type: "start" },
+
+  { name: "Chilur Gad", coords: [31.11403517971345, 78.33282520315987], type: "camp" },
+
+  { name: "Seema", coords: [31.115827529429342, 78.35501791158282], type: "village" },
+
+  { name: "Debshu Bugyal", coords: [31.124692973777197, 78.38243388328704], type: "valley" },
+
+  { name: "Rainbasera", coords: [31.114385337279337, 78.4059061613253], type: "camp" },
+
+  { name: "Ruinsara Lake", coords: [31.084055543504178, 78.45802582914702], type: "lake" },
+
+  { name: "Thanga", coords: [31.069505604548258, 78.4673126786427], type: "camp" },
+
+  { name: "Odari", coords: [31.067147464701144, 78.46039335806138], type: "camp" },
+
+  { name: "Bali Pass Base Camp", coords: [31.05054577970959, 78.44549794701189], type: "camp" },
+
+  { name: "Bali Pass", coords: [31.033164825485407, 78.44478828242366], type: "pass" },
+
+  { name: "Lower Dhamni", coords: [30.9992471077429, 78.45321055303631], type: "camp"}, 
+
+  { name: "Yamunotri", coords: [31.000445084385188, 78.46308910555588], type: "temple" },
+
+  { name: "Janki Chatti (End)", coords: [30.980893791950486, 78.44247927455866], type: "end" },
+],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg",
 
