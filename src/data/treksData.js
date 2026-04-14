@@ -4728,12 +4728,37 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     duration: ["6 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
-    [30.9995, 78.9398], // Gangotri (start)
-    [30.9756, 79.0644], // Chirbasa
-    [30.9583, 79.1022], // Bhojbasa
-    [30.9422, 79.0933], // Gaumukh
-    [30.9489, 79.1147], // Tapovan (end)
-  ],
+  [30.99447921245088, 78.94120016097287], // Gangotri (start)
+  [30.99567146928345, 78.95433462631185], // Forest checkpost
+  [30.981478031631735, 79.02142622315299], // Chirbasa
+  [30.951229121919372, 79.05180882371724], // Bhojbasa
+  [30.924542162892543, 79.08181644641526], // Gaumukh
+  [30.912051659019482, 79.07688203645094], // Tapovan
+
+  // 🔁 RETURN PATH (this was missing)
+  [30.924542162892543, 79.08181644641526], // Gaumukh (return)
+  [30.951229121919372, 79.05180882371724], // Bhojbasa (return)
+  [30.981478031631735, 79.02142622315299], // Chirbasa (return)
+  [30.99567146928345, 78.95433462631185], // Forest checkpost (return)
+  [30.99447921245088, 78.94120016097287], // Gangotri (end)
+],
+
+waypoints: [
+  { name: "Gangotri (Start/End)", coords: [30.99447921245088, 78.94120016097287], type: "start/end" },
+
+  { name: "Forest Checkpost", coords: [30.99567146928345, 78.95433462631185], type: "checkpoint" },
+
+  { name: "Chirbasa", coords: [30.981478031631735, 79.02142622315299], type: "rest" },
+
+  { name: "Bhojbasa", coords: [30.951229121919372, 79.05180882371724], type: "camp" },
+
+  { name: "Gaumukh", coords: [30.924542162892543, 79.08181644641526], type: "landmark" },
+
+  { name: "Tapovan", coords: [30.912051659019482, 79.07688203645094], type: "camp" },
+
+],
+
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
 
     heroImages: [ "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg",
@@ -4943,11 +4968,39 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     region: "uttarakhand-garhwal",
     duration: "7 Nights / 8 Days",
     coordinates: [
-      [30.9947, 78.9398],   // Gangotri
-      [30.9632, 79.0629],   // Bhojbasa
-      [30.9338, 79.1046],   // Nandanvan
-      [30.9076, 79.1314]    // Vasukital
-    ],
+  [30.99447921245088, 78.94120016097287], // Gangotri (start)
+	[30.99567146928345, 78.95433462631185], // Forest checkpost
+    [30.981478031631735, 79.02142622315299], // Chirbasa
+    [30.951229121919372, 79.05180882371724], // Bhojbasa
+    [30.924542162892543, 79.08181644641526], // Gaumukh
+    [30.908101351514, 79.0938812943831], // gangotri glacier
+	[30.905505296893455, 79.10260229743336], //Nandanvan
+	[30.90462398352816, 79.16451742239332], //Vasukital
+[30.905505296893455, 79.10260229743336], //Nandanvan
+[30.908101351514, 79.0938812943831], // gangotri glacier
+[30.924542162892543, 79.08181644641526], // Gaumukh
+[30.951229121919372, 79.05180882371724], // Bhojbasa
+[30.981478031631735, 79.02142622315299], // Chirbasa
+[30.99567146928345, 78.95433462631185], // Forest checkpost
+],
+
+waypoints: [
+  { name: "Gangotri (Start/End)", coords: [30.99447921245088, 78.94120016097287], type: "start/end" },
+
+  { name: "Forest Checkpost", coords: [30.99567146928345, 78.95433462631185], type: "checkpoint" },
+
+  { name: "Chirbasa", coords: [30.981478031631735, 79.02142622315299], type: "rest" },
+
+  { name: "Bhojbasa", coords: [30.951229121919372, 79.05180882371724], type: "camp" },
+
+  { name: "Gaumukh", coords: [30.924542162892543, 79.08181644641526], type: "glacier" },
+
+  { name: "Gangotri Glacier", coords: [30.908101351514, 79.0938812943831], type: "glacier" },
+	
+  { name: "Nandanvan", coords: [30.905505296893455, 79.10260229743336], type: "camp" },
+	{ name: "Vasukital", coords: [30.90462398352816, 79.16451742239332], type: "lake" },
+
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766321981/vasukital-trek-hero_xealyu.jpg",
 
@@ -5170,13 +5223,33 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   duration: ["6 Nights / 7 Days"],
   region: "uttarakhand-garhwal",
   coordinates: [
-    [30.7406, 78.4478], // Dehradun
-    [30.9200, 78.4610], // Gangotri
-    [30.9405, 78.4689], // Bhoj Kharak
-    [30.9637, 78.4804], // Kedar Kharak
-    [30.9726, 78.4927], // Kedartal
-    [30.9200, 78.4610], // Gangotri (end)
-  ],
+  [30.99447921245088, 78.94120016097287], // Gangotri (start)
+  [30.994097853617163, 78.94035745586581], // Gangotri Bridge
+  [30.97027316003296, 78.94050242477509], // Spider Wall
+  [30.963685941544487, 78.9425103182281], // Bhoj Kharak
+  [30.93698779370241, 78.95223165342516], // Kedar Kharak
+  [30.924117972314576, 78.95481651713514], // Kedar Kund
+  [30.91789828955609, 78.95734223247136], // Kedar Pass
+  [30.913540367464787, 78.95737366681838], // Kedartal
+
+  // 🔁 RETURN (exact reverse — THIS is what fixes arrows)
+  [30.91789828955609, 78.95734223247136], // Kedar Pass (return)
+  [30.924117972314576, 78.95481651713514], // Kedar Kund
+  [30.93698779370241, 78.95223165342516], // Kedar Kharak
+  [30.963685941544487, 78.9425103182281], // Bhoj Kharak
+  [30.97027316003296, 78.94050242477509], // Spider Wall
+  [30.994097853617163, 78.94035745586581], // Gangotri Bridge
+  [30.99447921245088, 78.94120016097287], // Gangotri (end)
+],
+waypoints: [
+  { name: "Gangotri (Start/End)", coords: [30.99447921245088, 78.94120016097287], type: "start/end" },
+
+  { name: "Bhoj Kharak", coords: [30.963685941544487, 78.9425103182281], type: "camp" },
+
+  { name: "Kedar Kharak", coords: [30.93698779370241, 78.95223165342516], type: "camp" },
+
+  { name: "Kedartal", coords: [30.913540367464787, 78.95737366681838], type: "lake" },
+],
 
   heroImage:
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1765889788/kedartal-hero_mexhsu.jpg",
