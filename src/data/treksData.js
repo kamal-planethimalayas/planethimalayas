@@ -5200,7 +5200,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   overview: {
     facts: [
       { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
-      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "⚡", label: "Trek Grade", value: "Moderate / Difficult" },
       { emoji: "🏔️", label: "Max Altitude", value: "4,750 m (Kedartal)" },
       { emoji: "⚡", label: "Trek Distance", value: "Approx. 24 km" },
       { emoji: "🌤️", label: "Best Time", value: "May - June & September - October" },

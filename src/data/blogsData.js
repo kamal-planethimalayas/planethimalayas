@@ -1192,7 +1192,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
 },  
 
 {
-  title: "Choosing the Right Himalayan Trek",
+  title: "Choosing the Right Himalayan Trek: A Strategic Guide for Safety, Experience & Growth",
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
   category: "Preparation Tips",
@@ -1206,80 +1206,214 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   }
 },
   tags: [
-  "How to Choose a Himalayan Trek",
-  "Best Treks in the Indian Himalayas",
-  "Beginner Friendly Himalayan Treks",
-  "Moderate Difficulty Treks in India",
-  "High Altitude Himalayan Treks",
-  "Best Treks by Season in the Himalayas",
-  "Winter Treks in India",
-  "Spring and Summer Treks in the Himalayas",
-  "Autumn Treks with Clear Mountain Views",
-  "Snow Treks for Beginners",
-  "Valley of Flowers and Meadow Treks",
-  "Crossover Pass Treks in the Himalayas",
-  "Family Friendly Himalayan Treks",
-  "Guided Group Treks in India",
-  "Tips for Choosing the Perfect Trek"
+  "how to choose Himalayan trek",
+  "best Himalayan treks for beginners",
+  "trek difficulty levels explained",
+  "high altitude trekking guide",
+  "trek selection tips Himalayas",
+  "season wise trekking India",
+  "beginner vs intermediate treks Himalayas",
+  "trek safety planning guide",
+  "group trekking tips Himalayas",
+  "family trekking India",
+  "solo trekking Himalayas safety",
+  "trek logistics planning India",
+  "altitude sickness prevention trekking",
+  "Planethimalayas trekking guide",
+  "choosing trek based on fitness and season"
 ],
-  description: "Choose a trail that matches your fitness, experience, and goals. With hundreds of treks in the Indian Himalayas — from snowy summits to wildflower meadows — it can be overwhelming to decide which one’s right for you.",
+  description: "Choosing the right Himalayan trek is not just about destination—it’s about safety, experience, and preparedness. Learn how fitness, season, terrain, and group type influence trek selection and avoid mistakes that can impact your entire journey.",
   thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302847/ideal-trek_v79av9.jpg",
   content: `
-<p>Choose a trail that matches your fitness, experience, and goals. With hundreds of treks in the Indian Himalayas — from snowy summits to wildflower meadows — it can be overwhelming to decide which one’s right for you.</p>
 
-<h3 style="color:#ff7300">🟢 1. Know Your Fitness Level</h3>
-<p>Beginner? - Start with well-marked trails and moderate altitudes.</p>
+<p>Choosing a Himalayan trek is not just about picking a destination — it is about making a decision that directly affects your safety, experience, and confidence in the mountains.</p>
+
+<p>The Himalayas are not forgiving of poor decisions. A trek that looks “beautiful” on social media may involve high altitude exposure, unpredictable terrain, or technical challenges that your body and experience level may not yet be ready for.</p>
+
+<p>And here’s something most beginners don’t realize — choosing the wrong trek doesn’t just affect you. In a group setting, one unprepared trekker can slow down the entire team, affect acclimatization schedules, and in extreme cases, lead to evacuation scenarios.</p>
+
+<p>This guide is not about listing treks — it is about helping you think like a trek planner, so you choose wisely, trek safely, and grow sustainably in the Himalayas.</p>
+
+<br>
+
+<h3 style="color:#ff7300">⚠️ <strong>Why Choosing the Right Trek Matters More Than You Think</strong></h3>
+
+<p>Every Himalayan trek is defined by three core variables:</p>
+
 <ul>
-<li>✅ Examples: Kedarkantha (easy, snow views), Dayara Bugyal (meadows + moderate climb), Chopta–Tungnath–Chandrashila (short, rewarding summit)</li>
+<li><b>Altitude</b> (oxygen levels and acclimatization requirements)</li>
+<li><b>Terrain</b> (forest trails, scree, snowfields, ridgelines)</li>
+<li><b>Weather</b> (temperature, wind exposure, precipitation)</li>
+</ul>
+
+<p>At higher elevations, reduced oxygen levels — explained in <a href="/blogs/mountain-sickness" target="_blank">altitude sickness</a> — can affect anyone, regardless of fitness.</p>
+
+<p>This is why “fitness alone” is not enough. Trek selection must align with your experience, adaptability, and awareness.</p>
+
+<blockquote>❗ Reality: The mountains don’t test your strength first — they test your decisions.</blockquote>
+
+<br>
+
+<h3 style="color:#ff7300">🧠 <strong>Fitness vs Experience: A Common Misjudgment</strong></h3>
+
+<p>A fit beginner often feels ready to attempt an intermediate trek — and in some cases, that can work. But only under the right conditions.</p>
+
+<p><b>Example:</b><br>
+A trek like <a href="/trek/harkidun-trek">Har Ki Dun</a> is a great moderate trek with gradual ascent and well-defined trails. A fit beginner can attempt it safely.</p>
+
+<p>But compare that with <a href="/trek/rupin-pass-trek">Rupin Pass</a> — also categorized as moderate to difficult. It involves:</p>
+
+<ul>
+<li>Steep ascents</li>
+<li>Snow crossings</li>
+<li>Exposed sections</li>
+</ul>
+
+<p>For a beginner, this is not just a step up — it is a completely different challenge.</p>
+
+<p><b>The takeaway:</b> Difficulty labels are broad. Terrain and conditions matter more.</p>
+
+<br>
+
+<h3 style="color:#ff7300">🌦️ <strong>Season Can Completely Change a Trek</strong></h3>
+
+<p>This is one of the most underestimated aspects of trek selection.</p>
+
+<p>The same trail behaves very differently across seasons due to changing <a href="https://en.wikipedia.org/wiki/Snow" target="_blank">snow conditions</a>, weather patterns, and accessibility.</p>
+
+<p><b>Example:</b></p>
+
+<ul>
+<li><a href="/trek/buran-ghati-trek">Buran Ghati Pass</a> in early summer (May–June) involves heavy snow sections and steep descents that may require technical support.</li>
+<li>The same trek in autumn (September–October) is mostly snow-free, making it significantly more manageable.</li>
+</ul>
+
+<p>Similarly:</p>
+
+<ul>
+<li>High pass treks like <a href="/trek/pin-bhaba-pass-trek">Pin Bhaba Pass</a> or <a href="/trek/rupin-pass-trek">Rupin Pass</a> become far more demanding in early season snow conditions.</li>
+</ul>
+
+<p><b>What this means:</b> A trek rated “moderate” in autumn can feel like a “difficult” or even “technical” trek in early summer.</p>
+
+<blockquote>💡 Tip: Always evaluate a trek based on <b>season + terrain</b>, not just its name or popularity.</blockquote>
+
+<br>
+
+<h3 style="color:#ff7300">👥 <strong>Choosing Based on Who You’re Trekking With</strong></h3>
+
+<p>Trek selection is not about labels like “solo”, “female”, “family”, or “elderly” — it is about the <b>combined experience, fitness, and decision-making ability of the group</b>.</p>
+
+<p>A common mistake is oversimplifying trek choices based on who you are, rather than how prepared you are. In the Himalayas, the mountain does not differentiate — it responds only to your capability and awareness.</p>
+
+<p><b>🧍 Solo Trekkers:</b><br>
+If you have prior trekking experience, strong navigation skills, and an understanding of <a href="https://en.wikipedia.org/wiki/Risk_management" target="_blank">risk management</a>, you can choose routes across difficulty levels — from beginner trails like <a href="/trek/kedarkantha-trek">Kedarkantha</a> to more demanding routes like <a href="/trek/mayali-pass-trek">Mayali Pass</a> or even remote expeditions.</p>
+
+<p>However, if you are new to trekking, or even if you're experienced, joining an organized group is not a limitation — it is a strategic choice for safety, logistics, and learning.</p>
+
+<p><b>👩 Solo Female Trekkers:</b><br>
+The decision framework remains exactly the same — experience, terrain understanding, and preparedness. An experienced trekker can confidently attempt demanding routes.</p>
+
+<p>The only added layer to consider is logistical reliability — route familiarity, support systems, and exit options — not a restriction on difficulty.</p>
+
+<p><b>👨‍👩‍👧 Families & Groups:</b><br>
+The key factor here is <b>the least experienced member</b>.</p>
+
+<ul>
+<li>If the group includes children or first-time trekkers, choose shorter, well-supported, and lower-altitude routes.</li>
+<li>If all members are experienced and physically prepared, there is no reason to limit the group — moderate treks like <a href="/trek/gaumukh-tapovan-trek">Gaumukh Tapovan</a> or even more demanding routes can be planned.</li>
 </ul>
 <br>
-<p>Moderately Fit? - Try longer treks with mixed terrain.</p>
+<p><b>👴 Elderly Trekkers:</b><br>
+Age alone is not a limitation — conditioning, acclimatization capacity, and prior experience matter far more.</p>
+
+<p>An active and experienced trekker can comfortably attempt moderate Himalayan treks, provided the pace, acclimatization, and recovery are managed well.</p>
+
+<p>What matters is not “how old” — but <b>how adapted your body is to sustained effort and altitude</b>.</p>
+
+<br>
+
+<p><b>The Real Rule:</b></p>
+
+<p>Trek selection in a group is always dictated by:</p>
+
 <ul>
-<li>✅ Examples: Phulara Ridge (unique ridge walk), Har Ki Dun (valley & mountain views), Goechala (Sikkim, higher altitude challenge)</li>
+<li>The least experienced member</li>
+<li>The group’s ability to adapt to changing conditions</li>
+<li>Shared decision-making under pressure</li>
 </ul>
+
+<blockquote>💡 In the mountains, strength is individual — but safety is collective.</blockquote>
+
 <br>
-<p>Experienced Trekker? - Take on high passes and alpine crossings.</p>
+
+<h3 style="color:#ff7300">🧳 <strong>Logistics: The Hidden Factor in Trek Selection</strong></h3>
+
+<p>Many trekkers focus only on the trail — but logistics can make or break your experience.</p>
+
+<p>Before choosing a trek, consider:</p>
+
 <ul>
-<li>✅ Examples: Rupin Pass (thrilling crossover, varied terrain), Buran Ghati (rappelling down snow walls), Bali Pass (remote, high-altitude, glacier walk)</li>
+<li>How to reach the base village (long drives vs easy access)</li>
+<li>Availability of transport and buffer days</li>
+<li>Network connectivity and emergency evacuation options</li>
 </ul>
+
+<p>For example, treks starting from remote regions like Kinnaur or Spiti involve longer travel times and require better planning compared to Uttarakhand treks.</p>
+
+<p>For first-time trekkers, choosing a trek with simpler logistics reduces stress and allows you to focus on the experience.</p>
+
 <br>
-<h3 style="color:#ff7300">🕒 2. Consider the Best Time to Go</h3>
-<p>Each trek shines in a specific season:</p>
+
+<h3 style="color:#ff7300">🎒 <strong>Gear & Investment: What Beginners Should Know</strong></h3>
+
+<p>Choosing a trek also impacts how much you need to invest in gear.</p>
+
+<p>A beginner-friendly trek in summer may require minimal equipment, while a winter trek demands:</p>
+
 <ul>
-<li>Winter (Dec–Feb) - Kedarkantha, Dayara Bugyal, Chopta</li>
-<li>Spring (Mar–May) - Har Ki Dun, Phulara Ridge, Goechala</li>
-<li>Monsoon (Jul–Aug) - Valley of Flowers, Tarsar Marsar</li>
-<li>Autumn (Sep–Nov) - Buran Ghati, Rupin Pass, Bali Pass</li>
+<li>Thermal layers</li>
+<li>Insulated jackets</li>
+<li>Better footwear</li>
 </ul>
-<blockquote>✅ Tip: Autumn offers the clearest mountain views!</blockquote>
+
+<p>If you're just starting, avoid over-investing initially. Focus on essentials and build your gear gradually.</p>
+
+<p><strong>👉 Not sure how to prepare? <a href="/blogs/get-prepared-for-a-trek">Read our complete trek preparation guide</a>.</strong></p>
+
 <br>
-<h3 style="color:#ff7300">🎯 3. What Kind of Experience Do You Want?</h3>
+
+<h3 style="color:#ff7300">🏔️ <strong>The Planethimalayas Way</strong></h3>
+
+<p>There is no “perfect trek” — only the right trek for where you are right now.</p>
+
+<p>At Planethimalayas, we believe trekking is a journey of progression. You don’t jump levels — you build experience step by step.</p>
+
+<p>Start with routes that teach you how your body reacts to altitude, how weather behaves, and how to move efficiently in the mountains.</p>
+
+<p>The goal is not just to complete a trek — it is to come back stronger, wiser, and ready for the next challenge.</p>
+
+<br>
+
+<h3 style="color:#ff7300">📞 <strong>Still Confused?</strong></h3>
+
+<p>Explore our <strong><a href="/upcoming-treks/">Upcoming Treks</a></strong> or <strong><a href="/contact/">contact us</a></strong> — we’ll help you choose the right trek based on your fitness, goals, and season.</p>
+
+<br>
+
+<h3 style="color:#ff7300">❓ <strong>FAQs – Choosing the Right Himalayan Trek</strong></h3>
+
 <ul>
-<li>Snow Adventure? – Kedarkantha or Brahmatal</li>
-<li>Flowers & Forests? – Dayara Bugyal or Valley of Flowers</li>
-<li>Ridge Walks & Meadows? – Phulara Ridge or Pushtara Bugyal</li>
-<li>Mythological Routes? – Har Ki Dun or Gaumukh Tapovan</li>
-<li>Remote & Rugged? – Buran Ghati, Bali Pass, Rupin Pass</li>
+<li><b>Can a beginner do a moderate Himalayan trek?</b><br>Yes, if you are physically fit and choose the right season and trail conditions. Avoid technical or high-risk terrain initially.</li>
+
+<li><b>How does season affect trek difficulty?</b><br>Snow, weather, and trail conditions can significantly change difficulty. A moderate trek in autumn can become much harder in early summer due to snow.</li>
+
+<li><b>What is the biggest mistake while choosing a trek?</b><br>Ignoring altitude, terrain, and personal readiness, and choosing based only on popularity.</li>
+
+<li><b>Should I prioritize fitness or experience?</b><br>Both matter. Fitness helps performance, but experience helps decision-making and safety.</li>
+
+<li><b>How do I know which trek is right for me?</b><br>Assess your fitness, experience, preferred terrain, and season — and start slightly below your perceived capacity to build confidence safely.</li>
 </ul>
-<br>
-<h3 style="color:#ff7300">🧍‍♂️ 4. Solo, Family, or Group Trek?</h3>
-<ul>
-<li>Solo beginner? Go with a guided group trek — safe and fun</li>
-<li>Family with kids? Try Chopta, Dayara, or Kedarkantha (10+ age)</li>
-<li>Friends looking for a challenge? Opt for crossovers like Rupin or Buran Ghati</li>
-</ul>
-<br>
-<h3 style="color:#ff7300">🧳 5. Ready for High Altitude?</h3>
-<p>Trekking above 12,000 ft? Be sure you’re prepared for thinner air. Train well, acclimatize, and start with mid-altitude treks first if you’re unsure.</p>
-<br>
-<h3 style="color:#ff7300">🎒 Not Sure What to Choose?</h3>
-<ul>
-<li>✅ <strong><a href='https://www.planethimalayas.com/contact' target='_blank' rel='noopener noreferrer'>Contact Us</a></strong>.</li>
-<li>✅ We’ll suggest the best options based on fitness, interest, and season</li>
-</ul>
-<br>
-<h3 style="color:#ff7300">✨ Final Note: The “Perfect” Trek Is the One That Fits You</h3>
-<p>There’s no one-size-fits-all trek. Pick one that matches your ability, excites your spirit, and respects your limits — and it’ll be the perfect journey.</p>
 `,
 },
 
@@ -3869,6 +4003,425 @@ Comfort reduces stress and improves decision-making.</p>
 <li><b>Should I carry one or two poles?</b><br>Two poles are always better for balance and efficiency.</li>
 </ul>
 `,
-}
+},
+
+{
+  title: "Best Summer Treks in the Himalayas (May–June): Snow, High Passes & Endless Days",
+  slug: "summer-treks-himalayas-may-june",
+  date: "2025-09-25",
+  category: "Trek Guides",
+  author: {
+  name: "Planethimalayas",
+  thumbnail: "/images/main/brand-logo.png",
+  designation: "Trekking & Exploration Team",
+  bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+  socials: {
+    linkedin: "https://linkedin.com/company/planethimalayas"
+  }
+},
+  tags: [
+  "summer treks Himalayas May June",
+  "best Himalayan treks summer India",
+  "high altitude treks India May June",
+  "snow trekking India summer",
+  "beginner treks Himalayas summer",
+  "trekking season May June India",
+  "Himalayan trekking guide summer",
+  "Planethimalayas summer treks",
+  "alpine meadows treks India",
+  "glacier treks Himachal Uttarakhand"
+],
+  description: "Discover the best summer treks in the Himalayas (May–June), from snow-covered trails to lush alpine meadows. Explore beginner-friendly treks with detailed insights and prepare for the ultimate trekking season.",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007797/mayali-pass1_kdewjf.jpg",
+  content: `
+
+<p>The summer is here again — and this is the season trekkers quietly wait for.</p>
+
+<p>Summer in the Himalayas doesn’t arrive quietly — it unfolds through movement.</p>
+
+<p>High trails that stayed untouched for months begin to see life again. Shepherds move upward with their flocks, following routes that have existed long before trekking became a thing. Campsites that lay buried under snow slowly reappear. The mountains don’t “change season” — they start functioning again.</p>
+
+<p>By mid-May, the lower and mid-altitude regions are fully accessible, but higher up, the story is very different. Snow hasn’t disappeared — it has just started losing its hold. Southern slopes clear out faster under longer sunlight, while northern faces continue to store snow, sometimes well into late summer. This uneven melt is what makes the terrain unpredictable and exciting at the same time.</p>
+
+<p>And this is where summer trekking becomes real.</p>
+
+<p>Early in the season, especially till June, you are not avoiding snow — you are constantly dealing with it. Long snowfields, softening surfaces under the sun, and steep sections that demand careful footing become part of the trail. It’s not extreme, but it’s far from casual.</p>
+
+<p>At the same time, just a few hundred meters below, the landscape transforms completely.</p>
+
+<p>Meadows that stayed buried since winter suddenly open up — not gradually, but in full force. Fresh grass pushes through, and within weeks, these bugyals turn into wide, green expanses dotted with blooming <a href="https://en.wikipedia.org/wiki/Alpine_plant" target="_blank">alpine flowers</a>. The contrast is sharp — snow above, life below.</p>
+
+<p>Rivers run louder with fresh meltwater, daylight stretches longer, and the days feel built for covering distance. This is the season where routes extend further, passes begin to open, and the mountains expect you to keep moving.</p>
+
+<p>Summer here is not soft or relaxed — it’s active, raw, and deeply engaging.</p>
+
+<p>And once you experience it, you don’t just remember the views — you remember the movement.</p>
+<br>
+
+<p>But summer is not just for high passes and experienced trekkers.</p>
+
+<p>It also opens up a wide range of beginner-friendly treks, especially in Himachal and parts of Uttarakhand. Due to geographical orientation, regions like Himachal, Spiti, and Ladakh hold snow longer, delaying accessibility. This creates a staggered trekking calendar — where different regions open up at different times.</p>
+
+<p>The result? More options. More diversity. More opportunities for every kind of trekker.</p>
+
+<p>However, one thing remains constant:</p>
+
+<blockquote>💡 The Himalayas are for everyone — but the experience depends entirely on the choices you make.</blockquote>
+
+<p><strong>👉 If you're unsure how to choose the right trek, read our <a href="/blogs/choose-right-himalayan-trek">complete guide on trek selection</a>.</strong></p>
+
+<br>
+
+<h3 style="color:#ff7300">📊 <strong>How This Guide is Structured</strong></h3>
+
+<p>To help you choose wisely, we’ve categorized summer treks based on difficulty:</p>
+
+<ul>
+<li>🟢 Beginner Treks (Start here if you're new or building experience)</li>
+<li>🟡 Moderate Treks (Coming next)</li>
+<li>🔴 Difficult Treks (Coming next)</li>
+</ul>
+
+<p>Let’s begin with beginner-friendly treks that offer the perfect introduction to Himalayan summer conditions.</p>
+
+<br>
+
+<h3 style="color:#ff7300">🟢 <strong>Beginner Summer Treks (May–June)</strong></h3>
+
+<p>These treks are ideal for first-timers, families, or anyone looking to experience the Himalayas without technical challenges — while still enjoying snow patches, meadows, and mountain views.</p>
+
+<br>
+
+<!-- TREK CARDS START -->
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774363582/beas-kund-trek_gea1bt.jpg" alt="Beas Kund Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/beas-kund-trek">Beas Kund Trek</a></strong></h4>
+    <p><b>⏳ 2N/3D | ⚡ Easy | 🏔️ 12,200 ft | 📍 Manali</b></p>
+    <p>Beas Kund is one of the most accessible high-altitude experiences in the Himalayas. Starting from Solang Valley, this trek introduces you to glacier landscapes, moraine fields, and the origin point of the Beas River. In early summer, lingering snow patches make the trail more exciting without being overwhelming — a perfect balance for beginners.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774353588/brighu-lake_jgspnx.jpg" alt="Bhrigu Lake Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/bhrigu-lake-trek">Bhrigu Lake Trek</a></strong></h4>
+    <p><b>⏳ 3N/4D | ⚡ Easy–Moderate | 🏔️ 13,850 ft | 📍 Manali</b></p>
+    <p>What makes Bhrigu unique is how quickly it takes you to high altitude. Within a short duration, you transition from forest lines to vast open meadows. In May–June, snow patches near the lake add a raw alpine feel, while the surrounding grasslands begin turning green — offering a rare seasonal contrast.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755517462/ali-bedni-hero1_irkwxk.jpg" alt="Ali Bedni Bugyal Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/ali-bedni-bugyal-trek">Ali Bedni Bugyal Trek</a></strong></h4>
+    <p><b>⏳ 4N/5D | ⚡ Easy | 🏔️ 12,500 ft | 📍 Uttarakhand</b></p>
+    <p>Often called the most beautiful meadows in India, Ali and Bedni Bugyal come alive in early summer. Snow melts gradually, revealing endless rolling grasslands with views of Mt. Trishul and Nanda Ghunti. This trek is less about difficulty and more about immersion — walking through vast landscapes that shift every hour.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774523929/ranthan-kharak_lqemoj.jpg" alt="Ranthan Kharak Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/ranthan-kharak-trek">Ranthan Kharak Trek</a></strong></h4>
+    <p><b>⏳ 6N/7D | ⚡ Easy–Moderate | 🏔️ ~12,140 ft | 📍 Kumaon</b></p>
+    <p>A quieter alternative to popular meadow treks, Ranthan Kharak offers deep forest trails, remote campsites, and expansive bugyals. In summer, the trail feels alive yet untouched — ideal for those who want solitude without extreme difficulty.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535324/phulara-ridge-hero_i6vu6r.jpg" alt="Phulara Ridge Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/phulara-ridge-trek">Phulara Ridge Trek</a></strong></h4>
+    <p><b>⏳ 5N/6D | ⚡ Easy–Moderate | 🏔️ 12,150 ft | 📍 Sankri</b></p>
+    <p>Phulara Ridge is less about destination and more about the journey. Walking along a continuous ridge with panoramic Himalayan views is a rare experience. In May–June, clear skies and stable weather make this one of the most visually rewarding beginner-friendly treks.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg" alt="Har Ki Dun Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/har-ki-dun-trek">Har Ki Dun Trek</a></strong></h4>
+    <p><b>⏳ 6N/7D | ⚡ Easy | 🏔️ 11,200 ft | 📍 Sankri</b></p>
+    <p>Har Ki Dun is not just a trek — it’s a journey through time. Ancient villages, river valleys, and gradual ascents make it one of the most beginner-friendly long treks. In summer, the valley turns lush, while higher ridges still hold traces of snow.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg" alt="Kuari Pass Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/kuari-pass-trek">Kuari Pass Trek</a></strong></h4>
+    <p><b>⏳ 5N/6D | ⚡ Easy–Moderate | 🏔️ 12,516 ft | 📍 Joshimath</b></p>
+    <p>Known for its grand mountain views, Kuari Pass offers one of the best Himalayan panoramas. In early summer, snow patches may still be present near the pass, adding a slight challenge while keeping the trek accessible.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/gulabi-kantha-trek-hero_xz4rxq.webp" alt="Gulabi Kantha Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/gulabi-kantha-trek">Gulabi Kantha Trek</a></strong></h4>
+    <p><b>⏳ 4N/5D | ⚡ Easy | 🏔️ 13,200 ft | 📍 Uttarkashi</b></p>
+    <p>A lesser-known summit trek, Gulabi Kantha offers 360° views of major Himalayan peaks. In summer, the mix of forest trails, open ridges, and residual snow makes it a complete experience without any technical difficulty.</p>
+  </div>
+</div>
+
+<br>
+
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774613306/Darwa_top_trek_ebfrql.png" alt="Dodital Darwa Top Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/dodital-darwa-top-trek">Dodital Darwa Top Trek</a></strong></h4>
+    <p><b>⏳ 4N/5D | ⚡ Easy–Moderate | 🏔️ 13,000 ft | 📍 Uttarakhand</b></p>
+    <p>Combining forest trails, a sacred lake, and a rewarding summit climb, this trek offers variety in a short span. In May–June, the route transitions beautifully from dense woods to open high-altitude views.</p>
+  </div>
+</div>
+
+<!-- TREK CARDS END -->
+
+<br>
+
+<p>These beginner treks are not “easy” in the casual sense — they are carefully balanced experiences that introduce you to altitude, terrain, and changing weather without overwhelming you.</p>
+
+<p>They are where most strong trekking journeys begin.</p>
+
+<br>
+
+<h3 style="color:#ff7300">🟡 Intermediate Treks (Moderate to Challenging)</h3>
+
+<p>If beginner treks introduce you to the Himalayas, intermediate treks start demanding something back from you.</p>
+
+<p>This is where altitude begins to feel real, terrain becomes unpredictable, and the margin for error reduces. You’re no longer just walking through landscapes — you are navigating them.</p>
+
+<p>Summer (May–June) makes this category especially dynamic. Snow conditions, exposed sections, and high-altitude terrain combine to create journeys that are not extreme, but definitely not forgiving either. The same trail can feel very different depending on timing, snow presence, and your own preparedness.</p>
+
+<p>If you’ve built a solid base — physically and mentally — this is where trekking starts becoming deeply rewarding.</p>
+
+<br>
+
+<!-- GAUMUKH TAPOVAN -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/gaumukh-tapovan-trek">Gaumukh Tapovan Trek</a></strong>
+    </h4>
+    <p><b>⏳ 6N/7D | ⚡ Moderate–Difficult | 🏔️ 14,600 ft | 📍 Gangotri</b></p>
+    <p>This trek takes you into the heart of the <a href="https://en.wikipedia.org/wiki/Gangotri_Glacier" target="_blank">Gangotri Glacier</a> system — one of the most significant glacial landscapes in India. The trail moves from forested paths to moraine zones and eventually into the vast high-altitude meadows of Tapovan.</p>
+    <p>In early summer, glacier crossings and loose terrain demand careful movement. The reward is unmatched proximity to peaks like Shivling and the Bhagirathi group — this is where the Himalayas stop feeling distant.</p>
+  </div>
+</div>
+
+<!-- KEDARTAL -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765889788/kedartal-hero_mexhsu.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/kedartal-trek">Kedartal Trek</a></strong>
+    </h4>
+    <p><b>⏳ 6N/7D | ⚡ Moderate-Difficult | 🏔️ 4,750 m | 📍 Gangotri</b></p>
+    <p>Kedartal is not just a trek — it’s a raw alpine climb into one of the most dramatic glacial basins in the Himalayas. The trail is steep, exposed, and often unstable.</p>
+    <p>Summer conditions here still involve snow sections and tricky traverses. With towering peaks like Thalay Sagar rising directly above, this trek feels closer to an expedition than a regular trek.</p>
+  </div>
+</div>
+
+<!-- SATOPANTH -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766239294/satopanth_lake_qicjen.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/satopanth-lake-trek">Satopanth Lake Trek</a></strong>
+    </h4>
+    <p><b>⏳ 5N/6D | ⚡ Moderate | 🏔️ 15,100 ft | 📍 Mana</b></p>
+    <p>Satopanth is where mythology meets terrain. The trail follows the Alaknanda valley beyond civilization into glacial landscapes tied to the <a href="https://en.wikipedia.org/wiki/Pandava" target="_blank">Pandavas</a>.</p>
+    <p>In summer, snow patches and river crossings remain active challenges. The approach is gradual, but altitude and exposure make it a serious high-altitude experience.</p>
+  </div>
+</div>
+
+<!-- KALIHANI PASS -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774426458/Kalihani_pass_hvxung.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/kalihani-pass-trek">Kalihani Pass Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Moderate–Difficult | 🏔️ 15,850 ft | 📍 Manali</b></p>
+    <p>An offbeat high-pass route connecting remote valleys, Kalihani brings together glaciers, meadows, and rugged terrain in one journey.</p>
+    <p>Early summer crossings can involve snowfields and tricky navigation. This trek demands consistency over multiple days rather than a single push.</p>
+  </div>
+</div>
+
+<!-- BURAN GHATI -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762007239/buran-ghati-view21_p8onot.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/buran-ghati-pass-trek">Buran Ghati Trek</a></strong>
+    </h4>
+    <p><b>⏳ 6N/7D | ⚡ Moderate–Difficult | 🏔️ 15,000+ ft | 📍 Himachal</b></p>
+    <p>One of the most diverse crossover treks — forests, meadows, and finally a dramatic high pass.</p>
+    <p>In May–June, the famous snow wall descent becomes the defining challenge. It’s not technical, but it demands confidence and control.</p>
+  </div>
+</div>
+
+<!-- NANDA DEVI EAST BASE CAMP -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/nanda-devi-east-base-camp-trek">Nanda Devi East Base Camp</a></strong>
+    </h4>
+    <p><b>⏳ 8N/9D | ⚡ Moderate–Difficult | 🏔️ ~4,700 m | 📍 Munsiyari</b></p>
+    <p>This is a long, immersive journey into the Kumaon Himalayas, moving through remote villages, river valleys, and glacial terrain.</p>
+    <p>It’s less about a single challenge and more about sustained endurance — distance, isolation, and altitude all come into play.</p>
+  </div>
+</div>
+
+<!-- PINDARI KAFNI -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1765550196/pindari-glacier-hero_c9eres.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/pindari-kafni-glacier-trek">Pindari & Kafni Glacier Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Moderate | 🏔️ ~3,850 m | 📍 Kumaon</b></p>
+    <p>A classic Himalayan route that combines accessibility with depth. The trail follows river valleys, forests, and gradually opens into glacial zones.</p>
+    <p>In summer, snow bridges and active streams make the terrain engaging without being overwhelming — ideal for stepping into longer expeditions.</p>
+  </div>
+</div>
+
+<br>
+
+<h3 style="color:#ff7300">🔴 <strong>Pro / Difficult Treks (May–June)</strong></h3>
+
+<p>These are not treks you “try” — these are routes you prepare for.</p>
+
+<p>In early summer, high passes are still loaded with snow, glacier sections remain active, and weather windows become critical. The difficulty here is not defined just by distance or altitude, but by terrain — steep snow climbs, exposed traverses, long summit pushes, and constantly changing conditions.</p>
+
+<p>If you understand the mountains, this is the season where they show their raw side. If you don’t — they will teach you the hard way.</p>
+
+<br>
+
+<!-- TREK CARDS START -->
+
+<!-- RUPIN PASS -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535222/rupin-pass-hero_u3itsr.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/rupin-pass-trek">Rupin Pass Trek</a></strong>
+    </h4>
+    <p><b>⏳ 6N/7D | ⚡ Difficult | 🏔️ 15,250 ft | 📍 Himachal</b></p>
+    <p>Rupin isn’t just a trek — it’s constant change. Hanging villages, dense forests, roaring waterfalls, snow bridges — every day feels like a different route altogether.</p>
+    <p>The final push to the pass through a steep snow gully is where it all comes together — raw effort, exposure, and that unmatched crossover feeling into a completely new valley.</p>
+  </div>
+</div>
+
+<!-- NANDANVAN VASUKITAL -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766321981/vasukital-trek-hero_xealyu.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/nandanvan-vasukital-trek">Nandanvan Vasukital Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Difficult | 🏔️ 16,200 ft | 📍 Gangotri</b></p>
+    <p>This is where you don’t just see peaks — you stand among them. Walking along the Gangotri glacier, surrounded by Shivling, Bhagirathi, and Meru, feels like stepping into the core of the Himalayas.</p>
+    <p>It’s harsh, exposed, and incredibly rewarding — a trek that strips things down to raw altitude, scale, and silence.</p>
+  </div>
+</div>
+
+<!-- BALI PASS -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1760852516/bali-pass-hero1_cqa2bg.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/bali-pass-trek">Bali Pass Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Difficult | 🏔️ 16,207 ft | 📍 Uttarakhand</b></p>
+    <p>Bali Pass is wild from start to finish — remote valleys, technical sections, and a brutal summit day that demands both endurance and control.</p>
+    <p>Crossing over from Har Ki Dun to Yamunotri, this is one of those treks where the terrain constantly tests you — and that’s exactly why it stays with you.</p>
+  </div>
+</div>
+
+<!-- BORASU PASS -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/borasu-pass-trek">Borasu Pass Trek</a></strong>
+    </h4>
+    <p><b>⏳ 8N/9D | ⚡ Difficult | 🏔️ 17,880 ft | 📍 Uttarakhand–Himachal</b></p>
+    <p>Long, remote, and demanding — Borasu is a true expedition-style crossover. Forests fade into glaciers, and trails slowly disappear into raw terrain.</p>
+    <p>This isn’t about ticking a trek — it’s about committing to distance, isolation, and one of the most serious high passes in the Indian Himalayas.</p>
+  </div>
+</div>
+
+<!-- MAYALI PASS -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/mayali-pass_z6rs1i.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/mayali-pass-trek">Mayali Pass Trek</a></strong>
+    </h4>
+    <p><b>⏳ 9N/10D | ⚡ Difficult | 🏔️ 17,400 ft | 📍 Uttarakhand</b></p>
+    <p>Mayali is not just difficult — it’s relentless. Long approach, high-altitude lakes, glacier travel, and a pass that demands perfect timing and strong decision-making.</p>
+    <p>It connects remote valleys few people ever see, making it one of the most complete and serious Himalayan journeys out there.</p>
+  </div>
+</div>
+
+<!-- ROOPKUND -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153698/IMG_20180522_073321_ih9icw.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/roopkund-trek">Roopkund Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Difficult | 🏔️ 15,750 ft | 📍 Uttarakhand</b></p>
+    <p>Beyond the mystery, Roopkund is about the journey through changing landscapes — forests, meadows, ridgelines, and finally a stark, high-altitude basin.</p>
+    <p>The climb above Bedni Bugyal towards the lake is where the terrain turns serious, making it far more than just a “famous” trek.</p>
+  </div>
+</div>
+
+<!-- SUNDERDHUNGA -->
+<div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:18px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774642528/Sunderdhunga-valley4_saf4ow.jpg" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;">
+      <strong><a href="/trek/sunderdhunga-valley-trek">Sunderdhunga Valley Trek</a></strong>
+    </h4>
+    <p><b>⏳ 7N/8D | ⚡ Difficult | 🏔️ ~4,200 m | 📍 Kumaon</b></p>
+    <p>Raw, quiet, and far from the usual trails — Sunderdhunga lives up to its name but doesn’t reveal itself easily.</p>
+    <p>Loose terrain, river crossings, and remote camps make this a trek for those who seek the untouched side of the Himalayas rather than defined trails.</p>
+  </div>
+</div>
+
+<!-- TREK CARDS END -->
+
+<br>
+
+<h3 style="color:#ff7300">🏔️ <strong>The Planethimalayas Way</strong></h3>
+
+<p>Summer in the Himalayas is not just about accessibility — it’s about transition, adaptation, and progression.</p>
+
+<p>Start where you belong, understand how the mountains behave, and move forward step by step.</p>
+
+<p>Because in the end, the goal is not just to reach higher — but to grow stronger with every journey.</p>
+
+`
+},
     
 ];
