@@ -1700,7 +1700,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   season: ["monsoon"],
   month: ["july", "august", "september", "october"],
   region: "himachal pradesh",
-  duration: "7 Nights / 8 Days",
+  duration: "7 Nights / 7 Days",
   coordinates: [
   [32.6785, 76.9143], // Udaipur (start)
   [32.7040, 76.9680], // Khanjar (last motorable village)
@@ -1731,7 +1731,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft" },
       { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
@@ -1771,14 +1771,15 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "04 Jul - 11 Jul", start: "2026-07-04", end: "2026-07-11" },
-  { label: "18 Jul - 25 Jul", start: "2026-07-18", end: "2026-07-25" },
-  { label: "01 Aug - 08 Aug", start: "2026-08-01", end: "2026-08-08" },
-  { label: "15 Aug - 22 Aug", start: "2026-08-15", end: "2026-08-22" },
-  { label: "29 Aug - 05 Sep", start: "2026-08-29", end: "2026-09-05" },
-  { label: "12 Sep - 19 Sep", start: "2026-09-12", end: "2026-09-19" },
-  { label: "26 Sep - 03 Oct", start: "2026-09-26", end: "2026-10-03" },
-  { label: "10 Oct - 17 Oct", start: "2026-10-10", end: "2026-10-17" },
+  { label: "20 Jun - 26 Jun", start: "2026-06-20", end: "2026-06-26" },
+  { label: "04 Jul - 10 Jul", start: "2026-07-04", end: "2026-07-10" },
+  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
+  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
+  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
+  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
 ],
 
   highlights: [
@@ -4532,13 +4533,58 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     month: ["january", "february", "march", "april", "may", "september", "october", "november", "december"],
     duration: ["5 Nights / 6 Days"],
     region: "uttarakhand-garhwal",
-    coordinates: [
-    [30.5416, 79.1801], // Sari Village (start)
-    [30.5519, 79.1886], // Deoriatal
-    [30.5489, 79.2100], // Chopta
-    [30.5278, 79.2236], // Tungnath
-    [30.5411, 79.2253], // Chandrashila Summit (end)
+   coordinates: [
+    [30.518539478517972, 79.13488463238487], // Sari Village (start)
+    [30.522244134287703, 79.12636282685688], // Deoriatal
+	[30.52714840543045, 79.14198976159648], //jhandi top
+	[30.508490563774714, 79.17515346565301], //Shyalmi Bugyal
+[30.482780469867528, 79.19648345981216], // Baniyakund
+[30.485130126424547, 79.20025609007102], // trail start
+[30.486265504179467, 79.20127659442127], //checkpost
+[30.491838890865125, 79.20569781004951], //trail
+[30.48910942454698, 79.21673528393474], //temple
+[30.48648825803679, 79.22130164541434], //chandrashilla
+[30.48910942454698, 79.21673528393474], //temple
+[30.491838890865125, 79.20569781004951], //trail
+[30.486265504179467, 79.20127659442127], //checkpost
+[30.485130126424547, 79.20025609007102], // trail start
+[30.482780469867528, 79.19648345981216], // Baniyakund
+[30.518539478517972, 79.13488463238487], // Sari Village (start)
   ],
+  waypoints: [
+  { name: "Sari Village (Start)", coords: [30.518539478517972, 79.13488463238487], type: "start" },
+
+  { name: "Deoriatal", coords: [30.522244134287703, 79.12636282685688], type: "camp" },
+
+  { name: "Jhandi Top", coords: [30.52714840543045, 79.14198976159648], type: "landmark" },
+
+  { name: "Shyalmi Bugyal", coords: [30.508490563774714, 79.17515346565301], type: "camp" },
+
+  { name: "Baniyakund", coords: [30.482780469867528, 79.19648345981216], type: "camp" },
+
+  { name: "Chopta (Trail Start)", coords: [30.485130126424547, 79.20025609007102], type: "village" },
+
+  { name: "Forest Checkpost", coords: [30.486265504179467, 79.20127659442127], type: "landmark" },
+
+  { name: "Trail Section", coords: [30.491838890865125, 79.20569781004951], type: "landmark" },
+
+  { name: "Tungnath Temple", coords: [30.48910942454698, 79.21673528393474], type: "landmark" },
+
+  { name: "Chandrashila Summit", coords: [30.48648825803679, 79.22130164541434], type: "pass" },
+
+  { name: "Tungnath Temple (Return)", coords: [30.48910942454698, 79.21673528393474], type: "landmark" },
+
+  { name: "Trail Section (Return)", coords: [30.491838890865125, 79.20569781004951], type: "landmark" },
+
+  { name: "Forest Checkpost (Return)", coords: [30.486265504179467, 79.20127659442127], type: "landmark" },
+
+  { name: "Chopta", coords: [30.485130126424547, 79.20025609007102], type: "village" },
+
+  { name: "Baniyakund (Camp)", coords: [30.482780469867528, 79.19648345981216], type: "camp" },
+
+  { name: "Sari Village (End via Road)", coords: [30.518539478517972, 79.13488463238487], type: "end" },
+],
+
     heroImage:       "https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
 
     heroImages: ["https://res.cloudinary.com/dr44hob9b/image/upload/v1762329745/chandrashila-summit-view2_gr4dyd.jpg",
@@ -4968,21 +5014,21 @@ waypoints: [
     region: "uttarakhand-garhwal",
     duration: "7 Nights / 8 Days",
     coordinates: [
-  [30.99447921245088, 78.94120016097287], // Gangotri (start)
-	[30.99567146928345, 78.95433462631185], // Forest checkpost
+    [30.99447921245088, 78.94120016097287], // Gangotri (start)
+	  [30.99567146928345, 78.95433462631185], // Forest checkpost
     [30.981478031631735, 79.02142622315299], // Chirbasa
     [30.951229121919372, 79.05180882371724], // Bhojbasa
     [30.924542162892543, 79.08181644641526], // Gaumukh
     [30.908101351514, 79.0938812943831], // gangotri glacier
-	[30.905505296893455, 79.10260229743336], //Nandanvan
-	[30.90462398352816, 79.16451742239332], //Vasukital
-[30.905505296893455, 79.10260229743336], //Nandanvan
-[30.908101351514, 79.0938812943831], // gangotri glacier
-[30.924542162892543, 79.08181644641526], // Gaumukh
-[30.951229121919372, 79.05180882371724], // Bhojbasa
-[30.981478031631735, 79.02142622315299], // Chirbasa
-[30.99567146928345, 78.95433462631185], // Forest checkpost
-],
+	  [30.905505296893455, 79.10260229743336], //Nandanvan
+	  [30.90462398352816, 79.16451742239332], //Vasukital
+    [30.905505296893455, 79.10260229743336], //Nandanvan
+    [30.908101351514, 79.0938812943831], // gangotri glacier
+    [30.924542162892543, 79.08181644641526], // Gaumukh
+    [30.951229121919372, 79.05180882371724], // Bhojbasa
+    [30.981478031631735, 79.02142622315299], // Chirbasa
+    [30.99567146928345, 78.95433462631185], // Forest checkpost
+    ],
 
 waypoints: [
   { name: "Gangotri (Start/End)", coords: [30.99447921245088, 78.94120016097287], type: "start/end" },
@@ -4998,6 +5044,7 @@ waypoints: [
   { name: "Gangotri Glacier", coords: [30.908101351514, 79.0938812943831], type: "glacier" },
 	
   { name: "Nandanvan", coords: [30.905505296893455, 79.10260229743336], type: "camp" },
+
 	{ name: "Vasukital", coords: [30.90462398352816, 79.16451742239332], type: "lake" },
 
 ],
@@ -5024,7 +5071,7 @@ waypoints: [
         { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "16,200 ft (Vasukital)" },
         { emoji: "📏", label: "Trek Distance", value: "46–48 Km" },
-        { emoji: "🌤️", label: "Best Time", value: "June - July & September - october" },
+        { emoji: "🌤️", label: "Best Time", value: "May - June & September - october" },
         { emoji: "🗺️", label: "Region", value: "Gangotri National Park, Uttarakhand" },
         { emoji: "📍", label: "Start Point", value: "Gangotri" },
         { emoji: "🏁", label: "End Point", value: "Gangotri" },
@@ -6113,10 +6160,41 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   region: "uttarakhand-garhwal",
   duration: "5 Nights / 6 Days",
   coordinates: [
-    [30.5550, 79.5670],   // Joshimath
-    [30.7366, 79.4930],   // Mana
-    [30.7429, 79.4553]    // Satopanth Lake
+    [30.555900229875178, 79.56152990052166],   // Joshimath
+    [30.564177831998766, 79.57665301321799], // Vishnuprayag
+    [30.74516021234652, 79.49125979024181], //Badrinath
+    [30.77477247413341, 79.49483320232271],   // Mana
+    [30.780710441614218, 79.44882718854485],
+    [30.778359861993135, 79.42240084526634],
+    [30.744925712997492, 79.35771552836779], //Satopanth Lake
+    [30.778359861993135, 79.42240084526634],
+    [30.780710441614218, 79.44882718854485],
+    [30.77477247413341, 79.49483320232271],   // Mana
+    [30.74516021234652, 79.49125979024181], // Badrinath
   ],
+  waypoints: [
+  { name: "Joshimath (Start)", coords: [30.555900229875178, 79.56152990052166], type: "start" },
+
+  { name: "Vishnuprayag", coords: [30.564177831998766, 79.57665301321799], type: "landmark" },
+
+  { name: "Badrinath", coords: [30.74516021234652, 79.49125979024181], type: "village" },
+
+  { name: "Mana Village", coords: [30.77477247413341, 79.49483320232271], type: "village" },
+
+  { name: "Lakshmi Van", coords: [30.780710441614218, 79.44882718854485], type: "camp" },
+
+  { name: "Chakra Tirtha", coords: [30.778359861993135, 79.42240084526634], type: "camp" },
+
+  { name: "Satopanth Lake", coords: [30.744925712997492, 79.35771552836779], type: "lake" },
+
+  { name: "Chakra Tirtha (Return)", coords: [30.778359861993135, 79.42240084526634], type: "camp" },
+
+  { name: "Lakshmi Van (Return)", coords: [30.780710441614218, 79.44882718854485], type: "camp" },
+
+  { name: "Mana Village", coords: [30.77477247413341, 79.49483320232271], type: "village" },
+
+  { name: "Badrinath", coords: [30.74516021234652, 79.49125979024181], type: "village" },
+],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766239294/satopanth_lake_qicjen.jpg",
 
@@ -7812,37 +7890,38 @@ waypoints: [
   region: ["uttarakhand-garhwal", "himachal pradesh"],
   duration: "8 Nights / 9 Days + 1 Buffer Day",
   coordinates: [
-  [31.0169, 78.2755], // Sankri (start)
+  [31.076842179088082, 78.18094815029286], // Sankri (start)
+  [31.07782980977555, 78.24583045641957],
+  [31.101693189608238, 78.30457039489822],
+  [31.105953162208394, 78.31311413160132],
+  [31.11403517971345, 78.33282520315987], // Chilur Gad
+  [31.115827529429342, 78.35501791158282], // Seema
+  [31.142611040635522, 78.41541027726903], // Boslo (before Har Ki Dun)
 
-  [31.0982, 78.3041], // Dhatmeer / Taluka roadhead
-  [31.1285, 78.3502], // Seema
-  [31.1506, 78.3668], // Boslo (before Har Ki Dun)
+  [31.15142959899147, 78.4290316153904], // Har Ki Dun valley
+  [31.166328697116754, 78.42848224351616], // Morinda Tal (Maninda Tal region)
 
-  [31.1654, 78.3729], // Har Ki Dun valley
-  [31.1889, 78.4105], // Morinda Tal (Maninda Tal region)
+  [31.18107268839257, 78.42901697350221],
+  [31.208516636040226, 78.44439726619362], // Lamjung (Borasu Base Camp)
 
-  [31.2057, 78.4528], // Saunbhera / Maninda valley campsite
-  [31.2284, 78.4821], // Upper Lamjung (Borasu Base Camp)
+  [31.232444555246236, 78.4650181069508], // Borasu Pass (≈ 5,450 m)
 
-  [31.2459, 78.5037], // Borasu Pass (≈ 5,450 m)
+  [31.23092791545953, 78.47588582314607], // Descend ridge / glacier exit point
+  [31.33656959313918, 78.5038029533663], // Rani Kanda campsite
 
-  [31.2686, 78.5259], // Descend ridge / glacier exit point
-  [31.2924, 78.5552], // Rani Kanda campsite
-
-  [31.3228, 78.4036], // Forest exit / bridge point
-  [31.3519, 78.4365], // Chitkul (end)
+  [31.34713030633671, 78.46593216202936], // Chitkul (end)
 ],
 
 waypoints: [
-  { name: "Sankri (Start)", coords: [31.0169, 78.2755], type: "start" },
-  { name: "Seema Village", coords: [31.1285, 78.3502], type: "village" },
-  { name: "Har Ki Dun Valley", coords: [31.1654, 78.3729], type: "valley" },
-  { name: "Morinda Tal", coords: [31.1889, 78.4105], type: "lake" },
-  { name: "Saunbhera Campsite", coords: [31.2057, 78.4528], type: "camp" },
-  { name: "Borasu Base Camp", coords: [31.2284, 78.4821], type: "camp" },
-  { name: "Borasu Pass (5,450 m)", coords: [31.2459, 78.5037], type: "pass" },
-  { name: "Rani Kanda Campsite", coords: [31.2924, 78.5552], type: "camp" },
-  { name: "Chitkul (End)", coords: [31.3519, 78.4365], type: "end" },
+  { name: "Sankri (Start)", coords: [31.076842179088082, 78.18094815029286], type: "start" },
+  { name: "Seema Village", coords: [31.115827529429342, 78.35501791158282], type: "village" },
+  { name: "Har Ki Dun Valley", coords: [31.15142959899147, 78.4290316153904], type: "valley" },
+  { name: "Morinda Tal", coords: [31.166328697116754, 78.42848224351616], type: "lake" },
+  { name: "Saunbhera Campsite", coords: [31.18107268839257, 78.42901697350221], type: "camp" },
+  { name: "Borasu Base Camp", coords: [31.208516636040226, 78.44439726619362], type: "camp" },
+  { name: "Borasu Pass (5,450 m)", coords: [31.232444555246236, 78.4650181069508], type: "pass" },
+  { name: "Rani Kanda Campsite", coords: [31.33656959313918, 78.5038029533663], type: "camp" },
+  { name: "Chitkul (End)", coords: [31.34713030633671, 78.46593216202936], type: "end" },
 ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1773905935/borasu-pass3_qy340b.jpg",
@@ -8153,43 +8232,39 @@ waypoints: [
   region: ["uttarakhand-garhwal"],
   duration: "9 Nights / 10 Days + 1 Buffer Day",
   coordinates: [
-  [30.6508, 78.6432], // Gangi (start - Bhilangana valley)
+  [30.63649916296951, 78.85122945107418], // Gangi (start - Bhilangana valley)
+    [30.678063978763493, 78.85251110661953], // meadow
+    [30.687463016557707, 78.854168608188], // meadow
+    [30.7108398218316, 78.87184371572546], //point
+  [30.740937340321985, 78.8958412324369], // Kalyani / Kharsoli meadow
+  [30.741130174343336, 78.89883796432484], // Kharsoli camp
+  [30.785803267958563, 78.95054980845264], // bhilangana range
 
-  [30.6729, 78.6625], // Kalyani / Kharsoli meadow
-  [30.6947, 78.6863], // Tambakund region (upper valley basin)
-  [30.7158, 78.7059], // Chowki campsite (Doodh Ganga valley)
+  [30.746849661631586, 78.98492523829906], // Masar Tal
+  [30.741858938970925, 79.00940365354316], // Mayali tal / glacier approach
 
-  [30.7364, 78.7312], // Masar Tal
-  [30.7589, 78.7556], // Masar Top / glacier approach
+  
+  [30.72620321309517, 79.03689250456448], // Vasuki Tal
+  [30.734875913254918, 79.06693043412336], // Kedarnath
 
-  [30.7798, 78.7813], // Mayali Pass (~5300m)
-
-  [30.8012, 78.8035], // Glacier descent (Mandakini side)
-  [30.8226, 78.8241], // Upper basin before Vasuki Tal
-
-  [30.8397, 78.8458], // Vasuki Tal
-  [30.8469, 78.8583], // Kedarnath
-
-  [30.8796, 78.8387], // Rambara (en route descent)
-  [30.9081, 78.8112], // Gaurikund (end)
+  [30.69787743271159, 79.05687507887654], // Rambara (en route descent)
+  [30.65520418321704, 79.02798744541037], // Gaurikund (end)
 ],
 
 waypoints: [
-  { name: "Gangi (Start)", coords: [30.6508, 78.6432], type: "start" },
+  { name: "Gangi (Start)", coords: [30.63649916296951, 78.85122945107418], type: "start" },
 
-  { name: "Kalyani Meadow", coords: [30.6729, 78.6625], type: "camp" },
+  { name: "Kalyani Meadow", coords: [30.741130174343336, 78.89883796432484], type: "camp" },
 
-  { name: "Chowki Campsite", coords: [30.7158, 78.7059], type: "camp" },
+  { name: "Masar Tal", coords: [30.746849661631586, 78.98492523829906], type: "lake" },
 
-  { name: "Masar Tal", coords: [30.7364, 78.7312], type: "lake" },
+  { name: "Mayali Pass (~5300m)", coords: [30.741858938970925, 79.00940365354316], type: "pass" },
 
-  { name: "Mayali Pass (~5300m)", coords: [30.7798, 78.7813], type: "pass" },
+  { name: "Vasuki Tal", coords: [30.72620321309517, 79.03689250456448], type: "lake" },
 
-  { name: "Vasuki Tal", coords: [30.8397, 78.8458], type: "lake" },
+  { name: "Kedarnath", coords: [30.734875913254918, 79.06693043412336], type: "camp" },
 
-  { name: "Kedarnath", coords: [30.8469, 78.8583], type: "camp" },
-
-  { name: "Gaurikund (End)", coords: [30.9081, 78.8112], type: "end" },
+  { name: "Gaurikund (End)", coords: [30.65520418321704, 79.02798744541037], type: "end" },
 ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774007795/mayali-pass_z6rs1i.jpg",
