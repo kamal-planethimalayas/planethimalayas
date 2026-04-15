@@ -5412,6 +5412,21 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
       { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
     ],
 
+    confirmedDepartures: [
+  {
+    date: "2026-05-24",
+    showOnHomepage: true,
+    seatsLeft: 5,
+    status: "confirmed"
+  },
+  {
+    date: "2026-06-06",
+    showOnHomepage: false,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
+],
+
   highlights: [
     "Sacred high-altitude Kedartal glacial lake at 4,750 m",
     "Close-up views of Thalay Sagar, Bhrigupanth, and Meru peaks",
