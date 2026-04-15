@@ -530,7 +530,295 @@ backdrop-filter: blur(15px);
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ===== CONFIRMED DEPARTURES (ALIGNED WITH TREK CARDS) ===== */
 
 
 
+.confirmed-section h2 span {
+  color: #ff7300;
+  border-bottom: 4px solid #ff7300;
+  padding-bottom: 2px;
+  display: inline-block;
+}
 
+.confirmed-section h2 {
+  font-size: 2.5rem;
+  font-family: 'Helvetica', sans-serif;
+  text-align: left;
+}
+
+.section-subtext {
+  margin-top: 10px;
+  color: #000;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+/* ================= WRAPPER ================= */
+.confirmed-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* ================= SCROLL CONTAINER ================= */
+.confirmed-cards {
+  display: flex;
+  flex-wrap: nowrap;          /* 🔥 CRITICAL FIX */
+  gap: 25px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  padding: 1rem 0 10px;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.confirmed-cards::-webkit-scrollbar {
+  display: none;
+}
+
+/* ================= CARDS ================= */
+
+/* Desktop → ~3.2 cards */
+.confirmed-card {
+  flex: 0 0 calc((100% - 50px) / 3.2);  /* 🔥 PERFECT 3.2 CARDS */
+  scroll-snap-align: start;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .confirmed-card {
+    flex: 0 0 45%;
+  }
+}
+
+/* Mobile → ~1.2 cards */
+@media (max-width: 768px) {
+  .confirmed-card {
+    flex: 0 0 85%;
+  }
+}
+
+/* ================= ARROWS ================= */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: #ff7300;
+  border: 2px solid #ff7300;
+  border-radius: 50%;
+
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+}
+
+.scroll-btn:hover {
+  background: #ff7300;
+  color: black;
+  box-shadow: 0 0 15px rgba(255, 115, 0, 0.7);
+}
+
+.scroll-btn.left {
+  left: -10px;
+}
+
+.scroll-btn.right {
+  right: -10px;
+}
+
+.scroll-btn.at-start,
+.scroll-btn.at-end {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow:
+    inset 0 2px 6px rgba(255,115,0,0.35),
+    0 4px 10px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none;
+  }
+}
+
+/* 🔥 MATCH TREK CARD DNA */
+.confirmed-card {
+  background: #121316;
+  border-radius: 10px;
+  border: 2px solid #ff7300;
+  overflow: hidden;
+  position: relative;
+
+  /* 3D + smooth transitions */
+  transform-style: preserve-3d;
+  transition: 
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    border 0.3s ease;
+  box-shadow:
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+}
+
+.confirmed-card:hover {
+  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
+
+  /* Directional premium glow */
+  box-shadow:
+    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
+    0 12px 24px rgba(0, 0, 0, 0.25),         /* stronger shadow below */
+    0 6px 20px rgba(255, 115, 0, 0.95),       /* main bottom glow */
+    0 12px 40px rgba(255, 115, 0, 0.35),     /* diffused bottom glow */
+    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+
+  z-index: 10;
+}
+
+/* 🔥 IMAGE FIX (THIS IS KEY) */
+.confirmed-image {
+  position: relative;
+  height: 180px; /* reduced */
+  overflow: hidden;
+}
+
+/* force proper image behavior */
+.confirmed-image {
+  background-size: cover;
+  background-position: center;
+  /* Smooth cinematic zoom */
+  transform: scale(1);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* subtle zoom like trek cards */
+.confirmed-card:hover .confirmed-image {
+  transform: scale(1.04);
+}
+
+.confirmed-image .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.85));
+}
+
+/* badges refined */
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ff7300;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000;
+  border: 2px solid rgba(0,0,0,0.75);
+  backdrop-filter: blur(3px);
+}
+
+.date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.seats-warning {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.9rem;
+  color: #ff7300;
+}
+
+/* content */
+.confirmed-content {
+  padding: 14px;
+  text-align: center;
+}
+
+.confirmed-content h3 {
+  font-size: 1.3rem;
+  color: #ff7300;
+  margin-bottom: 6px;
+}
+
+/* meta aligned like trek-info */
+.meta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+/* buttons reuse same feel */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.actions .btn {
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  border: 2px solid #ff7300;
+  color: #ff7300;
+
+  /* glass base */
+  background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 6px 14px rgba(0,0,0,0.35),
+    0 0 10px rgba(255, 115, 0, 0.3);
+
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.actions .btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.45),
+    rgba(255,255,255,0.05)
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.actions .btn:hover {
+  background: #ff7300;
+  color: black;
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.45),
+    0 10px 24px rgba(0,0,0,0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.7);
+}

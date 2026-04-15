@@ -1,0 +1,154 @@
+---
+import { treks } from "../data/treksData.js";
+
+/* Format date range for booking (IMPORTANT FIX) */
+
+const formatRange = (start, end) => {
+  const options = { day: "2-digit", month: "short" };
+  const startStr = new Date(start).toLocaleDateString("en-IN", options);
+  const endStr = new Date(end).toLocaleDateString("en-IN", options);
+  return `${startStr} - ${endStr}`;
+};
+
+/* Extract only homepage-visible confirmed departures */
+
+const confirmedList = [];
+
+treks.forEach((trek) => {
+  if (!trek.confirmedDepartures) return;
+
+  trek.confirmedDepartures.forEach((dep) => {
+    if (dep.showOnHomepage && dep.status === "confirmed") {
+        const matchedDate = trek.dates?.find(d => d.start === dep.date);
+      confirmedList.push({
+        id: trek.id,
+        name: trek.name,
+        image: trek.heroImage,
+
+        date: matchedDate?.label || dep.date,
+
+        price: trek.price,
+
+        duration:
+          trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value ||
+          trek.duration,
+
+        difficulty: Array.isArray(trek.difficulty)
+          ? trek.difficulty.join(", ")
+          : trek.difficulty,
+
+        seatsLeft: dep.seatsLeft
+      });
+    }
+  });
+});
+
+/* Limit to max 3 */
+const displayList = confirmedList;
+
+/* Format date for UI display */
+const formatDate = (dateStr) => {
+  const options = { day: "numeric", month: "short", year: "numeric" };
+  return new Date(dateStr).toLocaleDateString("en-IN", options);
+};
+---
+
+<section class="confirmed-section reveal">
+  <h2>Guaranteed <span>Departures</span></h2>
+  <p class="section-subtext">
+    Ready to go? These treks are already confirmed — limited spots left.
+  </p>
+
+  <div class="confirmed-wrapper" data-carousel>
+    <button class="scroll-btn left" data-scroll-left>‹</button>
+  <div class="confirmed-cards">
+    {displayList.map((trek) => (
+      <div class="confirmed-card">
+
+        <div
+          class="confirmed-image"
+          style={`background-image: url(${trek.image})`}
+        >
+          <div class="overlay"></div>
+
+          <div class="badge">CONFIRMED</div>
+
+          {/* ✅ UI date (clean single date) */}
+            <div class="date">
+                📅 {trek.date}
+            </div>
+
+          {trek.seatsLeft <= 6 && (
+            <div class="seats-warning">
+              ⚠️ {trek.seatsLeft} spots left
+            </div>
+          )}
+        </div>
+
+        <div class="confirmed-content">
+          <h3>{trek.name}</h3>
+
+          <div class="meta">
+            <span>⏳ {trek.duration}</span>
+            <span>⚡ {trek.difficulty}</span>
+          </div>
+
+          <div class="actions">
+            <a href={`/trek/${trek.id}`} class="btn btn-details">
+              View Details
+            </a>
+
+            {/* ✅ Booking link now works */}
+            <a 
+              href={`/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(trek.date)}&price=${trek.price}`} 
+              class="btn btn-dates"
+              >
+              Register Now
+            </a>
+          </div>
+        </div>
+
+      </div>
+    ))}
+  </div>
+  <button class="scroll-btn right" data-scroll-right>›</button>
+  </div>
+</section>
+
+<script is:inline>
+  function initCarousel() {
+    const wrapper = document.querySelector('[data-carousel]');
+    if (!wrapper) return;
+
+    const container = wrapper.querySelector('.confirmed-cards');
+    const leftBtn = wrapper.querySelector('[data-scroll-left]');
+    const rightBtn = wrapper.querySelector('[data-scroll-right]');
+
+    if (!container || !leftBtn || !rightBtn) return;
+
+    const scrollAmount = container.clientWidth * 0.85;
+
+    function updateState() {
+      const maxScroll = container.scrollWidth - container.clientWidth;
+
+      const atStart = container.scrollLeft <= 5;
+      const atEnd = container.scrollLeft >= maxScroll - 5;
+
+      leftBtn.classList.toggle("at-start", atStart);
+      rightBtn.classList.toggle("at-end", atEnd);
+    }
+
+    leftBtn.onclick = () => {
+      container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    };
+
+    rightBtn.onclick = () => {
+      container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    };
+
+    container.addEventListener("scroll", updateState);
+    updateState();
+  }
+
+  document.addEventListener("DOMContentLoaded", initCarousel);
+</script>

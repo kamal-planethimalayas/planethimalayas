@@ -1735,7 +1735,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,200 ft" },
       { emoji: "⚡", label: "Trek Distance", value: "~70 km" },
-      { emoji: "🌤️", label: "Best Time", value: "July to October" },
+      { emoji: "🌤️", label: "Best Time", value: "June to September" },
       { emoji: "🗺️", label: "Region", value: "Lahaul, Himachal Pradesh" },
       { emoji: "📍", label: "Start Point", value: "Khanjer" },
       { emoji: "🏁", label: "End Point", value: "Khanjer" },
@@ -1778,8 +1778,6 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
   { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
 ],
 
   highlights: [
@@ -4349,6 +4347,21 @@ seo: {
 
   ],
 
+  confirmedDepartures: [
+  {
+    date: "2026-05-04",
+    showOnHomepage: true,
+    seatsLeft: 3,
+    status: "confirmed"
+  },
+  {
+    date: "2026-05-11",
+    showOnHomepage: false,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
+],
+
     highlights: [
       "Panoramic views of Trishul and Nanda Ghunti",
       "Lush oak and rhododendron forests burst into vibrant bloom during spring, painting the trail in shades of red and pink — while in winter, the same forests turn magical under a soft blanket of snow, offering a calm, fairy-tale-like charm.",
@@ -4875,6 +4888,21 @@ waypoints: [
   { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
 ],
 
+confirmedDepartures: [
+  {
+    date: "2026-05-17",
+    showOnHomepage: true,
+    seatsLeft: 6,
+    status: "confirmed"
+  },
+  {
+    date: "2026-05-24",
+    showOnHomepage: false,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
+],
+
     highlights: [
       "The trek starts from Gangotri - one of the sacred dhams in Uttarakhand.",
       "Venture deep into a landscape shaped by time and elemental force.",
@@ -5120,6 +5148,21 @@ waypoints: [
 
       { label: "11 Oct - 18 Oct", start: "2026-10-11", end: "2026-10-18" },
     ],
+
+    confirmedDepartures: [
+  {
+    date: "2026-05-24",
+    showOnHomepage: true,
+    seatsLeft: 4,
+    status: "confirmed"
+  },
+  {
+    date: "2026-06-06",
+    showOnHomepage: false,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
+],
 
     highlights: [
       "Trek alongside the massive Gangotri Glacier, one of the largest glaciers in the Himalayas",
@@ -9318,6 +9361,21 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
   { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+],
+
+confirmedDepartures: [
+  {
+    date: "2026-05-10",
+    showOnHomepage: true,
+    seatsLeft: 6,
+    status: "confirmed"
+  },
+  {
+    date: "2026-05-17",
+    showOnHomepage: false,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
 ],
 
   highlights: [

@@ -5,6 +5,7 @@ import { generalFAQs } from "../data/faqsData.js";
 import NewsBanner from "../components/NewsBanner.jsx";
 import NewsSection from "../components/NewsSection.jsx";
 import Testimonials from "../components/Testimonials.jsx";
+import ConfirmedDepartures from "../components/ConfirmedDepartures.astro";
 import "../styles/global.css";
 ---
 
@@ -85,6 +86,7 @@ import "../styles/global.css";
 
 <div class="container">
 
+  <ConfirmedDepartures />
 
 <!-- UPCOMING TREKS: Upcoming Season Treks -->
 <section class="trek-section reveal">
@@ -1432,7 +1434,8 @@ backdrop-filter: blur(15px);
 .faqs-section.reveal h2 span,
 .leadgen-section.reveal h2 span,
 .trek-content h2 span,
-.destination-section.reveal h2 span {
+.destination-section.reveal h2 span,
+.confirmed-section reveal h2 span {
   color: #ff7300;
   border-bottom: 4px solid #ff7300;
   padding-bottom: 2px;
@@ -2195,4 +2198,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+
+
 
