@@ -465,12 +465,18 @@ const { gallery, name } = trek;
   </div>
 </section>
 
-<!-- Pricing -->
+{/* =========================
+   PRICING + DATES SECTION
+========================= */}
 <section id="pricing-snippet-wrapper" class="pricing-snippet-wrapper reveal">
+
   <div class="pricing-and-snippet">
 
-    <!-- Price Box -->
+    {/* =========================
+        PRICE BOX
+    ========================= */}
     <div class="price-box">
+
       <p class="price-starting-from">
         Price starting from
         <span class="price-info-icon" id="price-info">?</span>
@@ -478,12 +484,14 @@ const { gallery, name } = trek;
 
       <div class="price-inline">
         <span class="price">
-          INR {typeof trek.price === 'number' ? trek.price.toLocaleString() : '—'}
+          INR {Number(trek.price) ? Number(trek.price).toLocaleString("en-IN") : "—"}
         </span>
-        {trek?.priceNote && <span class="price-note">{trek.priceNote}</span>}
+
+        {trek?.priceNote && (
+          <span class="price-note">{trek.priceNote}</span>
+        )}
       </div>
 
-      {/* ✅ GST + Trust */}
       <p class="price-meta">
         *Price inclusive of all applicable taxes (GST included).
       </p>
@@ -492,98 +500,165 @@ const { gallery, name } = trek;
         Small group sizes • High guide-to-trekker ratio • No hidden costs
       </p>
 
-      <!-- Terms -->
       <p class="price-links">
         <a href="#" id="open-terms">Terms & Conditions</a> |
         <a href="#" id="open-inclusions">Inclusions & Exclusions</a> |
         <a href="#" id="open-cancellation">Cancellation & Refunds</a>
       </p>
 
-      {/* Addons */}
+      {/* =========================
+          ADDONS
+      ========================= */}
       {trek.addons && (
         <div class="addons-section">
           <h3>Addons (Optional)</h3>
-          <ul>
-            {typeof trek.addons.transport === 'number' ? (
-              <li>
-                <strong>Transportation</strong> – INR {trek.addons.transport.toLocaleString()}
-                {trek.addons.transportNote ? <em> ({trek.addons.transportNote})</em> : null}
-                <span class="transport-info-icon" id="transport-info">?</span>
-              </li>
-            ) : trek.addons.transportNote ? (
-              <li>
-                <strong>Transportation</strong> – <em>{trek.addons.transportNote}</em>
-                <span class="transport-info-icon" id="transport-info">?</span>
-              </li>
-            ) : null}
 
-            {typeof trek.addons.offloadingbag === 'number' && (
+          <ul>
+
+            {typeof trek.addons.transport === "number" && (
               <li>
-                <strong>Offloading-Bags</strong> – INR {trek.addons.offloadingbag.toLocaleString()}
-                {trek.addons.offloadingNote ? <em> ({trek.addons.offloadingNote})</em> : null}
+                <strong>Transportation</strong> – INR{" "}
+                {trek.addons.transport.toLocaleString()}
+
+                {trek.addons.transportNote && (
+                  <em> ({trek.addons.transportNote})</em>
+                )}
+
+                <span class="transport-info-icon" id="transport-info">?</span>
               </li>
             )}
+
+            {typeof trek.addons.offloadingbag === "number" && (
+              <li>
+                <strong>Offloading Bags</strong> – INR{" "}
+                {trek.addons.offloadingbag.toLocaleString()}
+
+                {trek.addons.offloadingNote && (
+                  <em> ({trek.addons.offloadingNote})</em>
+                )}
+              </li>
+            )}
+
           </ul>
         </div>
       )}
 
-      {/* ✅ PRIMARY CTA (DATES FIRST) */}
+      {/* =========================
+          DATES + ACTIVE DEPARTURE
+      ========================= */}
       {groupedDates && Object.entries(groupedDates).length > 0 && (
         <div class="fixed-departure-section">
+
           <h3 class="fd-title">Choose Your Trek Dates</h3>
+
           <p class="fd-subtitle">
             Limited slots per batch to ensure safety & experience
           </p>
 
+          {/* 🔥 ACTIVE DEPARTURE (ONLY ONCE) */}
+          {trek.activeDeparture && (
+            <div class="active-departure-card">
+
+              <h4>🔥 Active Departure</h4>
+
+              <p class="active-date">
+                {trek.activeDeparture.label}
+              </p>
+
+              <p class="active-status">
+                Small group forming • Priority confirmations ongoing
+              </p>
+
+              <p class="active-cta-text">
+                👉 Select this batch in the date section below to confirm your seat
+              </p>
+
+            </div>
+          )}
+
+          {/* 📅 ALL FIXED DATES */}
           {Object.entries(groupedDates).map(([monthYear, dates]) => (
+
             <div class="collapsible-section" key={monthYear}>
+
               <h3 class="collapsible-header">{monthYear}</h3>
 
               <div class="collapsible-content">
+
                 <div class="datesContainer">
+
                   {dates.map(({ label, start }) => (
+
                     <div class="date-slot-wrapper" key={label}>
+
                       <a
-                        href={`/bookingEntry?trek=${encodeURIComponent(trek.id)}&date=${encodeURIComponent(label)}&price=${trek.price}`}
+                        href={`/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(
+                          label
+                        )}&start=${start}`}
                         class="date-link"
                       >
                         <span class="date-box">{label}</span>
                       </a>
 
-                      <TrekDateSlots 
-                        client:load 
-                        trekId={trek.id} 
-                        startDate={start} 
-                        maxSlots={8} 
+                      <TrekDateSlots
+                        client:load
+                        trekId={trek.id}
+                        startDate={start}
+                        maxSlots={8}
                       />
+
                     </div>
+
                   ))}
+
                 </div>
+
               </div>
+
             </div>
+
           ))}
+
+          {/* ⚪ CUSTOM GROUP */}
+          <div class="custom-group-box">
+
+            <h4>Need a different date?</h4>
+
+            <p>
+              We can arrange a custom departure if 3+ trekkers align.
+            </p>
+
+            <button class="custom-group-btn">
+              Request Custom Group
+            </button>
+
+          </div>
+
         </div>
       )}
 
-      {/* ✅ SECONDARY CTA (ENQUIRY AFTER DATES) */}
-      <div class="enquiry-section">
-        <h3>Need help or want a custom plan?</h3>
-
-        <button class="enquire-now-btn" data-trek={trek.name}>
-          Plan My Trek
-        </button>
-      </div>
-
     </div>
 
-    {/* Trek snippet */}
+    {/* =========================
+        TREK SNIPPET
+    ========================= */}
     <div class="snippet-wrapper">
-      <div class="trek-overview-snippet" set:html={trek.overview.snippet}>
-        <h2 class="trek-overview-title">Walking <span>The Trail</span></h2>
+
+      <div
+        class="trek-overview-snippet"
+        set:html={trek.overview.snippet}
+      >
+        <h2 class="trek-overview-title">
+          Walking <span>The Trail</span>
+        </h2>
       </div>
+
       <span class="read-more-link">Read More</span>
+
     </div>
-    </div>
+
+  </div>
+
 </section>
 
 <section class="trek-details">
@@ -790,6 +865,101 @@ const { gallery, name } = trek;
  
 <style>
 
+.active-departure-card {
+  background: rgba(255,115,0,0.05);
+  border: 2px solid #ff7300;
+  border-left: 6px solid #ff7300;
+  padding: 18px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.12),
+    0 0 18px rgba(255, 115, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.active-departure-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Title */
+.active-departure-card h4 {
+  color: #ff7300;
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  animation: activePulse 2.2s ease-in-out infinite;
+}
+
+/* Date */
+.active-date {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  margin: 6px 0;
+}
+
+/* Status */
+.active-status {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+@keyframes activePulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 115, 0, 0.0);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 18px rgba(255, 115, 0, 0.35);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 115, 0, 0.0);
+  }
+}
+
+/* =========================
+   CUSTOM GROUP BOX
+========================= */
+.custom-group-box {
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px dashed rgba(255,115,0,0.6);
+  border-radius: 8px;
+  background: rgba(255,115,0,0.05);
+}
+
+.custom-group-box h4 {
+  color: #ff7300;
+  margin: 0 0 6px 0;
+  font-size: 0.9rem;
+}
+
+.custom-group-box p {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.custom-group-btn {
+  background: transparent;
+  border: 1px solid #ff7300;
+  color: #ff7300;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.custom-group-btn:hover {
+  background: #ff7300;
+  color: black;
+}
+
 /* Full-width wrapper */
 .trek-advisory.full-width {
   width: 100%;
@@ -866,6 +1036,7 @@ const { gallery, name } = trek;
   align-items: center;
   padding: 2px 6px;
   margin: 2px 0;
+  opacity: 0.85;
   background: rgba(0, 0, 0, 0.75);
 backdrop-filter: blur(15px);
 -webkit-backdrop-filter: blur(15px);
@@ -878,6 +1049,11 @@ backdrop-filter: blur(15px);
     0 4px 12px rgba(255, 115, 0, 0.45),
     0 0 10px rgba(255, 115, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.collapsible-header.active-departure-month {
+  opacity: 1;
+  border-color: #ff7300;
 }
 
 .collapsible-header::after {
@@ -2568,11 +2744,14 @@ backdrop-filter: blur(15px);
 .fd-title {
   margin-top: 20px;
   font-weight: 600;
+  font-size: 1.1rem;
+  color: #ff7300;
+  margin-bottom: 4px;
 }
 
 .fd-subtitle {
   font-size: 0.85rem;
-  color: #ff7300;
+  color: #aaa;
   margin-bottom: 10px;
 }
 

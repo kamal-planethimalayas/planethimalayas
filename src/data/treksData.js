@@ -1317,20 +1317,10 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     dates: [
   { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
-  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-  { label: "25 Jul - 31 Jul", start: "2026-07-25", end: "2026-07-31" },
-  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
-  { label: "08 Aug - 14 Aug", start: "2026-08-08", end: "2026-08-14" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-  { label: "22 Aug - 28 Aug", start: "2026-08-22", end: "2026-08-28" },
-  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
-  { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
   { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" }
-    ],
+   ],
 
     highlights: [
       "Stunning crossover from the green Kinnaur to the arid Spiti Valley",
@@ -1772,11 +1762,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   dates: [
   { label: "20 Jun - 26 Jun", start: "2026-06-20", end: "2026-06-26" },
-  { label: "04 Jul - 10 Jul", start: "2026-07-04", end: "2026-07-10" },
   { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
-  { label: "01 Aug - 07 Aug", start: "2026-08-01", end: "2026-08-07" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
 ],
 
@@ -1973,47 +1960,21 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     dates: [
 
-  { label: "06 Jun - 10 Jun", start: "2026-06-06", end: "2026-06-10" },
-  { label: "07 Jun - 11 Jun", start: "2026-06-07", end: "2026-06-11" },
-  { label: "13 Jun - 17 Jun", start: "2026-06-13", end: "2026-06-17" },
   { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
-  { label: "20 Jun - 24 Jun", start: "2026-06-20", end: "2026-06-24" },
-  { label: "21 Jun - 25 Jun", start: "2026-06-21", end: "2026-06-25" },
-  { label: "27 Jun - 01 Jul", start: "2026-06-27", end: "2026-07-01" },
   { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
 
-  { label: "04 Jul - 08 Jul", start: "2026-07-04", end: "2026-07-08" },
   { label: "05 Jul - 09 Jul", start: "2026-07-05", end: "2026-07-09" },
-  { label: "11 Jul - 15 Jul", start: "2026-07-11", end: "2026-07-15" },
-  { label: "12 Jul - 16 Jul", start: "2026-07-12", end: "2026-07-16" },
   { label: "18 Jul - 22 Jul", start: "2026-07-18", end: "2026-07-22" },
-  { label: "19 Jul - 23 Jul", start: "2026-07-19", end: "2026-07-23" },
-  { label: "25 Jul - 29 Jul", start: "2026-07-25", end: "2026-07-29" },
-  { label: "26 Jul - 30 Jul", start: "2026-07-26", end: "2026-07-30" },
 
-  { label: "01 Aug - 05 Aug", start: "2026-08-01", end: "2026-08-05" },
-  { label: "02 Aug - 06 Aug", start: "2026-08-02", end: "2026-08-06" },
+  
   { label: "08 Aug - 12 Aug", start: "2026-08-08", end: "2026-08-12" },
-  { label: "09 Aug - 13 Aug", start: "2026-08-09", end: "2026-08-13" },
   { label: "15 Aug - 19 Aug", start: "2026-08-15", end: "2026-08-19" },
-  { label: "16 Aug - 20 Aug", start: "2026-08-16", end: "2026-08-20" },
-  { label: "22 Aug - 26 Aug", start: "2026-08-22", end: "2026-08-26" },
-  { label: "23 Aug - 27 Aug", start: "2026-08-23", end: "2026-08-27" },
-  { label: "29 Aug - 02 Sep", start: "2026-08-29", end: "2026-09-02" },
-  { label: "30 Aug - 03 Sep", start: "2026-08-30", end: "2026-09-03" },
 
-  { label: "05 Sep - 09 Sep", start: "2026-09-05", end: "2026-09-09" },
-  { label: "06 Sep - 10 Sep", start: "2026-09-06", end: "2026-09-10" },
+  
   { label: "12 Sep - 16 Sep", start: "2026-09-12", end: "2026-09-16" },
-  { label: "13 Sep - 17 Sep", start: "2026-09-13", end: "2026-09-17" },
-  { label: "19 Sep - 23 Sep", start: "2026-09-19", end: "2026-09-23" },
-  { label: "20 Sep - 24 Sep", start: "2026-09-20", end: "2026-09-24" },
-  { label: "26 Sep - 30 Sep", start: "2026-09-26", end: "2026-09-30" },
   { label: "27 Sep - 01 Oct", start: "2026-09-27", end: "2026-10-01" },
   
   { label: "03 Oct - 07 Oct", start: "2026-10-03", end: "2026-10-07" },
-  { label: "04 Oct - 08 Oct", start: "2026-10-04", end: "2026-10-08" },
-  { label: "10 Oct - 14 Oct", start: "2026-10-10", end: "2026-10-14" },
   { label: "11 Oct - 15 Oct", start: "2026-10-11", end: "2026-10-15" },
 ],
 
@@ -2193,46 +2154,14 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   dates: [
   { label: "11 Jul - 16 Jul", start: "2026-07-11", end: "2026-07-16" },
-  { label: "12 Jul - 17 Jul", start: "2026-07-12", end: "2026-07-17" },
-
-  { label: "18 Jul - 23 Jul", start: "2026-07-18", end: "2026-07-23" },
-  { label: "19 Jul - 24 Jul", start: "2026-07-19", end: "2026-07-24" },
-
-  { label: "25 Jul - 30 Jul", start: "2026-07-25", end: "2026-07-30" },
-  { label: "26 Jul - 31 Jul", start: "2026-07-26", end: "2026-07-31" },
-
-  { label: "01 Aug - 06 Aug", start: "2026-08-01", end: "2026-08-06" },
-  { label: "02 Aug - 07 Aug", start: "2026-08-02", end: "2026-08-07" },
-
-  { label: "08 Aug - 13 Aug", start: "2026-08-08", end: "2026-08-13" },
-  { label: "09 Aug - 14 Aug", start: "2026-08-09", end: "2026-08-14" },
 
   { label: "15 Aug - 20 Aug", start: "2026-08-15", end: "2026-08-20" },
-  { label: "16 Aug - 21 Aug", start: "2026-08-16", end: "2026-08-21" },
-
-  { label: "22 Aug - 27 Aug", start: "2026-08-22", end: "2026-08-27" },
-  { label: "23 Aug - 28 Aug", start: "2026-08-23", end: "2026-08-28" },
-
-  { label: "29 Aug - 03 Sep", start: "2026-08-29", end: "2026-09-03" },
-  { label: "30 Aug - 04 Sep", start: "2026-08-30", end: "2026-09-04" },
-
-  { label: "05 Sep - 10 Sep", start: "2026-09-05", end: "2026-09-10" },
-  { label: "06 Sep - 11 Sep", start: "2026-09-06", end: "2026-09-11" },
-
-  { label: "12 Sep - 17 Sep", start: "2026-09-12", end: "2026-09-17" },
+  
   { label: "13 Sep - 18 Sep", start: "2026-09-13", end: "2026-09-18" },
 
-  { label: "19 Sep - 24 Sep", start: "2026-09-19", end: "2026-09-24" },
-  { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
-
-  { label: "26 Sep - 01 Oct", start: "2026-09-26", end: "2026-10-01" },
-  { label: "27 Sep - 02 Oct", start: "2026-09-27", end: "2026-10-02" },
-
+  
   { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
-  { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
-
-  { label: "10 Oct - 15 Oct", start: "2026-10-10", end: "2026-10-15" },
-  { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+  
 ],
 
   highlights: [
@@ -2765,6 +2694,14 @@ description:
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
+  dates: [   
+
+{ label: "15 Jun - 19 Jun", start: "2026-06-15", end: "2026-06-19" },
+
+{ label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
+
+  ],
+
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
   highlights: [
@@ -3038,6 +2975,14 @@ description:
     transportNote: null,
     offloadingNote: "* Maximum weight 9kg/bag"
   },
+
+  dates: [   
+
+{ label: "17 Jun - 19 Jun", start: "2026-06-17", end: "2026-06-19" },
+
+{ label: "08 Jul - 10 Jul", start: "2026-07-08", end: "2026-07-10" },
+
+  ],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 3 lunch",
 
@@ -3804,21 +3749,16 @@ questions: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
     dates: [
-      { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
       { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
       { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-      { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
       { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
-      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
+
       { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
-      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
       { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
-      { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+
       { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
-      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
       { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+
       { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
@@ -4088,21 +4028,16 @@ questions: [
 
     dates: [
       { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
-      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
       { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
-      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
       { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
-      { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
+
       { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
-      { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
       { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
-      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
+
       { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
-      { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
       { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+
       { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
     highlights: [
@@ -4330,11 +4265,12 @@ seo: {
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
-    dates: [   
+    activeDeparture: {
+    date: "2026-05-24",
+    label: "04 May - 08 May",
+  },
 
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-15" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-22" },
-{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
+    dates: [   
 
 { label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
 { label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
@@ -4642,14 +4578,9 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
 
     dates: [   
 
-{ label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-{ label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-{ label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
 { label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
 
-{ label: "04 May - 09 May", start: "2026-05-04", end: "2026-05-09" },
 { label: "11 May - 16 May", start: "2026-05-11", end: "2026-05-16" },
-{ label: "18 May - 23 May", start: "2026-05-18", end: "2026-05-23" },
 { label: "25 May - 30 May", start: "2026-05-25", end: "2026-05-30" },
 
 
@@ -4865,25 +4796,22 @@ waypoints: [
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
+    activeDeparture: {
+    date: "2026-05-24",
+    label: "17 May - 23 May",
+  },
+
     dates: [
-  { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
   { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-  { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
   { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-  { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
   { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
-  { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
-  { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
   { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
 
-  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
   { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
   { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
-  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
   { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
   { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
 ],
@@ -5137,6 +5065,11 @@ waypoints: [
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from dinner on Day 1 to dinner on Day 7",
+
+    activeDeparture: {
+    date: "2026-05-24",
+    label: "24 May - 30 May",
+  },
 
     dates: [
       
@@ -5400,6 +5333,11 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
 
   inclusionsNote:
     "🍽️ All Meals – Nutritious high-altitude meals provided from dinner on Day 1 to dinner on Day 6",
+
+  activeDeparture: {
+    date: "2026-05-24",
+    label: "24 May - 30 May",
+  },
 
   dates: [
       
@@ -5704,20 +5642,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
 
-      { label: "02 May - 07 May", start: "2026-05-02", end: "2026-05-07" },
-      { label: "03 May - 08 May", start: "2026-05-03", end: "2026-05-08" },
       { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
-      { label: "10 May - 15 May", start: "2026-05-10", end: "2026-05-15" },
-      { label: "16 May - 21 May", start: "2026-05-16", end: "2026-05-21" },
       { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-      { label: "23 May - 28 May", start: "2026-05-23", end: "2026-05-26" },
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-27" },
-      { label: "30 May - 04 Jun", start: "2026-05-30", end: "2026-06-04" },
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
 
       { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
-      { label: "08 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
-
 
     ],
 
@@ -6072,29 +6000,14 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-  { label: "04 Apr - 10 Apr", start: "2026-04-04", end: "2026-04-10" },
-  { label: "11 Apr - 17 Apr", start: "2026-04-11", end: "2026-04-17" },
-  { label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },
-  { label: "18 Apr - 24 Apr", start: "2026-04-18", end: "2026-04-24" },
-  { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },
-  { label: "25 Apr - 01 May", start: "2026-04-25", end: "2026-05-01" },
+  
   { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
 
-  { label: "02 May - 08 May", start: "2026-05-02", end: "2026-05-08" },
   { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
-  { label: "09 May - 15 May", start: "2026-05-09", end: "2026-05-15" },
-  { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
-  { label: "16 May - 22 May", start: "2026-05-16", end: "2026-05-22" },
   { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-  { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
-  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-  { label: "30 May - 05 Jun", start: "2026-05-30", end: "2026-06-05" },
   { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
-  { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
-  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
   { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
-  { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
 ],
 
     highlights: [
@@ -6315,16 +6228,13 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [
       
-      { label: "24 May - 29 May", start: "2026-05-24", end: "2026-05-29" },
       { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
 
-      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
       { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
 
       { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
 
       { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
-      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
   ],
 
   highlights: [
@@ -6518,18 +6428,11 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [ 
 
-{ label: "06 Apr - 11 Apr", start: "2026-04-06", end: "2026-04-11" },
-{ label: "13 Apr - 18 Apr", start: "2026-04-13", end: "2026-04-18" },
-{ label: "20 Apr - 25 Apr", start: "2026-04-20", end: "2026-04-25" },
-{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
 
 { label: "04 May - 09 May", start: "2026-05-04", end: "2026-05-09" },
-{ label: "11 May - 16 May", start: "2026-05-11", end: "2026-05-16" },
 { label: "18 May - 23 May", start: "2026-05-18", end: "2026-05-23" },
-{ label: "25 May - 30 May", start: "2026-05-25", end: "2026-05-30" },
 
 { label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
-{ label: "08 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
 
 ],
 
@@ -6949,18 +6852,9 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 
   dates: [   
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
 { label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
-{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
-
-{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
-{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
 
@@ -7125,9 +7019,6 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
 
   dates: [   
 
-
-{ label: "13 Apr – 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr – 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr – 01 May", start: "2026-04-27", end: "2026-05-01" },
 
   ],
@@ -7344,14 +7235,7 @@ The following day is reserved for departure. Guests may check out of the guestho
 
  dates: [   
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
-{ label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
-
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
 { label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
 { label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
 
 { label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
@@ -7542,15 +7426,10 @@ The following day is reserved for departure. Guests may check out of the guestho
 
   dates: [
 
-{ label: "06 Apr - 10 Apr", start: "2026-04-06", end: "2026-04-10" },
-{ label: "13 Apr - 17 Apr", start: "2026-04-13", end: "2026-04-17" },
-{ label: "20 Apr - 24 Apr", start: "2026-04-20", end: "2026-04-24" },
 { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
 
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
 { label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
 { label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
-{ label: "25 May - 29 May", start: "2026-05-25", end: "2026-05-29" },
 
 { label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
 { label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
@@ -7787,15 +7666,13 @@ waypoints: [
 
   dates: [
     { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
-    { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
-    { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
-    { label: "29 May - 05 Jun", start: "2026-05-29", end: "2026-06-05" },
     { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
 
-    { label: "05 Jun - 12 Jun", start: "2026-06-05", end: "2026-06-12" },
-    { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
-    { label: "12 Jun - 19 Jun", start: "2026-06-12", end: "2026-06-19" },
     { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
+    
+    { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
+
+    { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
   ],
 
   highlights: [
@@ -8734,17 +8611,17 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-  { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
-  { label: "22 May - 29 May", start: "2026-05-22", end: "2026-05-29" },
-  { label: "23 May - 30 May", start: "2026-05-23", end: "2026-05-30" },
-  { label: "29 May - 05 Jun", start: "2026-05-29", end: "2026-06-05" },
-  { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
+    { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
+    { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
 
-  { label: "05 Jun - 12 Jun", start: "2026-06-05", end: "2026-06-12" },
-  { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
-  { label: "12 Jun - 19 Jun", start: "2026-06-12", end: "2026-06-19" },
-  { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
-],
+    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
+    
+    { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
+
+    { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
+    { label: "17 Oct - 24 Oct", start: "2026-10-17", end: "2026-10-24" },
+    
+  ],
 
     enquireOnly: true,
 
@@ -9363,15 +9240,17 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
+  activeDeparture: {
+    date: "2026-05-24",
+    label: "10 May - 16 May",
+  },
+
   dates: [
-  { label: "12 Apr - 18 Apr", start: "2026-04-12", end: "2026-04-18" },
-  { label: "19 Apr - 25 Apr", start: "2026-04-19", end: "2026-04-25" },
+  
   { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
 
-  { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
   { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
   { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
   { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
