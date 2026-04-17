@@ -1,20 +1,15 @@
 export const news = [
 
   {
-  title: "As of April 6, 2026, the India Meteorological Department (IMD) warns of active Western Disturbances affecting Northwest India, bringing heavy rain/snowfall to mountainous regions on April 7th-8th.",
+  title: "Very light to light rain / thunderstorm / snowfall (at places with altitude 4000m and above)",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
   `
-  <p>Expect thunderstorms, hail, and strong winds (40-60 kmph) in Himachal Pradesh, Uttarakhand, and Jammu & Kashmir, causing a sharp temperature drop.</p>
-  <h4>Recent Updates:</h4>
-<ul>
-    <li>❖ Jammu & Kashmir & Ladakh: Widespread light/moderate rain or snowfall is expected over the next 2-3 days, with heavy falls at isolated locations.</li>
-    <li>❖ Himachal Pradesh: Thunderstorms, lightning, and hail are likely in lower hills, with high-speed winds (40-60 kmph) predicted for isolated places.</li>
-    <li>❖ Uttarakhand: Similar conditions with intermittent rain/snow in higher reaches, accompanied by thunderstorms and gusty winds.</li>
-    <li>❖ Impact: Potential disruption in travel, flash floods, and landslides in vulnerable areas.</li>
-</ul>`
+  <p>Very light to light rain / thunderstorm / snowfall (at places
+with altitude 4000m and above). Dry weather likely to prevail at lower altitudes.</p>
+`
 },
 
   {
@@ -40,14 +35,32 @@ export const news = [
   <li>• Discount applies <strong>only on trek fees</strong>. Add-ons (travel, offloading, rentals) are billed at original prices.</li>
 </ul>`  
 },
+
+{
+  title: "DEPARTURES IN MAY - ALI-BEDNI BUGYAL; RANTHAN KHARAK; GAUMUKH-TAPOVAN; KEDARTAL; NANDANVAN-VASUKITAL",
+  type: "news",
+  head: "Trek%20Updates", 
+  thumbnail: "/images/main/brand-logo.png", // 👈 put IMD logo here
+  details:
+  `
+<h4>Confirmed Departure Dates in May:</h4>
+<ul>
+  <li>• 04 - 07 May: ALi-Bedni Bugyal Trek. <strong><a href="/trek/ali-bedni-bugyal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 10 - 16 May: Ranthan Kharak Trek. <strong><a href="/trek/ranthan-kharak-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 17 - 23 May: Gaumukh-Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 24 - 30 May: Kedartal Trek. <strong><a href="/trek/kedartal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 24 - 31 May: Nandanvan-Vasukital Trek. <strong><a href="/trek/nandanvan-vasukital-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+</ul>
+`
+},
   
   {
-  title: "Best Spring Treks in the Himalayas",
+  title: "Best Summer Treks in the Himalayas",
   type: "articles",
   head: "Articles",
   thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766068757/everest_wdjvrw.jpg",
   link: "/blogs/best-spring-treks-himalayas/",
-  details: '"SOME SEASONS SHOW YOU THE MOUNTAINS. SPRING LETS YOU FEEL THEM BREATHE."<br>Spring is not just a trekking season — it is a transformation. Snow still rules the heights, flowers bloom below, and the mountains invite you to witness their rebirth. If you want to experience the Himalayas at their most balanced, most beautiful, and most alive — spring is when you must walk these trails. Read <strong><a href="/blogs/best-spring-treks-himalayas/" target="_blank" rel="noopener noreferrer">full article</a></strong>'
+  details: '"SUMMER IN THE HIMALAYAS UNFOLDS THROUGH MOVEMENT - THE SEASON TREKKERS WAIT FOR".<br>High trails that stayed untouched for months begin to see life again. Shepherds move upward with their flocks, following routes that have existed long before trekking became a thing. Campsites that lay buried under snow slowly reappear. The mountains don’t “change season” — they start functioning again. Read <strong><a href="/blogs/summer-treks-himalayas-may-june/" target="_blank" rel="noopener noreferrer">full article</a></strong>'
 },
 {
   title: "Kumaon Himalayas",
