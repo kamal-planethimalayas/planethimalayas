@@ -60,8 +60,12 @@ const formatDate = (dateStr) => {
   </p>
 
   <div class="confirmed-wrapper" data-carousel>
-    <button class="scroll-btn left" data-scroll-left>‹</button>
-  <div class="confirmed-cards">
+
+  <button class="scroll-btn left" data-scroll-left>‹</button>
+
+  {/* 👇 THIS is the KEY — SAME AS TREK */}
+  <div class="confirmed-cards-scroll">
+
     {displayList.map((trek) => (
       <div class="confirmed-card">
 
@@ -73,10 +77,7 @@ const formatDate = (dateStr) => {
 
           <div class="badge">CONFIRMED</div>
 
-          {/* ✅ UI date (clean single date) */}
-            <div class="date">
-                📅 {trek.date}
-            </div>
+          <div class="date">📅 {trek.date}</div>
 
           {trek.seatsLeft <= 6 && (
             <div class="seats-warning">
@@ -98,11 +99,10 @@ const formatDate = (dateStr) => {
               View Details
             </a>
 
-            {/* ✅ Booking link now works */}
             <a 
               href={`/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(trek.date)}&price=${trek.price}`} 
               class="btn btn-dates"
-              >
+            >
               Register Now
             </a>
           </div>
@@ -110,9 +110,12 @@ const formatDate = (dateStr) => {
 
       </div>
     ))}
+
   </div>
+
   <button class="scroll-btn right" data-scroll-right>›</button>
-  </div>
+
+</div>
 </section>
 
 <script is:inline>
@@ -120,7 +123,7 @@ const formatDate = (dateStr) => {
     const wrapper = document.querySelector('[data-carousel]');
     if (!wrapper) return;
 
-    const container = wrapper.querySelector('.confirmed-cards');
+    const container = wrapper.querySelector('.confirmed-cards-scroll');
     const leftBtn = wrapper.querySelector('[data-scroll-left]');
     const rightBtn = wrapper.querySelector('[data-scroll-right]');
 

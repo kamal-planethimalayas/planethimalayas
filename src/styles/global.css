@@ -554,34 +554,31 @@ backdrop-filter: blur(15px);
   text-align: left;
 }
 
-/* ================= WRAPPER ================= */
 .confirmed-wrapper {
   position: relative;
-  width: 100%;
 }
 
-/* ================= SCROLL CONTAINER ================= */
-.confirmed-cards {
+/* 👇 EXACT SAME AS trek-cards-scroll */
+.confirmed-cards-scroll {
   display: flex;
-  flex-wrap: nowrap;          /* 🔥 CRITICAL FIX */
-  gap: 25px;
+  gap: 1rem;
 
   overflow-x: auto;
   overflow-y: hidden;
 
-  scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 
-  padding: 1rem 0 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.confirmed-cards::-webkit-scrollbar {
+.confirmed-cards-scroll::-webkit-scrollbar {
   display: none;
 }
-
 /* ================= CARDS ================= */
 
 /* Desktop → ~3.2 cards */
