@@ -5281,7 +5281,7 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   `
   },
 
-  price: 17900,
+  price: 16900,
   priceNote: "* Gangotri to Gangotri",
 
   addons: {
