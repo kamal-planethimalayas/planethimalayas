@@ -37,19 +37,18 @@ with altitude 4000m and above). Dry weather likely to prevail at lower altitudes
 },
 
 {
-  title: "DEPARTURES IN MAY - ALI-BEDNI BUGYAL; RANTHAN KHARAK; GAUMUKH-TAPOVAN; KEDARTAL; NANDANVAN-VASUKITAL",
+  title: "CONFIRMED DEPARTURE DATES IN MAY - JUNE",
   type: "news",
   head: "Trek%20Updates", 
   thumbnail: "/images/main/brand-logo.png", // 👈 put IMD logo here
   details:
   `
-<h4>Confirmed Departure Dates in May:</h4>
 <ul>
   <li>• 04 - 07 May: ALi-Bedni Bugyal Trek. <strong><a href="/trek/ali-bedni-bugyal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 10 - 16 May: Ranthan Kharak Trek. <strong><a href="/trek/ranthan-kharak-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 17 - 23 May: Gaumukh-Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 24 - 30 May: Kedartal Trek. <strong><a href="/trek/kedartal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 24 - 31 May: Nandanvan-Vasukital Trek. <strong><a href="/trek/nandanvan-vasukital-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 06 - 13 Jun: Nandanvan-Vasukital Trek. <strong><a href="/trek/nandanvan-vasukital-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>
 `
 },

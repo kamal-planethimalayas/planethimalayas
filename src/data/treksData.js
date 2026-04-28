@@ -4248,7 +4248,7 @@ seo: {
   {
     date: "2026-05-04",
     showOnHomepage: true,
-    seatsLeft: 3,
+    seatsLeft: 0,
     status: "confirmed"
   },
   {
@@ -4710,7 +4710,7 @@ waypoints: [
 ],
 
 
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg",
 
     heroImages: [ "https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg",
                   "https://res.cloudinary.com/dr44hob9b/image/upload/v1755517996/gaumukh-tapovan-hero2_fsilpd.jpg",
@@ -5029,7 +5029,7 @@ waypoints: [
 
     activeDeparture: {
     date: "2026-05-24",
-    label: "24 May - 30 May",
+    label: "06 Jun - 13 Jun",
   },
 
     dates: [
@@ -5045,14 +5045,14 @@ waypoints: [
     confirmedDepartures: [
   {
     date: "2026-05-24",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 4,
     status: "confirmed"
   },
   {
     date: "2026-06-06",
-    showOnHomepage: false,
-    seatsLeft: 10,
+    showOnHomepage: true,
+    seatsLeft: 6,
     status: "upcoming"
   }
 ],
@@ -5313,13 +5313,13 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   {
     date: "2026-05-24",
     showOnHomepage: true,
-    seatsLeft: 5,
+    seatsLeft: 3,
     status: "confirmed"
   },
   {
     date: "2026-06-06",
     showOnHomepage: false,
-    seatsLeft: 10,
+    seatsLeft: 8,
     status: "upcoming"
   }
 ],

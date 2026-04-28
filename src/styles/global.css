@@ -718,7 +718,7 @@ backdrop-filter: blur(15px);
   position: absolute;
   top: 12px;
   left: 12px;
-  background: #ff7300;
+  background: #16a34a;;
   padding: 4px 10px;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -726,6 +726,21 @@ backdrop-filter: blur(15px);
   color: #000;
   border: 2px solid rgba(0,0,0,0.75);
   backdrop-filter: blur(3px);
+}
+
+.badge.almost-full {
+  background: #ff7300; /* your brand color 🔥 */
+}
+
+.badge.sold-out {
+  background: #ef4444; /* strong red */
+}
+
+.btn.disabled {
+  background: #ccc !important;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.7;
 }
 
 .date {

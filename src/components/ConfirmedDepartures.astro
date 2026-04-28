@@ -1,56 +1,72 @@
 ---
 import { treks } from "../data/treksData.js";
 
-/* Format date range for booking (IMPORTANT FIX) */
+/* Build HTML manually (Astro-safe approach) */
 
-const formatRange = (start, end) => {
-  const options = { day: "2-digit", month: "short" };
-  const startStr = new Date(start).toLocaleDateString("en-IN", options);
-  const endStr = new Date(end).toLocaleDateString("en-IN", options);
-  return `${startStr} - ${endStr}`;
-};
-
-/* Extract only homepage-visible confirmed departures */
-
-const confirmedList = [];
+let cardsHTML = "";
 
 treks.forEach((trek) => {
   if (!trek.confirmedDepartures) return;
 
   trek.confirmedDepartures.forEach((dep) => {
     if (dep.showOnHomepage && dep.status === "confirmed") {
-        const matchedDate = trek.dates?.find(d => d.start === dep.date);
-      confirmedList.push({
-        id: trek.id,
-        name: trek.name,
-        image: trek.heroImage,
+      const matchedDate = trek.dates?.find(d => d.start === dep.date);
 
-        date: matchedDate?.label || dep.date,
+      const date = matchedDate?.label || dep.date;
+      const isSoldOut = dep.seatsLeft === 0;
+      const isAlmostFull = dep.seatsLeft > 0 && dep.seatsLeft <= 3;
 
-        price: trek.price,
+      let badgeText = "CONFIRMED";
+      if (isSoldOut) badgeText = "SOLD OUT";
+      else if (isAlmostFull) badgeText = "ALMOST FULL";
 
-        duration:
-          trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value ||
-          trek.duration,
+      let badgeClass = "badge";
+      if (isSoldOut) badgeClass += " sold-out";
+      else if (isAlmostFull) badgeClass += " almost-full";
 
-        difficulty: Array.isArray(trek.difficulty)
-          ? trek.difficulty.join(", ")
-          : trek.difficulty,
+      let warningHTML = "";
+      if (!isSoldOut && dep.seatsLeft <= 6) {
+        warningHTML = `<div class="seats-warning">⚠️ Only ${dep.seatsLeft} spots left</div>`;
+      }
 
-        seatsLeft: dep.seatsLeft
-      });
+      let actionHTML = "";
+      if (isSoldOut) {
+        actionHTML = `<button class="btn btn-dates disabled">Sold Out</button>`;
+      } else {
+        actionHTML = `<a href="/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(date)}&price=${trek.price}" class="btn btn-dates">Register Now</a>`;
+      }
+
+      cardsHTML += `
+        <div class="confirmed-card">
+
+          <div class="confirmed-image" style="background-image:url('${trek.heroImage}')">
+            <div class="overlay"></div>
+
+            <div class="${badgeClass}">${badgeText}</div>
+            <div class="date">📅 ${date}</div>
+
+            ${warningHTML}
+          </div>
+
+          <div class="confirmed-content">
+            <h3>${trek.name}</h3>
+
+            <div class="meta">
+              <span>⏳ ${trek.duration || ""}</span>
+              <span>⚡ ${Array.isArray(trek.difficulty) ? trek.difficulty.join(", ") : trek.difficulty}</span>
+            </div>
+
+            <div class="actions">
+              <a href="/trek/${trek.id}" class="btn btn-details">View Details</a>
+              ${actionHTML}
+            </div>
+          </div>
+
+        </div>
+      `;
     }
   });
 });
-
-/* Limit to max 3 */
-const displayList = confirmedList;
-
-/* Format date for UI display */
-const formatDate = (dateStr) => {
-  const options = { day: "numeric", month: "short", year: "numeric" };
-  return new Date(dateStr).toLocaleDateString("en-IN", options);
-};
 ---
 
 <section class="confirmed-section reveal">
@@ -61,71 +77,23 @@ const formatDate = (dateStr) => {
 
   <div class="confirmed-wrapper" data-carousel>
 
-  <button class="scroll-btn left" data-scroll-left>‹</button>
+    <button class="scroll-btn left" data-scroll-left>‹</button>
 
-  {/* 👇 THIS is the KEY — SAME AS TREK */}
-  <div class="confirmed-cards-scroll">
+    <div class="confirmed-cards-scroll" set:html={cardsHTML}></div>
 
-    {displayList.map((trek) => (
-      <div class="confirmed-card">
-
-        <div
-          class="confirmed-image"
-          style={`background-image: url(${trek.image})`}
-        >
-          <div class="overlay"></div>
-
-          <div class="badge">CONFIRMED</div>
-
-          <div class="date">📅 {trek.date}</div>
-
-          {trek.seatsLeft <= 6 && (
-            <div class="seats-warning">
-              ⚠️ {trek.seatsLeft} spots left
-            </div>
-          )}
-        </div>
-
-        <div class="confirmed-content">
-          <h3>{trek.name}</h3>
-
-          <div class="meta">
-            <span>⏳ {trek.duration}</span>
-            <span>⚡ {trek.difficulty}</span>
-          </div>
-
-          <div class="actions">
-            <a href={`/trek/${trek.id}`} class="btn btn-details">
-              View Details
-            </a>
-
-            <a 
-              href={`/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(trek.date)}&price=${trek.price}`} 
-              class="btn btn-dates"
-            >
-              Register Now
-            </a>
-          </div>
-        </div>
-
-      </div>
-    ))}
+    <button class="scroll-btn right" data-scroll-right>›</button>
 
   </div>
-
-  <button class="scroll-btn right" data-scroll-right>›</button>
-
-</div>
 </section>
 
 <script is:inline>
   function initCarousel() {
-    const wrapper = document.querySelector('[data-carousel]');
+    const wrapper = document.querySelector("[data-carousel]");
     if (!wrapper) return;
 
-    const container = wrapper.querySelector('.confirmed-cards-scroll');
-    const leftBtn = wrapper.querySelector('[data-scroll-left]');
-    const rightBtn = wrapper.querySelector('[data-scroll-right]');
+    const container = wrapper.querySelector(".confirmed-cards-scroll");
+    const leftBtn = wrapper.querySelector("[data-scroll-left]");
+    const rightBtn = wrapper.querySelector("[data-scroll-right]");
 
     if (!container || !leftBtn || !rightBtn) return;
 
@@ -134,11 +102,8 @@ const formatDate = (dateStr) => {
     function updateState() {
       const maxScroll = container.scrollWidth - container.clientWidth;
 
-      const atStart = container.scrollLeft <= 5;
-      const atEnd = container.scrollLeft >= maxScroll - 5;
-
-      leftBtn.classList.toggle("at-start", atStart);
-      rightBtn.classList.toggle("at-end", atEnd);
+      leftBtn.classList.toggle("at-start", container.scrollLeft <= 5);
+      rightBtn.classList.toggle("at-end", container.scrollLeft >= maxScroll - 5);
     }
 
     leftBtn.onclick = () => {
