@@ -8757,43 +8757,46 @@ waypoints: [
     duration: ["8 Nights / 9 Days"],
     region: "uttarakhand-kumaon",
     coordinates: [
-  [30.0690, 80.2430], // Munsiyari (start)
+  [30.071804253560686, 80.23710236698047], // Munsiyari (start)
 
-  [30.1030, 80.3870], // Rilkot
+  [30.31064925275412, 80.20847061666987], // Rilkot
 
-  [30.1620, 80.4650], // Ghangar
+  [30.400695761814873, 80.15415780882947], // Ghangar
 
-  [30.1850, 80.5130], // Nanda Devi East Base Camp
+  [30.388013668493333, 80.09153190081696], // Nanda Devi East Base Camp
 
-  [30.1705, 80.4920], // Martoli
+  [30.400695761814873, 80.15415780882947], // Ghangar
 
-  [30.1030, 80.3870], // Rilkot (return roadhead)
+  [30.34774091673638, 80.1931626164995], // Martoli
 
-  [30.0690, 80.2430], // Munsiyari (end)
+  [30.31064925275412, 80.20847061666987], // Rilkot (return roadhead)
+
+  [30.071804253560686, 80.23710236698047], // Munsiyari (end)
 ],
 
 waypoints: [
-  { name: "Munsiyari (Start)", coords: [30.0690, 80.2430], type: "start" },
+  { name: "Munsiyari (Start)", coords: [30.071804253560686, 80.23710236698047], type: "start" },
 
-  { name: "Rilkot", coords: [30.1030, 80.3870], type: "camp" },
+  { name: "Rilkot", coords: [30.31064925275412, 80.20847061666987], type: "camp" },
 
-  { name: "Ghangar", coords: [30.1620, 80.4650], type: "village" },
+  { name: "Ghangar", coords: [30.400695761814873, 80.15415780882947], type: "village" },
 
-  { name: "Nanda Devi East Base Camp", coords: [30.1850, 80.5130], type: "glacier" },
+  { name: "Nanda Devi East Base Camp", coords: [30.388013668493333, 80.09153190081696], type: "glacier" },
 
-  { name: "Martoli", coords: [30.1705, 80.4920], type: "village" },
+  { name: "Ghangar", coords: [30.400695761814873, 80.15415780882947], type: "village" },
 
-  { name: "Rilkot (Roadhead)", coords: [30.1030, 80.3870], type: "roadhead" },
+  { name: "Martoli", coords: [30.34774091673638, 80.1931626164995], type: "village" },
 
-  { name: "Munsiyari (End)", coords: [30.0690, 80.2430], type: "end" },
+  { name: "Rilkot (Roadhead)", coords: [30.31064925275412, 80.20847061666987], type: "roadhead" },
+
+  { name: "Munsiyari (End)", coords: [30.071804253560686, 80.23710236698047], type: "end" },
 ],
 
-    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1777552629/nanda-devi-base-camp_kqq3c6.jpg",
 
     heroImages: [
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545955/nanda-devi-east-base-camp-trek-hero1_b5xt81.jpg",
-        "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545953/nanda-devi-east-base-camp-trek-view1_bslpi8.webp",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777552629/nanda-devi-base-camp_kqq3c6.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777553894/martoli_f3osop.jpg",
     ],
 
     subtitle: "An Adventure to the Foot of Nanda Devi, the Himalayan Queen",
@@ -9010,9 +9013,11 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
     gallery: [
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765437115/nanda_devi_k8ygsm.jpg",
-        
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777552629/nanda-devi-base-camp_kqq3c6.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777553894/martoli_f3osop.jpg",
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777554176/Nanda_Devi_view_from_East_Base_Camp_h0e7a1.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765381747/nanda-devi-base-camp-6315064_ueukor.webp",
-        
+        "https://res.cloudinary.com/dr44hob9b/image/upload/v1777552639/nanda-devi-east-base-camp-trek_jx6bzh.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545955/nanda-devi-east-base-camp-trek-hero1_b5xt81.jpg",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
         "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545969/nanda-devi-east-base-camp-trek-hero1_aokgi8.png",
