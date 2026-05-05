@@ -1907,12 +1907,50 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     duration: ["4 Nights / 5 Days"],
     region: "himachal pradesh",
     coordinates: [
-    [32.2396, 77.1892], // Jobra (start)
-    [32.2592, 77.2503], // Jwara
-    [32.2789, 77.3125], // Balu ka Ghera
-    [32.3078, 77.3750], // Shea Goru
-    [32.3236, 77.4456], // Hampta Pass (end)
+      [32.244359621938145, 77.18993550702554], // Manali Bus Stand
+      [32.22210006178822, 77.20718437017906],
+    [32.25910041568159, 77.24092705265647], // Jobra
+    [32.283539513371984, 77.25544023635501], // Chika
+    [32.28915716430621, 77.27968447956772], // Jwara
+    [32.28022216219866, 77.297299323627], // Balu ka Ghera
+    [32.2705263853762, 77.34748365539906], //Hampta Pass
+    [32.285393877606815, 77.35841598645794], // Shea Goru
+    [32.31936145543532, 77.36444590520875], // Chatru (end)
+    [32.30074159310796, 77.46327625639194], //chota Dhara
+    [32.30704443911457, 77.56901267821233],
+    [32.37633841187684, 77.62341659811834],
+    [32.47224757569942, 77.61730813338924], // Chandratal Lake
+    [32.37633841187684, 77.62341659811834],
+    [32.30704443911457, 77.56901267821233],
+    [32.30074159310796, 77.46327625639194],
+    [32.31936145543532, 77.36444590520875], // Chatru
+    [32.41548864441138, 77.2337043046968], //Koksar bridge
+    [32.44063572471876, 77.16630527712752], // Chenab Bridge
+    [32.43962610879447, 77.16419127660215],
+    [32.3647724317829, 77.13331703828202],
+
+    [32.244359621938145, 77.18993550702554], // Manali Bus Stand
   ],
+
+    waypoints: [
+  { name: "Manali (Start / End)", coords: [32.244359621938145, 77.18993550702554], type: "start/end" },
+
+  { name: "Jobra", coords: [32.25910041568159, 77.24092705265647], type: "dam" },
+
+  { name: "Chika", coords: [32.283539513371984, 77.25544023635501], type: "camp" },
+
+  { name: "Balu Ka Ghera", coords: [32.28022216219866, 77.297299323627], type: "camp" },
+
+  { name: "Hampta Pass", coords: [32.2705263853762, 77.34748365539906], type: "pass" },
+
+  { name: "Shea Goru", coords: [32.285393877606815, 77.35841598645794], type: "camp" },
+
+  { name: "Chatru", coords: [32.31936145543532, 77.36444590520875], type: "camp" },
+
+  { name: "Chandratal", coords: [32.47224757569942, 77.61730813338924], type: "lake" },
+],
+
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-hero_tp9o7j.jpg",
     
     heroImages: [
@@ -1944,33 +1982,33 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       snippet: 'Imagine stepping onto a trail where every single day introduces you to a brand-new Himalayan world.<br>The Hampta Pass trek in Himachal Pradesh begins deep inside the lush Kullu Valley, where pine forests, maple groves, and apple orchards wrap the trail in shades of green. The early sections feel warm and welcoming — gentle gradients, forest canopies, and the soft roar of the Rani Nala accompanying you through the first stretch.<br>As you climb higher, the landscape unfolds into wide alpine meadows, carpeted with monsoon wildflowers and crisscrossed with snow-fed streams. These meadows — especially around Jwara — are among the prettiest on any Himalayan trek, and they offer crystal-clear views of the surrounding Pir Panjal range.<br>The climb towards the pass brings a dramatic shift. The valley narrows, the terrain becomes glacial, and the mountain walls rise sharply on either side. This is where the Hampta Pass trail begins to feel truly alpine. As you gain height, two iconic Himalayan giants — Mt. Deo Tibba (19,688 ft) and Mt. Indrasan (20,413 ft) — stand proudly over the horizon. Their hanging glaciers and sharp ridgelines dominate the skyline, adding a thrilling high-altitude backdrop to the final approach.<br>At Hampta Pass (14,000 ft), everything changes. Standing on the saddle feels like stepping across a natural border between worlds. Behind you lies the lush greenery of Manali and Kullu; ahead lies the stark, moon-like desert of Lahaul–Spiti. The contrast is so sudden and so intense that it feels almost unreal — barren ridges, rugged cliffs, brown mountains, and vast open valleys stretching endlessly into Spiti.<br>The descent towards Shea Goru and Chhatru takes you through dramatic glacial terrain, moraine fields, and icy river crossings — the kind of variety few short Himalayan treks offer.<br>And then comes the perfect finale: A scenic drive to the legendary Chandratal Lake — the high-altitude, crescent-shaped blue lake tucked deep within Spiti. Visiting Chandratal after the Hampta Pass trek is like walking into a different dimension — turquoise water, snow peaks reflecting in the lake, and the crystal-clear Spiti sky arching overhead. Many trekkers consider this the highlight of the entire Hampta experience.<br>In just 5 days, the Hampta Pass trek packs in forests, meadows, waterfalls, river-crossings, glacial valleys, high-altitude pass, and the crossover into Spiti — making it one of the most cinematic, diverse, and rewarding treks in the Indian Himalayas. Add the views of Deo Tibba & Indrasan, and the optional visit to Chandratal Lake, and this becomes a must-do trek for anyone seeking adventure, variety, and unforgettable Himalayan landscapes.'
     },
 
-    price: 11900,
+    price: 11400,
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
-      offloadingbag: 2800,
-      offloadingNote: "* Maximum weight 9kg  /bag"
+      offloadingbag: 1800,
+      offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     dates: [
 
-  { label: "14 Jun - 18 Jun", start: "2026-06-14", end: "2026-06-18" },
-  { label: "28 Jun - 02 Jul", start: "2026-06-28", end: "2026-07-02" },
+  { label: "15 Jun - 19 Jun", start: "2026-06-15", end: "2026-06-19" },
+  { label: "22 Jun - 26 Jum", start: "2026-06-22", end: "2026-06-26" },
 
-  { label: "05 Jul - 09 Jul", start: "2026-07-05", end: "2026-07-09" },
-  { label: "18 Jul - 22 Jul", start: "2026-07-18", end: "2026-07-22" },
-
-  
-  { label: "08 Aug - 12 Aug", start: "2026-08-08", end: "2026-08-12" },
-  { label: "15 Aug - 19 Aug", start: "2026-08-15", end: "2026-08-19" },
+  { label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
+  { label: "20 Jul - 24 Jul", start: "2026-07-20", end: "2026-07-24" },
 
   
-  { label: "12 Sep - 16 Sep", start: "2026-09-12", end: "2026-09-16" },
-  { label: "27 Sep - 01 Oct", start: "2026-09-27", end: "2026-10-01" },
+  { label: "10 Aug - 14 Aug", start: "2026-08-10", end: "2026-08-14" },
+  { label: "17 Aug - 21 Aug", start: "2026-08-17", end: "2026-08-21" },
+
   
-  { label: "03 Oct - 07 Oct", start: "2026-10-03", end: "2026-10-07" },
-  { label: "11 Oct - 15 Oct", start: "2026-10-11", end: "2026-10-15" },
+  { label: "14 Sep - 18 Sep", start: "2026-09-14", end: "2026-09-18" },
+  { label: "28 Sep - 02 Oct", start: "2026-09-28", end: "2026-10-02" },
+  
+  { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
+  { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
 ],
 
     highlights: [
