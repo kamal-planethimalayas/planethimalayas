@@ -1991,10 +1991,15 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
+    activeDeparture: {
+    date: "2026-05-24",
+    label: "10 May - 16 May",
+  },
+
     dates: [
 
   { label: "15 Jun - 19 Jun", start: "2026-06-15", end: "2026-06-19" },
-  { label: "22 Jun - 26 Jum", start: "2026-06-22", end: "2026-06-26" },
+  { label: "22 Jun - 26 Jun", start: "2026-06-22", end: "2026-06-26" },
 
   { label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
   { label: "20 Jul - 24 Jul", start: "2026-07-20", end: "2026-07-24" },
@@ -2009,6 +2014,21 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   
   { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
   { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+],
+
+confirmedDepartures: [
+  {
+    date: "2026-06-22",
+    showOnHomepage: true,
+    seatsLeft: 5,
+    status: "confirmed"
+  },
+  {
+    date: "2026-07-06",
+    showOnHomepage: false,
+    seatsLeft: 8,
+    status: "upcoming"
+  }
 ],
 
     highlights: [
@@ -4282,21 +4302,6 @@ seo: {
 
   ],
 
-  confirmedDepartures: [
-  {
-    date: "2026-05-04",
-    showOnHomepage: true,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
-  {
-    date: "2026-05-11",
-    showOnHomepage: false,
-    seatsLeft: 10,
-    status: "upcoming"
-  }
-],
-
     highlights: [
       "Panoramic views of Trishul and Nanda Ghunti",
       "Lush oak and rhododendron forests burst into vibrant bloom during spring, painting the trail in shades of red and pink — while in winter, the same forests turn magical under a soft blanket of snow, offering a calm, fairy-tale-like charm.",
@@ -4819,7 +4824,7 @@ confirmedDepartures: [
   {
     date: "2026-05-17",
     showOnHomepage: true,
-    seatsLeft: 6,
+    seatsLeft: 4,
     status: "confirmed"
   },
   {
@@ -9248,7 +9253,7 @@ confirmedDepartures: [
   {
     date: "2026-05-10",
     showOnHomepage: true,
-    seatsLeft: 6,
+    seatsLeft: 0,
     status: "confirmed"
   },
   {

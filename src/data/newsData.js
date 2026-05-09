@@ -1,14 +1,16 @@
 export const news = [
 
   {
-  title: "Very light to light rain / thunderstorm / snowfall (at places with altitude 4000m and above)",
+  title: "Thunderstorms, lightning, hail, and squally winds (50-60 kmph) are expected in isolated areas.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
   `
-  <p>Very light to light rain / thunderstorm / snowfall (at places
-with altitude 4000m and above). Dry weather likely to prevail at lower altitudes.</p>
+  <ul>
+  <li>• A new spell of active weather with gusty winds (40-60 kmph) is likely in the Northwest region.</li>
+  <li>• Isolated areas in Uttarakhand are likely to see thunderstorms and lightning, according to <strong><a href="https://mausam.imd.gov.in/imd_latest/contents/pilgrim_warnings.php" target="_blank" rel="noopener noreferrer">IMD Warnings</a></strong>.</li>
+  <li>• Pilgrimage routes, including the <strong><a href="https://mausam.imd.gov.in/responsive/pilgrimage_sector_forecast.php" target="_blank" rel="noopener noreferrer">Chardham Yatra</a></strong>, will likely be affected by these conditions.</li>
 `
 },
 
@@ -44,11 +46,10 @@ with altitude 4000m and above). Dry weather likely to prevail at lower altitudes
   details:
   `
 <ul>
-  <li>• 04 - 07 May: ALi-Bedni Bugyal Trek. <strong><a href="/trek/ali-bedni-bugyal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 10 - 16 May: Ranthan Kharak Trek. <strong><a href="/trek/ranthan-kharak-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 17 - 23 May: Gaumukh-Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 24 - 30 May: Kedartal Trek. <strong><a href="/trek/kedartal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 06 - 13 Jun: Nandanvan-Vasukital Trek. <strong><a href="/trek/nandanvan-vasukital-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 22 - 26 Jun: Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>
 `
 },
