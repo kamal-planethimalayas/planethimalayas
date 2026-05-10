@@ -4451,7 +4451,7 @@ Comfort reduces stress and improves decision-making.</p>
     "Planethimalayas monsoon treks"
   ],
   description: "Discover the best monsoon treks in the Himalayas (July–September), from lush crossover valleys to remote rain-shadow deserts. Explore high passes, alpine lakes, and dramatic landscapes across Himachal, Ladakh, and Kashmir.",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535565/kgl-view3_fam2d7.jpg",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
   content: `
 
 <p>The monsoon arrives differently in the Himalayas.</p>
@@ -4490,14 +4490,6 @@ It is about understanding where to go, when to move, and how geography controls 
 <p>You begin understanding why some of the greatest Himalayan journeys happen exactly during this time.</p>
 
 <br>
-
-<p>But monsoon trekking is also the season where route selection matters the most.</p>
-
-<p>Choosing the wrong region during July or August can completely change your experience. Routes prone to heavy rainfall, landslides, road blockages, or flash floods demand much higher caution — even when the trek itself is not technically difficult.</p>
-
-<p>That is why most serious monsoon trekking shifts toward rain-shadow regions like Himachal, Ladakh, and parts of Kashmir.</p>
-
-<p>These regions stay comparatively drier, more stable, and geographically suited for high-altitude trekking during this period.</p>
 
 <p>However, one thing remains constant:</p>
 
