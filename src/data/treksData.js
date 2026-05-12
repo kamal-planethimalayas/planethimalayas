@@ -2025,8 +2025,8 @@ confirmedDepartures: [
   },
   {
     date: "2026-07-06",
-    showOnHomepage: false,
-    seatsLeft: 8,
+    showOnHomepage: true,
+    seatsLeft: 10,
     status: "upcoming"
   }
 ],
@@ -4824,12 +4824,12 @@ confirmedDepartures: [
   {
     date: "2026-05-17",
     showOnHomepage: true,
-    seatsLeft: 4,
+    seatsLeft: 0,
     status: "confirmed"
   },
   {
-    date: "2026-05-24",
-    showOnHomepage: false,
+    date: "2026-06-07",
+    showOnHomepage: true,
     seatsLeft: 10,
     status: "upcoming"
   }
@@ -5361,8 +5361,8 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   },
   {
     date: "2026-06-06",
-    showOnHomepage: false,
-    seatsLeft: 8,
+    showOnHomepage: true,
+    seatsLeft: 10,
     status: "upcoming"
   }
 ],
@@ -9235,11 +9235,6 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
-  activeDeparture: {
-    date: "2026-05-24",
-    label: "10 May - 16 May",
-  },
-
   dates: [
   
   { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
@@ -9247,21 +9242,6 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
 
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
-],
-
-confirmedDepartures: [
-  {
-    date: "2026-05-10",
-    showOnHomepage: true,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
-  {
-    date: "2026-05-17",
-    showOnHomepage: false,
-    seatsLeft: 10,
-    status: "upcoming"
-  }
 ],
 
   highlights: [

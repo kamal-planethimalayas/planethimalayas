@@ -1,65 +1,157 @@
 ---
 import { treks } from "../data/treksData.js";
 
-/* Build HTML manually (Astro-safe approach) */
-
 let cardsHTML = "";
 
 treks.forEach((trek) => {
-  if (!trek.confirmedDepartures) return;
+
+  if (!trek.confirmedDepartures?.length) return;
 
   trek.confirmedDepartures.forEach((dep) => {
-    if (dep.showOnHomepage && dep.status === "confirmed") {
-      const matchedDate = trek.dates?.find(d => d.start === dep.date);
+
+    /* ✅ SHOW BOTH CONFIRMED + UPCOMING */
+    if (
+      dep.showOnHomepage &&
+      (dep.status === "confirmed" || dep.status === "upcoming")
+    ) {
+
+      const matchedDate = trek.dates?.find(
+        (d) => d.start === dep.date
+      );
 
       const date = matchedDate?.label || dep.date;
+
       const isSoldOut = dep.seatsLeft === 0;
-      const isAlmostFull = dep.seatsLeft > 0 && dep.seatsLeft <= 3;
 
+      const isAlmostFull =
+        dep.status === "confirmed" &&
+        dep.seatsLeft > 0 &&
+        dep.seatsLeft <= 3;
+
+      /* BADGE */
       let badgeText = "CONFIRMED";
-      if (isSoldOut) badgeText = "SOLD OUT";
-      else if (isAlmostFull) badgeText = "ALMOST FULL";
 
-      let badgeClass = "badge";
-      if (isSoldOut) badgeClass += " sold-out";
-      else if (isAlmostFull) badgeClass += " almost-full";
-
-      let warningHTML = "";
-      if (!isSoldOut && dep.seatsLeft <= 6) {
-        warningHTML = `<div class="seats-warning">⚠️ Only ${dep.seatsLeft} spots left</div>`;
+      if (dep.status === "upcoming") {
+        badgeText = "UPCOMING";
       }
 
-      let actionHTML = "";
       if (isSoldOut) {
-        actionHTML = `<button class="btn btn-dates disabled">Sold Out</button>`;
-      } else {
-        actionHTML = `<a href="/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(date)}&price=${trek.price}" class="btn btn-dates">Register Now</a>`;
+        badgeText = "SOLD OUT";
       }
 
+      if (isAlmostFull) {
+        badgeText = "ALMOST FULL";
+      }
+
+      /* BADGE CLASS */
+      let badgeClass = "badge";
+
+      if (dep.status === "upcoming") {
+        badgeClass += " upcoming";
+      }
+
+      if (isSoldOut) {
+        badgeClass += " sold-out";
+      }
+
+      if (isAlmostFull) {
+        badgeClass += " almost-full";
+      }
+
+      /* WARNING */
+      let warningHTML = "";
+
+      if (
+        dep.status === "confirmed" &&
+        !isSoldOut &&
+        dep.seatsLeft <= 6
+      ) {
+        warningHTML = `
+          <div class="seats-warning">
+            ⚠️ Only ${dep.seatsLeft} spots left
+          </div>
+        `;
+      }
+
+      /* ACTION BUTTON */
+      let actionHTML = "";
+
+      if (isSoldOut) {
+
+        actionHTML = `
+          <button class="btn btn-dates disabled">
+            Sold Out
+          </button>
+        `;
+
+      } else {
+
+        actionHTML = `
+          <a
+            href="/bookingEntry?trek=${trek.id}&date=${encodeURIComponent(date)}&price=${trek.price}"
+            class="btn btn-dates"
+          >
+            ${dep.status === "upcoming" ? "View Trek" : "Register Now"}
+          </a>
+        `;
+      }
+
+      /* CARD */
       cardsHTML += `
         <div class="confirmed-card">
 
-          <div class="confirmed-image" style="background-image:url('${trek.heroImage}')">
+          <div
+            class="confirmed-image"
+            style="background-image:url('${trek.heroImage}')"
+          >
+
             <div class="overlay"></div>
 
-            <div class="${badgeClass}">${badgeText}</div>
-            <div class="date">📅 ${date}</div>
+            <div class="${badgeClass}">
+              ${badgeText}
+            </div>
+
+            <div class="date">
+              📅 ${date}
+            </div>
 
             ${warningHTML}
+
           </div>
 
           <div class="confirmed-content">
+
             <h3>${trek.name}</h3>
 
             <div class="meta">
-              <span>⏳ ${trek.duration || ""}</span>
-              <span>⚡ ${Array.isArray(trek.difficulty) ? trek.difficulty.join(", ") : trek.difficulty}</span>
+
+              <span>
+                ⏳ ${trek.duration || ""}
+              </span>
+
+              <span>
+                ⚡ ${
+                  Array.isArray(trek.difficulty)
+                    ? trek.difficulty.join(", ")
+                    : trek.difficulty || ""
+                }
+              </span>
+
             </div>
 
             <div class="actions">
-              <a href="/trek/${trek.id}" class="btn btn-details">View Details</a>
+
+              <a
+                href="/trek/${trek.id}"
+                class="btn btn-details"
+              >
+                View Details
+              </a>
+
               ${actionHTML}
+
             </div>
+
           </div>
 
         </div>
@@ -70,53 +162,98 @@ treks.forEach((trek) => {
 ---
 
 <section class="confirmed-section reveal">
-  <h2>Upcoming <span>Departures</span></h2>
+
+  <h2>
+    Upcoming <span>Departures</span>
+  </h2>
+
   <p class="section-subtext">
-    Ready to go? These treks are already confirmed — limited spots left.
+    Ready to go? These treks are either confirmed or opening soon.
   </p>
 
   <div class="confirmed-wrapper" data-carousel>
 
-    <button class="scroll-btn left" data-scroll-left>‹</button>
+    <button class="scroll-btn left" data-scroll-left>
+      ‹
+    </button>
 
-    <div class="confirmed-cards-scroll" set:html={cardsHTML}></div>
+    <div
+      class="confirmed-cards-scroll"
+      set:html={cardsHTML}
+    ></div>
 
-    <button class="scroll-btn right" data-scroll-right>›</button>
+    <button class="scroll-btn right" data-scroll-right>
+      ›
+    </button>
 
   </div>
+
 </section>
 
 <script is:inline>
   function initCarousel() {
+
     const wrapper = document.querySelector("[data-carousel]");
+
     if (!wrapper) return;
 
-    const container = wrapper.querySelector(".confirmed-cards-scroll");
-    const leftBtn = wrapper.querySelector("[data-scroll-left]");
-    const rightBtn = wrapper.querySelector("[data-scroll-right]");
+    const container = wrapper.querySelector(
+      ".confirmed-cards-scroll"
+    );
+
+    const leftBtn = wrapper.querySelector(
+      "[data-scroll-left]"
+    );
+
+    const rightBtn = wrapper.querySelector(
+      "[data-scroll-right]"
+    );
 
     if (!container || !leftBtn || !rightBtn) return;
 
     const scrollAmount = container.clientWidth * 0.85;
 
     function updateState() {
-      const maxScroll = container.scrollWidth - container.clientWidth;
 
-      leftBtn.classList.toggle("at-start", container.scrollLeft <= 5);
-      rightBtn.classList.toggle("at-end", container.scrollLeft >= maxScroll - 5);
+      const maxScroll =
+        container.scrollWidth - container.clientWidth;
+
+      leftBtn.classList.toggle(
+        "at-start",
+        container.scrollLeft <= 5
+      );
+
+      rightBtn.classList.toggle(
+        "at-end",
+        container.scrollLeft >= maxScroll - 5
+      );
     }
 
-    leftBtn.onclick = () => {
-      container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-    };
+    leftBtn.addEventListener("click", () => {
 
-    rightBtn.onclick = () => {
-      container.scrollBy({ left: scrollAmount, behavior: "smooth" });
-    };
+      container.scrollBy({
+        left: -scrollAmount,
+        behavior: "smooth",
+      });
+
+    });
+
+    rightBtn.addEventListener("click", () => {
+
+      container.scrollBy({
+        left: scrollAmount,
+        behavior: "smooth",
+      });
+
+    });
 
     container.addEventListener("scroll", updateState);
+
     updateState();
   }
 
-  document.addEventListener("DOMContentLoaded", initCarousel);
+  document.addEventListener(
+    "DOMContentLoaded",
+    initCarousel
+  );
 </script>

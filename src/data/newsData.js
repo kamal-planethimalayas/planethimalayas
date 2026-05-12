@@ -72,11 +72,11 @@ export const news = [
  KUMAON MAKES YOU WALK LONG ENOUGH TO UNDERSTAND THEM".<br>Explore the Kumaon Himalayas with this complete trekking and travel guide. Discover offbeat treks, Nanda Devi region, hidden valleys, ghost villages, and the best trekking routes in Kumaon with Planethimalayas. Read <strong><a href="/blogs/kumaon-himalayas-trekking-guide/" target="_blank" rel="noopener noreferrer">full article</a></strong>`
 },
 {
-  title: "Staying Fit & Healthy on a Himalayan Trek (Complete Guide)",
+  title: "Best Monsoon Treks in the Himalayas (July–September): Valleys, High Passes & The Rain Shadow Himalayas",
   type: "articles",
   head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1758302887/healthy-trek_wjveng.jpg",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
   link: "/blogs/healthy-himalayan-trek/",
-  details: '"THE MOUNTAINS DON’T TEST YOUR STRENGTH — THEY REVEAL HOW WELL YOU PREPARED."<br>Trekking in the Himalayas pushes your body through altitude, terrain, and unpredictable conditions. Learn how to stay fit, hydrated, and prepared for high-altitude challenges. Read <strong><a href="/blogs/healthy-himalayan-trek/" target="_blank" rel="noopener noreferrer">full guide</a></strong>',
+  details: '"MONSOON ARRIVES DIFFERENTLY IN THE HIMALAYAS"<br>Unlike summer, where the mountains gradually reopen after winter, monsoon transforms the entire range into two completely different worlds at the same time. Read <strong><a href="/blogs/monsoon-treks-himalayas-july-september/" target="_blank" rel="noopener noreferrer">full guide</a></strong>',
 },
 ]; 
