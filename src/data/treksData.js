@@ -2539,9 +2539,6 @@ confirmedDepartures: [
 
     dates: [
 
-
-{ label: "18 May - 21 May", start: "2026-05-18", end: "2026-05-21" },
-
 { label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
 { label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
 
@@ -3227,9 +3224,6 @@ description:
 
   dates: [
 
-
-{ label: "18 May - 21 May", start: "2026-05-18", end: "2026-05-21" },
-
 { label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
 { label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
 
@@ -3777,9 +3771,7 @@ questions: [
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
-    dates: [
-      { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-      
+    dates: [      
 
       { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
 
@@ -4053,7 +4045,6 @@ questions: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
     dates: [
-      { label: "23 May - 29 May", start: "2026-05-23", end: "2026-05-29" },
 
       { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
 
@@ -4293,9 +4284,6 @@ seo: {
   },
 
     dates: [   
-
-{ label: "04 May - 08 May", start: "2026-05-04", end: "2026-05-08" },
-{ label: "18 May - 22 May", start: "2026-05-18", end: "2026-05-22" },
 
 { label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
@@ -4582,10 +4570,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
 
     dates: [   
 
-{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
-
-{ label: "11 May - 16 May", start: "2026-05-11", end: "2026-05-16" },
-{ label: "25 May - 30 May", start: "2026-05-25", end: "2026-05-30" },
+//{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
 
 
   ],
@@ -5632,9 +5617,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
 
-      { label: "09 May - 14 May", start: "2026-05-09", end: "2026-05-14" },
-      { label: "17 May - 22 May", start: "2026-05-17", end: "2026-05-22" },
-
       { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
 
     ],
@@ -5804,10 +5786,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-    { label: "02 May - 09 May", start: "2026-05-02", end: "2026-05-09" },
-    { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
-
-    
     { label: "06 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
     { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },  
     ],
@@ -5989,12 +5967,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-  
-  { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
-
-  { label: "03 May - 09 May", start: "2026-05-03", end: "2026-05-09" },
-  { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-  { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
 
   { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
 ],
@@ -6217,8 +6189,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [
       
-      { label: "31 May - 05 Jun", start: "2026-05-31", end: "2026-06-05" },
-
       { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
 
       { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
@@ -6416,10 +6386,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [ 
-
-
-{ label: "04 May - 09 May", start: "2026-05-04", end: "2026-05-09" },
-{ label: "18 May - 23 May", start: "2026-05-18", end: "2026-05-23" },
 
 { label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
 
@@ -7645,7 +7611,6 @@ waypoints: [
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
 
   dates: [
-    { label: "30 May - 06 Jun", start: "2026-05-30", end: "2026-06-06" },
 
     { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
     
@@ -8590,7 +8555,6 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-    { label: "16 May - 23 May", start: "2026-05-16", end: "2026-05-23" },
 
     { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
     
@@ -9224,10 +9188,6 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
   dates: [
-  
-  { label: "26 Apr - 02 May", start: "2026-04-26", end: "2026-05-02" },
-
-  { label: "10 May - 16 May", start: "2026-05-10", end: "2026-05-16" },
 
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
 ],
@@ -10354,8 +10314,8 @@ waypoints: [
     dates: [
       
 
-{ label: "30 Apr - 09 May", start: "2026-04-30", end: "2026-05-09" },
-{ label: "14 May - 23 May", start: "2026-05-14", end: "2026-05-23" },
+//{ label: "30 Apr - 09 May", start: "2026-04-30", end: "2026-05-09" },
+//{ label: "14 May - 23 May", start: "2026-05-14", end: "2026-05-23" },
 
     ],
 
