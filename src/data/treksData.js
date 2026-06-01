@@ -1992,8 +1992,8 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     activeDeparture: {
-    date: "2026-05-24",
-    label: "10 May - 16 May",
+    date: "2026-06-22",
+    label: "22 Jun - 26 Jun",
   },
 
     dates: [
@@ -4801,15 +4801,12 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     activeDeparture: {
-    date: "2026-05-24",
-    label: "17 May - 23 May",
+    date: "2026-06-13",
+    label: "07 Jun - 13 Jun",
   },
 
     dates: [
-  { label: "17 May - 23 May", start: "2026-05-17", end: "2026-05-23" },
-  { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-  { label: "31 May - 06 Jun", start: "2026-05-31", end: "2026-06-06" },
-
+  
   { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
   { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
 
@@ -4821,12 +4818,7 @@ waypoints: [
 ],
 
 confirmedDepartures: [
-  {
-    date: "2026-05-17",
-    showOnHomepage: true,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
+  
   {
     date: "2026-06-07",
     showOnHomepage: true,
@@ -5071,14 +5063,12 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from dinner on Day 1 to dinner on Day 7",
 
     activeDeparture: {
-    date: "2026-05-24",
+    date: "2026-06-06",
     label: "06 Jun - 13 Jun",
   },
 
     dates: [
       
-      { label: "24 May - 31 May", start: "2026-05-24", end: "2026-05-31" },
-
       { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
 
       { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
@@ -5338,14 +5328,12 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
     "🍽️ All Meals – Nutritious high-altitude meals provided from dinner on Day 1 to dinner on Day 6",
 
   activeDeparture: {
-    date: "2026-05-24",
-    label: "24 May - 30 May",
+    date: "2026-06-06",
+    label: "06 Jun - 12 Jun",
   },
 
   dates: [
       
-      { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-
       { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
 
       { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
@@ -5355,8 +5343,8 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
     confirmedDepartures: [
   {
     date: "2026-05-24",
-    showOnHomepage: true,
-    seatsLeft: 3,
+    showOnHomepage: false,
+    seatsLeft: 0,
     status: "confirmed"
   },
   {
