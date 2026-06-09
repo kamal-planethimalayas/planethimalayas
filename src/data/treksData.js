@@ -1477,6 +1477,21 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to packed lunch on Day 10",
 
+  dates: [   
+
+{ label: "08 Aug - 19 Aug", start: "2026-08-08", end: "2026-08-19" },
+
+  ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-08-08",
+    showOnHomepage: true,
+    seatsLeft: 3,
+    status: "confirmed"
+  },
+],
+
 
   highlights: [
     "A rare crossover connecting lush Parvati Valley to arid Spiti Valley",
@@ -3016,11 +3031,18 @@ description:
 
   dates: [   
 
-{ label: "17 Jun - 19 Jun", start: "2026-06-17", end: "2026-06-19" },
-
 { label: "08 Jul - 10 Jul", start: "2026-07-08", end: "2026-07-10" },
 
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-06-20",
+    showOnHomepage: true,
+    seatsLeft: 0,
+    status: "confirmed"
+  },
+],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 3 lunch",
 
@@ -4785,10 +4807,10 @@ waypoints: [
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
-    activeDeparture: {
-    date: "2026-06-13",
-    label: "07 Jun - 13 Jun",
-  },
+    //activeDeparture: {
+    //date: "2026-06-13",
+    //label: "07 Jun - 13 Jun",
+  //},
 
     dates: [
   
@@ -4806,7 +4828,7 @@ confirmedDepartures: [
   
   {
     date: "2026-06-07",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 10,
     status: "upcoming"
   }
@@ -5047,11 +5069,6 @@ waypoints: [
 
     inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from dinner on Day 1 to dinner on Day 7",
 
-    activeDeparture: {
-    date: "2026-06-06",
-    label: "06 Jun - 13 Jun",
-  },
-
     dates: [
       
       { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
@@ -5069,7 +5086,7 @@ waypoints: [
   },
   {
     date: "2026-06-06",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 6,
     status: "upcoming"
   }
@@ -5312,10 +5329,10 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   inclusionsNote:
     "🍽️ All Meals – Nutritious high-altitude meals provided from dinner on Day 1 to dinner on Day 6",
 
-  activeDeparture: {
-    date: "2026-06-06",
-    label: "06 Jun - 12 Jun",
-  },
+  //activeDeparture: {
+    //date: "2026-06-06",
+    //label: "06 Jun - 12 Jun",
+  //},
 
   dates: [
       
@@ -5334,7 +5351,7 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
   },
   {
     date: "2026-06-06",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 10,
     status: "upcoming"
   }
