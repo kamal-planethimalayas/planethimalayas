@@ -9,8 +9,7 @@ export const news = [
   `
   <ul>
   <li>• A new spell of active weather with gusty winds (40-60 kmph) is likely in the Northwest region.</li>
-  <li>• Isolated areas in Uttarakhand are likely to see thunderstorms and lightning, according to <strong><a href="https://mausam.imd.gov.in/imd_latest/contents/pilgrim_warnings.php" target="_blank" rel="noopener noreferrer">IMD Warnings</a></strong>.</li>
-  <li>• Pilgrimage routes, including the <strong><a href="https://mausam.imd.gov.in/responsive/pilgrimage_sector_forecast.php" target="_blank" rel="noopener noreferrer">Chardham Yatra</a></strong>, will likely be affected by these conditions.</li>
+  <li>• Isolated areas in Uttarakhand & Himachal are likely to see thunderstorms and lightning, according to <strong>IMD Warnings</strong>.</li>
 `
 },
 
@@ -39,17 +38,19 @@ export const news = [
 },
 
 {
-  title: "CONFIRMED DEPARTURE DATES IN MAY - JUNE",
+  title: "CONFIRMED DEPARTURE DATES JUN-AUG",
   type: "news",
   head: "Trek%20Updates", 
   thumbnail: "/images/main/brand-logo.png", // 👈 put IMD logo here
   details:
   `
 <ul>
-  <li>• 06 - 12 Jun: Kedartal Trek. <strong><a href="/trek/kedartal-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 06 - 13 Jun: Nandanvan-Vasukital Trek. <strong><a href="/trek/nandanvan-vasukital-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 20 - 26 Jun: Miyar Valley Trek. <strong><a href="/trek/miyar-valley-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 20 - 23 Jun: Beas Kund Trek. <strong><a href="/trek/beas-kund-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 22 - 26 Jun: Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• 06 - 10 Jul: Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 08 - 18 Aug: Pin Parvati Pass Trek. <strong><a href="/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• 15 - 21 Jul: Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   </ul>
 `
 },

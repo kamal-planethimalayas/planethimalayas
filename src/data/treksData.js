@@ -1997,7 +1997,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
       snippet: 'Imagine stepping onto a trail where every single day introduces you to a brand-new Himalayan world.<br>The Hampta Pass trek in Himachal Pradesh begins deep inside the lush Kullu Valley, where pine forests, maple groves, and apple orchards wrap the trail in shades of green. The early sections feel warm and welcoming — gentle gradients, forest canopies, and the soft roar of the Rani Nala accompanying you through the first stretch.<br>As you climb higher, the landscape unfolds into wide alpine meadows, carpeted with monsoon wildflowers and crisscrossed with snow-fed streams. These meadows — especially around Jwara — are among the prettiest on any Himalayan trek, and they offer crystal-clear views of the surrounding Pir Panjal range.<br>The climb towards the pass brings a dramatic shift. The valley narrows, the terrain becomes glacial, and the mountain walls rise sharply on either side. This is where the Hampta Pass trail begins to feel truly alpine. As you gain height, two iconic Himalayan giants — Mt. Deo Tibba (19,688 ft) and Mt. Indrasan (20,413 ft) — stand proudly over the horizon. Their hanging glaciers and sharp ridgelines dominate the skyline, adding a thrilling high-altitude backdrop to the final approach.<br>At Hampta Pass (14,000 ft), everything changes. Standing on the saddle feels like stepping across a natural border between worlds. Behind you lies the lush greenery of Manali and Kullu; ahead lies the stark, moon-like desert of Lahaul–Spiti. The contrast is so sudden and so intense that it feels almost unreal — barren ridges, rugged cliffs, brown mountains, and vast open valleys stretching endlessly into Spiti.<br>The descent towards Shea Goru and Chhatru takes you through dramatic glacial terrain, moraine fields, and icy river crossings — the kind of variety few short Himalayan treks offer.<br>And then comes the perfect finale: A scenic drive to the legendary Chandratal Lake — the high-altitude, crescent-shaped blue lake tucked deep within Spiti. Visiting Chandratal after the Hampta Pass trek is like walking into a different dimension — turquoise water, snow peaks reflecting in the lake, and the crystal-clear Spiti sky arching overhead. Many trekkers consider this the highlight of the entire Hampta experience.<br>In just 5 days, the Hampta Pass trek packs in forests, meadows, waterfalls, river-crossings, glacial valleys, high-altitude pass, and the crossover into Spiti — making it one of the most cinematic, diverse, and rewarding treks in the Indian Himalayas. Add the views of Deo Tibba & Indrasan, and the optional visit to Chandratal Lake, and this becomes a must-do trek for anyone seeking adventure, variety, and unforgettable Himalayan landscapes.'
     },
 
-    price: 11400,
+    price: 12400,
     priceNote: "* Manali to Manali (including Chandratal)",
     addons: {
       offloadingbag: 1800,
@@ -2660,35 +2660,34 @@ confirmedDepartures: [
   region: ["himachal pradesh"],
   duration: "3 Nights / 4 Days",
   coordinates: [
-  [32.2432, 77.1892], // Manali (start)
+      [32.24572487467801, 77.19000039646114], // Manali Bus Stand
+      [32.24783287461201, 77.19118145057809],
+    [32.30959551374009, 77.17773575667204], // Palchan
+    [32.318712582745235, 77.18944253577446], // Gulaba
+    [32.31955428924294, 77.20386934689708], // Trek start point
+    [32.31991844843612, 77.20921914384978], // campsite
+    [32.316554213820105, 77.2386076890037], //Campsite
+    [32.29412860358995, 77.24254281843916], // Brighu lake
+[32.316554213820105, 77.2386076890037], //Campsite
+[32.31991844843612, 77.20921914384978], // campsite
+[32.31955428924294, 77.20386934689708], // Trek start point
+[32.318712582745235, 77.18944253577446], // Gulaba
+[32.30959551374009, 77.17773575667204], // Palchan
+[32.24783287461201, 77.19118145057809],
+[32.24572487467801, 77.19000039646114], // Manali Bus Stand
+   
+  ],
 
-[32.3165, 77.1660], // Gulaba (roadhead)
-[32.3288, 77.1542], // Gulaba Meadows
+    waypoints: [
+  { name: "Manali (Start / End)", coords: [32.24572487467801, 77.19000039646114], type: "start/end" },
 
-[32.3475, 77.1386], // Rola Kholi
+  { name: "Gulaba", coords: [32.31955428924294, 77.20386934689708], type: "roadhead" },
 
-[32.3628, 77.1215], // Bhrigu Lake
+  { name: "Gulaba Meadows", coords: [32.31991844843612, 77.20921914384978], type: "camp" },
 
-[32.3475, 77.1386], // Rola Kholi (return)
-[32.3165, 77.1660], // Gulaba
+  { name: "Rola Kholi", coords: [32.316554213820105, 77.2386076890037], type: "camp" },
 
-[32.2432, 77.1892], // Manali (end)
-],
-
-waypoints: [
-  { name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
-
-{ name: "Gulaba (Roadhead)", coords: [32.3165, 77.1660], type: "roadhead" },
-
-{ name: "Gulaba Meadows", coords: [32.3288, 77.1542], type: "camp" },
-
-{ name: "Rola Kholi", coords: [32.3475, 77.1386], type: "camp" },
-
-{ name: "Bhrigu Lake", coords: [32.3628, 77.1215], type: "lake" },
-
-{ name: "Gulaba (Descent Point)", coords: [32.3165, 77.1660], type: "roadhead" },
-
-{ name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
+  { name: "Brighu Lake", coords: [32.29412860358995, 77.24254281843916], type: "lake" },
 ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774353588/brighu-lake_jgspnx.jpg",
@@ -2945,32 +2944,40 @@ description:
   duration: "2 Nights / 3 Days",
 
   coordinates: [
-    [32.2432, 77.1892], // Manali (start)
-
-    [32.3105, 77.2187], // Dhundi
-    [32.3278, 77.2385], // Bakarthach
-
-    [32.3442, 77.2568], // Beas Kund
-
-    [32.3278, 77.2385], // Bakarthach (return)
-    [32.3105, 77.2187], // Dhundi
-
-    [32.2432, 77.1892], // Manali (end)
+      [32.24572487467801, 77.19000039646114], // Manali Bus Stand
+      [32.24783287461201, 77.19118145057809],
+    [32.30959551374009, 77.17773575667204], // Palchan
+    [32.31472011839825, 77.15929396141075], 
+[32.33027248512334, 77.15004356195985],
+    [32.349362657645976, 77.13112808870359], // Trek start point
+    [32.35394787240367, 77.12277046296896], // campsite
+    [32.3517309895387, 77.0956605303679], //Campsite
+[32.35693007099385, 77.08447616655762], //campsite
+    [32.36180073691998, 77.080542244765], // Beas waterfall
+[32.366706535934064, 77.08586764085398], //Beas Kund
+[32.37113655731455, 77.09529502211205], // Lady Leg
+[32.3517309895387, 77.0956605303679], //Campsite
+[32.35394787240367, 77.12277046296896], // campsite
+[32.349362657645976, 77.13112808870359], // Trek start point
+[32.30959551374009, 77.17773575667204], // Palchan
+[32.24783287461201, 77.19118145057809],
+[32.24572487467801, 77.19000039646114], // Manali Bus Stand
+   
   ],
 
-  waypoints: [
-    { name: "Manali (Start)", coords: [32.2432, 77.1892], type: "start" },
+    waypoints: [
+  { name: "Manali (Start / End)", coords: [32.24572487467801, 77.19000039646114], type: "start/end" },
 
-    { name: "Dhundi", coords: [32.3105, 77.2187], type: "roadhead" },
+  { name: "Dhundi", coords: [32.349362657645976, 77.13112808870359], type: "roadhead" },
 
-    { name: "Bakarthach", coords: [32.3278, 77.2385], type: "camp" },
+  { name: "Bakarthatch", coords: [32.3517309895387, 77.0956605303679], type: "camp" },
 
-    { name: "Beas Kund", coords: [32.3442, 77.2568], type: "lake" },
+  { name: "Beas Waterfall", coords: [32.36180073691998, 77.080542244765], type: "waterfall" },
 
-    { name: "Dhundi (Return)", coords: [32.3105, 77.2187], type: "roadhead" },
-
-    { name: "Manali (End)", coords: [32.2432, 77.1892], type: "end" },
-  ],
+  { name: "Beas Kund", coords: [32.366706535934064, 77.08586764085398], type: "lake" },
+  
+  { name: "Lady Leg", coords: [32.37113655731455, 77.09529502211205], type: "viewpoint" },
+],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774363582/beas-kund-trek_gea1bt.jpg",
 

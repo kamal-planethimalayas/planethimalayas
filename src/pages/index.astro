@@ -92,7 +92,7 @@ import "../styles/global.css";
 <section class="trek-section reveal">
   <h2>Trending <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('summer', -1)">&lt;</button>
+    <button class="scroll-btn left" onclick="scrollCards('monsoon', -1)">&lt;</button>
     <div class="trek-cards-scroll" id="summer">
       {
         (() => {
@@ -121,7 +121,7 @@ import "../styles/global.css";
           return shuffleArray(
             treks.filter(trek =>
               Array.isArray(trek.season) &&
-              trek.season.map(s => s.toLowerCase()).includes('summer')
+              trek.season.map(s => s.toLowerCase()).includes('monsoon')
             )
           ).map(trek => {
       
@@ -157,7 +157,7 @@ import "../styles/global.css";
         })()
       }
     </div>
-    <button class="scroll-btn right" onclick="scrollCards('summer', 1)">&gt;</button>
+    <button class="scroll-btn right" onclick="scrollCards('monsoon', 1)">&gt;</button>
   </div>
 </section>
 
@@ -268,29 +268,29 @@ import "../styles/global.css";
 <!-- Exclusive Section -->
 <section class="home-trek-feature reveal">
   <div class="trek-image">
-    <span class="trek-badge">Summer Exclusive</span>
-    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg" alt="Gaumukh Tapovan Trek">
+    <span class="trek-badge">Monsoon Exclusive</span>
+    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg" alt="Miyar Valley Trek">
   </div>
 
   <div class="trek-content">
-    <h2 class="trek-content-name">Gaumukh Tapovan <span>Trek</span></h2>
+    <h2 class="trek-content-name">Miyar Valley <span>Trek</span></h2>
 
     <div class="trek-meta">
-      <span>📍 Uttarakhand - Gangotri National Park</span>
-      <span>🏔️ 14,600 ft</span>
-      <span>🏁 Basecamp: Gangotri</span>
-      <span>⚡ Moderate to Difficult</span>
-      <span>⏳ 6 Nights / 7 Days</span>
+      <span>📍 Himachal - Lahaul Valley</span>
+      <span>🏔️ 13,200 ft</span>
+      <span>🏁 Basecamp: Khanjer</span>
+      <span>⚡ Moderate</span>
+      <span>⏳ 7 Nights / 7 Days</span>
     </div>
 
     <div class="trek-text-wrapper">
-      <p class="trek-snippet" id="gaumukhSnippet">
-Gaumukh Tapovan Trek in summer is a powerful journey into the sacred heart of the Garhwal Himalaya, where mythology, raw landscapes, and high-altitude adventure come together seamlessly. The trail begins from the holy town of Gangotri, following the Bhagirathi River through rugged valleys, glacial moraines, and dramatic Himalayan terrain. As the snow recedes, the path opens into expansive views of towering peaks, with the mighty Shivling standing like a sentinel above the Tapovan meadows. Crossing the snout of the Gangotri Glacier at Gaumukh, the trek ascends into the stark yet surreal world of Tapovan — a high-altitude campsite surrounded by some of the most iconic Himalayan giants. Clear skies, stable weather, and accessible trails make summer the perfect window to experience this raw and spiritual landscape — where every step feels both grounded in nature and elevated in meaning.
+      <p class="trek-snippet" id="miyarvalleySnippet">
+Step into one of the Himalayas' most untouched valleys, where vast green meadows stretch beneath towering granite peaks and countless glacial streams carve their way across the landscape. Experience thrilling river crossings, vibrant wildflower blooms, and the unique cultural blend of Hindu and Buddhist traditions that define Lahaul. Long cherished by mountaineers, Miyar Valley offers a raw, authentic Himalayan adventure far from the crowds.
       </p>
       <button class="read-more-btn" type="button">Read more →</button>
     </div>
 
-    <a href="/trek/gaumukh-tapovan-trek" class="btn-book">
+    <a href="/trek/miyar-valley-trek" class="btn-book">
       Register Now
     </a>
   </div>
