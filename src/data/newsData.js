@@ -1,15 +1,17 @@
 export const news = [
 
   {
-  title: "Thunderstorms, lightning, hail, and squally winds (50-60 kmph) are expected in isolated areas.",
+  title: "The India Meteorological Department (IMD) has issued Orange and Yellow alerts across the western Himalayan region, warning trackers and travelers against active landslide corridors and flash-flood-prone river valleys",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
   `
   <ul>
-  <li>• A new spell of active weather with gusty winds (40-60 kmph) is likely in the Northwest region.</li>
-  <li>• Isolated areas in Uttarakhand & Himachal are likely to see thunderstorms and lightning, according to <strong>IMD Warnings</strong>.</li>
+  <li>• <strong>Himachal Pradesh:</strong> The Southwest Monsoon has fully blanketed the region, leading to widespread rainfall, low tracking visibility, and critical highway blockages. <strong><a href="https://mausam.imd.gov.in/Forecast/mcmarq/mcmarq_data/Southwest%20monsoon%202026%20.pdf">See Details</a></strong>.</li>
+  <li>• <strong>Uttarakhand:</strong> Yellow Alert for widespread light-to-moderate rain with isolated heavy downpours.</li>
+  <li>• <strong>Kashmir:</strong> Yellow Alert for thunderstorms, lightning, and strong gusty winds.</li>
+  <li>• <strong>Ladakh:</strong> dry or minor isolated cloud cover with zero severe weather warnings.</li>
 `
 },
 
@@ -38,19 +40,19 @@ export const news = [
 },
 
 {
-  title: "CONFIRMED DEPARTURE DATES JUN-AUG",
+  title: "CONFIRMED DEPARTURE DATES JUL-SEP",
   type: "news",
   head: "Trek%20Updates", 
   thumbnail: "/images/main/brand-logo.png", // 👈 put IMD logo here
   details:
   `
 <ul>
-  <li>• 20 - 26 Jun: Miyar Valley Trek. <strong><a href="/trek/miyar-valley-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 20 - 23 Jun: Beas Kund Trek. <strong><a href="/trek/beas-kund-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 22 - 26 Jun: Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 06 - 10 Jul: Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 08 - 18 Aug: Pin Parvati Pass Trek. <strong><a href="/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• 15 - 21 Jul: Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (18 - 24 Jul); (15 - 21 Aug); (12 - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (08 - 10 Jul): Beas Kund Trek. <strong><a href="/trek/beas-kund-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (06 - 10 Jul): Brighu Lake Trek. <strong><a href="/trek/brighu-lake-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (20 - 24 Jul); (10 - 14 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (08 - 18 Aug): Pin Parvati Pass Trek. <strong><a href="/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (15 - 21 Jul); (12 - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   </ul>
 `
 },

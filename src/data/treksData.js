@@ -68,6 +68,21 @@ export const treks = [
       { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
           ],
 
+     confirmedDepartures: [
+  {
+    date: "2026-08-23",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "confirmed"
+  },
+  {
+    date: "2026-09-06",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "confirmed"
+  },
+],
+
     highlights: [
       "Explore the heart of Ladakh’s Hemis National Park, home to rare wildlife like the snow leopard",
       "Cross the iconic Kongmaru La (17,100 ft) with breathtaking views of the Karakoram range",
@@ -1317,6 +1332,27 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
    ],
 
+   confirmedDepartures: [
+  {
+    date: "2026-07-11",
+    showOnHomepage: true,
+    seatsLeft: 0,
+    status: "confirmed"
+  },
+  {
+    date: "2026-08-15",
+    showOnHomepage: true,
+    seatsLeft: 6,
+    status: "upcoming"
+  },
+  {
+    date: "2026-09-12",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
+],
+   
     highlights: [
       "Stunning crossover from the green Kinnaur to the arid Spiti Valley",
       "Pin Bhaba Pass at 16,105 ft with panoramic mountain views",
@@ -1771,10 +1807,30 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "20 Jun - 26 Jun", start: "2026-06-20", end: "2026-06-26" },
   { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+],
+
+confirmedDepartures: [
+  {
+    date: "2026-07-18",
+    showOnHomepage: true,
+    seatsLeft: 5,
+    status: "confirmed"
+  },
+  {
+    date: "2026-08-15",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "upcoming"
+  },
+  {
+    date: "2026-09-12",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "upcoming"
+  }
 ],
 
   highlights: [
@@ -2013,9 +2069,6 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
     dates: [
 
-  { label: "15 Jun - 19 Jun", start: "2026-06-15", end: "2026-06-19" },
-  { label: "22 Jun - 26 Jun", start: "2026-06-22", end: "2026-06-26" },
-
   { label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
   { label: "20 Jul - 24 Jul", start: "2026-07-20", end: "2026-07-24" },
 
@@ -2033,13 +2086,19 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
 confirmedDepartures: [
   {
-    date: "2026-06-22",
+    date: "2026-07-06",
     showOnHomepage: true,
-    seatsLeft: 5,
+    seatsLeft: 0,
     status: "confirmed"
   },
   {
-    date: "2026-07-06",
+    date: "2026-07-20",
+    showOnHomepage: true,
+    seatsLeft: 6,
+    status: "upcoming"
+  },
+  {
+    date: "2026-08-10",
     showOnHomepage: true,
     seatsLeft: 10,
     status: "upcoming"
@@ -2226,7 +2285,6 @@ confirmedDepartures: [
   { label: "15 Aug - 20 Aug", start: "2026-08-15", end: "2026-08-20" },
   
   { label: "13 Sep - 18 Sep", start: "2026-09-13", end: "2026-09-18" },
-
   
   { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
   
@@ -2554,11 +2612,7 @@ confirmedDepartures: [
 
     dates: [
 
-{ label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
-{ label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
-
 { label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
-{ label: "27 Jul - 30 Jul", start: "2026-07-27", end: "2026-07-30" },
 
   ],
 
@@ -2748,11 +2802,18 @@ description:
 
   dates: [   
 
-{ label: "15 Jun - 19 Jun", start: "2026-06-15", end: "2026-06-19" },
-
 { label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
 
   ],
+
+   confirmedDepartures: [
+  {
+    date: "2026-07-06",
+    showOnHomepage: true,
+    seatsLeft: 5,
+    status: "confirmed"
+  },
+],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
@@ -3044,9 +3105,9 @@ description:
 
   confirmedDepartures: [
   {
-    date: "2026-06-20",
+    date: "2026-07-08",
     showOnHomepage: true,
-    seatsLeft: 0,
+    seatsLeft: 4,
     status: "confirmed"
   },
 ],
@@ -3253,10 +3314,7 @@ description:
 
   dates: [
 
-{ label: "08 Jun - 11 Jun", start: "2026-06-08", end: "2026-06-11" },
-{ label: "22 Jun - 25 Jun", start: "2026-06-22", end: "2026-06-25" },
-
-{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
+//{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
 
   ],
 
@@ -3802,8 +3860,6 @@ questions: [
 
     dates: [      
 
-      { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
-
       { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
       { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
@@ -4075,8 +4131,6 @@ questions: [
 
     dates: [
 
-      { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
-
       { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
 
       { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
@@ -4308,13 +4362,13 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     activeDeparture: {
-    date: "2026-05-24",
-    label: "04 May - 08 May",
+    //date: "2026-05-24",
+    //label: "04 May - 08 May",
   },
 
     dates: [   
 
-{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
+//{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
 
   ],
@@ -4820,10 +4874,6 @@ waypoints: [
   //},
 
     dates: [
-  
-  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
-  { label: "14 Jun - 20 Jun", start: "2026-06-14", end: "2026-06-20" },
-
   { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
   { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
@@ -5078,8 +5128,6 @@ waypoints: [
 
     dates: [
       
-      { label: "06 Jun - 13 Jun", start: "2026-06-06", end: "2026-06-13" },
-
       { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
 
     ],
@@ -5091,12 +5139,6 @@ waypoints: [
     seatsLeft: 4,
     status: "confirmed"
   },
-  {
-    date: "2026-06-06",
-    showOnHomepage: false,
-    seatsLeft: 6,
-    status: "upcoming"
-  }
 ],
 
     highlights: [
@@ -5343,8 +5385,6 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
 
   dates: [
       
-      { label: "06 Jun - 12 Jun", start: "2026-06-06", end: "2026-06-12" },
-
       { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
     ],
@@ -5356,12 +5396,6 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
     seatsLeft: 0,
     status: "confirmed"
   },
-  {
-    date: "2026-06-06",
-    showOnHomepage: false,
-    seatsLeft: 10,
-    status: "upcoming"
-  }
 ],
 
   highlights: [
@@ -5641,7 +5675,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
 
-      { label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
+      //{ label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
 
     ],
 
@@ -5810,8 +5844,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-    { label: "06 Jun - 13 Jun", start: "2026-06-08", end: "2026-06-13" },
-    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },  
+    //{ label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },  
     ],
 
     highlights: [
@@ -5992,7 +6025,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
     dates: [
 
-  { label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+  //{ label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
 ],
 
     highlights: [
@@ -6213,10 +6246,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [
       
-      { label: "14 Jun - 19 Jun", start: "2026-06-14", end: "2026-06-19" },
-
       { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
-
       { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
   ],
 
@@ -6411,7 +6441,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 
   dates: [ 
 
-{ label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
+//{ label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
 
 ],
 
@@ -7635,11 +7665,7 @@ waypoints: [
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
 
   dates: [
-
-    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
-    
     { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
-
     { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
   ],
 
@@ -8579,11 +8605,8 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
     dates: [
-
-    { label: "13 Jun - 20 Jun", start: "2026-06-13", end: "2026-06-20" },
     
     { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
-
     { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
     { label: "17 Oct - 24 Oct", start: "2026-10-17", end: "2026-10-24" },
     
@@ -9213,7 +9236,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   dates: [
 
-  { label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+  //{ label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
 ],
 
   highlights: [
@@ -10324,7 +10347,7 @@ waypoints: [
 
 <br>For many, Goecha La is not just a trek — it is a pilgrimage to the throne of Kanchenjunga. A journey of scale, silence, perseverance, and pure Himalayan drama that stays etched in memory long after the trail ends.`    },
 
-    price: 20400,
+    price: 21900,
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 5000, 
@@ -10337,9 +10360,11 @@ waypoints: [
 
     dates: [
       
-
-//{ label: "30 Apr - 09 May", start: "2026-04-30", end: "2026-05-09" },
-//{ label: "14 May - 23 May", start: "2026-05-14", end: "2026-05-23" },
+  { label: "28 Sep - 07 Oct", start: "2026-09-28", end: "2026-10-07" },
+  { label: "12 Oct - 21 Oct", start: "2026-10-12", end: "2026-10-21" },
+  { label: "26 Oct - 04 Nov", start: "2026-10-26", end: "2026-11-04" },
+  { label: "16 Nov - 25 Nov", start: "2026-11-16", end: "2026-11-25" },
+  { label: "07 Dec - 16 Dec", start: "2026-12-07", end: "2026-12-16" },
 
     ],
 
