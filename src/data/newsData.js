@@ -57,23 +57,6 @@ export const news = [
 `
 },
   
-  {
-  title: "Best Summer Treks in the Himalayas",
-  type: "articles",
-  head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766068757/everest_wdjvrw.jpg",
-  link: "/blogs/best-spring-treks-himalayas/",
-  details: '"SUMMER IN THE HIMALAYAS UNFOLDS THROUGH MOVEMENT - THE SEASON TREKKERS WAIT FOR".<br>High trails that stayed untouched for months begin to see life again. Shepherds move upward with their flocks, following routes that have existed long before trekking became a thing. Campsites that lay buried under snow slowly reappear. The mountains don’t “change season” — they start functioning again. Read <strong><a href="/blogs/summer-treks-himalayas-may-june/" target="_blank" rel="noopener noreferrer">full article</a></strong>'
-},
-{
-  title: "Kumaon Himalayas",
-  type: "articles",
-  head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1765545961/nanda-devi-east-base-camp-trek-hero_yg4zcf.webp",
-  link: "/blogs/kumaon-himalayas-trekking-guide/",
-  details: `"SOME TREKS SHOW YOU THE HIMALAYAS. 
- KUMAON MAKES YOU WALK LONG ENOUGH TO UNDERSTAND THEM".<br>Explore the Kumaon Himalayas with this complete trekking and travel guide. Discover offbeat treks, Nanda Devi region, hidden valleys, ghost villages, and the best trekking routes in Kumaon with Planethimalayas. Read <strong><a href="/blogs/kumaon-himalayas-trekking-guide/" target="_blank" rel="noopener noreferrer">full article</a></strong>`
-},
 {
   title: "Best Monsoon Treks in the Himalayas (July–September): Valleys, High Passes & The Rain Shadow Himalayas",
   type: "articles",
@@ -81,5 +64,21 @@ export const news = [
   thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535531/kgl-view5_wr8e8k.jpg",
   link: "/blogs/healthy-himalayan-trek/",
   details: '"MONSOON ARRIVES DIFFERENTLY IN THE HIMALAYAS"<br>Unlike summer, where the mountains gradually reopen after winter, monsoon transforms the entire range into two completely different worlds at the same time. Read <strong><a href="/blogs/monsoon-treks-himalayas-july-september/" target="_blank" rel="noopener noreferrer">full guide</a></strong>',
+},
+{
+  title: "Layering Clothing for Extreme Himalayan Microclimates",
+  type: "articles",
+  head: "Articles",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1775905177/Layering-slide5_f8xfty.webp",
+  link: "/blogs/healthy-himalayan-trek/",
+  details: 'The Himalayas are not just cold — they are unpredictable. Within a single day, you can experience warm sunshine, freezing winds, sudden snowfall, and sub-zero nights. This is what makes microclimates in the mountains so challenging. This is exactly why layering clothing is not just a comfort strategy — it is a survival skill. Read <strong><a href="/blogs/layering-clothing-himalayan-microclimates/" target="_blank" rel="noopener noreferrer">full guide</a></strong>',
+},
+{
+  title: "Trekking Poles: Do You Really Need Them in the Himalayas?",
+  type: "articles",
+  head: "Articles",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1775908179/lfto-lifesystems-carbon-16_l9etoh.avif",
+  link: "/blogs/healthy-himalayan-trek/",
+  details: 'At first glance, trekking poles might seem optional — even unnecessary. Many beginners assume they’re just an accessory. But once you spend long days walking on steep Himalayan terrain, you quickly realize they are one of the most underrated tools in trekking. From reducing strain on your knees to improving balance on unpredictable trails, trekking poles are not about convenience — they are about efficiency, safety, and long-term endurance. In this guide, we break down how trekking poles actually work, when they matter most, and how to use them correctly in real mountain conditions. Read <strong><a href="/blogs//trekking-poles-benefits-himalayas/" target="_blank" rel="noopener noreferrer">full guide</a></strong>',
 },
 ]; 
