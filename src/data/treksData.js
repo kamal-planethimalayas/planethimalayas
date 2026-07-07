@@ -2087,7 +2087,7 @@ confirmedDepartures: [
 confirmedDepartures: [
   {
     date: "2026-07-06",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 0,
     status: "confirmed"
   },
@@ -2809,8 +2809,8 @@ description:
    confirmedDepartures: [
   {
     date: "2026-07-06",
-    showOnHomepage: true,
-    seatsLeft: 5,
+    showOnHomepage: false,
+    seatsLeft: 0,
     status: "confirmed"
   },
 ],
@@ -3106,8 +3106,8 @@ description:
   confirmedDepartures: [
   {
     date: "2026-07-08",
-    showOnHomepage: true,
-    seatsLeft: 4,
+    showOnHomepage: false,
+    seatsLeft: 0,
     status: "confirmed"
   },
 ],

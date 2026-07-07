@@ -53,6 +53,7 @@ export const news = [
   <li>• (20 - 24 Jul); (10 - 14 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (08 - 18 Aug): Pin Parvati Pass Trek. <strong><a href="/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (15 - 21 Jul); (12 - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (23 - 29 Aug); (06 - 12 Sep): Markha Valley Trek. <strong><a href="/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   </ul>
 `
 },

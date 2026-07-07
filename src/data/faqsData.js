@@ -23,7 +23,6 @@ export const generalFAQs = [
       question: "Mountain Manners - Responsible Trekking (LNT Principles & Best Practices)",
       answer: `<p>Whether you're trekking in the Himalayas or anywhere in nature, it's our collective responsibility to respect, protect, and preserve the mountains. That’s where LNT (Leave No Trace) principles come in.<br><strong><a href='https://www.planethimalayas.com/blogs//mountain-manners' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
     },
-
     {
       question: "Selecting the Perfect Himalayan Trek for You",
       answer: `<p>Choose a trail that matches your fitness, experience, and goals. With hundreds of treks in the Indian Himalayas — from snowy summits to wildflower meadows — it can be overwhelming to decide which one’s right for you.<br><strong><a href='https://www.planethimalayas.com/blogs/healthy-himalayan-trek' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.</p>`
@@ -45,16 +44,16 @@ export const generalFAQs = [
       answer: `Packing your backpack correctly can make a huge difference on a Himalayan trek — from comfort and balance to quick access and weather protection. A poorly packed bag leads to back pain, frustration, and unnecessary energy drain. Learn how to pack your trekking backpack the smart way. Discover backpack zones, weight distribution, waterproofing & common mistakes to avoid on Himalayan treks.<br><strong><a href='https://www.planethimalayas.com/blogs/packing-backpack' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
     {
-  question: "Trekking poles: do they really reduce fatigue and injuries?",
-  answer: `Yes — when used correctly, trekking poles significantly reduce both fatigue and the risk of injuries, especially on long Himalayan treks.<br><br>
+      question: "Trekking poles: do they really reduce fatigue and injuries?",
+      answer: `Yes — when used correctly, trekking poles significantly reduce both fatigue and the risk of injuries, especially on long Himalayan treks.<br><br>
 
-They work by distributing load across your arms and shoulders instead of putting constant pressure on your knees and legs. This is particularly important during descents, where most strain and joint stress occur. Poles also improve balance on uneven terrain like rocks, snow, or loose gravel, reducing the chances of slips and falls.<br><br>
+      They work by distributing load across your arms and shoulders instead of putting constant pressure on your knees and legs. This is particularly important during descents, where most strain and joint stress occur. Poles also improve balance on uneven terrain like rocks, snow, or loose gravel, reducing the chances of slips and falls.<br><br>
 
-<p>However, their effectiveness depends on proper technique, timing, and consistent use throughout the trek — not just when you're already tired.</p>
+      <p>However, their effectiveness depends on proper technique, timing, and consistent use throughout the trek — not just when you're already tired.</p>
 
-<p><strong>👉 Want to understand how trekking poles actually improve performance and safety in real mountain conditions? <a href="/blogs/trekking-poles-benefits-himalayas">Click here to read the complete guide</a>.</strong></p>`
-},
-{
+      <p><strong>👉 Want to understand how trekking poles actually improve performance and safety in real mountain conditions? <a href="/blogs/trekking-poles-benefits-himalayas">Click here to read the complete guide</a>.</strong></p>`
+    },
+    {
       question: "What are the different kind of Jackets and How to choose the right Jacket for your Himalayan Adventure",
       answer: `When you step into the Himalayas, your jacket is your shield against cold winds, snowfall, and unpredictable mountain weather. The right trekking jacket keeps you warm, dry, and comfortable — but with so many options (down, synthetic, fleece, waterproof shells), choosing can be confusing. Here's all that you need to know about trekking jackets — from waterproof vs synthetic vs down jackets, to proper layering, care, washing, drying, and storage. Learn how to choose the right jacket for your Himalayan adventure.<br><strong><a href='https://www.planethimalayas.com/trekking-jackets-guide' target='_blank' rel='noopener noreferrer'>Click here</a></strong> to read the full article.`
     },
@@ -75,21 +74,21 @@ They work by distributing load across your arms and shoulders instead of putting
       answer: `Choose lightweight, breathable, moisture-wicking, and quick-dry clothing. Avoid cotton as it retains moisture. Opt for trekking pants, t-shirts, and jackets suitable for changing weather conditions. Comfortable, flexible clothing that allows movement is ideal.`
     },
     {
-  question: "How should you layer clothing across different Himalayan seasons?",
-  answer: `Layering is not just about adding clothes — it’s about adapting intelligently to changing mountain conditions. Each season in the Himalayas behaves differently, so your layering strategy must adjust accordingly:<br><br>
+      question: "How should you layer clothing across different Himalayan seasons?",
+      answer: `Layering is not just about adding clothes — it’s about adapting intelligently to changing mountain conditions. Each season in the Himalayas behaves differently, so your layering strategy must adjust accordingly:<br><br>
 
-<ul>
-<p><strong>🌤️ Summer Treks:</strong> Days can feel surprisingly warm under direct sun, but wind exposure and altitude still bring sudden chills. Start with a breathable base layer (quick-dry t-shirt), keep a light fleece handy, and always carry a windproof jacket for ridgelines and evenings.</p>
+      <ul>
+      <p><strong>🌤️ Summer Treks:</strong> Days can feel surprisingly warm under direct sun, but wind exposure and altitude still bring sudden chills. Start with a breathable base layer (quick-dry t-shirt), keep a light fleece handy, and always carry a windproof jacket for ridgelines and evenings.</p>
 
-<p><strong>🌧️ Monsoon Treks:</strong> Moisture management becomes critical. Use a quick-dry base layer, a light insulating layer if needed, and a reliable waterproof outer shell (jacket + pants). Staying dry is more important than staying warm.</p>
+      <p><strong>🌧️ Monsoon Treks:</strong> Moisture management becomes critical. Use a quick-dry base layer, a light insulating layer if needed, and a reliable waterproof outer shell (jacket + pants). Staying dry is more important than staying warm.</p>
 
-<p><strong>❄️ Autumn & Winter Treks:</strong> Cold becomes constant and more intense. Use a thermal base layer, an insulating mid-layer (fleece or down), and a windproof/waterproof outer shell. Accessories like gloves, woolen caps, and insulated socks are essential to prevent heat loss.</p>
-</ul>
+      <p><strong>❄️ Autumn & Winter Treks:</strong> Cold becomes constant and more intense. Use a thermal base layer, an insulating mid-layer (fleece or down), and a windproof/waterproof outer shell. Accessories like gloves, woolen caps, and insulated socks are essential to prevent heat loss.</p>
+      </ul>
 
-<p>The key is not just what you wear, but when you adjust — adding or removing layers based on movement, wind, and temperature shifts.</p>
+      <p>The key is not just what you wear, but when you adjust — adding or removing layers based on movement, wind, and temperature shifts.</p>
 
-<p><strong>👉 Want to truly master layering for extreme Himalayan microclimates? <a href="/blogs/layering-clothing-himalayan-microclimates">Click here to read the complete guide</a>.</strong></p>`
-},
+      <p><strong>👉 Want to truly master layering for extreme Himalayan microclimates? <a href="/blogs/layering-clothing-himalayan-microclimates">Click here to read the complete guide</a>.</strong></p>`
+    },
     {
       question: "Why is it important to keep your feet dry and smell-free during a trek?",
       answer: `Dry feet prevent blisters, fungal infections, cold-related injuries, and bad odor. Wet or sweaty feet can reduce grip, increase discomfort, and affect endurance. Proper foot care ensures comfort, safety, and better overall trekking experience.`
@@ -97,10 +96,10 @@ They work by distributing load across your arms and shoulders instead of putting
     {
       question: "How to keep your feet dry and smell-free during treks in different seasons?",
       answer: `<ul>
-<li><strong>Summer:</strong> Wear moisture-wicking socks, breathable shoes, and change socks midday if possible.</li>
-<li><strong>Monsoon:</strong> Waterproof trekking shoes, gaiters, quick-dry socks, and dry shoes during breaks.</li>
-<li><strong>Autumn/Winter:</strong> Insulated waterproof boots, thermal socks, avoid tight shoes, and dry feet after washing or crossing streams.</li>
-</ul>`
+      <li><strong>Summer:</strong> Wear moisture-wicking socks, breathable shoes, and change socks midday if possible.</li>
+      <li><strong>Monsoon:</strong> Waterproof trekking shoes, gaiters, quick-dry socks, and dry shoes during breaks.</li>
+      <li><strong>Autumn/Winter:</strong> Insulated waterproof boots, thermal socks, avoid tight shoes, and dry feet after washing or crossing streams.</li>
+      </ul>`
     },
 
   ]
@@ -119,6 +118,20 @@ They work by distributing load across your arms and shoulders instead of putting
   "question": "Which are the best treks in Kumaon Himalayas of Uttarakhand?",
   "answer": `<p>The Kumaon Himalayas of Uttarakhand offer an incredible variety of treks, ranging from easy scenic hikes to challenging high-altitude expeditions. Some of the most popular treks include <strong>Khaliya Top, Ranthan Kharak, Pindari Glacier, Kafni Glacier, Nanda Devi East Base Camp, Sunderdhunga Valley, Ralamdhura, and Brijganga Pass</strong>. Each trek showcases pristine alpine meadows, dense forests, glacial streams, and awe-inspiring Himalayan peaks. Kumaon treks are distinct from Garhwal routes with their quieter trails, verdant valleys, and offbeat, raw landscapes, giving trekkers a truly immersive experience in the heart of the Himalayas.</p>
 <p>To know more about the Kumaon Himalayas and the treks we operate and organize there, <strong><a href="https://planethimalayas.com/blogs/kumaon-himalayas-trekking-guide" target="_blank" rel="noopener noreferrer">click here to explore our complete guide</a></strong>.</p>`
+},
+{
+  "question": "Which are the best summer treks in the Himalayas?",
+  "answer": `<p>Summer in the Himalayas doesn’t arrive quietly — it unfolds through movement.</p>
+  <p>High trails that stayed untouched for months begin to see life again. Shepherds move upward with their flocks, following routes that have existed long before trekking became a thing. Campsites that lay buried under snow slowly reappear. The mountains don’t “change season” — they start functioning again.</p>
+  <p>By mid-May, the lower and mid-altitude regions are fully accessible, but higher up, the story is very different. Snow hasn’t disappeared — it has just started losing its hold. Southern slopes clear out faster under longer sunlight, while northern faces continue to store snow, sometimes well into late summer. This uneven melt is what makes the terrain unpredictable and exciting at the same time.</p>
+  <p>And this is where summer trekking becomes real. To know more about the summer treks in the Himalayas and the treks we operate, <strong><a href="https://planethimalayas.com/blogs//summer-treks-himalayas-may-june" target="_blank" rel="noopener noreferrer">click here to explore our complete guide</a></strong>.</p>`
+},
+{
+  "question": "Which are the best monsoon treks in the Himalayas?",
+  "answer": `<p>The best monsoon treks in the Himalayas are generally found in the rain-shadow regions of Himachal Pradesh, Ladakh, and parts of Kashmir, where the southwest monsoon has much less impact. While heavy rainfall makes many trails in Uttarakhand and Sikkim prone to landslides, flash floods, slippery terrain, and unstable river crossings, trans-Himalayan regions remain comparatively dry and ideal for trekking.</p>
+  <p>Some of the best Himalayan monsoon treks include <strong><a href="https://www.planethimalayas.com/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">Pin Bhaba Pass</a>, <a href="https://www.planethimalayas.com/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">Pin Parvati Pass</a>, <a href="https://www.planethimalayas.com/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">Hampta Pass</a>, <a href="https://www.planethimalayas.com/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">Miyar Valley</a>, <a href="https://www.planethimalayas.com/trek/deo‑tibba‑basecamp‑trek" target="_blank" rel="noopener noreferrer">Deo Tibba Base Camp</a></strong> in Himachal Pradesh; <strong><a href="https://www.planethimalayas.com/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">Markha Valley</a>, <a href="https://www.planethimalayas.com/trek/rumtse-tso-moriri-trek" target="_blank" rel="noopener noreferrer">Rumtse to Tso Moriri</a>, <a href="https://www.planethimalayas.com/trek/nubra-valley-trek" target="_blank" rel="noopener noreferrer">Nubra Valley</a>,</strong> in Ladakh; and the spectacular <strong><a href="https://www.planethimalayas.com/trek/kashmir-great-lakes-trek" target="_blank" rel="noopener noreferrer">Kashmir Great Lakes</a></strong> in Kashmir.</p>
+  <p>What makes these treks special is the dramatic geographical transition they offer. Many routes begin in lush, rain-fed valleys before crossing into the cold desert landscapes of Spiti or Ladakh, showcasing the remarkable effect of the Himalayan rain-shadow. During this season, high passes stabilize, glaciers become more accessible, alpine meadows flourish, and the contrast between green valleys and barren mountain deserts creates some of the most diverse and rewarding trekking experiences anywhere in the Himalayas.</p>
+  <p>To know more about the monsoon treks in the Himalayas and the treks we operate, <strong><a href="https://planethimalayas.com/blogs//monsoon-treks-himalayas-july-september" target="_blank" rel="noopener noreferrer">click here to explore our complete guide</a></strong>.</p>`
 }
     ]
 },

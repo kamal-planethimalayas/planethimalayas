@@ -71,5 +71,16 @@ export const testimonials = [
     rating: 5,
     text:
       "We had an amazing experience with Planethimalayas organized by Kamal sir. Everything from stay and food to overall arrangements was perfectly managed. Manish, Satish and Ashish were extremely supportive throughout the trip. We completed Tungnath and Deoriatal treks, and the food was simple, local, and delicious. The beautiful Sari village visit was truly beautiful my parents even walked 5 km, which was a big surprise for us!\nThe itinerary was very thoughtfully planned and suitable for my parents as well as my little one. Highly recommended for all kind of treks in the Himalayan ranges!"
+  },
+  {
+    id: 8,
+    name: "Abhay Poddar",
+    location: "Pune",
+    image:
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1774362994/Beas-kund-trek1_oa68zg.jpg",
+    //instagram: "yashesh_vora",
+    rating: 5,
+    text:
+      "The experience with Planethimalays on the Beas Kund Trek was really Great. I took a group of College students on a Himalayan Trek for the 1st Time. Everything was planned very well. The 2 female guides Raksha and Deepika ensured the group especially the girls were made comfortable. The safety of the group, food and tents were all araangd very well. Looking forward to trekking with them next year too."
   }
 ];
