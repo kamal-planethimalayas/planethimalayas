@@ -208,9 +208,293 @@ export const treks = [
   ],
 },
 
-
     faqsLink: "/faqs-and-articles",
   },
+
+  {
+    id: "markha-valley-2-passes-trek",
+    name: "Markha Valley 2 Passes Trek",
+    tags: ["intermediate", "pro", "pass", "crossover", "teahouse"],
+    difficulty: ["moderate", "difficult"],
+    season: ["monsoon"],
+    month: ["july", "august", "september"],
+    region: "ladakh",
+    duration: "8 Nights / 9 Days",
+
+    coordinates: [
+      [34.1526, 77.5771],   // Leh
+      [34.0868, 77.4505],   // Zingchen
+      [34.0815, 77.4210],   // Rumbak
+      [34.0628, 77.3852],   // Ganda La Base
+      [34.0062, 77.3296],   // Ganda La
+      [33.9840, 77.3035],   // Shingo
+      [33.9700, 77.2600],   // Skiu
+      [33.9225, 77.3455],   // Sara
+      [33.8640, 77.5030],   // Markha
+      [33.7802, 77.6115],   // Hankar
+      [33.7414, 77.6651],   // Nimaling
+      [33.7040, 77.6985],   // Kongmaru La
+      [33.8644, 77.5826],   // Hemis
+      [34.1526, 77.5771],   // Leh
+    ],
+
+    heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+
+    heroImages: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+    ],
+
+    subtitle: "Cross Two High Himalayan Passes Through the Heart of Ladakh",
+
+    seo: {
+      title: "Markha Valley 2 Passes Trek | Ganda La & Kongmaru La | Planethimalayas",
+      description:
+        "Experience the complete Markha Valley 2 Passes Trek crossing both Ganda La (16,100 ft) and Kongmaru La (17,100 ft). Explore Hemis National Park, remote Ladakhi villages, wildlife, monasteries and spectacular cold-desert landscapes over 9 unforgettable days."
+    },
+
+    overview: {
+      facts: [
+        { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+        { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
+        { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
+        { emoji: "🥾", label: "Trek Distance", value: "72–75 km" },
+        { emoji: "🌤️", label: "Best Time", value: "July to September" },
+        { emoji: "🗺️", label: "Region", value: "Hemis National Park, Ladakh" },
+        { emoji: "📍", label: "Start Point", value: "Zingchen (near Leh)" },
+        { emoji: "🏁", label: "End Point", value: "Hemis (near Leh)" },
+        { emoji: "🧥", label: "Cloakroom Facility", value: "Available at Leh" },
+      ],
+
+      snippet:
+`The Markha Valley 2 Passes Trek transforms Ladakh's most iconic trekking route into an even grander Himalayan expedition. Instead of entering directly through Skiu, this extended itinerary first ventures into the spectacular Zingchen Valley, crossing the beautiful <b>Ganda La Pass (16,100 ft)</b> before descending into the Markha Valley itself. The result is a far more complete journey through the landscapes, wildlife, culture and geography of Hemis National Park.
+
+Beginning with two days of acclimatization in Leh, the adventure starts with a scenic drive to Zingchen, where lush valleys unexpectedly emerge from Ladakh's barren mountains. Walking through narrow gorges, willow-lined streams and remote grazing lands, the trail enters one of India's finest wildlife habitats. Hemis National Park shelters the elusive Snow Leopard, Himalayan Blue Sheep, Ladakhi Urial, Tibetan Wolf, Lynx, Red Fox, Marmots and numerous Himalayan birds, making every day an exciting opportunity for wildlife enthusiasts.
+
+The climb to <b>Ganda La</b> introduces trekkers to magnificent panoramic views of the Stok Range, distant Zanskar peaks and the vast wilderness that stretches across central Ladakh. Descending through Shingo, the trail finally joins the classic Markha Valley route, allowing trekkers to experience the best of both worlds in a single expedition.
+
+From here, the trail follows the legendary Markha River through traditional villages like Sara, Markha and Hankar, where centuries-old monasteries, ancient forts, mani walls and prayer wheels reflect Ladakh's deeply rooted Buddhist heritage. Friendly homestays, barley fields, grazing yaks and smiling villagers provide a warm cultural contrast to the stark cold-desert surroundings.
+
+As the valley narrows and climbs higher, dramatic landscapes unfold towards Nimaling — one of the most beautiful high-altitude campsites in the Indian Himalayas. Surrounded by endless meadows beneath the towering Kang Yatse massif, this campsite alone becomes one of the defining memories of the expedition.
+
+The final challenge comes with the ascent of <b>Kongmaru La (17,100 ft)</b>, where colourful prayer flags welcome trekkers to breathtaking views across the Karakoram, Ladakh and Zanskar ranges before descending through spectacular gorges into Hemis.
+
+Unlike the standard Markha Valley Trek, this extended version crosses <b>two magnificent Himalayan passes</b>, explores a much larger section of Hemis National Park and offers greater landscape diversity without sacrificing the cultural richness that has made Markha Valley famous worldwide.
+
+From lush hidden valleys and alpine grazing grounds to barren mountains, crystal-clear rivers, ancient monasteries and dramatic Himalayan passes, the Markha Valley 2 Passes Trek is perhaps the most complete trekking experience Ladakh has to offer.`
+    },
+
+    price: 34900,
+    priceNote: "* Leh to Leh",
+    addons: {
+      transport: null,
+      transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
+      offloadingbag: 7000,
+      offloadingNote: "* Maximum weight 9kg/bag"
+    },
+
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to packed lunch on Day 9",
+
+    highlights: [
+      "Cross two spectacular Himalayan passes — Ganda La (16,100 ft) and Kongmaru La (17,100 ft).",
+      "Experience the complete Markha Valley by entering through the scenic Zingchen Valley.",
+      "Trek through Hemis National Park, India's finest habitat for the elusive Snow Leopard.",
+      "Walk across dramatic gorges, alpine meadows, river valleys and Ladakh's iconic cold desert.",
+      "Visit authentic Ladakhi villages including Rumbak, Sara, Markha and Hankar.",
+      "Camp beneath Kang Yatse at the breathtaking Nimaling meadows.",
+      "Explore centuries-old monasteries, chortens, mani walls and ancient fort ruins.",
+      "Spot Himalayan wildlife including Blue Sheep, Marmots, Golden Eagles and Lammergeiers.",
+      "Stay in traditional tea houses and experience genuine Ladakhi hospitality.",
+      "A constantly changing crossover trek with no repetitive trails from start to finish."
+    ],
+
+        itinerary: [
+  {
+    day: 1,
+    title: "Arrival in Leh (11,500 ft / 3,500 m)",
+    details:
+      "Arrive at Leh Airport and transfer to your hotel. Although the excitement of being in Ladakh tempts many travellers to start exploring immediately, today is reserved entirely for acclimatization. Leh sits at an altitude of over 11,500 ft, and allowing your body sufficient time to adapt greatly reduces the risk of Acute Mountain Sickness (AMS). Spend the day resting, drinking plenty of water and taking only short leisurely walks around Leh Market if you feel comfortable. In the evening, meet your trek leader for a detailed briefing about the expedition, route, weather conditions and equipment check. This is also a good opportunity to clarify any last-minute questions before beginning your journey into the mountains. Overnight stay at a comfortable hotel in Leh."
+  },
+
+  {
+    day: 2,
+    title: "Acclimatization & Sightseeing around Leh",
+    details:
+      "A second acclimatization day allows your body to adapt naturally before spending several days above 14,000 ft. Rather than remaining indoors, spend the day exploring some of Leh's cultural landmarks including Shanti Stupa, Leh Palace, Thiksey Monastery, Shey Palace and the famous Sangam where the emerald waters of the Zanskar merge with the mighty Indus River. Wander through the bustling Leh Bazaar, browse local handicraft shops, enjoy authentic Ladakhi cuisine and experience the unique blend of Tibetan and Himalayan culture that defines the region. Avoid travelling to any higher passes today and conserve your energy for tomorrow when the trekking adventure truly begins. Overnight stay at your hotel in Leh."
+  },
+
+  {
+    day: 3,
+    title: "Leh → Zingchen (Drive 1 hr) → Yurutse (13,900 ft / 4,240 m) | Trek Distance: 8–9 km | 3–4 hrs",
+    details:
+      "After an early breakfast, drive for about an hour to Zingchen, the starting point of your trek inside the spectacular Hemis National Park. The drive passes through Ladakh's barren landscapes before suddenly entering the greener Zingchen Valley, where willow trees, grazing pastures and the Rumbak River create a refreshing contrast against the surrounding mountains. After completing park formalities, begin a gradual ascent through a beautiful gorge renowned as one of the best habitats for the elusive Snow Leopard. Although sightings are rare, the valley is rich with wildlife including Himalayan Blue Sheep (Bharal), Marmots, Lammergeiers, Golden Eagles, Red Foxes and occasionally Tibetan Wolves. The trail passes through the picturesque village of Rumbak, where a women-run tea house offers a wonderful place to pause and enjoy traditional Ladakhi hospitality before continuing uphill. As the valley widens, sweeping views of the Stok Range accompany you until you reach Yurutse, one of the highest inhabited villages in the region. Spend the evening with a local Ladakhi family, enjoy a freshly prepared home-cooked dinner and experience the warmth of village life before tomorrow's ascent to Ganda La. Overnight in a traditional homestay."
+  },
+
+      {
+  day: 4,
+  title: "Yurutse → Ganda La (16,100 ft / 4,900 m) → Shingo (13,900 ft / 4,240 m) | Trek Distance: 12 km | 6–7 hrs",
+  details:
+    "Wake up to crisp mountain air and magnificent views over the Stok Range before beginning your gradual climb towards Ganda La, the first of the two great Himalayan passes on this expedition. Leaving the last houses of Yurutse behind, the trail ascends steadily across broad alpine slopes where grazing yaks and blue sheep are often seen in the distance. As you gain altitude, every turn opens wider views of the valleys you walked through yesterday, while the silence of the high mountains is broken only by the whistles of Himalayan marmots and the fluttering of prayer flags. After a rewarding climb, arrive at Ganda La (16,100 ft), marked by colourful prayer flags and chortens that celebrate your first major achievement of the trek. The panoramic views from the pass stretch across the rugged Zanskar Range, the Stok mountains and the vast wilderness of Hemis National Park. After a well-earned break, begin the descent towards Shingo. The landscape changes noticeably as the broad mountain slopes narrow into dramatic valleys before opening into lush grazing meadows frequented by shepherds during the short Ladakhi summer. By afternoon, reach the peaceful settlement of Shingo and settle into a traditional Ladakhi homestay. Share stories over a warm home-cooked dinner while experiencing the simple mountain lifestyle that has remained unchanged for generations."
+},
+
+{
+  day: 5,
+  title: "Shingo → Skiu → Sara (11,800 ft / 3,600 m) | Trek Distance: 14 km | 5–6 hrs",
+  details:
+    "Today's walk marks your arrival into the legendary Markha Valley. Descend gradually from Shingo through an impressive rocky gorge where colourful cliffs and narrow canyons showcase Ladakh's unique geology. Before long, the trail reaches the beautiful village of Skiu, one of the main gateways to the Markha Valley. Surrounded by fertile fields nourished by glacial streams, Skiu is home to ancient chortens, mani walls, traditional mud houses and the ruins of an old fortress overlooking the village. After spending some time exploring its peaceful surroundings, continue upstream following the Markha River. The trail remains relatively gentle, crossing wooden bridges, irrigation channels and small streams while passing isolated winter settlements and sacred Lhatos dedicated to local mountain deities. Every few kilometres, prayer wheels, mani stones and fluttering prayer flags remind you of the deep Buddhist traditions that define this valley. By afternoon, reach the charming village of Sara, instantly recognizable by its fascinating entrance decorated with the horns and skulls of wild mountain animals collected over generations. Spend the evening exploring the narrow village lanes, interacting with your host family and enjoying another authentic Ladakhi dinner before retiring for the night in a comfortable homestay."
+},
+
+{
+  day: 6,
+  title: "Sara → Markha Village (12,200 ft / 3,700 m) | Trek Distance: 10 km | 5–6 hrs",
+  details:
+    "Leaving Sara behind, continue deeper into the heart of Markha Valley along one of the most culturally enriching sections of the trek. The trail follows the Markha River through a landscape where barren mountains, green barley fields and crystal-clear streams exist in remarkable harmony. Pass through the small village of Chalak, where traditional Ladakhi homes, grazing livestock and welcoming tea houses provide a glimpse into everyday life in these remote Himalayan settlements. Beyond Chalak, the valley becomes increasingly spiritual as long Mani walls, whitewashed stupas and centuries-old prayer stones line the trail. Depending on the season and water levels, you may also experience crossing the icy waters of the Markha River before the final approach to Markha Village. As the largest settlement in the valley, Markha offers a fascinating blend of history and culture with its ancient monastery, traditional mud-brick homes, prayer wheels and the ruins of an old fort perched dramatically above the village. Spend the evening wandering through its peaceful lanes, interacting with local families and soaking in the timeless atmosphere before settling into another warm Ladakhi homestay for the night."
+},
+
+      {
+  day: 7,
+  title: "Markha → Hankar (13,400 ft / 4,100 m) | Trek Distance: 13 km | 6–7 hrs",
+  details:
+    "Today's journey takes you beyond the main settlements of the valley and into a landscape that feels noticeably wilder and more remote. Leaving Markha Village behind, the trail follows the Markha River upstream, crossing it several times over wooden bridges and shallow streams depending on seasonal water levels. The valley gradually widens, revealing expansive views of colourful mountains sculpted by centuries of wind and water erosion. Along the way, you'll pass the tiny settlement of Umlung, home to the last tea house on the trek, making it an ideal place to enjoy a hot cup of tea before continuing further into the wilderness. Beyond Umlung, the scenery becomes even more dramatic as the magnificent summit of Kang Yatse (6,250 m) suddenly dominates the skyline, appearing larger with every step. Keep an eye on the cliffs surrounding the valley, where the beautifully perched Tacha Monastery clings to the mountainside, silently overlooking the valley below. As you approach Hankar, cultivated fields slowly disappear, replaced by alpine meadows grazed by yaks, sheep and goats. Hankar is the last permanent village on the route and offers a peaceful glimpse into traditional high-altitude Ladakhi life. Spend the evening with your host family, enjoying local cuisine and preparing for tomorrow's journey into the high mountains."
+},
+
+{
+  day: 8,
+  title: "Hankar → Nimaling (15,800 ft / 4,800 m) | Trek Distance: 12 km | 6–7 hrs",
+  details:
+    "Today's trek gradually leaves village life behind and enters Ladakh's spectacular high-altitude grazing country. Shortly after departing Hankar, cross the stone bridge over the Markha River before following a steadily ascending trail through increasingly open landscapes. The route passes Thochuntse, a seasonal shepherd settlement where tea houses operate during the trekking season, offering a welcome break before the final climb. From here onwards, the towering massif of Kang Yatse remains your constant companion, its snow-covered slopes rising dramatically above the valley. As altitude increases, lush alpine meadows replace cultivated fields, creating a remarkable contrast against the barren mountains surrounding them. Eventually, the vast plains of Nimaling unfold before you, regarded as one of the most beautiful high-altitude meadows in Ladakh. During summer, hundreds of grazing sheep, goats, yaks and horses dot the grasslands while glacial streams meander quietly across the valley floor. Tonight, stay in comfortable fixed parachute tents operated by local families, offering one of the most memorable overnight experiences of the trek. As darkness falls, the complete absence of light pollution reveals a breathtaking canopy of stars stretching across the Himalayan sky."
+},
+
+{
+  day: 9,
+  title: "Nimaling → Kongmaru La (17,100 ft / 5,220 m) → Chokdo → Drive to Leh | Trek Distance: 13 km | 7–8 hrs",
+  details:
+    "Begin well before sunrise for the final and most rewarding day of the expedition. Leaving Nimaling behind, cross the nearby stream before starting the steady ascent towards Kongmaru La, the highest point of the Markha Valley 2 Passes Trek. The climb is gradual but demanding due to the altitude, rewarding every step with increasingly spectacular views of Kang Yatse and the surrounding Ladakh ranges. Upon reaching Kongmaru La (17,100 ft), colourful prayer flags flutter against an endless panorama of the Karakoram, Ladakh and Zanskar ranges, celebrating your successful crossing of the second great Himalayan pass. After taking time to absorb the achievement, begin the long descent through one of Ladakh's most extraordinary gorges, where mineral-rich rock formations display stunning shades of red, purple, green and gold carved by ancient glaciers and flowing water. The trail eventually reaches Chokdo, where your vehicle awaits for the drive back to Leh through the scenic Indus Valley. By evening, arrive in Leh with unforgettable memories of crossing two spectacular Himalayan passes, walking through remote villages, experiencing Ladakhi hospitality and discovering one of the most remarkable trekking routes in the Indian Himalayas."
+},
+    ],
+
+        didYouKnow: [
+      "<b>Two Passes, One Expedition:</b> Unlike the classic Markha Valley Trek, this extended route crosses both Ganda La (16,100 ft) and Kongmaru La (17,100 ft), making it one of the finest crossover treks in Ladakh.",
+      
+      "<b>Hemis National Park is India's Snow Leopard Capital:</b> Nearly the entire trek passes through Hemis National Park, one of the highest-density habitats of the elusive Snow Leopard. While sightings remain rare, Blue Sheep, Marmots, Red Foxes, Lammergeiers and Golden Eagles are frequently encountered.",
+      
+      "<b>Ganda La was once an important trade route:</b> Before roads connected many parts of Ladakh, villagers regularly crossed Ganda La to travel between the Indus Valley and the settlements of Markha Valley.",
+      
+      "<b>Markha Valley is known as Ladakh's Tea House Trek:</b> Unlike many Himalayan expeditions that rely entirely on camps, several villages along the route provide comfortable homestays and traditional tea houses where trekkers experience authentic Ladakhi hospitality.",
+      
+      "<b>Nimaling is one of the largest high-altitude grazing grounds in Ladakh:</b> Every summer, shepherds bring thousands of sheep, goats and yaks here to graze on lush alpine meadows that remain buried beneath snow for much of the year.",
+      
+      "<b>Kang Yatse dominates almost half the trek:</b> Standing over 6,400 metres tall, Kang Yatse slowly reveals different faces as you move through the valley, becoming the defining backdrop of the upper Markha Valley.",
+      
+      "<b>The colourful mountains around Kongmaru La are naturally mineral rich:</b> Layers of iron, copper and other minerals paint the gorge in striking shades of red, purple, green and golden brown, making the descent one of the most photogenic sections of the trek.",
+      
+      "<b>Ladakh receives very little rainfall:</b> Despite crossing numerous rivers and streams, the region itself is a high-altitude cold desert lying in the rain shadow of the Great Himalayas.",
+      
+      "<b>Ancient Buddhist heritage lives throughout the valley:</b> Prayer wheels, Mani walls, Chortens, monasteries and centuries-old fort ruins accompany trekkers almost every day, reflecting the deep spiritual traditions of Ladakh.",
+      
+      "<b>No two days look alike:</b> One of the greatest strengths of the Markha Valley 2 Passes Trek is its incredible landscape diversity—from lush river valleys and willow forests to barren deserts, alpine meadows, dramatic gorges and two spectacular Himalayan passes."
+    ],
+
+    howToReach: {
+      air: "Nearest Airport: Kushok Bakula Rimpochee Airport, Leh (IXL). Daily flights connect Leh with Delhi, Chandigarh and several major Indian cities during the trekking season.",
+
+      train:
+        "There is no railway station in Leh. The nearest major railhead is Jammu Tawi (approx. 700 km), from where you can continue by road or take a domestic flight to Leh.",
+
+      road:
+        "Leh is accessible via two spectacular Himalayan highways. The Srinagar–Leh Highway generally opens earlier in summer, while the Manali–Leh Highway offers one of India's most scenic road journeys through multiple high mountain passes.",
+
+      travelTip:
+        "Plan to arrive in Leh at least two days before the trek begins. Proper acclimatization significantly reduces the risk of Acute Mountain Sickness (AMS) and allows you to enjoy the expedition comfortably."
+    },
+
+    gallery: [
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535621/markha-valley-view3_ghyqx6.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535616/markha-valley-view5_cyek8v.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535614/markha-valley-view6_cob1jc.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535612/markha-valley-view4_hhjdvd.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535608/markha-valley-view7_fwjqd8.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535606/markha-valley-view9_adspc2.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535604/markha-valley-view8_frpdcl.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535600/markha-valley-view2_pkja6f.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535598/markha-valley-view13_ra6l59.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535597/markha-valley-view12_c36aaf.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535592/markha-valley-view11_mcf7g4.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535586/markha-valley-view10_xovktb.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-view1_regn76.jpg",
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535584/markha-valley-hero_yvm2ji.jpg",
+    ],
+
+    downloadLink: "/docs/Packing_List.pdf",
+
+        faqs: {
+      questions: [
+        {
+          question: "Who can participate in the Markha Valley 2 Passes Trek?",
+          answer:
+            "The trek is best suited for trekkers with good fitness and preferably some prior Himalayan trekking experience. Although the trail is technically straightforward, crossing both Ganda La (16,100 ft) and Kongmaru La (17,100 ft), combined with consecutive days above 14,000 ft, makes it more demanding than the classic Markha Valley Trek."
+        },
+
+        {
+          question: "How difficult is the Markha Valley 2 Passes Trek?",
+          answer:
+            "This is a Moderate to Difficult high-altitude trek. The terrain consists of gradual mountain trails, river crossings, rocky sections and two high Himalayan passes. The greatest challenge is the altitude rather than technical climbing. Proper acclimatization in Leh significantly improves the overall trekking experience."
+        },
+
+        {
+          question: "Why are two acclimatization days kept in Leh?",
+          answer:
+            "Leh sits at approximately 11,500 ft. Spending two full days acclimatizing before beginning the trek greatly reduces the risk of Acute Mountain Sickness (AMS), allowing your body to adapt naturally before ascending to Ganda La and Kongmaru La."
+        },
+
+        {
+          question: "Which is the highest point of the trek?",
+          answer:
+            "Kongmaru La (17,100 ft / 5,220 m) is the highest point of the expedition. Ganda La (16,100 ft) is crossed earlier in the trek, making this one of the few Himalayan expeditions that crosses two spectacular high-altitude passes."
+        },
+
+        {
+          question: "What is the best season for the Markha Valley 2 Passes Trek?",
+          answer:
+            "The ideal season is from July to September when Ladakh remains dry, mountain passes are generally snow-free, rivers are manageable and alpine meadows around Nimaling are at their most beautiful."
+        },
+
+        {
+          question: "What wildlife can be seen during the trek?",
+          answer:
+            "The trek passes almost entirely through Hemis National Park, one of India's richest high-altitude wildlife reserves. Trekkers commonly encounter Himalayan Blue Sheep (Bharal), Marmots, Golden Eagles, Lammergeiers and occasionally Red Foxes. With exceptional luck, the elusive Snow Leopard, Tibetan Wolf or Ladakhi Urial may also be spotted."
+        },
+
+        {
+          question: "Are river crossings difficult?",
+          answer:
+            "Several streams and tributaries are crossed throughout the trek. Depending on seasonal water levels, some crossings use bridges while others require wading through cold mountain streams. Your trek leader will always guide the safest crossing method."
+        },
+
+        {
+          question: "Do we stay in tents or homestays?",
+          answer:
+            "The expedition offers a combination of camping and traditional village stays depending on the campsite and logistics. This allows trekkers to experience both Ladakh's spectacular wilderness and its unique local culture."
+        },
+
+        {
+          question: "Is mobile network available during the trek?",
+          answer:
+            "Reliable mobile connectivity is available only in Leh before and after the trek. Once inside Hemis National Park, network coverage becomes extremely limited. Occasionally BSNL or Airtel may work at certain high points, but trekkers should expect to remain mostly disconnected throughout the expedition."
+        },
+
+        {
+          question: "What makes this itinerary different from the classic Markha Valley Trek?",
+          answer:
+            "Instead of beginning directly from Skiu, this expedition starts through the scenic Zingchen Valley, crosses Ganda La before entering Markha Valley and later exits via Kongmaru La. This extension explores a much larger portion of Hemis National Park, adds greater landscape diversity and makes the journey a true two-pass Himalayan expedition."
+        }
+      ],
+    },
+
+    faqsLink: "/faqs-and-articles",
+},
 
   {
   "id": "winter-markha-valley-trek",

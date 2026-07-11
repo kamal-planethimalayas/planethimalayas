@@ -4784,8 +4784,90 @@ It is about understanding where to go, when to move, and how geography controls 
 <p>Those details are important, and we'll cover every one of them. But numbers alone cannot explain why someone returns from this trek fundamentally changed. You don't remember Pin Parvati because it is 100 kilometres long. You remember it because of how it makes you feel. You remember standing beside a river so loud that conversations simply stopped. You remember walking through forests where the smell of rain lingered for hours. You remember waterfalls appearing around almost every bend until eventually nobody in the group bothered pointing them out anymore. You remember crossing rivers barefoot, feeling icy water rush around your legs while everyone instinctively reached out to steady the next person. You remember the silence of Mantalai. You remember the first glimpse of Spiti after days of endless green. Most of all, you remember how impossible it became to describe the experience to someone who wasn't there. This guide isn't written to convince you to book the trek. It is written to help you understand what it actually feels like to walk across one of the finest Himalayan expeditions ever created by nature. Everything you read here comes from real experiences on the trail—not from satellite maps or copied itineraries. If you eventually decide to trek Pin Parvati Pass, I want you to arrive already understanding the mountains you're about to enter. Not every kilometre. But every feeling.</p>
 
 <hr>
+<div class="article-contents">
 
-<h2>Quick Facts</h2>
+<h2 id="contents">📖 Table of Contents</h2>
+
+<p>Jump directly to any section of this guide.</p>
+
+<details open>
+  <summary><strong>🌄 Introduction</strong></summary>
+  <ul>
+    <li><a href="#quick-facts">Quick Facts</a></li>
+    <li><a href="#who-should-read">Who Should Read This Guide?</a></li>
+    <li><a href="#why-pin-parvati">Why I Believe Pin Parvati Pass is India's Finest Trek</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>🏔️ The Journey Through Pin Parvati</strong></summary>
+  <ul>
+    <li><a href="#my-first-pin-parvati-expedition">How I Ended Up Leading Pin Parvati Pass</a></li>
+    <li><a href="#the-story-begins">The Story Begins</a></li>
+    <li><a href="#entering-the-parvati-valley">Entering the Parvati Valley</a></li>
+    <li><a href="#the-river">The Mighty Parvati River</a></li>
+    <li><a href="#the-forest">The Forests of Parvati Valley</a></li>
+    <li><a href="#waterfalls">Waterfalls Around Every Bend</a></li>
+    <li><a href="#kheerganga">Beyond Kheerganga – Entering Another World</a></li>
+    <li><a href="#river-crossings">The Famous River Crossings</a></li>
+    <li><a href="#mantalai">Mantalai – Where the River is Born</a></li>
+    <li><a href="#glacier">Towards the Glacier</a></li>
+    <li><a href="#pin-parvati-pass">Crossing Pin Parvati Pass</a></li>
+    <li><a href="#first-view-spiti">The First View of Spiti</a></li>
+    <li><a href="#the-road-to-mudh">Walking Through Pin Valley</a></li>
+    <li><a href="#the-pagal-nala">Pagal Nala</a></li>
+    <li><a href="#arriving-at-mudh">Mudh Village</a></li>
+    <li><a href="#the-drive-back-to-manali">The Journey Back to Manali</a></li>
+    <li><a href="#ten-days-that-never-left-me">Ten Days That Never Left Me</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>💪 Difficulty, Fitness & Preparation</strong></summary>
+  <ul>
+    <li><a href="#who-should-do-pin-parvati-pass">Who Should Attempt Pin Parvati Pass?</a></li>
+    <li><a href="#is-pin-parvati-for-beginners">Can Beginners Do It?</a></li>
+    <li><a href="#how-fit-do-you-need-to-be">Fitness Requirements</a></li>
+    <li><a href="#the-mental-side-of-the-trek">Mental Preparation</a></li>
+    <li><a href="#respect-the-altitude">Altitude & Acclimatisation</a></li>
+    <li><a href="#understanding-the-difficulty">How Difficult is Pin Parvati Pass?</a></li>
+    <li><a href="#what-makes-it-hard">What Makes it Difficult?</a></li>
+    <li><a href="#difficulty-rating">My Difficulty Rating</a></li>
+    <li><a href="#fitness-plan">8-Week Fitness Plan</a></li>
+    <li><a href="#the-biggest-mistake">The Biggest Mistake Trekkers Make</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>🎒 Packing, Logistics & Planning</strong></summary>
+  <ul>
+    <li><a href="#what-to-pack">Complete Packing List</a></li>
+    <li><a href="#best-time-to-do-pin-parvati">Best Time to Visit</a></li>
+    <li><a href="#weather-on-the-trek">Weather on the Trek</a></li>
+    <li><a href="#food-and-water">Food & Water</a></li>
+    <li><a href="#network-electricity">Mobile Network & Electricity</a></li>
+    <li><a href="#photography">Photography Guide</a></li>
+    <li><a href="#flora-fauna">Flora & Fauna</a></li>
+    <li><a href="#leave-no-trace">Responsible Trekking & Leave No Trace</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>📝 Conclusion & Resources</strong></summary>
+  <ul>
+    <li><a href="#why-i-keep-returning">Why I Keep Returning to the Himalayas</a></li>
+    <li><a href="#final-thoughts">Final Thoughts</a></li>
+    <li><a href="#faq">Frequently Asked Questions</a></li>
+    <li><a href="#related-guides">Related Guides</a></li>
+    <li><a href="#a-personal-note">A Personal Note</a></li>
+  </ul>
+</details>
+
+</div>
+<p></p>
+<hr>
+
+<h2 id="quick-facts">Quick Facts</h2>
 
 <table>
   <tbody>
@@ -4827,10 +4909,10 @@ It is about understanding where to go, when to move, and how geography controls 
     </tr>
   </tbody>
 </table>
-
+<p></p>
 <hr>
 
-<h2>Who Should Read This Guide?</h2>
+<h2 id="who-should-read">Who Should Read This Guide?</h2>
 
 <p>This guide is written for more than just people planning the trek.
 
@@ -4846,7 +4928,7 @@ By the time you finish reading, I want you to feel like you've already walked th
 
 <hr>
 
-<h2>Why Pin Parvati Pass Is My Favourite Trek in India</h2>
+<h2 id="why-pin-parvati">Why Pin Parvati Pass Is My Favourite Trek in India</h2>
 
 <p>I have often been asked why I rank Pin Parvati above famous treks like Rupin Pass, Goechala, Kashmir Great Lakes or Hampta Pass.
 
