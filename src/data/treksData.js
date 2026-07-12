@@ -219,7 +219,7 @@ export const treks = [
     season: ["monsoon"],
     month: ["july", "august", "september"],
     region: "ladakh",
-    duration: "8 Nights / 9 Days",
+    duration: "9 Nights / 9 Days",
 
     coordinates: [
       [34.1526, 77.5771],   // Leh
@@ -256,7 +256,7 @@ export const treks = [
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "8 Nights / 9 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 9 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate to Difficult" },
         { emoji: "🏔️", label: "Max Altitude", value: "17,100 ft (Kongmaru La)" },
         { emoji: "🥾", label: "Trek Distance", value: "72–75 km" },
