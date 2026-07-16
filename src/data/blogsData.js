@@ -4802,23 +4802,43 @@ It is about understanding where to go, when to move, and how geography controls 
 <details>
   <summary><strong>🏔️ The Journey Through Pin Parvati</strong></summary>
   <ul>
-    <li><a href="#my-first-pin-parvati-expedition">How I Ended Up Leading Pin Parvati Pass</a></li>
     <li><a href="#the-story-begins">The Story Begins</a></li>
     <li><a href="#entering-the-parvati-valley">Entering the Parvati Valley</a></li>
-    <li><a href="#the-river">The Mighty Parvati River</a></li>
-    <li><a href="#the-forest">The Forests of Parvati Valley</a></li>
-    <li><a href="#waterfalls">Waterfalls Around Every Bend</a></li>
-    <li><a href="#kheerganga">Beyond Kheerganga – Entering Another World</a></li>
-    <li><a href="#river-crossings">The Famous River Crossings</a></li>
-    <li><a href="#mantalai">Mantalai – Where the River is Born</a></li>
-    <li><a href="#glacier">Towards the Glacier</a></li>
-    <li><a href="#pin-parvati-pass">Crossing Pin Parvati Pass</a></li>
-    <li><a href="#first-view-spiti">The First View of Spiti</a></li>
-    <li><a href="#the-road-to-mudh">Walking Through Pin Valley</a></li>
-    <li><a href="#the-pagal-nala">Pagal Nala</a></li>
-    <li><a href="#arriving-at-mudh">Mudh Village</a></li>
-    <li><a href="#the-drive-back-to-manali">The Journey Back to Manali</a></li>
-    <li><a href="#ten-days-that-never-left-me">Ten Days That Never Left Me</a></li>
+    <li><a href="#hidden-villages">The Hidden Villages</a></li>
+    <li><a href="#the-valley">The Forests of Parvati Valley</a></li>
+    <li><a href="#the-river">Parvati River</a></li>
+    <li><a href="#trek-begins">Beyond Kheerganga – Entering Another World</a></li>
+    <li><a href="#the-hidden-valley">Beyond Kheerganga – Entering Another World</a></li>
+    <li><a href="#the-forest">A Forest That Never Seems to End</a></li>
+    <li><a href="#the-hidden-slopest">The Hidden Slopes</a></li>
+    <li><a href="#the-hidden-slopest">The Hidden Slopes</a></li>">Flowers, Waterfalls and Endless Surprises</a></li>
+    <li><a href="#the-valley-keeps-growing">The Valley Keeps Growing</a></li>
+    <li><a href="#the-river-begins-to-rule">When the River Takes Over</a></li>
+    <li><a href="#every-day-feels-like-a-new-trekr">Every Day Feels Like a New Trek</a></li>
+    <li><a href="#the-waterfalls-never-stop">A Valley of Endless Waterfalls</a></li>
+    <li><a href="#the-hidden-world">The Valley Hides More Than It Reveals</a></li>
+    <li><a href="#where-the-forest-ends">Where the Forest Finally Lets Go</a></li>
+    <li><a href="#the-river-crossings">The River Decides the Route</a></li>
+    <li><a href="#the-abandoned-trolley">The Abandoned Trolley</a></li>
+    <li><a href="#the-first-big-open-valley">The Valley Opens Like Never Before</a></li>    
+<li><a href="#walking-into-mantalai">Walking Into Mantalai</a></li>
+<li><a href="#our-campsite-at-mantalai">A Night Beside One of the Most Beautiful Campsites in the Himalayas</a></li>
+<li><a href="#leaving-the-parvati-valley">Leaving the Parvati Valley Behind</a></li>
+<li><a href="#base-camp-beneath-the-glacier">The Glacier Comes Into View</a></li>
+<li><a href="#the-pass-you-forget-about">The Pass You Almost Forget About</a></li>
+<li><a href="#summit-morning">Crossing Pin Parvati Pass</a></li>
+<li><a href="#the-first-view-of-spiti">The First Glimpse of Spiti</a></li>
+<li><a href="#the-descent-into-pin-valley">The Descent Begins</a></li>
+<li><a href="#the-first-crossing-of-the-pin-river">Meeting the Pin River</a></li>
+<li><a href="#base-camp-two">Another Night, Another World</a></li>
+<li><a href="#towards-wichkurung-thach">Walking Towards Wichkurung Thach</a></li>
+<li><a href="#the-colours-of-pin-valley">A Landscape Painted in Colour</a></li>
+<li><a href="#the-road-to-mudh">The Walk to Mudh – When the Trek Refuses to End Quietly</a></li>
+<li><a href="#the-pagal-nala">The Pagal Nala</a></li>
+<li><a href="#arriving-at-mudh">Mudh – A Village Worth Staying For</a></li>
+<li><a href="#beyond-the-trek">If You Have Time, Don't Stop Here</a></li>
+<li><a href="#the-drive-back-to-manali">The Journey Back to Manali</a></li>
+<li><a href="#ten-days-that-never-left-me">Ten Days That Never Really Ended</a></li>
   </ul>
 </details>
 
@@ -4830,10 +4850,12 @@ It is about understanding where to go, when to move, and how geography controls 
     <li><a href="#how-fit-do-you-need-to-be">Fitness Requirements</a></li>
     <li><a href="#the-mental-side-of-the-trek">Mental Preparation</a></li>
     <li><a href="#respect-the-altitude">Altitude & Acclimatisation</a></li>
+    <li><a href="#why-experience-matters">The Difference Between Completing the Trek and Enjoying It</a></li>
     <li><a href="#understanding-the-difficulty">How Difficult is Pin Parvati Pass?</a></li>
     <li><a href="#what-makes-it-hard">What Makes it Difficult?</a></li>
     <li><a href="#difficulty-rating">My Difficulty Rating</a></li>
     <li><a href="#fitness-plan">8-Week Fitness Plan</a></li>
+    <li><a href="#acclimatisation">Acclimatisation is Not Optional</a></li>
     <li><a href="#the-biggest-mistake">The Biggest Mistake Trekkers Make</a></li>
   </ul>
 </details>
@@ -4994,7 +5016,7 @@ And every time I return, it still does.</p>
 
 <hr>
 
-<h2>The Story Begins</h2>
+<h2 id='the-story-begins'>The Story Begins</h2>
 
 <p>Ironically, I never planned to lead my first Pin Parvati Pass expedition.
 
@@ -5078,7 +5100,7 @@ And almost every time you round that bend, you're right.
 
 <hr>
 
-<h2 id="villages-hidden-in-the-forest">The Hidden Villages</h2>
+<h2 id="hidden-villages">The Hidden Villages</h2>
 
 <p>Before the trek officially begins, you pass through places that have become almost legendary among travellers—Kasol, Manikaran, Tosh, Pulga and finally Kalga.
 
@@ -5112,7 +5134,7 @@ As though the valley reluctantly allows outsiders to enter.
 
 <hr>
 
-<h2 id="the-smell-of-the-valley">The Smell After Rain</h2>
+<h2 id="the-valley">The Smell After Rain</h2>
 
 <p>If someone asked me to describe Parvati Valley without mentioning mountains, rivers or forests, I would probably talk about its smell.
 
@@ -5160,7 +5182,7 @@ The valley somehow feels even more mysterious than before.
 
 <hr>
 
-<h2 id="the-river-that-never-stops-speaking">The River That Never Stops Speaking</h2>
+<h2 id="the-river">The River That Never Stops Speaking</h2>
 
 <p>Most Himalayan valleys are defined by a river.
 
@@ -5220,7 +5242,7 @@ Always reminding you whose valley you're walking through.</p>
 
 <hr>
 
-<h2 id="where-the-real-trek-begins">Where the Real Trek Begins</h2>
+<h2 id="trek-begins">Where the Real Trek Begins</h2>
 
 <p>During the initial days, the valley feels enclosed.
 
@@ -5258,7 +5280,7 @@ Only then does it reveal its next secret.</p>
 
 <hr>
 
-<h2 id="beyond-kheerganga">Beyond Kheerganga – Where the Valley Changes Forever</h2>
+<h2 id="the-hidden-valley">Beyond Kheerganga – Where the Valley Changes Forever</h2>
 
 <p>If someone asked me where the real Pin Parvati expedition begins, I wouldn't say Kalga.
 
@@ -5298,7 +5320,7 @@ And every kilometre made it harder to imagine that towns and roads even existed 
 
 <hr>
 
-<h2 id="a-forest-that-never-seems-to-end">A Forest That Never Seems to End</h2>
+<h2 id="the-forest">A Forest That Never Seems to End</h2>
 
 <p>The forests beyond Kheerganga are unlike anything I had experienced before.
 
