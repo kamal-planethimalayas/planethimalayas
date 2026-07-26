@@ -4601,12 +4601,25 @@ It is about understanding where to go, when to move, and how geography controls 
 
 <br>
 
+<!-- KALIHANI PASS TREK -->
+<div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1774426458/Kalihani_pass_hvxung.jpg" alt="Kalihani Pass Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
+  <div>
+    <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/kalihani-pass-trek">Kalihani Pass Trek</a></strong></h4>
+    <p><b>⏳ 7N/8D | ⚡ Moderate to Difficult | 🏔️ 15,750 ft | 📍 Manali</b></p>
+    <p>Kalihani Pass is one of Himachal Pradesh's most spectacular monsoon treks, combining dense forests, flower-filled alpine meadows, glacier crossings, and a dramatic high mountain pass deep within the Pir Panjal Range.</p>
+    <p>During the monsoon, the trail comes alive with lush greenery and vibrant wildflowers, while the upper reaches remain covered in snowfields and glacial terrain. The ever-changing landscapes and fewer crowds make Kalihani Pass an unforgettable adventure for experienced trekkers seeking a true Himalayan wilderness experience.</p>
+  </div>
+</div>
+
+<br>
+
 <!-- MIYAR VALLEY -->
 <div class="trek-card" style="display:flex; gap:14px; align-items:flex-start;">
   <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg" alt="Miyar Valley Trek" style="width:130px; height:90px; object-fit:cover; border-radius:6px;">
   <div>
     <h4 style="color:#ff7300; margin:0;"><strong><a href="/trek/miyar-valley-trek">Miyar Valley Trek</a></strong></h4>
-    <p><b>⏳ 7N/8D | ⚡ Moderate | 🏔️ ~13,500 ft | 📍 Lahaul</b></p>
+    <p><b>⏳ 7N/7D | ⚡ Moderate | 🏔️ ~13,500 ft | 📍 Lahaul</b></p>
     <p>Often called the “Valley of Flowers of Himachal,” Miyar Valley opens fully during monsoon. Vast meadows, wildflowers, glacial streams, and massive granite walls define the entire route.</p>
     <p>Because the valley lies deep inside the Lahaul region, rainfall remains comparatively limited despite the monsoon season — making it one of the most stable and visually rewarding long valley treks in Himachal.</p>
   </div>
@@ -4769,6 +4782,8 @@ It is about understanding where to go, when to move, and how geography controls 
 <p>Without hesitation, my answer has always remained the same.</p>
 
 <p><strong>Pin Parvati Pass.</strong></p>
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view26_qg4zpy.jpg" alt="Trekkers approaching Pin Parvati Pass through snowfields"
+     style="width:300px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
 
 <p>Not because it is the highest pass I have crossed. Not because it is the longest trek I have led. Not because it is the most difficult. It is my favourite because nowhere else in the Indian Himalayas have I witnessed landscapes change so dramatically, so frequently and so completely within a single expedition. Every morning feels like the beginning of an entirely different trek. You wake up expecting more of yesterday. You rarely get it. Dense forests become alpine meadows. Towering pine trees disappear into glacial moraines. Narrow river gorges suddenly open into enormous grasslands. The lush green mountains of Kullu slowly surrender to the cold desert of Spiti. Every day surprises you. Sometimes every hour does. That is why this trek stays with people long after they return home.</p>
 
@@ -5072,6 +5087,12 @@ We were living every single day of the journey.
 
 <h2 id="entering-parvati-valley">Entering the Parvati Valley</h2>
 
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191198/pin-parvati-pass-view2_xgyrkx.jpg" alt="Barsheni Dam" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191185/pin-parvati-pass-view1_xinpz5.jpg" alt="Manikaran taxi stand" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785068195/IMG_20190824_121756_oqpuir.jpg" alt="The market of Kasol" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+</div>
+
 <p>Every great Himalayan trek has an introduction.
 
 Pin Parvati Pass has an entire valley.
@@ -5101,6 +5122,11 @@ And almost every time you round that bend, you're right.
 <hr>
 
 <h2 id="hidden-villages">The Hidden Villages</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785068794/IMG-20190824-WA0013_ra5cat.jpg" alt="kalga village homestay" style="width:50%; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785068803/IMG_20190825_101336_m69riv.jpg" alt="sweeping view of Tosh village from Kalga village" style="width:50%; object-fit:cover; border-radius:6px;">
+</div>
 
 <p>Before the trek officially begins, you pass through places that have become almost legendary among travellers—Kasol, Manikaran, Tosh, Pulga and finally Kalga.
 
@@ -5135,6 +5161,11 @@ As though the valley reluctantly allows outsiders to enter.
 <hr>
 
 <h2 id="the-valley">The Smell After Rain</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785068895/IMG_20190825_102244_an9h2s.jpg" alt="kalga village homestay" style="width:50%; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191208/pin-parvati-pass-view3_upywlf.jpg" alt="the forest trail beyond Kalga village" style="width:50%; object-fit:cover; border-radius:6px;">
+</div>
 
 <p>If someone asked me to describe Parvati Valley without mentioning mountains, rivers or forests, I would probably talk about its smell.
 
@@ -5183,6 +5214,11 @@ The valley somehow feels even more mysterious than before.
 <hr>
 
 <h2 id="the-river">The River That Never Stops Speaking</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785068853/IMG_20190825_115135_njwvl0.jpg" alt="waterfall enroute Kheerganga" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191226/pin-parvati-pass-view4_uoz9kw.jpg" alt="crossing the first of several wooden bridges over the Parvati river" style="width:50%; border-radius:6px;">
+</div>
 
 <p>Most Himalayan valleys are defined by a river.
 
@@ -5244,6 +5280,11 @@ Always reminding you whose valley you're walking through.</p>
 
 <h2 id="trek-begins">Where the Real Trek Begins</h2>
 
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785069284/IMG_20190825_135937_fmnxyb.jpg" alt="team meeting over tea at Kheerganga" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785069263/IMG_20190825_175553_vc7tlh.jpg" alt="the hot water spring of Kheerganga" style="width:50%; border-radius:6px;">
+</div>
+
 <p>During the initial days, the valley feels enclosed.
 
 The river squeezes through rocky gorges.
@@ -5281,6 +5322,12 @@ Only then does it reveal its next secret.</p>
 <hr>
 
 <h2 id="the-hidden-valley">Beyond Kheerganga – Where the Valley Changes Forever</h2>
+
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785071078/IMG_20190826_091724_xnvu58.jpg" alt="just another water crossing" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191213/pin-parvati-pass-view5_dxm14k.jpg" alt="the clearing soon after kheerganga" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785071075/IMG_20190826_121210_by3tm5.jpg" alt="the final stretch towards Tunda bhoj" style="width:220px; height:160px; object-fit:cover; border-radius:6px;">
+</div>
 
 <p>If someone asked me where the real Pin Parvati expedition begins, I wouldn't say Kalga.
 
@@ -5321,6 +5368,9 @@ And every kilometre made it harder to imagine that towns and roads even existed 
 <hr>
 
 <h2 id="the-forest">A Forest That Never Seems to End</h2>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785071104/IMG_20190826_112111_drqiid.jpg" alt="deeper into the valley towardss Tunda Bhoj"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
 
 <p>The forests beyond Kheerganga are unlike anything I had experienced before.
 
@@ -5366,6 +5416,9 @@ Completely indifferent to our presence.</p>
 
 <h2 id="the-hidden-slopes">The Hidden Slopes</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785071105/IMG_20190826_112449_zhuh4t.jpg" alt="the hidden slopes of cannabis" 
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>One of the most unexpected sights in the valley appears on hillsides that many trekkers initially fail to notice.
 
 Hidden among the forests are vast patches of wild cannabis growing naturally across entire slopes.
@@ -5389,6 +5442,11 @@ Everything here seems to have a story.</p>
 <hr>
 
 <h2 id="flowers-waterfalls-and-endless-surprises">Flowers, Waterfalls and Endless Surprises</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191227/pin-parvati-pass-view6_h4eopd.jpg" alt="the high waterfalls of Tunda Bhoj" style="width:50%; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191174/pin-parvati-pass-hero1_tzhawk.jpg" alt="the floral landscape of Tunda bhoj" style="width:50%; object-fit:cover; border-radius:6px;">
+  </div>
 
 <p>If there is one thing Pin Parvati never allows you to do, it is become bored.
 
@@ -5466,6 +5524,11 @@ Reveal something even bigger.</p>
 
 <h2 id="the-valley-keeps-growing">The Valley Keeps Growing</h2>
 
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view7_yczld4.jpg" alt="the trail towards Thakurkuan alongside Parvati river" style="width:50%; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762190979/pin-parvati-pass-view8_dvy2w9.jpg" alt="alongside Parvati river the valley keeps growing" style="width:50%; object-fit:cover; border-radius:6px;">
+</div>
+
 <p>One of the most remarkable things about Parvati Valley is that it never stays the same for long.
 
 At first, it feels enclosed.
@@ -5514,6 +5577,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-river-begins-to-rule">When the River Takes Over</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074043/IMG_20190827_125043_wezd0d.jpg" alt="the Parvati river dominates the valley"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>Somewhere after the forests begin thinning, I realised that the Parvati River was no longer just accompanying us—it was commanding the entire valley. Earlier in the trek, it often disappeared into deep gorges, hidden beneath dense deodar forests or behind massive cliffs. You could hear it constantly, but you rarely saw its full strength. Now the valley opened just enough for the river to reveal itself. Wide, untamed and relentlessly powerful, it occupied the centre of everything. Every campsite, every crossing and every day's progress somehow revolved around it.</p>
 
 <p>There is something intimidating about the Parvati River. It isn't the widest river I've seen in the Himalayas, nor the deepest in every section, but it possesses an energy that's difficult to explain. The water never appears calm. Even on relatively gentle stretches, it moves with purpose, carrying glacial silt that gives it a pale grey colour. Stand beside it for a few minutes and you instinctively begin speaking louder because the roar never stops. At times it becomes so loud that conversations simply fade away. People stop talking, not intentionally, but because the river has already taken over.</p>
@@ -5523,6 +5589,14 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="every-day-feels-like-a-new-trek">Every Day Feels Like a New Trek</h2>
+
+<div style="display:grid; grid-template-columns:2fr 1fr; gap:10px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074068/IMG_20190827_114522_oxd2dt.jpg" alt="the flora of pin parvati pass trek" style="width:100%; height:370px; object-fit:cover; border-radius:6px;">
+  <div style="display:flex; flex-direction:column; gap:10px;">
+    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074029/IMG_20190827_094908_werk9n.jpg" alt="climbing rocks precariously adjacent furious Parvati river" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074180/IMG_20190828_102517_tzmw0i.jpg" alt="crossing Parvati river over Pandu pul" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  </div>
+</div>
 
 <p>People often ask me what makes Pin Parvati different from other Himalayan expeditions. My answer has remained the same ever since I first completed it.</p>
 
@@ -5560,6 +5634,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-hidden-world">The Valley Hides More Than It Reveals</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074186/IMG_20190827_184244_ymunnl.jpg" alt="campsite of odi thatch"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>One feeling stayed with me throughout the entire journey—the constant sense that the valley was hiding something beyond every bend.</p>
 
 <p>Sometimes enormous bushes, taller than a person, lined both sides of the trail. You couldn't see fifty metres ahead. You simply walked through a corridor of green, hearing the river somewhere below and wondering what waited on the other side.</p>
@@ -5582,6 +5659,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="where-the-forest-ends">Where the Forest Finally Lets Go</h2>
 
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074179/IMG_20190827_130921_wde41h.jpg" alt="the meadows of Pin Parvati Pass trek" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074227/IMG_20190828_125842_x3xlmy.jpg" alt="the meadows of the Pin Parvati Pass trek" style="width:50%; border-radius:6px;">
+</div>
+
 <p>Somewhere beyond Odi Thach, you begin noticing a subtle change. At first, it isn't dramatic enough for everyone to realise. The towering deodars slowly become fewer. The pine forests that had accompanied you for days begin breaking apart into smaller patches. The bushes remain, but they too gradually shrink in height. The valley, which had felt enclosed and protective until now, suddenly starts opening its arms.</p>
 
 <p>I remember stopping for a few moments just to look back.</p>
@@ -5593,6 +5675,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="the-river-crossings">The River Decides the Route</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074146/IMG_20190828_095158_m9ny1f.jpg" alt="approaching Pandu pul" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074241/IMG_20190828_103150_tewf03.jpg" alt="the scary pandu pul" style="width:50%; border-radius:6px;">
+</div>
 
 <p>If the forests define the early days of the trek, the river crossings define everything that follows.</p>
 
@@ -5611,6 +5698,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="the-abandoned-trolley">The Abandoned Trolley</h2>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074240/IMG_20190827_092006_vy5i8e.jpg" alt="the broken bridge acros Parvati river"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
 
 <p>There is one place along the trail that quietly tells the story of how powerful the Parvati River really is.</p>
 
@@ -5633,6 +5723,13 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="the-first-big-open-valley">The Valley Opens Like Never Before</h2>
+
+<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074113/IMG_20190828_120216_c3f7wg.jpg" alt="the endless flat plains before Mantalai" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785074015/IMG_20190828_124900_gemv19.jpg" alt="the endless flat plains before Mantalai" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762190950/pin-parvati-pass-view12_i1ie0h.jpg" alt="the cattles roam here with their shepherd" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762190988/pin-parvati-pass-view14_tlh415.jpg" alt="a glance backwards never dissapoints" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+</div>
 
 <p>Crossing safely to the other side almost feels symbolic.</p>
 
@@ -5662,6 +5759,13 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-great-river-basin">The Great River Basin Before Mantalai</h2>
 
+<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191003/pin-parvati-pass-view15_jz5ttl.jpg" alt="mantalai river basin" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191010/pin-parvati-pass-view13_kxs6lz.jpg" alt="mantalai river basin" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191031/pin-parvati-pass-view16_rg6hmk.jpg" alt="mantalai river basin" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191058/pin-parvati-pass-view17_soyif8.jpg" alt="mantalai river basin" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+</div>
+
 <p>As we continued gaining altitude, the valley widened once again, but this time in a way I had never expected.</p>
 
 <p>The roaring Parvati River, which had spent days forcing its way through narrow valleys, suddenly seemed to relax.</p>
@@ -5685,6 +5789,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="walking-into-mantalai">Walking Into Mantalai</h2>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785079981/IMG_20190829_132322_cyyp81.jpg" alt="entering mantalai"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
 
 <p>Beyond the basin, the trail climbs gently before revealing another surprise.</p>
 
@@ -5719,6 +5826,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="our-campsite-at-mantalai">A Night Beside One of the Most Beautiful Campsites in the Himalayas</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191120/pin-parvati-pass-hero2_il9meh.jpg" alt="Mantalai lake" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191016/pin-parvati-pass-view18_hqgcwr.jpg" alt="Mantalai lake" style="width:50%; border-radius:6px;">
+</div>
 
 <p>That evening we pitched our tents beside the Mantalai basin.</p>
 
@@ -5766,6 +5878,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="leaving-the-parvati-valley">Leaving the Parvati Valley Behind</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191080/pin-parvati-pass-view21_mw163u.jpg" alt="the climb after mantalai leaving parvati valley behind"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>The next morning felt different.</p>
 
 <p>Not because the terrain suddenly became difficult, but because somewhere inside me I knew we were about to say goodbye to the valley that had been our home for the past week.</p>
@@ -5806,6 +5921,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="base-camp-beneath-the-glacier">The Glacier Comes Into View</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191002/pin-parvati-pass-view19_c1dxs4.jpg" alt="the view of the glacier snout - the origin of Parvati river"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>Beyond the moraine, the world changed once again.</p>
 
 <p>The greens of the Parvati Valley were gone.</p>
@@ -5840,6 +5958,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-pass-you-forget-about">The Pass You Almost Forget About</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191173/pin-parvati-pass-hero3_biwnrs.jpg" alt="base camp 1 - before crossing Pin Parvati Pass"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>This might sound strange, but one of the things I love most about Pin Parvati is that by the time you reach the final campsite, you've almost forgotten about the pass itself.</p>
 
 <p>Think about that for a moment.</p>
@@ -5859,6 +5980,13 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="summit-morning">Crossing Pin Parvati Pass</h2>
+
+<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191020/pin-parvati-pass-view22_xo2eue.jpg" alt="early morning trek starts towards the pin parvati pass" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191053/pin-parvati-pass-view23_lao9fx.jpg" alt="crossing the parvati glacier" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191077/pin-parvati-pass-view26_qg4zpy.jpg" alt="approaching Pin Parvati Pass" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg" alt="the mighty Pin Parvati Pass finally" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+</div>
 
 <p>Summit morning begins early.</p>
 
@@ -5926,6 +6054,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-first-view-of-spiti">The First Glimpse of Spiti</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785080991/IMG_20190831_092923_bcduu5.jpg" alt="descending towards spiti-getting the first glimpse of the other side"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>People often ask me what it feels like to stand on Pin Parvati Pass.</p>
 
 <p>My answer usually surprises them.</p>
@@ -5954,6 +6085,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-descent-into-pin-valley">The Descent Begins</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081550/IMG_20190831_121202_chcvbe.jpg" alt="the descent route from Pin Parvati Pass towards Spiti"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>Like every high mountain pass, reaching the top is only half the journey.</p>
 
 <p>The descent towards Pin Valley begins immediately and, for the first hour or so, it demands complete concentration. The slope is noticeably steeper than the approach from the Parvati side. Loose rocks shift beneath your boots, patches of snow linger well into the trekking season and the trail constantly reminds you that carelessness has no place in high mountains.</p>
@@ -5971,6 +6105,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="the-first-crossing-of-the-pin-river">Meeting the Pin River</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081789/IMG_20190831_111859_at48x8.jpg" alt="first glimpse of pin river from it's glacier" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081821/IMG_20190901_090550_tlrfnd.jpg" alt="the pin river" style="width:50%; border-radius:6px;">
+</div>
 
 <p>Eventually we reached the Pin River.</p>
 
@@ -5997,6 +6136,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="base-camp-two">Another Night, Another World</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081831/IMG_20190901_120648_ikvidi.jpg" alt="the barren yet colorful landscape of Spiti" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081821/IMG_20190902_085725_hi92jl.jpg" alt="the barren yet colorful landscape of Spiti" style="width:50%; border-radius:6px;">
+</div>
 
 <p>Our second base camp felt nothing like the one we had left behind that morning.</p>
 
@@ -6086,6 +6230,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-road-to-mudh">The Walk to Mudh – When the Trek Refuses to End Quietly</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785082448/IMG_20180823_142853_vb5n9p.jpg" alt="the Mudh village from kilometers away"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>By this point, you might think the expedition has shown you everything it possibly can.</p>
 
 <p>You would be wrong.</p>
@@ -6120,6 +6267,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="the-pagal-nala">The Pagal Nala</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785081775/IMG_20190901_104656_c7thfl.jpg" alt="crossing the pagal nala"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>One name you'll often hear in this section is <strong>Pagal Nala</strong>.</p>
 
 <p>The name itself tells you something.</p>
@@ -6139,6 +6289,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="arriving-at-mudh">Mudh – A Village Worth Staying For</h2>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535266/pin-bhaba-view18_thvhus.jpg" alt="Mudh village"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
 
 <p>Eventually, after days of wilderness, the first signs of Mudh begin appearing in the distance.</p>
 
@@ -6172,6 +6325,9 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="beyond-the-trek">If You Have Time, Don't Stop Here</h2>
 
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083663/1438332957_img_1171_grio0i.jpg" alt="key monastry at Kibber village"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
 <p>For many trekkers, Mudh marks the official end of the expedition.</p>
 
 <p>Personally, I think it should be the beginning of another short adventure.</p>
@@ -6193,6 +6349,11 @@ Tomorrow would almost certainly look nothing like it.</p>
 <hr>
 
 <h2 id="the-drive-back-to-manali">The Journey Back to Manali</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083356/IMG_20190902_203047_p8utqw.jpg" alt="last night dinner at Kaza" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083598/IMG_20190903_102759_eawrji.jpg" alt="crossing Kunzum pass on the way back to Manali" style="width:50%; border-radius:6px;">
+</div>
 
 <p>The drive back to Manali isn't simply transportation.</p>
 
@@ -6224,6 +6385,13 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <h2 id="ten-days-that-never-left-me">Ten Days That Never Really Ended</h2>
 
+<div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083613/IMG_20190831_085547_tk8xpv.jpg" alt="our days together during the trek" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083630/IMG_20190829_110603_hcm6iu.jpg" alt="our days together during the trek" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083601/IMG_20190831_090217_zyqj5j.jpg" alt="our days together during the trek" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083497/IMG_20190829_091940_c4qckr.jpg" alt="our days together during the trek" style="width:100%; height:180px; object-fit:cover; border-radius:6px;">
+</div>
+
 <p>People sometimes ask me whether I remember every expedition I've led.</p>
 
 <p>The honest answer is no.</p>
@@ -6252,13 +6420,19 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <p>And even today, whenever someone asks me which trek they should dream about completing one day, my answer remains exactly the same.</p>
 
-<p><strong>Pin Parvati Pass.</strong></p>
+<p><strong>Pin Parvati Pass.</strong>
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785083590/IMG_20190830_094525_sjemus.jpg" alt="Bhramkamal flower - found above Manatalai"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+</p>
 
 <p>Forget it if you can.</p>
 
 <p>I never could.</p>
 
+<br>
+<br>
 <hr>
+
 
 <h2 id="who-should-do-pin-parvati-pass">Who Should Attempt Pin Parvati Pass?</h2>
 
