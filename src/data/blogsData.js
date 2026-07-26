@@ -4570,7 +4570,7 @@ It is about understanding where to go, when to move, and how geography controls 
     <p><b>⏳ 10N/11D | ⚡ Difficult | 🏔️ 17,450 ft | 📍 Parvati Valley to Spiti</b></p>
     <p>Few monsoon treks feel as complete and demanding as Pin Parvati. Dense forests, hot springs, glacial valleys, moraine sections, and a massive high-altitude pass all combine into one continuous expedition.</p>
     <p>The transition from the wet Parvati Valley into the dry Spiti side feels almost geographical in real time — one of the clearest examples of how the Himalayan rain-shadow works.</p>
-  </div>
+<p>🔍 Looking for a complete trekking guide? Read our <a href="/blogs/pin-parvati-pass-trek-guide"><strong>Pin Parvati Pass Trek Complete Guide</strong></a> covering the route, itinerary, permits, fitness, packing essentials, weather, costs, and expert tips from our expeditions.</p>  </div>
 </div>
 
 <br>
@@ -4769,7 +4769,7 @@ It is about understanding where to go, when to move, and how geography controls 
   thumbnail:
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
 
-  content: `<h1>Pin Parvati Pass Trek – The Ultimate Guide to India's Most Diverse Himalayan Expedition</h1>
+  content: `
 
 <p><em>Some treks are beautiful. Some are difficult. Some are memorable.</em></p>
 
@@ -4943,6 +4943,13 @@ It is about understanding where to go, when to move, and how geography controls 
     <tr>
       <td><strong>Suitable For</strong></td>
       <td>Experienced trekkers with prior high-altitude trekking experience.</td>
+    </tr>
+    <tr>
+      <td><strong style="color:#ff7300;">Book Your Slot Now</strong></td>
+      <td>
+        Click 👉 <strong><a href="/trek/pin-parvati-pass-trek">Pin Parvati Pass Trek</a></strong>
+        to book your slot, explore the itinerary, route, inclusions, packing list, and everything you need to plan your adventure.
+      </td>    
     </tr>
   </tbody>
 </table>
@@ -6431,6 +6438,21 @@ Tomorrow would almost certainly look nothing like it.</p>
 
 <br>
 <br>
+<hr>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong style="color:#ff7300;">Book Your Slot Now</strong></td>
+      <td>
+        Click 👉 <strong><a href="/trek/pin-parvati-pass-trek">Pin Parvati Pass Trek</a></strong>
+        to book your slot, explore the itinerary, route, inclusions, packing list, and everything you need to plan your adventure.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p></p>
+
 <hr>
 
 
