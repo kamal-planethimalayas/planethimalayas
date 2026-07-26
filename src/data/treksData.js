@@ -1610,19 +1610,12 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-  { label: "11 Jul - 17 Jul", start: "2026-07-11", end: "2026-07-17" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
   { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
    ],
 
    confirmedDepartures: [
-  {
-    date: "2026-07-11",
-    showOnHomepage: true,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
   {
     date: "2026-08-15",
     showOnHomepage: true,
@@ -1807,7 +1800,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     date: "2026-08-08",
     showOnHomepage: true,
-    seatsLeft: 3,
+    seatsLeft: 2,
     status: "confirmed"
   },
 ],
@@ -2091,20 +2084,20 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "18 Jul - 24 Jul", start: "2026-07-18", end: "2026-07-24" },
   { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
 ],
 
 confirmedDepartures: [
   {
-    date: "2026-07-18",
+    date: "2026-08-15",
     showOnHomepage: true,
-    seatsLeft: 5,
-    status: "confirmed"
+    seatsLeft: 10,
+    status: "upcoming"
   },
   {
-    date: "2026-08-15",
+    date: "2026-08-29",
     showOnHomepage: true,
     seatsLeft: 10,
     status: "upcoming"
@@ -2352,11 +2345,6 @@ confirmedDepartures: [
   },
 
     dates: [
-
-  { label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
-  { label: "20 Jul - 24 Jul", start: "2026-07-20", end: "2026-07-24" },
-
-  
   { label: "10 Aug - 14 Aug", start: "2026-08-10", end: "2026-08-14" },
   { label: "17 Aug - 21 Aug", start: "2026-08-17", end: "2026-08-21" },
 
@@ -2369,18 +2357,6 @@ confirmedDepartures: [
 ],
 
 confirmedDepartures: [
-  {
-    date: "2026-07-06",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
-  {
-    date: "2026-07-20",
-    showOnHomepage: true,
-    seatsLeft: 6,
-    status: "upcoming"
-  },
   {
     date: "2026-08-10",
     showOnHomepage: true,
@@ -2564,7 +2540,6 @@ confirmedDepartures: [
   inclusionsNote: "🍽️ All Meals – from lunch on Day 1 to breakfast on Day 6",
 
   dates: [
-  { label: "11 Jul - 16 Jul", start: "2026-07-11", end: "2026-07-16" },
 
   { label: "15 Aug - 20 Aug", start: "2026-08-15", end: "2026-08-20" },
   
@@ -2896,7 +2871,7 @@ confirmedDepartures: [
 
     dates: [
 
-{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
+// { label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
 
   ],
 
@@ -3086,18 +3061,18 @@ description:
 
   dates: [   
 
-{ label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
+//{ label: "06 Jul - 10 Jul", start: "2026-07-06", end: "2026-07-10" },
 
   ],
 
-   confirmedDepartures: [
-  {
-    date: "2026-07-06",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
-],
+//   confirmedDepartures: [
+  //{
+    //date: "2026-07-06",
+    //showOnHomepage: false,
+    //seatsLeft: 0,
+    //status: "confirmed"
+  //},
+//],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
@@ -3383,18 +3358,18 @@ description:
 
   dates: [   
 
-{ label: "08 Jul - 10 Jul", start: "2026-07-08", end: "2026-07-10" },
+//{ label: "08 Jul - 10 Jul", start: "2026-07-08", end: "2026-07-10" },
 
   ],
 
-  confirmedDepartures: [
-  {
-    date: "2026-07-08",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
-  },
-],
+ // confirmedDepartures: [
+  //{
+  //  date: "2026-07-08",
+  //  showOnHomepage: false,
+  //  seatsLeft: 0,
+   // status: "confirmed"
+ // },
+//],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 3 lunch",
 
@@ -4634,7 +4609,7 @@ seo: {
 "The Ali–Bedni Bugyal Trek is one of the best meadow treks in the Himalayas, a breathtaking journey through Uttarakhand’s most enchanting high-altitude grasslands. Beginning from the serene mountain village of Wan, this beginner-friendly trek offers the perfect introduction to Himalayan trekking, blending ease with unmatched scenic beauty. The trail gradually ascends through ancient oak and rhododendron forests, where filtered sunlight paints the woods in golden hues and the silence is broken only by birdsong and the whisper of the wind.<br>As the forest thins, the landscape opens dramatically into the sweeping expanse of Ali Bugyal — a vast, rolling alpine meadow that feels almost otherworldly. Walking here is an experience in itself, with soft grass underfoot and uninterrupted views stretching endlessly toward the horizon. Towering above this dreamlike setting stand the mighty peaks of Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing brilliantly against the Himalayan sky.<br>A gentle traverse leads to Bedni Bugyal, equally stunning yet deeply spiritual in its presence. At its heart lies the sacred Bedni Kund, a pristine high-altitude lake associated with the legendary Nanda Devi Raj Jat Yatra. During summer, the meadows bloom into a vibrant carpet of wildflowers, adding color and life to an already magical landscape.<br>This easy trek in the Himalayas is not just about reaching a destination — it’s about immersing yourself in vast open spaces, breathing crisp mountain air, and experiencing the quiet grandeur of nature at its purest. Whether you are a first-time trekker or someone returning to the mountains, the Ali Bedni Bugyal Trek promises an unforgettable escape into the soul of the Himalayas."
     },
 
-    price: 8900,
+    price: 10400,
     priceNote: "* Lohajung to Lohajung",
     addons: {
       transport: 6000, 
@@ -7125,7 +7100,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 <br>Gulabi Kantha is a trek for those who want the Himalayas to feel personal rather than overwhelming — a place where trails remain peaceful, views arrive without competition, and every season tells a different story. Whether walked through flowers, mist, or snow, it offers an experience that feels less like a checklist and more like a conversation with the mountains themselves.`
 },
 
-  price: 9900,
+  price: 10400,
   priceNote: "* Hanuman Chatti to Hanuman Chatti",
   addons: {
     transport: 4000,
@@ -7293,7 +7268,7 @@ Summit day arrives before dawn. Headlamps glow softly as you begin the final asc
 Kedarkantha is more than a winter trek. It is a journey through silent forests, frozen lakes, open alpine slopes, and unforgettable summits — a perfect balance of adventure and beauty. Whether it’s your first experience of snow or a return to the mountains you love, this trek leaves you with something rare: the feeling of truly walking inside winter itself.`
 },
 
-  price: 8400,
+  price: 10400,
   priceNote: "* Sankri to Sankri",
   addons: {
     transport: 4000,
@@ -7383,6 +7358,18 @@ After lunch, the journey continues downhill — a long but gentle descent all th
 By late evening, you arrive back in Sankri, marking the true end of the trek. After freshening up at the guesthouse, enjoy a warm dinner and reflect on the journey — from silent forests and snow-covered meadows to the unforgettable summit sunrise. Settle in for a well-deserved night’s rest.
 <br><br>
 The following day is reserved for departure. Guests may check out of the guesthouse before noon, concluding the Kedarkantha trek with memories that linger long after the mountains are left behind.`
+},
+{
+  day: 5,
+  title: "Departure: Sankri → Dehradun | 200 km Drive | ~8 Hours",
+  details: `<strong>• After breakfast, depart from Sankri and drive back to Dehradun. Shared transport will be available for participants who have opted for it during booking.</strong><br><br>
+After a relaxed breakfast at the guesthouse, it's time to bid farewell to the mountains. Guests who have booked return transportation with us will board the shared vehicle for the drive back to Dehradun. Those who have not opted for transport may check out of the guesthouse before <strong>10:00 AM</strong> and make their own onward travel arrangements.
+<br><br>
+The journey from Sankri to Dehradun covers approximately <strong>200 km</strong> and usually takes around <strong>8 hours</strong>, depending on road and traffic conditions. The route winds through picturesque Himalayan villages, river valleys, and forested hills before descending into the plains.
+<br><br>
+We recommend starting the journey early to reach Dehradun by evening. If you have onward travel plans by train, flight, or bus, please keep sufficient buffer time in your schedule, as travel time may occasionally be affected by weather or road conditions.
+<br><br>
+As the mountains gradually fade into the distance, take a moment to reflect on the incredible journey—from snow-covered forests and peaceful campsites to the unforgettable sunrise from the Kedarkantha summit. We hope you leave with lasting memories, new friendships, and a desire to return to the Himalayas again soon.`
 },
 ],
 
