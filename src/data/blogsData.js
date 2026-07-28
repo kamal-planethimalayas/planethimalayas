@@ -9204,5 +9204,1102 @@ If you've never experienced the mountains after the monsoon, this might be the y
 `
 },
 
+{
+  title: "Why Hampta Pass is One of the Most Diverse Treks in the Himalayas",
+  seoTitle: "Hampta Pass Trek – Complete Guide (2026) | Itinerary, Best Time, Difficulty & Chandratal",
+  slug: "hampta-pass-trek-guide",
+  date: "2026-07-28",
+  category: "Flagship Guides",
+
+  author: {
+    name: "Planethimalayas",
+    thumbnail: "/images/main/brand-logo.png",
+    designation: "Trekking & Exploration Team",
+    bio: "Planethimalayas is the in-house team of trek leaders, route planners, and mountain professionals working behind every journey we curate. With years of on-ground experience across the Himalayas, the team brings together deep knowledge of trails, seasons, logistics, and mountain safety. Every guide, article, and itinerary reflects real experiences from the field—designed to help trekkers make informed decisions and experience the Himalayas with clarity, confidence, and respect.",
+    socials: {
+      linkedin: "https://linkedin.com/company/planethimalayas"
+    }
+  },
+
+  tags: [
+
+    "Hampta Pass Trek",
+    "Hampta Pass",
+    "Hampta Pass Trek Guide",
+    "Hampta Pass Trek Itinerary",
+    "Hampta Pass Trek Cost",
+    "Hampta Pass Trek Difficulty",
+    "Hampta Pass Trek Best Time",
+    "Hampta Pass Trek Weather",
+    "Hampta Pass Trek in June",
+    "Hampta Pass Trek in July",
+    "Hampta Pass Trek in August",
+    "Hampta Pass Trek in September",
+    "Hampta Pass Altitude",
+    "Hampta Pass Trek Fitness",
+    "Hampta Pass Packing List",
+    "Hampta Pass River Crossing",
+    "Hampta Pass Chandratal",
+    "Chandratal Lake",
+    "Kullu Valley",
+    "Lahaul Valley",
+    "Spiti Valley",
+    "Manali Treks",
+    "Himachal Pradesh Treks",
+    "Moderate Himalayan Treks",
+    "Beginner Himalayan Treks",
+    "Crossover Trek",
+    "Trans Himalayan Trek",
+    "Camping in Himalayas",
+    "Alpine Meadows",
+    "Himalayan Wildflowers",
+    "Trekking in Himachal Pradesh",
+    "High Altitude Trek",
+    "Planethimalayas"
+
+  ],
+
+  description:
+    "Discover everything about the Hampta Pass Trek in this complete guide by Planethimalayas. Learn about the itinerary, best time to visit, difficulty level, fitness requirements, weather, river crossings, Chandratal Lake, packing list, flora & fauna, campsites, and expert trekking tips for one of the most scenic Himalayan crossover treks.",
+
+  thumbnail:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-hero_tp9o7j.jpg",
+
+content: `
+<h1>Hampta Pass Trek – The Complete Guide (2026)</h1>
+
+<p><strong>Hampta Pass Trek</strong> is one of those rare Himalayan journeys where every single day feels like an entirely different trek. Within just five days, you walk through lush forests, flower-filled meadows, glacial valleys, moraine fields, snow slopes, mountain streams, and finally emerge into the stark, barren landscape of Lahaul before driving to the breathtaking <a href="https://en.wikipedia.org/wiki/Chandra_Taal" target="_blank" rel="noopener">Chandratal Lake</a>.</p>
+
+<p>Very few Himalayan treks offer such dramatic geographical transitions over such a short duration. One moment you're walking beside lively streams flowing through the green valleys of Kullu; a day later you're standing amidst towering rocky mountains where vegetation almost disappears. It feels less like completing a trek and more like travelling across two completely different Himalayan worlds.</p>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248258/hampta-pass-1_ksxpxg.jpg" alt="meadows of balu ka ghera"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>Located in Himachal Pradesh, Hampta Pass sits at an altitude of approximately <strong>14,100 ft (4,300 m)</strong>. The pass forms a natural corridor between the lush <a href="https://en.wikipedia.org/wiki/Kullu_Valley" target="_blank" rel="noopener">Kullu Valley</a> and the cold desert landscapes of <a href="https://en.wikipedia.org/wiki/Lahaul" target="_blank" rel="noopener">Lahaul</a>. Historically these mountain passes connected communities, shepherds and traders long before roads reached these regions.</p>
+
+<p>Today, Hampta Pass has become one of the most sought-after Himalayan trekking destinations because it packs almost every classic mountain experience into a single itinerary.</p>
+
+<p>If someone asks us to recommend just one trek that offers forests, waterfalls, alpine meadows, snowfields, glaciers, rivers, rocky terrain, mountain passes, cold deserts and a high-altitude lake—all within five days—our answer is almost always Hampta Pass.</p>
+
+<hr>
+
+<!-- ========================= -->
+<!-- Table of Contents -->
+<!-- ========================= -->
+
+<div style="border:1px solid #ddd; border-radius:8px; padding:20px; background:#fafafa; margin:30px 0;">
+
+<h2 style="margin-top:0; color:#ff7300;">📑 Table of Contents</h2>
+
+<ol style="line-height:2; padding-left:20px;">
+
+<li><a href="#why-special">Why Hampta Pass is So Special</a></li>
+
+<li><a href="#overview">Hampta Pass Trek Overview</a></li>
+
+<li><a href="#why-different">What Makes Hampta Pass Different from Other Himalayan Treks?</a></li>
+
+<li><a href="#who-should-do">Who Should Do the Hampta Pass Trek?</a></li>
+
+<li><a href="#journey">The Journey Through Two Himalayan Worlds</a></li>
+
+<li><a href="#memorable-moments">Moments You'll Remember Long After the Trek Ends</a></li>
+
+<li><a href="#best-time">Best Time to Do the Hampta Pass Trek</a></li>
+
+<li><a href="#early-vs-late">Early Season vs Late Season – Which One Should You Choose?</a></li>
+
+<li><a href="#difficulty">How Difficult is the Hampta Pass Trek?</a></li>
+
+<li><a href="#fitness">Fitness Required for Hampta Pass Trek</a></li>
+
+<li><a href="#flora">Flora Along the Hampta Pass Trek</a></li>
+
+<li><a href="#fauna">Wildlife Along the Hampta Pass Trek</a></li>
+
+<li><a href="#itinerary">Detailed Day-wise Itinerary</a></li>
+
+<li><a href="#food-accommodation">Accommodation, Food & Facilities</a></li>
+
+<li><a href="#reach">How to Reach Hampta Pass Trek</a></li>
+
+<li><a href="#packing">Essential Packing List</a></li>
+
+<li><a href="#altitude">Altitude & Safety</a></li>
+
+<li><a href="#faqs">Frequently Asked Questions</a></li>
+
+<li><a href="#planethimalayas-way">The Planethimalayas Way</a></li>
+
+<li><a href="#why-ph">Why Trek with Planethimalayas?</a></li>
+
+</ol>
+
+</div>
+
+<hr>
+
+<h2 id="why-special" style="color:#ff7300">Why Hampta Pass Trek is So Special</h2>
+
+<p>Every Himalayan trek has its own personality.</p>
+
+<p>Some are known for beautiful alpine lakes, others for massive summit views, ancient villages, endless forests or ridge walks. Hampta Pass is different because it combines almost everything that makes Himalayan trekking memorable into one compact adventure.</p>
+
+<p>Think of it as travelling through multiple mountain landscapes without undertaking a long expedition.</p>
+
+<p>The trail begins inside dense forests of pine, deodar and oak near Manali. Soon the forests open into vast meadows where numerous streams criss-cross the valley. As you gain altitude, vegetation slowly disappears and glacial landscapes begin to dominate. Loose moraine, snow patches and rocky mountain walls announce your approach towards Hampta Pass.</p>
+
+<p>Cross the pass and everything changes almost instantly.</p>
+
+<p>The lush green valley you've been walking through suddenly gives way to the barren mountains of Lahaul. Rivers become wider, slopes become drier, colours become muted and the entire landscape feels wilder.</p>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248987/Hampta-Pass-Trek-Images_vnfqmj.webp" alt="first view of Chika meadows and rani nala in Kullu valley" style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535059/hampta-pass-2_n6ngdu.jpg" alt="the barren landscape of Lahaul approaching Sheagoru" style="width:50%; border-radius:6px;">
+</div>
+
+<p>This dramatic crossover between two completely different Himalayan ecosystems is what makes Hampta Pass truly unique.</p>
+
+<p>Few Himalayan treks allow you to experience such a striking geographical transition within a single day.</p>
+
+<hr>
+
+<h2 style="color:#ff7300">A Trek That Never Stops Changing</h2>
+
+<p>One observation we've made after leading numerous batches is that trekkers are constantly surprised by how quickly the landscape changes.</p>
+
+<p>Unlike longer expeditions where a particular terrain continues for days, Hampta Pass keeps introducing something new almost every few hours.</p>
+
+<ul>
+<li>Dense conifer forests</li>
+<li>Wooden bridges over mountain streams</li>
+<li>Waterfalls crashing from hanging valleys</li>
+<li>Rolling alpine meadows</li>
+<li>Wildflower-covered grasslands</li>
+<li>Wide glacial river beds</li>
+<li>Snow slopes during early season</li>
+<li>Moraine fields filled with boulders</li>
+<li>High mountain pass crossing</li>
+<li>Barren cold desert landscapes</li>
+<li>The turquoise waters of Chandratal Lake</li>
+</ul>
+
+<p>This constant change keeps the trek exciting from beginning to end.</p>
+
+<p>There is hardly a monotonous section on the trail.</p>
+
+<hr>
+
+<h2 style="color:#ff7300">But There Is One Honest Truth...</h2>
+
+<p>Because Hampta Pass packs so much into just five trekking days, every landscape passes rather quickly.</p>
+
+<p>It is almost like travelling in a superfast train through some of the Himalayas' most beautiful scenery.</p>
+
+<p>You enter a spectacular meadow, spend a few hours exploring it, and by the next morning you're already climbing towards glaciers. Before you've fully absorbed the glacial terrain, you're descending into the stark landscapes of Lahaul.</p>
+
+<p>Some trekkers return wishing they had spent another day at places like Jwara Meadows or Balu Ka Ghera simply to slow down and absorb the surroundings.</p>
+
+<p>Yet that is also Hampta Pass's greatest strength.</p>
+
+<p>No other trek introduces first-time trekkers to such a wide variety of Himalayan landscapes in so little time.</p>
+
+<p>If your goal is to understand how dramatically the Himalayas change with altitude, geology and climate, few trails teach that lesson better than Hampta Pass.</p>
+
+<hr>
+
+<h2 id="overview" style="color:#ff7300">Quick Trek Overview</h2>
+
+<table style="width:100%;border-collapse:collapse">
+<tr><td><strong>Region</strong></td><td>Kullu & Lahaul, Himachal Pradesh</td></tr>
+<tr><td><strong>Duration</strong></td><td>5 Days Trek + Arrival & Departure</td></tr>
+<tr><td><strong>Maximum Altitude</strong></td><td>14,100 ft (4,300 m)</td></tr>
+<tr><td><strong>Trek Distance</strong></td><td>Approximately 26–28 km</td></tr>
+<tr><td><strong>Difficulty</strong></td><td>Easy to Moderate</td></tr>
+<tr><td><strong>Starting Point</strong></td><td>Jobra (near Manali)</td></tr>
+<tr><td><strong>Ending Point</strong></td><td>Chatru via Hampta Pass</td></tr>
+<tr><td><strong>Nearest Town</strong></td><td>Manali</td></tr>
+<tr><td><strong>Highest Campsite</strong></td><td>Shea Goru – approximately 12,900 ft</td></tr>
+<tr><td><strong>Best Season</strong></td><td>June to September</td></tr>
+<tr><td><strong>Suitable For</strong></td><td>Fit beginners & experienced trekkers</td></tr>
+<tr><td><strong>Special Attraction</strong></td><td>Kullu–Lahaul crossover with Chandratal Lake</td></tr>
+</table>
+<hr>
+<br>
+<p><strong>Looking for upcoming departures?</strong> Check our <a href="/upcoming-treks/">Upcoming Treks</a> or explore the complete <a href="/trek/hampta-pass-trek">Hampta Pass Trek page</a> for batch dates, pricing and inclusions.</p>
+<br>
+
+<!-- IMAGE PLACEHOLDER : Trek Route Map -->
+
+<hr>
+
+<h2 id="why-different" style="color:#ff7300">What Makes Hampta Pass Different from Other Himalayan Treks?</h2>
+
+<p>Many Himalayan treks are famous for one defining feature.</p>
+
+<ul>
+<li>Kedarkantha is remembered for winter snow.</li>
+<li><a href="/treks/goechala-trek">Goecha La Trek</a> is celebrated for its grand views of Kanchenjunga.</li>
+<li><a href="/treks/har-ki-dun-trek">Har Ki Dun Trek</a> is known for its ancient villages and cultural heritage.</li>
+<li><a href="/treks/buran-ghati-trek">Buran Ghati Trek</a> combines forests, meadows and an exciting snow descent.</li>
+</ul>
+
+<p>Hampta Pass doesn't rely on just one highlight.</p>
+
+<p>Its greatest strength is diversity.</p>
+
+<p>Within a single itinerary you experience nearly every landscape that trekkers imagine when they think about the Himalayas.</p>
+
+<p>That's why Hampta Pass is often recommended as one of the best introductory Himalayan crossover treks.</p>
+
+<hr>
+
+<h2 "who-should-do" style="color:#ff7300">Who Should Do the Hampta Pass Trek?</h2>
+
+<p>This is one of the few Himalayan treks we comfortably recommend to almost every category of trekker—provided they prepare well.</p>
+
+<p>Preparation matters far more than previous trekking experience.</p>
+
+<ul>
+<li>✓ First-time Himalayan trekkers with good fitness</li>
+<li>✓ College students looking for an adventurous first trek</li>
+<li>✓ Working professionals seeking a short but rewarding Himalayan experience</li>
+<li>✓ Landscape photographers</li>
+<li>✓ Nature lovers interested in alpine flora</li>
+<li>✓ Experienced trekkers wanting a quick Himalayan escape</li>
+</ul>
+
+<p>However, don't mistake its popularity for simplicity.</p>
+
+<p>Trekking is never just another holiday.</p>
+
+<p>Every trek demands preparation, awareness and respect for the mountains. Hampta Pass is forgiving in many ways, but it still involves long walking days, cold weather, stream crossings and high-altitude camping.</p>
+
+<p>If you arrive physically prepared and mentally open to changing weather and unexpected mountain conditions, Hampta Pass rewards you with one of the richest trekking experiences in the Indian Himalayas.</p>
+
+<p>Need help deciding if this trek matches your experience? Our guide on <a href="/blogs/choose-right-himalayan-trek">how to choose the right Himalayan trek</a> can help you make an informed decision.</p>
+
+<hr>
+
+<h2 id="journey" style="color:#ff7300">The Journey Through Two Himalayan Worlds</h2>
+
+<div style="display:flex; gap:12px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785250622/IMG_20170625_063222_tgppyd.jpg" alt="campsite of chika kullu valley style="width:50%; border-radius:6px;">
+  <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248981/IMG_9220-1024x576_j4c6bm.webp" alt="campsite of sheagoru lahaul valley" style="width:50%; border-radius:6px;">
+</div>
+
+<p>The beauty of Hampta Pass isn't defined by its highest point. It lies in the journey between two completely different mountain landscapes.</p>
+
+<p>Every day introduces a new environment, new terrain and new challenges. By the time you reach Chatru, you'll have experienced more geographical diversity than many week-long Himalayan treks.</p>
+
+<p>The trail can broadly be divided into four distinct landscapes.</p>
+
+<h3 style="color:#ff7300">1. Forests of Kullu</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248998/chika-hampta_hmkdcl.jpg" alt="meadows of chika overlooking forest of kullu valley"
+     style="display:block; width:100%; height:100%; object-fit:cover; border-radius:6px; margin:0;">
+
+<p>Your journey begins near Jobra, a short drive from <a href="https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh" target="_blank" rel="noopener">Manali</a>.</p>
+
+<p>The first few kilometres pass through dense forests dominated by majestic Deodar, Pine and Oak trees. Sunlight filters through the tall canopy while the sound of the <strong>Rani Nallah</strong> accompanies you almost throughout the walk.</p>
+
+<p>Unlike many Himalayan treks that begin with steep climbs, Hampta Pass eases you into the mountains. The trail is gentle, making it an ideal introduction for first-time trekkers.</p>
+
+<p>Numerous wooden bridges, small waterfalls and fresh mountain air make this section enjoyable without being physically demanding.</p>
+
+<hr>
+
+<h3 style="color:#ff7300">2. Meadows, Streams & Wildflowers</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785249116/16994eee-5a55-44f4-9eff-81cb7e354839_Hampta_Pass-_Vineeth_V._Rao-_Beautiful_Jwara_Campsite_Pink_Flowers_-_Vineeth_V._Rao_bofia6.avif" alt="meadows of jwara and wildflowers"
+     style="display:block; width:100%; height:100%; object-fit:cover; border-radius:6px; margin:0;">
+
+<p>As you leave the forests behind, the valley slowly opens into broad alpine meadows.</p>
+
+<p>The scenery changes dramatically.</p>
+
+<p>Instead of walking beneath towering trees, you now walk through open grasslands with snow peaks standing proudly in every direction.</p>
+
+<p>Crystal-clear streams weave through the valley while colourful alpine flowers bloom across the meadows during much of the trekking season.</p>
+
+<p>This is where Hampta Pass begins to reveal its true character.</p>
+
+<p>The valley feels alive. Every turn presents another stream, another waterfall or another meadow stretching into the distance.</p>
+
+<p>During July and August especially, these meadows transform into natural gardens filled with countless tiny Himalayan flowers.</p>
+
+
+<hr>
+
+<h3 style="color:#ff7300">3. The Glacial Landscape</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248972/Hampta-Pass-Snow_cajpxl.webp" alt="climbing hampta pass through its glacial section in June-July"
+     style="display:block; width:100%; height:100%; object-fit:cover; border-radius:6px; margin:0;"">
+
+<p>Beyond Balu Ka Ghera, vegetation gradually disappears.</p>
+
+<p>The lush greens give way to rock, snow and ice.</p>
+
+<p>The trail now enters true high-altitude terrain where glaciers, moraines and snowfields become part of the landscape.</p>
+
+<p>Depending on the month you're trekking, this section can look completely different.</p>
+
+<p>During early June and the first half of July, much of the trail beyond Balu Ka Ghera remains covered under snow. Trekking across these snow slopes with proper equipment is often easier than negotiating loose rocks later in the season.</p>
+
+<p>As summer progresses, the snow gradually melts away, exposing moraine fields, large boulders and loose scree. While technically straightforward, this terrain demands careful foot placement and steady balance.</p>
+
+<hr>
+
+<h3 style="color:#ff7300">4. Entering the Cold Desert</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535058/hampta-pass-4_etl9tn.jpg" alt="the view towards the Lahaul valley from the hampta pass" 
+     style="display:block; width:100%; height:100%; object-fit:cover; border-radius:6px; margin:0;">
+
+<p>The moment you cross Hampta Pass, the Himalayas seem to change personality.</p>
+
+<p>The green valley disappears almost instantly.</p>
+
+<p>The mountains become rugged, barren and dramatically drier.</p>
+
+<p>This is Lahaul.</p>
+
+<p>Rain-bearing clouds from the Indian monsoon rarely cross these high mountain barriers, leaving behind an arid landscape that resembles the beginning of the cold deserts leading towards <a href="https://en.wikipedia.org/wiki/Spiti_Valley" target="_blank" rel="noopener">Spiti Valley</a>.</p>
+
+<p>The contrast is astonishing.</p>
+
+<p>Within just a few hours, you've travelled from one Himalayan ecosystem into another.</p>
+
+<hr>
+
+<h2 id="memorable-moments" style="color:#ff7300">Moments You'll Remember Long After the Trek Ends</h2>
+
+<p>Every trek has places that remain in your memory long after you've returned home. Hampta Pass is full of such moments.</p>
+
+<h3 style="color:#ff7300">Crossing the Wooden Bridge into Chika</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785249805/hampta-pass-trek_vigq7a.webp" alt="the wooden bridge crossing over rani nala before entering chika"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>The trek begins gently as you cross a small wooden bridge over the Rani Nallah.</p>
+
+<p>With the river flowing beside you and towering forests surrounding the trail, this first walk into Chika feels like a perfect introduction to Himalayan trekking.</p>
+<br>
+<h3 style="color:#ff7300">The Waterfall Above Chika</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535051/hampta-pass-12_xjjdgc.jpg" alt="the rani nala flowing at the chika campsite"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>One of the first sights that captures everyone's attention is the magnificent waterfall cascading down the mountain above Chika.</p>
+
+<p>Fed by glacial melt from the upper reaches near the <a href="https://en.wikipedia.org/wiki/Beas_Kund" target="_blank" rel="noopener">Beas Kund</a> region, the waterfall continues to thunder throughout the trekking season.</p>
+
+<p>It becomes the backdrop to your first campsite in the mountains.</p>
+
+<h3 style="color:#ff7300">The Barefoot River Crossing</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535045/hampta-pass-15_z8ihat.jpg" alt="crossing the stream before entering the Jwara meadows"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>Before reaching Jwara Meadows comes one of Hampta Pass's most memorable experiences.</p>
+
+<p>An icy mountain stream blocks your path.</p>
+
+<p>There's no bridge.</p>
+
+<p>Everyone removes their shoes, rolls up their trousers and carefully crosses barefoot under the guidance of the trek leaders.</p>
+
+<p>The water is shockingly cold, but crossing together often becomes one of the most talked-about memories of the trek.</p>
+
+<blockquote><strong>💡 Mountain Tip:</strong> Cross mountain streams exactly where your trek leader instructs. Glacier-fed rivers can appear calm but hide strong currents beneath the surface.</blockquote>
+
+<br>
+<h3 style="color:#ff7300">Jwara Meadows</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785249116/16994eee-5a55-44f4-9eff-81cb7e354839_Hampta_Pass-_Vineeth_V._Rao-_Beautiful_Jwara_Campsite_Pink_Flowers_-_Vineeth_V._Rao_bofia6.avif" alt="the mesmerizing jwara meadows and the wild alpine flowers"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>Jwara is perhaps one of the prettiest alpine meadows in the region.</p>
+
+<p>Numerous streams flow across the valley, creating small channels that nourish carpets of colourful alpine flowers.</p>
+
+<p>During peak flowering season, shades of yellow, purple, white and red decorate the landscape beneath towering snow-covered mountains.</p>
+
+<p>It's difficult to walk through Jwara without stopping repeatedly to admire the scenery.</p>
+
+<h3 style="color:#ff7300">Balu Ka Ghera</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785251521/balu_ka_ghera_yynrmq.jpg" alt="the magical balu ka ghera campsite"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>The name literally translates to <em>"bed of sand."</em></p>
+
+<p>Unlike a typical alpine campsite, Balu Ka Ghera is actually a broad basin where glacial streams have deposited fine sediments and minerals over thousands of years.</p>
+
+<p>Steep rocky mountains guard both sides of the valley while the river quietly winds through the centre.</p>
+
+<p>As evening arrives, the surrounding peaks glow under the golden light, making this one of the most photogenic campsites of the trek.</p>
+
+<h3 style="color:#ff7300">Standing on Hampta Pass</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1755535063/hampta-pass-6_v4mdqp.jpg" alt="jawdropping mountain view from Hampta pass"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>Reaching Hampta Pass isn't about conquering a summit.</p>
+
+<p>It is about witnessing one of the Himalayas' most dramatic geographical transitions.</p>
+
+<p>Standing on the saddle, lush Kullu lies behind you while the rugged mountains of Lahaul stretch endlessly ahead.</p>
+
+<p>On clear days, magnificent peaks such as <a href="https://en.wikipedia.org/wiki/Deo_Tibba" target="_blank" rel="noopener">Deo Tibba</a> and <a href="https://en.wikipedia.org/wiki/Indrasan" target="_blank" rel="noopener">Indrasan</a> dominate the skyline.</p>
+
+<h3 style="color:#ff7300">Shea Goru – The Most Beautiful Campsite</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248981/IMG_9220-1024x576_j4c6bm.webp" alt=the best campsite of hampta pass - sheagoru"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>If we had to choose one campsite that defines Hampta Pass, it would be Shea Goru.</p>
+
+<p>Located beside a glacial river, the campsite opens into an expansive valley surrounded by towering peaks and glaciers.</p>
+
+<p>The Pir Panjal Range rises dramatically on one side while the valley gradually opens towards the Spiti region on the other.</p>
+
+<p>After sunset, the absence of artificial lights transforms the sky into a brilliant canvas of stars.</p>
+
+<h3 style="color:#ff7300">The Sunrise River Crossing</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248980/hampta-pass-trek-1024x683_ie2ps1.jpg" alt="icy river crossing at sheagoru"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>The following morning begins with another unforgettable challenge.</p>
+
+<p>Before breakfast—and often before the sun reaches the valley—you cross the icy river near Shea Goru.</p>
+
+<p>Although the water feels freezing, early morning is the safest time because glacier-fed rivers generally carry less water before daytime melting increases the flow.</p>
+
+<p>It's one of those experiences that sounds intimidating beforehand but becomes a favourite memory afterwards.</p>
+
+<h3 style="color:#ff7300">Your First View of the Chandra Valley</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785252046/IMG_20170627_182114_bkixhg.jpg" alt="the view of spiti valley from chatru"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>As you descend further, the broad valley of the <a href="https://en.wikipedia.org/wiki/Chandra_River" target="_blank" rel="noopener">Chandra River</a> slowly comes into view.</p>
+
+<p>For many trekkers, this is the first glimpse of the vast cold desert landscapes that define Lahaul and Spiti.</p>
+
+<p>The road winding beside the river marks the end of the trekking trail—but the adventure isn't over yet.</p>
+
+<h3 style="color:#ff7300">Chandratal Lake</h3>
+
+<img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1785248997/visited-chandratal-during-my-hampta-pass-trek-with-trek-the-v0-hk9x7l9kuz7h1_wqpc7m.jpg" alt="chandratal lake spiti valley"
+     style="width:260px; height:180px; object-fit:cover; border-radius:6px; float:left; margin:0 16px 12px 0;">
+
+<p>No Hampta Pass journey feels complete without visiting Chandratal.</p>
+
+<p>The name means <em>"Lake of the Moon,"</em> inspired by its beautiful crescent shape.</p>
+
+<p>Set amidst barren mountains and snow-covered peaks, the lake's striking turquoise waters create one of the most iconic landscapes in the Indian Himalayas.</p>
+
+<p>Its beauty feels almost unreal—a brilliant splash of blue surrounded by an otherwise rugged, high-altitude desert.</p>
+
+<hr>
+
+<h2 id="best-time" style="color:#ff7300">Best Time to Do the Hampta Pass Trek</h2>
+
+<p>Unlike many Himalayan treks that are limited to a narrow weather window, <strong>Hampta Pass Trek</strong> changes dramatically as the season progresses. The route officially opens in June after winter snow begins to melt and remains accessible until late September, occasionally extending into early October depending on snowfall.</p>
+
+<p>There isn't a single "best" month for Hampta Pass. Instead, every phase of the season offers a completely different trekking experience.</p>
+
+<!-- IMAGE PLACEHOLDER : Seasonal collage (June, July, August, September) -->
+
+<hr>
+
+<h3 style="color:#ff7300">Hampta Pass in June – Walking on Snow</h3>
+
+<p>June marks the beginning of the trekking season.</p>
+
+<p>Large sections beyond Balu Ka Ghera remain covered with snow, especially around the approach to Hampta Pass and the descent towards Shea Goru.</p>
+
+<p>Many first-time trekkers assume snow makes the trek more difficult. Surprisingly, with proper microspikes and guidance from experienced trek leaders, walking on snow is often easier than negotiating the loose boulders exposed later in the season.</p>
+
+<p>The streams are relatively manageable, campsites remain quiet and the mountains still wear their winter coat.</p>
+
+<p>If your dream is to experience snow without attempting a technical expedition, June is undoubtedly one of the finest months.</p>
+
+<ul>
+<li>✓ Extensive snow fields</li>
+<li>✓ Frozen landscapes</li>
+<li>✓ Fewer trekking groups</li>
+<li>✓ Pleasant daytime temperatures</li>
+<li>✓ Excellent mountain views</li>
+</ul>
+
+<!-- IMAGE PLACEHOLDER : Snow-covered Hampta Pass in June -->
+
+<hr>
+
+<h3 style="color:#ff7300">Hampta Pass in July – Snow Meets Green</h3>
+
+<p>July offers perhaps the most dramatic contrast.</p>
+
+<p>Snow still survives around the higher reaches while the lower valleys transform into vibrant green meadows.</p>
+
+<p>Streams swell with glacial melt and countless waterfalls appear across the mountainsides.</p>
+
+<p>This is also when alpine flowers begin carpeting the meadows around Jwara and Balu Ka Ghera.</p>
+
+<p>The landscape feels incredibly alive.</p>
+
+<p>Early July usually retains more snow, while by the second half of the month the trail gradually shifts towards a greener appearance.</p>
+
+<!-- IMAGE PLACEHOLDER : Green meadows with snow peaks -->
+
+<hr>
+
+<h3 style="color:#ff7300">Hampta Pass in August – Peak Green Season</h3>
+
+<p>August transforms the Kullu side of Hampta Pass into a lush alpine paradise.</p>
+
+<p>The meadows become their greenest, streams flow at full strength and wildflowers bloom in extraordinary numbers.</p>
+
+<p>The contrast between the vibrant Kullu Valley and the barren mountains of Lahaul becomes even more striking.</p>
+
+<p>Being part of the monsoon season, occasional rain showers are expected. Fortunately, Hampta Pass lies close to the rain-shadow region of Lahaul, so rainfall is generally far less intense than in many other parts of Himachal Pradesh.</p>
+
+<p>Clouds drifting across the valley often create magical lighting conditions for photography.</p>
+
+<!-- IMAGE PLACEHOLDER : Wildflower meadows in August -->
+
+<hr>
+
+<h3 style="color:#ff7300">Hampta Pass in September – Crystal Clear Himalayas</h3>
+
+<p>For photographers, September is often the favourite month.</p>
+
+<p>The monsoon retreats, leaving behind exceptionally clear skies and outstanding mountain visibility.</p>
+
+<p>The meadows begin transitioning from lush green towards golden shades while the surrounding peaks appear sharper than at any other time of the year.</p>
+
+<p>Days remain pleasant, although nights become noticeably colder.</p>
+
+<p>By now, almost all seasonal snow has disappeared, exposing rocky terrain around the pass.</p>
+
+<p>Shepherds from nearby valleys are commonly seen grazing thousands of sheep and goats across the alpine grasslands, adding another fascinating dimension to the journey.</p>
+
+<!-- IMAGE PLACEHOLDER : Golden meadows during September -->
+
+<hr>
+
+<h2 id="early-vs-late" style="color:#ff7300">Early Season vs Late Season – Which One Should You Choose?</h2>
+
+<table style="width:100%;border-collapse:collapse">
+
+<tr>
+<th style="text-align:left">Early Season (June – Mid July)</th>
+<th style="text-align:left">Late Season (Late July – September)</th>
+</tr>
+
+<tr>
+<td>Snow-covered trail</td>
+<td>Rocky mountain trail</td>
+</tr>
+
+<tr>
+<td>Walking on snow</td>
+<td>Walking on boulders & moraine</td>
+</tr>
+
+<tr>
+<td>Winter landscape</td>
+<td>Green alpine meadows</td>
+</tr>
+
+<tr>
+<td>Cooler temperatures</td>
+<td>Slightly warmer days</td>
+</tr>
+
+<tr>
+<td>Less shepherd activity</td>
+<td>Large grazing herds</td>
+</tr>
+
+<tr>
+<td>Ideal for snow lovers</td>
+<td>Ideal for photographers & flower lovers</td>
+</tr>
+
+</table>
+<br>
+<p>Neither season is objectively better.</p>
+
+<p>If you want snow, choose June or early July.</p>
+
+<p>If you want lush meadows, flowers and crystal-clear skies, choose August or September.</p>
+
+<hr>
+
+<h2 id="difficulty" style="color:#ff7300">How Difficult is the Hampta Pass Trek?</h2>
+
+<p>One of the most common questions we receive is whether <strong>Hampta Pass Trek</strong> is suitable for beginners.</p>
+
+<p>The answer is yes—but with an important condition.</p>
+
+<p><strong>Beginners who prepare properly usually complete Hampta Pass comfortably.</strong></p>
+
+<p>The trek reaches an altitude of approximately 14,100 ft, which is moderate by Himalayan standards. Daily walking distances are reasonable and there are no technical climbing sections.</p>
+
+<p>However, calling it an "easy trek" without explanation would be misleading.</p>
+
+<p>The challenge doesn't come from altitude alone.</p>
+
+<p>It comes from changing terrain.</p>
+
+<!-- IMAGE PLACEHOLDER : Trekkers negotiating boulder section -->
+
+<h3 style="color:#ff7300">What Makes Hampta Pass Challenging?</h3>
+
+<ul>
+
+<li>Long trekking day while crossing the pass</li>
+
+<li>Steep climb before Hampta Pass</li>
+
+<li>Steep descent towards Shea Goru</li>
+
+<li>Loose rocks and moraine during late season</li>
+
+<li>Snow walking during early season</li>
+
+<li>Barefoot stream crossings</li>
+
+<li>Cold nights at high altitude</li>
+
+</ul>
+
+<p>Among these, the descent after crossing Hampta Pass usually surprises trekkers the most.</p>
+
+<p>It isn't technically difficult, but the trail is steep, rocky and requires concentration.</p>
+
+<p>Your knees and ankles work much harder while descending than during the climb.</p>
+
+<p>Taking slow, controlled steps is far more effective than trying to descend quickly.</p>
+
+<hr>
+
+<h3 style="color:#ff7300">Why We Rate Hampta Pass Easy to Moderate</h3>
+
+<p>At Planethimalayas, we classify Hampta Pass as an <strong>Easy to Moderate</strong> Himalayan trek.</p>
+
+<p>That rating reflects the overall experience rather than just the altitude.</p>
+
+<ul>
+
+<li>Altitude is moderate.</li>
+
+<li>Trail is well established.</li>
+
+<li>No technical mountaineering skills are required.</li>
+
+<li>Daily distances remain manageable.</li>
+
+<li>Terrain changes continuously.</li>
+
+<li>One demanding pass-crossing day.</li>
+
+</ul>
+
+<p>For a reasonably fit person who prepares consistently for four to six weeks before the trek, Hampta Pass is an excellent first high-altitude Himalayan adventure.</p>
+
+<p>If you're unsure whether this trek matches your current fitness level, read our guide on <a href="/blogs/get-prepared-for-a-trek">getting prepared for a Himalayan trek</a>.</p>
+
+<hr>
+
+<h2 id="fitness" style="color:#ff7300">Fitness Required for Hampta Pass Trek</h2>
+
+<p>Fitness isn't about being an athlete.</p>
+
+<p>It's about allowing your body to enjoy the mountains instead of struggling through them.</p>
+
+<p>The fitter you are, the more energy you'll have to appreciate your surroundings.</p>
+
+<h3 style="color:#ff7300">Cardiovascular Endurance</h3>
+
+<ul>
+
+<li>Jogging</li>
+
+<li>Brisk walking</li>
+
+<li>Cycling</li>
+
+<li>Swimming</li>
+
+<li>Stair climbing</li>
+
+</ul>
+
+<p>Aim for 5–6 km of continuous brisk walking or jogging without excessive fatigue.</p>
+
+<h3 style="color:#ff7300">Strength Training</h3>
+
+<ul>
+
+<li>Squats</li>
+
+<li>Lunges</li>
+
+<li>Step-ups</li>
+
+<li>Core exercises</li>
+
+<li>Calf strengthening</li>
+
+</ul>
+
+<p>Strong legs make uphill climbs easier while strong core muscles improve stability on uneven terrain.</p>
+
+<h3 style="color:#ff7300">Mental Preparation</h3>
+
+<p>The Himalayas don't always offer perfect weather.</p>
+
+<p>Clouds may hide mountain views.</p>
+
+<p>Rain may delay progress.</p>
+
+<p>You may feel tired after several hours of walking.</p>
+
+<p>Accepting these uncertainties is part of becoming a trekker.</p>
+
+<p>Mountains reward patience far more than speed.</p>
+
+<hr>
+
+<h2 id="flora" style="color:#ff7300">Flora Along the Hampta Pass Trek</h2>
+
+<p>One of Hampta Pass's greatest strengths is its remarkable biodiversity.</p>
+
+<p>Since the trail climbs from dense temperate forests into alpine terrain before crossing into the cold desert, the vegetation changes continuously with altitude.</p>
+
+<!-- IMAGE PLACEHOLDER : Wildflowers and forest collage -->
+
+<h3 style="color:#ff7300">Forest Zone</h3>
+
+<ul>
+
+<li>Deodar Cedar</li>
+
+<li>Blue Pine</li>
+
+<li>Oak</li>
+
+<li>Maple</li>
+
+</ul>
+
+<h3 style="color:#ff7300">Sub-Alpine Zone</h3>
+
+<ul>
+
+<li>Silver Birch</li>
+
+<li>Juniper</li>
+
+<li>Rhododendron shrubs</li>
+
+</ul>
+
+<h3 style="color:#ff7300">Alpine Meadows</h3>
+
+<p>During peak flowering season, numerous Himalayan flowers bloom across the valley.</p>
+
+<ul>
+
+<li>Buttercups</li>
+
+<li>Fleece Flower</li>
+
+<li>Anemones</li>
+
+<li>Primulas</li>
+
+<li>Potentilla</li>
+
+<li>Geranium</li>
+
+<li>Forget-me-nots</li>
+
+<li>Various Himalayan orchids and seasonal alpine blooms</li>
+
+</ul>
+
+<p>The exact flowering pattern changes every year depending on snowfall and rainfall.</p>
+
+<!-- IMAGE PLACEHOLDER : Close-up of alpine flowers -->
+<hr>
+
+<h2 id="fauna" style="color:#ff7300">Wildlife Along the Hampta Pass Trek</h2>
+
+<p>The forests and alpine valleys around Hampta Pass are home to an impressive variety of Himalayan wildlife, although sightings are never guaranteed. Most animals are naturally shy and avoid human activity.</p>
+
+<p>One of the joys of trekking is learning to appreciate signs of wildlife even when the animals themselves remain hidden.</p>
+
+<!-- IMAGE PLACEHOLDER : Himalayan Marmot -->
+
+<h3 style="color:#ff7300">Mammals You May Encounter</h3>
+
+<ul>
+<li>Himalayan Marmot</li>
+<li>Red Fox</li>
+<li>Wild Boar</li>
+<li>Himalayan Blue Sheep (Bharal)</li>
+<li>Himalayan Weasel</li>
+<li>Himalayan Black Bear (rare)</li>
+<li>Snow Leopard (extremely rare in this trekking corridor)</li>
+<li>Common Leopard (very elusive in lower forests)</li>
+</ul>
+
+<h3 style="color:#ff7300">Birdlife</h3>
+
+<ul>
+<li>Yellow-billed Chough</li>
+<li>Himalayan Griffon Vulture</li>
+<li>Golden Eagle</li>
+<li>Snow Pigeon</li>
+<li>Various Himalayan Laughingthrushes</li>
+<li>Rosefinches</li>
+</ul>
+
+<p>Wildlife sightings should always remain a bonus rather than an expectation. Observing these animals from a respectful distance is part of responsible trekking.</p>
+
+<hr>
+
+<h2 id="itinerary" style="color:#ff7300">Detailed Day-wise Itinerary</h2>
+
+<h3 style="color:#ff7300">Day 1 — Manali (6,700 ft) to Jobra (9,800 ft), Trek to Chika (10,200 ft)</h3>
+
+<p><strong>Drive:</strong> Approximately 2 hours<br>
+<strong>Trek:</strong> 3 km | 2–3 hours</p>
+
+<p>The journey begins with a scenic drive from Manali through dense forests before reaching Jobra. From here the trail gently descends and traverses alongside the beautiful Rani Nallah. Crossing wooden bridges, waterfalls and shaded forest paths, you gradually reach the open meadows of Chika where your first campsite awaits.</p>
+
+<!-- IMAGE PLACEHOLDER : Chika Campsite -->
+
+<hr>
+
+<h3 style="color:#ff7300">Day 2 — Chika to Balu Ka Ghera (11,900 ft)</h3>
+
+<p><strong>Distance:</strong> Approximately 9 km<br>
+<strong>Duration:</strong> 6–7 hours</p>
+
+<p>The trail gradually climbs through spectacular alpine meadows. One memorable highlight is the icy stream crossing before Jwara Meadows, where trekkers remove their shoes and carefully cross barefoot under the supervision of trek leaders.</p>
+
+<p>The day concludes at Balu Ka Ghera, a broad glacial basin surrounded by steep rocky mountains.</p>
+
+<!-- IMAGE PLACEHOLDER : Balu Ka Ghera -->
+
+<hr>
+
+<h3 style="color:#ff7300">Day 3 — Balu Ka Ghera to Shea Goru via Hampta Pass (14,100 ft)</h3>
+
+<p><strong>Distance:</strong> Approximately 10 km<br>
+<strong>Duration:</strong> 8–9 hours</p>
+
+<p>This is undoubtedly the most demanding and rewarding day of the trek.</p>
+
+<p>The gradual climb soon becomes steeper as you approach Hampta Pass. During early season this section remains covered in snow, while later months require negotiating boulders and moraine.</p>
+
+<p>Standing on Hampta Pass rewards every effort with breathtaking views of Deo Tibba, Indrasan and the dramatic Lahaul Valley.</p>
+
+<p>The descent towards Shea Goru is steep and rocky, demanding patience and careful footing.</p>
+
+<!-- IMAGE PLACEHOLDER : Hampta Pass Summit -->
+
+<hr>
+
+<h3 style="color:#ff7300">Day 4 — Shea Goru to Chatru (10,800 ft), Drive to Chandratal</h3>
+
+<p><strong>Distance:</strong> Approximately 7 km</p>
+
+<p>The morning begins with another unforgettable icy river crossing before breakfast. Afterwards the trail gradually descends into the barren landscape of Lahaul.</p>
+
+<p>From Chatru, weather and road conditions permitting, a vehicle takes you to the magnificent Chandratal Lake before returning to camp.</p>
+
+<!-- IMAGE PLACEHOLDER : Chandratal Lake -->
+
+<hr>
+
+<h3 style="color:#ff7300">Day 5 — Chatru to Manali</h3>
+
+<p>The return drive follows the spectacular Chandra River before crossing the Atal Tunnel back into the lush Kullu Valley.</p>
+
+<p>Although the trek ends, most trekkers leave with a completely different understanding of the Himalayas.</p>
+
+<hr>
+
+<h2 id="food-accommodation" style="color:#ff7300">Accommodation, Food & Facilities</h2>
+
+<p>All overnight stays during the trek are in twin-sharing alpine tents pitched at carefully selected campsites.</p>
+
+<h3 style="color:#ff7300">Camping</h3>
+
+<ul>
+<li>Chika</li>
+<li>Balu Ka Ghera</li>
+<li>Shea Goru</li>
+<li>Chatru (camp or campsite depending on logistics)</li>
+</ul>
+
+<h3 style="color:#ff7300">Meals</h3>
+
+<ul>
+<li>Fresh vegetarian meals</li>
+<li>Eggs served where applicable</li>
+<li>Breakfast, packed lunch, evening snacks and dinner</li>
+<li>Nutritious food suitable for high-altitude trekking</li>
+</ul>
+
+<p>There are also a few small dhabas on the trail where trekkers may enjoy tea, coffee or Maggi during the season.</p>
+
+<h3 style="color:#ff7300">Water Availability</h3>
+
+<p>Natural running water sources are available throughout most of the trek. The only exception is the pass day where water sources become limited for several hours while crossing the moraine and snow sections.</p>
+
+<p>Always refill your bottles whenever your trek leader advises.</p>
+
+<h3 style="color:#ff7300">Toilet Facilities</h3>
+
+<p>We use dedicated dry toilet tents at campsites to minimize environmental impact while maintaining privacy and hygiene.</p>
+
+<hr>
+
+<h2 id="reach" style="color:#ff7300">How to Reach Hampta Pass Trek</h2>
+
+<h3 style="color:#ff7300">By Air</h3>
+
+<p>The nearest airport is <strong>Bhuntar Airport</strong>, approximately 50 km from Manali.</p>
+
+<h3 style="color:#ff7300">By Train</h3>
+
+<p>The nearest major railway stations are Chandigarh and Pathankot, from where buses and taxis connect to Manali.</p>
+
+<h3 style="color:#ff7300">By Road</h3>
+
+<p>Manali is well connected by overnight Volvo buses from Delhi and Chandigarh.</p>
+
+<p>Most trekking batches begin from Manali, making travel planning straightforward.</p>
+
+<hr>
+
+<h2 id="packing" style="color:#ff7300">Essential Packing List</h2>
+
+<p>A detailed packing guide is available in our <a href="/blogs/packing-backpack">Himalayan Trek Packing Checklist</a>, but here are the essentials:</p>
+
+<ul>
+<li>Trekking backpack</li>
+<li>Good trekking shoes with ankle support</li>
+<li>Rain protection</li>
+<li>Warm layers</li>
+<li>Thermals</li>
+<li>Down jacket</li>
+<li>Woollen cap</li>
+<li>Sun cap</li>
+<li>Gloves</li>
+<li>Trekking poles</li>
+<li>Sunglasses</li>
+<li>Headlamp</li>
+<li>Personal medicines</li>
+<li>Sunscreen & lip balm</li>
+<li>Reusable water bottles</li>
+</ul>
+
+<hr>
+
+<h2 id="altitude" style="color:#ff7300">Altitude & Safety</h2>
+
+<p>Hampta Pass reaches an altitude of approximately 14,100 ft. While this is considered moderate by Himalayan standards, every trekker should remain aware of altitude-related illnesses.</p>
+
+<p>Stay hydrated, walk at a comfortable pace, eat regularly and immediately inform your trek leader if you experience symptoms such as persistent headache, nausea or unusual fatigue.</p>
+
+<p>Read our detailed guide on <a href="/blogs/mountain-sickness">Altitude Sickness (AMS)</a> before your trek.</p>
+
+<hr>
+
+<h2 id="faqs" style="color:#ff7300">Frequently Asked Questions</h2>
+
+<ul>
+
+<li><strong>Is Hampta Pass suitable for beginners?</strong><br>
+Yes, provided you prepare physically and join an organized trekking group.</li>
+
+<li><strong>How difficult is Hampta Pass Trek?</strong><br>
+Easy to Moderate.</li>
+
+<li><strong>What is the best month for Hampta Pass?</strong><br>
+June for snow, August for lush greenery and September for clear mountain views.</li>
+
+<li><strong>How high is Hampta Pass?</strong><br>
+Approximately 14,100 ft (4,300 m).</li>
+
+<li><strong>Is there snowfall on Hampta Pass?</strong><br>
+Yes, mainly during June and early July.</li>
+
+<li><strong>Can children do Hampta Pass?</strong><br>
+Fit children above suitable trekking age, accompanied by experienced adults, can complete the trek.</li>
+
+<li><strong>Is mobile network available?</strong><br>
+Network is generally available until Manali and occasionally near Chatru. During the trek, expect little to no connectivity.</li>
+
+<li><strong>Do I need trekking poles?</strong><br>
+Highly recommended, especially during the long descent after crossing the pass.</li>
+
+<li><strong>Can I do Hampta Pass solo?</strong><br>
+Experienced trekkers may, but joining an organized trek is recommended due to river crossings, logistics and weather conditions.</li>
+
+<li><strong>Is Chandratal always included?</strong><br>
+Usually yes, but the visit depends on road, weather and administrative conditions.</li>
+
+</ul>
+
+<hr>
+
+<h2 id="planethimalayas-way" style="color:#ff7300">The Planethimalayas Way</h2>
+
+<p>For us, trekking has never been just another holiday.</p>
+
+<p>Yes, you take leave from work, travel to the mountains and spend a few days away from daily routines. But somewhere between the long climbs, cold mornings, uncertain weather and countless small challenges, something begins to change.</p>
+
+<p>You stop worrying about notifications because there is no network. You stop thinking about deadlines because the only thing that matters is reaching the next campsite before sunset. Life becomes beautifully simple.</p>
+
+<p>Mountains don't promise perfect weather or uninterrupted views. Some days clouds hide the grandest peaks. Sometimes rain turns an easy walk into a demanding one. There are mornings when every step feels heavy and evenings when exhaustion replaces excitement.</p>
+
+<p>Yet these are often the moments that stay with us the longest.</p>
+
+<p>Every difficult climb teaches patience. Every unexpected obstacle teaches adaptability. Every successful crossing quietly builds confidence—not just for the mountains, but for life beyond them.</p>
+
+<p>That is why we rarely compare treks.</p>
+
+<p>Every trail has its own personality. Every valley tells a different story. The right trek isn't the one with the biggest mountain or the most famous photograph. It's the one that matches where you are today and what you wish to experience next.</p>
+
+<p>The Himalayas don't need to compete with each other.</p>
+
+<p>They simply invite us to keep exploring.</p>
+
+<!-- IMAGE PLACEHOLDER : Campfire / Trekkers watching stars -->
+
+<hr>
+
+<h2 id="why-ph" style="color:#ff7300">Why Trek with Planethimalayas?</h2>
+
+<p>At Planethimalayas, we believe a successful trek isn't measured only by reaching a destination. It is measured by how safely, responsibly and meaningfully you experience the journey.</p>
+
+<p>Our treks are led by experienced mountain professionals who focus on safety, learning and responsible travel. Small group sizes, carefully planned itineraries and attention to mountain ethics ensure that every participant returns not only with memorable photographs but also with a deeper appreciation for the Himalayas.</p>
+
+<p>If you're planning the <strong>Hampta Pass Trek</strong>, we'd be delighted to welcome you on the trail.</p>
+
+<p><strong>👉 Explore our <a href="/treks/hampta-pass-trek">Hampta Pass Trek page</a> for upcoming departures, pricing and complete trek details.</strong></p>
+`
+},
+
     
 ];
