@@ -3,9 +3,11 @@
 import Layout from '../../layouts/Layout.astro';
 import { treks } from '../../data/treksData.js';
 import { trekFAQs } from '../../data/faqsData.js';
+import { blogs } from "../../data/blogsData.js";
 import TrekMap from "../../components/TrekMap.jsx";
 import TrekDateSlots from "../../components/TrekDateSlots.jsx";
 import GalleryLightbox from '../../components/GalleryLightbox.jsx';
+import Testimonials from "../../components/Testimonials.jsx";
 
 export async function getStaticPaths() {
   return treks.map((trek) => ({
@@ -42,6 +44,66 @@ const groupedDates = Array.isArray(trek.dates) && trek.dates.length
   : null;
 
 const { gallery, name } = trek;
+
+const relatedArticles = blogs
+  .filter(blog => blog.featuredOnTrek)
+  .map(blog => {
+
+    let score = 0;
+
+    // Exact Trek
+    if (blog.related?.treks?.includes(trek.id))
+      score += 100;
+
+    // Tags
+    const tagMatches =
+      blog.related?.tags?.filter(tag =>
+        trek.tags?.includes(tag)
+      ).length || 0;
+
+    score += tagMatches * 20;
+
+    // Region
+    if (blog.related?.regions?.includes(trek.region))
+      score += 15;
+
+    // Season
+    const seasonMatches =
+      blog.related?.seasons?.filter(season =>
+        trek.season?.includes(season)
+      ).length || 0;
+
+    score += seasonMatches * 10;
+
+    // Difficulty
+    const difficultyMatches =
+      blog.related?.difficulty?.filter(level =>
+        trek.difficulty?.includes(level)
+      ).length || 0;
+
+    score += difficultyMatches * 5;
+
+    // Months
+    const monthMatches =
+      blog.related?.months?.filter(month =>
+        trek.month?.includes(month)
+      ).length || 0;
+
+    score += monthMatches * 3;
+
+    // Global Articles
+    if (blog.related?.global)
+      score += 1;
+
+    return {
+      ...blog,
+      score
+    };
+
+  })
+  .filter(article => article.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .slice(0, 10);
 ---
 
 <Layout 
@@ -772,6 +834,66 @@ const { gallery, name } = trek;
     </section>
 </section>
 
+<section id="trek-resources" class="trek-resources reveal">
+
+  <h2 class="section-heading">
+    Helpful <span>Resources</span>
+  </h2>
+
+  <p class="resources-subtitle">
+    Explore our collection of trek-specific guides and practical articles covering preparation, mountain safety, gear, weather, permits, logistics, and more—designed to help you make informed decisions before every Himalayan adventure.
+  </p>
+
+  <div class="resources-wrapper">
+
+    <button class="scroll-btn left" aria-label="Scroll left">❮</button>
+
+    <div class="resource-grid" id="resourceGrid">
+
+      {relatedArticles.map(article => (
+
+        <article class="resource-card">
+
+          <img
+            src={article.thumbnail}
+            alt={article.title}
+            loading="lazy"
+          />
+
+          <div class="resource-content">
+
+            <span class="resource-category">
+              {article.category}
+            </span>
+
+            <h3>{article.title}</h3>
+
+            <p>{article.description}</p>
+
+            <div class="resource-footer">
+
+              <span>📖 {article.readTime}</span>
+
+              <a
+                href={`/blogs/${article.slug}`}
+                class="resource-read-btn"
+              >
+                Read →
+              </a>
+          </div>
+
+        </article>
+
+      ))}
+
+    </div>
+
+    <button class="scroll-btn right" aria-label="Scroll right">❯</button>
+
+  </div>
+
+</section>
+
 {/* Similar Treks Section */}
 <section id="similar-treks" class="similar-treks-section reveal">
   <h2 class="similar-treks-heading">
@@ -859,6 +981,8 @@ const { gallery, name } = trek;
     <button class="scroll-btn right" aria-label="Scroll right">❯</button>
   </div>
 </section>
+
+<Testimonials client:load />
  
 <style>
 
@@ -2887,6 +3011,275 @@ backdrop-filter: blur(15px);
   to { opacity: 1; transform: translateY(0); }
 }
 
+
+
+/* ==================================================
+   TREK RESOURCES
+================================================== */
+
+#trek-resources{
+    padding:2rem 0;
+    position:relative;
+}
+
+/* ---------- Heading ---------- */
+
+#trek-resources h2{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:2.5rem;
+    font-weight:700;
+    color:#000;
+    margin-bottom:1rem;
+}
+
+#trek-resources h2 span{
+    color:#ff7300;
+    position:relative;
+}
+
+#trek-resources h2 span::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:4px;
+    background:#ff7300;
+    border-radius:2px;
+}
+
+/* ---------- Subtitle ---------- */
+
+.resources-subtitle{
+    max-width:100%;
+    font-size:1rem;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:1rem;
+}
+
+/* ==================================================
+   WRAPPER
+================================================== */
+
+.resources-wrapper{
+    position:relative;
+    display:flex;
+    align-items:center;
+}
+
+/* ==================================================
+   HORIZONTAL SCROLLER
+================================================== */
+
+.resource-grid{
+
+    display:flex;
+    gap:1.6rem;
+
+    overflow-x:auto;
+    overflow-y:visible;
+
+    scroll-behavior:smooth;
+
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+
+    padding:2rem 0;
+
+}
+
+.resource-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.resource-grid.dragging{
+    cursor:grabbing;
+    user-select:none;
+}
+
+/* ==================================================
+   CARD
+================================================== */
+
+.resource-card{
+
+    position:relative;
+
+    flex:0 0 320px;
+    max-width:320px;
+    min-height:500px;
+
+    display:flex;
+    flex-direction:column;
+
+    background:#121316;
+
+    border:2px solid #ff7300;
+    border-radius:12px;
+
+    overflow:hidden;
+
+    text-decoration:none;
+    color:inherit;
+
+    box-shadow:
+        0 4px 12px rgba(255,115,0,.45),
+        0 0 10px rgba(255,115,0,.30);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+
+    z-index:1;
+
+}
+
+.resource-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 8px 25px rgba(255,115,0,.80),
+        0 0 22px rgba(255,115,0,1);
+
+    z-index:20;
+
+}
+
+/* ==================================================
+   IMAGE
+================================================== */
+
+.resource-card img{
+
+    width:100%;
+    height:200px;
+
+    object-fit:cover;
+
+    transform:scale(1.03);
+
+    transition:
+        transform 1.1s cubic-bezier(.22,1,.36,1);
+
+}
+
+.resource-card:hover img{
+
+    transform:scale(1.12);
+
+}
+
+/* ==================================================
+   CONTENT
+================================================== */
+
+.resource-content{
+
+    display:flex;
+    flex-direction:column;
+    flex:1;
+
+    padding:22px;
+
+}
+
+.resource-category{
+
+    display:inline-block;
+    align-self:flex-start;
+
+    margin-bottom:14px;
+
+    padding:5px 12px;
+
+    border-radius:30px;
+
+    background:#fff4eb;
+
+    color:#ff7300;
+
+    font-size:.78rem;
+    font-weight:600;
+
+}
+
+.resource-content h3{
+
+    margin:0 0 14px;
+
+    color:#ff7300;
+
+    font-size:1.2rem;
+    line-height:1.4;
+
+}
+
+.resource-content p{
+
+    color:#fff;
+
+    font-size:.95rem;
+    line-height:1.75;
+
+}
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.resource-footer{
+
+    margin-top:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding-top:22px;
+
+    color:#ff7300;
+
+    font-weight:600;
+
+}
+
+.resource-read-btn{
+
+    color:#ff7300;
+    font-weight:600;
+    text-decoration:none;
+
+}
+
+
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media (max-width:900px){
+
+    .resource-card{
+
+        flex:0 0 300px;
+        max-width:300px;
+
+    }
+
+}
+
+@media (max-width:600px){
+
+    .resource-card{
+
+        flex:0 0 92%;
+        max-width:92%;
+
+    }
+
+}
 </style>
 </Layout>
 
@@ -3456,4 +3849,242 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  /* ===== SCOPE EVERYTHING TO TESTIMONIALS SECTION ===== */
+  const section = document.querySelector(".testimonials");
+  if (!section) return;
+
+  const row = section.querySelector("#testimonialRow");
+  const leftBtn = section.querySelector(".scroll-btn.left");
+  const rightBtn = section.querySelector(".scroll-btn.right");
+
+  if (!row || !leftBtn || !rightBtn) return;
+
+  /* ===== SCROLL FUNCTION ===== */
+  function scrollTestimonials(direction) {
+    const card = row.querySelector(".testimonial-card");
+    if (!card) return;
+
+    const gap = parseInt(getComputedStyle(row).gap) || 0;
+    const cardWidth = card.offsetWidth + gap;
+
+    row.scrollBy({
+      left: direction * cardWidth,
+      behavior: "smooth"
+    });
+
+    setTimeout(updateArrowState, 400);
+  }
+
+  /* ===== ENABLE / DISABLE ARROWS ===== */
+  function updateArrowState() {
+    const scrollLeft = Math.ceil(row.scrollLeft);
+    const maxScrollLeft = row.scrollWidth - row.clientWidth;
+
+    if (scrollLeft <= 0) {
+      leftBtn.classList.add("at-start");
+    } else {
+      leftBtn.classList.remove("at-start");
+    }
+
+    if (scrollLeft >= maxScrollLeft - 1) {
+      rightBtn.classList.add("at-end");
+    } else {
+      rightBtn.classList.remove("at-end");
+    }
+  }
+
+  /* ===== ARROW CLICK EVENTS ===== */
+  leftBtn.addEventListener("click", () => scrollTestimonials(-1));
+  rightBtn.addEventListener("click", () => scrollTestimonials(1));
+
+  /* ===== READ MORE TOGGLE ===== */
+  section.querySelectorAll(".read-more-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      const card = btn.closest(".testimonial-card");
+      card.classList.toggle("expanded");
+      btn.textContent = card.classList.contains("expanded")
+        ? "Read Less"
+        : "Read More";
+    });
+  });
+
+  /* ===== DESKTOP DRAG SCROLL ===== */
+  let isDown = false;
+  let startX;
+  let scrollLeftStart;
+
+  row.addEventListener("mousedown", (e) => {
+    isDown = true;
+    row.classList.add("dragging");
+    startX = e.pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+  });
+
+  row.addEventListener("mouseleave", () => {
+    isDown = false;
+    row.classList.remove("dragging");
+  });
+
+  row.addEventListener("mouseup", () => {
+    isDown = false;
+    row.classList.remove("dragging");
+    updateArrowState();
+  });
+
+  row.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - row.offsetLeft;
+    const walk = startX - x;
+    row.scrollLeft = scrollLeftStart + walk;
+  });
+
+  /* ===== TOUCH SCROLL (MOBILE) ===== */
+  row.addEventListener("touchstart", (e) => {
+    startX = e.touches[0].pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+  });
+
+  row.addEventListener("touchmove", (e) => {
+    const x = e.touches[0].pageX - row.offsetLeft;
+    const walk = startX - x;
+    row.scrollLeft = scrollLeftStart + walk;
+  });
+
+  row.addEventListener("touchend", updateArrowState);
+
+  /* ===== INITIAL STATE ===== */
+  updateArrowState();
+});
+</script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const section = document.querySelector(".trek-resources");
+  if (!section) return;
+
+  const row = section.querySelector("#resourceGrid");
+  const leftBtn = section.querySelector(".scroll-btn.left");
+  const rightBtn = section.querySelector(".scroll-btn.right");
+
+  if (!row || !leftBtn || !rightBtn) return;
+
+  function scrollResources(direction){
+
+    const card = row.querySelector(".resource-card");
+    if(!card) return;
+
+    const gap = parseInt(getComputedStyle(row).gap) || 0;
+    const cardWidth = card.offsetWidth + gap;
+
+    row.scrollBy({
+      left: direction * cardWidth,
+      behavior: "smooth"
+    });
+
+    setTimeout(updateArrowState,400);
+
+  }
+
+  function updateArrowState(){
+
+    const scrollLeft = Math.ceil(row.scrollLeft);
+    const maxScrollLeft = row.scrollWidth - row.clientWidth;
+
+    if(scrollLeft <= 0){
+      leftBtn.classList.add("at-start");
+    }else{
+      leftBtn.classList.remove("at-start");
+    }
+
+    if(scrollLeft >= maxScrollLeft - 1){
+      rightBtn.classList.add("at-end");
+    }else{
+      rightBtn.classList.remove("at-end");
+    }
+
+  }
+
+  leftBtn.addEventListener("click",()=>scrollResources(-1));
+  rightBtn.addEventListener("click",()=>scrollResources(1));
+
+  /* ---------- Desktop Drag ---------- */
+
+  let isDown = false;
+  let startX;
+  let scrollLeftStart;
+
+  row.addEventListener("mousedown",(e)=>{
+
+    isDown = true;
+    row.classList.add("dragging");
+
+    startX = e.pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+
+  });
+
+  row.addEventListener("mouseleave",()=>{
+
+    isDown = false;
+    row.classList.remove("dragging");
+
+  });
+
+  row.addEventListener("mouseup",()=>{
+
+    isDown = false;
+    row.classList.remove("dragging");
+    updateArrowState();
+
+  });
+
+  row.addEventListener("mousemove",(e)=>{
+
+    if(!isDown) return;
+
+    e.preventDefault();
+
+    const x = e.pageX - row.offsetLeft;
+    const walk = startX - x;
+
+    row.scrollLeft = scrollLeftStart + walk;
+
+  });
+
+  /* ---------- Mobile / Tablet ---------- */
+
+  row.addEventListener("touchstart",(e)=>{
+
+    startX = e.touches[0].pageX - row.offsetLeft;
+    scrollLeftStart = row.scrollLeft;
+
+  });
+
+  row.addEventListener("touchmove",(e)=>{
+
+    const x = e.touches[0].pageX - row.offsetLeft;
+    const walk = startX - x;
+
+    row.scrollLeft = scrollLeftStart + walk;
+
+  });
+
+  row.addEventListener("touchend",updateArrowState);
+
+  row.addEventListener("scroll",updateArrowState);
+
+  window.addEventListener("resize",updateArrowState);
+
+  updateArrowState();
+
+});
+
 </script>

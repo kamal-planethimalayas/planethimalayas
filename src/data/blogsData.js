@@ -4,6 +4,17 @@ export const blogs = [
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
   category: "Preparation Tips",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false,
+  },
+  featuredOnTrek:true,
+  readTime:"9 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -210,6 +221,17 @@ export const blogs = [
   slug: "mountain-manners",
   date: "2025-09-16",
   category: "Preparation Tips",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: true,
+  },
+  featuredOnTrek:true,
+  readTime:"9 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -368,6 +390,18 @@ Start by being mindful — pack responsibly, respect nature, and follow Leave No
   slug: "mountain-sickness",
   date: "2025-09-16",
   category: "Health & Wellness",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: true,
+},
+
+featuredOnTrek: true,
+  readTime:"5 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -442,6 +476,18 @@ Start by being mindful — pack responsibly, respect nature, and follow Leave No
   slug: "preventing-ams-mountain-sickness",
   date: "2025-09-16",
   category: "Health & Wellness",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: true,
+},
+
+featuredOnTrek: true,
+  readTime:"5 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -547,6 +593,18 @@ If you feel any of the following, descend without delay:<br>
   slug: "himalayan-trek-packing",
   date: "2025-09-19",
   category: "Preparation Tips",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: true,
+},
+
+featuredOnTrek: true,
+  readTime:"9 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -733,6 +791,18 @@ If your bag feels balanced, within weight limits, and contains only essentials �
   slug: "healthy-himalayan-trek",
   date: "2025-09-19",
   category: "Health & Wellness",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"9 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -932,6 +1002,18 @@ If your bag feels balanced, within weight limits, and contains only essentials �
   slug: "advanced-trekking-health-guide-himalayas",
   date: "2025-09-20",
   category: "Health & Wellness",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: true,
+},
+
+featuredOnTrek: true,
+  readTime:"9 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -1196,6 +1278,18 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
   category: "Preparation Tips",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"8 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1422,6 +1516,18 @@ Age alone is not a limitation — conditioning, acclimatization capacity, and pr
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"8 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1512,6 +1618,18 @@ Age alone is not a limitation — conditioning, acclimatization capacity, and pr
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"8 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1695,6 +1813,18 @@ If the weight feels balanced, your shoulders aren’t strained, and your posture
   slug: "packing-backpack",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"5 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1871,6 +2001,18 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   slug: "trekking-shoes-care",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"5 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -1958,6 +2100,18 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"5 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -2104,6 +2258,18 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   slug: "real-picture-of-himalayan-trekking",
   date: "2025-10-26",
   category: "Flagship Guides",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: ["easy"],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"8 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -2195,6 +2361,18 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   slug: "ultimate-winter-trek-preparation-guide-himalayas",
   date: "2025-10-26",
   category: "Preparation Tips",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: ["winter"],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"12 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -2583,6 +2761,18 @@ YOUR SKIN
   slug: "best-spring-treks-himalayas",
   date: "2026-02-12",
   category: "Trek Guides",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: ["spring"],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"9 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -3213,6 +3403,18 @@ Yes, especially above 3,000 meters, making it perfect for snow trekking experien
   slug: "kumaon-himalayas-trekking-guide",
   date: "2026-04-02",
   category: "Trek Guides",
+  related: {
+    treks: [],
+    tags: [],
+    regions: ["kumaon"],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"12 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -3582,6 +3784,18 @@ Spring (March–June) and Autumn (September–November) are ideal seasons.</p>
   slug: "layering-clothing-himalayan-microclimates",
   date: "2025-09-20",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"9 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -3811,6 +4025,18 @@ Comfort reduces stress and improves decision-making.</p>
   slug: "trekking-poles-benefits-himalayas",
   date: "2025-09-22",
   category: "Gear & Logistics",
+  related: {
+    treks: [],
+    tags: ["beginner"],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"8 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -4010,6 +4236,18 @@ Comfort reduces stress and improves decision-making.</p>
   slug: "summer-treks-himalayas-may-june",
   date: "2025-09-25",
   category: "Trek Guides",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: ["summer"],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"15 min",
   author: {
   name: "Planethimalayas",
   thumbnail: "/images/main/brand-logo.png",
@@ -4429,6 +4667,18 @@ Comfort reduces stress and improves decision-making.</p>
   slug: "monsoon-treks-himalayas-july-september",
   date: "2025-09-25",
   category: "Trek Guides",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: ["monsoon"],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"12 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -4721,11 +4971,20 @@ It is about understanding where to go, when to move, and how geography controls 
 {
   title: "Pin Parvati Pass Trek – The Ultimate Guide to India's Most Diverse Himalayan Expedition",
   slug: "pin-parvati-pass-trek-guide",
-
   date: "2026-07-10",
-
   category: "Flagship Guides",
+  related: {
+    treks: ["pin-parvati-pass-trek"],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
 
+featuredOnTrek: true,
+  readTime:"20 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -7253,6 +7512,18 @@ Tomorrow would almost certainly look nothing like it.</p>
   slug: "best-post-monsoon-autumn-treks-india-september-december",
   date: "2026-07-27",
   category: "Trek Guides",
+  related: {
+    treks: [],
+    tags: [],
+    regions: [],
+    seasons: ["autumn"],
+    difficulty: [],
+    months: [],
+    global: false
+},
+
+featuredOnTrek: true,
+  readTime:"15 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -9210,7 +9481,18 @@ If you've never experienced the mountains after the monsoon, this might be the y
   slug: "hampta-pass-trek-guide",
   date: "2026-07-28",
   category: "Flagship Guides",
+  related: {
+    treks: ["hampta-pass-trek"],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
 
+featuredOnTrek: true,
+  readTime:"18 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",
@@ -10307,7 +10589,19 @@ Usually yes, but the visit depends on road, weather and administrative condition
   slug: "gaumukh-tapovan-trek-guide",
   date: "2026-07-29",
   category: "Flagship Guides",
+  related: {
+    treks: ["gaumukh-tapovan-trek"],
+    tags: [],
+    regions: [],
+    seasons: [],
+    difficulty: [],
+    months: [],
+    global: false
+},
 
+featuredOnTrek: true,
+
+readTime: "18 min",
   author: {
     name: "Planethimalayas",
     thumbnail: "/images/main/brand-logo.png",

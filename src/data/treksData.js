@@ -1954,55 +1954,122 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
-    questions: [
-      {
-        question: "Is Pin Parvati Pass trek suitable for beginners?",
-        answer:
-          "No. This is a difficult, high-altitude trek recommended only for experienced trekkers with prior exposure to 14,000+ ft treks. You must be physically fit and mentally prepared for long days, snowfields, and river crossings."
-      },
-      {
-        question: "What is the best time for Pin Parvati Pass?",
-        answer:
-          "Mid-July to late September is ideal, when snow has melted enough to make the pass accessible and Spiti roads are open."
-      },
-      {
-        question: "How should I prepare for the Pin Parvati Pass Trek?",
-        answer:
-          "Preparing for the Pin Parvati Pass trek requires both physical and mental readiness. Physically, focus on endurance training, long hikes with backpacks, and altitude acclimatization if possible. Mentally, be ready for challenging terrain, river crossings, and unpredictable weather — staying positive, patient, and alert will make the experience safer and more rewarding."
-      },
-      {
-        question: "How challenging is the pass crossing day?",
-        answer:
-          "It’s the toughest day of the trek — 8–9 hrs of continuous walking over moraine and snowfields, with a steep climb to the pass and long descent. Early start and proper acclimatization are key."
-      },
-      {
-        question: "Is camping allowed near Mantalai Lake?",
-        answer:
-          "Yes, but campsites are limited. It’s a sacred site — trekkers must maintain silence and avoid littering. No washing or cooking directly at the lake’s edge."
-      },
-      {
-        question: "Will I get mobile network during the trek?",
-        answer:
-          "Network is available only till Barshaini/Kheerganga. After that, it’s a complete digital detox till you reach Mudh in Spiti."
-      },
-      {
-        question: "What kind of gear do I need?",
-        answer:
-          "Good trekking shoes, multiple warm layers, waterproof jacket, poles, headlamp, and snow gloves. Crampons/microspikes may be needed depending on snow."
-      },
-      {
-        question: "Can the trek be done in reverse (from Spiti to Parvati)?",
-        answer:
-          "Technically yes, but it’s tougher due to steeper ascent from the Spiti side and difficult acclimatization. Most organized groups do it from Parvati to Spiti for safety and better altitude gain."
-      },
-      {
-        question: "What makes this trek special?",
-        answer:
-          "The Pin Parvati Pass offers one of the most dramatic landscape shifts in the Indian Himalayas — from lush greenery to stark desert — making it both physically demanding and visually unforgettable."
-      },
-      
-    ]
-  }
+  questions: [
+
+    {
+      question: "Is the Pin Parvati Pass Trek suitable for beginners?",
+      answer:
+        "No. Pin Parvati Pass is considered one of the more demanding Himalayan treks and is recommended only for trekkers with prior experience above 14,000 ft. You should be comfortable walking 8–10 hours a day over boulders, moraine, glaciers and multiple river crossings."
+    },
+
+    {
+      question: "What is the best time to do the Pin Parvati Pass Trek?",
+      answer:
+        "The ideal season is from mid-July to late September. During this period, the pass is generally accessible, snow conditions are manageable and the roads to both Parvati Valley and Spiti remain open. Early July may still have heavy snow while late September brings colder temperatures and occasional fresh snowfall."
+    },
+
+    {
+      question: "How difficult is the Pin Parvati Pass Trek?",
+      answer:
+        "The trek is graded Difficult due to its long duration, high altitude (17,450 ft), glacier crossings, moraine sections, river crossings and unpredictable mountain weather. Although no technical climbing is required, previous trekking experience is strongly recommended."
+    },
+
+    {
+      question: "How should I prepare for the Pin Parvati Pass Trek?",
+      answer:
+        "Preparation should begin at least 6–8 weeks before the trek. Focus on endurance training, long walks carrying a backpack, stair climbing, leg strength and cardiovascular fitness. Mental preparedness is equally important as weather, river crossings and trail conditions can change rapidly in the Himalayas."
+    },
+
+    {
+      question: "How challenging is the Pin Parvati Pass crossing day?",
+      answer:
+        "The pass day is the toughest part of the expedition, involving around 8–10 hours of trekking across snowfields, glaciers and moraine. It begins before sunrise and includes a steep ascent to the pass followed by a long descent towards Pin Valley."
+    },
+
+    {
+      question: "Is independent trekking to Pin Parvati Pass safe?",
+      answer:
+        "The trek can technically be completed independently by highly experienced trekkers with excellent navigation skills, glacier knowledge and proper equipment. However, because of multiple river crossings, changing glacier conditions, remote campsites and unpredictable weather, most trekkers choose to go with experienced local guides or organized trekking groups."
+    },
+
+    {
+      question: "Do I need permits for the Pin Parvati Pass Trek?",
+      answer:
+        "Yes. Forest entry permissions are required for sections of the trek, and regulations may change from time to time. Most trekking organizations arrange all permits as part of the trek package, while independent trekkers should obtain the latest permit information from the local Forest Department before starting."
+    },
+
+    {
+      question: "Can I rent trekking gear in Kasol?",
+      answer:
+        "Yes. Kasol is one of the best places in Himachal Pradesh to rent trekking equipment. Trekking shoes, rucksacks, sleeping bags, trekking poles, crampons, jackets and gaiters are commonly available. Many trekking operators also provide technical gear when required."
+    },
+
+    {
+      question: "Where should I buy food and supplies before the trek?",
+      answer:
+        "Kasol has several grocery stores and trekking shops for last-minute purchases. For bulk ration shopping, Manikaran offers larger local markets where essentials are usually available at better prices."
+    },
+
+    {
+      question: "Will I get mobile network during the trek?",
+      answer:
+        "Mobile connectivity is available until Barshaini and is generally reliable around Kasol. Beyond Barshaini, there is no dependable network until you reach Mudh Village in Spiti. Expect a complete digital detox for most of the expedition."
+    },
+
+    {
+      question: "What kind of trekking gear is essential?",
+      answer:
+        "Good trekking shoes with strong grip, layered warm clothing, waterproof jacket and pants, trekking poles, headlamp, gloves, sunglasses and a properly fitted backpack are essential. Depending on snow conditions, microspikes or crampons may also be required."
+    },
+
+    {
+      question: "Can the Pin Parvati Pass Trek be done from Spiti to Parvati Valley?",
+      answer:
+        "Yes, but most organized groups prefer trekking from Parvati Valley towards Spiti. This direction provides better acclimatization, a more gradual altitude gain and an easier overall experience."
+    },
+
+    {
+      question: "How cold does it get on the Pin Parvati Pass Trek?",
+      answer:
+        "Daytime temperatures generally range between 8°C and 18°C depending on altitude, while nights can drop below freezing at higher camps. Near the pass, temperatures may fall well below 0°C, especially during bad weather or towards the end of September."
+    },
+
+    {
+      question: "Are river crossings dangerous?",
+      answer:
+        "River crossings are among the defining features of the Pin Parvati Pass Trek. Most are completed barefoot early in the morning when water levels are lower. With experienced guides and proper technique, they are manageable, but they should never be underestimated."
+    },
+
+    {
+      question: "Can I experience altitude sickness on this trek?",
+      answer:
+        "Yes. Since the trek reaches around 17,450 ft, Acute Mountain Sickness (AMS) is a genuine possibility. Proper acclimatization, hydration, steady pacing and following your trek leader's advice significantly reduce the risk."
+    },
+
+    {
+  question: "Are ATMs available on the route? Should I carry cash for the trek?",
+  answer:
+    "ATMs are available in Kasol, Bhuntar and larger towns before the trek begins, but once you leave Barshaini, cash withdrawals are no longer possible. During the trek, there are no ATMs or digital payment facilities. Even after the trek ends at Mudh in Spiti, mobile networks and digital payment systems can be unreliable in many parts of Spiti Valley. We recommend carrying sufficient cash for personal expenses, transport, accommodation and emergencies until you reach a major town with stable banking and mobile connectivity, such as Manali, Kaza (where facilities may still be limited) or Shimla, depending on your onward travel plans."
+},
+{
+  question: "Is travel insurance recommended for the Pin Parvati Pass Trek?",
+  answer:
+    "Yes, we strongly recommend purchasing travel insurance that covers high-altitude trekking and emergency evacuation. Although serious incidents are uncommon when the trek is conducted with experienced guides, proper acclimatization and responsible decision-making, emergencies can never be completely ruled out in the Himalayas. Think of travel insurance like an oxygen cylinder—you hope you'll never need it, but if an emergency arises, it can significantly reduce the financial burden of rescue, evacuation or medical treatment. It may not prevent an emergency, but it can help you recover from its financial impact."
+},
+{
+  question: "What is the maximum altitude of the Pin Parvati Pass Trek?",
+  answer:
+    "The highest point of the trek is Pin Parvati Pass at approximately 17,450 ft (5,319 m). At this altitude, oxygen levels are significantly lower than at sea level, making proper acclimatization, hydration and a gradual ascent essential for a safe and enjoyable trekking experience."
+},
+
+    {
+      question: "What makes the Pin Parvati Pass Trek so special?",
+      answer:
+        "Few Himalayan treks offer such dramatic geographical diversity. Over eleven days, you walk from the lush forests of Parvati Valley through alpine meadows, glacial landscapes and one of the highest crossover passes in Himachal Pradesh before descending into the stark high-altitude desert of Spiti. This extraordinary transition makes Pin Parvati Pass one of India's most rewarding trekking expeditions."
+    }
+
+  ]
+}
 },
 
 {
