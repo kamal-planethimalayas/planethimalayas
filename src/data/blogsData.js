@@ -3423,7 +3423,7 @@ Yes, especially above 3,000 meters, making it perfect for snow trekking experien
   related: {
     treks: [],
     tags: [],
-    regions: ["kumaon"],
+    regions: ["uttarakhand-kumaon"],
     seasons: [],
     difficulty: [],
     months: [],
