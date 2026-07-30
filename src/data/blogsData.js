@@ -4,6 +4,7 @@ export const blogs = [
   slug: "get-prepared-for-a-trek",
   date: "2025-09-16",
   category: "Preparation Tips",
+  priority: 3,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -221,6 +222,7 @@ export const blogs = [
   slug: "mountain-manners",
   date: "2025-09-16",
   category: "Preparation Tips",
+  priority: 3,
   related: {
     treks: [],
     tags: [],
@@ -254,7 +256,7 @@ export const blogs = [
     "Adventure Travel Ethics"
   ],
   description: "Learn the essential Leave No Trace (LNT) principles for responsible trekking in the Himalayas. Discover how to respect nature, minimize impact, and preserve mountain beauty for future generations.",
-  thumbnail: "/images/extras/experience-hero7.jpg",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535556/kgl-view11_rdri7y.jpg",
   content: `
 <p>The Himalayas aren’t just trails and summits — they are living ecosystems, cultural landscapes, and homes to thousands of people and species. Every trekker leaves an imprint, and it’s our responsibility to ensure that impact is minimal and positive.</p>
 
@@ -390,6 +392,7 @@ Start by being mindful — pack responsibly, respect nature, and follow Leave No
   slug: "mountain-sickness",
   date: "2025-09-16",
   category: "Health & Wellness",
+  priority: 4,
   related: {
     treks: [],
     tags: [],
@@ -476,6 +479,7 @@ featuredOnTrek: true,
   slug: "preventing-ams-mountain-sickness",
   date: "2025-09-16",
   category: "Health & Wellness",
+  priority: 4,
   related: {
     treks: [],
     tags: [],
@@ -593,6 +597,7 @@ If you feel any of the following, descend without delay:<br>
   slug: "himalayan-trek-packing",
   date: "2025-09-19",
   category: "Preparation Tips",
+  priority: 3,
   related: {
     treks: [],
     tags: [],
@@ -791,6 +796,7 @@ If your bag feels balanced, within weight limits, and contains only essentials �
   slug: "healthy-himalayan-trek",
   date: "2025-09-19",
   category: "Health & Wellness",
+  priority: 4,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -1002,6 +1008,7 @@ featuredOnTrek: true,
   slug: "advanced-trekking-health-guide-himalayas",
   date: "2025-09-20",
   category: "Health & Wellness",
+  priority: 4,
   related: {
     treks: [],
     tags: [],
@@ -1278,6 +1285,7 @@ If the nausea reduces, gradually increase your intake. But if it persists along 
   slug: "choose-right-himalayan-trek",
   date: "2025-09-19",
   category: "Preparation Tips",
+  priority: 3,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -1516,6 +1524,7 @@ Age alone is not a limitation — conditioning, acclimatization capacity, and pr
   slug: "ideal-trekking-shoes",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -1618,6 +1627,7 @@ featuredOnTrek: true,
   slug: "ideal-trekking-backpack",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -1813,6 +1823,7 @@ If the weight feels balanced, your shoulders aren’t strained, and your posture
   slug: "packing-backpack",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -2001,6 +2012,7 @@ Distribute weight properly, adjust straps correctly, and keep your load stable u
   slug: "trekking-shoes-care",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -2100,6 +2112,7 @@ featuredOnTrek: true,
   slug: "trekking-jackets-guide",
   date: "2025-09-19",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -2258,12 +2271,13 @@ featuredOnTrek: true,
   slug: "real-picture-of-himalayan-trekking",
   date: "2025-10-26",
   category: "Flagship Guides",
+  priority: 1,
   related: {
     treks: [],
     tags: ["beginner"],
     regions: [],
     seasons: [],
-    difficulty: ["easy"],
+    difficulty: [],
     months: [],
     global: false
 },
@@ -2361,13 +2375,14 @@ featuredOnTrek: true,
   slug: "ultimate-winter-trek-preparation-guide-himalayas",
   date: "2025-10-26",
   category: "Preparation Tips",
+  priority: 3,
   related: {
     treks: [],
     tags: [],
     regions: [],
-    seasons: [],
+    seasons: ["winter"],
     difficulty: [],
-    months: ["winter"],
+    months: [],
     global: false
 },
 
@@ -2761,6 +2776,7 @@ YOUR SKIN
   slug: "best-spring-treks-himalayas",
   date: "2026-02-12",
   category: "Trek Guides",
+  priority: 2,
   related: {
     treks: [],
     tags: [],
@@ -3403,6 +3419,7 @@ Yes, especially above 3,000 meters, making it perfect for snow trekking experien
   slug: "kumaon-himalayas-trekking-guide",
   date: "2026-04-02",
   category: "Trek Guides",
+  priority: 2,
   related: {
     treks: [],
     tags: [],
@@ -3784,6 +3801,7 @@ Spring (March–June) and Autumn (September–November) are ideal seasons.</p>
   slug: "layering-clothing-himalayan-microclimates",
   date: "2025-09-20",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -4025,6 +4043,7 @@ Comfort reduces stress and improves decision-making.</p>
   slug: "trekking-poles-benefits-himalayas",
   date: "2025-09-22",
   category: "Gear & Logistics",
+  priority: 5,
   related: {
     treks: [],
     tags: ["beginner"],
@@ -4236,6 +4255,7 @@ featuredOnTrek: true,
   slug: "summer-treks-himalayas-may-june",
   date: "2025-09-25",
   category: "Trek Guides",
+  priority: 2,
   related: {
     treks: [],
     tags: [],
@@ -4667,6 +4687,7 @@ featuredOnTrek: true,
   slug: "monsoon-treks-himalayas-july-september",
   date: "2025-09-25",
   category: "Trek Guides",
+  priority: 2,
   related: {
     treks: [],
     tags: [],
@@ -4973,6 +4994,7 @@ It is about understanding where to go, when to move, and how geography controls 
   slug: "pin-parvati-pass-trek-guide",
   date: "2026-07-10",
   category: "Flagship Guides",
+  priority: 1,
   related: {
     treks: ["pin-parvati-pass-trek"],
     tags: [],
@@ -7512,6 +7534,7 @@ Tomorrow would almost certainly look nothing like it.</p>
   slug: "best-post-monsoon-autumn-treks-india-september-december",
   date: "2026-07-27",
   category: "Trek Guides",
+  priority: 2,
   related: {
     treks: [],
     tags: [],
@@ -9481,6 +9504,7 @@ If you've never experienced the mountains after the monsoon, this might be the y
   slug: "hampta-pass-trek-guide",
   date: "2026-07-28",
   category: "Flagship Guides",
+  priority: 1,
   related: {
     treks: ["hampta-pass-trek"],
     tags: [],
@@ -10589,6 +10613,7 @@ Usually yes, but the visit depends on road, weather and administrative condition
   slug: "gaumukh-tapovan-trek-guide",
   date: "2026-07-29",
   category: "Flagship Guides",
+  priority: 1,
   related: {
     treks: ["gaumukh-tapovan-trek"],
     tags: [],

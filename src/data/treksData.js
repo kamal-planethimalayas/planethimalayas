@@ -2408,7 +2408,7 @@ confirmedDepartures: [
 
     activeDeparture: {
     date: "2026-06-22",
-    label: "22 Jun - 26 Jun",
+    label: "10 Aug - 14 Aug",
   },
 
     dates: [

@@ -51,7 +51,7 @@ const relatedArticles = blogs
 
     let score = 0;
 
-    // Exact Trek
+    // Exact Trek Match
     if (blog.related?.treks?.includes(trek.id))
       score += 100;
 
@@ -67,7 +67,7 @@ const relatedArticles = blogs
     if (blog.related?.regions?.includes(trek.region))
       score += 15;
 
-    // Season
+    // Seasons
     const seasonMatches =
       blog.related?.seasons?.filter(season =>
         trek.season?.includes(season)
@@ -101,9 +101,17 @@ const relatedArticles = blogs
     };
 
   })
+
+  // Only keep relevant articles
   .filter(article => article.score > 0)
-  .sort((a, b) => b.score - a.score)
-  .slice(0, 10);
+
+  // Display order
+  .sort((a, b) => {
+    
+    return (a.priority ?? 999) - (b.priority ?? 999);
+
+  });
+
 ---
 
 <Layout 
