@@ -7246,7 +7246,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 <br>Gulabi Kantha is a trek for those who want the Himalayas to feel personal rather than overwhelming — a place where trails remain peaceful, views arrive without competition, and every season tells a different story. Whether walked through flowers, mist, or snow, it offers an experience that feels less like a checklist and more like a conversation with the mountains themselves.`
 },
 
-  price: 10400,
+  price: 9900,
   priceNote: "* Hanuman Chatti to Hanuman Chatti",
   addons: {
     transport: 4000,
@@ -7830,7 +7830,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 <br>Blending mythological charm, dense Himalayan forests, and high-altitude vistas, the Dodital – Darwa Top Trek offers an experience that feels both adventurous and meditative — a journey where nature, culture, and spirituality come together in perfect harmony.`
   },
 
-  price: 10900,
+  price: 10400,
   priceNote: "* Agoda to Agoda",
 
   addons: {

@@ -10701,7 +10701,7 @@ readTime: "18 min",
 <br>
 <p><strong>Ready to witness the birthplace of the Ganga, stand beneath the magnificent Mount Shivling and walk alongside one of the Himalayas' greatest glaciers?</strong></p>
 
-<p><strong>👉 Explore our <a href="/treks/gaumukh-tapovan-trek">Gaumukh Tapovan Trek</a> and join us for an unforgettable journey into the heart of the Himalayas.</strong></p>
+<p><strong>👉 Explore our <a href="/trek/gaumukh-tapovan-trek">Gaumukh Tapovan Trek</a> and join us for an unforgettable journey into the heart of the Himalayas.</strong></p>
 <br>
 <hr>
 <br>
@@ -11366,7 +11366,7 @@ readTime: "18 min",
 <br>
 <p><strong>Ready to witness the birthplace of the Ganga, stand beneath the magnificent Mount Shivling and walk alongside one of the Himalayas' greatest glaciers?</strong></p>
 
-<p><strong>👉 Explore our <a href="/treks/gaumukh-tapovan-trek">Gaumukh Tapovan Trek</a> and join us for an unforgettable journey into the heart of the Himalayas.</strong></p>
+<p><strong>👉 Explore our <a href="/trek/gaumukh-tapovan-trek">Gaumukh Tapovan Trek</a> and join us for an unforgettable journey into the heart of the Himalayas.</strong></p>
 <hr>
 <br>
 `
