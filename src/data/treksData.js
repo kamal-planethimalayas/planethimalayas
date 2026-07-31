@@ -4676,8 +4676,8 @@ seo: {
 "The Ali–Bedni Bugyal Trek is one of the best meadow treks in the Himalayas, a breathtaking journey through Uttarakhand’s most enchanting high-altitude grasslands. Beginning from the serene mountain village of Wan, this beginner-friendly trek offers the perfect introduction to Himalayan trekking, blending ease with unmatched scenic beauty. The trail gradually ascends through ancient oak and rhododendron forests, where filtered sunlight paints the woods in golden hues and the silence is broken only by birdsong and the whisper of the wind.<br>As the forest thins, the landscape opens dramatically into the sweeping expanse of Ali Bugyal — a vast, rolling alpine meadow that feels almost otherworldly. Walking here is an experience in itself, with soft grass underfoot and uninterrupted views stretching endlessly toward the horizon. Towering above this dreamlike setting stand the mighty peaks of Mt. Trishul, Nanda Ghunti, and Chaukhamba, glowing brilliantly against the Himalayan sky.<br>A gentle traverse leads to Bedni Bugyal, equally stunning yet deeply spiritual in its presence. At its heart lies the sacred Bedni Kund, a pristine high-altitude lake associated with the legendary Nanda Devi Raj Jat Yatra. During summer, the meadows bloom into a vibrant carpet of wildflowers, adding color and life to an already magical landscape.<br>This easy trek in the Himalayas is not just about reaching a destination — it’s about immersing yourself in vast open spaces, breathing crisp mountain air, and experiencing the quiet grandeur of nature at its purest. Whether you are a first-time trekker or someone returning to the mountains, the Ali Bedni Bugyal Trek promises an unforgettable escape into the soul of the Himalayas."
     },
 
-    price: 10400,
-    priceNote: "* Lohajung to Lohajung",
+    price: 9900,
+    priceNote: "* Wan to Wan",
     addons: {
       transport: 6000, 
       offloadingbag: 1500,
@@ -4708,7 +4708,7 @@ seo: {
       "A balanced mix of forests, meadows, and ridge walks"
     ],
 
-    itinerary: [
+   itinerary: [
 {
   day: 1,
   title: "Arrival at Wan (7,800 ft) – Base Camp",
@@ -4736,27 +4736,25 @@ As evening sets in, the forest takes on a magical stillness. Enjoy a hot dinner 
 
 {
   day: 3,
-  title: "Ghairoli Patal (10,500 ft) to Bedni Top (12,500 ft) via Ali & Bedni Bugyal – Return to Ghairoli Patal",
+  title: "Ghairoli Patal (10,500 ft) to Bedni Bugyal (11,800 ft) via Ali Bugyal",
   details:
-    "<strong>Trek Distance: ~12–14 km (round trip) | Duration: 7–8 hrs.</strong><br><br>\
-Today is the most rewarding and visually stunning day of the trek, as you journey from dense forests into the expansive alpine meadows of Ali and Bedni Bugyal. Carry only your essentials for the day, as you will return to Ghairoli Patal by evening.<br><br>\
-The trail begins with a gradual ascent through thinning forest, and within a few hours, the landscape transforms dramatically as you step out onto the rolling grasslands of Ali Bugyal. At around 11,000 ft, Ali Bugyal stretches endlessly in soft green undulations, offering a sense of vastness that is both humbling and exhilarating. The views begin to open up, revealing towering Himalayan peaks like Mt. Trishul and Mt. Mrigthuni rising sharply against the skyline.<br><br>\
-Continuing onward, the trail gently connects Ali Bugyal to Bedni Bugyal, another expansive meadow that feels even more dramatic in scale and setting. As you approach Bedni Top (12,500 ft), the panorama becomes even more breathtaking, with peaks like Nanda Ghunti, Trishul, and Chaukhamba dominating the horizon. The high altitude air feels crisp and pure, and every step reveals a wider, more spectacular view.<br><br>\
-At Bedni, you will also come across the sacred Bedni Kund, a small high-altitude lake steeped in mythology. It holds deep religious importance and is a key site during the Nanda Devi Raj Jat Yatra. On a clear day, the reflection of the surrounding peaks in its still waters creates a surreal and unforgettable sight.<br><br>\
-After spending ample time exploring, resting, and absorbing the beauty of the meadows, you begin your descent back along the same trail to Ghairoli Patal. The return journey offers a different perspective of the landscape, especially as the light begins to soften toward evening.<br><br>\
-Back at camp, enjoy a well-earned dinner and rest under the forest canopy, carrying with you the memories of one of the most iconic meadow days in the Himalayas."
+    "<strong>Trek Distance: ~10–11 km | Duration: 6–7 hrs.</strong><br><br>\
+Today is the highlight of the trek as you leave the forests behind and enter the world of Uttarakhand's legendary alpine meadows. The trail gradually climbs through thinning oak forests before opening onto the sweeping grasslands of Ali Bugyal, one of the largest and most beautiful high-altitude meadows in Asia.<br><br>\
+The expansive rolling slopes of Ali Bugyal seem to stretch endlessly towards the horizon. Surrounded by uninterrupted mountain views, you'll walk across lush green meadows while towering peaks like Mt. Trishul and Mt. Mrigthuni dominate the skyline. The openness of the landscape offers a striking contrast to the dense forests of the previous day.<br><br>\
+Instead of taking the shortest route to camp, today's trail is designed as an exploratory walk through both Ali and Bedni Bugyal. As you traverse the interconnected meadows, every ridge reveals a fresh perspective of the Himalayan ranges, making this one of the most rewarding days of the trek. The gentle undulating terrain allows plenty of opportunities to pause, photograph the scenery, and simply absorb the vastness of these alpine grasslands.<br><br>\
+By afternoon, you arrive at the beautiful Bedni Bugyal campsite (11,800 ft), nestled amidst wide open meadows with panoramic views of Mt. Trishul, Nanda Ghunti, Chaukhamba, and other Himalayan giants. Nearby lies the sacred Bedni Kund, a small alpine lake revered during the Nanda Devi Raj Jat Yatra. On clear days, the surrounding peaks reflect beautifully in its calm waters, creating a truly unforgettable sight.<br><br>\
+As evening approaches, watch the golden light spread across the meadows before the mountains glow in shades of orange and pink. Camping under a blanket of stars in the middle of Bedni Bugyal is one of the defining experiences of this trek. Enjoy a warm dinner before retiring for the night amidst the vast Himalayan wilderness."
 },
 
 {
   day: 4,
-  title: "Ghairoli Patal (10,500 ft) to Wan (7,800 ft)",
+  title: "Bedni Bugyal (11,800 ft) to Wan (7,800 ft)",
   details:
-    "<strong>Trek Distance: ~6 km | Duration: 4–5 hrs.</strong><br><br>\
-After breakfast, you begin your descent back to Wan, retracing the same forest trail that brought you into the mountains. The descent feels easier on the lungs but requires careful footing as you navigate through the forest paths.<br><br>\
-The route once again passes through dense oak and rhododendron forests, offering a familiar yet equally beautiful experience. The sounds of the forest feel more pronounced on the way down, and you may notice details that were missed during the ascent.<br><br>\
-Crossing the Neelganga River once again marks the final stretch of the trek. It’s a good place to pause briefly, reflect on the journey, and take in the surroundings one last time before returning to civilization.<br><br>\
-A gradual climb from the river brings you back to Wan village, where the trek comes full circle. Upon reaching the base camp, you can relax, freshen up, and enjoy the comfort of a proper stay after days in the wilderness.<br><br>\
-The evening is free to unwind, explore the village, or simply sit back and take in the mountain views. A warm dinner and a sense of accomplishment mark your final night in the Himalayas."
+    "<strong>Trek Distance: ~12 km | Duration: 6–7 hrs.</strong><br><br>\
+Wake up to a spectacular Himalayan sunrise over the meadows before enjoying breakfast at camp. After soaking in the final views of Bedni Bugyal, you begin your descent towards Wan.<br><br>\
+The trail retraces its path across sections of the expansive meadows before gradually re-entering the dense oak and rhododendron forests. The transition from wide open grasslands back into the cool forest canopy is gradual and beautifully scenic, offering a completely different perspective from the previous day's ascent.<br><br>\
+Continuing downhill, you once again cross the crystal-clear Neelganga River, whose soothing sound marks the final stretch of your trek. A steady climb from the river eventually brings you back to Wan village, where your Himalayan adventure comes full circle.<br><br>\
+After reaching the base camp, relax, freshen up, and celebrate the successful completion of your trek. Spend the evening sharing stories with fellow trekkers over a warm dinner while enjoying one final night amidst the peaceful mountain surroundings."
 },
 
 {
@@ -4764,9 +4762,9 @@ The evening is free to unwind, explore the village, or simply sit back and take 
   title: "Departure from Wan (7,800 ft)",
   details:
     "<strong>Distance to Rishikesh: ~260 km | Duration: 10–11 hrs.<br>Distance to Kathgodam/Haldwani: ~200 km | Duration: 8–9 hrs.</strong><br><br>\
-After breakfast, it’s time to bid farewell to the mountains as you begin your return journey from Wan. Depending on your onward plans, you can drive back either toward Rishikesh through the Garhwal region or toward Kathgodam/Haldwani via the Kumaon route.<br><br>\
-The drive offers one last opportunity to soak in the beauty of the Himalayan landscapes — winding roads, river valleys, and distant peaks slowly fading into the horizon. If time permits, you may choose to stop again at key points like Devprayag or Kausani for a short break.<br><br>\
-By evening, you reach your destination, marking the end of a deeply fulfilling journey through forests, rivers, and some of the most beautiful alpine meadows in India. The experience of Ali and Bedni Bugyal stays with you long after the trek is over, calling you back to the mountains once again."
+After breakfast, it's time to bid farewell to the Himalayas as you begin your return journey from Wan. Depending on your onward plans, you can drive back either toward Rishikesh through the Garhwal region or toward Kathgodam/Haldwani via the Kumaon route.<br><br>\
+The drive offers one last opportunity to enjoy the winding mountain roads, river valleys, traditional villages, and distant snow-covered peaks. If time permits, you may stop once again at scenic locations like Devprayag or Kausani before continuing your journey home.<br><br>\
+By evening, you reach your destination, bringing to a close an unforgettable experience through ancient forests, pristine rivers, and the breathtaking alpine meadows of Ali and Bedni Bugyal. The memories of camping amidst these iconic Himalayan grasslands will stay with you long after the journey ends."
 }
 ],
 
@@ -4966,7 +4964,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
       "Experience a side of the Garhwal Himalayas that feels both mythical and impossibly serene. The Deoriatal–Chandrashila Trek begins gently, winding through ancient oak and rhododendron forests where the air is cool, birdsong echoes between the trees, and the forest floor glows with moss and wildflowers. As you climb, the landscape becomes a moving canvas — Himalayan woodpeckers darting between branches, verditer flycatchers glowing turquoise in the sunlight, and the elusive Himalayan Monal flashing iridescent colours in the undergrowth.<br>Soon the trail opens to the emerald shores of Deoriatal, a quiet, glass-still lake set against a backdrop of towering snow peaks of Chaukhamba and Kedarnath range. Locals believe gods and goddesses once bathed here — and when you see Chaukhamba reflected perfectly in the water, you’ll understand why this place feels sacred.<br>Beyond the lake lie wide, breezy meadows like Rohini and Shyalmi Bugyal, where the world suddenly expands. Shepherd shelters, soft grasslands dotted with seasonal blooms, and sweeping ridgelines guide you forward as the forests slowly give way to open Himalayan wilderness. Sunrise and sunset here are unforgettable — golden light spilling across distant ranges, clouds drifting like slow rivers below your feet.<br>The final ascent to Chandrashila Peak (12,083 ft) is short but exhilarating. As you reach the summit, the horizon bursts open into a full 360° panorama of the greatest Himalayan giants — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Nilkanth, and countless unnamed ridges fading into the sky. No other easy–moderate trek offers a summit view this grand.<br>Along the way, the spiritual heartbeat of the region accompanies you — especially at the Tungnath Temple, the highest Shiva temple in the world, standing resilient against roaring winds and centuries of snow.<br>This trek is more than a scenic trail — it’s a gentle, soul-stirring journey where forests, lakes, meadows, mythology, and mountains come together to create an experience that stays with you long after the trek ends."
     },
 
-    price: 10400,
+    price: 10900,
     priceNote: "* Sari to Sari",
     addons: {
       transport: 4000, 
@@ -5020,6 +5018,15 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     title: "Baniya Kund to Chandrashila Peak (12,083 ft) via Tungnath and return to Sari",
     details: "<strong>• Trek Distance: 10 km | Duration: 5–6 hrs trek + 40 min drive.</strong><br>• Begin your day early from **Baniya Kund campsite** and drive 5 km towards Chopta, the base for the sacred **Tungnath Temple**. From Chopta, follow the well-marked cemented pilgrim trail ascending sharply through scissor bends. After approximately 4 km of climb, you reach Tungnath temple, the highest Shiva temple in the world, located at 12,083 ft. Along the way, keep an eye out for Himalayan Monals and other mountain birds nesting among the Birch trees.<br> From Tungnath, the trail continues behind the temple complex towards **Chandrashila Peak**. The path winds steeply with several switchbacks, covering a 600 ft ascent over 1.5 km. During winter months, expect snow-covered trails and ensure proper gear such as crampons or microspikes.<br> Reaching the summit, you are rewarded with a breathtaking **360° panoramic view** of the Garhwal and Kumaon ranges — Nanda Devi, Trishul, Chaukhamba, Kedar Dome, Kamet, Dunagiri, and Gangotri ranges unfold in every direction. The sunrise here is spectacular and considered one of the best in the Himalayas.<br> After soaking in the views, descend via the same route back to Tungnath and then drive back to Baniya Kund. From Baniya Kund, after lunch, a 40-minute drive brings you back to Sari, completing your trek. Today’s journey combines high-altitude pilgrimage, steep climbs, and some of the most iconic vistas of the Garhwal Himalayas, leaving you with memories that last a lifetime."
   },
+  {
+  day: 6,
+  title: "Sari Village to Rishikesh",
+  details:
+    "<strong>• Drive Distance: 195 km | Duration: 7–8 hrs.</strong><br><br>\
+Early morning, bid farewell to the peaceful village of Sari as you begin your return journey to Rishikesh. The drive winds through the beautiful Garhwal Himalayas, passing terraced farms, pine-covered hillsides, and charming mountain villages before descending into the river valleys below.<br><br>\
+Along the way, you'll once again follow the Mandakini and Alaknanda rivers, with opportunities to pause at scenic viewpoints and the sacred confluence of Devprayag, where the Alaknanda and Bhagirathi unite to form the holy Ganga. As the mountains gradually give way to the foothills, the memories of Deoriatal's emerald waters, the forests of Kedarnath Wildlife Sanctuary, Tungnath Temple, and the breathtaking summit of Chandrashila remain etched in your mind.<br><br>\
+By afternoon or early evening, you arrive in Rishikesh, marking the end of an unforgettable Himalayan adventure filled with pristine lakes, ancient forests, alpine meadows, and magnificent mountain panoramas."
+}
 ],
 
     howToReach: {
@@ -5256,6 +5263,15 @@ confirmedDepartures: [
     title: "Tapovan to Gangotri | 20 km | 8–10 hrs",
     details: "Leaving Tapovan behind, you descend carefully along the boulder and moraine sections back to Gaumukh. The glacier looks different from every angle — sometimes massive and intimidating, sometimes strangely gentle. From Gaumukh, you retrace the familiar trail through Bhojwasa and Chirbasa, gradually re-entering the green patches of pine and birch. The long descent brings you back to Gangotri by evening, where the comfort of a warm guesthouse and the hum of the temple bells feel especially welcoming after days spent in the high mountains."
   },
+  {
+  day: 7,
+  title: "Gangotri to Rishikesh",
+  details:
+    "<strong>• Drive Distance: ~250 km | Duration: 9–10 hrs.</strong><br><br>\
+After an early breakfast, bid farewell to the sacred town of Gangotri as you begin your return journey to Rishikesh. Descending through the beautiful Bhagirathi Valley, the drive retraces the scenic mountain roads passing through Harsil, Uttarkashi, and several charming Himalayan villages. Throughout the journey, the Bhagirathi River remains your constant companion, flowing swiftly through deep gorges and lush valleys.<br><br>\
+As you lose altitude, the landscape gradually transforms from snow-clad peaks and alpine forests to subtropical hills and river valleys. If time permits, short breaks along the route offer opportunities to enjoy the mountain scenery one last time before returning to the plains.<br><br>\
+By evening, you arrive in Rishikesh, bringing to an end an unforgettable journey to the source of the Ganga. The memories of Gaumukh, the majestic meadows of Tapovan, towering Himalayan peaks, and the spiritual aura of Gangotri will remain with you long after the trek has ended."
+}
 ],
 
     howToReach: {
@@ -5988,10 +6004,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 <br>The Phulara Ridge Trek is not merely a trail to traverse; it is a story to inhabit. Each day reveals layers of the Himalayas — the hidden forests, the vibrant shepherd meadows, and the endless sky-road of the ridge. For those who walk it, the mountains become more than scenery; they become a rhythm, a presence, and a memory carved deep into the heart, an adventure that lingers long after the descent.`    
 },
 
-    price: 9900,
+    price: 10900,
     priceNote: "* Sankri to Sankri",
     addons: {
-      transport: 4000, 
+      transport: 5000, 
       offloadingbag: 1500,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -6038,6 +6054,15 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   title: "Pushtara to Taluka – Drive to Sankri (Trek – 8 km | 4–5 hours + Drive 1 hr)",
   details: "The day begins with a gentle descent from the Pushtara meadows, winding through alpine slopes dotted with wildflowers and the occasional Gujjar graveyard adding a touch of mystery to the trail. As the path drops, pine and rhododendron forests envelope the trekker, offering shade and the occasional sighting of Himalayan Monals. The descent is gradual, with intermittent ups and downs, revealing panoramic views of the snow-capped peaks behind and the lush valleys ahead. After crossing small streams and rocky patches, the trail meets the motorable road near Taluka village, a quaint settlement of traditional wooden houses and orchards. From here, a scenic one-hour drive returns you to Sankri, bringing the trek to a close. The evening is perfect for relaxation, reflecting on the journey, and soaking in the final views of the majestic mountains before overnight stay at a guesthouse or hotel in Sankri."
   },
+  {
+    day: 7,
+  title: "Sankri to Dehradun",
+  details:
+    "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
+Early morning, bid farewell to the mountains as you begin your return journey from Sankri to Dehradun. The drive retraces the beautiful route through the Tons Valley, passing charming Himalayan villages like Netwar, Mori, Purola, and Naugaon before gradually descending towards the foothills.<br><br>\
+Throughout the journey, enjoy one last glimpse of the pine-covered slopes, terraced farmlands, apple orchards, and sparkling mountain rivers that have accompanied you throughout the trek. As you leave the higher Himalayas behind, the cool mountain air slowly gives way to the warmer climate of the Doon Valley.<br><br>\
+By afternoon or early evening, you arrive in Dehradun, marking the end of an unforgettable journey through the mythical Har Ki Dun Valley. The memories of ancient Himalayan villages, alpine meadows, pristine forests, and the majestic peaks of Swargarohini, Bandarpoonch, and Black Peak will remain with you long after the adventure comes to an end."
+}
   
 ],
 
@@ -6158,10 +6183,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       snippet: "The Har Ki Dun–Ruinsara Tal Trek is a rare Himalayan journey where myth, wilderness, and silence come together in perfect harmony. Hidden within the Govind Pashu Vihar National Park, this trail takes you beyond the ordinary — from ancient mountain villages to a sacred alpine lake nestled at the base of the mighty Swargarohini peaks.<br>The journey begins in the Har Ki Dun Valley, a cradle-shaped paradise often called the Valley of the Gods. The path follows the shimmering Supin River, winding through whispering pine and deodar forests, past wooden bridges, and sun-drenched meadows that open to views of Bandarpoonch, Black Peak (Kalanag), and the snow-bound Swargarohini massif. Villages like Osla, Gangad, and Seema still carry the scent of living legend — their carved wooden temples and centuries-old homes echo stories from the Mahabharata, preserved through generations of mountain life.<br>Beyond Seema, the trail diverts toward Devsu Bugyal, a high meadow framed by oak and silver-fir forests. In summer, it bursts into color with wildflowers; by autumn, it glows gold beneath a crisp Himalayan sky. From here, the trek grows quieter and wilder — descending to the valley floor and following the Supin River deeper into the heart of the mountains.<br>At last, the forest opens to reveal Ruinsara Tal — a tranquil glacial lake shimmering at 3,600 meters, surrounded by glaciers and towering peaks. Its still waters mirror the heavens above and the Swargarohini range beyond, creating a sight that feels both sacred and surreal. Nights here are unforgettable — stars scattered across the sky, the lake gleaming in silver light, and an unbroken silence that humbles you to the core.<br>The return trail retraces this divine landscape, giving you one last chance to absorb the valley’s peace and beauty. The Har Ki Dun–Ruinsara Tal Trek is more than a route — it’s a dialogue between you and the mountains, between legend and reality, between solitude and belonging. It leaves you with stories you’ll carry long after you’ve descended — of rivers that sang, peaks that glowed, and a lake that reflected the sky."
     },
 
-    price: 14900,
+    price: 17900,
     priceNote: "* Sankri to Sankri",
     addons: {
-      transport: 4000, 
+      transport: 5000, 
       offloadingbag: 2000,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -6220,6 +6245,15 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   details:
     "The day begins with the descent from Seematra, retracing the familiar trail as it winds gently down the valley. Walking in the soft morning light, the landscape feels calmer and more reflective than the days before. Instead of descending directly to the Seema bridge, the trail passes through Osla village, offering a glimpse into its century-old wooden homes and the revered Someshwar Temple, where local traditions and daily life continue much as they have for generations.<br><br>From Osla, the trail continues downhill past Pawani Garat and along forested paths to reach Gangad, a quiet riverside hamlet tucked beside the Supin River. After a short rest, vehicles are arranged for the drive back to Sankri, following the familiar mountain road through deep valleys and pine forests.<br><br>Arrival at Sankri by evening marks the official end of the trek. With the mountains now behind you, it’s time to unwind, reflect on the journey, and carry back memories of remote trails, village life, and days spent deep in the Himalayas."
 },
+{
+  day: 7,
+  title: "Sankri to Dehradun",
+  details:
+    "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
+Early morning, bid farewell to the mountains as you begin your return journey from Sankri to Dehradun. The drive retraces the beautiful route through the Tons Valley, passing charming Himalayan villages like Netwar, Mori, Purola, and Naugaon before gradually descending towards the foothills.<br><br>\
+Throughout the journey, enjoy one last glimpse of the pine-covered slopes, terraced farmlands, apple orchards, and sparkling mountain rivers that have accompanied you throughout the trek. As you leave the higher Himalayas behind, the cool mountain air slowly gives way to the warmer climate of the Doon Valley.<br><br>\
+By afternoon or early evening, you arrive in Dehradun, marking the end of an unforgettable journey through the mythical Har Ki Dun Valley. The memories of ancient Himalayan villages, alpine meadows, pristine forests, and the majestic peaks of Swargarohini, Bandarpoonch, and Black Peak will remain with you long after the adventure comes to an end."
+}
 
 ],
 
@@ -6338,10 +6372,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
 "The Har Ki Dun Trek is one of those rare Himalayan journeys where myth, nature, and human warmth come together to create pure magic. Hidden deep in the Govind Pashu Vihar National Park, this cradle-shaped valley opens up a world of towering peaks, ancient legends, and timeless mountain life. The trail follows the clear blue waters of the Supin River, winding past whispering pine and deodar forests, wooden bridges, and meadows that seem to glow under the morning sun.<br>What makes Har Ki Dun unforgettable is its sense of peace — no roads, no crowds, only the soft hum of the valley and the rhythm of your steps. Every bend brings a new surprise — a cluster of wild rhododendrons, a snow-fed stream, or the distant sight of Swargarohini shining under a veil of clouds.<br>Trekkers walk through centuries-old villages like Osla, Gangad, and Seema, where time seems to move slower. The intricate wooden temples, carved with mythological motifs, tell stories of faith that still live strong in the mountains. The Duryodhana Temple of Osla, now devoted to Lord Someshwar, stands as a reminder of the valley’s deep connection to the Mahabharata.<br>As the trail climbs higher, it leads to alpine meadows and moraine fields, revealing stunning views of Bandarpoonch, Kalanag (Black Peak), and the Swargarohini massif — the same peaks said to mark the path to heaven taken by the Pandavas.<br>Har Ki Dun is not just a trek; it’s a living story. A story of rivers that sing, forests that whisper, and people who still greet you with warmth and mountain grace. Whether you’re drawn by mythology, nature, or the spirit of solitude, this trek will make you feel like you’ve stepped into another world — one that’s real, raw, and deeply human."
     },
 
-    price: 11400,
+    price: 11900,
     priceNote: "* Sanri to Sankri",
     addons: {
-      transport: 4000, 
+      transport: 5000, 
       offloadingbag: 1800,
       transportNote: "* Dehradun to Dehradun",
       offloadingNote: "* Maximum weight 9kg/bag"
@@ -6393,6 +6427,15 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   details:
     "The final day starts with a relaxed descent from Pawani Garat, following village trails and forest paths toward the Dhatmeer roadhead. As altitude drops further, the surroundings gradually shift from dense forest to open valleys and scattered settlements, signalling the end of the trekking journey.<br><br>Upon reaching the roadhead at Dhatmeer, vehicles are arranged for the drive back to Sankri. The drive retraces scenic mountain roads along rivers and pine-covered slopes, bringing you back to the familiar base town by afternoon or early evening.<br><br>With the trek officially complete, the journey concludes in Sankri — carrying back memories of remote trails, cultural encounters, and days spent deep in the Garhwal Himalayas."
   },
+  {
+  day: 7,
+  title: "Sankri to Dehradun",
+  details:
+    "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
+Early morning, bid farewell to the mountains as you begin your return journey from Sankri to Dehradun. The drive retraces the beautiful route through the Tons Valley, passing charming Himalayan villages like Netwar, Mori, Purola, and Naugaon before gradually descending towards the foothills.<br><br>\
+Throughout the journey, enjoy one last glimpse of the pine-covered slopes, terraced farmlands, apple orchards, and sparkling mountain rivers that have accompanied you throughout the trek. As you leave the higher Himalayas behind, the cool mountain air slowly gives way to the warmer climate of the Doon Valley.<br><br>\
+By afternoon or early evening, you arrive in Dehradun, marking the end of an unforgettable journey through the mythical Har Ki Dun Valley. The memories of ancient Himalayan villages, alpine meadows, pristine forests, and the majestic peaks of Swargarohini, Bandarpoonch, and Black Peak will remain with you long after the adventure comes to an end."
+}
 ],
 
 
@@ -6568,7 +6611,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from packed lunch on Day 1 to dinner on Day 5",
+  inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [
       
@@ -6585,32 +6628,42 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   ],
 
   itinerary: [
-    {
-      day: 1,
-      title: "Reporting at Joshimath (6,150 ft)",
-      details: "Arrive at Joshimath by afternoon and check into your guesthouse. Joshimath serves as a vital acclimatization base for treks in the Garhwal Himalayas. Spend the day resting, hydrating well, and taking short walks around the town. In the evening, a briefing session covers route details, altitude precautions, gear checks, and local regulations. Early dinner and overnight stay at Joshimath."
-    },
-    {
-  day: 2,
-  title: "Drive Joshimath → Mana (10,500 ft) & Trek to Laxmi Van (11,800 ft) | Trek: 7–8 km | 4–5 hrs",
-  details: "Start early with a scenic drive to Mana, India’s last village near the Indo–China border, where permits are verified before the trek begins. From Mana, the trail branches left along the Alaknanda River, initially following a well-paved pilgrim path. Around 3 km into the trek, reach the majestic Vasudhara Falls—a 400 ft cascade revered for its sacred waters, where trekkers can refill bottles. Beyond the falls, the trail transitions into glacial moraines and rocky terrain, gradually gaining altitude. After a steady ascent, arrive at Laxmi Van, a serene meadow shaded by Bhoj Patra trees and believed to be the resting place of Goddess Lakshmi. The campsite offers views of the Alkapuri Glacier, the source of the Alaknanda River, flowing from the base of Balakun Peak. Overnight stay in tents near the river. Natural water sources available."
-},
-    {
-  day: 3,
-  title: "Trek Laxmi Van (11,800 ft) → Chakrateertha (13,800 ft) | Trek: 5 km | 4–5 hrs",
-  details: "Today’s trek is more demanding than the previous day, with an altitude gain of over 2,000 ft as you enter the dramatic Satopanth Valley. The trail continues along the left bank of the Alaknanda River, gradually transitioning into open grasslands that run through the terminal moraine of the Dhano Glacier. As you progress, the landscape becomes increasingly alpine and, on clear days, the majestic Bhagirathi peaks begin to reveal themselves ahead. After trekking for around 5 km, reach the spectacular Sahastradhara—an impressive cascade formed by over a hundred small waterfalls flowing down a massive rock face. From here, Mt. Neelkanth dominates the skyline to your left. Since weather conditions tend to change rapidly post noon, an early start is crucial. Chakrateertha campsite lies about 30 minutes beyond Sahastradhara, set on a flat clearing surrounded by towering Himalayan peaks. Temperatures range between 5°C to 10°C during the day and can drop to 0°C to -5°C at night. Proper layering is essential. This altitude also demands close monitoring for AMS symptoms such as headache, nausea, fatigue, dizziness, or loss of appetite—report immediately to the Trek Leader if any signs appear. Overnight stay in tents amidst pristine wilderness."
-},
-    {
-  day: 4,
-  title: "Trek Chakrateertha (13,800 ft) → Satopanth Tal (14,100 ft) → Chakrateertha | Trek: 6–7 km | 5–6 hrs",
-  details: "Today is the most anticipated and visually striking day of the trek as you journey to the sacred Satopanth Tal. Wake up to a breathtaking amphitheatre of peaks—Mt. Chaukhamba standing tall at the center, Mt. Neelkanth to the left, and Mt. Balakun guarding the right—an unforgettable Himalayan panorama. The trek begins on gentle, flat grasslands for the first couple of kilometers, offering a relaxed start before the terrain gradually becomes rugged. The trail then weaves through boulder zones and glacial moraines, a technically tricky section that demands careful footing; trekking poles are highly recommended here. As you continue along the ridge, the lake remains hidden until the final ascent, adding to the sense of anticipation. Suddenly, Satopanth Tal reveals itself—an expansive, triangular glacial lake with a perimeter of over one kilometer, shimmering in deep shades of blue. Steeped in mythology, it is believed that the holy trinity—Brahma, Vishnu, and Mahesh—meditated at the three corners of the lake. Nearby stands a small stone shelter, said to be the abode of the revered sage Mauni Baba. Remarkably, the lake’s crystal-clear waters remain pristine throughout the year. On exceptionally clear days, trekkers can spot three of the legendary seven steps of the Swargarohini Glacier, believed to be the path taken by the Pandavas on their ascent to heaven. Spend time absorbing the silence, scale, and spiritual energy of this sacred place before beginning the descent back to Chakrateertha. The return trek takes approximately 2–3 hours. Overnight stay in tents."
-},
-    {
-  day: 5,
-  title: "Trek Chakrateertha → Badrinath (10,300 ft) via Laxmivan & Mana | Trek: 15 km | 7–8 hrs",
-  details: "Today marks the final day of trekking as you descend from the high alpine terrain back to the sacred town of Badrinath. An early start is essential due to the long distance involved. After breakfast, begin retracing the same trail used during the ascent. The descent is gradual yet steady, first leading down to the serene meadows of Laxmivan, followed by a continued descent towards Mana—the last village of India near the Indo-Tibetan border. From Mana, the trail transitions into a gentle walk towards Badrinath, offering a comfortable finish to the journey. Upon reaching Badrinath, check into a hotel and take time to rest and freshen up. In the evening, explore the local market, visit the revered Badrinath Temple, or unwind at the natural hot water spring, a perfect way to relax tired muscles after days in the mountains."
-}
-  ],
+  {
+    day: 1,
+    title: "Reporting at Badrinath (10,300 ft)",
+    details: "Arrive at Badrinath by afternoon and check into your hotel. Nestled amidst the towering Garhwal Himalayas on the banks of the Alaknanda River, Badrinath is one of the holiest pilgrimage destinations in India and serves as the ideal base for the Satopanth Tal Trek. Spend the rest of the day relaxing, hydrating well, and allowing your body to begin acclimatizing to the altitude. If time permits, visit the revered Badrinath Temple or take a dip in the natural hot water spring (Tapt Kund). In the evening, the Trek Leader conducts a detailed briefing covering the trek itinerary, altitude precautions, equipment checks, safety protocols, and permit formalities. Enjoy an early dinner and an overnight stay at a comfortable hotel in Badrinath."
+  },
+
+  {
+    day: 2,
+    title: "Drive Badrinath → Mana (10,500 ft) & Trek to Laxmi Van (11,800 ft) | Trek: 7–8 km | 4–5 hrs",
+    details: "After an early breakfast, take a short drive from Badrinath to Mana, the last inhabited village of India near the Indo–China border, where trekking permits are verified before beginning the journey. From Mana, the trail branches left along the Alaknanda River, initially following a well-paved pilgrim path. Around 3 km into the trek, reach the majestic Vasudhara Falls—a 400 ft cascade revered for its sacred waters, where trekkers can refill their water bottles. Beyond the falls, the trail gradually transitions into glacial moraines and rocky terrain while steadily gaining altitude. After a comfortable ascent, arrive at Laxmi Van, a peaceful meadow shaded by ancient Bhoj Patra trees and believed to be the resting place of Goddess Lakshmi. The campsite offers magnificent views of the Alkapuri Glacier, the source of the Alaknanda River, flowing beneath the imposing Balakun Peak. Overnight stay in tents beside the river. Natural water sources are available."
+  },
+
+  {
+    day: 3,
+    title: "Trek Laxmi Van (11,800 ft) → Chakrateertha (13,800 ft) | Trek: 5 km | 4–5 hrs",
+    details: "Today’s trek is more demanding than the previous day, with an altitude gain of over 2,000 ft as you enter the dramatic Satopanth Valley. The trail continues along the left bank of the Alaknanda River, gradually transitioning into open grasslands that run through the terminal moraine of the Dhano Glacier. As you progress, the landscape becomes increasingly alpine and, on clear days, the majestic Bhagirathi peaks begin to reveal themselves ahead. After trekking for around 5 km, reach the spectacular Sahastradhara—an impressive cascade formed by over a hundred small waterfalls flowing down a massive rock face. From here, Mt. Neelkanth dominates the skyline to your left. Since weather conditions tend to change rapidly post noon, an early start is crucial. Chakrateertha campsite lies about 30 minutes beyond Sahastradhara, set on a flat clearing surrounded by towering Himalayan peaks. Temperatures range between 5°C to 10°C during the day and can drop to 0°C to -5°C at night. Proper layering is essential. This altitude also demands close monitoring for AMS symptoms such as headache, nausea, fatigue, dizziness, or loss of appetite—report immediately to the Trek Leader if any signs appear. Overnight stay in tents amidst pristine wilderness."
+  },
+
+  {
+    day: 4,
+    title: "Trek Chakrateertha (13,800 ft) → Satopanth Tal (14,100 ft) → Chakrateertha | Trek: 6–7 km | 5–6 hrs",
+    details: "Today is the most anticipated and visually striking day of the trek as you journey to the sacred Satopanth Tal. Wake up to a breathtaking amphitheatre of peaks—Mt. Chaukhamba standing tall at the center, Mt. Neelkanth to the left, and Mt. Balakun guarding the right—an unforgettable Himalayan panorama. The trek begins on gentle, flat grasslands for the first couple of kilometers before the terrain gradually becomes rugged. The trail then weaves through boulder zones and glacial moraines, a technically tricky section that demands careful footing, making trekking poles highly recommended. As you continue along the ridge, the lake remains hidden until the final ascent, adding to the excitement. Suddenly, Satopanth Tal reveals itself—a magnificent triangular glacial lake shimmering in deep shades of blue. According to mythology, Brahma, Vishnu, and Mahesh meditated at its three corners. Nearby stands a small stone shelter believed to be the abode of the revered sage Mauni Baba. On exceptionally clear days, trekkers may even catch a glimpse of three of the legendary seven steps of the Swargarohini Glacier, believed to be the path taken by the Pandavas on their ascent to heaven. After spending time at this sacred lake, retrace your steps back to Chakrateertha for another overnight stay in tents."
+  },
+
+  {
+    day: 5,
+    title: "Trek Chakrateertha → Badrinath (10,300 ft) via Laxmivan & Mana | Trek: 15 km | 7–8 hrs",
+    details: "Today marks the final day of trekking as you descend from the high alpine terrain back to the sacred town of Badrinath. An early start is essential due to the long distance involved. After breakfast, begin retracing the same trail used during the ascent. The descent first leads back to the peaceful meadows of Laxmivan before continuing towards Mana, the last village of India near the Indo-Tibetan border. From Mana, enjoy a gentle walk back to Badrinath, where your trekking journey concludes. Upon arrival, check into your hotel, relax, and freshen up after the expedition. In the evening, you may explore the vibrant local market, seek blessings at the Badrinath Temple, or soothe tired muscles in the natural hot water spring at Tapt Kund."
+  },
+
+  {
+    day: 6,
+    title: "Departure from Badrinath",
+    details: "After breakfast, bid farewell to the Garhwal Himalayas as your Satopanth Tal adventure comes to an end. Depending on your onward travel plans, you may begin your return journey towards Rishikesh, Haridwar, Dehradun, or continue exploring other destinations in Uttarakhand. As you leave Badrinath behind, carry home unforgettable memories of pristine glaciers, sacred alpine lakes, towering Himalayan peaks, and one of the most spiritually significant trekking experiences in the Indian Himalayas."
+  }
+],
 
   didYouKnow: [
     "<b>Satopanth Lake is triangular in shape.</b><br>Each corner is associated with Brahma, Vishnu, and Mahesh.",
@@ -6780,31 +6833,57 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   ],
 
   itinerary: [
-  { 
-    day: 1, 
-    title: "Rishikesh to Joshimath (6,700 ft)", 
-    details: "<strong>• Drive distance: 250 km / 10-11 hrs.</strong><br>• Your road journey today follows the beautiful Badrinath highway, one of the most scenic routes in Uttarakhand. Though it’s a long 9–10 hour drive to Joshimath, every stretch of the road offers something mesmerizing — from quiet mountain villages to sweeping views of deep valleys and fast-flowing rivers. For most of the drive, the Alaknanda River will be your constant companion. At first, it flows gently beside the road, but as you gain altitude, it grows wilder and more dramatic, carving its way fiercely through steep gorges. The changing moods of the river make this journey feel alive and full of energy. Along the way, you’ll cross the four sacred Prayags, each a holy confluence of rivers that eventually form the Ganga. Devprayag marks the meeting of the Alaknanda and Bhagirathi, where the Ganga officially begins her journey. Rudraprayag follows, where the Mandakini joins in; then Karnaprayag, where the Pindar River merges; and finally Nandaprayag, where the Nandakini meets the Alaknanda. Each of these spots is breathtaking in its own way — places where spirituality and nature blend seamlessly. Though the drive is long, it never feels dull. The scenery keeps shifting — emerald forests, distant snow peaks, hanging bridges, and small hillside temples — all adding to the charm of the Himalayas. Keep your camera handy." 
-  },
-  { 
-    day: 2, 
-    title: "Drive from Joshimath to Tugashi (8000 ft) → Trek to Guling Top (9,400 ft)", 
-    details: "<strong>• Drive 15 km | Trek 3 km / 2–3 hrs.</strong><br>• Drive from Joshimath to Tugashi, Your trek begins here, a quiet little mountain village surrounded by terraced fields and traditional Garhwali homes. The trail from here is a mix of gentle and steep climbs, gradually leading you away from village life and into the raw beauty of the mountains. The first stretch winds through farmlands — neat terraces where locals grow potatoes, rajma, and barley. While the lower slopes may seem modest in greenery, the views open up quickly. Far below, the Dhauli Ganga River glimmers like a silver ribbon, and in the distance, you can spot the Vishnugad–Tapovan Hydroelectric Project, reminding you how civilization still lingers in these wild spaces. As you climb higher, the trail grows steeper, but so does the reward. The first glimpse of Dronagiri Peak appears dramatically across the valley — its sharp ridges glowing in the mountain light. It’s one of those moments that stays with you — when the Himalayas suddenly feel close and alive. The final stretch to Gulling Top takes you through patches of forest that slowly open into wide meadows. By the time you reach the campsite, you’re surrounded by grand Himalayan peaks — Dronagiri, Hathi Parvat, Gauri Parvat, and Brahmal Peak — all standing tall against the sky. As the sun dips behind the ridges, the meadows turn golden, and a deep calm settles over the oak forests around. It’s the perfect way to end your first day — with tired legs, a full heart, and the quiet company of the mountains." 
-  },
-  { 
-    day: 3, 
-    title: "Guling to Khullara (11,070 ft)", 
-    details: "<strong>• Trek 6 km / 5 hrs.</strong><br>• The trail today ascends gradually through a dense forest of oak, rhododendron, and birch, where sunlight filters through the trees and paints the ground in shifting shades of green. In spring and summer, the path comes alive with wildflowers blooming along the way, adding color to the quiet wilderness. Small streams and ridges appear at intervals, offering short breaks and sweeping glimpses of distant snow-covered peaks. The forest feels alive — filled with the natural rhythm of the mountains. You’ll hear rivulets murmuring, birds calling, and the rustle of leaves stirred by curious monkeys. Look closely, and you might spot sunbirds, woodpeckers, or even rare Himalayan herbs growing quietly by the trail. After several hours of walking under the thick canopy, the trees suddenly thin out, giving way to dwarf rhododendrons — a sure sign that you’re nearing the alpine zone. Soon, the landscape opens into the stunning Tali Meadows — a vast, undulating expanse surrounded by towering peaks. By the time you reach the Tali campsite, the views are nothing short of magical. In every direction rise the great Himalayan giants — Dronagiri, Kamet, Hathi–Ghodi, Nanda Ghunti, Nanda Devi — glowing golden at sunset and silver under the moonlight. Stay up a little late if the sky is clear — this is one of the best places in the region to witness a breathtaking canopy of stars, spread endlessly above the meadows." 
-  },
-  { 
-  day: 4, 
-  title: "Khullara to Tali (11,060 ft) via Kuari Pass (12,516 ft)", 
-  details: "<strong>• Trek 11 km / 7–8 hrs.</strong><br>• This is the most exhilarating day of the Kuari Pass trek — where the true high-altitude adventure begins. The trail from Khullara climbs steadily above the tree line, leading you into the vast alpine world of sweeping ridges and endless Himalayan views. Within about an hour, you’ll gain the high ridge section of the legendary Lord Curzon Trail. From here, the horizon explodes with grandeur — Mt. Chaukhamba, Neelkanth, Dronagiri, Nilgiri, Hathi–Ghoda Parvat, Trishul, and even distant glimpses of Nanda Devi shimmer under the blue sky. The ridge walk continues to the upper meadows of Kuari Pass — where a small shrine marks the top. Just beyond lies Pangarchulla Peak, one of the most exciting and challenging spring summit climbs in the Garhwal Himalayas.<br><br>From here, a gentle climb leads to Kuari Top — the highest vantage point, offering a 270° panoramic view of the Himalayan range. The actual pass lies further down at a small depression. After soaking in the magnificent scenery, retrace your steps back to the ridge and continue walking ahead toward Jhandi Top. The narrow ridge feels like the very spine of the mountains, before gently descending through the enchanting Chitrakantha meadows. As the forest returns, the trail winds through ancient oaks, pines, and dwarf rhododendrons, with sunlight streaming through the canopy. Finally, you’ll reach Tali — a quiet forest campsite surrounded by tall trees, perfect for a peaceful night after a rewarding climb.<br><br><strong>Note for Winter Trekkers:</strong> In peak winter, after heavy snowfall, the trail beyond Kuari Pass toward Tali and Gorson Bugyal is often closed. This section involves traversing a narrow, exposed ledge that becomes icy and dangerously slippery. For participant safety, the return route from Kuari Pass goes back to Khullara instead of continuing to Tali during such conditions."
-  },
-  { 
-  day: 5, 
-  title: "Tali to Auli (9,186 ft) → Drive to Joshimath (12 km)", 
-  details: "<strong>• Trek 8 km / 6 hrs.</strong><br>• Begin your day with a serene walk toward Tali Lake — a small alpine pond nestled amidst tall oaks and pines. As you rise above the treeline, the grand panorama of Nanda Devi and the surrounding peaks unfolds once again. From the lake, a steep climb takes you to the thrilling cliffside traverse — a narrow ledge walk overlooking the Tugasi valley far below. This adventurous stretch soon leads to the open meadows of Gorson Bugyal, among the most picturesque in all of Garhwal. Walking through Gorson’s rolling slopes, you’re treated to sweeping Himalayan views and soft mountain breezes. The descent from here takes you through Padiyar Temple and into Auli, marking the end of your incredible Himalayan journey. From Auli, a short drive brings you back to Joshimath for an overnight stay in a cozy guesthouse.<br><br><strong>Winter Route Update:</strong> When the Tali–Gorson trail is inaccessible due to heavy snowfall, trekkers return the same way they came — from Khullara back to Joshimath. This alternate descent through the familiar forest route ensures both safety and comfort while still offering enchanting winter views of the Garhwal Himalayas."
-  },
+{
+  day: 1,
+  title: "Rishikesh to Karchi Village (7,800 ft)",
+  details:
+    "<strong>• Drive Distance: 255 km | Duration: 10–11 hrs.</strong><br><br>\
+Your journey into the Garhwal Himalayas begins with a scenic drive from Rishikesh to the peaceful mountain village of Karchi (7,800 ft), the starting point of your Kuari Pass trek. The route follows the picturesque Badrinath Highway, tracing the course of the Alaknanda River through deep valleys, towering cliffs, and charming Himalayan settlements.<br><br>\
+Along the way, you'll pass through the sacred river confluences of Devprayag, Rudraprayag, Karnaprayag, and Nandaprayag, where mighty Himalayan rivers merge before continuing their journey towards the plains. Each Prayag holds immense religious significance and offers breathtaking views of emerald-green waters meeting amidst dramatic mountain landscapes.<br><br>\
+As the road climbs higher into the Garhwal region, the scenery constantly changes — terraced fields, dense forests, hanging bridges, cascading streams, and distant snow-covered peaks accompany you throughout the drive. By evening, you arrive at the quiet village of Karchi, surrounded by traditional Garhwali homes and peaceful mountain landscapes.<br><br>\
+After checking into a comfortable homestay, enjoy a warm home-cooked dinner and a short briefing about the trek ahead. Spend the evening relaxing and acclimatizing before beginning your Himalayan adventure the next morning."
+},
+
+{
+  day: 2,
+  title: "Karchi (7,800 ft) to Khullara (11,000 ft) via Akrotghetta (9,250 ft)",
+  details:
+    "<strong>• Trek Distance: 6 km | Duration: 5–6 hrs.</strong><br><br>\
+After breakfast, the trek begins from Karchi village, gradually climbing through terraced fields before entering beautiful forests of oak and rhododendron. The trail steadily gains altitude while offering occasional openings that reveal magnificent views across the Dhauli Ganga valley.<br><br>\
+Your first major halt is Akrotghetta (9,250 ft), a scenic meadow surrounded by forests and one of the finest viewpoints on the route. Here, towering Himalayan peaks like Dronagiri, Hathi Parvat, Gauri Parvat, and Brahmal Peak begin to dominate the skyline, making it a perfect place to pause and soak in the surroundings.<br><br>\
+Beyond Akrotghetta, the trail continues through dense forests alive with birdsong and seasonal wildflowers. As you gain elevation, the vegetation gradually changes, hinting at your approach to the alpine zone.<br><br>\
+By afternoon, you reach the peaceful campsite at Khullara (11,000 ft), nestled amidst beautiful meadows and forests with spectacular views of the surrounding Himalayan giants. Relax at camp, enjoy a warm dinner, and prepare for tomorrow's journey to the legendary Kuari Pass."
+},
+
+{
+  day: 3,
+  title: `"Khullara (11,000 ft) to Kuari Pass (12,500 ft) – Tali (11,000 ft)" Or "Khullara (11,000 ft) to Kuari Pass (12,500 ft) – Khullara (11,000 ft)"`,
+  details:
+    "<strong>• Trek Distance: 8 km | Duration: 6–7 hrs.</strong><br><br>\
+Today is the highlight of the trek as you climb above the tree line towards the spectacular Kuari Pass. The trail gradually ascends along the famous Lord Curzon Trail, revealing one breathtaking Himalayan panorama after another. Peaks such as Nanda Devi, Dronagiri, Kamet, Chaukhamba, Trishul, Hathi-Ghoda Parvat, and Neelkanth dominate the skyline throughout the ascent.<br><br>\
+Upon reaching Kuari Pass (12,500 ft), take time to admire one of the finest mountain viewpoints in Uttarakhand. The wide-open ridge offers uninterrupted views across some of the highest peaks in the Garhwal Himalayas, making it a memorable highlight of the journey.<br><br>\
+After spending time at the pass, the trail continues across beautiful alpine ridges before descending gradually through the enchanting Chitrakantha meadows to reach the peaceful campsite at Tali (11,000 ft), surrounded by forests and mountain vistas. Enjoy a well-earned dinner and another unforgettable night in the Himalayas.<br><br>\
+<strong>Winter Route Update:</strong> During periods of heavy snowfall, the trail beyond Kuari Pass towards Tali and Auli may become unsafe due to icy traverses. In such conditions, the group returns from Kuari Pass to the Khullara campsite via the same route."
+},
+
+{
+  day: 4,
+  title: `"Tali (11,000 ft) to Auli (9,400 ft) → Drive to Karchi" Or "Khullara (11,000 ft) to Karchi (7,800 ft)"`,
+  details:
+    "<strong>• Trek Distance: 8 km | Duration: 5–6 hrs.</strong><br><br>\
+The final day on the trail begins with a pleasant walk through forests before emerging into the famous Gorson Bugyal, one of Uttarakhand's most beautiful alpine meadows. Wide open grasslands, cool mountain breezes, and magnificent views of Nanda Devi and the surrounding Himalayan ranges accompany you throughout the descent.<br><br>\
+The trail gradually leads towards Auli (9,400 ft), India's renowned ski destination, where your trekking journey officially comes to an end. From Auli, a short drive takes you back to Karchi village for your final overnight stay, allowing you to unwind after completing the trek.<br><br>\
+<strong>Winter Route Update:</strong> If the group returned to Khullara on the previous day due to route condition, today's trek follows the same forest trail back via Akrotghetta to Karchi village."
+},
+
+{
+  day: 5,
+  title: "Karchi Village to Rishikesh",
+  details:
+    "<strong>• Drive Distance: 255 km | Duration: 10–11 hrs.</strong><br><br>\
+After breakfast, bid farewell to the Himalayas and begin your return drive to Rishikesh. The journey once again follows the scenic Alaknanda valley, passing through the sacred Prayags, charming mountain towns, and dramatic river gorges that accompanied you at the beginning of the trip.<br><br>\
+With unforgettable memories of Kuari Pass, ancient forests, alpine meadows, and towering Himalayan peaks, you arrive in Rishikesh by evening, marking the successful completion of your Himalayan adventure."
+}
 ],
 
 
@@ -7335,10 +7414,10 @@ Summit day arrives before dawn. Headlamps glow softly as you begin the final asc
 Kedarkantha is more than a winter trek. It is a journey through silent forests, frozen lakes, open alpine slopes, and unforgettable summits — a perfect balance of adventure and beauty. Whether it’s your first experience of snow or a return to the mountains you love, this trek leaves you with something rare: the feeling of truly walking inside winter itself.`
 },
 
-  price: 10400,
+  price: 9900,
   priceNote: "* Sankri to Sankri",
   addons: {
-    transport: 4000,
+    transport: 5000,
     offloadingbag: 1500,
     transportNote: "* Dehradun to Dehradun",
     offloadingNote: "* Maximum weight 9kg/bag",
@@ -7751,7 +7830,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 <br>Blending mythological charm, dense Himalayan forests, and high-altitude vistas, the Dodital – Darwa Top Trek offers an experience that feels both adventurous and meditative — a journey where nature, culture, and spirituality come together in perfect harmony.`
   },
 
-  price: 10400,
+  price: 10900,
   priceNote: "* Agoda to Agoda",
 
   addons: {
@@ -7761,7 +7840,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
+  inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 6",
 
   dates: [
 
@@ -7788,27 +7867,37 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   {
     day: 1,
     title: "Arrival at Agoda Village (7,300 ft)",
-    details: `<strong>• Drive: 7–8 hrs from Dehradun via Uttarkashi along the Bhagirathi valley.</strong><br>• The journey winds through terraced villages, pine forests, and river valleys before reaching the quiet mountain village of Agoda. This charming settlement serves as the gateway to Dodital. Spend the evening settling into your guesthouse while enjoying traditional Garhwali hospitality and views of the surrounding hills.`
+    details: `<strong>• Drive: 7–8 hrs from Dehradun via Uttarkashi along the Bhagirathi Valley.</strong><br><br>• Your journey into the Garhwal Himalayas begins with a scenic drive through the beautiful Bhagirathi Valley. The route passes charming mountain towns, terraced fields, pine forests, and the bustling town of Uttarkashi before gradually climbing towards the peaceful village of Agoda. Nestled amidst dense forests and traditional Garhwali homes, Agoda serves as the gateway to the Dodital Trek.<br><br>Upon arrival, settle into a comfortable guesthouse or homestay where you'll experience warm Garhwali hospitality. Spend the evening relaxing, enjoying home-cooked local cuisine, and preparing for the adventure ahead while soaking in the peaceful atmosphere of this Himalayan village.`
   },
+
   {
     day: 2,
     title: "Agoda to Manjhi Camp (9,200 ft)",
-    details: `<strong>• Trek: ~9 km | Duration: 5–6 hrs.</strong><br>• The trail begins with a gradual ascent through terraced farmlands before entering dense oak and rhododendron forests. The path follows the Assi Ganga river valley, with occasional glimpses of mountain streams cascading down the slopes. Birds and wildlife are abundant in this section of the forest. By afternoon, reach the peaceful campsite at Manjhi, surrounded by towering conifers and cool mountain air.`
+    details: `<strong>• Trek Distance: ~9 km | Duration: 5–6 hrs.</strong><br><br>• After breakfast, the trek begins with a gradual ascent through terraced farmlands before entering dense forests of oak, rhododendron, and pine. The trail follows the beautiful Assi Ganga valley, crossing small streams and passing through peaceful woodland filled with birdsong.<br><br>As you gain altitude, the forest becomes denser and the mountain air noticeably cooler. Along the way, occasional clearings offer beautiful views of the surrounding valleys and distant Himalayan ridges. By afternoon, arrive at the tranquil campsite of Manjhi, surrounded by towering conifers and pristine wilderness. Relax with a warm meal before retiring for the night beneath a canopy of stars.`
   },
+
   {
     day: 3,
     title: "Manjhi to Dodital Lake (10,300 ft)",
-    details: `<strong>• Trek: ~6 km | Duration: 4–5 hrs.</strong><br>• Today's trail gradually climbs deeper into thick forests, with the sound of mountain streams accompanying you along the way. The forest suddenly opens to reveal the serene Dodital lake — an emerald jewel surrounded by towering pine and deodar trees. Spend the afternoon exploring the lake, visiting the small Ganesh temple nearby, and enjoying the calm reflections of the surrounding peaks on the still water.`
+    details: `<strong>• Trek Distance: ~6 km | Duration: 4–5 hrs.</strong><br><br>• Today's trail gradually climbs deeper into the forests, with crystal-clear mountain streams accompanying much of the journey. The peaceful woodland is rich in Himalayan flora and fauna, making the walk both scenic and refreshing.<br><br>As the forest suddenly opens, the breathtaking Dodital Lake comes into view—an emerald alpine lake surrounded by majestic pine and deodar forests. Believed to be the birthplace of Lord Ganesha, the lake holds immense religious significance and is home to a small Ganesh temple on its shore.<br><br>Spend the afternoon exploring the lakeside, enjoying the tranquil reflections of the surrounding forests and peaks, or simply relaxing amidst one of the most beautiful high-altitude lakes in Uttarakhand.`
   },
+
   {
     day: 4,
     title: "Excursion to Darwa Top (13,000 ft) and return to Dodital",
-    details: `<strong>• Trek: ~10 km round trip | Duration: 6–7 hrs.</strong><br>• Start early for the climb toward Darwa Top, a ridge that rises above Dodital. The trail ascends steadily through alpine clearings before reaching the open summit ridge. From the top, a magnificent panorama unfolds — Bandarpoonch, Swargarohini, and Draupadi ka Danda dominate the skyline. After spending time absorbing the views, descend back to Dodital for the final night beside the lake.`
+    details: `<strong>• Trek Distance: ~10 km (Round Trip) | Duration: 6–7 hrs.</strong><br><br>• Begin early for the climb towards Darwa Top, a spectacular high-altitude ridge overlooking the Dodital valley. The trail ascends steadily through alpine clearings and dwarf rhododendron before emerging onto open grasslands with increasingly dramatic Himalayan views.<br><br>At Darwa Top, you're rewarded with an unforgettable panorama of towering Himalayan peaks including Bandarpoonch, Swargarohini, and Draupadi Ka Danda. The expansive mountain vistas make this one of the finest viewpoints in the region.<br><br>After spending time at the summit, descend back along the same trail to Dodital, where another peaceful evening beside the sacred lake awaits.`
   },
+
   {
     day: 5,
-    title: "Dodital to Agoda and drive back to Rishikesh",
-    details: `<strong>• Trek: ~15 km descent | Drive: 7–8 hrs.</strong><br>• Retrace your steps through the lush forests back toward Agoda village. The downhill walk offers one last chance to absorb the tranquility of these Himalayan forests. After reaching Agoda, begin the drive back through Uttarkashi toward Rishikesh. The trek concludes with memories of sacred lakes, forest trails, and sweeping Himalayan views.`
+    title: "Dodital Lake (10,300 ft) to Agoda Village (7,300 ft)",
+    details: `<strong>• Trek Distance: ~15 km | Duration: 6–7 hrs.</strong><br><br>• After breakfast, begin your descent from Dodital, retracing the beautiful forest trail through Manjhi and the lush Assi Ganga valley. Walking downhill allows you to appreciate the rich forests, mountain streams, and peaceful wilderness from a completely different perspective.<br><br>As you descend, the cool alpine forests gradually give way to terraced fields and traditional mountain villages. By afternoon, you arrive back at Agoda, where a comfortable guesthouse or homestay awaits.<br><br>Enjoy a warm dinner, reflect on the memorable journey to Dodital and Darwa Top, and spend one final peaceful night in the heart of the Garhwal Himalayas.`
+  },
+
+  {
+    day: 6,
+    title: "Agoda Village to Rishikesh",
+    details: `<strong>• Drive Distance: ~210 km | Duration: 7–8 hrs.</strong><br><br>• After breakfast, bid farewell to the mountains as you begin your return drive from Agoda to Rishikesh. The route descends through Uttarkashi and follows the scenic Bhagirathi Valley, passing picturesque villages, dense forests, and beautiful river landscapes along the way.<br><br>As the Himalayas gradually fade into the foothills, you'll carry home unforgettable memories of ancient forests, the sacred waters of Dodital, breathtaking Himalayan viewpoints from Darwa Top, and the warmth of Garhwali hospitality. By afternoon or early evening, you arrive in Rishikesh, marking the successful completion of your Himalayan adventure.`
   },
 ],
 
@@ -9561,12 +9650,12 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
       "The Ranthan Kharak Trek is a quiet, deeply immersive journey into the lesser-explored alpine landscapes of the Kumaon Himalayas. Unlike popular high-traffic trails, this trek unfolds slowly and subtly — rewarding trekkers with vast meadows, dense Himalayan forests, and uninterrupted mountain silence rather than dramatic crowds or busy campsites.<br>Hidden above the Pindar valley, Ranthan Kharak is a high-altitude meadow that feels almost untouched by time. The approach route passes through traditional Kumaoni villages, ancient stone paths, and thick forests of oak, rhododendron, and pine. As you climb higher, the forest gradually thins out, giving way to expansive grasslands that roll gently beneath open skies.<br>The meadows of Ranthan Kharak stretch wide and open, bordered by ridgelines and distant snow-covered peaks. On clear days, the panorama includes imposing Himalayan giants such as Nanda Devi, Nanda Kot, Maiktoli, and Panwali Dwar — standing tall and silent on the horizon. The sense of space here is profound; there are no sharp climbs or technical sections, only long, steady walks through some of Kumaon’s most serene high-altitude terrain.<br>This trek is ideal for trekkers who appreciate solitude and slow exploration. Campsites are set in open meadows or forest clearings, where evenings are marked by changing mountain light, grazing horses, and complete stillness. Wildlife sightings are possible, and birdlife is abundant throughout the forest sections.<br>While technically moderate, the Ranthan Kharak Trek demands good endurance due to consecutive walking days and altitude gain. Weather can change quickly, and fog or rain can roll in without warning, especially during monsoon months. Yet it is precisely this raw, unpolished nature that gives the trek its character.<br>For those seeking an offbeat Himalayan experience — far from crowds, rich in landscape variety, and rooted in the quiet beauty of the Kumaon region — Ranthan Kharak offers a rare and deeply satisfying journey."
   },
 
-  price: 11400,
+  price: 10400,
   priceNote: "* Gogina to Gogina",
   addons: {
     transport: 5000,
     transportNote: "* kathgodam to Kathgodam",
-    offloadingbag: 2500,
+    offloadingbag: 3000,
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
