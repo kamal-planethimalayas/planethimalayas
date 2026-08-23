@@ -1,17 +1,12 @@
 export const news = [
 
   {
-  title: "The India Meteorological Department (IMD) reports active monsoon conditions in northwestern and western mountain regions, with heavy rain, thunderstorms, and gusty winds expected across Himachal Pradesh, Uttarakhand, and Jammu.",
+  title: "The India Meteorological Department (IMD) warns of active monsoon conditions across northwestern and eastern hill states, with ongoing risks of heavy rain, isolated thundershowers, and potential localized landslides in vulnerable mountainous terrains of Himachal Pradesh, Uttarakhand, and Jammu & Kashmir.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
   `
-  <ul>
-  <li>• <strong>Himachal Pradesh:</strong> Heavy to very heavy rain expected in both high and lower hill regions over the coming days.</li>
-  <li>• <strong>Uttarakhand:</strong> Garhwal and Kumaun regions facing heavy to very heavy rains accompanied by thunderstorms and lightning.</li>
-  <li>• <strong>Jammu & Kashmir:</strong>  Heavy rain and thunderstorms with gusty winds (30-40 km/h) at isolated places.</li>
-  <li>• <strong>Ladakh & Gilgit:</strong> Generally minimal active weather reported.</li>
 `
 },
 
@@ -47,11 +42,10 @@ export const news = [
   details:
   `
 <ul>
-  <li>• (15 - 21 Aug); (29 Aug - 04 Sep); (12 - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (08 - 18 Aug): Pin Parvati Pass Trek. <strong><a href="/trek/pin-parvati-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (10 - 14 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (12 - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (23 - 29 Aug); (06 - 12 Sep): Markha Valley Trek. <strong><a href="/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (12 Sep - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (28 Sep - 02 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (05 Sep - 11 sep); (12 Sep - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (06 Sep - 12 Sep): Markha Valley Trek. <strong><a href="/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   </ul>
 `
 },

@@ -64,17 +64,10 @@ export const treks = [
 
     dates: [
       
-      { label: "23 Aug - 29 Aug", start: "2026-08-23", end: "2026-08-29" },
       { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
           ],
 
      confirmedDepartures: [
-  {
-    date: "2026-08-23",
-    showOnHomepage: true,
-    seatsLeft: 10,
-    status: "confirmed"
-  },
   {
     date: "2026-09-06",
     showOnHomepage: true,
@@ -1610,14 +1603,13 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
+  { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
-  { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
    ],
 
    confirmedDepartures: [
   {
-    date: "2026-08-15",
+    date: "2026-09-05",
     showOnHomepage: true,
     seatsLeft: 6,
     status: "upcoming"
@@ -1625,7 +1617,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     date: "2026-09-12",
     showOnHomepage: true,
-    seatsLeft: 10,
+    seatsLeft: 6,
     status: "upcoming"
   }
 ],
@@ -1792,17 +1784,17 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
   dates: [   
 
-{ label: "08 Aug - 19 Aug", start: "2026-08-08", end: "2026-08-19" },
+//{ label: "08 Aug - 19 Aug", start: "2026-08-08", end: "2026-08-19" },
 
   ],
 
   confirmedDepartures: [
-  {
-    date: "2026-08-08",
-    showOnHomepage: true,
-    seatsLeft: 2,
-    status: "confirmed"
-  },
+  //{
+   // date: "2026-08-08",
+    //showOnHomepage: true,
+    //seatsLeft: 2,
+    //status: "confirmed"
+  //},
 ],
 
 
@@ -2151,28 +2143,15 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "15 Aug - 21 Aug", start: "2026-08-15", end: "2026-08-21" },
-  { label: "29 Aug - 04 Sep", start: "2026-08-29", end: "2026-09-04" },
   { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
 ],
 
 confirmedDepartures: [
-  {
-    date: "2026-08-15",
-    showOnHomepage: true,
-    seatsLeft: 10,
-    status: "upcoming"
-  },
-  {
-    date: "2026-08-29",
-    showOnHomepage: true,
-    seatsLeft: 10,
-    status: "upcoming"
-  },
+  
   {
     date: "2026-09-12",
     showOnHomepage: true,
-    seatsLeft: 10,
+    seatsLeft: 6,
     status: "upcoming"
   }
 ],
@@ -2412,23 +2391,19 @@ confirmedDepartures: [
   },
 
     dates: [
-  { label: "10 Aug - 14 Aug", start: "2026-08-10", end: "2026-08-14" },
-  { label: "17 Aug - 21 Aug", start: "2026-08-17", end: "2026-08-21" },
-
   
   { label: "14 Sep - 18 Sep", start: "2026-09-14", end: "2026-09-18" },
   { label: "28 Sep - 02 Oct", start: "2026-09-28", end: "2026-10-02" },
   
   { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
-  { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
 ],
 
 confirmedDepartures: [
   {
-    date: "2026-08-10",
+    date: "2026-09-28",
     showOnHomepage: true,
-    seatsLeft: 10,
-    status: "upcoming"
+    seatsLeft: 3,
+    status: "confirmed"
   }
 ],
 
@@ -2607,8 +2582,6 @@ confirmedDepartures: [
   inclusionsNote: "🍽️ All Meals – from lunch on Day 1 to breakfast on Day 6",
 
   dates: [
-
-  { label: "15 Aug - 20 Aug", start: "2026-08-15", end: "2026-08-20" },
   
   { label: "13 Sep - 18 Sep", start: "2026-09-13", end: "2026-09-18" },
   
@@ -3845,6 +3818,21 @@ description:
   },
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 8 lunch",
+
+  dates: [
+
+{ label: "22 Sep - 29 Sep", start: "2026-09-22", end: "2026-09-29" },
+
+  ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-09-06",
+    showOnHomepage: true,
+    seatsLeft: 4,
+    status: "confirmed"
+  },
+],
 
   highlights: [
 "Move through a rich mix of dense Himalayan forests and vast alpine meadows, where the landscape gradually opens with altitude and changes character every day",
