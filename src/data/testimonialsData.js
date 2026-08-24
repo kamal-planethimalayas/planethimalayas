@@ -44,7 +44,7 @@ export const testimonials = [
     id: 5,
     name: "Jytte Scheepens",
     location: "Freelancer | Breda, Netherlands",
-    image: "/images/main/jytte.png",
+    image: "https://res.cloudinary.com/dr44hob9b/image/upload/v1787568721/jytte_bbmyry.png",
     instagram: "flowofjytte",
     rating: 5,
     text:
@@ -82,5 +82,26 @@ export const testimonials = [
     rating: 5,
     text:
       "The experience with Planethimalays on the Beas Kund Trek was really Great. I took a group of College students on a Himalayan Trek for the 1st Time. Everything was planned very well. The 2 female guides Raksha and Deepika ensured the group especially the girls were made comfortable. The safety of the group, food and tents were all araangd very well. Looking forward to trekking with them next year too."
-  }
+  },
+  {
+    id: 9,
+    name: "Himanshu Sharma",
+    location: "Delhi",
+    image:
+      "https://res.cloudinary.com/dr44hob9b/image/upload/v1787568156/Screenshot_2026-08-24_at_16-07-08_Planethimalayas_gttqkx.png",
+    //instagram: "yashesh_vora",
+    rating: 5,
+    text:
+      "Had the best experience with Planethimalayas. I did the Pin Parvati trek with them and everything was organised so well. We had very experienced guides, incredible porters and the best chef!! The food was actually even better than in most restaurants. Big thanks to the trek leader Kamal Ji who is such a genuine and knowledgeable soul. He made this trek even more special than it already was. Thanks for everything Planethimalayas!!"
+  },
+  {
+    id: 10,
+    name: "Jytte Scheepens",
+    location: "Freelancer | Breda, Netherlands",
+    image: "https://res.cloudinary.com/dr44hob9b/image/upload/v1787568721/jytte_bbmyry.png",
+    instagram: "flowofjytte",
+    rating: 5,
+    text:
+      "I had the best experience with Planethimalayas. I went on Pin Parvati trek this august with them which is for sure a very challenging trek, however because of the great organization, well arranged team and the best trek leader you could ever wish for, Kamal Ji, this was something I will never forget!!!! <br>There isn’t anything which could or should have been done differently. I felt safe all the way throughout. <br>I’d also like to mention that i was the only female in the team and was so well looked after. Everyone looked after me like one big family, just like Kamal feels like a big brother to me now. It was my second trek with Kamal, and im a 1000% sure it wouldnt be my last. Thank you for everything Planethimalayas and Kamal in special! ❤️"
+  },
 ];

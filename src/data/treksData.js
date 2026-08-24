@@ -1609,12 +1609,6 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 
    confirmedDepartures: [
   {
-    date: "2026-09-05",
-    showOnHomepage: true,
-    seatsLeft: 6,
-    status: "upcoming"
-  },
-  {
     date: "2026-09-12",
     showOnHomepage: true,
     seatsLeft: 6,
@@ -3827,7 +3821,7 @@ description:
 
   confirmedDepartures: [
   {
-    date: "2026-09-06",
+    date: "2026-09-22",
     showOnHomepage: true,
     seatsLeft: 4,
     status: "confirmed"
@@ -9008,11 +9002,11 @@ waypoints: [
       snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
     },
 
-    price: 16900,     // you can fill in actual price
+    price: 17900,     // you can fill in actual price
     priceNote: "* Wan to Wan",
     addons: {
       transport: 5000,    // fill in as applicable
-      offloadingbag: 2400, // if any
+      offloadingbag: 3500, // if any
       transportNote: "* Rishikesh to Rishikesh",
       offloadingNote: "* Maximum weight 9kg/bag"
     },
@@ -10766,12 +10760,12 @@ waypoints: [
     priceNote: "* Yuksom to Yuksom",
     addons: {
       transport: 5000, 
-      offloadingbag: 4200,
+      offloadingbag: 6400,
       transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
       offloadingNote: "* Maximum weight 9kg / bag"
     },
 
-    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
+    inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 9",
 
     dates: [
       
