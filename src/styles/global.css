@@ -722,18 +722,22 @@ backdrop-filter: blur(15px);
   padding: 4px 10px;
   border-radius: 6px;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 900;
   color: #000;
   border: 2px solid rgba(0,0,0,0.75);
   backdrop-filter: blur(3px);
 }
 
 .badge.almost-full {
+  background: red; /* your brand color 🔥 */
+}
+
+.badge.upcoming {
   background: #ff7300; /* your brand color 🔥 */
 }
 
 .badge.sold-out {
-  background: #ef4444; /* strong red */
+  background: grey; /* strong red */
 }
 
 .btn.disabled {

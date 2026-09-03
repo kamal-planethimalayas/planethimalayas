@@ -64,14 +64,14 @@ export const treks = [
 
     dates: [
       
-      { label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+      //{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
           ],
 
      confirmedDepartures: [
   {
     date: "2026-09-06",
     showOnHomepage: true,
-    seatsLeft: 10,
+    seatsLeft: 0,
     status: "confirmed"
   },
 ],
@@ -2153,13 +2153,13 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
 ],
 
 confirmedDepartures: [
   
   {
-    date: "2026-09-12",
+    date: "2026-09-19",
     showOnHomepage: true,
     seatsLeft: 6,
     status: "upcoming"
@@ -2412,7 +2412,7 @@ confirmedDepartures: [
   {
     date: "2026-09-28",
     showOnHomepage: true,
-    seatsLeft: 3,
+    seatsLeft: 7,
     status: "confirmed"
   }
 ],
@@ -3831,16 +3831,16 @@ description:
 
   dates: [
 
-{ label: "22 Sep - 29 Sep", start: "2026-09-22", end: "2026-09-29" },
+  //{ label: "22 Sep - 29 Sep", start: "2026-09-22", end: "2026-09-29" },
 
   ],
 
   confirmedDepartures: [
   {
-    date: "2026-09-22",
-    showOnHomepage: true,
-    seatsLeft: 4,
-    status: "confirmed"
+    //date: "2026-09-22",
+    //showOnHomepage: true,
+    //seatsLeft: 4,
+    //status: "confirmed"
   },
 ],
 
@@ -5200,8 +5200,8 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     //activeDeparture: {
-    //date: "2026-06-13",
-    //label: "07 Jun - 13 Jun",
+    //date: "2026-09-27",
+    //label: "27 Sep - 03 Sep",
   //},
 
     dates: [
@@ -5215,9 +5215,15 @@ waypoints: [
 confirmedDepartures: [
   
   {
-    date: "2026-06-07",
-    showOnHomepage: false,
-    seatsLeft: 10,
+    date: "2026-09-27",
+    showOnHomepage: true,
+    seatsLeft: 7,
+    status: "confirmed"
+  },
+  {
+    date: "2026-10-04",
+    showOnHomepage: true,
+    seatsLeft: 8,
     status: "upcoming"
   }
 ],
@@ -7850,6 +7856,15 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 //{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
 
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-10-18",
+    showOnHomepage: true,
+    seatsLeft: 4,
+    status: "confirmed"
+  },
+],
 
   highlights: [
     "Sacred alpine lake Dodital surrounded by dense deodar forests",
@@ -10786,12 +10801,20 @@ waypoints: [
     dates: [
       
   { label: "28 Sep - 07 Oct", start: "2026-09-28", end: "2026-10-07" },
-  { label: "12 Oct - 21 Oct", start: "2026-10-12", end: "2026-10-21" },
-  { label: "26 Oct - 04 Nov", start: "2026-10-26", end: "2026-11-04" },
+  { label: "17 Oct - 26 Oct", start: "2026-10-17", end: "2026-10-24" },
   { label: "16 Nov - 25 Nov", start: "2026-11-16", end: "2026-11-25" },
   { label: "07 Dec - 16 Dec", start: "2026-12-07", end: "2026-12-16" },
 
     ],
+
+    confirmedDepartures: [
+  {
+    date: "2026-10-17",
+    showOnHomepage: true,
+    seatsLeft: 10,
+    status: "upcoming"
+  },
+],
 
     highlights: [
       "Located in the heart of Khangchendzonga National Park, a UNESCO World Heritage Site",

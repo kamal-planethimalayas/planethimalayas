@@ -42,11 +42,14 @@ export const news = [
   details:
   `
 <ul>
-  <li>• (12 Sep - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (28 Sep - 02 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (05 Sep - 11 sep); (12 Sep - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (06 Sep - 12 Sep): Markha Valley Trek. <strong><a href="/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  </ul>
+  <li>• (12 Sep - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (27 Sep - 03 Sep); (04 Oct - 10 Oct): Gaumukh Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (28 Sep - 02 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (18 Oct - 23 Oct): Dodital & Darwa Pass Trek. <strong><a href="/trek/dodital-darwa-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (17 Oct - 26 Oct): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+</ul>
 `
 },
   
