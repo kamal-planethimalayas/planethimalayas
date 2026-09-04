@@ -4,7 +4,7 @@ import WhyPlanethimalayas from '../components/WhyPlanethimalayas.astro';
 const {
   title = "Planethimalayas",
   description = "Explore treks in the Himalayas with Planethimalayas",
-  image = "https://www.planethimalayas.com/images/main/brand-logo.svg",
+  image = "https://www.planethimalayas.com/images/main/brand-logo.png",
   url = "https://www.planethimalayas.com",
   type = "website",
   publishedTime
@@ -121,7 +121,7 @@ import SearchBox from "../components/SearchBox.jsx";
       "name": "Planethimalayas",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.planethimalayas.com/images/main/brand-logo.svg"
+        "url": "https://www.planethimalayas.com/images/main/brand-logo.png"
       }
     }
   })}
@@ -217,12 +217,14 @@ import SearchBox from "../components/SearchBox.jsx";
     <!-- Top Navbar -->
     <nav class="top-navbar" role="navigation" aria-label="Top Navigation">
       <div class="left">
-  <a href="/" aria-label="Planethimalayas homepage">
+  <a href="/" aria-label="Planethimalayas homepage" class="brand-logo-wrapper">
     <img
-      src="/images/main/brand-logo.svg"
+      src="/images/main/brand-logo.png"
       alt="Planethimalayas"
       class="logo"
     />
+
+    <span class="tagline">MORE THAN JUST A TREK</span>
   </a>
 </div>
 
@@ -454,23 +456,39 @@ backdrop-filter: blur(15px);
         gap: 12px;
       }
 
-      nav.top-navbar .left img.logo {
-        width: 260px;
-        height: auto;
-        display: block;
-        object-fit: contain;
-      }
+      /* Logo + tagline container */
+nav.top-navbar .brand-logo-wrapper {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1;
+}
 
-      nav.top-navbar .left .brand-name {
-        font-weight: 700;
-        font-size: 1.5rem;
-        user-select: none;
-        color: black;
-      }
+/* Logo */
+nav.top-navbar .left img.logo {
+  width: 260px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
 
-      nav.top-navbar .left .brand-name .orange {
-        color: var(--brand-color);
-      }
+/* Tagline */
+nav.top-navbar .tagline {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #333;
+
+  white-space: nowrap;
+}
 
       nav.top-navbar .right {
         display: flex;

@@ -74,7 +74,11 @@ export default function BookingEntry() {
           <img
             src="/images/main/brand-logo.png"
             alt="Planethimalayas Logo"
-            style={{ height: "80px" }}
+             style={{
+      height: "55px",
+      width: "auto",
+      objectFit: "contain",
+    }}
           />
         </div>
       </a>

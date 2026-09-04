@@ -128,7 +128,11 @@ export default function AuthPage() {
     >
       {/* Brand Logo */}
       <a href="/" style={{ textDecoration: "none", marginBottom: "1.5rem", display: "flex", alignItems: "center" }}>
-        <img src="/images/main/brand-logo.png" alt="Planethimalayas" style={{ height: "80px" }} />
+        <img src="/images/main/brand-logo.png" alt="Planethimalayas"  style={{
+      height: "55px",
+      width: "auto",
+      objectFit: "contain",
+    }} />
       </a>
 
       {/* NEW TOP TABS */}

@@ -38,7 +38,7 @@ export const news = [
   title: "CONFIRMED DEPARTURE DATES AUG-SEP",
   type: "news",
   head: "Trek%20Updates", 
-  thumbnail: "/images/main/brand-logo.png", // 👈 put IMD logo here
+  thumbnail: "/images/main/brand-logo-news.png", // 👈 put IMD logo here
   details:
   `
 <ul>

@@ -679,7 +679,11 @@ new window.Razorpay(options).open();
   {/* Logo & Title */}
   <a href="/" style={{ textDecoration: "none" }}>
   <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem" }}>
-    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" style={{ height: "80px" }} />
+    <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo"  style={{
+      height: "55px",
+      width: "auto",
+      objectFit: "contain",
+    }} />
     
   </div>
   </a>
