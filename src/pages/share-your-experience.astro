@@ -14,7 +14,7 @@ const brandColor = "#ff7300";
   <div class="share-hero-overlay"></div>
     <div class="container">
       <h1>
-        Share Your Himalayan Journey
+        Share <span>Your Himalayan Journey</span>
       </h1>
       <p>
         Your stories inspire us and the community of fellow trekkers. Let the mountains speak through your experience.
@@ -146,7 +146,7 @@ const brandColor = "#ff7300";
 .share-hero {
   width: 100%;
   height: 100vh;
-  background: url('/images/main/experience-hero9.jpg') center 60% no-repeat;
+  background: url('https://res.cloudinary.com/dr44hob9b/image/upload/v1788445641/IMG_20260814_100842630_HDR_u8n5ms.jpg') center 60% no-repeat;
   background-size: cover; /* stretches to full width, crops if needed */
   display: flex;
   flex-direction: column;
@@ -155,6 +155,10 @@ const brandColor = "#ff7300";
   padding: 2rem 2rem;
   color: #fff;
   position: relative;
+}
+
+.share-hero h1 span {
+  color: #ff7300; /* your brand color */
 }
 
 .share-hero-overlay {

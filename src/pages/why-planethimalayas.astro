@@ -13,7 +13,7 @@ import WhyPlanethimalayas from "../components/WhyPlanethimalayas.astro";
     <section class="why-hero reveal">
         <div class="why-hero-overlay"></div>
         <div class="container">
-            <h1>Why Planet<span>himalayas</span></h1>
+            <h1>Why <span class="planet-text">Planet</span><span>himalayas</span></h1>
             <p> Deep, personal Himalayan experiences — crafted in small groups, led by experts, and grounded in safety.</p>
         </div>
     </section>
@@ -81,6 +81,20 @@ import WhyPlanethimalayas from "../components/WhyPlanethimalayas.astro";
 
         .why-hero h1 span{
             color: #ff7300;
+            text-shadow:
+    1px  1px 0 #0f172a,
+   -1px -1px 0 #0f172a,
+    1px -1px 0 #0f172a,
+   -1px  1px 0 #0f172a;
         }
+
+        .why-hero h1 .planet-text {
+    color: #000;
+    text-shadow:
+    1px  1px 0 #0f172a,
+   -1px -1px 0 #0f172a,
+    1px -1px 0 #0f172a,
+   -1px  1px 0 #0f172a;
+}
     </style>
 </Layout>
