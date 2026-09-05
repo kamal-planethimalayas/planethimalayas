@@ -5204,7 +5204,6 @@ waypoints: [
   //},
 
     dates: [
-  { label: "20 Sep - 26 Sep", start: "2026-09-20", end: "2026-09-26" },
   { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
   { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
