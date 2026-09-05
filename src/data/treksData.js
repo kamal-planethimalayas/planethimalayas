@@ -2533,7 +2533,7 @@ confirmedDepartures: [
   },
 
   {
-  id: "deo‑tibba‑basecamp‑trek",
+  id: "deo‑tibba‑base-camp‑trek",
   name: "Deo Tibba Base Camp Trek",
   tags: ["intermediate", "basecamp", "lake", "glacier"],
   difficulty: ["moderate"],

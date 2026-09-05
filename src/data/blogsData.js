@@ -7793,7 +7793,7 @@ It is the trek whose terrain, altitude, region, and landscape align perfectly wi
 
 <li><a href="/trek/kalihani-pass-trek">Kalihani Pass Trek</a></li>
 
-<li><a href="/trek/deo‑tibba‑basecamp‑trek">Deo-Tibba Base Camp Trek</a></li>
+<li><a href="/trek/deo‑tibba‑base-camp‑trek">Deo-Tibba Base Camp Trek</a></li>
 
 <li><a href="/trek/markha-valley-trek">Markha Valley Trek</a></li>
 
