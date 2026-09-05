@@ -64,15 +64,15 @@ export const treks = [
 
     dates: [
       
-      //{ label: "06 Sep - 12 Sep", start: "2026-09-06", end: "2026-09-12" },
+      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
           ],
 
      confirmedDepartures: [
   {
-    date: "2026-09-06",
+    date: "2026-09-27",
     showOnHomepage: true,
-    seatsLeft: 0,
-    status: "confirmed"
+    seatsLeft: 6,
+    status: "upcoming"
   },
 ],
 
@@ -1603,13 +1603,12 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-  { label: "05 Sep - 11 Sep", start: "2026-09-05", end: "2026-09-11" },
-  { label: "12 Sep - 18 Sep", start: "2026-09-12", end: "2026-09-18" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
    ],
 
    confirmedDepartures: [
   {
-    date: "2026-09-12",
+    date: "2026-09-26",
     showOnHomepage: true,
     seatsLeft: 6,
     status: "upcoming"
@@ -2153,13 +2152,13 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "19 Sep - 25 Sep", start: "2026-09-19", end: "2026-09-25" },
+  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
 ],
 
 confirmedDepartures: [
   
   {
-    date: "2026-09-19",
+    date: "2026-09-26",
     showOnHomepage: true,
     seatsLeft: 6,
     status: "upcoming"
@@ -2396,8 +2395,8 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from lunch on Day 1 to breakfast on Day 5",
 
     activeDeparture: {
-    date: "2026-06-22",
-    label: "10 Aug - 14 Aug",
+    date: "2026-09-28",
+    label: "28 Sep - 02 Oct",
   },
 
     dates: [
@@ -9044,13 +9043,19 @@ waypoints: [
 
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 7",
 
-    dates: [
-    
-    { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
-    { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
-    { label: "17 Oct - 24 Oct", start: "2026-10-17", end: "2026-10-24" },
-    
+    dates: [  
+    { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
+    { label: "04 Oct - 11 Oct", start: "2026-10-04", end: "2026-10-11" },    
   ],
+
+   confirmedDepartures: [
+  {
+    date: "2026-09-27",
+    showOnHomepage: true,
+    seatsLeft: 6,
+    status: "upcoming"
+  },
+],
 
     enquireOnly: true,
 
