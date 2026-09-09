@@ -2401,9 +2401,7 @@ confirmedDepartures: [
 
     dates: [
   
-  { label: "14 Sep - 18 Sep", start: "2026-09-14", end: "2026-09-18" },
-  { label: "28 Sep - 02 Oct", start: "2026-09-28", end: "2026-10-02" },
-  
+  { label: "28 Sep - 02 Oct", start: "2026-09-28", end: "2026-10-02" }, 
   { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
 ],
 
@@ -2591,10 +2589,8 @@ confirmedDepartures: [
   inclusionsNote: "🍽️ All Meals – from lunch on Day 1 to breakfast on Day 6",
 
   dates: [
-  
-  { label: "13 Sep - 18 Sep", start: "2026-09-13", end: "2026-09-18" },
-  
-  { label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
+    
+  //{ label: "03 Oct - 08 Oct", start: "2026-10-03", end: "2026-10-08" },
   
 ],
 
@@ -4183,9 +4179,9 @@ questions: [
 
     dates: [      
 
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      //{ label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      //{ label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
     ],
 
     highlights: [
@@ -4454,9 +4450,9 @@ questions: [
 
     dates: [
 
-      { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+      //{ label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
 
-      { label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      //{ label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
     ],
 
     highlights: [
@@ -5207,7 +5203,7 @@ waypoints: [
   { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
   { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
+  { label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
 ],
 
 confirmedDepartures: [
@@ -9044,7 +9040,7 @@ waypoints: [
 
     dates: [  
     { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
-    { label: "04 Oct - 11 Oct", start: "2026-10-04", end: "2026-10-11" },    
+    { label: "18 Oct - 25 Oct", start: "2026-10-18", end: "2026-10-25" },    
   ],
 
    confirmedDepartures: [
