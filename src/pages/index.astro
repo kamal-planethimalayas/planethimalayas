@@ -104,8 +104,8 @@ import "../styles/global.css";
 <section class="trek-section reveal">
   <h2>Trending <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('monsoon', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="monsoon">
+    <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="autumn">
       {
         (() => {
           const shuffleArray = (array) => {
@@ -133,7 +133,7 @@ import "../styles/global.css";
           return shuffleArray(
             treks.filter(trek =>
               Array.isArray(trek.season) &&
-              trek.season.map(s => s.toLowerCase()).includes('monsoon')
+              trek.season.map(s => s.toLowerCase()).includes('autumn')
             )
           ).map(trek => {
       
@@ -169,7 +169,7 @@ import "../styles/global.css";
         })()
       }
     </div>
-    <button class="scroll-btn right" onclick="scrollCards('monsoon', 1)">&gt;</button>
+    <button class="scroll-btn right" onclick="scrollCards('autumn', 1)">&gt;</button>
   </div>
 </section>
 
