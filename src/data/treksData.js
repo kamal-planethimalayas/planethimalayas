@@ -2409,7 +2409,7 @@ confirmedDepartures: [
   {
     date: "2026-09-28",
     showOnHomepage: true,
-    seatsLeft: 7,
+    seatsLeft: 4,
     status: "confirmed"
   }
 ],
