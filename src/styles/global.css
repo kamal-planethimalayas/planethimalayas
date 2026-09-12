@@ -222,14 +222,14 @@ backdrop-filter: blur(15px);
   z-index: 3;
   border: 2px solid #ff7300;;
   color: #ff7300;
-  font-size: 2rem;
-  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 50%;
   cursor: pointer;
   /* glass base */
   background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.3),
