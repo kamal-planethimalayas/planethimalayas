@@ -1,12 +1,16 @@
 export const news = [
 
   {
-  title: "The India Meteorological Department (IMD) warns of active monsoon conditions across northwestern and eastern hill states, with ongoing risks of heavy rain, isolated thundershowers, and potential localized landslides in vulnerable mountainous terrains of Himachal Pradesh, Uttarakhand, and Jammu & Kashmir.",
+  title: "The Himalayan Mountain Meteorology Division reports generally unsettled or subdued heavy rainfall conditions across major elevated ranges as monsoon activity transitions.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   details:
-  `
+  `<span style="color: red; font-weight: bold;">WATCH (BE UPDATED)</span>
+  <ul>
+    <li>• Uttarakhand(Garhwal region): Thunderstorm/lightning at isolated places.
+    <li>• Uttarakhand(Kumaon region): Thunderstorm/lightning at isolated places.
+    <li>• Kashmir & Jamuu division: Thunderstorm/lightning accompanied with Gusty wind (40-50 kmph) likely at isolated places.
 `
 },
 

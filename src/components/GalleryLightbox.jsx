@@ -50,7 +50,6 @@ export default function GalleryLightbox({ images, trekName }) {
       
       {/* Watermark on top of image */}
       <div className="watermark">
-        <img src="/images/main/brand-logo.png" alt="Planethimalayas Logo" />
         <span className="watermark-text">
           Planet<span style={{ color: "#ff7300" }}>himalayas</span>
         </span>

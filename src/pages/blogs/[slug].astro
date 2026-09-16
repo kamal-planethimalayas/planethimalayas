@@ -5,6 +5,7 @@ import { treks } from '../../data/treksData.js';
 import { supabase } from "../../lib/supabaseClient.js";
 import BlogInteractions from "../../components/BlogInteractions.jsx";
 import ShareButtons from "../../components/ShareButtons.jsx";
+import BlogImageLightbox from '../../components/BlogImageLightbox.jsx';
 
 // -------------------
 // DYNAMIC ROUTING
@@ -22,6 +23,9 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const blog = blogs.find(b => b.slug === slug);
 if (!blog) throw new Error("Blog not found");
+
+// Replace normal blog images with BlogImageLightbox components
+const blogContentParts = blog.content.split(/(<img\b[^>]*>)/gi);
 
 // -------------------
 // FETCH INITIAL INTERACTIONS
@@ -85,8 +89,27 @@ const upcomingTrekCards = treks
     </div>
 
     <article class="blog-content">
-      <div set:html={blog.content}></div>
-    </article>
+  {blogContentParts.map((part) => {
+    if (!part.trim().toLowerCase().startsWith("<img")) {
+      return <Fragment set:html={part} />;
+    }
+
+    const srcMatch = part.match(/src=["']([^"']+)["']/i);
+    const altMatch = part.match(/alt=["']([^"']*)["']/i);
+
+    if (!srcMatch) {
+      return <Fragment set:html={part} />;
+    }
+
+    return (
+      <BlogImageLightbox
+        client:load
+        src={srcMatch[1]}
+        alt={altMatch ? altMatch[1] : "Planethimalayas blog image"}
+      />
+    );
+  })}
+</article>
 
     <!-- AUTHOR BLOCK -->
     <div class="meta">
