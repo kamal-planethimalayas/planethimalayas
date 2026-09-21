@@ -35,7 +35,6 @@ export default function ShareButtons({ pageUrl, pageTitle }) {
 
   return (
     <div className="share-buttons">
-      <h2>{pageTitle}</h2>
       <h3>Share this post:</h3>
       <div className="share-buttons-list">
         {platforms.map((p, i) => (

@@ -1,8 +1,21 @@
 // src/components/NewsSection.jsx
 import { news } from "../data/newsData.js";
+import { blogs } from "../data/blogsData.js";
 import { useState, useRef, useEffect } from "react";
 import "./NewsSection.css";
 
+// Automatically get the 3 latest articles
+const latestArticles = [...blogs]
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 3)
+  .map((blog) => ({
+    title: blog.title,
+    type: "articles",
+    head: "Articles",
+    thumbnail: blog.thumbnail || blog.image || "/images/main/brand-logo-news.png",
+    link: `/blogs/${blog.slug}/`,
+    details: blog.description || blog.excerpt || "",
+  }));
 
 function NewsItem({ item }) {
   const [expanded, setExpanded] = useState(false);
@@ -65,7 +78,10 @@ function NewsItem({ item }) {
    One card per category
    ---------------------------- */
 function NewsCard({ category, label }) {
-  const items = news.filter((n) => n.type === category);
+  const items =
+    category === "articles"
+      ? latestArticles
+      : news.filter((n) => n.type === category);
 
   return (
     <div className="news-card">

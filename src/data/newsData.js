@@ -46,39 +46,11 @@ export const news = [
   details:
   `
 <ul>
-  <li>• (05 Sep - 11 sep); (12 Sep - 18 Sep): Pin Bhaba Pass Trek. <strong><a href="/trek/pin-bhaba-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (06 Sep - 12 Sep): Markha Valley Trek. <strong><a href="/trek/markha-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (12 Sep - 18 Sep) : Miyar Valley Trek. <strong><a href="/trek/miyar-valley-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (27 Sep - 03 Sep); (04 Oct - 10 Oct): Gaumukh Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (28 Sep - 02 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (18 Oct - 23 Oct): Dodital & Darwa Pass Trek. <strong><a href="/trek/dodital-darwa-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (17 Oct - 26 Oct): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>
 `
-},
-  
-{
-  title: "Best Post Monsoon Treks in India (September–December): The Complete Autumn Himalayan Trekking Guide",
-  type: "articles",
-  head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766580505/miyar-valley-hero_sk7z3m.jpg",
-  link: "/blogs/best-post-monsoon-autumn-treks-india-september-december/",
-  details: 'Discover the best post monsoon and autumn treks in India from September to December. Explore Himalayan high passes, alpine valleys, glacier trails, autumn forests, alpine meadows and crystal-clear mountain views across Himachal Pradesh, Uttarakhand, Kashmir, Ladakh and Sikkim.',
-},
-{
-  title: "Why Hampta Pass is One of the Most Diverse Treks in the Himalayas",
-  type: "articles",
-  head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1785248258/hampta-pass-1_ksxpxg.jpg",
-  link: "/blogs/hampta-pass-trek-guide/",
-  details: 'Discover everything about the Hampta Pass Trek in this complete guide by Planethimalayas. Learn about the itinerary, best time to visit, difficulty level, fitness requirements, weather, river crossings, Chandratal Lake, packing list, flora & fauna, campsites, and expert trekking tips for one of the most scenic Himalayan crossover treks.',
-},
-{
-  title: "Pin Parvati Pass Trek – The Ultimate Guide to India's Most Diverse Himalayan Expedition",
-  type: "articles",
-  head: "Articles",
-  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1762191118/pin-parvati-pass-hero_wmee4d.jpg",
-  link: "/blogs/pin-parvati-pass-trek-guide/",
-  details: `An experience-driven guide to the Pin Parvati Pass Trek by Planethimalayas. Discover what it truly feels like to walk from the lush forests of Parvati Valley to the stark landscapes of Spiti through roaring rivers, alpine meadows, Mantalai, glaciers and one of India's most rewarding high-altitude passes.`,
 },
 ]; 

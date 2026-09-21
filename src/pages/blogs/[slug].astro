@@ -1,11 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { blogs } from "../../data/blogsData.js";
-import { treks } from '../../data/treksData.js';
+import { treks } from "../../data/treksData.js";
 import { supabase } from "../../lib/supabaseClient.js";
 import BlogInteractions from "../../components/BlogInteractions.jsx";
 import ShareButtons from "../../components/ShareButtons.jsx";
-import BlogImageLightbox from '../../components/BlogImageLightbox.jsx';
+import BlogImageLightbox from "../../components/BlogImageLightbox.jsx";
 
 // -------------------
 // DYNAMIC ROUTING
@@ -20,9 +20,14 @@ export async function getStaticPaths() {
 // -------------------
 // GET SLUG & BLOG
 // -------------------
+
 const { slug } = Astro.params;
+
 const blog = blogs.find(b => b.slug === slug);
-if (!blog) throw new Error("Blog not found");
+
+if (!blog) {
+  throw new Error("Blog not found");
+}
 
 // Replace normal blog images with BlogImageLightbox components
 const blogContentParts = blog.content.split(/(<img\b[^>]*>)/gi);
@@ -30,6 +35,7 @@ const blogContentParts = blog.content.split(/(<img\b[^>]*>)/gi);
 // -------------------
 // FETCH INITIAL INTERACTIONS
 // -------------------
+
 let likes = 0;
 let dislikes = 0;
 let comments = [];
@@ -48,19 +54,183 @@ if (data) {
 
 const currentSlug = Astro.params.slug;
 
-// find current blog
+// -------------------
+// CURRENT BLOG
+// -------------------
+
 const currentBlog = blogs.find(b => b.slug === currentSlug);
 
-// filter similar category blogs (excluding current)
+// -------------------
+// RELATED BLOGS
+// -------------------
+
 const relatedBlogs = blogs.filter(
-  b => b.category === currentBlog.category && b.slug !== currentSlug
+  b =>
+    b.category === currentBlog.category &&
+    b.slug !== currentSlug
 );
 
-const seasonOfBlog = currentBlog.season || "summer"; // adjust if needed
+// =====================================================
+// SEASON LOGIC
+// =====================================================
 
-const upcomingTrekCards = treks
-  .filter(t => t.season?.includes(seasonOfBlog)) // make sure 'season' exists
-  .slice(0, 5); 
+// Your trek data uses:
+// spring / summer / monsoon / autumn / winter
+
+const getCurrentSeason = () => {
+  const month = new Date().getMonth() + 1;
+
+  if (month >= 3 && month <= 5) {
+    return "spring";
+  }
+
+  if (month >= 6 && month <= 7) {
+    return "summer";
+  }
+
+  if (month >= 8 && month <= 9) {
+    return "monsoon";
+  }
+
+  if (month >= 10 && month <= 11) {
+    return "autumn";
+  }
+
+  return "winter";
+};
+
+const seasonOrder = [
+  "spring",
+  "summer",
+  "monsoon",
+  "autumn",
+  "winter"
+];
+
+const currentSeason = getCurrentSeason();
+
+const currentSeasonIndex = seasonOrder.indexOf(currentSeason);
+
+const nextSeason =
+  seasonOrder[(currentSeasonIndex + 1) % seasonOrder.length];
+
+// -------------------
+// TRENDING TREKS
+// -------------------
+
+const trendingTreks = treks
+  .filter(trek =>
+    Array.isArray(trek.season) &&
+    trek.season.some(
+      season => season.toLowerCase() === currentSeason
+    )
+  );
+
+// -------------------
+// UPCOMING TREKS
+// -------------------
+
+const upcomingTreks = treks
+  .filter(trek =>
+    Array.isArray(trek.season) &&
+    trek.season.some(
+      season => season.toLowerCase() === nextSeason
+    )
+  );
+
+// -------------------
+// LATEST ARTICLES
+// -------------------
+
+// Newest articles first.
+// Current article is excluded because the visitor
+// is already reading it.
+
+const latestArticles = [...blogs]
+  .filter(b => b.slug !== currentSlug)
+  .sort(
+    (a, b) =>
+      new Date(b.date).getTime() -
+      new Date(a.date).getTime()
+  )
+  .slice(0, 5);
+
+// =====================================================
+// LATEST YOUTUBE VIDEOS
+// =====================================================
+
+const youtubeChannelId = "UCodKoReFYEiS_g3zmNXvefQ";
+
+let latestVideos = [];
+
+try {
+  const youtubeFeedUrl =
+    `https://www.youtube.com/feeds/videos.xml?channel_id=${youtubeChannelId}`;
+
+  const response = await fetch(youtubeFeedUrl);
+
+  if (response.ok) {
+    const xml = await response.text();
+
+    const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)];
+
+    latestVideos = entries
+      .slice(0, 5)
+      .map(match => {
+        const entry = match[1];
+
+        const videoId =
+          entry.match(
+            /<yt:videoId>(.*?)<\/yt:videoId>/
+          )?.[1] || "";
+
+        const title =
+          entry.match(
+            /<title>([\s\S]*?)<\/title>/
+          )?.[1]
+            ?.replace(/<!\[CDATA\[(.*?)\]\]>/g, "$1")
+            .trim() || "Planethimalayas Video";
+
+        const published =
+          entry.match(
+            /<published>(.*?)<\/published>/
+          )?.[1] || "";
+
+        return {
+          videoId,
+          title,
+          published
+        };
+      })
+      .filter(video => video.videoId);
+  }
+} catch (error) {
+  console.warn(
+    "Could not fetch latest Planethimalayas YouTube videos:",
+    error
+  );
+}
+
+// -------------------
+// HELPER
+// -------------------
+
+const capitalize = str => {
+  if (!str) return "";
+
+  if (Array.isArray(str)) {
+    return str.map(capitalize).join(", ");
+  }
+
+  return str
+    .split(" ")
+    .map(
+      word =>
+        word.charAt(0).toUpperCase() +
+        word.slice(1)
+    )
+    .join(" ");
+};
 ---
 
 <Layout
@@ -155,79 +325,345 @@ const upcomingTrekCards = treks
 
   </div> <!-- end .blog-main -->
 
-  <!-- RIGHT: SIDEBAR (30%) -->
-  <aside class="blog-sidebar">
-    
-    <!-- 🏔️ Upcoming Treks -->
-    <div class="sidebar-treks">
-      <h3>Trending Treks</h3>
-    <div class="sidebar-upcoming-treks">
-      {treks
-        .filter(
-          trek => Array.isArray(trek.season) && trek.season.map(s => s.toLowerCase()).includes('summer')
-        )
-        .map(trek => {
-          const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
-          const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+  <!-- RIGHT: SIDEBAR -->
+<aside class="blog-sidebar">
 
-          const capitalize = str => {
-            if (!str) return '';
-            if (Array.isArray(str)) return str.map(capitalize).join(', ');
-            return str
-              .split(' ')
-              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-              .join(' ');
-          };
+  <!-- ==========================================
+       TRENDING TREKS
+  =========================================== -->
+  <div class="sidebar-section sidebar-treks">
 
-          return (
-            <div class="sidebar-trek-card" data-trek key={trek.id}>
-              <a href={`/trek/${trek.id}#trek-hero`}>
-                <img src={trek.heroImage} alt={`View of ${trek.name} trek`} />
-              </a>
-              <h4 class="trek-name">{trek.name}</h4>
-              <div class="trek-info">
-                <span class="trek-difficulty">{capitalize(difficultyStr)}</span>
-                <span class="trek-duration">{duration}</span>
-              </div>
-              <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">
-                View Dates
-              </a>
-            </div>
-          );
-        })}
-      </a>
-    </div>
-      <a href={`/upcoming-treks?season=summer`} class="more-treks-cta">
-        More Upcoming Treks →
-      </a>
-    </div>
+    <h3>Trending Treks</h3>
 
-    <!-- 📚 Related Blogs -->
-    <div class="sidebar-related-blogs">
-      <h3>Related Blogs</h3>
-      <div class="sidebar-blogs">
-        {relatedBlogs.map((b, i) => (
-          <div class="sidebar-blog-card" data-blog key={i}>
-        
-            <a href={`/blogs/${b.slug}`} class="blog-image-link">
-              <img src={b.thumbnail} alt={b.title} />
+    <div class="sidebar-trek-list">
+
+      {trendingTreks.map(trek => {
+
+        const duration =
+          trek.overview?.facts?.find(
+            f => f.label === "Trek Duration"
+          )?.value || trek.duration;
+
+        const difficultyStr =
+          Array.isArray(trek.difficulty)
+            ? trek.difficulty.join(", ")
+            : trek.difficulty;
+
+        return (
+          <div
+            class="sidebar-trek-card"
+            data-trek
+          >
+
+            <a href={`/trek/${trek.id}#trek-hero`}>
+              <img
+                src={trek.heroImage}
+                alt={`View of ${trek.name} trek`}
+              />
             </a>
 
-            <h4 class="blog-title">
-              <a href={`/blogs/${b.slug}`} class="blog-title-link">
-                {b.title}
-              </a>
+            <h4 class="trek-name">
+              {trek.name}
             </h4>
 
+            <div class="trek-info">
+
+              <span class="trek-difficulty">
+                {capitalize(difficultyStr)}
+              </span>
+
+              <span class="trek-duration">
+                {duration}
+              </span>
+
+            </div>
+
+            <a
+              href={`/trek/${trek.id}#pricing-snippet-wrapper`}
+              class="btn btn-dates"
+            >
+              View Dates
+            </a>
+
           </div>
-        ))}
-      </div>
-      <a href={`/blogs?category=${encodeURIComponent(currentBlog.category)}`} class="sidebar-cta">
-        More Related Blogs →
-      <a>
+        );
+      })}
+
     </div>
 
-  </aside>
+    <a
+      href={`/upcoming-treks?season=${currentSeason}`}
+      class="more-treks-cta"
+    >
+      Explore {capitalize(currentSeason)} Treks →
+    </a>
+
+  </div>
+
+
+  <!-- ==========================================
+       UPCOMING TREKS
+  =========================================== -->
+  <div class="sidebar-section sidebar-treks">
+
+    <h3>Upcoming Treks</h3>
+
+    <div class="sidebar-upcoming-treks">
+
+      {upcomingTreks.map(trek => {
+
+        const duration =
+          trek.overview?.facts?.find(
+            f => f.label === "Trek Duration"
+          )?.value || trek.duration;
+
+        const difficultyStr =
+          Array.isArray(trek.difficulty)
+            ? trek.difficulty.join(", ")
+            : trek.difficulty;
+
+        return (
+          <div
+            class="sidebar-trek-card"
+            data-trek
+          >
+
+            <a href={`/trek/${trek.id}#trek-hero`}>
+              <img
+                src={trek.heroImage}
+                alt={`View of ${trek.name} trek`}
+              />
+            </a>
+
+            <h4 class="trek-name">
+              {trek.name}
+            </h4>
+
+            <div class="trek-info">
+
+              <span class="trek-difficulty">
+                {capitalize(difficultyStr)}
+              </span>
+
+              <span class="trek-duration">
+                {duration}
+              </span>
+
+            </div>
+
+            <a
+              href={`/trek/${trek.id}#pricing-snippet-wrapper`}
+              class="btn btn-dates"
+            >
+              View Dates
+            </a>
+
+          </div>
+        );
+      })}
+
+    </div>
+
+    <a
+      href={`/upcoming-treks?season=${nextSeason}`}
+      class="more-treks-cta"
+    >
+      Explore {capitalize(nextSeason)} Treks →
+    </a>
+
+  </div>
+
+
+  <!-- ==========================================
+       RELATED BLOGS
+  =========================================== -->
+  <div class="sidebar-section sidebar-related-blogs">
+
+    <h3>Related Blogs</h3>
+
+    <div class="sidebar-blogs">
+
+      {relatedBlogs.map((b, i) => (
+
+        <div
+          class="sidebar-blog-card"
+          data-blog
+          key={i}
+        >
+
+          <a
+            href={`/blogs/${b.slug}`}
+            class="blog-image-link"
+          >
+            <img
+              src={b.thumbnail}
+              alt={b.title}
+            />
+          </a>
+
+          <h4 class="blog-title">
+
+            <a
+              href={`/blogs/${b.slug}`}
+              class="blog-title-link"
+            >
+              {b.title}
+            </a>
+
+          </h4>
+
+        </div>
+
+      ))}
+
+    </div>
+
+    <a
+      href={`/blogs?category=${encodeURIComponent(currentBlog.category)}`}
+      class="sidebar-cta"
+    >
+      More Related Blogs →
+    </a>
+
+  </div>
+
+
+  <!-- ==========================================
+       LATEST ARTICLES
+  =========================================== -->
+  <div class="sidebar-section sidebar-latest-articles">
+
+    <h3>Latest Articles</h3>
+
+    <div class="sidebar-latest-articles-list">
+
+      {latestArticles.map((article, i) => (
+
+        <div
+          class="sidebar-article-card"
+          data-article
+          key={i}
+        >
+
+          <a
+            href={`/blogs/${article.slug}`}
+            class="article-image-link"
+          >
+            <img
+              src={article.thumbnail}
+              alt={article.title}
+            />
+          </a>
+
+          <h4 class="article-title">
+
+            <a
+              href={`/blogs/${article.slug}`}
+              class="article-title-link"
+            >
+              {article.title}
+            </a>
+
+          </h4>
+
+          {article.date && (
+            <span class="article-date">
+              {new Date(article.date).toLocaleDateString(
+                "en-IN",
+                {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric"
+                }
+              )}
+            </span>
+          )}
+
+        </div>
+
+      ))}
+
+    </div>
+
+    <a
+      href="/blogs"
+      class="sidebar-cta"
+    >
+      Explore All Articles →
+    </a>
+
+  </div>
+
+
+  <!-- ==========================================
+       LATEST VIDEOS
+  =========================================== -->
+  <div class="sidebar-section sidebar-latest-videos">
+
+    <h3>Latest Videos</h3>
+
+    <div class="sidebar-videos">
+
+      {latestVideos.map((video, i) => (
+
+        <div
+          class="sidebar-video-card"
+          data-video
+          key={i}
+        >
+
+          <a
+            href={`https://www.youtube.com/watch?v=${video.videoId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="video-thumbnail-link"
+          >
+
+            <div class="video-thumbnail-wrapper">
+
+              <img
+                src={`https://i.ytimg.com/vi/${video.videoId}/hqdefault.jpg`}
+                alt={video.title}
+              />
+
+              <span class="video-play-button">
+                ▶
+              </span>
+
+            </div>
+
+          </a>
+
+          <h4 class="video-title">
+
+            <a
+              href={`https://www.youtube.com/watch?v=${video.videoId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {video.title}
+            </a>
+
+          </h4>
+
+        </div>
+
+      ))}
+
+    </div>
+
+    <a
+      href="https://www.youtube.com/@Planethimalayas"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="sidebar-cta"
+    >
+      Visit Our YouTube Channel →
+    </a>
+
+  </div>
+
+</aside>
 
 </div> <!-- end .blog-layout -->
 
@@ -241,7 +677,7 @@ const upcomingTrekCards = treks
   width: 100%;
 
   /* 🔥 KEY CHANGE */
-  height: 60vh;
+  height: 65vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -304,83 +740,110 @@ const upcomingTrekCards = treks
 }
 
 .blog-main {
-  flex: 0 0 70%;
-  min-width: 700px;
+  flex: 0 0 75%;
+  min-width: 900px;
 }
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.blog-sidebar {
+  flex: 0 0 25%;
+  min-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  position: sticky;
+  top: 120px;
+
+  align-items: center;
+}
+
 
 /* =========================
    SIDEBAR SECTIONS
 ========================= */
-.blog-sidebar {
-  flex: 0 0 30%;
-  min-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  position: sticky;
-  top: 120px;
-  align-items: center;
+
+.sidebar-section {
+  width: 100%;
+  padding-top: 1rem;
 }
 
-/* ------------------------
-   HEADINGS
-------------------------- */
-.sidebar-treks h3,
-.sidebar-related-blogs h3 {
+.sidebar-section h3 {
   font-family: 'Helvetica', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+
   margin-bottom: 2rem;
+
   color: #000;
-  border-bottom: 2px solid #ff7300; /* brand underline */
+
+  border-bottom: 2px solid #ff7300;
+
   padding-bottom: 0.25rem;
 }
 
-/* =========================
-   TREK CARDS
-========================= */
-.sidebar-treks {
-  padding-top: 4rem;
-}
 
+/* =========================
+   TREK SECTIONS
+========================= */
+
+.sidebar-trek-list,
 .sidebar-upcoming-treks {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;       /* breathing space between trek cards */
+  gap: 0.5rem;
 }
+
+
+/* =========================
+   TREK CARD
+========================= */
 
 .sidebar-trek-card {
   display: flex;
   flex-direction: column;
+
   width: 100%;
-  max-width: 220px;          /* uniform width */
-  height: 280px;             /* uniform height */
+  max-width: 220px;
+  height: 280px;
+
   background: #121316;
+
   border-radius: 10px;
   overflow: hidden;
+
   margin-bottom: 1rem;
+
   border: 2px solid #ff7300;
+
   position: relative;
-  /* 3D + smooth transitions */
+
   transform-style: preserve-3d;
-  transition: 
+
+  transition:
     transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
     border 0.3s ease;
+
   box-shadow:
     0 4px 12px rgba(255, 115, 0, 0.45),
     0 0 10px rgba(255, 115, 0, 0.3);
 }
 
-/* Hover: 3D pop + brand border + directional glow (light from above) */
 .sidebar-trek-card:hover {
-  transform: translateY(-4px) rotateX(2deg) rotateY(1deg);
+  transform:
+    translateY(-4px)
+    rotateX(2deg)
+    rotateY(1deg);
 
-  /* Directional premium glow */
   box-shadow:
-    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
-    0 6px 20px rgba(255, 115, 0, 0.95),       /* main bottom glow */
-    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+    0 -4px 10px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(255, 115, 0, 0.95),
+    inset 0 0 8px rgba(255, 115, 0, 0.1);
 
   z-index: 10;
 }
@@ -388,207 +851,508 @@ const upcomingTrekCards = treks
 .sidebar-trek-card img {
   width: 100%;
   height: 120px;
+
   object-fit: cover;
+
   display: block;
+
   margin-bottom: 0.5rem;
 }
 
 .sidebar-trek-card h4.trek-name {
   font-size: 0.95rem;
   font-weight: 600;
+
   color: #ff7300;
+
   margin-bottom: 0.25rem;
+
   text-align: center;
 }
 
 .sidebar-trek-card .trek-info {
   display: flex;
-  flex-direction: column;   /* 🔥 key change */
+  flex-direction: column;
+
   align-items: center;
+
   gap: 0.2rem;
 
   font-size: 0.85rem;
+
   color: #fff;
+
   margin-bottom: 0.5rem;
 }
 
 .sidebar-trek-card .btn-dates {
   display: flex;
+
   justify-content: center;
+
   margin: 0 1rem;
+
   padding: 0.5rem 1rem;
+
   text-decoration: none;
+
   font-weight: 600;
+
   font-size: 0.9rem;
+
   border-radius: 6px;
+
   border: 2px solid #ff7300;
+
   color: #ff7300;
 
-  /* glass base */
   background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+
+  backdrop-filter: blur(15px);
+
+  -webkit-backdrop-filter: blur(15px);
 
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.35),
     0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    0 0 10px rgba(255,115,0,0.3);
 
   transition: all 0.25s ease;
+
   position: relative;
 }
 
-/* subtle glass reflection */
 .sidebar-trek-card .btn-dates::before {
   content: "";
+
   position: absolute;
+
   inset: 0;
+
   border-radius: inherit;
+
   background: linear-gradient(
     135deg,
     rgba(255,255,255,0.45),
     rgba(255,255,255,0.05)
   );
+
   opacity: 0.35;
+
   pointer-events: none;
 }
 
 .sidebar-trek-card .btn-dates:hover {
   background: #ff7300;
+
   color: black;
+
   box-shadow:
     inset 0 1px 1px rgba(255,255,255,0.45),
     0 10px 24px rgba(0,0,0,0.4),
-    0 0 22px rgba(255, 115, 0, 1),
-    0 0 40px rgba(255, 115, 0, 0.7);
+    0 0 22px rgba(255,115,0,1),
+    0 0 40px rgba(255,115,0,0.7);
 }
 
-.sidebar-treks .more-treks-cta {
+
+/* =========================
+   TREK CTA
+========================= */
+
+.more-treks-cta,
+.sidebar-cta {
+  display: inline-block;
+
   font-size: 0.9rem;
+
   font-weight: 700;
+
   color: #ff7300;
+
   text-decoration: none;
-  text-align: left;
+
+  margin-top: 0.25rem;
 }
 
-.sidebar-treks .more-treks-cta:hover {
+.more-treks-cta:hover,
+.sidebar-cta:hover {
   text-decoration: underline;
 }
 
+
 /* =========================
-   RELATED BLOG CARDS
+   RELATED BLOGS
 ========================= */
-.sidebar-related-blogs {
-  padding-top: 4rem;
-}
 
 .sidebar-blogs {
   display: flex;
+
   flex-direction: column;
-  gap: 0.5rem;   /* THIS is the real spacing */
-    margin-bottom: 1rem;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1rem;
 }
 
 .sidebar-blog-card {
   display: flex;
+
   flex-direction: column;
+
   width: 100%;
-  max-width: 220px;          /* uniform width */
-  height: 280px;             /* uniform height */
+
+  max-width: 220px;
+
+  height: 280px;
+
   background: #121316;
+
   border-radius: 10px;
+
   overflow: hidden;
+
   border: 2px solid #ff7300;
+
   position: relative;
-  /* 3D + smooth transitions */
+
   transform-style: preserve-3d;
-  transition: 
+
+  transition:
     transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-    border 0.3s ease;
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    0 4px 12px rgba(255,115,0,0.45),
+    0 0 10px rgba(255,115,0,0.3);
 }
 
 .sidebar-blog-card:hover {
-  transform: translateY(-4px) rotateX(2deg) rotateY(1deg);
+  transform:
+    translateY(-4px)
+    rotateX(2deg)
+    rotateY(1deg);
 
-  /* Directional premium glow */
   box-shadow:
-    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
-    0 6px 20px rgba(255, 115, 0, 0.95),       /* main bottom glow */
-    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+    0 -4px 10px rgba(0,0,0,0.1),
+    0 6px 20px rgba(255,115,0,0.95),
+    inset 0 0 8px rgba(255,115,0,0.1);
 
   z-index: 10;
 }
 
 .sidebar-blog-card img {
   width: 100%;
+
   height: 140px;
+
   object-fit: cover;
+
   display: block;
+
   margin-bottom: 1rem;
 }
 
 .sidebar-blog-card .blog-title {
   font-size: 0.95rem;
+
   font-weight: 600;
+
   color: #ff7300;
+
   text-align: center;
+
   line-height: 1.3;
-}
 
-.sidebar-related-blogs .sidebar-cta {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #ff7300;
-  text-decoration: none;
-}
-
-.sidebar-related-blogs .sidebar-cta:hover {
-  text-decoration: underline;
+  padding: 0 0.5rem;
 }
 
 .blog-title-link {
   text-decoration: none;
+
   color: inherit;
 }
 
 .blog-title-link:hover {
-  text-decoration: none;
   color: #ff7300;
 }
 
+
 /* =========================
-   RESPONSIVE MOBILE FIX
+   LATEST ARTICLES
 ========================= */
+
+.sidebar-latest-articles-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1rem;
+}
+
+.sidebar-article-card {
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  max-width: 220px;
+
+  height: 280px;
+
+  background: #121316;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  border: 2px solid #ff7300;
+
+  position: relative;
+
+  transform-style: preserve-3d;
+
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+  box-shadow:
+    0 4px 12px rgba(255,115,0,0.45),
+    0 0 10px rgba(255,115,0,0.3);
+}
+
+.sidebar-article-card:hover {
+  transform:
+    translateY(-4px)
+    rotateX(2deg)
+    rotateY(1deg);
+
+  box-shadow:
+    0 6px 20px rgba(255,115,0,0.95),
+    inset 0 0 8px rgba(255,115,0,0.1);
+
+  z-index: 10;
+}
+
+.sidebar-article-card img {
+  width: 100%;
+
+  height: 140px;
+
+  object-fit: cover;
+
+  display: block;
+
+  margin-bottom: 0.8rem;
+}
+
+.sidebar-article-card .article-title {
+  font-size: 0.95rem;
+
+  line-height: 1.3;
+
+  text-align: center;
+
+  padding: 0 0.5rem;
+
+  margin: 0;
+}
+
+.article-title-link {
+  color: #ff7300;
+
+  text-decoration: none;
+}
+
+.article-title-link:hover {
+  text-decoration: none;
+}
+
+.article-date {
+  color: #aaa;
+
+  font-size: 0.75rem;
+
+  text-align: center;
+
+  margin-top: auto;
+
+  margin-bottom: 0.7rem;
+}
+
+
+/* =========================
+   LATEST VIDEOS
+========================= */
+
+.sidebar-videos {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1rem;
+}
+
+.sidebar-video-card {
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  max-width: 220px;
+
+  height: 280px;
+
+  background: #121316;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  border: 2px solid #ff7300;
+
+  position: relative;
+
+  transform-style: preserve-3d;
+
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+  box-shadow:
+    0 4px 12px rgba(255,115,0,0.45),
+    0 0 10px rgba(255,115,0,0.3);
+}
+
+.sidebar-video-card:hover {
+  transform:
+    translateY(-4px)
+    rotateX(2deg)
+    rotateY(1deg);
+
+  box-shadow:
+    0 6px 20px rgba(255,115,0,0.95),
+    inset 0 0 8px rgba(255,115,0,0.1);
+
+  z-index: 10;
+}
+
+.video-thumbnail-wrapper {
+  width: 100%;
+
+  height: 140px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.video-thumbnail-wrapper img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.video-play-button {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+
+  background: rgba(0,0,0,0.75);
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+
+  padding-left: 3px;
+
+  pointer-events: none;
+}
+
+.sidebar-video-card .video-title {
+  font-size: 0.95rem;
+
+  line-height: 1.3;
+
+  text-align: center;
+
+  padding: 0 0.6rem;
+
+  margin-top: 0.8rem;
+}
+
+.sidebar-video-card .video-title a {
+  color: #ff7300;
+
+  text-decoration: none;
+}
+
+.sidebar-video-card .video-title a:hover {
+  text-decoration: none;
+}
+
+
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+
 @media (max-width: 1024px) {
-  .blog-layout {  
+
+  .blog-layout {
     flex-direction: column;
-    padding: 0 1rem;       /* padding on both sides */
+
+    padding: 0 1rem;
   }
 
   .blog-main,
   .blog-sidebar {
     flex: 1 1 100%;
-    min-width: 0;          /* prevent overflow */
+
+    min-width: 0;
   }
 
   .blog-sidebar {
-    margin-top: 2rem;
-    align-items: stretch;   /* center the cards */
+    margin-top: 1rem;
+
+    align-items: stretch;
+
+    position: static;
   }
 
-  .sidebar-treks,
-  .sidebar-related-blogs {
-    padding-top: 1rem;
+  .sidebar-section {
+    padding-top: 0.5rem;
   }
 
   .sidebar-trek-card,
-  .sidebar-blog-card {
-    max-width: 100%;       /* stretch full width */
+  .sidebar-blog-card,
+  .sidebar-article-card,
+  .sidebar-video-card {
+    max-width: 100%;
+
     width: 100%;
+
     align-items: stretch;
   }
 }
@@ -810,57 +1574,165 @@ document.addEventListener("DOMContentLoaded", () => {
     return [...array].sort(() => Math.random() - 0.5);
   }
 
-  function setupRotator(selector, visibleCount = 5) {
-    const container = document.querySelector(selector);
+
+  function setupRotator(
+    selector,
+    visibleCount = 5
+  ) {
+
+    const container =
+      document.querySelector(selector);
+
     if (!container) return;
 
-    let items = Array.from(container.children);
+    let items =
+      Array.from(container.children);
 
-    function showRandomSet() {
-      items = shuffle(items);
+    // Nothing to rotate
+    if (items.length <= visibleCount) {
 
-      // fade out
       items.forEach(el => {
-        el.style.opacity = "0";
-        el.style.transform = "translateY(10px)";
+        el.style.opacity = "1";
+        el.style.transform = "translateY(0)";
       });
 
-      setTimeout(() => {
-        // 🔥 IMPORTANT: reorder DOM
-        items.forEach(el => container.appendChild(el));
+      return;
+    }
 
-        // show only first N
+
+    function showRandomSet() {
+
+      items = shuffle(items);
+
+      // Fade out
+      items.forEach(el => {
+
+        el.style.opacity = "0";
+
+        el.style.transform =
+          "translateY(10px)";
+
+      });
+
+
+      setTimeout(() => {
+
+        // Reorder DOM
+        items.forEach(el =>
+          container.appendChild(el)
+        );
+
+
+        // Show only first 5
         items.forEach((el, i) => {
-          el.style.display = i < visibleCount ? "" : "none";
+
+          el.style.display =
+            i < visibleCount
+              ? ""
+              : "none";
+
         });
 
-        // fade in visible ones
+
+        // Fade in
         setTimeout(() => {
-          items.slice(0, visibleCount).forEach(el => {
-            el.style.opacity = "1";
-            el.style.transform = "translateY(0)";
-          });
+
+          items
+            .slice(0, visibleCount)
+            .forEach(el => {
+
+              el.style.opacity = "1";
+
+              el.style.transform =
+                "translateY(0)";
+
+            });
+
         }, 50);
 
       }, 300);
+
     }
 
-    // initial setup
+
+    // Initial styles
     items.forEach((el, i) => {
-      el.style.transition = "all 0.4s ease";
-      if (i >= visibleCount) el.style.display = "none";
+
+      el.style.transition =
+        "all 0.4s ease";
+
+      el.style.opacity = "0";
+
+      if (i >= visibleCount) {
+
+        el.style.display = "none";
+
+      }
+
     });
 
-    // 🔥 RUN ONCE IMMEDIATELY (IMPORTANT FIX)
+
+    // Initial random selection
     showRandomSet();
 
-    // rotate every 5 sec
-    setInterval(showRandomSet, 5000);
+
+    // Rotate every 5 seconds
+    setInterval(
+      showRandomSet,
+      5000
+    );
+
   }
 
-  // Apply correctly to INNER containers
-  setupRotator(".sidebar-upcoming-treks");
-  setupRotator(".sidebar-blogs");
+
+  // ==========================================
+  // TRENDING TREKS
+  // ==========================================
+
+  setupRotator(
+    ".sidebar-trek-list",
+    5
+  );
+
+
+  // ==========================================
+  // UPCOMING TREKS
+  // ==========================================
+
+  setupRotator(
+    ".sidebar-upcoming-treks",
+    5
+  );
+
+
+  // ==========================================
+  // RELATED BLOGS
+  // ==========================================
+
+  setupRotator(
+    ".sidebar-blogs",
+    5
+  );
+
+
+  // ==========================================
+  // LATEST ARTICLES
+  // ==========================================
+
+  setupRotator(
+    ".sidebar-latest-articles-list",
+    5
+  );
+
+
+  // ==========================================
+  // LATEST VIDEOS
+  // ==========================================
+
+  setupRotator(
+    ".sidebar-videos",
+    5
+  );
 
 });
 </script>
