@@ -16433,40 +16433,17 @@ date: "2026-09-18",
 category: "Flagship Guides",
 priority: 1,
 related: {
-treks: [
-"deoriatal-chandrashila-trek",
-"dayara-bugyal-trek"
-],
+treks: [],
 tags: [
-"Children Trekking",
-"Family Trekking",
-"Himalayan Trekking",
-"Kids Trekking",
-"Outdoor Learning"
+"beginner"
 ],
-regions: [
-"Uttarakhand"
-],
-seasons: [
-"Spring",
-"Summer",
-"Autumn",
-"Winter"
-],
+regions: [],
+seasons: [],
 difficulty: [
 "Easy"
 ],
-months: [
-"March",
-"April",
-"May",
-"June",
-"September",
-"October",
-"November",
-"December"
-],
-global: true,
+months: [],
+global: false,
 },
 featuredOnTrek: true,
 readTime: "12 min",

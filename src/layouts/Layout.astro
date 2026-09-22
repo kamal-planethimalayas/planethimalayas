@@ -290,21 +290,25 @@ import SearchBox from "../components/SearchBox.jsx";
 
 
 <style>
-/* ===== SHARED GLASS BASE ===== */
+
+/* =========================================================
+   FLOATING BUTTONS — SHARED GLASS STYLE
+========================================================= */
+
 .scroll-top,
 .whatsapp-float,
 .faq-button {
   background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 
   border: 2px solid #ff7300;
   color: #ff7300;
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255,115,0,0.3);
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 6px 14px rgba(0, 0, 0, 0.35),
+    0 0 10px rgba(255, 115, 0, 0.3);
 
   transition:
     background 0.3s ease,
@@ -313,7 +317,11 @@ backdrop-filter: blur(15px);
     color 0.25s ease;
 }
 
-/* glass reflection layer */
+
+/* =========================================================
+   GLASS REFLECTION
+========================================================= */
+
 .scroll-top::before,
 .whatsapp-float::before,
 .faq-button::before {
@@ -321,102 +329,253 @@ backdrop-filter: blur(15px);
   position: absolute;
   inset: 0;
   border-radius: inherit;
+
   background: linear-gradient(
     135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.05)
   );
+
   opacity: 0.35;
   pointer-events: none;
 }
 
-.scroll-top {
+
+/* =========================================================
+   FLOATING BUTTON CONTAINER
+   Covers the entire viewport
+========================================================= */
+
+.floating-buttons {
   position: fixed;
-  bottom: 55px;
-  right: 100px;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+
+  z-index: 9999;
+}
+
+
+/* Allow the actual buttons to receive clicks */
+
+.whatsapp-float,
+.faq-button,
+.scroll-top {
+  pointer-events: auto;
+}
+
+
+/* =========================================================
+   SCROLL TO TOP
+========================================================= */
+
+.scroll-top {
+  position: absolute;
+
+  bottom: 10px;
+  left: 50%;
+  right: auto;
+
   width: 45px;
   height: 45px;
+
   border-radius: 50%;
+
   font-size: 20px;
   font-weight: bold;
+
   cursor: pointer;
+
   display: none;
   align-items: center;
   justify-content: center;
+
+  transform: translateX(-50%);
+
   z-index: 999;
 }
 
-/* hover — unchanged behavior */
+
+/* Hover */
+
 .scroll-top:hover {
   background: #ff7300;
   color: black;
-  transform: translateY(-2px) scale(1.05);
+
+  transform: translateX(-50%) translateY(-2px) scale(1.05);
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.4),
-    0 0 22px rgba(255,115,0,1),
-    0 0 40px rgba(255,115,0,0.7);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 24px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.7);
 }
 
+
+/* =========================================================
+   WHATSAPP
+========================================================= */
+
 .whatsapp-float {
-  position: fixed;
-  bottom: 280px;
-  right: 40px;
-  width: 50px;
-  height: 50px;
+  position: absolute;
+
+  bottom: 10px;
+  right: 10px;
+
+  width: 45px;
+  height: 45px;
+
   border-radius: 50%;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   z-index: 999;
 }
 
-/* hover stays brand */
+
+/* Hover — stay illuminated while pointer is over it */
+
 .whatsapp-float:hover {
-  background: #ff7300;
-  transform: translateY(-2px) scale(1.05);
+  background: #ff7300 !important;
+  color: black !important;
+
+  transform: translateY(-2px) scale(1.05); !important;
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.4),
-    0 0 22px rgba(255,115,0,1),
-    0 0 40px rgba(255,115,0,0.7);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 24px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.7);
 }
+
+/* =========================================
+   WHATSAPP — AUTOMATIC HOVER / BREATHING
+========================================= */
+
+@keyframes whatsappAutoHover {
+  0% {
+    background: rgba(0, 0, 0, 0.75);
+    color: #ff7300;
+    transform: translateY(0) scale(1);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.35),
+      0 6px 14px rgba(0, 0, 0, 0.35),
+      0 0 10px rgba(255, 115, 0, 0.3);
+  }
+
+  6% {
+    background: #ff7300;
+    color: #000;
+    transform: translateY(-1px) scale(1.02);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.45),
+      0 8px 20px rgba(0, 0, 0, 0.38),
+      0 0 18px rgba(255, 115, 0, 0.7),
+      0 0 30px rgba(255, 115, 0, 0.4);
+  }
+
+  12% {
+    background: #ff7300;
+    color: #000;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.45),
+      0 10px 24px rgba(0, 0, 0, 0.4),
+      0 0 22px rgba(255, 115, 0, 1),
+      0 0 40px rgba(255, 115, 0, 0.7);
+  }
+
+  18% {
+    background: #ff7300;
+    color: #000;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.45),
+      0 10px 24px rgba(0, 0, 0, 0.4),
+      0 0 22px rgba(255, 115, 0, 1),
+      0 0 40px rgba(255, 115, 0, 0.7);
+  }
+
+  25% {
+    background: rgba(0, 0, 0, 0.75);
+    color: #ff7300;
+    transform: translateY(0) scale(1);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.35),
+      0 6px 14px rgba(0, 0, 0, 0.35),
+      0 0 10px rgba(255, 115, 0, 0.3);
+  }
+
+  100% {
+    background: rgba(0, 0, 0, 0.75);
+    color: #ff7300;
+    transform: translateY(0) scale(1);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.35),
+      0 6px 14px rgba(0, 0, 0, 0.35),
+      0 0 10px rgba(255, 115, 0, 0.3);
+  }
+}
+
+.whatsapp-float {
+  animation: whatsappAutoHover 10s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-float {
+    animation: none;
+  }
+}
+
+/* WhatsApp icon */
 
 .whatsapp-icon {
   width: 25px;
   height: 25px;
 }
 
-.floating-buttons {
-  position: fixed;
-  bottom: 220px;
-  right: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.5rem;
+/* =========================================================
+   FAQ BUTTON
+========================================================= */
+
+.faq-button {
+  position: absolute;
+
+  bottom: 10px;
+  left: 10px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+
+  padding: 0.4rem 0.8rem;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
   z-index: 999;
 }
 
-.faq-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  position: relative;
-}
 
-/* hover glow unchanged */
+/* Hover */
+
 .faq-button:hover {
   background: #ff7300;
   color: black;
+
   transform: translateY(-2px) scale(1.05);
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.4),
-    0 0 22px rgba(255,115,0,1),
-    0 0 40px rgba(255,115,0,0.7);
+    inset 0 1px 1px rgba(255, 255, 255, 0.45),
+    0 10px 24px rgba(0, 0, 0, 0.4),
+    0 0 22px rgba(255, 115, 0, 1),
+    0 0 40px rgba(255, 115, 0, 0.7);
 }
 
       body {
