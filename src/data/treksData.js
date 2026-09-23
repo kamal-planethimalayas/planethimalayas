@@ -8004,12 +8004,24 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   region: "uttarakhand-garhwal",
 
   coordinates: [
-    // ADD YOUR VERIFIED NAG TIBBA ROUTE COORDINATES HERE
+    [30.583995673135878, 78.08734889694472], //Pantwari
+    [30.587700187099557, 78.1096618543411], //Goat Village
+    [30.588521347235897, 78.12223907178836], //Khatiyan
+    [30.586115511199218, 78.14151277458114], //Nag Mandir
+    [30.586923016564, 78.15164631733647], //Nag Tibba
+    [30.586115511199218, 78.14151277458114], //Nag Mandir
+    [30.588521347235897, 78.12223907178836], //Khatiyan
+    [30.587700187099557, 78.1096618543411], //Goat Village
+    [30.583995673135878, 78.08734889694472], //Pantwari 
   ],
-
   waypoints: [
-    // ADD YOUR VERIFIED NAG TIBBA WAYPOINTS HERE
-  ],
+  { name: "Pantwari (Start)", coords: [30.583995673135878, 78.08734889694472], type: "start" },
+  { name: "Goat Village", coords: [30.583995673135878, 78.08734889694472], type: "village" },
+  { name: "Khatiyan", coords: [30.588521347235897, 78.12223907178836], type: "Campsite" },
+  { name: "Nag Mandir", coords: [30.590354995690433, 78.13937146092886], type: "Temple" },
+  { name: "Nag Tibba", coords: [30.586923016564, 78.15164631733647], type: "viewpoint" },
+  { name: "Pantwari", coords: [30.583995673135878, 78.08734889694472], type: "end" },
+],
 
   // ADD YOUR VERIFIED CLOUDINARY HERO IMAGE URL HERE
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1790139494/BloomingRhododendronForest_1432206825_NQvgOC_x8gae5.avif",
@@ -8076,21 +8088,21 @@ itinerary: [
     day: 1,
     title: "Dehradun – Pantwari – Goat Village – Khatiyan | Drive + Approx. 4–5 Km Trek",
     details:
-      "<strong>• Drive: Approx. 90–100 km from Dehradun to Pantwari, followed by a short drive towards Goat Village | Trek: Approx. 4–5 km | Duration: 3–4 hrs trekking</strong><br>• Your Nag Tibba journey begins early from Dehradun. As the road leaves the city behind, the landscape gradually changes from the plains to the winding mountain roads of the Tehri Garhwal region. The drive towards Pantwari takes you through forested hills, scattered villages and increasingly quieter mountain landscapes.<br><br>• From Pantwari, continue by road towards Goat Village, a small mountain settlement that serves as the approach point for the trek. The drive itself becomes part of the experience as the road narrows and the surroundings become increasingly rural, with terraced slopes and traditional mountain homes appearing along the way.<br><br>• At Goat Village, leave the vehicle behind and begin walking towards Khatiyan. The trail starts gently before gradually gaining altitude, passing through mountain terrain and forested sections. The first part of the walk gives you time to settle into the rhythm of trekking rather than immediately tackling a steep climb.<br><br>• As the trail progresses, the character of the landscape changes. Cultivated slopes and village surroundings gradually give way to quieter forest, with oak and rhododendron becoming more prominent. The trail is mostly a natural mountain path, with uneven sections, stones, roots and occasional loose soil underfoot.<br><br>• The ascent towards Khatiyan is steady. Although there are no technical sections, the continuous uphill walking can feel demanding for anyone unfamiliar with mountain terrain. Maintaining a comfortable pace is more important than trying to cover the distance quickly.<br><br>• Depending on the season, the trail can look completely different. Spring brings fresh vegetation and rhododendron blooms, summer brings greener forests, autumn generally offers clearer mountain weather, while winter can bring cold conditions and patches of snow to the higher sections.<br><br>• Reach Khatiyan by afternoon or evening and settle into the campsite. The surroundings here are considerably quieter than the villages and roads below, giving you the first proper feeling of being inside the Nag Tibba mountain landscape.<br><br>• Spend the evening at camp, enjoy a warm meal and rest for the next day's walk. As darkness settles over the forest, the absence of city lights creates a noticeably different night sky.<br><br>• Overnight camping at Khatiyan."
+      "<strong>Drive: Approx. 90–100 km from Dehradun to Pantwari, followed by a short drive towards Goat Village | Trek: Approx. 4–5 km | Duration: 3–4 Hours</strong><br><br>Your Nag Tibba journey begins early from Dehradun. As the road leaves the city behind, the landscape gradually changes from the plains to the winding mountain roads of the Tehri Garhwal region. The drive passes through forested hills, scattered mountain settlements and terraced slopes, with the surroundings becoming increasingly quiet as you move deeper into the hills.<br><br>From Pantwari, continue by road towards Goat Village, the mountain settlement from where your trekking journey begins. The final stretch of the drive is narrower and more rural, with traditional homes, cultivated slopes and forested hills forming the landscape around you.<br><br>At Goat Village, leave the vehicle behind and begin the trek towards Khatiyan. The trail gradually gains altitude as it moves away from the settlement, initially passing through open mountain terrain before entering quieter forest sections.<br><br>As you climb higher, oak and rhododendron become increasingly prominent. Depending on the season, you may notice very different versions of the same trail—fresh greenery and rhododendron blooms in spring, dense green forest during summer, clearer mountain conditions in autumn and cold, snow-covered sections during winter.<br><br>The trail is a natural mountain path with uneven ground, stones, roots and occasional loose soil. There are no technical sections, but the continuous ascent requires a steady pace, particularly for trekkers who are new to Himalayan terrain.<br><br>Along the way, keep an eye out for Himalayan birds moving through the forest canopy. The quieter sections of the trail may also reveal signs of mountain wildlife, although most animals remain hidden from the trekking trail.<br><br>Continue upwards until you reach Khatiyan, where the forest and mountain surroundings become noticeably more secluded. This is your first overnight camp and the place where the trek begins to feel properly immersed in the Nag Tibba landscape.<br><br>Settle into camp, enjoy a warm meal and rest for the night. If the weather is clear, the open surroundings around camp can offer beautiful evening views and a peaceful mountain sunset.<br><br>Overnight camping at Khatiyan."
   },
 
   {
     day: 2,
-    title: "Khatiyan – Nag Mandir – Khatiyan | Approx. 6–7 Km Trek | 4–5 Hours",
+    title: "Khatiyan – Nag Tibba Base Camp / Nag Mandir | Approx. 5–6 Km | 3–4 Hours",
     details:
-      "<strong>• Trek: Approx. 6–7 km | Duration: 4–5 hrs | Terrain: Forest trail with gradual and moderate uphill sections</strong><br>• After breakfast, begin the day's walk from Khatiyan towards the Nag Mandir. Compared with the previous day's approach, the trail now feels more immersed in the forest, with fewer signs of habitation and longer stretches of natural mountain terrain.<br><br>• The route continues through oak and rhododendron forest, following a gradually rising trail. Some portions are relatively gentle, while others require a more deliberate uphill effort. The surface can include exposed roots, stones, loose soil and uneven ground, making proper footwear important even though the trek is graded easy.<br><br>• As you gain altitude, the forest becomes quieter and the surrounding landscape begins to feel increasingly secluded. During clear weather, occasional openings in the trees provide glimpses of the surrounding ridges and valleys.<br><br>• Continue towards Nag Mandir, an important cultural and spiritual point associated with the Nag Tibba region. The mountain is traditionally connected with the worship of Nag Devta, and the temple gives the trek a cultural dimension beyond the landscape itself.<br><br>• Spend some time around the temple and take in the peaceful surroundings before beginning the return journey. Rather than rushing through this section, this is a good opportunity to appreciate the relationship between the local communities and the mountain landscape they have lived alongside for generations.<br><br>• The return to Khatiyan follows the trail back through the forest. Although the route is largely downhill on the return, uneven ground and loose sections require attention, particularly if the trail is wet or covered with snow.<br><br>• Reach the campsite by afternoon and spend the remainder of the day resting. If the weather is clear, the open areas around camp can provide beautiful evening light over the surrounding mountains and valleys.<br><br>• This relatively relaxed day also allows the body to recover before the summit attempt on the following morning.<br><br>• Overnight camping at Khatiyan."
+      "<strong>Trek: Approx. 5–6 km | Duration: 3–4 Hours | Destination Altitude: Approx. 3,000 m | Terrain: Forest trail with gradual to moderate ascent</strong><br><br>After breakfast, begin the second day's walk from Khatiyan towards Nag Tibba Base Camp, where the Nag Mandir is situated. Today's trail takes you deeper into the Nag Tibba range, with the route gradually gaining elevation through the forest.<br><br>The initial section continues through oak and rhododendron woodland. The forest provides shade during warmer months, while in winter the same trail can become markedly different as snow settles between the trees and along the path.<br><br>As you gain altitude, the trail becomes increasingly quiet and the signs of habitation gradually disappear. The surrounding forest, mountain slopes and occasional openings in the trees create a feeling of moving deeper into the hills rather than simply walking from one campsite to another.<br><br>The ascent is steady rather than technical. Some sections can be steeper and uneven, with exposed roots, stones and loose soil requiring careful footing. During wet weather or winter snowfall, these sections can become slippery, so maintaining a comfortable pace and allowing enough time for the climb is important.<br><br>As you approach the higher reaches of the trail, the vegetation begins to change with elevation. The forest becomes more open in places, and depending on the season you may see flowering rhododendrons, moss-covered sections, mountain grasses and patches of lingering snow.<br><br>The destination for the day is Nag Tibba Base Camp, located near the Nag Mandir. The temple is associated with Nag Devta and holds an important place in the local cultural landscape. For trekkers, reaching this point is also significant because the forest journey of the previous two days has brought you to the immediate base of the summit climb.<br><br>Spend some quiet time around the Nag Mandir and the surrounding mountain landscape. The area has a distinctly peaceful atmosphere, particularly in the evening when the forest becomes quiet and the surrounding ridges begin to fade into the changing light.<br><br>Settle into camp and prepare your belongings for an early start the following morning. Since the summit offers the possibility of a beautiful sunrise, trekkers who wish to reach the top before sunrise should be prepared for an early departure from the base camp.<br><br>Overnight camping at Nag Tibba Base Camp."
   },
 
   {
     day: 3,
-    title: "Khatiyan – Nag Tibba Summit (3,022 m) – Goat Village – Pantwari – Dehradun | Approx. 8–10 Km Trek + Drive",
+    title: "Nag Tibba Base Camp – Nag Tibba Summit (3,022 m) – Goat Village – Pantwari – Dehradun | Approx. 8–10 Km Trek + Drive",
     details:
-      "<strong>• Trek: Approx. 8–10 km | Duration: 5–7 hrs | Highest Point: Approx. 3,022 m | Terrain: Forest trail, steeper summit approach and downhill mountain path</strong><br>• Begin the final day early after breakfast. Today is the summit day and the most rewarding section of the trek, taking you from Khatiyan towards Nag Tibba summit before descending all the way back to Goat Village and continuing by road towards Dehradun.<br><br>• The trail initially continues through the forest, with a steady uphill gradient. The morning hours are particularly peaceful here, and starting early gives you a chance to experience the changing light through the trees as the trail gradually gains height.<br><br>• As you climb towards the higher sections, the forest begins to open at intervals and the terrain becomes more exposed. Depending on the season, the trail may be dry and rocky, damp after rain or covered with snow during winter. Snow can make even familiar sections slower and require careful footing.<br><br>• Continue towards Nag Tibba summit, reaching approximately 3,022 meters above sea level. The summit is the highest point of the Nag Tibba range and marks the culmination of the trek.<br><br>• On a clear day, the summit area opens into a broad Himalayan panorama, with distant mountain ranges rising beyond the surrounding valleys. Take time here to enjoy the landscape rather than treating the summit simply as a point to tick off the itinerary.<br><br>• After spending time at the summit, begin the descent towards Goat Village. Descending requires a different kind of attention from climbing. Loose stones, roots and uneven sections can put additional pressure on the knees, while snow or wet ground can make the trail slippery.<br><br>• Continue steadily downhill until you reach Goat Village. By this point, the forest trail gradually gives way to the familiar signs of the mountain settlement and the roadhead where the vehicle will meet you.<br><br>• After collecting your belongings, begin the drive back towards Pantwari and onward to Dehradun. The return journey gives you a final opportunity to look back at the mountain landscape you have spent the last three days walking through.<br><br>• Reach Dehradun by evening, marking the end of the Nag Tibba Trek."
+      "<strong>Trek: Approx. 8–10 km | Duration: 5–7 Hours | Highest Point: 3,022 m | Terrain: Forest trail, summit ascent and long descent</strong><br><br>The final day begins early, especially for trekkers who want to witness sunrise from Nag Tibba Summit. Leaving before dawn allows you to walk through the quiet forest in the early morning darkness and reach the summit around sunrise, weather and trail conditions permitting.<br><br>From Nag Tibba Base Camp, the trail climbs steadily towards the summit. The ascent becomes more open as you gain height, and the surrounding terrain begins to reveal the scale of the mountain landscape beyond the forest. During winter, this section can hold snow and may require slower, more careful movement.<br><br>Continue climbing towards Nag Tibba Summit, reaching approximately 3,022 metres above sea level. The summit marks the highest point of the Nag Tibba range and provides a broad panoramic viewpoint over the surrounding Garhwal Himalayas.<br><br>If you reach the summit before sunrise and the weather is clear, the experience can be particularly memorable. The eastern sky gradually brightens above the mountain ranges while the surrounding valleys and ridges emerge from the darkness. As daylight increases, distant Himalayan peaks begin to stand out against the horizon.<br><br>On a clear day, Bandarpoonch and Kalanag can be seen from the summit along with a wider panorama of the surrounding Himalayan ranges. Atmospheric conditions determine how clearly these distant peaks appear, but the open summit provides a much broader perspective than the forest sections encountered earlier in the trek.<br><br>Spend some time at the summit to absorb the landscape before beginning the descent. After the summit experience, retrace the same trail back towards Nag Tibba Base Camp and continue downhill through the forest towards Goat Village.<br><br>The descent requires careful footing, particularly on loose stones, roots, wet sections or snow. Although descending generally feels easier on the lungs than climbing, the prolonged downhill walking can place considerable stress on the knees, so a controlled pace is important.<br><br>Continue along the familiar trail until you reach Goat Village, where the trekking section of the journey comes to an end. Board the waiting vehicle and drive back towards Pantwari before continuing onward to Dehradun.<br><br>The return drive offers a final opportunity to watch the mountain landscape gradually change as you descend from the higher Garhwal hills towards Dehradun. Depending on road, weather and traffic conditions, arrival time may vary.<br><br>Reach Dehradun by evening, marking the end of the Nag Tibba Trek."
   }
 ],
 
@@ -8191,13 +8203,31 @@ itinerary: [
   id: "brahmatal-trek",
   name: "Brahmatal Trek",
   tags: ["beginner"],
-  difficulty: ["easy", "moderate"],
-  season: ["winter", "spring"],
-  month: ["december", "january", "february", "march", "april"],
+  difficulty: ["easy"],
+  season: ["winter", "spring", "summer", "autumn"],
+  month: ["december", "january", "february", "march", "april", "may", "june", "october", "november"],
   duration: "4 Nights / 5 Days",
   region: "uttarakhand-garhwal",
-  coordinates: [],
-  waypoints: [],
+  coordinates: [
+    [30.129047399172315, 79.61937070301332], //Lohajung
+    [30.14392529610985, 79.58062488539956], //Bekaltal
+    [30.152234561300105, 79.58210908341698], //Tilandi
+    [30.158705603470942, 79.59375471216494], //Jhandi Top
+    [30.17739620424127, 79.58960648665882], //Brahmatal
+    [30.1853362037439, 79.59154398017222], //Brahmatal Top
+    [30.17739620424127, 79.58960648665882], //Brahmatal
+    [30.158705603470942, 79.59375471216494], //Jhandi Top
+    [30.129047399172315, 79.61937070301332], //Lohajung
+  ],
+  waypoints: [
+  { name: "Lohajung (Start)", coords: [30.129047399172315, 79.61937070301332], type: "start" },
+  { name: "Bekaltal", coords: [30.14392529610985, 79.58062488539956], type: "lake" },
+  { name: "Tilandi", coords: [30.152234561300105, 79.58210908341698], type: "meadow" },
+  { name: "Jhandi Top", coords: [30.158705603470942, 79.59375471216494], type: "viewpoint" },
+  { name: "Brahmatal", coords: [30.17739620424127, 79.58960648665882], type: "lake" },
+  { name: "Brahmatal Top", coords: [30.1853362037439, 79.59154398017222], type: "viewpoint" },
+  { name: "Lohajung", coords: [30.129047399172315, 79.61937070301332], type: "end" },
+],
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135504/IMG_20171227_115942_qdevlw.jpg",
   heroImages: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135504/IMG_20171227_115942_qdevlw.jpg",
@@ -8228,7 +8258,7 @@ itinerary: [
 
       { emoji: "🏔️", label: "Max Altitude", value: "12,250 ft (Brahmatal Top)" },
 
-      { emoji: "⚡", label: "Trek Grade", value: "Easy–Moderate" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
 
       { emoji: "⚡", label: "Trek Distance", value: "~22 Km" },
 
@@ -8271,37 +8301,37 @@ itinerary: [
   ],
 
   itinerary: [
-    {
-      day: 1,
-      title: "Drive to Lohajung | Scenic Mountain Road Journey",
-      details:
-        "Your Brahmatal journey begins with the drive towards Lohajung, the mountain village that serves as the base for the trek. As the road leaves the lower valleys behind, the landscape gradually becomes more mountainous, with winding roads, forested slopes and increasingly dramatic Himalayan surroundings. Lohajung sits at roughly 7,500–7,600 ft and provides the transition from the road journey to the trekking trail. After reaching Lohajung, settle into the accommodation, meet the trekking team and prepare for the first walking day."
-    },
-    {
-      day: 2,
-      title: "Lohajung – Lower Bekaltal | Forest Trail",
-      details:
-        "The trek begins from Lohajung as the trail climbs gradually through dense Himalayan forests. Oak and rhododendron dominate much of this section, creating a cool and shaded walking environment. The route steadily gains altitude as you move deeper into the forest, with occasional openings offering glimpses of the surrounding mountains. The trail eventually reaches the Bekaltal area, where the forest becomes quieter and the landscape feels increasingly remote. Bekaltal is a peaceful high-altitude lake surrounded by forest, making it a natural place to pause and absorb the changing atmosphere of the mountains. Overnight stay at the campsite near Lower Bekaltal."
-    },
-    {
-      day: 3,
-      title: "Lower Bekaltal – Tilandi – Brahmatal | Forest to Open Ridges",
-      details:
-        "Today's trail gradually leaves the dense forest behind and takes you towards the more open terrain of Tilandi. As the elevation increases, the trees become less dominant and wider mountain views begin to appear. The landscape changes from enclosed woodland to open slopes and ridges, giving you a much stronger sense of the Himalayan scale around you. From Tilandi, the route continues towards Brahmatal, with the trail passing through sections that can look dramatically different depending on the season. During winter, accumulated snow can change the character of the trail completely. Brahmatal Lake lies in a high and peaceful setting, surrounded by the mountains and open terrain. After reaching the campsite, spend the evening resting and preparing for the highest section of the trek."
-    },
-    {
-      day: 4,
-      title: "Brahmatal – Brahmatal Top – Lohajung | Summit Ridge & Descent",
-      details:
-        "This is the most demanding and rewarding day of the trek. The trail climbs from Brahmatal towards Brahmatal Top, reaching approximately 12,250 ft at its highest point. The ascent takes you through increasingly open terrain, and the views become broader with every step. From the top, the Himalayan panorama opens dramatically, with prominent peaks such as Trishul and Nanda Ghunti forming the major backdrop. After spending time at the high point, begin the descent towards Lohajung. The return journey brings you back through changing terrain and lower elevations, eventually reconnecting with the forested landscape around the base village. Overnight stay at Lohajung."
-    },
-    {
-      day: 5,
-      title: "Departure from Lohajung",
-      details:
-        "After breakfast, bid farewell to Lohajung and begin your return journey. The drive takes you back through the mountain valleys towards the plains, marking the end of your Brahmatal Trek. Depending on road, weather and traffic conditions, arrival time may vary, so onward travel should be planned with sufficient flexibility."
-    }
-  ],
+  {
+    day: 1,
+    title: "Drive to Lohajung (7,550 ft) | ~270 Km | 10–11 Hours",
+    details:
+      "The Brahmatal journey begins with a long and beautiful mountain drive from Rishikesh to Lohajung. The road gradually leaves the plains behind and follows the Alaknanda valley towards the higher Garhwal mountains. One of the first major landmarks is Devprayag, where the Bhagirathi and Alaknanda meet and continue downstream as the Ganga. The road then continues towards Srinagar and Rudraprayag, where the Alaknanda meets the Mandakini, before reaching Karnaprayag, the confluence of the Alaknanda and Pindar rivers. These river valleys provide natural places for short breaks and lunch during the long drive, with Karnaprayag and the surrounding towns being practical points to stop for a proper meal and refreshments. Beyond Karnaprayag, the road becomes progressively narrower and more mountainous as it turns towards Tharali, Debal and Mundoli before finally reaching Lohajung. The last stretch passes through increasingly forested mountain terrain and gives you your first real sense of the remote landscape into which the trek will lead. Lohajung, situated at around 7,550 ft, is surrounded by a cluster of mountain villages and is an important trekking base for the Brahmatal and other trails of this region. If you arrive before sunset and the weather is clear, Nanda Ghunti can make a striking first appearance from Lohajung. After checking in, meet the trekking team, complete your briefing and rest for the night before entering the forest the following morning."
+  },
+  {
+    day: 2,
+    title: "Lohajung (7,550 ft) – Lower Bekaltal (9,180 ft) | ~6 Km | 5–6 Hours",
+    details:
+      "The trek begins from Lohajung and initially passes through the upper part of the village before gradually leaving habitation behind. The trail climbs through oak and rhododendron forests, with occasional openings providing views back towards the surrounding valleys and mountain villages. Early sections pass near Mandoli and the Budla settlement, after which the forest becomes increasingly dominant. Along the route you can notice the network of water pipes that supplies the villages, small mountain streams and traditional shepherd paths that connect the settlements scattered across these slopes. A stream crossing near Link-gaad provides a natural resting point before the trail continues towards Begum, where trekkers can pause and look across towards the surrounding bugyals and valleys. As you gain altitude, the character of the forest changes, with old oak trees and rhododendrons forming a dense canopy. In spring, the rhododendrons can add vivid colour to sections of the trail. Keep an eye and ear open for Himalayan birds such as woodpeckers, owlets and redstarts, while signs of larger forest animals such as barking deer may occasionally be noticed even when the animals themselves remain hidden. The trail eventually reaches the forest clearing around Khopdalia, from where Bekaltal lies a short climb away. Bekaltal is one of the most distinctive features of this part of the trek: a high-altitude lake enclosed by dense oak forest, with its dark water contrasting sharply with the open alpine lake landscape you will encounter later. The campsite around Lower Bekaltal provides a quiet forest setting for the night. In winter, snow can completely transform this section, covering the forest floor and changing the appearance of the lake and surrounding trails."
+  },
+  {
+    day: 3,
+    title: "Lower Bekaltal (9,180 ft) – Tilandi (10,495 ft) – Brahmatal (10,190 ft) | ~6 Km | 5–7 Hours",
+    details:
+      "This is the day when the Brahmatal landscape changes dramatically. The trail initially climbs through the forest from the Bekaltal area, passing through a particularly beautiful section of rhododendron and oak woodland. As you gain height, the trees gradually become less dominant and the trail eventually emerges onto open meadows and high ridges. The transition is striking: after spending the previous day largely beneath a forest canopy, the sky suddenly opens above you and the surrounding Himalayan ranges become visible. Tilandi is reached on this open ridge, with the valleys dropping away on either side and the famous Ali and Bedni Bugyals of the wider Roopkund trekking region visible across the mountains. This is an excellent place to pause, especially in clear weather, because the panorama begins to reveal the scale of the surrounding Garhwal Himalayas. Trishul and Nanda Ghunti appear particularly imposing from this section, while distant peaks may become visible depending on atmospheric conditions. From Tilandi, the route continues across the high ridge towards Brahmatal. The terrain repeatedly rises and falls, so although the day's distance is not exceptionally long, the combination of altitude, exposed sections and undulating terrain makes it important to maintain a steady pace. There are fewer opportunities for water compared with the lower forest sections, so trekkers should begin the day adequately hydrated and carry sufficient water. During winter, this entire ridge can become snow-covered and the trail may require careful route-finding. In spring, the retreating snow can coincide with rhododendron flowering in the lower forest sections, creating a striking contrast between colourful forests and lingering snow higher up. By the end of the day, Brahmatal appears in a much more open alpine setting than Bekaltal. The lake is associated with Lord Brahma in local tradition, and the surrounding landscape provides a completely different atmosphere from the forest-enclosed lake of the previous night. Overnight stay near Brahmatal."
+  },
+  {
+    day: 4,
+    title: "Brahmatal (10,190 ft) – Brahmatal Top (12,250 ft) – Lohajung (7,550 ft) | ~14 Km | 7–8 Hours",
+    details:
+      "This is the longest and most demanding trekking day of the itinerary, combining the highest climb of the trek with a long descent back to Lohajung. The morning begins from the Brahmatal area and climbs towards the high ridge leading to Brahmatal Top. The landscape becomes increasingly open as you gain height, with sparse vegetation and broad views replacing the sheltered forest environment of the lower trail. The ridge sections provide some of the finest mountain views of the entire journey. Trishul and Nanda Ghunti dominate the panorama, while on exceptionally clear days the wider Himalayan skyline can reveal peaks such as Chaukhamba, Neelkanth and other distant ranges. The trail reaches its highest point at Brahmatal Top, around 12,250 ft, where the surrounding ridges and valleys can be seen from a dramatically different perspective. After spending time at the high point, the route begins its long descent towards Lohajung. The first part of the descent remains relatively open, but after losing altitude the trail gradually returns to the treeline. Oak forests become increasingly prominent again, providing welcome shade and shelter from the exposed ridge. Khorurai, a forest clearing associated with oak vegetation, provides a natural place to rest before continuing downhill. Further along, the trail passes through rhododendron forest and crosses mountain streams before eventually reaching shepherd huts, locally used as temporary shelters for livestock. These traditional grazing structures are a reminder that this trail is not simply a trekking route but part of a living mountain landscape used by local communities. As the descent continues, the familiar surroundings of Lohajung gradually return. The day ends back at the base village, completing the high-altitude section of the Brahmatal journey."
+  },
+  {
+    day: 5,
+    title: "Departure from Lohajung (7,550 ft) | Drive ~270 Km",
+    details:
+      "After breakfast, begin the return drive from Lohajung towards the plains. The route retraces the mountain road through Mundoli, Debal, Tharali and Karnaprayag before continuing through the Alaknanda valley towards Rudraprayag, Srinagar and Devprayag. The journey provides a final opportunity to appreciate how dramatically the landscape changes in a single day—from the high mountain forests around Lohajung, through deep river valleys and forested Himalayan slopes, and eventually towards the lower elevations around Rishikesh. Karnaprayag and Rudraprayag are practical places for a meal or refreshment break depending on the group's travel schedule, while Devprayag offers a memorable final landmark as the Bhagirathi and Alaknanda meet. The drive is long and mountain-road conditions can affect arrival time, so onward travel should be planned with adequate flexibility. By the time you reach Rishikesh, the forests, lakes and high ridges of Brahmatal will feel distinctly distant—but the gradual journey back through the same valleys gives the trek a natural closing chapter."
+  }
+],
 
   didYouKnow: [
     "Brahmatal is named after the Hindu deity Brahma, and the lake is associated with local religious traditions.",
