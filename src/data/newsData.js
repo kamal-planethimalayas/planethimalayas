@@ -39,7 +39,7 @@ export const news = [
 },
 
 {
-  title: "CONFIRMED DEPARTURE DATES AUG-SEP",
+  title: "CONFIRMED DEPARTURE DATES SEP-OCT",
   type: "news",
   head: "Trek%20Updates", 
   thumbnail: "/images/main/brand-logo-news.png", // 👈 put IMD logo here
@@ -47,7 +47,7 @@ export const news = [
   `
 <ul>
   <li>• (27 Sep - 03 Sep); (04 Oct - 10 Oct): Gaumukh Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (28 Sep - 02 Aug): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (28 Sep - 02 Oct): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (18 Oct - 23 Oct): Dodital & Darwa Pass Trek. <strong><a href="/trek/dodital-darwa-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (17 Oct - 26 Oct): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>

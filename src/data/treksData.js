@@ -492,8 +492,8 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   {
   "id": "winter-markha-valley-trek",
   "name": "Winter Markha Valley Trek",
-  "tags": ["intermediate", "pro", "teahouse"],
-  "difficulty": ["moderate", "difficult"],
+  "tags": ["intermediate"],
+  "difficulty": ["moderate"],
   "season": ["winter"],
   "month": ["january", "february", "march"],
   "region": "ladakh",
@@ -1603,17 +1603,17 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 6",
 
     dates: [
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  //{ label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
    ],
 
-   confirmedDepartures: [
-  {
-    date: "2026-09-26",
-    showOnHomepage: true,
-    seatsLeft: 6,
-    status: "upcoming"
-  }
-],
+   //confirmedDepartures: [
+  //{
+    //date: "2026-09-26",
+    //showOnHomepage: true,
+    //seatsLeft: 6,
+    //status: "upcoming"
+  //}
+//],
    
     highlights: [
       "Stunning crossover from the green Kinnaur to the arid Spiti Valley",
@@ -7978,6 +7978,407 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
     }
   ],
 },
+
+  faqsLink: "/faqs-and-articles",
+},
+
+{
+  id: "nag-tibba-trek",
+  name: "Nag Tibba Trek",
+  tags: ["beginner"],
+  difficulty: ["easy"],
+  season: ["winter", "spring", "summer", "autumn"],
+  month: [
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "september",
+    "october",
+    "november",
+    "december"
+  ],
+  duration: "2 Night / 3 Days",
+  region: "uttarakhand-garhwal",
+
+  coordinates: [
+    // ADD YOUR VERIFIED NAG TIBBA ROUTE COORDINATES HERE
+  ],
+
+  waypoints: [
+    // ADD YOUR VERIFIED NAG TIBBA WAYPOINTS HERE
+  ],
+
+  // ADD YOUR VERIFIED CLOUDINARY HERO IMAGE URL HERE
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1790139494/BloomingRhododendronForest_1432206825_NQvgOC_x8gae5.avif",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790139494/BloomingRhododendronForest_1432206825_NQvgOC_x8gae5.avif"
+  ],
+
+  subtitle: "A Short Himalayan Trek to the Serpent's Summit",
+
+  seo: {
+    title: "Nag Tibba Trek | Itinerary, Cost, Best Time & Complete Guide | Planethimalayas",
+    description:
+      "Nag Tibba Trek is a short beginner-friendly Himalayan trek in Uttarakhand offering forest trails, mountain views and possible winter snow. Explore the complete itinerary, distance, altitude, cost, best time, route and trekking details with Planethimalayas."
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "2 Night / 3 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy" },
+      { emoji: "🏔️", label: "Max Altitude", value: "Approx. 3,022 m" },
+      { emoji: "⚡", label: "Trek Distance", value: "Approx. 15–16 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "October–April for winter conditions; year-round depending on weather" },
+      { emoji: "🗺️", label: "Region", value: "Tehri Garhwal, Uttarakhand" },
+      { emoji: "📍", label: "Start Point", value: "Pantwari Village" },
+      { emoji: "🏁", label: "End Point", value: "Pantwari Village" },
+      { emoji: "🧥", label: "Cloakroom facility", value: "Not available" }
+    ],
+
+    snippet:
+      "There are Himalayan treks where the mountains reveal themselves only after days of walking, and then there are places like Nag Tibba, where a surprisingly short journey can take you from a quiet mountain village into a landscape that feels distinctly alpine.<br><br>The trek begins near Pantwari, where the road gives way to a footpath and the surroundings gradually become quieter. The initial trail moves through village terrain before entering forests, and the character of the walk changes as the path begins climbing steadily through oak and rhododendron vegetation. You are never far from the feeling of being in the middle of the mountains, yet the route remains accessible enough to make it an appealing first Himalayan trek.<br><br>As the trail gains height, the forest becomes the main companion. Sections of the route are shaded, while occasional openings allow the surrounding ridges and distant Himalayan ranges to appear between the trees. The climb is steady rather than technical, but the altitude gain over a relatively short distance means the final sections can still feel demanding for someone unused to uphill walking.<br><br>At the higher campsite, the atmosphere changes again. The sounds of the village disappear, the forest becomes quieter, and evening in the mountains begins to feel much larger than the short distance you have travelled might suggest. On clear nights, the sky can become one of the most memorable parts of the experience.<br><br>The summit day is short in distance but rewarding in character. The trail continues upward through forest and open sections before reaching Nag Tibba, the highest point of the trek at roughly 3,000 meters. From the summit area, clear weather can reveal broad views towards several Himalayan ranges and surrounding valleys.<br><br>Winter gives Nag Tibba another personality. After snowfall, the same forest trail can become a white mountain path, with snow accumulating around the campsite and higher sections. But winter here should not be treated as a guaranteed snow experience. The amount and persistence of snow depend on the season, recent weather and temperatures.<br><br>That balance is what makes Nag Tibba special. It is short enough for a weekend, high enough to feel genuinely Himalayan, and varied enough to introduce a first-time trekker to forests, altitude, cold weather, mountain camps and changing terrain without requiring a long expedition.",},
+
+  // ADD YOUR VERIFIED CURRENT PLANETHIMALAYAS PRICE
+  price: 5900,
+  priceNote: "* Pantwari to Pantwari",
+
+  addons: {
+    // ADD ONLY IF CURRENTLY OFFERED BY PLANETHIMALAYAS
+    transport: 3000,
+    transportNote: "* Dehradun to Dehradun",
+    offloadingbag: 1000,
+    offloadingNote: "* Maximum weight </= 9kgs",
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided during the trek from Day1 Lunch to Day3 Lunch",
+
+  dates: [
+    // ADD VERIFIED CURRENT DEPARTURE DATES HERE
+  ],
+
+  highlights: [
+    "Short Himalayan trek that fits comfortably into a weekend itinerary",
+    "Walk through oak and rhododendron forests on the approach to the summit",
+    "Reach Nag Tibba, one of the highest points of the Nag Tibba range",
+    "Panoramic mountain views from the summit area on clear days",
+    "Possibility of snow-covered trails during suitable winter conditions",
+    "Peaceful mountain camping away from the bustle of nearby hill towns",
+    "An approachable introduction to Himalayan trekking for beginners"
+  ],
+
+itinerary: [
+  {
+    day: 1,
+    title: "Dehradun – Pantwari – Goat Village – Khatiyan | Drive + Approx. 4–5 Km Trek",
+    details:
+      "<strong>• Drive: Approx. 90–100 km from Dehradun to Pantwari, followed by a short drive towards Goat Village | Trek: Approx. 4–5 km | Duration: 3–4 hrs trekking</strong><br>• Your Nag Tibba journey begins early from Dehradun. As the road leaves the city behind, the landscape gradually changes from the plains to the winding mountain roads of the Tehri Garhwal region. The drive towards Pantwari takes you through forested hills, scattered villages and increasingly quieter mountain landscapes.<br><br>• From Pantwari, continue by road towards Goat Village, a small mountain settlement that serves as the approach point for the trek. The drive itself becomes part of the experience as the road narrows and the surroundings become increasingly rural, with terraced slopes and traditional mountain homes appearing along the way.<br><br>• At Goat Village, leave the vehicle behind and begin walking towards Khatiyan. The trail starts gently before gradually gaining altitude, passing through mountain terrain and forested sections. The first part of the walk gives you time to settle into the rhythm of trekking rather than immediately tackling a steep climb.<br><br>• As the trail progresses, the character of the landscape changes. Cultivated slopes and village surroundings gradually give way to quieter forest, with oak and rhododendron becoming more prominent. The trail is mostly a natural mountain path, with uneven sections, stones, roots and occasional loose soil underfoot.<br><br>• The ascent towards Khatiyan is steady. Although there are no technical sections, the continuous uphill walking can feel demanding for anyone unfamiliar with mountain terrain. Maintaining a comfortable pace is more important than trying to cover the distance quickly.<br><br>• Depending on the season, the trail can look completely different. Spring brings fresh vegetation and rhododendron blooms, summer brings greener forests, autumn generally offers clearer mountain weather, while winter can bring cold conditions and patches of snow to the higher sections.<br><br>• Reach Khatiyan by afternoon or evening and settle into the campsite. The surroundings here are considerably quieter than the villages and roads below, giving you the first proper feeling of being inside the Nag Tibba mountain landscape.<br><br>• Spend the evening at camp, enjoy a warm meal and rest for the next day's walk. As darkness settles over the forest, the absence of city lights creates a noticeably different night sky.<br><br>• Overnight camping at Khatiyan."
+  },
+
+  {
+    day: 2,
+    title: "Khatiyan – Nag Mandir – Khatiyan | Approx. 6–7 Km Trek | 4–5 Hours",
+    details:
+      "<strong>• Trek: Approx. 6–7 km | Duration: 4–5 hrs | Terrain: Forest trail with gradual and moderate uphill sections</strong><br>• After breakfast, begin the day's walk from Khatiyan towards the Nag Mandir. Compared with the previous day's approach, the trail now feels more immersed in the forest, with fewer signs of habitation and longer stretches of natural mountain terrain.<br><br>• The route continues through oak and rhododendron forest, following a gradually rising trail. Some portions are relatively gentle, while others require a more deliberate uphill effort. The surface can include exposed roots, stones, loose soil and uneven ground, making proper footwear important even though the trek is graded easy.<br><br>• As you gain altitude, the forest becomes quieter and the surrounding landscape begins to feel increasingly secluded. During clear weather, occasional openings in the trees provide glimpses of the surrounding ridges and valleys.<br><br>• Continue towards Nag Mandir, an important cultural and spiritual point associated with the Nag Tibba region. The mountain is traditionally connected with the worship of Nag Devta, and the temple gives the trek a cultural dimension beyond the landscape itself.<br><br>• Spend some time around the temple and take in the peaceful surroundings before beginning the return journey. Rather than rushing through this section, this is a good opportunity to appreciate the relationship between the local communities and the mountain landscape they have lived alongside for generations.<br><br>• The return to Khatiyan follows the trail back through the forest. Although the route is largely downhill on the return, uneven ground and loose sections require attention, particularly if the trail is wet or covered with snow.<br><br>• Reach the campsite by afternoon and spend the remainder of the day resting. If the weather is clear, the open areas around camp can provide beautiful evening light over the surrounding mountains and valleys.<br><br>• This relatively relaxed day also allows the body to recover before the summit attempt on the following morning.<br><br>• Overnight camping at Khatiyan."
+  },
+
+  {
+    day: 3,
+    title: "Khatiyan – Nag Tibba Summit (3,022 m) – Goat Village – Pantwari – Dehradun | Approx. 8–10 Km Trek + Drive",
+    details:
+      "<strong>• Trek: Approx. 8–10 km | Duration: 5–7 hrs | Highest Point: Approx. 3,022 m | Terrain: Forest trail, steeper summit approach and downhill mountain path</strong><br>• Begin the final day early after breakfast. Today is the summit day and the most rewarding section of the trek, taking you from Khatiyan towards Nag Tibba summit before descending all the way back to Goat Village and continuing by road towards Dehradun.<br><br>• The trail initially continues through the forest, with a steady uphill gradient. The morning hours are particularly peaceful here, and starting early gives you a chance to experience the changing light through the trees as the trail gradually gains height.<br><br>• As you climb towards the higher sections, the forest begins to open at intervals and the terrain becomes more exposed. Depending on the season, the trail may be dry and rocky, damp after rain or covered with snow during winter. Snow can make even familiar sections slower and require careful footing.<br><br>• Continue towards Nag Tibba summit, reaching approximately 3,022 meters above sea level. The summit is the highest point of the Nag Tibba range and marks the culmination of the trek.<br><br>• On a clear day, the summit area opens into a broad Himalayan panorama, with distant mountain ranges rising beyond the surrounding valleys. Take time here to enjoy the landscape rather than treating the summit simply as a point to tick off the itinerary.<br><br>• After spending time at the summit, begin the descent towards Goat Village. Descending requires a different kind of attention from climbing. Loose stones, roots and uneven sections can put additional pressure on the knees, while snow or wet ground can make the trail slippery.<br><br>• Continue steadily downhill until you reach Goat Village. By this point, the forest trail gradually gives way to the familiar signs of the mountain settlement and the roadhead where the vehicle will meet you.<br><br>• After collecting your belongings, begin the drive back towards Pantwari and onward to Dehradun. The return journey gives you a final opportunity to look back at the mountain landscape you have spent the last three days walking through.<br><br>• Reach Dehradun by evening, marking the end of the Nag Tibba Trek."
+  }
+],
+
+  didYouKnow: [
+    "The name Nag Tibba is associated with the local worship of Nag Devta, or the serpent deity. A small Nag Devta temple in the region reflects the continuing religious importance of the mountain landscape to local communities.",
+
+    "Nag Tibba is not simply the name of a summit. It refers to a mountain range in the Garhwal Himalayas, with Nag Tibba summit forming the highest point of the range at roughly 3,022 meters.",
+
+    "The Nag Tibba range forms part of the watershed landscape between several important river systems of the Garhwal region. Its position makes the mountain an interesting geographical divide even though the trek itself is relatively short.",
+
+    "The forest around Nag Tibba contains Himalayan oak and rhododendron, creating an important mid-altitude habitat between cultivated mountain settlements and higher alpine environments.",
+
+    "Rhododendrons become especially noticeable in spring. Their flowering changes the character of sections of the forest and provides a sharp contrast to the winter landscape, when the same trail can be quiet and snow-covered.",
+
+    "Nag Tibba's relatively modest summit elevation can be deceptive. Because the route gains altitude fairly quickly from the surrounding villages, the final climb can feel considerably more strenuous than its overall distance suggests.",
+
+    "The summit's open surroundings make it possible to appreciate the scale of the Garhwal Himalayas from a comparatively short trek, which is one reason Nag Tibba has become popular among people looking for their first Himalayan trekking experience.",
+
+    "Winter conditions on Nag Tibba are highly dependent on the snowfall pattern of a particular year. A winter departure can range from a cold forest trek with little snow to a substantially snow-covered trail after a strong snowfall event.",
+
+    "The trail's proximity to Dehradun and Mussoorie has helped make Nag Tibba one of the more accessible Himalayan trekking options in the region, allowing trekkers to move from an urban setting into a forested mountain environment within a relatively short journey.",
+
+    "The mountain landscape around Nag Tibba is also connected with the everyday life of nearby Garhwali villages, where agriculture, livestock and seasonal movement through the surrounding forests have historically been part of local livelihoods."
+  ],
+
+  howToReach: {
+    air: "Nearest airport: Jolly Grant Airport, Dehradun. From the airport, travel by road towards Pantwari.",
+    train: "Nearest railway station: Dehradun. From Dehradun, continue by road towards Pantwari.",
+    road: "Drive from Dehradun towards Pantwari via the Mussoorie–Thatyur side of the Garhwal hills. The final approach is through mountain roads and village settlements.",
+    travelTip: "Reach Dehradun early enough to allow a comfortable onward journey to Pantwari. Mountain-road travel can take longer than expected, so avoid planning the approach around a very tight schedule."
+  },
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790139494/BloomingRhododendronForest_1432206825_NQvgOC_x8gae5.avif",
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "Is Nag Tibba suitable for beginners?",
+        answer:
+          "Yes. Nag Tibba is generally considered an accessible Himalayan trek for beginners because of its short duration and non-technical trail. However, the route still involves sustained uphill walking and should not be treated as a casual walk, particularly in cold or snowy conditions."
+      },
+      {
+        question: "Can I do the Nag Tibba Trek in winter?",
+        answer:
+          "Yes. Nag Tibba can be trekked in winter and may receive snowfall, particularly during colder periods. However, snow is weather-dependent and should not be guaranteed for every winter departure. Trail conditions can change considerably after fresh snowfall."
+      },
+      {
+        question: "How difficult is the Nag Tibba Trek?",
+        answer:
+          "Nag Tibba is generally graded Easy, but the ascent is continuous and the route gains altitude relatively quickly. Beginners with basic fitness can undertake it with proper pacing, suitable footwear and appropriate preparation for the season."
+      },
+      {
+        question: "What is the highest altitude of Nag Tibba?",
+        answer:
+          "Nag Tibba summit is approximately 3,022 meters above sea level. Despite being below many of Uttarakhand's major high-altitude trekking destinations, the elevation is enough for the weather and physical effort to feel distinctly Himalayan."
+      },
+      {
+        question: "How much distance do you trek on Nag Tibba?",
+        answer:
+          "The complete trekking distance is approximately 15–16 km, depending on the exact route and campsite used. The walking is spread across the ascent to the campsite, summit section and descent back towards Pantwari."
+      },
+      {
+        question: "Is there snow on Nag Tibba in winter?",
+        answer:
+          "Snow is possible during winter, especially after fresh snowfall, but it is not guaranteed throughout the season. Snow depth and persistence depend on the snowfall received that year, recent temperatures and the exact trail conditions at the time of the trek."
+      },
+      {
+        question: "What kind of terrain is found on the Nag Tibba Trek?",
+        answer:
+          "The route mainly consists of village paths, forest trails, steady uphill sections, exposed roots, stones and occasional loose or muddy ground. During winter, snow and icy patches can alter the character of the trail and require more careful footing."
+      },
+      {
+        question: "What can I see from Nag Tibba?",
+        answer:
+          "On clear days, the higher sections and summit provide broad views across the surrounding Garhwal mountains and distant Himalayan ranges. Visibility depends heavily on weather, season and atmospheric conditions."
+      },
+      {
+        question: "Is Nag Tibba a good first Himalayan trek?",
+        answer:
+          "It can be a good introduction to Himalayan trekking for people with basic fitness who want to experience forest trails, mountain camping, altitude gain and changing weather without committing to a long multi-day expedition."
+      },
+      {
+        question: "What is special about the Nag Tibba region?",
+        answer:
+          "Beyond the trek itself, the region combines Himalayan forests, Garhwali villages, local religious traditions and a mountain environment that remains relatively close to Dehradun and Mussoorie. The association of the mountain with Nag Devta is also an important part of its local cultural character."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
+},
+
+{
+  id: "brahmatal-trek",
+  name: "Brahmatal Trek",
+  tags: ["beginner"],
+  difficulty: ["easy", "moderate"],
+  season: ["winter", "spring"],
+  month: ["december", "january", "february", "march", "april"],
+  duration: "4 Nights / 5 Days",
+  region: "uttarakhand-garhwal",
+  coordinates: [],
+  waypoints: [],
+  heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135504/IMG_20171227_115942_qdevlw.jpg",
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135504/IMG_20171227_115942_qdevlw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135518/IMG_20171225_172221_akkk4h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135601/IMG_20171226_155700_mpel6l.jpg",
+  ],
+  subtitle: "From Brahma’s Lake to the Shadow of Trishul",
+  seo: {
+    title: "Brahmatal Trek | Winter Trek in Uttarakhand | Planethimalayas",
+    description:
+      "Explore the Brahmatal Trek in Uttarakhand through oak and rhododendron forests, high-altitude lakes, open ridges and panoramic Himalayan views. A scenic Easy–Moderate trek reaching 12,250 ft.",
+    keywords: [
+      "Brahmatal Trek",
+      "Brahmatal Trek Uttarakhand",
+      "Brahmatal Winter Trek",
+      "Brahmatal Trek itinerary",
+      "Brahmatal Trek distance",
+      "Brahmatal Trek altitude",
+      "Brahmatal Trek from Lohajung",
+      "Brahmatal Trek snow",
+      "Brahmatal Trek Planethimalayas"
+    ]
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
+
+      { emoji: "🏔️", label: "Max Altitude", value: "12,250 ft (Brahmatal Top)" },
+
+      { emoji: "⚡", label: "Trek Grade", value: "Easy–Moderate" },
+
+      { emoji: "⚡", label: "Trek Distance", value: "~22 Km" },
+
+      { emoji: "🌤️", label: "Best Time", value: "December-April" },
+
+      { emoji: "🗺️", label: "Region", value: "Chamoli district, Uttarakhand" },
+
+      { emoji: "📍", label: "Start Point", value: "Lohajung" },
+
+      { emoji: "🏁", label: "End Point", value: "Lohajung" },
+
+      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+    ],
+    snippet: "The Brahmatal journey begins long before your boots touch the trail. From Rishikesh, the road winds deep into the Garhwal Himalayas, passing through Devprayag, Rudraprayag and Karnaprayag as rivers, valleys and mountain slopes gradually replace the plains. It is a long drive to Lohajung, but one that feels like part of the trek itself; with every bend the mountains draw closer, and by the time you reach Lohajung, the first views of Nanda Ghunti and Trishul make it clear that you have entered a very different world. Lohajung, perched at around 7,500 ft and surrounded by mountain villages, forests and old trails leading deeper into the high country, becomes your gateway to Brahmatal and the wider Roopkund landscape. From here, the trail leaves the settlements behind and enters dense oak and rhododendron forests, where the mountains often disappear from view and the journey becomes quieter and more intimate. Deeper inside the forest lies Bekaltal, a secluded high-altitude lake whose setting is completely different from the open landscape you encounter later. From Bekaltal, the trail climbs towards Tilandi, and this is where Brahmatal begins to reveal its true scale. The forest gradually gives way to open ridges and meadows, and suddenly the horizon expands—Trishul and Nanda Ghunti appear so close and immense that they seem almost within reach, while the wider Garhwal panorama opens around you. The route continues across these high ridges towards Brahmatal, a lake associated in local tradition with Lord Brahma, and eventually reaches Brahmatal Top at around 12,250 ft, where the surrounding mountains seem to rise from every direction, with Trishul, Nanda Ghunti, Chaukhamba and other great Himalayan peaks forming an extraordinary mountain amphitheatre. What makes Brahmatal even more remarkable is that this is not a trek with only one season to experience. From late September and autumn, the post-monsoon air can bring exceptionally clear mountain views, golden grasslands and dramatic sunsets over the ridges; winter gradually transforms the trail into a world of snow, with white forests, snow-covered campsites and, when conditions allow, frozen lakes; early spring brings another transformation as the winter snow begins retreating while rhododendrons burst into bloom across the lower and middle sections of the trail, sometimes allowing you to experience flowers and lingering snow on the same journey. The landscape therefore keeps changing with the calendar, even though the trail remains essentially the same. Brahmatal is ultimately a journey of contrasts—an absorbing mountain drive to a remote Himalayan village, silent forests and a hidden lake, exposed ridges beneath enormous peaks, a sacred high-altitude lake and a summit ridge above 12,000 ft, followed by a descent that slowly brings you back from the high mountains to Lohajung. That progression, and the fact that Brahmatal can feel like a different trek in autumn, winter and spring, is what gives this relatively compact Himalayan journey its enduring character."
+  },
+
+  price: 10400,
+  priceNote: "Lohajung to Lohajung",
+  addons: {
+    transport: 6000,
+    transportNote: " * Rishikesh/Haridwar to Rishikesh/Haridwar ",
+    offloadingbag: 2000,
+    offloadingNote: " *Maximum weight </= 9kgs "
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided throughout the trek from Day 1 dinner to day 4 dinner",
+
+  dates: [],
+
+  highlights: [
+    "Reach Brahmatal Top at approximately 12,250 ft with expansive Himalayan views",
+    "Trek through beautiful oak and rhododendron forests around Lohajung and Bekaltal",
+    "Experience two contrasting high-altitude lakes — Bekaltal and Brahmatal",
+    "Walk across open mountain ridges around Tilandi with changing Himalayan landscapes",
+    "Experience the special character of the trail during the winter snow season",
+    "Enjoy striking views of major Garhwal peaks including Trishul and Nanda Ghunti",
+    "A compact high-altitude trek combining forests, lakes, ridges and panoramic mountain views",
+    "Well suited to trekkers looking for their first substantial Himalayan winter experience"
+  ],
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Drive to Lohajung | Scenic Mountain Road Journey",
+      details:
+        "Your Brahmatal journey begins with the drive towards Lohajung, the mountain village that serves as the base for the trek. As the road leaves the lower valleys behind, the landscape gradually becomes more mountainous, with winding roads, forested slopes and increasingly dramatic Himalayan surroundings. Lohajung sits at roughly 7,500–7,600 ft and provides the transition from the road journey to the trekking trail. After reaching Lohajung, settle into the accommodation, meet the trekking team and prepare for the first walking day."
+    },
+    {
+      day: 2,
+      title: "Lohajung – Lower Bekaltal | Forest Trail",
+      details:
+        "The trek begins from Lohajung as the trail climbs gradually through dense Himalayan forests. Oak and rhododendron dominate much of this section, creating a cool and shaded walking environment. The route steadily gains altitude as you move deeper into the forest, with occasional openings offering glimpses of the surrounding mountains. The trail eventually reaches the Bekaltal area, where the forest becomes quieter and the landscape feels increasingly remote. Bekaltal is a peaceful high-altitude lake surrounded by forest, making it a natural place to pause and absorb the changing atmosphere of the mountains. Overnight stay at the campsite near Lower Bekaltal."
+    },
+    {
+      day: 3,
+      title: "Lower Bekaltal – Tilandi – Brahmatal | Forest to Open Ridges",
+      details:
+        "Today's trail gradually leaves the dense forest behind and takes you towards the more open terrain of Tilandi. As the elevation increases, the trees become less dominant and wider mountain views begin to appear. The landscape changes from enclosed woodland to open slopes and ridges, giving you a much stronger sense of the Himalayan scale around you. From Tilandi, the route continues towards Brahmatal, with the trail passing through sections that can look dramatically different depending on the season. During winter, accumulated snow can change the character of the trail completely. Brahmatal Lake lies in a high and peaceful setting, surrounded by the mountains and open terrain. After reaching the campsite, spend the evening resting and preparing for the highest section of the trek."
+    },
+    {
+      day: 4,
+      title: "Brahmatal – Brahmatal Top – Lohajung | Summit Ridge & Descent",
+      details:
+        "This is the most demanding and rewarding day of the trek. The trail climbs from Brahmatal towards Brahmatal Top, reaching approximately 12,250 ft at its highest point. The ascent takes you through increasingly open terrain, and the views become broader with every step. From the top, the Himalayan panorama opens dramatically, with prominent peaks such as Trishul and Nanda Ghunti forming the major backdrop. After spending time at the high point, begin the descent towards Lohajung. The return journey brings you back through changing terrain and lower elevations, eventually reconnecting with the forested landscape around the base village. Overnight stay at Lohajung."
+    },
+    {
+      day: 5,
+      title: "Departure from Lohajung",
+      details:
+        "After breakfast, bid farewell to Lohajung and begin your return journey. The drive takes you back through the mountain valleys towards the plains, marking the end of your Brahmatal Trek. Depending on road, weather and traffic conditions, arrival time may vary, so onward travel should be planned with sufficient flexibility."
+    }
+  ],
+
+  didYouKnow: [
+    "Brahmatal is named after the Hindu deity Brahma, and the lake is associated with local religious traditions.",
+    "The Brahmatal route is connected to the wider trekking landscape around the Roopkund region, with several ridges and trails sharing the same mountain system.",
+    "Bekaltal and Brahmatal are two distinctly different high-altitude lake environments encountered during the journey.",
+    "The same trail can look dramatically different between winter and the warmer months because snow cover changes the appearance and difficulty of several sections.",
+    "Brahmatal Top rises to around 12,250 ft, making the ridge section one of the defining high points of this relatively short trek.",
+    "The forest sections around Lohajung and Bekaltal are characterised by Himalayan oak and rhododendron vegetation."
+  ],
+
+  howToReach: {
+  air: "Nearest airport is Jolly Grant Airport, Dehradun (approx. 270 km from Wan)",
+  train: "Nearest railway stations: Rishikesh/Haridwar (Garhwal route) or Kathgodam/Haldwani (Kumaon route), both well connected to Delhi and major cities",
+  road: "Overnight buses available from Delhi to Rishikesh/Haridwar and Kathgodam/Haldwani",
+  travelTip: "Wan, the base camp for the Ali Bedni Bugyal Trek, can be reached via two scenic Himalayan routes — through Garhwal (Rishikesh side) or Kumaon (Kathgodam side). Both offer unique landscapes and experiences.<br><br>\
+<strong>Route A (via Rishikesh – Garhwal side):</strong><br>\
+Rishikesh → Devprayag → Srinagar → Rudraprayag → Karnaprayag → Tharali → Deval → Wan. This route spans approximately <strong>260–270 km</strong> and takes around <strong>10–11 hours</strong>. Along the way, you pass three sacred confluences — Devprayag, Rudraprayag, and Karnaprayag — where rivers merge dramatically amidst steep valleys. The drive follows the Alaknanda River for long stretches, offering stunning views and multiple scenic stop points.<br><br>\
+<strong>Route B (via Kathgodam/Haldwani – Kumaon side):</strong><br>\
+Kathgodam/Haldwani → Almora → Kausani → Gwaldam → Deval → Wan. This route is approximately <strong>200–220 km</strong> and takes around <strong>8–9 hours</strong>. The journey passes through the Kumaon hills, with Kausani offering panoramic views of Himalayan peaks like Trishul and Nanda Devi on clear days. The road then winds through dense forests and quiet mountain towns before reaching Wan.<br><br>\
+<strong>Option for a comfortable break journey:</strong><br>\
+If traveling via Rishikesh, you can break your journey at Karnaprayag (around 6–7 hours from Rishikesh), and continue the next day via shared cabs through Tharali and Deval to reach Wan in another 3–4 hours.<br><br>\
+<strong>Pro tips:</strong><br>\
+Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared cabs are limited and usually depart early in the morning, so plan your connections accordingly. Key stopovers like Devprayag, Karnaprayag, and Kausani are great for short breaks, food, and soaking in some of the most scenic river and mountain views of the journey."
+},
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135504/IMG_20171227_115942_qdevlw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135518/IMG_20171225_172221_akkk4h.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1790135601/IMG_20171226_155700_mpel6l.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "What is the difficulty level of the Brahmatal Trek?",
+        answer:
+          "Brahmatal is generally graded Easy–Moderate. The trek does not involve technical climbing, but the altitude, changing terrain, winter conditions and the climb to Brahmatal Top require reasonable fitness and preparation."
+      },
+      {
+        question: "What is the highest altitude of the Brahmatal Trek?",
+        answer:
+          "The highest point of the trek is Brahmatal Top, at approximately 12,250 ft."
+      },
+      {
+        question: "How long is the Brahmatal Trek?",
+        answer:
+          "The trekking route is approximately 22 km, although the exact walking distance can vary slightly with the route and seasonal trail conditions."
+      },
+      {
+        question: "Is Brahmatal a winter trek?",
+        answer:
+          "Yes. Brahmatal is particularly popular as a winter trek because snowfall can transform its forests, meadows and ridges. However, snowfall is weather-dependent and should never be treated as guaranteed for a particular departure."
+      },
+      {
+        question: "What are the major attractions of the Brahmatal Trek?",
+        answer:
+          "The trek combines oak and rhododendron forests, Bekaltal, Brahmatal Lake, open ridges around Tilandi, Brahmatal Top and wide Himalayan views including Trishul and Nanda Ghunti."
+      },
+      {
+        question: "Is Brahmatal suitable for beginners?",
+        answer:
+          "Brahmatal can be suitable for reasonably fit first-time trekkers when approached with proper preparation. The altitude and winter conditions still require good physical fitness, appropriate clothing and careful pacing."
+      },
+      {
+        question: "Where does the Brahmatal Trek start?",
+        answer:
+          "The trekking route begins from Lohajung in Uttarakhand."
+      },
+      {
+        question: "What should I expect during the winter Brahmatal Trek?",
+        answer:
+          "Winter conditions can include snow-covered forest trails, frozen or partially frozen water bodies, cold nights and slippery sections. Conditions vary considerably depending on the season and recent weather."
+      }
+    ]
+  },
 
   faqsLink: "/faqs-and-articles",
 },
