@@ -89,7 +89,7 @@ export const testimonials = [
     location: "Delhi",
     image:
       "https://res.cloudinary.com/dr44hob9b/image/upload/v1787568156/Screenshot_2026-08-24_at_16-07-08_Planethimalayas_gttqkx.png",
-    //instagram: "yashesh_vora",
+    instagram: "anartism_",
     rating: 5,
     text:
       "Had the best experience with Planethimalayas. I did the Pin Parvati trek with them and everything was organised so well. We had very experienced guides, incredible porters and the best chef!! The food was actually even better than in most restaurants. Big thanks to the trek leader Kamal Ji who is such a genuine and knowledgeable soul. He made this trek even more special than it already was. Thanks for everything Planethimalayas!!"
@@ -104,4 +104,20 @@ export const testimonials = [
     text:
       "I had the best experience with Planethimalayas. I went on Pin Parvati trek this august with them which is for sure a very challenging trek, however because of the great organization, well arranged team and the best trek leader you could ever wish for, Kamal Ji, this was something I will never forget!!!! <br>There isn’t anything which could or should have been done differently. I felt safe all the way throughout. <br>I’d also like to mention that i was the only female in the team and was so well looked after. Everyone looked after me like one big family, just like Kamal feels like a big brother to me now. It was my second trek with Kamal, and im a 1000% sure it wouldnt be my last. Thank you for everything Planethimalayas and Kamal in special! ❤️"
   },
+  {
+    id: 11,
+    name: "Atul Azad",
+    location: "Jaipur, Rajasthan",
+    image: "https://res.cloudinary.com/dr44hob9b/image/upload/v1790165878/Screenshot_2026-09-23_at_17-46-21_Instagram_bq6t4c.png",
+    instagram: "anahata_sama",
+    rating: 5,
+    text:
+      `Pin Parvati Pass — my first trek and expedition ever. 🏔️
+      I first heard about Planethimalayas through a few friends, and what an experience it turned out to be!
+      Pin Parvati Pass is one hell of a ride. It’s not just another trek — it demands immense physical strength, mental resilience, and the right knowledge to be out there for 10 days in such challenging terrain.
+      A huge part of this experience goes to Kamal and the entire team. Kamal was not just our leader, but more importantly, a great companion throughout the journey. What I appreciated most was that he never treated us like clients. There was no unnecessary strictness — just the right balance of discipline, guidance, support, and freedom to experience the mountains.
+      With the team’s guidance and encouragement, I discovered a lot about my own potential and what I’m capable of pushing through.
+      Can’t thank you guys enough for making my first expedition such a memorable one. ❤️
+      More adventures to come. ⛰️`  
+  },  
 ];

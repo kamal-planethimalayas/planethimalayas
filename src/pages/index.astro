@@ -102,6 +102,37 @@ import "../styles/global.css";
 
 <div class="container">
 
+<!-- Exclusive Section -->
+<section class="home-trek-feature reveal">
+  <div class="trek-image">
+    <span class="trek-badge">High Altitude Classic</span>
+    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153775/IMG_20180522_073851_fgrqqb.jpg" alt="Roopkund Lake">
+  </div>
+
+  <div class="trek-content">
+    <h2 class="trek-content-name">Roopkund <span>Trek</span></h2>
+
+    <div class="trek-meta">
+      <span>📍 Garhwal Himalayas - Uttarakhand</span>
+      <span>🏔️ 15,750 ft / 4,801 m</span>
+      <span>🏁 Basecamp: Wan Village</span>
+      <span>⚡ Moderate-Difficult</span>
+      <span>⏳ 6 Nights / 7 Days</span>
+    </div>
+
+    <div class="trek-text-wrapper">
+      <p class="trek-snippet" id="roopkundSnippet">
+        Journey deep into the Garhwal Himalayas on one of Uttarakhand's most iconic high-altitude treks. From the forests and meadows around Wan Village to the vast alpine landscapes of Bedni Bugyal and the rugged approach towards Roopkund, every day brings a dramatic change in terrain. Trek through ancient forests, expansive high-altitude meadows, and challenging mountain trails before reaching the legendary Roopkund Lake at 15,750 ft. With its demanding climbs, striking Himalayan scenery, and rich cultural landscape, Roopkund is a rewarding adventure for trekkers ready to take on a more challenging Himalayan experience.
+      </p>
+      <button class="read-more-btn" type="button">Read more →</button>
+    </div>
+
+    <a href="/trek/roopkund-trek" class="btn-book">
+      Register Now
+    </a>
+  </div>
+</section>
+
   <ConfirmedDepartures />
 
 <!-- UPCOMING TREKS: Upcoming Season Treks -->
@@ -281,36 +312,7 @@ import "../styles/global.css";
   <NewsSection client:load />
 </section>
 
-<!-- Exclusive Section -->
-<section class="home-trek-feature reveal">
-  <div class="trek-image">
-    <span class="trek-badge">High Altitude Classic</span>
-    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153775/IMG_20180522_073851_fgrqqb.jpg" alt="Roopkund Lake">
-  </div>
 
-  <div class="trek-content">
-    <h2 class="trek-content-name">Roopkund <span>Trek</span></h2>
-
-    <div class="trek-meta">
-      <span>📍 Garhwal Himalayas - Uttarakhand</span>
-      <span>🏔️ 15,750 ft / 4,801 m</span>
-      <span>🏁 Basecamp: Wan Village</span>
-      <span>⚡ Moderate-Difficult</span>
-      <span>⏳ 6 Nights / 7 Days</span>
-    </div>
-
-    <div class="trek-text-wrapper">
-      <p class="trek-snippet" id="roopkundSnippet">
-        Journey deep into the Garhwal Himalayas on one of Uttarakhand's most iconic high-altitude treks. From the forests and meadows around Wan Village to the vast alpine landscapes of Bedni Bugyal and the rugged approach towards Roopkund, every day brings a dramatic change in terrain. Trek through ancient forests, expansive high-altitude meadows, and challenging mountain trails before reaching the legendary Roopkund Lake at 15,750 ft. With its demanding climbs, striking Himalayan scenery, and rich cultural landscape, Roopkund is a rewarding adventure for trekkers ready to take on a more challenging Himalayan experience.
-      </p>
-      <button class="read-more-btn" type="button">Read more →</button>
-    </div>
-
-    <a href="/trek/roopkund-trek" class="btn-book">
-      Register Now
-    </a>
-  </div>
-</section>
 
 <!-- Faqs Section -->
 <section class="faqs-section reveal">
@@ -1709,6 +1711,7 @@ backdrop-filter: blur(15px);
   gap: 1rem;
   align-items: stretch;
   padding: 1rem 0;
+  margin-top: 1rem;
 }
 
 /* ===============================
