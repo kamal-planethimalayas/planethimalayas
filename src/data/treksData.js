@@ -2400,9 +2400,7 @@ confirmedDepartures: [
   //},
 
 dates: [
-  
-  //{ label: "28 Sep - 02 Oct", start: "2026-09-28", end: "2026-10-02" }, 
-  { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
+    { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
 ],
 
 confirmedDepartures: [
@@ -2860,18 +2858,27 @@ confirmedDepartures: [
     tags: ["beginner", "lake"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
-    month: ["may", "june", "july", "september", "october"],
+    month: ["may", "june", "july", "september", "october", "november"],
     duration: ["3 Nights / 4 Days"],
     region: "himachal pradesh",
     coordinates: [
-        [32.2390, 77.1840], // Manali (start)
-        [32.2500, 77.1950], // Lamadugh
-        [32.2600, 77.2000], // Khanpari Tibba
-        [32.2580, 77.2100], // Rani Sui Lake
-        [32.2450, 77.1980], // Saurkundi Pass
-        [32.2380, 77.1850], // Mahili Thach
-        [32.2390, 77.1840], // Shangchar / Manali (end)
+        [32.24913169994854, 77.1750546622546], // Manali (start)
+        [32.23526785626032, 77.14866549172675], // Lamadugh
+        [32.23186690729961, 77.14189540597296], //Lamadugh Top
+        [32.22411995998321, 77.13103373818466], // Khanpari Tibba
+        [32.211716879093736, 77.13500575309061], // Rani Sui Lake
+        [32.181594524584305, 77.14696532184986], // Mahili Thach
+        [32.170430391030884, 77.15665408896226], // Shangchar / Manali (end)
     ],
+     waypoints: [
+  { name: "Manali (Start)", coords: [32.24913169994854, 77.1750546622546], type: "start" },
+  { name: "Lamadugh", coords: [32.23526785626032, 77.14866549172675], type: "campsite" },
+  { name: "Khanpari Tibba", coords: [32.22411995998321, 77.13103373818466 ], type: "viewpoint" },
+  { name: "Rani Sui Lake", coords: [32.211716879093736, 77.13500575309061], type: "lake" },
+  { name: "Mahili Thatch", coords: [32.181594524584305, 77.14696532184986], type: "meadow" },
+  { name: "Sangchar (End)", coords: [32.170430391030884, 77.15665408896226], type: "end" },
+  ],
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766588815/Rani-Sui-Lake-hero1_gsloff.jpg",
     
     heroImages: [
@@ -2915,10 +2922,20 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
 
     dates: [
+  { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
+  { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
+  { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
+  { label: "23 Nov - 26 Nov", start: "2026-11-23", end: "2026-11-26" },
+],
 
-// { label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
-
-  ],
+confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
     highlights: [
         "Trek from Manali through Lamadugh and Manalsu River valley",
@@ -3527,7 +3544,7 @@ description:
   tags: ["beginner"],
   difficulty: ["easy"],
   season: ["spring", "summer", "autumn"],
-  month: ["may", "june", "july", "september", "october", "november"],
+  month: ["march", "april", "may", "june", "july", "september", "october", "november"],
   region: ["himachal pradesh"],
   duration: "3 Nights / 4 Days",
 
@@ -3617,10 +3634,20 @@ description:
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
   dates: [
+  { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
+  { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
+  { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
+  { label: "23 Nov - 26 Nov", start: "2026-11-23", end: "2026-11-26" },
+],
 
-//{ label: "13 Jul - 16 Jul", start: "2026-07-13", end: "2026-07-16" },
-
-  ],
+confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
   highlights: [
     "Easy access from Manali with a traditional village start from Rumsu",
@@ -4630,23 +4657,16 @@ questions: [
   [30.204709969702932, 79.61916977761162], // Wan (start)
   [30.205362157894474, 79.6520320621281], // Ghairoli Patal
   [30.1852180911031, 79.66063457937453], //Ali Bugyal
-  [30.19573793560142, 79.64533668824885], //Bedni Bugyal
   [30.20911443931021, 79.66702779428996], //Bedni Kund
   [30.205362157894474, 79.6520320621281], // Ghairoli Patal
   [30.204709969702932, 79.61916977761162], // Wan (end)
 ],
-
 waypoints: [
   { name: "Wan Village (Start/End)", coords: [30.204709969702932, 79.61916977761162], type: "start/end" },
-
   { name: "Ghairoli Patal", coords: [30.205362157894474, 79.6520320621281], type: "camp" },
-
   { name: "Alii Bugyal", coords: [30.1852180911031, 79.66063457937453], type: "meadows" },
-
-  { name: "Bedni Bugyal", coords: [30.19573793560142, 79.64533668824885], type: "meadows" },
-
+  { name: "Bedni Bugyal", coords: [30.20911443931021, 79.66702779428996], type: "meadows" },
   { name: "Ghairoli Patal", coords: [30.205362157894474, 79.6520320621281], type: "camp" },
-
 ],
 
 seo: {
@@ -4680,17 +4700,23 @@ seo: {
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
-    activeDeparture: {
-    //date: "2026-05-24",
-    //label: "04 May - 08 May",
-  },
-
     dates: [   
-
-//{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
-
-
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
+    { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
     highlights: [
       "Panoramic views of Trishul and Nanda Ghunti",
@@ -6331,13 +6357,37 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     tags: ["beginner"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
-    month: ["may", "april", "june", "march", "september", "october", "november"],
+    month: ["march", "april", "may", "june", "september", "october", "november"],
     duration: ["6 Nights / 7 Days"],
     region: "uttarakhand-garhwal",
     coordinates: [
-  [31.0817, 78.0611], // Sankri (start)
-  [31.0567, 78.4281], // Har Ki Dun Valley (end)
+  [31.077843269593863, 78.18397117216935], // Sankri (start)
+  [31.078166679219436, 78.18450833895315],
+  [31.072581038048316, 78.18998178788935],
+  [31.078124727423045, 78.24555843433929],
+  [31.112356789468404, 78.3329521627094], //Chilurgad
+  [31.12479625662276, 78.38221993522318], //Debshu Buyal
+  [31.142802174491344, 78.41529004234457], //Boslo
+  [31.15131019863794, 78.42895467569234], //Harkidun
+  [31.142802174491344, 78.41529004234457], //Boslo
+  [31.13354169075829, 78.39365144528047], //Kalkatiyadhar
+  [31.119498907661857, 78.34689661986845], //Osla
+  [31.113574455110133, 78.33319685886205], //Chilurgad bridge
+  [31.104040422984355, 78.31208517575193],
+  [31.078124727423045, 78.24555843433929],
+  [31.07377781796409, 78.18980602668468],
+  [31.07785871241507, 78.18396909522382],
 ],
+  waypoints: [
+  { name: "Sankri (Start/End)", coords: [31.07785871241507, 78.18396909522382], type: "start/end" },
+  { name: "Chilurgad", coords: [31.112356789468404, 78.3329521627094], type: "camp" },
+  { name: "Debshu Bugyal", coords: [31.12479625662276, 78.38221993522318], type: "meadows" },
+  { name: "Boslo Campsite", coords: [31.142802174491344, 78.41529004234457], type: "meadows" },
+  { name: "Harkidun", coords: [31.15131019863794, 78.42895467569234], type: "viewpoint" },
+  { name: "Kalkatiyadhar", coords: [31.13354169075829, 78.39365144528047], type: "viewpoint" },
+  { name: "Osla", coords: [31.119498907661857, 78.34689661986845], type: "village" },
+],
+
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535093/harkidun-hero1_nwtfqh.jpg",
     
     heroImages: [
@@ -6382,8 +6432,27 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
+  { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
+  { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
+  { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 
-  //{ label: "13 Jun - 19 Jun", start: "2026-06-13", end: "2026-06-19" },
+],
+
+//activeDeparture: [
+//{
+      //date: "2026-09-28",
+      //label: "28 Sep - 02 Oct",
+ //}
+//],
+
+confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
 ],
 
     highlights: [
@@ -6392,50 +6461,56 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
       "Diverse landscapes: forests, meadows, rivers, glaciers"
     ],
 
-    itinerary: [
+itinerary: [
   {
     day: 1,
-    title: "Drive to Sankri | Distance: ~200 km | Time: 7–8 hrs | Altitude: 1,950 m",
-    details: "• Your journey to the mountains begins early in the morning from Dehradun. To reach on time, trekkers usually take an overnight bus or train from Delhi to Dehradun ISBT. From here, we start our long yet beautiful drive towards Sankri, the gateway to several iconic treks in the Western Garhwal Himalayas, including Har Ki Dun and Kedarkantha.<br>The drive winds through Mussoorie – the Queen of Hills, where the air turns crisp and pine-scented. As we descend past Kempty Falls and enter the Tons River valley, the landscape changes dramatically — terraced fields, apple orchards, and conifer-covered slopes replace the city bustle. The route passes through small mountain towns like Naugaon, Purola, Mori, and Netwar, each offering a glimpse into the slow, content rhythm of Himalayan life.<br>We stop en route for a hearty mountain-side lunch and continue deeper into the valley. Past Purola, mobile networks fade — only BSNL and Jio work intermittently beyond this point. The final stretch to Sankri is a treat: narrow roads weaving through dense pine forests, the sun flickering through branches, and the Tons River gliding alongside.<br>By early evening, we arrive at Sankri (6,400 ft), a peaceful mountain village nestled amidst apple orchards and snow-capped peaks. From the village, the first views of Swargarohini shimmer in the distance — a hint of what awaits ahead. After freshening up at our cozy guesthouse, you can stroll through the small local market for tea, woollens, or last-minute gear. During winter, Sankri itself often wears a fresh coat of snow — marking the true beginning of your Himalayan adventure."
+    title: "Dehradun to Sankri | Drive ~195 km | Sankri: 1,950 m",
+    details:
+      "Your journey into the remote valleys of the Western Garhwal Himalayas begins early from Dehradun. The approximately 195 km drive to Sankri is long, but it is also the first chapter of the experience — the landscape changes dramatically as you leave the plains behind and gradually enter the mountains.<br><br>The road follows the Tons River valley through a succession of mountain towns and villages, with terraced farmlands, apple orchards, pine-covered slopes and increasingly dramatic ridgelines accompanying the drive. As you travel deeper into the valley, the settlements become smaller and the mountains more imposing. The route eventually brings you to Sankri, a traditional mountain village surrounded by dense forests and high Himalayan peaks.<br><br>At around 1,950 m, Sankri is an important gateway to some of the most remote trekking routes of Uttarakhand. It is also where the character of the journey changes — from a road journey through the mountains to a walking journey into them.<br><br>Check into your homestay, rest after the long drive and, if time permits, take a relaxed walk through the village. Spend the evening preparing for the trek ahead and enjoy a comfortable night in Sankri before heading deeper into the Har Ki Dun valley."
   },
+
   {
     day: 2,
-    title: "Drive to Gangad – Trek to Seema | Distance: 10 km | Time: 4–5 hrs | Altitude: 2,500 m",
-    details: "• Start your day with a warm breakfast amidst crisp mountain air and panoramic Himalayan views — the perfect start before setting off for another memorable day on the trail. After packing up, a short 1.5-hour drive from Sankri takes you to Dhatmeer, the last motorable point before the valley narrows into trekking country. The drive itself is a delight — winding mountain roads, fresh pine-scented breeze, and glimpses of towering peaks set the tone for the adventure ahead.<br>From Dhatmeer, the trek begins on a well-marked trail that meanders through lush cedar and pine forests, with the Supin River glistening below. The air carries the scent of wild herbs and wet earth as you cross small wooden bridges and mountain streams. Along the way lies Gangar, a small Himalayan hamlet where traditional wooden houses and terraced fields reflect the simple, enduring life of the mountains. After a brief rest here, continue a little further to Pawani Garat, your campsite for the night.<br>As the trail climbs gradually, views of Bandarpoonch and the Swargarohini peaks open up, adding grandeur to the landscape. During monsoon, the trail bursts with life — blooming amaranth shrubs painting the slopes in striking red hues, and in spring, meadows carpeted with blue poppies, primulas, and rhododendrons.<br>Set up camp beside the forest clearing, surrounded by oak and pine, with the sound of the Supin River echoing through the valley. Higher up the mountains on the other side of th river you can see the lat village of this valley- Osla. As night falls, the stars appear bright and endless above — a reminder of why the Himalayas feel like home to every trekker who walks these trails."
+    title: "Drive to Gangad – Trek to Chilurgad | Drive ~2 hrs | Trek ~3 km | Chilurgad: 2,380 m",
+    details:
+      "After breakfast, begin the drive from Sankri towards Gangad, the roadhead for your trek. The approximately two-hour drive is an experience in itself, winding through beautiful mountain bends and traditional Himalayan settlements. Along the way, you pass ancient villages where old stone houses stand alongside newer homestays, while terraced farmlands climb the slopes around them.<br><br>With the Swargarohini and Rangalana ranges forming a dramatic backdrop, this drive offers a beautiful introduction to the landscapes and communities of the Har Ki Dun region. It is a glimpse of the relationship between the mountains and the people who have lived and farmed here for generations.<br><br>At Gangad, the road finally ends and the journey continues on foot. The trail follows an established forest path past Gangad village and its surrounding farmlands, gradually drawing closer to the Supin River. The sound of flowing water accompanies much of the walk as the trail enters the quieter forested sections of the valley.<br><br>The forest here is characteristic of the middle Himalayan landscape, with conifers and broad-leaved trees providing shade while seasonal shrubs, grasses and wildflowers add colour to the forest floor. Birdlife is also abundant in these quieter stretches, and patient trekkers may notice Himalayan species moving through the canopy or hear their calls long before seeing them.<br><br>After approximately 3 km, reach Chilurgad, a peaceful campsite on the banks of the Supin River, near an abandoned powerhouse. The riverside setting makes this a particularly atmospheric first night on the trail. Settle into camp, listen to the river flowing beside you and allow the remoteness of the valley to slowly sink in."
   },
+
   {
     day: 3,
-    title: "Trek from Seema to Seematra | Distance: 8 km | Time: 5–6 hrs | Altitude: 3,200 m",
-    details: "• Today’s trek unfolds through a stunning mix of landscapes — gentle ascents through forests, open meadows, and rolling ridgelines that bring you closer to the heart of the valley. After a while on the trail you reach Seema, a little ahead lies the Seema bridge. Crossing the bridge, the trail gradually climbs through thick stands of pine and oak, opening at intervals to breathtaking views of the surrounding peaks. With every turn, the mountains seem to draw nearer, their snow-laden ridges gleaming under the sun.<br>As you gain altitude, the scenery becomes even more dramatic. The trail winds past scenic vantage points overlooking the mighty Dhauladhar Range, revealing vast expanses of the Himalayan skyline. After a while, the path levels out to a beautiful tabletop meadow known as Kalkattiyadhar — a green oasis perched high above the valley. From here, you can gaze upon the Bugyal Devsu, the Ruinsara Range, and the majestic summits of Black Peak and Kedarkantha in the distance. This is one of those rare places where you’ll want to pause, breathe deeply, and let the stillness of the mountains sink in.<br>Beyond Kalkattiyadhar, the trail continues through lush greenery where the forest teems with life — if you’re lucky, you might spot the Himalayan Monal, Uttarakhand’s state bird, or footprints of a musk deer on soft ground. The mix of gradual climbs and short descents keeps the walk engaging and rhythmic.<br>By afternoon, you’ll arrive at Seematra, a serene high-altitude campsite surrounded by panoramic views of Swargarohini, Bandarpoonch, Kalanag, and Black Peak. As dusk settles, the valley glows under shades of orange and pink, turning the entire landscape into a dreamlike painting. Spend the evening sharing stories around the campsite before resting under a star-filled sky — a perfect end to a truly memorable day."
+    title: "Pawani Garat to Debshu Bugyal | Trek ~5 km | Debshu Bugyal: 3,010 m",
+    details:
+      "Today the trail continues deeper into the valley, following the established route from Pawani Garat towards the open meadows of Debshu Bugyal. The approximately 5 km walk is not about rushing towards the campsite; the landscape changes gradually and rewards you for paying attention to the details along the way.<br><br>Continue straight on the ongoing trail and, after roughly 2 km, you will come across the Seema Bridge. Do not cross the bridge. Stay on the right side and continue following the trail beyond it. From here, the route passes through local farmlands before gradually entering denser forest.<br><br>Waterfalls and mountain streams appear along the route, particularly during the wetter months when the slopes come alive with flowing water and vegetation. The forest also provides an important habitat for Himalayan birds and mammals. Keep an eye out for movement among the trees and listen for bird calls — sightings are never guaranteed, but the forest is very much alive around you.<br><br>As the trail continues, the gradient gradually increases and the forest eventually begins to open. The transition is striking: after walking through shaded woodland and cultivated slopes, you suddenly arrive at the broad, open landscape of Debshu Bugyal.<br><br>At approximately 3,010 m, Debshu Bugyal is a beautiful meadow surrounded by forests and magnificent mountain scenery. From the open ground, the landscape expands dramatically, with views towards the Kalanag (Black Peak) and the Swargarohini ranges. The contrast between the enclosed forest trail and this wide Himalayan meadow makes Debshu one of the most memorable campsites of the route.<br><br>Spend the evening in the meadow, when the changing light gradually transforms the surrounding ridges. As night arrives, the open landscape offers an unobstructed Himalayan sky — a perfect setting to rest before the trail becomes even more remote."
   },
+
   {
     day: 4,
-    title: "Trek to Har Ki Dun Valley & back | Distance: 14 km | Time: 7–8 hrs | Altitude: 3,566 m",
-    details: "• Today marks the most awaited day of the entire trek — the day you finally step into the legendary Har Ki Dun Valley, often called the Valley of the Gods. After a warm breakfast amidst the high mountains, set off early for a long yet deeply rewarding journey through one of the most enchanting landscapes in the Himalayas.<br>The trail begins with a steady climb through alpine meadows, where the early morning sun paints the snow peaks in golden hues. As you gain altitude, the air turns crisper, and snow patches begin to appear, shimmering against the deep green of the valley. You’ll walk through lush meadows and forested slopes, sometimes crossing small glacial streams and boulder-strewn patches. In spring, the route bursts alive with wildflowers — primulas, rhododendrons, and gentians, while in winter, it transforms into a white wonderland straight out of a dream.<br>As the valley opens up, you’ll catch your first breathtaking view of Swargarohini Peak, followed by the grand sight of Hata Peak, Black Peak (Kalanag), and Bandarpoonch standing tall in the distance. Each step forward unveils new panoramas — soaring ridges, icy waterfalls, and endless alpine expanses that seem untouched by time.<br>At the heart of the valley lies a small stone temple dedicated to Lord Shiva, with a sacred Shivling and a statue of Nandi overlooking the mighty peaks. The place holds immense mythological significance — it is believed to be the path taken by the Pandavas on their way to heaven, giving the valley its divine aura and name, Har Ki Dun — “The Valley of the Gods.”<br>Spend some quiet time here, letting the serenity of the valley sink in. Capture the vastness of this heavenly amphitheater, surrounded by snow-clad summits and the murmuring of glacial streams.<br>After immersing yourself in this Himalayan paradise, begin your descent back to Seematra, retracing the same scenic trail. The journey down feels gentler and filled with reflection. By evening, you’ll reach your campsite, where a warm dinner and peaceful night under a starlit sky await — a perfect close to one of the most memorable days of your trek." 
+    title: "Debshu Bugyal to Boslo | Trek ~5 km | Boslo: 3,200 m",
+    details:
+      "Leave the open slopes of Debshu Bugyal behind and continue towards Boslo. Today's approximately 5 km trail begins relatively gently before becoming more demanding as the route drops towards the river.<br><br>Continue straight along the trail and follow your guide carefully as the route takes a steep descent towards the river. This section requires attention, particularly when the ground is wet or loose. At the river, cross over the wooden bridge and turn left towards the Har Ki Dun valley.<br><br>From here, the trail enters a predominantly forested landscape. The dense vegetation creates a completely different atmosphere from the openness of Debshu Bugyal, with tall trees, moss-covered ground, seasonal vegetation and small streams appearing along the route. In spring and summer, the forest floor can be particularly vibrant, while the changing foliage gives the trail a different character through autumn.<br><br>After walking through the forest for a while, the trail reaches the river again. Cross it in the same manner and begin the climb towards Boslo. The final ascent is a little steep, but the effort is rewarded as the campsite comes into view.<br><br>Boslo, at around 3,200 m, sits in a beautiful forested setting with the mountains occasionally revealing themselves through the trees. In front of the campsite, the Hatha Peak and the Swargarohini ranges rise dramatically above the landscape, appearing to emerge from behind the surrounding forests.<br><br>With the main Har Ki Dun valley now close, Boslo becomes your base for tomorrow's exploration. Enjoy the evening in the quiet surroundings and rest well for the longest and most anticipated day of the trek."
   },
-  {
-  day: 5,
-  title: "Trek to Pawani Garat | Distance: 8–9 km | Time: 4–5 hrs | Altitude: ~1,900 m",
-  details:
-    "The day begins with the descent from Seematra, retracing parts of the familiar trail as the valley slowly opens up below. The walk feels gentler in the morning light, with forests thinning out and village paths appearing more frequently.<br><br>Instead of heading directly toward the Seema bridge, the trail passes through Osla village — a cultural highlight of the trek. Here, you walk past centuries-old wooden houses and the revered Someshwar Temple, offering a close look at the traditional lifestyle and deep-rooted customs of the region.<br><br>Continuing downhill, the trail winds through forest sections and terraced slopes before reaching Pawani Garat, a quiet riverside clearing. Surrounded by greenery and flowing water, this spot makes for a peaceful halt after a fulfilling day of walking. The evening is spent resting and soaking in the calm of the lower valley."
-  },
-  {
-  day: 6,
-  title: "Trek to Dhatmeer Roadhead – Drive to Sankri | Distance: 6–7 km Trek + Drive",
-  details:
-    "The final day starts with a relaxed descent from Pawani Garat, following village trails and forest paths toward the Dhatmeer roadhead. As altitude drops further, the surroundings gradually shift from dense forest to open valleys and scattered settlements, signalling the end of the trekking journey.<br><br>Upon reaching the roadhead at Dhatmeer, vehicles are arranged for the drive back to Sankri. The drive retraces scenic mountain roads along rivers and pine-covered slopes, bringing you back to the familiar base town by afternoon or early evening.<br><br>With the trek officially complete, the journey concludes in Sankri — carrying back memories of remote trails, cultural encounters, and days spent deep in the Garhwal Himalayas."
-  },
-  {
-  day: 7,
-  title: "Sankri to Dehradun",
-  details:
-    "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
-Early morning, bid farewell to the mountains as you begin your return journey from Sankri to Dehradun. The drive retraces the beautiful route through the Tons Valley, passing charming Himalayan villages like Netwar, Mori, Purola, and Naugaon before gradually descending towards the foothills.<br><br>\
-Throughout the journey, enjoy one last glimpse of the pine-covered slopes, terraced farmlands, apple orchards, and sparkling mountain rivers that have accompanied you throughout the trek. As you leave the higher Himalayas behind, the cool mountain air slowly gives way to the warmer climate of the Doon Valley.<br><br>\
-By afternoon or early evening, you arrive in Dehradun, marking the end of an unforgettable journey through the mythical Har Ki Dun Valley. The memories of ancient Himalayan villages, alpine meadows, pristine forests, and the majestic peaks of Swargarohini, Bandarpoonch, and Black Peak will remain with you long after the adventure comes to an end."
-}
-],
 
+  {
+    day: 5,
+    title: "Boslo to Har Ki Dun & Back | Trek ~8–10 km | Har Ki Dun: ~3,600 m",
+    details:
+      "Today is the defining day of the journey. From Boslo, you trek deeper into the Har Ki Dun valley and return to the same campsite by evening. The total distance is approximately 8–10 km, depending on how much time you spend exploring the valley, so an early start is important.<br><br>Follow the trail straight towards Har Ki Dun through a beautiful forested landscape. The route gradually gains elevation with a succession of gentle ups and downs rather than one continuous climb. Along the way, you pass waterfalls, mountain streams and sections affected by landslides — natural reminders that this is a living Himalayan landscape constantly reshaped by water, snow, rock and weather.<br><br>As you progress, the forest begins to give way to the broad upper valley and the landscape suddenly opens. Har Ki Dun appears ahead, surrounded by some of the most dramatic mountain scenery in the region.<br><br>At approximately 3,600 m, the valley offers magnificent views of the Swargarohini massif and its surrounding peaks. This is also an important geographical junction. From Har Ki Dun, the valley bifurcates: one route leads towards the Jaumdhar Glacier, while another continues towards the Borasu Pass via Maninda Tal and onwards towards Chitkul. The latter is a much more demanding and technically challenging mountain route, involving steep walls, glaciers and difficult high-altitude terrain.<br><br>There is a wooden GMVN hut in the valley, and nearby stands a small shrine with a Shivalingam where a local priest offers prayers. The spiritual character of the valley is inseparable from its landscape, with generations of local traditions and Himalayan mythology attached to these mountains and trails.<br><br>If you have started early and conditions permit, you may have time to explore towards Maninda Tal with your guide. Otherwise, spend the time experiencing Har Ki Dun itself — the broad valley, the surrounding peaks, the streams and the immense sense of scale that makes this place so memorable.<br><br>After exploring the valley, begin the return journey to Boslo following the same trail. The walk back offers a completely different perspective as the afternoon light changes the surrounding forests and mountains. Reach Boslo by evening for your final night in the high valley."
+  },
+
+  {
+    day: 6,
+    title: "Boslo to Gangad via Osla – Drive to Sankri | Trek ~10 km | Osla: ~2,600 m",
+    details:
+      "Today is a long but deeply rewarding final day on the trail, so an early start is essential. Instead of immediately descending towards the lower valley, follow the trail straight towards Kalkatiyadhar. The initial section involves a very gradual climb before the route begins its long descent towards Osla.<br><br>As you descend, the high mountain landscape gradually gives way to cultivated slopes and traditional Himalayan farmlands. The trail leads directly towards Osla, one of the oldest and most culturally distinctive villages in the Har Ki Dun valley.<br><br>At around 2,600 m, Osla is a remarkable settlement of traditional wooden and stone architecture, terraced fields and long-established local customs. Walking through the village is not simply another section of the trek — it is an opportunity to see how communities have adapted their homes, agriculture and traditions to life in a remote Himalayan valley.<br><br>At the heart of the village stands the Someshwar Temple, an important local place of worship. Please respect the village and its traditions throughout your visit. Do not touch objects, enter restricted areas or photograph people or religious spaces without prior permission from your guide.<br><br>Continue downhill through the village and follow the trail connecting back towards the route you had taken earlier at Chilurgad. From here, continue descending for approximately another 3 km towards Gangad, following the trail back to the roadhead where your vehicle will be waiting.<br><br>If time permits, take a short walk through Gangad before boarding the vehicle. Then begin the drive back to Sankri, leaving behind the forests, villages, meadows and river valleys that have been your home for the past several days.<br><br>By evening, arrive back in Sankri and settle into your homestay. Enjoy a warm dinner and spend the evening exchanging stories about the journey — the forests, the rivers, the high meadows, Har Ki Dun, Osla and all the small moments that together made the trek what it was."
+  },
+
+  {
+    day: 7,
+    title: "Departure from Sankri",
+    details:
+      "After breakfast, bid farewell to Sankri and begin your journey back towards Dehradun or your onward destination.<br><br>The road slowly carries you away from the mountains that have surrounded you for the past week, but the journey back is also a chance to look at the landscape differently — the villages, terraced fields, forests and river valleys that were once simply part of the approach road now carry memories from the trail you have just completed.<br><br>Your Har Ki Dun journey comes to an end here, after travelling from the traditional villages of the lower valley into remote forests, high Himalayan meadows and the legendary Har Ki Dun valley itself."
+  }
+],
 
     howToReach: {
       air: "<br>• Nearest Airport: Jolly Grant Airport, Dehradun (DED)<br>• Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.Regular flights available from Delhi, Mumbai, Bangalore, and other major cities.<br>• From the airport, you can hire a taxi to Dehradun ISBT or directly to Sankri.",
@@ -6760,11 +6835,29 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
   season: ["winter", "spring", "summer", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april", "may", "june"],
   region: "uttarakhand-garhwal",
-  duration: "5 Nights / 6 Days",
+  duration: "4 Nights / 5 Days",
   coordinates: [
-    [30.5561, 79.5617], // Joshimath (base)
-    [30.48226, 79.5981], 
-    [30.4755, 79.6151], // Kuari Pass summit
+    [30.47781033581355, 79.61398947283934], // Karchi (base)
+    [30.470619899229643, 79.60222685315787], //Akrotgetta
+    [30.460319425622924, 79.5854249355581], // Khullara
+    [30.441960358929393, 79.58068044505978], //Galgud
+    [30.44748014177994, 79.56955415544635], //Kuari Pass
+    [30.457135896814574, 79.58526117159077], //Chitrakantha peak
+    [30.474410281143527, 79.5729444676882], //Tali Campsite
+    [30.5122773482309, 79.5634163174408], //Gorson Bugyal
+    [30.528877035007522, 79.56361428981154], //Auli Lake
+    [30.556485372922634, 79.5617255451804], //Joshimath
+    [30.504545203588368, 79.60620714200131], //Dhak village
+    [30.47781033581355, 79.61398947283934], // Karchi (base)
+    [30.47781033581355, 79.61398947283934], // Karchi (base)
+  ],
+  waypoints: [
+  { name: "Karchi Village (Start/End)", coords: [0.47781033581355, 79.61398947283934], type: "start/end" },
+  { name: "Khullara meadows", coords: [30.460319425622924, 79.5854249355581], type: "meadow" },
+  { name: "Kuari Pass", coords: [30.44748014177994, 79.56955415544635], type: "viewpoint" },
+  { name: "Tali Campsite", coords: [30.474410281143527, 79.5729444676882], type: "campsite" },
+  { name: "Gorson Bugyal", coords: [30.5122773482309, 79.5634163174408], type: "meadow" },
+  { name: "Auli Lake", coords: [30.528877035007522, 79.56361428981154], type: "lake" },
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535420/kuari-pass-view9_iv5fwk.jpg",
@@ -6785,15 +6878,15 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "5 Nights / 6 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "4 Nights / 5 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "12,516 ft (Kuari Pass)" },
       { emoji: "⚡", label: "Trek Distance", value: "30–35 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "November to April" },
+      { emoji: "🌤️", label: "Best Time", value: "October to June" },
       { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
-      { emoji: "📍", label: "Start Point", value: "Joshimath" },
-      { emoji: "🏁", label: "End Point", value: "Joshimath" },
-      { emoji: "🧥", label: "Cloakroom Facility", value: "Not available" },
+      { emoji: "📍", label: "Start Point", value: "Karchi Village" },
+      { emoji: "🏁", label: "End Point", value: "Karchi Village" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
     snippet: `The Kuari Pass Trek — often called the legendary Lord Curzon Trail — is a journey straight into the grand amphitheater of the Garhwal Himalayas. It begins quietly above Joshimath, where ancient oak, deodar, and fiery-red rhododendron forests form a living cathedral of light and shadow. As you climb gently through these old woods, the trail suddenly opens into the rolling grasslands of Chitrakantha and Gorson Bugyal, vast alpine meadows that glow gold in autumn, burst with wildflowers in spring, and transform into pristine snowfields through winter.
 
@@ -6814,12 +6907,31 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 5",
+  inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 4",
 
-  dates: [ 
+  dates: [
+  { label: "19 Oct - 23 Oct", start: "2026-10-19", end: "2026-10-23" },
+  { label: "02 Nov - 06 Nov", start: "2026-11-02", end: "2026-11-06" },
+  { label: "16 Nov - 20 Nov", start: "2026-11-16", end: "2026-11-20" },
+  { label: "30 Nov - 04 Dec", start: "2026-11-30", end: "2026-12-04" },
+  { label: "14 Dec - 18 Dec", start: "2026-12-14", end: "2026-12-18" },
+  { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+  ],
 
-//{ label: "01 Jun - 06 Jun", start: "2026-06-01", end: "2026-06-06" },
+//activeDeparture: [
+//{
+      //date: "2026-09-28",
+      //label: "28 Sep - 02 Oct",
+ //}
+//],
 
+confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
 ],
 
   highlights: [
@@ -6866,7 +6978,7 @@ After spending time at the pass, the trail continues across beautiful alpine rid
 
 {
   day: 4,
-  title: `"Tali (11,000 ft) to Auli (9,400 ft) → Drive to Karchi" Or "Khullara (11,000 ft) to Karchi (7,800 ft)"`,
+  title: `"Tali (11,000 ft) to Auli (9,400 ft) via Gorson Bugyal → Drive to Karchi" Or "Khullara (11,000 ft) to Karchi (7,800 ft)"`,
   details:
     "<strong>• Trek Distance: 8 km | Duration: 5–6 hrs.</strong><br><br>\
 The final day on the trail begins with a pleasant walk through forests before emerging into the famous Gorson Bugyal, one of Uttarakhand's most beautiful alpine meadows. Wide open grasslands, cool mountain breezes, and magnificent views of Nanda Devi and the surrounding Himalayan ranges accompany you throughout the descent.<br><br>\
@@ -7258,11 +7370,21 @@ details: "• Begin the descent through familiar forests and open meadows, retra
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
 
   dates: [   
-
-// { label: "27 Apr - 01 May", start: "2026-04-27", end: "2026-05-01" },
-
-
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
+    { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
   ],
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
   highlights: [
     "All-season trek offering completely different landscapes throughout the year",
@@ -7424,10 +7546,22 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 4",
 
   dates: [   
-
-// { label: "27 Apr – 01 May", start: "2026-04-27", end: "2026-05-01" },
-
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
+    { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
   highlights: [
     "Summit climb with 360° views of Himalayan peaks like Swargarohini, Bandarpoonch, and Black Peak",
@@ -7652,12 +7786,22 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
  dates: [   
-
-// { label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-
-// { label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
-
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
+    { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
 
   highlights: [
@@ -7784,9 +7928,19 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   region: "uttarakhand-garhwal",
   duration: "5 Nights / 6 Days",
   coordinates: [
-    [30.7365, 78.5154], // Agoda village (base)
-    [30.8026, 78.5206], // Dodital Lake
-    [30.8281, 78.5354], // Darwa Top
+    [30.856458262857046, 78.50216772290429], // Agoda village (base)
+    [30.87524448637277, 78.5199242129876], //Manjhi
+    [30.89745823072694, 78.52598721733594], // Dodital Lake
+    [30.906215988523627, 78.49869901311362], // Darwa Top
+    [30.89745823072694, 78.52598721733594], // Dodital Lake
+    [30.87524448637277, 78.5199242129876], //Manjhi
+    [30.856458262857046, 78.50216772290429], // Agoda village (base)
+  ],
+  waypoints: [
+  { name: "Agoda Village (Start/End)", coords: [30.856458262857046, 78.50216772290429], type: "start/end" },
+  { name: "Manjhi", coords: [30.87524448637277, 78.5199242129876], type: "campsite" },
+  { name: "Dodital", coords: [30.89745823072694, 78.52598721733594], type: "lake/temple" },
+  { name: "Darwa Top/Pass", coords: [30.906215988523627, 78.49869901311362], type: "viewpoint" },
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1774613306/Darwa_top_trek_ebfrql.png",
@@ -7810,7 +7964,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
       { emoji: "⚡", label: "Trek Grade", value: "Easy" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,000 ft (Darwa Pass Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "38–40 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "March to June, September to November" },
+      { emoji: "🌤️", label: "Best Time", value: "October to June" },
       { emoji: "🗺️", label: "Region", value: "Garhwal Himalayas, Uttarakhand" },
       { emoji: "📍", label: "Start Point", value: "Agoda Village" },
       { emoji: "🏁", label: "End Point", value: "Agoda Village" },
@@ -7843,6 +7997,12 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   dates: [
 
   { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
+  { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
+  { label: "20 Dec - 25 Dec", start: "2026-12-20", end: "2026-12-25" },
+
 
 //{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
 
@@ -8287,7 +8447,22 @@ itinerary: [
   inclusionsNote:
     "🍽️ All Meals – Nutritious meals provided throughout the trek from Day 1 dinner to day 4 dinner",
 
-  dates: [],
+  dates: [   
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
+    { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+  ],
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
   highlights: [
     "Reach Brahmatal Top at approximately 12,250 ft with expansive Himalayan views",
@@ -10106,7 +10281,20 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   dates: [
 
-  //{ label: "07 Jun - 13 Jun", start: "2026-06-07", end: "2026-06-13" },
+  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
+  { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" }, 
+  { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
+  { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
+  { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
+  { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
+],
+confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
 ],
 
   highlights: [
@@ -11168,14 +11356,49 @@ waypoints: [
     duration: ["9 Nights / 10 Days"],
     region: "sikkim",
     coordinates: [
-  [27.3745, 88.2350], // Yuksom (start)
-  [27.5679, 88.2817], // Tshoka
-  [27.5997, 88.2942], // Dzongri
-  [27.6353, 88.2875], // Thansing
-  [27.6431, 88.2877], // Lamuney
-  [27.6493, 88.2861], // Samiti Lake
-  [27.6673, 88.2820], // Goecha La Viewpoint (end)
+  [27.372351762941747, 88.22307482186301], // Yuksom (start)
+  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
+  [27.41410037080871, 88.19753717751303], //Sachen
+  [27.42533564585748, 88.19125417256477], // Prekchu bridge
+  [27.428718032054057, 88.18677097514579], //Bakhim
+  [27.433294036672248, 88.18284817740422], // Tshoka
+  [27.457234199710285, 88.17702452152463],
+  [27.459854647055128, 88.17162716893027], //Phedang
+  [27.465525180318707, 88.16962679345166], //Deorali top
+  [27.475888081848417, 88.16060542369998], //Dzongri
+  [27.481523764447243, 88.16370887898164], //Dzongri top
+  [27.475888081848417, 88.16060542369998], //Dzongri
+  [27.504265067516116, 88.17533596948194], //Kokchurang
+  [27.517213985646663, 88.18374719829023], //Thansing
+  [27.54650770094318, 88.18601343607436], //Lamuney
+  [27.562194790748936, 88.1880617664191], //Samiti lake
+  [27.57625717261137, 88.18897697784026], //Goechala viewpoint
+  [27.562194790748936, 88.1880617664191], //Samiti lake
+  [27.54650770094318, 88.18601343607436], //Lamuney
+  [27.517213985646663, 88.18374719829023], //Thansing
+  [27.504265067516116, 88.17533596948194], //Kokchurang
+  [27.459854647055128, 88.17162716893027], //Phedang
+  [27.457234199710285, 88.17702452152463],
+  [27.433294036672248, 88.18284817740422], // Tshoka
+  [27.428718032054057, 88.18677097514579], //Bakhim
+  [27.42533564585748, 88.19125417256477], // Prekchu bridge
+  [27.41410037080871, 88.19753717751303], //Sachen
+  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
+  [27.372351762941747, 88.22307482186301], // Yuksom (start)
 ],
+waypoints: [
+  { name: "Yuksom (Start/End)", coords: [27.372351762941747, 88.22307482186301], type: "start/end" },
+  { name: "Sachen", coords: [27.41410037080871, 88.19753717751303], type: "campsite" },
+  { name: "Bakhim", coords: [27.428718032054057, 88.18677097514579], type: "campsite" },
+  { name: "Tshoka", coords: [27.433294036672248, 88.18284817740422], type: "campsite" },
+  { name: "Dzongri", coords: [27.475888081848417, 88.16060542369998], type: "campsite" },
+  { name: "Dzongri Top", coords: [27.481523764447243, 88.16370887898164], type: "viewpoint" },
+  { name: "Kokchurang", coords: [27.504265067516116, 88.17533596948194], type: "campsite" },
+  { name: "Thansing", coords: [27.517213985646663, 88.18374719829023], type: "campsite" },
+  { name: "Lamuney", coords: [27.54650770094318, 88.18601343607436], type: "campsite" },
+  { name: "Samiti Lake", coords: [27.562194790748936, 88.1880617664191], type: "lake" },
+  { name: "Goechala Viewpoint", coords: [27.57625717261137, 88.18897697784026], type: "viewpoint" },
+  ],
 
   heroImage:  "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
 
@@ -11230,7 +11453,6 @@ waypoints: [
 
     dates: [
       
-  { label: "28 Sep - 07 Oct", start: "2026-09-28", end: "2026-10-07" },
   { label: "17 Oct - 26 Oct", start: "2026-10-17", end: "2026-10-24" },
   { label: "16 Nov - 25 Nov", start: "2026-11-16", end: "2026-11-25" },
   { label: "07 Dec - 16 Dec", start: "2026-12-07", end: "2026-12-16" },
