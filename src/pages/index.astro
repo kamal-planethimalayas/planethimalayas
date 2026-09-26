@@ -102,42 +102,70 @@ import "../styles/global.css";
 
 <div class="container">
 
-<!-- Exclusive Section -->
-<section class="home-trek-feature reveal">
-  <div class="trek-image">
-    <span class="trek-badge">High Altitude Classic</span>
-    <img src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153775/IMG_20180522_073851_fgrqqb.jpg" alt="Roopkund Lake">
-  </div>
+<!-- ================================
+     PLANETHIMALAYAS TRUST STRIP
+================================ -->
+<section class="ph-trust-strip">
+  <div class="ph-trust-inner">
+    <p class="ph-trust-primary">
+      Small groups. Experienced trek leaders. Thoughtful itineraries.
+    </p>
 
-  <div class="trek-content">
-    <h2 class="trek-content-name">Roopkund <span>Trek</span></h2>
-
-    <div class="trek-meta">
-      <span>📍 Garhwal Himalayas - Uttarakhand</span>
-      <span>🏔️ 15,750 ft / 4,801 m</span>
-      <span>🏁 Basecamp: Wan Village</span>
-      <span>⚡ Moderate-Difficult</span>
-      <span>⏳ 6 Nights / 7 Days</span>
-    </div>
-
-    <div class="trek-text-wrapper">
-      <p class="trek-snippet" id="roopkundSnippet">
-        Journey deep into the Garhwal Himalayas on one of Uttarakhand's most iconic high-altitude treks. From the forests and meadows around Wan Village to the vast alpine landscapes of Bedni Bugyal and the rugged approach towards Roopkund, every day brings a dramatic change in terrain. Trek through ancient forests, expansive high-altitude meadows, and challenging mountain trails before reaching the legendary Roopkund Lake at 15,750 ft. With its demanding climbs, striking Himalayan scenery, and rich cultural landscape, Roopkund is a rewarding adventure for trekkers ready to take on a more challenging Himalayan experience.
-      </p>
-      <button class="read-more-btn" type="button">Read more →</button>
-    </div>
-
-    <a href="/trek/roopkund-trek" class="btn-book">
-      Register Now
-    </a>
+    <p class="ph-trust-secondary">
+      Fixed departures. Private groups.
+    </p>
   </div>
 </section>
 
   <ConfirmedDepartures />
 
+<!-- Exclusive Section -->
+
+<section class="home-trek-feature reveal">
+
+<img
+class="trek-background"
+src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153766/IMG_20180522_073626_rpdqks.jpg"
+alt="Roopkund Lake"
+
+>
+
+  <div class="trek-overlay"></div>
+
+  <div class="trek-content">
+
+<h2 class="trek-content-name">
+  Roopkund <span>Trek</span>
+</h2>
+
+<div class="trek-meta">
+  <span>📍 Garhwal Himalayas - Uttarakhand</span>
+  <span>🏔️ 15,750 ft / 4,801 m</span>
+  <span>🏁 Basecamp: Wan Village</span>
+  <span>⚡ Moderate-Difficult</span>
+  <span>⏳ 6 Nights / 7 Days</span>
+</div>
+
+<div class="trek-text-wrapper">
+  <p class="trek-snippet" id="roopkundSnippet">
+    Journey deep into the Garhwal Himalayas on one of Uttarakhand's most iconic high-altitude treks. From the forests and meadows around Wan Village to the vast alpine landscapes of Bedni Bugyal and the rugged approach towards Roopkund, every day brings a dramatic change in terrain. Trek through ancient forests, expansive high-altitude meadows, and challenging mountain trails before reaching the legendary Roopkund Lake at 15,750 ft. With its demanding climbs, striking Himalayan scenery, and rich cultural landscape, Roopkund is a rewarding adventure for trekkers ready to take on a more challenging Himalayan experience.
+  </p>
+
+  <button class="read-more-btn" type="button">
+    Read more →
+  </button>
+</div>
+
+<a href="/trek/roopkund-trek" class="btn-book">
+  Register Now
+</a>
+
+  </div>
+</section>
+
 <!-- UPCOMING TREKS: Upcoming Season Treks -->
 <section class="trek-section reveal">
-  <h2>Trending <span>Treks</span></h2>
+  <h2>Autumn <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
     <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
     <div class="trek-cards-scroll" id="autumn">
@@ -306,13 +334,15 @@ import "../styles/global.css";
   </div>
 </section>
 
+<div id="testimonials">
+  <Testimonials client:load />
+</div>
+
 <!-- News Section -->
 <section class="news-section reveal">
   <h2 class="news-section-heading">Latest <span>News & Articles</span></h2>
   <NewsSection client:load />
 </section>
-
-
 
 <!-- Faqs Section -->
 <section class="faqs-section reveal">
@@ -369,10 +399,6 @@ import "../styles/global.css";
       <a href="/faqs" target='_blank' rel='noopener noreferrer'>Explore all FAQs →</a>
     </div>
 </section>
-
-<div id="testimonials">
-  <Testimonials client:load />
-</div>
 </div>
 
 <section class="leadgen-section reveal">
@@ -429,26 +455,35 @@ import "../styles/global.css";
 
 <style>
 
+/* =========================================================
+   NEWS / BANNER
+========================================================= */
+
 .banner-wrapper {
   width: 100%;
   height: 30px;
-  position: absolute;   /* pulls it out of flow */
-  top: 125px;           /* two navbars stacked (55px each) */
-  z-index: 90;          /* above hero but below navbars */
+  position: absolute;
+  top: 125px;
+  z-index: 90;
   background: transparent;
   overflow: hidden;
 }
 
 @media (max-width: 768px) {
   .banner-wrapper {
-    top: 70px; /* only one navbar in mobile */
+    top: 70px;
   }
 }
+
+
+/* =========================================================
+   HERO
+========================================================= */
 
 .hero-carousel-3d {
   perspective: 30000px;
   width: 100%;
-  height: 120vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
   color: white;
@@ -467,20 +502,27 @@ import "../styles/global.css";
   position: absolute;
   transform-style: preserve-3d;
   transform: rotateY(0deg);
-  transition: transform 1s linear;
+
+  /* Keep the movement, but make it calm */
+  transition: transform 1s ease;
 }
 
-/* Cube faces */
+
+/* =========================================================
+   CUBE FACES
+========================================================= */
+
 .cube-face {
   position: absolute;
   width: 100%;
   height: 100%;
+
   background-size: cover;
   background-position: center;
+
   backface-visibility: hidden;
 }
 
-/* Position each face */
 .cube-face.front {
   transform: rotateY(0deg) translateZ(50vw);
 }
@@ -493,149 +535,151 @@ import "../styles/global.css";
   transform: rotateY(180deg) translateZ(50vw);
 }
 
-/* Cinematic portrait-style vignette */
+
+/* =========================================================
+   HERO IMAGE OVERLAY
+   Soft protection for text — not a cinematic filter
+========================================================= */
+
 .cube-face .overlay {
   position: absolute;
   inset: 0;
+
   background:
-    radial-gradient(
-      ellipse at 52% 45%,
-      rgba(0, 0, 0, 0.08) 8%,
-      rgba(0, 0, 0, 0.20) 38%,
-      rgba(0, 0, 0, 0.48) 68%,
-      rgba(0, 0, 0, 0.82) 100%
-    ),
     linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.58) 0%,
-      rgba(0, 0, 0, 0.34) 30%,
-      rgba(0, 0, 0, 0.12) 58%,
+      rgba(0, 0, 0, 0.48) 0%,
+      rgba(0, 0, 0, 0.25) 32%,
+      rgba(0, 0, 0, 0.08) 62%,
       rgba(0, 0, 0, 0) 100%
     );
+
   z-index: 1;
 }
 
+
 /* =========================================================
    HERO CONTENT — DESKTOP
-   ========================================================= */
+========================================================= */
 
 .hero-content {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 10%;
+
+  width: 50%;
+  max-width: 600px;
+
   text-align: left;
   z-index: 2;
-  width: 50%;
-  max-width: 900px;
 }
 
 
-/* Main Heading */
+/* =========================================================
+   MAIN HEADING
+========================================================= */
+
 .hero-content h1 {
   position: relative;
+
   font-family: Helvetica, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
   font-weight: 600;
+
   margin: 0 0 1.5rem 0;
+
   color: #fff;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+
+  /* Soft readability only */
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.45);
+
   text-decoration: none;
-  transition: color 0.3s ease;
 }
+
 
 /* =========================================================
    SUBHEADING
-   ========================================================= */
+========================================================= */
 
 .hero-subheading {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.65;
   font-weight: 500;
+
   margin: 0 0 1.5rem 0;
-  max-width: 800px;
-  color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  max-width: 600px;
+
+  color: #fff;
+
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
 
 
 /* =========================================================
    CTA
-   ========================================================= */
+========================================================= */
 
 .cta-button {
   position: relative;
   display: inline-block;
 
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.55);
 
   color: #ff7300;
+
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 17px;
+
   margin: 0 0 1.5rem 0;
-  padding: 0.9rem 2.3rem;
-  border-radius: 10px;
-  border: 2px solid #ff7300;
+  padding: 0.85rem 2.2rem;
+
+  border-radius: 7px;
+  border: 1.5px solid #ff7300;
+
   text-decoration: none;
 
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.35),
-    0 10px 28px rgba(0, 0, 0, 0.35),
-    0 0 12px rgba(255, 115, 0, 0.35);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.22);
 
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease;
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
 }
 
 
-/* CTA glass highlight */
+/* Remove decorative glass highlight completely */
 .cta-button::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.35),
-    rgba(255, 255, 255, 0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
+  display: none;
 }
 
 
-/* CTA hover */
+/* Calm hover */
 .cta-button:hover {
   background: #ff7300;
-  color: #000;
-  transform: translateY(-6px);
+  color: #111;
 
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.45),
-    0 14px 35px rgba(0, 0, 0, 0.45),
-    0 0 30px rgba(255, 115, 0, 1),
-    0 0 60px rgba(255, 115, 0, 0.75);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
 }
 
 
 /* =========================================================
    SECONDARY LINKS
-   ========================================================= */
+========================================================= */
 
 .hero-secondary-links {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
   gap: 22px;
+
   margin: 0 0 1.5rem 0;
+
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.65;
 }
@@ -647,33 +691,35 @@ import "../styles/global.css";
 .hero-secondary-links a {
   color: #fff;
   text-decoration: underline;
-  display: inline-block;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease,
+    text-shadow 0.2s ease;
+
   transform: scale(1);
   transform-origin: center;
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease,
-    text-shadow 0.3s ease;
 }
 
 .hero-secondary-links a:hover {
-  color: #fff;
-  text-decoration: underline;
   transform: scale(1.10);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 }
-
 
 /* =========================================================
    CAROUSEL DOTS
-   ========================================================= */
+========================================================= */
 
 .carousel-dots {
   position: absolute;
   bottom: 25px;
   left: 50%;
+
   transform: translateX(-50%);
+
   display: flex;
-  gap: 10px;
+  gap: 9px;
+
   z-index: 3;
 }
 
@@ -681,52 +727,41 @@ import "../styles/global.css";
   appearance: none;
   -webkit-appearance: none;
 
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  width: 9px;
+  height: 9px;
 
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-
-  border: 2px solid #ff7300;
-  cursor: pointer;
   padding: 0;
   margin: 0;
-  box-sizing: content-box;
 
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.35),
-    0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+  background: rgba(0, 0, 0, 0.35);
+
+  cursor: pointer;
+
+  box-sizing: border-box;
 
   transition:
-    background 0.25s ease,
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
+    background 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .carousel-dots button:hover,
 .carousel-dots button.active {
   background: #ff7300;
-  transform: scale(1.15);
-
-  box-shadow:
-    0 0 12px rgba(255, 115, 0, 0.9),
-    0 0 22px rgba(255, 115, 0, 0.7);
+  border-color: #ff7300;
 }
 
 .carousel-dots button.active {
-  background-color: #ff7300;
-  transform: scale(1.05);
-  box-shadow:
-    0 8px 20px #ff7300,
-    0 6px 15px rgba(0, 0, 0, 0.4);
+  transform: none;
+  box-shadow: none;
 }
 
 
 /* =========================================================
    DESKTOP ARROWS
-   ========================================================= */
+========================================================= */
 
 .carousel-arrow.left {
   left: 40px;
@@ -739,7 +774,7 @@ import "../styles/global.css";
 
 /* =========================================================
    MOBILE
-   ========================================================= */
+========================================================= */
 
 @media (max-width: 768px) {
 
@@ -752,40 +787,60 @@ import "../styles/global.css";
     height: 60vh;
   }
 
+
   .hero-content {
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
+
     width: 88%;
     max-width: 600px;
+
     text-align: center;
   }
+
 
   .hero-content h1 {
     font-size: 2.4rem;
     line-height: 1.2;
+
     margin-bottom: 1.5rem;
+
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.45);
   }
+
 
   .hero-subheading {
     font-size: 1.2rem;
     line-height: 1.55;
+
     margin-bottom: 1.5rem;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
   }
 
+
   .cta-button {
-    font-size: 1.2rem;
-    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+    padding: 0.65rem 2rem;
+
+    border-radius: 7px;
   }
+
 
   .hero-secondary-links {
     justify-content: center;
+
     flex-direction: column;
     gap: 7px;
+
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+
+    font-size: 1.1rem;
     line-height: 1.4;
   }
+
 
   .carousel-arrow {
     display: none;
@@ -793,336 +848,470 @@ import "../styles/global.css";
 }
 
 
-/* Hide dots on desktop */
+/* =========================================================
+   HIDE DOTS ON DESKTOP
+========================================================= */
+
 @media (min-width: 769px) {
   .carousel-dots {
     display: none;
   }
 }
 
-/* ---------------------------------------
+/* =========================================
+   PLANETHIMALAYAS TRUST STRIP
+========================================= */
+
+.ph-trust-strip {
+  width: 100%;
+  background: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.ph-trust-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.7rem 1rem 1.75rem;
+  text-align: center;
+}
+
+/* Main statement */
+.ph-trust-primary {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  color: #222;
+}
+
+/* Secondary statement */
+.ph-trust-secondary {
+  margin: 0.4rem 0 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: #666;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .ph-trust-inner {
+    padding: 1.35rem 1rem 1.4rem;
+  }
+
+  .ph-trust-primary {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .ph-trust-secondary {
+    margin-top: 0.35rem;
+    font-size: 0.86rem;
+    line-height: 1.5;
+  }
+
+}
+
+/* =========================================
    TREK SECTION
------------------------------------------ */
+========================================= */
 
 .trek-section {
-  background-color: white; /* black background */
-  color: #fff;            /* white text globally */
+  background-color: #ffffff;
+  color: #222;
   position: relative;
+  margin-top: 2rem;
 }
 
 .trek-section h2 {
   font-size: 2.5rem;
-  font-family: 'Helvetica', sans-serif;
-  color: black;
+  font-family: "Helvetica", sans-serif;
+  color: #111;
 }
 
-/* ---------------------------------------
+
+/* =========================================
    WRAPPER + SCROLL
------------------------------------------ */
+========================================= */
 
 .trek-cards-wrapper {
   display: flex;
   gap: 1.5rem;
-  overflow-x: auto; /* still scrollable */
-  scroll-behavior: smooth;  
+
   position: relative;
-  scroll-snap-type: x mandatory;
+
   overflow: visible !important;
-  /* Hide scrollbar for all browsers */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .trek-cards-scroll {
   display: flex;
   gap: 1rem;
+
   overflow-x: auto;
+
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 2rem;;
+
   padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-/* Hide scrollbar */
-.trek-cards-scroll::-webkit-scrollbar { display: none; }
-.trek-cards-scroll { scrollbar-width: none; }
+.trek-cards-scroll::-webkit-scrollbar {
+  display: none;
+}
 
 
-/* ---------------------------------------
+/* =========================================
    TREK CARD
------------------------------------------ */
+========================================= */
 
 .trek-card {
   flex: 0 0 30%;
+
   scroll-snap-align: start;
+
   background: #121316;
 
   border-radius: 10px;
-  border: 2px solid #ff7300;
+  border: 1px solid rgba(255, 115, 0, 0.75);
+
   overflow: hidden;
   position: relative;
 
-  /* Increased height */
   min-height: 340px;
 
-  /* 3D + smooth transitions */
-  transform-style: preserve-3d;
-  transition: 
-    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-    border 0.3s ease;
+  /* Very restrained resting shadow */
   box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    0 5px 16px rgba(0, 0, 0, 0.16);
+
+  transform: translateY(0);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
-/* Hover: 3D pop + brand border + directional glow (light from above) */
-.trek-card:hover {
-  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
 
-  /* Directional premium glow */
+/* =========================================
+   CARD HOVER
+========================================= */
+
+.trek-card:hover {
+  transform: translateY(-6px);
+
+  border-color: #ff7300;
+
   box-shadow:
-    0 -4px 10px rgba(0, 0, 0, 0.1),          /* soft shadow on top */
-    0 12px 24px rgba(0, 0, 0, 0.25),         /* stronger shadow below */
-    0 6px 20px rgba(255, 115, 0, 0.95),       /* main bottom glow */
-    0 12px 40px rgba(255, 115, 0, 0.35),     /* diffused bottom glow */
-    inset 0 0 8px rgba(255, 115, 0, 0.1);    /* subtle inner sheen */
+    0 10px 24px rgba(0, 0, 0, 0.22);
 
   z-index: 10;
 }
 
-/* ---------------------------------------
+
+/* =========================================
    TREK IMAGE
------------------------------------------ */
+========================================= */
 
 .trek-card img {
   width: 100%;
   height: 190px;
+
   object-fit: cover;
   display: block;
 
-  /* Smooth cinematic zoom */
   transform: scale(1);
-  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+
+  transition: transform 0.5s ease;
 }
 
-/* Soft, slow zoom — no tilt */
+
+/* Very subtle image movement */
 .trek-card:hover img {
-  transform: scale(1.04);
+  transform: scale(1.025);
 }
 
-/* ---------------------------------------
+
+/* =========================================
    TREK DIFFICULTY BADGE
------------------------------------------ */
+========================================= */
 
 .trek-difficulty {
   position: absolute;
+
   top: 12px;
   left: 12px;
+
   background: #ff7300;
+
   padding: 4px 10px;
-  border-radius: 6px;
+
+  border-radius: 5px;
+
   font-size: 0.75rem;
   font-weight: 600;
+
   color: #000;
-  border: 2px solid rgba(0,0,0,0.75);
-  backdrop-filter: blur(3px);
+
+  border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 
-/* ---------------------------------------
+/* =========================================
    TEXT CONTENT
------------------------------------------ */
+========================================= */
 
 .trek-name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.3rem;
+
   color: #ff7300;
+
   text-align: center;
+
   margin: 1rem 1rem 0.6rem;
 }
 
 .trek-info {
-  display: flex;           /* align spans in a row */
-  justify-content: center; /* center them horizontally */
-  gap: 1.2rem;               /* space between spans */
-  align-items: center;     /* vertically center icons and text */
-  margin: 0.6rem 1rem;            /* keep your existing margin */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.2rem;
+
+  margin: 0.6rem 1rem;
+
   font-size: 0.9rem;
+
   color: #fff;
-  text-align: initial;     /* optional: reset text-align */
+
+  text-align: initial;
 }
 
 
-/* ---------------------------------------
+/* =========================================
    CTA BUTTONS
------------------------------------------ */
+========================================= */
 
 .trek-buttons {
   display: flex;
+
   justify-content: center;
+
   gap: 0.5rem;
+
   margin-top: 0.6rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 
-/* Base CTA — glassy elevated */
+
+/* Clean CTA */
 .trek-card a.btn {
-  padding: 0.35rem 0.8rem;
+  position: relative;
+
+  display: inline-block;
+
+  padding: 0.4rem 0.9rem;
+
   text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
-  border-radius: 6px;
-  border: 2px solid #ff7300;
+
+  border-radius: 5px;
+
+  border: 1px solid #ff7300;
+
   color: #ff7300;
 
-  /* glass base */
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.55);
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255, 115, 0, 0.3);
+    0 3px 8px rgba(0, 0, 0, 0.22);
 
-  transition: all 0.25s ease;
-  position: relative;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
-/* subtle glass reflection */
+
+/* No glass reflection */
 .trek-card a.btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
+  display: none;
 }
 
-/* Hover CTA — brand ON (unchanged behavior) */
+
+/* CTA hover */
 .trek-card a.btn:hover {
   background: #ff7300;
-  color: black;
+
+  color: #000;
+
+  transform: translateY(-1px);
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.4),
-    0 0 22px rgba(255, 115, 0, 1),
-    0 0 40px rgba(255, 115, 0, 0.7);
+    0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 
-/* ---------------------------------------
+/* =========================================
    SCROLL BUTTONS
------------------------------------------ */
+========================================= */
 
 .scroll-btn {
   position: absolute;
+
   top: 50%;
+
   transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border: none;
+
+  width: 38px;
+  height: 38px;
+
+  border: 1px solid #ff7300;
   border-radius: 50%;
+
   cursor: pointer;
-  border: 2px solid #ff7300;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
   color: #ff7300;
-  font-size: 20px;
-  font-weight: bold;
+
+  font-size: 19px;
+  font-weight: 600;
+
   z-index: 20;
 
-  /* glass base */
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
-
+  background: rgba(0, 0, 0, 0.72);
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.3),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255,115,0,0.3);
+    0 4px 12px rgba(0, 0, 0, 0.25);
 
-  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* glass sheen */
+
+/* Remove glass reflection */
 .scroll-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
+  display: none;
 }
 
-/* Hover — brighter glass, same logic */
+
+/* Arrow hover */
 .scroll-btn:hover {
   background: #ff7300;
+
   color: #000;
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 8px 20px rgba(0,0,0,0.4),
-    0 0 18px rgba(255,115,0,0.9);
+    0 5px 14px rgba(0, 0, 0, 0.28);
 }
 
-.scroll-btn.left { left: -15px; }
-.scroll-btn.right { right: -15px; }
 
-/* Inactive state — frosted but disabled */
+/* Arrow positions */
+
+.scroll-btn.left {
+  left: -15px;
+}
+
+.scroll-btn.right {
+  right: -15px;
+}
+
+
+/* =========================================
+   INACTIVE SCROLL BUTTON
+========================================= */
+
 .scroll-btn.at-start,
 .scroll-btn.at-end {
-  opacity: 0.4;
+  opacity: 0.35;
+
   cursor: not-allowed;
+
   box-shadow:
-    inset 0 2px 6px rgba(255,115,0,0.35),
-    0 4px 10px rgba(0,0,0,0.3);
+    0 3px 8px rgba(0, 0, 0, 0.18);
 }
 
-/* Hover does NOT re-enable inactive buttons */
+
+/* Prevent hover animation on inactive arrows */
+
 .scroll-btn.at-start:hover,
 .scroll-btn.at-end:hover {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.72);
+
+  color: #ff7300;
+
   box-shadow:
-    inset 0 2px 6px rgba(255,115,0,0.35),
-    0 4px 10px rgba(0,0,0,0.3);
+    0 3px 8px rgba(0, 0, 0, 0.18);
 }
 
-/* ---------------------------------------
+
+/* =========================================
    MOBILE
------------------------------------------ */
+========================================= */
 
 @media (max-width: 768px) {
 
   .trek-cards-wrapper {
-    padding: 0 12px;   /* side breathing space */
+    padding: 0 12px;
   }
 
   .trek-cards-scroll {
     gap: 0.8rem;
+
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
   }
 
+
   .trek-card {
-    flex: 0 0 85%;   /* NOT 100% → shows next card peek */
+    flex: 0 0 85%;
+
     min-height: 300px;
-    transform: scale(0.95);
-    opacity: 0.85;
+
+    transform: none;
+
+    opacity: 1;
+  }
+
+
+  /* Keep mobile cards stable */
+  .trek-card:hover {
+    transform: none;
+  }
+
+
+  .trek-card img {
+    height: 190px;
+  }
+
+
+  .scroll-btn {
+    display: none;
   }
 }
 
@@ -1132,14 +1321,17 @@ backdrop-filter: blur(15px);
 
 .destination-section {
   background: #fff;
+  margin-bottom: 1rem;
+  margin-top:0;
 }
 
 .destination-section h2 {
   font-size: 2.2rem;
-  font-family: 'Helvetica', sans-serif;
-  color: black;
+  font-family: "Helvetica", sans-serif;
+  color: #111;
   margin-bottom: 1.5rem;
 }
+
 
 /* ---------------------------------------
    GRID
@@ -1151,14 +1343,15 @@ backdrop-filter: blur(15px);
   gap: 1.5rem;
 }
 
+
 /* ---------------------------------------
-   DESTINATION CARD (STRUCTURE)
+   DESTINATION CARD
 ----------------------------------------- */
 
 .destination-card {
   position: relative;
   overflow: hidden;
-  border-radius: 14px;
+
   min-height: 280px;
   padding: 2rem 1.2rem;
 
@@ -1169,93 +1362,98 @@ backdrop-filter: blur(15px);
 
   color: #fff;
 
-  border: 2px solid #ff7300;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
+  border: 1px solid rgba(255, 115, 0, 0.8);
+  border-radius: 12px;
 
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-  backdrop-filter: blur(2px);
+  background: #111;
+
+  box-shadow:
+    0 5px 16px rgba(0, 0, 0, 0.16);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
+
 /* ---------------------------------------
-   BACKGROUND LAYER (THE IMPORTANT PART)
+   BACKGROUND IMAGE
 ----------------------------------------- */
 
 .destination-card::before {
   content: "";
+
   position: absolute;
   inset: 0;
 
-  background-image: inherit;       /* uses inline background */
-  background-size: cover;          /* FULL image, no gaps */
+  background-image: inherit;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  transform: scale(1.05);  /* slight zoom always */
-  transition: transform 6s ease;
+  transform: scale(1.02);
+
+  transition: transform 0.5s ease;
 
   z-index: 0;
 }
 
-/* Dark overlay already in inline gradient, this is just safety */
+
+/* ---------------------------------------
+   IMAGE OVERLAY
+----------------------------------------- */
+
 .destination-card::after {
   content: "";
+
   position: absolute;
   inset: 0;
 
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.65),
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.05)
-  );
-
-  opacity: 0.9;
-  transition: opacity 0.4s ease, background 0.4s ease;
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.68) 0%,
+      rgba(0, 0, 0, 0.35) 45%,
+      rgba(0, 0, 0, 0.12) 100%
+    );
 
   z-index: 1;
 }
 
+
 /* ---------------------------------------
-   HOVER EFFECT
+   CARD HOVER
 ----------------------------------------- */
 
-.destination-card:hover::before {
-  transform: scale(1.18) translateY(-6px);
-}
-
 .destination-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
+
+  border-color: #ff7300;
+
   box-shadow:
-    0 8px 25px rgba(255, 115, 0, 0.8),
-    0 0 22px rgba(255, 115, 0, 1);
+    0 10px 24px rgba(0, 0, 0, 0.22);
+
+  z-index: 2;
 }
 
-.destination-card:hover::after {
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(255, 115, 0, 0.25),
-    rgba(0, 0, 0, 0.1)
-  );
 
-  opacity: 1;
+/* Subtle photograph movement */
+
+.destination-card:hover::before {
+  transform: scale(1.045);
 }
+
 
 /* ---------------------------------------
-   CONTENT ABOVE IMAGE
+   CONTENT
 ----------------------------------------- */
 
 .destination-card > * {
-  transition: transform 0.35s ease;
   position: relative;
   z-index: 2;
 }
 
-.destination-card:hover > * {
-  transform: translateY(-4px);
-}
 
 /* ---------------------------------------
    TEXT
@@ -1263,15 +1461,22 @@ backdrop-filter: blur(15px);
 
 .destination-card h3 {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
+
   color: #ff7300;
+
   margin-bottom: 0.6rem;
 }
 
 .destination-card p {
   font-size: 0.95rem;
+  line-height: 1.55;
+
   margin-bottom: 1rem;
+
+  color: #fff;
 }
+
 
 /* ---------------------------------------
    CTA
@@ -1279,54 +1484,57 @@ backdrop-filter: blur(15px);
 
 .destination-card .btn {
   display: inline-block;
+
   padding: 0.4rem 1rem;
-  border: 2px solid #ff7300;
-  border-radius: 6px;
+
+  border: 1px solid #ff7300;
+  border-radius: 5px;
+
   color: #ff7300;
+
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 0.85rem;
+
   text-decoration: none;
 
-  /* glass base */
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
-
+  background: rgba(0, 0, 0, 0.55);
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255,115,0,0.3);
+    0 3px 8px rgba(0, 0, 0, 0.22);
 
-  transition: all 0.25s ease;
-  position: relative;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* subtle glass reflection */
+
+/* Remove glass reflection */
+
 .destination-card .btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
+  display: none;
 }
 
-/* Hover — brand ON (same logic) */
+
+/* CTA hover */
+
 .destination-card .btn:hover {
   background: #ff7300;
+
   color: #000;
+
+  transform: translateY(-1px);
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.4),
-    0 0 18px rgba(255,115,0,1),
-    0 0 36px rgba(255,115,0,0.7);
+    0 4px 10px rgba(0, 0, 0, 0.25);
 }
+
+
+/* ---------------------------------------
+   MOBILE
+----------------------------------------- */
 
 @media (max-width: 768px) {
 
@@ -1336,38 +1544,53 @@ backdrop-filter: blur(15px);
     text-align: center;
   }
 
+
   .destination-grid {
     gap: 1rem;
   }
 
+
   .destination-card {
-    min-height: 220px;   /* KEY CHANGE */
+    min-height: 220px;
+
     padding: 1.5rem 1rem;
+
     border-radius: 10px;
   }
+
 
   .destination-card h3 {
     font-size: 1.2rem;
   }
 
+
   .destination-card p {
     font-size: 0.85rem;
+    line-height: 1.5;
+
     margin-bottom: 0.8rem;
   }
+
 
   .destination-card .btn {
     padding: 0.45rem 0.9rem;
     font-size: 0.8rem;
   }
 
-  .destination-card:hover::before {
-    transform: scale(1.08);  /* reduce motion */
-  }
 
-  .destination-card:hover > * {
+  /* Keep mobile cards calm */
+
+  .destination-card:hover {
     transform: none;
+
+    box-shadow:
+      0 5px 16px rgba(0, 0, 0, 0.16);
   }
 
+
+  .destination-card:hover::before {
+    transform: scale(1.02);
+  }
 }
 
 .news-section {
@@ -1388,6 +1611,7 @@ backdrop-filter: blur(15px);
 .faqs-section {
   background-color: transparent;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .faqs-section-heading {
@@ -1633,63 +1857,64 @@ input:focus, input:hover, textarea:focus {
   border-radius: 6px;
 }
 
+/* =========================================
+   LEAD GENERATION BUTTON
+========================================= */
+
 .leadgen-btn {
   margin-top: 10px;
   align-self: center;
+
   width: auto;
   min-width: 220px;
-  padding: 14px 36px;
 
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
+  padding: 13px 34px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
   font-size: 18px;
+
   color: #ff7300;
 
-  border-radius: 12px;
-  border: 2px solid #ff7300;
+  background: rgba(0, 0, 0, 0.45);
+
+  border: 1.5px solid #ff7300;
+  border-radius: 8px;
+
   cursor: pointer;
 
-  /* glass base */
-  background: rgba(0, 0, 0, 0.35);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
-
-  /* elevation + soft brand glow */
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 8px 18px rgba(0,0,0,0.35),
-    0 0 12px rgba(255,115,0,0.35);
+    0 5px 14px rgba(0, 0, 0, 0.22);
 
-  transition: all 0.3s ease;
-  position: relative;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* subtle glass reflection */
-.leadgen-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
-}
 
-/* Hover — brand ON */
+/* =========================================
+   HOVER
+========================================= */
+
 .leadgen-btn:hover {
   background: #ff7300;
   color: #000;
-  transform: scale(1.05);
+
+  transform: scale(1.03);
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 12px 28px rgba(0,0,0,0.45),
-    0 0 22px rgba(255,115,0,1),
-    0 0 42px rgba(255,115,0,0.7);
+    0 7px 18px rgba(0, 0, 0, 0.28);
+}
+
+
+/* =========================================
+   ACTIVE / CLICK
+========================================= */
+
+.leadgen-btn:active {
+  transform: scale(1);
 }
 
 @media (max-width: 680px) {
@@ -1703,218 +1928,376 @@ backdrop-filter: blur(15px);
 }
 
 /* ===============================
-   HOME TREK FEATURE LAYOUT
+HOME TREK FEATURE
+FULL-BLEED IMAGE + OVERLAY CONTENT
 ================================ */
 
 .home-trek-feature {
-  display: flex;
-  gap: 1rem;
-  align-items: stretch;
-  padding: 1rem 0;
-  margin-top: 1rem;
+position: relative;
+width: 100vw;
+min-height: 560px;
+
+margin-left: calc(50% - 50vw);
+margin-right: calc(50% - 50vw);
+
+overflow: hidden;
+
+display: flex;
+align-items: center;
+
+padding: 3rem 1rem;
+box-sizing: border-box;
 }
 
 /* ===============================
-   LEFT CONTENT
+BACKGROUND IMAGE
+================================ */
+
+.trek-background {
+position: absolute;
+inset: 0;
+
+width: 100%;
+height: 100%;
+
+object-fit: cover;
+object-position: 15% 100%;
+
+display: block;
+}
+
+/* ===============================
+IMAGE OVERLAY
+Darker on left, almost clear
+toward the image side
+================================ */
+
+.trek-overlay {
+position: absolute;
+inset: 0;
+
+background:
+linear-gradient(
+90deg,
+rgba(0, 0, 0, 0.78) 0%,
+rgba(0, 0, 0, 0.62) 28%,
+rgba(0, 0, 0, 0.28) 52%,
+rgba(0, 0, 0, 0.05) 78%,
+rgba(0, 0, 0, 0) 100%
+);
+
+pointer-events: none;
+}
+
+/* ===============================
+CONTENT
 ================================ */
 
 .trek-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+position: relative;
+z-index: 2;
+
+width: 50%;
+max-width: 680px;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+text-align: left;
+margin-left: 6rem;
+
+color: #fff;
 }
 
 /* ===============================
-   TREK NAME
+TREK NAME
 ================================ */
 
 .trek-content-name {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #000;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  text-align: center;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: 700;
+
+font-size: 2.5rem;
+line-height: 1.15;
+
+color: #fff;
+
+margin: 0 0 1rem 0;
+
+text-align: left;
+}
+
+.trek-content-name span {
+font-weight: 400;
 }
 
 /* ===============================
-   TEXT + READ MORE WRAPPER
-================================ */
-
-.trek-text-wrapper {
-  position: relative;
-}
-
-/* ===============================
-   TREK SNIPPET (5 LINE CLAMP)
-================================ */
-
-.trek-snippet {
-  font-family: Roboto, sans-serif;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #222;
-
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-
-  overflow: hidden;
-  position: relative;
-}
-
-/* FADE EFFECT */
-.trek-snippet::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2.4em;
-  background: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0),
-    #ffffff
-  );
-  pointer-events: none;
-}
-
-/* ===============================
-   EXPANDED STATE
-================================ */
-
-.trek-text-wrapper.expanded .trek-snippet {
-  -webkit-line-clamp: unset;
-}
-
-.trek-text-wrapper.expanded .trek-snippet::after {
-  display: none;
-}
-
-/* ===============================
-   TREK META INFO
+TREK META
 ================================ */
 
 .trek-meta {
-  display: flex;
-  flex-direction: column;   /* stack vertically */
-  gap: 8px;                 /* equal space between rows */
-  margin-bottom: 1rem;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #444;
+display: flex;
+flex-direction: column;
+
+gap: 7px;
+
+margin-bottom: 1rem;
+
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 0.95rem;
+line-height: 1.45;
+
+color: rgba(255, 255, 255, 0.88);
+
+text-align: left;
 }
 
+/* ===============================
+TEXT + READ MORE
+================================ */
 
-/* CTA */
+.trek-text-wrapper {
+position: relative;
+width: 100%;
+}
+
+/* ===============================
+TREK DESCRIPTION
+================================ */
+
+.trek-snippet {
+font-family: Roboto, sans-serif;
+
+font-size: 1rem;
+line-height: 1.65;
+
+font-weight: 400;
+
+color: rgba(255, 255, 255, 0.92);
+
+margin: 0;
+
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 5;
+
+overflow: hidden;
+
+position: relative;
+}
+
+/* ===============================
+FADE EFFECT
+================================ */
+
+.trek-snippet::after {
+content: "";
+
+position: absolute;
+
+left: 0;
+bottom: 0;
+
+width: 100%;
+height: 2.4em;
+
+background: linear-gradient(
+to bottom,
+rgba(0, 0, 0, 0),
+rgba(0, 0, 0, 0.55)
+);
+
+pointer-events: none;
+}
+
+/* ===============================
+EXPANDED STATE
+================================ */
+
+.trek-text-wrapper.expanded .trek-snippet {
+-webkit-line-clamp: unset;
+}
+
+.trek-text-wrapper.expanded .trek-snippet::after {
+display: none;
+}
+
+/* ===============================
+READ MORE
+================================ */
+
+.read-more-btn {
+margin-top: 8px;
+
+padding: 0;
+
+border: none;
+background: none;
+
+font-family: Roboto, sans-serif;
+font-size: 0.9rem;
+font-weight: 600;
+
+color: #ff7300;
+
+cursor: pointer;
+
+text-align: left;
+}
+
+/* ===============================
+CTA
+================================ */
+
 .btn-book {
-  margin: 18px auto 0;
-  width: fit-content;
-  padding: 10px 40px;
+align-self: flex-end;
 
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #ff7300;
-  text-decoration: none;
+margin-top: 1.5rem;
 
-  border-radius: 6px;
-  border: 2px solid #ff7300;
-  cursor: pointer;
+padding: 9px 30px;
 
-  /* glass base */
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+font-family: Roboto, sans-serif;
+font-weight: 600;
+font-size: 0.95rem;
 
+color: #ff7300;
+text-decoration: none;
 
-  /* elevation + soft glow */
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255,115,0,0.35);
+border: 1.5px solid rgba(255, 115, 0, 0.9);
+border-radius: 5px;
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-  position: relative;
+background: rgba(0, 0, 0, 0.38);
+
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+
+box-shadow:
+0 4px 14px rgba(0, 0, 0, 0.22);
+
+transition:
+background 0.2s ease,
+color 0.2s ease,
+transform 0.2s ease,
+box-shadow 0.2s ease;
 }
 
-/* subtle glass reflection */
-.btn-book::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
-}
+/* ===============================
+CTA HOVER
+================================ */
 
-/* Hover — brand ON */
 .btn-book:hover {
-  transform: translateY(-2px);
-  background: #ff7300;
-  color: #000;
+background: #ff7300;
+color: #000;
 
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 10px 24px rgba(0,0,0,0.45),
-    0 0 18px rgba(255,115,0,1),
-    0 0 36px rgba(255,115,0,0.7);
+transform: translateY(-1px);
+
+box-shadow:
+0 6px 18px rgba(0, 0, 0, 0.28);
 }
 
-/* RIGHT IMAGE */
-.trek-image {
-  flex: 1;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-}
+/* ===============================
+MOBILE
+================================ */
 
-.trek-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Exclusive badge */
-.trek-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 3;
-  padding: 8px 16px;
-  font-size: 0.9rem;
-  font-weight: 700;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #000;
-  background: #ff7300;
-  border-radius: 999px;
-  border: 2px solid #ff7300;
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.45),
-    0 14px 35px rgba(0, 0, 0, 0.45),
-    0 0 30px rgba(255, 115, 0, 1),
-    0 0 60px rgba(255, 115, 0, 0.75);
-  letter-spacing: 0.4px;
-}
-
-/* RESPONSIVE */
 @media (max-width: 900px) {
-  .home-trek-feature {
-    flex-direction: column;
-  }
 
-  .trek-image {
-    height: 260px;
-  }
+.home-trek-feature {
+min-height: 620px;
+
+padding: 2.5rem 1rem;
+}
+
+.trek-background {
+object-position: center;
+}
+
+.trek-overlay {
+background:
+linear-gradient(
+90deg,
+rgba(0, 0, 0, 0.76) 0%,
+rgba(0, 0, 0, 0.58) 55%,
+rgba(0, 0, 0, 0.32) 100%
+);
+}
+
+.trek-content {
+width: 70%;
+max-width: none;
+}
+
+.trek-content-name {
+font-size: 2.2rem;
+}
+
+.trek-meta {
+font-size: 0.9rem;
+}
+
+.trek-snippet {
+font-size: 0.95rem;
+line-height: 1.6;
+}
+
+.btn-book {
+margin-top: 1.25rem;
+}
+}
+
+/* ===============================
+SMALL MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+.home-trek-feature {
+min-height: 650px;
+
+padding: 2rem 1rem;
+}
+
+.trek-background {
+object-position: 58% center;
+}
+
+.trek-overlay {
+background:
+linear-gradient(
+90deg,
+rgba(0, 0, 0, 0.82) 0%,
+rgba(0, 0, 0, 0.68) 55%,
+rgba(0, 0, 0, 0.38) 100%
+);
+}
+
+.trek-content {
+width: 82%;
+}
+
+.trek-content-name {
+font-size: 2rem;
+margin-bottom: 0.9rem;
+}
+
+.trek-meta {
+gap: 6px;
+font-size: 0.88rem;
+}
+
+.trek-snippet {
+font-size: 0.92rem;
+line-height: 1.58;
+}
+
+.btn-book {
+align-self: flex-end;
+
+padding: 8px 24px;
+
+font-size: 0.9rem;
+}
 }
 
 </style>

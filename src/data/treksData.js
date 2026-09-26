@@ -70,7 +70,7 @@ export const treks = [
      confirmedDepartures: [
   {
     date: "2026-09-27",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 0,
     status: "upcoming"
   },
@@ -2152,14 +2152,14 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to lunch on Day 7",
 
   dates: [
-  { label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
+  //{ label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
 ],
 
 confirmedDepartures: [
   
   {
     date: "2026-09-26",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 0,
     status: "upcoming"
   }
@@ -2405,9 +2405,9 @@ dates: [
 
 confirmedDepartures: [
   {
-    date: "2026-09-28",
+    date: "2026-10-05",
     showOnHomepage: true,
-    seatsLeft: 0,
+    seatsLeft: 8,
     status: "confirmed"
   }
 ],
@@ -2760,6 +2760,21 @@ confirmedDepartures: [
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 5",
 
+    dates: [   
+    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+  ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
+
     highlights: [
         "Begin trek from Jagatsukh village, near Manali",
         "Pass through lush oak and pine forests with gentle streams",
@@ -2907,7 +2922,7 @@ confirmedDepartures: [
             { emoji: "🧥", label: "Cloakroom facility", value: "Not available" },
         ],
     snippet: 
-"Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas.<br><br><strong>Please note:</stromg> The itinerary is subject to change during winter and spring depending on snow accumulation, trail accessibility, and prevailing weather conditions."    
+"Rani Sui Lake Trek is a short yet mesmerizing Himalayan adventure in the western reaches of Manali, perfect for beginners, families, and those seeking a serene high-altitude experience. The trek begins near Hadimba in Manali, winding gently through dense cedar and oak forests before opening into the lush, flower-filled meadows of Lamadugh. From here, the trail ascends through the Manalsu River valley toward the ridge of Khanpari Tibba (≈ 4,025 m), offering breathtaking panoramic views of towering peaks like Indrasan (6,220 m) and Deo Tibba (6,001 m), while the Beas River valley stretches below in all its splendor. <br>Along the way, trekkers encounter vibrant alpine flora, rhododendron shrubs, and the occasional Himalayan Monal, fox, or bear. The crown jewel of the trek is the pristine Rani Sui Lake, surrounded by snow-dusted slopes and rolling meadows, offering a tranquil spot to soak in the Himalayan beauty. The route also takes adventurers over Saurkundi Pass and down to Mahili Thach, providing uninterrupted vistas of the Pir Panjal and Dhauladhar ranges, along with the glimmering Manalsu Glacier. <br>In just 4 days, this trek combines easy-to-moderate trails, spectacular high-altitude landscapes, wildlife encounters, and alpine serenity, making it an ideal escape for anyone looking to immerse themselves in the magic of the Himachal Himalayas."    
     },
 
     price: 8400,
@@ -2925,7 +2940,6 @@ confirmedDepartures: [
   { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
   { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
-  { label: "23 Nov - 26 Nov", start: "2026-11-23", end: "2026-11-26" },
 ],
 
 confirmedDepartures: [
@@ -3418,20 +3432,21 @@ description:
     offloadingNote: "* Maximum weight 9kg/bag"
   },
 
-  dates: [   
+  dates: [
+  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
+  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
+  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+],
 
-//{ label: "08 Jul - 10 Jul", start: "2026-07-08", end: "2026-07-10" },
-
-  ],
-
- // confirmedDepartures: [
-  //{
-  //  date: "2026-07-08",
-  //  showOnHomepage: false,
-  //  seatsLeft: 0,
-   // status: "confirmed"
- // },
-//],
+  confirmedDepartures: [
+  {
+    date: "2026-07-08",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  },
+],
 
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 3 lunch",
 
@@ -3637,7 +3652,6 @@ description:
   { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
   { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
-  { label: "23 Nov - 26 Nov", start: "2026-11-23", end: "2026-11-26" },
 ],
 
 confirmedDepartures: [
@@ -4206,9 +4220,9 @@ questions: [
 
     dates: [      
 
-      //{ label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-
-      //{ label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
+      { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
     ],
 
     highlights: [
@@ -4477,9 +4491,9 @@ questions: [
 
     dates: [
 
-      //{ label: "26 Sep - 02 Oct", start: "2026-09-26", end: "2026-10-02" },
-
-      //{ label: "03 Oct - 09 Oct", start: "2026-10-03", end: "2026-10-09" },
+      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
+      { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
     ],
 
     highlights: [
@@ -4994,10 +5008,12 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
-    dates: [   
-
-//{ label: "27 Apr - 02 May", start: "2026-04-27", end: "2026-05-02" },
-
+    dates: [
+      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
+  { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
 
   ],
 
@@ -5226,25 +5242,17 @@ waypoints: [
   //},
 
     dates: [
-  { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
-
   { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+  { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
   { label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
 ],
 
 confirmedDepartures: [
-  
-  {
-    date: "2026-09-27",
-    showOnHomepage: true,
-    seatsLeft: 7,
-    status: "confirmed"
-  },
   {
     date: "2026-10-04",
     showOnHomepage: true,
     seatsLeft: 8,
-    status: "upcoming"
+    status: "confirmed"
   }
 ],
 
@@ -5494,7 +5502,7 @@ waypoints: [
 
     dates: [
       
-      { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
+     // { label: "27 Sep - 04 Oct", start: "2026-09-27", end: "2026-10-04" },
 
     ],
 
@@ -5751,7 +5759,7 @@ Kedartal is a trek meant for seasoned trekkers who seek challenge, exposure, and
 
   dates: [
       
-      { label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
+      //{ label: "27 Sep - 03 Oct", start: "2026-09-27", end: "2026-10-03" },
 
     ],
 
@@ -6040,10 +6048,13 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-
-      //{ label: "07 Jun - 12 Jun", start: "2026-06-07", end: "2026-06-12" },
-
-    ],
+      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+      { label: "25 Oct - 30 Oct", start: "2026-10-25", end: "2026-10-30" },
+  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  
+],
 
     highlights: [
       "Magnificent Ridge Walk with uninterrupted views of snow-clad peaks like Swargarohini, Bandarpoonch, and Kalanag.",
@@ -6687,9 +6698,7 @@ itinerary: [
   inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [
-      
-      { label: "20 Sep - 25 Sep", start: "2026-09-20", end: "2026-09-25" },
-      { label: "04 Oct - 09 Oct", start: "2026-10-04", end: "2026-10-09" },
+      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
   ],
 
   highlights: [
@@ -7306,8 +7315,22 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
-    [31.0146, 78.4534], // Hanuman Chatti (start)
-    [31.0146, 78.4534], // Hanuman Chatti (end)
+        [30.93258299131283, 78.39894760261308], // Hanuman Chatti (start)
+        [30.92519544000902, 78.41185016150915], // Nishni Village
+        [30.918386584672884, 78.43288689468848], // Kandola Thatch
+        [30.90327977239666, 78.44190263734629], // Seema Thatch
+        [30.892601090252963, 78.45650505827787], // Gulabi Kantha
+        [30.90327977239666, 78.44190263734629], // Seema Thatch
+        [30.918386584672884, 78.43288689468848], // Kandola Thatch
+        [30.92519544000902, 78.41185016150915], // Nishni Village
+        [30.93258299131283, 78.39894760261308], // Hanuman Chatti (end)
+    ],
+     waypoints: [
+  { name: "Hanuman Chatti (Start/End)", coords: [30.93258299131283, 78.39894760261308], type: "start/end" },
+  { name: "Nishni Village", coords: [30.92519544000902, 78.41185016150915], type: "village" },
+  { name: "Kandola Thatch", coords: [30.918386584672884, 78.43288689468848], type: "meadow" },
+  { name: "Seema Thatch", coords: [30.90327977239666, 78.44190263734629], type: "meadow" },
+  { name: "Gulabi Kantha", coords: [30.892601090252963, 78.45650505827787], type: "viewpoint" },
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1766670797/gulabi-kantha-trek-hero_xz4rxq.webp",
@@ -7493,8 +7516,24 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
-    [31.0362, 78.1746], // Sankri (base)
-    [31.0837, 78.2167], // Kedarkantha summit
+        [31.077863274075952, 78.18398339053142], // Sankri (start)
+        [31.078036523377673, 78.18424955364587], // market
+        [31.0727890058261, 78.19002778751774], // trek starting point
+        [31.05300528629694, 78.18377094684918], // Juda ka talab
+        [31.03207315354983, 78.17803596298577], // Base Camp
+        [31.02362037792136, 78.17279801114032], // Kedarkantha summit
+        [31.03207315354983, 78.17803596298577], // Base Camp
+        [31.046159445696503, 78.17788303009121], // Hargaon 
+        [31.0727890058261, 78.19002778751774], // trek starting point
+        [31.078036523377673, 78.18424955364587], // market
+        [31.077863274075952, 78.18398339053142], // Sankri (end)
+    ],
+     waypoints: [
+  { name: "Sankri (Start/End)", coords: [31.077863274075952, 78.18398339053142], type: "start/end" },
+  { name: "Juda Ka Talab", coords: [31.05300528629694, 78.18377094684918], type: "lake" },
+  { name: "Kedarkantha Base Camp", coords: [31.03207315354983, 78.17803596298577], type: "meadow" },
+  { name: "Kedarkantha Summit", coords: [31.02362037792136, 78.17279801114032], type: "peak" },
+  { name: "Hargaon", coords: [31.046159445696503, 78.17788303009121], type: "campsite" },
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535492/kedarkantha-hero_afsxo1.jpg",
@@ -7732,9 +7771,19 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   region: "uttarakhand-garhwal",
   duration: "4 Nights / 5 Days",
   coordinates: [
-    [30.8376, 78.5651], // Barsu (base village)
-    [30.8783, 78.5877], // Dayara Bugyal
-    [30.8922, 78.6024], // Bakaria Top (highest point)
+        [30.842146650361453, 78.60121887803504], // Barsu (start)
+        [30.836558429202057, 78.57750320599159], // Barnala Tal
+        [30.836681059745825, 78.55839907318375], // Dayara Bugyal
+        [30.823536596054474, 78.54038092767401], // Bakariya Top
+        [30.836681059745825, 78.55839907318375], // Dayara Bugyal
+        [30.836558429202057, 78.57750320599159], // Barnala Tal
+        [30.842146650361453, 78.60121887803504], // Barsu (end)
+    ],
+     waypoints: [
+  { name: "Barsu (Start/End)", coords: [30.842146650361453, 78.60121887803504], type: "start/end" },
+  { name: "Barnala Tal", coords: [30.836558429202057, 78.57750320599159], type: "lake" },
+  { name: "Dayara Bugyal", coords: [30.836681059745825, 78.55839907318375], type: "meadow" },
+  { name: "Bakariya Top", coords: [30.823536596054474, 78.54038092767401], type: "viewpoint" },
   ],
 
   heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1756831840/dayara-hero_xad9ui.jpg",
@@ -8230,8 +8279,14 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
     "🍽️ All Meals – Nutritious meals provided during the trek from Day1 Lunch to Day3 Lunch",
 
   dates: [
-    // ADD VERIFIED CURRENT DEPARTURE DATES HERE
-  ],
+  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
+  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
+  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+  { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
+  { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
+  { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
+],
 
   highlights: [
     "Short Himalayan trek that fits comfortably into a weekend itinerary",
@@ -8705,7 +8760,6 @@ waypoints: [
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
 
   dates: [
-    { label: "19 Sep - 26 Sep", start: "2026-09-19", end: "2026-09-26" },
     { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
   ],
 
@@ -9645,7 +9699,11 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 6",
 
     dates: [  
-    { label: "07 Oct - 13 Oct", start: "2026-10-07", end: "2026-10-13" },    
+    { label: "07 Oct - 13 Oct", start: "2026-10-07", end: "2026-10-13" },
+    { label: "09 Oct - 15 Oct", start: "2026-10-09", end: "2026-10-15" },    
+    { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
+    { label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
+    
   ],
 
    confirmedDepartures: [
@@ -9653,7 +9711,7 @@ waypoints: [
     date: "2026-10-07",
     showOnHomepage: true,
     seatsLeft: 8,
-    status: "upcoming"
+    status: "confirmed"
   },
 ],
 
@@ -10997,12 +11055,22 @@ waypoints: [
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 3",
 
   dates: [
-    
-    // { label: "26 Apr - 28 Apr", start: "2026-04-26", end: "2026-04-28" },
-
-    // { label: "03 May - 05 May", start: "2026-05-03", end: "2026-05-05" },
-    
-  ],
+  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
+  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
+  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+  { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
+  { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
+  { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
+],
+  confirmedDepartures: [
+  {
+    date: "2026-09-28",
+    showOnHomepage: false,
+    seatsLeft: 0,
+    status: "confirmed"
+  }
+],
 
   highlights: [
     "Close-up views of Panchachuli peaks right from the campsite",
@@ -11939,10 +12007,22 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
 
   dates: [
-   
-     
-      // { label: "24 May - 30 May", start: "2026-05-24", end: "2026-05-30" },
-
+    { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+{ label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
+{ label: "31 Oct - 06 Nov", start: "2026-10-31", end: "2026-11-06" },
+{ label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
+{ label: "28 Nov - 04 Dec", start: "2026-11-28", end: "2026-12-04" },
+{ label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
+{ label: "19 Dec - 25 Dec", start: "2026-12-19", end: "2026-12-25" },
+{ label: "02 Jan - 08 Jan", start: "2027-01-02", end: "2027-01-08" },
+{ label: "16 Jan - 22 Jan", start: "2027-01-16", end: "2027-01-22" },
+{ label: "30 Jan - 05 Feb", start: "2027-01-30", end: "2027-02-05" },
+{ label: "13 Feb - 19 Feb", start: "2027-02-13", end: "2027-02-19" },
+{ label: "27 Feb - 05 Mar", start: "2027-02-27", end: "2027-03-05" },
+{ label: "13 Mar - 19 Mar", start: "2027-03-13", end: "2027-03-19" },
+{ label: "27 Mar - 02 Apr", start: "2027-03-27", end: "2027-04-02" },
+{ label: "10 Apr - 16 Apr", start: "2027-04-10", end: "2027-04-16" },
+{ label: "24 Apr - 30 Apr", start: "2027-04-24", end: "2027-04-30" },
     ],
 
   highlights: [

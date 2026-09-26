@@ -3,153 +3,232 @@
 ========================== */
 
 .testimonials {
-  background-color: white; 
-  color: #000;
+  background: #fff;
+  color: #222;
   position: relative;
+  padding-top: 1rem;
 }
 
 .testimonials-heading {
   font-size: 2.5rem;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 600;
   text-align: left;
-  color: #000;
+  color: #111;
 }
 
 .testimonials h2 span {
   color: #ff7300;
-  border-bottom: 4px solid #ff7300;
+  border-bottom: 3px solid #ff7300;
   padding-bottom: 2px;
   display: inline-block;
 }
 
-/* Card wrapper with horizontal scroll */
+
+/* ==========================
+   CARD WRAPPER
+========================== */
+
 .testimonials-card-wrapper {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
+
   overflow-x: auto;
+
   scroll-behavior: smooth;
-  padding: 2rem 0;
-  position: relative;
   scroll-snap-type: x mandatory;
 
-  -ms-overflow-style: none;  /* IE & Edge */
-  scrollbar-width: none;     /* Firefox */
-}
-.testimonials-card-wrapper::-webkit-scrollbar {
-  display: none;             /* Chrome, Safari, Opera */
+  padding: 1.75rem 0 2rem;
+
+  position: relative;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-/* Individual testimonial card */
+.testimonials-card-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* ==========================
+   INDIVIDUAL TESTIMONIAL
+========================== */
+
 .testimonial-card {
   flex: 0 0 32%;
   max-width: 33.3333%;
+
   scroll-snap-align: start;
-  background: #121316;
-  border-radius: 12px;
-  border: 2px solid #ff7300;
-  padding: 2rem;
-  color: #fff;
-  transform-style: preserve-3d;
-  transition: transform 0.4s cubic-bezier(0.22,1,0.36,1),
-              box-shadow 0.4s cubic-bezier(0.22,1,0.36,1),
-              border 0.3s ease;
-  box-shadow: 0 4px 12px rgba(255,115,0,0.45),
-              0 0 10px rgba(255,115,0,0.3);
+
+  background: #ffffff;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.09);
+
+  padding: 1.7rem;
+
+  color: #333;
+
   position: relative;
-  z-index: 5; /* behind arrows */
+
+  z-index: 5;
+
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.07);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .testimonial-card:hover {
-  transform: translateY(-16px) rotateX(4deg) rotateY(2deg);
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.1),
-              0 12px 24px rgba(0,0,0,0.25),
-              0 6px 20px rgba(255,115,0,0.95),
-              0 12px 40px rgba(255,115,0,0.35),
-              inset 0 0 8px rgba(255,115,0,0.1);
+  transform: translateY(-4px);
+
+  border-color: rgba(255, 115, 0, 0.35);
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.10);
 }
 
-/* Header and info */
+
+/* ==========================
+   HEADER
+========================== */
+
 .testimonial-header {
   display: flex;
   align-items: center;
+
   margin-bottom: 1rem;
 }
 
 .testimonial-pic {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
+
   border-radius: 50%;
+
   object-fit: cover;
-  margin-right: 15px;
-  border: 2px solid #ff7300;
+
+  margin-right: 14px;
+
+  border: 2px solid rgba(255, 115, 0, 0.65);
 }
 
+
+/* ==========================
+   PERSON INFORMATION
+========================== */
+
 .testimonial-info h3 {
-  color: #ff7300;
+  margin: 0;
+
+  font-family: "Helvetica", sans-serif;
+
+  font-size: 1.05rem;
+  font-weight: 600;
+
+  color: #222;
 }
 
 .testimonial-profession,
 .testimonial-social a {
-  color: #fff;
+  color: #777;
+
+  font-size: 0.84rem;
 }
 
-.testimonial-stars {
-  color: #ff7300;
+.testimonial-social a {
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease;
 }
 
 .testimonial-social a:hover {
   color: #ff7300;
 }
 
-/* Read More button */
-.read-more-btn {
-  background: none;
-  border: none;
+
+/* ==========================
+   STAR RATING
+========================== */
+
+.testimonial-stars {
   color: #ff7300;
-  cursor: pointer;
-  margin-top: 0.5rem;
-  align-self: flex-start;
-  font-weight: bold;
+
   font-size: 0.9rem;
-  padding: 0;
+
+  margin-top: 3px;
 }
 
-/* Clamp effect for text */
+
+/* ==========================
+   TESTIMONIAL TEXT
+========================== */
+
 .testimonial-text {
   position: relative;
+
   display: -webkit-box;
-  display: box; /* optional fallback */
-  
+  display: box;
+
   -webkit-line-clamp: 5;
-  line-clamp: 5; /* 👈 add this */
+  line-clamp: 5;
 
   -webkit-box-orient: vertical;
   box-orient: vertical;
+
   overflow: hidden;
-  font-size: 1rem;
-  line-height: 1.4;
-  margin-top: 0.5rem;
-  transition: max-height 0.45s ease;
+
+  font-family: "Roboto", sans-serif;
+
+  font-size: 0.96rem;
+
+  font-weight: 400;
+
+  line-height: 1.65;
+
+  color: #444;
+
+  margin-top: 0.7rem;
+
+  transition: max-height 0.3s ease;
 }
 
-.testimonial-card:not(.expanded) .testimonial-text::after {
+
+/* Soft fade at bottom of truncated review */
+
+.testimonial-card:not(.expanded)
+.testimonial-text::after {
   content: "";
+
   position: absolute;
+
   bottom: 0;
   left: 0;
+
   width: 100%;
-  height: 30px;
+  height: 32px;
+
   background: linear-gradient(
-  to bottom,
-  rgba(18, 19, 22, 0),
-  rgba(18, 19, 22, 0.65),
-  #121316
-);
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.95)
+  );
+
   pointer-events: none;
 }
 
+
+/* Expanded review */
+
 .testimonial-card.expanded .testimonial-text {
   display: block;
+
   max-height: none !important;
 }
 
@@ -157,98 +236,201 @@
   display: none;
 }
 
+
+/* ==========================
+   READ MORE
+========================== */
+
+.read-more-btn {
+  background: none;
+
+  border: none;
+
+  color: #ff7300;
+
+  cursor: pointer;
+
+  margin-top: 0.55rem;
+
+  align-self: flex-start;
+
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 600;
+
+  font-size: 0.86rem;
+
+  padding: 0;
+
+  transition:
+    color 0.2s ease;
+}
+
+.read-more-btn:hover {
+  color: #d95f00;
+}
+
+
 /* ==========================
    SCROLL BUTTONS
 ========================== */
+
 .scroll-btn {
   position: absolute;
+
   top: 50%;
+
   transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border: none;
+
+  width: 38px;
+  height: 38px;
+
+  border: 1px solid #ff7300;
+
   color: #ff7300;
+
   font-size: 20px;
-  font-weight: bold;
+
+  font-weight: 600;
+
   border-radius: 50%;
-  border: 2px solid #ff7300;
+
   cursor: pointer;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20; /* always above cards */
-  /* glass base */
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+
+  z-index: 20;
+
+  background: #ffffff;
 
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.3),
-    0 6px 14px rgba(0,0,0,0.35),
-    0 0 10px rgba(255,115,0,0.3);
+    0 4px 12px rgba(0, 0, 0, 0.12);
 
-  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* glass sheen */
+
+/* Remove old glass reflection */
+
 .scroll-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.45),
-    rgba(255,255,255,0.05)
-  );
-  opacity: 0.35;
-  pointer-events: none;
+  display: none;
 }
+
 
 .scroll-btn:hover {
   background: #ff7300;
+
   color: #000;
+
   box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.45),
-    0 8px 20px rgba(0,0,0,0.4),
-    0 0 18px rgba(255,115,0,0.9);
+    0 5px 14px rgba(0, 0, 0, 0.16);
 }
 
-.scroll-btn.left { left: -15px; }
-.scroll-btn.right { right: -15px; }
 
-/* Inactive state — frosted but disabled */
+.scroll-btn.left {
+  left: -15px;
+}
+
+.scroll-btn.right {
+  right: -15px;
+}
+
+
+/* ==========================
+   INACTIVE SCROLL BUTTON
+========================== */
+
 .scroll-btn.at-start,
 .scroll-btn.at-end {
-  opacity: 0.4;
+  opacity: 0.35;
+
   cursor: not-allowed;
+
   box-shadow:
-    inset 0 2px 6px rgba(255,115,0,0.35),
-    0 4px 10px rgba(0,0,0,0.3);
+    0 3px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Hover does NOT re-enable inactive buttons */
+
+/* Keep inactive buttons visually inactive */
+
 .scroll-btn.at-start:hover,
 .scroll-btn.at-end:hover {
-  background: rgba(255, 255, 255, 0.14);
+  background: #ffffff;
+
+  color: #ff7300;
+
   box-shadow:
-    inset 0 2px 6px rgba(255,115,0,0.35),
-    0 4px 10px rgba(0,0,0,0.3);
+    0 3px 8px rgba(0, 0, 0, 0.08);
 }
+
 
 /* ==========================
    RESPONSIVE
 ========================== */
+
 @media (max-width: 1024px) {
+
   .testimonial-card {
     flex: 0 0 50%;
     max-width: 50%;
   }
+
 }
 
+
+/* ==========================
+   MOBILE
+========================== */
+
 @media (max-width: 768px) {
+
+  .testimonials-heading {
+    font-size: 1.9rem;
+  }
+
+  .testimonials-card-wrapper {
+    gap: 0.9rem;
+
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+  }
+
   .testimonial-card {
     flex: 0 0 100%;
     max-width: 100%;
+
+    padding: 1.45rem;
+
+    border-radius: 9px;
+
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.07);
   }
+
+  .testimonial-card:hover {
+    transform: none;
+
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.07);
+  }
+
+  .testimonial-pic {
+    width: 54px;
+    height: 54px;
+  }
+
+  .testimonial-text {
+    font-size: 0.93rem;
+    line-height: 1.6;
+  }
+
+  .scroll-btn {
+    display: none;
+  }
+
 }

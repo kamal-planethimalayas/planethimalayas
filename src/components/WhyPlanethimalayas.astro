@@ -155,159 +155,102 @@ import "../styles/global.css";
 </section>
 
 <style>
-  /* ============================================
-   WHY CHOOSE SECTION  — BLACK CARDS + BRAND GLOW
-   ============================================ */
+/* =========================================================
+   SHARED SECTION STYLING
+   Clean, calm, photography-led Planethimalayas style
+   ========================================================= */
+
+.about-icon-section,
 .why-choose-section {
-  background: transparent;
-  color: #000;
-  font-family: 'Helvetica', Arial, sans-serif;
-  padding-bottom: 2rem;
+  background: #fff;
+  color: #222;
+  font-family: "Helvetica", Arial, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
+
+/* =========================================================
+   ABOUT ICON SECTION
+   ========================================================= */
+
+.about-icon-section {
+  padding: 1rem 0 1rem;
+}
+
+.about-icon-section h2,
 .why-choose-section h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #000;
+  margin: 0;
+  font-size: 2.35rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #111;
 }
 
+.about-icon-section h2 span,
 .why-choose-section h2 span {
   color: #ff7300;
-  border-bottom: 4px solid #ff7300; /* brand underline */
+  border-bottom: 3px solid #ff7300;
   display: inline-block;
+  padding-bottom: 2px;
 }
 
+.about-icon-section .subtitle,
 .why-choose-section .subtitle {
-  font-size: 1.1rem;
-  color: #444;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  margin: 0;
+  padding: 0.9rem 0 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #666;
 }
 
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-}
 
-/* 🔥 Make all cards black, white text */
-.feature-card {
-  background: #121316;
-  border-radius: 16px;
-  border: 2px solid #ff7300;
-  padding: 40px 30px;
-  box-shadow:
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: all 0.35s ease;
-}
+/* =========================================================
+   ABOUT ROWS
+   ========================================================= */
 
-/* 🌟 HOVER → Brand border + strong bulb glow */
-.feature-card:hover {
-  transform: translateY(-10px);
-  border-color: #ff7300;
-
-  box-shadow:
-    0 0 40px rgba(255, 115, 0, 0.95),   /* strong outer glow */
-    0 0 80px rgba(255, 115, 0, 0.55),   /* diffused second layer */
-    inset 0 0 25px rgba(255, 255, 255, 0.2); /* subtle inner light */
-}
-
-/* Make icons sit well on black background */
-.feature-card .icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 12px;
-  background: tranparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: all 0.4s ease;
-}
-
-.feature-card .icon svg {
-  width: 40px;
-  height: 40px;
-  transition: all 0.3s ease;
-}
-
-/* Brand glow on icon too */
-.feature-card:hover .icon svg {
-  transform: scale(1.15);
-  filter: drop-shadow(0 0 12px #ff7300);
-}
-
-.feature-card h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #ff7300;
-}
-
-.feature-card p {
-  color: #fff;
-  line-height: 1.7;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* ============================================
-   ABOUT ICON SECTION — BLACK CARDS + WHITE TEXT
-   (BUT keep ALL hover functions exactly as they are)
-   ============================================ */
-
-/* ABOUT ICON SECTION — headings remain on white background */
-.about-icon-section {
-  background: transparent;
-  color: #000;
-  font-family: 'Helvetica', Arial, sans-serif;
-}
-
-/* Heading + subtitle stay unchanged */
-.about-icon-section h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #000; /* unchanged */
-}
-
-.about-icon-section h2 span {
-  color: #ff7300;
-  border-bottom: 4px solid #ff7300; /* brand underline */
-  display: inline-block;
-}
-
-.about-icon-section .subtitle {
-  color: #444; /* unchanged */
-  font-size: 1.1rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-/* ------------------------------------------
-   ROWS — only this becomes black with white text
-   ------------------------------------------ */
 .about-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
+  gap: 3.5rem;
 
-  background: transparent;   /* NEW */
-  padding: 40px 30px; /* NEW spacing */
-  border-radius: 16px;/* NEW */
+  margin-bottom: 2rem;
+  padding: 1.8rem 0;
+
+  background: transparent;
+  border-radius: 0;
 }
 
-/* Reverse row stays black like the normal row */
 .about-row.reverse {
   flex-direction: row-reverse;
-  background: transparent;
 }
 
-/* ------------------------------------------
-   ICON BOX — stays SAME colors as before
-   DO NOT change icon background or gradients
-   ------------------------------------------ */
+
+/* =========================================================
+   ABOUT ICON BOXES
+   Keep the original coloured identity,
+   but remove the exaggerated 3D/glow behaviour.
+   ========================================================= */
+
+.icon-box {
+  width: 145px;
+  height: 145px;
+
+  flex: 0 0 145px;
+
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
 
 .gradient-blue {
   background: linear-gradient(135deg, #45b6fe, #1e3c72);
@@ -321,97 +264,365 @@ import "../styles/global.css";
   background: linear-gradient(135deg, #10b981, #0d7357);
 }
 
-.icon-box {
-  width: 160px;
-  height: 160px;
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  transition: all 0.5s ease;
-  perspective: 600px;
-  /* NO background override — Keep original gradient colors */
-}
 
-/* Hover effects remain EXACTLY SAME */
-/* Hover effects remain EXACTLY SAME — only glow upgraded */
-.gradient-blue:hover {
-  transform: translateY(-10px) rotateY(12deg);
-  box-shadow: 
-    0 0 40px rgba(69, 182, 254, 0.9),
-    0 0 80px rgba(69, 182, 254, 0.6),
-    inset 0 0 20px rgba(255,255,255,0.3);
-}
+/* Calm hover — no rotation, no giant glow */
 
-.gradient-pink:hover {
-  transform: translateY(-10px) rotateY(-12deg);
-  box-shadow: 
-    0 0 40px rgba(236, 72, 153, 0.9),
-    0 0 80px rgba(236, 72, 153, 0.6),
-    inset 0 0 20px rgba(255,255,255,0.3);
-}
-
+.gradient-blue:hover,
+.gradient-pink:hover,
 .gradient-green:hover {
-  transform: translateY(-10px) rotateY(10deg);
-  box-shadow: 
-    0 0 40px rgba(16, 185, 129, 0.9),
-    0 0 80px rgba(16, 185, 129, 0.6),
-    inset 0 0 20px rgba(255,255,255,0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
 }
 
-/* Icons remain same */
+
 .icon-box svg {
-  width: 80px;
-  height: 80px;
-  transition: all 0.5s ease;
+  width: 68px;
+  height: 68px;
+  transition: transform 0.25s ease;
 }
 
-/* ------------------------------------------
-   TEXT BOX — only turn text white inside rows
-   ------------------------------------------ */
+.icon-box:hover svg {
+  transform: scale(1.04);
+}
+
+
+/* =========================================================
+   ABOUT TEXT
+   ========================================================= */
+
 .text-box {
   flex: 1;
-  margin-left: 50px;
   max-width: 800px;
-  color: #000; /* NEW */
+  margin-left: 0;
+  color: #222;
 }
 
 .about-row.reverse .text-box {
   margin-left: 0;
-  margin-right: 50px;
-  color: #000;
+  margin-right: 0;
 }
 
 .text-box h3 {
-  font-size: 1.4rem;
+  margin: 0 0 0.65rem;
+
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.35;
   font-weight: 600;
-  margin-bottom: 12px;
-  color: #ff7300; /* white inside black row */
+
+  color: #222;
 }
 
 .text-box p {
-  color: #000;         /* soft white text */
-  line-height: 1.7;
-  font-family: 'Roboto', sans-serif;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.97rem;
+  line-height: 1.75;
+  font-weight: 400;
+
+  color: #555;
 }
 
-/* Responsive */
+
+/* =========================================================
+   SECTION SEPARATOR
+   ========================================================= */
+
+.section-separator {
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.07);
+}
+
+
+/* =========================================================
+   WHY CHOOSE US
+   ========================================================= */
+
+.why-choose-section {
+  padding: 1rem 0 1rem;
+}
+
+.why-choose-section h2 {
+  text-align: left;
+}
+
+.why-choose-section .subtitle {
+  padding-bottom: 1.7rem;
+}
+
+
+/* =========================================================
+   FEATURE GRID
+   ========================================================= */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+
+/* =========================================================
+   FEATURE CARDS
+   Clean white cards instead of black/glowing cards
+   ========================================================= */
+
+.feature-card {
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 11px;
+
+  padding: 1.6rem 1.5rem;
+
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.055);
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(255, 115, 0, 0.28);
+
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.09);
+}
+
+
+/* =========================================================
+   FEATURE ICONS
+   Keep their individual colours.
+   No orange glow.
+   ========================================================= */
+
+.feature-card .icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 1rem;
+
+  background: transparent;
+}
+
+.feature-card .icon svg {
+  width: 40px;
+  height: 40px;
+
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover .icon svg {
+  transform: scale(1.04);
+}
+
+
+/* =========================================================
+   FEATURE CARD TEXT
+   ========================================================= */
+
+.feature-card h3 {
+  margin: 0 0 0.55rem;
+
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 1.12rem;
+  line-height: 1.35;
+  font-weight: 600;
+
+  color: #222;
+}
+
+.feature-card p {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  font-weight: 400;
+
+  color: #666;
+}
+
+
+/* =========================================================
+   REMOVE OLD CARD COLOUR DEPENDENCIES
+   These classes remain available because they exist in HTML,
+   but they no longer force different card backgrounds.
+   ========================================================= */
+
+.feature-card.yellow,
+.feature-card.purple,
+.feature-card.blue,
+.feature-card.green,
+.feature-card.cyan,
+.feature-card.emerald {
+  background: #fff;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1024px) {
+
+  .about-icon-section h2,
+  .why-choose-section h2 {
+    font-size: 2.15rem;
+  }
+
+  .about-row {
+    gap: 2.5rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.15rem;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 768px) {
+
+  .about-icon-section,
+  .why-choose-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about-icon-section h2,
+  .why-choose-section h2 {
+    font-size: 1.85rem;
+    line-height: 1.25;
+  }
+
+  .about-icon-section .subtitle,
+  .why-choose-section .subtitle {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    padding-top: 0.75rem;
+    padding-bottom: 1.4rem;
+  }
+
+
+  /* About rows */
+
   .about-row,
   .about-row.reverse {
     flex-direction: column;
-    text-align: left;
-    padding: 30px 20px;
-  }
+    align-items: flex-start;
 
-  .text-box {
-    margin: 30px 0 0 0;
+    gap: 1.25rem;
+
+    margin-bottom: 1.3rem;
+    padding: 1.4rem 0;
   }
 
   .icon-box {
-    margin-bottom: 20px;
+    width: 92px;
+    height: 92px;
+    flex: 0 0 92px;
+    border-radius: 12px;
   }
+
+  .icon-box svg {
+    width: 48px;
+    height: 48px;
+  }
+
+  .text-box,
+  .about-row.reverse .text-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  .text-box h3 {
+    font-size: 1.15rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-box p {
+    font-size: 0.91rem;
+    line-height: 1.68;
+  }
+
+
+  /* Why Choose */
+
+  .why-choose-section {
+    padding-top: 2.2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .feature-card {
+    padding: 1.35rem 1.25rem;
+    border-radius: 10px;
+  }
+
+  .feature-card:hover {
+    transform: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.055);
+  }
+
+  .feature-card .icon {
+    margin-bottom: 0.8rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.08rem;
+  }
+
+  .feature-card p {
+    font-size: 0.9rem;
+    line-height: 1.62;
+  }
+
 }
 
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .about-icon-section h2,
+  .why-choose-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-icon-section .subtitle,
+  .why-choose-section .subtitle {
+    font-size: 0.88rem;
+  }
+
+  .about-row {
+    padding: 1.1rem 0;
+  }
+
+  .feature-card {
+    padding: 1.2rem 1.1rem;
+  }
+
+}
 </style>

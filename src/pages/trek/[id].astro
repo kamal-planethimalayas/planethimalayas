@@ -693,13 +693,17 @@ const relatedArticles = blogs
       {/* ⚪ CUSTOM GROUP */}
           <div class="custom-group-box">
 
-            <h4>Need a different date?</h4>
+            <h4>**Looking for a date that works for you?**</h4>
 
             <p>
               We can arrange a custom departure if 3+ trekkers align.
             </p>
 
-            <button class="custom-group-btn">
+            <button
+              type="button"
+              class="custom-group-btn enquire-now-btn"
+              data-trek={trek.name}
+              >
               Request Custom Group
             </button>
 
@@ -1303,14 +1307,10 @@ backdrop-filter: blur(15px);
   cursor: pointer;
   /* subtle elevated shadow */
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.35),
-    0 10px 28px rgba(0, 0, 0, 0.35),
-    0 0 12px rgba(255, 115, 0, 0.35);
-
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease;
+    inset 0 1px 2px rgba(255,255,255,0.25),
+    0 4px 12px rgba(255, 115, 0, 0.45),
+    0 0 10px rgba(255, 115, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .enquire-now-btn:hover {
@@ -1318,10 +1318,10 @@ backdrop-filter: blur(15px);
   color: black;
   transform: scale(1.05);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.45),
-    0 14px 35px rgba(0, 0, 0, 0.45),
-    0 0 30px rgba(255, 115, 0, 1),
-    0 0 60px rgba(255, 115, 0, 0.75);
+    inset 0 0.5px 0.5px rgba(255, 255, 255, 0.45),
+    0 7px 17px rgba(0, 0, 0, 0.45),
+    0 0 15px rgba(255, 115, 0, 1),
+    0 0 30px rgba(255, 115, 0, 0.75);
 }
 
 /* Modal overlay */
