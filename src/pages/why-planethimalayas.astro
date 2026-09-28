@@ -63,7 +63,7 @@ import WhyPlanethimalayas from "../components/WhyPlanethimalayas.astro";
 .why-hero h1 {
   font-family: Helvetica, Arial, sans-serif;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   text-shadow:  3px 3px 6px rgba(0, 0, 0, 0.7),
     6px 6px 12px rgba(0, 0, 0, 0.5),
@@ -82,6 +82,17 @@ import WhyPlanethimalayas from "../components/WhyPlanethimalayas.astro";
         .why-hero h1 span{
             color: #ff7300;
         }
+
+  /* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .why-hero h1 {
+  font-size: 1.9rem;
+}
+}
 
     </style>
 </Layout>
