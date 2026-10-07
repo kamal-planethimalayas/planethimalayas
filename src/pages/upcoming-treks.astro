@@ -613,6 +613,47 @@ backdrop-filter: blur(15px);
     0 0 40px rgba(255,115,0,0.7);
 }
 
+.experience-filter-heading {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 115, 0, 0.35);
+}
+
+.experience-filter-heading[hidden] {
+  display: none;
+}
+
+.experience-filter-heading span {
+  display: block;
+
+  margin-bottom: 0.5rem;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ff7300;
+}
+
+.experience-filter-heading h1 {
+  margin: 0;
+
+  font-family: Helvetica, Arial, sans-serif;
+
+  font-size: 2.6rem;
+  line-height: 1.05;
+
+  color: #111;
+}
+
+.experience-filter-heading p {
+  margin: 0.6rem 0 0;
+
+  color: #666;
+}
+
 </style>
 
 <div class="page-wrapper">
@@ -635,6 +676,18 @@ backdrop-filter: blur(15px);
 </aside>
 
 <main class="main-content" role="main" tabindex="0">
+
+<div
+  id="experience-filter-heading"
+  class="experience-filter-heading"
+  hidden
+>
+  <span>Selected experience</span>
+  <h1 id="experience-filter-title"></h1>
+  <p>
+    Showing treks that match this Himalayan experience.
+  </p>
+</div>
 
 <!-- Suggested Treks Index -->
 <section class="suggested-index reveal">
@@ -804,95 +857,572 @@ backdrop-filter: blur(15px);
 <pre id="treks-data-json" style="display:none;">{JSON.stringify(treks)}</pre>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const trekData = JSON.parse(document.getElementById('treks-data-json').textContent);
-  const desktopCheckboxes = document.querySelectorAll('.filter-navbar input[type="checkbox"]');
-  const modalCheckboxes = document.querySelectorAll('.filter-modal input[type="checkbox"]');
-  const trekCards = document.querySelectorAll('.trek-card');
+document.addEventListener("DOMContentLoaded", () => {
+  /* =========================
+     DATA & ELEMENTS
+  ========================= */
 
-  function getDays(durationStr){ if(!durationStr) return null; const match=durationStr.match(/(\d+)\s*days?/i); return match? Number(match[1]) : null; }
-  function getSelectedFilters(){ const filters={}; [...desktopCheckboxes].forEach(cb=>{ if(cb.checked){ if(!filters[cb.name]) filters[cb.name]=new Set(); filters[cb.name].add(cb.value.toLowerCase()); } }); return filters; }
-  function trekMatchesFilters(trek,filters){
-    for(const category in filters){
-      const selectedOptions=filters[category];
-      if(category==='days'){ const durationStr=trek.overview?.facts?.find(f=>f.label==='Trek Duration')?.value||trek.duration; const days=getDays(durationStr); if(!days||!selectedOptions.has(days.toString())) return false; }
-      else if(category==='difficulty'){ const trekDifficulties=Array.isArray(trek.difficulty)?trek.difficulty.map(d=>d.toLowerCase()):[String(trek.difficulty).toLowerCase()]; if(![...selectedOptions].some(opt=>trekDifficulties.includes(opt))) return false; }
-      else if(category==='month'){ const trekMonths=Array.isArray(trek.month)?trek.month.map(m=>m.toLowerCase()):[String(trek.month).toLowerCase()]; if(![...selectedOptions].some(opt=>trekMonths.includes(opt))) return false; }
-      else if(category==='season'){ const trekSeasons=Array.isArray(trek.season)?trek.season.map(s=>s.toLowerCase()):[String(trek.season).toLowerCase()]; if(![...selectedOptions].some(opt=>trekSeasons.includes(opt))) return false; }
-      else if (category === 'region') {
-        const trekRegions = Array.isArray(trek.region)
-          ? trek.region.map(r => r.toLowerCase())
-          : [String(trek.region).toLowerCase()];
-          if (![...selectedOptions].some(opt => trekRegions.includes(opt))) return false;
-        }
-      else {
-          if (!selectedOptions.has(String(trek[category]).toLowerCase())) return false;
-        }
+  const trekDataElement = document.getElementById("treks-data-json");
 
-    } return true;
+  if (!trekDataElement) return;
+
+  const trekData = JSON.parse(trekDataElement.textContent);
+
+  const desktopCheckboxes = [
+    ...document.querySelectorAll(
+      '.filter-navbar input[type="checkbox"]'
+    )
+  ];
+
+  const modalCheckboxes = [
+    ...document.querySelectorAll(
+      '.filter-modal input[type="checkbox"]'
+    )
+  ];
+
+  const trekCards = [
+    ...document.querySelectorAll(".trek-card")
+  ];
+
+  const suggestedSections =
+    document.querySelectorAll(".suggested-treks");
+
+  const indexSection =
+    document.querySelector(".suggested-index");
+
+  const mainContent =
+    document.querySelector(".main-content");
+
+
+  /* =========================
+     HELPERS
+  ========================= */
+
+  function getDays(durationStr) {
+    if (!durationStr) return null;
+
+    const match =
+      String(durationStr).match(/(\d+)\s*days?/i);
+
+    return match ? Number(match[1]) : null;
   }
 
-function filterTrekCards() {
-  const filters = getSelectedFilters();
-  const suggestedSections = document.querySelectorAll('.suggested-treks');
-  const indexSection = document.querySelector('.suggested-index'); // Entire index section
-  const hasActiveFilters = Object.keys(filters).length > 0;
 
-  trekCards.forEach(card => {
-    const trekId = card.getAttribute('data-trek-id');
-    const trek = trekData.find(t => t.id === trekId);
-    if (!trek) return;
+  function getSelectedFilters() {
+    const filters = {};
 
-    if (!hasActiveFilters || trekMatchesFilters(trek, filters)) {
-      card.classList.remove('hide');
-      card.classList.add('show');
-    } else {
-      card.classList.remove('show');
-      card.classList.add('hide');
+    desktopCheckboxes.forEach(cb => {
+      if (!cb.checked) return;
+
+      if (!filters[cb.name]) {
+        filters[cb.name] = new Set();
+      }
+
+      filters[cb.name].add(
+        cb.value.toLowerCase()
+      );
+    });
+
+    return filters;
+  }
+
+
+  function getTrekValues(value) {
+    if (Array.isArray(value)) {
+      return value.map(item =>
+        String(item).toLowerCase()
+      );
     }
-  });
 
-  // Show/hide suggested treks
-  suggestedSections.forEach(section => {
-    section.style.display = hasActiveFilters ? 'none' : 'block';
-  });
-
-  // Show/hide index section
-  if(indexSection){
-    indexSection.style.display = hasActiveFilters ? 'none' : 'block';
+    return [
+      String(value ?? "").toLowerCase()
+    ];
   }
 
-  // Smooth scroll to top of main-content after DOM updates
-  const mainContent = document.querySelector('.main-content');
-  if(mainContent){
-    setTimeout(() => {
-      mainContent.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 0);
-  }
-}
 
-  function syncCheckboxes(sourceList,targetList){
-    sourceList.forEach((sourceCb,idx)=>{ sourceCb.addEventListener('change',()=>{ targetList[idx].checked=sourceCb.checked; filterTrekCards(); }); });
+  /* =========================
+     TREK FILTER MATCHING
+  ========================= */
+
+  function trekMatchesFilters(trek, filters) {
+
+    for (const category in filters) {
+
+      const selectedOptions =
+        filters[category];
+
+
+      /* TREK DURATION */
+
+      if (category === "days") {
+
+        const durationStr =
+          trek.overview?.facts?.find(
+            fact => fact.label === "Trek Duration"
+          )?.value || trek.duration;
+
+        const days =
+          getDays(durationStr);
+
+        if (
+          !days ||
+          !selectedOptions.has(
+            days.toString()
+          )
+        ) {
+          return false;
+        }
+      }
+
+
+      /* DIFFICULTY */
+
+      else if (category === "difficulty") {
+
+        const trekDifficulties =
+          getTrekValues(trek.difficulty);
+
+        const matches =
+          [...selectedOptions].some(
+            option =>
+              trekDifficulties.includes(option)
+          );
+
+        if (!matches) return false;
+      }
+
+
+      /* MONTH */
+
+      else if (category === "month") {
+
+        const trekMonths =
+          getTrekValues(trek.month);
+
+        const matches =
+          [...selectedOptions].some(
+            option =>
+              trekMonths.includes(option)
+          );
+
+        if (!matches) return false;
+      }
+
+
+      /* SEASON */
+
+      else if (category === "season") {
+
+        const trekSeasons =
+          getTrekValues(trek.season);
+
+        const matches =
+          [...selectedOptions].some(
+            option =>
+              trekSeasons.includes(option)
+          );
+
+        if (!matches) return false;
+      }
+
+
+      /* REGION */
+
+      else if (category === "region") {
+
+        const trekRegions =
+          getTrekValues(trek.region);
+
+        const matches =
+          [...selectedOptions].some(
+            option =>
+              trekRegions.includes(option)
+          );
+
+        if (!matches) return false;
+      }
+
+
+      /* OTHER FILTERS */
+
+      else {
+
+        const trekValue =
+          String(
+            trek[category] ?? ""
+          ).toLowerCase();
+
+        if (
+          !selectedOptions.has(
+            trekValue
+          )
+        ) {
+          return false;
+        }
+      }
+    }
+
+    return true;
   }
-  syncCheckboxes(desktopCheckboxes,modalCheckboxes);
-  syncCheckboxes(modalCheckboxes,desktopCheckboxes);
+
+
+  /* =========================
+     URL PARAMETERS
+  ========================= */
+
+  const urlParams =
+    new URLSearchParams(
+      window.location.search
+    );
+
+  const tagFilter =
+    urlParams.get("tag")?.toLowerCase() || null;
+
+  const fromExperiences =
+    urlParams.get("from")?.toLowerCase() || null;
+
+
+  /* =========================
+     APPLY URL CHECKBOX FILTERS
+  ========================= */
+
+  function applyUrlFilters() {
+
+    const allCheckboxes = [
+      ...desktopCheckboxes,
+      ...modalCheckboxes
+    ];
+
+    allCheckboxes.forEach(cb => {
+
+      const urlValue =
+        urlParams.get(cb.name);
+
+      if (!urlValue) return;
+
+      if (
+        cb.value.toLowerCase() ===
+        urlValue.toLowerCase()
+      ) {
+        cb.checked = true;
+      }
+    });
+  }
+
+
+  /* =========================
+     FILTER TREK CARDS
+  ========================= */
+
+  function filterTrekCards() {
+
+    const filters =
+      getSelectedFilters();
+
+    const hasNormalFilters =
+      Object.keys(filters).length > 0;
+
+    const hasTagFilter =
+      Boolean(tagFilter);
+
+    const hasActiveFilters =
+      hasNormalFilters ||
+      hasTagFilter;
+
+
+    trekCards.forEach(card => {
+
+      const trekId =
+        card.getAttribute(
+          "data-trek-id"
+        );
+
+      const trek =
+        trekData.find(
+          item => item.id === trekId
+        );
+
+      if (!trek) return;
+
+
+      /* TAG MATCH */
+
+      const trekTags =
+        Array.isArray(trek.tags)
+          ? trek.tags.map(tag =>
+              String(tag).toLowerCase()
+            )
+          : [];
+
+
+      const matchesTag =
+        !tagFilter ||
+        trekTags.includes(tagFilter);
+
+
+      /* NORMAL FILTER MATCH */
+
+      const matchesNormalFilters =
+        !hasNormalFilters ||
+        trekMatchesFilters(
+          trek,
+          filters
+        );
+
+
+      /* FINAL RESULT */
+
+      const shouldShow =
+        matchesTag &&
+        matchesNormalFilters;
+
+
+      card.classList.toggle(
+        "show",
+        shouldShow
+      );
+
+      card.classList.toggle(
+        "hide",
+        !shouldShow
+      );
+    });
+
+
+    /* SUGGESTED TREKS */
+
+    suggestedSections.forEach(
+      section => {
+        section.style.display =
+          hasActiveFilters
+            ? "none"
+            : "block";
+      }
+    );
+
+
+    /* INDEX SECTION */
+
+    if (indexSection) {
+      indexSection.style.display =
+        hasActiveFilters
+          ? "none"
+          : "block";
+    }
+
+
+    /* SCROLL TO TOP */
+
+    if (mainContent) {
+
+      setTimeout(() => {
+
+        mainContent.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+
+      }, 0);
+    }
+  }
+
+
+  /* =========================
+     CHECKBOX SYNC
+  ========================= */
+
+  function syncCheckboxes(
+    sourceList,
+    targetList
+  ) {
+
+    sourceList.forEach(sourceCb => {
+
+      sourceCb.addEventListener(
+        "change",
+        () => {
+
+          const matchingCheckbox =
+            targetList.find(
+              targetCb =>
+                targetCb.name === sourceCb.name &&
+                targetCb.value === sourceCb.value
+            );
+
+          if (matchingCheckbox) {
+            matchingCheckbox.checked =
+              sourceCb.checked;
+          }
+
+          filterTrekCards();
+        }
+      );
+    });
+  }
+
+
+  syncCheckboxes(
+    desktopCheckboxes,
+    modalCheckboxes
+  );
+
+  syncCheckboxes(
+    modalCheckboxes,
+    desktopCheckboxes
+  );
+
+
+  /* =========================
+     MOBILE FILTER MODAL
+  ========================= */
+
+  const openBtn =
+    document.getElementById(
+      "openFilterBtn"
+    );
+
+  const closeBtn =
+    document.getElementById(
+      "closeFilterBtn"
+    );
+
+  const filterModal =
+    document.getElementById(
+      "filterModal"
+    );
+
+
+  if (
+    openBtn &&
+    closeBtn &&
+    filterModal
+  ) {
+
+    openBtn.addEventListener(
+      "click",
+      () => {
+
+        filterModal.classList.add(
+          "open"
+        );
+
+        document.body.style.overflow =
+          "hidden";
+      }
+    );
+
+
+    closeBtn.addEventListener(
+      "click",
+      () => {
+
+        filterModal.classList.remove(
+          "open"
+        );
+
+        document.body.style.overflow =
+          "";
+      }
+    );
+
+
+    filterModal.addEventListener(
+      "click",
+      event => {
+
+        if (
+          event.target === filterModal
+        ) {
+
+          filterModal.classList.remove(
+            "open"
+          );
+
+          document.body.style.overflow =
+            "";
+        }
+      }
+    );
+  }
+
+
+  /* =========================
+     EXPERIENCE FILTER HEADING
+  ========================= */
+
+  const experienceTitles = {
+
+    peak: "Peaks",
+
+    pass: "Passes",
+
+    crossover: "Crossovers",
+
+    lake: "Alpine Lakes",
+
+    "national-park":
+      "National Parks",
+
+    "wildlife-sanctuary":
+      "Wildlife Sanctuaries",
+
+    ridge: "Ridges",
+
+    valley: "Valleys",
+
+    teahouse: "Teahouse Trails"
+  };
+
+
+  const experienceHeading =
+    document.getElementById(
+      "experience-filter-heading"
+    );
+
+  const experienceTitle =
+    document.getElementById(
+      "experience-filter-title"
+    );
+
+
+  if (
+    tagFilter &&
+    experienceTitles[tagFilter] &&
+    experienceHeading &&
+    experienceTitle
+  ) {
+
+    experienceTitle.textContent =
+      experienceTitles[tagFilter];
+
+    experienceHeading.hidden =
+      false;
+  }
+
+
+  /* =========================
+     RETURN-TO-EXPERIENCES FLAG
+  ========================= */
+
+  if (
+    fromExperiences === "experiences"
+  ) {
+
+    sessionStorage.setItem(
+      "returnToExperiences",
+      "true"
+    );
+  }
+
+
+  /* =========================
+     INITIALISE
+  ========================= */
+
+  applyUrlFilters();
+
   filterTrekCards();
 
-  // Mobile modal
-  const openBtn=document.getElementById('openFilterBtn');
-  const closeBtn=document.getElementById('closeFilterBtn');
-  const filterModal=document.getElementById('filterModal');
-  openBtn.addEventListener('click',()=>{ filterModal.classList.add('open'); document.body.style.overflow='hidden'; });
-  closeBtn.addEventListener('click',()=>{ filterModal.classList.remove('open'); document.body.style.overflow=''; });
-  filterModal.addEventListener('click',e=>{ if(e.target===filterModal){ filterModal.classList.remove('open'); document.body.style.overflow=''; } });
-
-  // Query params
-  const params=Object.fromEntries(new URLSearchParams(window.location.search));
-  Object.keys(params).forEach(key=>{
-    const value=params[key].toLowerCase();
-    [...desktopCheckboxes,...modalCheckboxes].forEach(cb=>{ if(cb.name===key&&cb.value.toLowerCase()===value) cb.checked=true; });
-  });
-  filterTrekCards();
 });
 </script>
 </Layout>

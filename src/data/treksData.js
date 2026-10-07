@@ -7,7 +7,7 @@ export const treks = [
 {
     id: "markha-valley-trek",
     name: "Markha Valley Trek",
-    tags: ["intermediate", "pro", "pass", "crossover", "teahouse"],
+    tags: ["intermediate", "pro", "valley", "pass", "crossover", "teahouse", "national-park"],
     difficulty: ["moderate", "difficult"],
     season: ["monsoon"],
     month: ["july", "august", "september"],
@@ -207,7 +207,7 @@ export const treks = [
   {
     id: "markha-valley-2-passes-trek",
     name: "Markha Valley 2 Passes Trek",
-    tags: ["intermediate", "pro", "pass", "crossover", "teahouse"],
+    tags: ["intermediate", "pro", "valley", "pass", "crossover", "teahouse", "national-park"],
     difficulty: ["moderate", "difficult"],
     season: ["monsoon"],
     month: ["july", "august", "september"],
@@ -492,7 +492,7 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   {
   "id": "winter-markha-valley-trek",
   "name": "Winter Markha Valley Trek",
-  "tags": ["intermediate"],
+  "tags": ["intermediate", "valley", "national-park"],
   "difficulty": ["moderate"],
   "season": ["winter"],
   "month": ["january", "february", "march"],
@@ -706,7 +706,7 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   {
     id: "rumtse-tso-moriri-trek",
     name: "Rumtse Tso Moriri Trek",
-    tags: ["intermediate", "pro", "pass", "lake"],
+    tags: ["intermediate", "pro", "pass", "lake", "wildlife-sanctuary"],
     difficulty: ["moderate", "difficult"],
     season: ["monsoon"],
     month: ["july", "august", "september"],
@@ -900,7 +900,7 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   {
   id: "nubra-valley-trek",
   name: "Nubra Valley Trek",
-  tags: ["intermediate", "pro", "pass"],
+  tags: ["intermediate", "pro", "pass", "valley", "wildlife-sanctuary"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -1116,7 +1116,7 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   {
   id: "kashmir-great-lakes-trek",
   name: "Kashmir Great Lakes Trek",
-  tags: ["intermediate", "pro", "pass", "crossover", "lake"],
+  tags: ["intermediate", "pro", "pass", "crossover", "lake", "valley"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -1538,7 +1538,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
     id: "pin-bhaba-pass-trek",
     name: "Pin Bhaba Pass Trek",
-    tags: ["pro", "pass", "crossover", "glacier"],
+    tags: ["pro", "pass", "crossover", "glacier", "national-park"],
     difficulty: ["difficult"],
     season: ["monsoon", "autumn"],
     month: ["july", "august", "september", "october"],
@@ -1711,7 +1711,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
   {
   id: "pin-parvati-pass-trek",
   name: "Pin Parvati Pass Trek",
-  tags: ["pro", "pass", "crossover", "glacier", "lake"],
+  tags: ["pro", "pass", "crossover", "glacier", "lake", "national-park"],
   difficulty: ["difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -2076,7 +2076,7 @@ After breakfast, trek back through familiar meadows to the Doodhpathri roadhead.
 {
   id: "miyar-valley-trek",
   name: "Miyar Valley Trek",
-  tags: ["intermediate", "glacier", "lake"],
+  tags: ["intermediate", "glacier", "valley"],
   difficulty: ["moderate"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -2303,7 +2303,7 @@ confirmedDepartures: [
   {
     id: "hampta-pass-trek",
     name: "Hampta Pass Trek",
-    tags: ["intermediate", "pass", "crossover", "lake", "glacier"],
+    tags: ["intermediate", "pass", "crossover", "glacier", "valley"],
     difficulty: ["moderate"],
     season: ["monsoon", "autumn"],
     month: ["June", "july", "august", "september", "october"],
@@ -2400,13 +2400,13 @@ confirmedDepartures: [
   //},
 
 dates: [
-    { label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
+    //{ label: "05 Oct - 09 Oct", start: "2026-10-05", end: "2026-10-09" },
 ],
 
 confirmedDepartures: [
   {
     date: "2026-10-05",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 8,
     status: "confirmed"
   }
@@ -2530,7 +2530,7 @@ confirmedDepartures: [
   {
   id: "deo‑tibba‑base-camp‑trek",
   name: "Deo Tibba Base Camp Trek",
-  tags: ["intermediate", "basecamp", "lake", "glacier"],
+  tags: ["intermediate", "basecamp", "lake", "glacier", "valley"],
   difficulty: ["moderate"],
   season: ["monsoon", "autumn"],
   month: ["july", "august", "september", "october"],
@@ -2704,7 +2704,7 @@ confirmedDepartures: [
  {
     id: "hampta-circuit-trek",
     name: "Hampta Circuit Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "offbeat"],
     difficulty: ["easy"],
     season: ["summer", "monsoon", "autumn",],
     month: ["june", "july", "september", "october", "november"],
@@ -2870,7 +2870,7 @@ confirmedDepartures: [
 {
     id: "rani-sui-lake-trek",
     name: "Rani Sui Lake Trek",
-    tags: ["beginner", "lake"],
+    tags: ["beginner", "lake", "offbeat"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["may", "june", "july", "september", "october", "november"],
@@ -3042,8 +3042,8 @@ confirmedDepartures: [
 {
   id: "brighu-lake-trek",
   name: "Brighu Lake Trek",
-  tags: ["beginner", "intermeiate", "lake"],
-  difficulty: ["easy", "moderate"],
+  tags: ["beginner", "lake", "ridge"],
+  difficulty: ["easy"],
   season: ["summer", "autumn"],
   month: ["june", "july", "september", "october"],
   region: ["himachal pradesh"],
@@ -3332,7 +3332,7 @@ description:
 {
   id: "beas-kund-trek",
   name: "Beas Kund Trek",
-  tags: ["beginner", "lake"],
+  tags: ["beginner", "lake", "basecamp"],
   difficulty: ["easy"],
   season: ["summer", "autumn"],
   month: ["june", "july", "september", "october"],
@@ -3556,7 +3556,7 @@ description:
 {
   id: "chandrakhani-pass-trek",
   name: "Chandrakhani Pass Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge", "pass"],
   difficulty: ["easy"],
   season: ["spring", "summer", "autumn"],
   month: ["march", "april", "may", "june", "july", "september", "october", "november"],
@@ -3751,7 +3751,7 @@ confirmedDepartures: [
 {
   id: "kalihani-pass-trek",
   name: "Kalihani Pass Trek",
-  tags: ["intermediate", "pro", "pass", "glacier"],
+  tags: ["intermediate", "pass", "glacier", "offbeat"],
   difficulty: ["moderate", "difficult"],
   season: ["monsoon"],
   month: ["july", "august", "september"],
@@ -4121,7 +4121,7 @@ questions: [
   {
     id: "rupin-pass-trek",
     name: "Rupin Pass Trek",
-    tags: ["pro", "pass", "crossover", "glacier"],
+    tags: ["pro", "pass", "crossover", "glacier", "valley"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -4376,8 +4376,8 @@ questions: [
 {
     id: "buran-ghati-trek",
     name: "Buran Ghati Trek",
-    tags: ["intermediate", "pro", "pass", "crossover", "lake", "glacier"], 
-    difficulty: ["moderate", "difficult"],
+    tags: ["intermediate", "pass", "crossover", "lake", "glacier", "valley"], 
+    difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
     duration: ["6 Nights / 7 Days"],
@@ -4651,7 +4651,7 @@ questions: [
   {
     id: "ali-bedni-bugyal-trek",
     name: "Ali Bedni Bugyal Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "ridge"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -4908,7 +4908,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   {
     id: "deoriatal-chandrashila-trek",
     name: "Deoriatal Chandrashila Trek",
-    tags: ["beginner", "lake"],
+    tags: ["beginner", "lake", "peak", "ridge", "wildlife-sanctuary"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -5151,7 +5151,7 @@ By afternoon or early evening, you arrive in Rishikesh, marking the end of an un
   {
     id: "gaumukh-tapovan-trek",
     name: "Gaumukh Tapovan Trek",
-    tags: ["intermediate", "glacier", "basecamp"],
+    tags: ["intermediate", "glacier", "basecamp", "valley", "national-park"],
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -5242,14 +5242,13 @@ waypoints: [
   //},
 
     dates: [
-  { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
   { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
   { label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
 ],
 
 confirmedDepartures: [
   {
-    date: "2026-10-04",
+    date: "2026-10-11",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "confirmed"
@@ -5397,7 +5396,7 @@ By evening, you arrive in Rishikesh, bringing to an end an unforgettable journey
   {
     id: "nandanvan-vasukital-trek",
     name: "Nandanvan Vasukital Trek",
-    tags: ["pro", "glacier", "lake"],
+    tags: ["pro", "glacier", "lake", "national-park", "basecamp", "valley"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "october", "september"],
@@ -5657,7 +5656,7 @@ waypoints: [
   {
   id: "kedartal-trek",
   name: "Kedartal Trek",
-  tags: ["pro", "lake", "glacier"],
+  tags: ["pro", "lake", "glacier", "valley", "national-park"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -5987,7 +5986,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   {
     id: "phulara-ridge-trek",
     name: "Phulara Ridge Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "ridge", "wildlife-sanctuary", "offbeat"],
     difficulty: ["easy"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october", "november"],
@@ -6176,7 +6175,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
   {
     id: "harkidun-ruinsaratal-trek",
     name: "Harkidun & Ruinsaratal Trek",
-    tags: ["intermediate", "lake"],
+    tags: ["intermediate", "lake", "valley", "wildlife-sanctuary"],
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -6365,7 +6364,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
   {
     id: "harkidun-trek",
     name: "Harkidun Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "valley", "wildlife-sanctuary"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "june", "september", "october", "november"],
@@ -6595,7 +6594,7 @@ itinerary: [
   {
   id: "satopanth-lake-trek",
   name: "Satopanth Lake Trek",
-  tags: ["intermediate", "lake", "glacier"],
+  tags: ["intermediate", "lake", "glacier", "valley", "national-park"],
   difficulty: ["moderate"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -6839,7 +6838,7 @@ itinerary: [
   {
   id: "kuari-pass-trek",
   name: "Kuari Pass Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge", "national-park"],
   difficulty: ["easy"],
   season: ["winter", "spring", "summer", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april", "may", "june"],
@@ -7093,7 +7092,7 @@ With unforgettable memories of Kuari Pass, ancient forests, alpine meadows, and 
   {
   id: "pangarchulla-peak-trek",
   name: "Pangarchulla Peak Trek",
-  tags: ["pro", "peak"],
+  tags: ["pro", "peak", "ridge", "national-park"],
   difficulty: ["difficult"],
   season: ["spring"],
   month: ["march", "april", "may"],
@@ -7308,7 +7307,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 {
   id: "gulabi-kantha-trek",
   name: "Gulabi Kantha Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge", "offbeat"],
   difficulty: ["easy"],
   season: ["summer", "winter", "spring"],
   month: ["march", "april", "may", "june", "september", "october", "november", "december", "january", "february"],
@@ -7509,7 +7508,7 @@ details: "• Begin the descent through familiar forests and open meadows, retra
 {
   id: "kedarkantha-trek",
   name: "Kedarkantha Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "peak", "ridge", "wildlife-sanctuary"],
   difficulty: ["easy"],
   season: ["winter", "spring", "autumn"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april"],
@@ -7764,7 +7763,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 {
   id: "dayara-bugyal-trek",
   name: "Dayara Bugyal Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge"],
   difficulty: ["easy"],
   season: ["autumn", "winter", "spring", "summer"],
   month: ["september", "october", "november", "december", "january", "february", "march", "april", "may", "june"],
@@ -7970,7 +7969,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 {
   id: "dodital-darwa-pass-trek",
   name: "Dodital - Darwa Pass Trek",
-  tags: ["beginner", "intermediate"],
+  tags: ["beginner", "ridge", "lake", "offbeat"],
   difficulty: ["easy"],
   season: ["spring", "summer", "autumn"],
   month: ["march", "april", "may", "june", "september", "october", "november", "december"],
@@ -8194,7 +8193,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 {
   id: "nag-tibba-trek",
   name: "Nag Tibba Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge"],
   difficulty: ["easy"],
   season: ["winter", "spring", "summer", "autumn"],
   month: [
@@ -8417,7 +8416,7 @@ itinerary: [
 {
   id: "brahmatal-trek",
   name: "Brahmatal Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge", "lake"],
   difficulty: ["easy"],
   season: ["winter", "spring", "summer", "autumn"],
   month: ["january", "february", "march", "april", "may", "june", "october", "november", "december"],
@@ -8646,7 +8645,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
 {
   id: "bali-pass-trek",
   name: "Bali Pass Trek",
-  tags: ["pro", "lake", "glacier", "moraine", "pass", "crossover"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "wildlife-sancturay", "valley"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -8906,7 +8905,7 @@ waypoints: [
 {
   id: "borasu-pass-trek",
   name: "Borasu Pass Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "valley", "offbeat", "wildlife-sanctuary"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -9248,7 +9247,7 @@ waypoints: [
 {
   id: "mayali-pass-trek",
   name: "Mayali Pass Trek",
-  tags: ["pro", "lake", "glacier", "pass", "crossover", "moraine"],
+  tags: ["pro", "lake", "glacier", "pass", "crossover", "valley", "offbeat", "wildlife-sanctuary"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -9603,7 +9602,7 @@ waypoints: [
   {
     id: "roopkund-trek",
     name: "Roopkund Trek",
-    tags: ["pro", "lake", "glacier"],
+    tags: ["pro", "lake", "glacier", "ridge"],
     difficulty: ["difficult"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -9684,7 +9683,13 @@ waypoints: [
         { emoji: "🏁", label: "End Point", value: "Wan" },
         { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
       ],
-      snippet: `The Roopkund Trek (15,750 ft) in Uttarakhand is one of the most legendary Himalayan trails, blending mystery, adventure, and mythology. Starting from the charming village of Lohajung and ending at Wan, this 8-day trek takes you through ancient oak and rhododendron forests, vast alpine meadows like Ali Bugyal and Bedni Bugyal, and finally to the enigmatic Roopkund Lake—famous for hundreds of human skeletons visible beneath its icy surface. The trek offers breathtaking views of Mt. Trishul and Nanda Ghunti while passing through sacred sites linked to the Nanda Devi Raj Jat Yatra, one of Uttarakhand’s most revered pilgrimages held once every twelve years. Along the route, trekkers witness Himalayan flora like blue poppies and brahma kamal, and spot wildlife such as Himalayan monals and barking deer. Lohajung, the trailhead, carries folklore of the goddess Parvati defeating a demon here ('Loha Jung' literally meaning 'War of Iron'), while Wan, the concluding village, retains its ancient Kumaoni architecture and tranquil charm. The Roopkund Trek is a complete Himalayan experience—rich in culture, myth, and natural beauty—ideal for seasoned trekkers and mountain enthusiasts seeking a blend of mystery, high-altitude adventure, and heritage.`
+      snippet: `The Roopkund Trek is one of the most remarkable high-altitude journeys in the Garhwal Himalayas of Uttarakhand, taking you from the traditional mountain village of Wan through ancient oak and rhododendron forests, across the sweeping alpine meadows of Bedni Bugyal, and into a stark world of rock, snow and high mountain ridges. At the heart of the journey lies Roopkund Lake, at around 15,750 ft, surrounded by some of the most dramatic landscapes of the region. With Mt. Trishul and Nanda Ghunti rising above the horizon, the trail combines demanding Himalayan walking with extraordinary scenery, a fascinating cultural landscape and the enduring mystery of one of India's most legendary mountain lakes.<br><br>
+
+From Wan, the trail climbs gradually through dense Himalayan forests before opening into the vast grasslands of the high Garhwal. The transition from forest to meadow is one of the great visual moments of the trek. At Bedni Bugyal, the landscape expands enormously—the trail runs across rolling alpine slopes while Trishul and Nanda Ghunti dominate the skyline. In the right season, the meadows are carpeted with alpine flowers and shades of green, while autumn brings a warmer, golden character to the landscape. The surrounding terrain also carries deep cultural significance, with Bedni and the neighbouring highlands forming part of the traditional landscape associated with Nanda Devi and the Nanda Devi Raj Jat Yatra.<br><br>
+
+Beyond the bugyals, the trail becomes progressively more rugged as it climbs towards the high-altitude reaches of the trek. The forests and soft grasslands give way to rocky slopes, exposed ridges and an increasingly dramatic mountain environment. The approach to Roopkund is demanding and rewarding, eventually bringing you to the small glacial lake enclosed beneath the surrounding high ridges. The story of human skeletal remains discovered around the lake has made Roopkund famous far beyond the Himalayas, but standing there, it is the immense isolation of the landscape that stays with you. The journey can continue towards Junargali, where the high ridge provides an extraordinary perspective over Roopkund and the surrounding Garhwal ranges, with Trishul and Nanda Ghunti rising prominently across the horizon.<br><br>
+
+The descent brings a gradual return to the softer landscapes of the lower Himalayas—first the open bugyals, then the forests and finally the familiar surroundings of Wan. By then, the trek has taken you through an exceptional range of Himalayan environments, from village trails and deep forests to vast alpine meadows and demanding high-altitude terrain. Roopkund is for trekkers who want more than a beautiful trail: it is a journey rich in landscape, mountain culture, mythology and history, with every stage offering something distinctly different to experience on foot.`
     },
 
     price: 17900,     // you can fill in actual price
@@ -9699,7 +9704,7 @@ waypoints: [
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 6",
 
     dates: [  
-    { label: "07 Oct - 13 Oct", start: "2026-10-07", end: "2026-10-13" },
+    //{ label: "07 Oct - 13 Oct", start: "2026-10-07", end: "2026-10-13" },
     { label: "09 Oct - 15 Oct", start: "2026-10-09", end: "2026-10-15" },    
     { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
     { label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
@@ -9708,14 +9713,12 @@ waypoints: [
 
    confirmedDepartures: [
   {
-    date: "2026-10-07",
+    date: "2026-10-09",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "confirmed"
   },
 ],
-
-    enquireOnly: true,
 
     highlights: [
       "Trek through dense oak & rhododendron forests from Lohajung",
@@ -9895,7 +9898,7 @@ itinerary: [
 {
     id: "nanda-devi-east-base-camp-trek",
     name: "Nanda Devi East Base Camp Trek",
-    tags: ["intermediate", "basecamp", "glacier"],
+    tags: ["intermediate", "basecamp", "glacier", "valley", "national-park", "offbeat"],
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -10260,7 +10263,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 {
   id: "ranthan-kharak-trek",
   name: "Ranthan Kharak Trek",
-  tags: ["beginner", "intermediate"],
+  tags: ["beginner", "intermediate", "ridge", "offbeat"],
   difficulty: ["easy", "moderate"],
   season: ["spring", "summer", "autumn"],
   month: ["march", "april", "may", "june", "september", "october", "november"],
@@ -10481,7 +10484,7 @@ confirmedDepartures: [
 {
     id: "dhakuri-pass-trek",
     name: "Dhakuri Pass Trek",
-    tags: ["beginner"],
+    tags: ["beginner", "ridge", "offbeat"],
     difficulty: ["easy"],
     season: ["spring", "summer", "autumn", "winter"],
     month: ["january", "february", "march", "april", "may", "june", "september", "october", "november", "december"],
@@ -10657,7 +10660,7 @@ After breakfast, descend gradually through forests and old trade routes towards 
   {
     id: "pindari-kafni-glacier-trek",
     name: "Pindari & Kafni Glacier Trek",
-    tags: ["intermediate", "glacier"],
+    tags: ["intermediate", "glacier", "valley", "national-park", "offbeat"],
     difficulty: ["moderate"],
     season: ["summer", "autumn"],
     month: ["may", "june", "september", "october"],
@@ -10970,7 +10973,7 @@ waypoints: [
   {
   id: "khaliya-top-trek",
   name: "Khaliya Top Trek",
-  tags: ["beginner"],
+  tags: ["beginner", "ridge"],
   difficulty: ["easy"],
   season: ["winter", "spring", "summer", "autumn"],
   month: ["january", "february", "march", "april", "may", "september", "october", "november", "december"],
@@ -11194,7 +11197,7 @@ waypoints: [
 {
   id: "sunderdhunga-valley-trek",
   name: "Sunderdhunga Valley Trek",
-  tags: ["pro", "glacier", "lake"],
+  tags: ["pro", "glacier", "lake", "offbeat", "national-park", "valley", "basecamp"],
   difficulty: ["difficult"],
   season: ["summer", "autumn"],
   month: ["may", "june", "september", "october"],
@@ -11417,7 +11420,7 @@ waypoints: [
   {
     id: "goechala-trek",
     name: "Goechala Trek",
-    tags: ["pro", "lake", "glacier"],
+    tags: ["pro", "lake", "glacier", "valley", "national-park"],
     difficulty: ["difficult"],
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
@@ -11522,17 +11525,15 @@ waypoints: [
     dates: [
       
   { label: "17 Oct - 26 Oct", start: "2026-10-17", end: "2026-10-24" },
-  { label: "16 Nov - 25 Nov", start: "2026-11-16", end: "2026-11-25" },
-  { label: "07 Dec - 16 Dec", start: "2026-12-07", end: "2026-12-16" },
-
+  { label: "29 Nov - 08 Dec", start: "2026-11-29", end: "2026-12-08" },
     ],
 
     confirmedDepartures: [
   {
-    date: "2026-10-17",
+    date: "2026-11-29",
     showOnHomepage: true,
-    seatsLeft: 10,
-    status: "upcoming"
+    seatsLeft: 6,
+    status: "confirmed"
   },
 ],
 
@@ -11590,7 +11591,12 @@ waypoints: [
     title: "Tshoka to Yuksom",
     details: "<strong>• Trek: ~14 km | 5–6 hrs (final trekking day).</strong><br>• Your final day of the Goechala Trek takes you back to Yuksom, retracing the scenic trails along the Prek Chu River, through Bakhim and Sachen. Wake up early and enjoy a hearty breakfast at the campsite, preparing for a mostly downhill journey that still promises stunning forested landscapes and river views.<br>The trail is gentle and serene, letting you soak in the last moments of the Himalayas’ tranquility. Along the way, you’ll cross the three iconic iron bridges once more, pass through the quiet hamlets of Bakhim and Sachen, and witness the peaceful rhythm of mountain life. While the descent is easier than climbing, take care on steeper sections to avoid putting too much strain on your knees. Maintain a steady pace and pause whenever you want to capture the surrounding beauty.<br>As you approach Yuksom, a short uphill stretch signals the final push back to civilization. Soon, the familiar sights of the town greet you, along with the return of mobile connectivity. Take some time to explore Yuksom’s rich history and culture. Wander through its quaint streets, visit local monasteries, browse handicraft shops, or simply soak in the welcoming atmosphere.<br>Once you arrive at your guesthouse, enjoy a wholesome meal and reflect on the incredible journey you’ve just completed. This is a day to relax, celebrate your achievement, and take in the memories of a trek that will stay with you forever."
   },
-  
+  {
+    day: 10,
+    title: "Departure from Yuksom to NJP/Bagdogra",
+    details: "<strong>• Departure day.</strong><br>• Your Goechala journey comes to an end today. If transport is booked with us, your vehicle will be waiting for pickup early in the morning for your drop to NJP/Bagdogra."
+  },
+
 ],
 
 
@@ -11697,7 +11703,7 @@ waypoints: [
   id: "dzongri-winter-trek",
   name: "Dzongri Winter Trek",
 
-  tags: ["intermediate"],
+  tags: ["intermediate", "national-park", "valley", "offbeat"],
   difficulty: ["moderate"],
   season: ["winter"],
   month: ["december", "january", "february"],
@@ -11940,7 +11946,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   {
   id: "sandakphu-trek",
   name: "Sandakphu Trek",
-  tags: ["intermediate", "teahouse"],
+  tags: ["intermediate", "teahouse", "national-park", "ridge"],
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
