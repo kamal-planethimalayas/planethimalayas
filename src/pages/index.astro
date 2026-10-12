@@ -125,8 +125,8 @@ import "../styles/global.css";
 
 <img
 class="trek-background"
-src="https://res.cloudinary.com/dr44hob9b/image/upload/v1761153766/IMG_20180522_073626_rpdqks.jpg"
-alt="Roopkund Lake"
+src="https://res.cloudinary.com/dr44hob9b/image/upload/v1787668666/DSCF2832_iavkly.jpg"
+alt="Goechala Viewpoint Trail"
 
 >
 
@@ -135,20 +135,20 @@ alt="Roopkund Lake"
   <div class="trek-content">
 
 <h2 class="trek-content-name">
-  Roopkund <span>Trek</span>
+  Goechala <span>Trek</span>
 </h2>
 
 <div class="trek-meta">
-  <span>📍 Garhwal Himalayas - Uttarakhand</span>
-  <span>🏔️ 15,750 ft / 4,801 m</span>
-  <span>🏁 Basecamp: Wan Village</span>
+  <span>📍 Eastern Himalayas - Sikkim</span>
+  <span>🏔️ 15,100 ft / 4,600 m</span>
+  <span>🏁 Basecamp: Yuksom</span>
   <span>⚡ Moderate-Difficult</span>
-  <span>⏳ 6 Nights / 7 Days</span>
+  <span>⏳ 9 Nights / 10 Days</span>
 </div>
 
 <div class="trek-text-wrapper">
-  <p class="trek-snippet" id="roopkundSnippet">
-    Journey deep into the Garhwal Himalayas on one of Uttarakhand's most iconic high-altitude treks. From the forests and meadows around Wan Village to the vast alpine landscapes of Bedni Bugyal and the rugged approach towards Roopkund, every day brings a dramatic change in terrain. Trek through ancient forests, expansive high-altitude meadows, and challenging mountain trails before reaching the legendary Roopkund Lake at 15,750 ft. With its demanding climbs, striking Himalayan scenery, and rich cultural landscape, Roopkund is a rewarding adventure for trekkers ready to take on a more challenging Himalayan experience.
+  <p class="trek-snippet" id="goechalaSnippet">
+    Journey into the heart of the Eastern Himalayas on one of Sikkim’s most spectacular high-altitude treks. From the dense forests and remote mountain villages of Yuksom to the alpine meadows of Dzongri and the rugged glacial landscapes beyond, Goechala unfolds beneath the towering presence of the Kanchenjunga massif. Ascend through changing mountain terrain, witness sunrise over snow-clad Himalayan giants, and venture towards the Goechala viewpoint at approximately 15,100 ft. Defined by demanding climbs, pristine wilderness, and extraordinary close-up views of the world’s third-highest mountain, this is a trek for those seeking a truly immersive and challenging Himalayan experience.
   </p>
 
   <button class="read-more-btn" type="button">
@@ -156,83 +156,10 @@ alt="Roopkund Lake"
   </button>
 </div>
 
-<a href="/trek/roopkund-trek" class="btn-book">
+<a href="/trek/goechala-trek" class="btn-book">
   Register Now
 </a>
 
-  </div>
-</section>
-
-<!-- UPCOMING TREKS: Upcoming Season Treks -->
-<section class="trek-section reveal">
-  <h2>Autumn <span>Treks</span></h2>
-  <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
-    <div class="trek-cards-scroll" id="autumn">
-      {
-        (() => {
-          const shuffleArray = (array) => {
-            return [...array].sort(() => Math.random() - 0.5);
-          };
-
-          const capitalize = (str) => {
-            if (!str) return '';
-
-            if (Array.isArray(str)) {
-              return str.map(item => capitalize(item)).join(', ');
-            }
-
-            return str
-              .split(' ')
-              .map(word =>
-                word
-                  .split('-')
-                  .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                  .join('-')
-              )
-              .join(' ');
-          };
-
-          return shuffleArray(
-            treks.filter(trek =>
-              Array.isArray(trek.season) &&
-              trek.season.map(s => s.toLowerCase()).includes('autumn')
-            )
-          ).map(trek => {
-      
-            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
-            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
-
-            return (
-              <div class="trek-card" key={trek.id}>
-                <a href={`/trek/${trek.id}#trek-hero`}>
-                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
-                </a>
-
-                <h3 class="trek-name">{trek.name}</h3>
-
-                <div class="trek-info">
-                  <span>
-                    <i class="fa fa-clock"></i> {duration}
-                  </span>
-                  <span>
-                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
-                  </span>
-                </div>
-
-                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
-
-                <div class="trek-buttons">
-                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
-                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
-                </div>
-              </div>
-            );
-          });
-        })()
-      }
-    </div>
-    <button class="scroll-btn right" onclick="scrollCards('autumn', 1)">&gt;</button>
   </div>
 </section>
 
@@ -370,6 +297,79 @@ alt="Roopkund Lake"
 
   </div>
 
+</section>
+
+<!-- UPCOMING TREKS: Upcoming Season Treks -->
+<section class="trek-section reveal">
+  <h2>Autumn <span>Treks</span></h2>
+  <div class="trek-cards-wrapper">
+    <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
+    <div class="trek-cards-scroll" id="autumn">
+      {
+        (() => {
+          const shuffleArray = (array) => {
+            return [...array].sort(() => Math.random() - 0.5);
+          };
+
+          const capitalize = (str) => {
+            if (!str) return '';
+
+            if (Array.isArray(str)) {
+              return str.map(item => capitalize(item)).join(', ');
+            }
+
+            return str
+              .split(' ')
+              .map(word =>
+                word
+                  .split('-')
+                  .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+                  .join('-')
+              )
+              .join(' ');
+          };
+
+          return shuffleArray(
+            treks.filter(trek =>
+              Array.isArray(trek.season) &&
+              trek.season.map(s => s.toLowerCase()).includes('autumn')
+            )
+          ).map(trek => {
+      
+            const duration = trek.overview?.facts?.find(f => f.label === "Trek Duration")?.value || trek.duration;
+            const difficultyStr = Array.isArray(trek.difficulty) ? trek.difficulty.join(', ') : trek.difficulty;
+
+            return (
+              <div class="trek-card" key={trek.id}>
+                <a href={`/trek/${trek.id}#trek-hero`}>
+                  <img src={trek.heroImage} alt={`View of ${trek.name} trek`} loading="lazy" />
+                </a>
+
+                <h3 class="trek-name">{trek.name}</h3>
+
+                <div class="trek-info">
+                  <span>
+                    <i class="fa fa-clock"></i> {duration}
+                  </span>
+                  <span>
+                    <i class="fa fa-map-marker-alt"></i> {capitalize(trek.region)}
+                  </span>
+                </div>
+
+                <div class="trek-difficulty">{capitalize(difficultyStr)}</div>
+
+                <div class="trek-buttons">
+                  <a href={`/trek/${trek.id}#trek-overview-section`} class="btn btn-details">View Details</a>
+                  <a href={`/trek/${trek.id}#pricing-snippet-wrapper`} class="btn btn-dates">View Dates</a>
+                </div>
+              </div>
+            );
+          });
+        })()
+      }
+    </div>
+    <button class="scroll-btn right" onclick="scrollCards('autumn', 1)">&gt;</button>
+  </div>
 </section>
 
 <div id="testimonials">
@@ -903,8 +903,6 @@ alt="Roopkund Lake"
 .ph-trust-strip {
   width: 100%;
   background: #ffffff;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .ph-trust-inner {
@@ -966,13 +964,16 @@ alt="Roopkund Lake"
   background-color: #ffffff;
   color: #222;
   position: relative;
-  margin-top: 2rem;
 }
 
 .trek-section h2 {
-  font-size: 2.5rem;
   font-family: "Helvetica", sans-serif;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
+
+  font-weight: 500;
   color: #111;
+  
 }
 
 
@@ -1315,7 +1316,7 @@ alt="Roopkund Lake"
 @media (max-width: 768px) {
 
   .trek-section h2 {
-  font-size: 1.9rem;
+  font-size: 2.8rem;
 }
 
   .trek-cards-wrapper {
@@ -1364,13 +1365,8 @@ alt="Roopkund Lake"
 .experience-section {
   display: grid;
   grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
-
   gap: 3.5rem;
-
-  padding: 6rem 0 5.5rem;
-
   background: #fff;
-
   overflow: hidden;
 }
 
@@ -1561,8 +1557,7 @@ alt="Roopkund Lake"
 
   z-index: 3;
 
-  box-shadow:
-    0 18px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -1759,7 +1754,10 @@ alt="Roopkund Lake"
 }
 
 .news-section-heading {
-  font-size: 2.5rem;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
+
+  font-weight: 500;
   font-family: 'Helvetica', sans-serif;
   text-align: left;
 }
@@ -1771,7 +1769,7 @@ alt="Roopkund Lake"
 @media (max-width: 768px) {
 
   .news-section-heading {
-    font-size: 1.9rem;
+    font-size: 2.8rem;
   }
 
 }
@@ -1783,11 +1781,14 @@ alt="Roopkund Lake"
 .faqs-section {
   background-color: transparent;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .faqs-section-heading {
-  font-size: 2.5rem;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
+
+  font-weight: 500;
   font-family: 'Helvetica', sans-serif;
   text-align: left;
 }
@@ -1935,7 +1936,7 @@ alt="Roopkund Lake"
 @media (max-width: 768px) {
 
   .faqs-section-heading {
-    font-size: 1.9rem;
+    font-size: 2.8rem;
   }
   
 }
@@ -1950,8 +1951,24 @@ alt="Roopkund Lake"
 .confirmed-section reveal h2 span {
   color: #ff7300;
   border-bottom: 4px solid #ff7300;
-  padding-bottom: 2px;
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+  .testimonials.reveal h2 span,
+.trek-section.reveal h2 span,
+.news-section.reveal h2 span,
+.faqs-section.reveal h2 span,
+.leadgen-section.reveal h2 span,
+.trek-content h2 span,
+.destination-section.reveal h2 span,
+.confirmed-section reveal h2 span {
+  
+  border-bottom: 2px solid #ff7300;
+  
+}
+  
 }
 
 .leadgen-section {
@@ -1960,8 +1977,6 @@ alt="Roopkund Lake"
   background-image: url("https://res.cloudinary.com/dr44hob9b/image/upload/v1762016477/IMG_20190918_073624_xskg9n.jpg");
   background-size: cover;
   background-position: center;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
 }
 
 .leadgen-overlay {
@@ -1981,8 +1996,10 @@ alt="Roopkund Lake"
 
 .section-heading {
   font-family: Helvetica, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
+
+  font-weight: 500;
   display: inline-block;
   padding-bottom: 6px;
   margin-bottom: 20px;
@@ -2141,7 +2158,7 @@ width: 100%;
 height: 100%;
 
 object-fit: cover;
-object-position: 100% 100%;
+object-position: 100% 60%;
 
 display: block;
 }
@@ -2195,21 +2212,17 @@ TREK NAME
 ================================ */
 
 .trek-content-name {
-font-family: Helvetica, Arial, sans-serif;
-font-weight: 700;
+font-family: "Helvetica", sans-serif;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
 
-font-size: 2.5rem;
-line-height: 1.15;
+  font-weight: 500;
 
 color: #fff;
 
 margin: 0 0 1rem 0;
 
 text-align: left;
-}
-
-.trek-content-name span {
-font-weight: 700;
 }
 
 /* ===============================
@@ -2381,7 +2394,7 @@ box-shadow:
 MOBILE
 ================================ */
 
-@media (max-width: 900px) {
+@media (max-width: 760px) {
 
 .home-trek-feature {
 min-height: 620px;
@@ -2409,7 +2422,7 @@ max-width: none;
 }
 
 .trek-content-name {
-font-size: 2.2rem;
+font-size: 2.8rem;
 }
 
 .trek-meta {
@@ -2687,53 +2700,78 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const faqTopics = document.querySelectorAll(".faq-topic");
 
-    // --- Topic Toggle ---
-    faqTopics.forEach(topic => {
+<script>
+  function initializeFAQs() {
+    // --- Main Topic Toggle ---
+    document.querySelectorAll(".faq-topic").forEach(topic => {
       const header = topic.querySelector(".faq-topic-header");
       const body = topic.querySelector(".faq-topic-body");
+      const toggle = header?.querySelector(".toggle");
+
+      if (!header || !body) return;
 
       header.addEventListener("click", () => {
-        const expanded = header.getAttribute("aria-expanded") === "true";
-        header.setAttribute("aria-expanded", !expanded);
-        body.hidden = expanded;
-        body.style.display = expanded ? "none" : "block";
-        header.querySelector(".topic-toggle").textContent = expanded ? "▶" : "▼";
+        const isExpanded = header.getAttribute("aria-expanded") === "true";
+        const nextExpanded = !isExpanded;
+
+        header.setAttribute("aria-expanded", String(nextExpanded));
+        body.hidden = !nextExpanded;
+
+        if (toggle) {
+          toggle.textContent = nextExpanded ? "▼" : "▶";
+        }
       });
     });
 
     // --- Subtopic Toggle ---
-    document.querySelectorAll(".faq-subtopic").forEach(sub => {
-      const subHeader = sub.querySelector(".faq-subtopic-header");
-      const subBody = sub.querySelector(".faq-subtopic-body");
-      if (!subHeader || !subBody) return;
+    document.querySelectorAll(".faq-subtopic").forEach(subtopic => {
+      const header = subtopic.querySelector(".faq-subtopic-header");
+      const body = subtopic.querySelector(".faq-subtopic-body");
+      const toggle = header?.querySelector(".toggle");
 
-      subHeader.addEventListener("click", () => {
-        const expanded = subHeader.getAttribute("aria-expanded") === "true";
-        subHeader.setAttribute("aria-expanded", !expanded);
-        subBody.hidden = expanded;
-        subBody.style.display = expanded ? "none" : "block";
-        subHeader.querySelector(".subtopic-toggle").textContent = expanded ? "▸" : "▾";
+      if (!header || !body) return;
+
+      header.addEventListener("click", () => {
+        const isExpanded = header.getAttribute("aria-expanded") === "true";
+        const nextExpanded = !isExpanded;
+
+        header.setAttribute("aria-expanded", String(nextExpanded));
+        body.hidden = !nextExpanded;
+
+        if (toggle) {
+          toggle.textContent = nextExpanded ? "▾" : "▶";
+        }
       });
     });
 
     // --- FAQ Question Toggle ---
     document.querySelectorAll(".faq-item").forEach(item => {
-      const btn = item.querySelector(".faq-question");
+      const button = item.querySelector(".faq-question");
       const answer = item.querySelector(".faq-answer");
-      if (!btn || !answer) return;
+      const toggle = button?.querySelector(".toggle");
 
-      btn.addEventListener("click", () => {
-        const expanded = btn.getAttribute("aria-expanded") === "true";
-        btn.setAttribute("aria-expanded", !expanded);
-        answer.hidden = expanded;
-        btn.querySelector(".faq-toggle").textContent = expanded ? ">" : "v";
+      if (!button || !answer) return;
+
+      button.addEventListener("click", () => {
+        const isExpanded = button.getAttribute("aria-expanded") === "true";
+        const nextExpanded = !isExpanded;
+
+        button.setAttribute("aria-expanded", String(nextExpanded));
+        answer.hidden = !nextExpanded;
+
+        if (toggle) {
+          toggle.textContent = nextExpanded ? "−" : "+";
+        }
       });
     });
-  });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initializeFAQs);
+  } else {
+    initializeFAQs();
+  }
 </script>
 
 <script>

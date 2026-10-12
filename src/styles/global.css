@@ -536,19 +536,20 @@ backdrop-filter: blur(15px);
 /* ================= SECTION HEADING ================= */
 
 .confirmed-section h2 {
-  font-size: 2.5rem;
+  font-size: clamp(2.8rem, 4vw, 4.8rem);
+  line-height: 0.98;
+
+  font-weight: 500;
   font-family: "Helvetica", sans-serif;
-  font-weight: 600;
   text-align: left;
   color: #111;
-  margin-bottom: 0.45rem;
 }
 
 .confirmed-section h2 span {
   color: #ff7300;
-  border-bottom: 3px solid #ff7300;
-  padding-bottom: 2px;
+  border-bottom: 4px solid #ff7300;
   display: inline-block;
+  margin-bottom: 4px;
 }
 
 .section-subtext {
@@ -959,7 +960,7 @@ backdrop-filter: blur(15px);
 @media (max-width: 768px) {
 
   .confirmed-section h2 {
-    font-size: 1.9rem;
+    font-size: 2.8rem;
   }
 
   .confirmed-section h2 span {
