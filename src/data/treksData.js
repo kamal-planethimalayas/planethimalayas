@@ -14,13 +14,34 @@ export const treks = [
     region: "ladakh",
     duration: "7 Nights / 7 Days",
     coordinates: [
-      [34.1526, 77.5771],   // Leh
-      [33.970001, 77.260002], // Skiu (start near Leh)
-      [34.0500, 77.3760],   // Chilling area
-      [33.9700, 77.2600],   // Skiu
-      [33.8640, 77.5030],   // Markha
-      [33.8644, 77.5826], // Hemis (end near Leh)
+      [34.16200282733371, 77.58790916486291],   // Leh
+    [34.14363431465661, 77.48336198607507], // Indus Vieqwpoint
+    [34.19415247663591, 77.3758402538351], // Gurudwara Shri Pathar Sahib
+    [34.1663989871458, 77.33390510102454], // Sangam POint
+    [34.14502990527652, 77.28331740627884], //Metram Point
+    [34.032966023561926, 77.1922669890924], //Chilling waterfall
+    [33.99971944527466, 77.20741740817229],   // Chilling area
+    [33.98657887120174, 77.25241547629201],   // Skiu
+    [33.92896664123729, 77.35489538407387],   // Sara
+    [33.89021751159229, 77.42414012196419],   // Markha
+    [33.83043612804806, 77.50645147529085],   // Hankar
+    [33.788118386497615, 77.5940664423788], //Nimaling
+    [33.79212154896099, 77.6171693271349], // Kongmaru la
+    [33.82857303748901, 77.67407205540354], // Chokdo
+    [34.16200282733371, 77.58790916486291],   // Leh
     ],
+
+    waypoints: [
+  { name: "Leh (Start/End)", coords: [34.16200282733371, 77.58790916486291], type: "start/end" },
+  { name: "Chilling", coords: [33.99971944527466, 77.20741740817229], type: "trek start" },
+  { name: "Skiu", coords: [33.98657887120174, 77.25241547629201], type: "teahouse/village" },
+  { name: "Sara", coords: [33.92896664123729, 77.35489538407387], type: "teahouse" },
+  { name: "Markha", coords: [33.89021751159229, 77.42414012196419], type: "teahouse/village" },
+  { name: "Hankar", coords: [33.83043612804806, 77.50645147529085], type: "teahouse/village" },
+  { name: "Nimaling", coords: [33.788118386497615, 77.5940664423788], type: "camp/meadow" },
+  { name: "Kongmaru La", coords: [33.79212154896099, 77.6171693271349], type: "pass" },
+  { name: "Chokdo", coords: [33.82857303748901, 77.67407205540354], type: "village" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
 
@@ -215,21 +236,36 @@ export const treks = [
     duration: "9 Nights / 9 Days",
 
     coordinates: [
-      [34.1526, 77.5771],   // Leh
-      [34.0868, 77.4505],   // Zingchen
-      [34.0815, 77.4210],   // Rumbak
-      [34.0628, 77.3852],   // Ganda La Base
-      [34.0062, 77.3296],   // Ganda La
-      [33.9840, 77.3035],   // Shingo
-      [33.9700, 77.2600],   // Skiu
-      [33.9225, 77.3455],   // Sara
-      [33.8640, 77.5030],   // Markha
-      [33.7802, 77.6115],   // Hankar
-      [33.7414, 77.6651],   // Nimaling
-      [33.7040, 77.6985],   // Kongmaru La
-      [33.8644, 77.5826],   // Hemis
-      [34.1526, 77.5771],   // Leh
+      [34.16200282733371, 77.58790916486291],   // Leh
+    [34.142362208919764, 77.48362206225995], //Indus Viewpoint
+    [34.10049206657947, 77.41191501622815],   // Zinchen
+    [34.043751627238805, 77.40048634332595], //Yurutse
+    [34.04334180619194, 77.36223920912524], //Ganda La
+    [34.02985588301224, 77.30586992309719], //Shingo
+    [33.98657887120174, 77.25241547629201],   // Skiu
+    [33.92896664123729, 77.35489538407387],   // Sara
+    [33.89021751159229, 77.42414012196419],   // Markha
+    [33.83043612804806, 77.50645147529085],   // Hankar
+    [33.788118386497615, 77.5940664423788], //Nimaling
+    [33.79212154896099, 77.6171693271349], // Kongmaru la
+    [33.82857303748901, 77.67407205540354], // Chokdo
+    [34.16200282733371, 77.58790916486291],   // Leh
     ],
+
+    waypoints: [
+  { name: "Leh (Start/End)", coords: [34.16200282733371, 77.58790916486291], type: "start/end" },
+  { name: "Zinchen", coords: [34.10049206657947, 77.41191501622815], type: "trek start" },
+  { name: "Yurutse", coords: [34.043751627238805, 77.40048634332595], type: "teahouse/village" },
+  { name: "Ganda La", coords: [34.04334180619194, 77.36223920912524], type: "pass" },
+  {name: "Shingo", coords: [34.02985588301224, 77.30586992309719], type: "teahouse/village"},
+  { name: "Skiu", coords: [33.98657887120174, 77.25241547629201], type: "teahouse/village" },
+  { name: "Sara", coords: [33.92896664123729, 77.35489538407387], type: "teahouse" },
+  { name: "Markha", coords: [33.89021751159229, 77.42414012196419], type: "teahouse/village" },
+  { name: "Hankar", coords: [33.83043612804806, 77.50645147529085], type: "teahouse/village" },
+  { name: "Nimaling", coords: [33.788118386497615, 77.5940664423788], type: "camp/meadow" },
+  { name: "Kongmaru La", coords: [33.79212154896099, 77.6171693271349], type: "pass" },
+  { name: "Chokdo", coords: [33.82857303748901, 77.67407205540354], type: "village" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1755535590/markha-valley-hero1_wjsawn.jpg",
 
@@ -497,14 +533,40 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   "season": ["winter"],
   "month": ["january", "february", "march"],
   "region": "ladakh",
-  "duration": "7 Nights / 7 Days",
+  "duration": "9 Nights / 10 Days",
 
   "coordinates": [
-    [34.1526, 77.5771],   // Leh
-    [34.0500, 77.3760],   // Chilling area
-    [33.9700, 77.2600],   // Skiu
-    [33.8640, 77.5030],   // Markha
+    [34.16200282733371, 77.58790916486291],   // Leh
+    [34.14363431465661, 77.48336198607507], // Indus Vieqwpoint
+    [34.19415247663591, 77.3758402538351], // Gurudwara Shri Pathar Sahib
+    [34.1663989871458, 77.33390510102454], // Sangam POint
+    [34.14502990527652, 77.28331740627884], //Metram Point
+    [34.032966023561926, 77.1922669890924], //Chilling waterfall
+    [33.99971944527466, 77.20741740817229],   // Chilling area
+    [33.98657887120174, 77.25241547629201],   // Skiu
+    [33.92896664123729, 77.35489538407387],   // Sara
+    [33.89021751159229, 77.42414012196419],   // Markha
+    [33.83043612804806, 77.50645147529085],   // Hankar
+    [33.89021751159229, 77.42414012196419],   // Markha
+    [33.92896664123729, 77.35489538407387],   // Sara
+    [33.98657887120174, 77.25241547629201],   // Skiu
+    [33.99971944527466, 77.20741740817229],   // Chilling area
+    [34.032966023561926, 77.1922669890924], //Chilling waterfall
+    [34.14502990527652, 77.28331740627884], //Metram Point
+    [34.1663989871458, 77.33390510102454], // Sangam POint
+    [34.19415247663591, 77.3758402538351], // Gurudwara Shri Pathar Sahib
+    [34.14363431465661, 77.48336198607507], // Indus Vieqwpoint
+    [34.16200282733371, 77.58790916486291],   // Leh
     ],
+
+    waypoints: [
+  { name: "Leh (Start/End)", coords: [34.16200282733371, 77.58790916486291], type: "start/end" },
+  { name: "Chilling", coords: [33.99971944527466, 77.20741740817229], type: "trek start" },
+  { name: "Skiu", coords: [33.98657887120174, 77.25241547629201], type: "teahouse/village" },
+  { name: "Sara", coords: [33.92896664123729, 77.35489538407387], type: "teahouse" },
+  { name: "Markha", coords: [33.89021751159229, 77.42414012196419], type: "teahouse/village" },
+  { name: "Hankar", coords: [33.83043612804806, 77.50645147529085], type: "teahouse/village" },
+],
 
     heroImage: "https://res.cloudinary.com/dr44hob9b/image/upload/v1764855820/winter-markha-valley-hero1_c3d3fn.jpg",
 
@@ -522,10 +584,10 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
 
     overview: {
       facts: [
-        { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 7 Days" },
+        { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
         { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
         { emoji: "🏔️", label: "Max Altitude", value: "4,000 m (13,100 ft)" },
-        { emoji: "⚡", label: "Trek Distance", value: "65–70 Km (approx.)" },
+        { emoji: "⚡", label: "Trek Distance", value: "75 Km (approx.)" },
         { emoji: "🌤️", label: "Best Time", value: "January to March" },
         { emoji: "🗺️", label: "Region", value: "Markha Valley, Ladakh (Hemis National Park)" },
         { emoji: "📍", label: "Start Point", value: "Chilling (near Leh)" },
@@ -541,11 +603,20 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
     addons: {
       transport: null,
       transportNote: "* Trekkers can request transport arrangements from Leh airport to hotel and drop. Transport will be organized on the spot, and costs are to be shared by trekkers directly.",
-      offloadingbag: 2800,
+      offloadingbag: 7000,
       offloadingNote: "* Maximum weight 9kg/bag"
     },
 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 3 to breakfast on Day 7",
+
+    dates: [
+    { label: "13 Dec - 22 Dec", start: "2026-12-13", end: "2026-12-22" },
+{ label: "27 Dec - 05 Jan", start: "2026-12-27", end: "2027-01-05" },
+{ label: "10 Jan - 19 Jan", start: "2027-01-10", end: "2027-01-19" },
+{ label: "24 Jan - 02 Feb", start: "2027-01-24", end: "2027-02-02" },
+{ label: "07 Feb - 16 Feb", start: "2027-02-07", end: "2027-02-16" },
+{ label: "21 Feb - 02 Mar", start: "2027-02-21", end: "2027-03-02" },
+    ],
 
     highlights: [
   "Traverse the frozen Markha River, slide and skate on ice, and witness a unique winter landscape unlike any other in Ladakh",
@@ -556,43 +627,58 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
   "Experience the magical contrast of frozen rivers, snow-covered plains, and stark desert-like mountains",
     ],
 
-    itinerary: [
+    
+itinerary: [
   {
     day: 1,
-    title: "Arrival in Leh (11,500 ft / 3,500 m)",
-    details: "Arrive in Leh by flight and transfer to your hotel. Day 1 is dedicated to rest and acclimatization to the high-altitude cold of 11,500 ft. Winter temperatures can drop to -15°C during the day and -25°C at night, so keep outdoor activity light. Explore the Leh market gently if you feel comfortable. Stay hydrated, avoid alcohol, and enjoy local cuisine. A mandatory trek briefing takes place in the evening where you must carry ID proof and photographs; foreign trekkers should bring passport and visa copies. Overnight stay in Leh."
+    title: "Arrival and Reporting at Leh (3,500 m)",
+    details: "Arrive in Leh and transfer to your hotel. The day is reserved for rest and initial acclimatization after flying directly to approximately 3,500 m. Avoid strenuous activities, unnecessary walking and alcohol. Keep yourself warm, drink fluids regularly and inform your trek leader if you experience a headache, nausea, dizziness or unusual breathlessness. Winter temperatures can fall to around -15°C during the day and -20°C or lower at night. Attend the trek briefing, complete equipment checks and prepare for the journey into the Markha Valley. Overnight stay in a hotel in Leh."
   },
   {
     day: 2,
-    title: "Acclimatization and Sightseeing in Leh",
-    details: "This day is for gradual acclimatization. Visit Leh Palace, Shey, Thiksey, and Hemis monasteries, and stroll around the town’s winter bazaar. Keep activity light to avoid altitude sickness. Winter sun is mild, but temperatures remain low, so dress in layers. This day prepares your body for the cold and high-altitude trekking ahead. Return to the hotel early for rest."
+    title: "Acclimatization and Relaxed Exploration of Leh (3,500 m)",
+    details: "Spend another day acclimatizing before beginning the trek. Depending on weather, road conditions and how you feel, you may take a relaxed walk through Leh Market, explore the exterior and accessible areas of Leh Palace, or visit a nearby monastery such as Shanti Stupa if conditions permit. Keep sightseeing flexible and avoid strenuous climbs or trying to cover too many places. Enjoy a relaxed evening at Leh Market, shop for local handicrafts and winter essentials, and return to the hotel early. Daytime temperatures may remain around -5°C to -15°C, with nighttime lows around -15°C to -20°C or colder. Proper rest is essential before entering the remote valley. Overnight stay in a hotel in Leh."
   },
   {
     day: 3,
-    title: "Leh → Chilling → Skiu (3,400 m) | Trek Distance: 8–10 km | 5–6 hrs",
-    details: "Drive from Leh to Chilling (approx. 70 km). Begin trekking along frozen riverbeds and icy trails of the Markha Valley. Cross frozen Markha river patches, snow bridges, and enjoy the stark winter desert landscapes. Spot blue sheep and winter birds while walking past small villages and mani walls. Reach Skiu village and stay overnight in a warm homestay. Daytime temperature may hover around -10°C and drop further at night."
+    title: "Leh → Chilling → Skiu (3,400 m) | Drive: Approx. 60 km | Trek: 5–7 km | 3–4 hrs",
+    details: "After breakfast, drive from Leh towards Chilling, following the scenic Indus Valley before reaching the Zanskar confluence and the approach to Hemis National Park. The drive generally takes around 2–3 hours, subject to winter road conditions. Begin trekking towards Skiu along the Markha River, passing rugged valley walls, barren mountain slopes and scattered winter settlements. The relatively gentle trail offers an introduction to the frozen landscapes of Ladakh. Snow and ice may cover sections of the path, so follow your trek leader's instructions and use appropriate traction equipment. Temperatures may fall to around -10°C to -15°C during the day and -20°C to -25°C at night. Overnight stay in a pre-confirmed village teahouse."
   },
   {
     day: 4,
-    title: "Skiu → Markha (3,700 m) | Trek Distance: 10–11 km | 5–6 hrs",
-    details: "Follow gentle ascents along the frozen river valley. Pass ancient chortens, scattered hamlets, and snow-dusted pastures. The trail offers panoramic views of surrounding peaks and the frozen Markha River. Reach Markha village, one of the largest settlements, and check into a homestay. Temperatures can drop to -20°C at night. Immerse in Ladakhi culture and enjoy a warm meal."
+    title: "Skiu → Sara (Approx. 3,500 m) | Trek Distance: 10 km | 5–6 hrs",
+    details: "Continue deeper into the Markha Valley along a landscape of rocky riverbanks, frozen streams, weathered mountain slopes and traditional Ladakhi settlements. The trail follows the Markha River through open stretches and narrow sections of the valley, with minor ascents and descents. Watch for Himalayan blue sheep on the surrounding slopes and winter birds among sheltered patches of vegetation. Snow-covered or frozen sections may slow progress, so maintain a steady pace and take regular warming breaks. Expect daytime temperatures around -10°C to -15°C and nighttime lows near -20°C to -25°C, depending on weather and wind exposure. Overnight stay in a pre-confirmed village teahouse in Sara."
   },
   {
     day: 5,
-    title: "Markha Exploration (4,150 m) | Trek Distance: 6–8 km | 4–5 hrs",
-    details: "Today is an acclimatization hike to Thachungtse, with spectacular views of Kang Yatse (6,400 m) and the winter landscape. Spot Himalayan blue sheep navigating steep cliffs, and enjoy the quiet solitude of snow-covered valleys. Return to Markha for the night, relishing the warmth of homestay accommodations. Nighttime temperatures can plunge to -25°C, with wind chill making it feel colder."
+    title: "Sara → Markha (Approx. 3,700 m) | Trek Distance: 10 km | 6–7 hrs",
+    details: "Today's walk takes you farther into the heart of the Markha Valley. Follow rugged trails through the small settlement of Chalak, pass mani walls and traditional village structures, and continue towards Markha, one of the valley's principal settlements. In winter, the river corridor transforms into a striking landscape of frozen patches, exposed stones and snow-dusted mountains. Sections of the route may require careful navigation around ice, and river crossings must only be attempted where your guide has confirmed a safe passage. Markha offers an opportunity to experience the region's distinctive architecture and cultural heritage. Daytime temperatures may range from -10°C to -15°C, while nighttime lows can reach -25°C to -30°C, particularly in exposed conditions. Overnight stay in a pre-confirmed village teahouse."
   },
   {
     day: 6,
-    title: "Markha → Skiu (3,400 m) | Trek Distance: 10–11 km | 5–6 hrs",
-    details: "Retrace your route along the frozen Markha river valley back to Skiu. Observe the winter flora and fauna in their dormant season. The valley appears wider and more dramatic on the return journey. Enjoy homestay comforts in Skiu. Temperatures remain below freezing, so proper winter clothing is essential."
+    title: "Markha → Hankar (Approx. 4,000 m) | Trek Distance: 10–11 km | 6–7 hrs",
+    details: "Leave Markha and continue upstream towards Hankar, following a more rugged trail across rocky terrain and frozen sections of the river valley. Pass the dramatic landscape around Umlung and look for views of the Kang Yatse massif as the surrounding mountains become increasingly prominent. The route includes uneven ground, boulders and gradual altitude gain, making careful foot placement and a measured pace important. Hankar's traditional stone houses and the ruins of its old fort create a striking setting beneath the surrounding mountains. Daytime temperatures may remain around -10°C to -15°C, while nighttime temperatures can fall to -25°C to -30°C or lower. Wind chill may make conditions feel considerably colder. Overnight stay in a pre-confirmed village teahouse."
   },
   {
     day: 7,
-    title: "Skiu → Chilling → Leh (3,500 m) | Trek Distance: 5–6 km | 2.5–3.5 hrs + Drive",
-    details: "A short trek from Skiu to Chilling takes about 2.5–3.5 hours over icy terrain. From Chilling, drive back to Leh. Warm rooms, hot water, and local food await. Use this day to relax, shop for souvenirs, and enjoy Leh in winter. Overnight stay in Leh."
+    title: "Hankar Exploration and Return to Markha (Approx. 3,700 m) | Trek: 12–14 km | 6–7 hrs",
+    details: "Begin with an exploration of Upper Hankar and its elevated viewpoints, where the old monastery and traditional settlement offer a closer look at the valley's cultural landscape. On clear days, the surrounding terrain provides impressive views towards the Kang Yatse peaks and the stark mountain ranges of Ladakh. After exploring, retrace your route towards Markha, descending through the rugged upper valley and across familiar riverbank trails. The day's progress will depend on snow conditions, visibility and the time required for the exploration. Start early and maintain enough daylight for the return journey. Temperatures may range from -10°C to -15°C during the day, with nighttime lows around -25°C or colder. Overnight stay in a pre-confirmed village teahouse in Markha."
   },
-  
+  {
+    day: 8,
+    title: "Markha → Sara (Approx. 3,500 m) | Trek Distance: 10 km | 5–6 hrs",
+    details: "Retrace your route down the Markha Valley towards Sara. The return journey brings a different perspective to the dramatic mountain walls, frozen river stretches, traditional settlements and open valley landscapes encountered earlier in the trek. Although the overall route descends gradually, icy surfaces and uneven terrain can make winter walking demanding. Take regular breaks, protect exposed skin from the cold and maintain a steady pace. Depending on the weather, daytime temperatures may range from -10°C to -15°C, with nighttime lows around -20°C to -25°C. Overnight stay in a pre-confirmed village teahouse in Sara."
+  },
+  {
+    day: 9,
+    title: "Sara → Skiu → Chilling → Leh (3,500 m) | Trek: Approx. 14–15 km | 7–8 hrs + Drive",
+    details: "Begin the final trekking day by retracing the trail from Sara towards Skiu and onward to Chilling. Walk through the familiar winter landscapes of the Markha River corridor, passing rocky riverbanks, frozen sections and mountain slopes before reaching the roadhead. The combined distance is approximately 14–15 km, and progress may be slower if snow or ice affects the trail. A vehicle will meet the group at Chilling for the return drive to Leh, generally taking around 2–3 hours depending on road conditions. Expect daytime temperatures along the route to remain well below freezing, potentially around -10°C to -15°C, with colder conditions possible in shaded sections. On arrival in Leh, enjoy a warm shower, dinner and a well-earned rest. Overnight stay in a hotel in Leh."
+  },
+  {
+    day: 10,
+    title: "Departure from Leh",
+    details: "After breakfast, check out of the hotel and transfer to Leh Airport for your onward journey. Winter flight operations can be affected by snowfall, fog and poor visibility, so allow flexibility in your travel plans and avoid scheduling important onward connections too tightly. Your winter Markha Valley adventure concludes with memories of frozen river landscapes, remote Ladakhi settlements, traditional mountain culture and the spectacular scenery of the upper valley."
+  }
 ],
 
     didYouKnow: [
@@ -2761,7 +2847,6 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 5",
 
     dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
   ],
@@ -2937,7 +3022,6 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
 
     dates: [
-  { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
   { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
@@ -3433,8 +3517,6 @@ description:
   },
 
   dates: [
-  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
-  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
   { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
   { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
 ],
@@ -3649,7 +3731,6 @@ description:
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
   dates: [
-  { label: "12 Oct - 15 Oct", start: "2026-10-12", end: "2026-10-15" }, 
   { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
@@ -4220,9 +4301,9 @@ questions: [
 
     dates: [      
 
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-      { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
-      { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
+      //{ label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      //{ label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
+      //{ label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
     ],
 
     highlights: [
@@ -4491,9 +4572,9 @@ questions: [
 
     dates: [
 
-      { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-      { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
-      { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
+      //{ label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
+      //{ label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
+      //{ label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
     ],
 
     highlights: [
@@ -4715,12 +4796,20 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+    { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
 
   confirmedDepartures: [
@@ -5014,7 +5103,15 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
-
+  { label: "27 Dec - 01 Jan", start: "2026-12-27", end: "2027-01-01" },
+{ label: "10 Jan - 15 Jan", start: "2027-01-10", end: "2027-01-15" },
+{ label: "24 Jan - 29 Jan", start: "2027-01-24", end: "2027-01-29" },
+{ label: "07 Feb - 12 Feb", start: "2027-02-07", end: "2027-02-12" },
+{ label: "21 Feb - 26 Feb", start: "2027-02-21", end: "2027-02-26" },
+{ label: "07 Mar - 12 Mar", start: "2027-03-07", end: "2027-03-12" },
+{ label: "21 Mar - 26 Mar", start: "2027-03-21", end: "2027-03-26" },
+{ label: "04 Apr - 09 Apr", start: "2027-04-04", end: "2027-04-09" },
+{ label: "18 Apr - 23 Apr", start: "2027-04-18", end: "2027-04-23" },
   ],
 
     highlights: [
@@ -5242,13 +5339,12 @@ waypoints: [
   //},
 
     dates: [
-  { label: "11 Oct - 17 Oct", start: "2026-10-11", end: "2026-10-17" },
   { label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
 ],
 
 confirmedDepartures: [
   {
-    date: "2026-10-11",
+    date: "2026-10-18",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "confirmed"
@@ -6052,7 +6148,6 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       { label: "25 Oct - 30 Oct", start: "2026-10-25", end: "2026-10-30" },
   { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
-  
 ],
 
     highlights: [
@@ -6089,7 +6184,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
   details: "The day begins with a gentle descent from the Pushtara meadows, winding through alpine slopes dotted with wildflowers and the occasional Gujjar graveyard adding a touch of mystery to the trail. As the path drops, pine and rhododendron forests envelope the trekker, offering shade and the occasional sighting of Himalayan Monals. The descent is gradual, with intermittent ups and downs, revealing panoramic views of the snow-capped peaks behind and the lush valleys ahead. After crossing small streams and rocky patches, the trail meets the motorable road near Taluka village, a quaint settlement of traditional wooden houses and orchards. From here, a scenic one-hour drive returns you to Sankri, bringing the trek to a close. The evening is perfect for relaxation, reflecting on the journey, and soaking in the final views of the majestic mountains before overnight stay at a guesthouse or hotel in Sankri."
   },
   {
-    day: 7,
+    day: 6,
   title: "Sankri to Dehradun",
   details:
     "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
@@ -6280,7 +6375,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     "The day begins with the descent from Seematra, retracing the familiar trail as it winds gently down the valley. Walking in the soft morning light, the landscape feels calmer and more reflective than the days before. Instead of descending directly to the Seema bridge, the trail passes through Osla village, offering a glimpse into its century-old wooden homes and the revered Someshwar Temple, where local traditions and daily life continue much as they have for generations.<br><br>From Osla, the trail continues downhill past Pawani Garat and along forested paths to reach Gangad, a quiet riverside hamlet tucked beside the Supin River. After a short rest, vehicles are arranged for the drive back to Sankri, following the familiar mountain road through deep valleys and pine forests.<br><br>Arrival at Sankri by evening marks the official end of the trek. With the mountains now behind you, it’s time to unwind, reflect on the journey, and carry back memories of remote trails, village life, and days spent deep in the Himalayas."
 },
 {
-  day: 7,
+  day: 8,
   title: "Sankri to Dehradun",
   details:
     "<strong>• Drive Distance: ~200 km | Duration: 7–8 hrs.</strong><br><br>\
@@ -6697,7 +6792,7 @@ itinerary: [
   inclusionsNote: "🍽️ All Meals – Nutritious vegetarian meals provided from packed lunch on Day 2 to packed lunch on Day 5",
 
   dates: [
-      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+      //{ label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
   ],
 
   highlights: [
@@ -6924,6 +7019,15 @@ itinerary: [
   { label: "30 Nov - 04 Dec", start: "2026-11-30", end: "2026-12-04" },
   { label: "14 Dec - 18 Dec", start: "2026-12-14", end: "2026-12-18" },
   { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+  { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
 
 //activeDeparture: [
@@ -7398,6 +7502,15 @@ details: "• Begin the descent through familiar forests and open meadows, retra
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+    { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
   confirmedDepartures: [
   {
@@ -7590,6 +7703,15 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+    { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
 
   confirmedDepartures: [
@@ -7840,6 +7962,15 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+    { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
 
   confirmedDepartures: [
@@ -8050,13 +8181,15 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
   { label: "20 Dec - 25 Dec", start: "2026-12-20", end: "2026-12-25" },
-
-
-//{ label: "11 May - 15 May", start: "2026-05-11", end: "2026-05-15" },
-
-//{ label: "01 Jun - 05 Jun", start: "2026-06-01", end: "2026-06-05" },
-//{ label: "08 Jun - 12 Jun", start: "2026-06-08", end: "2026-06-12" },
-
+    { label: "27 Dec - 01 Jan", start: "2026-12-27", end: "2027-01-01" },
+{ label: "10 Jan - 15 Jan", start: "2027-01-10", end: "2027-01-15" },
+{ label: "24 Jan - 29 Jan", start: "2027-01-24", end: "2027-01-29" },
+{ label: "07 Feb - 12 Feb", start: "2027-02-07", end: "2027-02-12" },
+{ label: "21 Feb - 26 Feb", start: "2027-02-21", end: "2027-02-26" },
+{ label: "07 Mar - 12 Mar", start: "2027-03-07", end: "2027-03-12" },
+{ label: "21 Mar - 26 Mar", start: "2027-03-21", end: "2027-03-26" },
+{ label: "04 Apr - 09 Apr", start: "2027-04-04", end: "2027-04-09" },
+{ label: "18 Apr - 23 Apr", start: "2027-04-18", end: "2027-04-23" },
   ],
 
   confirmedDepartures: [
@@ -8285,6 +8418,14 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
   { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
+  { label: "11 Jan - 13 Jan", start: "2027-01-11", end: "2027-01-13" },
+{ label: "25 Jan - 27 Jan", start: "2027-01-25", end: "2027-01-27" },
+{ label: "08 Feb - 10 Feb", start: "2027-02-08", end: "2027-02-10" },
+{ label: "22 Feb - 24 Feb", start: "2027-02-22", end: "2027-02-24" },
+{ label: "08 Mar - 10 Mar", start: "2027-03-08", end: "2027-03-10" },
+{ label: "22 Mar - 24 Mar", start: "2027-03-22", end: "2027-03-24" },
+{ label: "05 Apr - 07 Apr", start: "2027-04-05", end: "2027-04-07" },
+{ label: "19 Apr - 21 Apr", start: "2027-04-19", end: "2027-04-21" },
 ],
 
   highlights: [
@@ -8508,6 +8649,15 @@ itinerary: [
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
+    { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
+{ label: "18 Jan - 22 Jan", start: "2027-01-18", end: "2027-01-22" },
+{ label: "01 Feb - 05 Feb", start: "2027-02-01", end: "2027-02-05" },
+{ label: "15 Feb - 19 Feb", start: "2027-02-15", end: "2027-02-19" },
+{ label: "01 Mar - 05 Mar", start: "2027-03-01", end: "2027-03-05" },
+{ label: "15 Mar - 19 Mar", start: "2027-03-15", end: "2027-03-19" },
+{ label: "29 Mar - 02 Apr", start: "2027-03-29", end: "2027-04-02" },
+{ label: "12 Apr - 16 Apr", start: "2027-04-12", end: "2027-04-16" },
+{ label: "26 Apr - 30 Apr", start: "2027-04-26", end: "2027-04-30" },
   ],
   confirmedDepartures: [
   {
@@ -8759,7 +8909,7 @@ waypoints: [
   inclusionsNote: "🍽️ All Meals – Nutritious meals from dinner on Day 1 to breakfast on Day 8",
 
   dates: [
-    { label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
+    //{ label: "03 Oct - 10 Oct", start: "2026-10-03", end: "2026-10-10" },
   ],
 
   highlights: [
@@ -9704,8 +9854,6 @@ The descent brings a gradual return to the softer landscapes of the lower Himala
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 6",
 
     dates: [  
-    //{ label: "07 Oct - 13 Oct", start: "2026-10-07", end: "2026-10-13" },
-    { label: "09 Oct - 15 Oct", start: "2026-10-09", end: "2026-10-15" },    
     { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
     { label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
     
@@ -9713,7 +9861,7 @@ The descent brings a gradual return to the softer landscapes of the lower Himala
 
    confirmedDepartures: [
   {
-    date: "2026-10-09",
+    date: "2026-10-24",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "confirmed"
@@ -11065,6 +11213,14 @@ waypoints: [
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
   { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
+  { label: "11 Jan - 13 Jan", start: "2027-01-11", end: "2027-01-13" },
+{ label: "25 Jan - 27 Jan", start: "2027-01-25", end: "2027-01-27" },
+{ label: "08 Feb - 10 Feb", start: "2027-02-08", end: "2027-02-10" },
+{ label: "22 Feb - 24 Feb", start: "2027-02-22", end: "2027-02-24" },
+{ label: "08 Mar - 10 Mar", start: "2027-03-08", end: "2027-03-10" },
+{ label: "22 Mar - 24 Mar", start: "2027-03-22", end: "2027-03-24" },
+{ label: "05 Apr - 07 Apr", start: "2027-04-05", end: "2027-04-07" },
+{ label: "19 Apr - 21 Apr", start: "2027-04-19", end: "2027-04-21" },
 ],
   confirmedDepartures: [
   {
@@ -11524,7 +11680,7 @@ waypoints: [
 
     dates: [
       
-  { label: "17 Oct - 26 Oct", start: "2026-10-17", end: "2026-10-24" },
+  { label: "15 Nov - 24 Nov", start: "2026-11-15", end: "2026-11-24" },
   { label: "29 Nov - 08 Dec", start: "2026-11-29", end: "2026-12-08" },
     ],
 
@@ -11710,9 +11866,35 @@ waypoints: [
   duration: ["7 Nights / 8 Days"],
   region: "sikkim",
   coordinates: [
-  [27.3745, 88.2350], // Yuksom (start)
-  [27.5679, 88.2817], // Tshoka
-  [27.5997, 88.2942], // Dzongri
+   [27.372351762941747, 88.22307482186301], // Yuksom (start)
+  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
+  [27.41410037080871, 88.19753717751303], //Sachen
+  [27.42533564585748, 88.19125417256477], // Prekchu bridge
+  [27.428718032054057, 88.18677097514579], //Bakhim
+  [27.433294036672248, 88.18284817740422], // Tshoka
+  [27.457234199710285, 88.17702452152463],
+  [27.459854647055128, 88.17162716893027], //Phedang
+  [27.465525180318707, 88.16962679345166], //Deorali top
+  [27.475888081848417, 88.16060542369998], //Dzongri
+  [27.481523764447243, 88.16370887898164], //Dzongri top
+  [27.475888081848417, 88.16060542369998], //Dzongri
+  [27.465525180318707, 88.16962679345166], //Deorali top
+  [27.459854647055128, 88.17162716893027], //Phedang
+  [27.457234199710285, 88.17702452152463],
+  [27.433294036672248, 88.18284817740422], // Tshoka
+  [27.428718032054057, 88.18677097514579], //Bakhim
+  [27.42533564585748, 88.19125417256477], // Prekchu bridge
+  [27.41410037080871, 88.19753717751303], //Sachen
+  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
+  [27.372351762941747, 88.22307482186301], // Yuksom (start)
+  ],
+  waypoints: [
+  { name: "Yuksom (Start/End)", coords: [27.372351762941747, 88.22307482186301], type: "start/end" },
+  { name: "Sachen", coords: [27.41410037080871, 88.19753717751303], type: "campsite" },
+  { name: "Bakhim", coords: [27.428718032054057, 88.18677097514579], type: "campsite" },
+  { name: "Tshoka", coords: [27.433294036672248, 88.18284817740422], type: "campsite" },
+  { name: "Dzongri", coords: [27.475888081848417, 88.16060542369998], type: "campsite" },
+  { name: "Dzongri Top", coords: [27.481523764447243, 88.16370887898164], type: "viewpoint" },
   ],
 
   heroImage:
@@ -11778,10 +11960,14 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 
 
  dates: [
-
-  //{ label: "28 Mar - 03 Apr", start: "2026-03-28", end: "2026-04-03" }
-
-  ],
+{ label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
+{ label: "19 Dec - 25 Dec", start: "2026-12-19", end: "2026-12-25" },
+{ label: "02 Jan - 08 Jan", start: "2027-01-02", end: "2027-01-08" },
+{ label: "16 Jan - 22 Jan", start: "2027-01-16", end: "2027-01-22" },
+{ label: "30 Jan - 05 Feb", start: "2027-01-30", end: "2027-02-05" },
+{ label: "13 Feb - 19 Feb", start: "2027-02-13", end: "2027-02-19" },
+{ label: "27 Feb - 05 Mar", start: "2027-02-27", end: "2027-03-05" },
+    ],
 
   highlights: [
     "Witness one of the most dramatic winter sunrises over Mt. Kanchenjunga from Dzongri Top",
@@ -12013,8 +12199,6 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
 
   dates: [
-    { label: "04 Oct - 10 Oct", start: "2026-10-04", end: "2026-10-10" },
-{ label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" },
 { label: "31 Oct - 06 Nov", start: "2026-10-31", end: "2026-11-06" },
 { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
 { label: "28 Nov - 04 Dec", start: "2026-11-28", end: "2026-12-04" },
