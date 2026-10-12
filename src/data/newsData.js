@@ -49,10 +49,8 @@ export const news = [
   details:
   `
 <ul>
-  <li>• (04 Oct - 10 Oct): Gaumukh Tapovan Trek. <strong><a href="/trek/gaumukh-tapovan-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (05 Oct - 09 Oct): Hampta Pass Trek. <strong><a href="/trek/hampta-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (18 Oct - 23 Oct): Dodital & Darwa Pass Trek. <strong><a href="/trek/dodital-darwa-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (17 Oct - 26 Oct): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (29 Nov - 08 Dec): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>
 `
 },
