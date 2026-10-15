@@ -2607,94 +2607,157 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const sections = document.querySelectorAll(".trek-cards-wrapper");
-  
-  sections.forEach(wrapper => {
+  const wrappers = document.querySelectorAll(".trek-cards-wrapper");
+
+  wrappers.forEach((wrapper) => {
     const row = wrapper.querySelector(".trek-cards-scroll");
     const leftBtn = wrapper.querySelector(".scroll-btn.left");
     const rightBtn = wrapper.querySelector(".scroll-btn.right");
 
-    let autoScrollInterval;
-    let isUserInteracting = false;
+    // Skip incomplete carousel sections safely.
+    if (!row || !leftBtn || !rightBtn) return;
 
-    // Update button classes instead of disabled
+    let autoScrollInterval = null;
+    let autoScrollStopped = false;
+    let isAutoScrolling = false;
+    let scrollEndTimer = null;
+
+    // Update navigation button appearance.
     function updateButtons() {
-      if (row.scrollLeft <= 0) {
-        leftBtn.classList.add("at-start");
-      } else {
-        leftBtn.classList.remove("at-start");
-      }
+      const atStart = row.scrollLeft <= 1;
+      const atEnd =
+        row.scrollLeft + row.clientWidth >= row.scrollWidth - 2;
 
-      if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 1) {
-        rightBtn.classList.add("at-end");
-      } else {
-        rightBtn.classList.remove("at-end");
-      }
+      leftBtn.classList.toggle("at-start", atStart);
+      rightBtn.classList.toggle("at-end", atEnd);
     }
 
-    function scroll(direction) {
+    // Permanently stop automatic scrolling for this page visit.
+    function stopAutoScroll() {
+      if (autoScrollStopped) return;
+
+      autoScrollStopped = true;
+      clearInterval(autoScrollInterval);
+      autoScrollInterval = null;
+    }
+
+    // Scroll approximately one card at a time.
+    function scrollOneCard(direction, automatic = false) {
       const card = row.querySelector(".trek-card");
       if (!card) return;
-      const gap = parseInt(getComputedStyle(row).gap) || 16;
-      const scrollAmount = (card.offsetWidth + gap) * direction;
-      row.scrollBy({ left: scrollAmount, behavior: "smooth" });
 
-      setTimeout(updateButtons, 300);
+      const styles = getComputedStyle(row);
+      const gap = parseFloat(styles.columnGap) ||
+                  parseFloat(styles.gap) || 16;
+
+      const distance = card.getBoundingClientRect().width + gap;
+
+      isAutoScrolling = automatic;
+      row.scrollBy({
+        left: distance * direction,
+        behavior: "smooth"
+      });
+
+      clearTimeout(scrollEndTimer);
+
+      scrollEndTimer = setTimeout(() => {
+        isAutoScrolling = false;
+        updateButtons();
+      }, 500);
     }
 
-    // ✅ AUTO SCROLL FUNCTION
+    // Randomly rearrange the cards.
+    function shuffleCards() {
+      const cards = Array.from(row.children);
+
+      // Fisher-Yates shuffle.
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+
+      cards.forEach((card) => row.appendChild(card));
+    }
+
+    // Automatic scrolling: one card every 2.5 seconds.
     function startAutoScroll() {
+      if (autoScrollStopped || autoScrollInterval !== null) return;
+
       autoScrollInterval = setInterval(() => {
-        if (isUserInteracting) return;
+        if (autoScrollStopped) return;
 
         const maxScroll = row.scrollWidth - row.clientWidth;
 
-        // If reached end → reset + reshuffle
+        // Nothing to scroll if all cards fit in the visible row.
+        if (maxScroll <= 1) return;
+
+        // At the end: reset to the beginning, then reshuffle.
         if (row.scrollLeft >= maxScroll - 5) {
-          row.scrollTo({ left: 0, behavior: "smooth" });
+          isAutoScrolling = true;
 
-          const cards = Array.from(row.children);
-          const shuffled = cards.sort(() => Math.random() - 0.5);
-          shuffled.forEach(card => row.appendChild(card));
+          row.scrollTo({
+            left: 0,
+            behavior: "instant"
+          });
 
+          shuffleCards();
+          updateButtons();
+
+          isAutoScrolling = false;
         } else {
-          scroll(1);
+          scrollOneCard(1, true);
         }
       }, 2500);
     }
 
-    // ✅ STOP ON USER INTERACTION
-    function stopAutoScroll() {
-      isUserInteracting = true;
-      clearInterval(autoScrollInterval);
-
-      setTimeout(() => {
-        isUserInteracting = false;
-        startAutoScroll();
-      }, 4000);
-    }
-
-    // ✅ BUTTON EVENTS (manual override)
+    // Manual navigation permanently stops automatic scrolling.
     leftBtn.addEventListener("click", () => {
       stopAutoScroll();
-      scroll(-1);
+      scrollOneCard(-1);
     });
 
     rightBtn.addEventListener("click", () => {
       stopAutoScroll();
-      scroll(1);
+      scrollOneCard(1);
     });
 
-    // ✅ USER INTERACTION EVENTS
+    // Hovering over the card row permanently stops auto-scroll.
     row.addEventListener("mouseenter", stopAutoScroll);
-    row.addEventListener("touchstart", stopAutoScroll);
 
-    row.addEventListener("scroll", updateButtons);
+    // Touch interaction permanently stops auto-scroll.
+    row.addEventListener("touchstart", stopAutoScroll, {
+      passive: true
+    });
+
+    // Any genuine manual scroll permanently stops auto-scroll.
+    row.addEventListener("wheel", stopAutoScroll, {
+      passive: true
+    });
+
+    row.addEventListener("pointerdown", (event) => {
+      // Ignore clicks on links or buttons inside a card.
+      // The carousel's navigation buttons are handled separately.
+      if (event.pointerType === "mouse") {
+        stopAutoScroll();
+      }
+    });
+
+    // Keep button appearance updated during scrolling.
+    row.addEventListener("scroll", () => {
+      updateButtons();
+
+      // Ignore scroll events caused by the automatic movement.
+      if (!isAutoScrolling) {
+        // Do not restart anything here.
+        // Manual interactions already stop auto-scroll permanently.
+      }
+    }, { passive: true });
+
+    // Initial state and startup.
     updateButtons();
-
-    // ✅ START AUTO SCROLL
     startAutoScroll();
   });
 });
@@ -2774,61 +2837,128 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 </script>
 
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const cube = document.querySelector(".cube");
+  const hero = document.querySelector(".hero-carousel-3d");
   const dots = document.querySelectorAll(".carousel-dots button");
   const leftArrow = document.querySelector(".carousel-arrow.left");
   const rightArrow = document.querySelector(".carousel-arrow.right");
+
+  // Stop safely if the hero carousel is not present.
+  if (!cube || !hero || !leftArrow || !rightArrow) return;
+
   const totalFaces = 3;
-  const rotateDelay = 15000;
+  const rotateDelay = 10000;
+  const transitionDuration = 1000;
 
   let currentIndex = 0;
-  let autoRotateTimeout;
+  let autoRotateTimeout = null;
+  let autoRotateStopped = false;
+  let touchStartX = 0;
+  let touchStartY = 0;
 
-  // Smooth CSS transition
-  cube.style.transition = "transform 1s ease-in-out";
+  // Smooth, understated cube movement.
+  cube.style.transition =
+    `transform ${transitionDuration}ms cubic-bezier(0.22, 0.61, 0.36, 1)`;
 
   function rotateCube(index) {
-    currentIndex = (index + totalFaces) % totalFaces; // wrap-around
+    currentIndex = (index + totalFaces) % totalFaces;
+
     cube.style.transform = `rotateY(${-currentIndex * 90}deg)`;
-    dots.forEach((dot, i) => dot.classList.toggle("active", i === currentIndex));
+
+    dots.forEach((dot, i) => {
+      const isActive = i === currentIndex;
+
+      dot.classList.toggle("active", isActive);
+      dot.setAttribute("aria-current", isActive ? "true" : "false");
+    });
   }
 
-  function showNext() { rotateCube(currentIndex + 1); }
-  function showPrev() { rotateCube(currentIndex - 1); }
+  function showNext() {
+    rotateCube(currentIndex + 1);
+  }
 
-  function scheduleAutoRotate() {
+  function showPrev() {
+    rotateCube(currentIndex - 1);
+  }
+
+  // Permanently stop auto-rotation after the first user interaction.
+  function stopAutoRotate() {
+    autoRotateStopped = true;
     clearTimeout(autoRotateTimeout);
+    autoRotateTimeout = null;
+  }
+
+  // Schedule automatic rotation only while the visitor has not interacted.
+  function scheduleAutoRotate() {
+    if (autoRotateStopped) return;
+
+    clearTimeout(autoRotateTimeout);
+
     autoRotateTimeout = setTimeout(() => {
+      if (autoRotateStopped) return;
+
       showNext();
-      scheduleAutoRotate(); // loop
+      scheduleAutoRotate();
     }, rotateDelay);
   }
 
-  // Arrow click
-  leftArrow.addEventListener("click", () => { showPrev(); scheduleAutoRotate(); });
-  rightArrow.addEventListener("click", () => { showNext(); scheduleAutoRotate(); });
-
-  // Dots click
-  dots.forEach((dot, i) => dot.addEventListener("click", () => { rotateCube(i); scheduleAutoRotate(); }));
-
-  // Pause on hover
-  const hero = document.querySelector(".hero-carousel-3d");
-  hero.addEventListener("mouseenter", () => clearTimeout(autoRotateTimeout));
-  hero.addEventListener("mouseleave", scheduleAutoRotate);
-
-  // Mobile swipe
-  let startX = 0;
-  hero.addEventListener("touchstart", e => startX = e.touches[0].clientX);
-  hero.addEventListener("touchend", e => {
-    const endX = e.changedTouches[0].clientX;
-    if (startX - endX > 50) showNext();
-    if (endX - startX > 50) showPrev();
-    scheduleAutoRotate();
+  // Arrow navigation.
+  leftArrow.addEventListener("click", () => {
+    stopAutoRotate();
+    showPrev();
   });
 
-  // Initialize
+  rightArrow.addEventListener("click", () => {
+    stopAutoRotate();
+    showNext();
+  });
+
+  // Direct navigation through dots.
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      stopAutoRotate();
+      rotateCube(index);
+    });
+  });
+
+  // Mobile swipe support.
+  hero.addEventListener("touchstart", (event) => {
+    if (!event.touches.length) return;
+
+    touchStartX = event.touches[0].clientX;
+    touchStartY = event.touches[0].clientY;
+  }, { passive: true });
+
+  hero.addEventListener("touchend", (event) => {
+    if (!event.changedTouches.length) return;
+
+    const endX = event.changedTouches[0].clientX;
+    const endY = event.changedTouches[0].clientY;
+
+    const deltaX = endX - touchStartX;
+    const deltaY = endY - touchStartY;
+
+    // Respond only to a clear horizontal swipe.
+    if (
+      Math.abs(deltaX) < 50 ||
+      Math.abs(deltaX) <= Math.abs(deltaY)
+    ) {
+      return;
+    }
+
+    stopAutoRotate();
+
+    if (deltaX < 0) {
+      showNext();
+    } else {
+      showPrev();
+    }
+  }, { passive: true });
+
+  // Initialize the first slide and start the 10-second timer.
   rotateCube(0);
   scheduleAutoRotate();
 });
