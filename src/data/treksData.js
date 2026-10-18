@@ -5098,21 +5098,31 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+  { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
   { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
+  { label: "06 Dec - 11 Dec", start: "2026-12-06", end: "2026-12-11" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
   { label: "27 Dec - 01 Jan", start: "2026-12-27", end: "2027-01-01" },
-{ label: "10 Jan - 15 Jan", start: "2027-01-10", end: "2027-01-15" },
-{ label: "24 Jan - 29 Jan", start: "2027-01-24", end: "2027-01-29" },
-{ label: "07 Feb - 12 Feb", start: "2027-02-07", end: "2027-02-12" },
-{ label: "21 Feb - 26 Feb", start: "2027-02-21", end: "2027-02-26" },
-{ label: "07 Mar - 12 Mar", start: "2027-03-07", end: "2027-03-12" },
-{ label: "21 Mar - 26 Mar", start: "2027-03-21", end: "2027-03-26" },
-{ label: "04 Apr - 09 Apr", start: "2027-04-04", end: "2027-04-09" },
-{ label: "18 Apr - 23 Apr", start: "2027-04-18", end: "2027-04-23" },
+  { label: "10 Jan - 15 Jan", start: "2027-01-10", end: "2027-01-15" },
+  { label: "24 Jan - 29 Jan", start: "2027-01-24", end: "2027-01-29" },
+  { label: "07 Feb - 12 Feb", start: "2027-02-07", end: "2027-02-12" },
+  { label: "21 Feb - 26 Feb", start: "2027-02-21", end: "2027-02-26" },
+  { label: "07 Mar - 12 Mar", start: "2027-03-07", end: "2027-03-12" },
+  { label: "21 Mar - 26 Mar", start: "2027-03-21", end: "2027-03-26" },
+  { label: "04 Apr - 09 Apr", start: "2027-04-04", end: "2027-04-09" },
+  { label: "18 Apr - 23 Apr", start: "2027-04-18", end: "2027-04-23" },
   ],
+
+  confirmedDepartures: [
+  {
+    date: "2026-12-06",
+    showOnHomepage: true,
+    seatsLeft: 5,
+    status: "confirmed"
+  }
+],
 
     highlights: [
       "Trek starts from Sari Village, a scenic hamlet nestled in the Garhwal Himalayas",
@@ -5155,11 +5165,11 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   title: "Sari Village to Rishikesh",
   details:
     "<strong>• Drive Distance: 195 km | Duration: 7–8 hrs.</strong><br><br>\
-Early morning, bid farewell to the peaceful village of Sari as you begin your return journey to Rishikesh. The drive winds through the beautiful Garhwal Himalayas, passing terraced farms, pine-covered hillsides, and charming mountain villages before descending into the river valleys below.<br><br>\
-Along the way, you'll once again follow the Mandakini and Alaknanda rivers, with opportunities to pause at scenic viewpoints and the sacred confluence of Devprayag, where the Alaknanda and Bhagirathi unite to form the holy Ganga. As the mountains gradually give way to the foothills, the memories of Deoriatal's emerald waters, the forests of Kedarnath Wildlife Sanctuary, Tungnath Temple, and the breathtaking summit of Chandrashila remain etched in your mind.<br><br>\
-By afternoon or early evening, you arrive in Rishikesh, marking the end of an unforgettable Himalayan adventure filled with pristine lakes, ancient forests, alpine meadows, and magnificent mountain panoramas."
-}
-],
+    Early morning, bid farewell to the peaceful village of Sari as you begin your return journey to Rishikesh. The drive winds through the beautiful Garhwal Himalayas, passing terraced farms, pine-covered hillsides, and charming mountain villages before descending into the river valleys below.<br><br>\
+    Along the way, you'll once again follow the Mandakini and Alaknanda rivers, with opportunities to pause at scenic viewpoints and the sacred confluence of Devprayag, where the Alaknanda and Bhagirathi unite to form the holy Ganga. As the mountains gradually give way to the foothills, the memories of Deoriatal's emerald waters, the forests of Kedarnath Wildlife Sanctuary, Tungnath Temple, and the breathtaking summit of Chandrashila remain etched in your mind.<br><br>\
+    By afternoon or early evening, you arrive in Rishikesh, marking the end of an unforgettable Himalayan adventure filled with pristine lakes, ancient forests, alpine meadows, and magnificent mountain panoramas."
+  }
+  ],
 
     howToReach: {
       air: "Nearest airport: Jolly Grant airport, Dehradun ",
@@ -5339,13 +5349,13 @@ waypoints: [
   //},
 
     dates: [
-  { label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
+  //{ label: "18 Oct - 24 Oct", start: "2026-10-18", end: "2026-10-24" },
 ],
 
 confirmedDepartures: [
   {
     date: "2026-10-18",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 8,
     status: "confirmed"
   }
@@ -5395,11 +5405,11 @@ confirmedDepartures: [
   title: "Gangotri to Rishikesh",
   details:
     "<strong>• Drive Distance: ~250 km | Duration: 9–10 hrs.</strong><br><br>\
-After an early breakfast, bid farewell to the sacred town of Gangotri as you begin your return journey to Rishikesh. Descending through the beautiful Bhagirathi Valley, the drive retraces the scenic mountain roads passing through Harsil, Uttarkashi, and several charming Himalayan villages. Throughout the journey, the Bhagirathi River remains your constant companion, flowing swiftly through deep gorges and lush valleys.<br><br>\
-As you lose altitude, the landscape gradually transforms from snow-clad peaks and alpine forests to subtropical hills and river valleys. If time permits, short breaks along the route offer opportunities to enjoy the mountain scenery one last time before returning to the plains.<br><br>\
-By evening, you arrive in Rishikesh, bringing to an end an unforgettable journey to the source of the Ganga. The memories of Gaumukh, the majestic meadows of Tapovan, towering Himalayan peaks, and the spiritual aura of Gangotri will remain with you long after the trek has ended."
-}
-],
+  After an early breakfast, bid farewell to the sacred town of Gangotri as you begin your return journey to Rishikesh. Descending through the beautiful Bhagirathi Valley, the drive retraces the scenic mountain roads passing through Harsil, Uttarkashi, and several charming Himalayan villages. Throughout the journey, the Bhagirathi River remains your constant companion, flowing swiftly through deep gorges and lush valleys.<br><br>\
+  As you lose altitude, the landscape gradually transforms from snow-clad peaks and alpine forests to subtropical hills and river valleys. If time permits, short breaks along the route offer opportunities to enjoy the mountain scenery one last time before returning to the plains.<br><br>\
+  By evening, you arrive in Rishikesh, bringing to an end an unforgettable journey to the source of the Ganga. The memories of Gaumukh, the majestic meadows of Tapovan, towering Himalayan peaks, and the spiritual aura of Gangotri will remain with you long after the trek has ended."
+  }
+  ],
 
     howToReach: {
       air: "**Fly to Jolly Grant Airport (Dehradun – DED)**<br>* Located about 225–260 km from Gangotri<br>* Daily flights connect Dehradun with major Indian cities like Delhi, Mumbai, Bangalore, Kolkata, and Chennai",
@@ -8175,7 +8185,6 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 
   dates: [
 
-  { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
   { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
@@ -8195,7 +8204,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   confirmedDepartures: [
   {
     date: "2026-10-18",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 4,
     status: "confirmed"
   },

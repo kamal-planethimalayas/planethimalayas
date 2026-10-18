@@ -49,8 +49,8 @@ export const news = [
   details:
   `
 <ul>
-  <li>• (18 Oct - 23 Oct): Dodital & Darwa Pass Trek. <strong><a href="/trek/dodital-darwa-pass-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
   <li>• (29 Nov - 08 Dec): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
+  <li>• (06 Dec - 11 Dec): Deoriatal Chandrashilla Trek. <strong><a href="/trek/deoriatal-chandrashila-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
 </ul>
 `
 },
