@@ -41,17 +41,4 @@ export const news = [
 </ul>`  
 },
 
-{
-  title: "CONFIRMED DEPARTURE DATES OCT-NOV",
-  type: "news",
-  head: "Trek%20Updates", 
-  thumbnail: "/images/main/brand-logo-news.png", // 👈 put IMD logo here
-  details:
-  `
-<ul>
-  <li>• (29 Nov - 08 Dec): Goecha La Trek. <strong><a href="/trek/goechala-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-  <li>• (06 Dec - 11 Dec): Deoriatal Chandrashilla Trek. <strong><a href="/trek/deoriatal-chandrashila-trek" target="_blank" rel="noopener noreferrer">See Details</a></strong></li>
-</ul>
-`
-},
 ]; 

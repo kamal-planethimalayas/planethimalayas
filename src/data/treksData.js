@@ -4814,9 +4814,9 @@ seo: {
 
   confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
+    date: "2026-11-23",
+    showOnHomepage: true,
+    seatsLeft: 8,
     status: "confirmed"
   }
 ],
@@ -6547,8 +6547,6 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
-  { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
   { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
   { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 
@@ -6563,10 +6561,10 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
 
 confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-11-21",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -7049,10 +7047,10 @@ itinerary: [
 
 confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-11-16",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -9863,16 +9861,16 @@ The descent brings a gradual return to the softer landscapes of the lower Himala
     inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to dinner on Day 6",
 
     dates: [  
-    { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
+    //{ label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
     { label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
     
   ],
 
    confirmedDepartures: [
   {
-    date: "2026-10-24",
+    date: "2026-10-29",
     showOnHomepage: true,
-    seatsLeft: 8,
+    seatsLeft: 0,
     status: "confirmed"
   },
 ],
@@ -10498,20 +10496,16 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
   dates: [
-
-  { label: "10 Oct - 16 Oct", start: "2026-10-10", end: "2026-10-16" },
-  { label: "17 Oct - 23 Oct", start: "2026-10-17", end: "2026-10-23" }, 
-  { label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },
   { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
   { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
   { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 ],
 confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-11-14",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
