@@ -120,4 +120,14 @@ export const testimonials = [
       Can’t thank you guys enough for making my first expedition such a memorable one. ❤️
       More adventures to come. ⛰️`  
   },  
+  {
+    id: 12,
+    name: "Suvajit Ghosh",
+    location: "Kolkata, West Bengal",
+    image: "https://res.cloudinary.com/dr44hob9b/image/upload/v1793765711/suvajit_gy0ibz.jpg",
+    //instagram: "anahata_sama",
+    rating: 5,
+    text:
+      `We did a small trek to Dodital in Uttarakhand with Planethimalayas. I did this trek with my family.My daughter of 9years was the most excited member. As it was a family trek, I requested Planethimalayas to be mindful of the probable challenges as a family. Planethimalayas made all necessary arrangements for timely meals, suitable tent, sleeping bag, toilet tent, etc. The support team consisting of guide, cook, porter has been very helpful. Thank you Planethimalayas for making this possible.`  
+  },  
 ];

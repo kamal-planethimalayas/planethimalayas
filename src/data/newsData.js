@@ -1,20 +1,20 @@
 export const news = [
 
   {
-  title: "Generally calm with no active heavy rainfall or major severe weather warnings currently reported across Jammu & Kashmir, Himachal Pradesh, or Uttarakhand.",
+  title: "Dry weather conditions prevail across major Western Himalayan regions.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   //<span style="color: red; font-weight: bold;">WATCH (BE UPDATED)</span>
-  details:
-  `
-  <ul>
-    <li>• Isolated thunderstorm activity or lightning with light gusty winds (30-40 kmph) may occur at isolated elevated spots, but widespread heavy precipitation is largely absent.
-    <li>• Western Himalaya: Jammu & Kashmir/Ladakh, Himachal and Uttarakhand should progressively become drier, with the normal possibility of short-lived western-disturbance events later in October.
-    <li>• Central Himalaya: Uttarakhand should see a generally improving post-monsoon pattern, but rainfall episodes can still occur early in the month.
-    <li>• Eastern Himalaya: Sikkim and Arunachal Pradesh remain considerably more moisture-sensitive.
-  </ul>
-`
+ // details:
+ // `
+  //<ul>
+    //<li>• Isolated thunderstorm activity or lightning with light gusty winds (30-40 kmph) may occur at isolated elevated spots, but widespread heavy precipitation is largely absent.
+    //<li>• Western Himalaya: Jammu & Kashmir/Ladakh, Himachal and Uttarakhand should progressively become drier, with the normal possibility of short-lived western-disturbance events later in October.
+    //<li>• Central Himalaya: Uttarakhand should see a generally improving post-monsoon pattern, but rainfall episodes can still occur early in the month.
+    //<li>• Eastern Himalaya: Sikkim and Arunachal Pradesh remain considerably more moisture-sensitive.
+  //</ul>
+//</li>`
 },
 
   {

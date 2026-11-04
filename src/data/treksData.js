@@ -598,7 +598,7 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
       snippet: "Markha Valley in winter is one of the most surreal Himalayan experiences you can step into. The valley transforms into a silent, untouched world of frozen rivers, ancient stone villages, and wide white landscapes that feel almost otherworldly. For trekkers who want the thrill of walking on frozen water, the stillness of deep Zanskar winters, and the raw charm of Ladakh’s culture, Winter Markha Valley offers everything, with solitude and strong cultural immersion.<br>As temperatures drop, the Markha River — a tributary of the Zanskar — freezes into silver ribbons that wind through remote settlements like Chilling, Skiu, Sara, Markha, and Hankar. Smoke rising from mud-brick homes, frozen streams, prayer flags fluttering in icy winds, and the warmth of Ladakhi homestays create a beautiful contrast against the harsh cold outside.<br>The region falls inside Hemis National Park, home to blue sheep, red foxes, lammergeiers, and even snow leopards. Every day on the trail holds winter wonders: frozen waterfalls, frost-covered bridges, silent monasteries, and the towering presence of the Kang Yatse massif. The terrain is not steep, but the cold is extreme — daytime temperatures hover around –10°C to –15°C and nights can drop to –25°C or even –35°C in windy sections.<br>For winter lovers who want an offbeat, raw, dramatic Himalayan journey, the Winter Markha Valley Trek is a perfect match.",
     },
 
-    price: 29400,
+    price: 34900,
     priceNote: "* Leh to Leh",
     addons: {
       transport: null,
@@ -2847,7 +2847,7 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 5",
 
     dates: [   
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
   ],
 
@@ -3022,7 +3022,7 @@ confirmedDepartures: [
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from packed lunch on Day 1 to breakfast on Day 4",
 
     dates: [
-  { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
+  //{ label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
 
@@ -3517,7 +3517,7 @@ description:
   },
 
   dates: [
-  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
   { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
 ],
 
@@ -3731,7 +3731,7 @@ description:
   inclusionsNote: "🍽️ All Meals – From Day 1 lunch to Day 4 lunch",
 
   dates: [
-  { label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
+  //{ label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
   { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
 
@@ -4796,7 +4796,7 @@ seo: {
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 4",
 
     dates: [   
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
@@ -5098,8 +5098,8 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-  { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
-  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+  //{ label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+  //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "06 Dec - 11 Dec", start: "2026-12-06", end: "2026-12-11" },
@@ -6153,10 +6153,10 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 5",
 
     dates: [
-      { label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
-      { label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
-      { label: "25 Oct - 30 Oct", start: "2026-10-25", end: "2026-10-30" },
-  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+      //{ label: "11 Oct - 16 Oct", start: "2026-10-11", end: "2026-10-16" },
+      //{ label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
+      //{ label: "25 Oct - 30 Oct", start: "2026-10-25", end: "2026-10-30" },
+  //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
 ],
 
@@ -7021,8 +7021,8 @@ itinerary: [
   inclusionsNote: "🍽️ All Meals – From packed lunch on Day 2 to packed lunch on Day 4",
 
   dates: [
-  { label: "19 Oct - 23 Oct", start: "2026-10-19", end: "2026-10-23" },
-  { label: "02 Nov - 06 Nov", start: "2026-11-02", end: "2026-11-06" },
+  //{ label: "19 Oct - 23 Oct", start: "2026-10-19", end: "2026-10-23" },
+  //{ label: "02 Nov - 06 Nov", start: "2026-11-02", end: "2026-11-06" },
   { label: "16 Nov - 20 Nov", start: "2026-11-16", end: "2026-11-20" },
   { label: "30 Nov - 04 Dec", start: "2026-11-30", end: "2026-12-04" },
   { label: "14 Dec - 18 Dec", start: "2026-12-14", end: "2026-12-18" },
@@ -7504,8 +7504,8 @@ details: "• Begin the descent through familiar forests and open meadows, retra
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to breakfast on Day 5",
 
   dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
@@ -7705,8 +7705,8 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to dinner on Day 4",
 
   dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
@@ -7964,8 +7964,8 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   inclusionsNote: "🍽️ All Meals – From dinner on Day 1 to breakfast on Day 5",
 
  dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
@@ -8183,7 +8183,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 
   dates: [
 
-  { label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
+  //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
   { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
@@ -8418,9 +8418,9 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
     "🍽️ All Meals – Nutritious meals provided during the trek from Day1 Lunch to Day3 Lunch",
 
   dates: [
-  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
-  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
-  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  //{ label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
+  //{ label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
+  //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
   { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
@@ -8650,8 +8650,8 @@ itinerary: [
     "🍽️ All Meals – Nutritious meals provided throughout the trek from Day 1 dinner to day 4 dinner",
 
   dates: [   
-    { label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
-    { label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
+    //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
+    //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
     { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
     { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
@@ -9150,7 +9150,7 @@ waypoints: [
 <br>With Planethimalayas, this journey is approached as an expedition rather than a trek — slow, immersive, and deeply connected to the terrain. It is meant for those who seek not just altitude, but experience — the kind that stays long after the mountains are behind you.`
   },
 
-  price: 35900,
+  price: 54900,
   priceNote: "* Sankri to Chitkul",
 
   addons: {
@@ -9862,14 +9862,14 @@ The descent brings a gradual return to the softer landscapes of the lower Himala
 
     dates: [  
     //{ label: "24 Oct - 30 Oct", start: "2026-10-24", end: "2026-10-30" },    
-    { label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
+    //{ label: "29 Oct - 04 Nov", start: "2026-10-29", end: "2026-11-04" },    
     
   ],
 
    confirmedDepartures: [
   {
     date: "2026-10-29",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 0,
     status: "confirmed"
   },
@@ -11209,9 +11209,9 @@ waypoints: [
     "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 3",
 
   dates: [
-  { label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
-  { label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
-  { label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
+  //{ label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
+  //{ label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
+  //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
   { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
@@ -12202,7 +12202,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
   inclusionsNote: "🍽️ All Meals – from dinner on Day 1 to breakfast on Day 7",
 
   dates: [
-{ label: "31 Oct - 06 Nov", start: "2026-10-31", end: "2026-11-06" },
+//{ label: "31 Oct - 06 Nov", start: "2026-10-31", end: "2026-11-06" },
 { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
 { label: "28 Nov - 04 Dec", start: "2026-11-28", end: "2026-12-04" },
 { label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
