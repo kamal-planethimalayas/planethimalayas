@@ -41,4 +41,36 @@ export const news = [
 </ul>`  
 },
 
+
+{
+  title: "9-year-old Sampreeti Ghosh from Kolkata completes the Dodital–Darwa Pass trek with her family!",
+  type: "news",
+  head: "Trek Update",
+  thumbnail: "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801684/suvajit_uarp6d.jpg",
+
+  details: `
+    <p>
+      9-year-old Sampreeti Ghosh from Kolkata recently completed
+      the Dodital–Darwa Pass trek with Planethimalayas,
+      accompanied by her family.
+    </p>
+    <p>
+      A wonderful achievement and a reminder that the mountains
+      have something to teach us at every age.
+    </p>
+  `,
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801681/family-on-dodital-trek_bacjks.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801676/dodital-trek-group-pic_tghbeh.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801693/family-trekking_lupft6.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801672/dodital_lake_sygqdv.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801676/agoda-village_xxdgsz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1793801684/suvajit_uarp6d.jpg"
+  ],
+
+  galleryLabel: "View Trek Photos",
+  watermark: true
+},
+
 ]; 
