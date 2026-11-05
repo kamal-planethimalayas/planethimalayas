@@ -4,11 +4,24 @@ import { treks} from '../data/treksData.js';
 
 const filterCategories = {
   experience: ['beginner', 'intermediate', 'pro'],
+  feature: [
+    'peak',
+    'pass',
+    'crossover',
+    'lake',
+    'glacier',
+    'basecamp',
+    'ridge',
+    'valley',
+    'teahouse',
+    'national-park',
+    'wildlife-sanctuary'
+  ],
   difficulty: ['easy', 'moderate', 'difficult'],
   region: ['kashmir','ladakh','uttarakhand-Garhwal','uttarakhand-Kumaon','himachal pradesh','sikkim','west bengal'],
   season: ['spring', 'summer', 'monsoon', 'autumn', 'winter'],
   month: ['january','february','march','april','may','june','july','august','september','october','november','december'],
-  days: ['4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],   
+  days: ['4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
 };
 
 const toTitleCase = (str = "") =>
@@ -642,7 +655,13 @@ box-shadow:
 
   {Object.entries(filterCategories).map(([category, options]) => (
     <div class="filter-group" id={`filter-${category}`} key={category}>
-      <h3>{category === 'experience' ? 'Treks by Experience' : toTitleCase(category)}</h3>
+      <h3>
+  {category === 'experience'
+    ? 'Treks by Experience'
+    : category === 'feature'
+      ? 'Treks by Feature'
+      : toTitleCase(category)}
+</h3>
 
       {options.map(option => (
         <label key={option}>
@@ -835,10 +854,13 @@ box-shadow:
   <div class="filter-content">
     {Object.entries(filterCategories).map(([category, options]) => (
       <div class="filter-group" id={`modal-filter-${category}`} key={category}>
-        <h3>{category === 'experience'
-            ? 'Treks by Experience'
-            : category.charAt(0).toUpperCase() + category.slice(1)}
-        </h3>
+        <h3>
+  {category === 'experience'
+    ? 'Treks by Experience'
+    : category === 'feature'
+      ? 'Treks by Feature'
+      : category.charAt(0).toUpperCase() + category.slice(1)}
+</h3>
         {options.map(option => (
           <label key={option}>
             <input type="checkbox" name={category} value={option} />{' '}
@@ -983,7 +1005,10 @@ document.addEventListener("DOMContentLoaded", () => {
          EXPERIENCE
       ========================= */
 
-      if (category === "experience") {
+      if (
+        category === "experience" ||
+        category === "feature"
+      ) {
 
         const trekTags =
           Array.isArray(trek.tags)
@@ -1200,25 +1225,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
       /*
-       * Backwards compatibility:
-       *
-       * Old experience links used:
-       * ?tag=beginner
-       *
-       * New filter uses:
-       * ?experience=beginner
-       *
-       * We support both.
-       */
+ * Homepage experience cards use:
+ * ?tag=lake
+ * ?tag=peak
+ * ?tag=valley
+ * etc.
+ *
+ * Map those URLs to the Feature filter.
+ */
 
-      if (
-        cb.name === "experience" &&
-        !urlValue
-      ) {
-
-        urlValue =
-          urlParams.get("tag");
-      }
+if (
+  cb.name === "feature" &&
+  !urlValue
+) {
+  urlValue = urlParams.get("tag");
+}
 
 
       if (!urlValue) return;
