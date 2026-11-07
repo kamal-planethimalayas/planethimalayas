@@ -6547,7 +6547,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
     inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
     dates: [
-  { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
+  //{ label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
   { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 
 ],
@@ -10496,7 +10496,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
 
   dates: [
-  { label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
+  //{ label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
   { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
   { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 ],
