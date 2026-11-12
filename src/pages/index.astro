@@ -108,7 +108,7 @@ import "../styles/global.css";
 <section class="ph-trust-strip">
   <div class="ph-trust-inner">
     <p class="ph-trust-primary">
-      Small groups. Experienced trek leaders. Thoughtful itineraries.
+      Small groups. Safety first approach. Sustainable trekking.
     </p>
 
     <p class="ph-trust-secondary">
@@ -301,9 +301,9 @@ alt="Goechala Viewpoint Trail"
 
 <!-- UPCOMING TREKS: Upcoming Season Treks -->
 <section class="trek-section reveal">
-  <h2>Autumn <span>Treks</span></h2>
+  <h2>Winter <span>Treks</span></h2>
   <div class="trek-cards-wrapper">
-    <button class="scroll-btn left" onclick="scrollCards('autumn', -1)">&lt;</button>
+    <button class="scroll-btn left" onclick="scrollCards('winter', -1)">&lt;</button>
     <div class="trek-cards-scroll" id="autumn">
       {
         (() => {
@@ -332,7 +332,7 @@ alt="Goechala Viewpoint Trail"
           return shuffleArray(
             treks.filter(trek =>
               Array.isArray(trek.season) &&
-              trek.season.map(s => s.toLowerCase()).includes('autumn')
+              trek.season.map(s => s.toLowerCase()).includes('winter')
             )
           ).map(trek => {
       
@@ -368,7 +368,7 @@ alt="Goechala Viewpoint Trail"
         })()
       }
     </div>
-    <button class="scroll-btn right" onclick="scrollCards('autumn', 1)">&gt;</button>
+    <button class="scroll-btn right" onclick="scrollCards('winter', 1)">&gt;</button>
   </div>
 </section>
 
