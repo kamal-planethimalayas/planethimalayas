@@ -10497,12 +10497,12 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 
   dates: [
   //{ label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
-  { label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
+  //{ label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
   { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 ],
 confirmedDepartures: [
   {
-    date: "2026-11-14",
+    date: "2026-11-21",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "upcoming"
@@ -12203,7 +12203,7 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 
   dates: [
 //{ label: "31 Oct - 06 Nov", start: "2026-10-31", end: "2026-11-06" },
-{ label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
+//{ label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
 { label: "28 Nov - 04 Dec", start: "2026-11-28", end: "2026-12-04" },
 { label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
 { label: "19 Dec - 25 Dec", start: "2026-12-19", end: "2026-12-25" },
