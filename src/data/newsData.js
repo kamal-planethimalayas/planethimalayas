@@ -1,13 +1,14 @@
 export const news = [
 
   {
-  title: "Dry weather conditions prevail across major Western Himalayan regions.",
+  title: "Generally drier spells with isolated morning chill, mist, and dropping night temperatures as winter sets in across higher mountain passes.",
   type: "news",
   head: "Weather%20Updates", 
   thumbnail: "/images/main/imd-logo1.png", // 👈 put IMD logo here
   //<span style="color: red; font-weight: bold;">WATCH (BE UPDATED)</span>
- // details:
- // `
+ details:
+ ` Higher-altitude and mountain regions are experiencing chilly and cold weather conditions, while lower areas remain mostly dry with no significant fresh snowfall or heavy rain spells in the immediate forecast.`
+ },
   //<ul>
     //<li>• Isolated thunderstorm activity or lightning with light gusty winds (30-40 kmph) may occur at isolated elevated spots, but widespread heavy precipitation is largely absent.
     //<li>• Western Himalaya: Jammu & Kashmir/Ladakh, Himachal and Uttarakhand should progressively become drier, with the normal possibility of short-lived western-disturbance events later in October.
@@ -15,7 +16,7 @@ export const news = [
     //<li>• Eastern Himalaya: Sikkim and Arunachal Pradesh remain considerably more moisture-sensitive.
   //</ul>
 //</li>`
-},
+
 
   {
     title: "For group booking discounts or children’s scholarships, please contact us.",
