@@ -2848,7 +2848,7 @@ confirmedDepartures: [
 
     dates: [   
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
   ],
 
   confirmedDepartures: [
@@ -3023,7 +3023,7 @@ confirmedDepartures: [
 
     dates: [
   //{ label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
-  { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
+  //{ label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
 
 confirmedDepartures: [
@@ -3518,7 +3518,7 @@ description:
 
   dates: [
   //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
-  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+  //{ label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
 ],
 
   confirmedDepartures: [
@@ -3732,7 +3732,7 @@ description:
 
   dates: [
   //{ label: "26 Oct - 29 Oct", start: "2026-10-26", end: "2026-10-29" },
-  { label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
+  //{ label: "09 Nov - 12 Nov", start: "2026-11-09", end: "2026-11-12" },
 ],
 
 confirmedDepartures: [
@@ -4797,8 +4797,8 @@ seo: {
 
     dates: [   
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
-    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    // label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
     { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
@@ -5100,7 +5100,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
     dates: [
   //{ label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
   //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
-  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  //{ label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
   { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "06 Dec - 11 Dec", start: "2026-12-06", end: "2026-12-11" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
@@ -6157,7 +6157,7 @@ The final day of the trek is a long descent back to Gangotri, retracing the same
       //{ label: "18 Oct - 23 Oct", start: "2026-10-18", end: "2026-10-23" },
       //{ label: "25 Oct - 30 Oct", start: "2026-10-25", end: "2026-10-30" },
   //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
-  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  //{ label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
 ],
 
     highlights: [
@@ -6548,7 +6548,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
 
     dates: [
   //{ label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
-  { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
+  //{ label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 
 ],
 
@@ -7023,7 +7023,7 @@ itinerary: [
   dates: [
   //{ label: "19 Oct - 23 Oct", start: "2026-10-19", end: "2026-10-23" },
   //{ label: "02 Nov - 06 Nov", start: "2026-11-02", end: "2026-11-06" },
-  { label: "16 Nov - 20 Nov", start: "2026-11-16", end: "2026-11-20" },
+  //{ label: "16 Nov - 20 Nov", start: "2026-11-16", end: "2026-11-20" },
   { label: "30 Nov - 04 Dec", start: "2026-11-30", end: "2026-12-04" },
   { label: "14 Dec - 18 Dec", start: "2026-12-14", end: "2026-12-18" },
   { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
@@ -7506,8 +7506,8 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   dates: [   
     //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
-    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    //{ label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
     { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
@@ -7707,8 +7707,8 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
   dates: [   
     //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
-    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    //{ label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
     { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
@@ -7966,8 +7966,8 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
  dates: [   
     //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
-    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    //{ label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
     { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
@@ -8184,8 +8184,8 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   dates: [
 
   //{ label: "01 Nov - 06 Nov", start: "2026-11-01", end: "2026-11-06" },
-  { label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
-  { label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
+  //{ label: "15 Nov - 20 Nov", start: "2026-11-15", end: "2026-11-20" },
+  //{ label: "29 Nov - 04 Dec", start: "2026-11-29", end: "2026-12-04" },
   { label: "13 Dec - 18 Dec", start: "2026-12-13", end: "2026-12-18" },
   { label: "20 Dec - 25 Dec", start: "2026-12-20", end: "2026-12-25" },
     { label: "27 Dec - 01 Jan", start: "2026-12-27", end: "2027-01-01" },
@@ -8421,7 +8421,7 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
   //{ label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
   //{ label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
   //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
-  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+  //{ label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
   { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
@@ -8652,8 +8652,8 @@ itinerary: [
   dates: [   
     //{ label: "12 Oct - 16 Oct", start: "2026-10-12", end: "2026-10-16" },
     //{ label: "26 Oct - 30 Oct", start: "2026-10-26", end: "2026-10-30" },
-    { label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
-    { label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
+    //{ label: "09 Nov - 13 Nov", start: "2026-11-09", end: "2026-11-13" },
+    // label: "23 Nov - 27 Nov", start: "2026-11-23", end: "2026-11-27" },
     { label: "07 Dec - 11 Dec", start: "2026-12-07", end: "2026-12-11" },
     { label: "21 Dec - 25 Dec", start: "2026-12-21", end: "2026-12-25" },
     { label: "04 Jan - 08 Jan", start: "2027-01-04", end: "2027-01-08" },
@@ -10498,7 +10498,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
   dates: [
   //{ label: "07 Nov - 13 Nov", start: "2026-11-07", end: "2026-11-13" },
   //{ label: "14 Nov - 20 Nov", start: "2026-11-14", end: "2026-11-20" },
-  { label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
+  //{ label: "21 Nov - 27 Nov", start: "2026-11-21", end: "2026-11-27" },
 ],
 confirmedDepartures: [
   {
@@ -11212,7 +11212,7 @@ waypoints: [
   //{ label: "05 Oct - 07 Oct", start: "2026-10-05", end: "2026-10-07" },
   //{ label: "19 Oct - 21 Oct", start: "2026-10-19", end: "2026-10-21" },
   //{ label: "02 Nov - 04 Nov", start: "2026-11-02", end: "2026-11-04" },
-  { label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
+  //{ label: "16 Nov - 18 Nov", start: "2026-11-16", end: "2026-11-18" },
   { label: "30 Nov - 02 Dec", start: "2026-11-30", end: "2026-12-02" },
   { label: "14 Dec - 16 Dec", start: "2026-12-14", end: "2026-12-16" },
   { label: "28 Dec - 30 Dec", start: "2026-12-28", end: "2026-12-30" },
@@ -11683,7 +11683,7 @@ waypoints: [
 
     dates: [
       
-  { label: "15 Nov - 24 Nov", start: "2026-11-15", end: "2026-11-24" },
+  //{ label: "15 Nov - 24 Nov", start: "2026-11-15", end: "2026-11-24" },
   { label: "29 Nov - 08 Dec", start: "2026-11-29", end: "2026-12-08" },
     ],
 
