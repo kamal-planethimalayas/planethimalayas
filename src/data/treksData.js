@@ -618,6 +618,15 @@ From lush hidden valleys and alpine grazing grounds to barren mountains, crystal
 { label: "21 Feb - 02 Mar", start: "2027-02-21", end: "2027-03-02" },
     ],
 
+    confirmedDepartures: [
+  {
+    date: "2026-12-13",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
+  }
+],
+
     highlights: [
   "Traverse the frozen Markha River, slide and skate on ice, and witness a unique winter landscape unlike any other in Ladakh",
   "Stay in cozy homestays in Skiu, Markha, and Hankar, experiencing authentic Ladakhi winter hospitality",
@@ -4814,9 +4823,9 @@ seo: {
 
   confirmedDepartures: [
   {
-    date: "2026-11-23",
+    date: "2026-12-07",
     showOnHomepage: true,
-    seatsLeft: 8,
+    seatsLeft: 6,
     status: "confirmed"
   }
 ],
@@ -5119,7 +5128,7 @@ Carry sufficient cash, as ATMs are scarce beyond Karnaprayag and Almora. Shared 
   {
     date: "2026-12-06",
     showOnHomepage: true,
-    seatsLeft: 5,
+    seatsLeft: 3,
     status: "confirmed"
   }
 ],
@@ -6562,7 +6571,7 @@ By afternoon or early evening, you arrive in Dehradun, marking the end of an unf
 confirmedDepartures: [
   {
     date: "2026-11-21",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 8,
     status: "upcoming"
   }
@@ -7047,7 +7056,7 @@ itinerary: [
 
 confirmedDepartures: [
   {
-    date: "2026-11-16",
+    date: "2026-11-30",
     showOnHomepage: true,
     seatsLeft: 8,
     status: "upcoming"
@@ -7522,10 +7531,10 @@ details: "• Begin the descent through familiar forests and open meadows, retra
   ],
   confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-12-07",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -7724,10 +7733,10 @@ Kedarkantha is more than a winter trek. It is a journey through silent forests, 
 
   confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-12-07",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -7983,10 +7992,10 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 
   confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-12-07",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -8201,10 +8210,10 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 
   confirmedDepartures: [
   {
-    date: "2026-10-18",
-    showOnHomepage: false,
-    seatsLeft: 4,
-    status: "confirmed"
+    date: "2026-12-13",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   },
 ],
 
@@ -8433,6 +8442,15 @@ As the mountains gradually fade into the distance, take a moment to reflect on t
 { label: "22 Mar - 24 Mar", start: "2027-03-22", end: "2027-03-24" },
 { label: "05 Apr - 07 Apr", start: "2027-04-05", end: "2027-04-07" },
 { label: "19 Apr - 21 Apr", start: "2027-04-19", end: "2027-04-21" },
+],
+
+confirmedDepartures: [
+  {
+    date: "2026-11-30",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
+  }
 ],
 
   highlights: [
@@ -8668,10 +8686,10 @@ itinerary: [
   ],
   confirmedDepartures: [
   {
-    date: "2026-09-28",
-    showOnHomepage: false,
-    seatsLeft: 0,
-    status: "confirmed"
+    date: "2026-12-07",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
   }
 ],
 
@@ -10503,7 +10521,7 @@ Because in the Himalayas, the best experiences are rarely the ones that are plan
 confirmedDepartures: [
   {
     date: "2026-11-21",
-    showOnHomepage: true,
+    showOnHomepage: false,
     seatsLeft: 8,
     status: "upcoming"
   }
@@ -11691,7 +11709,7 @@ waypoints: [
   {
     date: "2026-11-29",
     showOnHomepage: true,
-    seatsLeft: 6,
+    seatsLeft: 3,
     status: "confirmed"
   },
 ],
@@ -11972,6 +11990,15 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 { label: "27 Feb - 05 Mar", start: "2027-02-27", end: "2027-03-05" },
     ],
 
+confirmedDepartures: [
+  {
+    date: "2026-12-12",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
+  }
+],
+
   highlights: [
     "Witness one of the most dramatic winter sunrises over Mt. Kanchenjunga from Dzongri Top",
     "Explore vast Dzongri meadows covered in pristine winter snow",
@@ -12217,6 +12244,15 @@ The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya 
 { label: "10 Apr - 16 Apr", start: "2027-04-10", end: "2027-04-16" },
 { label: "24 Apr - 30 Apr", start: "2027-04-24", end: "2027-04-30" },
     ],
+
+    confirmedDepartures: [
+  {
+    date: "2026-12-12",
+    showOnHomepage: true,
+    seatsLeft: 8,
+    status: "upcoming"
+  }
+],
 
   highlights: [
     "View the legendary Sleeping Buddha formation including Kanchenjunga, Pandim & Kumbhakarna",
