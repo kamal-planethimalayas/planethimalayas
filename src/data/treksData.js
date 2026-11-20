@@ -12239,12 +12239,11 @@ The Dzongri Trek is one of the most rewarding journeys into the Eastern Himalaya
 
   tags: [
     "intermediate",
-    "difficult",
+    "pro",
     "pass",
     "lake",
     "ridge",
     "offbeat",
-    "valley"
   ],
 
   difficulty: ["difficult"],
@@ -12252,7 +12251,7 @@ The Dzongri Trek is one of the most rewarding journeys into the Eastern Himalaya
   month: [
     "october", "november", "march", "april", "may"
   ],
-  duration: ["6 Nights / 7 Days"],
+  duration: ["9 Nights / 10 Days"],
   region: "sikkim",
 
   coordinates: [
