@@ -11678,7 +11678,7 @@ waypoints: [
 
     snippet: `The Goecha La Trek is one of the grandest journeys in the Indian Himalayas — a trail that pulls you deeper and deeper into the mystical heart of the Eastern Himalayas, right into the untouched wilderness of the Khangchendzonga National Park, a UNESCO World Heritage site. Beginning in Yuksom, Sikkim’s first capital and a village wrapped in centuries of history, the trek eases you into an ancient world: stone paths draped in moss, whispering rhododendron forests, wooden bridges over roaring glacial streams, and mist drifting silently through towering oak and maple.
 
-<br>As the climb progresses, the forest gives way to sweeping high-altitude meadows and dramatic valleys carved by old glaciers. Dawn light paints Dzongri’s ridgelines in gold, and the panorama from Dzongri Top feels almost unreal — Kanchenjunga glowing in the distance, flanked by the mighty Pandim, Kabru, Rathong, and countless lesser-known but equally striking peaks. Higher up, the trail leads to the jewel of the route: the shimmering Samiti Lake. Its turquoise waters lie perfectly still at sunrise, mirroring the mountains with a purity few places on earth can match.
+<br>As the climb progresses, the forest gives way to sweeping high-altitude meadows and dramatic valleys carved by old glaciers. Dawn light paints Dzongri’s ridgelines in gold, and the panorama from Dzongri Top feels almost unreal — Khangchendzonga glowing in the distance, flanked by the mighty Pandim, Kabru, Rathong, and countless lesser-known but equally striking peaks. Higher up, the trail leads to the jewel of the route: the shimmering Samiti Lake. Its turquoise waters lie perfectly still at sunrise, mirroring the mountains with a purity few places on earth can match.
 
 <br>From here, the terrain turns stark and rugged, guiding trekkers toward the wind-blasted heights of Goecha La. This is where the Himalayas reveal their full majesty — a legendary vantage point that offers an astonishing roster of Himalayan giants, including close, unobstructed views of Kanchenjunga’s massive south face. With nearly 14 prominent peaks visible from the region, this trek brings you closer to the world’s third-highest mountain than any other trail in India.
 
@@ -11731,7 +11731,7 @@ waypoints: [
   {
     day: 2,
     title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
-    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your Goechala adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
+    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your Goechala adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Khangchendzonga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Khangchendzonga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
   },
   {
     day: 3,
@@ -11746,12 +11746,12 @@ waypoints: [
   {
     day: 5,
     title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & trek to Thansing (3,930 m / 12,900 ft)",
-    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After refueling, continue your trek toward Thansing, passing through the open meadows and alpine thickets that make this trail so scenic. The path takes you through wide, rolling Dzongri meadows, where clouds often drift across the mountains, creating a constantly shifting and dreamlike landscape. Moving ahead, the trail enters high-altitude rhododendron and oak forests, where the chirping of birds and rustling leaves provide a peaceful soundtrack to your trek.<br>At the end of the Dzongri meadows, a steep and extended zigzag descent leads to Kokchurang, a small hut and rest point for trekkers at the Prek Chhu riverbed, a place staight out of a storybook. Take a short break here, hydrate, and enjoy a quick snack. From Kokchurang, the trail gradually descends through lush forests, crossing a small river bridge across the Prek Chhu river. On the other side of the river, gentle climbs and open clearings continue to greet you as the landscape transitions from dense woodland to expansive meadows.<br>Finally, the trail opens into the Thansing campsite, nestled at the base of Mt. Tenzing Khang. The close-up views of the surrounding snow-capped peaks are spectacular — on clear days, you can admire the shoulder of Kanchenjunga and the towering Pandim Peak. Once at camp, enjoy a hot lunch and spend the rest of the day relaxing. Layer up as temperatures can drop sharply, especially in the evening. Take short walks around the campsite, capture the stunning scenery, and savor the serene alpine atmosphere.<br>By nightfall, retreat to your tent for a warm meal and a good rest, preparing your body and mind for the adventures that lie ahead. This day combines the thrill of a high-altitude sunrise, panoramic Himalayan views, and a rewarding trek to a stunning campsite — all in one memorable stretch."
+    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After refueling, continue your trek toward Thansing, passing through the open meadows and alpine thickets that make this trail so scenic. The path takes you through wide, rolling Dzongri meadows, where clouds often drift across the mountains, creating a constantly shifting and dreamlike landscape. Moving ahead, the trail enters high-altitude rhododendron and oak forests, where the chirping of birds and rustling leaves provide a peaceful soundtrack to your trek.<br>At the end of the Dzongri meadows, a steep and extended zigzag descent leads to Kokchurang, a small hut and rest point for trekkers at the Prek Chhu riverbed, a place staight out of a storybook. Take a short break here, hydrate, and enjoy a quick snack. From Kokchurang, the trail gradually descends through lush forests, crossing a small river bridge across the Prek Chhu river. On the other side of the river, gentle climbs and open clearings continue to greet you as the landscape transitions from dense woodland to expansive meadows.<br>Finally, the trail opens into the Thansing campsite, nestled at the base of Mt. Tenzing Khang. The close-up views of the surrounding snow-capped peaks are spectacular — on clear days, you can admire the shoulder of Khanchenjunga and the towering Pandim Peak. Once at camp, enjoy a hot lunch and spend the rest of the day relaxing. Layer up as temperatures can drop sharply, especially in the evening. Take short walks around the campsite, capture the stunning scenery, and savor the serene alpine atmosphere.<br>By nightfall, retreat to your tent for a warm meal and a good rest, preparing your body and mind for the adventures that lie ahead. This day combines the thrill of a high-altitude sunrise, panoramic Himalayan views, and a rewarding trek to a stunning campsite — all in one memorable stretch."
   },
   {
     day: 6,
     title: "Thansing to Lamuney (4,180 m / 13,700 ft)",
-    details: "<strong>• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).</strong><br>• Today offers a break from the tougher sections of the Goechala trek, as you move from Thansing to Lamuney. The trail is short and mostly level, giving your legs a chance to recover while letting you fully enjoy the stunning landscapes around you. After a relaxed breakfast, you’ll start walking through wide, open meadows dotted with wildflowers and gentle streams. The path meanders through the valley, with the snow-capped peaks of Kanchenjunga and its neighboring giants keeping you company along the way.<br>The walk to Lamuney takes around three hours, giving you plenty of time to soak in the serenity and snap photos of the expansive pastures. Once at the campsite, settle into the calm environment, enjoy a hot lunch, and take short walks along the riverside or across the meadows. The quiet of the mountains and the flowing Prek Chu River creates the perfect setting to unwind and reflect on the trek so far.<br>In the evening, your guides will gather everyone for a briefing about the next day — the Goechala Summit. They’ll outline the route, share practical tips, and answer questions to ensure you’re prepared for the most challenging and rewarding day of the trek.<br>As night descends, watch the stars fill the sky above Lamuney, a breathtaking backdrop that reminds you how remote and magical these mountains are. With an early start tomorrow, it’s the perfect opportunity to rest well and recharge for the adventure ahead."
+    details: "<strong>• Trek: ~4 km | 2–3 hrs (short day with important acclimatisation emphasis).</strong><br>• Today offers a break from the tougher sections of the Goechala trek, as you move from Thansing to Lamuney. The trail is short and mostly level, giving your legs a chance to recover while letting you fully enjoy the stunning landscapes around you. After a relaxed breakfast, you’ll start walking through wide, open meadows dotted with wildflowers and gentle streams. The path meanders through the valley, with the snow-capped peaks of Khanchendzonga and its neighboring giants keeping you company along the way.<br>The walk to Lamuney takes around three hours, giving you plenty of time to soak in the serenity and snap photos of the expansive pastures. Once at the campsite, settle into the calm environment, enjoy a hot lunch, and take short walks along the riverside or across the meadows. The quiet of the mountains and the flowing Prek Chu River creates the perfect setting to unwind and reflect on the trek so far.<br>In the evening, your guides will gather everyone for a briefing about the next day — the Goechala Summit. They’ll outline the route, share practical tips, and answer questions to ensure you’re prepared for the most challenging and rewarding day of the trek.<br>As night descends, watch the stars fill the sky above Lamuney, a breathtaking backdrop that reminds you how remote and magical these mountains are. With an early start tomorrow, it’s the perfect opportunity to rest well and recharge for the adventure ahead."
   },
   {
     day: 7,
@@ -11785,11 +11785,11 @@ waypoints: [
     },
 
     didYouKnow: [
-  " <b>You can’t trek to the actual Goecha La Pass anymore!</b> <br>For environmental and safety reasons, trekkers stop at View Point 1 (4,940 m). But this spot offers the most dramatic and close-up views of Kanchenjunga and its neighboring peaks.",
+  " <b>You can’t trek to the actual Goecha La Pass anymore!</b> <br>For environmental and safety reasons, trekkers stop at View Point 1 (4,940 m). But this spot offers the most dramatic and close-up views of Khanchendzonga and its neighboring peaks.",
 
-  " <b>Mt. Kanchenjunga is revered as a sacred mountain.</b> <br>At 8,586 m, it’s the third-highest mountain in the world. Locals never climb its summit out of respect — the first successful ascent in 1955 deliberately stopped short of the true summit.",
+  " <b>Mt. Khangchendzounga is revered as a sacred mountain.</b> <br>At 8,586 m, it’s the third-highest mountain in the world. Locals never climb its summit out of respect — the first successful ascent in 1955 deliberately stopped short of the true summit.",
 
-  " <b>Samiti Lake is both sacred and stunning.</b> <br>This turquoise alpine lake mirrors Pandim and Kanchenjunga at sunrise. Locals consider it holy, so camping or washing in it is strictly forbidden.",
+  " <b>Samiti Lake is both sacred and stunning.</b> <br>This turquoise alpine lake mirrors Pandim and Khangchendzonga at sunrise. Locals consider it holy, so camping or washing in it is strictly forbidden.",
 
   " <b>Khangchendzonga National Park is a UNESCO World Heritage Site.</b> <br>It’s home to red pandas, Himalayan black bears, blue sheep, and over 500 species of birds including the Himalayan monal and blood pheasant.",
 
@@ -11797,7 +11797,7 @@ waypoints: [
 
   " <b>Rhododendron bloom transforms the trek in spring.</b> <br>In April–May, the forests turn crimson, pink, and purple — Sikkim has over 30 species of rhododendrons, more than anywhere else in India.",
 
-  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Kanchenjunga range is the abode of protective mountain deities.",
+  " <b>The trek is steeped in Tibetan and Sikkimese spirituality.</b> <br>Prayer flags, monasteries, and sacred lakes reflect the belief that the entire Khangchendzonga range is the abode of protective mountain deities.",
 
   " <b>Traditional Sikkimese food becomes essential at altitude.</b><br>Local dishes like thukpa, phagshapa, and butter tea are not just comfort food — they are high-calorie, warming meals designed for cold, high-altitude conditions and are deeply tied to mountain survival."
   ],
@@ -11859,7 +11859,7 @@ waypoints: [
     },
     {
       question: "Do I need any permits for Goecha La trek?",
-      answer: "Yes, trekkers require an Sikkim State Permit and Kanchenjunga National Park permit, which are generally arranged by the trek operator before the trek starts.",
+      answer: "Yes, trekkers require an Sikkim State Permit and Khanchenjunga National Park permit, which are generally arranged by the trek operator before the trek starts.",
     },
     {
       question: "Is the Goecha La trek suitable for solo trekkers?",
@@ -11867,7 +11867,7 @@ waypoints: [
     },
     {
       question: "What makes Goecha La unique compared to other Himalayan treks?",
-      answer: "It offers one of the most spectacular close-up views of the Kanchenjunga range, including glaciers, alpine meadows, and rhododendron forests. The combination of diverse landscapes and cultural exposure makes it truly exceptional.",
+      answer: "It offers one of the most spectacular close-up views of the Khanchendzonga range, including glaciers, alpine meadows, and rhododendron forests. The combination of diverse landscapes and cultural exposure makes it truly exceptional.",
     }
   ],
 },
@@ -11876,46 +11876,76 @@ waypoints: [
     faqsLink: "/faqs-and-articles",
   },
 
-  {
-  id: "dzongri-winter-trek",
-  name: "Dzongri Winter Trek",
+  
+{
+  id: "dzongri-trek",
+  name: "Dzongri Trek",
 
   tags: ["intermediate", "national-park", "valley", "offbeat"],
   difficulty: ["moderate"],
-  season: ["winter"],
-  month: ["december", "january", "february"],
-  duration: ["7 Nights / 8 Days"],
-  region: "sikkim",
-  coordinates: [
-   [27.372351762941747, 88.22307482186301], // Yuksom (start)
-  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
-  [27.41410037080871, 88.19753717751303], //Sachen
-  [27.42533564585748, 88.19125417256477], // Prekchu bridge
-  [27.428718032054057, 88.18677097514579], //Bakhim
-  [27.433294036672248, 88.18284817740422], // Tshoka
-  [27.457234199710285, 88.17702452152463],
-  [27.459854647055128, 88.17162716893027], //Phedang
-  [27.465525180318707, 88.16962679345166], //Deorali top
-  [27.475888081848417, 88.16060542369998], //Dzongri
-  [27.481523764447243, 88.16370887898164], //Dzongri top
-  [27.475888081848417, 88.16060542369998], //Dzongri
-  [27.465525180318707, 88.16962679345166], //Deorali top
-  [27.459854647055128, 88.17162716893027], //Phedang
-  [27.457234199710285, 88.17702452152463],
-  [27.433294036672248, 88.18284817740422], // Tshoka
-  [27.428718032054057, 88.18677097514579], //Bakhim
-  [27.42533564585748, 88.19125417256477], // Prekchu bridge
-  [27.41410037080871, 88.19753717751303], //Sachen
-  [27.391938676835757, 88.21980038085626], //Phakhola waterfall
-  [27.372351762941747, 88.22307482186301], // Yuksom (start)
+  season: ["autumn", "winter", "spring", "summer"],
+  month: [
+    "october", "november", "december", "january",
+    "february", "march", "april", "may"
   ],
+  duration: ["6 Nights / 7 Days"],
+  region: "sikkim",
+
+  coordinates: [
+    [27.372351762941747, 88.22307482186301], // Yuksom
+    [27.391938676835757, 88.21980038085626], // Phakhola waterfall
+    [27.41410037080871, 88.19753717751303], // Sachen
+    [27.42533564585748, 88.19125417256477], // Prekchu bridge
+    [27.428718032054057, 88.18677097514579], // Bakhim
+    [27.433294036672248, 88.18284817740422], // Tshoka
+    [27.457234199710285, 88.17702452152463],
+    [27.459854647055128, 88.17162716893027], // Phedang
+    [27.465525180318707, 88.16962679345166], // Deorali Top
+    [27.475888081848417, 88.16060542369998], // Dzongri
+    [27.481523764447243, 88.16370887898164], // Dzongri Top
+    [27.475888081848417, 88.16060542369998], // Dzongri
+    [27.465525180318707, 88.16962679345166], // Deorali Top
+    [27.459854647055128, 88.17162716893027], // Phedang
+    [27.457234199710285, 88.17702452152463],
+    [27.433294036672248, 88.18284817740422], // Tshoka
+    [27.428718032054057, 88.18677097514579], // Bakhim
+    [27.42533564585748, 88.19125417256477], // Prekchu bridge
+    [27.41410037080871, 88.19753717751303], // Sachen
+    [27.391938676835757, 88.21980038085626], // Phakhola waterfall
+    [27.372351762941747, 88.22307482186301], // Yuksom
+  ],
+
   waypoints: [
-  { name: "Yuksom (Start/End)", coords: [27.372351762941747, 88.22307482186301], type: "start/end" },
-  { name: "Sachen", coords: [27.41410037080871, 88.19753717751303], type: "campsite" },
-  { name: "Bakhim", coords: [27.428718032054057, 88.18677097514579], type: "campsite" },
-  { name: "Tshoka", coords: [27.433294036672248, 88.18284817740422], type: "campsite" },
-  { name: "Dzongri", coords: [27.475888081848417, 88.16060542369998], type: "campsite" },
-  { name: "Dzongri Top", coords: [27.481523764447243, 88.16370887898164], type: "viewpoint" },
+    {
+      name: "Yuksom (Start/End)",
+      coords: [27.372351762941747, 88.22307482186301],
+      type: "start/end"
+    },
+    {
+      name: "Sachen",
+      coords: [27.41410037080871, 88.19753717751303],
+      type: "campsite"
+    },
+    {
+      name: "Bakhim",
+      coords: [27.428718032054057, 88.18677097514579],
+      type: "campsite"
+    },
+    {
+      name: "Tshoka",
+      coords: [27.433294036672248, 88.18284817740422],
+      type: "campsite"
+    },
+    {
+      name: "Dzongri",
+      coords: [27.475888081848417, 88.16060542369998],
+      type: "campsite"
+    },
+    {
+      name: "Dzongri Top",
+      coords: [27.481523764447243, 88.16370887898164],
+      type: "viewpoint"
+    },
   ],
 
   heroImage:
@@ -11928,232 +11958,646 @@ waypoints: [
     "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
   ],
 
-  subtitle: "Winter Silence, Golden Sunrise & The Face of Kangchendzonga",
+  subtitle: "A Journey Through Alpine Forests, Open Meadows & The Majestic Khangchendzonga",
 
   seo: {
     title:
-      "Dzongri Winter Trek | Snow Trek in Sikkim with Kanchenjunga Views | Planethimalayas",
+      "Dzongri Trek, Sikkim | Khangchendzonga Views & Himalayan Meadows | Planethimalayas",
     description:
-      "Dzongri Winter Trek in Sikkim is a rare Himalayan snow trek offering sunrise views of Mt. Kanchenjunga, vast alpine meadows, frozen forests, and silent winter landscapes. A perfect high-altitude winter adventure."
+      "Explore the Dzongri Trek in Sikkim, one of the finest Himalayan adventures for panoramic Khangchendzonga views. Trek through ancient forests, rhododendron trails and spectacular alpine meadows to Dzongri Top. Best experienced from October to April."
   },
 
   overview: {
     facts: [
-      { emoji: "⏳", label: "Trek Duration", value: "7 Nights / 8 Days" },
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
       { emoji: "⚡", label: "Trek Grade", value: "Moderate" },
       { emoji: "🏔️", label: "Max Altitude", value: "13,675 ft (Dzongri Top)" },
       { emoji: "⚡", label: "Trek Distance", value: "≈50 Km" },
-      { emoji: "🌤️", label: "Best Time", value: "December-March" },
+      { emoji: "🌤️", label: "Best Time", value: "October – April" },
       { emoji: "🗺️", label: "Region", value: "Khangchendzonga National Park, Sikkim" },
       { emoji: "📍", label: "Start / End", value: "Yuksom" },
-      { emoji: "🏁", label: "End Point", value: "Yuksom" },
-      { emoji: "🧥", label: "Cloakroom facility", value: "Available" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Available" },
     ],
 
     snippet: `
-The Dzongri Winter Trek is an immersion into a quieter, more elemental Himalaya — a journey where snow softens the world, silence deepens, and the mountains feel closer, heavier, and infinitely more alive. Traversing the sacred landscapes of West Sikkim inside the Khangchendzonga National Park, this trek strips the trail down to its purest form. In winter, Dzongri is not about crowds or color — it is about stillness, shadow, light, and the overwhelming presence of Kanchenjunga watching from afar.
+The Dzongri Trek is one of the most rewarding journeys into the Eastern Himalayas — a trail that leads through ancient mountain forests, traditional Himalayan settlements, spectacular alpine meadows and some of the finest views of the Kangchendzonga massif. Located in the heart of West Sikkim's Khangchendzonga National Park, this trek offers an extraordinary combination of natural beauty, mountain culture and high-altitude adventure.
 
-<br>The trail begins in Yuksom, Sikkim’s ancient capital and the spiritual gateway to Kanchenjunga. As you climb, stone-paved paths wind through dense oak and magnolia forests, now hushed under frost and fallen leaves. Rhododendron branches stand bare and skeletal, prayer flags flutter stiffly in the cold air, and wooden bridges creak over partially frozen mountain streams. With each step upward, winter asserts itself — breath turns visible, footsteps crunch softly, and the forest gradually opens into snow-dusted clearings where the mountains begin to reveal themselves.
+<br>The journey begins in Yuksom, the historic first capital of Sikkim and the gateway to the mighty Khangchendzonga range. From here, the trail gradually enters a world of dense oak, magnolia and rhododendron forests. Wooden bridges cross mountain streams, stone pathways wind through shaded valleys, and the sound of the Prek Chhu River accompanies much of the ascent. As you move higher, the forest changes character, revealing occasional openings through which distant Himalayan peaks begin to emerge.
 
-<br>By the time you reach Dzongri meadows, the landscape transforms into something surreal. Vast alpine bowls lie blanketed in snow, stretching endlessly beneath an impossibly blue winter sky. The air here is razor-sharp and startlingly clear, carrying sound across distances and sharpening every contour of the surrounding peaks. Dzongri feels less like a campsite and more like a natural amphitheater built for the mountains — a place where silence is not empty, but charged with presence.
+<br>One of the most memorable aspects of the Dzongri route is its remarkable diversity of landscapes. The lower trail passes through lush forests and quiet campsites at Sachen and Bakhim before reaching Tshoka, a beautiful Himalayan settlement perched above the valley. Traditional wooden structures, fluttering prayer flags and the surrounding mountain scenery give this section a distinctly Sikkimese character. Beyond Tshoka, the trail climbs through magnificent rhododendron forests towards Phedang, where the landscape gradually opens up.
 
-<br>The defining moment of the trek arrives at dawn atop Dzongri Top. As first light spills over the horizon, the entire Kanchenjunga massif ignites in shades of gold and copper. The world’s third-highest mountain rises in solemn grandeur, flanked by Pandim, Kabru North and South, Rathong, Simvo, and a scattering of lesser-known yet striking summits. In winter, the clarity is unmatched — peaks appear closer, sharper, and more imposing, as if the mountains have stepped forward to be seen. The view is not fleeting; it lingers, holding you still in awe as sunlight slowly floods the Eastern Himalaya.
+<br>The ascent to Deorali Top marks a dramatic transition into the high alpine region. Forest cover begins to thin, revealing expansive mountain views and the rugged terrain of the Eastern Himalayas. From here, a relatively gradual trail leads towards Dzongri, a spectacular high-altitude meadow surrounded by towering Himalayan peaks. Depending on the season, these meadows may be covered in fresh snow, dotted with alpine vegetation, or illuminated by the rich colours of changing mountain landscapes.
 
-<br>Unlike the busier summer routes, winter Dzongri offers an intimacy that few Himalayan treks can match. Trails are quieter, camps are fewer, and the mountains dominate every moment. Days are spent exploring frozen meadows, following snow-covered ridgelines, and absorbing the ever-shifting moods of the sky — from crystalline mornings to dramatic cloud build-ups rolling in from Tibet. Afternoons glow with soft alpine light, while evenings arrive swiftly, pulling temperatures down and drawing trekkers back into the warmth of camp.
+<br>The defining experience of the trek awaits at Dzongri Top, approximately 4,170 metres above sea level. An early morning ascent rewards trekkers with an extraordinary panorama of the Kangchendzonga massif. As the first rays of sunlight reach the mountains, Kanchenjunga, Pandim, Kabru North and South, Rathong, Kokthang and several surrounding summits gradually light up against the morning sky. The scale of the mountains, the changing colours of the snowfields and the vastness of the surrounding landscape create a sunrise experience that remains etched in memory.
 
-<br>As darkness settles, Dzongri reveals another side of its magic. Stars blaze fiercely in the cold night sky, the Milky Way cutting clearly across the heavens. The mountains fade into silhouettes, but their presence remains unmistakable — vast, silent, eternal. Wrapped in layers, gathered around a warm meal or a crackling fire, the experience becomes deeply personal. Conversations soften, thoughts slow, and the Himalaya works quietly on the mind.
+<br>October and November are particularly rewarding for trekkers seeking clear skies, excellent mountain visibility and crisp autumn landscapes. December to February brings a completely different character to Dzongri, with the possibility of snow-covered meadows, frozen trails and an extraordinary sense of solitude. March and April introduce the beauty of spring, when rhododendron forests begin to bloom and the mountain landscape gradually awakens. May can also be considered a shoulder-season option, subject to weather and trail conditions, although the approaching monsoon makes it less dependable.
 
-<br>At an altitude of approximately 4,000 m, Dzongri in winter is a demanding trek that rewards preparation and respect. Cold nights, snow-covered trails, and rapid temperature drops test endurance, but they also heighten the sense of achievement. This is a trek for those who seek not just views, but feeling — the raw, humbling sensation of standing small beneath giants.
+<br>Unlike treks that rely on a single summit or viewpoint, Dzongri offers an immersive mountain experience throughout the journey. Every section of the trail has its own character — from the forested river valleys below to the open alpine landscapes above. The gradual change in vegetation, terrain, temperature and mountain scenery makes the journey as rewarding as the final viewpoint.
 
-<br>In winter, Dzongri is more than a viewpoint. It is a sanctuary of snow and silence, a front-row seat to Kanchenjunga’s majesty, and a rare chance to experience the Himalaya in its most honest, undisturbed form. A journey that does not shout for attention, but stays with you — quietly, deeply, and forever.`
+<br>At an altitude approaching 4,000 metres, the Dzongri Trek is a physically demanding high-altitude adventure despite its moderate grading. Long ascents, significant altitude gain and changing mountain conditions require good cardiovascular fitness, endurance and proper preparation. During colder months, snow and low temperatures can increase the difficulty considerably, while wet-season conditions make the route unsuitable for trekking.
+
+<br>For trekkers looking to experience the grandeur of the Eastern Himalayas without committing to the longer Goechala route, Dzongri offers an exceptional alternative. It brings together magnificent mountain panoramas, beautiful forests, alpine meadows and the cultural charm of Sikkim in one unforgettable journey.
+
+<br>More than just a trek to a viewpoint, Dzongri is an opportunity to experience the many moods of the Himalayas — from the golden forests of autumn and the pristine silence of winter to the blooming trails of spring. A journey that reveals the true character of the mountains, one step at a time.
+    `
   },
 
   price: 17900,
   priceNote: "* Yuksom to Yuksom",
+
   addons: {
-      transport: 5000, 
-      offloadingbag: 4000,
-      transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
-      offloadingNote: "* Maximum weight 9kg / bag"
-    },
+    transport: 5000,
+    offloadingbag: 4000,
+    transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
 
-  inclusionsNote: "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to packed lunch on Day 7",
 
+  dates: [
+    { label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
+    { label: "19 Dec - 25 Dec", start: "2026-12-19", end: "2026-12-25" },
+    { label: "02 Jan - 08 Jan", start: "2027-01-02", end: "2027-01-08" },
+    { label: "16 Jan - 22 Jan", start: "2027-01-16", end: "2027-01-22" },
+    { label: "30 Jan - 05 Feb", start: "2027-01-30", end: "2027-02-05" },
+    { label: "13 Feb - 19 Feb", start: "2027-02-13", end: "2027-02-19" },
+    { label: "27 Feb - 05 Mar", start: "2027-02-27", end: "2027-03-05" },
+  ],
 
- dates: [
-{ label: "12 Dec - 18 Dec", start: "2026-12-12", end: "2026-12-18" },
-{ label: "19 Dec - 25 Dec", start: "2026-12-19", end: "2026-12-25" },
-{ label: "02 Jan - 08 Jan", start: "2027-01-02", end: "2027-01-08" },
-{ label: "16 Jan - 22 Jan", start: "2027-01-16", end: "2027-01-22" },
-{ label: "30 Jan - 05 Feb", start: "2027-01-30", end: "2027-02-05" },
-{ label: "13 Feb - 19 Feb", start: "2027-02-13", end: "2027-02-19" },
-{ label: "27 Feb - 05 Mar", start: "2027-02-27", end: "2027-03-05" },
-    ],
-
-confirmedDepartures: [
-  {
-    date: "2026-12-12",
-    showOnHomepage: true,
-    seatsLeft: 8,
-    status: "upcoming"
-  }
-],
+  confirmedDepartures: [
+    {
+      date: "2026-12-12",
+      showOnHomepage: true,
+      seatsLeft: 8,
+      status: "upcoming"
+    }
+  ],
 
   highlights: [
-    "Witness one of the most dramatic winter sunrises over Mt. Kanchenjunga from Dzongri Top",
-    "Explore vast Dzongri meadows covered in pristine winter snow",
-    "Experience a true Himalayan winter trek with minimal crowds",
-    "Snow-covered forests, frozen trails, and silent alpine camps",
-    "Panoramic views of Pandim, Kabru, Rathong & Kokthang peaks"
+    "Witness an extraordinary sunrise over Mt. Khangchendzonga from Dzongri Top",
+    "Explore the spectacular high-altitude alpine meadows of Dzongri",
+    "Trek through ancient oak, magnolia and rhododendron forests",
+    "Experience the changing landscapes of the Eastern Himalayas across seasons",
+    "Enjoy panoramic views of Kanchenjunga, Pandim, Kabru, Rathong and Kokthang",
+    "Discover the traditional Himalayan settlement of Tshoka and the beautiful Prek Chhu Valley",
+    "Experience the possibility of pristine snow landscapes during the winter months"
   ],
 
   itinerary: [
-   {
-    day: 1,
-    title: "Reporting Day at Yuksom | NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
-    details: "<strong>• ~150 km | 6–7 hr drive.</strong><br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, misty river valleys, and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and crisper, and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries, and quiet lanes lined with traditional homes. After checking into a cozy guesthouse, spend the evening sorting out documents for trek permits, checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim’s royal and spiritual history. As dusk settles over the valley, meet your trek crew over a warm dinner, discuss the trail ahead, and get a good night’s rest — tomorrow, your Himalayan adventure truly begins."
-  },
-  {
-    day: 2,
-    title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
-    details: "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your adventure begins today with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Sikkim’s Kanchenjunga National Park. After a filling breakfast in Yuksom, the trail takes you past a few traditional wooden homes and cultivated fields before gently leading you into the wilderness. Mobile networks fade, human settlements disappear, and the soothing sounds of nature begin to take over.<br>You’ll soon pass through the grand gate that marks the entrance to Kanchenjunga National Park, a UNESCO World Heritage site known for its pristine biodiversity. The path meanders through lush forest dominated by broadleaf, golden oak, and silver oak, with a stunning display of ferns, orchids, and Himalayan wildflowers lining the trail. Three picturesque bridges span the Prek Chhu River, each offering peaceful stops where you can feel the cool mountain breeze and hear the rhythmic sound of flowing water.<br>The gradient remains moderate until after the second bridge, from where a steep ascent begins towards Sachen. As you climb higher, the air grows cooler and denser with forest aroma.<br>By late afternoon, you’ll reach the Sachen campsite, tucked inside a quiet clearing deep within the forest. The campsite sits above the Prek Chhu Valley, and at night, the distant sound of the river adds to the tranquility. It’s a simple yet soulful place to rest after your first day on the trail — perfect for reflecting on the journey ahead and recharging for tomorrow’s climb to Tshoka. Keep an eye out for leeches — carrying a bit of salt or anti-leech spray is wise."
-  },
-  {
-    day: 3,
-    title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
-    details: "<strong>• Trek: ~7 km | 4–5 hrs.</strong><br>• The second day of your trek takes you from the deep forested camp of Sachen to the vibrant Tibetan settlement of Tshoka, with a refreshing halt at Bakhim along the way. As dawn breaks, the forest awakens to a soft chorus of Himalayan birds — thrushes, flycatchers, and the occasional laughing thrush echoing through the valley. The air feels cool and clean, and the early sunlight streams through oak leaves, painting golden streaks across the trail.<br>After breakfast, you begin a beautiful forest walk that winds gently up and down, following the sound of the Prek Chu River below. The first landmark is the Prek Chu Bridge, a sturdy wooden crossing that sways lightly above a rushing mountain stream — a wonderful photo stop. From here, the trail starts to climb steadily through lush oak, maple, and rhododendron forests, where the melody of birds and rustling leaves set the perfect trekking rhythm. Keep your eyes peeled for the Yellow-billed Blue Magpie, a striking bird that often flits among the canopy.<br>Soon, a steep zigzag ascent brings you to Bakhim (8,600 ft) — a small rest point with mesmerizing views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks while refilling water bottles before the next stretch. From Bakhim, the path turns steeper but far more rewarding as you climb through groves of magnolia trees. In spring, these trees burst into pink and white blooms, transforming the forest into a dreamlike scene straight out of a painting.<br>A little later, you’ll reach Tshoka, a picturesque hamlet perched on an open shelf with prayer-flagged huts and a small monastery overlooking snow-covered giants like Mt. Pandim and Tenzing Khang. The campsite here is stunning — with wooden huts, a serene lake nearby, and a sweeping view of the Eastern Himalayas. Evening is the best time to explore the Tshoka Monastery or simply sit by the lakeside, watching the clouds drift past the peaks.<br>As night falls, the air turns crisp and silent except for the flutter of prayer flags in the wind. Rest well — tomorrow, the trail takes you even deeper into rhododendron country, towards Dzongri."
-  },
-  {
-    day: 4,
-    title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
-    details: "<strong>• Trek: ~8 km | 6–8 hrs.</strong><br>• The fourth day of the trek marks one of the most breathtaking — and demanding — sections of the journey, as you climb from the peaceful settlement of Tshoka to the high alpine meadows of Dzongri. The morning at Tshoka feels magical: mist rolling over the wooden huts, prayer flags fluttering softly, and a faint glow on distant snow peaks. After a warm breakfast, you begin your steady ascent toward higher altitudes.<br>The trail starts gently, winding through a dense rhododendron and oak forest, where the cool mountain air carries the earthy scent of moss and rain-soaked wood. Soon, a beautiful wooden walkway appears — a series of planks that guide you through one of the most enchanting sections of the entire trek. In spring, this path transforms into a tunnel of colors, with blooming red, pink, and white rhododendrons draping the forest in a surreal floral canopy. Each step along this stretch feels like walking through a dream — soft creaks beneath your boots, petals scattered across the trail, and an almost sacred stillness in the air.<br>Gradually, the forest thickens again, and the path grows steeper as you climb toward Phedang (12,000 ft) — a scenic clearing lined with prayer flags fluttering against the backdrop of deep green valleys. This is the perfect spot to rest, enjoy a snack, and hydrate before the final push to Dzongri. Beyond Phedang, the trees begin to thin, and the climb becomes more relentless. The gain in altitude is noticeable, so move slowly, breathe deeply, and pace yourself to avoid altitude-related fatigue.<br>After a challenging ascent, you’ll reach Deorali Top, a panoramic ridge that rewards every step of the climb. From here, the view opens dramatically — Kanchenjunga, Pandim, and other towering peaks rise majestically across the skyline, often shimmering through drifting clouds. It’s one of those rare Himalayan moments where silence, effort, and beauty merge perfectly.<br>From Deorali, the terrain levels out into a more gradual path leading to Dzongri, one of the most iconic high-altitude camps in Sikkim. The landscape shifts to open meadows, dwarf rhododendrons, and patches of frost-crusted grass. As the wind turns colder and stronger, you’ll know you’ve truly entered the alpine zone.<br>By evening, you arrive at the Dzongri campsite — a windswept meadow surrounded by snow peaks and crisp mountain air. After settling in, enjoy a hot meal, stay warm inside your tent, and rest deeply. The next morning brings a special reward — the legendary sunrise from Dzongri Top, one of the most magnificent sights in the Eastern Himalayas."
-  },
-  {
-    day: 5,
-    title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & Dzongri meadows explore (3,930 m / 12,900 ft)",
-    details: "<strong>• Trek: ~10 km | 6–8 hrs.</strong><br>•Wake up early at Dzongri campsite to start a truly unforgettable day. Your morning begins with a short trek to Dzongri Top, just about an hour from camp. By sunrise, you’ll reach the top and witness the majestic Himalayas bathed in soft morning light. Kanchenjunga, Pandim, Kabru North & South, Kokthang, and other towering peaks glow golden as the first rays hit the snow, while colorful Tibetan prayer flags flutter in the wind. Take your time to capture photographs, soak in the panoramic views, and savor this magical Himalayan moment before heading back down to Dzongri for a hearty breakfast.<br>After breakfast, the day unfolds as a relaxed exploration of the vast Dzongri Meadows — a chance to soak in the Himalayas beyond the drama of sunrise. With the early summit glow still fresh in memory, you walk slowly across these high-altitude alpine plains, now fully revealed under the crisp winter light. Snow-covered undulations stretch in every direction, creating a sense of space and silence that feels both humbling and deeply calming.<br>As the sun climbs higher, the surrounding peaks stand tall in breathtaking clarity. Kanchenjunga’s massive south face dominates the horizon, while Pandim, the Kabru range, Rathong, and Kokthang form a sweeping arc around the meadows. In winter, the air is razor-sharp — every ridge, icefield, and contour appears etched with precision, offering some of the clearest mountain views the Eastern Himalayas can deliver.<br>The experience here is unhurried and immersive — short walks, long pauses, quiet conversations, and moments of complete stillness broken only by the crunch of snow underfoot. As the afternoon progresses, shadows lengthen across the meadows and the temperature begins to drop rapidly, a reminder of how unforgiving the mountains can be once the sun starts to fade.<br>You return to camp well before sunset, welcomed by the comfort of a warm, cozy campsite, steaming hot food, and often a crackling bonfire under a sky filling with stars. Wrapped in layers, sharing stories and silence in equal measure, the day settles into memory — not just as a trek highlight, but as one of those rare Himalayan moments that feels quietly unforgettable."
-  },
     {
-      day: 6,
-      title: "Dzongri to Tshoka",
+      day: 1,
+      title: "Reporting Day at Yuksom | NJP-Siliguri / Bagdogra to Yuksom (1,780 m / 5,840 ft)",
       details:
-        "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Descend back through alpine slopes into forested terrain. The contrast between open snowfields and dense woods is striking. Return to Tshoka for a warmer night at lower altitude."
+        "<strong>• ~150 km | 6–7 hr drive.</strong><br>• The journey to Yuksom takes you through a scenic 6–7 hour drive from NJP or Bagdogra, winding past emerald tea gardens, river valleys and the rolling foothills of Sikkim. As you ascend into the Himalayas, the air turns cooler and the rhythm of life slows down. Yuksom, once the first capital of Sikkim (established in 1642), still carries the charm of an ancient Himalayan settlement — fluttering prayer flags, old monasteries and quiet lanes lined with traditional homes. After checking into a guesthouse, spend the evening sorting out documents for trek permits and checking your gear. If you reach Yuksom early, take a short acclimatization walk to Kathok Lake or the Norbugang Coronation Throne, both steeped in Sikkim's royal and spiritual history. As dusk settles over the valley, meet your trek crew over dinner, discuss the trail ahead and get a good night's rest."
     },
+
     {
-      day: 7,
-      title: "Tshoka to Yuksom",
+      day: 2,
+      title: "Yuksom to Sachen (2,180 m / 7,150 ft)",
       details:
-        "<strong>• Trek: ~14 km | 5–6 hrs.</strong><br>• A long descent through familiar forests and bridges brings you back to Yuksom, marking the end of a powerful winter journey."
-    }
+        "<strong>• Trek: ~8 km | 5–6 hrs.</strong><br>• Your adventure begins with the first trek from Yuksom to Sachen — a beautiful introduction to the forests and rivers of Khangchendzonga National Park. After breakfast, the trail takes you past traditional wooden homes and cultivated fields before gradually leading into the wilderness. Mobile networks fade, human settlements become less frequent, and the sounds of nature begin to take over.<br>You will soon pass through the entrance area of Khangchendzonga National Park, a UNESCO World Heritage site known for its remarkable biodiversity. The path meanders through broadleaf, oak and silver oak forests, with ferns, orchids and Himalayan vegetation lining the trail. Wooden bridges span the Prek Chhu River, providing peaceful stops where you can enjoy the cool mountain air and the sound of flowing water.<br>The gradient remains relatively moderate until after the river crossings, from where a steeper ascent begins towards Sachen. As you climb higher, the forest becomes denser and the trail more secluded.<br>By late afternoon, you reach the Sachen campsite, tucked inside a quiet forest clearing above the Prek Chhu Valley. The sound of the distant river adds to the tranquillity of this beautiful campsite. Rest well and recharge for the next day's ascent towards Tshoka."
+    },
+
+    {
+      day: 3,
+      title: "Sachen to Tshoka (2,960 m / 9,700 ft) via Bakhim",
+      details:
+        "<strong>• Trek: ~7 km | 4–5 hrs.</strong><br>• Today's trail takes you from the forested campsite of Sachen to the picturesque Himalayan settlement of Tshoka, with a refreshing halt at Bakhim along the way. After breakfast, begin a beautiful forest walk that winds through oak, maple and rhododendron forests, following the Prek Chhu River valley below.<br>Soon, you reach the Prek Chhu Bridge, a scenic wooden crossing above a rushing mountain stream and a wonderful place for a short break. From here, the trail climbs steadily through lush forests. Keep an eye out for the colourful Himalayan birds that inhabit this region.<br>A series of steep zigzags brings you to Bakhim, a small resting point offering lovely views of the Yuksom Valley far below. Trekkers often stop here for tea and snacks before continuing the ascent. Beyond Bakhim, the path becomes steeper as you climb through magnificent magnolia and rhododendron forests.<br>A little later, you reach Tshoka, a picturesque settlement perched on an open shelf overlooking the Eastern Himalayas. Traditional wooden huts, fluttering prayer flags and a small monastery give this place a distinct mountain charm. Depending on the season, the surrounding forests may display fresh green foliage, vibrant rhododendron blooms or the muted colours of the colder months.<br>Spend the evening exploring the settlement or simply enjoying the views from camp. Rest well — tomorrow, the trail climbs towards the spectacular alpine landscapes of Dzongri."
+    },
+
+    {
+      day: 4,
+      title: "Tshoka to Dzongri (3,960 m / 13,000 ft) via Phedang",
+      details:
+        "<strong>• Trek: ~8 km | 6–8 hrs.</strong><br>• This is one of the most rewarding and demanding sections of the journey as you climb from Tshoka towards the high-altitude meadows of Dzongri. Begin the morning with a steady ascent through beautiful rhododendron and oak forests. The trail passes through some of the finest forest sections of the trek, where the character of the landscape changes with the seasons. Spring brings the possibility of colourful rhododendron blooms, while autumn and winter offer a quieter and more subdued mountain atmosphere.<br>Gradually, the path grows steeper as you climb towards Phedang, a scenic clearing surrounded by mountain forests and expansive views. This is an ideal place to rest, enjoy a snack and hydrate before the final ascent.<br>Beyond Phedang, the vegetation begins to thin and the landscape opens up. The climb towards Deorali Top becomes more demanding, with increasing altitude and exposed mountain terrain. Move steadily and allow your body enough time to adjust.<br>At Deorali Top, the views open dramatically. On clear days, the surrounding Himalayan peaks rise across the skyline, offering a magnificent introduction to the high-altitude scenery ahead.<br>From here, the trail becomes more gradual as it approaches Dzongri. The landscape transforms into open alpine meadows, dwarf rhododendrons and sweeping mountain slopes. Depending on the season, you may encounter fresh alpine vegetation, frost-covered grass or snow-covered terrain.<br>By afternoon, you arrive at the Dzongri campsite, surrounded by the spectacular peaks of the Eastern Himalayas. After a warm meal, settle into camp and rest well. The next morning brings the highlight of the trek — sunrise from Dzongri Top."
+    },
+
+    {
+      day: 5,
+      title: "Sunrise at Dzongri Top (4,170 m / 13,675 ft) & Exploration of Dzongri Meadows",
+      details:
+        "<br>• Wake up early at Dzongri campsite for one of the most memorable experiences of the trek. Begin the short ascent towards Dzongri Top, approximately an hour from camp depending on trail conditions and pace. Arrive before sunrise to witness the first light illuminating the magnificent Khangchendzonga massif.<br>As the sun rises, Kanchenjunga, Pandim, Kabru North and South, Kokthang, Rathong and several surrounding peaks gradually emerge in shades of gold and copper. Take your time to enjoy the panorama and capture photographs before returning to camp for breakfast.<br>After breakfast, explore the vast Dzongri Meadows. These high-altitude alpine landscapes offer a completely different perspective of the surrounding mountains. With expansive slopes, open ridgelines and magnificent views in every direction, Dzongri is a place where you can truly appreciate the scale and beauty of the Eastern Himalayas.<br>The character of the meadows changes throughout the year. During the colder months, sections may be blanketed in snow, creating a pristine alpine landscape. In spring, the snow gradually retreats and vegetation begins to emerge, while autumn offers crisp mountain air and clear views across the surrounding peaks.<br>Spend the day exploring at a comfortable pace, taking short walks and enjoying the remarkable mountain scenery. Return to camp well before evening, as temperatures can fall rapidly at this altitude. Enjoy a warm meal and a restful night surrounded by the mountains."
+    },
+
+   
+{
+  day: 6,
+  title: "Dzongri to Yuksom | Trek Ends (1,780 m / 5,840 ft)",
+  details:
+    "<strong>• Trek: ~15 km | 8–10 hrs.</strong><br>• Begin early after breakfast for the long descent from Dzongri to Yuksom. Retrace the familiar trail through Deorali Top, Phedang and Tshoka, gradually descending from the open alpine meadows into the beautiful forested slopes of Khangchendzonga National Park.<br>The trail continues through Bakhim and Sachen, passing wooden bridges and following the Prek Chhu River valley. As you lose altitude, the landscape gradually changes from exposed mountain terrain to dense forests and warmer surroundings. Take regular breaks, maintain a comfortable pace and watch your footing on the steep downhill sections, particularly where the trail is wet or icy.<br>After a long and rewarding day on the trail, arrive at Yuksom by late afternoon or evening. With this, your Dzongri Trek comes to an end. Check into your guesthouse, relax and celebrate the completion of an unforgettable Himalayan journey through the magnificent landscapes of the Khangchendzonga region."
+},
+
+{
+  day: 7,
+  title: "Departure from Yuksom | Drive to NJP / Bagdogra",
+  details:
+    "<strong>• Drive: ~150 km | 6–7 hrs.</strong><br>• After breakfast, bid farewell to the beautiful mountain village of Yuksom and begin your return journey towards NJP Railway Station, Siliguri or Bagdogra Airport. The drive takes you through the scenic landscapes of West Sikkim, descending past Legship, Jorethang and Melli before reaching the plains of North Bengal.<br>Depending on your onward travel arrangements, you can continue to NJP for your train, Bagdogra for your flight or Siliguri for an overnight stay. We recommend booking onward flights and trains with sufficient buffer time, keeping in mind possible road delays and mountain traffic.<br>Alternatively, you can extend your stay in Sikkim or continue with your own travel plans to explore more of the Eastern Himalayas. Your Dzongri adventure may be over, but the mountains always leave a reason to return."
+}
+
   ],
 
   howToReach: {
-      air: "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway (~150 km from Yuksom; ~6–7 hr by road).<br>• Pakyong Airport (Sikkim) is closer (~130 km away, ~5–6 hr) but has limited flights and is weather-dependent.<br><em>From both airports book a private cab to yuksom which may cost between ₹4000 - ₹8000</em>",
-      train: "New Jalpaiguri (NJP) or Siliguri, the nearest railhead (~145–153 km from Yuksom; 6–7 hr by road)",
-      road: "<br>• Route: Siliguri → Sevoke → Melli → Jorethang → Legship → Yuksom<br>• Shared jeeps from Siliguri's Tenzing Norgay Bus Terminus(near NJP railway station to Jorethang<br>• From Jorethang to Yuksom",
-      travelTip: "Start early from Siliguri if opting for a shared vehicle as last jeep for Yuksom from Jorethang departs by 1PM - 2PM."
-    },
+    air:
+      "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway (~150 km from Yuksom; approximately 6–7 hr by road).<br>• Pakyong Airport (Sikkim) is another option (~130 km away), but flights are limited and weather-dependent.<br><em>From either airport, you can arrange a private cab to Yuksom. Approximate cab costs may range between ₹4,000 and ₹8,000, depending on the vehicle and season.</em>",
 
- didYouKnow: [
-  "<b>Dzongri is considered a sacred resting ground in local belief.</b><br>Locals believe the vast Dzongri meadows are watched over by mountain spirits of the Kanchenjunga range. This is why permanent structures are avoided and trekkers are expected to tread lightly and respectfully.",
+    train:
+      "New Jalpaiguri (NJP) or Siliguri is the nearest major railway gateway, approximately 145–153 km from Yuksom (6–7 hr by road).",
 
-  "<b>Kanchenjunga is never climbed to its true summit out of reverence.</b><br>The third-highest mountain in the world is worshipped as a living deity in Sikkim. Even the first successful expedition in 1955 stopped short of the actual summit, a tradition still respected today.",
+    road:
+      "<br>• Route: Siliguri → Sevoke → Melli → Jorethang → Legship → Yuksom.<br>• Shared vehicles are available from Siliguri towards Jorethang, subject to availability.<br>• From Jorethang, arrange a connecting vehicle to Yuksom.",
 
-  "<b>The Kabru–Pandim ridge tells the story of Sikkim’s guardian peaks.</b><br>From Dzongri, Kabru North & South and Pandim rise dramatically alongside Kanchenjunga. Local folklore regards these peaks as protectors of the land, forming a natural fortress around the sacred heart of Sikkim.",
+    travelTip:
+      "Start early from Siliguri if travelling by shared vehicle. Connecting transport from Jorethang to Yuksom can be limited, particularly in the afternoon. Confirm the latest departure timings before travelling."
+  },
 
-  "<b>Dzongri’s winter silence is a rare Himalayan phenomenon.</b><br>Unlike popular summer treks, winter Dzongri sees very few trekkers, no grazing animals, and minimal human movement — creating an almost meditative stillness that many describe as spiritually intense.",
+  didYouKnow: [
+    "<b>Dzongri is considered a sacred resting ground in local belief.</b><br>The high-altitude meadows lie within the sacred mountain landscape of Khangchendzonga. Trekkers are expected to respect local beliefs, avoid disturbing the natural environment and tread lightly.",
 
-  "<b>The meadows were once seasonal grazing grounds.</b><br>Before conservation restrictions, local herders used Dzongri as a summer pasture for yaks. The stone shelters scattered around the region are remnants of this old high-altitude lifestyle.",
+    "<b>Kangchendzonga is never climbed to its true summit out of reverence.</b><br>The third-highest mountain in the world is revered as a living deity in Sikkim. The first successful expedition in 1955 stopped short of the actual summit in respect for local traditions, a practice followed by subsequent expeditions.",
 
-  "<b>Winter alters not just scenery, but perception.</b><br>With snow blanketing the meadows and forests, familiar landmarks disappear. Navigation relies heavily on ridgelines and peaks, making winter Dzongri a lesson in reading mountains rather than trails.",
+    "<b>The Kabru–Pandim skyline creates one of Sikkim's most spectacular mountain panoramas.</b><br>From Dzongri, Kabru North and South, Pandim, Rathong and other Himalayan peaks rise dramatically around the Khangchendzonga massif, creating an extraordinary mountain amphitheatre.",
 
-  "<b>Traditional Sikkimese food becomes essential at altitude.</b><br>Local dishes like thukpa, phagshapa, and butter tea are not just comfort food — they are high-calorie, warming meals designed for cold, high-altitude conditions and are deeply tied to mountain survival."
+    "<b>Dzongri changes dramatically with the seasons.</b><br>Autumn brings crisp air and clear mountain views, winter can transform the meadows into snow-covered landscapes, and spring brings the possibility of colourful rhododendron blooms along the forest trails.",
+
+    "<b>The meadows were once seasonal grazing grounds.</b><br>Before conservation restrictions, local herders used high-altitude areas around Dzongri as seasonal pastures for yaks. The region still reflects traces of its traditional pastoral history.",
+
+    "<b>Winter navigation in the high mountains requires particular care.</b><br>Snow can cover familiar trail markers and alter the appearance of the terrain. Experienced local guides and careful assessment of weather and trail conditions are particularly important during the colder months.",
+
+    "<b>Traditional Sikkimese food is an important part of mountain life.</b><br>Local dishes such as thukpa, phagshapa and butter tea reflect the food traditions of the Eastern Himalayas. Warm, nutritious meals are especially welcome during long trekking days and cold mountain nights."
   ],
 
   gallery: [
-      
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534990/goechala-view7_z1hrcv.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534988/goechala-view8_ukhvfv.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534987/goechala-view9_jmt3ln.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view6_zxmfea.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view14_lnsoag.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534983/goechala-view4_aonzed.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view15_wrfshw.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063292/khangchendzonga-peak_3_kh3a07.jpg",
-      "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg"
-      
-    ],
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534990/goechala-view7_z1hrcv.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534988/goechala-view8_ukhvfv.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534987/goechala-view9_jmt3ln.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534986/goechala-view5_tcefc4.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view6_zxmfea.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534984/goechala-view14_lnsoag.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534983/goechala-view4_aonzed.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534979/goechala-view16_whcd24.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534978/goechala-view3_et6beb.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1755534973/goechala-view15_wrfshw.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063288/khangchendzonga-peak_2_tmtjjo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063292/khangchendzonga-peak_3_kh3a07.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1766063281/khangchendzonga-peak_1_imnm5j.jpg"
+  ],
 
-    downloadLink: "/docs/Packing_List.pdf",
+  downloadLink: "/docs/Packing_List.pdf",
 
   faqs: {
-  questions: [
-    {
-      question: "How difficult is the Dzongri Winter Trek?",
-      answer:
-        "In winter, Dzongri becomes significantly more challenging due to snow-covered trails, sub-zero temperatures, and shorter daylight hours. While it does not involve technical climbing, it demands good fitness, stamina, and the ability to walk on snow for extended durations. Prior high-altitude trekking experience is strongly recommended."
-    },
-    {
-      question: "Who should attempt the Dzongri Winter Trek?",
-      answer:
-        "This trek is ideal for trekkers who have previously completed at least one Himalayan trek above 3,500 m and are comfortable in cold conditions. It suits those seeking solitude, dramatic mountain views, and a quieter Himalayan experience rather than first-time trekkers or casual hikers."
-    },
-    {
-      question: "How cold does it get on the trek?",
-      answer:
-        "Daytime temperatures generally range between 0°C and 8°C under clear skies. Nights at Dzongri can drop between -8°C and -12°C, and sometimes lower during cold spells. Wind chill at exposed viewpoints like Dzongri Top can make conditions feel much colder."
-    },
-    {
-      question: "How should I prepare physically and mentally for a winter trek like Dzongri?",
-      answer:
-        "Preparation should focus on cardiovascular endurance, leg strength, and balance. Stair climbing, weighted hikes, and endurance training are effective. Mental preparedness is equally important, as cold weather, limited daylight, and snow can be psychologically demanding. Familiarity with winter layering systems is a big advantage."
-    },
-    {
-      question: "Is altitude sickness a concern on this trek?",
-      answer:
-        "Yes. Dzongri sits at approximately 4,000 m (around 13,100 ft), and altitude-related issues can occur. Proper acclimatization, slow ascent, hydration, and honest communication with trek leaders are critical. Guides closely monitor oxygen levels and symptoms throughout the trek."
-    },
-    {
-      question: "Is Dzongri safe to trek in winter?",
-      answer:
-        "Yes, provided the trek is conducted with an experienced operator using proper winter gear and trained staff. Routes are carefully assessed for snow conditions, weather is monitored daily, and contingency plans are in place for sudden changes."
-    },
-    {
-      question: "Do foreign nationals need special permits for the Dzongri Trek?",
-      answer:
-        "Yes. Foreign nationals require a Protected Area Permit (PAP) to trek in this region, which must be arranged through a registered Indian trekking operator. Solo trekking is not permitted for foreigners, and valid passport and visa details are required in advance."
-    },
-    {
-      question: "Is offloading or porter support available on the Dzongri Winter Trek?",
-      answer:
-        "Yes. Offloading via porters is available and highly recommended in winter to conserve energy and reduce fatigue. Trekkers typically carry only a daypack, while the rest of the luggage is transported separately, subject to weather and trail conditions."
-    },
-    {
-      question: "What kind of accommodation can I expect during the trek?",
-      answer:
-        "Accommodation includes basic guesthouses or lodges at lower villages like Yuksom and Tshoka, and high-quality alpine tents at Dzongri. Sleeping arrangements are designed for winter conditions, with insulated sleeping bags and proper ground insulation."
-    },
-    {
-      question: "Is there mobile network or internet connectivity on the trek?",
-      answer:
-        "Mobile network is limited. Basic connectivity may be available at Yuksom and occasionally at Tshoka, depending on the provider. Beyond that, including Dzongri, there is no reliable network or internet access. Trekkers should be prepared to remain completely offline."
-    },
-    {
-      question: "What kind of food is served during the winter trek?",
-      answer:
-        "Meals are nutritious, warm, and designed for high-energy output in cold conditions. Expect a mix of Indian, local Sikkimese, and simple continental dishes, along with soups and hot beverages to maintain hydration and body warmth."
-    },
-    {
-      question: "What makes Dzongri in winter different from other seasons?",
-      answer:
-        "Winter offers clearer skies, sharper mountain views, far fewer trekkers, and a deeply serene atmosphere. Snow transforms the landscape into a stark alpine environment, making the experience more intense, immersive, and visually dramatic compared to spring or autumn."
-    }
-  ]
+    questions: [
+      {
+        question: "How difficult is the Dzongri Trek?",
+        answer:
+          "The Dzongri Trek is graded moderate, but it is a demanding high-altitude Himalayan trek. The route involves sustained ascents, significant altitude gain and long trekking days. Snow, icy trails and sub-zero temperatures can make it considerably more challenging during winter. Good cardiovascular fitness, leg strength and prior trekking experience are strongly recommended."
+      },
+      {
+        question: "Who can attempt the Dzongri Trek?",
+        answer:
+          "The trek is suitable for fit individuals who have good endurance and are comfortable walking for several hours on mountain trails. Previous Himalayan trekking experience is recommended, particularly for winter departures. First-time trekkers should have a structured fitness preparation plan and understand the demands of high-altitude trekking."
+      },
+      {
+        question: "What is the best time to do the Dzongri Trek?",
+        answer:
+          "The best overall trekking window is October to April. October and November are excellent for clear skies and mountain visibility. December to February offer a beautiful winter experience, with the possibility of snow-covered meadows and frozen landscapes. March and April bring spring conditions and the possibility of rhododendron blooms. May may be considered a shoulder-season option, subject to weather and trail conditions. The monsoon months are not recommended."
+      },
+      {
+        question: "Does the Dzongri Trek offer snow throughout the year?",
+        answer:
+          "No. Snow is not guaranteed throughout the year. The possibility of snow-covered trails and meadows is considerably higher during the winter months, particularly from December to February. Conditions vary with snowfall and weather patterns. Autumn and spring generally offer different landscapes, with clearer trails and changing forest vegetation."
+      },
+      {
+        question: "How cold does it get on the Dzongri Trek?",
+        answer:
+          "Temperatures vary considerably with the season and weather. During winter, daytime temperatures at higher camps can hover around or below freezing, while nights at Dzongri may drop to approximately -8°C to -12°C or lower during cold spells. Autumn and spring are generally more comfortable during the day, although nights remain cold at high altitude. Wind chill at exposed viewpoints can make conditions feel significantly colder."
+      },
+      {
+        question: "How should I prepare physically for the Dzongri Trek?",
+        answer:
+          "Preparation should focus on cardiovascular endurance, leg strength and balance. Stair climbing, brisk walking, weighted hikes, squats and endurance training are effective ways to prepare. Aim to build the ability to walk for several consecutive hours with a daypack. Winter trekkers should also prepare for walking on snow and using appropriate winter clothing and equipment."
+      },
+      {
+        question: "Is altitude sickness a concern on the Dzongri Trek?",
+        answer:
+          "Yes. Dzongri is located at approximately 3,960 m, while Dzongri Top reaches around 4,170 m. Altitude-related symptoms can occur at these elevations. Proper acclimatization, a controlled ascent, hydration and honest communication with trek leaders are essential. Never ignore symptoms of altitude sickness or continue ascending when unwell."
+      },
+      {
+        question: "Is the Dzongri Trek safe during winter?",
+        answer:
+          "Winter Dzongri requires additional preparation because of snow, ice, low temperatures and shorter daylight hours. Safety depends on experienced local staff, appropriate winter equipment, daily weather and trail assessments, and the flexibility to modify or turn back when conditions demand it. The route should never be attempted independently during difficult winter conditions."
+      },
+      {
+        question: "Is the Dzongri Trek suitable during the monsoon?",
+        answer:
+          "No. The monsoon season is generally unsuitable for the Dzongri route. Heavy rainfall, slippery forest trails, leeches, landslides and poor mountain visibility can significantly affect trekking conditions. The recommended trekking window is October to April, with May treated as a conditional shoulder-season option."
+      },
+      {
+        question: "Do foreign nationals need special permits for the Dzongri Trek?",
+        answer:
+          "Yes. Foreign nationals require the applicable Protected Area Permit (PAP) and other permissions required for entry into this region. These arrangements must be made through the appropriate registered authorities and operators. Passport, visa and other required documents should be shared well in advance. Permit rules can change, so the latest requirements should always be confirmed before travel."
+      },
+      {
+        question: "Is offloading or porter support available on the Dzongri Trek?",
+        answer:
+          "Yes. Offloading through porter support is available and can be particularly useful during the colder months. It allows trekkers to carry only their daypacks while the remaining luggage is transported separately, subject to the agreed weight limit and local trail conditions."
+      },
+      {
+        question: "What kind of accommodation can I expect during the trek?",
+        answer:
+          "Accommodation generally includes guesthouses or lodges at Yuksom and camping arrangements at designated locations along the trekking route. Facilities at higher camps are basic, and trekkers should be prepared for simple mountain accommodation. Arrangements may vary depending on season, local permissions and weather conditions."
+      },
+      {
+        question: "Is there mobile network or internet connectivity on the trek?",
+        answer:
+          "Mobile connectivity is limited. Basic network access may be available at Yuksom and occasionally at lower sections of the route, depending on the service provider. Beyond the lower settlements, including Dzongri, there is no reliable mobile network or internet connectivity. Trekkers should be prepared to remain offline for most of the journey."
+      },
+      {
+        question: "What kind of food is served during the Dzongri Trek?",
+        answer:
+          "Meals are nutritious and designed to support the energy requirements of high-altitude trekking. Expect a combination of Indian, local Sikkimese and simple continental dishes, along with soups and hot beverages. The menu may vary depending on the availability of supplies and the season."
+      },
+      {
+        question: "What makes Dzongri different in each season?",
+        answer:
+          "Each season gives the Dzongri Trek a distinct character. Autumn is known for crisp weather and excellent mountain visibility. Winter can bring snow-covered alpine meadows and a quieter mountain atmosphere. Spring brings the possibility of rhododendron blooms and fresh vegetation. The changing landscapes make Dzongri a rewarding multi-season trekking destination, although the monsoon period is best avoided."
+      },
+      {
+        question: "Can I do the Dzongri Trek without attempting the longer Goechala Trek?",
+        answer:
+          "Absolutely. Dzongri is an excellent standalone trek for experiencing the spectacular mountain landscapes of the Khangchendzonga region. Dzongri Top offers magnificent panoramic views of the surrounding peaks without requiring trekkers to continue towards Goechala. It is a rewarding alternative for those looking for a shorter high-altitude adventure in Sikkim."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
 },
+
+{
+  id: "dafeybhir-la-trek",
+  name: "Dafeybhir La Trek",
+
+  tags: [
+    "intermediate",
+    "difficult",
+    "pass",
+    "lake",
+    "ridge",
+    "offbeat",
+    "valley"
+  ],
+
+  difficulty: ["difficult"],
+  season: ["autumn", "spring", "summer"],
+  month: [
+    "october", "november", "march", "april", "may"
+  ],
+  duration: ["6 Nights / 7 Days"],
+  region: "sikkim",
+
+  coordinates: [
+    [27.269331, 88.091625], // Uttarey
+    [27.270157, 88.039432], // Chitrey
+    [27.270917, 88.031771], // Chewabhanjyang
+    [27.317204, 88.049192], // Gairi
+    [27.342798, 88.062986], // Dhoor
+    [27.39607679667532, 88.03919763303924], //pahadimeghu
+    [27.425147143466443, 88.08083017239439], //Lampokhri
+    [27.429524841972974, 88.09704106044774], // Dafeybhir La*
+    [27.332368, 88.145503], // Senkhola
+  ],
+
+  waypoints: [
+   {
+    name: "Uttarey (Start)",
+    coords: [27.269331, 88.091625],
+    type: "start"
+  },
+  {
+    name: "Chittrey",
+    coords: [27.270157, 88.039432],
+    type: "campsite"
+  }, 
+  {
+    name: "Chewabhanjyang",
+    coords: [27.270917, 88.031771],
+    type: "landmark"
+  },
+  {
+    name: "Gairi",
+    coords: [27.317204, 88.049192],
+    type: "campsite"
+  },
+  {
+    name: "Dhoor",
+    coords: [27.342798, 88.062986],
+    type: "campsite"
+  },
+  { name: "Pahadimegu", coords: [27.39607679667532, 88.03919763303924], type: "campsite" },
+  { name: "Lampokhri", coords: [27.425147143466443, 88.08083017239439], type: "lake/campsite" },
+  { name: "Dafeybhir La", coords: [27.429524841972974, 88.09704106044774], type: "summit" },
+  //{ name: "Naya Pataal", coords: [/* GPS coordinates */], type: "campsite" },
+  { name: "Senkhola (End)", coords: [27.332368, 88.145503], type: "end" },
+],
+
+  heroImage:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099299/dafeybhir-trek-hero3_mq1oiu.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099299/dafeybhir-trek-hero3_mq1oiu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099255/dafeybhir-trek-hero1_xbbvif.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099249/dafeybhir-trek-hero2_zac5bt.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099236/dafebhir-trek-view10_slfheo.jpg",
+  ],
+
+  subtitle: "Across Untamed Ridges & Hidden Alpine Lakes of Sikkim",
+
+  seo: {
+    title: "Dafeybhir La Trek, Sikkim | The Remote Singalila Ridge & Alpine Lakes",
+    description: "Explore the remote Dafeybhir La Trek in Sikkim. Cross the Singalila Ridge along the Nepal border, discover high-altitude alpine lakes and experience magnificent Himalayan mountain views.",
+    keywords: [
+      "Dafeybhir La Trek",
+      "Dafey Bhir Pass Trek",
+      "Dafeybhir Trek Sikkim",
+      "Singalila Ridge Trek",
+      "Sikkim Alpine Lakes Trek",
+      "Offbeat Treks in Sikkim",
+      "High Altitude Lake Trek Sikkim"
+    ]
+  },
+
+  overview: {
+    facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "9 Nights / 10 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Difficult" },
+      { emoji: "🏔️", label: "Max Altitude", value: "14,862 ft (Dafeybhir La)" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈50 Km" },
+      { emoji: "🌤️", label: "Best Time", value: "March – May & September – November"  },
+      { emoji: "🗺️", label: "Region", value: "Singalila Ridge, West Sikkim" },
+      { emoji: "📍", label: "Start / End", value: "Uttarey / Senkhola" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Not Available" },
+    ],
+
+    snippet: `
+The Dafeybhir La Trek is one of Sikkim’s most remote and rewarding high-altitude journeys, following the dramatic Singalila Ridge along the India–Nepal border. Starting from the quiet village of Uttarey, the trail winds through dense rhododendron, oak and bamboo forests before opening onto vast alpine ridges, rocky mountain trails and sweeping Himalayan landscapes. As you gain altitude, the scenery changes dramatically, revealing a remarkable chain of high-altitude lakes scattered across the mountains. From the ridge, the views stretch across the mighty Kanchenjunga massif and the peaks of Nepal, including Everest, Lhotse and Makalu. Reaching Dafeybhir La at approximately 14,862 ft is a memorable high point of the journey, but the trek is as much about the wilderness along the way as it is about the pass itself. Long walking days, steep ascents, exposed campsites and challenging terrain make this a demanding expedition best suited to fit trekkers with prior high-altitude trekking experience. For those ready to take on the challenge, Dafeybhir offers a rare opportunity to explore a quieter, less-travelled side of the Eastern Himalayas `
+  },
+
+  price: 36400,
+  priceNote: "* Uttarey to Senkhola",
+
+  addons: {
+    transport: 5000,
+    offloadingbag: 6300,
+    transportNote: "* Siliguri / Bagdogra to Siliguri / Bagdogra",
+    offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 9",
+
+highlights: [
+  "Reach Dafeybhir La (14,862 ft), a remote high-altitude pass on the Singalila Ridge along the Sikkim–Nepal border.",
+  "Walk along spectacular mountain ridges with sweeping views of the Kanchenjunga massif, famously known as the Sleeping Buddha.",
+  "Witness an extraordinary Himalayan panorama featuring Everest, Lhotse, Makalu, Kanchenjunga, Kabru, Rathong and Pandim from different sections of the trail.",
+  "Explore a remarkable landscape of high-altitude alpine lakes, including the beautiful Jumley Pokhri and Lampokhri.",
+  "Trek through changing landscapes of rhododendron, oak, fir and bamboo forests, open grasslands, rocky slopes and exposed ridgelines.",
+  "Experience the quieter side of the Eastern Himalayas on a remote trail that follows the historic Singalila mountain range.","Experience the cultural richness and natural diversity of West Sikkim while trekking along the remote Indo-Nepal border.",
+  "Take on a demanding high-altitude adventure with long trekking days, steep climbs, rugged terrain and exposed campsites."
+],
+
+  itinerary: [
+    {
+  day: 1,
+  title: "Drive from NJP / Bagdogra to Uttarey (Approx. 2,000 m / 6,560 ft)",
+  details:
+    "<strong>• Drive: ~170 km | 7–8 hrs.</strong><br>• Your journey to the remote landscapes of West Sikkim begins with a drive from New Jalpaiguri Railway Station or Bagdogra Airport towards Uttarey. Leaving the plains behind, the road takes you through the green stretches of Sevoke and gradually enters the winding mountain roads of the Eastern Himalayas.<br>The route follows the beautiful Teesta and Rangeet river valleys, passing through small hillside settlements and the Melli checkpoint, where you enter Sikkim. As the road climbs higher, the scenery changes from forested foothills to quiet mountain villages and sweeping valley views. You can stop for lunch at one of the local eateries along the way and sample some Sikkimese favourites such as momos, thukpa or thenthuk.<br>Continue towards Geyzing and the Pelling region before making your way to Uttarey, a peaceful mountain village in West Sikkim. On arrival, settle into your accommodation, meet the trek team and get your gear ready for the days ahead. Enjoy a relaxed evening and get a good night's rest before the trek begins tomorrow."
+},
+
+    {
+  day: 2,
+  title: "Uttarey to Chittrey (2,640 m / 8,670 ft)",
+  details:
+    "<strong>• Trek: ~6 hrs.</strong><br>• After breakfast, begin your trek from Uttarey, following a trail that gradually leaves the village behind and enters the forested slopes of the Singalila range. The initial stretch follows the Sapa Khola stream, passing through peaceful surroundings before joining a well-defined mountain trail.<br>As you gain altitude, the landscape becomes increasingly green and dense. The route takes you through beautiful stretches of rhododendron forest, which are particularly vibrant during the spring flowering season. You will cross small streams over simple wooden bridges, offering occasional breaks from the steady climb. Keep an eye out for the region's birdlife and the varied vegetation that makes these forests so special.<br>The ascent becomes noticeably steeper as you approach Chittrey, so take your time and maintain a comfortable pace. The final stretch brings you to a small clearing near the SSB camp, where you will set up camp for the night, surrounded by the forests of the Singalila region. After settling in, rest well and prepare for the longer and more demanding trail ahead."
+},
+
+    {
+  day: 3,
+  title: "Chittrey to Gairi (3,478 m / 11,410 ft)",
+  details:
+    "<strong>• Trek: ~8 hrs.</strong><br>• Today is one of the more demanding days of the trek, with a sustained climb of nearly 2,740 ft. Start early and follow the trail as it climbs steeply through dense forests of oak, rhododendron and bamboo. The ascent is demanding, but the changing forest scenery and occasional clearings make the climb rewarding.<br>Continue towards Chewabhanjyang, a significant point along the Singalila Ridge, where you will come across the SSB camp, a Nepal Police check post and a forest guest house. This is the last reliable place to refill your water bottles before heading onto the exposed ridge, so make sure you carry enough water for the remaining stretch.<br>Beyond Chewabhanjyang, the trail climbs through another forested section before emerging onto the open ridgeline. The landscape changes dramatically here. Forest cover gives way to expansive views of rolling valleys, distant mountain ranges and the magnificent Himalayan skyline. The trail now follows a series of gentle undulations, with a few short ascents and descents along the ridge.<br>One of the highlights of the day is reaching a viewpoint where the Sleeping Buddha formation begins to unfold across the horizon, with the mighty Kanchenjunga massif and neighbouring peaks dominating the view. The trail also follows the India–Nepal border, making for a unique experience of walking along this remote international boundary.<br>Continue along the ridge for the final stretch to Gairi, your campsite for the night. With limited water sources along this exposed section, careful water management is essential. Arrive at camp, settle in and rest well after a long day in the mountains."
+},
+
+    {
+  day: 4,
+  title: "Gairi to Dhoor (3,749 m / 12,300 ft)",
+  details:
+    "<strong>• Trek: ~5 hrs.</strong><br>• After the demanding climb of the previous day, today's trail offers a relatively relaxed change of pace. Leave Gairi and continue north along the Singalila Ridge, following a beautiful stretch of rolling terrain with gradual ascents and descents. The trail remains mostly open, allowing you to enjoy uninterrupted views of the surrounding valleys and distant Himalayan peaks.<br>During early spring, you may encounter patches of lingering snow along shaded sections of the trail. These can sometimes become hard and slippery, so walk carefully and follow your trek leader's instructions while crossing them.<br>After a few hours of walking, you will reach Dhoor, a quiet and scenic campsite on the ridge. A shepherd's hut can be spotted nearby, sometimes serving as a small stop for refreshments during certain seasons. Water is not readily available close to the campsite, so you may need to take a short detour of around 500 metres to reach the nearest source. Your team will help arrange water collection for the camp.<br>Spend the rest of the afternoon enjoying the open mountain surroundings and recovering for the higher-altitude sections ahead. As always, carry your reusable cutlery and avoid disposable packaging so that this fragile mountain landscape remains clean."
+},
+
+   {
+  day: 5,
+  title: "Dhoor to Pahadimegu (3,854 m / 12,645 ft)",
+  details:
+    "<strong>• Trek: ~6 hrs.</strong><br>• Today's walk continues along the open ridgelines of the Singalila range. Leave Dhoor and follow the undulating trail towards Pahadimegu, crossing vast stretches of high-altitude grassland with the Himalayan landscape opening up around you. Although the altitude gain is relatively gradual, the long distance and exposed nature of the trail make this a steady and tiring day.<br>As you move higher, the vegetation changes noticeably. In spring, dwarf rhododendrons add colour to the slopes, while juniper shrubs thrive across the windswept terrain. During autumn, the flowering season is over, but the landscape has its own quiet charm, with the distinctive fragrance of juniper in the mountain air.<br>Watch your footing, particularly in shaded sections where old snow can freeze into slippery patches. The ridge can also become increasingly windy as you approach Pahadimegu, so keep your warm layers handy and maintain a comfortable pace.<br>Arrive at Pahadimegu and settle into your campsite for the night. Water availability here is seasonal: a nearby source may be accessible in spring, but it can dry up during autumn. Your trek team should confirm the source before arrival and arrange water collection from an alternative source if required. With another cold night ahead at this exposed altitude, get into your sleeping bag early and rest well."
+},
+
+   
+{
+  day: 6,
+  title: "Pahadimegu to Lampokhri (4,330 m / 14,205 ft)",
+  details:
+    "<strong>• Trek: ~8 hrs.</strong><br>• Today's trail takes you deeper into the high-altitude wilderness of the Singalila range. Leave Pahadimegu and follow the route along the valley, with the sound of a mountain stream accompanying you through much of the initial stretch. The trail gradually climbs over rocky, muddy and uneven terrain, with a sustained ascent that becomes more demanding as you gain altitude.<br>As you continue, the landscape begins to change dramatically. The dense vegetation and shrubs gradually disappear, giving way to open alpine terrain and rugged mountain slopes. You will spend much of the day walking through remote sections of the trail, with expansive views of the surrounding valleys and Himalayan peaks. The climb is long, and the increasing altitude makes it important to maintain a steady pace and take adequate breaks.<br>Eventually, the trail brings you to the beautiful alpine surroundings of Lampokhri. A small trekkers' hut near the lake marks your arrival at this remarkable campsite. The clear waters of Lampokhri, set against the stark mountain landscape, make for a memorable sight after a strenuous day on the trail. Take some time to explore the lakeside, while being careful around the water's edge.<br>Tonight, you camp in the open high-altitude terrain near the lake. At over 14,000 ft, temperatures can drop sharply after sunset, and strong winds can make the campsite particularly cold. Keep your warm layers ready, stay hydrated and get adequate rest for the challenging sections ahead."
+},
+
+{
+  day: 7,
+  title: "Lampokhri to Dafeybhir La via Lakshmi Pokhri & Jumley Pokhri | Return to Lampokhri (4,576 m / 15,015 ft)",
+  details:
+    "<strong>• Trek: ~12 hrs.</strong><br>• Today is the defining day of the Dafeybhir La Trek, taking you to its highest point and through some of the most spectacular alpine landscapes of the Singalila range. Start early, preferably before sunrise, while keeping your campsite at Lampokhri intact for your return later in the day. Carry sufficient water, food and warm layers, as this will be a long and demanding outing.<br>From Lampokhri, begin the climb towards Dafeybhir La. The trail rises steadily over rugged mountain terrain, bringing you to the high mountain pass at approximately 15,015 ft. Reach the pass around sunrise, when the first light begins to illuminate the vast Himalayan skyline. Look back towards Lampokhri, which sits beautifully below the ridge, and ahead towards the magnificent Sleeping Buddha formation dominated by the Kanchenjunga massif and its neighbouring peaks.<br>The views from the pass are extraordinary, but the exploration does not end here. The surrounding landscape is dotted with high-altitude lakes, including the twin lakes of Jumley Pokhri and the beautiful Lakshmi Pokhri. Depending on trail conditions, weather and the group's fitness, you can descend towards Lakshmi Pokhri, continue to the twin lakes of Jumley Pokhri and follow the connecting trail back towards Lampokhri. Alternatively, you can explore Jumley Pokhri or return directly to camp from the pass if conditions or fatigue make a shorter outing necessary.<br>Expect repeated ascents and descents over rocky and uneven terrain throughout the day. Take regular breaks, keep your trek leader informed about how you are feeling and avoid rushing through the lake sections. After completing this memorable high-altitude circuit, return to Lampokhri and settle in for another night at camp. It will be a long day, so enjoy the achievement and get some well-earned rest before tomorrow's descent."
+},
+
+{
+  day: 8,
+  title: "Lampokhri to Naya Pataal (2,485 m / 8,155 ft)",
+  details:
+    "<strong>• Trek: ~7 hrs | ~9.5 km.</strong><br>• After the previous day's demanding exploration of Dafeybhir La and its surrounding lakes, begin your descent from Lampokhri towards Naya Pataal. Today's route takes you away from the high mountain ridges and gradually back into the forested slopes of the Singalila range. Although the walking distance is relatively short, the descent is steep, with a loss of nearly 6,050 ft in altitude. Take it slowly, use your trekking poles and be especially mindful of your knees on the downhill sections.<br>The initial stretch follows the open ridge, offering one last opportunity to enjoy the expansive high-altitude landscape. After around 5 km, the trail enters the forest zone, bringing a welcome change from the exposed terrain of the previous few days. You will descend through beautiful stretches of silver oak, fir, bamboo and rhododendron, accompanied by the sound of streams flowing through the forest. The return of dense vegetation and birdlife makes this section feel like entering a completely different world.<br>Continue along the steep forest trail until you reach Naya Pataal, a small clearing near a stream with a few huts marking the campsite. Settle in beside the water, relax your tired legs and enjoy the comfort of being back in the forest. After such a substantial descent, give yourself enough time to recover and prepare for the final trekking days ahead."
+},
+
+{
+  day: 9,
+  title: "Naya Pataal to Senkhola (1,695 m / 5,560 ft)",
+  details:
+    "<strong>• Trek: ~5 hrs.</strong><br>• Today's trail continues the descent towards the lower valleys of West Sikkim. Leave Naya Pataal and follow the forest path as it winds downhill through thick stretches of rhododendron, silver fir and bamboo. During spring, particularly around April, the forest can be alive with blooming rhododendrons, adding colour to an otherwise quiet stretch of trail.<br>The route involves a steady descent of around 2,595 ft, with a few narrow and uneven sections that require careful footing. You will also encounter small streams crossed by simple makeshift wooden bridges. These crossings can be slippery or unstable, so take your time and follow your trek leader's instructions. The sound of flowing water accompanies much of the walk as you make your way deeper into the forest.<br>As the trail gradually loses altitude, signs of habitation begin to appear. Cross the final stream section and continue towards Senkhola, a small settlement where a few houses mark the end of today's trek. Check into a local homestay, relax and enjoy a more comfortable evening after several nights of camping in the mountains.<br>Keep in mind that transport options from Senkhola are limited, and vehicles may not be available later in the morning. Coordinate your onward travel with the trek team in advance."
+},
+
+{
+  day: 10,
+  title: "Drive from Senkhola to NJP / Bagdogra via Geyzing / Pelling",
+  details:
+    "<strong>• Drive: ~155 km | 6–7 hrs.</strong><br>• After breakfast, begin your return journey from Senkhola. Local shared transport towards Geyzing and Pelling is limited, with a shared taxi generally leaving around 8:00 AM. Ask your homestay host or the locals to guide you to the pick-up point, and confirm the departure time and availability the previous evening.<br>For trekkers who have opted for the Planethimalayas return transfer, the journey continues from Geyzing or Pelling towards Bagdogra Airport or New Jalpaiguri Railway Station (NJP). Enjoy the changing landscapes as you leave the mountains behind and make your way back towards the plains. Allow sufficient buffer time for road conditions, especially if you have a flight or train to catch.<br>If you have made your own onward travel arrangements, you are free to continue your journey from Geyzing or Pelling at your convenience. This marks the end of your Dafeybhir La Trek with Planethimalayas."
+},
+
+  ],
+
+howToReach: {
+  air:
+    "<br>• Bagdogra Airport (West Bengal) is the most practical air gateway to Uttarey, approximately 160–180 km away and around 6–8 hours by road, depending on the route and road conditions.<br>• Pakyong Airport (Sikkim) is another option, but flight connectivity is limited and services are weather-dependent.<br><em>From Bagdogra, you can arrange a private cab directly to Uttarey. Approximate cab fares may vary depending on the vehicle, season and road conditions.</em>",
+
+  train:
+    "New Jalpaiguri (NJP) is the nearest major railway station, approximately 160–180 km from Uttarey. The journey by road generally takes around 6–8 hours. Siliguri is another convenient point to arrange onward transport.",
+
+  road:
+    "<br>• Route: NJP / Siliguri → Sevoke → Melli → Jorethang → Legship → Geyzing → Uttarey.<br>• Private taxis can be arranged directly from NJP, Bagdogra or Siliguri to Uttarey.<br>• Shared transport is available on parts of the route, but you may need to change vehicles at Jorethang or Geyzing, depending on availability.<br>• Uttarey is a remote village in West Sikkim, so reaching it by shared transport may require additional time and careful coordination.",
+
+  travelTip:
+    "If travelling by shared vehicle, start early from NJP or Siliguri and confirm connecting transport to Uttarey in advance. Shared vehicles may be limited, particularly for the final stretch towards Uttarey. We recommend reaching Uttarey a day before the trek begins rather than planning the journey on the same day."
+  },
+
+  
+didYouKnow: [
+  "<b>This trek could well be called Sikkim's Alpine Lakes Trail.</b><br>Once you climb above approximately 4,000 m (13,000 ft), a remarkable chain of high-altitude lakes begins to appear across the trail and the surrounding mountain landscape. There are close to ten lakes of varying sizes in the wider area. Some lie directly along the trekking route, while others require an additional walk or a detour of around an hour or more. It is this unusual concentration of alpine lakes that gives the Dafeybhir region its distinctive character.",
+
+  "<b>There is more than one Jumley Pokhri in this mountain region.</b><br>The trail takes you through a fascinating collection of lakes with local names and stories. Nepal Jumley Pokhri is known for its twin lakes near the India–Nepal border, while Sikkim Jumley Pokhri is also known as Ram and Laxman Pokhri. Lampokhri, another striking lake on the route, has a long, narrow shape. Tembong Pokhri and Laxmi Pokhri lie away from the usual trail and require additional walking to visit. The word 'Pokhri' means lake in Nepali.",
+
+  "<b>Dafeybhir follows a quieter, more northerly section of the Singalila Ridge.</b><br>The Singalila Ridge is a long mountain spine forming much of the natural boundary between Sikkim and Nepal. The better-known Sandakphu–Phalut trek follows its southern section in the Darjeeling Himalayas. After Chewabhanjyang, the Dafeybhir route continues along a more northerly stretch of this ridge, taking you deeper into the high mountains of West Sikkim. It is part of the wider Singalila mountain system, rather than the entire Sandakphu–Phalut route.",
+
+  "<b>The mountain views bring together two very different Himalayan perspectives.</b><br>Sandakphu and Phalut are celebrated for their sweeping panoramas of the Kanchenjunga range and the Everest group. Goechala, on the other hand, is known for its dramatic approach towards the mighty Khangchendzonga massif. Dafeybhir offers a different vantage point: for several days, the trail faces the Sleeping Buddha formation, with both broad Himalayan panoramas and closer views of peaks across Sikkim and Nepal. Many of the prominent peaks associated with the Sandakphu and Goechala regions can be seen from this wider mountain landscape, although the exact views depend on the location and weather.",
+
+  "<b>The Dafeybhir trail is connected to a much longer Singalila–Dzongri expedition.</b><br>The route need not end with the usual return from the Dafeybhir region. Sikkim's Forest Department describes a longer Yambong–Singalila trekking route that passes through Nayapatal, Daphey Bheer, Gomathang and Pangding before reaching Dzongri, where it joins the established Khangchendzonga Base Camp trekking trail. This creates the possibility of extending the journey towards the Goechala region. Such an expedition requires a different itinerary, additional days and careful logistical planning.",
+
+  "<b>These mountain paths have a history beyond modern trekking.</b><br>The high passes and forest trails around Uttarey and Chewabhanjyang have long connected communities on either side of the Sikkim–Nepal border. Historically, paths across this mountain region were used for local movement, grazing, trade and visits between settlements. The present trekking route follows part of this wider network of old mountain paths. It is better understood as a historic cross-border mountain corridor than as one single, formally defined trade route.",
+
+  "<b>The lakes and ridgelines belong to a landscape shared by two countries.</b><br>As the trail follows the Singalila Ridge, the India–Nepal boundary runs through this high mountain country. Some of the lakes and viewpoints are located close to the border, giving the trek a distinctive geographical character. The scenery shifts between the valleys of West Sikkim on one side and the mountain landscapes of eastern Nepal on the other."
+],
+
+
+  gallery: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099367/dafebhir-trek-view15_ugtetz.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099355/dafebhir-trek-view18_iv0py6.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099354/dafebhir-trek-view2_iip7o1.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099347/907539019_17968299516206461_5966001372050222701_n_caaoo1.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099351/dafebhir-trek-view16_zzboke.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099344/dafebhir-trek-view14_ls061x.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099343/905316084_17968299543206461_1915633804332329229_n_ovjvtm.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099340/dafebhir-trek-view7_wb5xne.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099330/dafebhir-trek-view6_fcucch.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099325/dafebhir-trek-view5_tkkmr5.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099324/dafebhir-trek-view4_quf3qm.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099316/dafebhir-trek-view12_kzogfu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099313/904130861_17968299714206461_844031175655565931_n_bahvqu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099310/dafebhir-trek-view3_kreow7.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099305/dafebhir-trek-view1_h5yil2.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099299/dafeybhir-trek-hero3_mq1oiu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099297/910061505_28791259340554118_2005787442383017454_n_n3l43q.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099286/905659809_17968299504206461_6513396344192814118_n_coybbs.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099249/dafeybhir-trek-hero2_zac5bt.webp",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099255/dafeybhir-trek-hero1_xbbvif.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099251/606834005_122153153258942268_8259777647976620377_n_n4pbwu.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099244/dafebhir-trek-view8_vnx1vy.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099240/dafebhir-trek-view11_eeojeo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099238/dafebhir-trek-view19_pvp62o.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099236/dafebhir-trek-view10_slfheo.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099228/dafebhir-trek-view9_xw7cxj.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099219/dafebhir-trek-view13_kjyagv.jpg",
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795099217/dafebhir-trek-view17_n9atad.jpg"
+  ],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+        {
+    question: "Where is the Dafeybhir La Trek located?",
+    answer:
+      "The Dafeybhir La Trek is located in West Sikkim, along a remote section of the Singalila Ridge near the India–Nepal border. The trek usually begins from Uttarey and follows forest trails towards Chewabhanjyang before entering the high-altitude ridgelines and alpine landscapes around Dafeybhir La."
+  },
+  {
+    question: "How difficult is the Dafeybhir La Trek?",
+    answer:
+      "Dafeybhir La is a difficult, high-altitude trek best suited to experienced trekkers with good physical fitness. The route involves sustained ascents, long walking days, steep descents, rocky and uneven terrain, exposed ridgelines and cold, windy campsites. The high-altitude sections above 4,000 m demand good acclimatisation and the ability to manage several consecutive days of strenuous walking."
+  },
+  {
+    question: "What is the maximum altitude reached on the Dafeybhir La Trek?",
+    answer:
+      "The highest point of the itinerary is Dafeybhir La, at approximately 15,015 ft (4,576 m), based on the elevation used in this itinerary. The trek also includes several nights at high altitude, including the campsite near Lampokhri, so acclimatisation and a steady walking pace are important."
+  },
+  {
+    question: "How many days does the Dafeybhir La Trek take?",
+    answer:
+      "The itinerary takes 10 days, including the drive from NJP or Bagdogra to Uttarey, the trekking section and the return journey. The actual trekking days take you through the forests and ridgelines of the Singalila range, with a dedicated day to explore Dafeybhir La and the surrounding alpine lakes."
+  },
+  {
+    question: "What is the best time to do the Dafeybhir La Trek?",
+    answer:
+      "The main trekking seasons are spring (March to May) and autumn (September to November). Spring brings flowering rhododendrons and fresh vegetation in the lower forests, while autumn generally offers crisp mountain air and clearer views. Snow, rain and trail conditions can vary, particularly at higher elevations, so the final trekking window should be confirmed with the local team."
+  },
+  {
+    question: "Why is the Dafeybhir La Trek also called the Sikkim Alpine Lakes Trail?",
+    answer:
+      "The upper sections of the route are surrounded by an unusual concentration of high-altitude lakes. Once you climb above approximately 4,000 m, you encounter several lakes, including Lampokhri, Nepal Jumley Pokhri and Sikkim Jumley Pokhri, also known as Ram and Laxman Pokhri. Other lakes, such as Laxmi Pokhri and Tembong Pokhri, require additional detours. This collection of alpine lakes is one of the defining features of the trek."
+  },
+  {
+    question: "Is Dafeybhir La part of the Singalila Ridge?",
+    answer:
+      "Yes. The route follows a remote, northerly section of the Singalila Ridge, the mountain range that forms much of the boundary between Sikkim and Nepal. It is geographically connected to the better-known Sandakphu–Phalut trail, although the Dafeybhir route explores a different and more remote section of the ridge."
+  },
+  {
+    question: "How does the Dafeybhir La Trek compare with Sandakphu and Goechala?",
+    answer:
+      "All three treks offer remarkable Himalayan scenery, but the experience is quite different. Sandakphu–Phalut is known for its expansive mountain panoramas and comparatively accessible ridge trail. Goechala takes trekkers closer to the Khangchendzonga massif through the high valleys of the Yuksom–Dzongri region. Dafeybhir combines the open ridgeline experience with a remarkable chain of alpine lakes, remote campsites and views of the Himalayan peaks from a different northerly perspective. It is a more demanding and less-travelled route."
+  },
+  {
+    question: "Can the Dafeybhir La Trek be extended to Dzongri and Goechala?",
+    answer:
+      "Yes, a longer expedition can connect the Singalila highlands around Dafeybhir with the Dzongri region and the established Khangchendzonga Base Camp trail. This is not part of the standard 10-day itinerary and requires additional trekking days, route planning, permits, camping arrangements and logistical support. The exact connection should be planned with an experienced local team."
+  },
+  {
+    question: "Do we need prior high-altitude trekking experience?",
+    answer:
+      "Yes. Prior experience on multi-day Himalayan treks is strongly recommended. Trekkers should be comfortable walking for several hours on consecutive days, handling steep ascents and descents, and camping in cold conditions. This is not an ideal first Himalayan trek, even for someone who is generally fit."
+  },
+  {
+    question: "Are there reliable water sources along the Dafeybhir La route?",
+    answer:
+      "Water availability varies considerably along the route. There are streams and natural water sources in some forest sections, but the exposed ridgelines and higher campsites have limited or seasonal supplies. Chewabhanjyang is an important refill point before the more exposed section towards Gairi. At places such as Pahadimegu, nearby sources may dry up depending on the season. Your trek team will guide you on refilling points, and all natural water should be treated before drinking."
+  },
+  {
+    question: "What kind of accommodation is available during the trek?",
+    answer:
+      "The trekking days are primarily spent camping in tents at remote mountain campsites. Some sections have basic huts or shepherd shelters nearby, but these should not be considered regular accommodation. At the beginning and end of the trek, accommodation is generally arranged in local guesthouses or homestays, depending on the itinerary."
+  },
+  {
+    question: "Is mobile network available during the Dafeybhir La Trek?",
+    answer:
+      "Mobile connectivity is limited and unreliable along much of the trekking route. You may get a signal around some villages or lower sections, but the high ridgelines and remote campsites generally have little or no dependable network. It is best to inform family and friends in advance that you may remain unreachable for several days."
+  },
+  {
+    question: "What permits are required for the Dafeybhir La Trek?",
+    answer:
+      "The route passes through sensitive border and forest regions of Sikkim, so applicable permits and local clearances may be required. Requirements can vary depending on the route, current regulations and the areas being visited. Planethimalayas will guide participants regarding the documents and permissions required for the planned itinerary before departure."
+  },
+  {
+    question: "Is the Dafeybhir La Trek suitable for beginners or children?",
+    answer:
+      "No. Due to its altitude, remote campsites, long trekking days and demanding terrain, this trek is not recommended for beginners or young children. It is better suited to fit adults who have previous experience on challenging multi-day treks."
+  },
+  {
+    question: "What happens if the weather becomes unsuitable on the Dafeybhir La summit day?",
+    answer:
+      "The ascent to Dafeybhir La and the exploration of nearby lakes depend on weather, snow conditions, visibility and the group's physical condition. If conditions become unsafe, the trek leader may modify the route, shorten the lake circuit or call off the summit attempt. Reaching the pass or visiting every lake cannot be guaranteed, as safety takes priority over completing the planned route."
+  },
+  {
+    question: "How do I reach the starting point at Uttarey?",
+    answer:
+      "The nearest major railway station is New Jalpaiguri (NJP), while Bagdogra is the most practical airport. From either point, Uttarey can be reached by road through the hills of West Sikkim. Private vehicles can be arranged directly, while shared transport may require changes at intermediate towns such as Jorethang or Geyzing. We recommend reaching Uttarey at least a day before the trek begins."
+  },
+  {
+    question: "Where does the Dafeybhir La Trek end?",
+    answer:
+      "The standard itinerary descends through Naya Pataal and finishes at Senkhola. From there, trekkers who have opted for the arranged return transfer continue towards NJP or Bagdogra via Geyzing or Pelling. Those with independent travel plans can make their own onward arrangements from Geyzing or Pelling."
+  }
+    ]
+  },
 
   faqsLink: "/faqs-and-articles",
 },
@@ -12208,7 +12652,7 @@ confirmedDepartures: [
     ],
     snippet: `The Sandakphu–Phalut Trek is a journey along one of the most iconic ridgelines in the Himalayas — a trail that rises and falls along the Indo–Nepal border, revealing the world’s greatest mountains in one sweeping frame. From the very first day, the landscape feels different: moss-covered oak forests humming with birdlife, mist drifting through ancient rhododendron trees, and long undulating paths that open suddenly into wide, wind-carved meadows.
 
-<br>As you climb higher into the Singalila Ridge, the horizon sharpens into a jaw-dropping panorama — Everest, Lhotse, Makalu, and Kanchenjunga standing together like a silent wall of giants. At dawn, these peaks ignite in soft pink light, while at dusk the entire ridge glows in deep gold and crimson. The Sleeping Buddha — the legendary silhouette formed by Kanchenjunga and its neighbouring peaks — appears so close at sunrise that it feels alive, breathing with the rhythm of the mountains.
+<br>As you climb higher into the Singalila Ridge, the horizon sharpens into a jaw-dropping panorama — Everest, Lhotse, Makalu, and Khangchendzonga standing together like a silent wall of giants. At dawn, these peaks ignite in soft pink light, while at dusk the entire ridge glows in deep gold and crimson. The Sleeping Buddha — the legendary silhouette formed by Khangchendzonga and its neighbouring peaks — appears so close at sunrise that it feels alive, breathing with the rhythm of the mountains.
 
 <br>The route winds through the heart of Singalila National Park, a sanctuary of rare Himalayan biodiversity. Here, dense forests hide red pandas, black bears, yellow-throated martens, and an astonishing variety of high-altitude birds. Spring transforms the trail into a natural festival of blooming rhododendrons and magnolias, while autumn offers crystal-clear skies and crisp mountain winds.
 
@@ -12283,12 +12727,12 @@ confirmedDepartures: [
     {
       day: 4,
       title: "Kalipokhri to Sandakphu (11,930 ft)",
-      details: "• Trek Distance: ~6 km | Duration: ~3–4 hrs.<br>• A short but steep climb today as you gain nearly 1,500 ft.<br>• The trail passes Bikheybhanjang ('Valley of Poison'), named after a local poisonous herb.<br>• Final ascent to Sandakphu is steep but rewarding – the entire panorama of the world’s highest peaks opens up.<br>• On a clear day, see Kanchenjunga (8,586 m), Everest, Lhotse, Makalu, and many more.<br>• Sunrise and sunset from Sandakphu top is one of the most unforgettable sights in the Himalayas.<br>• Stay in a tea house; expect cold winds and sub-zero nights in winter."
+      details: "• Trek Distance: ~6 km | Duration: ~3–4 hrs.<br>• A short but steep climb today as you gain nearly 1,500 ft.<br>• The trail passes Bikheybhanjang ('Valley of Poison'), named after a local poisonous herb.<br>• Final ascent to Sandakphu is steep but rewarding – the entire panorama of the world’s highest peaks opens up.<br>• On a clear day, see Khangchendzonga (8,586 m), Everest, Lhotse, Makalu, and many more.<br>• Sunrise and sunset from Sandakphu top is one of the most unforgettable sights in the Himalayas.<br>• Stay in a tea house; expect cold winds and sub-zero nights in winter."
     },
     {
       day: 5,
       title: "Sandakphu to Phalut (11,811 ft)",
-      details: "• Trek Distance: ~21 km | Duration: ~7–8 hrs.<br>• A long ridge walk through rolling alpine meadows, rhododendron bushes, and dwarf bamboo.<br>• The route is mostly level with gentle ups and downs offering unending views of the snow range.<br>• Phalut is the highest point of the trek route and the best spot for a 360° view of the entire Everest–Kanchenjunga range.<br>• Overnight stay in a forest hut or trekkers’ hut at Phalut."
+      details: "• Trek Distance: ~21 km | Duration: ~7–8 hrs.<br>• A long ridge walk through rolling alpine meadows, rhododendron bushes, and dwarf bamboo.<br>• The route is mostly level with gentle ups and downs offering unending views of the snow range.<br>• Phalut is the highest point of the trek route and the best spot for a 360° view of the entire Everest–Kangchendzonga range.<br>• Overnight stay in a forest hut or trekkers’ hut at Phalut."
     },
     {
       day: 6,
@@ -12303,7 +12747,7 @@ confirmedDepartures: [
   ],
 
   didYouKnow: [
-    "The “Sleeping Buddha” formation isn’t just poetic — it’s a precise alignment of Himalayan peaks. When viewed from Sandakphu or Phalut, Kanchenjunga forms the torso, Kumbhakarna the face, and Pandim the feet, resembling a sleeping figure of Lord Buddha. This alignment is visible only from this part of the Eastern Himalayas.",
+    "The “Sleeping Buddha” formation isn’t just poetic — it’s a precise alignment of Himalayan peaks. When viewed from Sandakphu or Phalut, Khangchendzonga forms the torso, Kumbhakarna the face, and Pandim the feet, resembling a sleeping figure of Lord Buddha. This alignment is visible only from this part of the Eastern Himalayas.",
     "Sandakphu literally means “Height of the Poison Plant” — named after the Aconite flower, a rare Himalayan plant that grows abundantly here and is highly toxic if consumed.",
     "Singalila National Park, through which the trek passes, is one of the few regions in India where you can spot the endangered Red Panda in the wild. Bird enthusiasts can also find over 150 Himalayan species, including blood pheasants and satyr tragopans.",
     "The trail lies along the Indo–Nepal border, and at many points trekkers unknowingly walk in and out of both countries. Tea houses on one side of the ridge belong to India, while those on the other belong to Nepal — no checkpoints, just open friendship across borders.",
