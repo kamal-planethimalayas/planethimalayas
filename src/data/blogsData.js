@@ -11746,7 +11746,7 @@ box-shadow:0 6px 18px rgba(0,0,0,.15);
     treks: ["deoriatal-chandrashila"],
     tags: ["beginner"],
     regions: [],
-    seasons: ["spring", "winter", "autumn"],
+    seasons: [],
     difficulty: [],
     months: [],
     global: false
