@@ -547,10 +547,31 @@ const relatedArticles = blogs
     ========================= */}
     <div class="price-box">
 
-      <p class="price-starting-from">
-        Price starting from
-        <span class="price-info-icon" id="price-info">?</span>
+{trek.departureMode === "on-request" && (
+  <div class="on-request-notice">
+    <strong>No Regular Fixed Departures</strong>
+    <p>
+      This trek is organised on request rather than through scheduled
+      group departures. You can plan it as a solo journey, a couple's
+      getaway, a family trek or a private group experience.
+    </p>
+
+    {groupedDates && Object.entries(groupedDates).length > 0 && (
+      <p class="open-group-note">
+        An open group departure is currently available below.
+        You can enquire to join this batch.
       </p>
+    )}
+  </div>
+)}
+
+<p class="price-starting-from">
+  {trek.departureMode === "on-request"
+    ? "Starting price per person"
+    : "Price starting from"}
+
+  <span class="price-info-icon" id="price-info">?</span>
+</p>
 
       <div class="price-inline">
         <span class="price">
@@ -561,6 +582,11 @@ const relatedArticles = blogs
           <span class="price-note">{trek.priceNote}</span>
         )}
       </div>
+
+<p class="price-group-note">
+  Indicative price based on a group of 5 trekkers.
+  Final pricing varies with group size and customisation.
+</p>
 
       <p class="price-meta">
         *Price inclusive of all applicable taxes (GST included).
@@ -690,24 +716,29 @@ const relatedArticles = blogs
           ))}
         </div>
       )}
-      {/* ⚪ CUSTOM GROUP */}
-          <div class="custom-group-box">
+          
+{/* CUSTOM / PRIVATE TREK ENQUIRY */}
+<div class="custom-group-box">
 
-            <h4>**Looking for a date that works for you?**</h4>
+  <h4>Make This Trek Your Own</h4>
 
-            <p>
-              We can arrange a custom departure if 3+ trekkers align.
-            </p>
+  <p>
+    Prefer to travel on your own dates or at your own pace?
+    We love to customise trek around your plans — whether
+    you're travelling solo, as a couple, with family or
+    with your own group.
+  </p>
 
-            <button
-              type="button"
-              class="custom-group-btn enquire-now-btn"
-              data-trek={trek.name}
-              >
-              Request Custom Group
-            </button>
+  <button
+    type="button"
+    class="custom-group-btn enquire-now-btn"
+    data-trek={trek.name}
+  >
+    Plan a Custom Trek
+  </button>
 
-          </div>
+</div>
+
     </div>
 
     {/* =========================
@@ -999,6 +1030,55 @@ const relatedArticles = blogs
  
 <style>
 
+
+/* ON-REQUEST TREK NOTICE */
+.on-request-notice {
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 115, 0, 0.35);
+  border-radius: 8px;
+  background: rgba(255, 115, 0, 0.045);
+}
+
+.on-request-notice strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #ff7300;
+  font-size: 20px;
+}
+
+.on-request-notice p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.on-request-notice .open-group-note {
+  margin-top: 9px;
+  font-weight: 600;
+}
+
+.price-group-note {
+  margin: 7px 0 15px;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* CUSTOM TREK ENQUIRY */
+.custom-group-box {
+  margin-top: 22px;
+}
+
+.custom-group-box h4 {
+  margin-bottom: 9px;
+}
+
+.custom-group-box p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 .active-departure-card {
   background: rgba(255,115,0,0.05);
   border: 2px solid #ff7300;
@@ -1071,11 +1151,11 @@ const relatedArticles = blogs
 .custom-group-box h4 {
   color: #ff7300;
   margin: 0 0 6px 0;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
 }
 
 .custom-group-box p {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #ccc;
   margin-bottom: 10px;
 }
@@ -1160,29 +1240,37 @@ const relatedArticles = blogs
   }
 }
 
-/* Collapsible headers */
+
+/* ================================
+   COLLAPSIBLE MONTH HEADERS
+================================ */
+
 .collapsible-header {
-  font-size: 0.5rem;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: 600;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 6px;
-  margin: 2px 0;
-  opacity: 0.85;
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+
+  padding: 9px 12px;
+  margin: 5px 0;
+
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
   color: #ff7300;
-  border-radius: 6px;
-  border: 2px solid #ff7300;
-  box-shadow:
-    inset 0 1px 2px rgba(255,255,255,0.25),
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 115, 0, 0.65);
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.18);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .collapsible-header.active-departure-month {
@@ -1192,60 +1280,60 @@ backdrop-filter: blur(15px);
 
 .collapsible-header::after {
   content: "▼";
-  font-size: 0.5rem;
-  transition: transform 0.3s;
+  font-size: 0.65rem;
+  margin-left: 10px;
+  transition: transform 0.25s ease;
 }
 
 .collapsible-header:hover {
-  background: #ff7300;
-  color: black;
-  transform: scale(1.05);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.45),
-    0 14px 35px rgba(0, 0, 0, 0.45),
-    0 0 30px rgba(255, 115, 0, 1),
-    0 0 60px rgba(255, 115, 0, 0.75);
+  background: rgba(255, 115, 0, 0.12);
+  border-color: #ff7300;
+  box-shadow: 0 3px 10px rgba(255, 115, 0, 0.12);
 }
 
 .collapsible-header.active {
-  background: rgba(0, 0, 0, 0.75); /* dark elevated base */
+  background: rgba(0, 0, 0, 0.8);
   color: #ff7300;
-  border: 2px solid #ff7300;
-  box-shadow:
-    inset 0 2px 4px rgba(255, 255, 255, 0.2),
-    0 6px 18px rgba(255, 115, 0, 0.6),
-    0 0 15px rgba(255, 115, 0, 0.5);
-  transform: translateY(-1px);
-  transition: all 0.3s ease;
+  border-color: #ff7300;
+  box-shadow: 0 2px 9px rgba(255, 115, 0, 0.16);
 }
-
 
 .collapsible-header.active::after {
   transform: rotate(180deg);
 }
 
+
+/* ================================
+   COLLAPSIBLE CONTENT
+================================ */
+
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease;
+  transition: max-height 0.35s ease;
 }
 
 .collapsible-content.open {
   max-height: 500px;
 }
 
+
+/* ================================
+   DATE LIST
+================================ */
+
 .datesContainer {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 9px;
   max-width: 100%;
-  padding: 8px 0;
+  padding: 10px 0;
 }
 
 .date-slot-wrapper {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
 .date-link {
@@ -1253,76 +1341,117 @@ backdrop-filter: blur(15px);
 }
 
 .date-box {
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 
   color: #ff7300;
+
   width: 120px;
-  height: 25px;
+  min-height: 34px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   border-radius: 6px;
-  border: 1px solid #ff7300;
+  border: 1px solid rgba(255, 115, 0, 0.65);
+
   font-size: 0.85rem;
+  font-weight: 500;
+
   cursor: pointer;
-  box-shadow:
-    inset 0 0.5px 1px rgba(255, 255, 255, 0.25),
-    0 2px 6px rgba(255, 115, 0, 0.45),
-    0 0 5px rgba(255, 115, 0, 0.3);
-  transition: transform 0.25s ease-in-out, 
-              box-shadow 0.25s ease-in-out, 
-              background 0.25s ease-in-out;
   margin-left: 2rem;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .date-box:hover {
-  background-color: #ff7300;
-  color: #000;
-  border-radius: 6px;
-  box-shadow:
-    inset 0 0.5px 0.5px rgba(255, 255, 255, 0.45),
-    0 7px 17px rgba(0, 0, 0, 0.45),
-    0 0 15px rgba(255, 115, 0, 1),
-    0 0 30px rgba(255, 115, 0, 0.75);
+  background: #ff7300;
+  color: #111;
+  border-color: #ff7300;
+  box-shadow: 0 3px 10px rgba(255, 115, 0, 0.2);
 }
+
+
+/* ================================
+   ENQUIRY BUTTON
+================================ */
 
 .enquire-now-wrapper {
   margin-top: 1rem;
   text-align: center;
 }
+
 .enquire-now-btn {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.75);
-backdrop-filter: blur(15px);
--webkit-backdrop-filter: blur(15px);
+
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 
   color: #ff7300;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  border: 2px solid #ff7300;
-  font-weight: bold;
+
+  padding: 0.7rem 1.4rem;
+
+  border-radius: 7px;
+  border: 1px solid #ff7300;
+
+  font-weight: 600;
+  font-size: 0.95rem;
+
   text-decoration: none;
   cursor: pointer;
-  /* subtle elevated shadow */
-  box-shadow:
-    inset 0 1px 2px rgba(255,255,255,0.25),
-    0 4px 12px rgba(255, 115, 0, 0.45),
-    0 0 10px rgba(255, 115, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.18);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .enquire-now-btn:hover {
-  background-color: #ff7300;
-  color: black;
-  transform: scale(1.05);
-  box-shadow:
-    inset 0 0.5px 0.5px rgba(255, 255, 255, 0.45),
-    0 7px 17px rgba(0, 0, 0, 0.45),
-    0 0 15px rgba(255, 115, 0, 1),
-    0 0 30px rgba(255, 115, 0, 0.75);
+  background: #ff7300;
+  color: #111;
+  border-color: #ff7300;
+  box-shadow: 0 3px 12px rgba(255, 115, 0, 0.2);
 }
+
+
+/* ================================
+   KEYBOARD ACCESSIBILITY
+================================ */
+
+.collapsible-header:focus-visible,
+.date-box:focus-visible,
+.enquire-now-btn:focus-visible {
+  outline: 2px solid #ff7300;
+  outline-offset: 3px;
+}
+
+
+/* ================================
+   REDUCED MOTION
+================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .collapsible-header,
+  .collapsible-header::after,
+  .collapsible-content,
+  .date-box,
+  .enquire-now-btn {
+    transition: none;
+  }
+}
+
 
 /* Modal overlay */
 .modal {
