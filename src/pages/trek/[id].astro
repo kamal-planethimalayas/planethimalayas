@@ -583,10 +583,12 @@ const relatedArticles = blogs
         )}
       </div>
 
-<p class="price-group-note">
-  Indicative price based on a group of 5 trekkers.
-  Final pricing varies with group size and customisation.
-</p>
+{trek.departureMode === "on-request" && (
+  <p class="price-group-note">
+    Indicative price based on a group of 5 trekkers.
+    Final pricing varies with group size and customisation.
+  </p>
+)}
 
       <p class="price-meta">
         *Price inclusive of all applicable taxes (GST included).
