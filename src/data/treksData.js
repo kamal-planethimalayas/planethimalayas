@@ -12283,6 +12283,306 @@ The Dzongri Trek is one of the most rewarding journeys into the Eastern Himalaya
 },
 
 {
+  id: "singalila-phoktey-dara-trek",
+  name: "Singalila Phoktey Dara Trek",
+
+  tags: [
+    "beginner",
+    "ridge",
+    "wildlife-sanctuary",
+  ],
+
+  difficulty: ["Easy", "Moderate"],
+  season: ["Spring", "Autumn", "Winter"],
+  month: [
+    "March",
+    "April",
+    "May",
+    "October",
+    "November",
+    "December",
+    "January",
+"February",
+  ],
+  duration: "6N/7D",
+  region: "Sikkim",
+
+  coordinates: [
+    [27.18619691442386, 88.12246091524077],//Hilley – Trek Start
+    [27.195106089007897, 88.11842167306588],  //Barsey Rhododendron Sanctuary
+    [27.23318728680781, 88.09730881542292],  //Deolingali Dhaap
+    [27.248669884235994, 88.05344017091339],  //Thulo Dhaap
+    [27.24971889449715, 88.03521680259966],  //Kalijhar
+    [27.251191535369884, 88.03043012132669],  //Phoktey Dara Top
+    [27.238033545100937, 88.02447478816768],  //Singalila Pass
+    [27.248669884235994, 88.05344017091339],  //Thulo Dhaap
+    [27.24699792256733, 88.07311983613269],  //Achaley
+    [27.26109831793293, 88.0952312214635],  //Uttarey – Trek End
+  ],
+
+waypoints: [
+  {
+    name: "Hilley (Trek Start)",
+    coords: [27.18619691442386, 88.12246091524077], 
+    type: "start"
+  },
+  {
+    name: "Barsey",
+    coords: [27.195106089007897, 88.11842167306588],
+    type: "campsite"
+  },
+  {
+    name: "Deolingali Dhaap",
+    coords: [27.23318728680781, 88.09730881542292],
+    type: "landmark"
+  },
+  {
+    name: "Thulo Dhaap",
+    coords: [27.248669884235994, 88.05344017091339],
+    type: "campsite"
+  },
+  {
+    name: "Kalijhar",
+    coords: [27.24971889449715, 88.03521680259966],
+    type: "campsite"
+  },
+  {
+    name: "Phoktey Dara Top",
+    coords: [27.251191535369884, 88.03043012132669],
+    type: "viewpoint"
+  },
+  {
+    name: "Singalila Pass",
+    coords: [27.238033545100937, 88.02447478816768],
+    type: "viewpoint"
+  },
+  {
+    name: "Achaley",
+    coords: [27.24699792256733, 88.07311983613269],
+    type: "landmark"
+  },
+  {
+    name: "Uttarey (Trek End)",
+    coords: [27.26109831793293, 88.0952312214635],
+    type: "end"
+  },
+],
+
+heroImage:
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795703239/singalila2_wrcrrb.jpg",
+
+  heroImages: [
+    "https://res.cloudinary.com/dr44hob9b/image/upload/v1795703239/singalila2_wrcrrb.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703243/singalila1_chgznx.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703239/singalila_tzv7yx.jpg",
+],
+
+  subtitle: "Through the Rhododendron Forests of Varsey to the Legendary Singalila Pass",
+
+  seo: {
+    title:
+      "Singalila Phoktey Dara Trek – Barsey Sanctuary & Himalayan Views | Planethimalayas",
+    description:
+      "Explore the forests of Barsey Rhododendron Sanctuary on a 7-day Singalila Phoktey Dara trek. Camp in remote forest clearings and enjoy panoramic views of Kangchendzonga, Everest, Lhotse and Makalu.",
+    keywords: [
+      "Singalila Phoktey Dara Trek",
+      "Phoktey Dara Trek Sikkim",
+      "Singalila Pass Trek",
+      "Barsey Rhododendron Sanctuary Trek",
+      "Phoktey Dara viewpoint",
+      "Sikkim forest trek",
+      "Everest view trek Sikkim"
+    ]
+  },
+
+  overview: {
+facts: [
+      { emoji: "⏳", label: "Trek Duration", value: "6 Nights / 7 Days" },
+      { emoji: "⚡", label: "Trek Grade", value: "Easy to Moderate" },
+      { emoji: "🏔️", label: "Max Altitude", value: "≈3710 m (Singalila Pass)" },
+      { emoji: "⚡", label: "Trek Distance", value: "≈52 km" },
+      { emoji: "🌤️", label: "Best Time", value: "Spring, Autumn, & Winter" },
+      { emoji: "🗺️", label: "Region", value: "Sikkim" },
+      { emoji: "📍", label: "Start / End", value: "Hilley / Uttarey" },
+      { emoji: "🧥", label: "Cloakroom Facility", value: "Not Available" },
+    ],
+
+    snippet: `
+      <p>The Singalila Phoktey Dara Trek takes you into one of the quieter forest landscapes of West Sikkim, following a trail through <strong>Barsey Rhododendron Sanctuary</strong> before climbing towards the high ridges of Phoktey Dara and Singalila Pass. This is not a trek where the mountains are constantly in view. Much of the journey unfolds beneath a dense forest canopy, along damp trails lined with moss, ferns, lichens, oak, magnolia and rhododendron. The experience is as much about being immersed in this living forest as it is about reaching the high points.</p>
+
+      <p>The route moves through Barsey, Deolingali Dhaap, Joributey and Kalijhar, with nights spent at quiet campsites surrounded by forest and open clearings. In spring, rhododendrons and magnolias bring colour to the trail, while birdsong and the rich ground flora make this a rewarding journey for nature lovers. The sanctuary is also home to wildlife including the red panda, barking deer and Himalayan black bear, although sightings are never guaranteed.</p>
+
+      <p>The character of the landscape changes as the trail gains height. From <strong>Phoktey Dara</strong> and <strong>Singalila Pass</strong>, the forest gives way to open mountain panoramas. On a clear morning, the Himalayan horizon can include Everest, Lhotse and Makalu in Nepal, along with the immense Kangchendzonga massif and its neighbouring peaks. The Sleeping Buddha formation is particularly striking from this part of the Singalila Ridge.</p>
+
+      <p>At around 50 km over six trekking days, this is a relatively gentle high-altitude route, but it is not simply a short viewpoint walk. It offers several days of forest trekking, remote camping and a rewarding high-ridge experience. For those who enjoy nature, quiet trails and expansive Himalayan views, Phoktey Dara is a distinctive way to explore the forests and mountains of West Sikkim.</p>
+    `
+  },
+
+  departureMode: "on-request",
+  price: 19400,
+  priceNote: "*NJP to NJP",
+
+  addons: {
+      offloadingbag: 4900,
+      offloadingNote: "* Maximum weight 9kg / bag"
+  },
+
+  inclusionsNote:
+    "🍽️ All Meals – Nutritious meals provided from dinner on Day 1 to dinner on Day 6",
+
+  highlights: [
+ 
+        "Walk through a rich forest landscape of oak, magnolia, rhododendron, ferns, mosses and lichens in one of West Sikkim's important biodiversity areas.",
+        "Spend nights at Barsey, Joributey, Kalijhar and Thulo Dhaap, with the experience of camping in remote forest clearings.",
+        "Reach the viewpoint early for a wide Himalayan panorama as the first light reaches the high peaks.",
+        "Visit the high ridge at approximately 3,700 metres, with sweeping views towards the Kangchendzonga range and the Nepal Himalayas.",
+        "The sanctuary supports varied birdlife, butterflies and wildlife habitat, making the trail especially rewarding for nature enthusiasts and photographers.",
+        "Rather than spending every day above the treeline, this journey gives you time to experience the forests and quieter landscapes of the Eastern Himalayas.",
+  ],
+
+  
+itinerary: [
+  {
+    day: 1,
+    title: "Drive from NJP to Hilley",
+    details:
+      "<strong>• Drive distance: Approximately 140 km.</strong><br><strong>• Drive duration: Approximately 7–8 hours.</strong><br><br>Begin your journey from New Jalpaiguri (NJP), Bagdogra Airport or Siliguri, with a morning pickup around 10 AM. Drive towards Hilley in West Sikkim, passing through the foothills and winding mountain roads via Jorethang.<br><br>As the road climbs into the mountains, the landscape gradually changes from the busy settlements of the plains to quieter villages, forested slopes and distant Himalayan views. Reach Hilley, the gateway to Barsey Rhododendron Sanctuary, and settle into your guesthouse. Spend the evening resting and preparing for the trek ahead.",
+  },
+
+  {
+    day: 2,
+    title: "Trek from Hilley to Barsey",
+    details:
+      "<strong>• Trek distance: Approximately 4.5 km.</strong><br><strong>• Trek duration: Approximately 2–3 hours.</strong><br>After breakfast, begin the trek from Hilley towards Barsey. The trail follows a gradual ascent through the forest, entering the beautiful landscape of Barsey Rhododendron Sanctuary.<br><br>The walk is relatively short, giving you time to appreciate the forest surroundings. Oak, magnolia and rhododendron trees form much of the canopy, while mosses, ferns and lichens add to the rich character of the trail. During the flowering season, the forest takes on a particularly colourful appearance.<br><br>Reach Barsey and settle into camp. Spend the remaining time exploring the surroundings and enjoying your first evening in the sanctuary.",
+  },
+
+  {
+    day: 3,
+    title: "Trek from Barsey to Joributey via Deolingali Dhaap",
+    details:
+      "<strong>• Trek distance: Approximately 12 km.</strong><br><strong>• Trek duration: Approximately 6 hours.</strong><br>Leave Barsey after breakfast and continue deeper into the sanctuary. Today's trail takes you through long stretches of forest, where the changing vegetation, moss-covered trees and occasional clearings make the walk particularly rewarding.<br><br>En route, pass Deolingali Dhaap, a marshy forest clearing that forms a distinctive feature of this section. Continue through the woodland towards Joributey, following a mostly gradual trail.<br><br>Reach Joributey and set up camp for the night. With the forest surrounding the campsite, this is an opportunity to experience the quieter side of the Singalila landscape, away from the more frequently travelled trekking routes.",
+  },
+
+  {
+    day: 4,
+    title: "Trek from Joributey to Kalijhar via Thulo Dhaap",
+    details:
+      "<strong>• Trek distance: Approximately 12 km.</strong><br><strong>• Trek duration: Approximately 6 hours.</strong><br>After breakfast, leave Joributey and continue towards Thulo Dhaap. The trail winds through the forest, passing clearings and gradually gaining altitude as you move towards the higher reaches of the sanctuary.<br><br>From Thulo Dhaap, continue the climb towards Kalijhar. The ascent becomes more noticeable as the trail gains height, and the surrounding forest gradually takes on a different character.<br><br>Reach Kalijhar and settle into camp. You are now closer to the high ridges of Singalila, with the following day bringing the trek's major highlight: an early morning visit to Phoktey Dara.",
+  },
+
+  {
+    day: 5,
+    title: "Phoktey Dara Sunrise and Singalila Pass – Trek to Thulo Dhaap",
+    details:
+      "<strong>• Trek distance: Approximately 10 km.</strong><br><strong>• Trek duration: Approximately 6–7 hours.</strong><br><strong>• Highest point: Approximately 3,700 m / 12,140 ft.</strong><br>Start early in the morning and make your way towards Phoktey Dara Top. Reach the viewpoint around sunrise, when the first light begins to illuminate the Himalayan skyline. On a clear day, the panorama can include the mighty Kangchendzonga massif, along with Everest, Lhotse and Makalu on the Nepal horizon. Watching the changing colours of the mountains from this high ridge is one of the most memorable moments of the trek.<br><br>After spending time at Phoktey Dara, continue towards Singalila Pass, another remarkable vantage point along the ridge. Take in the expansive mountain landscape before beginning the return journey.<br><br>Retrace the trail towards Kalijhar and continue descending to Thulo Dhaap, where camp will be set up for the night. After a long and rewarding day on the ridge, settle in and enjoy the quiet of the high forest landscape.",
+  },
+
+  {
+    day: 6,
+    title: "Trek from Thulo Dhaap to Uttarey via Achaley",
+    details:
+      "<strong>• Trek distance: Approximately 12 km.</strong><br><strong>• Trek duration: Approximately 6–7 hours.</strong><br>After breakfast, begin the long descent from Thulo Dhaap towards Uttarey. The trail passes through Achaley and gradually takes you back into the lower forested slopes of West Sikkim.<br><br>As you lose altitude, the landscape changes once again. The high ridges and open clearings give way to denser vegetation and the familiar sights and sounds of the lower forests. Continue at a steady pace, taking care on the descending sections.<br><br>Reach Uttarey, marking the end of the trekking journey. Check into your lodge or guesthouse and enjoy a well-earned rest after completing the Singalila Phoktey Dara trail.",
+  },
+
+  {
+    day: 7,
+    title: "Drive from Uttarey to NJP",
+    details:
+      "<strong>• Drive distance: Approximately 170 km.</strong><br><strong>• Drive duration: Approximately 7–8 hours.</strong><br>After breakfast, begin the return drive from Uttarey towards New Jalpaiguri or Bagdogra. The route winds through the mountain settlements of West Sikkim before gradually descending towards the plains.<br><br>Arrive at NJP or Bagdogra by evening, bringing the Singalila Phoktey Dara Trek to an end. Please plan onward train or flight connections with sufficient buffer, as mountain road conditions and traffic can affect travel time.",
+  },
+],
+
+  howToReach: {
+  air:
+    "Bagdogra Airport is the nearest major airport. Travellers arriving by air can arrange a pickup from Bagdogra, subject to the transport arrangements for their departure.",
+
+  train:
+    "New Jalpaiguri (NJP) is the nearest major railway station and the designated pickup point for this trek. From NJP, the journey continues by road to Hilley, the starting point of the trek. Morning arrival is recommended.",
+
+  road:
+    "Hilley is reached by road through the hills of West Sikkim, generally via Sevoke, Melli, Jorethang, Sombaria and Uttarey. The drive from NJP takes approximately 7–8 hours, covering around 140 km, depending on road and traffic conditions.",
+
+  travelTip:
+    "Hilley is a remote mountain village, and the final stretch involves winding hill roads. Start the journey early and avoid planning a late arrival, particularly during the monsoon when travel can take longer."
+},
+
+  didYouKnow: [
+    "<b>Barsey is more than a rhododendron destination.</b><br>The sanctuary contains several forest types, from temperate broadleaf and mixed coniferous forests to sub-alpine birch-fir and alpine scrub. The changing vegetation is part of what makes this trail interesting throughout its length.",
+
+    "<b>Spring changes the character of the forest.</b><br>Rhododendrons and giant magnolias flower at different elevations as the season progresses. Early spring colour appears at lower levels, with flowering gradually moving higher into the sanctuary.",
+
+    "<b>Phoktey Dara offers a remarkable Himalayan horizon.</b><br>On clear days, the viewpoint can offer views of Everest, Lhotse and Makalu towards Nepal, alongside the Kangchendzonga massif.",
+
+    "<b>The sanctuary is an important wildlife habitat.</b><br>Barsey is home to species including the red panda, barking deer and Himalayan black bear. These animals inhabit the forest, but sightings are never guaranteed.",
+
+    "<b>Water availability can influence campsite selection.</b><br>Streams along this trail are seasonal, and water can be limited around higher camps such as Kalijhar. The actual camping location may need to be adjusted according to water availability and conditions."
+  ],
+
+  gallery: [
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703243/singalila1_chgznx.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703239/singalila2_wrcrrb.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703239/singalila_tzv7yx.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703236/singalila4_n21l5c.jpg",
+"https://res.cloudinary.com/dr44hob9b/image/upload/v1795703236/singalila3_jgo80g.jpg",
+],
+
+  downloadLink: "/docs/Packing_List.pdf",
+
+  faqs: {
+    questions: [
+      {
+        question: "How difficult is the Singalila Phoktey Dara Trek?",
+        answer:
+          "The trek is graded Easy in the supplied itinerary. It involves approximately 50.5 km of walking over six trekking days, with a highest point of around 3,700 metres. Although the route is not technically difficult, the long walking days and remote campsites require reasonable fitness and preparation."
+      },
+      {
+        question: "How many days does the Phoktey Dara Trek take?",
+        answer:
+          "The itinerary is 7 days and 6 nights, beginning with a drive from NJP or Bagdogra to Hilley and ending with the drive back from Uttarey."
+      },
+      {
+        question: "What is the highest altitude on this trek?",
+        answer:
+          "The highest points are Phoktey Dara Top and Singalila Pass, at approximately 3,700 metres or 12,150 feet."
+      },
+      {
+        question: "What is the best time to do the Singalila Phoktey Dara Trek?",
+        answer:
+          "The two main trekking windows are spring, from early March to mid-May, for rhododendron and magnolia blooms, and autumn to winter, from mid-October to January, for generally clearer mountain views. Weather can vary, and mountain visibility is never guaranteed."
+      },
+      {
+        question: "Can we see Mount Everest from Phoktey Dara?",
+        answer:
+          "Yes, Everest can be visible from Phoktey Dara on a clear day. Lhotse and Makalu may also be seen towards Nepal, along with the Kangchendzonga range. Visibility depends on weather and atmospheric conditions."
+      },
+      {
+        question: "Is this trek suitable for beginners?",
+        answer:
+          "The route is graded Easy, and its gradual introduction to forest trekking makes it an option for beginners with reasonable fitness. However, it is a multi-day camping trek reaching approximately 3,700 metres, so preparation and an understanding of basic trekking conditions are important."
+      },
+      {
+        question: "Are there regular fixed departures for this trek?",
+        answer:
+          "This trek is organised on request rather than through a regular fixed-departure calendar. You can enquire about arranging it around your preferred dates, whether travelling solo, as a couple, with family or with a private group."
+      },
+      {
+        question: "Are the road transfers included in the trek price?",
+        answer:
+          "The starting and ending transfers are between NJP or Bagdogra and two different trek points: Hilley and Uttarey. Confirm the transport arrangements and their inclusion in the final trek quotation before booking."
+      },
+      {
+        question: "Will we definitely see red pandas or other wildlife?",
+        answer:
+          "Barsey Rhododendron Sanctuary is an important habitat for red pandas, barking deer, Himalayan black bears and many bird species. However, wildlife sightings are unpredictable and should never be treated as a guaranteed part of the trek."
+      }
+    ]
+  },
+
+  faqsLink: "/faqs-and-articles",
+},
+
+
+{
   id: "bajre-dara-trek",
   name: "Bajre Dara Trek",
 
@@ -12448,15 +12748,18 @@ departureMode: "on-request",
   ],
 
   howToReach: {
-    byTrain:
-      "New Jalpaiguri (NJP) is the nearest major railway station and the designated pickup point for this itinerary. Plan to arrive in the morning so that the drive to Khecheopalri can begin without delay.",
+  air:
+    "Bagdogra Airport is the nearest major airport. Travellers arriving by air can arrange a pickup from Bagdogra, subject to the transport arrangements for their departure.",
 
-    byAir:
-      "Bagdogra Airport is the nearest major airport. Travellers arriving by air can coordinate a pickup from Bagdogra, subject to the departure's transport arrangements.",
+  train:
+    "New Jalpaiguri (NJP) is the nearest major railway station and the designated pickup point for this trek. From NJP, the journey continues by road to Hilley, the starting point of the trek. Morning arrival is recommended.",
 
-    byRoad:
-      "Khecheopalri is accessed by road through the West Sikkim region, generally via Sevoke, Melli, Jorethang, Legship, Geyzing and Pelling. The journey from NJP takes approximately 8–9 hours, depending on road and traffic conditions.",
-  },
+  road:
+    "Hilley is reached by road through the hills of West Sikkim, generally via Sevoke, Melli, Jorethang, Sombaria and Uttarey. The drive from NJP takes approximately 7–8 hours, covering around 140 km, depending on road and traffic conditions.",
+
+  travelTip:
+    "Hilley is a remote mountain village, and the final stretch involves winding hill roads. Start the journey early and avoid planning a late arrival, particularly during the monsoon when travel can take longer."
+},
 
   didYouKnow: [
     "<strong>Khecheopalri Lake is sacred to both Buddhists and Hindus.</strong><br>Set amid forested hills in West Sikkim, the lake is an important pilgrimage site. Its peaceful surroundings and spiritual significance make it a special starting point for this journey.",
