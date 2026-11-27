@@ -3848,8 +3848,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const row = document.getElementById("similarTreksRow");
   if (!row) return;
 
-  const leftBtn = document.querySelector(".scroll-btn.left");
-  const rightBtn = document.querySelector(".scroll-btn.right");
+  const wrapper = row.closest(".similar-treks-wrapper");
+
+const leftBtn = wrapper.querySelector(".scroll-btn.left");
+const rightBtn = wrapper.querySelector(".scroll-btn.right");
 
   const scrollAmount = 300;
 

@@ -11649,7 +11649,7 @@ waypoints: [
     season: ["spring", "summer", "autumn"],
     month: ["march", "april", "may", "september", "october", "november", "december"],
     duration: ["9 Nights / 10 Days"],
-    region: "sikkim",
+    region: "sikkim-darjeeling",
     coordinates: [
   [27.372351762941747, 88.22307482186301], // Yuksom (start)
   [27.391938676835757, 88.21980038085626], //Phakhola waterfall
@@ -11937,7 +11937,7 @@ departureMode: "fixed",
     "february", "march", "april", "may"
   ],
   duration: ["6 Nights / 7 Days"],
-  region: "sikkim",
+  region: "sikkim-darjeeling",
 
   coordinates: [
     [27.372351762941747, 88.22307482186301], // Yuksom
@@ -12305,7 +12305,7 @@ The Dzongri Trek is one of the most rewarding journeys into the Eastern Himalaya
 "February",
   ],
   duration: "6N/7D",
-  region: "Sikkim",
+  region: "sikkim-darjeeling",
 
   coordinates: [
     [27.18619691442386, 88.12246091524077],//Hilley – Trek Start
@@ -12606,7 +12606,7 @@ itinerary: [
     "May",
   ],
   duration: ["4N/5D"],
-  region: "Sikkim",
+  region: "sikkim-darjeeling",
 
   coordinates: [
   [27.34927550981153, 88.18830760751487], // Khecheopalri lake
@@ -12869,7 +12869,7 @@ departureMode: "on-request",
     "october", "november", "march", "april", "may"
   ],
   duration: ["9 Nights / 10 Days"],
-  region: "sikkim",
+  region: "sikkim-darjeeling",
 
   coordinates: [
     [27.269331, 88.091625], // Uttarey
@@ -13233,7 +13233,7 @@ didYouKnow: [
   difficulty: ["moderate"],
   season: ["winter", "spring", "autumn"],
   month: ["october", "november", "december", "january", "february", "march", "april", "may"],
-  region: ["west bengal"],
+  region: ["sikkim-darjeeling"],
   duration: "6 Nights / 7 Days",
   coordinates: [
     [26.8826, 88.1584], // Manebhanjan (Start)
